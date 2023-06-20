@@ -1,0 +1,634 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.21.44 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=36;
+    TAXLABELS
+    		'Tinamus solitarius'
+		'Leipoa ocellata'
+		'Penelope supercilliaris'
+		'Coturnix coturnix'
+		'Chauna torquata'
+		'Anas sibilatrix'
+		'Mergus serrator'
+		'Cariama cristata'
+		'Larus smithsonianus'
+		'Recurvirostra avosetta'
+		'Charadrius vociferous'
+		'Jacana jacana'
+		'Thinocorus rumicivorus'
+		'Sterocorarius longicaudus'
+		'Burhinus superciliaris'
+		'Sarothrura pulchra'
+		'Heliornis fulica'
+		'Himantornis haematopus'
+		'Gallinula chloropus'
+		'Rallus longirostris'
+		'Porphyrio flavirostris'
+		'Messelornis cristata'
+		'Messelornis nearctica'
+		'Pellornis mikkelseni'
+		'Songzia acutunguis'
+		'Psophia crepitans'
+		'Parvigrus pohli'
+		'Grus grus'
+		'Balearica pavonina'
+		'Aramus guarauna'
+		'Eurypyga helias'
+		'Otis tarda'
+		'Rhynochetos jubatus'
+		'Australlus gagensis'
+		'Australlus disneyi'
+		'Itardiornis hessae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=102;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] '1. Nostrils: schizorhinal, i.e., caudal margin slit-like and extending caudally to naso-frontal hinge:'
+		 [2] '2. Nostrils: Nares extend posteriorly beyond anterior border of antorbital fenestra:'
+		 [3] '3. Palate, processus maxillopalatini of ossa maxillaria fused along their midline:'
+		 [4] '4. Lacrimal, well developed descending process, which touches or nearly touches the jugal bar:'
+		 [5] '5. Lacrimal, caudally projecting processus supraorbitales:'
+		 [6] '6. Ectethmoid: greatly reduced or lost:'
+		 [7] '7. Palatine, well developed crista ventralis:'
+		 [8] '8. Palatine, pars lateralis:'
+		 [9] '9. Palatine, completely fused along midline:'
+		 [10] '10. Pterygoid, rostral end markedly widened:'
+		 [11] '11. Vomers, caudal ends not fused, more or less deeply cleft:'
+		 [12] '12. Vomers mediolaterally wide:'
+		 [13] '13. Vomers forming a midline, narrow, and dorsoventrally high lamella:'
+		 [14] '14. Basipterygoid articulation in adulthood:'
+		 [15] '15. Basipterygoid process, facet for articulation with pterygoid large and ovoid:'
+		 [16] '16. Frontal, dorsal surface with marked depressions for supraorbital salt glands:'
+		 [17] '17. Cranium, basiparasphenoid plate inflated, rounded, broad, and meeting the parasphenoid rostrum at a very acute angle; ostia canalis carotici et opthalmici externi situated in a well- marked depression:'
+		 [18] '18. Laterosphenoid, large opening dorsocaudally of foramen n. maxillomandibularis:'
+		 [19] '19. Cranium, fonticuli occipitales in adult birds:'
+		 [20] '20. Fossa temporalis:'
+		 [21] '21. Pila otica with cluster of small pneumatic openings:'
+		 [22] '22. Processus zygomaticus:'
+		 [23] '23. Quadrate, processus oticus, capitulum, pneumatic foramen on caudal face, status:'
+		 [24] '24. Quadrate, processus oticus, two well-separated heads for articulation with os squamosum and os prooticum:'
+		 [25] '25. Quadratum, condylus medialis, marked, rostrally projecting, concave articular surface:'
+		 [26] '26. Quadrate, condylus lateralis, large and with greatest extension in mediolateral direction; articular surface of mandible, ?with single anteroposterior [¼ rostrocaudal ] ridge? and ?lacking posteromedial [¼ caudomedial] and lateral walls?:'
+		 [27] '27. Quadrate, processus orbitalis, narrowing sharply towards its rostral end, markedly thin, with pointed end:'
+		 [28] '28. Mandible, long and strongly mediolaterally compressed processus retroarticularis:'
+		 [29] '29. Mandible, processus medialis, long, narrow, and dorsally oriented:'
+		 [30] '30. Mandible, caudal end of with narrow, dorsally projecting hook-like projection:'
+		 [31] '31. Axis, corpus with pneumatic foramina on lateral sides:'
+		 [32] '32. Axis, processus costales:'
+		 [33] '33. Number of presacral vertebrae (all vertebrae cranial to synsacrum; ordered):'
+		 [34] '34. Several thoracic vertebrae fused to a notarium:'
+		 [35] '35. Thoracic vertebrae:'
+		 [36] '36. Caudalmost praesacral vertebrae with deep lateral excavations:'
+		 [37] '37. Synsacrum, foramina intertransversaria:'
+		 [38] '38. Preacetabular and acetabular synsacrum, ventral face, ventral sulcus of synsacrum:'
+		 [39] '39. Ribs, proximo-ventral face, pneumatic foramen between tuberculum and capitulum:'
+		 [40] '40. Furcula, processus acromialis long and slender:'
+		 [41] '41. Scapula, tubercle on costal surface at cranial end:'
+		 [42] '42. Scapula, large pneumatic foramen on medial surface:'
+		 [43] '43. Coracoid, scapular facet:'
+		 [44] '44. Coracoid, facies articularis clavicularis dorsoventrally wide and roofing the sulcus supracoracoideus, insertion of ligamentum acrocoracoprocoracoideum well developed and strongly ventromedially protruding'
+		 [45] '45. Coracoid, processus procoracoideus extending as a sharp crest along midline of shaft (crista procoracoidei of Livezey, 1998):'
+		 [46] '46. Coracoid, foramen nervi supracoracoidei:'
+		 [47] '47. Coracoid, pneumatic foramen directly below facies articularis scapularis which does not penetrate shaft:'
+		 [48] '48. Coracoid: shaft stout with midesection measuring more than 1/3 width of extremitas sternalis:'
+		 [49] '49. Coracoid, impressio musculi sternocoracoidei on dorsal surface of extremitas sternalis with pneumatic foramina:'
+		 [50] '50. Coracoid, dorsal view, extremitas sternalis forming three pointed projections:'
+		 [51] '51. Sternum extremely elongate and very narrow:'
+		 [52] '52. Sternum, spina interna rostri:'
+		 [53] '53. Sternum, sulci coracoidei crossed:'
+		 [54] '54. Sternum, well-developed, blade-like spina externa rostri:'
+		 [55] '55. Sternum, number of processus costales (ordered):'
+		 [56] '56. Sternum, facies visceralis with numerous pneumatic foramina along midline and lateral margins:'
+		 [57] '57. Sternum: Body of sternum, caudal margin, incisura and fenestra caudolateralis (if present), cranial extent:'
+		 [58] '58. Body of sternum, caudal margin, trabecula caudolateralis (if present), caudal terminal margin:'
+		 [59] '59. Sternum, caudal margin:'
+		 [60] '60. Humerus, crista bicipitalis, aspect of the ventral border of the proximal end of humerus, caudal view:'
+		 [61] '61. Humerus, long and narrow accessory scar for m. supracoracoideus:'
+		 [62] '62. Humerus, foramina pneumatica at bottom of fossa pneumotricipitalis:'
+		 [63] '63. Humerus, incisura capitis:'
+		 [64] '64. Humerus, marked and well-developed fossa pneumotricipitalis dorsalis:'
+		 [65] '65. Humerus, tuberculum dorsale greatly elongated proximo-distally:'
+		 [66] '66. Humerus, caudal surface of proximal shaft with centrally positioned, raised muscle attachment scar for m. latissimus dorsi, pars caudalis:'
+		 [67] '67. Humerus, proximal section of shaft with triangular cross section:'
+		 [68] '68. Humerus, processus supracondylaris dorsalis greatly elongated proximo-distally:'
+		 [69] '69. Ulna, distinctly exceeding humerus in length:'
+		 [70] '70. Ulna, proximal end dorsoventrally compressed and cranioventrally inflected:'
+		 [71] '71. Ulnare, tuberculum at area of insertion of ligamentum:'
+		 [72] '72. Carpometacarpus: marked ridge between processus pisiformis and trochlea carpalis:'
+		 [73] '73. Carpometacarpus, metacarpal III strongly bowed, delimiting a large spatium intermetacarpale:'
+		 [74] '74. Alula, bearing small claw:'
+		 [75] '75. Manual phalanx II-1:'
+		 [76] '76. Pelvis, number of vertebrae ankylosed in synsacrum (ordered):'
+		 [77] '77. Pelvis, cristae iliacae dorsales largely or completely fused dorsally with crista spinosa of synsacrum, thus forming a closed canalis iliosynsacralis:'
+		 [78] '78. Pelvis, iliac blades and synsacrum:'
+		 [79] '79. Pelvis, tuberculum praeacetabulare:'
+		 [80] '80. Pelvis, ala postacetabularis ilii, with laterally and directly downturned flange near midpoint:'
+		 [81] '81. Pelvis, with deep incisura marginis caudalis in which the spinae dorsolateralis ilii reach almost as far caudally as the processus terminalis ischii:'
+		 [82] '82. Pelvis, ischium, processus terminalis ischii, straight, thin, elongate and caudally tapered to a subrectangular terminus:'
+		 [83] '83. Pelvis, deeply excavated recessus caudalis fossae:'
+		 [84] '84. Femur, crista trochanteris markedly projected cranially:'
+		 [85] '85. Femur, pneumatic foramen on cranio-lateral side of proximal end:'
+		 [86] '86. Tibiotarsus, prominent tubercle latero-distal to pons supratendineus (or corresponding area in taxa without supratendinal bridge):'
+		 [87] '87. Tibiotarsus, distal rim of condylus medialis distinctly notched:'
+		 [88] '88. Tarsometatarsus, arcus extensorius (ossified retinaculum extensorium tarsometatarsi):'
+		 [89] '89. Tarsometatarsus, hypotarsus with well-developed cristae/sulci:'
+		 [90] '90. Tarsometatarsus, crista medialis hypotarsi:'
+		 [91] '91. Tarsometatarsus, hypotarsus, tendon of musculus flexor digitorum longus enclosed in bony canal:'
+		 [92] '92. Tarsometatarsus, trochlea metatarsi II plantarly deflected and distal end reaching much less far distally than distal end of trochlea metatarsi IV:'
+		 [93] '93. Tarsometatarsus, hypotarsus, furrow/canal for tendon of musculus flexor perforatus digiti II marked and laterally bordered by a proximodistally long and plantarly protruding crista lateralis:'
+		 [94] '94. Tarsometatarsus, fourth and third phalanx of fourth toe, relative length (ordered):'
+		 [95] '95. Three anterior toes notably elongated:'
+		 [96] '96. Hallux:'
+		 [97] '97. Hallux, bowed'
+		 [98] '98. Musculus caudofemoralis, pars caudalis (?A? muscle in the formula of George and Berger, 1966, Tab. IX.1):'
+		 [99] '99. Intratendinous ossification in hindlimbs:'
+		 [100] '100. Upper beak, lamellae for filter feeding (ordered):'
+		 [101] '101. Wing:'
+		 [102] '102. Enzyme malate dehydrogenase with unusually slow motility (55% as fast as that of galliform birds):'
+	;
+	STATELABELS
+		1
+		'no'
+		'yes'
+		,
+		2
+		'no'
+		'yes'
+		,
+		3
+		'no'
+		'yes'
+		,
+		4
+		'yes'
+		'no'
+		,
+		5
+		'absent'
+		'present'
+		'laterally projected'
+		,
+		6
+		'no'
+		'yes'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent or very small'
+		'present and well developed'
+		,
+		9
+		'no'
+		'yes'
+		,
+		10
+		'no'
+		'yes'
+		,
+		11
+		'yes'
+		'no'
+		,
+		12
+		'yes'
+		'no'
+		,
+		13
+		'no'
+		'yes'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'no'
+		'yes'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'no'
+		'yes'
+		,
+		18
+		'absent or rudimentary'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'short and, in caudal view, separated by wide space'
+		'deep, meeting or nearly meeting at level of the cerebellar prominence'
+		,
+		21
+		'no'
+		'yes'
+		,
+		22
+		'present, variably developed'
+		'absent or vestigial'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'no'
+		'yes'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'no'
+		'yes'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'no'
+		'yes'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'18-19'
+		'20-22'
+		'23 or more'
+		,
+		34
+		'no'
+		'yes'
+		,
+		35
+		'at least part of series with subround, central articular surfaces (e.g., amphicoelous/opisthocoelous) that lack the dorsoventral compression and saddle-shaped articular surface seen in heterocoelous vertebrae'
+		'series completely heterocoelous'
+		,
+		36
+		'no'
+		'yes'
+		,
+		37
+		'absent or few foramina present'
+		'well developed'
+		,
+		38
+		'present'
+		'lost or barely discernable'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'no'
+		'yes'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'shallow'
+		'cuplike'
+		,
+		44
+		'no'
+		'yes'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'no'
+		'yes'
+		,
+		49
+		'no'
+		'yes'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'no'
+		'yes'
+		,
+		52
+		'absent'
+		'present'
+		'present and fused to spina externa'
+		,
+		53
+		'no'
+		'yes'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'3-4'
+		'5-6'
+		'7-8'
+		,
+		56
+		'no'
+		'yes'
+		,
+		57
+		'elongate, length of incisura and fenestra greater than 2/3 craniocaudal length of corpus sterni, approaching terminis caudalis of processus costales sterni'
+		'intermediate-length of incisura and fenestra between 1/3 and 2/3 of craniocaudal length of corpus sterni'
+		'abbreviate--length of incisura and fenestra less than 1/3 craniocaudal length of corpus sterni'
+		,
+		58
+		'(sub)acuminate, variably oriented'
+		'cruciate, with terminal, transverse pila'
+		'rounded or (sub)rectangular, often obliquely aligned'
+		,
+		59
+		'with four notches/fenestrae'
+		'with two notches/fenestrae'
+		'without notches/fenestrae'
+		,
+		60
+		'rounded or continuously curving'
+		'squared off'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'not as follows'
+		'enclosed by distal projection of caput humeri'
+		'closed by transverse ridge'
+		,
+		64
+		'no'
+		'yes'
+		,
+		65
+		'no'
+		'yes, tuberculum dorsale at least 1.5 times as long as it is wide'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'no'
+		'yes'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'no'
+		'yes'
+		,
+		70
+		'yes'
+		'no'
+		,
+		71
+		'no'
+		'yes'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'no'
+		'yes'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'not perforated'
+		'perforated'
+		,
+		76
+		'11-12'
+		'13-14'
+		'15-16'
+		'17-18'
+		,
+		77
+		'no'
+		'yes'
+		,
+		78
+		'fused'
+		'unfused'
+		,
+		79
+		'large'
+		'absent or vestigal'
+		,
+		80
+		'no'
+		'yes'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'no, processes truncate or essentially absent'
+		'yes'
+		'no, processes elongate but not as described'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'no'
+		'yes'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'no'
+		'yes'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'no'
+		'yes'
+		,
+		90
+		'absent'
+		'reduced to proximodistally short lamella'
+		'strongly developed'
+		,
+		91
+		'no'
+		'yes'
+		,
+		92
+		'yes'
+		'no'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'fourth phalanx longer'
+		'both phalanges of equal length'
+		'fourth phalanx shorter'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'not as follows'
+		'greatly reduced (proximal phalanx very short, measuring less than half of the length of the proximal phalanx of third toe) or completely absent'
+		,
+		97
+		'no'
+		'yes'
+		,
+		98
+		'present'
+		'absent or poorly developed'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'absent'
+		'vestigial'
+		'well developed'
+		,
+		101
+		'diastataxic'
+		'eutaxic'
+		,
+		102
+		'no'
+		'yes'
+		
+	;
+	MATRIX
+	'Tinamus solitarius'		                 0000000000000000000010100000001011100010000001110011000000101100010000000?030000-?01000001000101000010
+	'Leipoa ocellata'		                    000101000011101010000000010110011110000000000100100201001?001110010000000?021?0000111000121001000??010
+	'Penelope supercilliaris'		            0001010000111010100000000111100111100010000001001002010020001110010000001?02100000111000121000000?1010
+	'Coturnix coturnix'		                  0001010000111010100000000111100111101000000001001002010002001111010000001?02101002110001121000000?1010
+	'Chauna torquata'		                    0011010110111010100001010101101010100010001000011000002022100100000001000102101000001000120100000?0100
+	'Anas sibilatrix'		                    001101001011101010100101010110001010100100100100000001201?100100100001000?0210000000000012000001000200
+	'Mergus serrator'		                    001101001011101010100101010110101010100100100100000000101?100100100001000?0310000000000012000001000200
+	'Cariama cristata'		                   0111110100111100000000110000001100100110000001000000011022100100000000001?011010001100000201000101001?
+	'Larus smithsonianus'		                1101201100011101000100010000000110011001001100000100011020000001111111100?11101002010010120002010?0001
+	'Recurvirostra avosetta'		             1101201100010001011000011001000100011001001100000100011022000001111111100?01011002010010120002010?0001
+	'Charadrius vociferous'		              1101001100010001011000011001000110011001001100000100011022000001111111100?01011002010010120002010?0001
+	'Jacana jacana'		                      1101001100000000000010010000100111010001001101000100011010100020110011100?01011000110011121102100?00?1
+	'Thinocorus rumicivorus'		             1101001100000000000010110001100110011001001101000100011012100021100111100?01011002010010121002010?00??
+	'Sterocorarius longicaudus'		          1101201100011101000000010000000110011001001100000100011022000101111111100?11101002010010120002010?00?1
+	'Burhinus superciliaris'		             0000001100010100000000111000000000011000001100000100011022000000111011100?0201100001001112010201010001
+	'Sarothrura pulchra'		                 000100010101?100000010111000010110100000101010000010001011100000101000000100000100110001111010000?101?
+	'Heliornis fulica'		                   0001101101011100000010111000010110100010101010000000001022100000111000000102000102100001111110100??00?
+	'Himantornis haematopus'		             0000101101011100000010111000010110100010101010001010011012100000111000000?02100100110011110010000??01?
+	'Gallinula chloropus'		                000010110101110000001001100001011010010010101000001001101210000011100000010210010211000111001010101000
+	'Rallus longirostris'		                0100101101011100000010011000010110100100101010000010011012100000111000000101100100110001110010001??00?
+	'Porphyrio flavirostris'		             000010110101110000001001100001011010011010101000001001101210000011100000010210010011000111101010101000
+	'Messelornis cristata'		               01?????????????0??00???1??0?????1010?0?010101000000001102200?0001?100?0?010101??02?1?001121010000?1???
+	'Messelornis nearctica'		              0?????????????????????????????????1??????0?01??0?0000?102200???????00???0???01??01???0??12?010000?1???
+	'Pellornis mikkelseni'		               11????????????????????11?00001???01?00001-101?0-???0????22000??010100??-0?0?01?????100?1121?1?????1???
+	'Songzia acutunguis'		                 01?????????????0??0?????????????10?????0?0?00??0??0??1102200?????0?00???000???1?01??0?0?12?0?0001?0???
+	'Psophia crepitans'		                  0000{0,1}011010111000000101110000001211001100010100110100021??200100110000001?021010001101101201000001?010
+	'Parvigrus pohli'		                    11-------------0------?-----01-------??0?0--0--1--1--01-??20?---?1000?--000--01--?-0--1-1-0100000-1---
+	'Grus grus'		                          11011011010011000010111110000110211000100110000110100021??20010001001101010210100011011012100001001000
+	'Balearica pavonina'		                 11001011010011000010111110000110211000100110000110101021??20010001001101010210100011011012100001001000
+	'Aramus guarauna'		                    11001011010111000010111110000111211000101010100110101011??200100010011010102101000100110121100100?1000
+	'Eurypyga helias'		                    1101011100010100000111011000001121101000{0,1}01001000000111022110100110011000?01011012000000120100000?0000
+	'Otis tarda'		                         0100011100111100000010010000001110100100001001100000001022000100010001000?0200100001100010110001010000
+	'Rhynochetos jubatus'		                11010011000111000001101110000001111000000010010000100010??210100110001000?02101012000000120100000?001?
+	'Australlus gagensis'		                ???????????????????????????????????????????010?0???????????0??00???0??????????????????????????????????
+	'Australlus disneyi'		                 ????????????????0?00???????????????????????010?0?????????????0??????????????????????????121?1?????????
+	'Itardiornis hessae'		                 ??????????????????????????????????????????0010?0???????????0?000?1?0?0?0???????????????112101?????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=7 CHARACTER=58 TEXT='noncomparable fused to mediana';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 32 34 - 54 56 - 75 77 - 93 95 - 99 101 - 102, ord: 33 55 76 94 100;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1561587074363; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7106244266696946594; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 13 8 9 10 11 12 14 47 17 29 15 18 16 27 36 28 31 19 22 20 21 26 23 24 25 33 35 34; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6083389611436283771; tell It; setDefaultOrder 0 7 1 2 3 4 5 6 12 13 14 15 16 17 18 19 20 21 22 23 24 25 95 26 27 28 29 30 31 32 33 34 35 36 37 38 39 98 107 40 8 90 41 42 43 44 45 92 46 47 48 49 50 51 52 53 97 110 54 56 116 57 58 59 115 94 60 61 62 63 65 118 64 91 66 67 68 102 70 119 69 100 71 72 73 74 75 10 76 120 77 78 79 80 81 82 99 83 84 87 88 89; attachments ; endTell; mqVersion 320; checksumv 0 3 647549804 null getNumChars 102 numChars 102 getNumTaxa 36 numTaxa 36 short true bits 2305843009213693967 states 15 sumSquaresStatesOnly 8165.0 sumSquares -9.223372036854776E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1125 733; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #7106244266696946594 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.DefaultTrees.DefaultTrees; setAssignedID 1793.1512072957874.882220009532669604; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 661; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(((2,(3,4)),(5,(6,7))),(8,(32,(((12,13),(15,((9,14),(10,11)))),((33,31),(((30,(27,(28,29))),26),((22,24),((17,16),(18,((19,21),20)))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #6083389611436283771; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 48; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 26; setInitialOffsetY -161; setLegendWidth 748; setLegendHeight 129; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; makeTreeWindow #7106244266696946594 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 016b79b62aab1; toggleUseWeights off; endTell; setAssignedID 1236.1540312012501.8463273731378072819; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 661; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 10; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(((2,(3,4)),(5,(6,7))),(8,(32,((33,31),((27,(26,(30,(28,29)))),((16,18),((19,21),(17,((25,(35,34)),(((22,23),36),24)))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #6083389611436283771; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 102; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 2; setInitialOffsetY -134; setLegendWidth 826; setLegendHeight 129; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6083389611436283771 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 145; endTell; setExplanationSize 30; setAnnotationSize 40; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 641; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 196; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 750; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 661; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip on; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showDatasList #mesquite.lists.DatasetList.DatasetList; tell It; getWindow; tell It; newAssistant #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa; newAssistant #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars; newAssistant #mesquite.lists.DatasetsListClass.DatasetsListClass; newAssistant #mesquite.lists.MatrixListVisible.MatrixListVisible; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 661; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; endTell; showCharacters #6083389611436283771 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; newAssistant #mesquite.lists.CharacterStats.CharacterStats; tell It; toggleSelectedOnly off; endTell; newAssistant #mesquite.lists.CharListUniqueID.CharListUniqueID; getTable; tell It; rowNamesWidth 816; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1025 661; setLocation 0 85; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 102; 
+ENDBLOCK;
+BEGIN TREES;
+ Title Trees; ID 016b79b62aab1; LINK Taxa = Taxa; TRANSLATE [0] n0 Tinamus_solitarius, [1] n1 Leipoa_ocellata, [2] n2 Penelope_supercilliaris, [3] n3 Coturnix_coturnix, [4] n4 Chauna_torquata, [5] n5 Anas_sibilatrix, [6] n6 Mergus_serrator, [7] n7 Cariama_cristata, [8] n8 Larus_smithsonianus, [9] n9 Recurvirostra_avosetta, [10] n10 Charadrius_vociferous, [11] n11 Jacana_jacana, [12] n12 Thinocorus_rumicivorus, [13] n13 Sterocorarius_longicaudus, [14] n14 Burhinus_superciliaris, [15] n15 Sarothrura_pulchra_, [16] n16 Heliornis_fulica, [17] n17 Himantornis_haematopus_, [18] n18 Gallinula_chloropus, [19] n19 Rallus_longirostris, [20] n20 Porphyrio_flavirostris, [21] n21 Messelornis_cristata, [22] n22 Messelornis_nearctica, [23] n23 Pellornis_mikkelseni, [24] n24 Songzia_acutunguis, [25] n25 Psophia_crepitans, [26] n26 Parvigrus_pohli_, [27] n27 Grus_grus, [28] n28 Balearica_pavonina, [29] n29 Aramus_guarauna, [30] n30 Eurypyga_helias, [31] n31 Otis_tarda, [32] n32 Rhynochetos_jubatus, [33] n33 Australlus_gagensis, [34] n34 Australlus_disneyi, [35] n35 Itardiornis_hessae; TREE 'Tree+++++' = (n0,(((n1,(n2,n3)),(n4,(n5,n6))),(n7,(n31,((n30,((n11,n12),(n14,((n8,n13),(n9,n10))))),(n32,((n26,(n25,(n29,(n27,n28)))),((n15,n17),((n18,n20),(n16,(n21,n23))))))))))); TREE 'Prum_Tree_no_Garcia++' = (n0,((n1,(n4,n5)),(n31,(((n25,(n29,(n27,n28))),((n15,n16),(n20,n19))),(((((n9,n10),n14),n11),(n30,n32)),n7))))); TREE 'Reddy_noGarcia_constraints++' = (n0,((n3,(n4,n5)),(n31,((((n15,n16),(n19,n17)),(n25,((n27,n28),n29))),(((n10,n14),((n11,n12),n8)),((n30,n32),n7)))))); TREE 'Reddy_and_Garcia_Constraint++' = (n0,((((n2,n3),n1),(n4,(n5,n6))),(n31,((((n15,n16),(n17,((n18,n20),n19))),(n25,(n29,(n27,n28)))),(((n14,(n9,n10)),((n11,n12),(n8,n13))),((n30,n32),n7)))))); TREE 'Prum_Tree_with_Garcia++' = (n0,((((n2,n3),n1),(n4,(n6,n5))),(n31,((((n15,n16),(((n18,n20),n19),n17)),(n25,(n29,(n27,n28)))),(((((n9,n10),n14),((n11,n12),(n8,n13))),(n30,n32)),n7))))); TREE 'Prum_Tree_no_Garcia++' = (n0,((n31,(((n25,(n29,(n27,n28))),((n15,n16),(n20,n19))),(((((n9,n10),n14),n11),(n30,n32)),n7))),(n1,(n4,n5)))); TREE '2Prum_Tree_no_Garcia++' = (n0,((n1,(n4,n5)),(n31,(((n25,(n29,(n27,n28))),((n15,n16),(n20,n19))),(((((n9,n10),n14),n11),(n30,n32)),n7))))); 
+ENDBLOCK;

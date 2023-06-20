@@ -1,0 +1,997 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.43.33 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=78;
+    TAXLABELS
+    		'Acanthocrinus'
+		'Aishacrinus'
+		'Ambicocrinus'
+		'Ambonacrinus'
+		'Anthemocrinus'
+		'Anthracocrinus'
+		'Apoarchaeocrinus'
+		'Apurocrinus'
+		'Archaeocrinus'
+		'Balacrinus'
+		'Becsciecrinus'
+		'Bogotacrinus'
+		'Bromidocrinus'
+		'Bucucrinus'
+		'Cadiscocrinus'
+		'Callistocrinus'
+		'Cefnocrinus'
+		'Cotylacrinna'
+		'Cribanocrinus'
+		'Cybelecrinus'
+		'Cyphocrinus'
+		'Dalicrinus'
+		'Deocrinus'
+		'Diabolocrinus'
+		'Diamenocrinus'
+		'Dimerocrinites decadactylus'
+		'Duncanicrinus'
+		'Emperocrinus'
+		'Eodimerocrinites'
+		'Eucrinus'
+		'Eudimerocrinus'
+		'Euptychocrinus'
+		'Fombuenacrinus'
+		'Gazacrinus'
+		'Gilbertsocrinus tuberosus'
+		'Gnarycrinus'
+		'Goyacrinus'
+		'Griphocrinus'
+		'Gustabilicrinus'
+		'Hercocrinus'
+		'Hollowaycrinus'
+		'Lampterocrinus'
+		'Lemennocrinus'
+		'Lutocrinus'
+		'Lyriocrinus'
+		'Macarocrinus'
+		'Neoarchaeocrinus'
+		'Nexocrinus'
+		'Nyctocrinus'
+		'Ophiocrinus'
+		'Opsiocrinus'
+		'Orthocrinus'
+		'Ortsaecrinus'
+		'Paradiabolocrinus'
+		'Pararchaeocrinus'
+		'Perunocrinus'
+		'Preschericrinus'
+		'Probalocrinus'
+		'Proexenocrinus'
+		'Pterinocrinus'
+		'Ptychocrinus'
+		'Rhachicrinus'
+		'Rhaphanocrinus'
+		'Rheocrinus'
+		'Rhipidocrinus'
+		'Rhodocrinites kirbyi'
+		'Shidianocrinus'
+		'Silfonocrinus'
+		'Simplococrinus'
+		'Spyridiocrinus'
+		'Stereoaster'
+		'Thylacocrinus'
+		'Tormosocrinus'
+		'Trichinocrinus'
+		'Ursucrinus'
+		'Rosfacrinus'
+		'Sakucrinus'
+		'Priscillacrinus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=121;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Symmetry'
+		 [2] 'Calyx height/width'
+		 [3] 'Calyx profile'
+		 [4] 'Widest point in calyx'
+		 [5] 'Calyx plate thickness measured on radial plate'
+		 [6] 'Calyx plate cross-sectional shape'
+		 [7] 'Calyx plate sculpturing'
+		 [8] 'Sculpturing at base of calyx'
+		 [9] 'Calyx base sculpturing type'
+		 [10] 'Width/flattening of calyx base'
+		 [11] 'Shape of circlet(s) at base of calyx'
+		 [12] 'Calyx sutures'
+		 [13] 'Infrabasals restricted to basal concavity'
+		 [14] 'Infrabasals visible in side view'
+		 [15] 'Number of infrabasal plates'
+		 [16] 'Infrabasal plate dimensions'
+		 [17] 'Basals part of basal concavity'
+		 [18] 'Basals visible in side view'
+		 [19] 'Number of basal plates'
+		 [20] 'Basal plate dimensions'
+		 [21] 'Relative sizes of basal plates (excluding CD basal)'
+		 [22] 'Basals in sutural contact with interray plate(s) in regular interrays'
+		 [23] 'CD basal plate differentiated from others'
+		 [24] 'Radial circlet interruption'
+		 [25] 'Radials in contact with infrabasals (radials and basals in a single circlet)'
+		 [26] 'Radial plate dimensions'
+		 [27] 'Radial circlet visible in side view'
+		 [28] 'Radials part of basal concavity'
+		 [29] 'Radial plates unequal in size'
+		 [30] 'Relative size of radials, basals, and first interray plates'
+		 [31] 'Relative size of radials and basals'
+		 [32] 'Largest plates in calyx'
+		 [33] 'Competency of interrays'
+		 [34] 'Interray plating'
+		 [35] 'Interray plating, if irregular'
+		 [36] 'Interray profile'
+		 [37] 'Number of interray plates in first row'
+		 [38] 'Dimensions of first interray plate (NA if multiple plates in first row)'
+		 [39] 'Plates above first interray plate'
+		 [40] 'Number of plates in second row'
+		 [41] 'Approximate number of regular interradial plates'
+		 [42] 'Size of interray plates relative to adjacent fixed brachials'
+		 [43] 'Regular interrays depressed'
+		 [44] 'Regular interrays with plating in biseries'
+		 [45] 'Regular interrays in contact with tegmen'
+		 [46] 'First posterior plate well defined as primanal'
+		 [47] 'Accessory plates flanking primanal'
+		 [48] 'Primanal in contact with CD basal'
+		 [49] 'Primanal in contact with C and D radials'
+		 [50] 'Primanal offset'
+		 [51] 'Primanal dimensions'
+		 [52] 'Number of plates in second row following primanal (NA if primanal offset or undefined)'
+		 [53] 'Posterior interray profile: (0) widest at top'
+		 [54] 'CD interray differentiated from other interrays'
+		 [55] 'Extra plates in CD interray'
+		 [56] 'CD interray width in comparison with regular interrays'
+		 [57] 'CD interray in contact with tegmen'
+		 [58] 'Anitaxis plating'
+		 [59] 'Anitaxial ridge'
+		 [60] 'Origin of anitaxial plating and/or ridge'
+		 [61] 'Approximate number of posterior interray plates'
+		 [62] 'Primaxil location'
+		 [63] 'Median ray ridges'
+		 [64] 'Fixed first primibrachial shape'
+		 [65] 'Fixed first primibrachial dimensions'
+		 [66] 'Maximum number of primibrachials'
+		 [67] 'Maximum number of secundibrachials'
+		 [68] 'Symmetric branching in fixed brachials'
+		 [69] 'Fixed intersecundibrachials (between half rays)'
+		 [70] 'Fixed intertertibrachials (between quarter rays)'
+		 [71] 'Fixed interquartibrachials (between eighth rays)'
+		 [72] 'Arm openings into the calyx'
+		 [73] 'Differentiation of ambulacrals and interambulacrals'
+		 [74] 'Ambulacral plates swollen'
+		 [75] 'Interambulacral areas depressed'
+		 [76] 'Interambulacral plate size relative to other tegmen plates)'
+		 [77] 'Number of interambulacrals'
+		 [78] 'Peristomial cover plates differentiated'
+		 [79] 'Tegmen height/width'
+		 [80] 'Tegmen shape profile'
+		 [81] 'Tegmen height in relation to calyx'
+		 [82] 'Tegmen outline in top view'
+		 [83] 'Tegmen plate sculpturing, including anal tube'
+		 [84] 'Approximate number of tegmen plates'
+		 [85] 'Tegmen plates gradational in size from abaxial margin to center'
+		 [86] 'Tegmen spines'
+		 [87] 'Anus position'
+		 [88] 'Anal tube'
+		 [89] 'Anal tube height'
+		 [90] 'Anal tube spines'
+		 [91] 'Tubular tegmen extensions'
+		 [92] 'Proxistele construction'
+		 [93] 'Mesistele construction'
+		 [94] 'Dististele construction'
+		 [95] 'Proxistele heteromorphic'
+		 [96] 'Proxistele priminternodals'
+		 [97] 'Proxistele secundinternodals'
+		 [98] 'Proxistele tertinternodals'
+		 [99] 'Mesistele heteromorphic'
+		 [100] 'Mesistele priminternodals'
+		 [101] 'Mesistele secundinternodals'
+		 [102] 'Mesistele tertinternodals'
+		 [103] 'Dististele heteromorphic'
+		 [104] 'Dististele priminternodals'
+		 [105] 'Dististele secundinternodals'
+		 [106] 'Dististele tertinternodals'
+		 [107] 'Columnal shape in proxistele columnals'
+		 [108] 'Columnal shape in mesistele columnals'
+		 [109] 'Columnal shape in dististele columnals'
+		 [110] 'Columnal height:width in proxistele'
+		 [111] 'Columnal height:width in mesistele'
+		 [112] 'Columnal height:width in dististele'
+		 [113] 'Lumen shape in proxistele'
+		 [114] 'Lumen shape in mesistele'
+		 [115] 'Lumen shape in dististele'
+		 [116] 'Columnal articulation type'
+		 [117] 'Areola'
+		 [118] 'Branching on column proxistele'
+		 [119] 'Branching on column mesistele'
+		 [120] 'Branching on column dististele'
+		 [121] 'Holdfast'
+	;
+	STATELABELS
+		1
+		'pentameral (undifferentiated posterior)'
+		'bilateral symmetry (differentiated posterior)'
+		,
+		2
+		'very high (> 2.0)'
+		'high (2.0 to >1.25)'
+		'medium (<1.25 to >0.75)'
+		'low (<0.75 to >0.50)'
+		'flat (< 0.50- >0.25)'
+		'very flat (<0.25)'
+		,
+		3
+		'straight sides'
+		'convex sides'
+		,
+		4
+		'top of calyx'
+		'below top of calyx'
+		,
+		5
+		'thin (<25% height or width)'
+		'thick (>25% height or width)'
+		,
+		6
+		'flat'
+		'convex'
+		,
+		7
+		'smooth'
+		'nodose'
+		'granulose'
+		'irregular nodes and pitting'
+		'pitted'
+		'ridges'
+		'stellate ridges'
+		'spines'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'nodose'
+		'broken ridge/coalesced nodes'
+		'circular ridge'
+		'straight-sided ridge'
+		,
+		10
+		'narrow (base approximately as wide as stem)'
+		'expanded (~30-50% max calyx width'
+		'flat-bottomed (>50% max calyx width)'
+		,
+		11
+		'upright'
+		'flat'
+		'concave'
+		,
+		12
+		'surface flush between adjacent plates'
+		'impressed in a groove'
+		,
+		13
+		'no'
+		'yes'
+		,
+		14
+		'no'
+		'partially'
+		'entirely'
+		,
+		15
+		'five'
+		'four'
+		'three'
+		'one'
+		,
+		16
+		'width>height'
+		'height"'
+		'height>width'
+		,
+		17
+		'no'
+		'yes'
+		,
+		18
+		'partially'
+		'entirely'
+		'no'
+		,
+		19
+		'five'
+		'four'
+		'three'
+		,
+		20
+		'width>height'
+		'height"'
+		'height>width'
+		,
+		21
+		'equal'
+		'subequal/unequal'
+		,
+		22
+		'no'
+		'yes'
+		,
+		23
+		'no'
+		'yes'
+		,
+		24
+		'absent'
+		'CD interray only'
+		'all interrays'
+		'irregularly interrupted'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'width>height'
+		'height"'
+		'height>width'
+		,
+		27
+		'completely visible'
+		'partially visible'
+		'not visible'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'no'
+		'yes'
+		,
+		30
+		'unequal'
+		'equal'
+		,
+		31
+		'basal largest'
+		'approximately equal'
+		'radial largest'
+		,
+		32
+		'basals'
+		'radials'
+		'first interray plates'
+		,
+		33
+		'Not competent, flexible, easily deformed/crushed'
+		'competent, cemented, rigid'
+		,
+		34
+		'regular'
+		'irregular'
+		,
+		35
+		'large, regular plates with irregular accessory plates'
+		'large pates, plating inconsistent between interrays'
+		,
+		36
+		'widest at top'
+		'constricted at top'
+		'maintains approximately equal width'
+		,
+		37
+		'single plate'
+		'multiple plates'
+		,
+		38
+		'width>height'
+		'height~width'
+		'height>width'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'two plates'
+		'three plates'
+		'one plate'
+		'more than three plates'
+		,
+		41
+		'one to four'
+		'five to twelve'
+		'more than twelve'
+		,
+		42
+		'roughly equivalent or larger in size'
+		'much smaller than fixed brachial plates'
+		,
+		43
+		'no'
+		'yes'
+		,
+		44
+		'no'
+		'yes'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'no'
+		'yes'
+		,
+		47
+		'no'
+		'yes'
+		,
+		48
+		'no'
+		'yes'
+		,
+		49
+		'neither'
+		'both'
+		'C radial only'
+		,
+		50
+		'no'
+		'yes'
+		,
+		51
+		'width>height'
+		'height"'
+		'height>width'
+		,
+		52
+		'none'
+		'one'
+		'two'
+		'three'
+		'more than three'
+		,
+		53
+		'widest at top'
+		'constricted at top'
+		'maintains approximately equal width'
+		,
+		54
+		'no'
+		'yes'
+		,
+		55
+		'no'
+		'yes'
+		,
+		56
+		'same width'
+		'wider'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'from center of ray'
+		'from C radial/first primibrachial'
+		,
+		61
+		'one to four'
+		'five to twelve'
+		'more than twelve'
+		,
+		62
+		'1st primibrachial'
+		'2nd primibrachial'
+		'3rd primibrachial'
+		'4th primibrachial or higher'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'4-sided'
+		'5-sided'
+		'6-sided'
+		'8-sided'
+		,
+		65
+		'width>height'
+		'height"'
+		'height>width'
+		,
+		66
+		'one'
+		'two'
+		'three'
+		'five or more'
+		,
+		67
+		'two'
+		'three or more'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'five'
+		'ten'
+		'fifteen'
+		'twenty'
+		'forty'
+		'thirty'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'smaller than other plates'
+		'equal to other plates'
+		'larger than other plates'
+		,
+		77
+		'few in each interray (up to ~10)'
+		'many in each interray (>10)'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'flat'
+		'very low (<0.2)'
+		'low (0.2 to 0.4)'
+		'medium (0.4 to 0.75)'
+		'high (0.75 to 1.25)'
+		'very high (1.25 to 2.0)'
+		,
+		80
+		'straight sides'
+		'convex sides'
+		'widest at base if tegmen'
+		'widest above top of tegmen'
+		'concave sides'
+		,
+		81
+		'lower than calyx'
+		'tegmen approximately as high as calyx'
+		'higher than calyx'
+		,
+		82
+		'circular'
+		'pentagonal'
+		'lobate'
+		,
+		83
+		'smooth'
+		'nodose'
+		'granulose'
+		'ridges'
+		'stellate ridges'
+		,
+		84
+		'five'
+		'11 to 50'
+		'>50'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'Tegmen top, central'
+		'tegmen top, eccentric'
+		'calyx side'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'shorter than tegmen radius'
+		'higher than tegmen radius but shorter than height of arms'
+		'higher than height of arms'
+		'short, raised bump'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'holomeric'
+		'pentameric'
+		,
+		93
+		'holomeric'
+		'pentameric'
+		,
+		94
+		'holomeric'
+		'pentameric'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		,
+		108
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		,
+		109
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		,
+		110
+		'discoidal (height:width < 0.5)'
+		'elongate (height:width > 0.5)'
+		,
+		111
+		'discoidal (height:width < 0.5)'
+		'elongate (height:width > 0.5)'
+		,
+		112
+		'discoidal (height:width < 0.5)'
+		'elongate (height:width > 0.5)'
+		,
+		113
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		'pentastellate'
+		,
+		114
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		'pentastellate'
+		,
+		115
+		'circular'
+		'pentalobate'
+		'pentagonal'
+		'pentastellate'
+		,
+		116
+		'symplexy, radial'
+		'symplexy in petals (perpendicular to sides)'
+		,
+		117
+		'absent'
+		'present'
+		,
+		118
+		'absent'
+		'cirri'
+		,
+		119
+		'absent'
+		'cirri'
+		,
+		120
+		'absent'
+		'cirri'
+		,
+		121
+		'absent'
+		'terminal rhizoids'
+		'terminal cirri'
+		'cemented'
+		'coil'
+		'plated'
+		
+	;
+	MATRIX
+	'Acanthocrinus'		                        021101(0,7)12220100?100101020200000010-101111000110110???????????11211111--1??????????????????000?0---0---????00?00??????00??
+	'Aishacrinus'		                          04100120-021102(0,1)010100110000002210-1020-0000010110201000000-0(0,1)1(0,1)01(0,1)11?-3??????????????????000?0---0---????00?00?00?010???
+	'Ambicocrinus'		                         1210010??0200101010000110000002110-2011010011101101311111100210211111--1??????????????????000?110-110-????11?00??????00??
+	'Ambonacrinus'		                         12101161302010??010201020000000010-1011?10101010210-11111111?11201111--1??????????????????00??11??????????0??0???????????
+	'Anthemocrinus'		                        03101100-111-010-1000112000-001210-102120000010110211000000-000100111--1??????????????????0???????????????0??????????????
+	'Anthracocrinus'		                       13110(0,1)4130211002100201020000100210-101101001010110022111100-2110010011-20001100-00(0,1)2001100000?110-110-????00?00?00???00??
+	'Apoarchaeocrinus'		                     121101010020100?010101020100000011-100102000110110031111100-1212021111-31??21?0-0?????????001?11101110????22?00?00???????
+	'Apurocrinus'		                          1210010100211022010100110000001(0,1)10-2001010101101100301111100211201110--11111101102020011300???????????????0?????0??01????
+	'Archaeocrinus'		                        1211016130201001100101020100011(0,1,2)10-201102010110110231111100-211211111--1??????????????????000?110-110-????00?00?11???00??
+	'Balacrinus'		                           021100012000-200-1010102010-000010-100112000110110031000100-211201111--1?????????0????????000?11??110-????00?00?(0,2)(0,2)?000???
+	'Becsciecrinus'		                        121001010020100?010200110000002110-1001020101101100311111110211201111--1??????????????????000?11101110????00?00??????00??
+	'Bogotacrinus'		                         14000021012110??000000110000002110-0001(0,1)00101101100301111110111001010--1??????????????????00??11??????????0??0??3??010???
+	'Bromidocrinus'		                        0211015100201000100001020200100011111-1(1,3)2000101????-1000100-211221110--10001?011003??01110001?1110110-????22?00?11?00????
+	'Bucucrinus'		                           111001(0,5)12020010?010001020000002(1,2)11-101101000110110031111100-211201011104??????2100????????011?11111111????11?00??????00??
+	'Cadiscocrinus'		                        130001010220100?100001020000000010-1001000101101100311101100110001110--1??????????????????00??110-????????0??0??0????????
+	'Callistocrinus'		                       ?2110100-010-0??-10201?20100011(0,1,2)10-1001020001????????????????11201001105??????????????????0000110-11101110000000?????0001
+	'Cefnocrinus'		                          131101212021100?100001020100002110-2001120001010212-21111111211211111--1???????????????1??000011101110110-000000222010001
+	'Cotylacrinna'		                         13111100-1211002100001020100002210-2011020001010001-111111002112011110-310101?0-000200010000110---1111110-000000111?0000(1,3)
+	'Cribanocrinus'		                        13110100-(1,2)201000100001020100000010-1011010011101101311111(0,1)00110011110--11002001100010010--00??????????????0?????2????????
+	'Cybelecrinus'		                         121001(2,6)10010-100-1010011000-002110-10110201011011013211111102112111110-3??????????????????00??111?????????0??0??1????0???
+	'Cyphocrinus'		                          141001010010-001-0010011000-002210-0001(0,2)1000010110030111000-211001111--10001(0,1)021222201110?0???????????????0?????3????????
+	'Dalicrinus'		                           ?21001(5,6)??02(0,1)1000100001?20000011(0,1,2)1(0,1)11001120001???????????1????110010111-3?????????0????????0??????????????????????????????
+	'Deocrinus'		                            0211013131211000100101020100011(0,1,2)11011-1320000011211-1100000-210201011--1??????2100?2??01000???????????????0?????0??0?????
+	'Diabolocrinus'		                        131111(5,6)1312010011001010200000002110100101001110110022111100-2(0,1)1201110--111100021021210110000??11??????????0??0??1??000???
+	'Diamenocrinus'		                        121101610011-002-1000112010-011(0,1,2)111100112000110110?3111111102112011110-3??????????????????000011111111111110000011111000?
+	'Dimerocrinites decadactylus'		          131001(0,6)(0,1)00201001010100110000002110-1001000101101100311111100111001111--1??????????????????000?110-110-????00?00?11????0??
+	'Duncanicrinus'		                        1300010120210101010200110000002110-2011021101101102121?11100?10001111--1??????????????????000?11111111????00?00?0????0???
+	'Emperocrinus'		                         14100100-1211002000201020000002210-0010-0010110110030111100-010001?10--10001001102010011000???????????????0?????1????????
+	'Eodimerocrinites'		                     1311012????1??0??00000?1000?002110-1011??000?1011003???1?????1010101???3??????????????????000?11111111????00?00??????0???
+	'Eucrinus'		                             121011210021100?010000110000002110-101101000110110032111100-2112011110-3??????????????????00??110-????????0??0???????0???
+	'Eudimerocrinus'		                       131001(0,7)10010-001-1010011000-000010-200101000110110?32111100-211201111--1??????????????????00??110-????????1??0??3????0???
+	'Euptychocrinus'		                       13100100-010-101-1011011000-002110-1001(0,1)21101101101321111110211201111--1000110110?0200????000?11101111????00?00?22???00??
+	'Fombuenacrinus'		                       03110161302010??010201020000001210-2001?10001101100?1000100-0110010111-300011011001200????000?11111111????00?00??????0???
+	'Gazacrinus'		                           1210010121201001100200110000001(0,1)10-1020-0000010110201101000-010001110--10001011000000010--0???????????????0??0??0????????
+	'Gilbertsocrinus tuberosus'		            020011(0,1)102201001120?01020111002110-202112000110110232000100-211211011--11111001102(0,1)20010--1000110-110-110-000000000010004
+	'Gnarycrinus'		                          13100100-0200001010001120000002110-1001010001101101311111100110201110--1??????????????????0???????????????0?????2????????
+	'Goyacrinus'		                           121011(5,6)1202010??010001020000002110-20?10101111011013211111101110010110-3??????????????????000?11111111????00?00??????0???
+	'Griphocrinus'		                         131011(0,1)10110-10?-1010(0,1)12000-001(0,1)10-0021010001101100311111100211201111--1??????????????????00??????????????0??0??1????????
+	'Gustabilicrinus'		                      02110100-0201002100201020000011(0,1,2)10-101101001010110121000000-1112010111-3??????????????????0000110-110-110-000000000000004
+	'Hercocrinus'		                          031101313121100?100101020100001(0,1)11011-132000001????41000100-211001110--1???????????2??110000??11??????????0??0??2????????
+	'Hollowaycrinus'		                       131001012011-00?-10200110000002110-101112110110110131111100-210201111--1??????????????????000?110-1110????00?00??????00??
+	'Lampterocrinus'		                       12101160-010-101-10000110100002110-002101000110110120111100-1-120------011100?310012000110000?110-110-????22?00?00?00????
+	'Lemennocrinus'		                        110001(0,1)10000-200-1010112010-002110-1021010010101101311110100210(1,2)01110--10001??2102(0,1)200????10??????????????0?????1????????
+	'Lutocrinus'		                           14100100-220100?120211120020002110-10010100(0,1)1101100311111?0?2102010110-3???????0??????????00??110-????????0??0???????????
+	'Lyriocrinus'		                          031001013(1,2)201000100200020000102210-101100000110110121000100-010201111--11011101100021001??000?110-110-????00?00?1??010???
+	'Macarocrinus'		                         13100100-011-001-0000011000-002110-0001010001101100401111????10001110--1??????????????????00??????????????0??????????????
+	'Neoarchaeocrinus'		                     12110000-000-200-1010102010-011(0,1,2)10-2011020001101101321111110211211111--1??????????????????00??110-0---0---0000001??0?0002
+	'Nexocrinus'		                           121001010010-00?-1010011000-002110-20110101011011023211111101112011110-3??????????????????000?11101110????00?00?00?0?00??
+	'Nyctocrinus'		                          030001(0,3)0-1211000100000000000002110-2010-0000110010112000100-010001110--1???????????????11100??110-????????0??0??0????????
+	'Ophiocrinus'		                          1310010120211001010101020000001(0,1)10-101102110111100131111100-2112010111-3??????????????????000011101111111100000000000000?
+	'Opsiocrinus'		                          13101100-0211000100001120000000010-1001021101111101421111110211001111--1????????01????????00??110-????????1??0??0??01????
+	'Orthocrinus'		                          11001100-101-102-1020011000-000010-001101000110110030111100-110211?10--1??????????????????0???????????????0?????0????????
+	'Ortsaecrinus'		                         ?3101150-110-101-1020102000-001(0,1)10-?00112000110110?3?000100-211001110001??????????????????000?11??11??????00?00?00??1????
+	'Paradiabolocrinus'		                    131001(2,5)13120100?100101020100001(0,1)11011-1320001010011-21111111211201111--110001021021210110000??????????????0??????????????
+	'Pararchaeocrinus'		                     131101612120100?100001020100001(0,1)10-1011120001010211-21111111211201111--11111103102(0,1)2001130000?11101110????(0,1)(0,1)?00?00?0?00??
+	'Perunocrinus'		                         141111(0,1)12211-001-0020102001-000010-100100000110110031110100-110001111--1??????????????????00??????????????0??0??1??01????
+	'Preschericrinus'		                      13010101002010??100101?20000000?10-?011010001101101?????1????10201?10--1??????????????????0???????????????0?????1??01????
+	'Probalocrinus'		                        121101010010-10?-1000112010-002110-101101001110110131111100-2112010111-300011011000200?0--00??????????????0?????1??01????
+	'Proexenocrinus'		                       131001110021100010010102000000001111011010101101100211001110111211-11--1???????????????11?00??11??????????0??0???????????
+	'Pterinocrinus'		                        121101(0,1)10010-001-10100110100002110-1021010101101101311111110111211110--1??????????????????000?110-110-????00?00??????00??
+	'Ptychocrinus'		                         121001(0,6)0-020010?010100110100002110-20(1,2)1020101101101321111110211201111--1111110210?12000100000?110-110-????00?00?11???0???
+	'Rhachicrinus'		                         1310016131201000010001020000000010-10110101011011003111111102112010110-3??????????????????000?110-110-????00?00?00?0?0???
+	'Rhaphanocrinus'		                       12100160-020100?100101020100001(0,1)10-102102010110110?31111100-2112011110-2??????????????????00??110-????????0??0???????0???
+	'Rheocrinus'		                           131001010021100?010201021100002110-100101001010110011101000-1110010110-3??????3000????01??0000110-110-0---200000111010001
+	'Rhipidocrinus'		                        141111(1,6)10221100?000(0,1,2)1102(0,1)010002210-100101001010110031101000-110201111--100001011020210113-00??110-????????0??0??1??01????
+	'Rhodocrinites kirbyi'		                 1211016100201001100001020100000010-1011120001101101311111100211001111--10011102101020011300000111011101110000000?????000?
+	'Shidianocrinus'		                       121101010010-101-1020011000-002110-2011010001101100311111100211201?10--11111001102020010--0???????????????0?????1????????
+	'Silfonocrinus'		                        1310015120211000100001120000000(0,2)10-10010001011011021111111101011010010-1??????????????????00??110-????????0??0??0????????
+	'Simplococrinus'		                       13110160-011-10?-1000102010-001(0,1)1111001(0,1)2000110110031111100-2112010111-311111021021200????000?11101110????00?00?11??00001
+	'Spyridiocrinus'		                       04100000-220103-120201021221002210-20112100001011011200001001100(0,2)1001004??????????????????000?110-110-????00?00?11?0100??
+	'Stereoaster'		                          1410016121201000100001020100001(0,1)10-20(0,1)11200011011014?110100-2110011111-3??????????????????0001110-110-0---000000000??0001
+	'Thylacocrinus'		                        12110100-011-000-0011102010-002110-20110100111011003211111002102110010-3??????????????????00??110-????????0??0??0??00????
+	'Tormosocrinus'		                        13100100-121100?100001020000001(0,1)10-1020-0000(0,1)101101121111100010001110--100010021001100011100001110110-0---0000000??010001
+	'Trichinocrinus'		                       121001(0,6)12020100?010201020000000010-1011000101010212-11111111211001110--1??????????????????000?11101110????22?00?22???00??
+	'Ursucrinus'		                           12100161202010??100001?20000002110-100102000110110031101100-2112010111-3??????????????????00??11??????????0??0???????0???
+	'Rosfacrinus'		                          11001140-011-100-1010011000-00211(0,1)110210111001011021111001002102010110-3111110210012000110000?11001100????00?00?00?0100??
+	'Sakucrinus'		                           13101150-02010??000001020000000010-10010101(0,1)1111100411111110211201110001??????????????????0??????????????????????????????
+	'Priscillacrinus'		                      ?31011(5,6)0-02010??100001?20000011(0,1,2)10-1001020001????????????????11201011003000110200?1200?0--000?11101110????00?00??????00??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Primary';
+	TEXT CHARACTER=2 TEXT='Primary';
+	TEXT CHARACTER=3 TEXT='Primary';
+	TEXT CHARACTER=4 TEXT='Primary';
+	TEXT CHARACTER=5 TEXT='Primary';
+	TEXT CHARACTER=6 TEXT='Primary';
+	TEXT CHARACTER=7 TEXT='Primary';
+	TEXT CHARACTER=8 TEXT='Primary';
+	TEXT CHARACTER=9 TEXT='Secondary^nDependent on character 8, state 1 (Sculpturing at base of calyx = present)';
+	TEXT CHARACTER=10 TEXT='Primary';
+	TEXT CHARACTER=11 TEXT='Primary';
+	TEXT CHARACTER=12 TEXT='Primary';
+	TEXT CHARACTER=13 TEXT='Secondary^nDependent on character 11, state 2 (shape of circlet at base = concave)';
+	TEXT CHARACTER=14 TEXT='Primary (if monos deleted)';
+	TEXT CHARACTER=15 TEXT='Primary (if monos deleted)';
+	TEXT CHARACTER=16 TEXT='Primary (but check coding for Spyridiocrinus)';
+	TEXT CHARACTER=17 TEXT='Secondary^nDependent on character 11, state 2 (shape of circlet at base = concave)';
+	TEXT CHARACTER=18 TEXT='Primary';
+	TEXT CHARACTER=19 TEXT='Primary';
+	TEXT CHARACTER=20 TEXT='Primary';
+	TEXT CHARACTER=21 TEXT='Primary';
+	TEXT CHARACTER=22 TEXT='Primary';
+	TEXT CHARACTER=23 TEXT='Primary';
+	TEXT CHARACTER=24 TEXT='Primary';
+	TEXT CHARACTER=25 TEXT='Primary';
+	TEXT CHARACTER=26 TEXT='Primary';
+	TEXT CHARACTER=27 TEXT='Primary';
+	TEXT CHARACTER=28 TEXT='Secondary^nDependent on character 11, state 2 (shape of circlet at base = concave)';
+	TEXT CHARACTER=29 TEXT='Primary';
+	TEXT CHARACTER=30 TEXT='Primary';
+	TEXT CHARACTER=31 TEXT='Primary';
+	TEXT CHARACTER=32 TEXT='Primary (but see comments for Cleiocrinus)';
+	TEXT CHARACTER=33 TEXT='Primary';
+	TEXT CHARACTER=34 TEXT='Primary';
+	TEXT CHARACTER=35 TEXT='Secondary^nDependent on character 38, state 1 (interray plating = irregular)';
+	TEXT CHARACTER=36 TEXT='Primary';
+	TEXT CHARACTER=37 TEXT='Primary';
+	TEXT CHARACTER=38 TEXT='Secondary^nDependent on character 41, state 0 (number of interray plates in first row = single plate)';
+	TEXT CHARACTER=39 TEXT='Primary';
+	TEXT CHARACTER=40 TEXT='Secondary^nDependent on character 43, state 1 (plates above first interray plate = present)';
+	TEXT CHARACTER=41 TEXT='Primary';
+	TEXT CHARACTER=42 TEXT='Primary';
+	TEXT CHARACTER=43 TEXT='Primary';
+	TEXT CHARACTER=44 TEXT='Primary';
+	TEXT CHARACTER=45 TEXT='Primary';
+	TEXT CHARACTER=46 TEXT='Primary';
+	TEXT CHARACTER=47 TEXT='Primary';
+	TEXT CHARACTER=48 TEXT='Primary';
+	TEXT CHARACTER=49 TEXT='Primary';
+	TEXT CHARACTER=50 TEXT='Primary';
+	TEXT CHARACTER=51 TEXT='Primary';
+	TEXT CHARACTER=52 TEXT='Secondary^nDependent on character 50, state 1 (first plate well defined as primanal = yes)^nOtherwise state is NA';
+	TEXT CHARACTER=53 TEXT='Primary';
+	TEXT CHARACTER=54 TEXT='Primary';
+	TEXT CHARACTER=55 TEXT='Primary';
+	TEXT CHARACTER=56 TEXT='Primary';
+	TEXT CHARACTER=57 TEXT='Primary';
+	TEXT CHARACTER=58 TEXT='Primary';
+	TEXT CHARACTER=59 TEXT='Primary';
+	TEXT CHARACTER=60 TEXT='Secondary^nDependent on character 62, state 1 (Anitaxis plating = present)';
+	TEXT CHARACTER=61 TEXT='Primary';
+	TEXT CHARACTER=62 TEXT='Primary';
+	TEXT CHARACTER=63 TEXT='Primary';
+	TEXT CHARACTER=64 TEXT='Primary';
+	TEXT CHARACTER=65 TEXT='Primary';
+	TEXT CHARACTER=66 TEXT='Primary';
+	TEXT CHARACTER=67 TEXT='Primary (if sister group removed from matrix)';
+	TEXT CHARACTER=68 TEXT='Primary (if sister group removed from matrix)';
+	TEXT CHARACTER=69 TEXT='Primary (if sister group removed from matrix)';
+	TEXT CHARACTER=70 TEXT='Secondary^nDependent on character 77, states 2-5 (Arm openings = 15 or more)';
+	TEXT CHARACTER=71 TEXT='Secondary^nDependent on character 77, states 4-5 (Arm openings = 40 or more)';
+	TEXT CHARACTER=72 TEXT='Primary';
+	TEXT CHARACTER=73 TEXT='Primary';
+	TEXT CHARACTER=74 TEXT='Primary';
+	TEXT CHARACTER=75 TEXT='Primary';
+	TEXT CHARACTER=76 TEXT='Primary';
+	TEXT CHARACTER=77 TEXT='Primary';
+	TEXT CHARACTER=78 TEXT='Primary';
+	TEXT CHARACTER=79 TEXT='Primary';
+	TEXT CHARACTER=80 TEXT='Primary';
+	TEXT CHARACTER=81 TEXT='Primary';
+	TEXT CHARACTER=82 TEXT='Primary';
+	TEXT CHARACTER=83 TEXT='Primary';
+	TEXT CHARACTER=84 TEXT='Primary';
+	TEXT CHARACTER=85 TEXT='Primary';
+	TEXT CHARACTER=86 TEXT='Primary';
+	TEXT CHARACTER=87 TEXT='Primary';
+	TEXT CHARACTER=88 TEXT='Primary';
+	TEXT CHARACTER=89 TEXT='Secondary^nDependent on character 107, state 1 (Anal tube = present)';
+	TEXT CHARACTER=90 TEXT='Secondary^nDependent on character 107, state 1 (Anal tube = present)';
+	TEXT CHARACTER=91 TEXT='Primary';
+	TEXT CHARACTER=92 TEXT='Primary';
+	TEXT CHARACTER=93 TEXT='Primary';
+	TEXT CHARACTER=94 TEXT='Primary';
+	TEXT CHARACTER=95 TEXT='Primary';
+	TEXT CHARACTER=96 TEXT='Secondary^nDependent on characters 114 coded with state 1 (proxistele heteromorphic = present)';
+	TEXT CHARACTER=97 TEXT='Secondary^nDependent on characters 114 coded with state 1 (proxistele heteromorphic = present)';
+	TEXT CHARACTER=98 TEXT='Secondary^nDependent on characters 114 coded with state 1 (proxistele heteromorphic = present)';
+	TEXT CHARACTER=99 TEXT='Primary';
+	TEXT CHARACTER=100 TEXT='Secondary^nDependent on characters 118 coded with state 1 (mesistele heteromorphic = present)';
+	TEXT CHARACTER=101 TEXT='Secondary^nDependent on characters 118 coded with state 1 (mesistele heteromorphic = present)';
+	TEXT CHARACTER=102 TEXT='Secondary^nDependent on characters 118 coded with state 1 (mesistele heteromorphic = present)';
+	TEXT CHARACTER=103 TEXT='Primary';
+	TEXT CHARACTER=104 TEXT='Secondary^nDependent on characters 122 coded with state 1 (dististele heteromorphic = present)';
+	TEXT CHARACTER=105 TEXT='Secondary^nDependent on characters 122 coded with state 1 (dististele heteromorphic = present)';
+	TEXT CHARACTER=106 TEXT='Secondary^nDependent on characters 122 coded with state 1 (dististele heteromorphic = present)';
+	TEXT CHARACTER=107 TEXT='Primary';
+	TEXT CHARACTER=108 TEXT='Primary';
+	TEXT CHARACTER=109 TEXT='Primary';
+	TEXT CHARACTER=110 TEXT='Primary';
+	TEXT CHARACTER=111 TEXT='Primary';
+	TEXT CHARACTER=112 TEXT='Primary';
+	TEXT CHARACTER=113 TEXT='Primary';
+	TEXT CHARACTER=114 TEXT='Primary';
+	TEXT CHARACTER=115 TEXT='Primary';
+	TEXT CHARACTER=116 TEXT='Primary';
+	TEXT CHARACTER=117 TEXT='Primary';
+	TEXT CHARACTER=118 TEXT='Primary';
+	TEXT CHARACTER=119 TEXT='Primary';
+	TEXT CHARACTER=120 TEXT='Primary';
+	TEXT CHARACTER=121 TEXT='Primary';
+
+      [Attribute comments]
+      	TEXT TAXON=70 CHARACTER=16 TEXT='Look into whether this is a coding error';
+	TEXT TAXON=41 CHARACTER=28 TEXT='miscoded, should be NA';
+	TEXT TAXON=60 CHARACTER=28 TEXT='miscoded, should be NA';
+	TEXT TAXON=40 CHARACTER=52 TEXT='Should be inapplicable?';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 121;
+      ENDBLOCK;
+      

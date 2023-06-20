@@ -1,0 +1,337 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.08.13 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'"zhelestids"'
+		'Oxyprimus'
+		'Protungulatum'
+		'Mimatuta'
+		'Bubogonia'
+		'Promioclaenus'
+		'Litaletes'
+		'Choeroclaenus'
+		'Protoselene'
+		'Ellipsodon'
+		'Mioclaenus'
+		'Molinodus'
+		'Tiuclaenus'
+		'Pucanodus'
+		'Simoclaenus'
+		'Andinodus'
+		'Escribania'
+		'Lamegoia'
+		'Paulacoutoia'
+		'Ernestokokenia'
+		'Didolodus'
+		'Miguelsoria'
+		'Protolipterna'
+		'Asmithwoodwardia'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Premolars number'
+		 [2] 'Inflation of premolars'
+		 [3] 'Postprotocrista of P3'
+		 [4] 'Metacone of P4'
+		 [5] 'Outline of P4'
+		 [6] 'Size of the conules'
+		 [7] 'Position of conules of M1-2 (see Nessov et al.  1998: 75) relative to paracone and metacone vs  protocone'
+		 [8] 'Stylar shelf'
+		 [9] 'Mesostyle'
+		 [10] 'Stylocone and parastyle'
+		 [11] 'Orientation of the preparacrista (i.e. position  of the parastyle)'
+		 [12] 'Relative size of paracone and metacone'
+		 [13] 'Relative position of paracone and metacone  of M2'
+		 [14] 'Relation of paracone and metacone at base'
+		 [15] 'Pre-and postcingula'
+		 [16] 'Relations of postmetaconular crista and  postcingulum'
+		 [17] 'Extension of the postmetaconular crista'
+		 [18] 'Preparaconular and postmetaconular cristae'
+		 [19] 'Postparaconular and premetaconular cristae9'
+		 [20] 'Lingual extremity of the postcingulum'
+		 [21] 'Hypocone'
+		 [22] 'Cusp on precingulum anterior to paraconule'
+		 [23] 'Mandibular symphysis'
+		 [24] 'Size of lower canine'
+		 [25] 'Metaconid of p4'
+		 [26] 'Talonid of p4'
+		 [27] 'Slopes of flanks of the trigonid'
+		 [28] 'Paracristid'
+		 [29] 'Metaconid'
+		 [30] 'Posterior slope of metaconid'
+		 [31] 'Entocristid'
+		 [32] 'Entoconid and hypoconulid of m1-2'
+		 [33] 'Hypoconulid and entoconid'
+		 [34] 'Hypoconid'
+		 [35] 'Hypoconulid of m3'
+		 [36] 'Postcingulid'
+		 [37] 'M3s'
+		 [38] 'Tarsus'
+	;
+	STATELABELS
+		1
+		'five'
+		'four'
+		,
+		2
+		'not inflated'
+		'slightly inflated'
+		'strongly inflated'
+		,
+		3
+		'P3 with an incipient or small protocone and a
+ posterior edge not expanded posteriorly'
+		'small or medium-sized protocone present and
+ postprotocrista expanded posteriorly'
+		,
+		4
+		'absent'
+		'present as a small swelling of the postparacrista'
+		'well-developed cusp, almost as high as the
+ paracone and connate to it'
+		,
+		5
+		'triangular'
+		'quadrangular'
+		,
+		6
+		'small to medium-sized'
+		'enlarged and swollen'
+		,
+		7
+		'conules closer to midposition'
+		'conules closer to protocone than to midposition'
+		'conules on labial flank of protocone but
+ approximately equidistant from the labial and
+ lingual edges of the tooth'
+		,
+		8
+		'present but narrow'
+		'reduced to a labial cingulum'
+		'loss of a true labial cingulum and presence of a
+ faint to small labial rim (i.e. not separated from
+ the labial face of the para-and metacones by a sulcus)'
+		'increase of the size of the labial rim, labial
+ to metacone; it is generally interrupted labial
+ to paracone and when present weak. The rim
+ labial to metacone is sometimes a true cingulum'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'separated (i.e. parastylar groove present)'
+		'fused (i.e. parastylar groove absent)'
+		,
+		11
+		'conspicuously oriented laterally'
+		'oriented approximately in line with the parametacones'
+		,
+		12
+		'paracone larger and taller than metacone'
+		'both cusps subequal in height and volume'
+		,
+		13
+		'metacone posterior to paracone'
+		'metacone posterolingual to paracone'
+		,
+		14
+		'paracone and metacone in contact at base,
+ V-shaped or narrow U-shaped centrocrista (i.e.
+ trigon basin small)'
+		'paracone and metacone not in contact at base
+ with a wide U-shaped centrocrista (i.e. trigon
+ basin expanded)'
+		,
+		15
+		'do not extend further labially than the conules
+ or, at least, the lingual edge of the para- and
+ metacones'
+		'reach (or almost reach) the para- and metastyles'
+		,
+		16
+		'independent from the postcingulum'
+		'connects to the postcingulum at the metastyle'
+		'meets the postcingulum below the metacone
+ (i. e the postcingulum has ?captured? the metacingular
+ portion of the postmetaconular crista)'
+		,
+		17
+		'ends below the metacone labially'
+		'reaches the metastyle labially'
+		,
+		18
+		'well-marked'
+		'strong reduction or loss of the conular portion'
+		,
+		19
+		'present and well-marked'
+		'reduced or absent (important individual variation)'
+		,
+		20
+		'at the same level as precingulum on protocone
+ slopes'
+		'located much higher on protocone than
+ precingulum'
+		,
+		21
+		'absent'
+		'present as a thickening of the lingual extremity
+ of the postcingulum, and much lower than the
+ protocone'
+		'large cusp almost as high as the protocone'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'unfused'
+		'ankylosed'
+		,
+		24
+		'unreduced'
+		'reduced'
+		'enlarged'
+		,
+		25
+		'small to medium-sized and appressed against
+ protoconid'
+		'enlarged and distinctly separated from the
+ protoconid'
+		,
+		26
+		'formed of one single cusp in a median position
+ on the talonid)'
+		'presence of a labially positioned hypoconid
+ with an incipient talonid basin'
+		,
+		27
+		'labial slope slightly to strongly oblique and
+ lingual slope subvertical'
+		'both slopes oblique'
+		,
+		28
+		'asymmetrical in relation to the anteroposterior
+ axis of the tooth, paraconid portion straight and
+ forms an obtuse angle with the protoconid portion'
+		'deeply arched posteriorly and approximately  symmetrical in relation to the anteroposterior  axis of the tooth, paraconid portion makes an  angle of approximately 90° with the protoconid  portion'
+		,
+		29
+		'lingual to protoconid'
+		'slightly posterior to protoconid'
+		'strongly posterior to protoconid'
+		,
+		30
+		'not inflated with straight protocristid'
+		'strongly inflated, invading the talonid basin
+ with concave protocristid'
+		,
+		31
+		'present and extends anterodorsally on the base
+ of the posterior wall of the metaconid (talonid
+ basin closed lingually)'
+		'present and extends anteroventrolingually on
+ posterolingual base of metaconid'
+		'present but anterior extremity remains at lingual
+ base of metaconid'
+		'absent or extremely faint'
+		'talonid basin secondarily closed by development
+ of a continuous neomorphic crest (smooth
+ or cuspate) that connects hypoconulid to posterior
+ slope of metaconid'
+		,
+		32
+		'entoconid subequal in size to hypoconulid
+ and hypoconulid salient posteriorly'
+		'hypoconid smaller than entoconid and not
+ salient posteriorly (i.e. reduction of the flexids
+ separating the hypoconulid from the entoconid
+ and hypoconid)'
+		'entoconid reduced, subequal to or smaller
+ than hypoconulid'
+		'entoconid tends to increase in size'
+		,
+		33
+		'approximated but well-individualized'
+		'connate or fused'
+		'well-separated'
+		,
+		34
+		'forms labial half of talonid or less, does not
+ invade talonid basin anterior to the hypoconulid'
+		'large, conical; extends on lingual half of
+ talonid and invades talonid basin anterior to
+ hypoconulid'
+		,
+		35
+		'only slightly larger than hypoconulid of m1-2'
+		'proportionally much larger than hypoconulid
+ of m1-2 (strongly enlarged when compared to
+ condition in 0'
+		,
+		36
+		'weak with talonid cusp not inflated'
+		'medium-sized to strong'
+		'weak with strongly inflated talonid cusps'
+		,
+		37
+		'unreduced'
+		'moderately to greatly reduced'
+		'enlarged'
+		,
+		38
+		'portion of the calcaneum distal to ectal facet
+ and neck of astragalus not expanded'
+		'expanded'
+		
+	;
+	MATRIX
+	'"zhelestids"'		              0001000000000000000000000100000000000?
+	'Oxyprimus'		                 1000001000000000101010000000101100110?
+	'Protungulatum'		             10000010000000001010100000001011001100
+	'Mimatuta'		                  1100001000010000101010001110101100110?
+	'Bubogonia'		                 ?????01101010010101010????00202110111?
+	'Promioclaenus'		             11010011011000121111100101001021101110
+	'Litaletes'		                 1101001101010012111111011100102110110?
+	'Choeroclaenus'		             ?2?00011010000121011100?01001021101110
+	'Protoselene'		               1102001111010011101010010110202110110?
+	'Ellipsodon'		                ?1???01201101012111010?10110104210121?
+	'Mioclaenus'		                1200101111101012111110010010104210121?
+	'Molinodus'		                 11000011011010111010000?11112132111120
+	'Tiuclaenus'		                11000012011010121110000100112132111110
+	'Pucanodus'		                 11000012011000121010000100112132111100
+	'Simoclaenus'		               ?1???011011010111010000?11112132111120
+	'Andinodus'		                 ??????????????????????????11213211112?
+	'Escribania'		                ??????????????????????????11213111112?
+	'Lamegoia'		                  ?1?2112301101012111021??11112033111120
+	'Paulacoutoia'		              ?1121123011000121111210?11112033211120
+	'Ernestokokenia'		            ?1???12301100012111021??1?11202321112?
+	'Didolodus'		                 1112112311100012111021??1111203321112?
+	'Miguelsoria'		               11??1123011000121111211111112033101121
+	'Protolipterna'		             11121013011001121111211211112031101121
+	'Asmithwoodwardia'		          11121013011001121111201011112033101101
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 38;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1622712495771; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4182425763794537191; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7338053420738192261; mqVersion 331; checksumv 0 3 3186665374 null getNumChars 38 numChars 38 getNumTaxa 24 numTaxa 24 short true bits 31 states 31 sumSquaresStatesOnly 5290.0 sumSquares 5290.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1738 397; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7338053420738192261 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1638 325; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 132; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1638 325; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 38; 
+ENDBLOCK;

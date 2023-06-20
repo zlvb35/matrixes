@@ -1,0 +1,2361 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.12.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=40;
+    TAXLABELS
+    		'Crypturellus undulatus undulatus'
+		'Tinamus solitarius'
+		'Lophura bulweri'
+		'Gallus varius'
+		'Gallus gallus'
+		'Gavia immer'
+		'Pygoscelis antarcticus'
+		'Spheniscus humboldti'
+		'Podiceps cristatus'
+		'Podiceps grisegena'
+		'Caprimulgus affinis griseatus'
+		'Eurostopodus argus'
+		'Eudromias ruficollis'
+		'Burhinus bistriatus'
+		'Charadrius hiaticula semipalmatus'
+		'Chionis alba'
+		'Opisthocomus hoazin'
+		'Phaethon aethereus'
+		'Psophia obscura'
+		'Aramus guarana'
+		'Balearica regulorum'
+		'Grus japonensis'
+		'Podica senegalensis'
+		'Sarothrura lugens'
+		'Mentocrex kioloides'
+		'Himantornis haematopus whitesidei'
+		'Gallirallus sp.'
+		'Canirallus oceleus batesi'
+		'Aramides cajanea'
+		'Rallus elegans'
+		'Gallinula chloropus'
+		'Fulica cornuta'
+		'Porphyrio hochstetteri'
+		'Eurypyga helias'
+		'Rhynochetos jubatus'
+		'Diaphorapteryx hawkinsi'
+		'Aptornis defossor'
+		'Cathartes burrovianus'
+		'Cariama cristata'
+		'Leptosomus discolor'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=368;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Rostrum, dorsal aspect, a pair of distinct foramina near anterior rostral terminus (exclusive of pori pneumatici), status'
+		 [2] 'Rostrum, dorsal aspect, midline length from the apex of the premaxilla to the zona flexoria craniofacialis relative to that of the cranium'
+		 [3] 'Rostrum, dorsal aspect, mediolateral extension of the anterior maxillonasal portion of the rostrum'
+		 [4] 'Rostrum, lateral aspect, general profile'
+		 [5] 'Rostrum, external nares, lateromedially and craniocaudally extensive, approach terminal end of rostrum of maxilla, status'
+		 [6] 'Rostrum, external nares, form'
+		 [7] 'Rostrum, lateral aspect, external bony nostrils'
+		 [8] 'Rostrum, internal bony septum that is dorsoventrally expansive and unaccompanied by additional intranasal ossification, ankylosed to ventral midline of intranasal area'
+		 [9] 'Rostrum, lateral aspect, nasal sulcus, status'
+		 [10] 'Rostrum, shape is triangular and dorsoventrally compressed, status'
+		 [11] 'Rostrum, ventral aspect, ventromedial fenestra, status and form'
+		 [12] 'Rostrum, ventral aspect, ventrolateral fenestra, status'
+		 [13] 'Rostrum, external nares, site of caudal terminal end relative to zona flexoria craniofacialis'
+		 [14] 'Zona flexoria craniofacialis, lateral and medial portions of zona flexoria, rostrocaudal alignment, status'
+		 [15] 'Zona flexoria craniofacialis, conformation as variably distinct transverse lines, often buttressed by frontal bone, status and form'
+		 [16] 'Postorbital cranium, general form'
+		 [17] 'Frontal bone, dorsal aspect, nasal gland sulcus, status'
+		 [18] 'Cranium, dorsal aspect, interorbital area, form'
+		 [19] 'Cranium, dorsal aspect, pair of prominent, hornlike protruberences, status'
+		 [20] 'Frontoparietal suture, status in adults'
+		 [21] 'Maxilla, tomial crest, tomial angle, extension of caudal terminal end as distinct tubercle or short process caudal to jugomaxillary suture and lateral to arc of jugum, status'
+		 [22] 'Maxilla, ventral aspect, process of palate, caudal margin, form'
+		 [23] 'Supraorbital crest, dorsal aspect, pori pneumatici regardless of presence of foramina pneumatica, status'
+		 [24] 'Orbital margin, dorsal aspect, general form'
+		 [25] 'Orbital margin, dorsal aspect, distinct foramen pneumaticum exclusive of pori pneumatici, status and form'
+		 [26] 'Processus postorbitalis, lateral aspect, status and form'
+		 [27] 'Processus postorbitalis, dorsolateral aspect, form'
+		 [28] 'Interorbital septum, mediolateral thickness, form'
+		 [29] 'Foramen nervi facialis, form'
+		 [30] 'Lacrimal, ankylosis to jugal, status'
+		 [31] 'Lacrimal, processus supraorbitalis, form'
+		 [32] 'Lacrimal, processus orbitalis, recess and/or foramen pneumaticum/pori pneumatici, status'
+		 [33] 'Lacrimal, especially processus orbitalis, form'
+		 [34] 'Lacrimal, foramen pneumaticum, status and form if present'
+		 [35] 'Lacrimal, foramen pneumaticum, site if present'
+		 [36] 'Lacrimal, most ventral terminus of processus orbitalis, form'
+		 [37] 'Ectethmoid, foramen pneumaticum exclusive of foramen orbitonasale laterale, status and number'
+		 [38] 'Ectethmoid, form'
+		 [39] 'Ectethmoid, position relative to interorbital septum'
+		 [40] 'Quadrate, lateral aspect, facies articularis quadratojugalis, caudodorsally oriented, prominent, terminally tapered flange, status'
+		 [41] 'Maxilla, lateral aspect, triangular, caudal projection extending from maxilla, just below jugal, can be made up of both jugal and maxilla'
+		 [42] 'Jugal arc, pronounced lateral bowing (convexity) of arc, status'
+		 [43] 'Jugal arc, pronounced ventral bowing (convexity) of arc, status'
+		 [44] 'Ectethmoid, braced by inferior process of lacrimal, status'
+		 [45] 'Palatines, form'
+		 [46] 'Palatines, height of ventral and lateral crests relative to each other'
+		 [47] 'Palatines, lateral portion, status'
+		 [48] 'Palatines, lateral portion, marked caudolateral orientation, status'
+		 [49] 'Palatines, lateral portion, lateral margin broad, flattened and rounded, status'
+		 [50] 'Palatines, lateral portion, ventral fossa, oblique crest, a rostral, sharply defined, sloping crest that defines a smaller, rostral fossa in the lateral portion of the palatines, status'
+		 [51] 'Palatines, caudomedial angle, foramen pneumaticum, status'
+		 [52] 'Cranium, ventral aspect, palatines, choanalis, ventral lamella, status'
+		 [53] 'Palatines, choanalis, ventral lamella, medial separation of bilateral lamellae, form'
+		 [54] 'Palatines, choanalis, ventral lamella, position of caudomedial angle relative to that of the lateral portion, caudal margin, rostrocaudal site, form'
+		 [55] 'Palatines, caudolateral angle, position relative to area of ankyloses with pterygoids'
+		 [56] 'Palatines, pterygoid portion, processus pterygoideus, status'
+		 [57] 'Palatines, processus pterygoideus, foramen pneumaticum, status and number'
+		 [58] 'Pterygopalatine juncture, form'
+		 [59] 'Palatines and pterygoids, form'
+		 [60] 'Pterygoids (pes pterygoidei), anterior portion, form'
+		 [61] 'Pterygoids, dorsoventral site of pterygopalatine juncture relative to parasphenoidal rostrum'
+		 [62] 'Pterygoids, body of pterygoid, pes pterygoidei, facies articularis with palatines, lateromedial separation of bilaterally paired caudal extremes (ventral aspect), and corresponding interpterygoid juncture (articulation), form'
+		 [63] 'Pterygoids, quadratic margin of pterygoid, facies articularis quadratica, form'
+		 [64] 'Processus basipterygoideus, status'
+		 [65] 'Quadratopterygoid juncture, form'
+		 [66] 'Temporal fossa, form'
+		 [67] 'Temporal fossa crest, form'
+		 [68] 'Processus zygomaticus, status and form'
+		 [69] 'Processus zygomaticus, divided by prominent superiolateral crest running the length of the process and terminates caudally on or near caudal margin of temporal fossa, status'
+		 [70] 'Processus zygomaticus, articular notch of process of squamous that articulates with quadrate, form'
+		 [71] 'Processus suprameaticus, status'
+		 [72] 'Foramen dorsomediana, supraoccipital aspect, cf. foramen (ostium), status and site'
+		 [73] 'Transverse nuchal crest, form'
+		 [74] 'Occipital bone, fonticuli occipitalis, pair of perforate, large ovoid foramina superior to foramen magnum within margin of occipital bone, status'
+		 [75] 'Occipital bone, pair of small nuchal area foramina located near lateral margins, status'
+		 [76] 'Occipital bone, foramen v. occipitalis externae, status'
+		 [77] 'Occipital bone, prominentia cerebellaris, form'
+		 [78] 'Occipital bone, foramen magnum, form'
+		 [79] 'Foramen n. abducentis, form'
+		 [80] 'Occipital bone, occipital condyle, form'
+		 [81] 'Occipital bone, occipital condyle, rostrocaudal position relative to exoccipital, processus paroccipitalis'
+		 [82] 'Occipital bone, subcondylar fossa, form'
+		 [83] 'Occipital bone, canalis nervi hypoglossi, form'
+		 [84] 'Occipital bone, processus paroccipitalis, lateral crest, form'
+		 [85] 'Laterosphenoid, orbital face, processus postorbitalis, ventral extent (lateral aspect) relative to cotyla quadratica otici and squamosi, form'
+		 [86] 'Sphenoid, form'
+		 [87] 'Parasphenoid, crista fossa parabasalis, status and form'
+		 [88] 'Parasphenoid, processus lateralis of parasphenoid, anulus tympanicus, status'
+		 [89] 'Parasphenoid, lamina, processus lateralis of parasphenoid, status and form'
+		 [90] 'Parasphenoid, lamina, tuberculum basilare, processus medialis parasphenoidalis, status'
+		 [91] 'Sphenoid (lamina), form'
+		 [92] 'Sphenoid, foramen pneumaticum in center of sphenoid, status'
+		 [93] 'Parasphenoid, pair of acuminate and rostrally oriented projections, status'
+		 [94] 'Parasphenoid rostrum, eustacian tubes fossa, status and form'
+		 [95] 'Quadrate, fossa articularis quadratica, cotylae fossae articularis, extreme rostrocaudal compaction (especially cotyla lateralis and processus medialis), status'
+		 [96] 'Quadrate, lateral aspect of body and base of processus orbitalis, form'
+		 [97] 'Quadrate, processus oticus, capitulum (condylus) squamosum and capitulum (condylus) oticus, marked separation at least as great as that between condyli medialis and lateralis of processus mandibularis quadrati, status'
+		 [98] 'Quadrate, processus oticus, cotylae, number and form'
+		 [99] 'Quadrate, processus oticus, foramen pneumaticum (medial face), status'
+		 [100] 'Quadrate, processus oticus, foramen pneumaticum (caudal face), status'
+		 [101] 'Quadrate, processus oticus, pronounced lateromedial compression, resulting in narrowing of incisura intercapitularis and reduction in size and comparative juxtaposition of capitulum (condylus) oticum and capitulum (condylus) squamosum, status'
+		 [102] 'Quadrate, processus orbitalis, status and form relative to processus oticus'
+		 [103] 'Quadrate, processus orbitalis, marked elongation of process, status and form'
+		 [104] 'Quadrate, processus orbitalis, elongation (exceeding processus oticus in length) and rostral expansion into spatulate terminus (latter at least as broad as any other part of the processus orbitalis) in which rostral margin is rounded, status and form'
+		 [105] 'Quadrate, processus orbitalis, terminal process, apical margin markedly slender, subspinous, status'
+		 [106] 'Quadrate, condylus pterygoideus, form'
+		 [107] 'Quadrate, condylus medialis, form'
+		 [108] 'Quadrate, condylus medialis, form - 2'
+		 [109] 'Quadrate, processus mandibularis, facies articularis pterygoidea (ventral face in those taxa having two), form'
+		 [110] 'Quadrate, processus mandibularis, condylus medialis, conformation as elongate, lateromedially compressed discus, distinctly larger than condylus lateralis and with distinctly oblique orientation in which rostral terminus is medial to the caudal terminus, paralleling the pterygoid, status'
+		 [111] 'Quadrate, processus mandibularis of condylus lateralis cotyla quadratojugalis, caudolateral site relative to processus mandibularis'
+		 [112] 'Quadrate, condylus mandibularis lateralis, terminal'
+		 [113] 'Quadrate, processus mandibularis, condylus caudalis (typically associated with an opposing fossa articularis quadratica, sulcus intercotylaris of mandibula), status'
+		 [114] 'Quadrate, processus mandibularis, facies articularis quadratojugalis, form'
+		 [115] 'Mandible, symphysis, foramina neurovascularia, caudodorsal site'
+		 [116] 'Mandible, symphysis, length as a proportion of the total length of the mandible, with the symphysis included in the total length'
+		 [117] 'Mandible, ramus, general form'
+		 [118] 'Mandible, ramus, symphysis, extreme dorsoventral attenuation, status'
+		 [119] 'Mandible, lateral perspective, ramus, pars intermedia and segment of pars audalis rostral to fossa articularis quadratica, ventral margin, curvature in lateral perspective, status and form'
+		 [120] 'Mandible, ramus, ventral mandibular angle, status'
+		 [121] 'Mandible, ramus, fenestra rostralis mandibulae, status'
+		 [122] 'Mandible, angular, processus retroarticularis, dorsal recurvature, produced by caudal elongation and dorsal drawing of the dorsocaudal vertex of the ramus, status and form'
+		 [123] 'Mandible, cranial surface, dentary, caudal development, form'
+		 [124] 'Mandible, caudal aspect, fossa articularis quadratica, cotyla lateralis, form'
+		 [125] 'Mandible, caudal aspect, dorsal perspective, fossa articularis quadratica, foramen pneumaticum, status and site'
+		 [126] 'Mandible, fossa articularis quadratica, sulcus intercotylaris, foramina pneumatica, status'
+		 [127] 'Mandible, caudal portion, fossa articularis quadratica, cotylae fossae articularis, tuberculum intercotylare, form'
+		 [128] 'Mandible, caudal portion, processus medialis, form'
+		 [129] 'Mandible, caudal aspect, processus retroarticularis, dorsally oriented accessory projection, status and form'
+		 [130] 'Mandible, zona flexoria intramandibularis rostralis, effected by variably distinct, localized thinning and flattening of rami mandibulae immediately proximal to symphysis, status'
+		 [131] 'Mandible, surface of articulation with quadrate, caudal portion, foramen pneumaticum, status'
+		 [132] 'Atlas, corpus atlantis, processus ventralis corporis, modalis, form'
+		 [133] 'Axis, corpus, processus ventralis corporis, status and form'
+		 [134] 'Axis, arcus, processus costalis axis, status'
+		 [135] 'Axis, arcus, ansa costotransversaria, foramen transversarium, status'
+		 [136] 'Axis, arcus, lamina lateralis arcus, foramen pneumaticum, status'
+		 [137] 'Marked heterogeneity of form involving relative elongation of intermediate elements, status'
+		 [138] 'Section I, arcus vertebrae, dorsal lamina, arcus interzygopophysialis lateralis, status'
+		 [139] 'Section II, corpus vertebrae, lateral aspect, processus costalis, status'
+		 [140] 'Section II, corpus and arcus vertebrae, ansa costotransversaria, processus costalis, lamina corporocostalis, status'
+		 [141] 'Section II, arcus vertebrae, lamina arcocostalis, foramen transversarium caudalis, delimited medially by corpus and arcus vertebrae, dorsolaterally by the lamina arcocostalis, and ventrally by the solum arcocostalis of variable craniocaudal breadth, status'
+		 [142] 'Section II, arcus vertebrae, ansa costotransversaria, processus costalis, lamina supracostalis, status'
+		 [143] 'Corpus vertebrae, lateral aspect, foramen pneumaticum, status and form'
+		 [144] 'Corpus vertebrae, lateral faces, bilateral compression, often accompanied by reduced or virtual absence of pneumaticity of elements, status and form'
+		 [145] 'Arcus vertebrae, lamina dorsalis arcus, recessus dorsocranialis pneumatici, status'
+		 [146] 'Arcus vertebrae, lamina dorsalis arcus, fovea interzygopophysialis, foramina pneumatica, status'
+		 [147] 'Arcus vertebrae, processus transversus vertebrae, craniocaudal gradual but distinct elongation of processes in seratium among presynsacral elements, status'
+		 [148] 'Caudalmost elements of thoracic and caudal vertebrae (cranial to synsacral vertebrae), corpus vertebrae, facies articularis caudalis of penultimate element and facies articularis cranialis of ultimate element, type'
+		 [149] 'Vertebra 15, width as compared to craniocaudal length'
+		 [150] 'Vertebra 16, craniocaudal extent of processus spinosus as compared to that of vertebra 15, form'
+		 [151] 'Notarium, status and magnitude'
+		 [152] 'Notarium, corpus, ventral crest, fenestrae intercristales, status'
+		 [153] 'Notarium, arcus notarii, foramina (intervertebralia) interarcuales, status and form'
+		 [154] 'Synsacral vertebrae, number'
+		 [155] 'Preacetabular synsacral vertebrae, processes transverses relative to adjacent foramina (fenestrae) intertransversaria, transverse form, magnitude'
+		 [156] 'Preacetabular synsacral vertebrae, cranialmost incorporated element (i.e., caudalmost thoracic vertebrae), processes transverses, termini laterales, logitudinal junctura via crista lateralis, synostosis with facies ventralis of preacetabular ilium, status'
+		 [157] 'Cranial synsacrum, caudalmost vertebrae thoracicae synsacri, dorsal exposure of lateral faces such that single foramen intervertebrale and part of vertebrae synsacrales ventral to processes costales are exposed dorsocranially to acetabulum, status'
+		 [158] 'Synsacral vertebrae, cranialmost vertebrae caudales synsacri, lateral faces of vertebrae, penetration and visibility through foramen ilioischiadicum (lateral perspective), status'
+		 [159] 'Body of sternum, rostrum sterni, spina externa rostri, status and form'
+		 [160] 'Body of sternum, cranial margin, depressiones (sulcus) artiulares coracoidei, dorsal lip, form'
+		 [161] 'Body of sternum, cranial margin, depressiones (sulcus) artiulares coracoidei, dorsal lip, cranial margin of dorsal lip region, pair of cranially extending flanges, status'
+		 [162] 'Body of sternum, cranial margin, depressiones (sulcus) artiulares coracoidei, ventral lip, form'
+		 [163] 'Body of sternum, cranial margin, site of depressiones (sulcus) artiulares coracoidei'
+		 [164] 'Body of sternum, cranial margin, processus craniolateralis, form'
+		 [165] 'Body of sternum, cranial margin, processus craniolateralis with respect to axis majoris carinae, angle'
+		 [166] 'Body of sternum, visceral face, base of processus craniolateralis and/or processus craniolateralis proprius, impressio origii m. sternocoracoidei, status'
+		 [167] 'Body of sternum, visceral face, sulcus medianus sterni immediately caudal to cranial margin, foramen pneumaticum exclusive of pori pneumatici, status and form'
+		 [168] 'Body of sternum, visceral face, site of sulcus medianus sterni and/or foramen pneumaticum'
+		 [169] 'Body of sternum, visceral face, pori pneumatici, exclusive of those included within foramen pneumaticum, status and site'
+		 [170] 'Body of sternum, visceral face, sulcus medianus sterni, status'
+		 [171] 'Body of sternum, ventral face, facies muscularis, sulcus ventrolateralis (longitudinal trough on ventral surface of element immediately medial to processus costales), form'
+		 [172] 'Body of sternum, costal margin, craniocaudal length relative to that of entire corpus sterni on axis mediana'
+		 [173] 'Body of sternum, costal margin, articular surfaces for sternal ribs, number'
+		 [174] 'Body of sternum, costal margin, incisurae intercostales, perforatitas and pneumaticas, status'
+		 [175] 'Carina sterni, status and form'
+		 [176] 'Carina sterni, cranial margin, lateral cristae of carina, status'
+		 [177] 'Carina sterni, cranial margin, sulcus carinae, status'
+		 [178] 'Carina sterni, cranial margin of carina, sulcus carinae or homologous site, foramen pneumaticum, status and form'
+		 [179] 'Carina sterni, apex, site relative to spina externae or most proximal point of sternum, form'
+		 [180] 'Carina sterni, apex carina, facies articularis clavicularis, status and form'
+		 [181] 'Carina sterni, cranial margin, site and degree of thickening'
+		 [182] 'Carina sterni, maximal depth ventral and normal to body of sternum, facies muscularis, relative to minimal width of body of sternum (exclusive of processes laterales, if present) across points on costal margin directly lateral to that of maximal depth of carina, form'
+		 [183] 'Caudal sternum, fenestra and incisura caudolateralis, status'
+		 [184] 'Caudal sternum, incisura and fenestra caudolateralis (if present), cranial extent, form'
+		 [185] 'Caudal sternum, costal margin, processus caudolateralis (if present), orientation relative to body of sternum as reflected (in part) by angle defined by incisura caudolateralis, vertex cranialis angulae, form'
+		 [186] 'Caudal sternum, trabecula caudolateralis (if present), caudal terminal margin, form'
+		 [187] 'Cranial sternum, ventral lip, lateral margin, craniocaudally limited, rounded flangelike processus protruding dorsocraniolaterally or dorsolaterally, status and form'
+		 [188] 'Caudal sternum, incisura and fenestra intermediana, relative cranial extent, form'
+		 [189] 'Caudal sternum, trabecula mediana, margin and caudal terminus, definitive form'
+		 [190] 'Caudal sternum, trabeculae caudolateralis, intermediana, and mediana, relative caudal extents as compared to caudal margin'
+		 [191] 'Head of sternal rib, medial face, foramen pneumaticum, status'
+		 [192] 'Omalis of coracoid, processus acrocoracoideus, form'
+		 [193] 'Omalis of coracoid, processus acrocoracoideus, principal dorsoventral orientation relative to major craniocaudal axis of coracoid, form'
+		 [194] 'Omalis of coracoid, processus acrocoracoideus (tuberculum brachiale), dorsomedial curvature with respect to major axis of coracoid, status and form'
+		 [195] 'Omalis of coracoid, processus acrocoracoideus, impressio ligamenti acrocoracohumeralis, status and form'
+		 [196] 'Omalis of coracoid, dorsal aspect, glenoid process, facies (sulcus) articularis humeralis and labrum glenoidale, primary dorsoventral and lateromedial position relative to processus acrocoracoideus, form'
+		 [197] 'Omalis of coracoid, dorsal aspect, processus procoracoideus, status and comparative prominence'
+		 [198] 'Shaft of coracoid, foramen nervi supracoracoidei, status and form'
+		 [199] 'Shaft of coracoid, general form sensu length relative to width of facies articularis sternalis'
+		 [200] 'Sternal coracoid, impressio musculi sternocoracoidei on dorsal surface of extremitas sternalis, depth and general form'
+		 [201] 'Sternal coracoid, dorsal surface, impressio musculi sternocoracoidei, foramen pneumaticum, size'
+		 [202] 'Sternal coracoid, medial margin, form'
+		 [203] 'Sternal coracoid, processus lateralis, form relative to facies articularies sternalis, form'
+		 [204] 'Sternal coracoid, facies articularis sternalis, large and distinct foramen, status'
+		 [205] 'Sternal coracoid, facies articularis sternalis, labrum externa, cranial extent of cranial margin (and correlated cranial expanse) relative to those of labrum interna, form'
+		 [206] 'Collum scapulae, medial aspect, acuminate, ventrally oriented projection, status and form'
+		 [207] 'Scapus scapulae, monotonic ventral curvature general to scapus, form'
+		 [208] 'Scapus scapulae, lateral aspect, concavitas longitudinalis, status'
+		 [209] 'Scapus scapulae, ventrolateral aspect, tubercle of variable size located cranially, often accompanied by pitted crest trailing distally, status'
+		 [210] 'Scapus scapulae, especially distal portion, form'
+		 [211] 'Proximal humerus, tuberculum ventrale, general form and caudal prominence'
+		 [212] 'Proximal humerus, tuberculum ventrale, proximodistal position relative to fossa pneumotricipitalis or homologous site, form'
+		 [213] 'Proximal humerus, tuberculum ventrale, proximal elevation regardless of fossa pneumotricipitalis exposure'
+		 [214] 'Proximal humerus, tuberculum dorsale, form'
+		 [215] 'Proximal humerus, caudal aspect, incisura capitis, form'
+		 [216] 'Proximal humerus, fossa pneumotricipitalis, foramen pneumaticum, status'
+		 [217] 'Proximal humerus, caudal aspect, fossa pneumotricipitalis, distinct circularity of densely rimmed atrium situated at approximate normality with respect to major axis of corpus of humerus, status'
+		 [218] 'Proximal humerus, fossa pneumotricipitalis, apparent torsion of element about major proximodistal axis such that entire fossa is ventral to corpus humeri, status'
+		 [219] 'Proximal humerus, fossa pneumotricipitalis, crus dorsale fossae, form'
+		 [220] 'Proximal humerus, head, form'
+		 [221] 'Proximal humerus, head, triangular and distal-reaching tuberosity ankylosed to tuberculum ventrale, status'
+		 [222] 'Proximal humerus, cranial aspect, planum intertuburculare, sulcus (canalis) nervi coracobrachialis, status'
+		 [223] 'Proximal humerus, cranial aspect, sulcus ligamentosus transversus, status and form in terms of dorsoventral extent'
+		 [224] 'Proximal humerus, cranial aspect, sulcus ligamentosus transversus, ventral section, marked triangular raised subplanar region delimited by pronounced cristae marginales and enclosing deep ventral fovea, status'
+		 [225] 'Proximal humerus, crista bicipitalis, form'
+		 [226] 'Proximal humerus, crista bicipitalis, form of cranial face sensu planarity or slight concavity, status'
+		 [227] 'Proximal humerus, crista bicipitalis, terminus on shaft, ventral margin, form'
+		 [228] 'Proximal humerus, head, separation from crista deltopectoralis and tuberculum dorsale, status'
+		 [229] 'Proximal humerus, crista deltopectoralis, lateral extension and general form'
+		 [230] 'Proximal humerus, crista deltopectoralis, comparative proximodistal length relative to that of corpus of humerus, magnitude'
+		 [231] 'Proximal humerus, crista deltopectorais, oblique caudal aspect, proximodistal extent relative to that of crista bicipitalis, magnitude'
+		 [232] 'Shaft of humerus, proximal section of shaft with triangular cross section, status'
+		 [233] 'Shaft of humerus, bilateral compression or departure from essentially elliptical form (planum transversus), status'
+		 [234] 'Shaft of humerus, virtual linearity independent of relative elongation, status and form'
+		 [235] 'Distal humerus, pronounced and generalized craniocaudal compression, producing sublaminar form, status'
+		 [236] 'Distal humerus, caudal aspect, fossa olecrani, form'
+		 [237] 'Distal humerus, caudal aspect, sulcus tendinis m. scapulotricipitalis, status and form'
+		 [238] 'Distal humerus, caudal aspect, epicondylus ventralis (entepicondylus), proximodistal site relative to those of epicondylus dorsalis (ectepicondylus) and condylus ventralis, form'
+		 [239] 'Distal humerus, cranial aspect, fossa m. brachialis, dorsoventral position relative to axis medianus of humerus'
+		 [240] 'Distal humerus, cranial aspect, impression of brachialis anticus (brachial depression), form'
+		 [241] 'Distal humerus, cranial aspect, tuberculum (processus) supracondylaris dorsalis (distinct epicondylus dorsalis), status and form'
+		 [242] 'Distal humerus, cranial aspect, epicondylus dorsalis (ectepicondylus), status and form sensu dorsal prominence, status and form'
+		 [243] 'Distal humerus, cranial aspect, condyli dorsalis and ventralis humeri, general form'
+		 [244] 'Distal humerus, cranial aspect, condylus dorsalis humeri, proximal extent relative to distal margin of fossa m. brachialis, form'
+		 [245] 'Proximal ulna, processus cotylaris dorsalis, pronounced ventral orientation such that apex processi is approximately coplanar with facies dorsalis corporis, status'
+		 [246] 'Proximal ulna, processus cotylaris dorsalis, cotyla dorsalis, facies articularis relative to cotyla ventralis, form'
+		 [247] 'Proximal ulna, processus cotylaris dorsalis, crista intercotylaris, form'
+		 [248] 'Proximal ulna, interosseus margin (cranial margin), impressio insertii m. brachialis, form'
+		 [249] 'Proximal ulna, dorsal aspect, incisura radialis, status and form'
+		 [250] 'Distal ulna, tuberculum carpale, jugum tuberculae cranialis, status'
+		 [251] 'Proximal carpometacarpi, trochlea carpalis, sulcus trochlearis, form'
+		 [252] 'Proximal carpometacarpi, dorsal aspect, trochlea carpalis, dorsal labrum, proximal terminus of dorsal rim of trochlea, form'
+		 [253] 'Proximal carpometacarpi, ventral aspect, os metacarpale minus, small tuberculum on os metacarpale minus immediately distal to synostosis metacarpalis proximalis, status and form'
+		 [254] 'Distal carpometacarpi, dorsal aspect, synostosis metacarpalis distalis, sulcus interosseus ventralis, status and form'
+		 [255] 'Preacetabular and postacetabular ilium, dorsal face, relative craniocaudal lengths, indexed by ratio of length of former divided by length of latter, form'
+		 [256] 'Preacetabular ilium, dorsal aspect, dorsomedial margin, dorsal iliac crest, dorsomedial synostosis forming carina iliaca dorsalis, status and form'
+		 [257] 'Preacetabular ilium and synsacrum, dorsal aspect, dorsal iliac crest, height'
+		 [258] 'Preacteabular ilium, lateral aspect, angle respective to transverse plane of synsacrum'
+		 [259] 'Acetabular and preacetabular ilium, lateral aspect, preacetabular tubercles, status and form'
+		 [260] 'Acetabular ilium, dorsal aspect, interacetabular width relative to synsacral length, magnitude'
+		 [261] 'Acetabular ilium, dorsal aspect, dorsomedial margin of ilium, orbiculate fenestrae paired with adjacent, medial fenestrae intertransversae synsacrales, status'
+		 [262] 'Acetabulum, located immediately lateral or lateroventral to synsacrum due to extreme bilateral compression of pelvis, status'
+		 [263] 'Acetabular ilium, lateral aspect, antitrochanter, form'
+		 [264] 'Acetabular ilium, lateral aspect, cranially oriented prominence on the cranial margin of the antitrochanter, status'
+		 [265] 'Acetabular ilium and ischium, lateral aspect, ilioischiadic foramen, status and form'
+		 [266] 'Acetabular ilium and concavitas infracristalis caudal to acetabulum, lateral aspect, foramen ilioischiadicum, craniocaudal extent within concavitas infracristalis (including foramen itself)'
+		 [267] 'Pelvis. Postacetabular ilium, lateral face, lamina infracristalis ilii, margin of ilioischiadic foramen (exclusive of vestigia of membrana ossificans ilioischiadica, if present), status and form'
+		 [268] 'Pelvis. Acetabular ilium, lateral face, obturator foramen, status and form: lost due to lack of caudal margin'
+		 [269] 'Pelvis. Acetabular ilium, lateral face, caudal margin of obturator foramen, form'
+		 [270] 'Pelvis. Postacetabular ilium, dorsal face, extreme bilateral compression of elements resulting in the caudal portion of the pelvis being lateromedially narrower than the preacetabular ilium, status'
+		 [271] 'Pelvis. Postacetabular ilium and synsacrum, dorsal face, vestigial iliosynsacral suture, status'
+		 [272] 'Pelvis. Postacetabular ilium, lateral face, crista dorsolateralis ilii, caudolateral angle (where present), form'
+		 [273] 'Pelvis. Postacetabular ilium and ischium, lateral face, fusion, status'
+		 [274] 'Pelvis. Postacetabular ilium, lateral face, lamina infracristalis ilii, concavitas infracristalis, status'
+		 [275] 'Postacetabular ilium and ischium, lateral aspect, synchrondrosis ilioischiadica, form'
+		 [276] 'Postacetabular ilium and ischium, lateral aspect, deep incisura in caudal margin, status'
+		 [277] 'Postacetabuular ilium and ischium, lateral aspect, incisura in caudal margin of pelvis, dorsoventral height relative to diameter of acetabulum, status and form'
+		 [278] 'Postacetabular ilium and ischium, lateral aspect, caudal margin, caudal extent of ilium relative to that of ischium, form'
+		 [279] 'Preacetabular synsacrum, ventral aspect, large spine protruding from cranial portion, status'
+		 [280] 'Acetabular synsacrum, ankylosis of acetabular transverse process (often synostotic) to acetabular area beyond lateral margin of synsacrum, status and site'
+		 [281] 'Preacetabular synsacrum, ventral aspect, degree of fusion of two caudalmost transverse processes of synsacrum ankylosing with preacetabular ilium, form'
+		 [282] 'Preacetabular and acetabular synsacrum, ventral aspect, ventral sulcus of synsacrum, status'
+		 [283] 'Postacetabular ischium, ventral aspect, foramen in oblique iliac crest, status'
+		 [284] 'Postacetabular synsacrum and fossa renalis, ventral aspect, degree of depression'
+		 [285] 'Postacetabular synsacrum, ventral aspect, processus transverses, at articulation with ala postacetabularis ilii, medial margin, status and form'
+		 [286] 'Postacetabular ilium and ischium, ventral aspect, fossa renalis and recessus caudalis fossae, form'
+		 [287] 'Postacetabular ilium, ventral aspect, caudal margin, ovoid groove along medial margin of ilium, status'
+		 [288] 'Postacetabular ilium, ventral aspect, especially caudal margin, degree of lateromedial compression'
+		 [289] 'Postacetabular synsacrum and ischium, ventral aspect, caudal margin of ischium, in relation to caudal portion of synsacrum, form'
+		 [290] 'Postacetabular synsacrum, ventral aspect, caudalmost portion of synsacrum, foramen, status and form'
+		 [291] 'Postacetabular ilium, ventral aspect, processus marginis caudalis, status and form'
+		 [292] 'Postacetabular ilium, ventral aspect, processus marginis caudalis delimited by raised crest on most caudal portion of postacetabular region and accompanying depression, form of laterocaudal portion'
+		 [293] 'Scapus pubis, lateral aspect, fusion to postacetabular ischium, status and form'
+		 [294] 'Scapus pubis, exclusive of marked departures in apex, dorsal margin, dorsoventral form'
+		 [295] 'Scapus and apex of pubis, length of extension beyond pubis'
+		 [296] 'Apex of pubis, form'
+		 [297] 'Apex of pubis, dorsomedial form, status'
+		 [298] 'Femur and tibiotarsus, intratendinous ossification, status'
+		 [299] 'Proximal femur, crista trochanteris, projection'
+		 [300] 'Proximal femur, caudal aspect, crista trochanteris, distal to facies articularis antitrochantericus, form'
+		 [301] 'Proximal femur, fossa trochantericus, status'
+		 [302] 'Proximal femur, caudal aspect, impressiones obturatoriae, form'
+		 [303] 'Proximal femur, collum femoris, facies articularis antitrochanterica, caudal margin, form'
+		 [304] 'Shaft of femur, caudal aspect, lineae intermuscularis, delimitation of subtriangular planum or depressio suprapoplitea between linea intermusculares distal to bifurcatio linea, status'
+		 [305] 'Distal femur, cranial aspect, Sulcus patellaris, proximal region, ovate accessory subfossa, status'
+		 [306] 'Distal femur, caudal aspect, fossa poplitea, form'
+		 [307] 'Distal femur, caudal aspect, fossa poplitea, foramen pneumaticum, form'
+		 [308] 'Distal femur, caudal aspect, tuberculum m. gastrocnemius pars lateralis, form'
+		 [309] 'Distal femur, caudal aspect, impressio ansae m. iliofibularis, site'
+		 [310] 'Distal femur, caudal aspect, impressio ansae m. iliofibularis, form'
+		 [311] 'Distal femur, cranial aspect, epicondylus medialis, cranioproximal terminus on corpus femoris, site'
+		 [312] 'Distal femur, caudal aspect, condylus lateralis, crista tibiofibularis, distal extent relative to condylus medialis, magnitude'
+		 [313] 'Distal femur, caudal and distal aspects, condylus lateralis, trochlea fibularis, entire trochlea of greater caudal prominence and lateromedial divergence from corpus than condylus medialis, status'
+		 [314] 'Distal femur, caudal aspect, condylus lateralis, lateromedial width relative to that of condylus medialis, form'
+		 [315] 'Distal femur, caudal aspect, condylus lateralis, relative proximodistal position of the proximal termini of the crista tibiofibularis and trochlea fibularis, form'
+		 [316] 'Distal femur, caudal aspect, condylus medialis, general form'
+		 [317] 'Distal femur, medial and cranial aspects, condylus medialis, proximal terminus, form'
+		 [318] 'Distal femur, medial and caudal aspects, condylus medialis, crista supracondylaris medialis, form relative to condylus medialis and facies caudalis corporis'
+		 [319] 'Distal femur, cranial aspect, fovea tendineus m. tibialis cranialis, form'
+		 [320] 'Distal femur, cranial aspect, site of fovea tendineus m. tibialis cranialis'
+		 [321] 'Proximal tibiotarsus, head, fossa retropatellaris, status'
+		 [322] 'Proximal tibiotarsus, head, fossa retropatellaris or homologous site, ostia pneumatica?recess and/or foramina (pori) pneumatici, status and form'
+		 [323] 'Proximal tibiotarsus, caudal aspect, head of tibiotarsus, interarticular area, incisura in caudal aspect of interarticular area delimiting facies articularis medialis, status'
+		 [324] 'Proximal tibiotarsus, caudal aspect, foramen pneumaticum underneath jugum between facies articularis lateralis and area interarticularis, status and number'
+		 [325] 'Proximal tibiotarsus, head, cristae cnemiales, substantial reduction or virtual absence of both cristae (typically in both proximal and craniocaudal dimensions), status'
+		 [326] 'Proximal tibiotarsus, head, cristae cnemiales cranialis and lateralis, exceptional, proximodistally extensive cranial prominence and lateral concavity of crista cnemialis cranialis, status'
+		 [327] 'Proximal tibiotarsus, head, cristae cnemiales cranialis and lateralis, cranial and lateral margins, respectively, reinforced with thickened jugae, status'
+		 [328] 'Proximal tibiotarsus, head, crista cnemialis cranialis and lateralis, crista cnemialis lateralis, dorsal margin of cristae, lateral to intersection with crista cnemialis cranialis, marginal form'
+		 [329] 'Proximal tibiotarsus, head, crista cnemialis cranialis, pronounced lateral curvature especially proximally, status'
+		 [330] 'Proximal tibiotarsus, cnemial crest jugum relative to proximal terminus of fibular crest, form'
+		 [331] 'Proximal tibiotarsus, head, crista cnemialis lateralis, lateral prominence relative to articulated fibula'
+		 [332] 'Proximal tibiotarsus, head, cristae cnemialies cranialis and lateralis, comparative distal extents on body of tibiotarsus, form'
+		 [333] 'Proximal fibula, head, form and position relative to head of tibiotarsus'
+		 [334] 'Proximal tibiotarsus, head, facies articularis fibularis, status and form'
+		 [335] 'Shaft of tibiotarsus, lateral margin, foramen interosseum proximale, form'
+		 [336] 'Shaft of tibiotarsus, lateral margin, foramen interosseum distale, length as compared with length of the tibiotarsus'
+		 [337] 'Distal tibiotarsus, caudal aspect, epicondylus medialis, form'
+		 [338] 'Distal tibiotarsus, caudal aspect, trochlea cartilaginis tibialis, lateral and medial margins'
+		 [339] 'Distal tibiotarsus, caudal aspect, trochlea cartilaginis tibialis, height, form'
+		 [340] 'Distal tibiotarsus, caudal aspect, trochlea cartilaginis tibialis, medial portion, rectangular, medially oriented projection on medial margin'
+		 [341] 'Distal tibiotarsus, lateral perspective, condylus lateralis, depressio epicondylaris lateralis, form'
+		 [342] 'Distal tibiotarsus, cranial aspect, condylus medialis and condylus lateralis, relative positions'
+		 [343] 'Distal tibiotarsus, cranial aspect, condylus medialis and condylus lateralis, relative size'
+		 [344] 'Distal tibiotarsus, distal aspect, condylus medialis and condylus lateralis, incisura intercondylaris, foveae (sulcus) transcondylares medialis and lateralis, status'
+		 [345] 'Distal tibiotarsus, cranial aspect, tuberculum ligamenti tibiometatarsale intercondylare, status'
+		 [346] 'Proximal tarsometatarsus, dorsal aspect, cotyla lateralis and cotyla medialis, relative proximal elevation, site'
+		 [347] 'Proximal tarsometatarsus, fossa parahypotarsalis lateralis, status'
+		 [348] 'Proximal tarsometatarsus, fossa parahypotarsalis medialis, status and form'
+		 [349] 'Proximal tarsometatarsus, plantar aspect, hypotarsus, lamina medialis hypotarsi (refers to total dorsoplantar lamina, including exposed crista, plantar to corpus tarsometatarsi, facies plantaris), plantar prominence relative to corpus tarsometatarsi, magnitude'
+		 [350] 'Proximal tarsometatarsus, plantar aspect, crista medialis hypotarsi and crista lateralis hypotarsi, form'
+		 [351] 'Proximal tarsometatarsus, hypotarsus, sulcus and/or canalis hypotarsi, number'
+		 [352] 'Proximal tarsometatarsus, hypotarsus, hypotarsus tendon of musculus flexor perforatus digiti II furrow/canal for tendon of musculus flexor perforatus digiti II, form'
+		 [353] 'Proximal tarsometatarsus, dorsal aspect, foramina vascularia proximalia, form'
+		 [354] 'Proximal tarsometatarsus, dorsal aspect, fossa infracotylaris dorsalis, form'
+		 [355] 'Proximal tarsometatarsus, plantar aspect, foramina vascularia proximalia, form'
+		 [356] 'Proximal tarsometatarsus, plantar aspect, foramina vascularia proximalia, form - 2'
+		 [357] 'Shaft of tarsometatarsus, dorsal aspect, sulcus extensorius, status and form'
+		 [358] 'Shaft of tarsometatarsus, plantar aspect, metatarsi I, status and form'
+		 [359] 'Shaft of tarsometatarsus, plantar aspect, metatarsi I, fossa (if present), depth, form'
+		 [360] 'Distal tarsometatarsus, foramen vasculare distale, form sensu dorsoplanar orientation relative to major axis shaft, form'
+		 [361] 'Distal tarsometatarsus, foramen vasculare distale, site in which foramen perforates tarsometatarsus relative to approximate major axis'
+		 [362] 'Distal tarsometatarsus, canalis and sulcus interosseus intertrochlearis) tendineus distalis (foramen tendinis m. extensor brevis digiti IV), dorsal form'
+		 [363] 'Distal tarsometatarsus, plantar aspect, fossa supratrochlearis plantaris, status'
+		 [364] 'Distal tarsometatarsus, metatarsl II trochlea, eminentia (medio) plantaris, status'
+		 [365] 'Distal tarsometatarsus, dorsal aspect, metatarsl III trochlea, length as compared to that of body of tarsometatarsus'
+		 [366] 'Distal tarsometatarsus, metatarsal IV trochlea, foveae ligamentorum collateralium, status and form in terms of depth and width'
+		 [367] 'Distal tarsometatarsus, distal aspect, metatarsal II?IV trochleae, relative dorsal elevations'
+		 [368] 'Distal tarsometatarsus, metatarsal II trochlea, facies articularis phalangealis, sulcus trochlearis (narrow groove between lateral and medial rims of trochlea), form'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'State 0'
+		'0.40-2.00'
+		'2.01-3.00'
+		,
+		3
+		'State 0'
+		'intermediate, between states 2 and 3'
+		'medially compressed'
+		'extremely laterally splayed'
+		,
+		4
+		'State 0'
+		'curved inferiorly'
+		'lacking inferior curvature so that rostrum appears to be flat along ventral margin or recurved superiorly'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'State 0'
+		'schizorhinal, caudal margin acuminate'
+		'holorhinal, caudal margin is rounded'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'State 0'
+		'present, complete to terminal end of rostrum'
+		'lost or truncated'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'State 0'
+		'present and confluent with fenestra choanalis, occurs in approximately one half or less of rostrum'
+		'present and prominent, like state 1 but extends through entire or almost entire rostrum'
+		'lost, typically due to occlusion by spongy bone'
+		,
+		12
+		'absent, lacking caudal lamina'
+		'present, closed caudally by maxillojugal pons'
+		,
+		13
+		'State 0'
+		'rostral or subequal'
+		'caudal'
+		,
+		14
+		'absent, medial region rostral to lateral region'
+		'present, forms a continuous, lateromedial transverse axis'
+		,
+		15
+		'absent or indistinct'
+		'present, a distinct lamina or groove'
+		'present, a deep fissure with bordering frontal eminentia'
+		,
+		16
+		'State 0'
+		'craniocaudally elongate'
+		'craniocaudally compressed'
+		,
+		17
+		'absent or poorly defined'
+		'present, may be accompanied by a pair of distinct, large foramina located between the lacrimals'
+		,
+		18
+		'State 0'
+		'convex and not furrowed'
+		'furrowed, concave medially'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'State 0'
+		'present'
+		'lost'
+		,
+		21
+		'absent'
+		'present, composed entirely of maxilla'
+		,
+		22
+		'State 0'
+		'simple blade, shell or cone, with variable numbers of exposed trabeculae pneumatica'
+		'largely enclosed, variably inflated, containing numerous trabeculae pneumatica, producing sponge-like form'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'State 0'
+		'essentially not extended or decurved'
+		'projecting dorsolaterally, creating a sharp and prominent supraorbital crest that extends laterally over orbit'
+		,
+		25
+		'absent'
+		'present, large, ovoid, taking up almost entire width of frontal bone'
+		'present, small and ovoid or round and often laterally located'
+		,
+		26
+		'obsolete or absent'
+		'present and truncate'
+		'present and extremely elongate, sometimes ankylosing to processus zygomaticus'
+		,
+		27
+		'State 0'
+		'convex'
+		'concave, appears grooved'
+		,
+		28
+		'State 0'
+		'thin, in some places translucent'
+		'thick, opaque throughout'
+		,
+		29
+		'State 0'
+		'essentially circular'
+		'ovoid, craniocaudally elongate'
+		'ovoid, like state 2 but craniocaudally compressed'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'State 0'
+		'semicircular (sometimes slightly acuminate at terminal end), projecting laterally'
+		'slender and terminal end projecting laterocaudally, V-shaped fenestra created between the terminal end of the projection and the cranium'
+		'in line with cranium, not creating fenestra between lacrimal and cranium, lateral margin may be pronounced'
+		,
+		32
+		'absent'
+		'present, pori pneumatici and/or foramen pneumaticum only'
+		'pori pneumatici present, but deep recess also present'
+		,
+		33
+		'State 0'
+		'extremely thin or minimally thickened'
+		'relatively thick'
+		,
+		34
+		'State 0'
+		'small, round, barely visible'
+		'large, ovoid'
+		'lost'
+		,
+		35
+		'State 0'
+		'anterior'
+		'lateral'
+		,
+		36
+		'State 0'
+		'terminal end projecting caudally'
+		'terminal end projecting cranially'
+		,
+		37
+		'absent'
+		'present, 1'
+		'present, 2 or more'
+		,
+		38
+		'State 0'
+		'extremely thick and well developed'
+		'moderately developed'
+		,
+		39
+		'State 0'
+		'ankylosed to interorbital septum'
+		'not ankylosed to interorbital septum'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present and prominent'
+		'present but thinned and truncate'
+		,
+		42
+		'absent, arc essentially straight'
+		'present and curved'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'State 0'
+		'present'
+		'lost'
+		,
+		45
+		'State 0'
+		'palatines contact maxillae only'
+		'palatines contact premaxillae'
+		,
+		46
+		'State 0'
+		'height of lateral crest greater than that of medial crest'
+		'heights subequal or crests barely visible'
+		'height of medial crest greater than that of lateral crest'
+		,
+		47
+		'State 0'
+		'well developed'
+		'rudimentary or vestigial'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'State 0'
+		'rudimentary or vestigial'
+		'prominent'
+		,
+		53
+		'State 0'
+		'moderate'
+		'great'
+		,
+		54
+		'State 0'
+		'coincident'
+		'rostral'
+		'caudal'
+		,
+		55
+		'State 0'
+		'rostral'
+		'subequal'
+		'caudal'
+		,
+		56
+		'State 0'
+		'present'
+		'lost'
+		,
+		57
+		'State 0'
+		'present, 2 or more'
+		'present, 1 foramen'
+		'lost'
+		,
+		58
+		'State 0'
+		'syndesmosis and pterygopalatine propria rostrocaudally extensive with the caudal terminus approaching the processus quadraticus pterygoidei'
+		'articulation of mesipterygopalatina with rudimentary gomphosis intrapterygoidea'
+		'articulation of pterygopalatina simplex'
+		,
+		59
+		'State 0'
+		'sutured'
+		'articulated'
+		,
+		60
+		'State 0'
+		'linear, often with a lateral projection along the body of the pterygoid that is semicircular in shape, or has variable projections'
+		'distinctly laterally splayed'
+		,
+		61
+		'State 0'
+		'slightly ventral, articulation pterygorostroparasphenoidalis absent'
+		'on rostrum, pterygorostroparasphenoidalis articulation present'
+		,
+		62
+		'State 0'
+		'moderately or slightly separated, juncture only slightly lateral to rostrum or barely reaching planum of parasphenoid rostrum'
+		'not separated, interpterygoid articulation or suture present'
+		,
+		63
+		'State 0'
+		'only moderately enlarged relative to body of pterygoid, subcondylar'
+		'markedly broadened and dorsally elongate'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'State 0'
+		'articulatio duplex, moderate dorsal extension on medial face of processus orbitalis combined with condylus pterygoideus'
+		'articulatio simplex, limited to condylus pterygoideus'
+		,
+		66
+		'State 0'
+		'mostly only visible from lateral view, terminal end located ventrocranially to nuchal crest'
+		'edges of temporal fossae almost meeting or meeting above nuchal crest'
+		,
+		67
+		'State 0'
+		'shallow, at same level as top of skull'
+		'prominently raised, distinctive crest'
+		,
+		68
+		'State 0'
+		'present, short, typically longer than processus suprameaticus, blunt or acuminate'
+		'obsolete or absent, although often associated with ossified aponeurosis zygomatica'
+		'present, short and pointed, nearly identical in size and shape to processus suprameaticus'
+		'present, long and robust, in some taxa associated with ventral lamina'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'State 0'
+		'notch facing cranially'
+		'notch angled ventrally'
+		,
+		71
+		'absent as distinct process, in most or all cases homologous bone is continuous as rostral margin of meatus acousticus externus'
+		'present as variably prominent processus postorbitalis'
+		,
+		72
+		'absent, formaina bilaterally symmetrical within occipital region'
+		'present, distinctly dorsal, often proximate to transverse nuchal crest'
+		,
+		73
+		'State 0'
+		'shallow or barely visible'
+		'distinct and prominent'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'State 0'
+		'present or very distinctly visible'
+		'lost or smoothed to the point of being hardly or not visible'
+		,
+		77
+		'State 0'
+		'right and left portions of occipital complex indistinguishable or have very faint, smoothed division'
+		'occipital complex distinctly separated by median nuchal crest, appearance of a line or extremely bulbous process dividing the complex'
+		,
+		78
+		'State 0'
+		'round or craniocaudally ovoid'
+		'lateromedially elongate'
+		,
+		79
+		'State 0'
+		'round'
+		'craniocaudally elongate'
+		,
+		80
+		'State 0'
+		'essentially circular'
+		'distinctly bilobate or reniform, lobes partitioned by medial condylar notch, lateromedially elongate'
+		'essentially round but flattened along ventral margin of foramen magnum'
+		,
+		81
+		'State 0'
+		'rostral'
+		'approximately equal or caudal'
+		,
+		82
+		'State 0'
+		'deep'
+		'shallow'
+		'lost'
+		,
+		83
+		'State 0'
+		'circular'
+		'elongate'
+		,
+		84
+		'State 0'
+		'not very distinct, flattened'
+		'extremely prominent, oriented relatively caudally'
+		'extremely prominent, oriented relatively cranially'
+		,
+		85
+		'State 0'
+		'dorsal'
+		'approximately equal'
+		,
+		86
+		'State 0'
+		'medially compressed'
+		'laterally splayed'
+		,
+		87
+		'State 0'
+		'present, prominent, lateromedially compressed crista'
+		'present, pons comparatively robust but not cristate or lateromedially compressed'
+		'present, pons incomplete or fibriform'
+		'lost'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'State 0'
+		'obsolete'
+		'moderately developed'
+		'prominent'
+		,
+		90
+		'absent or obsolete'
+		'present, distinct'
+		,
+		91
+		'State 0'
+		'sphenoid is coplanar with ventral face of skull and oriented craniocaudally'
+		'sphenoid is coplanar with occipital and is oriented superioinferiorly'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent or indiscernible because cranial portion of sphenoid ankylosed to parasphenoid rostrum'
+		'deep'
+		'shallow'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'State 0'
+		'convex'
+		'concave'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'State 0'
+		'two cotylae apparent, adjacent or juxtaposed, distance between centers of cotylae less than one fourth of the maximal distance between the outer margins of the cotylae'
+		'two cotylae apparent, moderately separated, distance between centers of cotylae between one fourth and one half of maximal distance between the outer margins of the cotylae'
+		,
+		99
+		'State 0'
+		'present'
+		'lost'
+		,
+		100
+		'State 0'
+		'present'
+		'lost'
+		,
+		101
+		'absent'
+		'present, facies articularis a single tuberculum'
+		,
+		102
+		'State 0'
+		'present, of comparable length to the processus oticus'
+		'lost'
+		,
+		103
+		'State 0'
+		'present, process markedly robust'
+		'lost'
+		'present, process markedly slender, subacuminate'
+		,
+		104
+		'absent'
+		'present, terminus spatulate with rostral margin rounded'
+		'present, terminus subrectangular with rostral margin flattened'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'State 0'
+		'flattened laterally, relatively large, wide, craniocaudally and lateromedially elongate'
+		'small, ball shaped, extremely small compared to other condyles'
+		,
+		107
+		'State 0'
+		'aligned craniocaudally'
+		'aligned mediolaterally'
+		,
+		108
+		'State 0'
+		'convex and bulbous, undivided'
+		'bilobate, two lobes approximately equal in size'
+		'bilobate, lateral lobe distinctly smaller than medial lobe'
+		,
+		109
+		'State 0'
+		'facies articularis, with slight anteromedial eminentia on basis'
+		'condylar, tubercular, or jugosublinear'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'State 0'
+		'lateral'
+		'caudal'
+		,
+		112
+		'State 0'
+		'facing cranially'
+		'facing caudally'
+		,
+		113
+		'State 0'
+		'present, distinct'
+		'obsolete or lost'
+		,
+		114
+		'State 0'
+		'fovea and cotyla, comparatively shallow and with variably deep rostral incisura and processus subcotylaris to accommodate os quadratojugale'
+		'incisura?concave, troughlike, raised margin lacking entirely or at least in two, geometrically opposing points'
+		'fovea and cotyla?concave, orbiculate, with a variably raised rim'
+		,
+		115
+		'State 0'
+		'on dorsal face of symphysis'
+		'on caudal margin of symphysis'
+		,
+		116
+		'State 0'
+		'short, less than one fifth'
+		'medium, between one fifth and one third'
+		'long, between one third and one half'
+		,
+		117
+		'State 0'
+		'medially compressed'
+		'laterally splayed'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'State 0'
+		'present, variably but distinctly decurved'
+		'obsolete, i.e., virtually straight'
+		,
+		120
+		'absent or indistinct'
+		'distinct'
+		,
+		121
+		'essentially absent'
+		'substantial and transverse, completely or largely perforate'
+		,
+		122
+		'absent, region typically undistinguished or at most tubercular'
+		'present, a small but distinct hamulus'
+		'present, typically very large, lateromedially compressed, with ventral margin monotonically curved, and length at least as great as that of rostrocaudal dimension of fossa articularis quadratica mandibulae'
+		'present, moderately large, lateromedially compressed, with ventral margin angular, and length less than that of rostrocaudal dimension of fossa articularis quadratica mandibulae'
+		,
+		123
+		'State 0'
+		'strongly forked'
+		'weakly forked posteriorly into dorsal and ventral rami'
+		,
+		124
+		'State 0'
+		'oriented laterocaudally, thin and craniocaudally elongate, raised dorsally above lateral crista, convex'
+		'broad, cranial portion typically acuminate'
+		'large, broad, confluent with cotyla medialis to form larger, semicircular cotyla, convex'
+		'craniocaudally oriented, elongate and sometimes bilobate, typically convex caudally and concave cranially, variable prominence'
+		'small and almost circular, concave'
+		,
+		125
+		'absent'
+		'ovoid or circular, located caudomedially on processus medialis'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'State 0'
+		'variably tuberculate with intervening depressions'
+		'single, centrally positioned, rostrocaudally oriented jugum'
+		,
+		128
+		'State 0'
+		'relatively shorter, more robust, and triangular'
+		'long and thin fingerlike projection, often equal in length to processus retroarticularis'
+		,
+		129
+		'absent or indistinguishable from processus retroarticulais'
+		'present'
+		'present but very elongate'
+		,
+		130
+		'absent, flexibility variable but generalized throughout ramus'
+		'present, localized'
+		,
+		131
+		'absent'
+		'present, large and ovoid, located on caudal portion of articular surface'
+		,
+		132
+		'State 0'
+		'variably prominent, represented as shallow shelf, bifurcate or tripartate flange, or single medial processus'
+		'represented by prominent, caudally extensive (craniocaudal depth significantly exceeding that of arcus atlantis), dorsoventrally compressed, bilaterally convex, typically carinate lamina'
+		,
+		133
+		'essentially absent'
+		'present, represented by variably thick, rounded or subangular crista'
+		'present, represented by a ventrally elongated, caudally deflected, rounded spina'
+		'present, represented by a ventrally elongated, bilaterally compressed, craniocaudally restricted lamina'
+		,
+		134
+		'State 0'
+		'present, typically vestigial, i.e., represented only by head'
+		'lost'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'absent'
+		'present'
+		,
+		137
+		'State 0'
+		'present'
+		'lost'
+		,
+		138
+		'absent on all elements'
+		'present'
+		,
+		139
+		'State 0'
+		'present throughout section II'
+		'present in cranial elements but absent in caudal elements of section II'
+		'absent throughout section II'
+		,
+		140
+		'absent or poorly developed'
+		'moderately or well developed'
+		,
+		141
+		'absent'
+		'present'
+		,
+		142
+		'absent or poorly developed'
+		'moderately or well developed, and, in those taxa possessing both structures, fused with the vertebral margin of the lamina arcocostalis'
+		,
+		143
+		'absent'
+		'present, medium to large, positioned rostrally on centrum'
+		'large and located caudally on centrum'
+		,
+		144
+		'State 0'
+		'absent, corpus cylindrical'
+		'present, manifested by concavitas lateralis, oval depressions'
+		'present, manifested by virtually laminar structure of corpus between cranial and caudal facies articulares'
+		,
+		145
+		'absent'
+		'present'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'absent, processes transverses essentially of uniform width throughout presynsacral elements or moderately reversed'
+		'present, processes transverses distinctly increasing in width throughout presynsacral elements'
+		,
+		148
+		'State 0'
+		'heterocoelous, surfaces saddle shaped, comprising articulationes sellares'
+		'amphicoelous, both surfaces variably, often slightly concave, with rounded margins'
+		'opisthocoelous, cranial element with facies articularis caudalis concave and rounded, caudal element with facies articularis cranialis convex and rounded'
+		,
+		149
+		'State 0'
+		'processus spinosus lateromedially compressed, width much less than craniocaudal length'
+		'processus spinosus width equal to craniocaudal length'
+		,
+		150
+		'State 0'
+		'subequal'
+		'that of 16 is shorter than that of 15'
+		,
+		151
+		'State 0'
+		'present, 4 vertebrae'
+		'lost'
+		'present, 3 vertebrae'
+		'present, 5 vertebrae'
+		,
+		152
+		'State 0'
+		'typically present, ligamenta intercristales of adjacent vertebrae notarii (often robustly) ossified'
+		'typically lost, cristae ventrales demarcated ventrally by incisurae cristae, ligamenta intercristales of adjacent vertebrae notarii not ossified'
+		,
+		153
+		'State 0'
+		'present, small, diameter approximately equal to that of fovea costalis'
+		'present, obsolete, reduced to minute perforations or evidently absent'
+		,
+		154
+		'State 0'
+		'14-18'
+		'10-13'
+		,
+		155
+		'State 0'
+		'former less than or equal to the latter'
+		'former much greater than latter, reducing diameter of foramina intertransversaria to prominent pori'
+		,
+		156
+		'absent'
+		'present'
+		,
+		157
+		'absent'
+		'present'
+		,
+		158
+		'absent'
+		'present'
+		,
+		159
+		'absent or obsolete'
+		'present, small tuberculum and cunneatus'
+		'present, variably elongate, laminar spina'
+		,
+		160
+		'State 0'
+		'reaches dorsally'
+		'reaches ventrally'
+		,
+		161
+		'absent'
+		'present'
+		,
+		162
+		'State 0'
+		'reaches ventrally'
+		'reaches dorsally'
+		,
+		163
+		'State 0'
+		'centrally located above ventral lip'
+		'splayed laterally so that sternum becomes "y-shaped", ventral lip lost'
+		,
+		164
+		'State 0'
+		'long, creating fenestra'
+		'robust extension but not creating fenestra'
+		'barely projecting or not at all'
+		,
+		165
+		'State 0'
+		'extending laterally'
+		'extending rostrally'
+		,
+		166
+		'State 0'
+		'present'
+		'lost'
+		,
+		167
+		'absent'
+		'present, undivided, enclosing pori pneumatici and os spongiosum'
+		'present, divided medially by osseus lamina or trabecula, enclosing pori pneumatici and os spongiosum'
+		,
+		168
+		'State 0'
+		'beginning within margin of or immediately caudal to pila coracoidea'
+		'significantly caudal to pila coracoidea, approximately caudal to basis carinae'
+		,
+		169
+		'absent'
+		'present, cranial margin'
+		'present, medial sulcus'
+		'present, cranial margin and medial sulcus'
+		,
+		170
+		'State 0'
+		'present'
+		'lost'
+		,
+		171
+		'State 0'
+		'absent or so shallow as to be indistinct'
+		'distinct, typically for length of costal margin'
+		,
+		172
+		'State 0'
+		'less than one fourth'
+		'between one fourth and three fourths'
+		'greater than three fourths'
+		,
+		173
+		'State 0'
+		'4'
+		'3'
+		'5'
+		'6'
+		'7'
+		'8'
+		,
+		174
+		'State 0'
+		'present'
+		'lost'
+		,
+		175
+		'State 0'
+		'distal portion extremely medially compressed so that dorsal portion delineated by lineae intermusculares is extremely small'
+		'distal portion less medially compressed or not compressed so that dorsal portion delineated by lineae intermusculares is large'
+		'lost'
+		,
+		176
+		'State 0'
+		'present'
+		'lost'
+		,
+		177
+		'absent'
+		'present'
+		,
+		178
+		'absent'
+		'present, variable size and shape'
+		,
+		179
+		'State 0'
+		'cranial to spina externae or most proximal point of sternum'
+		'located somewhat caudally'
+		'located extremely cranially'
+		,
+		180
+		'absent'
+		'present, incisura or concavity'
+		'carina fused to furcula'
+		,
+		181
+		'State 0'
+		'dorsally thickened'
+		'ventrally thickened'
+		'width of both portions subequal'
+		,
+		182
+		'State 0'
+		'height equal to or greater than width of body, not including processus craniolateralis'
+		'height less than width of body'
+		,
+		183
+		'State 0'
+		'present as incisura or fenestra'
+		'lost'
+		,
+		184
+		'State 0'
+		'elongate?length of incisura and fenestra grater than two thirds craniocaudal length of corpus sterni, approaching terminis caudalis of processus costales sterni'
+		'intermediate?length of incisura and fenestra between one third and two thirds of craniocaudal length of corpus sterni'
+		'abbreviate?length of incisura and fenestra less than one third craniocaudal length of corpus sterni'
+		'absent despite discernable pila'
+		,
+		185
+		'State 0'
+		'angle undefined, processus is unparallel to costal margin and ?vertex? is ellipsoidal'
+		'between 15° and 45°, parabolic'
+		'between 15° and 45°, parabolic'
+		'approximately 45°'
+		'approximately 45°'
+		'parallel, angle undefined, ?vertex? is pointed and triangular'
+		,
+		186
+		'State 0'
+		'rounded or (sub)rectangular, often obliquely aligned'
+		'cruciate, with terminal, transverse pila'
+		'(sub)acuminate, variably oriented'
+		,
+		187
+		'absent'
+		'present but truncated, reduced to small, rounded eminentia'
+		'prominent, elongate and thin'
+		,
+		188
+		'State 0'
+		'rudimentary, incisura is a minor concavity'
+		'abbreviated, length of incisura and fenestra less than one third craniocaudal length of corpus sterni'
+		,
+		189
+		'State 0'
+		'not tapered or weakly tapered, transversely broad, linear or rounded'
+		'distinctly tapered, rounded or subrectangular'
+		'distinctly tapered, cruciate'
+		'distinctly tapered, irregularly invaginated or concave'
+		,
+		190
+		'State 0'
+		'mediana?intermedia?caudolateralis'
+		'caudolateralis?intermedia?mediana'
+		'intermedia?caudolateralis?mediana'
+		'mediana?caudolateralis?intermedia'
+		,
+		191
+		'State 0'
+		'typical'
+		'lost'
+		,
+		192
+		'State 0'
+		'present, typical'
+		'present but truncated processus essentially limited to width accommodating facies articularis clavicularis'
+		,
+		193
+		'State 0'
+		'distinctly ventral'
+		'essentially coplanar'
+		,
+		194
+		'State 0'
+		'present, moderate medioventral inflection or angling'
+		'present, pronounced ventral angling, distinctly hamulate'
+		'lost, angling or curvature obsolete, processus aligned cranially'
+		,
+		195
+		'State 0'
+		'present, well developed'
+		'present, rudimentary or vestigial, represented by variously vague indications of limita'
+		'lost'
+		,
+		196
+		'State 0'
+		'laterodorsal'
+		'dorsolateral'
+		,
+		197
+		'State 0'
+		'present but rudimentary, an angle, shallow cotyla, or cristula'
+		'present, moderately prominent, a typically curved tuberculum, terminus proprius (exclusive of ancillary tuberculae) approximating medial body margin'
+		'an elongate processus verae, terminus proprius distinctly extending medially and/or dorsal to corpus, some manifesting former condition curving mediodorsally around medial body margin'
+		'markedly curved, creating a circular connection with processus acrocoracoideus'
+		'curving crista lost, juts out at a 90° angle to axis of coracoid, extremely elongate'
+		'curving crista lost, juts out at a 90° angle to axis of coracoid, extremely elongate'
+		,
+		198
+		'absent'
+		'present, circular'
+		'present, craniocaudally elongate'
+		,
+		199
+		'State 0'
+		'moderately elongate, length between three and four times the width'
+		'typically proportioned, length between two and three times the width'
+		'truncate (less than two times the width)'
+		,
+		200
+		'State 0'
+		'smooth, shallow or difficult to discern'
+		'ridged and typically deep'
+		,
+		201
+		'State 0'
+		'small or not visible'
+		'large, ovoid'
+		'extremely large so that almost entire impression is pneumatic'
+		,
+		202
+		'State 0'
+		'crista only partially existent or lacking crista medialis'
+		'with medial, variably prominent crista medialis, continued cranially by crista procoracoidei'
+		,
+		203
+		'State 0'
+		'protrudes laterocaudally, not in line with facies articularis sternalis'
+		'raised cranially'
+		'projects laterally, in line with facies articularis sternalis'
+		,
+		204
+		'absent'
+		'present'
+		,
+		205
+		'State 0'
+		'former approximately equal to latter, producing facies articularis of dorsoventrally equal expanse'
+		'former distinctly caudal to latter, producing internally (dorsally) angled facies articularis'
+		'former significantly cranial to the latter, producing externally (ventrally) angled facies articularis'
+		,
+		206
+		'absent'
+		'present'
+		'vestigial scar present as a raised tubercle that is sometimes acuminate'
+		,
+		207
+		'State 0'
+		'moderate, body and distal margin of scapula is slightly to moderately convex'
+		'pronounced, body and distal margin of scapula conspicuously convex'
+		,
+		208
+		'State 0'
+		'present, distinctly concave throughout, accented by lateral displacement of dorsal margin of scapus'
+		'lost, essentially planar throughout or shallow concavitas limited to cranial and medial portions'
+		,
+		209
+		'State 0'
+		'present'
+		'lost'
+		,
+		210
+		'State 0'
+		'widened dorsocaudally, spatulate'
+		'long, bladelike, compressed dorsocaudally'
+		,
+		211
+		'State 0'
+		'smooth and often rounded, not very prominent'
+		'extremely prominent and laterally flattened, projecting well beyond rest of bone caudally'
+		,
+		212
+		'State 0'
+		'comparatively cranioproximal, completely exposing fossa pneumotricipitalis'
+		'comparatively caudodistal, largely or completely concealing fossa pneumotricipitalis'
+		,
+		213
+		'State 0'
+		'inferior to tuberculum dorsale, projects cranially'
+		'subequal in elevation to that of tuberculum dorsale, projects cranially'
+		'elevated immediately proximally to tuberculum dorsale, projects cranially or cranioproximally'
+		'elevated well proximal to tuberculum dorsale, proximal to head of humerus and projects proximally'
+		,
+		214
+		'State 0'
+		'smooth and rounded'
+		'acuminate'
+		,
+		215
+		'State 0'
+		'extremely deep and prominent'
+		'shallow'
+		,
+		216
+		'State 0'
+		'present, deep and pneumatic'
+		'present and apneumatic'
+		'lost'
+		,
+		217
+		'absent'
+		'present'
+		,
+		218
+		'absent, no torsion apparent nor position altered'
+		'present, torsion apparent and position altered'
+		,
+		219
+		'State 0'
+		'dorsoventrally narrow'
+		'dorsoventrally broad'
+		,
+		220
+		'State 0'
+		'bulbous, robust, elevated and oriented proximally'
+		'mediolaterally compressed, somewhat reduced, oriented diagonally, depressed and in line with incisura capitis'
+		'extremely reduced, ventromedially compressed and located below ventral tubercle'
+		,
+		221
+		'absent'
+		'present'
+		,
+		222
+		'absent or indistinguishable'
+		'present, represented by sulcus and/or canalis'
+		,
+		223
+		'State 0'
+		'extremely abbreviated, almost obsolete, at most suggested by shallow, abbreviated depression or dorsally restricted fovea'
+		'present, shallow, and often abbreviated, typically limited to roughly entire proximal margin of bicipital face and reaching midpoint of the proximal portion of the humerus, cranial surface'
+		'present, deep and long, extends dorsoventrally across proximal portion of humerus to intersect bases tuberculum dorsale and ventrale humeri'
+		,
+		224
+		'absent'
+		'present'
+		,
+		225
+		'State 0'
+		'extremely prominent, with rounded margin'
+		'not very prominent, typically rounded'
+		'prominent but ?squared off? i.e., distal portion located much more proximally'
+		'extremely reduced, essentially lost'
+		,
+		226
+		'absent, facies cranialis variably convex'
+		'present'
+		,
+		227
+		'State 0'
+		'abruptly discontinued proximally on corpus humeri, ventral margin'
+		'gradually continued by shallow, low but distinct jugum along corpus humeri, ventral margin'
+		,
+		228
+		'State 0'
+		'pronounced, offset and well distinguished from tuberculum dorsale'
+		'diminished, low and poorly distinguished adjacent features'
+		,
+		229
+		'State 0'
+		'variable prominence, rounded, oriented cranially'
+		'extremely prominent, rounded, flares ventrally'
+		'atypical such that proximal portion of crest is markedly reduced and distal portion of crest appears as a triangular, cranially oriented process'
+		'variable prominence, trapezoidal, oriented cranially'
+		,
+		230
+		'State 0'
+		'great, well developed, and extending at least one third length of corpus humeri'
+		'small, diminutive, triangular emintenia, extending less than one third length of corpus humeri'
+		,
+		231
+		'State 0'
+		'terminus of crista deltopectoralis distal to that of crista bicipitalis'
+		'termini approximately subequal'
+		,
+		232
+		'absent'
+		'present'
+		,
+		233
+		'absent, elliptical, lacking notable flattening or bifacial compression throughout'
+		'present, strongly craniocaudally compressed, virtually laminate throughout'
+		,
+		234
+		'absent, curved'
+		'present, linear'
+		,
+		235
+		'absent'
+		'present'
+		,
+		236
+		'State 0'
+		'limited depth and proximodistal width'
+		'present, markedly deep, proximodistally broad, and typically sharply delimited'
+		'present, markedly deep cavity'
+		,
+		237
+		'absent'
+		'present, weakly defined, typically broad, shallow and truncate'
+		'present, conspicuously defined, usually narrow, deep and elongate'
+		,
+		238
+		'State 0'
+		'former proximal to latter'
+		'former approximately equal or distal to latter'
+		,
+		239
+		'State 0'
+		'ventral'
+		'medial'
+		,
+		240
+		'State 0'
+		'shallow and small, ovoid, or brachial depression nonexistent'
+		'deep and part of brachial depression, distal portion of humerus tends to be especially depressed'
+		,
+		241
+		'State 0'
+		'present, moderately large tuberculum'
+		'extremely small, almost absent'
+		'lost'
+		'present, prominent, subtriangular process oriented dorsoproximally'
+		,
+		242
+		'absent or virtually coplanar with dorsal face of humerus, vertically intersecting terminal curves of condyles at dorsodistal vertex of element'
+		'present, of varying prominence'
+		,
+		243
+		'State 0'
+		'craniocaudally compressed'
+		'thick, rounded'
+		,
+		244
+		'State 0'
+		'condylus distal to distal terminus of fossa and typically separated from distal margin fossa m. brachialis by smooth area of bone from latter'
+		'condylus (proximal margin) typically extending at least proximal to distal margin of fossa m. brachialis'
+		'condylus markedly proximal to fossa, including extreme proximal condylorum dorsalis and ventralis'
+		,
+		245
+		'absent, apex of process variably elevated dorsally compared to corpus of ulna'
+		'present'
+		,
+		246
+		'State 0'
+		'less expansive'
+		'subequal'
+		,
+		247
+		'State 0'
+		'crista rudimentary but evident despite more typically conformed cotylae'
+		'variably prominent, cotylae dorsalis and ventralis distinct'
+		,
+		248
+		'State 0'
+		'impressio planum and facies ancorae, proximocaudal margin only slightly elevated'
+		'modestly concave, deep with proximocaudal margin or brachial crest elevated only proximally, and typically not undercutting cotylae proximales'
+		,
+		249
+		'absent or indistinct, sulcus narrow, cotyla closely juxtaposed, and process rounded to triangular with distinct apex'
+		'present and variably pronounced'
+		,
+		250
+		'State 0'
+		'present, distinctly curving, proximal margin is concave, jugum extending across dorsal face from caudal tuberculum carpale to caudal margin of ulna'
+		'lost or incompletely developed or indistinct'
+		,
+		251
+		'State 0'
+		'shallow, rounded in cranial or caudal view, or is somewhat deep laterally but not cranially'
+		'deep, subangular in cranial or caudal view'
+		,
+		252
+		'State 0'
+		'weakly angular'
+		'rounded'
+		'strongly angular, almost pointed, elongated proximally'
+		,
+		253
+		'State 0'
+		'elongate'
+		'distinct and rounded'
+		'obsolete'
+		,
+		254
+		'State 0'
+		'present, shallow'
+		'lost'
+		'present, deep'
+		,
+		255
+		'State 0'
+		'preacetabular ilium greater in craniocaudal length than postacetabular ilium, ratio significantly greater than unity'
+		'subequal'
+		'postacetabular ilium greater in craniocaudal length than preacetabular ilium, ratio less than unity'
+		,
+		256
+		'State 0'
+		'present, carina is rudimentary or vestigial, cristae are dorsally prominent and approach medially, but are clearly separated from crista spinosa synsacri by variably narrow but distinct sulci iliosynsacrales'
+		'lost, cristae limited to ventral lamina not approaching medially, typically exposing fenestrae intertransversae'
+		'present, carina is distinct and synostotic'
+		,
+		257
+		'State 0'
+		'shallow or flat, arc of crest (or highest portion of separated crests) does not exceed height of postacetabular dorsal portion of the synsacrum'
+		'extremely prominent, arc of crest (or highest portion of separated crests) exceeds height of postacetabular dorsal portion of the synsacrum'
+		,
+		258
+		'State 0'
+		'oblique'
+		'subvertical'
+		'subhorizontal'
+		,
+		259
+		'State 0'
+		'jut out craniolaterally, distinctly lengthened'
+		'relatively small, close to corpus of pelvis, but blunted craniolateral projections still evident'
+		'lost or barely discernable'
+		,
+		260
+		'State 0'
+		'great, exceeding one half postacetabular synsacral length'
+		'moderate, one half to one third synsacral length'
+		'small, approximately one fourth synsacral length'
+		'extremely small, approximately one sixth synsacral length'
+		,
+		261
+		'State 0'
+		'present'
+		'lost'
+		,
+		262
+		'absent'
+		'present'
+		,
+		263
+		'State 0'
+		'raised dorsally, so that it is more visible and robust'
+		'depressed ventrally, so that it is less visible and somewhat obscures the acetabulum'
+		,
+		264
+		'absent'
+		'present'
+		,
+		265
+		'absent'
+		'oblong'
+		'essentially circular'
+		,
+		266
+		'State 0'
+		'limited to cranial one half but exceeding one third'
+		'encompasses at least one half of concavitas caudal to acetabulum'
+		'limited to cranial one third or less'
+		,
+		267
+		'absent, lamina infracristalis lacking'
+		'present, delimiting a deep (minor axis at least one half major axis) elliptical to circular margin'
+		'present, delimiting a subangular, ventrocaudally attenuated margin'
+		,
+		268
+		'State 0'
+		'lost due to lack of caudal margin'
+		'rounded'
+		'lateromedially elongate, ovoid'
+		,
+		269
+		'State 0'
+		'oriented dorsally'
+		'oriented ventrally'
+		,
+		270
+		'absent'
+		'present'
+		,
+		271
+		'absent'
+		'present'
+		,
+		272
+		'State 0'
+		'marked by a comparatively small, rounded, laterally directed prominence'
+		'marked by a comparatively prominent, ventrally curved flange, undercut by a deep concavitas infracristalis'
+		,
+		273
+		'unfused posteriorly'
+		'fused posteriorly, ilioischiatic fenestra closed'
+		,
+		274
+		'absent or barely discernable'
+		'present'
+		,
+		275
+		'State 0'
+		'extremely smooth, barely visible or absent'
+		'linelike and distinctly etched craniocaudally or cranioventrally'
+		,
+		276
+		'absent'
+		'present'
+		,
+		277
+		'absent or obsolete where incisura width less than that of acetabulum'
+		'present, narrow, maximal dorsoventral height equal to the diameter of acetabulum'
+		'present, wide, maximal dorsoventral height greater than diameter of acetabulum'
+		,
+		278
+		'State 0'
+		'ilium distinctly cranial to ischium, characterized by distinct angular indentation proximate to the terminus caudalis of ilioischiadic suture'
+		'ischium distinctly cranial to ilium, collectively defining an obliquely sloping caudal margin of pelvis exclusive of spina dorsolateralis ilii and incisura marginis caudalis, if present'
+		'subequal'
+		,
+		279
+		'absent'
+		'present'
+		,
+		280
+		'absent, transverse process does not ankylose to acetabular area'
+		'present, ankyloses to dorsal margin of acetabulum, often within dorsocaudal margin of the acetabulum'
+		'present, ankyloses to craniodorsal margin of ilioishciadic foramen with variable separation between acetabulum and ankylosis, accompanied by sessile concavity between ankylosis and margin of acetabulum'
+		'present, ankyloses to ventral site between caudal acetabular margin and cranial margin of ilioischiadic foramen, ankylosed to pila that extends from ankyloses between the ilioischiadic foramen toward the dorsal margin of the obturator foramen'
+		,
+		281
+		'State 0'
+		'last (caudalmost) one to two processes not fully fused, vestigial linelike suture site of ankylosis apparent'
+		'all processes completely fused, no linelike sutures discernable'
+		,
+		282
+		'State 0'
+		'present'
+		'lost or barely discernable'
+		,
+		283
+		'State 0'
+		'present'
+		'lost'
+		,
+		284
+		'State 0'
+		'postacetabular portion of synsacrum depressed dorsally, fossa renalis shallow'
+		'postacetabular portion of synsacrum raised ventrally, fossa renalis distinctly deeper'
+		,
+		285
+		'State 0'
+		'no vertebrae modified as in states 2?4'
+		'three or more vertebrae craniocaudally broadened, ventrally prominent, accommodating dorsally (with medial margin) a caudal extension of fossa renalis, recessus iliacus'
+		'two vertebrae craniocaudally broadened, ventrally prominent, accommodating dorsally (with medial margin) a caudal extension of fossa renalis, recessus iliacus'
+		'one vertebrae craniocaudally broadened, ventrally prominent, accommodating dorsally (with medial margin) a caudal extension of fossa renalis, recessus iliacus'
+		,
+		286
+		'absent'
+		'relatively shallow, not extending beyond caudal margin of ilium'
+		'deeply recessed, extending beyond caudal margin of ilium'
+		,
+		287
+		'absent'
+		'present'
+		,
+		288
+		'State 0'
+		'somewhat lateromedially compressed, creating a narrow medial fenestra with modestly bowed ilii, typically creating a semicircular fenestra'
+		'extremely laterally splayed, so that medial fenestra wide due to laterally bowed caudal margin of ischium'
+		'extremely lateromedially compressed, creating a narrow medial fenestra constrained by almost 180° caudal margins of the ala ilii more or less in line with the caudal portion of the synsacrum'
+		'extremely lateromedially compressed, creating a narrow medial fenestra constrained by almost 180° caudal margins of the ala ilii more or less in line with the caudal portion of the synsacrum'
+		,
+		289
+		'State 0'
+		'caudal portion of synsacrum separating from and continuing caudally past caudal margin of ischium and splaying laterally towards apex'
+		'caudal portion of synsacrum fused to caudal margin of ischium completely, ending with the ischium'
+		'caudal portion of synsacrum separating from and continuing caudally past caudal margin of ischium and tapered toward apex'
+		,
+		290
+		'State 0'
+		'large and ovoid'
+		'small and circular'
+		'foramen lost'
+		,
+		291
+		'absent or obsolete'
+		'present, of varying prominence, often present as rounded eminentia'
+		'present, prominent, but imbedded as pila within membrana ossificans'
+		,
+		292
+		'essentially absent, no extraneous demarcation apparent'
+		'semicircular depression delimited by shallow crest on dorsal face of postacetabular ilium, oriented superioinferiorly'
+		'semicircular depression delimited by shallow crest on medioventral face of postacetabular ilium, oriented mediolaterally'
+		'semicircular depression delimited by shallow crest on laterodorsal face of postacetabular ilium, oriented lateromedially with varying cranial expansion'
+		'acuminate depression delimited by shallow crest on laterodorsal face of postacetabular ilium'
+		,
+		293
+		'State 0'
+		'pubis separated significantly from postacetabular ischium, remaining completely unfused'
+		'maintains extreme proximity to postacetabular ischium, typically fused to it completely along the length of the ischium'
+		'remains largely fused as in state 2 but with a significant medial portion unfused, creating an elongate fenestra'
+		,
+		294
+		'State 0'
+		'recurved, dorsal margin variably concave'
+		'essentially straight or sigmoid, approximately aligned with major axis of apex of pubis'
+		'decurved, dorsal margin convex'
+		,
+		295
+		'State 0'
+		'pubis not extending beyond caudal portion of ischium or, if it does, makes up less than one third of entire length of pubis'
+		'portion extending beyond caudal portion of ischium makes up at least one third that of entire length of pubis or more'
+		,
+		296
+		'State 0'
+		'projecting dorsally'
+		'projecting ventrally'
+		,
+		297
+		'State 0'
+		'dorsoventrally spatulate'
+		'spatulation negligible, scapus pubis and apex pubis subparallel along ventral and dorsal margins'
+		,
+		298
+		'absent'
+		'present'
+		,
+		299
+		'State 0'
+		'markedly projected cranially'
+		'shallow, somewhat projected cranially'
+		'shallow, laterally flattened'
+		,
+		300
+		'State 0'
+		'thickening weakly developed'
+		'lacking distinct, distal thickening'
+		,
+		301
+		'State 0'
+		'lost or shallow'
+		'present, deep, extending across entire width of facies articularis antitrochantericus'
+		,
+		302
+		'State 0'
+		'craniocaudally oriented, elongate, deep'
+		'circular, most cranial impression larger than caudal impression(s)'
+		'large, lateromedially elongate, especially most cranial impression'
+		'small, circular, impression sizes subequal'
+		'essentially obsolete'
+		,
+		303
+		'State 0'
+		'located at 90° angle to femoral body'
+		'located at 90° angle to femoral body'
+		'projecting proximally'
+		,
+		304
+		'shallow or absent'
+		'present'
+		,
+		305
+		'absent'
+		'present'
+		,
+		306
+		'State 0'
+		'shallow, weakly delimited'
+		'deep'
+		,
+		307
+		'State 0'
+		'small, round'
+		'large, craniocaudally elongate'
+		,
+		308
+		'State 0'
+		'smooth, shallow'
+		'smooth, shallow (1); sharp, anteriorly oriented semicircular crest'
+		,
+		309
+		'State 0'
+		'located caudally and more distally'
+		'located laterally and more anteriorly'
+		,
+		310
+		'State 0'
+		'ovoid'
+		'circular'
+		,
+		311
+		'State 0'
+		'prominently elevated, typically tubercular'
+		'not prominently elevated, with smooth gradation'
+		,
+		312
+		'State 0'
+		'subequal to condylus medialis'
+		'distal to condylus medialis'
+		,
+		313
+		'absent'
+		'present'
+		,
+		314
+		'State 0'
+		'subequal'
+		'condylus lateralis significantly wider'
+		'condylus lateralis significantly narrower'
+		,
+		315
+		'State 0'
+		'proximal terminus of crista tibiofibularis located more proximally than that of trochlea fibularis'
+		'subequal'
+		,
+		316
+		'State 0'
+		'spherical, distal portion greatly rounded, extremely convex'
+		'triangular, distal portion somewhat rounded'
+		,
+		317
+		'State 0'
+		'abrupt, subperpendicular or acuminate'
+		'comparatively gradual'
+		,
+		318
+		'State 0'
+		'absent or rudimentary, condylus not extended by crista, caused by one distinct (often abrupt) angle or incision above the condylus medialis, rarely also a second one present (comparatively proximal), interrupting an otherwise gradual curving crest'
+		'present and prominent, condylus medialis continued by crest without interruption by angle or incision above the condylus medialis'
+		,
+		319
+		'State 0'
+		'large, round or ovoid'
+		'small, ovoid'
+		'small, circular'
+		,
+		320
+		'State 0'
+		'anterior'
+		'posterior'
+		,
+		321
+		'State 0'
+		'present, shallow'
+		'present, deep'
+		'lost'
+		,
+		322
+		'State 0'
+		'present, limited to foramina and/or pori'
+		'lost, neither recess nor separate foramina/pori evident'
+		,
+		323
+		'State 0'
+		'present'
+		'lost'
+		,
+		324
+		'State 0'
+		'present, 1'
+		'present, 2 or more'
+		'lost'
+		,
+		325
+		'absent'
+		'present'
+		,
+		326
+		'absent'
+		'present'
+		,
+		327
+		'absent'
+		'present'
+		,
+		328
+		'State 0'
+		'sigmoidal, convex laterally and concave medially'
+		'inear and variably sloping throughout'
+		'convex essentially throughout'
+		,
+		329
+		'State 0'
+		'present'
+		'lost'
+		,
+		330
+		'State 0'
+		'proximal terminus well within margin of cnemial crest'
+		'proximal terminus located distal to most distal portion of cnemial crest jugum'
+		'proximal terminus in line with distal terminus of cnemial crest jugum'
+		,
+		331
+		'State 0'
+		'not lateral to fibular head'
+		'lateral to fibular head'
+		,
+		332
+		'State 0'
+		'cristae cnemialies cranialis terminating distal to crista lateralis'
+		'cristae subequal in distal extent (typically truncated), both lacking jugae'
+		,
+		333
+		'State 0'
+		'elongate and extending past interarticular area'
+		'essentially circular, from proximal view not extending past interarticular area'
+		,
+		334
+		'State 0'
+		'present, shallow incisura'
+		'present, short jugum extending distally from margin of the head and/or distinct lateral extension of the rim of the head'
+		,
+		335
+		'State 0'
+		'sublinear and incisurate, relatively narrow'
+		'approximately ovate, relatively spacious'
+		,
+		336
+		'State 0'
+		'more than one fourth the length of the tibiotarsus'
+		'less than one fourth the length of tibiotarsus'
+		'exactly one fourth the length of tibiotarsus'
+		,
+		337
+		'State 0'
+		'pronounced'
+		'lost or barely visible'
+		,
+		338
+		'State 0'
+		'splayed laterally'
+		'medially compressed'
+		,
+		339
+		'State 0'
+		'craniocaudally short'
+		'craniocaudally elongate'
+		,
+		340
+		'absent'
+		'present'
+		,
+		341
+		'State 0'
+		'shallow, rim of condylus lateralis not raised much more than lateral epicondylar impression'
+		'deeply pitted, condylus lateralis distinctly protruding, like state 3, but no accessory depression present'
+		'shallowly depressed cranially with smaller, circular accessory located toward cranial margin, rim typically raised'
+		,
+		342
+		'State 0'
+		'pulled in medially'
+		'splayed laterally'
+		,
+		343
+		'State 0'
+		'condylus medialis distinctly smaller than condylus lateralis'
+		'subequal'
+		,
+		344
+		'State 0'
+		'present'
+		'lost'
+		,
+		345
+		'absent'
+		'present'
+		,
+		346
+		'State 0'
+		'cotyla lateralis distinctly distal to cotyla medialis'
+		'cotyla lateralis subequal to cotyla medialis'
+		'cotyla medialis distal to cotyla lateralis'
+		,
+		347
+		'State 0'
+		'shallow or absent'
+		'deep'
+		,
+		348
+		'State 0'
+		'shallow or barely visible'
+		'deep'
+		,
+		349
+		'State 0'
+		'greater than or equal to plantar prominence of lamina lateralis hypotarsi'
+		'less than plantar prominence of lamina lateralis hypotarsi'
+		,
+		350
+		'State 0'
+		'fused, so that foramina hypotarsi formed instead of just a sulcus'
+		'separated'
+		,
+		351
+		'State 0'
+		'2'
+		'1'
+		'3'
+		,
+		352
+		'State 0'
+		'medial hypotarsal crest of higher height than lateral crest'
+		'essentially equal in size'
+		'marked and laterally bordered by a proximodistally long and plantarly protruding crista lateralis'
+		,
+		353
+		'State 0'
+		'subequal in height'
+		'lateral foramina distal to medial foramina'
+		,
+		354
+		'State 0'
+		'extremely deep and small, circular'
+		'significantly deeper than sulcus extensorius'
+		'coplanar with sulcus extensorius, depth is approximately equal'
+		,
+		355
+		'State 0'
+		'each made up of one circular opening'
+		'lateral foramen made up of two circular openings'
+		,
+		356
+		'State 0'
+		'lateral foramina distinctly distal to medial foramina'
+		'lateral and medial foramina about equal in height'
+		,
+		357
+		'State 0'
+		'present and delineated moderately by cristulae'
+		'lost or present but shallow'
+		'present, deep to cavernous cristulae on both sides'
+		,
+		358
+		'State 0'
+		'lost and/or now a fossa, shaft of tarsometatarsus appears smooth and gracile'
+		'extremely prominent, located roughly halfway between proximal and distal end of the tarsometatarsus'
+		'present as jugum connecting metatarsi I to crista medialis hypotarsi'
+		,
+		359
+		'State 0'
+		'shallow'
+		'deep'
+		,
+		360
+		'State 0'
+		'subperpendicular, essentially directly dorsoplantar, unobstructed perpendicular line of sight'
+		'oblique, distinctly ventrodorsal, obstructed perpendicular line of sight'
+		,
+		361
+		'State 0'
+		'lateral'
+		'central'
+		,
+		362
+		'State 0'
+		'foramen continued distally by dorsoventrally exposed sulcus tendineus, including taxa lacking foramen distale'
+		'foramen continued distally by complete canalis tendinous'
+		,
+		363
+		'absent or indistinct'
+		'present, distinctly concave'
+		,
+		364
+		'absent'
+		'present'
+		,
+		365
+		'State 0'
+		'length from proximal to distal end less than one fifth length of entire tarsometatarsus from top of eminentia intercotylaris to extreme caudal end of metatarsal III trochlea'
+		'length from proximal to distal end one fifth or greater than length of entire tarsometatarsus from top of eminentia intercotylaris to caudal end of metatarsal III trochlea'
+		,
+		366
+		'State 0'
+		'present, moderate depression'
+		'small, shallow, almost absent'
+		,
+		367
+		'State 0'
+		'II<III ?IV and II<IV'
+		'II<III>IV'
+		'II>III?IV'
+		'II=III=IV'
+		,
+		368
+		'State 0'
+		'remains distinct on dorsal face'
+		'obsolete on dorsal face, terminating medially toward fovea ligamentorum collaterallium at distal apex of trochlea'
+		
+	;
+	MATRIX
+	'Crypturellus undulatus undulatus'		            011101001010100101010101011111102??1011000011110001111?111111110111102001001111111111110101000010111111001211011111110100011001100010110101000010001111111100001011111010111111101101111110?1?111111101111201021111111110011001010111110000102111011011101111111111110100?01?001001???0?1111100111101111101111100111111101211111121100011111111111101111010221121111111111011211
+	'Tinamus solitarius'		                          011201001010100101010101011111101??1011000011110000111?111111110111101001001111111111110101000010111011001111011111110100011001100010101111000010001111211100001011111010111111101101111110?1?111111101111101011111111110011001010111210000101111011011201131111111110100?01?001001???0?1111100111101111201111100111111201111112111100011111111111101111010121111112111111001112
+	'Lophura bulweri'		                             0111020020101101020201010211201011?102201002222000012111222221211112??1010011112221122211010010101221120011120222212101102220022000111001110000100111211111000?1011122121111111111101111110?4?112111102121102011121111110021101020211220000112111022021201121221111110101111?00111100100111131011101211120211220012211220122122122130001132212132110112201121211121112?111011112
+	'Gallus varius'		                               01110200201011010202010102112010111202201002222000012111222221211112??1010011112221122211010010101221120011120222212101102220022000111001110000100111211111000?1011122121111221110101111110?2?212111101121201011121111110021101020211220000111111122021101121121111210101112100111100100111121011112211120212210012111220112122121120001132212132110112201121221131112?211001212
+	'Gallus gallus'		                               11110200201011010202010102112011111202201002222000012111322221211112??1010011112111122211010010101221120011120222212101102220022000111002110000100111111111000?1011122121111121110101111110?2?212111102111102011121111110021101020211220000112212022011101123121111110101112100111100110112121011112211120212210011111220112122121130001132212132110112201121211231122?111001212
+	'Gavia immer'		                                 1122020020101111110201?11111113121110110000221100112121133212210222412112001211222131110101001020222013011212011131210210124001111012200101000030011112??1200011021212012122421200303213330?3?211122212111202022222112220021003110211110000222211021012112223332232421101311?10?101022001121100321203322103214201122121112212112121201132111122221111221010111211211111222001131
+	'Pygoscelis antarcticus'		                      1112020010201112110201?11111313121212110001122100001121133212110212112002011211212131110311001020222011001212011131110110124001101012210201000030013112??2211102011222012122421200303211130?1?2112222222121030222112?121112?0011202112101113?222102???210?123112233220101311?001111011002121100222101221103114211221111111112231211201132111122211101221020122221212311??1102141
+	'Spheniscus humboldti'		                        1122020010201112110201010121313121112110001221100001121133212110222112002001211212231110311001020222011001212011131110110024001101012200201000030013112??2211102021222012122321200303211110?1?2112222222121030121112?121112?0011202112101113?222102???210?123112233220201111?001101111001121100112101222103114211121112111112231221201132121122111101221020112221212311??1102142
+	'Podiceps cristatus'		                          0121020020201111020201010111101022?10110000122100002111133212210221111002001211223121110111001010212013012112011131310210024001101012100102000030011124121110002021222012113522200303213130?3?211122102121101022222111220021002130212211000212223021022112222132113321101311?10?101111001121100323001212203214101111111111212112322201122121222211103211011221222312211211002112
+	'Podiceps grisegena'		                          0121020020201111010201010111101012?10110000122100002111133212110221111002001211223131110111001020212013012112011131310210024001101012100102000030011121121110002021222011113622200312213110?3?211122102121201022222111220021002130212211000212223021022112122332113321101311?10?101111001221100323003212203214101111111111212112322201122121222211103211011221222312211211002112
+	'Caprimulgus affinis griseatus'		               0131120121101112020202010112113022?10110011?221110111232?3212110211???101001111112121220?01001111222022??1112112231121100025001100011100111000010001122??2100001011212111111122210301112310?1?212332102111202012222131120011003010111110000112121112022102113212113110111211?00111101100222110022100211120221410011112220112213112131003222?121222201122020112221312121111011111
+	'Eurostopodus argus'		                          0131120121101112020202010112113022?10110011?221110011232?3212110211???101001111112122220?01001111222022??1112112231121100025001100011200111000010001122??2100001011212112111122210301112310?1?212332102112202012222131110011003010111110000112121112022102113112133110111211?00111201100222110022110232220221410011112220112213112131003222?121222201122020112221311121111011122
+	'Eudromias ruficollis'		                        0122010020212012120201?2?11120101??10210000121100011221133222110211301101101111312111110201002010211012102122011131110111124101220012200111000020003122??2100001021222010112322110301113110231212112311112202012222121120011003030211211000221211012022111133311113110201111?001111011031121400221003111202125100211121201222131211100012211122221203212111221221211211211101232
+	'Burhinus bistriatus'		                         0112020020111112120201?2?21111102??10110000121100002221133222110221301102001111112132110201001020221012102122011131110111024101100012200111000020002122??11000210212120101134222001031131102112121223211122020222221221200110030312112110001122140121222111231211132201011122001111022031121200221003111203125100211121201122131211100012211222321103212011111221212111111101232
+	'Charadrius hiaticula semipalmatus'		          0122010020212002120201?2?11110101??10210000121100002221133212110211301111101111113111110201012010211012102122011131110101124101220012210211000020003222??21000?1021212010112322200101113110231212122321112102012222121120021003030211211000222214112022111113321113110101211?001111121031121100221003111202125100111122201222131121300012222222221203212110121231212211111001232
+	'Chionis alba'		                                1111010020112021110202?2?11110301?2202100002211000?22??1232221102113011010111111121111301?1002010221012002212011132210101324101200013200112000020001112??1100011021222011122422200201113110231212112222111202011221121120011013010111211000212224111112111123122113120111211?001111021031121300221103111202214100112112201121231111200011222222211101211010122211312111111011122
+	'Opisthocomus hoazin'		                         11110200201111210202010102112130???20210000223100002231133222110211101101001111212211220?011010102210120021120111312101113221012000111112110001100111232121000?2111312213122112100222213211?1?112322322231201022222121110021001010111210000112212021022202123223113120101111?001111011001111310121103121203114200111112101121231121300012222221?21101122020211221312212221001142
+	'Phaethon aethereus'		                          012102002030112201021101012111312221011000122310000213?1332122102222??002012211112132100111102020212012002232011131110111024111101013211111001020011122??2100001021212213122412200313213210132112312312111202012222122210021003010214110000222221113022211112212133120201211?00110102100112110022110232220321420011121210112213112131011211?22122220122111122212131132?111012141
+	'Psophia obscura'		                             012102002021100101020201011111302111011010022110000222113322211021111110100112131212111021100101022101210123201113121010102410110001110011100011001111322110001102122201311261211021122???0?1?1121223122311020111221211100210010301112100002122111210121121223231132201113222001111023011122211332103111212113100212122201121221121200011321122111102211111212112212111111011112
+	'Aramus guarana'		                              02210100202120010202010101111022111201100002211000022111332222102112??101101111312221110201001020221012102232011131210101024101100013111111000111111122??110001101122211312231211120112???0?1?112112313211202221222132110021012010112210000222211021022211112213112220101121?001111002011122210121101111212114100112111201122221211200011311122212203211110222112211111111011112
+	'Balearica regulorum'		                         11210100202120220112010100111022112201100002231000022311232221102122??101101212311121110211001020221012101222011131210111124101100011111111000011111222??1100001011211113123612211101124??0?1?112312312231201012222122110021012010212220000122221021022211112213122120101111?001111011011122221221101211212124100112122101122211111300011311122211102211110121212211111111011112
+	'Grus japonensis'		                             12220100202120010102010101112021122101100001211000021111332221102112??101101211311121120301002020221012101222011131210111124101100011111111000211111212??1100001121311013223612200323124??0?1?112312321231202222222122110021012010212210000122114021022211112213122220101111?001111011012122211211101212212124100112122101122211121300011311122111102211110122112211111111011112
+	'Podica senegalensis'		                         ???1?2?0????1??1??0????1?1???0???????????00?2?????????11????????21?????????????????????????????????????????????????????????????????13200211000010001112??1100001021222111122412200211213111?1?212212222112102012122131120022001010214?1000????????????????????22132220111311?001102022021122410121102322202212100111112201222221????????????????????????????????????????????????
+	'Sarothrura lugens'		                           ?1110200202?11010202??01011120???????11????????????????????????0?11302101001111122111110?010110?????????????2?????1110111024101110012200211000010001112??2100011011222212121121110201111411?2?212312222111202112122132120011002030214211000112211022012102233112232220112312200210200301222242012110331211211410011112220112212112130001232112211210311111012213131122?121001111
+	'Mentocrex kioloides'		                         0121010120211111020201010111202023?101110001211000022111332221101112??001002211122211110201012020221012102232011131210111024001110012200211000010011112??1100021121221000122322110202111122?2?2121123222122021111221321200110020302112110001121110121222112331122322201023131002102001011122320123113112212114100211111101121122221200032121122112203111110221132311111121011211
+	'Himantornis haematopus whitesidei'		           0111020020211101020201120111202023?10210000121100002211133222210211111101001111112121110201012010221012102122011131110111024101110012100111000010001122??1100012021221012122312110101211111?2?1121123222122021121221211200110020311112110002122210120121022331111232201013132002112023011122311121141111202114100111122101122121101200032221122112203211110222132311111111011111
+	'Gallirallus sp.'		                             111102002021110102020201011110201?211110000123100002211133222210211101101002111112121110201001010212012101222011131310111024101110012200111000010001112??1100001121222011122121110202212410?1?2121123221122031121121321200120010302122110002112210120121122131112122201123132002102011011122421123131212101114100212112103222122211200011311121112103211111221132311212111011212
+	'Canirallus oceleus batesi'		                   1111020020211101010201010111202112211110100221100002221133222210211111101002111312121110201011010221012201232011131210111024101110012200111000210001122??110002112122221112242220020211?1?2?2?2122123121122032112221321200110010302122110002121210120222122331111122101023131002102001011122320122101211201114100111112201121121211300012311121112201211111222132211211111011212
+	'Aramides cajanea'		                            01110200202111010102010101111021122211101002231000022111332????0211101101001111112121110201011010211012101232011131210111024101110013200111000010001122??1100011121212013122422110202112121?1?112122322112203211222131120011002030212211000212121013022112213111212220201311?002102001011122120122101212201114100211122101221121121300012311122112203211110221132311211111011212
+	'Rallus elegans'		                              0221020020211101020201010111102111220210000222100002231123212210211101101002111312121110201001020221012102222011131210111024101110012200202000010001122??1100021021221012122121110201111422?2?212312322112202212222132120011001030214211000222221012022102233111212220111111?002102002021222110122131112201114100112112103122121221300012321122212203211110222132311112211001211
+	'Gallinula chloropus'		                         0111020020211101010201010111102012?20210000222100002221133222210211301101002111311111110201001020222012102222011131110111024101110012200111000010001122??1100011021222012122122210201111212?2?2121123221122021122221321200110010302142110002222210120222022331111122201121122002102013022222410122103312201114100112212103122121221300012321122212203212110122332311212111001211
+	'Fulica cornuta'		                              1211020020211111020201010111102011221210000223100002211123222210212101101002112112121110201001020212012001222011131210111024101110012200111000210001122??1100001021222013122522211201212222?2?2121123221122020122221221200110120302142110002221111220222122331231122201111122002102001022122111122103312101114100112212201122221211300012321122212203211110122132311112111001211
+	'Porphyrio hochstetteri'		                      011102002011112101020101011210311122111000022110000223112??????0?1230110200211231212111021101102022201200122201113131011102400111101?200211000010001122??1100001021222012122322110201212212?2?112112322112202212122122120012002030214211000212221013022212213113212220101311?002112001021122310122101111201114100112211201121121221300011321122112203211111222132311212111001212
+	'Eurypyga helias'		                             01220100201120020202010201211030????01102002211000?2222133222210212302101001212223131110101002020222012202232011131110110024101101013211103000010001113222100022011222111112312210101212211122212122203111202221222232110022001020114210000112221012012111113112113120201211?001111123021121310211102121202214100211112201122221221300031322222221101221110212131211111111011111
+	'Rhynochetos jubatus'		                         01220101201120020202011201211030212102100002211000?22211?3?????022241210200122221213112011100202022101220223201113121011002410110001321011301001000111312110000102122211111211221010122???1?1?212122302111202022222231110012001020114210000112221112012111111123213120201111?001112123011121410211101121202214100212112201121221221300031221222321101221110122212211211111011112
+	'Diaphorapteryx hawkinsi'		                     ?1210200202?110102?2??0101121030?11??11????????????????????????0?121011?10???113?22211102110110?????????????2?????13101110221011101?????????????????1????110000???12???????24?211?2???1313??3?????????????????????2232120012001030111210000112111012??????????13213210111111?002111002021222400221101??1??1114100121111203121221111?000112?2?2??122012111???????????????????????
+	'Aptornis defossor'		                           11110111201?1??202020?110122?????????11?0???2?100????211?3?????0212412102002112112122110??211101022?0120011?2012132210101023101100123211?12110110001??2??110000?0123210?3222113??????22?????1?222312521211312012122141230023003041123211000??221?01???????????13223220112311?0111120131221222113321311112?21231002112212031212212122000?12?122?111102211010111221222232111012112
+	'Cathartes burrovianus'		                       111102012020101101020111012221302??10110000123100001121133212110211112001002211322132120311002010222012201232011132110110024101100011200211000010001112??2100001011212011222412200203213110124112322122232302011222121120021002010112110000222124122012211121132133120102211?001111011001122310221102211202214200211122101112221321310012312122121101111021222121312111111011112
+	'Cariama cristata'		                            011102002010101102020111021120102??10210000221100001121133222110211401101001211111111110301001010221012101212011131110101024101100011200111000110001112??1100021021212113122412200101213110?4?212?324022111020112122212100210010102112100001121110220121021131231231201011132001111013011121220131102112202214100211122201121112211300012321122121101112011122121212111111001112
+	'Leptosomus discolor'		                         0111020110111012020202120211213121110110000221100011132133212210211301001011211321111130301001010222012201212011131110100024101100013211211000110002112??21000120212121111223122001112132101241121322221112020112221211100110010102121100002122141110121011131221131202013112001101021001221211211102221203214100212122101122232321300012312221121101221021121121312211111001212
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=342 TEXT='Tibiotarsus. Distal portion of tibiotarsus, cranial aspect, condylus medialis and condylus lateralis, relative positions, form.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 368;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1555787780919; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8678535537825192045; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4928550324684337804; mqVersion 320; checksumv 0 3 3893353123 null getNumChars 368 numChars 368 getNumTaxa 40 numTaxa 40 short true bits 127 states 127 sumSquaresStatesOnly 184652.0 sumSquares 184652.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 775; setLocation -127 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #8678535537825192045 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; toggleUseWeights off; endTell; setAssignedID 1656.1547766583897.6096213570722056634; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 703; setLocation -127 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4928550324684337804 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 703; setLocation -127 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 757; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 703; setLocation -127 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4928550324684337804 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1340 703; setLocation -127 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 368; 
+ENDBLOCK;
+BEGIN TREES;
+ Title Default_Trees; ID 016a3b3140472; LINK Taxa = Taxa; TRANSLATE [0] 1 Crypturellus_undulatus_undulatus, [1] 2 Tinamus_solitarius, [2] 3 Lophura_bulweri, [3] 4 Gallus_varius, [4] 5 Gallus_gallus, [5] 6 Gavia_immer, [6] 7 Pygoscelis_antarcticus, [7] 8 Spheniscus_humboldti, [8] 9 Podiceps_cristatus, [9] 10 Podiceps_grisegena, [10] 11 Caprimulgus_affinis_griseatus, [11] 12 Eurostopodus_argus, [12] 13 Eudromias_ruficollis, [13] 14 Burhinus_bistriatus, [14] 15 Charadrius_hiaticula semipalmatus, [15] 16 Chionis_alba, [16] 17 Opisthocomus_hoazin, [17] 18 Phaethon_aethereus, [18] 19 Psophia_obscura, [19] 20 Aramus_guarana, [20] 21 Balearica_regulorum, [21] 22 Grus_japonensis, [22] 23 Podica_senegalensis, [23] 24 Sarothrura_lugens, [24] 25 Mentocrex_kioloides, [25] 26 Himantornis_haematopus_whitesidei, [26] 27 Gallirallus_sp., [27] 28 Canirallus_oceleus_batesi, [28] 29 Aramides_cajanea, [29] 30 Rallus_elegans, [30] 31 Gallinula_chloropus, [31] 32 Fulica_cornuta, [32] 33 Porphyrio_hochstetteri, [33] 34 Eurypyga_helias, [34] 35 Rhynochetos_jubatus, [35] 36 Diaphorapteryx_hawkinsi, [36] 37 Aptornis_defossor, [37] 38 Cathartes_burrovianus, [38] 39 Cariama_cristata, [39] 40 Leptosomus_discolor; TREE Default_symmetrical = (((((1,2),(3,(4,5))),((6,7),(8,(9,10)))),(((11,12),(13,(14,15))),((16,17),(18,(19,20))))),((((21,22),(23,(24,25))),((26,27),(28,(29,30)))),(((31,32),(33,(34,35))),((36,37),(38,(39,40)))))); TREE Default_bush = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40); TREE Default_ladder = (1,(2,(3,(4,(5,(6,(7,(8,(9,(10,(11,(12,(13,(14,(15,(16,(17,(18,(19,(20,(21,(22,(23,(24,(25,(26,(27,(28,(29,(30,(31,(32,(33,(34,(35,(36,(37,(38,(39,40))))))))))))))))))))))))))))))))))))))); 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Constraint_Trees'; ID 016a3b3140993; LINK Taxa = Taxa; TRANSLATE [0] 1 Crypturellus_undulatus_undulatus, [1] 2 Tinamus_solitarius, [2] 3 Lophura_bulweri, [3] 4 Gallus_varius, [4] 5 Gallus_gallus, [5] 6 Gavia_immer, [6] 7 Pygoscelis_antarcticus, [7] 8 Spheniscus_humboldti, [8] 9 Podiceps_cristatus, [9] 10 Podiceps_grisegena, [10] 11 Caprimulgus_affinis_griseatus, [11] 12 Eurostopodus_argus, [12] 13 Eudromias_ruficollis, [13] 14 Burhinus_bistriatus, [14] 15 Charadrius_hiaticula semipalmatus, [15] 16 Chionis_alba, [16] 17 Opisthocomus_hoazin, [17] 18 Phaethon_aethereus, [18] 19 Psophia_obscura, [19] 20 Aramus_guarana, [20] 21 Balearica_regulorum, [21] 22 Grus_japonensis, [22] 23 Podica_senegalensis, [23] 24 Sarothrura_lugens, [24] 25 Mentocrex_kioloides, [25] 26 Himantornis_haematopus_whitesidei, [26] 27 Gallirallus_sp., [27] 28 Canirallus_oceleus_batesi, [28] 29 Aramides_cajanea, [29] 30 Rallus_elegans, [30] 31 Gallinula_chloropus, [31] 32 Fulica_cornuta, [32] 33 Porphyrio_hochstetteri, [33] 34 Eurypyga_helias, [34] 35 Rhynochetos_jubatus, [35] 36 Diaphorapteryx_hawkinsi, [36] 37 Aptornis_defossor, [37] 38 Cathartes_burrovianus, [38] 39 Cariama_cristata, [39] 40 Leptosomus_discolor; TREE 'Combined_Analysis_Constraint_Tree' = ((1,2),(4,((11,12),((39,(38,40)),((((6,10),(7,8)),(18,(34,35))),((((23,(24,25)),((27,29),(((31,32),30),33))),(19,(22,20))),((((13,15),14),16),17))))))); 
+ENDBLOCK;

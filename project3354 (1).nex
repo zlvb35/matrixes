@@ -1,0 +1,312 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.43.33 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=78;
+    TAXLABELS
+    		'Acanthocrinus'
+		'Aishacrinus'
+		'Ambicocrinus'
+		'Ambonacrinus'
+		'Anthemocrinus'
+		'Anthracocrinus'
+		'Apoarchaeocrinus'
+		'Apurocrinus'
+		'Archaeocrinus'
+		'Balacrinus'
+		'Becsciecrinus'
+		'Bogotacrinus'
+		'Bromidocrinus'
+		'Bucucrinus'
+		'Cadiscocrinus'
+		'Callistocrinus'
+		'Cefnocrinus'
+		'Cotylacrinna'
+		'Cribanocrinus'
+		'Cybelecrinus'
+		'Cyphocrinus'
+		'Dalicrinus'
+		'Deocrinus'
+		'Diabolocrinus'
+		'Diamenocrinus'
+		'Dimerocrinites decadactylus'
+		'Duncanicrinus'
+		'Emperocrinus'
+		'Eodimerocrinites'
+		'Eucrinus'
+		'Eudimerocrinus'
+		'Euptychocrinus'
+		'Fombuenacrinus'
+		'Gazacrinus'
+		'Gilbertsocrinus tuberosus'
+		'Gnarycrinus'
+		'Goyacrinus'
+		'Griphocrinus'
+		'Gustabilicrinus'
+		'Hercocrinus'
+		'Hollowaycrinus'
+		'Lampterocrinus'
+		'Lemennocrinus'
+		'Lutocrinus'
+		'Lyriocrinus'
+		'Macarocrinus'
+		'Neoarchaeocrinus'
+		'Nexocrinus'
+		'Nyctocrinus'
+		'Ophiocrinus'
+		'Opsiocrinus'
+		'Orthocrinus'
+		'Ortsaecrinus'
+		'Paradiabolocrinus'
+		'Pararchaeocrinus'
+		'Perunocrinus'
+		'Preschericrinus'
+		'Probalocrinus'
+		'Proexenocrinus'
+		'Pterinocrinus'
+		'Ptychocrinus'
+		'Rhachicrinus'
+		'Rhaphanocrinus'
+		'Rheocrinus'
+		'Rhipidocrinus'
+		'Rhodocrinites kirbyi'
+		'Shidianocrinus'
+		'Silfonocrinus'
+		'Simplococrinus'
+		'Spyridiocrinus'
+		'Stereoaster'
+		'Thylacocrinus'
+		'Tormosocrinus'
+		'Trichinocrinus'
+		'Ursucrinus'
+		'Rosfacrinus'
+		'Sakucrinus'
+		'Priscillacrinus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=18;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Calyx lobation at the position where arms become free'
+		 [2] 'Short ray lobes built with fixed brachials'
+		 [3] 'Fixed pinnules'
+		 [4] 'Arm openings into the calyx'
+		 [5] 'Free arm openings grouped'
+		 [6] 'Arm habit'
+		 [7] 'Free arm branching'
+		 [8] 'Free arm branching type'
+		 [9] 'Maximum number of free arm bifurcations'
+		 [10] 'Maximum number of total brachial bifurcations (fixed and free combined)'
+		 [11] 'Ramules'
+		 [12] 'Pinnulation'
+		 [13] 'Pinnulation type'
+		 [14] 'Proximal pinnules enlarged'
+		 [15] 'Proximal free arm brachials'
+		 [16] 'Mature arm brachials'
+		 [17] 'Mature brachial type, if uniserial'
+		 [18] 'Mature brachial type, if biserial'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'five'
+		'ten'
+		'fifteen'
+		'twenty'
+		'forty'
+		'thirty'
+		,
+		5
+		'absent, arms not grouped'
+		'present, arms grouped'
+		,
+		6
+		'erect'
+		'pendant'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'isotomous/poorly isotomous'
+		'asymmetrical heterotomous'
+		'endotomous'
+		'exotomous'
+		'holotomous'
+		,
+		9
+		'one'
+		'two'
+		'three'
+		'four or more'
+		,
+		10
+		'none'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		'"'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'apinnulate'
+		'pinnulate'
+		,
+		13
+		'regular (one pinnule per brachial)'
+		'hyperpinnulate (two pinnules per brachial)'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'uniserial'
+		'biserial'
+		,
+		16
+		'uniserial'
+		'biserial'
+		,
+		17
+		'rectilinear uniserial'
+		'weakly to moderately cuneate uniserial'
+		'strongly cuneate uniserial'
+		,
+		18
+		'wedge biserial'
+		'round biserial'
+		'flat chisel biserial'
+		
+	;
+	MATRIX
+	'Acanthocrinus'		                        00010110120100?1-0
+	'Aishacrinus'		                          00?30012140????1-?
+	'Ambicocrinus'		                         0001001013010001-2
+	'Ambonacrinus'		                         10010010120110000-
+	'Anthemocrinus'		                        1011001012010111-2
+	'Anthracocrinus'		                       1012000--20101001-
+	'Apoarchaeocrinus'		                     001300???20100001-
+	'Apurocrinus'		                          10011013371110000-
+	'Archaeocrinus'		                        1001001024011001-2
+	'Balacrinus'		                           0011000--10100001-
+	'Becsciecrinus'		                        10010010020100000-
+	'Bogotacrinus'		                         10011011371110000-
+	'Bromidocrinus'		                        00011?????????11-2
+	'Bucucrinus'		                           000400????0100001-
+	'Cadiscocrinus'		                        100110????0???11-2
+	'Callistocrinus'		                       00050010040101000-
+	'Cefnocrinus'		                          10110010130101001-
+	'Cotylacrinna'		                         1113100--2010101-2
+	'Cribanocrinus'		                        0001101313010001-2
+	'Cybelecrinus'		                         1013000--20100001-
+	'Cyphocrinus'		                          11111?0???????????
+	'Dalicrinus'		                           0013100--2011101-2
+	'Deocrinus'		                            001100?????1??????
+	'Diabolocrinus'		                        1101100--1010011-2
+	'Diamenocrinus'		                        1003101236010001-0
+	'Dimerocrinites decadactylus'		          1001000--1010011-2
+	'Duncanicrinus'		                        1001000--10100001-
+	'Emperocrinus'		                         111110????????????
+	'Eodimerocrinites'		                     1003000--2010001?2
+	'Eucrinus'		                             1003100--2010001-2
+	'Eudimerocrinus'		                       1001001024011001-2
+	'Euptychocrinus'		                       1011000--10100001-
+	'Fombuenacrinus'		                       0003(0,1)00--2010101-2
+	'Gazacrinus'		                           000100????0???11-2
+	'Gilbertsocrinus tuberosus'		            1001111013010001-2
+	'Gnarycrinus'		                          1001100--1010001-2
+	'Goyacrinus'		                           1013100--2010101-1
+	'Griphocrinus'		                         10010010240???11-2
+	'Gustabilicrinus'		                      0013000--20101001-
+	'Hercocrinus'		                          001100?????1??11-1
+	'Hollowaycrinus'		                       100110(0,1)(0,1)33010001-0
+	'Lampterocrinus'		                       1000001--01110001-
+	'Lemennocrinus'		                        000110????????1???
+	'Lutocrinus'		                           0003100--2010001-2
+	'Lyriocrinus'		                          0001000--1010011-2
+	'Macarocrinus'		                         10011010120100000-
+	'Neoarchaeocrinus'		                     0001001024010001-2
+	'Nexocrinus'		                           1003000--20100001-
+	'Nyctocrinus'		                          1001101013011011-2
+	'Ophiocrinus'		                          1003000--2010001-0
+	'Opsiocrinus'		                          1001000--1010001-0
+	'Orthocrinus'		                          000110????????????
+	'Ortsaecrinus'		                         0001100--1010?001-
+	'Paradiabolocrinus'		                    110110????????????
+	'Pararchaeocrinus'		                     00010010240100(0,1)01-
+	'Perunocrinus'		                         1001000--1010011-2
+	'Preschericrinus'		                      000110????????????
+	'Probalocrinus'		                        101300?????1??11-2
+	'Proexenocrinus'		                       0001000--10100001-
+	'Pterinocrinus'		                        10011010131110000-
+	'Ptychocrinus'		                         10010010120100001-
+	'Rhachicrinus'		                         100300????????????
+	'Rhaphanocrinus'		                       0002000--20100001-
+	'Rheocrinus'		                           0013000--2010011-2
+	'Rhipidocrinus'		                        0011100--11100000-
+	'Rhodocrinites kirbyi'		                 0001001313010001-2
+	'Shidianocrinus'		                       110110????????????
+	'Silfonocrinus'		                        1011000--21100001-
+	'Simplococrinus'		                       0013000--2010101-2
+	'Spyridiocrinus'		                       0004000--400--11-2
+	'Stereoaster'		                          00131010??01??01-2
+	'Thylacocrinus'		                        1003100--3010001-2
+	'Tormosocrinus'		                        1111100--1010111-2
+	'Trichinocrinus'		                       0011100--10100001-
+	'Ursucrinus'		                           0013000--20100001-
+	'Rosfacrinus'		                          0003000--20100000-
+	'Sakucrinus'		                           1011100--1010001-2
+	'Priscillacrinus'		                      1013100--2010011-0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Primary';
+	TEXT CHARACTER=2 TEXT='Secondary^nDependent on character 12, state 1 (Calyx lobation = present)';
+	TEXT CHARACTER=3 TEXT='Primary';
+	TEXT CHARACTER=4 TEXT='Primary';
+	TEXT CHARACTER=5 TEXT='Primary';
+	TEXT CHARACTER=6 TEXT='Primary';
+	TEXT CHARACTER=7 TEXT='Primary';
+	TEXT CHARACTER=8 TEXT='Secondary^nDependent on character 80, state 1 (Free arm branching = present)';
+	TEXT CHARACTER=9 TEXT='Secondary^nDependent on character 80, state 1 (Free arm branching = present)';
+	TEXT CHARACTER=10 TEXT='Primary';
+	TEXT CHARACTER=11 TEXT='Primary';
+	TEXT CHARACTER=12 TEXT='Primary';
+	TEXT CHARACTER=13 TEXT='Secondary^nDependent on character 85, state 1 (Pinnulation = pinnulate)';
+	TEXT CHARACTER=14 TEXT='Secondary^nDependent on character 85, state 1 (Pinnulation = pinnulate)';
+	TEXT CHARACTER=15 TEXT='Primary';
+	TEXT CHARACTER=16 TEXT='Primary';
+	TEXT CHARACTER=17 TEXT='Secondary^nDependent on character 89, state 0 (Mature arm brachials = uniserial)';
+	TEXT CHARACTER=18 TEXT='Secondary^nDependent on character 89, state 1 (Mature arm brachials = biserial)';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 18;
+      ENDBLOCK;
+      
