@@ -1,0 +1,567 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.17.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Lithobius forficatus'
+		'Henicops washpoolensis'
+		'Craterostigmus tasmanianus'
+		'Cryptops hortensis'
+		'Scolopocryptops ferrugineus'
+		'Scolopendra cingulata'
+		'Aphilodon weberi'
+		'Arrup kyushuensis'
+		'Ballophilus rouxi'
+		'Bothriogaster signata'
+		'Clinopodes flavidus'
+		'Dicellophilus carniolensis'
+		'Dignathodon microcephalus'
+		'Eucratonyx meinerti'
+		'Geophilus carpophagus'
+		'Gonibregmatus anguinus'
+		'Haplophilus subterraneus'
+		'Henia vesuviana'
+		'Himantarium gabrielis'
+		'Hydroschendyla submarina'
+		'Mecistocephalus tahitiensis'
+		'Notiphilides maximiliani'
+		'Orphnaeus brevilabiatus'
+		'Orya almohadensis'
+		'Pachymerium ferrugineum'
+		'Pectiniunguis argentinensis'
+		'Plesioschendyla confossa'
+		'Ribautia repanda'
+		'Steneurytion antipodum'
+		'Strigamia maritima'
+		'Tygarrup diversidens'
+		'Zelanophilus provocator'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=92;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Variability in number of antennal articles within the species'
+		 [2] 'Number of antennal articles'
+		 [3] 'Antennal articles with row of sensilla (sensilla macrotrichoidea of Ernst) for telescopic movement'
+		 [4] 'Two lateral pits on terminal antennal article'
+		 [5] 'Two lateral areas with club-like sensilla (sensilla basiconica of Ernst) on terminal antennal article'
+		 [6] 'Button-like sensilla on antennal articles'
+		 [7] 'Club-like sensilla (sensilla basiconica) on antennal articles other than XIV'
+		 [8] 'Spear-like sensilla (sensilla brachyconica of Ernst) on the apex of terminal antennal article'
+		 [9] 'Cluster of a few sensilla of types a and b on dorsal and ventral sides of antennal articles II, V, IX, XIII (Geophilomorpha) or II, VI, XI, XVI (Craterostigmus)'
+		 [10] 'Antennal form'
+		 [11] 'Tomosvary''s organs'
+		 [12] 'Frontal line'
+		 [13] 'Clypeal area (one or two finely areolate "insulae")'
+		 [14] 'Composition of labrum'
+		 [15] 'Suture delineating clypeus from labrum on external surface'
+		 [16] 'Arrangement of pectinate lamella(e) of mandible'
+		 [17] 'Differentiation of dorsalmost pectinate lamella ("dentate lamella")'
+		 [18] 'Structure of dorsal sclerotized lamella'
+		 [19] 'Coxosternite of first maxillae'
+		 [20] 'Median projection of coxosternite of first maxillae'
+		 [21] 'Lappets at the basis of coxosternite of first maxillae'
+		 [22] 'Lappets at the basis of telopodite of first maxillae'
+		 [23] 'Articles of telopodite of first maxillae'
+		 [24] 'Postmaxillary sclerites'
+		 [25] 'Pretarsus of telopodite of second maxillae'
+		 [26] 'Accessory spines on the base of pretarsus of second maxillae'
+		 [27] 'Chitinous lines'
+		 [28] 'Median projection on anterior margin of forcipular coxosternite'
+		 [29] 'Coxopleural suture'
+		 [30] 'Denticle at base of forcipular tarsungulum'
+		 [31] 'Denticle at base of forcipular trochanteroprefemur'
+		 [32] 'Denticle at base of forcipular femur'
+		 [33] 'Denticle at base of forcipular tibia'
+		 [34] 'Poison calyx symmetry'
+		 [35] 'Poison calyx location'
+		 [36] 'Poison calyx shape'
+		 [37] 'Principal paratergites'
+		 [38] 'Intercalary paratergites'
+		 [39] 'Ventral pores'
+		 [40] 'Definition of ventral pore areas'
+		 [41] 'Ventral grooves'
+		 [42] 'Preterga'
+		 [43] 'Terminal leg dimorphism, swelling in males'
+		 [44] 'Pretarsus of terminal legs'
+		 [45] 'Coxopleura of ultimate legs expanded onto preceding segment(s)'
+		 [46] 'Coxal organs'
+		 [47] 'Coxal pores'
+		 [48] 'Anal organs'
+		 [49] 'Variability in number of pairs of legs in the species'
+		 [50] 'Number of pairs of legs in female'
+		 [51] 'Parental care'
+		 [52] 'Post-embryonic development'
+		 [53] 'Clypeal areolation'
+		 [54] 'Mid-longitudinal areolate stripe on clypeus'
+		 [55] 'Paralabial sclerites (=coclypeus)'
+		 [56] 'Stilus'
+		 [57] 'Labral sidepiece divided into alae by transverse thickened line'
+		 [58] 'Telopodite of first maxilla (and coxal projection where present) with sclerotized basal part, hyaline distal part'
+		 [59] 'Paired longitudinal cephalic sulci'
+		 [60] 'Sternal apodemata (rhachis of Crabill)'
+		 [61] 'Posterior part of sternum and internal part of coxopleura of ultimate leg-bearing segment with thick pilosity'
+		 [62] 'Ocelli'
+		 [63] 'Sclerotization of midline of forcipular coxosternum'
+		 [64] 'Common hinge between all four articles of forcipular telopodite'
+		 [65] 'Dorsal brush on second maxillary tarsus'
+		 [66] 'Tergites of forcipular and first leg-bearing segments'
+		 [67] 'Female gonopods with basal article bearing macrosetae, distal article a robust claw'
+		 [68] 'Segmental arrangement of longitudinal connectives between spiracles'
+		 [69] 'Labral bristle bands'
+		 [70] 'Spinules on spines of labral side piece'
+		 [71] 'Shape of border between labral and clypeal parts of epipharynx'
+		 [72] 'Scales on clypeal part of epipharynx with fringe of spines directed distally'
+		 [73] 'Sensilla in median cluster on epipharynx surrounded by short spines'
+		 [74] 'Circlet of branching spines encircling sensilla coeloconica on median clypeal part of epipharynx'
+		 [75] 'Lateral cluster of spear-shaped sensilla with inflated base and distomedially-directed apices on clypeal part of epipharynx'
+		 [76] 'Extent and orientation of hypopharnygeal bar'
+		 [77] 'Distribution of cuticular armature on hypopharynx'
+		 [78] 'Proximal part of hypopharynx bearing robust spines similar to those on pharynx'
+		 [79] 'Density of spines on proximal part of hypopharynx'
+		 [80] 'Spear-shaped sensilla on proximal part of hypopharynx'
+		 [81] 'Longitudinal furrow bisecting distal part of hypopharynx, strengthened by sclerotization'
+		 [82] 'Bilobate distal tip of hypopharynx'
+		 [83] 'Median incison on backside of hypopharynx'
+		 [84] 'Median plate on proximal ventral surface of hypopharynx'
+		 [85] 'Form of sensilla along lips and distal tip of hypopharynx'
+		 [86] 'Distribution of conical sensilla on distal and ventral parts of hypopharynx'
+		 [87] 'Mandibular condyle'
+		 [88] 'Lamina condylifera of mandible delimited by sutures'
+		 [89] 'Ventral margin of mandible with respect to gnathal edge'
+		 [90] 'Robustness of tentorium'
+		 [91] 'Position of epipharyngeal bar of tentorium'
+		 [92] 'Pharynx cross-section'
+	;
+	STATELABELS
+		1
+		'variable'
+		'invariable'
+		,
+		2
+		'at least 17'
+		'14'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'filiform antennuate'
+		'filiform non-attenuate'
+		'very short, attenuate'
+		'clavate'
+		,
+		11
+		'present'
+		'absent'
+		,
+		12
+		'present'
+		'absent'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'more than one component'
+		'single piece'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'multiple lamellae arranged in an imbricated series'
+		'lamellae arranged in a single row'
+		,
+		17
+		'lacking strong change in pigmentation and without marked thickening of the teeth compared to more ventral pectinate lamellae'
+		'abrupt change in pigmentation / sclerotisation and with marked thickening of the teeth compared to more ventral pectinate lamellae'
+		,
+		18
+		'single file of teeth without division into blocks'
+		'three blocks of teeth'
+		,
+		19
+		'divided in the middle'
+		'undivided'
+		,
+		20
+		'well developed'
+		'represented by a rounded shoulder'
+		'wholly absent'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'two'
+		'one'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'claw'
+		'seta or seta-/spine-bearing tubercle'
+		'none'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'posterior part ventral, running onto lateral side of forcipule more anteriorly'
+		'entirely ventral'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'symmetrical'
+		'asymmetrical (pores more strongly developed on one side of calyx)'
+		,
+		35
+		'within the telopodite'
+		'in the trunk'
+		,
+		36
+		'drop-like (calyx distinctly expanded compared to duct)'
+		'cylindrical (calyx not much wider than duct)'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent in at least female'
+		'present in both sexes'
+		,
+		40
+		'pore area lacking topological definition from surrounding parts of sternite'
+		'pore area depressed relative to surrounding parts of sternite'
+		'pore area raised above surrounding parts of sternite'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent (as slender in male as in female)'
+		'present'
+		,
+		44
+		'present, claw-like'
+		'absent'
+		'tubercle, variably with a seta'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'simple'
+		'homogeneous'
+		'heterogenous'
+		'absent'
+		,
+		47
+		'both dorsal and ventral'
+		'ventral only'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'constant'
+		'variable'
+		,
+		50
+		'15'
+		'21 or 23'
+		'37-87'
+		'more than 87'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'anamorphic'
+		'epimorphic'
+		,
+		53
+		'homogeneous'
+		'marked on the anterior part, virtually absent on the posterior part'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'evenly sclerotised'
+		'hyaline distal part present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'evenly setose'
+		'short, dense setae present'
+		,
+		62
+		'present'
+		'absent'
+		,
+		63
+		'unsclerotized median suture'
+		'sclerotized, inflexible'
+		,
+		64
+		'separate articles'
+		'common hinge'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'separate'
+		'single tergite'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'connected between successive spiracles along length of trunk'
+		'connections between spiracles separated by one or more segments at least in anterior part of trunk'
+		,
+		69
+		'distinctly differentiated pair of spine bands on each side of midpiece tooth plate'
+		'labral part of epipharynx lacking paramedian spine bands'
+		,
+		70
+		'absent (spines or teeth lacking spinules)'
+		'present (plumose spines with extensive covering of spinules)'
+		,
+		71
+		'gently arched medially'
+		'strongly arched, with median labral part short'
+		'concave medially, with labral part in front of a median notch'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'surrounding spines absent'
+		'surrounding spines present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'elongate bar, nearly perpendicular on hypopharynx'
+		'restricted to proximal part of hypopharynx, triangular in dorsal view'
+		,
+		77
+		'spines confined to lips of hypopharynx'
+		'dense aggregations of triangular spines confined to distal end, spines small medially and larger distolaterally'
+		'dense scales with short, needle-like projections covering most of frontal surface, distal tip and ventral side of hypopharynx'
+		,
+		78
+		'pharynx-type spines absent'
+		'spines present'
+		,
+		79
+		'similar to that on pharynx'
+		'much denser than those on pharynx'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'lobes absent'
+		'lobes present'
+		,
+		83
+		'absent (unpaired)'
+		'present (incision continuous from membranous lips to border with first maxilla)'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'button-shaped sensilla with conspicuous terminal pore'
+		'conical sensilla with indistinct terminal pore'
+		,
+		86
+		'confined to lips and distal tip'
+		'scattered on entire ventral surface of hypopharynx'
+		,
+		87
+		'well developed, hook-shaped condyle'
+		'condyle represented by a ridge or hump'
+		,
+		88
+		'present (suture well-defined along much or all of sclerite)'
+		'absent (sutures indistinct)'
+		,
+		89
+		'ventral margin sharply angled with respect to gnathal edge'
+		'ventral margin a continuation of gnathal edge, bearing a row of slender spines'
+		,
+		90
+		'tentorial bars robust, with expanded pigmented / sclerotized parts'
+		'pigmented parts of tentorial bars confined to slender strips'
+		,
+		91
+		'submarginal, surrounded by non-sclerotized areas'
+		'marginal, articulating with labrum'
+		,
+		92
+		'pharynx with broad section, small dilator muscles'
+		'narrow, double anchor cross-section, sclerotized, with massive dilator muscles attaching to sides of pharynx'
+		
+	;
+	MATRIX
+	'Lithobius forficatus'		                 00000000000000000-000001000000000000000-000000100000000000100000001-0-000-0?00-0000?0-000000
+	'Henicops washpoolensis'		               00000000000000000-000001000000000000000-000000100000000000000000001-0-000-0?00-0000?0-000000
+	'Craterostigmus tasmanianus'		           10000001100000000-0001110000101000000-0-00000?000010000000000010000-???0?-0?00-0001??-00000?
+	'Cryptops hortensis'		                   10100000001100000-000000000010000000000-01000001011100000000011111--0-000-0?00-0000?0-000000
+	'Scolopocryptops ferrugineus'		          10100000001100000-0000000000101000000-0-00000001011100000000011111--0-000-0?00-0000?0-000000
+	'Scolopendra cingulata'		                00100000001100000-0000000100101000000-0-00000001011100000000001111--0-000-0?00-0000?0-000000
+	'Aphilodon weberi'		                     1110100111110--10-100000100101111010000-0112001012?1001000000111000?---1000?20-0000?????0011
+	'Arrup kyushuensis'		                    11101001101000000-100011200001100000000-0101000002?1111111011111000?0-?01?0?00-0100?10110101
+	'Ballophilus rouxi'		                    11101001131101101010110100111000010000120102011112?1001000000111000?10100?1?00-1001???010011
+	'Bothriogaster signata'		                11111001121101001010001001110000000001111111000113?1001000000111000?1010001?0100000???000011
+	'Clinopodes flavidus'		                  11101001111100010-1001000010110001000010011001101211001000000111000?11210?002??00010??111011
+	'Dicellophilus carniolensis'		           11101001101000000-000011100000111000000-0111000002111011110111110000000?1?0?00-0100?10110101
+	'Dignathodon microcephalus'		            11101001111000010-110010101110110010000-0111001012?1001000000111000?1-200?0020-0011010110011
+	'Eucratonyx meinerti'		                  11101010101001111010110000011000000000100111100113?1001000000111000110??0?0020-0001???010011
+	'Geophilus carpophagus'		                11101001101100010-10110000110100010000101110001012110010000001110000102?000020-0001010111011
+	'Gonibregmatus anguinus'		               11101100121101010-11011100111000000111100111100113?1001000000111000110??0?1?20-0001?10110011
+	'Haplophilus subterraneus'		             11111001121101001010111101111000000001111111010112?100100000011100011010011?0110000?10000011
+	'Henia vesuviana'		                      11101001111100010-110010101110000010001101100010121100100000011100001120000020-0011?10110011
+	'Himantarium gabrielis'		                11111001121001001010011100110000000011111111000113?100100000011100011010011?0110000?10000011
+	'Hydroschendyla submarina'		             111010011011010111101101000110000000001001120111121100100000011100001010001?00-1001???000011
+	'Mecistocephalus tahitiensis'		          11101011101000000-000011000001111000000-01110000021111111111111100000-?01?0?00-0100???110101
+	'Notiphilides maximiliani'		             11101111121101100-1011100001100000011110011203-113?1001000000111000110100?1?10-1000?11010011
+	'Orphnaeus brevilabiatus'		              111011?1121101100-1000100001100000011110011103-11211001000000111000?1010001?10-1000?11010011
+	'Orya almohadensis'		                    11101111121101100-1011100001100000011110011103-113?100100000011100011010001?10-1000?11010011
+	'Pachymerium ferrugineum'		              11101001101110110-101101001001100000001001100010121100100000011100001121??0020-0001010011011
+	'Pectiniunguis argentinensis'		          11101001101101111110110100011000000000100112021112?1001000000111000?101?0?1?00-0001???000011
+	'Plesioschendyla confossa'		             111010??1011010110100101000110000?0?00100112011112?1001000000111000?101?001?00-0001???010011
+	'Ribautia repanda'		                     11101000101110010-10000000100110000000100110020012?1001000000111000?11210?0120-?0011??111011
+	'Steneurytion antipodum'		               1110100?101010010-10010100000110000000100110000012?1001000000111000?1121000120-00011??111011
+	'Strigamia maritima'		                   11101001111100010-100000000111000001001001100111121100100000011100001021000?20-0001???110011
+	'Tygarrup diversidens'		                 111010?1101000000-000011000000100001000-0101000002?110111111111100000-?01?0?00-0100???110101
+	'Zelanophilus provocator'		              11101001101010010-1000010000001000000010011000001211001000000111000?10210?0020-0001?10011011
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 92;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ; TYPESET * default = ORD: 1 ;
+ENDBLOCK;

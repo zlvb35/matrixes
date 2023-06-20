@@ -1,0 +1,665 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.21.02 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=80;
+    TAXLABELS
+    		'Christensenia aesculifolia'
+		'Angiopteris evecta'
+		'Botrychium lunaria'
+		'Ophioglossum lusitanicum'
+		'Osmunda regalis'
+		'Tectaria incisa'
+		'Drynaria quercifolia'
+		'Niphidium crassifolium'
+		'Leptochilus axillaris'
+		'Platycerium bifurcatum'
+		'Gleichenia dicarpa'
+		'Stromatopteris moniliformis'
+		'Diplopterygium bancroftii'
+		'Dicranopteris linearis'
+		'Sticherus bifidus'
+		'Gleichenella pectinata'
+		'Matonia pectinata'
+		'Phanerosorus sarmentosus'
+		'Dipteris conjugata'
+		'Dipteris lobbiana'
+		'Dipteris novoguineensis'
+		'Cheiropleuria integrifolia'
+		'Cheiropleuria bicuspis'
+		'Hausmannia dichotoma'
+		'Hausmannia pelletieri'
+		'Hausmannia wilkinsi'
+		'Hausmannia forchhammeri'
+		'Hausmannia gracillima'
+		'Hausmannia morinii'
+		'Hausmannia sinensis'
+		'Hausmannia sewardii'
+		'Protorhipis buchii'
+		'Protorhipis crenata'
+		'Dictyophyllum rugosum'
+		'Dictyophyllum bremerense'
+		'Dictyophyllum madagascariense'
+		'Dictyophyllum davidii'
+		'Dictyophyllum nilsonii'
+		'Dictyophyllum fuensalidai'
+		'Dictyophyllum nathorstii'
+		'Dictyophyllum exile'
+		'Dictyophyllum falcatum'
+		'Kenderlykia gracilis'
+		'Digitopteris repanda'
+		'Clathropteris meniscioides'
+		'Clathropteris obovata'
+		'Goeppertella microloba'
+		'Goeppertella microloba1'
+		'Goeppertella microloba2'
+		'Goeppertella memoria-watanabei'
+		'Goeppertella memoria-watanabei1'
+		'Goeppertella memoria-watanabei2'
+		'Goeppertella taverai'
+		'Goeppertella taverai1'
+		'Goeppertella taverai2'
+		'Goeppertella varida'
+		'Goeppertella varida1'
+		'Goeppertella varida2'
+		'Thaumatopteris muensteri'
+		'Thaumatopteris nipponica'
+		'Thaumatopteris brauniana'
+		'Camptopteris muensteriana'
+		'Camptopteris spiralis'
+		'Boodlepteris turoniana'
+		'Camptopteris japonica'
+		'Szea sinensis'
+		'Gleicheniaceaephyllum falcatum'
+		'Delosorus heterophyllus'
+		'Matonidium goepperti'
+		'Phlebopteris polypodioides'
+		'Piazopteris branneri'
+		'Tomaniopteris katonii'
+		'Weichselia reticulata'
+		'Selenocarpus muensterianus'
+		'Hymenophyllum javanicum'
+		'Trichomanes ankersii'
+		'Schizaea dichotoma'
+		'Lygodium japonicum'
+		'Marsilea ancyclopoda'
+		'Cyathea myriotricha'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=51;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Sterile fertile dimorphy'
+		 [2] 'Degree of dimorphism'
+		 [3] 'Position of sporangia'
+		 [4] 'Percentage of frond lamina covered by sporangia'
+		 [5] 'Shape of sori'
+		 [6] 'Arrangement of sporangia within sorus'
+		 [7] 'Indusium'
+		 [8] 'Indusium peltate'
+		 [9] 'Presence of prominent central receptacle in sorus'
+		 [10] 'Number of sporangia per sorus'
+		 [11] 'Sporangial maturation'
+		 [12] 'Diameter of sporangial capsule'
+		 [13] 'Number of cell files in sporangial stalk'
+		 [14] 'Ratio of length of sporangial stalk to diameter of sporangial capsule'
+		 [15] 'Presence of annulus'
+		 [16] 'Annulus type'
+		 [17] 'Annulus orientation'
+		 [18] 'Ring-type annulus interrupted at stalk'
+		 [19] '(GLEICHENIALES) Spore size'
+		 [20] 'Spore shape'
+		 [21] 'Rhizome'
+		 [22] 'Rhizome vasculature'
+		 [23] 'Solenostele'
+		 [24] 'Rhizome indument'
+		 [25] 'Rhizome indument type'
+		 [26] 'Stipe vasculature'
+		 [27] 'Stipe vasculature shape'
+		 [28] 'Rachial architecture'
+		 [29] 'Initial rachial dichotomy isodromous/anisodromous'
+		 [30] 'Subsequent rachial dichotomies'
+		 [31] 'Directionality of anisotomous dichotomies'
+		 [32] 'Dichotomizing axis sometimes reduced to rachial bud'
+		 [33] 'For pedate fronds, number of primary segments on each rachial arm'
+		 [34] 'For pedate fronds, degree of laminal fusion between primary segments'
+		 [35] 'For pedate fronds with simple veins, degree of laminal fusion between secondary veins'
+		 [36] 'For pedate fronds, degree of fusion between tertiary veins'
+		 [37] 'For pedate fronds, primary veins'
+		 [38] 'For pedate fronds with simple primary veins, primary segment shape'
+		 [39] 'For pedate fronds with dichotomizing primary veins, primary veins anastomising'
+		 [40] 'For pedate fronds, secondary veins'
+		 [41] 'For pedate fronds, maximum diameter of frond'
+		 [42] 'For pedate fronds without free primary segments, overall leaf lamina bipartite'
+		 [43] 'For pedate fronds, lamina dissecting within primary segment between branched primary veins'
+		 [44] 'Venation type'
+		 [45] 'For free-veined taxa, ultimate veins showing multiple sympodial dichotomizing venation pattern'
+		 [46] 'Proportion of ultimate areoles with free ending veinlets'
+		 [47] 'Areolar free-ending veinlets branched'
+		 [48] 'Arrangement of ultimate areoles'
+		 [49] 'Size of ultimate areoles'
+		 [50] 'Secondary and tertiary veins forming regular orthogonal venation pattern'
+		 [51] 'Stomata type'
+	;
+	STATELABELS
+		1
+		'Monomorphic'
+		'Dimorphic'
+		,
+		2
+		'Holodimorphic'
+		'Hemidimorphic'
+		,
+		3
+		'Laminal'
+		'Marginal'
+		,
+		4
+		'<50% '
+		'50 - 90% '
+		'>90%'
+		,
+		5
+		'Circular to oval'
+		'Oblong to linear'
+		,
+		6
+		'In a single row'
+		'In multiple rows'
+		,
+		7
+		'Absent'
+		'Present'
+		,
+		8
+		'No'
+		'Yes'
+		,
+		9
+		'No'
+		'Yes'
+		,
+		10
+		'Very few (3-8)'
+		'Few (9-15)'
+		'Many (>15)'
+		,
+		11
+		'Simultaneous'
+		'Mixed'
+		,
+		12
+		'up to 200um'
+		'200 - 400 um'
+		'400 - 600 um'
+		'600 - 800 um'
+		'>800 um'
+		,
+		13
+		'0'
+		'1'
+		'2'
+		'3'
+		'4'
+		'Many (>4)'
+		,
+		14
+		'<=1'
+		'>1'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'Patch'
+		'Ring'
+		,
+		17
+		'Lateral'
+		'Oblique to Vertical'
+		,
+		18
+		'No'
+		'Yes'
+		,
+		19
+		'<30 um'
+		'30 - 50 um'
+		'>50 um'
+		,
+		20
+		'Trilete'
+		'Monolete'
+		,
+		21
+		'upright'
+		'creeping'
+		,
+		22
+		'Protostele (haplostele)'
+		'Solenostele'
+		'Dictyostele'
+		,
+		23
+		'Single'
+		'Polycyclic'
+		,
+		24
+		'Absent'
+		'Present'
+		,
+		25
+		'Uniseriate hairs'
+		'Bristles (multi-seriate, but not flattened)'
+		'Scales'
+		,
+		26
+		'Single bundle'
+		'Multiple bundles'
+		,
+		27
+		'C shape'
+		'Omega'
+		'Circular'
+		'Solid central bundle'
+		,
+		28
+		'Two or more axes of growth'
+		'One axis of growth'
+		,
+		29
+		'Isotomous'
+		'Anisotomous'
+		,
+		30
+		'Isotomous'
+		'Anisotomous'
+		,
+		31
+		'Catadromous'
+		'Alternate'
+		,
+		32
+		'Never'
+		'Yes'
+		,
+		33
+		'Very few (1 - 2)'
+		'Few (3 - 6) '
+		'Some (7 - 12)'
+		'Medium 12 - 20'
+		'Many (20 - 50)'
+		'Very many (>50)'
+		,
+		34
+		'None - completely free'
+		'up to 1/3 fused'
+		'1/3 to 2/3 fused'
+		'2/3 to almost fused (shallow lobes)'
+		'Fully fused, may have teeth but no lobes'
+		,
+		35
+		'None - completed dissected'
+		'0 - 1/3 fused (Deep lobes)'
+		'1/3 - 2/3 fused (Medium lobes)'
+		'2/3 to almost fused (Shallow lobes)'
+		'Fully fused - may have teeth, but no lobes'
+		,
+		36
+		'None - completely dissected'
+		'Up to 1/3 fused'
+		'1/3 - 2/3 fused'
+		'2/3 to fully fused'
+		,
+		37
+		'Simple'
+		'Dichotomising'
+		,
+		38
+		'Linear'
+		'Lanceolate / Oblanceolate'
+		,
+		39
+		'Never'
+		'Yes'
+		,
+		40
+		'Simple'
+		'Dichotomising'
+		,
+		41
+		'Small (<50cm)'
+		'Medium (50 - 100cm)'
+		'Large (>1m)'
+		,
+		42
+		'No'
+		'Yes'
+		,
+		43
+		'No'
+		'Yes'
+		,
+		44
+		'Free'
+		'Anastomosing'
+		'Anastomosing with internally directed veinlets'
+		,
+		45
+		'No'
+		'Yes'
+		,
+		46
+		'<=50%'
+		'>50%'
+		,
+		47
+		'Mostly not branched'
+		'Mostly branched'
+		,
+		48
+		'Areoles only found locally'
+		'Mesh of areoles throughout lamina'
+		,
+		49
+		'< 1mm2'
+		'1-3mm2'
+		'>3mm2'
+		,
+		50
+		'Yes'
+		'No'
+		,
+		51
+		'Anomocytic'
+		'Paracytic'
+		'Cyclocyctic'
+		'Other'
+		
+	;
+	MATRIX
+	'Christensenia aesculifolia'		               0-00000-02020-0----11??1212011?0-----------2-?11(0,1)?2
+	'Angiopteris evecta'		                       0-00000-01?(1,2)0-0----00(1,2)???1211110-----------00---?-2
+	'Botrychium lunaria'		                       10??------?4??0----0?100-??11110-----------0?---?-2
+	'Ophioglossum lusitanicum'		                 10??------?4??0----0?100-121????-----------2-0?1(0,1)-(0,2)
+	'Osmunda regalis'		                          110(1,2)------0(0,1,2,3)(4,5,3)0100--002-100011110-----------00?--?-0
+	'Tectaria incisa'		                          0-000110021(0,1,2,3)3?1111-102-121011110-----------2-1111-(0,3)
+	'Drynaria quercifolia'		                     1000010-021(0,1,2,3)311111-112-121011110-----------2-001(0,1)-3
+	'Niphidium crassifolium'		                   0?000?0-021(0,1,2,3)311111-112-121011110-----------2-101(1,2)-?
+	'Leptochilus axillaris'		                    1002------1(0,1,2,3)311111-112-121011110-----------2-1112-(0,2)
+	'Platycerium bifurcatum'		                   1002?---??1(0,1,2,3)(3,2)11111-112-121??00?0-----------2-0012-3
+	'Gleichenia dicarpa'		                       0-00000-000(0,1,2,3)(4,5,3,2)01110-010-120001111-----------00---?-(0,3)
+	'Stromatopteris moniliformis'		              0-0?0?0-020(0,1,2,3)101110-110-1(0,2)00011?1-----------00---?-(0,3)
+	'Diplopterygium bancroftii'		                0-00000-000(0,1,2,3)(4,5,3,2)01110-010-120001111-----------00---?-(0,3)
+	'Dicranopteris linearis'		                   0-00010-010(0,1,2,3)(4,5,3,2)01110-010-100001111-----------01---?-(0,3)
+	'Sticherus bifidus'		                        0-00000-000(0,1,2,3)(4,5,3,2)01110-110-120001111-----------00---?-(0,3)
+	'Gleichenella pectinata'		                   0-00010?010(0,1,2,3)(4,5,3,2)01110-0110100001111-----------01-?-?-(0,3)
+	'Matonia pectinata'		                        0-00001110025011102011110000110030130100---1---01-0
+	'Phanerosorus sarmentosus'		                 0-0000111002501110101111003111(0,1)1-----?-----1----?-0
+	'Dipteris conjugata'		                       0-01010-021(0,1)4011101111011000010012-31-111112-111011
+	'Dipteris lobbiana'		                        0-0(1,0)010-020(0,1)4011101111011100010001-31-011112-111011
+	'Dipteris novoguineensis'		                  0-01010-02?(0,1)401110111101100001001(3,4)-31-010102-111011
+	'Cheiropleuria integrifolia'		               1002?-----114011101010-10030010014-31-110002-111011
+	'Cheiropleuria bicuspis'		                   1002?-----11401110(0,1)010-10030010014-31-110102-111011
+	'Hausmannia dichotoma'		                     0-0(1,0)0????????????????????00001?0(1,2)(1,2)-31-?1??12-??101?
+	'Hausmannia pelletieri'		                    ?????????????????????????????100(1,0)(1,2)?31-010112-1?101?
+	'Hausmannia wilkinsi'		                      ????????????????????????????????01-31-010112???101?
+	'Hausmannia forchhammeri'		                  0-000????????????????????????1001(1,2,3)-31-01??12-??1?1?
+	'Hausmannia gracillima'		                    ????????????????????????????0??0(1,0)2-31?0?011????????
+	'Hausmannia morinii'		                       0-0(1,0)?10-01?0(4,5)011??00???????????014-31-010?02-1?101?
+	'Hausmannia sinensis'		                      0-01010-0(1,0)?0?0111000???????0010014-31-010102-1?101?
+	'Hausmannia sewardii'		                      ????????????????????1???????010004-31-010102-1?1???
+	'Protorhipis buchii'		                       ?????????????????????????????10014-31-010?02-??1?1?
+	'Protorhipis crenata'		                      0-010?????????????00????????????1(2,3,4)-31-010?12-??1?1?
+	'Dictyophyllum rugosum'		                    0-010?0-0(1,0)?(1,2)(4,5)01110(0,1)0???????0?100(1,2)1(1,2)301-0??-2-??1?1?
+	'Dictyophyllum bremerense'		                 0-01(0,1)10-02?(0,1,2)?0?1??10???????00100212301-01?-2-111?1?
+	'Dictyophyllum madagascariense'		            0-01??0-0??2??111????????00??????(1,0)130100???2-??1?11
+	'Dictyophyllum davidii'		                    0-00(0,1)10?02?0???????????????00100(1,2)13301-0(0,1)??2?111?1?
+	'Dictyophyllum nilsonii'		                   0-01??0-0?????????(1,2)0????????0100211301-0??-2-1?1?1?
+	'Dictyophyllum fuensalidai'		                ??????????????????????????????????3301-0??-2-??1?1?
+	'Dictyophyllum nathorstii'		                 0-01???????????????????????00100411300-0?--2-??1?1?
+	'Dictyophyllum exile'		                      0-010?0-0(1,0)?2??11??????????000100401300-0?--2-??1?1?
+	'Dictyophyllum falcatum'		                   0-01000-00?1??11???????????00100301300-00--2-??1?1?
+	'Kenderlykia gracilis'		                     ???????????????????????????001001123010000-2-??1?1?
+	'Digitopteris repanda'		                     ?????????????????????????????1?0(1,2)1-30?-1??-2-??101?
+	'Clathropteris meniscioides'		               0-01010-01?(0,1)4?111010?????0000100(1,2)12301-020-2-11100?
+	'Clathropteris obovata'		                    0-01010-0(1,0)?(0,1)4?111010???????0?100(1,2)1(2,3)301-0??-2-1?100?
+	'Goeppertella microloba'		                   0?01??0-0(1,0)????111????????????????(1,0)(1,2,0)(1,3)01-0?--2-1?1?1?
+	'Goeppertella microloba1'		                  0?01??0-0(1,0)????111????????????????(1,0)1101-0?--2-1?1?1?
+	'Goeppertella microloba2'		                  0?01??0-0(1,0)????111????????????110(2,3,4,5)1(1,2)301-0?--2-1?1?1?
+	'Goeppertella memoria-watanabei'		           ?????????????????????????????????(1,0)(1,0)(1,3)0?-0??-2-??1?1?
+	'Goeppertella memoria-watanabei1'		          ?????????????????????????????????(1,0)(1,0)10?-0??-2-??1?1?
+	'Goeppertella memoria-watanabei2'		          ?????????????????????????????????(1,0)(1,0)30?-0??-2-??1?1?
+	'Goeppertella taverai'		                     0-0????-0????????????????????????(1,0)(1,0)(1,3)0?-0??-2-??1?1?
+	'Goeppertella taverai1'		                    0-0????-0????????????????????????1(1,0)10?-0??-2-??1?1?
+	'Goeppertella taverai2'		                    0-0????-0????????????????????????(1,0)(1,0)30?-0??-2-??1?1?
+	'Goeppertella varida'		                      0-010?0-0(1,0)???????????????????????(1,0)(1,2)(1,3)01-0??-2-??1?1?
+	'Goeppertella varida1'		                     0-010?0-0(1,0)???????????????????????(1,0)1101-0??-2-??1?1?
+	'Goeppertella varida2'		                     0-010?0-0(1,0)???????????????????110(2,3,4)1(1,2)301-0??-2-??1?1?
+	'Thaumatopteris muensteri'		                 0?0(1,0)010-0(1,0)?1?0111020???????01100111301-0?0-2-1?1?1?
+	'Thaumatopteris nipponica'		                 ???????????????????????????01100101301-00?-2-1?1?1?
+	'Thaumatopteris brauniana'		                 0-01010-01?1??11??201??1(1,2)0001100101301-0??-2-1?1?1?
+	'Camptopteris muensteriana'		                ????????????????????????????????????01-0??-2-??1?0?
+	'Camptopteris spiralis'		                    0-010?0-0??2??1110?????????001?0502300-0?--2-??1?1?
+	'Boodlepteris turoniana'		                   0-0(1,0)010-0(1,2)??401110?010-10000?11?-------?---00---?-0
+	'Camptopteris japonica'		                    0?0(1,2)010-0(1,0)?1??11???????????001?0(4,5)02300-0?--2-??1?1?
+	'Szea sinensis'		                            0-00010-02?1??1110(1,2)0????????????-----------01---?-?
+	'Gleicheniaceaephyllum falcatum'		           ???????????????????????????01111---?-------00---?-?
+	'Delosorus heterophyllus'		                  0-00001111?(0,1)??111?(1,2)0?????????????00(0,3)0?-0---00---?-?
+	'Matonidium goepperti'		                     0-0000111(1,2)????111?2??????????100(3,4)0030?-0---00---?-?
+	'Phlebopteris polypodioides'		               0-0000???1????????(1,2)01??1(1,2)000110020130?-0---1---0?-?
+	'Piazopteris branneri'		                     0?01000-11?(0,1,2)??11??10?????????10??00(1,3)0?-0---1---0?-?
+	'Tomaniopteris katonii'		                    ????0111120150111??????????????????????????????????
+	'Weichselia reticulata'		                    1002001111?1?011??20???????0?10??0(1,0)????????1-??????
+	'Selenocarpus muensterianus'		               0-001?0-0(1,0)????11??(0,1)0?????????100(1,2,3)01301-0---00---?-?
+	'Hymenophyllum javanicum'		                  0-1---100??(0,1,2,3)501110-010-100311110-----------00---?-?
+	'Trichomanes ankersii'		                     0-1---100??(0,1,2,3)501110-010-100311110-----------00---?-?
+	'Schizaea dichotoma'		                       1100??0-0-?(0,1,2,3)(4,5,3)0110--110-100(0,3)000-0-----------00---?-3
+	'Lygodium japonicum'		                       1100???-0-?(0,1,2,3)(4,5,3)0110--010-100311110-----------00---?-0
+	'Marsilea ancyclopoda'		                     10??????????????????110??0(0,1)1???0-----------1---1(1,2)-3
+	'Cyathea myriotricha'		                      0-000?0-??????11??-002-12??11110-----------00---?-?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=35 TEXT='Webb paper';
+	TEXT TAXON=77 TEXT='Genus Mohria - unusual in no dimorphic fronds, dictyostelic, and has scales instead of uniseriate hairs';
+
+        [Character comments]
+        	TEXT CHARACTER=2 TEXT='''-'' for every monomorphic species. ';
+	TEXT CHARACTER=6 TEXT='.';
+	TEXT CHARACTER=7 TEXT='"-" for acrostichoid species';
+	TEXT CHARACTER=13 TEXT='Unordered character';
+
+      [Attribute comments]
+      	TEXT TAXON=64 CHARACTER=1 TEXT='Gandolfo - Sterile and fertile pinnules are alternate';
+	TEXT TAXON=73 CHARACTER=1 TEXT='Alvin 1968';
+	TEXT TAXON=41 CHARACTER=1 TEXT='Schweitzer 2009';
+	TEXT TAXON=40 CHARACTER=1 TEXT='Zeiller';
+	TEXT TAXON=34 CHARACTER=3 TEXT='Thomas 1922';
+	TEXT TAXON=19 CHARACTER=12 TEXT='Need to get size';
+	TEXT TAXON=17 CHARACTER=12 TEXT='Seward 1899: 0.5mm long, 0.33mm wide^nKramer: Large';
+	TEXT TAXON=5 CHARACTER=12 TEXT='Seward 1899: says Osmunda regalis smaller than Matonia pectinata (0.5mm long, 0.33mm wide)';
+	TEXT TAXON=29 CHARACTER=12 TEXT='Stockey : 110-130 um to 150-160 um in diameter';
+	TEXT TAXON=35 CHARACTER=12 TEXT='Guignard - 300 - 450 um^nWebb: 150 mm';
+	TEXT TAXON=64 CHARACTER=12 TEXT='Gandolfo - 100 um diameter^nBut I''m scoring as ? because these charcoalified fossils might have shrunk. ';
+	TEXT TAXON=45 CHARACTER=12 TEXT='200 um';
+	TEXT TAXON=65 CHARACTER=12 TEXT='Kon''no (350 - 400 um)';
+	TEXT TAXON=66 CHARACTER=12 TEXT='0.25 x 0.4 mm';
+	TEXT TAXON=72 CHARACTER=12 TEXT='Klavins 2004: 200 um wide';
+	TEXT TAXON=71 CHARACTER=12 TEXT='Ash (1972) 150 - 600 um';
+	TEXT TAXON=68 CHARACTER=12 TEXT='Skog (1988) Actual sori only 0.5mm. No indication of sporangial width though (can guess maximum is only 250 um)';
+	TEXT TAXON=73 CHARACTER=12 TEXT='Alvin 1968 - 0.8 x 0.3 mm  (300 um) ';
+	TEXT TAXON=30 CHARACTER=12 TEXT='Wang and Zhang 2010: 80 - 120 um (commonly 100)';
+	TEXT TAXON=38 CHARACTER=12 TEXT='Harris: 320 um';
+	TEXT TAXON=41 CHARACTER=12 TEXT='Wenn 1982: 0.4 - 0.6 mm';
+	TEXT TAXON=59 CHARACTER=12 TEXT='Harris 1931: 390 um';
+	TEXT TAXON=34 CHARACTER=12 TEXT='Thomas (1922) Diameter of annulus .35 - .5 mm, spore masses .25 - .28 mm';
+	TEXT TAXON=46 CHARACTER=12 TEXT='Wang - 140 - 300 um';
+	TEXT TAXON=63 CHARACTER=12 TEXT='Nathorst (1906) 440 - 500 um';
+	TEXT TAXON=61 CHARACTER=12 TEXT='Nathorst 1907: 200 - 250 um';
+	TEXT TAXON=37 CHARACTER=12 TEXT='Webb: 0.15 - 0.2mm diameter';
+	TEXT TAXON=36 CHARACTER=12 TEXT='Appert: 420 - 550';
+	TEXT TAXON=17 CHARACTER=10 TEXT='~6';
+	TEXT TAXON=11 CHARACTER=10 TEXT='Flora of New South Wales - mostly 2 sporangia';
+	TEXT TAXON=29 CHARACTER=10 TEXT='Stockey: 8 - 12 (-13)';
+	TEXT TAXON=35 CHARACTER=10 TEXT='Guignard: 3-4 per sori^nWebb 1982: at least 30';
+	TEXT TAXON=64 CHARACTER=10 TEXT='Gandolfo - 10 -20';
+	TEXT TAXON=65 CHARACTER=10 TEXT='Kon''no- 6 - 9 (';
+	TEXT TAXON=66 CHARACTER=10 TEXT='Yao 1988 - 20 - 30';
+	TEXT TAXON=70 CHARACTER=10 TEXT='Schweitzer 2009 - 6 - 13^n^nME: erring on the side of more ';
+	TEXT TAXON=72 CHARACTER=10 TEXT='Klavins 2004: >25, up to 28, but maybe more';
+	TEXT TAXON=74 CHARACTER=10 TEXT='van Konijnenburg van Cittert 5 - 7^nCaier: 5 - 8';
+	TEXT TAXON=71 CHARACTER=10 TEXT='10 - 14';
+	TEXT TAXON=68 CHARACTER=10 TEXT='Skog (1988) - 8 - 11';
+	TEXT TAXON=73 CHARACTER=10 TEXT='Alvin 1968 - usually 12';
+	TEXT TAXON=30 CHARACTER=10 TEXT='Wang and Zhang 3 - 6 round to ovoid sporangia';
+	TEXT TAXON=38 CHARACTER=10 TEXT='Webb 1982" 4 - 5';
+	TEXT TAXON=41 CHARACTER=10 TEXT='Thomas 1922: 4-7^nSchweitzer 2009: 3 - 5';
+	TEXT TAXON=59 CHARACTER=10 TEXT='Guignard 2009: crowded, about 4 per sorus^nHarris (1931) same';
+	TEXT TAXON=34 CHARACTER=10 TEXT='Harris (1944) : 1-4 ';
+	TEXT TAXON=46 CHARACTER=10 TEXT='Wang - 2 - 5';
+	TEXT TAXON=56 CHARACTER=10 TEXT='Oishi (1940) - mostly 8 - 9^n^nMe: erring on side of more';
+	TEXT TAXON=47 CHARACTER=10 TEXT='Original scoring just Very few';
+	TEXT TAXON=61 CHARACTER=10 TEXT='Nathorst (1907) : 9 (8 - 10)';
+	TEXT TAXON=37 CHARACTER=10 TEXT='Webb: 25';
+	TEXT TAXON=19 CHARACTER=18 TEXT='Although Stockey (Fig. 6j) says they are interrupted by stalk. ';
+	TEXT TAXON=23 CHARACTER=18 TEXT='Kramer - complete^nStockey 2006 - interrupted^nBomfleur - complete';
+	TEXT TAXON=29 CHARACTER=18 TEXT='Stockey : " annulus is vertical, consisting 8 - 10 cells and interrupted by stalk"^nBut based on photographs and assessment of D. conjugata, I doubt this';
+	TEXT TAXON=64 CHARACTER=18 TEXT='Gandolfo - interrupted by stomium (?) (but not stalk - see Discussion)';
+	TEXT TAXON=59 CHARACTER=18 TEXT='Harris 1931';
+	TEXT TAXON=34 CHARACTER=18 TEXT='Harris 1944 ';
+	TEXT TAXON=29 CHARACTER=16 TEXT='Stockey - also called Dipteris and Cheiropleuria as vertical annulus - should this be changed to Oblique?';
+	TEXT TAXON=59 CHARACTER=16 TEXT='Schenk 1867';
+	TEXT TAXON=19 CHARACTER=13 TEXT='4 Robbin';
+	TEXT TAXON=20 CHARACTER=13 TEXT='4 Robbin';
+	TEXT TAXON=77 CHARACTER=13 TEXT='Kramer : "thick stalk"';
+	TEXT TAXON=11 CHARACTER=13 TEXT='Kramer - family most (except Stromatopteris) have multiseriate short stalk';
+	TEXT TAXON=29 CHARACTER=13 TEXT='Stockey: 4-6 cells in transverse section';
+	TEXT TAXON=75 CHARACTER=13 TEXT='Moran: about 6';
+	TEXT TAXON=45 CHARACTER=13 TEXT='Bomfleur: quadraseriate';
+	TEXT TAXON=72 CHARACTER=13 TEXT='Klavins: one central, 6 - 8 around it';
+	TEXT TAXON=34 CHARACTER=13 TEXT='Thomas 1922: Short massive stalk';
+	TEXT TAXON=19 CHARACTER=19 TEXT='Stockey: 30-40 um^nown measurements';
+	TEXT TAXON=20 CHARACTER=19 TEXT='own measurements';
+	TEXT TAXON=23 CHARACTER=19 TEXT='Stockey - 22 - 30 (and up to 38) um^nThomas 1922 - 37um^n';
+	TEXT TAXON=21 CHARACTER=19 TEXT='own measurements';
+	TEXT TAXON=17 CHARACTER=19 TEXT='Seward 1899 : 0.07 mm (70 um)^nKato 1993: 53um';
+	TEXT TAXON=29 CHARACTER=19 TEXT='Stockey - 18 - 25 um in diameter';
+	TEXT TAXON=35 CHARACTER=19 TEXT='Guignard - Average 40um Range (38 - 45)';
+	TEXT TAXON=64 CHARACTER=19 TEXT='Gandolfo - 14 - 25 um diameter^n^nBut I''m scoring as ? as these charcoalified fossils may have shrunk';
+	TEXT TAXON=45 CHARACTER=19 TEXT='Bomfluer: 30 - 50 um';
+	TEXT TAXON=22 CHARACTER=19 TEXT='Stockey: 39 -49';
+	TEXT TAXON=1 CHARACTER=19 TEXT='Kramer - 20 - 40 um (but describing whole family)';
+	TEXT TAXON=66 CHARACTER=19 TEXT='Yao 1988 - 40 - 68 um';
+	TEXT TAXON=70 CHARACTER=19 TEXT='van Konihnenburg van Cittert: ca 46um (42 - 55)';
+	TEXT TAXON=74 CHARACTER=19 TEXT='van Konijnenburg van Cittert 38 um (26 - 43)';
+	TEXT TAXON=71 CHARACTER=19 TEXT='van cittert van konij 35 - 43';
+	TEXT TAXON=68 CHARACTER=19 TEXT='van Konijnenburg van Cittert : 30 - 60 um^nSkog - same';
+	TEXT TAXON=73 CHARACTER=19 TEXT='Alvin 1968 - 18 to (67) to 84 um. ... also up to 106 um';
+	TEXT TAXON=30 CHARACTER=19 TEXT='Wang and Zhang : 20 - 30 um, average 28um';
+	TEXT TAXON=38 CHARACTER=19 TEXT='Guignard 2009: 26 - 42 um^nSchweitzer: 55 - 60';
+	TEXT TAXON=59 CHARACTER=19 TEXT='Guignard : 65um^nalso Harris';
+	TEXT TAXON=34 CHARACTER=19 TEXT='Schweitzer: 15 um^nHarris (1944) : ~ 40 um';
+	TEXT TAXON=46 CHARACTER=19 TEXT='Wang - 22 - 65 um, mean 41um';
+	TEXT TAXON=33 CHARACTER=19 TEXT='Schweitzer: 15 um';
+	TEXT TAXON=61 CHARACTER=19 TEXT='Nathorst : about 50um';
+	TEXT TAXON=69 CHARACTER=19 TEXT='van cittert van konij';
+	TEXT TAXON=11 CHARACTER=22 TEXT='Kramer';
+	TEXT TAXON=77 CHARACTER=20 TEXT='Kramer : trilete, less often monolete';
+	TEXT TAXON=16 CHARACTER=20 TEXT='Kramer''s subgenus Acropterygium';
+	TEXT TAXON=74 CHARACTER=20 TEXT='van Konijnenburg van Cittert';
+	TEXT TAXON=71 CHARACTER=20 TEXT='van Konijnenburg van Cittert';
+	TEXT TAXON=68 CHARACTER=20 TEXT='van Konijnenburg van Cittert';
+	TEXT TAXON=72 CHARACTER=11 TEXT='Klavins 2004: "appear to be at approximately the same level of development"';
+	TEXT TAXON=34 CHARACTER=11 TEXT='Harris (1944): sporangia all same age - Me: But he might have been looking at a very old specimen (few sporangia)';
+	TEXT TAXON=19 CHARACTER=51 TEXT='Stockey: stomata paracytic';
+	TEXT TAXON=1 CHARACTER=51 TEXT='Kramer: Polycyclocytic';
+	TEXT TAXON=73 CHARACTER=44 TEXT='Alvin 1968: "Net" when describing fertile pinnules';
+	TEXT TAXON=18 CHARACTER=28 TEXT='"long slender trailing fronds, forked unequally at rather long intervals, with the apices of some branches represented (as in Gleichenia and Lygodium) by resting buds" Holttum 1953';
+	TEXT TAXON=12 CHARACTER=28 TEXT='Or has been described as pseudo-dichotomous without further branching. To check further';
+	TEXT TAXON=64 CHARACTER=28 TEXT='Gandolfo - Dichotomous or Pseudodichotomous';
+	TEXT TAXON=67 CHARACTER=28 TEXT='Crabtree 1988';
+	TEXT TAXON=73 CHARACTER=28 TEXT='Ash (1968) - Begian material shows some evidence of pedate arrangement, not unlike Matoniaceae';
+	TEXT TAXON=24 CHARACTER=28 TEXT='Following based on Seward''s 1910 ';
+	TEXT TAXON=46 CHARACTER=28 TEXT='Oishi (1932) inferred as they say the species is alike to C. meniscioides except shape of pinna';
+	TEXT TAXON=20 CHARACTER=34 TEXT='Or should it be pinnate? ';
+	TEXT TAXON=40 CHARACTER=34 TEXT='Schweitzer 2009: Difference between this and D. exile, is pinnae are adanate at base^nZeiller: 1903: Picture is completely unfused? ';
+	TEXT TAXON=61 CHARACTER=21 TEXT='Nathorst 1907';
+	TEXT TAXON=19 CHARACTER=25 TEXT='Observation by T: bases are quite flattened. ';
+	TEXT TAXON=5 CHARACTER=25 TEXT='Given overlapping petiole bases - no exposed rhizome - NA? none? missing?';
+	TEXT TAXON=12 CHARACTER=25 TEXT='According to Bower^n^nKramer too';
+	TEXT TAXON=16 CHARACTER=25 TEXT='Bower calls them bristles. My observation so far is that they are uniseriate hairs. ';
+	TEXT TAXON=59 CHARACTER=42 TEXT='Seward 19190: figure';
+	TEXT TAXON=73 CHARACTER=5 TEXT='van Konijnenburg van Cittert';
+	TEXT TAXON=41 CHARACTER=5 TEXT='Thomas 1922';
+	TEXT TAXON=59 CHARACTER=5 TEXT='Schenk 1867';
+	TEXT TAXON=63 CHARACTER=5 TEXT='Nathorst (1906): Similar to Dictyophyllum';
+	TEXT TAXON=29 CHARACTER=14 TEXT='Stockey : 2-3 cells tall^nBomfleur: short';
+	TEXT TAXON=45 CHARACTER=14 TEXT='Bomfleur: long^nMe: is it really long though? How do I define long?';
+	TEXT TAXON=72 CHARACTER=14 TEXT='Klavins: up to 300um long (stalk to apex)';
+	TEXT TAXON=73 CHARACTER=14 TEXT='Alvin 1968: "sessile" ';
+	TEXT TAXON=59 CHARACTER=14 TEXT='Harris 1931';
+	TEXT TAXON=24 CHARACTER=26 TEXT='Richter 1906';
+	TEXT TAXON=77 CHARACTER=27 TEXT='Kramer; with a single, often trilobed xylem trace, often winged above';
+	TEXT TAXON=78 CHARACTER=27 TEXT='Kramer; with a single, often trilobed xylem trace, often winged above';
+	TEXT TAXON=72 CHARACTER=6 TEXT='Klavins 2004 ; up to 4 rows';
+	TEXT TAXON=19 CHARACTER=33 TEXT='3-5';
+	TEXT TAXON=20 CHARACTER=33 TEXT='1-2';
+	TEXT TAXON=21 CHARACTER=33 TEXT='4-5';
+	TEXT TAXON=17 CHARACTER=33 TEXT='Seward 1899: 17 pinnae';
+	TEXT TAXON=29 CHARACTER=33 TEXT='Fossil incomplete, but doens''t look like it''ll be more than 7';
+	TEXT TAXON=35 CHARACTER=33 TEXT='Webb: 7 ';
+	TEXT TAXON=45 CHARACTER=33 TEXT='My paper - 6 - 8';
+	TEXT TAXON=65 CHARACTER=33 TEXT='Kon''no: Illustration showed 30.. but more';
+	TEXT TAXON=6 CHARACTER=33 TEXT='Pinnate';
+	TEXT TAXON=70 CHARACTER=33 TEXT='Schweitzer 1978: 15-19 per frond';
+	TEXT TAXON=74 CHARACTER=33 TEXT='Picture in Czier only abut 5 in total - but is a fragment';
+	TEXT TAXON=24 CHARACTER=33 TEXT='Seward: 5 - 7 linear segments^nBut these correspond to primary veins not primary segments';
+	TEXT TAXON=32 CHARACTER=33 TEXT='Fossil not complete - but probably not more than 6';
+	TEXT TAXON=38 CHARACTER=33 TEXT='Schweitzer 2009: 10';
+	TEXT TAXON=41 CHARACTER=33 TEXT='Seward 1910: 24';
+	TEXT TAXON=59 CHARACTER=33 TEXT='Seward 1910 - 11 in total (one in middle)';
+	TEXT TAXON=34 CHARACTER=33 TEXT='Seward 1900: incomplete fragments show 4/5 ';
+	TEXT TAXON=40 CHARACTER=33 TEXT='Zeiller: 20 - 25 ';
+	TEXT TAXON=46 CHARACTER=33 TEXT='Oishi - no number given, but similar to CLathropteris meniscioides. ';
+	TEXT TAXON=63 CHARACTER=33 TEXT='Nathorst (1906) / Seward (1910) rachial arm up to 40-50 cm, so 150 segments per arm max (?';
+	TEXT TAXON=61 CHARACTER=33 TEXT='Schweitzer 1978: 11 each (total frond)';
+	TEXT TAXON=69 CHARACTER=33 TEXT='Schenk 1871 - from illustration';
+	TEXT TAXON=60 CHARACTER=33 TEXT='Oishi - "Generally 5 in number" ';
+	TEXT TAXON=37 CHARACTER=33 TEXT='Webb: 5-8';
+	TEXT TAXON=42 CHARACTER=33 TEXT='Kon''no: 12-13';
+	TEXT TAXON=64 CHARACTER=29 TEXT='Gandolfo: dichotomous or pseudodichotomous';
+	TEXT TAXON=38 CHARACTER=29 TEXT='Schweitzer 2009: isotomous. ^n^nNathorst illustrated with 18 pinnae';
+	TEXT TAXON=59 CHARACTER=29 TEXT='But Seward 1910 looks anisodromous^n^nGoppert''s protologue doesn''t mention number of segments and you can''t tell from the plates. ';
+	TEXT TAXON=61 CHARACTER=29 TEXT='Schweitzer 1978: says 11, from drawing of Popp and him, perhaps anisotomous^nNathorst : 7 - 9, drawing looks anistomous';
+	TEXT TAXON=24 CHARACTER=39 TEXT='Schweitzer 2009: records as dichotomising.. but reexamining material, looks like confusion between primary and secondary veins. ';
+	TEXT TAXON=19 CHARACTER=35 TEXT='Crown group ''-'' since 2 veins don''t go to lamina';
+	TEXT TAXON=65 CHARACTER=35 TEXT='Kon''no - 50 - 55% dissection';
+	TEXT TAXON=34 CHARACTER=35 TEXT='Harris (1944): two types.  ^nLindley and Hutton - deep lobes^nSeward 1900 - shallow.^n';
+	TEXT TAXON=47 CHARACTER=35 TEXT='Ambiguity because of two interpretations of Goeppertella';
+	TEXT TAXON=48 CHARACTER=35 TEXT='Ambiguity because of two interpretations of Goeppertella';
+	TEXT TAXON=49 CHARACTER=35 TEXT='Ambiguity because of two interpretations of Goeppertella';
+	TEXT TAXON=24 CHARACTER=50 TEXT='Figure in Schweitzer 2009';
+	TEXT TAXON=32 CHARACTER=50 TEXT='Wang and Zhang said Hausmannia sinensis similar to Protorhipis buchii';
+	TEXT TAXON=33 CHARACTER=50 TEXT='Schweitzer 2009 picture';
+	TEXT TAXON=11 CHARACTER=24 TEXT='New South Wales Flora online';
+	TEXT TAXON=74 CHARACTER=41 TEXT='Czier 1994 - illustration (SMALL)';
+	TEXT TAXON=30 CHARACTER=41 TEXT='Wang and Zhang - 8 - 10cm long, 4-5 cm wide';
+	TEXT TAXON=24 CHARACTER=41 TEXT='Seward 1910: Lamina 12cm or more in length';
+	TEXT TAXON=32 CHARACTER=41 TEXT='Andraes: 11cm';
+	TEXT TAXON=47 CHARACTER=36 TEXT='Because it could be that the whole thing is one primary segment, or, each ''pinnule'' is a primary segment. So either ) or FULL';
+	TEXT TAXON=48 CHARACTER=36 TEXT='Because it could be that the whole thing is one primary segment, or, each ''pinnule'' is a primary segment. So either ) or FULL';
+	TEXT TAXON=49 CHARACTER=36 TEXT='Because it could be that the whole thing is one primary segment, or, each ''pinnule'' is a primary segment. So either ) or FULL';
+	TEXT TAXON=62 CHARACTER=46 TEXT='putting as ? because although original description says free ending veinlets rare, later this was synonymised with Clathropteris platyphylla, which has lots. So questionable material. ';
+	TEXT TAXON=64 CHARACTER=9 TEXT='Strong receptacle yes, but covered by sporangia';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 3 5 - 9 11 13 - 18 20 - 21 23 - 32 37 - 40 42 - 43 45 - 51, ord: 4 10 12 19 22 33 - 36 41 44;
+      ENDBLOCK;
+      

@@ -1,0 +1,438 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.06.04 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Saramacia lucasae'
+		'Protimesius longipalpis'
+		'Tapacochana insignita'
+		'Gryne coccineloides'
+		'Vonones sayi'
+		'Pachyloides thorellii'
+		'Discocyrtus prospicuus'
+		'Acanthopachylus aculeatus'
+		'Discocyrtus oliverioi'
+		'Pachyloidellus goliath'
+		'Cobania picea'
+		'Chavesincola inexpectabilis'
+		'Magnispina neptunus'
+		'Camarana flavipalpi'
+		'Cryptogeobius crassipes'
+		'Pachylospeleus strinatii'
+		'Promitobates ornatus'
+		'Longiperna concolor'
+		'Bourguyia trochanteralis'
+		'Acutisoma longipes'
+		'Serracutisoma proximum'
+		'Mischonyx cuspidatus'
+		'Pseudotrogulus funebris'
+		'Multumbo terrenus'
+		'Neosadocus maximus'
+		'Iporangaia pustulosa'
+		'Progonyleptoidellus striatus'
+		'Ampheres leucopheus'
+		'Gonyleptes saprophilus'
+		'Acanthogonyleptes pulcher'
+		'Sodreana leprevosti'
+		'Sodreana barbiellinii'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Diel activity'
+		 [2] 'Mesohabitat'
+		 [3] 'Hiding/resting place'
+		 [4] 'Foraging substrate'
+		 [5] 'Posture of the pedipalps when individuals are foraging'
+		 [6] 'Sit-and-wait foraging posture in which the body hangs between two leaves or sticks while legs I and II freely flutter about'
+		 [7] 'Posture of femora IV when females are prostrated'
+		 [8] 'Angle of femora IV in relation to the substrate when females are prostrated'
+		 [9] 'Gregariousness'
+		 [10] 'Aggregation site'
+		 [11] 'Number of individuals in the aggregations'
+		 [12] 'Temporal distribution of the aggregations'
+		 [13] 'Oviposition substrate'
+		 [14] 'Oviposition pattern:'
+		 [15] 'Egg deposition on the substrate using the chelicerae'
+		 [16] 'Egg covering'
+		 [17] 'Disposition of eggs on the undersurface of leaves'
+		 [18] 'Transparent and hygroscopic mucus coat covering the eggs'
+		 [19] 'Mate guarding after copulation'
+		 [20] 'Mate guarding behavior'
+		 [21] 'Maternal care'
+		 [22] 'Time the female stays with the clutch'
+		 [23] 'Paternal care'
+		 [24] 'Time the male stays with the clutch in species with obligatory paternal care'
+		 [25] 'Defense of harems by males'
+		 [26] 'Types of harems'
+		 [27] 'Male fights using legs II to hit the legs II of the opponent'
+		 [28] 'Male fights using legs IV'
+		 [29] 'Falling from elevated substrates'
+		 [30] 'Males attack with chelicerae and pedipalps when handled'
+		 [31] 'Females attack with chelicerae and pedipalps when handled'
+		 [32] 'Nipping'
+		 [33] 'Stridulation'
+		 [34] 'Thanatosis'
+		 [35] 'Thanatosis with legs retracted'
+		 [36] 'Deposition of debris on the body'
+		 [37] 'Emission of enteric fluid prior to scent gland secretions'
+		 [38] 'Displacement of enteric fluid along tegumentary channels'
+		 [39] 'Emission of scent gland secretions when seized on femur IV'
+		 [40] 'Emission of scent gland secretions when gently pressed dorso-ventrally'
+		 [41] 'Emission of scent gland secretions in droplets'
+		 [42] 'Displacement of droplets of scent gland secretions'
+		 [43] 'Accumulation of droplets of scent gland secretions on the ventral part of the body'
+		 [44] 'Release of scent gland secretions in a jet'
+		 [45] 'Release of a jet of scent gland secretions directed to the aggressor'
+		 [46] 'Leg dabbing'
+		 [47] 'Relative frequency of 1,4-benzoquinones'
+		 [48] 'Molecules of 2-ethyl-1,4-benzoquinone'
+		 [49] 'Molecules of 2-methyl-1,4-benzoquinone'
+		 [50] 'Relative frequency of molecules of 2,3-ethyl-1,4-benzoquinone'
+		 [51] 'Molecules of 5-ethyl-2-methyl-1,4-benzoquinone'
+		 [52] 'Relative frequency of vinyl-ketones'
+		 [53] 'Vinyl-ketone molecular chain with six carbons'
+		 [54] 'Vinyl-ketone molecular chain with seven carbons'
+		 [55] 'Molecules of 1-hexen-3-one'
+		 [56] 'Molecules of 5-methyl-1-hexen-3-one'
+		 [57] 'Molecules of 4-methyl-1-hexen-3-one'
+		 [58] 'Dimerization of vinyl-ketone molecules'
+		 [59] 'Molecules of 1-(6-butyl-3,4-dihydro-2H-pyran-2-yl)pentanone'
+		 [60] 'Dimer 1 of the molecules 5-methyl-1-hexen-3-one and 1-hexen-3-one'
+		 [61] 'Dimer 2 of the molecules 5-methyl-1-hexen-3-one and 1-hexen-3-one'
+		 [62] 'Dimer of the molecule 5-methyl-1-hexen-3-one'
+		 [63] 'Relative frequency of alkyl-phenols'
+	;
+	STATELABELS
+		1
+		'Mainly nocturnal'
+		'Diurnal and nocturnal only during the reproductive season'
+		'Diurnal and nocturnal throughout most part of the year'
+		,
+		2
+		'Forested areas with high canopy and low solar incidence'
+		'Transitional areas, including forest edges and secondary forests'
+		'Open areas with low vegetation and high solar incidence'
+		'Caves'
+		,
+		3
+		'Among the leaf litter, under rotten logs or rocks'
+		'On or among boulders at rivers margins'
+		'Inside natural cavities in trunks (alive or dead)'
+		'On the vegetation'
+		,
+		4
+		'Mainly on the ground, among the leaf litter or on rocks'
+		'Mainly on low vegetation (up to 1 m)'
+		'Mainly on high vegetation (between 1 to 3 m)'
+		,
+		5
+		'Always retracted'
+		'Often extended frontward'
+		,
+		6
+		'Absent'
+		'Present'
+		,
+		7
+		'Tips of femora IV convergent, often touching each other'
+		'Femora IV crossing each other at approximately midlength'
+		'Femora IV more or less parallel to each other'
+		'State 3'
+		,
+		8
+		'Less than 45º'
+		'Greater than 45º'
+		,
+		9
+		'Absent'
+		'Present'
+		,
+		10
+		'under rotten logs or rocks'
+		'on rock walls (caves) or on boulders close to streams'
+		'inside tank bromeliads'
+		,
+		11
+		'Few: rarely higher than 20 individuals'
+		'Many: generally higher than 30, reaching more than 200'
+		,
+		12
+		'Occur throughout the year'
+		'Occur only in the non-reproductive season'
+		,
+		13
+		'On or under rotten logs or stones'
+		'On the vegetation: the undersurface of leaves or inside bromeliads'
+		'Inside natural cavities in trunks (alive or dead)'
+		'Inside natural cavities on the ground or roadside banks'
+		'Tree trunks, boulders, undersurface of leaves, or among moss'
+		,
+		14
+		'From 1 to 3 eggs individually at time throughout the season'
+		'Several clutches of 10-50 eggs each throughout the season'
+		'One or two clutches of 50-200 eggs each throughout the season'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'Absent'
+		'Present: females deposit low quantity of debris'
+		'Present: females deposit great quantity of debris'
+		,
+		17
+		'Eggs laid without a clear pattern'
+		'Eggs laid from the tip to the petiole of the leaf'
+		,
+		18
+		'Absent'
+		'Present as a thin layer'
+		'Present as a thick layer'
+		,
+		19
+		'Absent'
+		'Present'
+		,
+		20
+		'Male remains behind the female and slowly touches her hind leg'
+		'Male remains behind the female and rapidly touches her body'
+		'Male stands behind the female and grasps her body'
+		'Male remains on the clutch in front of the female'
+		,
+		21
+		'Absent'
+		'Present'
+		,
+		22
+		'The female stays all the time on the clutch'
+		'The female leaves the clutch regularly'
+		,
+		23
+		'Absent'
+		'Present, but facultative'
+		'Present and obligatory'
+		,
+		24
+		'the male leaves his clutch frequently'
+		'the male stays on his clutch all the period'
+		,
+		25
+		'Absent'
+		'Present'
+		,
+		26
+		'harems containing caring females'
+		'harems containing females that do not care for the eggs'
+		,
+		27
+		'Absent'
+		'Present'
+		,
+		28
+		'Absent'
+		'Males use their legs IV to hit the legs IV of the opponent'
+		'Males use their legs IV to pinch the legs IV of the opp.'
+		,
+		29
+		'Absent'
+		'Present, immediate voluntary falling'
+		'Present, rapid movement, followed by falling'
+		,
+		30
+		'Absent or in low frequency (<20% of the sampled individuals)'
+		'Present or in high frequency (>30% of the sampled individuals)'
+		,
+		31
+		'Absent or in low frequency (<20% of the sampled individuals)'
+		'Present or in high frequency (>30% of the sampled individuals)'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Absent'
+		'Present'
+		,
+		34
+		'Absent'
+		'Present under stimuli (a) and (b)'
+		'Present only under stimulus (a)'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Absent: the individuals are never covered with debris'
+		'Present: debris cover all dorsal scute'
+		,
+		37
+		'Facultative'
+		'Obligatory'
+		,
+		38
+		'Absent'
+		'Present'
+		,
+		39
+		'Absent'
+		'Present'
+		,
+		40
+		'Never'
+		'Low frequency: less than 20%'
+		'High frequency: more than 30%'
+		,
+		41
+		'Absent'
+		'Present'
+		,
+		42
+		'Along tegumentary channels between the base of legs I and II'
+		'Along tegumentary channels on the dorsal scute'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Absent'
+		'Present'
+		,
+		45
+		'Absent'
+		'Present'
+		,
+		46
+		'Absent'
+		'Present'
+		,
+		47
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>80%)'
+		,
+		48
+		'Absent'
+		'Present'
+		,
+		49
+		'Absent'
+		'Present'
+		,
+		50
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>30%)'
+		,
+		51
+		'Absent'
+		'Present'
+		,
+		52
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>80%)'
+		,
+		53
+		'Absent'
+		'Present'
+		,
+		54
+		'Absent'
+		'Present'
+		,
+		55
+		'Absent'
+		'Present'
+		,
+		56
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>30%)'
+		,
+		57
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>30%)'
+		,
+		58
+		'Absent'
+		'Present'
+		,
+		59
+		'Absent'
+		'Present'
+		,
+		60
+		'Absent'
+		'Present'
+		,
+		61
+		'Absent'
+		'Present'
+		,
+		62
+		'Absent'
+		'Present'
+		,
+		63
+		'Absent'
+		'Present in low concentration (<10%)'
+		'Present in high concentration (>80%)'
+		
+	;
+	MATRIX
+	'Saramacia lucasae'		                     00000-010---0001-0??0-0-??0?-000011011011010-0200200----------0
+	'Protimesius longipalpis'		               00000-(0,1)110000001-0??0-0-??0?-??00??011011??0-0?????????????????
+	'Tapacochana insignita'		                 01000-01??????????????????0?-010010011011010-02????0----------0
+	'Gryne coccineloides'		                   02000-(0,1)010000001-00-0-0-??0?-000010010011010-12????0----------0
+	'Vonones sayi'		                          02000-0110000001-00-0-0-0-0?-??00?0010021010-1200200----------0
+	'Pachyloides thorellii'		                 02000-0110000001-00-0-0-0-02-001011011121110-0200200----------0
+	'Discocyrtus prospicuus'		                02000-0110000001-00-0-0-??0?-001011010121110-02????0----------?
+	'Acanthopachylus aculeatus'		             02000-0110000201-00-100-0-0?-001011011121110-0200200----------0
+	'Discocyrtus oliverioi'		                 02000-0110000201-00-100-??0?-001020011021110-0200200----------1
+	'Pachyloidellus goliath'		                02000-01100002?0-0??100-??0?-0010?10111211?0-0200200----------1
+	'Cobania picea'		                         01(0,2)00-011000??????????????0?-111011011121110-0200200----------0
+	'Chavesincola inexpectabilis'		           01000-0110003112-0110-210-02-?11011011121110-0211100----------1
+	'Magnispina neptunus'		                   01000-0110003112-0110-210-02-111011011121110-0211000----------0
+	'Camarana flavipalpi'		                   10000-300---0001-0??0-0-??0?-110010011021110-00----0----------2
+	'Cryptogeobius crassipes'		               00000-010---0?????????????0?-1110110111211?0-00----0----------2
+	'Pachylospeleus strinatii'		              03100-110---00?1-0??0-0-??0?0111010011121110-0200200----------0
+	'Promitobates ornatus'		                  10(1,3)100100---4002000-0-0-110100100100-100-----------------------
+	'Longiperna concolor'		                   10(1,3)100100---4002000-0-0-110100100100-100-----------------------
+	'Bourguyia trochanteralis'		              00320010120112000010100-100?0111011011121110-0200200----------0
+	'Acutisoma longipes'		                    1(0,3)121110111142000010101-1012111100-00112111110200200----------0
+	'Serracutisoma proximum'		                10121110111142000010101-1012111100-00112111110200200----------0
+	'Mischonyx cuspidatus'		                  0(0,2)0(0,1)000110000001-0??0-0-0-020001011001020-010020021111000000001
+	'Pseudotrogulus funebris'		               000(0,1)00210---00?1-0??0-0-??0?-000110100020-01000----201000000000
+	'Multumbo terrenus'		                     000(0,1)00210---??????????????0?-000010000020-0100200010----------0
+	'Neosadocus maximus'		                    000100010---1100010-110-10020111020001120-010010010211010110000
+	'Iporangaia pustulosa'		                  203200110---110012130-200-002110021001120-010010010201000110000
+	'Progonyleptoidellus striatus'		          203200110---110012130-200-0?2111020001120-01000----0----------2
+	'Ampheres leucopheus'		                   203200100---110012120-200-0?2111020001120-01000----2??????????0
+	'Gonyleptes saprophilus'		                00(0,2)100010---2101-0100-210-020011020001120-01000----211102100000
+	'Acanthogonyleptes pulcher'		             00(2,3)200010---??????????????0?0111020001021101100----210002000000
+	'Sodreana leprevosti'		                   00(2,3)200010---??????????????0?0111020001020-01000----210120101110
+	'Sodreana barbiellinii'		                 00(2,3)200010---??????????????0?0111020001020-01000----210121101110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 63;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1-3 5-15 17 19-39 41-46 48-49 51 53-55 58-62 , ord: 4 16 18 40 47 50 52 56-57 63 ;
+ENDBLOCK;

@@ -1,0 +1,593 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.18.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Protorosaurus speneri'
+		'Malerisaurus langstoni'
+		'Azendohsaurus madagaskarensis'
+		'Prolacerta broomi'
+		'Trilophosaurus buettneri'
+		'Unnamed Loricatan'
+		'Doswellia kaltenbachi'
+		'Angistorhinus alticephalus'
+		'Euparkeria capensis'
+		'Triopticus primus'
+		'Revueltosaurus callenderi'
+		'Longosuchus meadei'
+		'Poposaurus gracilis'
+		'Effigia okeeffeae'
+		'Asilisaurus kongwe'
+		'Silesaurus opolensis'
+		'Lesothosaurus diagnosticus'
+		'Sauropelta edwardsorum'
+		'Gastonia burgei'
+		'Stegoceras validum'
+		'Eoraptor lunensis'
+		'Plateosaurus engelhardti'
+		'Coelophysis bauri'
+		'Limusaurus inextricabilis'
+		'Allosaurus fragilis'
+		'Baryonyx walkeri'
+		'Spinosaurus aegyptiacus'
+		'Ornithomimus edmontonicus'
+		'Protosuchus richardsoni'
+		'Calsoyasuchus valliceps'
+		'Pelagosaurus typus'
+		'Gavialis gangeticus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=81;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Parietal-squamosal shelf:'
+		 [2] 'Supratemporal fenestra orientation:'
+		 [3] 'Supratemporal fenestra, relative size:'
+		 [4] 'Otooccipital, paroccipital process, dorsal margin:'
+		 [5] 'Supraorbital bones (=palpebrals):'
+		 [6] 'Quadrate, long axis of body, angle:'
+		 [7] 'Quadrate, head:'
+		 [8] 'Skull roof, dorsal to orbit:'
+		 [9] 'Skull roof, dorsal to braincase:'
+		 [10] 'Posterior edge of skull roof, surface texture:'
+		 [11] 'Exocciptial, lateral side, metotic strut:'
+		 [12] 'Parabasisphenoid, ventral surface, midline:'
+		 [13] 'Internal carotid arteries, entrance into braincase:'
+		 [14] 'Postfrontal:'
+		 [15] 'Otooccipitals, paroccipital processes, orientation:'
+		 [16] 'Dentary, anterior extremity:'
+		 [17] 'Dentition:'
+		 [18] 'Tooth, serrations:'
+		 [19] 'Tooth, serrations, shape:'
+		 [20] 'Narial size:'
+		 [21] 'Rostrum length, measured from anterior border of orbit to tip of premaxilla over total length of skull:'
+		 [22] 'Snout, neurovascular foramina:'
+		 [23] 'Premaxilla, anterior tip:'
+		 [24] 'Cranial size, relative to presacral vertebral column:'
+		 [25] 'Dentary, anterior tip:'
+		 [26] 'Narial openings:'
+		 [27] 'Frontal-parietal fusion:'
+		 [28] 'Position of external nares:'
+		 [29] 'Tooth, serrations, number:'
+		 [30] 'Tooth crown, mesiodistal expansion above root:'
+		 [31] 'Maxillary/dentary teeth, moderately developed lingual expansion of crown (=cingulum):'
+		 [32] 'Maxillary and dentary crowns, shape:'
+		 [33] 'Tooth implantation:'
+		 [34] 'Dentary teeth:'
+		 [35] 'Teeth, posterior edge:'
+		 [36] 'Premaxillary dentition:'
+		 [37] 'Premaxillary teeth and dentary teeth:'
+		 [38] 'Maxillary dentition:'
+		 [39] 'Mandibular fenestra:'
+		 [40] 'Anterior cervical centra, length versus height:'
+		 [41] 'Cervical vertebrae, rimmed depression on posterior part of centrum:'
+		 [42] 'Posterior cervical vertebrae, diapophysis, posteriorly directed processes:'
+		 [43] 'Posterior dorsal vertebrae, transverse processes:'
+		 [44] 'Presacral vertebrae, neural spines, dorsal margin:'
+		 [45] 'Sacral vertebrae, total number:'
+		 [46] 'Sacrum, neural spines:'
+		 [47] 'Sacral vertebrae, centra articular rims:'
+		 [48] 'Distal caudal vertebrae, prezygapophyses:'
+		 [49] 'Epipophyses:'
+		 [50] 'Postaxial intercentra:'
+		 [51] 'Hyposphene-hypantrum articulations in the presacral vertebrae:'
+		 [52] 'Scapula, blade, distal end:'
+		 [53] 'Humerus, proximal portion:'
+		 [54] 'Humerus, distal end width:'
+		 [55] 'Ulna, olecranon process:'
+		 [56] 'Manus, size:'
+		 [57] 'Manual unguals, length:'
+		 [58] 'Ilium, anterior portion of blade, cuppedicus fossa:'
+		 [59] 'Ilium, anterior process:'
+		 [60] 'Ilium, posterior portion of blade, ventral view, brevis fossa:'
+		 [61] 'Ilium, acetabulum:'
+		 [62] 'Ilium, ventral margin, within acetabulum:'
+		 [63] 'Pubis, length:'
+		 [64] 'Pubis, distal end:'
+		 [65] 'Pubis, length:'
+		 [66] 'Ischium, distal end:'
+		 [67] 'Femur length relative to tibia length:'
+		 [68] 'Offset femoral head (posteriorly hooked anteromedial portion of proximal end of femur):'
+		 [69] 'Femur, bone wall thickness at or near midshaft:'
+		 [70] 'Tibia, proximal portion expansion, longest dimension:'
+		 [71] 'Tibia, lateral side, proximal half, proximodistally oriented crest (=fibular crest):'
+		 [72] 'Astragalus, anterior portion of proximal surface, anterior ascending process:'
+		 [73] 'Calcaneum size:'
+		 [74] 'Calcaneum, calcaneal tuber:'
+		 [75] 'Pes, longest metatarsal:'
+		 [76] 'Pes, metatarsal 1, length:'
+		 [77] 'Pes, digit 5, number of phalanges:'
+		 [78] 'Pes, ungual, shape:'
+		 [79] 'Osteoderms:'
+		 [80] 'Osteoderms, arrangement:'
+		 [81] 'Forelimb-hindlimb length ratio:'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'dorsally or nearly dorsally directed'
+		'laterally directed'
+		,
+		3
+		'greater than 1/4 anteroposterior length of orbit'
+		'less than 1/4 anteroposterior length of orbit or absent'
+		,
+		4
+		'separated from ventral margin of squamosal'
+		'connected to ventral margin of squamosal'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'posteroventrally or vertically'
+		'anteroventrally'
+		,
+		7
+		'partially exposed in lateral view'
+		'completely covered by the squamosal'
+		,
+		8
+		'thickness similar to the nasals'
+		'skull roof clearly thickened relative to the nasals'
+		,
+		9
+		'flat'
+		'distinctly vaulted'
+		,
+		10
+		'generally smooth'
+		'possessing node-like protuberances'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'flat'
+		'distinct depression'
+		,
+		13
+		'ventral'
+		'lateral'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'lateral or posterolateral'
+		'ventrally deflected'
+		,
+		16
+		'rounded'
+		'tapers to sharp point'
+		,
+		17
+		'generally homodont'
+		'markedly heterodont'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'rectangular or rounded'
+		'pointed'
+		,
+		20
+		'clearly smaller diameter than orbit'
+		'diameter of naris equal to or larger than orbital diameter'
+		,
+		21
+		'preorbital length less than 60% of skull length'
+		'preorbital length more than 60% of skull length'
+		,
+		22
+		'absent'
+		'present and densly covering anterior portion of snout'
+		,
+		23
+		'transverse and horizontal'
+		'downturned'
+		,
+		24
+		'less than half the length'
+		'more than half or greater the length'
+		,
+		25
+		'deflected slightly ventrally or pointed anteriorly or nearly flat'
+		'curved dorsally'
+		,
+		26
+		'directed laterally'
+		'directed dorsally'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'terminal'
+		'non-terminal, well posterior of the anterior end of the premaxilla'
+		,
+		29
+		'fine, 5 or greater per mm'
+		'coarse, less than 5 per mm'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'apicobasally tall and blade-like'
+		'apicobasally short and subtriangular'
+		,
+		33
+		'free at base of tooth'
+		'teeth fused to bone of attachment at base'
+		,
+		34
+		'present along entire length of dentary'
+		'absent in anterior portion'
+		'completely absent'
+		,
+		35
+		'concave or straight'
+		'convex'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'premaxillary teeth are labial to dentary teeth'
+		'premaxillary teeth interlock with dentary teeth'
+		,
+		38
+		'present'
+		'absent'
+		,
+		39
+		'absent'
+		'present and less than half the length of the mandible'
+		'present and equal to or more than half the length of the mandible'
+		,
+		40
+		'length greater than height'
+		'length and height subequal'
+		'length much shorter than height'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'shorter than or equal to the length of the centrum'
+		'longer than the length of the centrum'
+		,
+		44
+		'unexpanded'
+		'laterally expanded into a platform (=spine table)'
+		,
+		45
+		'2'
+		'more than 2'
+		,
+		46
+		'not fused'
+		'fused'
+		,
+		47
+		'present in the sacrum'
+		'nearly obliterated, fused into a rod-like structure'
+		,
+		48
+		'not elongated'
+		'elongated more than "¼ the length of adjacent centrum'
+		,
+		49
+		'absent in postaxial anterior cervical vertebrae'
+		'present in postaxial anterior cervical vertebrae'
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'expanded anteriorly and/or posteriorly or unexpanded relative to the midpoint of the blade'
+		'tapered'
+		,
+		53
+		'expanded more than twice the width of the midshft of the humerus'
+		'expanded less than or equal to twice the width of the midshft of the humerus'
+		,
+		54
+		'narrower or equal to 30% of humerus length'
+		'greater than 30% of humerus length'
+		,
+		55
+		'absent or poorly developed'
+		'well-developed'
+		,
+		56
+		'about 1/5 or more the length of the pes '
+		'highly reduced, less than 1/5 the length of the pes'
+		,
+		57
+		'about the same length or shorter than the last phalanx of same digit'
+		'distinctly longer than last phalanx of same digit'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'short and does not extend anterior to the acetabulum'
+		'long and extends anterior to the acetabulum'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'directed laterally or deflected up to 60 degrees ventral of mediolateral'
+		'directed more than 60 degrees of mediolateral'
+		,
+		62
+		'convex or straight'
+		'concave'
+		,
+		63
+		'shorter than the anteroposterior length of the blade of the ilium'
+		'longer than the anteroposterior length of the blade of the ilium'
+		,
+		64
+		'tapers or no expansion'
+		'posteriorly expanded into boot and length of the expansion less than 30% the length of the shaft'
+		'posteriorly expanded into boot and length of the expansion greater than 30% the length of the shaft'
+		,
+		65
+		'equal or subequal in length to the ischium'
+		'longer than ischium'
+		,
+		66
+		'unexpanded or tapers'
+		'expanded ventral relative to the ischial shaft (=ischial boot)'
+		,
+		67
+		'femur longer than tibia length'
+		'tibia longer than or equal to femur length'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'thickness/diameter >0.3'
+		'thin thickness/diameter < 0.3'
+		,
+		70
+		'shorter than 35% the length of the tibia'
+		'longer than 35% the length of the tibia'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'about the same size of the astragalus or slightly smaller'
+		'reduced to a small cube-like structure, much smaller than that of the astragalus'
+		,
+		74
+		'present'
+		'absent'
+		,
+		75
+		'4'
+		'3'
+		,
+		76
+		'longer than or equal to half the length of metatarsal II'
+		'shorter than half the length of metatarsal II'
+		,
+		77
+		'1 or more'
+		'zero'
+		,
+		78
+		'weakly mediolaterally compressed or triangular in cross section'
+		'strongly dorsoventrally compressed'
+		'strongly mediolaterally compressed with a sharp dorsal ridge'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'one column of paramedian osteoderms on either side of midline'
+		'two or more columns (paramedian and lateral) of osteoderms on either side of midline'
+		'second column elongated and recurved into spikes'
+		,
+		81
+		'more than 0.55'
+		'less than 0.55'
+		
+	;
+	MATRIX
+	'Protorosaurus speneri'		                  0000000000????0000-000000000-000100000000001000?00000100000000000000?0000000000-0
+	'Malerisaurus langstoni'		                 ????0??000011??0011?????0???0000100??0?000010??01100010?1000000000?0000??0???00-0
+	'Azendohsaurus madagaskarensis'		          000000100001-010011000000000110010100000000000000110011010000000000000000000000-0
+	'Prolacerta broomi'		                      0000001000000?0000-000000000-000100000000000000000000000?00000000000?0000000000-0
+	'Trilophosaurus buettneri'		               000000000001000100-00000?000-1011111-00000?000001000000000000000000010000000000-0
+	'Unnamed Loricatan'		                      00????000???????010??00??00000000?00?0???????????????????????????????????????????
+	'Doswellia kaltenbachi'		                  0000001?00000100???????0??0??0??00???0?000111000010??????000100000?0??????????11?
+	'Angistorhinus alticephalus'		             0000001000001000110011110101000?0010101100010?0?0100000?????0??????00??0?0???2110
+	'Euparkeria capensis'		                    000000100000000001000000000000000000001100010000000000000000000000000000001000100
+	'Triopticus primus'		                      1110011111111?0???????????1??????????????????????????????????????????????????????
+	'Revueltosaurus callenderi'		              0000?0110010100001100000000011110010001100010000110001000000000000000000001002100
+	'Longosuchus meadei'		                     0100?1100011110101?100000000?0000111-012001110000100011000001010100001000010?2120
+	'Poposaurus gracilis'		                    0??????????????0010??00000?000000010?0???00011010110000001110111110010000011110-1
+	'Effigia okeeffeae'		                      000?011000?111?1---000000000-----2-1-1201100?11101111001?110011211?110100010010-1
+	'Asilisaurus kongwe'		                     000??0100?1????1010?00000000?0011110-0100000000011000000?0000010?11010011010?10-0
+	'Silesaurus opolensis'		                   00000010001001010100000010001101111000100000100011101000?0010010101010111111110-0
+	'Lesothosaurus diagnosticus'		             000?100000?0?1011110000000001111011000110??0????1100000000100110100100010111?00-1
+	'Sauropelta edwardsorum'		                 0-10110000??110??11?????0???11110?10??0100111???1110011010??1??-0000?10???1111120
+	'Gastonia burgei'		                        0-10110000?0?10?01110000?0?011110?11?0????1110???1?0011??01110???0000?1???????120
+	'Stegoceras validum'		                     10111101111?1?0?1110000??01011110000000???00?????1?0000??01001???0????????????0-?
+	'Eoraptor lunensis'		                      0000000000?0?1?001000000000001000000001?0000100011?00000000001101111?0011110100-1
+	'Plateosaurus engelhardti'		               0000000000101100011010000000110000100010000010001110010010000110111100011110100-0
+	'Coelophysis bauri'		                      0000000000111100010010100000000000000010100011111110000000110111111110111111100-1
+	'Limusaurus inextricabilis'		              00?00??000?????1---0010000?0-----2-1-1201???1?1??1?11001?01101111111?0?11111100-1
+	'Allosaurus fragilis'		                    000000100011111001010000000000000000001100101?011110000010110112011110111110100-1
+	'Baryonyx walkeri'		                       ????00?0001-11?0110?1100110100000000?0101000????1110010?1??101?0???11??1?1????0-1
+	'Spinosaurus aegyptiacus'		                00??00?0???????00100111010?100000010?0?????0?0??1110??1????101?101110011?????00-0
+	'Ornithomimus edmontonicus'		              00000100001?1111---000000000-------1-110110010111110100011110112111110111110100-1
+	'Protosuchus richardsoni'		                00011010001-110000-00?000000-001001000110000000001000000000001100-000000000010100
+	'Calsoyasuchus valliceps'		                000???100????1?????0?10??100????0??0?0???????????????????????????????????????????
+	'Pelagosaurus typus'		                     0001001000?-?10000-011110100-0000000101100?000000100100??000011-1-00?00???????100
+	'Gavialis gangeticus'		                    00011010001-110000-011010100-0000010101100?000000?001000?00001100?000?00001010110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='From Sereno (1998)';
+	TEXT CHARACTER=2 TEXT='Modified from Nesbitt (2011), character 143';
+	TEXT CHARACTER=3 TEXT='New character';
+	TEXT CHARACTER=4 TEXT='New character';
+	TEXT CHARACTER=5 TEXT='Modified from Nesbitt (2011), character 147';
+	TEXT CHARACTER=6 TEXT='From Nesbitt (2011), character 82';
+	TEXT CHARACTER=7 TEXT='From Sereno & Novas 1994; Juul 1994; Novas 1996; Benton 1999; Langer & Benton 2006; Nesbitt (2011), character 78';
+	TEXT CHARACTER=8 TEXT='modified from Sereno 2000, character 4';
+	TEXT CHARACTER=9 TEXT='modified from Marya"''ska et al. 2004, character 15';
+	TEXT CHARACTER=10 TEXT='Modified from Marya"''ska et al. 2004, character 5';
+	TEXT CHARACTER=11 TEXT='Modified from Gower 2002, Nesbitt et al. 2009, character 77';
+	TEXT CHARACTER=12 TEXT='Nesbitt (2011), character 100';
+	TEXT CHARACTER=13 TEXT='Modified from Nesbitt (2011), character 95';
+	TEXT CHARACTER=14 TEXT='From Gauthier (1986); Nesbitt (2011), character 44';
+	TEXT CHARACTER=15 TEXT='Modified from Nesbitt (2011), character 110';
+	TEXT CHARACTER=16 TEXT='From Nesbitt (2011), character 155';
+	TEXT CHARACTER=17 TEXT='From Parrish (1993), character 15';
+	TEXT CHARACTER=18 TEXT='Gauthier et al. (1988)';
+	TEXT CHARACTER=19 TEXT='Modified from Nesbitt (2011), character 168';
+	TEXT CHARACTER=20 TEXT='New character';
+	TEXT CHARACTER=21 TEXT='Modified from Hungerb"¼hler (2002), character 1';
+	TEXT CHARACTER=22 TEXT='New character';
+	TEXT CHARACTER=23 TEXT='Modified from Gower and Sennikov (1997), character 2';
+	TEXT CHARACTER=24 TEXT='From Sereno (1991), character 33';
+	TEXT CHARACTER=25 TEXT='New formulation';
+	TEXT CHARACTER=26 TEXT='From Sereno (1991), character P';
+	TEXT CHARACTER=27 TEXT='New character';
+	TEXT CHARACTER=28 TEXT='From Hungerb"¼hler (2002); Stocker (2010), character 2';
+	TEXT CHARACTER=29 TEXT='New character';
+	TEXT CHARACTER=30 TEXT='Sereno (1986)';
+	TEXT CHARACTER=31 TEXT='From Sereno (1986)';
+	TEXT CHARACTER=32 TEXT='From Sereno (1986)';
+	TEXT CHARACTER=33 TEXT='From Nesbitt (2011), character 174';
+	TEXT CHARACTER=34 TEXT='From Nesbitt (2011), character 166';
+	TEXT CHARACTER=35 TEXT='Modified from Nesbitt (2011), character 15';
+	TEXT CHARACTER=36 TEXT='Nesbitt and Norell (2006), character 73';
+	TEXT CHARACTER=37 TEXT='New character';
+	TEXT CHARACTER=38 TEXT='Nesbitt and Norell (2006), character 74';
+	TEXT CHARACTER=39 TEXT='Modified from Nesbitt and Norell (2006), character 77';
+	TEXT CHARACTER=40 TEXT='Modified from Nesbitt (2009), character 26';
+	TEXT CHARACTER=41 TEXT='From Nesbitt (2011), character 189';
+	TEXT CHARACTER=42 TEXT='Discussed by Nesbitt (2007)';
+	TEXT CHARACTER=43 TEXT='New character';
+	TEXT CHARACTER=44 TEXT='Modified from Nesbitt (2011), character 191 and 197.';
+	TEXT CHARACTER=45 TEXT='From Sereno (1999)';
+	TEXT CHARACTER=46 TEXT='From Nesbitt (2007), character 82';
+	TEXT CHARACTER=47 TEXT='From Nesbitt (2007); Nesbitt (2011), character 204';
+	TEXT CHARACTER=48 TEXT='From Gauthier (1986)';
+	TEXT CHARACTER=49 TEXT='From Nesbitt (2011), character 186';
+	TEXT CHARACTER=50 TEXT='From Nesbitt (2011), character 177';
+	TEXT CHARACTER=51 TEXT='From Gauthier (1986)';
+	TEXT CHARACTER=52 TEXT='From Gauthier (1986).';
+	TEXT CHARACTER=53 TEXT='From Nesbitt (2011), character 236';
+	TEXT CHARACTER=54 TEXT='From Nesbitt (2011), character 235';
+	TEXT CHARACTER=55 TEXT='New character';
+	TEXT CHARACTER=56 TEXT='New character';
+	TEXT CHARACTER=57 TEXT='From Nesbitt et al. (in press), character 222';
+	TEXT CHARACTER=58 TEXT='Rauhut (2003); discussed in Nesbitt (2007)';
+	TEXT CHARACTER=59 TEXT='Modified from Nesbitt (2011), character 269';
+	TEXT CHARACTER=60 TEXT='Modified from Novas (1996), character 26';
+	TEXT CHARACTER=61 TEXT='Modified from Nesbitt (2011), character 270';
+	TEXT CHARACTER=62 TEXT='Modified from Nesbitt (2011), character 273';
+	TEXT CHARACTER=63 TEXT='New character';
+	TEXT CHARACTER=64 TEXT='Modified from Nesbitt (2011), characters 283 and 285';
+	TEXT CHARACTER=65 TEXT='From Nesbitt (2011), character 282';
+	TEXT CHARACTER=66 TEXT='From Nesbitt (2011), character 294';
+	TEXT CHARACTER=67 TEXT='From Nesbitt (2011), character 299';
+	TEXT CHARACTER=68 TEXT='New formulation';
+	TEXT CHARACTER=69 TEXT='From Nesbitt (2011), character 323';
+	TEXT CHARACTER=70 TEXT='New character';
+	TEXT CHARACTER=71 TEXT='From Nesbitt (2011), character 333';
+	TEXT CHARACTER=72 TEXT='From Gauthier (1986)';
+	TEXT CHARACTER=73 TEXT='Modified from Gauthier (1986)';
+	TEXT CHARACTER=74 TEXT='From Gauthier (1986)';
+	TEXT CHARACTER=75 TEXT='Modified from Bennett (1996), character 95';
+	TEXT CHARACTER=76 TEXT='Modified from Gauthier (1986)';
+	TEXT CHARACTER=77 TEXT='Modified from Nesbitt (2011), character 399';
+	TEXT CHARACTER=78 TEXT='Modified from Nesbitt (2011), character 400';
+	TEXT CHARACTER=79 TEXT='From Gauthier (1984), character 57';
+	TEXT CHARACTER=80 TEXT='Modified from Nesbitt (2011), character 406';
+	TEXT CHARACTER=81 TEXT='Nesbitt (2011), character 212';
+
+      [Attribute comments]
+      	TEXT TAXON=22 CHARACTER=21 TEXT='Maybe change to 60% or more';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 27 29 - 81, ord: 28;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1413236232664; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8066720812523665522; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6702030548803100496; mqVersion 275; checksumv 0 3 301778181 null getNumChars 13 numChars 13 getNumTaxa 24 numTaxa 24 short true bits 0 states 0 sumSquaresStatesOnly 0.0 sumSquares 0.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 9; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1131 674; setLocation 8 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6702030548803100496 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; columnWidth 12 21; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1122 607; setLocation 8 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 13; 
+ENDBLOCK;

@@ -1,0 +1,1307 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 20.14.06 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=73;
+    TAXLABELS
+    		'Proterogyrinus scheelei'
+		'Greererpeton burkemorani'
+		'Edops cragi'
+		'Adamaterpeton ohioensis'
+		'Cochleosaurus bohemicus'
+		'Nigerpeton ricqlesi'
+		'Chenoprosopus milleri'
+		'Dendrerpeton acadianum'
+		'Balanerpeton woodi'
+		'Trimerorachis insignis'
+		'Neldasaurus wrightae'
+		'Isodectes obtusus'
+		'Acroplous vorax'
+		'Dvinosaurus primus'
+		'Thabanchuia oomie'
+		'Tupilakosaurus wetlugensis'
+		'Capetus palustris'
+		'Iberospondylus schultzei'
+		'Acanthostomatops vorax'
+		'Zatrachys serratus'
+		'Micromelerpeton credneri'
+		'Limnogyrinus elegans'
+		'Branchierpeton amblystomum'
+		'Branchiosaurus salamandroides'
+		'Apateon pedestris'
+		'Micropholis stowi'
+		'Platyrhinops lyelli'
+		'Amphibamus grandiceps'
+		'Doleserpeton annectens'
+		'Gerobatrachus hottoni'
+		'Dissorophus multicinctus'
+		'Cacops aspidephorus/morrisi'
+		'Broiliellus texensis'
+		'Acheloma cumminsi'
+		'Phonerpeton pricei'
+		'Ecolsonia cutlerensis'
+		'Eoscopus lockardi'
+		'Onchiodon labyrinthicus'
+		'Eryops megacephalus'
+		'Sclerocephalus haeuseri'
+		'Glanochthon latirostris'
+		'Archegosaurus decheni'
+		'Platyoposaurus stuckenbergi'
+		'Australerpeton cosgriffi'
+		'Lapillopsis nana'
+		'Peltobatrachus pustulatus'
+		'Rhineceps nyasaensis'
+		'Uranocentrodon senekalensis'
+		'Broomistega putterilli'
+		'Lydekkerina huxleyi'
+		'Chomatobatrachus halei'
+		'Sangaia lavinai'
+		'Peltostega erici'
+		'Laidleria gracilis'
+		'Siderops kehli'
+		'Batrachosuchus watsoni'
+		'Plagiosuchus pustuliferus'
+		'Gerrothorax pulcherrimus'
+		'Edingerella madagascariensis'
+		'Watsonisuchus gunganj'
+		'Benthosuchus sushkini'
+		'Trematosaurus brauni'
+		'Trematolestes hagdorni'
+		'Lyrocephaliscus euri'
+		'Callistomordax kugleri'
+		'Metoposaurus diagnosticus'
+		'Wetlugasaurus angustifrons'
+		'Parotosuchus nasutus'
+		'Eryosuchus garjainovi'
+		'Paracyclotosaurus davidi'
+		'Eocyclotosaurus wellsi'
+		'Cyclotosaurus robustus'
+		'Mastodonsaurus giganteus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=220;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Skull (outline)'
+		 [2] 'Skull (height)'
+		 [3] 'Ornament (elements)'
+		 [4] 'Ornament (snout)'
+		 [5] 'Ornament (general)'
+		 [6] 'Ornament (intensive growth)'
+		 [7] 'Ornament (preorbital)'
+		 [8] 'Spines'
+		 [9] 'Preorbital region (length)'
+		 [10] 'Premaxilla (alary process)'
+		 [11] 'Premaxilla (prenarial portion)'
+		 [12] 'Premaxilla (outline)'
+		 [13] 'Premaxillary foramen'
+		 [14] 'Premaxillary fontanelle'
+		 [15] 'Snout (internarial distance)'
+		 [16] 'Nasal (width)'
+		 [17] 'Naris (position)'
+		 [18] 'Naris (extension)'
+		 [19] 'Naris (flange)'
+		 [20] 'Nasal (lateral margin).'
+		 [21] 'Lacrimal'
+		 [22] 'Lacrimal (lateral suture'
+		 [23] 'Lacrimal (position)'
+		 [24] 'Lacrimal (posterior extension)'
+		 [25] 'Orbit and naris'
+		 [26] 'Height of jugal below orbit relative to height of maxilla'
+		 [27] 'Orbit margins'
+		 [28] 'Palpebral ossifications'
+		 [29] 'Pineal foramen'
+		 [30] 'Interorbital distance'
+		 [31] 'Frontal-nasal (length)'
+		 [32] 'Frontal-nasal (suture)'
+		 [33] 'Sensory sulci'
+		 [34] 'Infraorbital sulcus'
+		 [35] 'Supraorbital sulcus'
+		 [36] 'Maxilla (anterior margin)'
+		 [37] 'Maxilla (contact to nasal)'
+		 [38] 'Prefrontal-frontal'
+		 [39] 'Prefrontal (anterior end)'
+		 [40] 'Prefrontal (lateral suture)'
+		 [41] 'Prefrontal-postfrontal'
+		 [42] 'Prefrontal (process)'
+		 [43] 'Prefrontal-jugal'
+		 [44] 'Prefrontal-maxilla'
+		 [45] 'Posterior skull table (length)'
+		 [46] 'Postorbital (shape)'
+		 [47] 'Postorbital (end)'
+		 [48] 'Postorbital'
+		 [49] 'Postorbital, postfrontal'
+		 [50] 'Otic notch'
+		 [51] 'Otic notch (position)'
+		 [52] 'Supratemporal'
+		 [53] 'Supratemporal (width)'
+		 [54] 'Supratympanic flange'
+		 [55] 'Semilunar flange'
+		 [56] 'Jugal (ventral process)'
+		 [57] 'Jugal (anterior extension)'
+		 [58] 'Jugal-lacrimal'
+		 [59] 'Intertemporal'
+		 [60] 'Intertemporal and postorbital'
+		 [61] 'Squamosal-tabular (dorsal)'
+		 [62] 'Tabular and squamosal'
+		 [63] 'Squamosal (falciform crest)'
+		 [64] 'Tabular (horn)'
+		 [65] 'Tabular (extension)'
+		 [66] 'Tabular (ventral crest)'
+		 [67] 'Quadratojugal (medial process)'
+		 [68] 'Quadratojugal-maxilla'
+		 [69] 'Quadrate (dorsal process)'
+		 [70] 'Posterior skull rim'
+		 [71] 'Occipital flange'
+		 [72] 'Postparietal-exoccipital'
+		 [73] 'Postfenestral window'
+		 [74] 'Quadrate and occipital condyles'
+		 [75] 'Epipterygoid'
+		 [76] 'Dentition (marginal)'
+		 [77] 'Dentition (upper jaw)'
+		 [78] 'Dentition (marginal, tooth bases)'
+		 [79] 'Palatal tusks (cross-section'
+		 [80] 'Dentition (vomer)'
+		 [81] 'Pedicely'
+		 [82] 'Bicuspidity'
+		 [83] 'Labyrinthodonty'
+		 [84] 'Transverse tooth row (transvomerine)'
+		 [85] 'Additional vomerine fangs'
+		 [86] 'Parasphenoid (shagreen)'
+		 [87] 'Ectopterygoid (fangs)'
+		 [88] 'Interpterygoid vacuities'
+		 [89] 'Interpterygoid vacuities, pterygoid'
+		 [90] 'Anterior palatal opening(s) vomer & premaxilla'
+		 [91] 'Anterior palatal opening(s)'
+		 [92] 'Vomer'
+		 [93] 'Vomer (paired anterior depressions)'
+		 [94] 'Anterior palatal depression'
+		 [95] 'Vomerine ridges'
+		 [96] 'Vomerine pit and fontanelle'
+		 [97] 'Vomerine septum'
+		 [98] 'Choana (lateral)'
+		 [99] 'Choana (medial)'
+		 [100] 'Choana (width)'
+		 [101] 'Vomer-pterygoid'
+		 [102] 'Vomer (anterior part)'
+		 [103] 'Vomer (extension)'
+		 [104] 'Basipterygoid ramus'
+		 [105] 'Basicranium (contact)'
+		 [106] 'Basicranium, suture'
+		 [107] 'Parasphenoid'
+		 [108] 'Basicranium (carotids)'
+		 [109] 'Parasphenoid plate'
+		 [110] 'Parasphenoid plate (size)'
+		 [111] 'Cultriform process (width)'
+		 [112] 'Cultriform process (structure)'
+		 [113] 'Cultriform process (outline)'
+		 [114] 'Cultriform process (dentition)'
+		 [115] 'Parasphenoid (posterolateral process)'
+		 [116] 'Pterygoid (ventral ornament)'
+		 [117] 'Pterygoid, exoccipital'
+		 [118] 'Pterygoid, basioccipital'
+		 [119] 'Pterygoid, squamosal'
+		 [120] 'Pterygoid (flange)'
+		 [121] 'Pterygoid width'
+		 [122] 'Pterygoid, ectopterygoid'
+		 [123] 'Pterygoid-palatine-ectopterygoid'
+		 [124] 'Palatine, ectopterygoid'
+		 [125] 'Palatine, vomer'
+		 [126] 'Palatine (laterally exposed palatine, LEP)'
+		 [127] 'Palatine, ectopterygoid (ontogeny)'
+		 [128] 'Palatine, ectopterygoid (width)'
+		 [129] 'Palatine, ectopterygoid (continuous tooth row)'
+		 [130] 'Ectopterygoid (length)'
+		 [131] 'Ectopterygoid (laterally exposed ectopterygoid, LEE)'
+		 [132] 'Ectopterygoid (Y-shaped)'
+		 [133] 'Palate structure'
+		 [134] 'Quadrate trochlea'
+		 [135] 'Occipital condyle'
+		 [136] 'Exoccipital condyles'
+		 [137] 'Basioccipital (length)'
+		 [138] 'Dentigerous palatal ossicles'
+		 [139] 'Postglenoid area'
+		 [140] 'Postglenoid area (types)'
+		 [141] 'Postglenoid area (dorsal)'
+		 [142] 'Hamate process'
+		 [143] 'Preglenoid process'
+		 [144] 'Meckelian window'
+		 [145] 'Symphyseal teeth'
+		 [146] 'Posterior coronoid teeth'
+		 [147] 'Anterior, middle coronoid teeth'
+		 [148] 'Mandibular osteoderms'
+		 [149] 'Stapes (quadrate process)'
+		 [150] 'Stapes (ventral process)'
+		 [151] 'Stapes (shape)'
+		 [152] 'Stapes (curvature)'
+		 [153] 'Ceratobranchials'
+		 [154] 'Basibranchial'
+		 [155] 'Hypobranchial elements'
+		 [156] 'Branchial denticles'
+		 [157] 'Presacral count'
+		 [158] 'Caudal count'
+		 [159] 'Transverse process (orientation)'
+		 [160] 'Transverse process (length)'
+		 [161] 'Neural spine (height)'
+		 [162] 'Intercentrum (shape)'
+		 [163] 'Intercentrum (width)'
+		 [164] 'Intercentrum (ventral surface)'
+		 [165] 'Intercentrum anterior surface'
+		 [166] 'Parapophysis'
+		 [167] 'Pleurocentrum (presence)'
+		 [168] 'Pleurocentrum (lateral surface)'
+		 [169] 'Pleurocentrum (ventral extension)'
+		 [170] 'Ribs (length)'
+		 [171] 'Ribs (ventral extension)'
+		 [172] 'Ribs (uncinate blades)'
+		 [173] 'Ribs (uncinate spines)'
+		 [174] 'Cleithrum shape'
+		 [175] 'Cleithrum head'
+		 [176] 'Cleithrum and scapula'
+		 [177] 'Clavicle (ventral blade)'
+		 [178] 'Interclavicle (length)'
+		 [179] 'Interclavicle (ontogeny)'
+		 [180] 'Interclavicle (central ornamented area)'
+		 [181] 'Interclavicle (proportions)'
+		 [182] 'Interclavicle (posterior margin)'
+		 [183] 'Interclavicle (anterior margin)'
+		 [184] 'Interclavicle (anterior stylus)'
+		 [185] 'Interclavicle (posterior stylus)'
+		 [186] 'Interclavicle, clavicles'
+		 [187] 'Scapula (glenoid facet)'
+		 [188] 'Scapula (height)'
+		 [189] 'Humerus (ontogeny)'
+		 [190] 'Humerus (adult shaft)'
+		 [191] 'Humerus (entepicondylar foramen)'
+		 [192] 'Humerus (supinator)'
+		 [193] 'Humerus (condyles)'
+		 [194] 'Humerus (torsion)'
+		 [195] 'Carpals'
+		 [196] 'Manual digit count'
+		 [197] 'Ilium (shaft)'
+		 [198] 'Ilium (dorsal end)'
+		 [199] 'Ilium (height).'
+		 [200] 'Ilium (orientation)'
+		 [201] 'Ilium (tip)'
+		 [202] 'Pubis'
+		 [203] 'Femur'
+		 [204] 'Femur (trochanter).'
+		 [205] 'Tarsals'
+		 [206] 'Gastral squamation'
+		 [207] 'Squamation'
+		 [208] 'Osteoderms'
+		 [209] 'Osteoderms (articulations)'
+		 [210] 'Osteoderms (width)'
+		 [211] 'Rib cage'
+		 [212] 'Shape of centrale 4 of carpus'
+		 [213] 'Proximal end of metacarpal 1'
+		 [214] 'Shape of metacarpal 1'
+		 [215] 'Relative lengths of mutual contact surfaces of tibiale and centrale 4'
+		 [216] 'Contact surfaces for tibia and fibula on intermedium of tarsus'
+		 [217] 'Shape of fibulare'
+		 [218] 'Centrale 2 of tarsus'
+		 [219] 'Shape of centrale 4 of tarsus'
+		 [220] 'Contact between centrale 4 and distal tarsal 4'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 1'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		52
+		'State 0'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 1'
+		,
+		95
+		'State 0'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		97
+		'State 0'
+		'State 1'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 1'
+		,
+		100
+		'State 0'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 1'
+		,
+		102
+		'State 0'
+		'State 1'
+		,
+		103
+		'State 0'
+		'State 1'
+		,
+		104
+		'State 0'
+		'State 1'
+		,
+		105
+		'State 0'
+		'State 1'
+		,
+		106
+		'State 0'
+		'State 1'
+		,
+		107
+		'State 0'
+		'State 1'
+		,
+		108
+		'State 0'
+		'State 1'
+		,
+		109
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		110
+		'State 0'
+		'State 1'
+		,
+		111
+		'State 0'
+		'State 1'
+		,
+		112
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		113
+		'State 0'
+		'State 1'
+		,
+		114
+		'State 0'
+		'State 1'
+		,
+		115
+		'State 0'
+		'State 1'
+		,
+		116
+		'State 0'
+		'State 1'
+		,
+		117
+		'State 0'
+		'State 1'
+		,
+		118
+		'State 0'
+		'State 1'
+		,
+		119
+		'State 0'
+		'State 1'
+		,
+		120
+		'State 0'
+		'State 1'
+		,
+		121
+		'State 0'
+		'State 1'
+		,
+		122
+		'State 0'
+		'State 1'
+		,
+		123
+		'State 0'
+		'State 1'
+		,
+		124
+		'State 0'
+		'State 1'
+		,
+		125
+		'State 0'
+		'State 1'
+		,
+		126
+		'State 0'
+		'State 1'
+		,
+		127
+		'State 0'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 1'
+		,
+		129
+		'State 0'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 1'
+		,
+		131
+		'State 0'
+		'State 1'
+		,
+		132
+		'State 0'
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 1'
+		,
+		135
+		'State 0'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 1'
+		,
+		137
+		'State 0'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 1'
+		,
+		139
+		'State 0'
+		'State 1'
+		,
+		140
+		'State 0'
+		'State 1'
+		,
+		141
+		'State 0'
+		'State 1'
+		,
+		142
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		143
+		'State 0'
+		'State 1'
+		,
+		144
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		145
+		'State 0'
+		'State 1'
+		,
+		146
+		'State 0'
+		'State 1'
+		,
+		147
+		'State 0'
+		'State 1'
+		,
+		148
+		'State 0'
+		'State 1'
+		,
+		149
+		'State 0'
+		'State 1'
+		,
+		150
+		'State 0'
+		'State 1'
+		,
+		151
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		152
+		'State 0'
+		'State 1'
+		,
+		153
+		'State 0'
+		'State 1'
+		,
+		154
+		'State 0'
+		'State 1'
+		,
+		155
+		'State 0'
+		'State 1'
+		,
+		156
+		'State 0'
+		'State 1'
+		,
+		157
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		158
+		'State 0'
+		'State 1'
+		,
+		159
+		'State 0'
+		'State 1'
+		,
+		160
+		'State 0'
+		'State 1'
+		,
+		161
+		'State 0'
+		'State 1'
+		,
+		162
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		163
+		'State 0'
+		'State 1'
+		,
+		164
+		'State 0'
+		'State 1'
+		,
+		165
+		'State 0'
+		'State 1'
+		,
+		166
+		'State 0'
+		'State 1'
+		,
+		167
+		'State 0'
+		'State 1'
+		,
+		168
+		'State 0'
+		'State 1'
+		,
+		169
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		170
+		'State 0'
+		'State 1'
+		,
+		171
+		'State 0'
+		'State 1'
+		,
+		172
+		'State 0'
+		'State 1'
+		,
+		173
+		'State 0'
+		'State 1'
+		,
+		174
+		'State 0'
+		'State 1'
+		,
+		175
+		'State 0'
+		'State 1'
+		,
+		176
+		'State 0'
+		'State 1'
+		,
+		177
+		'State 0'
+		'State 1'
+		,
+		178
+		'State 0'
+		'State 1'
+		,
+		179
+		'State 0'
+		'State 1'
+		,
+		180
+		'State 0'
+		'State 1'
+		,
+		181
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		182
+		'State 0'
+		'State 1'
+		,
+		183
+		'State 0'
+		'State 1'
+		,
+		184
+		'State 0'
+		'State 1'
+		,
+		185
+		'State 0'
+		'State 1'
+		,
+		186
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		187
+		'State 0'
+		'State 1'
+		,
+		188
+		'State 0'
+		'State 1'
+		,
+		189
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		190
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		191
+		'State 0'
+		'State 1'
+		,
+		192
+		'State 0'
+		'State 1'
+		,
+		193
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		194
+		'State 0'
+		'State 1'
+		,
+		195
+		'State 0'
+		'State 1'
+		,
+		196
+		'State 0'
+		'State 1'
+		,
+		197
+		'State 0'
+		'State 1'
+		,
+		198
+		'State 0'
+		'State 1'
+		,
+		199
+		'State 0'
+		'State 1'
+		,
+		200
+		'State 0'
+		'State 1'
+		,
+		201
+		'State 0'
+		'State 1'
+		,
+		202
+		'State 0'
+		'State 1'
+		,
+		203
+		'State 0'
+		'State 1'
+		,
+		204
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		205
+		'State 0'
+		'State 1'
+		,
+		206
+		'State 0'
+		'State 1'
+		,
+		207
+		'State 0'
+		'State 1'
+		,
+		208
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		209
+		'State 0'
+		'State 1'
+		,
+		210
+		'State 0'
+		'State 1'
+		,
+		211
+		'State 0'
+		'State 1'
+		,
+		212
+		'State 0'
+		'State 1'
+		,
+		213
+		'State 0'
+		'State 1'
+		,
+		214
+		'State 0'
+		'State 1'
+		,
+		215
+		'State 0'
+		'State 1'
+		,
+		216
+		'State 0'
+		'State 1'
+		,
+		217
+		'State 0'
+		'State 1'
+		,
+		218
+		'State 0'
+		'State 1'
+		,
+		219
+		'State 0'
+		'State 1'
+		,
+		220
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Proterogyrinus scheelei'		                000000000000000000000000000000001-000000000000000000000000000000000000000000000?000000000000000000000000000000000000000000000000000000000000000000000000000?00001000000000000000000000000000?00000100000000000000-0?00010000
+	'Greererpeton burkemorani'		               0000000000000000000000000000010010-000001000000001?0000000000001000100000000000?000000000110000000000000000000000000000000000000000000000000000201100000010000000000000000000000000000000000?00000100000100000000-0??0000000
+	'Edops cragi'		                            000000001010001000000000000001000--100000010001000000000100000000001000100000000000000010001001001000100100001000000000000000000000000000?000000???01110000????????????0000?00000????????????10000?1???01????00???0?????????
+	'Adamaterpeton ohioensis'		                000000101010001000000000000001000--00000001000100000000?10000000000?0001000000000000000100010010010001001000010000000000000000000000000001?0?000???0????000????????????????????????????????????????????01?????0???0?????????
+	'Cochleosaurus bohemicus'		                000000101010001000000000000011100--00000001000100000000110000000000001010100000000000001000100100100010010000100000000000000000000000000010000000000????000?1000000000000000000000000000001001001?110000100??0000-01?0??????
+	'Nigerpeton ricqlesi'		                    000000101010001000000000000001101-011000001000100000000?100000000001000100?000000000000101110010010001001000010000000000000000000000000001?0?000???0????000????????????????????????????????????????????01?????0???0?????????
+	'Chenoprosopus milleri'		                  000000101010001000000000000011100--01000001000100000000?100000000001000100000000000000010001001001000100100001000000000000000000000000000?000000?000????000??????????????????????????????????1??????0?001?????0???0?????????
+	'Dendrerpeton acadianum'		                 000000000100100000000000010001000--000000000000000000000000000000001000101000000000000010001000001000001000001000000000000000000000000000?0000000??01110000?10000000000001000000000000000000?10100110000100000000-00?0?10???
+	'Balanerpeton woodi'		                     00000000010000100000000001?(0,1)00000--000000000000000000000000000000001000100000000000000010001000000000001000001000000000000000000000000000?00000000001110000?10000000000001000000000000000000010100110000100000000-0000010111
+	'Trimerorachis insignis'		                 00000000010000100000000100100000101001001000000000000000000010000001000101000001000100010111000000000010000001010000000000000000100000000?00000000101110111000000000000000000000010000000010?11011010000010010000-0??0??????
+	'Neldasaurus wrightae'		                   0000000001000000000000010010010010-010000000000001-00000000010010001000101?0000100000?010111000000000010000001000000000000000000100000000??0?000???0??????????????????001???0??????????????????????????01?????0???0??0??????
+	'Isodectes obtusus'		                      0000000001000001000000001010010020-000001000000001-00000010000010000000102?00001000001010111000000001000000011010000001000000100000000000110000000011?10?1000000000000000000000001000000001001111101100011?110000-0?????????
+	'Acroplous vorax'		                        000000000000100100000000101001002--000001000000001-0000001100001000?010102?00001000001010111000000001000000011000000000000000100000000000?10000000111?10????0000000000000??00000010000000010??1??????00011????0???0?????????
+	'Dvinosaurus primus'		                     0000000001000001000000010110010010-000001000000001-00000001110000000000102000001000100010111000000000010000011100000001000000?00100000000?10000000000?20111?00000000000000000000010000001010?11011010000011010000-0?????????
+	'Thabanchuia oomie'		                      0000000001000001000010-0001001001--000001001000001-000000-1110010000010102?00001000001010111000000001000000?11100000111010100?00000000000?1000000000????1?0?00000100000000000000010000001010??1???01???0111?10000-0?????????
+	'Tupilakosaurus wetlugensis'		             0000000001000001000010-00?1001001--000001001000001-000000-1110010000010102?00001000001010111000000001000000011100000111010100?00000000000?100000?000??????0??00001000??00??????????????????????????????01?1???0???0?????????
+	'Capetus palustris'		                      00000000010000000000000000?001100--000000000000000000000100000000001000100?0000000000001000100000000000?00000100000000000000000000000000?1000000???0?????0?????????????00???????0100000000??????????????1????0000-0?????????
+	'Iberospondylus schultzei'		               0000000011000010000000000000000010-000000000000000000000101000000001000100?0000?00000?01000100000000000?000?01000000000000000000000000?0??0000000000011000??100000000000000100000???????????????????????1????0000-0?????????
+	'Acanthostomatops vorax'		                 000000011100111000000000000001100--001001000110000010000101010000001010101000000000000010001000200000001100011000100000000000000000000101100000000?0111000101100000000000100000010000000001011101101011011?011000-0?????????
+	'Zatrachys serratus'		                     000000011100111000000000000001100--001001000110000010000001010000001010101?0000000000001000100020000000110001100010000000000000001000010110000000??0????00??????????????????????????????????????????????1?????0???0?????????
+	'Micromelerpeton credneri'		               00000000010000000010000001110000100000101100110000000010011000000011?00100?00000001010010001000200001001000011000000001100000100000000??1?0000000000111100100000000000001000000010000000001011100101010011?110100-0??0??????
+	'Limnogyrinus elegans'		                   000000000100000000100000011100001??0000011001100000000?0011000000011?10101?00001001000010001000000001001000011000000001000000?00000000??1?0000000??011110?1000000???0000?0000000100000000010111?1?010?0011?110100-0?????????
+	'Branchierpeton amblystomum'		             000000000100000000100000011100001??0001011001100000000?0011000000011?10101?00001001000010001000000001001000011000000001000000?00000000??1?0000000??01111011000000???0000?0000000100000000010111?1?010?0011?110100-0?????????
+	'Branchiosaurus salamandroides'		          000000000100100000100000011000000--0010011001100000100?0011000000011?10101?10001?01001010001000000001001000021000000001000000?00010100??1?00000001101111011120000???0000?100010010000000001022111?01010011?110000-0?????????
+	'Apateon pedestris'		                      000000000100100000100000011000000--0011011001100000100?0011000000011?10101?10001?00001010001000000001001000021000000001100000100010100??1?00000001101111011120000??000002100010010000000000022111??1010011?110000-0??0??????
+	'Micropholis stowi'		                      001000000100000000100000011100000--000101100110000000000011010000011110101000000000010110001000200101001000021000100001100100101010000101100000001101111011?21000000000011000100100000000000?21100110000100100000-0??0??????
+	'Platyrhinops lyelli'		                    000000000100000000100000011100000--0000011001100000010100110000000111001000100000100000110010000001010010000210001000001000001010100001011000000000011110?1?2?000000000011000100100000000000221100110100100001000-0??0??????
+	'Amphibamus grandiceps'		                  000000000100000000100000011100000--000101100110000011010011000000011100100?1000011100011100100010010100100002100010000?100100101010000101?00000000001111011?2?000000000021000100100000000000221100110000100?00000-0??0??????
+	'Doleserpeton annectens'		                 000000000100100000100000011100000--0001011001100000100100110000000111001000100001110001110010001001010010000210000000001001001010100001011000000010011110?0?10000000000021000100100000000000?2112011000010000?000-0?00??????
+	'Gerobatrachus hottoni'		                  000000000100?000001000000?1?0000???00?1011001100000?00?0011000000011?00101??000000100??11001000?00?01001000???000?00000000100101010000101?000000???0????0?0?210000000000?10001001?????????0??21120?????010??0?000-0?????????
+	'Dissorophus multicinctus'		               000000000100100000100000011100000--000101100110000010110011000000011110100000000000001110001000?00001001100010000000000100000100000000101?000000000011100?0?00001000000001000001100000?00001?2112011011110000?01110111011?1?
+	'Cacops aspidephorus/morrisi'		            000000000100100000100000001?00100--000101100110000010110011000000011110100000000000001?100010002000010011000100000000001000001000010001011000000000011100?0?21001000000001000001100000001001?2112011011110000?01100?????1???
+	'Broiliellus texensis'		                   000000000100000000100000011100000--000101100110000010110011000000011110101?00000000001?10001000?0000100110001000000000010000010000?000101?0000000??011100?0?2?001000000001000001100000000001?21?20?101111000??01110?????????
+	'Acheloma cumminsi'		                      000000000100100001100000001?00100--000101100110000000110011000000011110100001000000000010001000210000001100010000000000100000100001000101?0000000??011100?0?2?000000000001000001100000000001?2102011011110000?000-01??011111
+	'Phonerpeton pricei'		                     000000000100100001100000011?00000--000101100110000000110011000000011110100001000000001?10001000110000001100010000000000100000100001000101?000000000011100?0?2???000000000??00001?0????????01?21020??0????1000?01000?????????
+	'Ecolsonia cutlerensis'		                  000000000100000001100000011?00000--000101100110000000110011000000011110100?0100?000000010001000110000001100010000000000100000100000000101?0000000000????0????000000000000100000110?0000000012210201?011110000002000????11?11
+	'Eoscopus lockardi'		                      000000000100100000100000011100000--000101100110000000110011000000011110???0100000000100110010000?00010-100?0??0000?0???1000001010000?????1?????00?????1?????10000000?0001100????10?0000000?0?2???111000010000??0--0??0011111
+	'Onchiodon labyrinthicus'		                000000000101001000000100000001100--100001010100000100000101000000001000100?00000000000010001100000010001100111001000000000000010000000101100000000001110010010001000000000010000001000000000011020110111100200000-0?????????
+	'Eryops megacephalus'		                    000000000101001000000100000001100--100001010100000100001101000000001000100000000000000010001100000010001100111001000000000000010000000101100000000001110010?10001000000000010000001000000001?11020110111100200000-0011011111
+	'Sclerocephalus haeuseri'		                00000000010100100001000000000100100110000010000000100000101000000101000100000000000000010001100000000001000111000000000000000000100000101100000000000110010010001000000000010000010010000000011000110000100200000-00?0111111
+	'Glanochthon latirostris'		                00000000110100100001000000000100100010000010000000100000101000000101000100?00000000000010001100000000001000111000000000000000000100000101100000000000110010010001000000000010000010010000010011010010000110?10000-0?????????
+	'Archegosaurus decheni'		                  00000000110100100001000000000110100010000010000000100000101000000101000100000000000100010001100000000000000111000000000000000000100000101100000000000110010010001000000000010000010010000010011111110000110?00000-0?001?011?
+	'Platyoposaurus stuckenbergi'		            00000000110100100000000000000110100010000010000000100001101000000101000100000000000000110001000000000000000111000000000000000000100000101?0000000000????0?0?10001000000000010000010010000010?1111101000011??00000-0?????????
+	'Australerpeton cosgriffi'		               00000000110100100000000000000000100010000010000000100001101000000101000100?00000000?00010111000000000000000111000000000000000000100000101?0000000000????0?0?10001000000000010000010010000010??10??010??01????0000-0?????????
+	'Lapillopsis nana'		                       000000000100000000000000001000000--010100010010000200001001010000001010101?00001000?01010??1000000001001100111000001000000100000000000101?0000000??0????0???????????????????????00?010??????????????????1?????000-0?????????
+	'Peltobatrachus pustulatus'		              001000000100000?0000?0?00?0001?00?????0000?0000?00?0000??010000000010?010??0000?000?00?10??100000000?001100111000110000000?00000?00000101??0?00????0????0????0100-00000-00010???0?????????00?11000??0111101???02000?????????
+	'Rhineceps nyasaensis'		                   00000000110000000000000000100110100010010010000100200001101000100201000100000100000100010111000000000001100111000010000000000000100000101?000001000011100?0??01000000000000?0?0?0100101000??????????????1?????000-0?????????
+	'Uranocentrodon senekalensis'		            00000000110000000000000000100110100010010010000100200001101000100201000100000100000100010111000000000001100111000010000000000000100000101?0000010??01110010000100000000000000000010010100000?11111010000101?00000-0??0?10???
+	'Broomistega putterilli'		                 00000000010000000000000000100110100010010010000100200001101000100201000100?0010?00010001011100000000?001100111000010000000000000100000101?00000????0????0?0???1000000???000?00000100101000?0????????????1?????000-0?????????
+	'Lydekkerina huxleyi'		                    00000000010000000000000000100100110010000010000100200001101010100101010101010101000100110101000000001001100111000011000000010000100000101?100001001011100???1?100000000000000000010010100000?11000?10100101200000-0?????????
+	'Chomatobatrachus halei'		                 00000000010000000000000000100100110000000010000100200001101010100101010101?10101000100110101000000001001100111000011000000010000100000101?100001?000????0???????????????????????0??????0????????????????1?????000-0?????????
+	'Sangaia lavinai'		                        100000000100000000000000011001001?1010000010000011-0000?001011010?0?010101?10101000?01?10??10000000010011101111000010010000??000100000101??0?00????0????0????????????0??????????0??????????????????1????1?????000-0?????????
+	'Peltostega erici'		                       10101100010000000000????011001001??0????0???00001020000???1010100?0?000101?101?1000????001110000010??00111110010000010101????0?0??0000111???????????????????????????????????????????????????????????????????????????????????
+	'Laidleria gracilis'		                     1110000001000000000010-001100100101010100011000011-0000?0-1011010?0?010112?10101000001110111000000001001110111100001001000101000100000101?1?000????0????0???2?100200001-00000???010????0?????1111???????1????002001?????????
+	'Siderops kehli'		                         0000000001000001100010-001100100101010001011000011?-00010-10?0100?00010102010101000001110101000000001001110111100001100011101000100010111?110000000011100???20100000000?00000000010010100010?11111010000111110000-0?????????
+	'Batrachosuchus watsoni'		                 0000000001000001100010-001100100101010001011000011-000010-1010010?00010102?10101000001110101000000001001110111100001101011101000100010111?110000000001200???????????????????00?00???????????????????????1?????000-??????????
+	'Plagiosuchus pustuliferus'		              01100000010000010000000001100001100010101010100001-10001001010010?00010112?10101000101110001000000001001110111100000100011101000100010111?1100000010????1??021100200011-00000010010101100110?1101001000011111001001?????????
+	'Gerrothorax pulcherrimus'		               00100000010000010000000001100001100010101010100001-10001001010010?00010112010101000100110001000000001001110121100001100011101000100000111?11000000000120111021100200011-00000010010101100100?1101001011110111002001?????????
+	'Edingerella madagascariensis'		           00000000010000000000000000100100111010000010000100200001101010100100010101010101000100010101000000001001110111100001000000011000100000101?1001010010111000????1000000000001?0000010010100110?111110?????1????1000-0?????????
+	'Watsonisuchus gunganj'		                  00000000010000000000000000100100110010000010000100200001101010100100010100010101000101010101000000001001110111100001000000011000100000101?1001010??0111000??????????????????????0??????1????????????????1?????0???0?????????
+	'Benthosuchus sushkini'		                  00000000110000000000000000100100111010000010000100200001101010100100010101010101000200110101000000001001111111110001000000011000100000101?10010100001110??????1000000000001?0000010010110110?110110?00001?11??0???0?????????
+	'Trematosaurus brauni'		                   00001100110000000000000001100100111010000010000010200001001010100100010101?10101000000110111000000001001111111120000100010101000100000101?1001120000110?????????????????????????0100201101??????????????1?????0???0?????????
+	'Trematolestes hagdorni'		                 00001100110000000000001001100000111010000001000010200001001010100100010101?1011100000011011100000000100111111112000010?01010100010000010111001120??0111011??10100010000000101000010020110110011111011000111111000-0??0??????
+	'Lyrocephaliscus euri'		                   100011000100000000000000011001001110111000100000102000011010101001010001010101?1000200000111000001001001111100120000101011101000100000111???????????111?????????????????????????????????????????????????????????????????????
+	'Callistomordax kugleri'		                 00001100010000001000001001100000111010000001000010200001001010100100011101?1011100000011011100000000100111111112000010?011101000100001111?1001120100????11?000100111100100101000010010110210011011011000111111000-0??0??????
+	'Metoposaurus diagnosticus'		              0000110000000000100000100110010011101000000000001020000100101010010001110201011100010111011101000000100111011110000110001110100010000111111001121110111001??10110111110100100000010010110210?11011000000111011000-0??0??????
+	'Wetlugasaurus angustifrons'		             00000000110000000000000000100100110010000010000100200001101010100100010100010101000200110101000000001001110111100001000000011000100000101?10010100001110?0??????????????????????0??????1????????????????1?????0???0?????????
+	'Parotosuchus nasutus'		                   00000000110000000000000000000100110010100010000100200001101010100100010100010101000101110101010000001001110111100001000000011000100000101?10010111101110?0???????0????0?0???????0??????1????????????????1?????0???0?????????
+	'Eryosuchus garjainovi'		                  00010000110000000000000000000000111010100010000100200001101010101100010101110101000101110101010000001001110111100000000000011000100000101?10120210101110?0???0110000000100110000010010110110?111110?00001?????0???0?????????
+	'Paracyclotosaurus davidi'		               00010000110000000000000000100100110010100010000100200001101010102100010101010101000101110101010000001001110111110000100010011000100000101?1002020??0111000??00110000000100110000010010110110?11111010000111?10000-0??0??????
+	'Eocyclotosaurus wellsi'		                 00010000110000000000000000100100111010100010000100200001101010102100010101010101000101110111010000001001110111110001100010011000100000101?10020200101110?0????1100000001001?0000010010110110??11?1??????1?????0???0?????????
+	'Cyclotosaurus robustus'		                 00010000110000000000000000100100110010100010000100200001101010102100010101010101000101110101010000011001110111110001100010011000100000101?10020210101110?0????11000000010???0???010010110110?11111??????1?????0???0?????????
+	'Mastodonsaurus giganteus'		               00010000110000000000000000100000111010100010000000200001101010101100010101110101000101110111010000001001110111110000100010011000100000101?10120200101110?0??00110100000100110000010010110100?110110?000011111?000-0??0??????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=52 TEXT='Replacement name for Cabralia.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 220;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 84; LastModified -767715821; FileSettings editor '0' '0' '1' '1'; Singles 000; Editor 0001100111111110010001001 '0' '24' Geneva '9' '158' '1' all; EditorPosition '47' '96' '835' '1045'; TreeWindowPosition '46' '6' '1027' '1870'; ListWindow Characters open Geneva '9' '51' '72' '929' '402' 000; ListWindow Taxa closed Geneva '9' '50' '10' '276' '490' 100000; ListWindow Trees closed Geneva '9' '50' '10' '276' '490'; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharSets closed Geneva '9' '50' '10' '276' '490'; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '998' '1860'; StateNamesSymbols closed Geneva '9' '10' '50' '30' '148' '220'; WindowOrder List Characters Data; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '923' '1647' '115' '165'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Geneva '9' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1444602258516; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 2967617649963343573; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 359298477552310064; mqVersion 304; checksumv 0 3 3517316986 null getNumChars 220 numChars 220 getNumTaxa 73 numTaxa 73 short true bits 7 states 7 sumSquaresStatesOnly 25628.0 sumSquares 25628.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1617 1299; setLocation 61 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #359298477552310064 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1517 1227; setLocation 61 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #359298477552310064 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1517 1227; setLocation 61 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = 'Matrix in file "Dilkes_matrix.nex"') = 'Mk1 (est.)': 1 - 220; 
+ENDBLOCK;

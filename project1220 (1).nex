@@ -1,0 +1,291 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.50.54 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=4;
+    TAXLABELS
+    		'Mimosa perplicata'
+		'Mimosa acroconica'
+		'Mimosa bispiculata'
+		'Mimosa setosa paludosa'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'branch, prickles'
+		 [2] 'branch, trichomes'
+		 [3] 'branch, filiform setae'
+		 [4] 'branch, glandular setae'
+		 [5] 'leaves, stipules, shape'
+		 [6] 'leaves, stipules, base, fusion'
+		 [7] 'leaves, rachis, interpinnal projection'
+		 [8] 'leaves, rachis, interpinnal projection, apex division'
+		 [9] 'leaves, rachis, lenght relative to the petiole'
+		 [10] 'leaves, rachis, prickles'
+		 [11] 'leaves, leaflets, secondadry veins promination in relation to primary veins'
+		 [12] 'floral bracts, shape'
+		 [13] 'floral bract, number of nervures'
+		 [14] 'flower, corolla, lobes, veins, apex promination'
+		 [15] 'flower, corolla, lobes, trichomes'
+		 [16] 'flower, corolla, lobes, filiform setae'
+		 [17] 'flower, corolla, lobes, glandular setae'
+		 [18] 'fruit, valves, segmentation'
+		 [19] 'fruit, articles, time of separation relative to dehiscence of valves and liberation of seeds'
+		 [20] 'fruit, stipe, relative lenght to width'
+		 [21] 'fruit, valves, trichomes'
+		 [22] 'fruit, valves, filiform setae'
+		 [23] 'fruit, margin, trichomes'
+		 [24] 'fruit, margin, filiform setae'
+	;
+	STATELABELS
+		1
+		'absent'
+		'straight (or slightly inclined)'
+		'patent (or slightly inclined)'
+		'antrorse'
+		'retrorse'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		'clavate'
+		'capitate'
+		,
+		5
+		'lanceo-acuminate'
+		'linear'
+		'ovate-lanceolate'
+		'ovate'
+		'broadly-ovate-acuminate'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		'spiculate'
+		'laminar'
+		'glandular'
+		,
+		8
+		'integer'
+		'bifid'
+		,
+		9
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'not prominent'
+		'equally prominent'
+		,
+		12
+		'spatulate-acuminate'
+		'eliptic-rhombic'
+		'spatulate-elliptic'
+		'narrowly spatulate-acuminate'
+		'lanceolate'
+		'broadly spatulate-acuminate'
+		'linear'
+		'spatulate-rhombic'
+		'spatulate'
+		,
+		13
+		'one'
+		'3'
+		'5 or more'
+		,
+		14
+		'not prominent'
+		'prominent'
+		,
+		15
+		'State 0'
+		'absent'
+		'State 1'
+		'present'
+		,
+		16
+		'State 0'
+		'absent'
+		'State 1'
+		'present'
+		,
+		17
+		'State 0'
+		'absent'
+		'present'
+		'State 1'
+		,
+		18
+		'integer'
+		'partially articulated'
+		'completely articulated'
+		,
+		19
+		'together'
+		'after'
+		,
+		20
+		'less then 4x'
+		'5x or more'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Mimosa perplicata'		               101(0,1)0030?110100002110101
+	'Mimosa acroconica'		               1101(3,4)0302112000100-01010
+	'Mimosa bispiculata'		              3111413120?200010???????
+	'Mimosa setosa paludosa'		          111100(0,2)0210001(0,1)(0,1)(0,1)2(0,1)01111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=1 CHARACTER=1 TEXT='1';
+	TEXT TAXON=2 CHARACTER=1 TEXT='1';
+	TEXT TAXON=3 CHARACTER=1 TEXT='1';
+	TEXT TAXON=4 CHARACTER=1 TEXT='1';
+	TEXT TAXON=1 CHARACTER=2 TEXT='1';
+	TEXT TAXON=2 CHARACTER=2 TEXT='1';
+	TEXT TAXON=3 CHARACTER=2 TEXT='1';
+	TEXT TAXON=4 CHARACTER=2 TEXT='1';
+	TEXT TAXON=1 CHARACTER=3 TEXT='1';
+	TEXT TAXON=2 CHARACTER=3 TEXT='1';
+	TEXT TAXON=3 CHARACTER=3 TEXT='1';
+	TEXT TAXON=4 CHARACTER=3 TEXT='1';
+	TEXT TAXON=1 CHARACTER=4 TEXT='1';
+	TEXT TAXON=2 CHARACTER=4 TEXT='1';
+	TEXT TAXON=3 CHARACTER=4 TEXT='1';
+	TEXT TAXON=4 CHARACTER=4 TEXT='1';
+	TEXT TAXON=1 CHARACTER=5 TEXT='1';
+	TEXT TAXON=2 CHARACTER=5 TEXT='1';
+	TEXT TAXON=3 CHARACTER=5 TEXT='1';
+	TEXT TAXON=4 CHARACTER=5 TEXT='1';
+	TEXT TAXON=1 CHARACTER=6 TEXT='1';
+	TEXT TAXON=2 CHARACTER=6 TEXT='1';
+	TEXT TAXON=3 CHARACTER=6 TEXT='1';
+	TEXT TAXON=4 CHARACTER=6 TEXT='1';
+	TEXT TAXON=1 CHARACTER=7 TEXT='1';
+	TEXT TAXON=2 CHARACTER=7 TEXT='1';
+	TEXT TAXON=3 CHARACTER=7 TEXT='1';
+	TEXT TAXON=4 CHARACTER=7 TEXT='1';
+	TEXT TAXON=1 CHARACTER=8 TEXT='1';
+	TEXT TAXON=2 CHARACTER=8 TEXT='1';
+	TEXT TAXON=3 CHARACTER=8 TEXT='1';
+	TEXT TAXON=4 CHARACTER=8 TEXT='1';
+	TEXT TAXON=1 CHARACTER=9 TEXT='1';
+	TEXT TAXON=2 CHARACTER=9 TEXT='1';
+	TEXT TAXON=3 CHARACTER=9 TEXT='1';
+	TEXT TAXON=4 CHARACTER=9 TEXT='1';
+	TEXT TAXON=1 CHARACTER=10 TEXT='1';
+	TEXT TAXON=2 CHARACTER=10 TEXT='1';
+	TEXT TAXON=3 CHARACTER=10 TEXT='1';
+	TEXT TAXON=4 CHARACTER=10 TEXT='1';
+	TEXT TAXON=1 CHARACTER=11 TEXT='1';
+	TEXT TAXON=2 CHARACTER=11 TEXT='1';
+	TEXT TAXON=3 CHARACTER=11 TEXT='1';
+	TEXT TAXON=4 CHARACTER=11 TEXT='1';
+	TEXT TAXON=1 CHARACTER=12 TEXT='1';
+	TEXT TAXON=2 CHARACTER=12 TEXT='1';
+	TEXT TAXON=3 CHARACTER=12 TEXT='1';
+	TEXT TAXON=4 CHARACTER=12 TEXT='1';
+	TEXT TAXON=1 CHARACTER=13 TEXT='1';
+	TEXT TAXON=2 CHARACTER=13 TEXT='1';
+	TEXT TAXON=3 CHARACTER=13 TEXT='1';
+	TEXT TAXON=4 CHARACTER=13 TEXT='1';
+	TEXT TAXON=1 CHARACTER=14 TEXT='1';
+	TEXT TAXON=2 CHARACTER=14 TEXT='1';
+	TEXT TAXON=3 CHARACTER=14 TEXT='1';
+	TEXT TAXON=4 CHARACTER=14 TEXT='1';
+	TEXT TAXON=1 CHARACTER=15 TEXT='1';
+	TEXT TAXON=2 CHARACTER=15 TEXT='1';
+	TEXT TAXON=3 CHARACTER=15 TEXT='1';
+	TEXT TAXON=4 CHARACTER=15 TEXT='1';
+	TEXT TAXON=1 CHARACTER=16 TEXT='1';
+	TEXT TAXON=2 CHARACTER=16 TEXT='1';
+	TEXT TAXON=3 CHARACTER=16 TEXT='1';
+	TEXT TAXON=4 CHARACTER=16 TEXT='1';
+	TEXT TAXON=1 CHARACTER=17 TEXT='1';
+	TEXT TAXON=2 CHARACTER=17 TEXT='1';
+	TEXT TAXON=3 CHARACTER=17 TEXT='1';
+	TEXT TAXON=4 CHARACTER=17 TEXT='1';
+	TEXT TAXON=1 CHARACTER=18 TEXT='1';
+	TEXT TAXON=2 CHARACTER=18 TEXT='1';
+	TEXT TAXON=3 CHARACTER=18 TEXT='1';
+	TEXT TAXON=4 CHARACTER=18 TEXT='1';
+	TEXT TAXON=1 CHARACTER=19 TEXT='1';
+	TEXT TAXON=2 CHARACTER=19 TEXT='1';
+	TEXT TAXON=3 CHARACTER=19 TEXT='1';
+	TEXT TAXON=4 CHARACTER=19 TEXT='1';
+	TEXT TAXON=1 CHARACTER=20 TEXT='1';
+	TEXT TAXON=2 CHARACTER=20 TEXT='1';
+	TEXT TAXON=3 CHARACTER=20 TEXT='1';
+	TEXT TAXON=4 CHARACTER=20 TEXT='1';
+	TEXT TAXON=1 CHARACTER=21 TEXT='1';
+	TEXT TAXON=2 CHARACTER=21 TEXT='1';
+	TEXT TAXON=3 CHARACTER=21 TEXT='1';
+	TEXT TAXON=4 CHARACTER=21 TEXT='1';
+	TEXT TAXON=1 CHARACTER=22 TEXT='1';
+	TEXT TAXON=2 CHARACTER=22 TEXT='1';
+	TEXT TAXON=3 CHARACTER=22 TEXT='1';
+	TEXT TAXON=4 CHARACTER=22 TEXT='1';
+	TEXT TAXON=1 CHARACTER=23 TEXT='1';
+	TEXT TAXON=2 CHARACTER=23 TEXT='1';
+	TEXT TAXON=3 CHARACTER=23 TEXT='1';
+	TEXT TAXON=4 CHARACTER=23 TEXT='1';
+	TEXT TAXON=1 CHARACTER=24 TEXT='1';
+	TEXT TAXON=2 CHARACTER=24 TEXT='1';
+	TEXT TAXON=3 CHARACTER=24 TEXT='1';
+	TEXT TAXON=4 CHARACTER=24 TEXT='1';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 24;
+      ENDBLOCK;
+      BEGIN LABELS;
+ CHARGROUPLABEL Branch COLOR = (RGB 1.0 0.85490196 0.26666667) ; CHARGROUPLABEL 'Leaves, stipules' COLOR = (RGB 0.88627451 1.0 0.43529412) ; CHARGROUPLABEL Leaves COLOR = (RGB 0.78039216 1.0 0.63529412) ; CHARGROUPLABEL 'Leaves, petiole' COLOR = (RGB 0.61960784 1.0 0.36862745) ; CHARGROUPLABEL 'Leaves, rachis' COLOR = (RGB 0.46666667 1.0 0.33333333) ; CHARGROUPLABEL 'Leaves, rachilla' COLOR = (RGB 0.45882353 1.0 0.10196078) ; CHARGROUPLABEL 'Leaves, leaflets' COLOR = (RGB 0.03529412 1.0 0.03529412) ; CHARGROUPLABEL Inflorescence COLOR = (RGB 0.72156863 0.53333333 1.0) ; CHARGROUPLABEL Flower COLOR = (RGB 0.89411765 0.46666667 1.0) ; CHARGROUPLABEL Fruit COLOR = (RGB 0.56862745 0.65490196 1.0) ; CHARGROUPLABEL Root COLOR = (RGB 1.0 0.33333333 0.33333333) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1396559562315; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7721618128367441491; tell It; setSelected 1; setDefaultOrder 30 41 47 2; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4389840515968735988; tell It; setDefaultOrder 9 9 13 18 19 20 105 28 30 31 35 48 47 62 14 15 16 120 64 84 73 73 75 76; attachments ; endTell; mqVersion 275; checksumv 0 3 3107692764 null getNumChars 24 numChars 24 getNumTaxa 4 numTaxa 4 short true bits 2305843009213693983 states 31 sumSquaresStatesOnly 1436.0 sumSquares -1.8446744073709552E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false true 204; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 720; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #7721618128367441491 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #7721618128367441491; getWindow; tell It; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4389840515968735988 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 145; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 196; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Yellow; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 453; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4389840515968735988 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; getTable; tell It; columnWidth 2 124; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; newAssistant #mesquite.basic.TextWindowMaker.TextWindowMaker; tell It; setText ; getWindow; tell It; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 703; setLocation 4 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; hideWindow; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 24; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARPARTITION * UNTITLED = Branch : 1 - 4, 'Leaves, stipules' : 5 - 6, 'Leaves, rachis' : 7 9, 'Leaves, leaflets' : 11, Inflorescence : 12 - 13, Flower : 14, Fruit : 18 - 24; 
+ENDBLOCK;

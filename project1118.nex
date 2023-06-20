@@ -1,0 +1,625 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.02.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Dicksonosteus'
+		'Holonema'
+		'Buchanosteus'
+		'Homosteus'
+		'Coccosteus'
+		'Harrytoombsia'
+		'McNamaraspis'
+		'Compagopiscis'
+		'Incisoscutum ritchiei'
+		'Incisoscutum sarahae'
+		'Latocamurus'
+		'Camuropicislaidlawi'
+		'Rolfosteus'
+		'Tubonasus'
+		'Fallocosteus turneri'
+		'Dinichthys'
+		'Gorgonichthys'
+		'Hadrosteus'
+		'Heintzichthys'
+		'Stenosteus sp.nov.'
+		'Gymnotrachelus'
+		'Rhinosteus'
+		'Pachyosteus'
+		'Heterostius'
+		'E. pustulosus'
+		'Protitanichthys'
+		'Panxiosteus'
+		'Janiosteus'
+		'Plourdosteus'
+		'E. calliaspis'
+		'Xiangshuiosteus'
+		'Kiangyousteus'
+		'Golshanichthys'
+		'Westralichthys'
+		'Dunkleosteus'
+		'D. raveri'
+		'D. amblyodoratus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=98;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'N post. paired pits (f.lv.)'
+		 [2] 'cr.inf.M|lcp extent'
+		 [3] 'tri depression'
+		 [4] 'neurocranial process'
+		 [5] 'R post shape'
+		 [6] 'Rostrum (ant R) elongate'
+		 [7] 'R tubular'
+		 [8] 'Ant P location'
+		 [9] 'Post P location'
+		 [10] 'Nu ant. border (7a)'
+		 [11] 'N post. border (7a)'
+		 [12] 'th.n (Nu thickening)'
+		 [13] 'PrO embayment of C'
+		 [14] 'PNu embayment C'
+		 [15] 'PrO|C ratio'
+		 [16] 'infrafen.pr of PN'
+		 [17] 'PrO dermal pr.pro'
+		 [18] 'PrO median contact'
+		 [19] 'PrO contact extent'
+		 [20] 'PtO embay of C'
+		 [21] 'C contact with Nu'
+		 [22] 'C width at Pi'
+		 [23] 'M contacts C'
+		 [24] 'M on HS border'
+		 [25] 'M in orbit'
+		 [26] 'PN in orbit'
+		 [27] 'PN extent in orbit'
+		 [28] 'Orbit size'
+		 [29] 'N|PNu elongate'
+		 [30] 'PNu postnuchal pr. (8)'
+		 [31] 'C|Pnu|M post to PNu|C|Nu'
+		 [32] 'ant. triple pt. med'
+		 [33] 'PRO|PTO|C triple pt'
+		 [34] 'pr.PTO shape|size'
+		 [35] 'MD ventral ridge (4)'
+		 [36] 'MD shape (4b)'
+		 [37] 'MD posterior border'
+		 [38] 'AL|AVL contact'
+		 [39] 'AL|IL ext contact'
+		 [40] 'IL|SP contact'
+		 [41] 'pect dermal enclosure'
+		 [42] 'PL|PDL overlap'
+		 [43] 'PL in fenestra'
+		 [44] 'PL ventral lam'
+		 [45] 'SP'
+		 [46] 'Sp pit'
+		 [47] 'IL branchial lamina'
+		 [48] 'IL ventral lamina'
+		 [49] 'IL ornament'
+		 [50] 'PVL contact'
+		 [51] 'lam PVL'
+		 [52] 'SO dermal lam'
+		 [53] 'oa.SO on PtO'
+		 [54] 'SO|PRO contact'
+		 [55] 'SO|M contact'
+		 [56] 'SO with cf.PSG'
+		 [57] 'Pq. ossification'
+		 [58] 'Detent pr.'
+		 [59] 'SM assoc with hm'
+		 [60] 'SM form'
+		 [61] 'cheek|HS contact length'
+		 [62] 'Cheek|HS overlap'
+		 [63] 'IG func and blade'
+		 [64] 'IG developed sym'
+		 [65] 'adsym denticles'
+		 [66] 'ASG cusps'
+		 [67] 'ASG lat enclosed'
+		 [68] 'ASG dorsal process'
+		 [69] 'ASG dorsal ring'
+		 [70] 'PSG dorsal process'
+		 [71] 'Psph W|L ratio'
+		 [72] 'Psph pl.pr.'
+		 [73] 'psph vein foramen'
+		 [74] 'Psph ventromed crest'
+		 [75] 'ioc.pt|ioc.ot angle'
+		 [76] 'cc join soc'
+		 [77] 'lc.vl. on ADL'
+		 [78] 'ld. on PDL'
+		 [79] 'lc. on PDL'
+		 [80] 'ld. on MD'
+		 [81] 'psoc on SO'
+		 [82] 'ioc.pt|ioc.so angle'
+		 [83] 'ioc.pt|sor confluent'
+		 [84] 'soc on C'
+		 [85] 'pmc'
+		 [86] 'ASG.psph contact'
+		 [87] 'psph|ASG contact'
+		 [88] 'ASG with occlusal shelf'
+		 [89] 'IG 2nd ridge with cusp?'
+		 [90] 'HS|TS articulation med|lat'
+		 [91] 'ornament'
+		 [92] 'laf|Pto junc ratio'
+		 [93] 'laf|Pi ratio'
+		 [94] 'PtO|M|C rel to Nu ant edge'
+		 [95] 'M|PNu|C rel to Nu ant edge'
+		 [96] 'PtO|PNu|C rel to ant Nu'
+		 [97] 'm.sept continuous with p.tr.r'
+		 [98] 'supraorb vault'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'PM or HS edge'
+		'M'
+		'absent or greatly reduced'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'thickening'
+		'distinct process'
+		,
+		5
+		'not developed'
+		'subtriangular'
+		'T-shaped'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'over orbit'
+		'anterior to orbit'
+		,
+		9
+		'over orbit'
+		'posterior to orbit'
+		,
+		10
+		'straight'
+		'convex'
+		'concave'
+		,
+		11
+		'straight'
+		'convex'
+		'concave'
+		,
+		12
+		'discontinuous'
+		'continuous'
+		,
+		13
+		'absent'
+		'shallow'
+		'developed'
+		,
+		14
+		'absent'
+		'shallow'
+		'developed'
+		,
+		15
+		'subequal'
+		'PRO > C'
+		'C > PRO'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'posterior to P'
+		'anterior to P'
+		'absent'
+		,
+		19
+		'short'
+		'long'
+		,
+		20
+		'absent'
+		'shallow'
+		'developed'
+		,
+		21
+		'short'
+		'long'
+		,
+		22
+		'tapered'
+		'flat and wider'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'< 50%'
+		'> 50%'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'minimal'
+		'developed'
+		,
+		28
+		'small'
+		'med'
+		'large'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'posterior'
+		'anterior'
+		,
+		32
+		'ant pt lat or parallel'
+		'post pt lat'
+		,
+		33
+		'post. to orbit'
+		'over orbit'
+		,
+		34
+		'small or absent'
+		'intermediate'
+		,
+		35
+		'thickened ridge'
+		'post. process'
+		'spatulate'
+		,
+		36
+		'short and broad'
+		'long and narrow'
+		,
+		37
+		'rounded'
+		'spinous'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'fenestra'
+		'open'
+		,
+		42
+		'simple'
+		'insertion'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'small or absent'
+		'developed'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'PL only'
+		'PL and AL'
+		,
+		51
+		'absent'
+		'small'
+		'large'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'lateral contact'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'one'
+		'two'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'short and broad'
+		'elongate'
+		,
+		61
+		'long'
+		'short'
+		,
+		62
+		'loose contact'
+		'well bound'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'none'
+		'lateral'
+		'lateral and anterior'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'open ring'
+		'90 degrees'
+		'< 90 degrees'
+		,
+		70
+		'absent'
+		'large'
+		'small'
+		,
+		71
+		'prehypophysial shelf width greater than length, posthypophysial shelf width greater than length'
+		'prehypophysial shelf width less than length, posthypophysial shelf width greater than length'
+		'prehypophysial shelf width greater than length, posthypophysial shelf width less than length '
+		'prehypophysial shelf width less than length, posthypophysial shelf width less than length'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'open posteriorly (i.e. the formed angle is greater than 90°)'
+		'partially closed (i.e. the formed angle is between 45° and 90°) '
+		'closed (i.e. the formed angle is less than 45°) '
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'open'
+		'closed, measured as less than 90°'
+		,
+		83
+		'discontinuous'
+		'continuous'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'lat contact face'
+		'transverse facets'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'narrow'
+		'laterally displaced'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'< 0.3'
+		'3 <= r1 <= 3.9'
+		'4 <= r1 <= 6'
+		'r1 > 7'
+		,
+		93
+		'r2 < 3.0 '
+		'3.0 <= r2<= 5.0'
+		'5.1 <= r2 <= 7.5'
+		'r2 > 7.5'
+		,
+		94
+		'anterior'
+		'posterior'
+		,
+		95
+		'anterior'
+		'posterior'
+		,
+		96
+		'anterior'
+		'posterior'
+		'even'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Dicksonosteus'		                  120000-1010000?000101?1?01100011010110000000111110010000??1000???????00000000010000010-??011000-?0
+	'Holonema'		                       020020-01110110?02-0000?00-100110?11001100101110101000000010000???00?0????001(0,1)1(0,1)10011????0110--000
+	'Buchanosteus'		                   ?0?0?0-?001001??00100?100??001010121?00?????1??????110000?1100???????1???0001??01(0,1)0110-??110001-01
+	'Homosteus'		                      100000-1000001??12-000100??01001??0000011?-?101?1-?10010???1001???????????001?0011001????110001-?0
+	'Coccosteus'		                     100020-00(0,2)0112011(0,2)01011000-101110121100100011110?02110001?1100101?0111001?011101001110-00111111-?1
+	'Harrytoombsia'		                  101120-00001110012-0000?00-10110012110110?11111?1021?10011?10010100101001000100000111????1111--001
+	'McNamaraspis'		                   101120000001110012-0010?00?1011101211011001111101021010011110010100101011010100000111????1111--001
+	'Compagopiscis'		                  111120000021111012-0010?00-2011100211011001111111021000011110010101101?11110000000111????1111--001
+	'Incisoscutum ritchiei'		          111120-0000111001110010?01010011012110111?-?11101-01000011110010100101?01111000100011????1112--001
+	'Incisoscutum sarahae'		           111120-0002111001110010?01?10011012110111?-?11101-01000011110010100101?01111000100011????1101--001
+	'Latocamurus'		                    111100-1022111?01100000001110011102110110?011????121?01011?00110000101111110100000110????1112--101
+	'Camuropicislaidlawi'		            0111010000211111?11?0000011101110??111?10?01111?0??111010??00110100101????10100000110????1112--00?
+	'Rolfosteus'		                     ?1110110000110101110000?011101110?2101100?11111??021101011?00110??0101---110110100010-???1111--0?1
+	'Tubonasus'		                      ?1??0110022111101110000?011101111?2??1100?1111???021?01????00110??0101?00?10100000010-???1111--0?1
+	'Fallocosteus turneri'		           011101000201111111100000011101111121011000111?1111211010???00110000101????00100000010????1111--0??
+	'Dinichthys'		                     1?????????????????????????????????????????????????????????????10111101?????????????????1??1?????1?
+	'Gorgonichthys'		                  110010?10101000?12-0110?0??101111120000-1?-?0-???-???????????01001110?????100??0???110-1?10?1--011
+	'Hadrosteus'		                     ???????101(0,2)?010?12-01(0,1)1?00-1011110?00???1???1??????1?110???10010011102????100??000-110-?0100211-??
+	'Heintzichthys'		                  11?010-0012100?-12-210000--200111020000-10-10-010-1101001111101001110101?0100000000110-101001--111
+	'Stenosteus sp.nov.'		             110010-0012100?-12-0101??--201111010000-10-10-???-01?1?01?0010111????0????2?000000-1?0-?0100111-?1
+	'Gymnotrachelus'		                 100010-00021000-12-100000--201111010000-11-00-???-01?1?0??00?0111000-01???200000000100-001001--111
+	'Rhinosteus'		                     1????0-0012?01??1112101010-2011010?0000-1?-00-???-?1?11????011111????2????20000000111????101101-??
+	'Pachyosteus'		                    ?1??10-0012?01??12-1100?10-2011110?????-1?-??????-?1?100????1?1?????????0020????0??110-??1002--0?1
+	'Heterostius'		                    1000?000010?00??101011100??0?01101200???11?00??????10000??1100????????????00001000111????11?011-??
+	'E. pustulosus'		                  10?020-00201220?100011100??00?1101200????????????????????????010???1???????001?1???11????110201-01
+	'Protitanichthys'		                111?20001211220112-1111?00?0011101111001110011111?010101??010011110102????010010?01100?0?110001-??
+	'Panxiosteus'		                    110120-00211220?12-0100000-00011012?1??????????????10??1?????0????01010??101???1001110-0?1101--201
+	'Janiosteus'		                     ???????012??22?????0000?0???00110????????????????????????????0????????????01???????1?????1101--2??
+	'Plourdosteus'		                   ???220-01201220?12-1100?00-0001001?110??01-?1????-010110???10010120101????01???1001110-001101--201
+	'E. calliaspis'		                  101020-01201120112-0111?00-101110121000011-010111-110101111100101(1,2)0111?111000010001110-0?111101-01
+	'Xiangshuiosteus'		                ????00-1120?12??12-1101?0??0011101????????????????????????????????????????00???????1?????111000-??
+	'Kiangyousteus'		                  ???????????????????????????????????10????1??1?1?1???????????????01??-10101???0?1?????111??1???????
+	'Golshanichthys'		                 1??0?????201220?1??01?1?00-?011101???????????????????1???????01002????????00???????11???1110001-01
+	'Westralichthys'		                 ?002?????00122??1??00?1?0??0011101???????????????????1??????00????????????00????????1????10?001-01
+	'Dunkleosteus'		                   100210-01121000112-1111000-000110120000011-010101-1101011?1100100201110100000??000111110110?001-01
+	'D. raveri'		                      ?00220-01???????12-1?1??00-00???11???????????????????1???????0????????0??00????????1111??11??????1
+	'D. amblyodoratus'		               ??????????21?????????????????????????????????????????????????????????????????????????10??11?????0?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 98;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1367808419607 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 3309426050511609445 ; tell It ; setSelected 35 ; setDefaultOrder 0 1 2 3 5 4 35 34 26 27 28 32 22 23 33 12 8 21 9 25 11 10 24 31 17 30 15 16 29 6 36 20 18 19 7 13 14 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 8787242119313507094 ; mqVersion 273 ; checksumv 0 2 2452585584 null getNumChars 98 numChars 98 getNumTaxa 37 numTaxa 37 short true bits 15 states 15 sumSquaresStatesOnly 8240.0 sumSquares 8240.0 NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1440 788 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #8787242119313507094 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1340 721 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; colorRowNames #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; colorColumnNames #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 98 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Imported_trees ; LINK Taxa = Taxa ; TRANSLATE 1 Dicksonosteus , 2 Holonema , 3 Buchanosteus , 4 Homosteus , 5 Coccosteus , 6 Harrytoombsia , 7 McNamaraspis , 8 Compagopiscis , 9 Incisoscutum_ritchiei , 10 Incisoscutum_sarahae , 11 Latocamurus , 12 Camuropicislaidlawi , 13 Rolfosteus , 14 Tubonasus , 15 Fallocosteus_turneri , 16 Dinichthys , 17 Gorgonichthys , 18 Hadrosteus , 19 Heintzichthys , 20 Stenosteus_sp.nov. , 21 Gymnotrachelus , 22 Rhinosteus , 23 Pachyosteus , 24 Heterostius , 25 E._pustulosus , 26 Protitanichthys , 27 Panxiosteus , 28 Janiosteus , 29 Plourdosteus , 30 E._calliaspis , 31 Xiangshuiosteus , 32 Kiangyousteus , 33 Golshanichthys , 34 Westralichthys , 35 Dunkleosteus , 36 D._raveri , 37 D._amblyodoratus ; TREE Imported tree 2++ = (1 , 2 , 3 , 6 , (5)) ; TREE Imported tree 3++ = (1 , (((2) , (((3) , 4) , ((35) , (((6) , 30) , (5))))))) ; TREE Imported tree 4++ = (1 , ((2 , (((4 , (3)) , (((35 , 17)) , ((30 , (6 , 22)) , (5)))))))) ;
+ENDBLOCK;

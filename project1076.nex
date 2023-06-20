@@ -1,0 +1,560 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.20.27 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'younginia'
+		'squamata'
+		'gephyrosaurus'
+		'brachyrhinodon'
+		'Clevosaurus hudsoni'
+		'Clevosaurus wangi'
+		'cynosphenodon'
+		'diphydontosaurus'
+		'eilenodon'
+		'homoeosaurus'
+		'kallimodon'
+		'oenosaurus'
+		'opisthias'
+		'palaeopleurosaurus'
+		'planocephalosaurus'
+		'pleurosaurus'
+		'pamizinsaurus'
+		'priosphenodon'
+		'sapheosaurus'
+		'sphenodon'
+		'toxolophosaurus'
+		'zapatadon'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=70;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Antorbital length / skull length ratio'
+		 [2] 'Orbit diameter / skull length ratio'
+		 [3] 'Supratemporal fenestra / orbit length ratio'
+		 [4] 'Supratemporal fenestra / skull length ratio'
+		 [5] 'Lower temporal fenestra / skull length ratio'
+		 [6] 'Maxilla with premaxillary process'
+		 [7] 'Premaxillary posterodorsal process (which excludes the maxilla from the external naris margin)'
+		 [8] 'Posterior end of the maxilla'
+		 [9] 'Lacrimal'
+		 [10] 'Jugal dorsal process'
+		 [11] 'Posterior process of the jugal'
+		 [12] 'Prefrontal and postfrontal profusely sculptured'
+		 [13] 'Prefrontal - jugal contact'
+		 [14] 'Postorbital with marked dorsal ridge and deep ventrolateral concavity'
+		 [15] 'Frontals'
+		 [16] 'Parietals'
+		 [17] 'Interparietal / interorbital width or intertemporal width of parietals'
+		 [18] 'Parietal crest'
+		 [19] 'Posterior edge of parietals'
+		 [20] 'Parietal foramen, position in respect to the anterior border of the supratemporal fenestra'
+		 [21] 'Lower temporal bar shape / position'
+		 [22] 'Lower temporal bar'
+		 [23] 'Palatines posterior shape'
+		 [24] 'Midline contact of the palatines'
+		 [25] 'Pterygoid bones anterior contact'
+		 [26] 'Interpterygoid vacuity posterior opening or relative separation of the pterygoid posteromedial processes'
+		 [27] 'Posterior border of ectopterygoid wing of pterygoid'
+		 [28] 'Pterygoid'
+		 [29] 'Parabasisphenoid depression'
+		 [30] 'Q-Qj foramen size'
+		 [31] 'Q-Qj foramen position'
+		 [32] 'Q-Qj conch size and emargination'
+		 [33] 'Supratemporal'
+		 [34] 'Inferred jaw motion'
+		 [35] 'Degree of propalinality, measured either as palatal tooth row extension or length in which palatines keep parallel to the maxillae'
+		 [36] 'Lower jaw, anterior region'
+		 [37] 'Ventral process at the anterior end of the dentary'
+		 [38] 'Inclination of jaw symphysis in relation to long axis of the mandible (line from anterodorsal end of dentary to posterior end of glenoid)'
+		 [39] 'Jaw symphysis, dorsal development'
+		 [40] 'Mandibular foramen'
+		 [41] 'Glenoid cavity'
+		 [42] 'Coronoid process'
+		 [43] 'Retroarticular process'
+		 [44] 'Posterior process of dentary'
+		 [45] 'Marginal dental implantation'
+		 [46] 'Tooth replacement'
+		 [47] 'Dentary regionalization with small juvenile teeth (hatchling) in the anterior region of maxilla and dentary'
+		 [48] 'Anterior caniniform teeth in maxillae and dentaries'
+		 [49] 'Lateral and medial wear facets on marginal teeth'
+		 [50] 'Marginal teeth breadth'
+		 [51] 'Number of premaxillary teeth'
+		 [52] 'Premaxillary teeth structure'
+		 [53] 'Posterior maxillary teeth'
+		 [54] 'Maxillary teeth shape'
+		 [55] 'Maxillary teeth with anterolateral flange'
+		 [56] 'Number of palatine tooth rows'
+		 [57] 'Lateral palatine tooth row'
+		 [58] 'Palatine teeth with flanges'
+		 [59] 'Number of pterygoid tooth rows'
+		 [60] 'Mandibular teeth with anterolateral flanges'
+		 [61] 'Mandibular teeth with anteromedial flanges'
+		 [62] 'Dental ridges in adult additional teeth'
+		 [63] 'Number of presacral vertebrae'
+		 [64] '2nd sacral vertebra with posterior process'
+		 [65] 'Coossification of scapula and coracoid'
+		 [66] 'Ischium posterior border'
+		 [67] 'Metatarsals I-IV longer than V (0); all metatarsals of subequal length (1)'
+		 [68] 'Astragalus and calcaneum'
+		 [69] 'Skull length'
+		 [70] 'Postzygapophyses, dorsal shape'
+	;
+	STATELABELS
+		1
+		'More or equal than 1/3 (0); between 1/3 and ¼ (1); less or equal than ¼ (2)'
+		'State 1'
+		'State 2'
+		,
+		2
+		'1/3 or more (0); less than 1/3 (1)'
+		'State 1'
+		,
+		3
+		'Less than 75% (0); more than 75% (1)'
+		'State 1'
+		,
+		4
+		'Less than ¼ (0); more than ¼ (1)'
+		'State 1'
+		,
+		5
+		'Less or equal than ¼ (0); more than ¼ (1)'
+		'State 1'
+		,
+		6
+		'elongate (0); short or absent (1)'
+		'State 1'
+		,
+		7
+		'absent (0); present (1)'
+		'State 1'
+		,
+		8
+		'narrow or tapers (0); broad dorso-ventrally (1)'
+		'State 1'
+		,
+		9
+		'present (0); absent (1)'
+		'State 1'
+		,
+		10
+		'broad and short (0); narrow and elongate (1)'
+		'State 1'
+		,
+		11
+		'absent or small (0); elongate (1)'
+		'State 1'
+		,
+		12
+		'absent (0); present (1)'
+		'State 1'
+		,
+		13
+		'absent (0); present (1)'
+		'State 1'
+		,
+		14
+		'absent (0); present (1)'
+		'State 1'
+		,
+		15
+		'separate (0); fused (1)'
+		'State 1'
+		,
+		16
+		'separate (0); fused (1)'
+		'State 1'
+		,
+		17
+		'broader or greater than interorbital width (0); narrower or less than interorbital width (1)'
+		'State 1'
+		,
+		18
+		'absent (0); present (1)'
+		'State 1'
+		,
+		19
+		'greatly incurved (0); slightly incurved (1); convex (2)'
+		'State 1'
+		'State 2'
+		,
+		20
+		'posterior (0); at the same level or anterior (1)'
+		'State 1'
+		,
+		21
+		'aligned with maxilary tooth row (0); bowed (1)'
+		'State 1'
+		,
+		22
+		'incomplete (0); complete (1)'
+		'State 1'
+		,
+		23
+		'tapers posteriorly (0); relatively wide posteriorly (1)'
+		'State 1'
+		,
+		24
+		'absent'
+		'palatines separated by pterygoids and vomer (0); present'
+		'no contact between pterygoid and vomer (1)'
+		,
+		25
+		'absent (0); slight (1); vast (2)'
+		'State 1'
+		'State 2'
+		,
+		26
+		'widely open (0); as wide as vacuity (1); almost closed (2)'
+		'State 1'
+		'State 2'
+		,
+		27
+		'approximately level with basicranial artriculation (0); offset anteriorly from basicranial articulation (1)'
+		'State 1'
+		,
+		28
+		'entering into margin of suborbital fenestra (0); excluded from margin of suborbital fenestra(1)'
+		'State 1'
+		,
+		29
+		'absent (0); present (1)'
+		'State 1'
+		,
+		30
+		'small (0); enlarged (1)'
+		'State 1'
+		,
+		31
+		'between Q and Qj (0); in Q (1)'
+		'State 1'
+		,
+		32
+		'pronounced (0); reduced (1)'
+		'State 1'
+		,
+		33
+		'present (0); fused or absent (1)'
+		'State 1'
+		,
+		34
+		'orthal (0); propalineal (1)'
+		'State 1'
+		,
+		35
+		'small palatal row'
+		'parallel line restricted to the anterior region (0); enlarged'
+		'palatines accompanying maxilla half its own length (1); palatines accompanying maxilla by its complete length'
+		'?eupropalinality? (2)'
+		,
+		36
+		'toothed (0); edentate (1)'
+		'State 1'
+		,
+		37
+		'absent (0); well-developed (1)'
+		'State 1'
+		,
+		38
+		'more than 50° (0); less than 50° (1); almost vertical ventrally and with pronounced anterior process dorsally (2)'
+		'State 1'
+		'State 2'
+		,
+		39
+		'moderately developed (0); well projected anterodorsally'
+		'comparable to a caniniform (1)'
+		,
+		40
+		'small (0); large (1)'
+		'State 1'
+		,
+		41
+		'smooth surface'
+		'lacking an anteroposterior central ridge (0); elongate and asymmetrical surface'
+		'with a strong anteroposterior central ridge (1); symmetrical facet with a strong anteroposterior central ridge (2)'
+		,
+		42
+		'short'
+		'weak or absent'
+		'less than half jaw (0); pronounced'
+		'around half jaw (1); high'
+		'as tall as jaw (2)'
+		,
+		43
+		'pronounced (0); reduced'
+		'caudally projected (1)'
+		'reduced'
+		'dorsally curved (2)'
+		,
+		44
+		'short'
+		'does not reach glenoid level (0); elongate'
+		'reaching glenoid level (1); elongate'
+		'reaching the end of glenoid level (2)'
+		,
+		45
+		'pleurodont (0); degree of posterior acrodonty (1); fully acrodont (2)'
+		'State 1'
+		'State 2'
+		,
+		46
+		'alternate (0); addition at back of jaw (1)'
+		'State 1'
+		,
+		47
+		'absent'
+		'only pleurodont teeth (0); present'
+		'with hatchling pleurodont teeth (1); present'
+		'with hatchling'
+		'successional and additional acrodont teeth (2); absent'
+		'only additional acrodont teeth (3)'
+		,
+		48
+		'absent (0); present (1)'
+		'State 1'
+		,
+		49
+		'absent or smooth (0); well established (1)'
+		'State 1'
+		,
+		50
+		'equal to or lesser than length (0); square'
+		'expanded lateromedially (1); rectangular'
+		'wider than long (2)'
+		,
+		51
+		'more than seven (0); seven to four (1); three or less (2)'
+		'State 1'
+		'State 2'
+		,
+		52
+		'discrete (0); chisel-like (1)'
+		'State 1'
+		,
+		53
+		'as large as (0) or smaller than more anterior teeth (1)'
+		'State 1'
+		,
+		54
+		'simple cones (0); small occasional posteromedial flanges (1); extensive posteromedial flanges (2)'
+		'State 1'
+		'State 2'
+		,
+		55
+		'absent (0); present (1)'
+		'State 1'
+		,
+		56
+		'more than one (0); a single row plus one isolated relictual tooth (1); a single lateral tooth row (2)'
+		'State 1'
+		'State 2'
+		,
+		57
+		'curves medially posteriorly (0); parallel to maxillary tooth row over ist entire length (1)'
+		'State 1'
+		,
+		58
+		'absent (0); present on some (1)'
+		'State 1'
+		,
+		59
+		'three or more rows (0); two rows (1); one row or absent (2)'
+		'State 1'
+		'State 2'
+		,
+		60
+		'absent (0); present'
+		'at least in one tooth (1)'
+		,
+		61
+		'absent (0); present (1)'
+		'State 1'
+		,
+		62
+		'absent (0); present (1)'
+		'State 1'
+		,
+		63
+		'less than 25 (0); more than 25 (1)'
+		'State 1'
+		,
+		64
+		'small or absent (0); prominent (1)'
+		'State 1'
+		,
+		65
+		'present (0); absent (1)'
+		'State 1'
+		,
+		66
+		'posterior end uninterrupted (0); tubercle on posterior end (1); prominent posterior process (2)'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'unfused (0); fused (1)'
+		'State 1'
+		,
+		69
+		'less than 30 mm (0); 30-90 mm (1); equal or larger than 100 mm (2)'
+		'State 1'
+		'State 2'
+		,
+		70
+		'flat (0); swollen (1)'
+		'State 1'
+		
+	;
+	MATRIX
+	'younginia'		                    0100000001000000000001100001?01000?00?00?0??0000002010000?0?????02??10
+	'squamata'		                     0(0,1)(0,1)0(0,1)0?00(0,1)00?0000000000000000??0?0?00000000000000000000???200?000100?0
+	'gephyrosaurus'		                0000000000000?11000010001000000010000000?00100000000000000000000??0???
+	'brachyrhinodon'		               2111110111100?0000001100110?0????0??0001?1012120101001010?1???0???0?0?
+	'Clevosaurus hudsoni'		          1111111111100000100011002101000000111001110121201021020101110101010100
+	'Clevosaurus wangi'		            11101?1111?0?00?000011002111?0100?1????111?1212010??02010?11??????????
+	'cynosphenodon'		                ???????????????????????????1?????1??111??1??21211021?00????10???????0?
+	'diphydontosaurus'		             10000000100000100000100010000000101000010101(0,1)110001010000000??01?10?00
+	'eilenodon'		                    ???????????1?????????????????????1?1???120222?30122??212?1?111??????2?
+	'homoeosaurus'		                 0(0,1)0000011010010000(0,1)1111020010???10??1101?111212010210200??21??01020100
+	'kallimodon'		                   01110?011??00?001111011020111???101?1001?20121201021?2021?2101?1020001
+	'oenosaurus'		                   20???0?1???0?10111????0122011????111110112112??0?0??0??20?2?????????0?
+	'opisthias'		                    ?1???11111??110011?11?1?220??????1211011?0112?30112??2?2?12111?1????1?
+	'palaeopleurosaurus'		           01110000100000011110000021101110100111?1?10(1,2)2120102102?20?21??11111010
+	'planocephalosaurus'		           000000001000001100100000100000?010001001?1??21?000100100011??1????????
+	'pleurosaurus'		                 0110?01010001000111100?1211????01000010111022??0002110121121011?1?1110
+	'pamizinsaurus'		                ??????1????0?????????????2?1???0001?1101?11?2120?02????2???1?1??????00
+	'priosphenodon'		                0110011111011100111110102201?0000121121120222?3012210212112111?1????21
+	'sapheosaurus'		                 11?100?1?0????001111101?10011??????10001?20????0??210?0???????01120111
+	'sphenodon'		                    1111100111100100112111102211110111211101111121211021010211210000010010
+	'toxolophosaurus'		              ?????????????????????????????????1?11211?0??2?3012?????????11???????1?
+	'zapatadon'		                    10?01??01?0?1??1?1?1?1002210110101??111??1??2120?0??01?20?2?????????0?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=2 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=3 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=4 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=5 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=6 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=7 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=8 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=9 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=10 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=11 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=12 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=13 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=14 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=15 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=16 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=17 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=18 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=19 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=20 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=21 TEXT='Rauhut et al. 2012^n^n';
+	TEXT TAXON=22 TEXT='Rauhut et al. 2012^n^n';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=2 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=3 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=4 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=5 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=6 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=7 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=8 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=9 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=10 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=11 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=12 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=13 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=14 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=15 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=16 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=17 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=18 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=19 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=20 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=21 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=22 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=23 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=24 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=25 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=26 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=27 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=28 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=29 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=30 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=31 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=32 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=33 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=34 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=35 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=36 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=37 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=38 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=39 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=40 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=41 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=42 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=43 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=44 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=45 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=46 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=47 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=48 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=49 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=50 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=51 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=52 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=53 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=54 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=55 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=56 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=57 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=58 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=59 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=60 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=61 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=62 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=63 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=64 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=65 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=66 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=67 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=68 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=69 TEXT='^n^nRauhut et al. 2012';
+	TEXT CHARACTER=70 TEXT='^n^nRauhut et al. 2012';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 70;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1 - 49 51 - 70 , ord: 50 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -846143566 ; FileSettings treewindow 0 0 1 1 ; Singles 010 ; Editor 0001100111111110010001001 1 24 Geneva 9 100 1 all ; EditorPosition 45 713 547 459 ; TreeWindowPosition 44 16 739 1230 ; ListWindow Characters closed Geneva 9 50 10 129 398 000 ; ListWindow Taxa closed Geneva 9 50 10 273 302 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 718 1220 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder Tree ; OtherSymbols & / 00 ? - ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; TreeLegendPosition 700 1047 64 93 ; EditorToolsPosition 617 715 115 165 ; TreeToolsPosition 624 9 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 ( normal ) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 ( normal ) ; TreeShape 1.0 1.0 0100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 ( normal ) Geneva 10 ( normal ) Geneva 9 ( normal ) Geneva 9 ( normal ) Geneva 9 ( bold ) Geneva 9 ( normal ) Geneva 9 ( normal ) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 170 44 0 0 10460 456 636 35 678 35 678 288 24 35 1 1 1 1 0 -12357 -39 4 -40 0 1 2 4 8 16 8 0 2 0010110000000000010100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 10 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1384848419137 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 2200909200926712470 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 7008803390293004630 ; mqVersion 275 ; checksumv 0 3 1833115654 null getNumChars 70 numChars 70 getNumTaxa 22 numTaxa 22 short true bits 2305843009213693967 states 15 sumSquaresStatesOnly 4401.0 sumSquares -4.150517416584649E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 974 681 ; setLocation 6 24 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #7008803390293004630 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 874 614 ; setLocation 6 24 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #7008803390293004630 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; getTable ; tell It ; rowNamesWidth 505 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 874 614 ; setLocation 6 24 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 70 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "Rauhut_et_al_Oeno.txt" ; LINK Taxa = Taxa ; TRANSLATE 1 Younginia , 2 Squamata , 3 Gephyrosaurus , 4 Brachyrhinodon , 5 Clevosaurus_hudsoni , 6 Clevosaurus_wangi , 7 Cynosphenodon , 8 Diphydontosaurus , 9 Eilenodon , 10 Homoeosaurus , 11 Kallimodon , 12 Oenosaurus , 13 Opisthias , 14 Palaeopleurosaurus , 15 Planocephalosaurus , 16 Pleurosaurus , 17 Pamizinsaurus , 18 Priosphenodon , 19 Sapheosaurus , 20 Sphenodon , 21 Toxolophosaurus , 22 Zapatadon ; TREE UNTITLED+ = (1 , (2 , (3 , (8 , (15 , ((4 , (6 , 5)) , (10 , (((7 , 20) , (22 , 12)) , ((14 , 16) , (11 , (19 , (13 , (21 , (18 , 9)))))))))))))) ;
+ENDBLOCK;

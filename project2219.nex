@@ -1,0 +1,255 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 19.47.47 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+    		'Bienotherium'
+		'Bienotheroides'
+		'Bocatherium'
+		'Dianzhongia'
+		'Dinnebitodon'
+		'Kayentatherium'
+		'Lufengia'
+		'Montirictus'
+		'Oligokyphus'
+		'Polistodon'
+		'Stereognathus'
+		'Tritylodon'
+		'Xenocretosuchus'
+		'Yunnanodon'
+		'Yuanotherium minor'
+		'Shartegodon altai'
+		'Nuurtherium baruunensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Snout'
+		 [2] 'Post-incisive constriction of the snout'
+		 [3] 'Anterior margin of orbit'
+		 [4] 'Lacrimal size'
+		 [5] 'Lacrimal foramina'
+		 [6] 'Anterior contact of lacrimal'
+		 [7] 'Premaxilla posterior extension on secondary palate'
+		 [8] 'Contact between premaxilla and palatine on palate'
+		 [9] 'Premaxilla-maxillary contact'
+		 [10] 'Interdigitations on the maxillopalatine suture'
+		 [11] 'Interdigitations on the premaxilopalatine suture'
+		 [12] 'Maxilla presence on the hard palate'
+		 [13] 'Palatine contact'
+		 [14] 'Palatine contribution to the PC4 alveoli'
+		 [15] 'Greater palatine foramina'
+		 [16] 'Lateral (facial and zygomatic) extension of maxilla (in Lufengia juveniles; adult condition uncertain)'
+		 [17] 'Zygomatic process of the maxilla'
+		 [18] 'Jugal contribution to the medial and inferior orbital walls'
+		 [19] 'Foramina on jugal above PC2'
+		 [20] 'Coronoid process height'
+		 [21] 'Coronoid process anterior margin shape'
+		 [22] 'Angle of the alveolar line and the anterior margin of the coronoid process'
+		 [23] 'Upper postcanine alveolar toothrows'
+		 [24] 'Upper postcanine teeth generalize cusp formula'
+		 [25] 'Upper cheek tooth B0 cusp'
+		 [26] 'Upper cheek tooth M0 cusp'
+		 [27] 'Upper cheek tooth L0 cusp'
+		 [28] 'Upper cheek tooth M1 cusp'
+		 [29] 'Upper cheek tooth L1 cusp'
+		 [30] 'Upper cheek tooth L3 cusp'
+		 [31] 'Upper postcanine roots'
+		 [32] 'Upper postcanine teeth anterior median root'
+		 [33] 'Lower postcanine teeth generalize cusp formula'
+		 [34] 'Lower postcanine root number'
+		 [35] 'Lower postcanine root length and curvature'
+	;
+	STATELABELS
+		1
+		'longer than postcanine toothrow length'
+		'shorter than postcanine toothrow length'
+		,
+		2
+		'present'
+		'absent'
+		,
+		3
+		'directly dorsal to the distal margin of PC1'
+		'above the anteroposterior midpoint of PC2'
+		,
+		4
+		'large'
+		'reduced'
+		,
+		5
+		'Absent'
+		'One'
+		'Two'
+		,
+		6
+		'Premaxilla'
+		'Maxilla'
+		,
+		7
+		'anteriorly'
+		'between incisors and the mesial cheek teeth'
+		'near the most mesial teeth'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'Follows the mesiolingual shape of PC1'
+		'Contact occurs in the snout'
+		,
+		10
+		'Absent'
+		'Present'
+		,
+		11
+		'Absent'
+		'Present'
+		,
+		12
+		'Large and occupy most of the area of the palate'
+		'Highly reduced, preserved as a narrow band forming the lingual margins of the postcanine teeth'
+		,
+		13
+		'Anteriorly and laterally, the palatine is bordered by the maxilla and premaxilla'
+		'bordered only by the maxilla'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'Three'
+		'Two'
+		'One'
+		'Absent'
+		,
+		16
+		'present'
+		'reduced or absent'
+		,
+		17
+		'Constitutes the ventral aspect of the anterior root of the zygomatic arch'
+		'Constitutes the dorsal aspect of the anterior root of the zygomatic arch'
+		,
+		18
+		'Present'
+		'Absent'
+		,
+		19
+		'Three foramina present'
+		'Absent'
+		,
+		20
+		'Very tall'
+		'Short'
+		,
+		21
+		'Gently curved anterior margin '
+		'Straight anterior margin'
+		,
+		22
+		'< 90Âº'
+		'> 90Âº'
+		'90Âº'
+		,
+		23
+		'Diverge posteriorly'
+		'Parallel'
+		,
+		24
+		'2-2-2'
+		'2-3-2'
+		'2-3-3'
+		'2-3-4'
+		'2-4-3'
+		'2-4-4'
+		'3-3-3'
+		'3-4-4'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'large'
+		'small'
+		'absent'
+		,
+		29
+		'large'
+		'small'
+		'absent'
+		,
+		30
+		'large'
+		'small'
+		'absent'
+		,
+		31
+		'Four'
+		'Five'
+		'Six'
+		'Seven'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'2-2'
+		'3-3'
+		,
+		34
+		'One'
+		'Two'
+		,
+		35
+		'Long with the distal 2/3 curved'
+		'Long and curved throughout its entire length'
+		'Short and slightly curved'
+		
+	;
+	MATRIX
+	'Bienotherium'		                     1100111011-011200?????0211101021?11
+	'Bienotheroides'		                   11101021001101(0,2)1??????0(2,6)(0,1)1111010000
+	'Bocatherium'		                      1100102100110111???00210111220?????
+	'Dianzhongia'		                      11????20???????0??????111110013????
+	'Dinnebitodon'		                     11????21???1???1??????01111002?????
+	'Kayentatherium'		                   1100112001-0?12001100002111010??0??
+	'Lufengia'		                         11????20???????0???????211100010?12
+	'Montirictus'		                      ???????????????????????011122020011
+	'Oligokyphus'		                      0000210011-011300111110700000021111
+	'Polistodon'		                       11?101?????????000?101?0111220??0??
+	'Stereognathus'		                    11????21???1???1???????011122010???
+	'Tritylodon'		                       00???10011-011200??0021211100011???
+	'Xenocretosuchus'		                  ???????????????????????0111220??0??
+	'Yunnanodon'		                       11?????????????????????111100210?12
+	'Yuanotherium minor'		               ??????210011??101??????4000011?????
+	'Shartegodon altai'		                1100?02100010010000???0510011000000
+	'Nuurtherium baruunensis'		          ?????????0?1???????0000310001010000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 35;
+      ENDBLOCK;
+      

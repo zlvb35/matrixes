@@ -1,0 +1,179 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.22.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=66;
+    TAXLABELS
+    		'Acaryochloris marina MBIC11017'
+		'Anabaena variabilis ATCC29413'
+		'Aneura mirabilis'
+		'Angiopteris evecta'
+		'Anthoceros formosae'
+		'Arthrospira maxima CS-328'
+		'Chara vulgaris'
+		'Chlamydomonas reinhardtii'
+		'Chlorokybus atmophyticus'
+		'Crocosphaera watsonii WH8501'
+		'Cyanidioschyzon merolae strain 10D'
+		'Cyanidium caldarium'
+		'Cyanobium sp. PCC7001'
+		'Cyanophora paradoxa'
+		'Cycas taitungensis'
+		'Gloeobacter violaceus PCC7421'
+		'Gracilaria tenuistipitata var. liui'
+		'Heterosigma akashiwo'
+		'Lyngbya sp. PCC8106'
+		'Marchantia polymorpha'
+		'Mesostigma viride'
+		'Micromonas sp. RCC299'
+		'Monomastix sp. OKE-1'
+		'Nodularia spumigena CCY9414'
+		'Nostoc punctiforme PCC73102'
+		'Nostoc sp. PCC7120'
+		'Odontella sinensis'
+		'Oedogonium cardiacum'
+		'Oltmannsiellopsis viridis'
+		'Ostreococcus tauri'
+		'Phaeodactylum tricornutum'
+		'Physcomitrella patens patens'
+		'Pinus contorta'
+		'Porphyra purpurea'
+		'Porphyra yezoensis'
+		'Prochlorococcus marinus MIT9211'
+		'Prochlorococcus marinus MIT9312'
+		'Prochlorococcus marinus MIT9313'
+		'Prochlorococcus marinus NATL2A'
+		'Prochlorococcus marinus CCMP1375'
+		'Prochlorococcus marinus CCMP1986'
+		'Pseudendoclonium akinetum'
+		'Psilotum nudum'
+		'Pyramimonas parkeae'
+		'Ranunculus macranthus'
+		'Scenedesmus obliquus'
+		'Sorghum bicolor'
+		'Spinacia oleracea'
+		'Staurastrum punctulatum'
+		'Stigeoclonium helveticum'
+		'Synechococcus sp. CC9311'
+		'Synechococcus sp. JA-2-3B''a(2-13)'
+		'Synechococcus sp. JA-3-3Ab'
+		'Synechococcus.sp.PCC7002'
+		'Synechococcus.sp.RS9916'
+		'Synechococcus.sp.WH5701'
+		'Synechococcus.sp.WH7803'
+		'Synechococcus.sp.WH7805'
+		'Synechococcus.sp.WH8102'
+		'Synechocystis sp. PCC6803'
+		'Syntrichia ruralis'
+		'Thalassiosira pseudonana'
+		'Thermosynechococcus elongatus BP-1'
+		'Trichodesmium erythraeum IMS101'
+		'Vaucheria litorea'
+		'Zygnema circumcarinatum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Habitat'
+	;
+	STATELABELS
+		1
+		'Freshwater'
+		'Brackish'
+		'Marine'
+		'Hypersaline'
+		
+	;
+	MATRIX
+	'Acaryochloris marina MBIC11017'		               3
+	'Anabaena variabilis ATCC29413'		                0
+	'Aneura mirabilis'		                             0
+	'Angiopteris evecta'		                           0
+	'Anthoceros formosae'		                          0
+	'Arthrospira maxima CS-328'		                    ?
+	'Chara vulgaris'		                               (0,1,2)
+	'Chlamydomonas reinhardtii'		                    0
+	'Chlorokybus atmophyticus'		                     0
+	'Crocosphaera watsonii WH8501'		                 2
+	'Cyanidioschyzon merolae strain 10D'		           0
+	'Cyanidium caldarium'		                          0
+	'Cyanobium sp. PCC7001'		                        (0,1,2)
+	'Cyanophora paradoxa'		                          0
+	'Cycas taitungensis'		                           0
+	'Gloeobacter violaceus PCC7421'		                0
+	'Gracilaria tenuistipitata var. liui'		          2
+	'Heterosigma akashiwo'		                         2
+	'Lyngbya sp. PCC8106'		                          2
+	'Marchantia polymorpha'		                        0
+	'Mesostigma viride'		                            0
+	'Micromonas sp. RCC299'		                        2
+	'Monomastix sp. OKE-1'		                         0
+	'Nodularia spumigena CCY9414'		                  2
+	'Nostoc punctiforme PCC73102'		                  0
+	'Nostoc sp. PCC7120'		                           0
+	'Odontella sinensis'		                           2
+	'Oedogonium cardiacum'		                         0
+	'Oltmannsiellopsis viridis'		                    2
+	'Ostreococcus tauri'		                           2
+	'Phaeodactylum tricornutum'		                    2
+	'Physcomitrella patens patens'		                 0
+	'Pinus contorta'		                               0
+	'Porphyra purpurea'		                            2
+	'Porphyra yezoensis'		                           2
+	'Prochlorococcus marinus MIT9211'		              2
+	'Prochlorococcus marinus MIT9312'		              2
+	'Prochlorococcus marinus MIT9313'		              2
+	'Prochlorococcus marinus NATL2A'		               2
+	'Prochlorococcus marinus CCMP1375'		             2
+	'Prochlorococcus marinus CCMP1986'		             2
+	'Pseudendoclonium akinetum'		                    0
+	'Psilotum nudum'		                               0
+	'Pyramimonas parkeae'		                          2
+	'Ranunculus macranthus'		                        0
+	'Scenedesmus obliquus'		                         0
+	'Sorghum bicolor'		                              0
+	'Spinacia oleracea'		                            0
+	'Staurastrum punctulatum'		                      0
+	'Stigeoclonium helveticum'		                     0
+	'Synechococcus sp. CC9311'		                     2
+	'Synechococcus sp. JA-2-3B''a(2-13)'		           0
+	'Synechococcus sp. JA-3-3Ab'		                   0
+	'Synechococcus.sp.PCC7002'		                     (0,1,2)
+	'Synechococcus.sp.RS9916'		                      2
+	'Synechococcus.sp.WH5701'		                      1
+	'Synechococcus.sp.WH7803'		                      2
+	'Synechococcus.sp.WH7805'		                      2
+	'Synechococcus.sp.WH8102'		                      2
+	'Synechocystis sp. PCC6803'		                    2
+	'Syntrichia ruralis'		                           0
+	'Thalassiosira pseudonana'		                     2
+	'Thermosynechococcus elongatus BP-1'		           0
+	'Trichodesmium erythraeum IMS101'		              2
+	'Vaucheria litorea'		                            0
+	'Zygnema circumcarinatum'		                      0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1;
+      ENDBLOCK;
+      BEGIN CODONS;
+CODESET * UNTITLED = universal: 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1387309214226 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 8599058404424126704 ; tell It ; setDefaultOrder 0 1 47 58 48 2 49 28 50 3 38 39 4 43 59 5 40 57 6 51 52 29 30 7 8 9 44 31 32 33 45 53 60 41 42 10 11 12 13 14 15 34 61 35 62 36 63 64 54 37 16 17 18 19 20 21 22 23 24 25 55 46 26 27 65 56 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 4558879692713907784 ; mqVersion 275 ; checksumv 0 3 3540690429 null getNumChars 1 numChars 1 getNumTaxa 66 numTaxa 66 short true bits 15 states 15 sumSquaresStatesOnly 680.0 sumSquares 680.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 419 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1555 825 ; setLocation 911 202 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord ; tell It ; makeTreeWindow #8599058404424126704 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 1692.1251156317909.5418020138676116879 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1136 758 ; setLocation 911 202 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.BallsNSticks.BallsNSticks ; tell It ; setSpotDiameter 22 ; setEdgeWidth 2 ; orientUp ; useSquare ; toggleBallsInternal on ; toggleCosmic off ; getEmployee #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; inhibitStretchToggle on ; branchLengthsToggle on ; toggleScale on ; toggleBroadScale off ; toggleCenter off ; toggleEven off ; endTell ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setTree ((((((1:1764.445449,63:1764.445449):601.057711,((((2:303.383475,26:303.383475):1796.660342,(24:1299.499141,25:1299.499141):800.544676):177.88788,((6:925.934707,19:925.934707):745.565343,64:1671.50005):606.431647):39.563023,((10:1340.831533,60:1340.831533):359.36113,54:1700.192663):617.302057):48.00844):33.67457,((((((8:840.84545,46:840.84545):199.589081,(28:834.522394,50:834.522394):205.912137):296.620946,(29:1028.542283,42:1028.542283):308.513194):237.601999,(((22:357.547908,30:357.547908):832.721935,23:1190.269844):280.240772,44:1470.510616):104.14686):112.615719,((((((3:347.065601,20:347.065601):134.140291,(5:468.631796,((4:361.377593,43:361.377593):96.195727,((15:385.065806,33:385.065806):13.780589,((45:139.539953,48:139.539953):104.773906,47:244.31386):154.532535):58.726925):11.058476):12.574095):19.687988,(32:299.355481,61:299.355481):201.538398):418.926744,(49:705.703461,66:705.703461):214.117163):512.152673,7:1431.973296):98.618364,(9:630.945691,21:630.945691):899.64597):156.681534):314.724302,(((11:1098.805861,12:1098.805861):304.461262,((17:986.657411,(34:198.034494,35:198.034494):788.622916):266.214947,(((27:201.028237,(31:181.950133,62:181.950133):19.078103):598.428282,65:799.456518):47.441072,18:846.89759):405.974767):150.394766):317.609264,14:1720.876388):281.121109):397.180233):43.708545,((13:302.157747,56:302.157747):280.206684,((((36:140.859677,40:140.859677):116.129959,((37:51.655561,41:51.655561):166.369937,39:218.025498):38.964138):154.413413,38:411.403048):34.133248,(((51:111.004055,(57:68.880939,58:68.880939):42.123116):48.20142,55:159.205475):92.752662,59:251.958137):193.578159):136.828135):1860.521844):96.867795,(52:450.480204,53:450.480204):2089.273866):37.135489,16:2576.88956); ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; showWindow ; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory ; tell It ; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree ; tell It ; toggleLabels off ; toggleGray off ; endTell ; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates ; tell It ; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed ; tell It ; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters ; tell It ; setDataSet #4558879692713907784 ; endTell ; endTell ; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates ; tell It ; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels ; toggleMPRsMode off ; endTell ; endTell ; setCharacter 1 ; setMapping 1 ; toggleShowLegend on ; toggleGray off ; toggleWeights on ; setInitialOffsetX 888 ; setInitialOffsetY -725 ; setLegendWidth 142 ; setLegendHeight 195 ; resume ; modifyColors 2 1 5 255 255 2 2 10 19 245 3 1 5 255 255 3 2 5 15 255 3 3 230 9 9 ; endTell ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; toggleWhiteEdges on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; panelOpen false ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #4558879692713907784 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; getTable ; tell It ; rowNamesWidth 380 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1136 758 ; setLocation 911 202 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor ; tell It ; makeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1136 758 ; setLocation 911 202 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam ; endTell ; rowsAreCharacters on ; toggleConstrainChar on ; toggleConstrainCharNum 3 ; togglePanel off ; toggleSummaryPanel off ; endTell ; showWindow ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "FinalMLChronogram.nex" ; LINK Taxa = Taxa ; TRANSLATE 1 Acaryochloris.marina.MBIC11017 , 2 Anabaena.variabilis.ATCC29413 , 3 Aneura.mirabilis , 4 Angiopteris.evecta , 5 Anthoceros.formosae , 6 Arthrospira.maxima.CS-328 , 7 Chara.vulgaris , 8 Chlamydomonas.reinhardtii , 9 Chlorokybus.atmophyticus , 10 Crocosphaera.watsonii.WH8501 , 11 Cyanidioschyzon.merolae.strain.10D , 12 Cyanidium.caldarium , 13 Cyanobium.sp.PCC7001 , 14 Cyanophora.paradoxa , 15 Cycas.taitungensis , 16 Gloeobacter.violaceus.PCC7421 , 17 Gracilaria.tenuistipitata.var.liui , 18 Heterosigma.akashiwo , 19 Lyngbya.sp.PCC8106 , 20 Marchantia.polymorpha , 21 Mesostigma.viride , 22 Micromonas.sp.RCC299 , 23 Monomastix.sp.OKE-1 , 24 Nodularia.spumigena.CCY9414 , 25 Nostoc.punctiforme.PCC73102 , 26 Nostoc.sp.PCC7120 , 27 Odontella.sinensis , 28 Oedogonium.cardiacum , 29 Oltmannsiellopsis.viridis , 30 Ostreococcus.tauri , 31 Phaeodactylum.tricornutum , 32 Physcomitrella.patens.subsp.patens , 33 Pinus.contorta , 34 Porphyra.purpurea , 35 Porphyra.yezoensis , 36 Prochlorococcus.marinus.str.MIT9211 , 37 Prochlorococcus.marinus.str.MIT9312 , 38 Prochlorococcus.marinus.str.MIT9313 , 39 Prochlorococcus.marinus.str.NATL2A , 40 Prochlorococcus.marinus.subsp.marinus.str.CCMP1375 , 41 Prochlorococcus.marinus.subsp.pastoris.str.CCMP1986 , 42 Pseudendoclonium.akinetum , 43 Psilotum.nudum , 44 Pyramimonas.parkeae , 45 Ranunculus.macranthus , 46 Scenedesmus.obliquus , 47 Sorghum.bicolor , 48 Spinacia.oleracea , 49 Staurastrum.punctulatum , 50 Stigeoclonium.helveticum , 51 Synechococcus.sp.CC9311 , 52 Synechococcus.sp.JA-2-3Bprime.a(2-13) , 53 Synechococcus.sp.JA-3-3Ab , 54 Synechococcus.sp.PCC7002 , 55 Synechococcus.sp.RS9916 , 56 Synechococcus.sp.WH5701 , 57 Synechococcus.sp.WH7803 , 58 Synechococcus.sp.WH7805 , 59 Synechococcus.sp.WH8102 , 60 Synechocystis.sp.PCC6803 , 61 Syntrichia.ruralis , 62 Thalassiosira.pseudonana , 63 Thermosynechococcus.elongatus.BP-1 , 64 Trichodesmium.erythraeum.IMS101 , 65 Vaucheria.litorea , 66 Zygnema.circumcarinatum ; TREE tree1 = ((((((1:1764.445449 , 63:1764.445449):601.057711 , ((((2:303.383475 , 26:303.383475):1796.660342 , (24:1299.499141 , 25:1299.499141):800.544676):177.88788 , ((6:925.934707 , 19:925.934707):745.565343 , 64:1671.50005):606.431647):39.563023 , ((10:1340.831533 , 60:1340.831533):359.36113 , 54:1700.192663):617.302057):48.00844):33.67457 , ((((((8:840.84545 , 46:840.84545):199.589081 , (28:834.522394 , 50:834.522394):205.912137):296.620946 , (29:1028.542283 , 42:1028.542283):308.513194):237.601999 , (((22:357.547908 , 30:357.547908):832.721935 , 23:1190.269844):280.240772 , 44:1470.510616):104.14686):112.615719 , ((((((3:347.065601 , 20:347.065601):134.140291 , (5:468.631796 , ((4:361.377593 , 43:361.377593):96.195727 , ((15:385.065806 , 33:385.065806):13.780589 , ((45:139.539953 , 48:139.539953):104.773906 , 47:244.31386):154.532535):58.726925):11.058476):12.574095):19.687988 , (32:299.355481 , 61:299.355481):201.538398):418.926744 , (49:705.703461 , 66:705.703461):214.117163):512.152673 , 7:1431.973296):98.618364 , (9:630.945691 , 21:630.945691):899.64597):156.681534):314.724302 , (((11:1098.805861 , 12:1098.805861):304.461262 , ((17:986.657411 , (34:198.034494 , 35:198.034494):788.622916):266.214947 , (((27:201.028237 , (31:181.950133 , 62:181.950133):19.078103):598.428282 , 65:799.456518):47.441072 , 18:846.89759):405.974767):150.394766):317.609264 , 14:1720.876388):281.121109):397.180233):43.708545 , ((13:302.157747 , 56:302.157747):280.206684 , ((((36:140.859677 , 40:140.859677):116.129959 , ((37:51.655561 , 41:51.655561):166.369937 , 39:218.025498):38.964138):154.413413 , 38:411.403048):34.133248 , (((51:111.004055 , (57:68.880939 , 58:68.880939):42.123116):48.20142 , 55:159.205475):92.752662 , 59:251.958137):193.578159):136.828135):1860.521844):96.867795 , (52:450.480204 , 53:450.480204):2089.273866):37.135489 , 16:2576.88956) ;
+ENDBLOCK;

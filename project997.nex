@@ -1,0 +1,633 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-10 02.49.05 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=66;
+    TAXLABELS
+    		'Platyprosopus mexicanus'
+		'Acylophorus glaberrimus'
+		'Acylophorus pratensis'
+		'Afroquedius sexpunctatus'
+		'Algon grandicollis'
+		'Anaquedius vernix'
+		'Anchocerus birmanus'
+		'Antimerus monteithi'
+		'Antimerus punctipennis'
+		'Arrowinus peckorum'
+		'Astrapaeus ulmi'
+		'Atanygnathus sp. (Panama)'
+		'Australotarsius grandis'
+		'Beeria nematocera'
+		'Bolitogyrus borneensis'
+		'Cafioquedius gularis'
+		'Cheilocolpus nanus'
+		'Elmas strigella'
+		'Erichsonius nanus'
+		'Erichsonius patella'
+		'Eucibdelus japonicus'
+		'Euryporus picipes'
+		'Glyphestus neavei'
+		'Hasumius lamorali'
+		'Hemiquedius ferox'
+		'Hesperus apicialis'
+		'Heterothops binotatus'
+		'Indoquedius sikkimensis'
+		'Korgella caucasica'
+		'Loncovilius semiflavus'
+		'Lonia regalis'
+		'Moeocerus overlaeti'
+		'Nordus fungicola'
+		'Ocypus brunnipes'
+		'Parisanopus castaneipennis'
+		'Philonthus splendens'
+		'Physetops tataricus'
+		'Platydracus stercorarius'
+		'Pseudorientis sp. (Russia)'
+		'Quediocafus insolitus'
+		'Quediomacrus puniceipennis'
+		'Quediomimus nr. brookesi'
+		'Loncovilius sp. (Australia)'
+		'Quedius (cyrtoquedius) labiatus'
+		'Quedius (distichalius) cinctus'
+		'Quedius (megaquedius) explanatus'
+		'Quedius (microsaurus) fulgidus'
+		'Quedius (paraquedius) puncticeps'
+		'Quedius (pridonius) iheringi'
+		'Quedius (quedionuchus) impunctus'
+		'Quedius (quedius) fuliginosus'
+		'Quedius (raphirus) riparius'
+		'Quedius (raphirus) scintillans'
+		'Quedius (raphirus) umbrinus'
+		'Quedius antipodum'
+		'Quedius lineipennis'
+		'Quelaestrygon puetzi'
+		'Rientis parviceps'
+		'Rolla sp. (Chile)'
+		'Staphylinus caesareus'
+		'Strouhalium gracilicorne'
+		'Tolmerinus sp. (Angola)'
+		'Triacrus dilatus'
+		'Tympanophorus puncticollis'
+		'Valdiviodes ashworthi'
+		'Xanthopygus xanthopygus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=80;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Antennae, length of the first segment'
+		 [2] 'Antennae, antennomere III, tomentose pubescence'
+		 [3] 'Antennae, antennomere IV, tomentose pubescence'
+		 [4] 'Antennae, antennomere V, tomentose pubescence'
+		 [5] 'Head, neck constriction'
+		 [6] 'Head, dorsal surface, medial frontoclypeal puncture, presence'
+		 [7] 'Head, infra orbital ridge, presence'
+		 [8] 'Head, infra orbital ridge, anterior extension'
+		 [9] 'Head, infra orbital ridge, development of basal portion'
+		 [10] 'Head, nuchal ridge, presence'
+		 [11] 'Head, nuchal ridge, development'
+		 [12] 'Head, postgenal ridge, presence'
+		 [13] 'Head, dorsal basal ridge, presence'
+		 [14] 'Head, ligula, shape'
+		 [15] 'Head, mentum, seta alpha'
+		 [16] 'Head, mentum, seta beta'
+		 [17] 'Head, mandibles, dorso-lateral groove, presence'
+		 [18] 'Head, maxillary palpus, apical segment, shape'
+		 [19] 'Head, maxillary palpus, apical segment, dense, short setae, presence'
+		 [20] 'Head, labial palpus, apical segment, shape'
+		 [21] 'Head, labial palpus, apical segment, dense and short setae, presence'
+		 [22] 'Prothorax, hypomeron, superior marginal line'
+		 [23] 'Prothorax, hypomeron, inferior marginal line, development'
+		 [24] 'Prothorax, hypomeron, superior and inferior marginal lines, intersection'
+		 [25] 'Prothorax, hypomeron, inflexion'
+		 [26] 'Prothorax, front angles'
+		 [27] 'Prothorax, postcoxal process'
+		 [28] 'Prothorax, fusion of pronotum and prosternum'
+		 [29] 'Prothorax, prosternum, longitudinal ridge, presence'
+		 [30] 'Prothorax, prosternum, longitudinal ridge, development'
+		 [31] 'Prothorax, basisternum, pair of macrosetae'
+		 [32] 'Mesothorax, elytron, subbasal ridge, presence'
+		 [33] 'Mesothorax, elytron, subbasal ridge, shape'
+		 [34] 'Mesothorax, mesoscutellum, posterior scutellar ridge, presence'
+		 [35] 'Mesothorax, elytron, humeral spines or spine-like setae, presence'
+		 [36] 'Mesothorax, elytron, humeral spines, length'
+		 [37] 'Mesothorax, elytron, punctation'
+		 [38] 'Mesothorax, mesosternum, intercoxal area of mesocoxal acetabulum'
+		 [39] 'Procoxa, internal ridge, presence'
+		 [40] 'Procoxa, internal ridge, development'
+		 [41] 'Metacoxa, transverse carina, presence'
+		 [42] 'Protarsomeres, dorsal chaetotaxy'
+		 [43] 'Protarsomeres, shape'
+		 [44] 'Middle and posterior tarsi, shape'
+		 [45] 'Metatarsomeres 2-5, dorsal chaetotaxy'
+		 [46] 'Metatarsomere IV, ventral spine-like setae'
+		 [47] 'Apical tarsomere, empodial setae, presence'
+		 [48] 'Apical tarsomere, empodial setae, development'
+		 [49] 'Apical protarsomere, empodial setae'
+		 [50] 'Apical metatarsomere, empodial setae'
+		 [51] 'Hind wing, venation, veins CuA and MP4'
+		 [52] 'Hind wing, venation, vein MP3'
+		 [53] 'Metanotum, prototergal glands, cuticular manifestation, presence'
+		 [54] 'Metanotum, prototergal glands, cuticular manifestation, morphology'
+		 [55] 'Abdominal tergite II, basal longitudinal carina, presence'
+		 [56] 'Abdominal tergite II, basal longitudinal carina, development'
+		 [57] 'Abdominal tergite III, posterior basal transverse carina, presence'
+		 [58] 'Abdominal tergite III, disc, curved ridge, presence'
+		 [59] 'Abdominal tergite III, anterior basal transverse carina, pair of accessory ridges, presence'
+		 [60] 'Abdominal tergite IV, posterior basal transverse carina, presence'
+		 [61] 'Abdominal tergite IV, disc, curved ridge, presence'
+		 [62] 'Abdominal tergite IV, anterior basal transverse carina, pair of accessory ridges, presence'
+		 [63] 'Abdominal tergite V, anterior basal transverse carina, development'
+		 [64] 'Abdominal tergite V, posterior basal transverse carina, presence'
+		 [65] 'Abdominal tergite V, disc, curved ridge, presence'
+		 [66] 'Abdominal tergite V, anterior basal transverse carina, pair of accessory ridges, presence'
+		 [67] 'Abdominal tergite VI, anterior basal transverse carina, presence'
+		 [68] 'Abdominal tergite VI, disc, curved ridge, presence'
+		 [69] 'Abdominal tergite VI, anterior basal transverse carina, pair of accessory ridges, presence'
+		 [70] 'Abdominal sternite III, basal transverse carina, shape'
+		 [71] 'Male: basal mesotarsomere, brush of adhesive setae (not flattened into a broad pad), presence'
+		 [72] 'Male: sternum VIII, apical margin, median emargination, presence'
+		 [73] 'Male: sternum IX, shape of base'
+		 [74] 'Male: aedeagus, parameres, separation'
+		 [75] 'Male: aedeagus, paramere(s), sensory peg setae, presence'
+		 [76] 'Male: aedeagus, paramere(s), development'
+		 [77] 'Male: aedeagus, paramere(s), degree of attachment to median lobe'
+		 [78] 'Female: protarsomeres, adhesive setae, presence'
+		 [79] 'Female: ovipositor, distal gonocoxite, stylus, presence'
+		 [80] 'Female tergite 10, shape'
+	;
+	STATELABELS
+		1
+		'antennomere I at most as long as antenomeres II and III combined'
+		'antennomere I distinctly longer than antennomeres II and III combined'
+		,
+		2
+		'Absent'
+		'Present'
+		,
+		3
+		'Absent'
+		'Present'
+		,
+		4
+		'Absent'
+		'Present'
+		,
+		5
+		'Distinct at sides only'
+		'Fully developed, distinct all around'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'Not extended more than half the length of gula'
+		'Extended more than half the length of gula'
+		,
+		9
+		'Present as horizontal ridge between nuchal ridge and postgenal ridge, often minute'
+		'Turning distinctly dorsally on neck'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'present dorsally and laterally'
+		'missing dorsally, present laterally'
+		'missing laterally, present dorsally'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'more or less bilobed, with variously developed rounded lobes'
+		'compact and entire (or at most slightly notched medially)'
+		'strongly reduced, indistinct'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'More or less fusiform to parallel-sided, sometimes very elongate'
+		'Aciculate (needle-like and much smaller than previous segment)'
+		'Distinctly expanded toward truncate apex'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'More or less fusiform to parallel-sided, sometimes very elongate'
+		'Aciculate (needle-like and much smaller than previous segment)'
+		'Distinctly expanded toward truncate apex'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'Present along entire length of pronotum, not deflexed under anterior angle'
+		'Present along entire length of pronotum, deflexed under anterior angle'
+		'Ending at anterior angle (and therefore not deflexed under it)'
+		,
+		23
+		'Not continued beyond anterior angle of pronotum as a separate entity'
+		'Continued beyond anterior angle of pronotum as a separate entity'
+		,
+		24
+		'Lines not intersecting'
+		'Lines intersecting'
+		,
+		25
+		'Not inflexed (most of its surface visible in lateral view)'
+		'Slightly inflexed (most of its surface hidden in lateral view)'
+		'Strongly inflexed (not visible in lateral view)'
+		,
+		26
+		'Not strongly produced beyond (anteriad of) anterior margin of prosternum'
+		'Strongly produced beyond (anteriad of) anterior margin of prosternum'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'Pronotum and prosternum not fused in procoxal cavity, therefore pronotosternal suture complete in cavity'
+		'Pronotum and prosternum at least partially fused in procoxal cavity, therefore pronotosternal suture missing in part of cavity'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Present only on basisternum'
+		'Present on basisternum and furcasternum'
+		,
+		31
+		'Absent'
+		'Present'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Horizontal, reaching humerus'
+		'Horizontal but reduced, not reaching humerus'
+		'Sinuate, directed anteriad'
+		,
+		34
+		'Absent'
+		'Present'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'All spines subequal in length, or rarely, outermost spine longer than others'
+		'One medial spine about twice as long as others'
+		,
+		37
+		'Without punctures or setiferous pores'
+		'With only a few macrosetae arranged in rows, including epipleuron'
+		'With only a few macrosetae arranged in rows, epipleuron with more or less even punctation'
+		'With even punctation on disc and epipleuron'
+		,
+		38
+		'Distinctly recessed compared to metasternum and intercoxal process, mesocoxae therefore contiguous'
+		'Distinctly recessed compared to metasternum but on approximately same plane as intercoxal process, mesocoxae therefore moderately separated'
+		'Not distinctly recessed, on approximately same plane as intercoxal process and metasternum, mesocoxae therefore at least narrowly separated'
+		,
+		39
+		'Absent'
+		'Present'
+		,
+		40
+		'Not running along external ridge, ending distinctly before'
+		'Not running along external ridge, nearly meeting to entirely fusing with external ridge'
+		'Running along external ridge'
+		,
+		41
+		'Absent'
+		'Present'
+		,
+		42
+		'Tarsomeres glabrous, with only marginal setae or at most with a few setae of marginal row duplicated'
+		'Tarsomeres setose, setae not restricted to marginal series'
+		,
+		43
+		'Tarsomeres I-IV more or less cylindrical, not transversely widened and not flattened dorso-ventrally'
+		'tarsomeres I-IV more or less dorso-ventrally flattened and transversely widened'
+		,
+		44
+		'Tarsomeres I-IV more or less longer than wide, not enlarged or distinctly dorso-ventrally compressed'
+		'Tarsomeres I-IV not elongate, more or less compressed dorso-laterally, II-IV more or less enlarged'
+		,
+		45
+		'Glabrous along middle'
+		'Setose'
+		,
+		46
+		'Distinctly interrupted medially and removed from apical margin'
+		'Not distinctly interrupted medially (2-3 setal widths) and not removed from apical margin'
+		,
+		47
+		'Present'
+		'Absent'
+		,
+		48
+		'One pair of setae'
+		'One seta'
+		,
+		49
+		'Distinctly longer than half the length of claws'
+		'No more than half the length of claws'
+		,
+		50
+		'About as long as that of protarsus'
+		'Distinctly longer than that of protarsus'
+		,
+		51
+		'Veins CuA and MP4 completely separate'
+		'Veins CuA and MP4 fused in one vein (although its origin from two veins often obvious)'
+		,
+		52
+		'Present, although sometimes faint'
+		'Absent'
+		,
+		53
+		'Absent'
+		'Present'
+		,
+		54
+		'Shallow impression'
+		'Well-developed acetabulum'
+		'More or less invaginated capsulae with smaller openings'
+		,
+		55
+		'Present'
+		'Absent'
+		,
+		56
+		'Entire (connecting anterior margin of tergite with transverse basal carina)'
+		'Extended (extending beyond transverse basal carina)'
+		'Reduced (not reaching transverse basal carina)'
+		,
+		57
+		'Absent'
+		'Present'
+		,
+		58
+		'Absent'
+		'Present'
+		,
+		59
+		'Absent'
+		'Present'
+		,
+		60
+		'Absent'
+		'Present'
+		,
+		61
+		'Absent'
+		'Present'
+		,
+		62
+		'Absent'
+		'Present'
+		,
+		63
+		'Incomplete'
+		'Complete, reaching the level of spiracles'
+		,
+		64
+		'Absent'
+		'Present'
+		,
+		65
+		'Absent'
+		'Present'
+		,
+		66
+		'Absent'
+		'Present'
+		,
+		67
+		'Absent'
+		'Present'
+		,
+		68
+		'Absent'
+		'Present'
+		,
+		69
+		'Absent'
+		'Present'
+		,
+		70
+		'At middle, straight, rounded, or forming an obtuse angle'
+		'At middle, sharply pointed and forming an acute angle'
+		,
+		71
+		'Absent'
+		'Present'
+		,
+		72
+		'Absent, at most vaguely concave'
+		'Present'
+		,
+		73
+		'More or less symmetrical'
+		'Weakly to strongly asymmetrical'
+		,
+		74
+		'Paired, well separated'
+		'Fused into a single lobe (sometimes this lobe more or less secondarily bifurcate)'
+		,
+		75
+		'Absent'
+		'Present'
+		,
+		76
+		'Paramere(s) not (or at most slightly) produced over apex of median lobe, paramere smaller than median lobe'
+		'Paramere strongly produced over apex of median lobe, paramere larger than median lobe'
+		,
+		77
+		'Fused to median lobe only at base, paramere(s) distinctly separated from median lobe along entire length'
+		'Fused to median lobe only at base, very closely appressed to median lobe along entire length'
+		'Fused to median lobe along entire length, paramere(s) and median lobe hardly (or not) distinguishable from each other'
+		,
+		78
+		'Absent'
+		'Present'
+		,
+		79
+		'Present'
+		'Absent'
+		,
+		80
+		'Not formed into multiple lobes'
+		'With well-pigmented middle lobe and two lateral, poorly sclerotized lobes'
+		
+	;
+	MATRIX
+	'Platyprosopus mexicanus'		                   0011110--110001000021000210011010010310-0?00100000000-02000000000000000000000100
+	'Acylophorus glaberrimus'		                   11111111010102000012100021000-0121103?110100000011101102000000100010010011100010
+	'Acylophorus pratensis'		                     111111???10101110010100021100-01211030120100000011101102000000100010010011100110
+	'Afroquedius sexpunctatus'		                  0001100--10101101000000021101111011030120110100010001101000000100010010111000100
+	'Algon grandicollis'		                        00111110110111111202000010111111210-30121110100010101100000000100010000111100100
+	'Anaquedius vernix'		                         0011111?010101110010100021101111211020120110000011001101000000100010000011100110
+	'Anchocerus birmanus'		                       10111111010102010012100021001001211030110100000011101102000000100010010011100010
+	'Antimerus monteithi'		                       0001110--11100110000000021100-01211020120110100010001000000000100010000111100100
+	'Antimerus punctipennis'		                    00011110011100000000000000100-11211030120111100010000-00000000100010000111100100
+	'Arrowinus peckorum'		                        000101?????0001000000000211011110010000-0110100000??1100100100110010001000000100
+	'Astrapaeus ulmi'		                           0011110--10101100212100021100-11211010120110100010001101000000100010000111000100
+	'Atanygnathus sp. (Panama)'		                 01111111010102??0000000021000-00-00-30110100100000111102100100100010010001012010
+	'Australotarsius grandis'		                   00111111111101010010100011101101211030120110010011001101000000100010010011100100
+	'Beeria nematocera'		                         00111110110101111000000000101111211030120110100010001100000000100010000111100100
+	'Bolitogyrus borneensis'		                    00001111010101111000000021100-012110301?0010100010001100000000100010010111100100
+	'Cafioquedius gularis'		                      0011110--10110111000020100111001210-3110011000001000101-000000100010010111000100
+	'Cheilocolpus nanus'		                        00111110110101101100000021001110-00-30120110100000??0-02000000100010010111001100
+	'Elmas strigella'		                           0001110--12111111202001100010-11210-31101110000010101102000000100010000101100100
+	'Erichsonius nanus'		                         00111110110101110000010110111111210-30120110101---001102000000100010000111000100
+	'Erichsonius patella'		                       00111110110101110000010110111111211030120110101---001102000000100010000110100100
+	'Eucibdelus japonicus'		                      0001110--10111111000011000011001210-310-0110100010001000000000100010000111100100
+	'Euryporus picipes'		                         0011111?110101110012100021101111211030120100100010001001000000100010000111100000
+	'Glyphestus neavei'		                         0011011010-110111102001011011011210-32101011001---101200000000100010000101100100
+	'Hasumius lamorali'		                         00111111110110011102010001010-01210-31121011001---101202000000100010000101100100
+	'Hemiquedius ferox'		                         0011110--10101110010000011101111211020120110000011001101000000100010000011100100
+	'Hesperus apicialis'		                        00111110112111011000010000010-11210-32101010001---101200000000100010000111000100
+	'Heterothops binotatus'		                     0011110--10101100101000021000-00-00-30120110100110101102100100100010000111012110
+	'Indoquedius sikkimensis'		                   00111111010101111000000011100-01211030100110100010001000000000100010010111100100
+	'Korgella caucasica'		                        00111110110101111000000011101111211030120110100010001001000000100010000111100101
+	'Loncovilius semiflavus'		                    00111110110101100000000001100-00-00-3012011010001010101-000000100010010101011100
+	'Lonia regalis'		                             00011010110101011000000011101111211021120010010010001100000000100010000111100100
+	'Moeocerus overlaeti'		                       0001011010-110011102000021010-01010-30111011001---101200000000100010000111000100
+	'Nordus fungicola'		                          0000110--10111111000001100010-01210-31101010000010101100010010100010000111100100
+	'Ocypus brunnipes'		                          00111110110110111002010100011011210-30100110100000??0-02000000100010000111000100
+	'Parisanopus castaneipennis'		                0011110--10101101000000021100-01211010120111100000001101000000100010010111000110
+	'Philonthus splendens'		                      0011110--12111011000010010011011210-32101010001---101200100100110010000111100100
+	'Physetops tataricus'		                       0001110--11110111002010100011011210-300-0110100010000-00000000100010010111000100
+	'Platydracus stercorarius'		                  00011110110110111000010100111011210-310-0110100010000-00000000100010000111000100
+	'Pseudorientis sp. (Russia)'		                00111111110101110012100021101101211030120110100010011000000000100010010111100110
+	'Quediocafus insolitus'		                     00111110110101101000000021101111?00-30120110100110101102000000100?10001111011100
+	'Quediomacrus puniceipennis'		                0001110--10101011000000011100-11211121120010010010001101000000100010000111100100
+	'Quediomimus nr. brookesi'		                  0011110--10101101000000021000-11101030120110100110111102100100110010000111011100
+	'Loncovilius sp. (Australia)'		               00111110110101101012100021100-10-00-30120110100010??1102000000100010000111011110
+	'Quedius (cyrtoquedius) labiatus'		           0011110--10101101000000021100-11211010120110100000001101000000100010010111000110
+	'Quedius (distichalius) cinctus'		            00111111110101111000000021101111211020120110100010001101000000100010000111100100
+	'Quedius (megaquedius) explanatus'		          001111110101011110000000211011112110301201101000100010010000001000100001111001?0
+	'Quedius (microsaurus) fulgidus'		            0011111?110101111000000021101111211030120110100010001001000000100010000111100100
+	'Quedius (paraquedius) puncticeps'		          0011111?110101111000000011101001210-301201101000100010000000001000100001111001?0
+	'Quedius (pridonius) iheringi'		              0011110--12?11011000001121010-01210-32121000001---110-1-100100110010000011000100
+	'Quedius (quedionuchus) impunctus'		          00111110110101111000000011101111211020120010000010001101000000100010000111100101
+	'Quedius (quedius) fuliginosus'		             0011111?010101111000000021101111211030120110100010001001000000100010000111100100
+	'Quedius (raphirus) riparius'		               00111110110101110000000011101011211030120110100010001000000000100010000111100100
+	'Quedius (raphirus) scintillans'		            0011111?110101111000000021100-11211030120110100010001001000000100010000111100100
+	'Quedius (raphirus) umbrinus'		               0011111?110101110000000021101111211030120110100010001101000000100010000111100100
+	'Quedius antipodum'		                         00111110011101101000000021100-11101-3012011010001010121-000000100010000111012110
+	'Quedius lineipennis'		                       0001110--10101011000000011100-11211121120010010010001101000000100010000111100100
+	'Quelaestrygon puetzi'		                      00011010111100111000000011100-11211010120010010010001100000000100010000??????100
+	'Rientis parviceps'		                         00011110110110111002000020111111210-300-0110100010001100001001100110010111100100
+	'Rolla sp. (Chile)'		                         0011110--10101101000000021000-10-0103012011010011010111-100100110010010111011100
+	'Staphylinus caesareus'		                     00111110110110111000010100011011210-310-0110100000000-00000000100010000111000100
+	'Strouhalium gracilicorne'		                  0011111?110101111000000011100-01?110301001101000100012000000001000100001111001?0
+	'Tolmerinus sp. (Angola)'		                   00111110112111111000010100010-01210-30101110100010101100001001100010010111100100
+	'Triacrus dilatus'		                          00011110112110111000021000010-01210-31101110010010101102010010100010000101100100
+	'Tympanophorus puncticollis'		                00011110112112111002000000011001210-30101110100010001000001001100110100111100100
+	'Valdiviodes ashworthi'		                     000110???11101100000000001101111011010120110100010??1100000000100010001111000100
+	'Xanthopygus xanthopygus'		                   00111110010110111000021000110-11210-31101110000010101200010010101010000111100100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=10 TEXT='peckorum was chosen instead of phenom. because of the longer i.o.r., and presence of tenant setae on the mesotarsus.';
+
+      [Attribute comments]
+      	TEXT TAXON=2 CHARACTER=7 TEXT='nuchal ridge bends at an angle where it would normally join with the i.o.r, therefore the i.o.r is considered lost';
+	TEXT TAXON=6 CHARACTER=8 TEXT='the extension could be n.r or i.o.r.';
+	TEXT TAXON=10 CHARACTER=10 TEXT='likely present as short ridge along the ventral side, i.e. this is not an i.o.r.';
+	TEXT TAXON=8 CHARACTER=14 TEXT='extremely reduced, but bilobed';
+	TEXT TAXON=32 CHARACTER=14 TEXT='actually bilobed, the structure is turned dorsad and appears to be almost missing at first glance';
+	TEXT TAXON=38 CHARACTER=14 TEXT='Basically like state 1, but somewhat more incised';
+	TEXT TAXON=12 CHARACTER=15 TEXT='Mentum setae not in typical position, homology difficult';
+	TEXT TAXON=14 CHARACTER=17 TEXT='Extremely reduced but present';
+	TEXT TAXON=17 CHARACTER=17 TEXT='extremely reduced, something to consider again';
+	TEXT TAXON=35 CHARACTER=17 TEXT='really weak, maybe absent?';
+	TEXT TAXON=3 CHARACTER=19 TEXT='setae extremely small';
+	TEXT TAXON=6 CHARACTER=19 TEXT='setae extremely small';
+	TEXT TAXON=25 CHARACTER=19 TEXT='setae extremely small';
+	TEXT TAXON=3 CHARACTER=21 TEXT='setae extremely small';
+	TEXT TAXON=17 CHARACTER=25 TEXT='changed from 1';
+	TEXT TAXON=21 CHARACTER=26 TEXT='appears as though they are produced but these structures are secondary bulges';
+	TEXT TAXON=61 CHARACTER=31 TEXT='many tiny setae';
+	TEXT TAXON=31 CHARACTER=33 TEXT='Also, with horizontal extension arm';
+	TEXT TAXON=61 CHARACTER=33 TEXT='ending before usual angle anteriad';
+	TEXT TAXON=14 CHARACTER=35 TEXT='very reduced';
+	TEXT TAXON=52 CHARACTER=35 TEXT='extremely weak';
+	TEXT TAXON=55 CHARACTER=35 TEXT='Spinelike appressed setae, included here as homologous';
+	TEXT TAXON=1 CHARACTER=39 TEXT='absent, not fusion because ridge along the setae/glab. border (compare to Anchocerus).';
+	TEXT TAXON=10 CHARACTER=39 TEXT='absent, not fusion because ridge along the setae/glab. border (compare to Anchocerus).';
+	TEXT TAXON=10 CHARACTER=51 TEXT='brachypterous';
+	TEXT TAXON=17 CHARACTER=51 TEXT='apterous';
+	TEXT TAXON=34 CHARACTER=51 TEXT='brachypterous';
+	TEXT TAXON=43 CHARACTER=51 TEXT='Brachypterous - wing nearly absent';
+	TEXT TAXON=65 CHARACTER=51 TEXT='brachypterous';
+	TEXT TAXON=10 CHARACTER=52 TEXT='brachypterous';
+	TEXT TAXON=17 CHARACTER=52 TEXT='apterous';
+	TEXT TAXON=34 CHARACTER=52 TEXT='brachypterous';
+	TEXT TAXON=43 CHARACTER=52 TEXT='Brachypterous - wing nearly absent';
+	TEXT TAXON=60 CHARACTER=52 TEXT='only a tiny, faint fragment present';
+	TEXT TAXON=65 CHARACTER=52 TEXT='brachypterous';
+	TEXT TAXON=33 CHARACTER=54 TEXT='rather weak';
+	TEXT TAXON=22 CHARACTER=72 TEXT='changed from 0';
+	TEXT TAXON=49 CHARACTER=72 TEXT='taken from Solodovnikov (2006)';
+	TEXT TAXON=57 CHARACTER=72 TEXT='male unknown';
+	TEXT TAXON=57 CHARACTER=73 TEXT='male unknown';
+	TEXT TAXON=57 CHARACTER=74 TEXT='male unknown';
+	TEXT TAXON=40 CHARACTER=75 TEXT='peg setae-like structures but much finer and smaller';
+	TEXT TAXON=57 CHARACTER=75 TEXT='male unknown';
+	TEXT TAXON=57 CHARACTER=76 TEXT='male unknown';
+	TEXT TAXON=57 CHARACTER=77 TEXT='male unknown';
+	TEXT TAXON=46 CHARACTER=79 TEXT='female unavailable, not described in literature';
+	TEXT TAXON=48 CHARACTER=79 TEXT='female unavailable, not described in literature';
+	TEXT TAXON=61 CHARACTER=79 TEXT='female unavailable, not described in literature';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 80;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ; TYPESET * UNTITLED = unord: 1 - 80 ; EXSET * UNTITLED = ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1365004437774 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 4279024674640911669 ; tell It ; setDefaultOrder 58 0 1 3 6 8 9 12 11 13 14 15 16 17 19 20 21 25 27 26 28 30 32 33 34 35 36 39 41 42 43 45 48 49 52 54 55 57 2 60 61 62 63 64 65 66 67 68 69 71 72 74 75 73 76 78 79 82 83 87 90 92 93 94 95 96 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 2105184810194684677 ; tell It ; setDefaultOrder 0 1 2 3 5 7 14 26 27 36 18 36 114 162 20 21 118 44 27 109 33 163 36 35 166 163 165 29 39 40 47 60 69 165 161 74 149 61 83 84 166 77 164 160 89 97 76 77 51 53 159 160 161 162 79 80 95 98 96 102 103 100 109 110 113 107 115 116 111 150 152 151 152 157 157 161 162 150 153 91 ; attachments ; endTell ; mqVersion 275 ; checksumv 0 3 3226210812 null getNumChars 80 numChars 80 getNumTaxa 66 numTaxa 66 short true bits 15 states 15 sumSquaresStatesOnly 17513.0 sumSquares 17513.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1503 883 ; setLocation 107 120 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; showTaxa #4279024674640911669 #mesquite.lists.TaxonList.TaxonList ; tell It ; setTaxa #4279024674640911669 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition ; getTable ; tell It ; rowNamesWidth 189 ; columnWidth 1 180 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1403 816 ; setLocation 107 120 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon ; tell It ; setColor Black ; removeColor off ; endTell ; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #2105184810194684677 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; getTable ; tell It ; rowNamesWidth 157 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1403 816 ; setLocation 107 120 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor White ; removeColor off ; endTell ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.CharGroupColor.CharGroupColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; getInfoPanel ; tell It ; btspOpen true ; apOpen true ; fpOpen true ; endTell ; toggleInfoPanel on ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor ; tell It ; makeWindow ; tell It ; getTable ; tell It ; rowNamesWidth 382 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1403 816 ; setLocation 107 120 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow ; endTell ; rowsAreCharacters on ; toggleConstrainChar on ; toggleConstrainCharNum 3 ; togglePanel off ; toggleSummaryPanel off ; endTell ; showWindow ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #2105184810194684677 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; getTable ; tell It ; rowNamesWidth 479 ; columnWidth 1 16 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1403 816 ; setLocation 107 120 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 80 ;
+ENDBLOCK;

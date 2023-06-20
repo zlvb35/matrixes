@@ -1,0 +1,774 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.08.44 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=29;
+    TAXLABELS
+    		'Millerettidae'
+		'Owenetta'
+		'Bashkyroleter bashkyricus'
+		'Bashkyroleter mesensis'
+		'Rhipaeosaurus'
+		'Nycteroleter'
+		'Emeroleter'
+		'Macroleter poezicus'
+		'Bradysaurus baini'
+		'Bradysaurus seeleyi'
+		'Nochelesaurus'
+		'Embrithosaurus'
+		'Deltavjatia'
+		'Shansisaurus'
+		'Shihtienfenia'
+		'Pareiasuchus peringueyi'
+		'Pareiasuchus nasicornis'
+		'Pareiasaurus'
+		'Scutosaurus'
+		'Sanchuansaurus'
+		'Parasaurus'
+		'Elginia'
+		'Provelosaurus'
+		'Anthodon'
+		'Pumiliopareia'
+		'Nanoparia'
+		'Arganaceras'
+		'Obirkovia'
+		'Bunostegos'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=127;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'basicranial articulation'
+		 [2] 'sphenethmoid'
+		 [3] 'Medial Wall of inner ear'
+		 [4] 'exoccipital flange'
+		 [5] 'paroccipital suture'
+		 [6] 'paroccipital process direction'
+		 [7] 'ventral otic fissure'
+		 [8] 'braincase floor thicknes'
+		 [9] 'Cultriform size'
+		 [10] 'tip of cultriform'
+		 [11] 'body of basisphenoid'
+		 [12] 'basisphenoid ventral surface'
+		 [13] 'basioccipital ventral surface'
+		 [14] 'basal tubera'
+		 [15] 'basal tubera position'
+		 [16] 'choana shape'
+		 [17] 'alar flange'
+		 [18] 'foramen palatinum posterius'
+		 [19] 'prepalatal foramen'
+		 [20] 'interpterygoid vacuity size'
+		 [21] 'interpterygoid vacuity shape'
+		 [22] 'transverse flange pterygoid'
+		 [23] 'transverse flange orientation'
+		 [24] 'supraoccipital'
+		 [25] 'external nares'
+		 [26] 'maxillary boss'
+		 [27] 'maxilla dorsal process'
+		 [28] 'snout dimension'
+		 [29] 'postfrontal shape'
+		 [30] 'orbit shape'
+		 [31] 'pineal foramen position'
+		 [32] 'tabular sn'
+		 [33] 'tabular sn contact'
+		 [34] 'postparietal form'
+		 [35] 'postparietal fusion'
+		 [36] 'skull-cheek junction'
+		 [37] 'otic notch'
+		 [38] 'jugal flange'
+		 [39] 'cheek ornamentation'
+		 [40] 'quadratojugal ornamentation'
+		 [41] 'Ventral Temporal Emargination'
+		 [42] 'Postorbital Region of skull'
+		 [43] 'frontal orbital contribution'
+		 [44] 'frontal shape'
+		 [45] 'boss ornamentation'
+		 [46] 'splenial symphysis contribution'
+		 [47] 'angular boss'
+		 [48] 'retroarticular process dorsal projection'
+		 [49] 'lateral shelf articular region'
+		 [50] 'maxillary dentition orientation'
+		 [51] 'number maxillary teeth'
+		 [52] 'teeth labiolingually compressed'
+		 [53] 'cusp arrangement'
+		 [54] 'cusp number maxilla'
+		 [55] 'cusp number dentary'
+		 [56] 'lingual surface teeth'
+		 [57] 'cingulum'
+		 [58] 'transverse flange pterygoid dentition'
+		 [59] 'palatal teeth'
+		 [60] 'presacral vert count'
+		 [61] 'atlas-axis fusion'
+		 [62] 'lumbar vertebrae'
+		 [63] 'sacral vertebrae count'
+		 [64] 'tail length'
+		 [65] 'lateral projection'
+		 [66] 'shape of lateral projections'
+		 [67] 'haemal arch insertion'
+		 [68] 'acromion of scapula'
+		 [69] 'scapular blade length'
+		 [70] 'posterior coracoid dorsal edge'
+		 [71] 'cleithrum'
+		 [72] 'torsion of humerus'
+		 [73] 'ectepicondyle'
+		 [74] 'ectepicondylar foramen'
+		 [75] 'entepicondyle'
+		 [76] 'entepicondylar foramen'
+		 [77] 'epicondylar foramen position'
+		 [78] 'epicondylar projection'
+		 [79] 'intercondylar depression'
+		 [80] 'ulnar articulation surface'
+		 [81] 'radial condyle of humerus'
+		 [82] 'olecranon process'
+		 [83] 'manual phalangeal formula'
+		 [84] 'morphology sacral ribs'
+		 [85] 'crista sacralis'
+		 [86] 'iliac shaft'
+		 [87] 'iliac blade'
+		 [88] 'eversion of ilium'
+		 [89] 'posterior process ilium'
+		 [90] 'acetabular dorsal buttres'
+		 [91] 'acetabular shape'
+		 [92] 'pelvic symphysis'
+		 [93] 'anterior border of pubis'
+		 [94] 'median pubic process'
+		 [95] 'curvature of femoral head'
+		 [96] 'trochanter major'
+		 [97] 'postaxial flange of femur size'
+		 [98] 'minor trochanter shape'
+		 [99] 'cnemial crest'
+		 [100] 'astragalocalcaneum'
+		 [101] 'pedal phalangeal formula'
+		 [102] 'fifth pedal digit'
+		 [103] 'metapodial shape'
+		 [104] 'phalangeal shape'
+		 [105] 'osteoderms'
+		 [106] 'osteoderm boss apperance'
+		 [107] 'osteoderm ornamentation'
+		 [108] 'osteoderm  dimension'
+		 [109] 'osteoderm position'
+		 [110] 'osteoderms on appendages'
+		 [111] 'gastralia'
+		 [112] 'lateral temporal fenestra'
+		 [113] 'pteryoid anterior extent'
+		 [114] 'circumorbital tuberosities'
+		 [115] 'Radiating ridges'
+		 [116] 'Circular Pits'
+		 [117] 'Jugal anterior process'
+		 [118] 'Quadratojugal anterior extent'
+		 [119] 'Caniniform region'
+		 [120] 'Jaw articulation position'
+		 [121] 'Posterior margin of skull roof'
+		 [122] 'Quadrate ramus of pterygoid'
+		 [123] 'Suture between jugal and maxilla'
+		 [124] 'Temporal (otic) notch morphology'
+		 [125] 'Contribution of maxilla to external naris'
+		 [126] 'Postfrontal ''horn'''
+		 [127] 'Central boss on frontal'
+	;
+	STATELABELS
+		1
+		'mobile articulation with the basipterygoid process '
+		'articulation is immobile '
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		' lateral flange of the exoccipital well-developed and extends well along the paroccipital process of the opisthotic '
+		,
+		5
+		'not sutured to the squamosal and supratemporal '
+		'paroccipital process of the opisthotic is antero-posteriorly expanded and sutured to ventrally-directed flange from the squamosal and supratemporal '
+		,
+		6
+		'projects laterally from the neurocranium '
+		'is U-shaped in occipital view '
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'not thickened '
+		'thickened'
+		,
+		9
+		'relatively long, more than the half of the distance between the anterior extent of the rostrum of the basipterygoid tubercles State 0'
+		'short, less than a third of this distance '
+		'absent'
+		,
+		10
+		'pointed'
+		' blunt '
+		,
+		11
+		'strongly constricted, giving it an hourglass shape in ventral view '
+		'not strongly laterally constricted '
+		,
+		12
+		' featureless, lacking tubercles '
+		'tubercles present on the ventral surface of the neurocranium just behind the basipterygoid processes '
+		,
+		13
+		'absence of a central boss '
+		' presence of a boss on the ventral surface of the basioccipital '
+		,
+		14
+		'absent '
+		'present'
+		,
+		15
+		'situated posteriorly, closer to the occipital condyle than the basipterygoid process '
+		'basal tubercles situated approximately midway between the occipital condyle and the basipterygoid processes, or even further anteriorly '
+		,
+		16
+		'situated in a lateral position, bounded laterally by the maxilla, diverge posteriorly, parallel to tooth row throughout '
+		'parallel, positioned more medially, delimited posterolaterally by the palatine '
+		'choanae even more medially positioned, with the palatine constituting more than 50% of the lateral border, medial border formed entirely by the vomer '
+		,
+		17
+		'absent'
+		'present '
+		,
+		18
+		'small or absent and delineated by the bones of the skull roof (?) '
+		'large, medially positioned and defined by the palatine and the ectopterygoid without participation of the bones of the skull roof '
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'long, at least 15% of skull length '
+		'short, less than 15% of skull length '
+		,
+		21
+		'V-shaped '
+		'U-shaped '
+		'transversely-oriented '
+		,
+		22
+		'large and directed laterally '
+		'reduced, directed more anteriorly than laterally, without contact with the cheek '
+		,
+		23
+		'extends ventrally below the level of the alveolar ridge '
+		'oriented primarily horizontally, so the level of the palate is higher, not reaching the level of the alveolar ridge '
+		,
+		24
+		'large, with longitudinal contact with the postparietal '
+		'high and narrow, forming along all of its length a solid sagittal suture with a ventral projection of the postparietal '
+		,
+		25
+		'round and small '
+		'very anteroposteriorly elongate '
+		,
+		26
+		'feebly developed or absent '
+		'prominent boss or horn present '
+		,
+		27
+		'reduced, not reaching the nasal with a contribution of the lacrimal to the ventral border of the naris '
+		'large anterodorsal extension of the maxilla, excluding the lacrimal from the external naris '
+		,
+		28
+		'broader than high '
+		'as high as wide '
+		,
+		29
+		'narrow, more than 2 times as long as wide, contributes to the orbital margin '
+		'widened mediolaterally, around 2 times as wide as long or less, no or only feeble contribution to the orbital rim '
+		,
+		30
+		'circular, no posterior emargination '
+		'posterior emargination of orbits '
+		,
+		31
+		'situated about halfway along the interparietal suture '
+		'placed more anteriorly, close to the frontal-parietal suture '
+		,
+		32
+		'small, largely an occipital element '
+		'absent '
+		'integrated into skull table '
+		,
+		33
+		'do not contact each other posteriorly '
+		'very well-developed, make contact posteriorly, excluding the postparietals from the posterior edge of the skull table '
+		,
+		34
+		'small, largely an occipital element '
+		'absent'
+		,
+		35
+		'paired'
+		'fused into a single element and exposed well dorsally '
+		,
+		36
+		'both flat surfaces, form a distinct angle where they meet, particularly behind the orbits '
+		'postorbital portion of this junction is rounded, no clear edge between these two surface behind the orbit '
+		,
+		37
+		'absent, or very small '
+		'emargination present on the posterior border of the cheek, formed by the squamosal and the quadratojugal '
+		,
+		38
+		'no flange present on the jugal, the ventral surface of the cheek is continuous with that of the maxilla '
+		'jugal flange present, extends below the level of the maxillary teeth '
+		'jugal flange well-developed, forms an angle of greater than or equal to 140 degrees with the ventral surface of the cheek '
+		,
+		39
+		'no ornamentation on the ventral surface of the cheek '
+		'cheek ornamentation present in the form of low rounded bosses '
+		'cheek bosses well-developed with well-defined tubercles '
+		'cheek ornamentation in the form of prominent conical horns '
+		,
+		40
+		'no ornamentation, continuous with the jugal '
+		'dermal ornamentation and bosses present also on the posteroventral surface of the quadratojugal '
+		,
+		41
+		'absent'
+		'present and bounded ventrally, forming a lower temporal fenestra '
+		'present and open ventrally '
+		,
+		42
+		'length at least equals anteroposterior extension of orbit '
+		'postorbital region shorter than anteroposterior extension of orbit '
+		,
+		43
+		'present'
+		'frontals excluded from the orbit by contact between the prefrontal and postfrontal '
+		,
+		44
+		'slim and long, four times as long as wide '
+		'frontals short, with a length not more than two time the width '
+		,
+		45
+		'dermal bosses of skull bones have no central pointed horn '
+		'dermal bosses of cranial bones have a central long, pointed horn '
+		,
+		46
+		'splenial is excluded from the mandibular symphysis '
+		'splenial forms the ventral portion of the mandibular symphysis '
+		,
+		47
+		'ventral surface of the angular smooth, no boss present '
+		'low, rounded boss present '
+		'boss present and well developed, forms a prominent, pointed tubercle '
+		,
+		48
+		'without a projection, tapers gradually to end '
+		'small projection ("-''dorsal lump"-- of Lee 1997a) present at the very posterior end of the retroarticular process '
+		,
+		49
+		'absent, the lateral surface of the articular region is smooth '
+		'present, there is a lateral extension of the surangular or articular, the lateral surface of the effected element extends dorsolaterally '
+		,
+		50
+		'maxillary teeth oriented vertically, teeth point directly downwards '
+		'alveolar ridge inflected towards the palate, teeth oriented ventromedially '
+		,
+		51
+		'more than or equal to 10 '
+		'less than or equal to 9 '
+		,
+		52
+		'teeth not labio-lingually compressed '
+		'teeth labio-lingually compressed, leaf-shaped, with small denticles on the tooth crown '
+		'labio-lingual compression very pronounced, giving the marginal teeth a fan shape '
+		,
+		53
+		'three central cusps close together, more lateral cusps farther apart and spaced farther apart from each other than these central 3 '
+		'cusps regularly spaced along the tooth crown '
+		,
+		54
+		'maxillary teeth conical, single cusp '
+		'2-7 cusps on each maxillary tooth '
+		'7-9 cusps '
+		'9-11 cusps '
+		'more than 11 cusps '
+		,
+		55
+		'conical, without cusps '
+		'2-7 cusps on each mandibular tooth '
+		'7-9 cusps '
+		'9-11 cusps '
+		'more than 11 cusps '
+		,
+		56
+		'smooth'
+		'has a distinct, triangular ridge, narrowing towards the crown of the tooth '
+		,
+		57
+		'no cingulum on the lingual surface of the marginal teeth '
+		'cingulum present, with small cuspules '
+		,
+		58
+		'teeth present on the transverse flange of the pterygoid '
+		'no dentition on the transverse flange of the pterygoid '
+		,
+		59
+		'medial rows of palatal denticles parallel and close together and to the medial axis of the skull '
+		'medial rows of palatal denticles widely separated, converging anteriorly '
+		,
+		60
+		'more than 20 presacral vertebrae '
+		'20 presacral vertebrae '
+		'19 or fewer presacral vertebrae '
+		,
+		61
+		'pleurocentrum of the atlas and axial intercentrum fused '
+		'altas pleurocentrum separate from the axial intercentrum '
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'two'
+		'three'
+		'four'
+		'five'
+		,
+		64
+		'long, with more than 25 caudal vertebrae '
+		'short, less than 25 caudal vertebrae '
+		,
+		65
+		'generally present on the first five but never on more than 9 of the first (most anterior) caudal vertebrae State 0'
+		'prominent lateral projections on at least the first 9 caudal vertebrae '
+		,
+		66
+		'projections form an ''L'', as their distal portions are recurved posteriorly parallel to the axis of the body '
+		'projections almost straight and directed laterally '
+		,
+		67
+		'between two caudal vertebrae '
+		'articulate with only one centrum via a facet of articulation found on posteroventral projections of the centra '
+		,
+		68
+		'absent '
+		'acromion process present on the anterior surface of the scapula '
+		,
+		69
+		'short, with a length less than two times the diameter of the glenoid fossa '
+		'long, with a length at least two times longer than the maximum diameter of the glenoid fossa '
+		'very long, with a length at least three times the diameter of the glenoid fossa '
+		,
+		70
+		'almost horizontal, meets the posterior border of the scapula at an angle of less than 135 degrees '
+		'dorsal edge of the posterior coracoid is oriented posteroventrally, forms an angle of more than 135 degrees with the posterior border of the scapula '
+		,
+		71
+		'present'
+		' absent '
+		,
+		72
+		'the plane of proximal expansion makes an angle of 60 degrees or more with the plane of proximal expansion '
+		'the two planes form an angle of less than or about equal to 45 degrees '
+		'the two planes form an angle less than or equal to 20 degrees '
+		,
+		73
+		'narrow and rounded '
+		'expanded, forming a wide rectangular flange that projects in front (preaxially) of the radial condyle '
+		,
+		74
+		'exposed in dorsal view (when distal expansion of the humerus is viewed dorsally) '
+		'situated on the side of the epicondyle and feebly exposed in dorsal view, foramen has migrated around the edge of the humerus '
+		,
+		75
+		'forms a wide, rectangular flange that projects posteriorly behind (postaxially) the radial condyle '
+		'rounded, narrower, with a very reduced distal expansion '
+		,
+		76
+		'present and completely enclosed '
+		'present in the form of an ''open groove'' '
+		'absent, no foramen or groove '
+		,
+		77
+		'exposed in dorsal view (when distal expansion of the humerus is viewed dorsally) '
+		'situated on the side of the epicondyle and feebly exposed in dorsal view, foramen has migrated around the edge of the humerus '
+		,
+		78
+		'entepicondyle and ectepicondyle do not project distally beyond the epicondylar region '
+		'project beyond the epicondylar region, distal end of the humerus appears ''forked'' '
+		,
+		79
+		'without a transverse ridge '
+		'transverse ridge present on the intercondylar depression, it is found on the distal surface of the intercondylar depression and is defined dorsally by the ulnar articular surface '
+		,
+		80
+		'takes the form of a groove bordered posteriorly by a faint ridge '
+		'this postaxial ridge is elaborated into a prominent tubercle '
+		,
+		81
+		' hemispherical, located entirely on the ventral surface of the humerus '
+		'condyle positioned more terminally, encroaches onto the distal end of the humerus '
+		,
+		82
+		'well-developed, articulation surface for the humerus oriented medially '
+		'olecranon process very reduced, articular surface for the humerus faces terminally, trochlea on the humerus lies on the ventral surface '
+		,
+		83
+		'23452, not reduced '
+		'23332 reduced '
+		,
+		84
+		'only slight dorsoventral compression of the second and third sacral ribs '
+		'significant dorsoventral compression of the second and third sacral ribs, which take on a thin sheet-like appearance '
+		,
+		85
+		'weak ridge on the medial surface of the iliac blade for articulation with the first sacral rib weakly developed '
+		'ridge well developed '
+		,
+		86
+		'vertical or oriented posterodorsally '
+		'inclined anterodorsally, forming an angle with the vertical of more than 20 degrees '
+		'inclined even further anteriorly, forming an angle of more than 45 degrees with the vertical '
+		,
+		87
+		'not or only very slightly expanded in front of the iliac shaft '
+		'expanded well anterior of the iliac shaft '
+		,
+		88
+		'the lateral surface of the anterior expansion of the iliac blade almost completely flat '
+		'this surface concave along the vertical dimension, anteroventral margin slightly everted '
+		' surface strongly everted, even pointed looking, oriented almost horizontal '
+		,
+		89
+		'long, extending the blade of the ilium posteriorly '
+		'strongly reduced '
+		,
+		90
+		'not well developed '
+		'strongly developed '
+		,
+		91
+		'edge of the acetabulum anteriorly rounded or slightly oval '
+		'presence of a distinct notch in the anterior rim of the acetabulum '
+		,
+		92
+		'long and thin '
+		'shorter and thick '
+		,
+		93
+		'smooth, without a ventral process '
+		'ventrally oriented process present on the anterior of the pubic plate (''lateral pubic process'' of Walker 1973, Gaffney 1990) '
+		,
+		94
+		'anterior margin of the pubis smooth edge '
+		'medial process on the anterior margin of the pubis '
+		,
+		95
+		'no curvature '
+		'proximal head of the femur curved slightly anteriorly (preaxially) '
+		'strong curvature preaxially, giving the bone a boomerang shape in dorsal or ventral view '
+		,
+		96
+		'no major trochanter present on the posterior (postaxial) side of the femur '
+		'major trochanter present but small, forms a slight thickening of the postaxial edge of the femur '
+		'major trochanter present and large, a distinct thickening on the postaxial edge of the femur '
+		,
+		97
+		' reduced, limited to the proximal region of the femur '
+		'present, extends the entire length of the femur, but is narrower in the middle, so femur looks concave in dorsal or ventral view '
+		'well-developed, runs the entire length of the femur, keeping the same length for its entire length, so femur appears extremely wide with postaxial border appearing a straight edge '
+		,
+		98
+		'long and straight in ventral view '
+		'long and curved on its proximal region in ventral view, preaxial (anterior) side concave and postaxial (posterior) being convex '
+		,
+		99
+		'cnemial crest of the tibia (longitudinal ridge on the dorsal (lateral or external) surface of the tibia) well developed and prominent '
+		'ridge and accompanying groove much reduced '
+		,
+		100
+		'separate or sutured '
+		'fused, with the presence of the obturator foramen '
+		,
+		101
+		'23454 or 23453 '
+		'23343'
+		,
+		102
+		'large, always longer than the first pedal digit '
+		'reduced, slender, shorter than the first pedal digit '
+		,
+		103
+		'slender, close to two times as long as wide '
+		'robust, approximately as wide as long '
+		,
+		104
+		'slender, 50% longer than wide '
+		'short, as long as wide '
+		'even shorter and more massive, about two times as wide as long '
+		,
+		105
+		'dorsal surface of the osteoderms smooth, convex, without a central boss '
+		'possess a distinct rounded central boss '
+		' central boss on osteoderm capped by a small conical spine '
+		,
+		106
+		'dorsal surface of the osteoderms smooth, convex, without a central boss '
+		'possess a distinct rounded central boss '
+		'central boss on osteoderm capped by a small conical spine '
+		,
+		107
+		'external surface of the osteoderms smooth and without ornamentation '
+		'osteoderms ornamented with fine, straight, regularly spaced ridges radiating out from a central boss to the edge '
+		'ridges fewer, larger, lumpier, and less regularly spaced '
+		,
+		108
+		'round and small, with a dimension no larger than diameter of the centra of the dorsal vertebrae '
+		'osteoderms large, with a maximal length the same as or larger than the dorsal vertebral centra '
+		,
+		109
+		'osteoderms do not touch, separated by a space '
+		' osteoderms more densely packed, often touching one another, but touching only on the shoulder and pelvic regions, never sutured or articulated over the trunk '
+		'osteoderms overlapping, articulated or sutured, forming a continuous layer on the dorsal surface of the body '
+		,
+		110
+		'no osteoderms over the appendages '
+		'fore and hind limbs covered with numerous conical osteoderms '
+		,
+		111
+		'present'
+		'absent'
+		,
+		112
+		'absent '
+		'present'
+		,
+		113
+		'reaches level of choana '
+		'posterior to choana '
+		,
+		114
+		'circumorbital skull elements lacking tubercles or bosses '
+		'circumorbital tubercles present '
+		,
+		115
+		'dermal sculpturing in the form of relatively straight ridges radiating from the centre of dermal skull roof bones absent '
+		'regular ridges present '
+		,
+		116
+		'cranial sculpture in the form of circular pits absent '
+		'present'
+		,
+		117
+		'does not extend to anterior orbital rim '
+		'extends at least to level of orbital rim '
+		,
+		118
+		'does not reach level of posterior border of orbit '
+		'reaches posterior border of orbit '
+		,
+		119
+		'present'
+		'absent'
+		,
+		120
+		'anterior to occiput '
+		'even with occiput '
+		,
+		121
+		'with single, median embayment '
+		'roughly straight '
+		,
+		122
+		'merges smoothly into transverse flange without distinctive excavation '
+		'deep excavation on posterolateral surface '
+		,
+		123
+		'straight, jugal thins out smoothly towards anterior, or upright, but no dramatic vertical ''step'' '
+		'"-''stepped"--, anteriormost tip of jugal very narrow but expands broadly posteriorly along with a dramatic thinning of the posterior process of the maxilla '
+		,
+		124
+		'restricted to posterior half of cheek '
+		'closely approaches the orbital margin '
+		,
+		125
+		'maxilla either excluded from naris or forms only its ventral/posterior edge '
+		'maxilla extends also to the posterodorsal margin of naris '
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Millerettidae'		                      0??00000000000?0000000000000000000000000(0,1,2)000??000000?00001?000000?000000000000000000000?00000000000000000????00(0,1)000000(0,1)0000?00?
+	'Owenetta'		                           0?0000??100001000000000000100111?00000002000?000?000?00000?01?10000000000012?00??000000110?0??100??0??000????0?0100001000110000
+	'Bashkyroleter bashkyricus'		          1????0??200000?110?1000?1010?1100??010100100?????000???000?????????????????????????????????????????????????????00001????1111000
+	'Bashkyroleter mesensis'		             1???????2?0000?110?1000?101011000??010100100?????000?0?0000????????????????????????????????????????????????????00001(0,1)00?0011100
+	'Rhipaeosaurus'		                      ??????????0000???????00????????????????????????0???00?1?0??0???????0?0?010?00?00?0??0001000?0?1000010000?????????????????0???0?
+	'Nycteroleter'		                       1???????2?0000?11001000?101011100000101?0100?00??000000000?????????????????????????????????????????????????????0000100110101000
+	'Emeroleter'		                         1??1????2?0000?110?1000?101011000??010100100??0??00000000000?110???11?0??0?0?????100?0????????10??110000??????00?00100110001100
+	'Macroleter poezicus'		                101110002?0000?110?100001010111001101010110000000000?0000000011????00000?1?000000?00?01???0???1???010?110????011010110010000001
+	'Bradysaurus baini'		                  111211111100010211112111000010???110121001110121110101100111?0201011100?1100000000?01011110011112?01??1210000010111111100100001
+	'Bradysaurus seeleyi'		                11?2111111000102?1112111000010110110111001110121?001011001110020101110001100000000101011110000112001111210000010111111100100001
+	'Nochelesaurus'		                      11??111111000102?1?121110000101????0122001110121?001011??11????????110011100000000????????????11200?????10000010111111100?00001
+	'Embrithosaurus'		                     111?111111000102?1?1211100001011011012100111012110010220011100201111100111000000001010101101111211011112110000?0111111100?00001
+	'Deltavjatia'		                        1??210111110011211111111000010120110122101110121100113301102?020?1111111110000?00010?11111????122001101211000010110111100100001
+	'Shansisaurus'		                       ????????????????????????????????????????????????1??11?410??????????1211111?00????0????????????1?1??????????????????????????????
+	'Shihtienfenia'		                      ?????????????????????????????????????????????????????????????03????1211111?100100??0?112110????????????????????????????????????
+	'Pareiasuchus peringueyi'		            11?210??1110011211111111000010120111122101110121101113410102?021???121110111011000?1121211111122110???1221211110110111100100001
+	'Pareiasuchus nasicornis'		            11?210??111001121111111100001012011112210111012111111341010???2????1???10?1??1?0001112121111112?1101??1221211110110111100100001
+	'Pareiasaurus'		                       11?210??1111?11211?111110101101?01111221011101211011134??10?002????111111100001000101112110111121101????212111?0110111100?00000
+	'Scutosaurus'		                        111210111111111211111111010110120111122101110121101113411102?0?1111111111100001000101112110111121101??1222211110111111100100001
+	'Sanchuansaurus'		                     ??????????????????????1?01???????????????????????011134?1????????????????????????????????????????????????????????????????????0?
+	'Parasaurus'		                         ????????????????????11???????01??1??12?001?????????113?01????02????11??????????????0?11?111?1?12??01??11??????10??01????0??0?0?
+	'Elginia'		                            11??10??1??????21?1?111101?1?0121111123101111????01113????0??0???1?1?11??1?0001?????111211????1?110???1222211110?10111100??0010
+	'Provelosaurus'		                      ????10??1??????????????1000010???111122101110????01113???????02??1?11?120??01??110?0?0011?????1?1?0?????21111??0?11111100?00001
+	'Anthodon'		                           1???????1110?112111101110000101??1111221011101111012144?0102?03??1?111120100101111?0100111011102011?????21112?10110111100?00001
+	'Pumiliopareia'		                      1???????1110?112?1?101110000?01??11112210111011??0121440??0??0??????????????????????????????????????????21112?10110011100?00001
+	'Nanoparia'		                          1???????1110?11211?101110000101201111???01110????011????010????????????????????????????????????????????????????0110111100100001
+	'Arganaceras'		                        ???2?0111??11112?1?1???10?0110121111123101111???101113??1??????????????????????????????????????????????????????0110111100?00010
+	'Obirkovia'		                          ??????????????????????????????????????31??????????????????????????????????????????????????????????????????????????01???????????
+	'Bunostegos'		                         111?11??111001021111211100001002?110122101110????001?2???10????????110???????????????11?11?????????????????????0110111100?00010
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=29 CHARACTER=21 TEXT='pretty solidly sutured...';
+	TEXT TAXON=29 CHARACTER=28 TEXT='check';
+	TEXT TAXON=29 CHARACTER=53 TEXT='check';
+	TEXT TAXON=29 CHARACTER=59 TEXT='check';
+	TEXT TAXON=29 CHARACTER=117 TEXT='check! (also check drawing!)';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 127;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1 - 127 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -941829100 ; FileSettings treewindow 0 0 1 1 ; Singles 010 ; Editor 0001100111111110010001001 0 24 Geneva 9 100 1 all ; EditorPosition 46 6 723 1227 ; TreeWindowPosition 44 124 758 756 ; ListWindow Characters closed Geneva 9 50 10 129 487 000 ; ListWindow Taxa closed Geneva 9 50 10 129 302 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 718 1220 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder ; OtherSymbols & / 00 ? - ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; TreeLegendPosition 719 681 64 93 ; EditorToolsPosition 611 46 115 165 ; TreeToolsPosition 616 9 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 ( normal ) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 ( normal ) ; TreeShape 1.0 1.0 0101 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 0 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 ( normal ) Geneva 10 ( normal ) Geneva 9 ( normal ) Geneva 9 ( normal ) Geneva 9 ( bold ) Geneva 9 ( normal ) Geneva 9 ( normal ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1345831014008 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 6544193023750560001 ; tell It ; setDefaultOrder 0 2 10 11 12 13 14 47 18 19 20 21 22 23 24 25 26 28 29 30 35 36 37 38 39 40 45 43 41 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 613628107035965295 ; tell It ; setDefaultOrder 0 1 3 5 5 6 7 10 8 11 12 13 14 15 16 17 18 21 22 19 22 23 24 25 27 29 30 33 34 35 36 38 39 45 46 49 51 52 53 54 40 41 53 54 55 56 57 59 60 61 62 64 65 66 67 68 69 70 71 72 73 74 75 77 78 79 80 81 82 84 85 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 108 109 110 111 113 116 118 119 120 122 123 124 128 129 130 131 132 133 134 135 161 140 159 157 141 142 144 145 146 147 148 151 152 153 125 126 ; attachments ; endTell ; mqVersion 275 ; checksumv 0 3 968912318 null getNumChars 127 numChars 127 getNumTaxa 29 numTaxa 29 short true bits 31 states 31 sumSquaresStatesOnly 11394.0 sumSquares 11394.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1259 718 ; setLocation 4 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #613628107035965295 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; getTable ; tell It ; rowNamesWidth 113 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1159 651 ; setLocation 4 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; setColumnWidth 16 ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 127 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "BunoCharMatrix.nex" ; LINK Taxa = Untitled_Taxa_Block ; TRANSLATE 1 Millerettidae , 2 Owenetta , 3 B_bashkyricus , 4 B_mesensis , 5 Rhipaeosaurus , 6 Nycteroleter , 7 Emeroleter , 8 Macroleter , 9 B_baini , 10 B_seeleyi , 11 Nochelesaurus , 12 Embrithosaurus , 13 Deltavjatia , 14 Shansisaurus , 15 Shihtienfenia , 16 P_peringueyi , 17 P_nasicornis , 18 Pareiasaurus , 19 Scutosaurus , 20 Sanchuansaurus , 21 Parasaurus , 22 Elginia , 23 Provelosaurus , 24 Anthodon , 25 Pumiliopareia , 26 Nanoparia , 27 Arganaceras , 28 Obirkovia , 29 Bunostegos ; TREE UNTITLED = (1 , (2 , (6 , 3 , (7 , 4) , (5 , (8 , (10 , (9 , 11 , (12 , (13 , 29 , 21 , ((23 , 26 , (24 , 25)) , ((14 , (15 , (16 , 17))) , (18 , 19 , 20 , 22 , 27 , 28)))))))))))) ;
+ENDBLOCK;

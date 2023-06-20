@@ -1,0 +1,469 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.19.53 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+    		'Cardiolophus radinskyi'
+		'Hallensia matthesi'
+		'Pliolophus vulpiceps'
+		'Xenicohippus osborni'
+		'Hyracotherium leporinum'
+		'Propachynolophus levei'
+		'Propachynolophus maldani'
+		'Propachynolophus gaudryi'
+		'"Pachynolophus" hookeri'
+		'Cymbalophus cuniculus'
+		'"Hyracotherium" aff. cuniculus'
+		'Pachynolophus duvali'
+		'Pachynolophus livinierensis'
+		'Pachynolophus garimondi'
+		'Pachynolophus lavocati'
+		'Pachynolophus zambranensis'
+		'Pachynolophus boixedatensis'
+		'Pachynolophus cesserasicus'
+		'Pachynolophus bretovensis'
+		'Pachynolophus eulaliensis'
+		'Anchilophus dumasi'
+		'Paranchilophus remyi'
+		'Eurohippus parvulus'
+		'Lophiotherium cervulum'
+		'Palaeotherium magnum'
+		'Plagiolophus minor'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=72;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Nasal notch'
+		 [2] 'Bones surrounding the nasal notch'
+		 [3] 'Lacrimal tubercle'
+		 [4] 'Orbital border'
+		 [5] 'Position of basicranial foramina'
+		 [6] 'Braincase index (measure from mesial side of P2 to the orbital border/measure from the orbital border to the occipital)'
+		 [7] 'Postcanine diastem length (C-P2 at the bone level)'
+		 [8] 'P1'
+		 [9] 'P1 elongation'
+		 [10] 'Post-P1 diastem'
+		 [11] 'P2 occlusal outline'
+		 [12] 'P2 labial cusps'
+		 [13] 'P2 molarization'
+		 [14] 'P3 postprotocrista'
+		 [15] 'P3 postprotocrista morphology'
+		 [16] 'P3 paraconule'
+		 [17] 'P3 metaconule'
+		 [18] 'P3-4 molarization'
+		 [19] 'P3-4 accessory crest from the protocone (additionally of the postprotocrista)'
+		 [20] 'P4 occlusal outline'
+		 [21] 'P4 lingual cingulum'
+		 [22] 'P4 postero-lingual cingulum'
+		 [23] 'P4 postprotocrista'
+		 [24] 'P4 postprotocrista morphology'
+		 [25] 'P4 protocone position'
+		 [26] 'P4 paraconule'
+		 [27] 'P4 metaconule'
+		 [28] 'Upper molar hypsodonty (IH = h/L)'
+		 [29] 'Upper molar protoloph grooves'
+		 [30] 'Upper molar protoloph grooves size'
+		 [31] 'Upper molar metaloph grooves'
+		 [32] 'Upper molar metaloph grooves size'
+		 [33] 'Upper molar ectoloph grooves'
+		 [34] 'Upper molar ectoloph grooves size'
+		 [35] 'Accessory cusp between the protoloph and the metaloph'
+		 [36] 'Upper molar protoloph-ectoloph junction'
+		 [37] 'Direction of the upper molar preparaconule crista-ectoloph junction'
+		 [38] 'Upper molar metaloph-ectoloph junction'
+		 [39] 'Upper molar paracone labial ripple on the ectoloph'
+		 [40] 'Upper molar metacone labial ripple on the ectoloph'
+		 [41] 'Upper molar parastyle'
+		 [42] 'Upper molar parastyle position'
+		 [43] 'Upper molar mesostyle'
+		 [44] 'Upper molar mesostyle morphology'
+		 [45] 'Upper molar labial cingulum'
+		 [46] 'Upper molar lingual cingulum'
+		 [47] 'Upper molar cingulum morphology'
+		 [48] 'Upper molar cingulum thickness'
+		 [49] 'Upper molar posterior cingulum expansion'
+		 [50] 'Localisation of the posterior cingulum expansion'
+		 [51] 'Upper molar labial cusps position'
+		 [52] 'Upper molar lingual cusps size'
+		 [53] 'M1-2 metastyle orientation'
+		 [54] 'Relative surface of M3 on M2 (following SM3/SM2 index)'
+		 [55] 'M3 posterior outline'
+		 [56] 'M3 relative distance between [paracone-metacone] and [protocone-hypocone]'
+		 [57] 'p3 metaconid'
+		 [58] 'p4 entoconid'
+		 [59] 'Lower molar relative width'
+		 [60] 'Lower molar labial cingulum'
+		 [61] 'Lower molars cingula height'
+		 [62] 'Lower molar orientation of the protolohpid and the hypolophid'
+		 [63] 'Lower molar métaconid position'
+		 [64] 'Lower molar twinned metaconid'
+		 [65] 'Lower molar metastylid'
+		 [66] 'm1-2 hypoconulid'
+		 [67] 'm3 hypoconulid basin'
+		 [68] 'm3 hypoconulid basin shape'
+		 [69] 'm3 prehypocristulid'
+		 [70] 'm3 prehypocristulid orientation'
+		 [71] 'm3 accessory crest'
+		 [72] 'm3 hypoconulid'
+	;
+	STATELABELS
+		1
+		'mesially to the canine'
+		'in the DPC, close the canine'
+		'in the DPC, close the premolars'
+		'distally to the first premolar'
+		,
+		2
+		'premaxilla enlarged upward and nasal'
+		'premaxilla reduced upward and nasal'
+		'premaxilla, maxilla and nasal'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'reaches the M1'
+		'reaches the limit between the M1-2'
+		'reaches the M2'
+		'reaches the limit between the M2-M3'
+		,
+		5
+		'foramen ovale and middle lacerate foramen distant'
+		'foramen ovale and middle lacerate foramen separated only by a narrow bridge of bone'
+		'foramen ovale and middle lacerate foramen confluent'
+		,
+		6
+		'from 0.25 to 0.30'
+		'from 0.35 to 0.40'
+		'more than 0.45'
+		,
+		7
+		'short (less than 30% of the P2-M3 length)'
+		'long'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'shorter than P2'
+		'as long or longer than P2'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'triangular, tapering forward'
+		'mesial side slightly slanted'
+		'almost rectangular'
+		,
+		12
+		'one cusp'
+		'two cusps'
+		,
+		13
+		'absent'
+		'incomplete'
+		'complete'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'incomplete'
+		'complete'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		'present and joining the cingulum'
+		,
+		20
+		'triangular'
+		'subquadrangular'
+		'square or rectangular'
+		,
+		21
+		'strong and continuous'
+		'vanished on the protocone or absent'
+		,
+		22
+		'as thick as the anterior cingulum'
+		'important posterior expansion'
+		,
+		23
+		'present'
+		'absent'
+		,
+		24
+		'complete'
+		'incomplete'
+		,
+		25
+		'not mesially shifted'
+		'mesially shifted'
+		,
+		26
+		'strong'
+		'average'
+		'weak'
+		,
+		27
+		'weak'
+		'average'
+		'strong'
+		,
+		28
+		'very weak (IH<0,45)'
+		'moderate (0,50 < IH < 0,60)'
+		'high (IH>65)'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'strong'
+		'average'
+		'weak'
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'average'
+		'weak'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'strong'
+		'average'
+		'weak'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'unnotched'
+		'notched'
+		,
+		37
+		'towards the preparacrista'
+		'towards the parastyle'
+		,
+		38
+		'towards the metacone or "stopped"'
+		'towards the centrocrista'
+		,
+		39
+		'strong'
+		'weak'
+		'absent'
+		,
+		40
+		'strong'
+		'moderate'
+		'weak or absent'
+		,
+		41
+		'large'
+		'small'
+		,
+		42
+		'main mass of parastyle anterior to paracone'
+		'buccal to continuation of the line that connects the paracone and metacone'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'strong rib from the neck to the occlusal level'
+		'pseudomesostyle, ie rib on the superior edge of the labial side'
+		,
+		45
+		'continuous'
+		'usually interrupted on the paracone'
+		'almost absent'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'continuous'
+		'interrupted'
+		,
+		48
+		'strong'
+		'medium to weak'
+		'restricted to the medivallum'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'only on M3'
+		'on all upper molars'
+		,
+		51
+		'hypocone and protocone at the same level'
+		'hypocone more labial'
+		,
+		52
+		'protocone and hypocone similar in size'
+		'protocone larger than the hypocone'
+		,
+		53
+		'in line with the ectoloph (in the alignment of the paracone and metacone)'
+		'oblique (towards labial side)'
+		,
+		54
+		'M3 smaller than M2 (<0.95)'
+		'weak difference (>0.95 et <1.05)'
+		'M3 larger than M2 (>1.05)'
+		,
+		55
+		'convexe'
+		'straight'
+		'concave'
+		,
+		56
+		'subequal to equal'
+		'larger between protocone and hypocone'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'narrow'
+		'wide (L/l M1-2/ <1,45 et L/l M3/ <2)'
+		,
+		60
+		'continu'
+		'interrupted'
+		'restricted to the medivallum'
+		,
+		61
+		'high (0.28<CH<0.33)'
+		'average (0.19<CH<0.24)'
+		'low (CH<0.13)'
+		,
+		62
+		'transversal'
+		'slightly inclined'
+		,
+		63
+		'slightly distal, but almost aligned on the protoconid'
+		'facing the medivallum, close to the protoconid'
+		'facing the medivallum, at midway between the protoconid and hypoconid'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'developed'
+		'weak'
+		'absent'
+		,
+		67
+		'large'
+		'reduced'
+		,
+		68
+		'crenaluted'
+		'uncrenulated'
+		,
+		69
+		'present'
+		'absent'
+		,
+		70
+		'towards the hypoconid'
+		'towards the midpoint of the hypolophid'
+		'towards the entoconid'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'labial'
+		'medial'
+		'lingual'
+		
+	;
+	MATRIX
+	'Cardiolophus radinskyi'		                  00?10000?00000000001010001001-1-01000000000-10110-000100?000?0-0?0000000
+	'Hallensia matthesi'		                      0002?200000000011001000110200-1-01010000100-001110100000111100-100011-02
+	'Pliolophus vulpiceps'		                    2010?11011010001000011000020000000100000100-00100-000010?11100-100??????
+	'Xenicohippus osborni'		                    0?00101010010011101011000100021-02101001100-0012100001200110010110110000
+	'Hyracotherium leporinum'		                 2202??00?0000011101100011020000000011000001000110-001010??101101?0010101
+	'Propachynolophus levei'		                  ?????????????1-1000000010010010101010001001100000-000011????????????????
+	'Propachynolophus maldani'		                ??????????110001100010011010010001010001001010100-000110?010010100010100
+	'Propachynolophus gaudryi'		                ??????00?011001110100000010001010101000200101011100002000000010100010101
+	'"Pachynolophus" hookeri'		                 ???????????????10000001-0100011-00000002000-20000-000010??11110100010110
+	'Cymbalophus cuniculus'		                   ?????????????00100????????00011-00000002000-00010-000?10?1?111010?010110
+	'"Hyracotherium" aff. cuniculus'		          ??????????0?0??1?02000011100021-00000000000-00011000101001?11101?00?010?
+	'Pachynolophus duvali'		                    ??????10?1110011100111011110011-01000002000-0012100012000111111?00010101
+	'Pachynolophus livinierensis'		             ??022111--010001100011011100011-01000002000-1012101012200001110?00000101
+	'Pachynolophus garimondi'		                 ?????????????001100111011110011-020011120011101211001201??11111?01010100
+	'Pachynolophus lavocati'		                  ??02?1??0110001?1001110002011-1-020001120111101211001101??01?10???010100
+	'Pachynolophus zambranensis'		              ??????100100001?1021110012011-1-0200110101111012??111??1??01210??2010101
+	'Pachynolophus boixedatensis'		             ??????1??????????00011000110011-02000001000-00121100121000?1110100000110
+	'Pachynolophus cesserasicus'		              1201?010000001-1001011001110011-02000002000-101110001110????????????????
+	'Pachynolophus bretovensis'		               ?????????????0111001110?11?0021-020001010011101210000001????????????????
+	'Pachynolophus eulaliensis'		               1101201000010001000101001110011-0100000100111011100010100111010100010100
+	'Anchilophus dumasi'		                      12012?1001212--111-21---11011-1-1-000002111111--111111100112211102110101
+	'Paranchilophus remyi'		                    ??00?0?1--000--111-110--12011-1-1-000112010-21--0-1111100102211002110201
+	'Eurohippus parvulus'		                     22?0???00121001110010000002?001-1-000112011000110-001111011110-100110101
+	'Lophiotherium cervulum'		                  22?0??1001211--111-21---102?000001010101011010111100111?011210-102110100
+	'Palaeotherium magnum'		                    3202220001212--111-20---120201001-001122011000110-0112100100112102110200
+	'Plagiolophus minor'		                      22032211--110--111-21---110100011-001122011020111000121001021121?2110211
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 72;
+      ENDBLOCK;
+      

@@ -1,0 +1,286 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.49.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+    		'Archegonaster'
+		'Palaeura'
+		'Aulechinus'
+		'Gillecystis'
+		'Rotasaccus'
+		'Palaeocucumaria'
+		'Deima'
+		'Chirodota'
+		'Holothuria'
+		'Molpadia'
+		'Cucumaria'
+		'Ypsilothuria'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Body form'
+		 [2] 'Growth'
+		 [3] 'Body vermiform'
+		 [4] 'Body with differentiated ventral sole'
+		 [5] 'Position of mouth'
+		 [6] 'Position of anus (where present)'
+		 [7] 'Posterior region greatly narrowed and elongated as a tail'
+		 [8] 'Body wall'
+		 [9] 'Presence of wheel-shaped ossicles'
+		 [10] 'Presence of spired plates or tables (elements with distinct outgrowth perpendicular to plate surface):'
+		 [11] 'Presence of biserial columns of ambulacral ossicles protecting water vascular system'
+		 [12] 'Radial water vessel enclosed by ambulacral ossicles'
+		 [13] 'Body wall thickness'
+		 [14] 'Presence of articulated spines'
+		 [15] 'Position of radial water vessels'
+		 [16] 'Enlarged bottom feeding tentacles'
+		 [17] 'Radial water vessels'
+		 [18] 'Radial vessels and tube-feet'
+		 [19] 'Tentacle/tube foot number'
+		 [20] 'Tentacles (Primary tube-feet)'
+		 [21] 'Tentacle branching style'
+		 [22] 'Large heavily plated tentacles'
+		 [23] 'Tentacle ampullae'
+		 [24] 'Pharyngeal introvert'
+		 [25] 'Calcareous ring of elements present encircling the pharynx'
+		 [26] 'Ambulacral jaw apparatus present'
+		 [27] 'Radial calcareous ring elements with posterior projection'
+		 [28] 'Radial calcareous ring elements with notch or perforation'
+		 [29] 'Internal lantern with hemipyramids, rotula and epiphyses'
+		 [30] 'Oligolamellar teeth'
+		 [31] 'Goniodont teeth'
+		 [32] 'Radial elements in calcareous ring much longer than wide'
+		 [33] 'Calcified madreporite'
+		 [34] 'Madreporite opening'
+		 [35] 'Stone canal calcified'
+		 [36] 'Position of madreporic plate'
+		 [37] 'The circumesophageal water ring lies deep in the body, separated from the oral area by a well developed pharyngeal coelom or jaw apparatus'
+		 [38] 'Rete mirabile'
+		 [39] 'Respiratory trees outpouching from cloaca'
+		 [40] 'Longitudinal muscles'
+		 [41] 'Ciliated funnels'
+		 [42] 'Statocysts'
+	;
+	STATELABELS
+		1
+		'axial area much greater than extraxial area'
+		'axial and extraxial surfaces approximately equal'
+		'axial area much smaller than extraxial area'
+		,
+		2
+		'meridional'
+		'radial'
+		,
+		3
+		'no'
+		'yes'
+		,
+		4
+		'no'
+		'yes'
+		,
+		5
+		'mouth terminal'
+		'mouth subterminal displaced downwards in dorso-ventral differentiation'
+		'mouth subterminal displaced to upper surface body often U-shaped'
+		,
+		6
+		'terminal in extraxial component'
+		'anus placed laterally in axial region between ambulacra'
+		'anus absent'
+		,
+		7
+		'no'
+		'yes'
+		,
+		8
+		'protected by large multilayered embedded plates'
+		'body wall membranous; skeleton reduced to microscopic spicules only'
+		,
+		9
+		'no'
+		'yes'
+		,
+		10
+		'no'
+		'yes'
+		,
+		11
+		'no'
+		'yes'
+		,
+		12
+		'no'
+		'yes, within plates'
+		'yes, internal to plates'
+		,
+		13
+		'standard mesoderm with ossicles'
+		'thin without calcification'
+		'thick and gelatinous'
+		,
+		14
+		'no'
+		'yes'
+		,
+		15
+		'external to mesoderm'
+		'enclosed or beneath mesoderm'
+		,
+		16
+		'no'
+		'yes'
+		,
+		17
+		'absent; tentacles arise directly from aquapharyngeal ring'
+		'present, but very short'
+		'present and extensive'
+		,
+		18
+		'uniform along length'
+		'differentiated into a large-bore proximal part with tentacles, and narrow-bore extraxial part (the auxillary vessel) with tube-feet'
+		,
+		19
+		'>50'
+		'40-50'
+		'20-30'
+		'10-15'
+		,
+		20
+		'simple, unbranched'
+		'branched, peltate or digitate'
+		,
+		21
+		'digitate'
+		'shield-shaped with distal papillae'
+		'long and branching (dendritic)'
+		,
+		22
+		'no'
+		'yes'
+		,
+		23
+		'absent or minimal'
+		'long and hanging into the body coelom'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'no'
+		'yes'
+		,
+		27
+		'no'
+		'yes'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'no'
+		'yes'
+		,
+		30
+		'no'
+		'yes'
+		,
+		31
+		'no'
+		'yes'
+		,
+		32
+		'no'
+		'yes'
+		,
+		33
+		'absent'
+		'present, loosely coalesced spicules'
+		'present as a solid, well-formed button-like plate'
+		,
+		34
+		'external'
+		'internal'
+		,
+		35
+		'no or with spicules only'
+		'yes, encased by a uniserial or biserial column of plates'
+		,
+		36
+		'adoral, opening close to the mouth in axial region'
+		'directed away from the mouth and connected by long stone canal'
+		,
+		37
+		'no'
+		'yes'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'undivided'
+		'divided'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Archegonaster'		            1100020100100100200000-000--000-20100?????
+	'Palaeura'		                 1100020100110110200000-001--000-20100?????
+	'Aulechinus'		               0000000100110110200000-001--110-20011?????
+	'Gillecystis'		              0000010100120011200001?001--101-20?01?????
+	'Rotasaccus'		               ?0000?00101?0011200001?001--101-20?01?????
+	'Palaeocucumaria'		          20100000010-0011201001?01000000020101?????
+	'Deima'		                    20111000000-001111211000100000001001100000
+	'Chirodota'		                20100000100-10110?312000100100000101100011
+	'Holothuria'		               20110000010-001111211010100000000101111100
+	'Molpadia'		                 20100010010-001111310010101000011101111101
+	'Cucumaria'		                20100000010-001111312001100000010101101000
+	'Ypsilothuria'		             20102010010-001111310001100000010101101000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 18 20 - 32 34 - 42, ord: 19 33;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 87; LastModified -953494759; FileSettings editor '0' '0' '1' '1'; Singles 010; Editor 00011001111111100100010010 '1' '24' Geneva '9' '100' '1' all; EditorPosition '149' '181' '259' '627'; TreeWindowPosition '46' '6' '803' '1102'; ListWindow Characters closed Geneva '9' '50' '10' '737' '352' 000; ListWindow Taxa closed Geneva '9' '50' '10' '177' '278' 100000000; ListWindow Trees closed Geneva '9' '50' '25' '177' '379'; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharSets closed Geneva '9' '50' '10' '276' '490'; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ChartWindowPosition '52' '30' '782' '1092'; StateNamesSymbols closed Geneva '9' '10' '50' '30' '148' '220'; WindowOrder Data; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '4'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '151' '11' '115' '165'; TreeToolsPosition '720' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Geneva '9' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '6' '-13989' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '1' 100010101110011; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1404149190720; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1759195510121744532; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1332074842939206672; mqVersion 275; checksumv 0 3 4083038023 null getNumChars 42 numChars 42 getNumTaxa 12 numTaxa 12 short true bits 15 states 15 sumSquaresStatesOnly 1532.0 sumSquares 1532.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1210 513; setLocation 8 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1332074842939206672 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1110 446; setLocation 8 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 42; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "SmithReich2013.nex"'; LINK Taxa = Taxa; TRANSLATE 1 Archegonaster, 2 Palaeura, 3 Aulechinus, 4 Gillecystis, 5 Rotasaccus, 6 Palaeocucumaria, 7 Deima, 8 Chirodota, 9 Holothuria, 10 Molpadia, 11 Cucumaria, 12 Ypsilothuria; TREE PAUP_1 = (6,((((11,10),(9,7)),12),8)); TREE PAUP_1 = (6,((((11,10),(9,7)),12),8)); TREE PAUP_1 = (1,(2,((3,(4,5)),(6,((7,((9,10),(11,12))),8))))); TREE PAUP_1 = (1,(2,((3,(4,5)),(6,((7,((9,10),(11,12))),8))))); TREE PAUP_1 = (1,(2,((3,(4,5)),(6,((7,((9,10),(11,12))),8))))); TREE PAUP_2 = (1,(2,((3,(4,5)),(6,(7,(8,((9,10),(11,12)))))))); TREE PAUP_2 = (1,(2,((3,(4,5)),(6,(7,(8,((9,10),(11,12)))))))); TREE UNTITLED = (1,(2,(3,(4,(5,(6,(8,(7,((9,10),(11,12)))))))))); 
+ENDBLOCK;

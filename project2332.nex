@@ -1,0 +1,601 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.10.24 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=49;
+    TAXLABELS
+    		'Ennearabdus lobocephalus'
+		'Anomiopsoides heteroclyta'
+		'Coprophanaeus telamon'
+		'Gromphas aeruginosa'
+		'Oruscatus davus'
+		'Phanaeus splendidulus'
+		'Megatharsis buckleyi'
+		'Homalotarsus impressus'
+		'Dendropaemon aenigmaticus'
+		'Dendropaemon amazonicus'
+		'Dendropaemon amyntas'
+		'Dendropaemon angustipennis'
+		'Dendropaemon angustulus'
+		'Dendropaemon ater'
+		'Dendropaemon attalus'
+		'Dendropaemon bahianus'
+		'Dendropaemon bluti'
+		'Dendropaemon carinifer'
+		'Dendropaemon compressipennis'
+		'Dendropaemon convexus'
+		'Dendropaemon cribrosus'
+		'Dendropaemon denticollis'
+		'Dendropaemon fasces'
+		'Dendropaemon fleshtmanni'
+		'Dendropaemon fractipes'
+		'Dendropaemon frederickii'
+		'Dendropaemon furtadoi'
+		'Dendropaemon ganglebaueri'
+		'Dendropaemon haroldi'
+		'Dendropaemon hirticollis'
+		'Dendropaemon inemarginatus'
+		'Dendropaemon inflatus'
+		'Dendropaemon latistriatus'
+		'Dendropaemon larseni'
+		'Dendropaemon lydiae'
+		'Dendropaemon morettoi'
+		'Dendropaemon nigritulus'
+		'Dendropaemon nitidicollis'
+		'Dendropaemon pauliani'
+		'Dendropaemon piceus'
+		'Dendropaemon pilosissimus'
+		'Dendropaemon quadratus'
+		'Dendropaemon refulgens'
+		'Dendropaemon renatii'
+		'Dendropaemon similis'
+		'Dendropaemon telephus'
+		'Dendropaemon vazdemelloi'
+		'Dendropaemon viridipennis'
+		'Dendropaemon viridis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=71;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Average size'
+		 [2] 'Coloration'
+		 [3] 'Overall body shape'
+		 [4] 'Dorsal convexity in lateral view'
+		 [5] 'Clypeal edge between teeth and clypeogenal suture'
+		 [6] 'Clypeal margin'
+		 [7] 'Clypeal teeth shape'
+		 [8] 'Clypeal teeth external emargination'
+		 [9] 'Clypeal teeth median emargination in male'
+		 [10] 'Clypeal teeth lower surface'
+		 [11] 'Genal surface'
+		 [12] 'Dorsal ocular surface'
+		 [13] 'ventral ocular surface'
+		 [14] 'Vertex behind the eyes'
+		 [15] 'Clypeofrontal carina in dorsal view'
+		 [16] 'Clypeofrontal carina male'
+		 [17] 'Clypeofrontal carina male frontal view'
+		 [18] 'Pronotal anterior row of setae'
+		 [19] 'Anterior pronotal margin'
+		 [20] 'Surface behind anterior pronotal margin'
+		 [21] 'Pronotal longitudinal sulcus'
+		 [22] 'Lateral pronotal margin'
+		 [23] 'Lateral pronotal surface'
+		 [24] 'Lateral pronotal fovea'
+		 [25] 'Lateral pronotal bulge'
+		 [26] 'Pronotal surface'
+		 [27] 'Pronotal pilosity'
+		 [28] 'Pronotal anterior angles surface'
+		 [29] 'Posterior pronotal margin'
+		 [30] 'Posterior pronotal margin surface'
+		 [31] 'Pronotal carina median portion of major males in dorsal view'
+		 [32] 'Pronotal carina lateral portion in male'
+		 [33] 'Transverse propleural carina'
+		 [34] 'Prosternum spiniferous process'
+		 [35] 'Prosternum'
+		 [36] 'Elytral shape in dorsal view'
+		 [37] 'Elytral surface'
+		 [38] 'Elytral stria 1 basally'
+		 [39] 'Elytral striae 2-5'
+		 [40] 'Elytral basal margin'
+		 [41] 'Elytral stria 1'
+		 [42] 'Elytral apical margin'
+		 [43] 'Protibial dorsal setae'
+		 [44] 'Protibial dorsal surface'
+		 [45] 'Protibial basosuperior edge'
+		 [46] 'Mesotibial apicoventral edge'
+		 [47] 'Mesotibial apical edge'
+		 [48] 'Mesotibial internal angle'
+		 [49] 'Meso and metatarsomere'
+		 [50] 'Meso and metatarsi'
+		 [51] 'Last mesotarsal segment'
+		 [52] 'Meso and metatarsi shape'
+		 [53] 'Metatarsal segment 1 length in male'
+		 [54] 'Metatarsal segment 1 in male'
+		 [55] 'Mesotibia'
+		 [56] 'Metasternal anteromedian process'
+		 [57] 'Metasternal anterior ridge'
+		 [58] 'Meso and meta femoral ventral sulcus'
+		 [59] 'Mesofemur apicoposterior angle'
+		 [60] 'Metatibial dorsal surface sculpturing'
+		 [61] 'Metatibial dorsal surface'
+		 [62] 'Metatibia ventral surface'
+		 [63] 'Metafemoral ventral surface'
+		 [64] 'Metafemoral apicodorsal edge'
+		 [65] 'Metafemur in ventral view'
+		 [66] 'Metacoxal ventral surface internally'
+		 [67] 'Abdominal sternite 7 medially'
+		 [68] 'Abdominal sternite 7 length along midline'
+		 [69] 'Male abdominal sternite 6-7 posteriorly'
+		 [70] 'Pygidial oblique furrows'
+		 [71] 'Parameres in dorsal view'
+	;
+	STATELABELS
+		1
+		'moderate'
+		'small'
+		'large'
+		,
+		2
+		'with metallic sheen'
+		'lacking metallic sheen'
+		'some individuals with faint metallic sheen'
+		,
+		3
+		'ovoid, convex'
+		'rectangular, flattened'
+		,
+		4
+		'convex'
+		'approx. 50% of surface nearly flat'
+		'more than 50% of surface nearly flat'
+		,
+		5
+		'arcuate'
+		'straight between'
+		'dentate'
+		,
+		6
+		'well defined posteriorly'
+		'ill-defined posteriorly'
+		,
+		7
+		'broadly triangular'
+		'acutely triangular'
+		'ogival'
+		'rounded'
+		,
+		8
+		'absent'
+		'broadly angular'
+		'acutely angular'
+		,
+		9
+		'u-shaped'
+		'narrowly v-shaped'
+		'broadly v-shaped'
+		'very deep'
+		,
+		10
+		'lacking sharply defined carina'
+		'with v-shaped carina'
+		,
+		11
+		'unmodified'
+		'bluntly carinate'
+		'carinate'
+		'bluntly tuberculate'
+		,
+		12
+		'atrophied'
+		'normally developed'
+		'hypertrophied'
+		,
+		13
+		'unmodified'
+		'atrophied'
+		,
+		14
+		'unmodified'
+		'with transverse bulge sharply defined anteriorly'
+		,
+		15
+		'anteriorly arcuate'
+		'nearly straight'
+		'posteriorly arcuate'
+		'obscured'
+		,
+		16
+		'low'
+		'lamellate'
+		'horn shaped'
+		,
+		17
+		'trilobate'
+		'bilobate'
+		'arcuate'
+		'straight or nearly so'
+		'spiniform medially'
+		'obscured'
+		,
+		18
+		'interrupted medially'
+		'complete'
+		,
+		19
+		'unmodified lateral to eye'
+		'enlarged and flat lateral to eye'
+		'tuberculate'
+		'slightly enlarged and convex lateral to eye'
+		,
+		20
+		'unmodified lateral to eye'
+		'furrowed lateral to eye'
+		,
+		21
+		'simply furrowed'
+		'sharply defined'
+		'absent'
+		,
+		22
+		'arcuate anteriorly'
+		'straight anteriorly'
+		'sinuous anteriorly'
+		,
+		23
+		'unmodified'
+		'explanate anteriorly'
+		,
+		24
+		'simple or nearly so'
+		'sharply edged anteriorly and laterally'
+		'sharply edged anteriorly only'
+		'sharply edged posterolateraly only'
+		,
+		25
+		'well developed'
+		'atrophied'
+		,
+		26
+		'with fine simple punctures throughout'
+		'variously sculptured'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'punctate'
+		'granulate'
+		'rugulate'
+		'State 3'
+		,
+		29
+		'well defined throughout'
+		'blunt on each side of midline'
+		'blunt throughout'
+		'blunt medially'
+		,
+		30
+		'glabrous'
+		'with a row of setae posterior to anterior marginal edge'
+		'with a row of setiferous punctures on anterior marginal edge'
+		,
+		31
+		'simply tuberculate'
+		'bituberculate'
+		'transversally tuberculate'
+		'projecting into a wide lamina'
+		'long straight carina'
+		'absent'
+		'short arcuate carina'
+		'transverse bilobate bulge'
+		,
+		32
+		'sinuous'
+		'arcuate'
+		'straight'
+		'absent'
+		,
+		33
+		'absent'
+		'along coxal cavity only'
+		'extending laterally'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'approximately horizontal behind procoxae'
+		'sloping behind procoxae'
+		,
+		36
+		'tapering toward apex from basal half'
+		'tapering toward apex from apical half'
+		,
+		37
+		'glabrous'
+		'pubescent throughout'
+		'pubescent apically only'
+		,
+		38
+		'away from suture'
+		'touching or adjacent to sutural margin'
+		,
+		39
+		'similar in width and depth throughout'
+		'wider and deeper basally'
+		,
+		40
+		'absent or ill-defined'
+		'sharply carinate posteriorly'
+		,
+		41
+		'ill-defined apically, not bending externally'
+		'sharply defined apically, bending externally'
+		'well-defined apically, not bending externally'
+		,
+		42
+		'well defined to apicointernal angle'
+		'lacking between stria 1 and apicointernal edge'
+		'interrupted before apicointernal edge'
+		,
+		43
+		'lacking aligned row of setae'
+		'with long aligned row of setae'
+		'with reduced row of setae'
+		,
+		44
+		'glossy or feebly microsculptured'
+		'with strong microsculpture'
+		,
+		45
+		'unmodified'
+		'bluntly lobate'
+		'lobate'
+		,
+		46
+		'dentate'
+		'straight or sinuous'
+		,
+		47
+		'with complete setal row'
+		'with setal row interrupted'
+		,
+		48
+		'obliquely truncated'
+		'notched'
+		'rounded'
+		,
+		49
+		'5-segmented'
+		'reduced in number'
+		,
+		50
+		'5-segmented'
+		'4-segmented'
+		'3-segmented'
+		'2-segmented'
+		,
+		51
+		'truncated apically'
+		'spiniformly produced internally'
+		'simply acute'
+		'with tarsal claws'
+		,
+		52
+		'similar in shape'
+		'dissimilar in shape'
+		,
+		53
+		'less than 2 times as long as wide at apex'
+		'approximately 2 times as long as wide at apex'
+		'approximately 3 time as long as wide at apex'
+		'more than 4 time as long as wide at apex'
+		,
+		54
+		'with ventroposterior carina well defined and complete'
+		'with ventroposterior carina ill defined'
+		,
+		55
+		'abruptly enlarged toward apex'
+		'gradually enlarged toward apex'
+		'abruptly enlarged before apex'
+		'cylindrical'
+		,
+		56
+		'acutely angular in lateral view'
+		'bluntly angular in lateral view'
+		'broadly arcuate in lateral view'
+		'spiniform'
+		'absent'
+		'broadly produced anteriorly'
+		,
+		57
+		'absent'
+		'ill-defined, keel shape'
+		'well-defined, v-shaped'
+		'well-defined, triangular'
+		'well-defined, keel-shaped'
+		,
+		58
+		'well-defined'
+		'absent or ill-defined'
+		,
+		59
+		'unmodified'
+		'angularly produced posteriorly'
+		,
+		60
+		'glossy between punctures'
+		'with microsculpture'
+		,
+		61
+		'largely concave'
+		'largely flat or convex'
+		,
+		62
+		'with distinct setal rows, surface more or less glossy'
+		'surface completely covered with irregular sculpturing and punctures'
+		'surface partly covered with irregular sculpturing and punctures'
+		,
+		63
+		'unmodified apically'
+		'depressed apically'
+		,
+		64
+		'unmodified'
+		'lobate beyond tibial insertion, surface coarsely microsculptured and tuberculate'
+		'slightly enlarged, surface finely microsculptured'
+		'lobate beyond tibial insertion, surface coarsely microsculptured'
+		,
+		65
+		'broadly oval'
+		'subrectangular'
+		'elongate, subparallel sided'
+		'extremely elongate, subcylindrical'
+		'straight anteriorly, arcuate posteriorly'
+		,
+		66
+		'with long pilosity'
+		'glabrous'
+		,
+		67
+		'unmodified'
+		'concave medially'
+		'surface flat but lower than segment 6 and 8'
+		'surface flat but lower than segment 6 only'
+		'carinate'
+		,
+		68
+		'shorter than segment 6'
+		'subequal to segment 6'
+		'longer than segment 6'
+		,
+		69
+		'lacking dense minute punctures'
+		'with dense minute punctures'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'simply convex apically'
+		'dentate or carinate'
+		'produced into a lobate projection'
+		'laterally compressed and smooth'
+		'dorsoventrally compressed'
+		'recurved dorsally'
+		'laterally compressed and granulate'
+		
+	;
+	MATRIX
+	'Ennearabdus lobocephalus'		              01000001100010101100200011010073001000000000010200302020010010004141004
+	'Anomiopsoides heteroclyta'		             01002112310010003100010000000053000000000200001200001134010110003100004
+	'Coprophanaeus telamon'		                 20002012110100214000000011010073001000000100001100101002300100004000005
+	'Gromphas aeruginosa'		                   00000130200000315000200011011073001000000100001000101121010110004100000
+	'Oruscatus davus'		                       20110130200000103000000011011053001100100100001000101105010010004100000
+	'Phanaeus splendidulus'		                 20000030200100325000220000003053001000100200001000201100000100004000004
+	'Megatharsis buckleyi'		                  1000003010010010000020101103215300100000010000100020010141011000110100?
+	'Homalotarsus impressus'		                10000000103100003010001011010160001020000100010000000101110110004000003
+	'Dendropaemon aenigmaticus'		             01120100212100103010001010000001111100001110210113002110101110021020110
+	'Dendropaemon amazonicus'		               00110110112100103010000011010001110000001110210013002110201110021000110
+	'Dendropaemon amyntas'		                  20110101211000112010001011010030211000001010110112002111200101112000111
+	'Dendropaemon angustipennis'		            10110121011100003011000011031020211100101110210112201011001110020001111
+	'Dendropaemon angustulus'		               11110100212100103010000010001002000100001110210113002111101110020020110
+	'Dendropaemon ater'		                     01110100112100103010001010001000110100001110210113002110101110021020110
+	'Dendropaemon attalus'		                  20110010113000112010001011010030211000001010110112001011200101111001110
+	'Dendropaemon bahianus'		                 10110121013101012031000211031020201100101110210112201010101110020001110
+	'Dendropaemon bluti'		                    001101221001001??0100113010100??01110001201011011210??12201010021001?1?
+	'Dendropaemon carinifer'		                00120112100200003010021301110211011110012010110112101012201110020001110
+	'Dendropaemon compressipennis'		          00120112100200103010011311111242011110002010110112101012201110021001110
+	'Dendropaemon convexus'		                 02000030200100103000001011010002011000000110010011000121200102000001116
+	'Dendropaemon cribrosus'		                00120112100200003010011301110211011110012010110112101012201110020000110
+	'Dendropaemon denticollis'		              10120111003200103020110011031001111100002010110112101012201110020000110
+	'Dendropaemon fasces'		                   10120121003111103010110211031000111101102020110112101012401110020011112
+	'Dendropaemon fleshtmanni'		              01120100112100103010001010001000110100001110210013002110401110022020110
+	'Dendropaemon fractipes'		                21120012111000101000020011001020210100002110210112102021000102022000111
+	'Dendropaemon frederickii'		              02000030200100100000001011010002011000000110010011000121200102000002116
+	'Dendropaemon furtadoi'		                 00121122100200103010011301110201011110012010110112101012201110021000110
+	'Dendropaemon ganglebaueri'		             2100000120000010000000101101000201100000200001001301312240001200200211?
+	'Dendropaemon haroldi'		                  10120111003111003011110211031021100100100201210112102012401110020010112
+	'Dendropaemon hirticollis'		              00120122100200003010001001111242011110002210110112101011001110020001110
+	'Dendropaemon inemarginatus'		            00110122?011010??0310000110010??21100000111021001220??11201110020000?1?
+	'Dendropaemon inflatus'		                 00111022?002001??0100113010100??01110001001011011210??11201110021000?1?
+	'Dendropaemon latistriatus'		             1012001100311110301001021103100000010100020121011200??12101110020010112
+	'Dendropaemon larseni'		                  11120100212100103010000010001001000100001110210113001111101110020020110
+	'Dendropaemon lydiae'		                   20110001213100100010001011010020111000001010110112000101210101031001111
+	'Dendropaemon morettoi'		                 20110000113100110010001011010031211000001010110112001101200111031001111
+	'Dendropaemon nigritulus'		               11120111012100103010000011031001010100001210210112101011100110020010110
+	'Dendropaemon nitidicollis'		             10120121003111003010010211031001100101102000210112101012101110020011012
+	'Dendropaemon pauliani'		                 00110022?002001??0100213011100??01110001001021011200??12201110021000?1?
+	'Dendropaemon piceus'		                   21120100112100103010001010000001111100001110210013002111101110022020110
+	'Dendropaemon pilosissimus'		             00120122?001001??0100213011102??01111001201021011210??12201110020001?1?
+	'Dendropaemon quadratus'		                10120111103111103010000211031001101100102020210113001012001110020010012
+	'Dendropaemon refulgens'		                20110000111000103010001011010000011000001010110112?0210131001202200111?
+	'Dendropaemon renatii'		                  00110022100200103010021301010011011100012210110112101012201110020001110
+	'Dendropaemon similis'		                  10120121003111103010100211031000011101101220210112101012401110020010112
+	'Dendropaemon telephus'		                 01110100212100103010000010001001110100001110210113002110101110020020110
+	'Dendropaemon vazdemelloi'		              21000001200000100000001011010002011000002000010013013122400011002002110
+	'Dendropaemon viridipennis'		             00120001113010003010000011031000210100001110110112202111001110021030111
+	'Dendropaemon viridis'		                  00120100111100103010000011011001100100001110210113003112101110022030110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=17 TEXT='male unknown';
+	TEXT TAXON=28 TEXT='male, but aedeagus missing';
+	TEXT TAXON=31 TEXT='male unknown';
+	TEXT TAXON=32 TEXT='male unknown';
+	TEXT TAXON=39 TEXT='male unknown';
+	TEXT TAXON=41 TEXT='male unknown';
+
+        [Character comments]
+        	TEXT CHARACTER=3 TEXT='general shape in dorsal view';
+	TEXT CHARACTER=6 TEXT='well defined = with uninterupted posterior clypeal margin';
+	TEXT CHARACTER=14 TEXT='best seen when head is tilted downward or pulled out.';
+	TEXT CHARACTER=34 TEXT='This character is more or less developped, if present in at least one specimen studied it was coded as present for the species.';
+	TEXT CHARACTER=37 TEXT='wether or not conspicuous pubescence is present';
+	TEXT CHARACTER=50 TEXT='Subject to homoplasia';
+	TEXT CHARACTER=51 TEXT='spiniform process easely broken in worn specimens';
+	TEXT CHARACTER=59 TEXT='ventral surface';
+	TEXT CHARACTER=69 TEXT='homoplasious?';
+
+      [Attribute comments]
+      	TEXT TAXON=22 CHARACTER=9 TEXT='less or more than 90 degrees';
+	TEXT TAXON=29 CHARACTER=9 TEXT='u-shaped in male, v-shaped in female';
+	TEXT TAXON=30 CHARACTER=24 TEXT='most certainly a reversal';
+	TEXT TAXON=19 CHARACTER=25 TEXT='most certainly a reversal';
+	TEXT TAXON=43 CHARACTER=51 TEXT='both segents missing';
+	TEXT TAXON=33 CHARACTER=53 TEXT='metatarsi missing in type';
+	TEXT TAXON=33 CHARACTER=54 TEXT='metatarsi missing in type';
+	TEXT TAXON=28 CHARACTER=71 TEXT='aedeagus lost';
+	TEXT TAXON=43 CHARACTER=71 TEXT='aedeagus lost';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 71;
+      ENDBLOCK;
+      BEGIN LABELS;
+ TAXAGROUPLABEL OUTGROUP COLOR = (RGB 1.0 0.06666667 0.62745098) ; TAXAGROUPLABEL DENDROPAEMON_S.STR. COLOR = (RGB 1.0 0.52156863 0.2) ; TAXAGROUPLABEL PARADENDROPAEMON COLOR = (RGB 0.03529412 0.80784314 1.0) ; TAXAGROUPLABEL TETRAMEREIA COLOR = (RGB 0.03529412 1.0 0.03529412) ; TAXAGROUPLABEL QUADRATUS_GROUP COLOR = (RGB 1.0 0.06666667 0.06666667) ; TAXAGROUPLABEL COPROPHANAEOIDES COLOR = (RGB 0.43529412 0.54509804 1.0) ; TAXAGROUPLABEL RUTILOPAEMON COLOR = (RGB 1.0 0.54509804 0.43529412) ; TAXAGROUPLABEL MEGAPAEMON COLOR = (RGB 0.46666667 0.33333333 1.0) ; TAXAGROUPLABEL GLAPHYROPAEMON COLOR = (RGB 1.0 0.22745098 0.03529412) ; TAXAGROUPLABEL TITTHOPAEMON COLOR = (RGB 0.10196078 1.0 0.63921569) ; TAXAGROUPLABEL SULCOPAEMON COLOR = (RGB 0.65490196 1.0 0.13333333) ; TAXAGROUPLABEL STREBLOPAEMON COLOR = (RGB 0.61176471 0.03529412 1.0) ; TAXAGROUPLABEL NIGROPAEMON COLOR = (RGB 0.03529412 0.03529412 0.03529412) ; TAXAGROUPLABEL BICOLOROPAEMON COLOR = (RGB 0.36862745 1.0 0.61960784) ; CHARGROUPLABEL GENERAL COLOR = (RGB 1.0 0.03529412 0.41960784) ; CHARGROUPLABEL HEAD COLOR = (RGB 0.30196078 1.0 0.30196078) ; CHARGROUPLABEL PRONOTUM COLOR = (RGB 0.4 1.0 1.0) ; CHARGROUPLABEL ELYTRA COLOR = (RGB 0.50196078 0.50196078 1.0) ; CHARGROUPLABEL LEGS COLOR = (RGB 1.0 0.03529412 0.41960784) ; CHARGROUPLABEL STERNITES COLOR = (RGB 0.83529412 0.16862745 1.0) ; CHARGROUPLABEL GENITALIA COLOR = (RGB 1.0 0.33333333 0.33333333) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1450297216775; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3625859229597714269; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3709477691021470026; mqVersion 275; checksumv 0 3 1741663367 null getNumChars 71 numChars 71 getNumTaxa 49 numTaxa 49 short true bits 255 states 255 sumSquaresStatesOnly 94377.0 sumSquares 94377.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 4; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1845 1002; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #3625859229597714269 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #3625859229597714269; getWindow; tell It; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; getTable; tell It; rowNamesWidth 151; columnWidth 0 77; columnWidth 1 227; endTell; setExplanationSize 50; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1841 915; setLocation -8 0; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.sort; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3709477691021470026 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 161; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1841 935; setLocation -8 0; setFont SansSerif; setFontSize 13; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.NoColor.NoColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows on; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames on; toggleShowDefaultCharNames off; toggleConstrainCW off; setColumnWidth 16; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors on; togglePaleInapplicable off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal off; setDiagonalHeight 80; toggleLinkedScrolling off; toggleScrollLinkedTables off; newAssistant #mesquite.distance.ShowDistance.ShowDistance; tell It; getEmployee #mesquite.distance.TaxaDistFromMatrixSrc.TaxaDistFromMatrixSrc; tell It; getMatrixSource #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #3709477691021470026; endTell; endTell; setDistanceTask #mesquite.distance.UncorrectedDistance.UncorrectedDistance; endTell; endTell; getInfoPanel; tell It; btspOpen true; apOpen true; fpOpen true; endTell; toggleInfoPanel on; endTell; showWindow; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 241; endTell; setExplanationSize 50; setAnnotationSize 40; setFontIncAnnot 0; setFontIncExp 0; setSize 1841 895; setLocation -8 0; setFont Dialog; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar off; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #3709477691021470026 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; getTable; tell It; columnWidth 0 112; columnWidth 1 75; endTell; setExplanationSize 50; setAnnotationSize 40; setFontIncAnnot 0; setFontIncExp 0; setSize 1841 895; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; newAssistant #mesquite.basic.TextWindowMaker.TextWindowMaker; tell It; setText ; getWindow; tell It; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1841 985; setLocation -8 0; setFont Serif; setFontSize 9; getToolPalette; tell It; endTell; endTell; hideWindow; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 71; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = OUTGROUP : 1 - 8, DENDROPAEMON_S.STR. : 9 - 10 13 - 14 24 34 40 46 49, MEGAPAEMON : 11 15 35 - 36, GLAPHYROPAEMON : 12 16 31, COPROPHANAEOIDES : 17 - 19 21 27 30 32 39 41 44, TETRAMEREIA : 20 26, TITTHOPAEMON : 22, SULCOPAEMON : 23 29 33 38 42 45, STREBLOPAEMON : 25, PARADENDROPAEMON : 28 47, NIGROPAEMON : 37, RUTILOPAEMON : 43, BICOLOROPAEMON : 48; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from Mesquite''s heuristic search'; LINK Taxa = Taxa; TRANSLATE 1 E._lobocephalus, 2 A._heteroclyta, 3 C._telamon, 4 G._aeruginosa, 5 O._davus, 6 P._splendidulus, 7 M._buckleyi, 8 H._impressus, 9 D._aenigmaticus, 10 D._amazonicus, 11 D._amyntas, 12 D._angustipennis, 13 D._angustulus, 14 D._ater, 15 D._attalus, 16 D._bahianus, 17 D._bluti, 18 D._carinifer, 19 D._compressipennis, 20 D._convexus, 21 D._cribrosus, 22 D._denticollis, 23 D._fasces, 24 D._fleshtmanni, 25 D._fractipes, 26 D._frederickii, 27 D._furtadoi, 28 D._ganglebaueri, 29 D._haroldi, 30 D._hirticollis, 31 D._inemarginatus, 32 D._inflatus, 33 D._latistriatus, 34 D._larseni, 35 D._lydiae, 36 D._morettoi, 37 D._nigritulus, 38 D._nitidicollis, 39 D._pauliani, 40 D._piceus, 41 D._pilosissimus, 42 D._quadratus, 43 D._refulgens, 44 D._renatii, 45 D._similis, 46 D._telephus, 47 D._vazdemelloi, 48 D._viridipennis, 49 D._viridis; TREE 'Tree 1 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 2 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 3 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 4 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 5 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((((((7,(6,(5,3))),8),4),2),1),((28,47),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 6 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((28,47),((((((7,(6,(5,3))),8),4),2),1),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 7 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((((7,(6,(5,3))),8),4),(((2,1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 8 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((((2,1),(((7,(6,(5,3))),8),4)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 9 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((2,((((7,(6,(5,3))),8),4),1)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 10 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((((((((6,(5,3)),8),7),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 11 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((6,(5,3)),(7,8)),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 12 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((6,(5,3)),((((((7,8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 13 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,8),4),2),1),(6,(5,3))),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 14 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,8),4),(6,(5,3))),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 15 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),((((((7,8),((6,(5,3)),4)),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 16 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,((5,6),3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 17 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(5,(6,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 18 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((((((35,(36,(15,11))),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),5),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 19 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((((((35,(36,(15,11))),5),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 20 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(5,(((((((7,(6,3)),8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 21 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((24,14),40),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 22 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(37,(34,13))))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 23 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(34,13)))),10),49),((20,25),(31,(16,12)))),48)),((((23,45),(42,(38,(33,29)))),37),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 24 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),(25,(20,(31,(16,12))))),48)),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 25 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((42,((23,45),(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 26 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((45,(42,(38,(33,29)))),23),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 27 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((23,((42,45),(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 28 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18))))),17),(32,(44,39))); TREE 'Tree 29 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18))))),((32,(44,39)),17)); TREE 'Tree 30 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),((44,(32,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 31 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(((32,(44,39)),17),(27,(21,((19,30),(41,18)))))); TREE 'Tree 32 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((32,(44,39)),(27,(21,((19,30),(41,18))))),17)),(((23,45),(42,(38,(33,29)))),22)); TREE 'Tree 33 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 34 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((44,(32,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 35 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))),(27,(21,((19,30),(41,18))))); TREE 'Tree 36 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((((((7,(6,(5,3))),8),4),2),1),((28,47),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 37 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((28,47),((((((7,(6,(5,3))),8),4),2),1),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 38 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((((7,(6,(5,3))),8),4),(((2,1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 39 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((((2,1),(((7,(6,(5,3))),8),4)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 40 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((2,((((7,(6,(5,3))),8),4),1)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 41 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((((((((6,(5,3)),8),7),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 42 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((6,(5,3)),(7,8)),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 43 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((6,(5,3)),((((((7,8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 44 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,8),4),2),1),(6,(5,3))),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 45 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,8),4),(6,(5,3))),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 46 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),((((((7,8),((6,(5,3)),4)),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 47 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,((5,6),3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 48 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(5,(6,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 49 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),((((((35,(36,(15,11))),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),5),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 50 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),((((((35,(36,(15,11))),5),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 51 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(5,(((((((7,(6,3)),8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 52 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((24,14),40),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 53 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(37,(34,13))))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 54 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(34,13)))),10),49),((20,25),(31,(16,12)))),48)),((((23,45),(42,(38,(33,29)))),37),22))); TREE 'Tree 55 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),(25,(20,(31,(16,12))))),48)),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 56 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((42,((23,45),(38,(33,29)))),22))); TREE 'Tree 57 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((45,(42,(38,(33,29)))),23),22))); TREE 'Tree 58 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),(((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((23,((42,45),(38,(33,29)))),22))); TREE 'Tree 59 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((44,(32,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 60 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,39),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17),44); TREE 'Tree 61 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((((32,39),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),44),17); TREE 'Tree 62 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,39),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),(44,17)); TREE 'Tree 63 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((((((7,(6,(5,3))),8),4),2),1),((28,47),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 64 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((28,47),((((((7,(6,(5,3))),8),4),2),1),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 65 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((((7,(6,(5,3))),8),4),(((2,1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 66 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((((2,1),(((7,(6,(5,3))),8),4)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 67 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((2,((((7,(6,(5,3))),8),4),1)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 68 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((((((((6,(5,3)),8),7),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 69 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((6,(5,3)),(7,8)),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 70 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((6,(5,3)),((((((7,8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 71 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,8),4),2),1),(6,(5,3))),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 72 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,8),4),(6,(5,3))),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 73 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),((((((7,8),((6,(5,3)),4)),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 74 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,((5,6),3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 75 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(5,(6,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 76 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(((((((35,(36,(15,11))),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),5),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 77 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(((((((35,(36,(15,11))),5),(((((((7,(6,3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 78 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(5,(((((((7,(6,3)),8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 79 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((24,14),40),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 80 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(37,(34,13))))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 81 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,(34,13)))),10),49),((20,25),(31,(16,12)))),48)),((((23,45),(42,(38,(33,29)))),37),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 82 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),(25,(20,(31,(16,12))))),48)),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 83 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((42,((23,45),(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 84 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((45,(42,(38,(33,29)))),23),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 85 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),((23,((42,45),(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 86 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((32,(44,39)),(((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17),(27,(21,((19,30),(41,18)))))); TREE 'Tree 87 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = ((27,(21,((19,30),(41,18)))),((32,(44,39)),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17))); TREE 'Tree 88 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((44,(32,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((7,(6,(5,3))),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 89 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((((((7,(6,(5,3))),8),4),2),1),((28,47),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 90 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((28,47),((((((7,(6,(5,3))),8),4),2),1),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 91 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((((7,(6,(5,3))),8),4),(((2,1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 92 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((((2,1),(((7,(6,(5,3))),8),4)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 93 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((2,((((7,(6,(5,3))),8),4),1)),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 94 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((((((((6,(5,3)),8),7),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 95 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((6,(5,3)),(7,8)),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 96 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((6,(5,3)),((((((7,8),4),2),1),(28,47)),26))),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 97 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((7,8),4),2),1),(6,(5,3))),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 98 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((7,8),4),(6,(5,3))),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 99 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),((((((7,8),((6,(5,3)),4)),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 100 from INCOMPLETE search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),((((((35,(36,(15,11))),(((((((7,((5,6),3)),8),4),2),1),(28,47)),26)),43),(((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48)),(((23,45),(42,(38,(33,29)))),22)),17)); 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from Mesquite''s heuristic search'; LINK Taxa = Taxa; TRANSLATE 1 E._lobocephalus, 2 A._heteroclyta, 3 C._telamon, 4 G._aeruginosa, 5 O._davus, 6 P._splendidulus, 7 M._buckleyi, 8 H._impressus, 9 D._aenigmaticus, 10 D._amazonicus, 11 D._amyntas, 12 D._angustipennis, 13 D._angustulus, 14 D._ater, 15 D._attalus, 16 D._bahianus, 17 D._bluti, 18 D._carinifer, 19 D._compressipennis, 20 D._convexus, 21 D._cribrosus, 22 D._denticollis, 23 D._fasces, 24 D._fleshtmanni, 25 D._fractipes, 26 D._frederickii, 27 D._furtadoi, 28 D._ganglebaueri, 29 D._haroldi, 30 D._hirticollis, 31 D._inemarginatus, 32 D._inflatus, 33 D._latistriatus, 34 D._larseni, 35 D._lydiae, 36 D._morettoi, 37 D._nigritulus, 38 D._nitidicollis, 39 D._pauliani, 40 D._piceus, 41 D._pilosissimus, 42 D._quadratus, 43 D._refulgens, 44 D._renatii, 45 D._similis, 46 D._telephus, 47 D._vazdemelloi, 48 D._viridipennis, 49 D._viridis; TREE 'Tree 1 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 2 from search (criterion: minimize Tree value using character matrix)' = ((((32,(44,39)),(27,(21,((19,30),(41,18))))),17),((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22))); TREE 'Tree 3 from search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 4 from search (criterion: minimize Tree value using character matrix)' = (((32,(44,39)),(27,(21,((19,30),(41,18))))),(((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),17)); TREE 'Tree 5 from search (criterion: minimize Tree value using character matrix)' = (((((43,((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 6 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((24,14),40),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 7 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((40,24),14),(9,(46,(37,(34,13))))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 8 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((40,24),14),(9,(46,(34,13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),((((23,45),(42,(38,(33,29)))),37),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 9 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),(25,(20,(31,(16,12))))),48),(43,(((35,36),15),11))),((28,47),((((7,((4,5),(6,3))),8),(2,1)),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); TREE 'Tree 10 from search (criterion: minimize Tree value using character matrix)' = ((((((((((((40,24),14),(9,(46,((34,37),13)))),10),49),((20,25),(31,(16,12)))),48),(43,(((35,36),15),11))),((((7,((4,5),(6,3))),8),(2,1)),((28,47),26))),(((23,45),(42,(38,(33,29)))),22)),((32,(44,39)),(27,(21,((19,30),(41,18)))))),17); 
+ENDBLOCK;

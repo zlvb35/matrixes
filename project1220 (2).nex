@@ -1,0 +1,702 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.50.54 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=5;
+    TAXLABELS
+    		'Mimosa serpensetosa'
+		'Mimosa setosa paludosa'
+		'Mimosa setosa urbana'
+		'Mimosa lithoreas'
+		'Mimosa chiliomera'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=61;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'xylopodium'
+		 [2] 'habit'
+		 [3] 'stem, disposition'
+		 [4] 'trichomes'
+		 [5] 'filiform setae, base, shape'
+		 [6] 'filiform setae, base, calcar'
+		 [7] 'prickles'
+		 [8] 'branch, prickles'
+		 [9] 'branch, trichomes'
+		 [10] 'branch, filiform setae orientation'
+		 [11] 'branch, glandular setae'
+		 [12] 'leaves, stipules, persitency'
+		 [13] 'leaves, stipules, abaxial face, trichomes'
+		 [14] 'leaves, stipules, abaxial face, filiform setae'
+		 [15] 'leaves, stipules, abaxial face, glandular setae'
+		 [16] 'leaves, stipules, margin, trichomes'
+		 [17] 'leaves, stipules, margin, glandular setae'
+		 [18] 'leaves, rachis, interpinnal projection'
+		 [19] 'leaves, rachis, lenght relative to the petiole'
+		 [20] 'leaves, rachis, prickles'
+		 [21] 'leaves, rachis, trichomes'
+		 [22] 'leaves, rachis, glandular setae'
+		 [23] 'leaves, basal rachilla, lenght relative to the medial rachilla'
+		 [24] 'leaves, rachilla, paraphyllidia'
+		 [25] 'leaves, rachilla, trichomes'
+		 [26] 'leaves, rachilla, glandular setae'
+		 [27] 'leaves, leaflets, margin, trichomes'
+		 [28] 'leaves, leaflets, margin, filiform setae'
+		 [29] 'leaves, leaflets, margin, glandular setae'
+		 [30] 'leaves, leaflets, abaxial surface, trichomes'
+		 [31] 'inflorescence, secondary arrangement'
+		 [32] 'inflorescence, peduncle lenght in relation to rachis lenght of fully expanded leaf'
+		 [33] 'inflorescence, masculine flowers at base'
+		 [34] 'floral bracts, shape'
+		 [35] 'floral bract, trichomes'
+		 [36] 'floral bract, filiform setae'
+		 [37] 'floral bract, glandular setae'
+		 [38] 'flower, calyx, lobes, plane projections'
+		 [39] 'flower, calyx, plane projections, location'
+		 [40] 'flower, calyx, pedicel, filiform setae'
+		 [41] 'flower, calyx, rim, trichomes'
+		 [42] 'flower, calyx, rim, filiform setae'
+		 [43] 'flower, calyx, rim, glandular setae'
+		 [44] 'flower, corolla, shape'
+		 [45] 'flower, corolla, lobes, trichomes'
+		 [46] 'flower, corolla, lobes, filiform setae'
+		 [47] 'flower, corolla, lobes, glandular setae'
+		 [48] 'flower, corolla, lobes, indument coverage'
+		 [49] 'flower, ovary, thrichomes'
+		 [50] 'flower, ovary, filiform setae'
+		 [51] 'flower, ovary, glandular setae'
+		 [52] 'fruit, valves, segmentation'
+		 [53] 'fruit, shape'
+		 [54] 'fruit, base shape'
+		 [55] 'fruit, apex shape'
+		 [56] 'fruit, valves, trichomes'
+		 [57] 'fruit, valves, filiform setae'
+		 [58] 'fruit, margin, trichomes'
+		 [59] 'fruit, margin, filiform setae'
+		 [60] 'fruit, margins, prickles'
+		 [61] 'fruit, indumentum, setae orientation'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'shrub'
+		'subshrub'
+		'treelet'
+		,
+		3
+		'erect'
+		'prostrate'
+		'deflexed'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'tapering'
+		'bulbous'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'straight (or slightly inclined)'
+		'patent (or slightly inclined)'
+		'antrorse'
+		'retrorse'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'patent'
+		'incurved'
+		'forwardly appressed'
+		'retrorse'
+		'antrorse (but not appressed)'
+		,
+		11
+		'absent'
+		'present'
+		'clavate'
+		'capitate'
+		,
+		12
+		'caducous'
+		'persistent'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		'spiculate'
+		'laminar'
+		'glandular'
+		,
+		19
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'frondose paniculate'
+		'bracteose paniculate'
+		,
+		32
+		'1:5 or less'
+		'1:2-1:3'
+		'ca. 1:1'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'spatulate-acuminate'
+		'eliptic-rhombic'
+		'spatulate-elliptic'
+		'narrowly spatulate-acuminate'
+		'lanceolate'
+		'broadly spatulate-acuminate'
+		'linear'
+		'spatulate-rhombic'
+		'spatulate'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		'State 2'
+		'ovate'
+		,
+		39
+		'troughout rim'
+		'present just in half or less of rim'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'infundibuliform'
+		'campanulate'
+		'narrowly infundibuliform'
+		,
+		45
+		'State 0'
+		'absent'
+		'State 1'
+		'present'
+		,
+		46
+		'State 0'
+		'absent'
+		'State 1'
+		'present'
+		,
+		47
+		'State 0'
+		'absent'
+		'State 1'
+		'present'
+		,
+		48
+		'do not conceals surface'
+		'conceals suface'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'integer'
+		'partially articulated'
+		'completely articulated'
+		,
+		53
+		'oblong'
+		'rounded'
+		'narrowly oblong'
+		,
+		54
+		'cuneate'
+		'rounded'
+		'obtuse'
+		'attenuate'
+		,
+		55
+		'acute'
+		'rounded'
+		'obtuse'
+		'apiculate'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'patent'
+		'incurved'
+		'forwardly appressed'
+		'retrose'
+		'antrorse (not appressed)'
+		
+	;
+	MATRIX
+	'Mimosa serpensetosa'		             ?0(1,2)1001(0,1)101(0,1)1001122(0,1)11011111(0,1)1110311110(0,1)00(0,1)011100111(0,2)(0,1)(1,2)101100
+	'Mimosa setosa paludosa'		          0(0,2)0100111010(0,1)(0,1)(0,1)11(0,2)211111111110??00(0,1)110-0(0,1)(0,1)(0,1)0011001122001111(0,1)0
+	'Mimosa setosa urbana'		            1111000-1000(0,1)(0,1)010(2,3)101(0,1)111(0,1)1100?0131111(0,1)00000111011120(1,2)11111-0
+	'Mimosa lithoreas'		                1110110--201010000(1,2)-001000000001?00100-(0,1)0111000-0(0,1)000010000-2
+	'Mimosa chiliomera'		               1011000-101?1111102-111111100(0,1)100111110000000101010????????-0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=2 CHARACTER=8 TEXT='1';
+	TEXT TAXON=1 CHARACTER=8 TEXT='1';
+	TEXT TAXON=3 CHARACTER=8 TEXT='1';
+	TEXT TAXON=4 CHARACTER=8 TEXT='1';
+	TEXT TAXON=5 CHARACTER=8 TEXT='1';
+	TEXT TAXON=2 CHARACTER=9 TEXT='1';
+	TEXT TAXON=1 CHARACTER=9 TEXT='1';
+	TEXT TAXON=3 CHARACTER=9 TEXT='1';
+	TEXT TAXON=4 CHARACTER=9 TEXT='1';
+	TEXT TAXON=5 CHARACTER=9 TEXT='1';
+	TEXT TAXON=2 CHARACTER=11 TEXT='1';
+	TEXT TAXON=1 CHARACTER=11 TEXT='1';
+	TEXT TAXON=3 CHARACTER=11 TEXT='1';
+	TEXT TAXON=4 CHARACTER=11 TEXT='1';
+	TEXT TAXON=5 CHARACTER=11 TEXT='1';
+	TEXT TAXON=2 CHARACTER=18 TEXT='1';
+	TEXT TAXON=1 CHARACTER=18 TEXT='1';
+	TEXT TAXON=3 CHARACTER=18 TEXT='1';
+	TEXT TAXON=4 CHARACTER=18 TEXT='1';
+	TEXT TAXON=5 CHARACTER=18 TEXT='1';
+	TEXT TAXON=2 CHARACTER=19 TEXT='1';
+	TEXT TAXON=1 CHARACTER=19 TEXT='1';
+	TEXT TAXON=3 CHARACTER=19 TEXT='1';
+	TEXT TAXON=4 CHARACTER=19 TEXT='1';
+	TEXT TAXON=5 CHARACTER=19 TEXT='1';
+	TEXT TAXON=2 CHARACTER=20 TEXT='1';
+	TEXT TAXON=1 CHARACTER=20 TEXT='1';
+	TEXT TAXON=3 CHARACTER=20 TEXT='1';
+	TEXT TAXON=4 CHARACTER=20 TEXT='1';
+	TEXT TAXON=5 CHARACTER=20 TEXT='1';
+	TEXT TAXON=2 CHARACTER=34 TEXT='1';
+	TEXT TAXON=1 CHARACTER=34 TEXT='1';
+	TEXT TAXON=3 CHARACTER=34 TEXT='1';
+	TEXT TAXON=4 CHARACTER=34 TEXT='1';
+	TEXT TAXON=5 CHARACTER=34 TEXT='1';
+	TEXT TAXON=2 CHARACTER=45 TEXT='1';
+	TEXT TAXON=1 CHARACTER=45 TEXT='1';
+	TEXT TAXON=3 CHARACTER=45 TEXT='1';
+	TEXT TAXON=4 CHARACTER=45 TEXT='1';
+	TEXT TAXON=5 CHARACTER=45 TEXT='1';
+	TEXT TAXON=2 CHARACTER=46 TEXT='1';
+	TEXT TAXON=1 CHARACTER=46 TEXT='1';
+	TEXT TAXON=3 CHARACTER=46 TEXT='1';
+	TEXT TAXON=4 CHARACTER=46 TEXT='1';
+	TEXT TAXON=5 CHARACTER=46 TEXT='1';
+	TEXT TAXON=2 CHARACTER=47 TEXT='1';
+	TEXT TAXON=1 CHARACTER=47 TEXT='1';
+	TEXT TAXON=3 CHARACTER=47 TEXT='1';
+	TEXT TAXON=4 CHARACTER=47 TEXT='1';
+	TEXT TAXON=5 CHARACTER=47 TEXT='1';
+	TEXT TAXON=2 CHARACTER=52 TEXT='1';
+	TEXT TAXON=1 CHARACTER=52 TEXT='1';
+	TEXT TAXON=3 CHARACTER=52 TEXT='1';
+	TEXT TAXON=4 CHARACTER=52 TEXT='1';
+	TEXT TAXON=5 CHARACTER=52 TEXT='1';
+	TEXT TAXON=2 CHARACTER=56 TEXT='1';
+	TEXT TAXON=1 CHARACTER=56 TEXT='1';
+	TEXT TAXON=3 CHARACTER=56 TEXT='1';
+	TEXT TAXON=4 CHARACTER=56 TEXT='1';
+	TEXT TAXON=5 CHARACTER=56 TEXT='1';
+	TEXT TAXON=2 CHARACTER=57 TEXT='1';
+	TEXT TAXON=1 CHARACTER=57 TEXT='1';
+	TEXT TAXON=3 CHARACTER=57 TEXT='1';
+	TEXT TAXON=4 CHARACTER=57 TEXT='1';
+	TEXT TAXON=5 CHARACTER=57 TEXT='1';
+	TEXT TAXON=2 CHARACTER=58 TEXT='1';
+	TEXT TAXON=1 CHARACTER=58 TEXT='1';
+	TEXT TAXON=3 CHARACTER=58 TEXT='1';
+	TEXT TAXON=4 CHARACTER=58 TEXT='1';
+	TEXT TAXON=5 CHARACTER=58 TEXT='1';
+	TEXT TAXON=2 CHARACTER=59 TEXT='1';
+	TEXT TAXON=1 CHARACTER=59 TEXT='1';
+	TEXT TAXON=3 CHARACTER=59 TEXT='1';
+	TEXT TAXON=4 CHARACTER=59 TEXT='1';
+	TEXT TAXON=5 CHARACTER=59 TEXT='1';
+	TEXT TAXON=2 CHARACTER=1 TEXT='1';
+	TEXT TAXON=1 CHARACTER=1 TEXT='1';
+	TEXT TAXON=3 CHARACTER=1 TEXT='1';
+	TEXT TAXON=4 CHARACTER=1 TEXT='1';
+	TEXT TAXON=5 CHARACTER=1 TEXT='1';
+	TEXT TAXON=2 CHARACTER=2 TEXT='1';
+	TEXT TAXON=1 CHARACTER=2 TEXT='1';
+	TEXT TAXON=3 CHARACTER=2 TEXT='1';
+	TEXT TAXON=4 CHARACTER=2 TEXT='1';
+	TEXT TAXON=5 CHARACTER=2 TEXT='1';
+	TEXT TAXON=2 CHARACTER=3 TEXT='1';
+	TEXT TAXON=1 CHARACTER=3 TEXT='1';
+	TEXT TAXON=3 CHARACTER=3 TEXT='1';
+	TEXT TAXON=4 CHARACTER=3 TEXT='1';
+	TEXT TAXON=5 CHARACTER=3 TEXT='1';
+	TEXT TAXON=2 CHARACTER=4 TEXT='1';
+	TEXT TAXON=1 CHARACTER=4 TEXT='1';
+	TEXT TAXON=3 CHARACTER=4 TEXT='1';
+	TEXT TAXON=4 CHARACTER=4 TEXT='1';
+	TEXT TAXON=5 CHARACTER=4 TEXT='1';
+	TEXT TAXON=2 CHARACTER=5 TEXT='1';
+	TEXT TAXON=1 CHARACTER=5 TEXT='1';
+	TEXT TAXON=3 CHARACTER=5 TEXT='1';
+	TEXT TAXON=4 CHARACTER=5 TEXT='1';
+	TEXT TAXON=5 CHARACTER=5 TEXT='1';
+	TEXT TAXON=2 CHARACTER=6 TEXT='1';
+	TEXT TAXON=1 CHARACTER=6 TEXT='1';
+	TEXT TAXON=3 CHARACTER=6 TEXT='1';
+	TEXT TAXON=4 CHARACTER=6 TEXT='1';
+	TEXT TAXON=5 CHARACTER=6 TEXT='1';
+	TEXT TAXON=2 CHARACTER=7 TEXT='1';
+	TEXT TAXON=1 CHARACTER=7 TEXT='1';
+	TEXT TAXON=3 CHARACTER=7 TEXT='1';
+	TEXT TAXON=4 CHARACTER=7 TEXT='1';
+	TEXT TAXON=5 CHARACTER=7 TEXT='1';
+	TEXT TAXON=2 CHARACTER=10 TEXT='1';
+	TEXT TAXON=1 CHARACTER=10 TEXT='1';
+	TEXT TAXON=3 CHARACTER=10 TEXT='1';
+	TEXT TAXON=4 CHARACTER=10 TEXT='1';
+	TEXT TAXON=5 CHARACTER=10 TEXT='1';
+	TEXT TAXON=2 CHARACTER=12 TEXT='1';
+	TEXT TAXON=1 CHARACTER=12 TEXT='1';
+	TEXT TAXON=3 CHARACTER=12 TEXT='1';
+	TEXT TAXON=4 CHARACTER=12 TEXT='1';
+	TEXT TAXON=5 CHARACTER=12 TEXT='1';
+	TEXT TAXON=2 CHARACTER=13 TEXT='1';
+	TEXT TAXON=1 CHARACTER=13 TEXT='1';
+	TEXT TAXON=3 CHARACTER=13 TEXT='1';
+	TEXT TAXON=4 CHARACTER=13 TEXT='1';
+	TEXT TAXON=5 CHARACTER=13 TEXT='1';
+	TEXT TAXON=2 CHARACTER=14 TEXT='1';
+	TEXT TAXON=1 CHARACTER=14 TEXT='1';
+	TEXT TAXON=3 CHARACTER=14 TEXT='1';
+	TEXT TAXON=4 CHARACTER=14 TEXT='1';
+	TEXT TAXON=5 CHARACTER=14 TEXT='1';
+	TEXT TAXON=2 CHARACTER=15 TEXT='1';
+	TEXT TAXON=1 CHARACTER=15 TEXT='1';
+	TEXT TAXON=3 CHARACTER=15 TEXT='1';
+	TEXT TAXON=4 CHARACTER=15 TEXT='1';
+	TEXT TAXON=5 CHARACTER=15 TEXT='1';
+	TEXT TAXON=2 CHARACTER=16 TEXT='1';
+	TEXT TAXON=1 CHARACTER=16 TEXT='1';
+	TEXT TAXON=3 CHARACTER=16 TEXT='1';
+	TEXT TAXON=4 CHARACTER=16 TEXT='1';
+	TEXT TAXON=5 CHARACTER=16 TEXT='1';
+	TEXT TAXON=2 CHARACTER=17 TEXT='1';
+	TEXT TAXON=1 CHARACTER=17 TEXT='1';
+	TEXT TAXON=3 CHARACTER=17 TEXT='1';
+	TEXT TAXON=4 CHARACTER=17 TEXT='1';
+	TEXT TAXON=5 CHARACTER=17 TEXT='1';
+	TEXT TAXON=2 CHARACTER=21 TEXT='1';
+	TEXT TAXON=1 CHARACTER=21 TEXT='1';
+	TEXT TAXON=3 CHARACTER=21 TEXT='1';
+	TEXT TAXON=4 CHARACTER=21 TEXT='1';
+	TEXT TAXON=5 CHARACTER=21 TEXT='1';
+	TEXT TAXON=2 CHARACTER=22 TEXT='1';
+	TEXT TAXON=1 CHARACTER=22 TEXT='1';
+	TEXT TAXON=3 CHARACTER=22 TEXT='1';
+	TEXT TAXON=4 CHARACTER=22 TEXT='1';
+	TEXT TAXON=5 CHARACTER=22 TEXT='1';
+	TEXT TAXON=2 CHARACTER=23 TEXT='1';
+	TEXT TAXON=1 CHARACTER=23 TEXT='1';
+	TEXT TAXON=3 CHARACTER=23 TEXT='1';
+	TEXT TAXON=4 CHARACTER=23 TEXT='1';
+	TEXT TAXON=5 CHARACTER=23 TEXT='1';
+	TEXT TAXON=2 CHARACTER=24 TEXT='1';
+	TEXT TAXON=1 CHARACTER=24 TEXT='1';
+	TEXT TAXON=3 CHARACTER=24 TEXT='1';
+	TEXT TAXON=4 CHARACTER=24 TEXT='1';
+	TEXT TAXON=5 CHARACTER=24 TEXT='1';
+	TEXT TAXON=2 CHARACTER=25 TEXT='1';
+	TEXT TAXON=1 CHARACTER=25 TEXT='1';
+	TEXT TAXON=3 CHARACTER=25 TEXT='1';
+	TEXT TAXON=4 CHARACTER=25 TEXT='1';
+	TEXT TAXON=5 CHARACTER=25 TEXT='1';
+	TEXT TAXON=2 CHARACTER=26 TEXT='1';
+	TEXT TAXON=1 CHARACTER=26 TEXT='1';
+	TEXT TAXON=3 CHARACTER=26 TEXT='1';
+	TEXT TAXON=4 CHARACTER=26 TEXT='1';
+	TEXT TAXON=5 CHARACTER=26 TEXT='1';
+	TEXT TAXON=2 CHARACTER=27 TEXT='1';
+	TEXT TAXON=1 CHARACTER=27 TEXT='1';
+	TEXT TAXON=3 CHARACTER=27 TEXT='1';
+	TEXT TAXON=4 CHARACTER=27 TEXT='1';
+	TEXT TAXON=5 CHARACTER=27 TEXT='1';
+	TEXT TAXON=2 CHARACTER=28 TEXT='1';
+	TEXT TAXON=1 CHARACTER=28 TEXT='1';
+	TEXT TAXON=3 CHARACTER=28 TEXT='1';
+	TEXT TAXON=4 CHARACTER=28 TEXT='1';
+	TEXT TAXON=5 CHARACTER=28 TEXT='1';
+	TEXT TAXON=2 CHARACTER=29 TEXT='1';
+	TEXT TAXON=1 CHARACTER=29 TEXT='1';
+	TEXT TAXON=3 CHARACTER=29 TEXT='1';
+	TEXT TAXON=4 CHARACTER=29 TEXT='1';
+	TEXT TAXON=5 CHARACTER=29 TEXT='1';
+	TEXT TAXON=2 CHARACTER=30 TEXT='1';
+	TEXT TAXON=1 CHARACTER=30 TEXT='1';
+	TEXT TAXON=3 CHARACTER=30 TEXT='1';
+	TEXT TAXON=4 CHARACTER=30 TEXT='1';
+	TEXT TAXON=5 CHARACTER=30 TEXT='1';
+	TEXT TAXON=2 CHARACTER=31 TEXT='1';
+	TEXT TAXON=1 CHARACTER=31 TEXT='1';
+	TEXT TAXON=3 CHARACTER=31 TEXT='1';
+	TEXT TAXON=4 CHARACTER=31 TEXT='1';
+	TEXT TAXON=5 CHARACTER=31 TEXT='1';
+	TEXT TAXON=2 CHARACTER=32 TEXT='1';
+	TEXT TAXON=1 CHARACTER=32 TEXT='1';
+	TEXT TAXON=3 CHARACTER=32 TEXT='1';
+	TEXT TAXON=4 CHARACTER=32 TEXT='1';
+	TEXT TAXON=5 CHARACTER=32 TEXT='1';
+	TEXT TAXON=2 CHARACTER=33 TEXT='1';
+	TEXT TAXON=1 CHARACTER=33 TEXT='1';
+	TEXT TAXON=3 CHARACTER=33 TEXT='1';
+	TEXT TAXON=4 CHARACTER=33 TEXT='1';
+	TEXT TAXON=5 CHARACTER=33 TEXT='1';
+	TEXT TAXON=2 CHARACTER=35 TEXT='1';
+	TEXT TAXON=1 CHARACTER=35 TEXT='1';
+	TEXT TAXON=3 CHARACTER=35 TEXT='1';
+	TEXT TAXON=4 CHARACTER=35 TEXT='1';
+	TEXT TAXON=5 CHARACTER=35 TEXT='1';
+	TEXT TAXON=2 CHARACTER=36 TEXT='1';
+	TEXT TAXON=1 CHARACTER=36 TEXT='1';
+	TEXT TAXON=3 CHARACTER=36 TEXT='1';
+	TEXT TAXON=4 CHARACTER=36 TEXT='1';
+	TEXT TAXON=5 CHARACTER=36 TEXT='1';
+	TEXT TAXON=2 CHARACTER=37 TEXT='1';
+	TEXT TAXON=1 CHARACTER=37 TEXT='1';
+	TEXT TAXON=3 CHARACTER=37 TEXT='1';
+	TEXT TAXON=4 CHARACTER=37 TEXT='1';
+	TEXT TAXON=5 CHARACTER=37 TEXT='1';
+	TEXT TAXON=2 CHARACTER=38 TEXT='1';
+	TEXT TAXON=1 CHARACTER=38 TEXT='1';
+	TEXT TAXON=3 CHARACTER=38 TEXT='1';
+	TEXT TAXON=4 CHARACTER=38 TEXT='1';
+	TEXT TAXON=5 CHARACTER=38 TEXT='1';
+	TEXT TAXON=2 CHARACTER=39 TEXT='1';
+	TEXT TAXON=1 CHARACTER=39 TEXT='1';
+	TEXT TAXON=3 CHARACTER=39 TEXT='1';
+	TEXT TAXON=4 CHARACTER=39 TEXT='1';
+	TEXT TAXON=5 CHARACTER=39 TEXT='1';
+	TEXT TAXON=2 CHARACTER=40 TEXT='1';
+	TEXT TAXON=1 CHARACTER=40 TEXT='1';
+	TEXT TAXON=3 CHARACTER=40 TEXT='1';
+	TEXT TAXON=4 CHARACTER=40 TEXT='1';
+	TEXT TAXON=5 CHARACTER=40 TEXT='1';
+	TEXT TAXON=2 CHARACTER=41 TEXT='1';
+	TEXT TAXON=1 CHARACTER=41 TEXT='1';
+	TEXT TAXON=3 CHARACTER=41 TEXT='1';
+	TEXT TAXON=4 CHARACTER=41 TEXT='1';
+	TEXT TAXON=5 CHARACTER=41 TEXT='1';
+	TEXT TAXON=2 CHARACTER=42 TEXT='1';
+	TEXT TAXON=1 CHARACTER=42 TEXT='1';
+	TEXT TAXON=3 CHARACTER=42 TEXT='1';
+	TEXT TAXON=4 CHARACTER=42 TEXT='1';
+	TEXT TAXON=5 CHARACTER=42 TEXT='1';
+	TEXT TAXON=2 CHARACTER=43 TEXT='1';
+	TEXT TAXON=1 CHARACTER=43 TEXT='1';
+	TEXT TAXON=3 CHARACTER=43 TEXT='1';
+	TEXT TAXON=4 CHARACTER=43 TEXT='1';
+	TEXT TAXON=5 CHARACTER=43 TEXT='1';
+	TEXT TAXON=2 CHARACTER=44 TEXT='1';
+	TEXT TAXON=1 CHARACTER=44 TEXT='1';
+	TEXT TAXON=3 CHARACTER=44 TEXT='1';
+	TEXT TAXON=4 CHARACTER=44 TEXT='1';
+	TEXT TAXON=5 CHARACTER=44 TEXT='1';
+	TEXT TAXON=2 CHARACTER=48 TEXT='1';
+	TEXT TAXON=1 CHARACTER=48 TEXT='1';
+	TEXT TAXON=3 CHARACTER=48 TEXT='1';
+	TEXT TAXON=4 CHARACTER=48 TEXT='1';
+	TEXT TAXON=5 CHARACTER=48 TEXT='1';
+	TEXT TAXON=2 CHARACTER=49 TEXT='1';
+	TEXT TAXON=1 CHARACTER=49 TEXT='1';
+	TEXT TAXON=3 CHARACTER=49 TEXT='1';
+	TEXT TAXON=4 CHARACTER=49 TEXT='1';
+	TEXT TAXON=5 CHARACTER=49 TEXT='1';
+	TEXT TAXON=2 CHARACTER=50 TEXT='1';
+	TEXT TAXON=1 CHARACTER=50 TEXT='1';
+	TEXT TAXON=3 CHARACTER=50 TEXT='1';
+	TEXT TAXON=4 CHARACTER=50 TEXT='1';
+	TEXT TAXON=5 CHARACTER=50 TEXT='1';
+	TEXT TAXON=2 CHARACTER=51 TEXT='1';
+	TEXT TAXON=1 CHARACTER=51 TEXT='1';
+	TEXT TAXON=3 CHARACTER=51 TEXT='1';
+	TEXT TAXON=4 CHARACTER=51 TEXT='1';
+	TEXT TAXON=5 CHARACTER=51 TEXT='1';
+	TEXT TAXON=2 CHARACTER=53 TEXT='1';
+	TEXT TAXON=1 CHARACTER=53 TEXT='1';
+	TEXT TAXON=3 CHARACTER=53 TEXT='1';
+	TEXT TAXON=4 CHARACTER=53 TEXT='1';
+	TEXT TAXON=5 CHARACTER=53 TEXT='1';
+	TEXT TAXON=2 CHARACTER=54 TEXT='1';
+	TEXT TAXON=1 CHARACTER=54 TEXT='1';
+	TEXT TAXON=3 CHARACTER=54 TEXT='1';
+	TEXT TAXON=4 CHARACTER=54 TEXT='1';
+	TEXT TAXON=5 CHARACTER=54 TEXT='1';
+	TEXT TAXON=2 CHARACTER=55 TEXT='1';
+	TEXT TAXON=1 CHARACTER=55 TEXT='1';
+	TEXT TAXON=3 CHARACTER=55 TEXT='1';
+	TEXT TAXON=4 CHARACTER=55 TEXT='1';
+	TEXT TAXON=5 CHARACTER=55 TEXT='1';
+	TEXT TAXON=2 CHARACTER=60 TEXT='1';
+	TEXT TAXON=1 CHARACTER=60 TEXT='1';
+	TEXT TAXON=3 CHARACTER=60 TEXT='1';
+	TEXT TAXON=4 CHARACTER=60 TEXT='1';
+	TEXT TAXON=5 CHARACTER=60 TEXT='1';
+	TEXT TAXON=2 CHARACTER=61 TEXT='1';
+	TEXT TAXON=1 CHARACTER=61 TEXT='1';
+	TEXT TAXON=3 CHARACTER=61 TEXT='1';
+	TEXT TAXON=4 CHARACTER=61 TEXT='1';
+	TEXT TAXON=5 CHARACTER=61 TEXT='1';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 61;
+      ENDBLOCK;
+      BEGIN LABELS;
+ CHARGROUPLABEL Branch COLOR = (RGB 1.0 0.85490196 0.26666667) ; CHARGROUPLABEL 'Leaves, stipules' COLOR = (RGB 0.88627451 1.0 0.43529412) ; CHARGROUPLABEL Leaves COLOR = (RGB 0.78039216 1.0 0.63529412) ; CHARGROUPLABEL 'Leaves, petiole' COLOR = (RGB 0.61960784 1.0 0.36862745) ; CHARGROUPLABEL 'Leaves, rachis' COLOR = (RGB 0.46666667 1.0 0.33333333) ; CHARGROUPLABEL 'Leaves, rachilla' COLOR = (RGB 0.45882353 1.0 0.10196078) ; CHARGROUPLABEL 'Leaves, leaflets' COLOR = (RGB 0.03529412 1.0 0.03529412) ; CHARGROUPLABEL Inflorescence COLOR = (RGB 0.65490196 0.56862745 1.0) ; CHARGROUPLABEL Flower COLOR = (RGB 0.89411765 0.46666667 1.0) ; CHARGROUPLABEL Fruit COLOR = (RGB 0.6 0.76078431 1.0) ; CHARGROUPLABEL Root COLOR = (RGB 1.0 0.33333333 0.33333333) ; CHARGROUPLABEL Indumentum COLOR = (RGB 1.0 0.73333333 0.66666667) ; CHARGROUPLABEL Habit COLOR = (RGB 1.0 0.6 0.6) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1396559472476; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7721618128367441491; tell It; setDefaultOrder 21 3 83 27 9; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4389840515968735988; tell It; setDefaultOrder 1 0 2 10 23 7 14 20 17 19 30 32 106 117 118 33 37 166 41 42 48 50 57 160 51 52 164 167 168 157 67 68 70 79 73 74 75 93 80 81 83 84 89 163 167 168 169 92 95 96 97 168 104 105 106 114 114 116 117 114 110; attachments ; endTell; mqVersion 275; checksumv 0 3 924131733 null getNumChars 61 numChars 61 getNumTaxa 5 numTaxa 5 short true bits 2305843009213693967 states 15 sumSquaresStatesOnly 1457.0 sumSquares -1.2912720851596686E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false true 204; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 720; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #7721618128367441491 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #7721618128367441491; getWindow; tell It; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4389840515968735988 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 210; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 196; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Yellow; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 453; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.Wand.Wand; tell It; toggleWholeMatrix off; toggleSingleCharacter on; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4389840515968735988 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; getTable; tell It; columnWidth 2 124; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 653; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; newAssistant #mesquite.basic.TextWindowMaker.TextWindowMaker; tell It; setText ; getWindow; tell It; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1276 703; setLocation -2 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; hideWindow; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 61; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARPARTITION * UNTITLED = Root : 1, Habit : 2 - 3, Indumentum : 4 - 7, Branch : 8 - 11, 'Leaves, stipules' : 12 - 17, 'Leaves, rachis' : 18 - 22, 'Leaves, rachilla' : 23 - 26, 'Leaves, leaflets' : 27 - 30, Inflorescence : 31 - 37, Flower : 38 - 51, Fruit : 52 - 61; 
+ENDBLOCK;

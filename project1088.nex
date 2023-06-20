@@ -1,0 +1,283 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.21.36 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+    		'Genetta sp.'
+		'Herpestides antiquus'
+		'Protoviverrops gervaisi/intermedium'
+		'Mesoviverrops sp.'
+		'Plioviverrops orbignyi'
+		'Gansuyaena guerini/megalotis'
+		'Proteles cristatus'
+		'Tungurictis spocki'
+		'Hyaena hyaena'
+		'Protictitherium crassum'
+		'Ictitherium viverrinum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=44;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'CRAN: Rostrum-basicranium length ratio'
+		 [2] 'CRAN: Shape of anterior palate'
+		 [3] 'CRAN: Postorbital process size'
+		 [4] 'CRAN: Rostral expansion of frontal sinus'
+		 [5] 'CRAN: Caudally elongated frontal sinus'
+		 [6] 'CRAN: Postorbital constriction'
+		 [7] 'CRAN: Infraorbital foramen size'
+		 [8] 'BASICRAN: Hypertrophic bullae'
+		 [9] 'BASICRAN: Ectotympanic size'
+		 [10] 'BASICRAN: Cristatympanic size'
+		 [11] 'BASICRAN: Auditory meatus size'
+		 [12] 'BASICRAN: Vertical septum in bulla'
+		 [13] 'BASICRAN: Auditory meatus tube'
+		 [14] 'BASICRAN: Ventral ectotypmanic'
+		 [15] 'BASICRAN: Mastoid process size'
+		 [16] 'BASICRAN: Paroccipital process size'
+		 [17] 'BASICRAN: Paroccipital process shape'
+		 [18] 'BASICRAN: Basioccipital at occipital condyles'
+		 [19] 'BASICRAN: Septum of bulla composition'
+		 [20] 'DENT: Diastema in cheek dentition'
+		 [21] 'DENT: Cheek dentition crown height'
+		 [22] 'DENT: P3/ protocone'
+		 [23] 'DENT: P4/ parastyle'
+		 [24] 'DENT: p/4 crown height'
+		 [25] 'DENT: p/4 protocone width'
+		 [26] 'DENT: p/4 metastyle size'
+		 [27] 'DENT: M1/ basal cingulum'
+		 [28] 'DENT: M1/ conules'
+		 [29] 'DENT: P4/ protocone position'
+		 [30] 'DENT: P4/, P/4, M/1 interlocked'
+		 [31] 'DENT: M/1 trigonid open - paraconid large'
+		 [32] 'DENT: Root of M/1 trigonid reduced, talonid root large'
+		 [33] 'DENT: M/1 paraconid size'
+		 [34] 'DENT: M/1 entoconid large & tall, talonid notch deep'
+		 [35] 'DENT: M/1 hypoconid size'
+		 [36] 'DENT: P/4 posterior cingulum and accessory cusp'
+		 [37] 'DENT: M/1 anterolabial basal cingulum'
+		 [38] 'DENT: M/1 carnassial notch'
+		 [39] 'POSTCRAN: digitigrady'
+		 [40] 'POSTCRAN: Entepicondylar foramen'
+		 [41] 'POSTCRAN: supertrochlear foramen'
+		 [42] 'POSTCRAN: tibia proportion'
+		 [43] 'POSTCRAN: calcaneum ectal(?) facet'
+		 [44] 'POSTCRAN: Caudals'
+	;
+	STATELABELS
+		1
+		'0: rostrum < basicranium'
+		'1: rostrum > basicranium'
+		,
+		2
+		'0: narrow'
+		'1: broad'
+		,
+		3
+		'0: small'
+		'1: large'
+		,
+		4
+		'0: absent'
+		'1: present'
+		,
+		5
+		'0: absent'
+		'1: present'
+		,
+		6
+		'0: not expanded'
+		'1: expanded'
+		,
+		7
+		'0: unreduced'
+		'1: reduced'
+		,
+		8
+		'0: absent'
+		'1: present'
+		,
+		9
+		'0: not enlarged'
+		'1: large'
+		,
+		10
+		'0: not enlarged'
+		'1: enlarged'
+		,
+		11
+		'0: not enlarged'
+		'1: large'
+		,
+		12
+		'0: absent'
+		'1: present'
+		,
+		13
+		'0: absent'
+		'1: present'
+		,
+		14
+		'0: unreduced'
+		'1: reduced'
+		,
+		15
+		'0: unreduced'
+		'1: small'
+		,
+		16
+		'0: unreduced'
+		'1: small'
+		,
+		17
+		'0: not cupped'
+		'1: cupped'
+		,
+		18
+		'0: angular, V shaped'
+		'1: U shaped'
+		,
+		19
+		'0: unilaminar'
+		'1: bilaminar'
+		,
+		20
+		'0: absent'
+		'1: present'
+		,
+		21
+		'0: high crowned'
+		'1: low crowned'
+		,
+		22
+		'0: present'
+		'1: absent'
+		,
+		23
+		'0: without notch'
+		'1: large with notch'
+		,
+		24
+		'0: high'
+		'1: low'
+		,
+		25
+		'0: unreduced'
+		'1: reduced'
+		,
+		26
+		'0: not enlarged'
+		'1: large'
+		,
+		27
+		'0: absent'
+		'1: present'
+		,
+		28
+		'0: present'
+		'1: absent'
+		,
+		29
+		'0: not anterior'
+		'1: anterior position'
+		,
+		30
+		'0: absent'
+		'1: present'
+		,
+		31
+		'0: absent'
+		'1: present'
+		,
+		32
+		'0: absent'
+		'1: present'
+		,
+		33
+		'0: not larger than protoconid'
+		'1: larger than protoconid'
+		,
+		34
+		'0: absent'
+		'1: present'
+		,
+		35
+		'0: not enlarged'
+		'1: large'
+		,
+		36
+		'0: absent'
+		'1: present'
+		,
+		37
+		'0: absent'
+		'1: present'
+		,
+		38
+		'0: deep'
+		'1: shallow'
+		,
+		39
+		'0: absent'
+		'1: present'
+		,
+		40
+		'0: absent'
+		'1: present'
+		,
+		41
+		'0: absent'
+		'1: present'
+		,
+		42
+		'0: long'
+		'1: short'
+		,
+		43
+		'0: absent'
+		'1: present'
+		,
+		44
+		'0: unreduced'
+		'1: reduced'
+		
+	;
+	MATRIX
+	'Genetta sp.'		                                  000000000010001101101001000100000010001100?0
+	'Herpestides antiquus'		                         00-000?00-1000110110011101101110111110?10???
+	'Protoviverrops gervaisi/intermedium'		          ???????????????????0??(0,1)1(0,1)(0,1)??(0,1)(0,1)10110111?11?0?
+	'Mesoviverrops sp.'		                            ????????????????????1?110-111(0,1)11110?11??????
+	'Plioviverrops orbignyi'		                       1-1101?11?10011101?01111011111111101111010??
+	'Gansuyaena guerini/megalotis'		                 111101111110011101?1111111011111110111??????
+	'Proteles cristatus'		                           1111011110(0,1)1111111?11101100100-?---0--101011
+	'Tungurictis spocki'		                           10--0010101001?101?00110010111101111111???1?
+	'Hyaena hyaena'		                                10--11101000110000?0011001011110111111101111
+	'Protictitherium crassum'		                      ?0--???????0???????0011001011110110111??????
+	'Ictitherium viverrinum'		                       10--1-101?00011100?00110011111101101111010??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Relative length of rostrum (incisor to last cheek tooth position) and rest of skull ("basicranium")^n*Need to verify measurements are made on original cranial bones, not added';
+	TEXT CHARACTER=21 TEXT='Low crown associated with mesocarnivory and insectivory';
+	TEXT CHARACTER=24 TEXT='Duplicated with character 21?';
+	TEXT CHARACTER=31 TEXT='Split into two characters?';
+	TEXT CHARACTER=34 TEXT='Split into 2 characters?';
+	TEXT CHARACTER=36 TEXT='split into two characters?';
+	TEXT CHARACTER=40 TEXT='On which element (humerus)?';
+	TEXT CHARACTER=41 TEXT='On which element (humerus)?';
+	TEXT CHARACTER=42 TEXT='Relative to femur?';
+	TEXT CHARACTER=44 TEXT='Vertebrae?';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 44;
+      ENDBLOCK;
+      

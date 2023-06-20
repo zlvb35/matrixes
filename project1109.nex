@@ -1,0 +1,388 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.59.39 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+    		'Mesosuchus browni'
+		'Howesia browni'
+		'Rhynchosaurus spp.'
+		'Stenaulorhynchus stockleyi'
+		'Mariante rhynchosaur'
+		'Bentonyx sidensis (BRSUG- 27200)'
+		'Isalorhynchus genovefae'
+		'T sulcognathus'
+		'Hyperodapedon spp.'
+		'Fodonyx spenceri (EXEMS-60-1985.292)'
+		'Hyperodapedontidae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Skull dimensions'
+		 [2] 'Skull height'
+		 [3] 'Orbit orientation'
+		 [4] 'Orbital medial margin'
+		 [5] 'Jugal and maxillary heights bellow the orbit ventral margin'
+		 [6] 'Jugal-lacrimal contact'
+		 [7] 'Jugal lateral surface'
+		 [8] 'Jugal surface dorsal to anguli oris crest'
+		 [9] 'Lateral overlap of maxilla by jugal'
+		 [10] 'Jugal subtemporal process'
+		 [11] 'Relative widths of postorbital bar and lower temporal fenestra'
+		 [12] 'Dorsomedial surface of prefrontal near the orbital rim'
+		 [13] 'Procumbent lacrimal and prefrontal anterolateral margin'
+		 [14] 'Dorsal groove on frontal'
+		 [15] 'Well-marked Â‘VÂ’-shaped crest along frontal-postfrontal contact'
+		 [16] 'Frontal and parietalmidline lengths'
+		 [17] 'Postfrontal'
+		 [18] 'Postfrontal dorsal surface'
+		 [19] 'Postorbital anteroventral process'
+		 [20] 'Postorbital ventral process'
+		 [21] 'Postorbital-parietal suture'
+		 [22] 'Parietal body'
+		 [23] 'Parietal transverse process'
+		 [24] 'Distal tip of parietal transverse process'
+		 [25] 'Squamosal ventral process'
+		 [26] 'Relative position of quadratojugal and squamosal processes'
+		 [27] 'Supratemporal'
+		 [28] 'Ventral margin of opisthotic paroccipital process'
+		 [29] 'Pterygoid midline suture length'
+		 [30] 'Elements forming the border of the suborbital fenestra'
+		 [31] 'Occipital condyle position'
+		 [32] 'Basioccipital and basisphenoid/parasphenoid lengths'
+		 [33] 'Relative positions of the basipterygoid process of the basisphenoid and the ectopterygoid process of the pterygoid'
+		 [34] 'Basipterygoid process dimensions (dorsoventral length'
+		 [35] 'Mandible depth'
+		 [36] 'Dentary length'
+		 [37] 'Medial maxillary groove'
+		 [38] 'Maxillary area lateral to main groove'
+		 [39] 'Maxillary cross-section lateral to main groove'
+		 [40] 'Tooth rows lateral to main maxillary groove'
+		 [41] 'Number of tooth rowsmedial tomainmaxillary groove'
+		 [42] 'Occlusal tooth rows on the anterior half of the maxilla'
+		 [43] 'Maxillary lingual teeth'
+		 [44] 'Maxillary teeth'
+		 [45] 'Dentary teeth'
+		 [46] 'Posterior-most dentary teeth'
+		 [47] 'Lingual dentary teeth'
+		 [48] 'Dentary teeth on the dentary lingual surface'
+		 [49] 'Truncal vertebrae with ossified intercentrum'
+		 [50] 'Epipophyses on cervical postzygapophyses'
+		 [51] 'Second sacral vertebra'
+		 [52] 'Caudal vertebrae neural spines'
+		 [53] 'Interclavicle'
+		 [54] 'Posterior process of the coracoid'
+		 [55] 'Dorsal margin of the ilium'
+		 [56] 'Pubic tubercle'
+		 [57] 'Internal trochanter'
+		 [58] 'Relative size of astragalar articular facets'
+		 [59] 'Metatarsal I'
+		 [60] 'Axis ventral keel'
+		 [61] 'Axial parapophisis'
+		 [62] 'Cervical postaxial vertebrae ventral keel'
+		 [63] 'Position of the transverse process of cranial truncal vertebrae'
+		 [64] 'Supinator process on the external surface of humeral ectoepicondyle'
+		 [65] 'Crest on anteromedial region of tibial shaft'
+	;
+	STATELABELS
+		1
+		'longer than broad'
+		'broader than long'
+		'broader than long  .'
+		,
+		2
+		'<50% of the midline length'
+		'>50% of the midline length'
+		,
+		3
+		'mostly lateral'
+		'mostly dorsal'
+		,
+		4
+		'rounded'
+		'forming a marked angle'
+		,
+		5
+		'maxilla higher'
+		'jugal higher'
+		,
+		6
+		'minimal'
+		'extensive contact of the jugal anterior process'
+		,
+		7
+		'anguli oris crest does not reach jugal anterior process'
+		'anguli oris crest reaches jugal anterior process'
+		,
+		8
+		'lacking a secondary crest'
+		'with a secondary anguli oris crest'
+		,
+		9
+		'absent or minimally expanded'
+		'well developed'
+		,
+		10
+		'height >50% of the length'
+		'height <50% of the length'
+		,
+		11
+		'<0.4'
+		'>0.4'
+		,
+		12
+		'flat or slightly concave'
+		'deeply concave'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'deeper posteriorly'
+		'same depth throughout its length'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'frontal longer'
+		'parietal longer'
+		,
+		17
+		'excluded from upper temporal fenestra border'
+		'forming the upper temporal fenestra border'
+		,
+		18
+		'flat'
+		'markedly concave'
+		,
+		19
+		'expanding ventral to the level of the orbital midpoint'
+		'expanding dorsally to orbital height midpoint'
+		,
+		20
+		'expands anterior to the jugal'
+		'fits dorsal to the jugal'
+		,
+		21
+		'visible in dorsal view'
+		'hidden in dorsal view'
+		,
+		22
+		'not expanded laterally at midlength'
+		'expanded laterally at midlength'
+		,
+		23
+		'posterolaterally directed'
+		'laterally directed'
+		,
+		24
+		'not anteriorly curved'
+		'anteriorly curved'
+		,
+		25
+		'thinner than 50% of dorsoventral length'
+		'broader than over 50% of dorsoventral length'
+		,
+		26
+		'squamosal ventral process anterior to quadratojugal dorsal process'
+		'squamosal ventral process overlapping the quadratojugal dorsal process'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'convex'
+		'straight'
+		,
+		29
+		'greater than or equal to the distance between the posterior margin of the suture and the basipterygoid articulation'
+		'less than the distance between the posterior margin of the suture and the basipterygoid articulation'
+		,
+		30
+		'ectopterygoid, palatine, and maxilla'
+		'ectopterygoid and palatine only'
+		,
+		31
+		'anterior to craniomandibular articulation'
+		'aligned to craniomandibular articulation'
+		,
+		32
+		'basisphenoid/parasphenoid longer'
+		'basioccipital longer'
+		,
+		33
+		'at the same level'
+		'basipterygoid process of the basisphenoid posterior to ectopterygoid process of the pterygoid'
+		,
+		34
+		'anteroposterior width): longer than wide'
+		'wider than long'
+		,
+		35
+		'<0.25 of the total length'
+		'>0.25 of the total length'
+		,
+		36
+		'half, or less, than the total mandibular length'
+		'greater than half of the total mandibular length'
+		,
+		37
+		'absent'
+		'present but not reaching the anterior half of the maxilla'
+		'State 2'
+		'present and reaching the anterior half of the maxilla'
+		,
+		38
+		'narrower than the medial area'
+		'same width or broader than themedial area'
+		,
+		39
+		'crest-shaped'
+		'cushion-shaped'
+		,
+		40
+		'a single clear row'
+		'more than one clear row'
+		,
+		41
+		'two rows and scattered teeth'
+		'three or more tooth rows'
+		,
+		42
+		'four or more tooth rows'
+		'fewer than four tooth rows'
+		,
+		43
+		'absent'
+		'scattered teeth'
+		'State 2'
+		'large number of teeth on the medial surface of the bone'
+		,
+		44
+		'only conicals'
+		'conicals and ?pyramidal?'
+		'conicals and Â‘pyramidalÂ’'
+		,
+		45
+		'only conicals'
+		'conical and anteroposteriorly compressed'
+		,
+		46
+		'on the anterior half of dentary'
+		'on the posterior half of dentary'
+		,
+		47
+		'absent'
+		'present and forming one row'
+		'State 2'
+		'present and forming more than one row'
+		,
+		48
+		'scattered'
+		'crowded'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'spine-shaped'
+		'crest-shaped'
+		,
+		51
+		'with a notch between the iliac articular surface and the posterior process'
+		'posterior process continuous to the iliac articular surface'
+		,
+		52
+		'height twice the length'
+		'height less than twice the length'
+		,
+		53
+		'posterior process longer than twice the lateral processes'
+		'posterior process shorter than twice the lateral process'
+		,
+		54
+		'present'
+		'absent'
+		,
+		55
+		'anterior process <15% of the length of the posterior process'
+		'anterior process >15% of the length of the posterior process'
+		,
+		56
+		'present'
+		'absent'
+		,
+		57
+		'continuous with the femoral head'
+		'separated from femoral head'
+		,
+		58
+		'tibial facet greater than centrale facet'
+		'centrale facet greater than tibial facet'
+		,
+		59
+		'longer than broad'
+		'broader than long'
+		,
+		60
+		'Present'
+		'absent'
+		,
+		61
+		'Present'
+		'absent'
+		,
+		62
+		'Absent'
+		'present'
+		,
+		63
+		'At the level of prezygapophisys'
+		'posteriorly located in the vertebra centrum'
+		,
+		64
+		'Absent'
+		'present and hook-shaped'
+		'State 2'
+		'present and formed by a low supinator ridge and ligament groove'
+		,
+		65
+		'Absent'
+		'present'
+		
+	;
+	MATRIX
+	'Mesosuchus browni'		                             000000-0-100000010000000000100000000------00000000000000000000000
+	'Howesia browni'		                                00000?-0-100010010000000??00100000??-----010000?0?00??010000??000
+	'Rhynchosaurus spp.'		                            0000000001000001000000000000?0000001000001100?20??00000??001101?1
+	'Stenaulorhynchus stockleyi'		                    000110000?0101110010010100001100000020001120002100010011001100011
+	'Mariante rhynchosaur'		                          0100100000010111110010110001000100??200011200?21???????????110???
+	'Bentonyx sidensis (BRSUG- 27200)'		              000111000?01001010001110??01110010????0???1???20?????????????????
+	'Isalorhynchus genovefae'		                       111?1111111010????00??1?11?0011100110110010111101011111111???1021
+	'T sulcognathus'		                                11111111101110011111111011100111011120011011112111???1??1??001121
+	'Hyperodapedon spp.'		                            111011101(0,1)1(0,1)11011011(0,1)110111(0,1)(0,1)111(0,1)111(0,1)(0,1)1110(0,1)111(0,1,2)011111110(0,1)111(0,1)1021
+	'Fodonyx spenceri (EXEMS-60-1985.292)'		          11??1?000???????????????00???1????01101001100021?????????????????
+	'Hyperodapedontidae'		                            ????????????????????????????????????????????????1?????????1???0??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=11 TEXT='EXEMS 79/1992';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 65;
+      ENDBLOCK;
+      

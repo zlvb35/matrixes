@@ -1,0 +1,722 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-10 02.53.12 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+    		'Nebalia bipes'
+		'Squilla oratoria'
+		'Melicertus kerathurus'
+		'Palaemonetes vulgaris'
+		'Anaspides tasmaniae'
+		'Euphausia superba'
+		'Tethysbaena argentarii'
+		'Lophogaster typicus'
+		'Eucopia unguiculata'
+		'Neognathophausia ingens'
+		'Boreomysis arctica'
+		'Neomysis integer'
+		'Orchestia cavimana'
+		'Hyalella azteca'
+		'Hyperia galba'
+		'Caprella mutica'
+		'Trogloleleupia leleupi'
+		'Spelaeogriphus lepidops'
+		'Mictocaris halope'
+		'Hemilamprops rosea'
+		'Diastylis rathkei'
+		'Leucon nasica'
+		'Tanais dulongii'
+		'Apseudes bermudeus'
+		'Neotanais sp.'
+		'Paramphisopus palustris'
+		'Porcellio scaber'
+		'Asellus aquaticus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=110;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'location T tubules'
+		 [2] 'couplings location'
+		 [3] 'presence M line'
+		 [4] 'anterior border heart'
+		 [5] 'posterior border heart'
+		 [6] 'attach heart dorsDia'
+		 [7] 'ostia pattern'
+		 [8] 'numbers of ostia pairs'
+		 [9] 'cardiac arteries pattern'
+		 [10] 'ALAs'
+		 [11] 'destination of ALAs'
+		 [12] 'destination cardiac arteries'
+		 [13] 'descending artery'
+		 [14] 'splitting descending artery'
+		 [15] 'type of ventral vessel'
+		 [16] 'posterior aorta'
+		 [17] 'aortic dilation and mobp'
+		 [18] 'aortic dilation and m103 104'
+		 [19] 'lateral stomach arteries'
+		 [20] 'optical arteries'
+		 [21] 'pericerebral ring'
+		 [22] 'podo pericardial sinuses'
+		 [23] 'free pleon segments'
+		 [24] 'size reduction of pleomeres'
+		 [25] 'pleurae overlapping'
+		 [26] 'pleon appendages'
+		 [27] 'carapace'
+		 [28] 'carapace shape'
+		 [29] 'carapace respiratory'
+		 [30] 'carapace adductor'
+		 [31] 'cephalothorax'
+		 [32] 'rostrum'
+		 [33] '1st antenna'
+		 [34] '2nd antenna'
+		 [35] 'mandible palp'
+		 [36] 'mandible base'
+		 [37] 'larval lacinia'
+		 [38] 'labrum'
+		 [39] '1st maxilla palp'
+		 [40] '2nd maxilla exopod'
+		 [41] '2nd maxilla palp'
+		 [42] 'thoracopods'
+		 [43] '1st maxilliped'
+		 [44] 'more maxillipeds'
+		 [45] '1st thoracopod exopod'
+		 [46] '1st thoracopod epipod'
+		 [47] 'number epipods'
+		 [48] 'epipodit position'
+		 [49] 'oostegites'
+		 [50] 'position oostegites'
+		 [51] 'oostegites reduced'
+		 [52] 'thoracopods exopod'
+		 [53] 'thorax coxa articulation'
+		 [54] 'coxa basis articulation'
+		 [55] 'intrabasal articulation'
+		 [56] 'coxal plates'
+		 [57] 'chelae 4to5'
+		 [58] 'chela 6'
+		 [59] 'pleopods'
+		 [60] 'appendices internae'
+		 [61] 'petasma'
+		 [62] 'last pleopods'
+		 [63] 'pleopod respiration'
+		 [64] 'telson form'
+		 [65] 'telson furca'
+		 [66] 'olfactory lobe'
+		 [67] 'compound eyes'
+		 [68] 'eye stalks'
+		 [69] 'optic neuropiles'
+		 [70] 'crystalline cone'
+		 [71] 'bipartite cones'
+		 [72] 'cone cell processes'
+		 [73] 'cone cell nuclei'
+		 [74] 'clear zone'
+		 [75] 'retinular cells'
+		 [76] 'nauplius eye'
+		 [77] 'dorsal frontal organ'
+		 [78] 'ventral frontal organ'
+		 [79] 'statocyst'
+		 [80] 'antennal gland'
+		 [81] 'maxillary gland'
+		 [82] 'pleon musculature'
+		 [83] 'escape reaction'
+		 [84] 'lateralia'
+		 [85] 'superomedianum'
+		 [86] 'inferomedianum anterius'
+		 [87] 'inferomedianum posterius'
+		 [88] 'atrium'
+		 [89] 'secondary filter grooves'
+		 [90] 'midgut formation'
+		 [91] 'entoderm plates'
+		 [92] 'dorsal caeca'
+		 [93] 'sperm acrosom'
+		 [94] 'sperm nuclear membrane'
+		 [95] 'sperm arms or spikes'
+		 [96] 'cross striated pseudoflagellum'
+		 [97] 'spermatophore'
+		 [98] 'brood care'
+		 [99] 'development'
+		 [100] 'free nauplius'
+		 [101] 'appendage development'
+		 [102] 'cleavage'
+		 [103] 'ectoteloblast numbers'
+		 [104] 'ectoteloblast arrangement'
+		 [105] 'embryo folded'
+		 [106] 'yolk distribution'
+		 [107] 'appendages in hatchling'
+		 [108] 'embryonic dorsal organ'
+		 [109] 'paired lateral organs'
+		 [110] 'asymmetrical paragnaths'
+	;
+	STATELABELS
+		1
+		'at Z level'
+		'at Z and H level'
+		'at Z and AI level'
+		,
+		2
+		'at AI level'
+		'at H level'
+		,
+		3
+		'absent'
+		'present'
+		'difuse'
+		,
+		4
+		'Th1'
+		'Th2'
+		'Th3'
+		'Th6'
+		,
+		5
+		'Th8'
+		'Th7'
+		'Th6'
+		'Th5'
+		'Th2'
+		'Pl I'
+		'Pl IV'
+		'Pl V'
+		,
+		6
+		'directly'
+		'via suspending strands'
+		,
+		7
+		'segmental'
+		'two pairs dorsally two pairs laterally one pair  latero ventrally'
+		'two pairs in vicinity separated by membrane'
+		'one distinct large pair'
+		'one pair Th5 Th6 one pair Th6 Th7'
+		'one pair Th4 one pair Th5'
+		'two pairs arranged asymmetrically'
+		'one pair Th2'
+		'one pair Th1'
+		'one pair Th3'
+		,
+		8
+		'13'
+		'7'
+		'5'
+		'3'
+		'2'
+		'1'
+		,
+		9
+		'segmental'
+		'two anterior pairs descending artery'
+		'one pair three unpaired descending artery'
+		'three pairs in adjacent thoracic segments'
+		'1 pair ant thpods 3 pairs 1 thpod each 1 pair  pleon'
+		'one pair th1 one pair th8 five pairs pleon'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'A1 A2'
+		'A2'
+		'md'
+		'md A1 A2'
+		,
+		12
+		'thp or plp'
+		'visceral'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'branches into VNC'
+		'branches into thpods'
+		'incomplete'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'common trunk split aorta'
+		'pair off aorta'
+		'absent'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'in thorax'
+		'in pleon'
+		,
+		23
+		'seven'
+		'six'
+		'five'
+		,
+		24
+		'1st pl reduced'
+		'more pleomeres reduced'
+		'State 2'
+		,
+		25
+		'1st overlaps the 2nd'
+		'2nd overlaps 1st and 3rd'
+		,
+		26
+		'six'
+		'three'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'bivalved'
+		'well developed'
+		'short'
+		'closed'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'none'
+		'one'
+		'two'
+		'three'
+		'eight'
+		,
+		32
+		'absent'
+		'present fused'
+		'movable'
+		,
+		33
+		'biramous, flagella'
+		'biramous, outer=scale'
+		'biramous, inner=scale'
+		'triramous'
+		'uniramous'
+		,
+		34
+		'biramous'
+		'('
+		'scaphocerite'
+		')'
+		'uniramous'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'only incisor and molar process'
+		'row of setae no laciniae'
+		'lacinia mobilis'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'without tooth'
+		'with tooth'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'present, plate'
+		'present, scaphognathite'
+		'absent'
+		,
+		41
+		'present'
+		'vestigial or absent'
+		,
+		42
+		'phyllopodous'
+		'stenopodous'
+		,
+		43
+		'none'
+		'at least one'
+		,
+		44
+		'no more'
+		'2nd'
+		'+'
+		'3rd'
+		'five'
+		,
+		45
+		'present'
+		'present lancet shaped'
+		'absent'
+		,
+		46
+		'simple respiratory'
+		'respiratory current'
+		'not respiratory'
+		'absent'
+		,
+		47
+		'one'
+		'two'
+		'more'
+		'none'
+		,
+		48
+		'lateral'
+		'under the thorax'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'2to8'
+		'2to7'
+		'2to6'
+		'3to6'
+		'7to8'
+		'4to5'
+		'brood sac'
+		'2to5'
+		,
+		51
+		'not reduced'
+		'reduced after every brood'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'promotion remotion'
+		'abduction adduction'
+		,
+		54
+		'dicondyl'
+		'monocondyl'
+		'Th3'
+		'-'
+		'5 dik Th6'
+		'-[state 5]'
+		'8 monok'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'without chelae'
+		'with chelae'
+		,
+		58
+		'without chela'
+		'with chela'
+		,
+		59
+		'biramous'
+		'uniramous'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'none'
+		'stomatopod'
+		'real petasma'
+		,
+		62
+		'small'
+		'uropods'
+		'backwards'
+		,
+		63
+		'without respiratory function'
+		'with as gills'
+		,
+		64
+		'round'
+		'flattened'
+		,
+		65
+		'with furca'
+		'without furca'
+		,
+		66
+		'one cell cluster'
+		'two cell clusters'
+		,
+		67
+		'present'
+		'absent'
+		,
+		68
+		'present'
+		'absent'
+		,
+		69
+		'two'
+		'three'
+		,
+		70
+		'tetrapartite'
+		'bipartite'
+		,
+		71
+		'without any extensions'
+		'with button like extensions'
+		,
+		72
+		'four'
+		'two'
+		'absent'
+		,
+		73
+		'same plane'
+		'two displaced distally'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'restricted to rhabdom'
+		'extended'
+		,
+		76
+		'present'
+		'absent'
+		,
+		77
+		'present'
+		'absent'
+		,
+		78
+		'present'
+		'absent'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'present'
+		'absent'
+		,
+		81
+		'present'
+		'absent'
+		,
+		82
+		'simple'
+		'pre caridoid'
+		'caridoid'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'numerous'
+		'eight to ten'
+		'five'
+		'two'
+		'one'
+		,
+		90
+		'entodermal'
+		'ectodermal'
+		,
+		91
+		'unpaired'
+		'paired'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'present'
+		'absent'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent aflagellate'
+		'present pseudoflagellum'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'none'
+		'thoracopods'
+		'pleopods'
+		'dorsal brood pouch'
+		'marsupium'
+		'1st pleopod'
+		,
+		99
+		'larval'
+		'direct'
+		,
+		100
+		'present'
+		'absent'
+		,
+		101
+		'advanced anterior head'
+		'continious'
+		,
+		102
+		'superficial'
+		'mixed'
+		'total'
+		,
+		103
+		'nineteen'
+		'variable'
+		'none'
+		,
+		104
+		'ring'
+		'row'
+		,
+		105
+		'ventral'
+		'dorsal'
+		,
+		106
+		'no yolk'
+		'with yolk'
+		,
+		107
+		'eight'
+		'seven'
+		'six'
+		,
+		108
+		'present'
+		'absent'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'symmetrical'
+		'asymmetrical'
+		
+	;
+	MATRIX
+	'Nebalia bipes'		                    ???06?0101-00--01?010?000000110211000000000000000--00--000010000000000-00001110000000000-0001010111-0000000000
+	'Squilla oratoria'		                 01?07?0000200-0000001?10000100123000?000011220000--0000000011111100010-00000000101010111000101000101000000-100
+	'Melicertus kerathurus'		            012?001210311010??001?10000110410000?001011100200--0000011002101100010-001000010121101110??10100100002??00-100
+	'Palaemonetes vulgaris'		            ????001?1031101000001?10100100410000?001011100200--0000010010101110010-00100001012110111000100001201000000-000
+	'Anaspides tasmaniae'		              01106?9550201110?0000?10001---110001?000011000100--0001000002101100011010110011102111100-0010000101-0200000000
+	'Euphausia superba'		                111?0??4?0111111??001?100001004100001000010000110--0001000012101100011011110100012110111-00111001000020000-100
+	'Tethysbaena argentarii'		           ???04185-------1111-0?10010210100102100?0110013-0--00100001001011?11?------???01101110104110?????31-0100012000
+	'Lophogaster typicus'		              ???05023000111100100101000011031000211100110111110001010000001011000111111111000021111112??1?????41-00110?0??1
+	'Eucopia unguiculata'		              ???100?300?111100?0?1?100001?03100021010011011?110?010100-0001011-00-1??11111000021111112??1??-??41-0?????0??1
+	'Neognathophausia ingens'		          ????00??00011?100?0??0100001?011000211000110112110?010100-0001011-00-1??11????00021111111??1??-??41-0?????0??1
+	'Boreomysis arctica'		               ???0002421-111101100101000011031000211100111013-10?0101000000101100011???1?1100012111111???1??0??41-0?????0??0
+	'Neomysis integer'		                 1110002421-111101100101000011031000210100111013-140010100000010110001111111110001211111130110001?41-0011010010
+	'Orchestia cavimana'		               1111105330210--011010010001---104112100211102301130110010000020110011102100111001001011130110001041-122-010000
+	'Hyalella azteca'		                  ???1105330210--0110100-0--1---10411210021110230113?110010-0002011-01-1????????001001???????1??-??41-12???????0
+	'Hyperia galba'		                    ???1105331-10--011010010001---10410????21110230113011001000002011001110210011100100????????1??0??41-??????0???
+	'Caprella mutica'		                  ???12053-------0110-0010001---20410????21110230115011001000002011001110210011100100????????1??0??41-???????000
+	'Trogloleleupia leleupi'		           ???230533??10--11??-??-0--1---10411???02111023011??110010-0002011-11-------111????010???3??1??-??41-??????????
+	'Spelaeogriphus lepidops'		          ???10144-------11111101000021011000210121110213-12?01100000001011010-------???????0111114????????41-?????????0
+	'Mictocaris halope'		                ???13175-------111020010000210110002101?1110233-11?01100001001011010-------????????111114????????41-????1?1??0
+	'Hemilamprops rosea'		               1112103541-00--1110-101000031030011210001111213-12?00100000002011?01-------???010?0???????????0??41-1????????0
+	'Diastylis rathkei'		                ???2103541-00--1110-101000031030011210001111213-1210010000-002011?01-1?????111010?0111114??00001041-1011111000
+	'Leucon nasica'		                    1112203541-00--1110-101000031030011210001111213-12?00100000002011?11-------???010?0111114??0??0??41-1????????0
+	'Tanais dulongii'		                  010210?530210--11110001200031021001210121110213-16101200000002011000?10?100111010001111141100000041-1111111110
+	'Apseudes bermudeus'		               ???2005431-10--1111-001200031021000210021110213-12?0(0,1)200000002011000-------11101000111114??00000041-11????????
+	'Neotanais sp.'		                    ???2005431-10--1111-00120003102100021?121110213-13?0??000000020110??-------???01000111114?????0??41-??????????
+	'Paramphisopus palustris'		          2??2606440200--111001122001---10410210121110223-17?1010000000211100111????????01000101114??0??0??41-10?????11?
+	'Porcellio scaber'		                 201370???0200--111101122001---10411210121110223-1211-100000002111001110110011101000101114??00001041-1011111010
+	'Asellus aquaticus'		                2013??6440200-2111001122001---10400210121110223-171101000000021110011101100111010001011141100001041-1011111110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 110;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1 - 110 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1379009102411 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 5493641432824359475 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 6103436272828084607 ; mqVersion 275 ; checksumv 0 3 3181921502 null getNumChars 110 numChars 110 getNumTaxa 28 numTaxa 28 short true bits 1023 states 1023 sumSquaresStatesOnly 478180.0 sumSquares 478180.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1104 698 ; setLocation 256 67 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #6103436272828084607 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1004 631 ; setLocation 256 67 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 110 ;
+ENDBLOCK;

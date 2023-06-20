@@ -1,0 +1,1032 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 20.05.36 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=54;
+    TAXLABELS
+    		'Eoneria blanchardi'
+		'Eoneria maldonadoi'
+		'Eoloxozus sabroskyi'
+		'Antillonerius cinereus'
+		'Longina abdominalis'
+		'Longina anguliceps'
+		'Longina semialba'
+		'Odontoloxozus longicornis'
+		'Cerantichir peruana'
+		'Cerantichir enderleini'
+		'Glyphidops (g.) etele'
+		'Glyphidops (g.) filosus'
+		'Glyphidops (g.) flavipes'
+		'Glyphidops (g.) obscurus'
+		'Glyphidops (g.) ochreus'
+		'Glyphidops (o.) carrerai'
+		'Glyphidops (o.) durus'
+		'Glyphidops (o.) flavifrons'
+		'Glyphidops (o.) limbatus'
+		'Glyphidops (o.) neuter'
+		'Glyphidops (o.) pluricellatus'
+		'Nerius czernyi'
+		'Nerius lanei'
+		'Nerius laticornis'
+		'Nerius pilifer'
+		'Nerius plurivittatus'
+		'Indonesicesa annulipes'
+		'Indonesicesa lieftincki'
+		'Telostylinus zonalis'
+		'Telostylinus longipennis'
+		'Telostylinus papuanus'
+		'Telostylinus spinicoxa'
+		'Telostylinus gressitti'
+		'Telostylinus longicoxa'
+		'Telostylinus ponapensis'
+		'Telostylinus yapensis'
+		'Telostylinus lineolatus'
+		'Paranerius fibulatus'
+		'Telostylus binotatus'
+		'Gymnonerius fuscus'
+		'Chaetonerius brachialis'
+		'Chaetonerius ghesquierei'
+		'Chaetonerius latifemur'
+		'Chaetonerius inermis'
+		'Chaetonerius perstriatus'
+		'Chaetonerius apicalis'
+		'Chaetonerius collarti'
+		'Chaetonerius niger'
+		'Taeniaptera annulata'
+		'Scipopus diversus'
+		'Micropeza peruanus'
+		'Cryogonus descolei'
+		'Crosa yapensis'
+		'Cypselosoma australis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=194;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'Male body length'
+		 [2] 'Female body length'
+		 [3] 'Male head length/body length'
+		 [4] 'Female head length/body length'
+		 [5] 'Male head width/head length'
+		 [6] 'Female head width/head length'
+		 [7] 'Male head height/head length'
+		 [8] 'Female head height/head length'
+		 [9] 'Male frons'' width (at vertice)/head width'
+		 [10] 'Female frons'' width (at vertice)/head width'
+		 [11] 'Anterior region of frons/posterior'
+		 [12] 'Male eye length/eye height'
+		 [13] 'Female eye length/eye height'
+		 [14] 'Male genae height/head height'
+		 [15] 'Female genae height/head height'
+		 [16] 'Male postcranium length/head length'
+		 [17] 'Female postcranium length/head length'
+		 [18] 'Male length of scape/head length'
+		 [19] 'Female length of scape/head length'
+		 [20] 'Male length of pedicel/head length'
+		 [21] 'Female length of pedicel/head length'
+		 [22] 'Male length of process of pedicel/Length of pedicel'
+		 [23] 'Female length of process of pedicel/Length of pedicel'
+		 [24] 'Male length of postpedicel/head length'
+		 [25] 'Female length of postpedicel/head length'
+		 [26] 'Male width of postpedicel/length of postpedicel'
+		 [27] 'Female width of postpedicel/length of postpedicel'
+		 [28] 'Male torax length (with scutelum)/body length'
+		 [29] 'Female torax length (with scutelum)/body length'
+		 [30] 'Thorax length before suture/thorax length behind suture'
+		 [31] 'Male torax width/torax length'
+		 [32] 'Female torax width/torax length'
+		 [33] 'Male torax height/torax length'
+		 [34] 'Female torax height/torax length'
+		 [35] 'Male wing length/body length'
+		 [36] 'Female wing length/body length'
+		 [37] 'Male wing width/wing length'
+		 [38] 'Female wing width/wing length'
+		 [39] 'Male first costal section/wing length'
+		 [40] 'Female first costal section/wing length'
+		 [41] 'Male second costal section/wing length'
+		 [42] 'Female second costal section/wing length'
+		 [43] 'Male third costal section/wing length'
+		 [44] 'Female third costal section/wing length'
+		 [45] 'Male fourth costal section/wing width'
+		 [46] 'Female fourth costal section/wing width'
+		 [47] 'Male final section of fourth longitudinal vein/third section of costal vein'
+		 [48] 'Female final section of fourth longitudinal vein/third section of costal vein'
+		 [49] 'Male penultimate section of fourth longitudinal vein/antepenultimate'
+		 [50] 'Female penultimate section of fourth longitudinal vein/antepenultimate'
+		 [51] 'cu2+an2/cu2'
+		 [52] 'Male fore femur lenght/thorax length'
+		 [53] 'Female fore femur lenght/thorax length'
+		 [54] 'Male mid femur lenght/thorax length'
+		 [55] 'Female mid femur lenght/thorax length'
+		 [56] 'Male hind femur lenght/thorax length'
+		 [57] 'Female hind femur lenght/thorax length'
+		 [58] 'Male fore tibia length/fore femur length'
+		 [59] 'Female fore tibia length/fore femur length'
+		 [60] 'Male mid tibia length/mid femur length'
+		 [61] 'Female mid tibia length/mid femur length'
+		 [62] 'Male hind tibia length/hind femur length'
+		 [63] 'Female hind tibia length/hind femur length'
+		 [64] 'Male preabdomen length/body lenght'
+		 [65] 'Female preabdomen lenght/body length'
+		 [66] 'Male preabdomen width/preabdomen length'
+		 [67] 'Female preabdomen width/preabdomen length'
+		 [68] 'Length of 8th tergite/body length'
+		 [69] 'Length of epandrium/body length'
+		 [70] 'Width of epandrium/length of epandrium'
+		 [71] 'Ovipositor length/body length'
+		 [72] 'Ovipositor width (basal)/ovipositor length'
+		 [73] 'Shape of frons between the eyes'
+		 [74] 'Colour of frontal vitta'
+		 [75] 'Postcranium pigmentation pattern'
+		 [76] 'Clear vitta in occiput'
+		 [77] 'Position of clear vitta'
+		 [78] 'Upper margin of dark lateral vitta of occiput'
+		 [79] 'Auxiliary ocellar lamina'
+		 [80] 'Position of ocellar plate'
+		 [81] 'Ocellar furrow'
+		 [82] 'Shape of posterior region of occiput'
+		 [83] 'Shape of posterior margin of head'
+		 [84] 'Superior region of mesofacial plate'
+		 [85] 'Antennal bases'
+		 [86] 'Texture of dorsal surface of antennal bases'
+		 [87] 'Type of bristles'
+		 [88] 'Number of superior anterior orbital bristles'
+		 [89] 'Superior superior orbital bristles'
+		 [90] 'Vertical internal bristle'
+		 [91] 'Vertical external bristle'
+		 [92] 'Relative lengths of vti and vte bristles'
+		 [93] 'Postvertical bristles'
+		 [94] 'Vibrisae'
+		 [95] 'Genal bristles'
+		 [96] 'Occipital bristles'
+		 [97] 'Antenna'
+		 [98] 'Shape of scape'
+		 [99] 'Inner process of pedicel'
+		 [100] 'Shape of inner process of pedicel'
+		 [101] 'Shape of first flagellomere'
+		 [102] 'Base of first flagellomere'
+		 [103] 'Apex of first flagellomere'
+		 [104] 'Position of antenal arista'
+		 [105] 'Basal flagellomeres of arista'
+		 [106] 'Pubescence of antennal arista'
+		 [107] 'Pattern of pubescence of antennal arista'
+		 [108] 'General pattern of colouration of antennal arista'
+		 [109] 'Differentially pigmented region of antennal arista'
+		 [110] 'Size of buccal cavity'
+		 [111] 'Shape of prementum'
+		 [112] 'Shape of clypeus'
+		 [113] 'Lateral borders of the clypeus'
+		 [114] 'Length of maxillary palps'
+		 [115] 'Shape of maxillary palps'
+		 [116] 'Configuration of anterior region of thorax'
+		 [117] 'Shape of katepisternum'
+		 [118] 'Copulatory processes constituted by fifth sternite'
+		 [119] 'Postpronotal bristles'
+		 [120] 'Proepisternal bristles'
+		 [121] 'Anterior pair of notopleural bristle'
+		 [122] 'Suprahumeral protuberances'
+		 [123] 'Presutural dorsocentral bristle'
+		 [124] 'Postsutural dorsocentral bristle'
+		 [125] 'Prescutelar dorsocentral bristle'
+		 [126] 'Number of extra dorsocentral bristles posterior to transverse suture'
+		 [127] 'Number of extra dorsocentral bristles anterior to transverse suture'
+		 [128] 'Katepisternal bristle'
+		 [129] 'Horizontal line of bristles in posterior margin of katepisternum'
+		 [130] 'Supra-alar bristle'
+		 [131] 'Relative lengths of supra-alar and post-alar bristles'
+		 [132] 'Non-apical scutellar bristle'
+		 [133] 'Protuberances on apical scutellar bristles'
+		 [134] 'Protuberances on hind notopleural bristles'
+		 [135] 'Differential colouration of inferior pleurotergite'
+		 [136] 'Central stripe of pruinosity on mesonotum'
+		 [137] 'Color of pruinosity of mesonotum'
+		 [138] 'Longitudinal dustless medial line'
+		 [139] 'Position of dustless medial line'
+		 [140] 'Margins of dustless medial line'
+		 [141] 'Longitudinal dustless lateral lines'
+		 [142] 'Position of dustless lateral lines'
+		 [143] 'Central yellowish vitta in scutellum'
+		 [144] 'Lateral pruinosity in scutellum'
+		 [145] 'Dustless regions at the base of bristles and hairs'
+		 [146] 'Axilar lobe and alula'
+		 [147] 'Cross-vein bm-cu'
+		 [148] 'First costal section'
+		 [149] 'Longitudinal veins R4+5 and+M1+2'
+		 [150] 'Subcostal break'
+		 [151] 'Direction of vein CuA2'
+		 [152] 'Length of A1+CuA2 vein'
+		 [153] 'Shape of crossvein dm-cu'
+		 [154] 'Angle of crossvein dm-cu'
+		 [155] 'Posterior cross vein (tp)'
+		 [156] 'Supernumerary crossveins'
+		 [157] 'Bare areas of wing'
+		 [158] 'Number of bristles in basicosta'
+		 [159] 'Ciliae on upper squamae'
+		 [160] 'Ciliae on lower squamae'
+		 [161] 'Halteres'
+		 [162] 'Antero and posteroventral row of spines on fore femur'
+		 [163] 'Spinules on fore tibia'
+		 [164] 'Shape of dorsal face of mid femur'
+		 [165] 'Club-shaped thickening in apex of male fore tibia'
+		 [166] 'Number of dorsal bristles in male procoxae'
+		 [167] 'Number of dorsal bristles in female procoxae'
+		 [168] 'Number of lateral bristles on mesocoxae'
+		 [169] 'Number of lateral bristles on metacoxae'
+		 [170] 'Small dorsal bristles in hind and mid tibia'
+		 [171] 'Color of procoxa'
+		 [172] 'Color of meso and metacoxae'
+		 [173] 'Colour of anterior femur'
+		 [174] 'Basal stripe in anterior femur'
+		 [175] 'Number of central rings in anterior femur'
+		 [176] 'Apical stripe in anterior femur'
+		 [177] 'Colour of mid femur'
+		 [178] 'Basal stripe in mid femur'
+		 [179] 'Number of central rings in mid femur'
+		 [180] 'Apical stripe in mid femur'
+		 [181] 'Colour of hind femur'
+		 [182] 'Basal stripe in hind femur'
+		 [183] 'Number of central rings in hind femur'
+		 [184] 'Apical stripe in hind femur'
+		 [185] 'Colour of tibiae'
+		 [186] 'Apical dark stripe'
+		 [187] 'Preabdominal median longitudinal vitta'
+		 [188] 'Preabdominal lateral longitudinal vitta'
+		 [189] 'Preabdominal marginal longitudinal vittae'
+		 [190] 'Shape of epandrium'
+		 [191] 'Lateral borders of semicylindrical epandria'
+		 [192] 'Width of ventral furrow of epandrium'
+		 [193] 'Surstyli'
+		 [194] 'Ventral face of ovipositor'
+	;
+	STATELABELS
+		1
+		,
+		2
+		,
+		3
+		,
+		4
+		,
+		5
+		,
+		6
+		,
+		7
+		,
+		8
+		,
+		9
+		,
+		10
+		,
+		11
+		,
+		12
+		,
+		13
+		,
+		14
+		,
+		15
+		,
+		16
+		,
+		17
+		,
+		18
+		,
+		19
+		,
+		20
+		,
+		21
+		,
+		22
+		,
+		23
+		,
+		24
+		,
+		25
+		,
+		26
+		,
+		27
+		,
+		28
+		,
+		29
+		,
+		30
+		,
+		31
+		,
+		32
+		,
+		33
+		,
+		34
+		,
+		35
+		,
+		36
+		,
+		37
+		,
+		38
+		,
+		39
+		,
+		40
+		,
+		41
+		,
+		42
+		,
+		43
+		,
+		44
+		,
+		45
+		,
+		46
+		,
+		47
+		,
+		48
+		,
+		49
+		,
+		50
+		,
+		51
+		,
+		52
+		,
+		53
+		,
+		54
+		,
+		55
+		,
+		56
+		,
+		57
+		,
+		58
+		,
+		59
+		,
+		60
+		,
+		61
+		,
+		62
+		,
+		63
+		,
+		64
+		,
+		65
+		,
+		66
+		,
+		67
+		,
+		68
+		,
+		69
+		,
+		70
+		,
+		71
+		,
+		72
+		,
+		73
+		'convex'
+		'concave'
+		,
+		74
+		'brown'
+		'apically yellow'
+		'completely yellow'
+		,
+		75
+		'homogenous'
+		'dark occiput and clear postgena'
+		,
+		76
+		'absent'
+		'incomplete'
+		'complete'
+		,
+		77
+		'medial'
+		'submedial'
+		'inferior'
+		,
+		78
+		'moving downwards'
+		'running straight'
+		'fused with ocellar plate'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'close to anterior eye margin'
+		'before posterior eye margin'
+		'on posterior eye margin'
+		'behind posterior eye margin'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'rounded'
+		'sharply truncated'
+		,
+		83
+		'curved'
+		'straight'
+		,
+		84
+		'short'
+		'prolonged'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'not polished'
+		'polished and shiny'
+		,
+		87
+		'long and bristle-like'
+		'short and spiniform'
+		,
+		88
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'vti larger'
+		'equal'
+		'vti shorter'
+		,
+		93
+		'divergent'
+		'convergent'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'1'
+		'2-3'
+		'many'
+		,
+		97
+		'pending relatively short'
+		'porrect and short'
+		'porrect and elongated'
+		,
+		98
+		'linear'
+		'subglobose to obconical'
+		'semicylindrical'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'triangular and broad'
+		'triangular and thin'
+		'finger-like'
+		,
+		101
+		'ovate'
+		'obovate'
+		'subrectangular'
+		,
+		102
+		'rounded'
+		'truncate'
+		,
+		103
+		'pointed'
+		'rounded'
+		'truncate'
+		,
+		104
+		'apical'
+		'subapical'
+		'dorsoapical'
+		'dorsal'
+		,
+		105
+		'slender'
+		'thickened'
+		,
+		106
+		'absent'
+		'microscopically short'
+		'long'
+		,
+		107
+		'basally dense and apically sparse/naked'
+		'homogenously dense'
+		,
+		108
+		'brown'
+		'white'
+		'basally white and apically brown'
+		,
+		109
+		'absent'
+		'encompassing basally enlarged region'
+		'distad to enlarged region'
+		,
+		110
+		'small'
+		'large'
+		,
+		111
+		'as long as wide'
+		'slightly longer'
+		'considerably longer'
+		,
+		112
+		'U-shaped'
+		'shield-shaped'
+		,
+		113
+		'thickening backwards'
+		'uniform'
+		'thickening foward'
+		,
+		114
+		'reaching clypeus'' anterior margin'
+		'not reaching'
+		,
+		115
+		'compressed'
+		'subcilindrical'
+		,
+		116
+		'scutum and antepronotal ridge ending at level of postpronotal carina'
+		'scutum and antepronotal ridge ending anteriorly to postpronotal carina'
+		,
+		117
+		'as wide as high'
+		'higher than wide'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'absent'
+		'hair-like'
+		'strong'
+		,
+		120
+		'absent'
+		'one short and inconspicuous pair'
+		'one strong and spine-like pair'
+		'many'
+		,
+		121
+		'absent'
+		'hair-like'
+		'equal/subequal to posterior pair'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'absent'
+		'present'
+		,
+		126
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		127
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		128
+		'absent'
+		'present'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present'
+		,
+		131
+		'approximately equal'
+		'pa larger'
+		,
+		132
+		'absent/vestigial'
+		'long'
+		'State 2'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'absent'
+		'present'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'absent'
+		'present'
+		,
+		137
+		'yellow'
+		'gray'
+		,
+		138
+		'absent'
+		'present'
+		,
+		139
+		'anterior to suture'
+		'posterior to suture'
+		'complete'
+		,
+		140
+		'converging backwards'
+		'straight'
+		'diverging backwards'
+		,
+		141
+		'absent'
+		'present'
+		,
+		142
+		'anterior to suture'
+		'posterior to suture'
+		'complete'
+		,
+		143
+		'absent'
+		'present'
+		,
+		144
+		'absent'
+		'present'
+		,
+		145
+		'absent'
+		'present'
+		,
+		146
+		'reduced'
+		'developed'
+		'State 2'
+		,
+		147
+		'absent'
+		'vestigial/weak'
+		'conspicuous'
+		,
+		148
+		'absent'
+		'present'
+		,
+		149
+		'fusing at or near wing apex'
+		'not fused'
+		,
+		150
+		'absent'
+		'present'
+		,
+		151
+		'distal'
+		'proximal'
+		,
+		152
+		'reaching posterior wing margin'
+		'short and not reaching posterior margin'
+		'vestigial'
+		,
+		153
+		'straight to slightly convex'
+		'strongly convex'
+		'undulated'
+		,
+		154
+		'transverse'
+		'slightly oblique'
+		'strongly oblique'
+		,
+		155
+		'normal'
+		'brownish lined'
+		,
+		156
+		'absent'
+		'present'
+		,
+		157
+		'absent'
+		'small'
+		'large'
+		,
+		158
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		159
+		'absent'
+		'reduced'
+		'long'
+		,
+		160
+		'absent'
+		'reduced'
+		'long'
+		,
+		161
+		'lobulose capitelum, short peduncle'
+		'compact capitelum, long peduncle'
+		,
+		162
+		'absent'
+		'reduced and hair-like'
+		'present'
+		,
+		163
+		'absent'
+		'present'
+		,
+		164
+		'concave'
+		'straight/slightly convex'
+		,
+		165
+		'absent'
+		'present'
+		,
+		166
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 6'
+		'State 7'
+		'State 8'
+		,
+		167
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 6'
+		,
+		168
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		169
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		170
+		'absent'
+		'present'
+		,
+		171
+		'yellow'
+		'brown'
+		,
+		172
+		'yellow'
+		'brown'
+		,
+		173
+		'yellow'
+		'brown'
+		,
+		174
+		'absent'
+		'present'
+		,
+		175
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		176
+		'absent'
+		'present'
+		,
+		177
+		'yellow'
+		'brown'
+		,
+		178
+		'absent'
+		'present'
+		,
+		179
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		180
+		'absent'
+		'present'
+		,
+		181
+		'yellow'
+		'brown'
+		,
+		182
+		'absent'
+		'present'
+		,
+		183
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		184
+		'absent'
+		'present'
+		,
+		185
+		'yellow'
+		'brown'
+		,
+		186
+		'absent'
+		'present'
+		,
+		187
+		'absent'
+		'present'
+		,
+		188
+		'absent'
+		'present'
+		,
+		189
+		'absent'
+		'present'
+		,
+		190
+		'flattened to hemispheric'
+		'semicylindrical'
+		,
+		191
+		'narrowing at the center'
+		'nearly straight'
+		,
+		192
+		'thin'
+		'intermediate'
+		'thick'
+		,
+		193
+		'absent'
+		'vestigial/reduced'
+		'big'
+		,
+		194
+		'concave'
+		'convex'
+		
+	;
+	MATRIX
+	'Eoneria blanchardi'		                     ----?---?-----------------------------?-------------?-?-?-?-?-?---------121201020111100311121113211101111110112100101000201112(0,1)10110000111210-11011111112100022002010(3,4)(2,3)220011000100010000110110211
+	'Eoneria maldonadoi'		                     ------------------------------------------------------------------------121201020111100311111113211101111110112100101001201112(2,3)10110000111210-11011111112111022002010(3,4)(3,4)220011000100010000110110211
+	'Eoloxozus sabroskyi'		                    ---------------------------------------?-----------?-?-?-?-?-?--?-------121201020111101411111113211101121111112100101001201112(2,3)10110000111210-11111111112200022102110(5,6)?320111000100010000110110210
+	'Antillonerius cinereus'		                 ?-?-?-?-?--?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?-?-?-??????????????-?-???--121201020111100311111011211100111110112100101001(1,2)00010010110000111211201011111110000022000010?0210010010001000100100010210
+	'Longina abdominalis'		                    ------------------------------------------------------------------------1010--0211011110110-11132210000012111121001100012100100001000001(0,1)0--1211011110110100210001000(5,2)?220111(0,1)(0,1)00(0,1)0(0,1)0(0,1)0(0,1)1000010211
+	'Longina anguliceps'		                     --????--????-?-?-----??----??????????-???-?-?-?-?--????????????????????-1010-1020001111(1,2)110-1110221?2122110211210011?0102100100001000101112112010111101101002?(0,1)2010?0(5,6)(5,6)22011101110111011100001021?
+	'Longina semialba'		                       --????--????-?-?-----??----??????????-???-?-?-?-?--????????????????????-1010-10211011112110-1110221?0012120211210011?011100010000100000111210-010111101101002?1101000(5,6)(5,6)12011100010001000100001021?
+	'Odontoloxozus longicornis'		              ----------?------------------?--------------------?????????????---------121121030101111(3,2)110-1003211021221111112100100021200010010100000111111001111111112200012102000(6,8)?(2,3)(2,3)0111011101110110100110210
+	'Cerantichir peruana'		                    ----------------------------------?-?-?-?-?-?-?-?-??????????????-?------1111210301011112110-1010211020221211112100110021210010010100110101210-1001111111020000??020004(3,4)220000010001000101100010210
+	'Cerantichir enderleini'		                 ----------?------------------?--------------------?????????????-------??1211210200011110110-1013211020121201112100110010100010000100010101210-1001111111000011200200000?10010010001000100100010210
+	'Glyphidops (g.) etele'		                  -?-?-?-?-??-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-??????????????-?-?---??12120202?111111211111010211100111211112100101000100010000100100111210-1001111111000000??020102?110010010001000100100010210
+	'Glyphidops (g.) filosus'		                ----------?------------------?--------------------?????????????---------12120102011111111110101021110010120211210010100(0,1)1000100(0,1)00-0000111210-10011111110(0,1)00002002010221100100200020002001(0,1)0010210
+	'Glyphidops (g.) flavipes'		               ----------?------------------?--------------------?????????????---------1212020201111112111010102111001112111121001010001000100(0,1)0100100111210-(0,1)0011111110000002002010(3,1)0110010010001000100100010210
+	'Glyphidops (g.) obscurus'		               -?-?-?-?-??-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-??????????????-?-?---??121202020111111211111010211100101202112100101000100010000110101111220-100111111100000020020102?110010020012001200100010210
+	'Glyphidops (g.) ochreus'		                ?-?-?-?-?-??-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-??????????????-?-???--1212010201111111111110102111001112111121001010011000100000-0101111200-10011111110000002202010?(2,1)?10010121012101210110010210
+	'Glyphidops (o.) carrerai'		               ----------?------------------?--------------------?????????????---------1212020201111112111110102111001010-0112100101000100010000110000111220-1001111111000000210201020110011010111110101100010210
+	'Glyphidops (o.) durus'		                  ----------?------------------?--------------------?????????????---------1212020201111112111110102111001010-011210010100(0,1)100010010110000111220-10011111110000002102010(2,0)0110010030003000300100010210
+	'Glyphidops (o.) flavifrons'		             ----------?------------------?--------------------?????????????---------1212020?01111112111110102111001110-011210010100(0,1)100010010110001111200-10011111110000002002010(2,1)(0,1)(2,1)100(0,1)00(0,1)000(0,1)000(0,1)000(0,1)0010210
+	'Glyphidops (o.) limbatus'		               ----------?------------------?--------------------?????????????---------111201010111111211111010211100111110112100101000100010010110001101200-1001111111000000(1,2)002010(2,1)0110010020002(0,1)002(0,1)01(0,1)0010210
+	'Glyphidops (o.) neuter'		                 ---------?--------?-?-----?-------------------------???-?-???-?---------1212010201111111111110102111001110-0112100101000100010010100000111210-100111111100000020020102?110010020002011100100010210
+	'Glyphidops (o.) pluricellatus'		          ----------?------------------?--------------------?????????????---------1212010101111(0,1)11111110102111001010-0112100101001100010010100010111220-1001111111001100210201010110010130013001300100010210
+	'Nerius czernyi'		                         ----------?-----------?---?--?---------------------????????????---------1212110301111112111111102110001110-01121001010011000100101?000011121111001111111110001210211020210111000100010001000010210
+	'Nerius lanei'		                           ----------?------------------?--------------------?????????????---------1012110301111112111110102110101110-0112100101001100010010110100111211210011111111100012002110(3,2)(2,3)210111000100010001000010210
+	'Nerius laticornis'		                      -?-?-?-?-??-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-??????????????-?-?---??1112010301111112111111102110101110-0112100101001100010010110000111210-100111111111000120020102?210111000100010001000010210
+	'Nerius pilifer'		                         ------------------------------------------------------------------------121201030111111(1,2)100-1(0,1)102110001110-0112100101001100010010110000111010-10011111111100012002010(3,2)1210111000100010001000010210
+	'Nerius plurivittatus'		                   ----------?------------------?--------------------?????????????---------101211010111111(3,2)111110102110001110-0112100101001100010010110000111211110011111111(0,1)000121021102(2,0)210111000100010001000010210
+	'Indonesicesa annulipes'		                 ------------------------------------------------------------------------1010-00101111(0,1)111111101221120000120111210010100100001(2,1)000100000100--1010011111110100022001111(3,2)(2,3)12000(0,1)0(0,1)0(0,1)0(0,1)0(0,1)0(0,1)01100110210
+	'Indonesicesa lieftincki'		                ------------------------------------------------------------------------1010-001011110121111101221120000120111210010100100001(0,1)000100000100--1010011111110100022001111(3,2)(2,3)12000(0,1)1(0,1)0(0,1)1(0,1)0(0,1)1(0,1)01100110210
+	'Telostylinus zonalis'		                   ?-?-?-?-??-?-???-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?-???--1110-0010101100(1,2)1112101021120010120211210010?001000010000100000100--1210011111110010????00010?0??0011010101010101000110210
+	'Telostylinus longipennis'		               ?-?-???-????-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?--?????????????-?-???--1110-0010101100(3,2)1112101021120010120021210010?001000010000100000100--1210011111110100????0??10?0??011??????????????00110210
+	'Telostylinus papuanus'		                  ------------------------------------------------------------------------1110-1010101100(1,2)11121012211200101210212100101001000010000100000100--121001111111000002200001000110011000100010001000010210
+	'Telostylinus spinicoxa'		                 -?-?-?-?-?--?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?-?-?-??-?-???-?-?-?-?---??1110-1010101100211121012211200101202112100101002000010000100001100--1210011111110000022000010(4,6)?110111000100010001000010210
+	'Telostylinus gressitti'		                 --------------?---------------------------------------------------------121201010101100(1,2)11121012211200101202112100101002000010000100001100--1210011111110100022001010(5,1)0110000010001000100001010210
+	'Telostylinus longicoxa'		                 ------------------------------------------------------------------------121201010101100(3,4)11121012211200101201112100101002000010000100001101011210011111110000022001010(4,1)0110000001001000010101010210
+	'Telostylinus ponapensis'		                ------------------------------------------------------------------------111201010101100211121013211200101210212100101002000010000100000100--121001111111000002200001011110001010101010000001010210
+	'Telostylinus yapensis'		                  ?-?-?-?-?--?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?-???--1212010101011000101-1013211200101210212100101002000010000100000100--1210011111110000022000010?0110000011001100110101010210
+	'Telostylinus lineolatus'		                ------------------------------------------------------------------------121201010101100211121013211200101202112100101002000010000100001100--1210011111110000022001010(5,7)0110001010101010101001010210
+	'Paranerius fibulatus'		                   ---------?----?-----------?---------------------------------------------1010-0010001111011121010211200101201112100101001000010000100000100--0-10011111110100012001010(4,5)(4,5)120111011101110111000110210
+	'Telostylus binotatus'		                   -?-?-?-?-??-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-?--?-?-?-?-?-?-?-?--???1010--0?0??10-00111110132112000012111121001010020000100001010000------0-011111120000??200101000??0011000101011101000010210
+	'Gymnonerius fuscus'		                     ------------------------------------------------------------------------1010--0100011111100-10132112201012011121001010001000100001010000------0-01111111110002200101000010011000100010001000010210
+	'Chaetonerius brachialis'		                ---------?----?-----------?-------------------------?-?-???-?-?---------1110-00101010-011112101(1,2)211100101210012100101002201(0,1)11000101000101111010011111110100022002110(4,5)(2,1)120111010101010101001010210
+	'Chaetonerius ghesquierei'		               -?-?-?-????-?-?-?-?-?-?-?-?-??-?-?-?-?-?-?-?-?-?-??????????????-?-?--???1112010101010-0211121012211100101210012100101002201111000101001101010-10011111110000??20010101???0011000100010000101011220
+	'Chaetonerius latifemur'		                 ------------------------------------------------------?-----?-----------1110-00101010-0211121013211100101210012100101002200010000101000100--1210011111110000022002010(3,4)1120111000100010001001010220
+	'Chaetonerius inermis'		                   -------------------------------------------------------?-----?----------1112000101010-0211121012211100101202112100101002201111000101000100--121001111111000002200201011120011010101010100101010210
+	'Chaetonerius perstriatus'		               --------???--??----------??-----------------------??-??-??-??-?---------1112010101010-0(1,2)11121012211100101210012100101002200011000101001100--1210011111110000022002110(3,2)1120000001000100010101010210
+	'Chaetonerius apicalis'		                  ------------------------------------------------------------------------1112010101010-0211121013211100101202112100101002201(0,1)(0,1)(0,1)000101001100--10100111111100000220010101112001(0,1)00(0,1)(0,1)00(0,1)(0,1)0(0,1)11101011210
+	'Chaetonerius collarti'		                  ---------?----?-?---------?---------------------------------------------1112010101010-021112101321110010121211210010100220111100010100111111101001111111010002200101010120011000000100011101011220
+	'Chaetonerius niger'		                     --------?---------------------------------------------------------------1112010101010-021112101321110010120001210010100220111100010100111111101001111111000002200101000120011000100010001000010220
+	'Taeniaptera annulata'		                   ------------?-?-?-?-???---?-----------------??------------?-?-?---?-----0000--0000000-0211100003000-001300-??111200011032001100011000000------0-012100000000?3??10010????111100010101110100000-000
+	'Scipopus diversus'		                      ------------?-?-?-?-???---?-------------------------------?-?-??-?------0200-10000000-0211100003000-001300-??111200001032000100011100000------0-011110000000?3??10010????111100010001000100000-000
+	'Micropeza peruanus'		                     ---------?--?-?-?-?-???-?-?-??-?-?----????-???-???--?-?-???????------?--1000--1100010-0001100003000-001300-200001110?1002000000101000000------0-000000100000?0??00010????111(0,1)0(0,2)(0,1)(0,1)020(0,1)0(0,2)(0,1)100000-120
+	'Cryogonus descolei'		                     -?-?-?-????????????????-???-??-?-?-?-?????-?-?-????-?-?-?-?-?-?-?-?---??1?????1100010-00011100020?0-???3?????0001110?10?????1??101??????????????00001010??00?0??0001?????1???????????????????0-12?
+	'Crosa yapensis'		                         ---------?----?---?-???------?--------??---------------------------?----0000--1100000-0111110003000-00130200001111?001010000100111100000------0-00200001???000??110?0????100001100010001010000-120
+	'Cypselosoma australis'		                  --????-????-?-?-?-?-???-?-?--?????---???-?-?-?-?-????????????????????-???010--0100000-0211100110100-001300-00????????02220111110011210?0------0-0200111112000???02010?????111000100010001000010?2?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 194;
+      ENDBLOCK;
+      

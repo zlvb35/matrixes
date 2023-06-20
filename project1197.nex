@@ -1,0 +1,2802 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 17.23.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+    		'Callicebus moloch'
+		'Saimiri ustus'
+		'Callimico goeldii'
+		'Leontopithecus chrysomelas'
+		'Leontopithecus chrysopygus'
+		'Saguinus fuscicollis weddelli'
+		'Saguinus midas'
+		'Callithrix aurita'
+		'Callithrix flaviceps'
+		'Callithrix geoffroyi'
+		'Callithrix jacchus'
+		'Callithrix kuhlii'
+		'Callithrix penicillata'
+		'Cebuella pygmaea'
+		'Mico acariensis'
+		'Mico argentatus'
+		'Mico chrysoleucos'
+		'Mico emiliae'
+		'Mico humeralifer'
+		'Mico humilis'
+		'Mico intermedius'
+		'Mico leucippe'
+		'Mico marcai'
+		'Mico mauesi'
+		'Mico melanurus'
+		'Mico nigriceps'
+		'Mico rondoni'
+		'Mico saterei'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=83;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'HMEW/HHH'
+		 [2] 'Intermembral index [(HTL+RTL)/(FTL+TTL)]'
+		 [3] 'Reduction index of the upper M2'
+		 [4] 'Frontonasal region, shape in profile view'
+		 [5] 'Diameter of the eye in relation to the diameter of the orbit''s external border '
+		 [6] 'Upper dental arcade, shape in occlusal view'
+		 [7] 'Palate, posterior nasal spine '
+		 [8] 'Palate, extent of bony palate'
+		 [9] 'Sphenoidal vacuities'
+		 [10] 'Pterygoid, lateral process in profile view'
+		 [11] 'Pterygoid, depth of interpterygoid fossa'
+		 [12] 'Pterygoid, position of lateral process relative to the foramen ovale, in ventral view of the skull'
+		 [13] 'Tympannic bulla, carotid foramen, position'
+		 [14] 'Tympanic bulla, petrosal spine'
+		 [15] 'Postglenoid foramen'
+		 [16] 'Foramen magnum, orientation'
+		 [17] 'Dentary (mandible), symphyseal orientation, in lateral profile, in relation to planum alveolare '
+		 [18] 'Dentary (mandible), mandibular condyle, height relative to planum alveolare'
+		 [19] 'Dentary (mandible), coronoid process, height relative to condylar process '
+		 [20] 'Dentary (mandible), coronoid process, shape'
+		 [21] 'Dentary (mandible), angular process, shape'
+		 [22] 'Dentary (mandible), anterior lower dentition in occlusal view'
+		 [23] ' i1,2 mesiostyle and distostyle '
+		 [24] 'i1,2, height of crown in i1 relative to i2'
+		 [25] 'Lower c, relative size '
+		 [26] 'Lower c, orientation, with mandible in frontal aspect'
+		 [27] 'p2, protoconid height, relative to p3 protoconid '
+		 [28] 'p2, metaconid'
+		 [29] 'p3, metaconid'
+		 [30] 'p4, metaconid, relative size'
+		 [31] 'p4, entoconid'
+		 [32] 'm1, relative position and size of trigonid '
+		 [33] 'Upper third molars, M3/m3'
+		 [34] 'Last lower m, size relative to p4'
+		 [35] 'I1, buccolingual width'
+		 [36] 'I1, lingual tubercle'
+		 [37] 'I2, size and shape relative to I1'
+		 [38] 'P2, protocone'
+		 [39] 'P4, hypocone'
+		 [40] 'P4, region between protocone and paracone, in occlusal view'
+		 [41] 'P4, lingual cingulum, development'
+		 [42] 'M1, protocone, position relative to paracone '
+		 [43] 'M1, entocingulum morphology relative to protocone'
+		 [44] 'M1, development the distal portion of entocingulum'
+		 [45] 'M1-2, hypocone'
+		 [46] 'M2, development of hypocone'
+		 [47] 'Scapula, incisura'
+		 [48] 'Sternum, cranial portion of manubrium'
+		 [49] 'Sternum, caudal portion of manubrium'
+		 [50] 'Humerus, entepicondylar foramen'
+		 [51] 'Humerus, medial epicondyle morphology'
+		 [52] 'Cheiridia, morphology of ungues'
+		 [53] 'Head, crown and forehead, dark median sagittal band in juvenile'
+		 [54] 'Face, pelage'
+		 [55] 'Face, white mask, contrasting with adjacent region'
+		 [56] 'Circum facial region, white rim around face'
+		 [57] 'Circum facial region, morphology of the white rim around face'
+		 [58] 'Face, forehead, coloration'
+		 [59] 'Face, forehead, morphology of patch'
+		 [60] 'Face, color of patch at forehead'
+		 [61] 'Face, color of crown relative to the nape and immediately posterior mantle regions'
+		 [62] 'Face, pigmentation'
+		 [63] 'Auricle, pigmentation'
+		 [64] 'Auricle, pilosity'
+		 [65] 'Intrinsic ear tufts, presence'
+		 [66] 'Intrinsic ear tufts, morphology'
+		 [67] 'Extrinsic ear tufts, presence'
+		 [68] 'Extrinsic ear tufts, morphology'
+		 [69] 'Fore limbs, color of dorsal portion'
+		 [70] 'Hind limbs, color of external (lateral) portion'
+		 [71] 'Mantle, general pattern'
+		 [72] 'Saddle, hair banding pattern:'
+		 [73] 'Saddle and rump, general pattern'
+		 [74] 'Saddle and rump, mottled pattern, morphology'
+		 [75] 'Hip, presence of distinctly colored patches'
+		 [76] 'Hip patches, morphology'
+		 [77] 'Tail, constrast with dorsum'
+		 [78] 'Tail, annulation'
+		 [79] 'Tail, banding pattern of hairs forming the tail rings'
+		 [80] 'Diploid (2n) chromosome number'
+		 [81] 'Long call structure, interval between notes'
+		 [82] 'Long call structure, note duration'
+		 [83] 'Long call structure, frequency modulation'
+	;
+	STATELABELS
+		1
+		,
+		2
+		,
+		3
+		,
+		4
+		'convex'
+		'straight/concave '
+		,
+		5
+		'subequal'
+		'greater'
+		,
+		6
+		'C1/M1 ratio is > 0.81'
+		'C1/M1 ratio is < 0.79'
+		,
+		7
+		'consistently present '
+		'reduced/absent '
+		,
+		8
+		'ends in line with M2'
+		'ends caudally to M2 '
+		,
+		9
+		'not visible from the mesopterygoid fossa'
+		'visible from the mesopterygoid fossa '
+		,
+		10
+		'projected ventro-posteriorly, not reaching tip of M2 in lateral view'
+		'ventrally projected, exceeding tip of M2'
+		,
+		11
+		' fossa between medial and lateral pterygoid plates reaches skull base'
+		'fossa reduced to a small space between lateral and medial processes '
+		,
+		12
+		'ends far from the foramen ovale '
+		'ends close to the foramen ovale'
+		,
+		13
+		'close to jugular foramen, laterally placed in the tympannic bulla'
+		'more ventrally placed, clearly separated from jugular foramen, more anteriorly placed than in (0)'
+		,
+		14
+		'vestigial/absent '
+		'present as a discrete protuberance'
+		,
+		15
+		'large'
+		'small/absent'
+		,
+		16
+		'posteriorly oriented '
+		'ventrally oriented '
+		,
+		17
+		'vertically oriented'
+		'horizontally oriented '
+		,
+		18
+		'clearly above'
+		'slightly above '
+		'same level/lower than toothrow '
+		,
+		19
+		'above condyle'
+		'same level as condyle'
+		,
+		20
+		'convex tip and mandibular notch deeper than in (1) and (2)'
+		'narrow and pointed tip, mandibular notch at more obtuse angle'
+		'wide and blunt tip, mandibular notch as in (1)'
+		,
+		21
+		'projected ventrally and posteriorly to the horizontal ramus'
+		'undeveloped'
+		'projected posteriorly to vertical ramus'
+		' projected posteriorly to vertical ramus and ventrally to the horizontal'
+		'projected ventrally to horizontal ramus '
+		,
+		22
+		'i1 set lateral to i2 and c placed lateral to i2 ("-''U"-- shaped)'
+		'i2 placed lateroposteriorly to i1, c1 placed lateral to i2 ("-''V"-- shaped) '
+		'i2 set posterior to i1 and c1 set posterior to i2, with the tips converging lingually ("-''V"-- shaped) '
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'relatively lower'
+		'subequal'
+		,
+		25
+		'crown about twice the size of i1,2'
+		'crown subequal to that of i1,2'
+		,
+		26
+		'obliquely oriented'
+		'vertically oriented'
+		,
+		27
+		' projects well above p3 protoconid'
+		'approximately the same height of p3 protoconid '
+		,
+		28
+		'present '
+		'vestigial/absent '
+		,
+		29
+		'present'
+		'vestigial'
+		'absent'
+		,
+		30
+		'subequal in height to p4 protoconid'
+		'shorter than p4 protoconid '
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'large, placed perpendicular to talonid'
+		'smaller, obliquely placed in relation to talonid'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'subequal or larger than p4'
+		'smaller than p4, approximately two thirds its size'
+		,
+		35
+		'relatively thin'
+		'relatively thick'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'I2 tips converge in frontal view, crown subequal to or slightly shorter than I1'
+		'I2 tips divergent, crown subequal to or slightly shorter than I1'
+		'I2 tips divergent, crown usually higher than I1'
+		,
+		38
+		'present as discrete cusp'
+		'well developed cingular lingual crest, indistinct cusp'
+		'absent'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'convex distal and mesially '
+		'idented distally'
+		'idented mesial and distally '
+		,
+		41
+		'poorly developed, present at the lingual/linguodistal face of protocone'
+		'involves the protocone completely'
+		,
+		42
+		'placed mesially, at the same level of paracone'
+		'distally placed, at the same level of centrocrista'
+		,
+		43
+		'wraps protocone distally, more developed in the distal portion of the protocone than in the mesial one'
+		'wraps protocone distally, suddenly interrupted mesially and labially '
+		'completely wraps the protocone, developed equally in both mesial and distal faces '
+		,
+		44
+		'developed'
+		'reduced'
+		,
+		45
+		'present'
+		'absent'
+		,
+		46
+		'hypocone present as a discrete cusp'
+		'hypocone comparatively less developed than other three cusps, or absent'
+		,
+		47
+		'well delimited '
+		'delimited in its superior border by a bony structure'
+		,
+		48
+		'square shape, keel not evident'
+		'trapezoidal, keel evident '
+		,
+		49
+		'not constricted posteriorly'
+		'with posterior constriction '
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'does not project laterally'
+		'projects laterally, not perpedincular to humerus central axis'
+		'projects laterally, perpendicular to humerus central axis'
+		,
+		52
+		'nail'
+		'claw-like tegula'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'hairy face, except at perinasal area '
+		'face covered by hairs, more sparse surrounding eyes and nostrils'
+		'face pratically naked'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'incomplete, more evident on supercilliary region and laterally to the eyes'
+		'complete, wider than in (0)'
+		,
+		58
+		'forehead not distinguished from surrounding region'
+		'forehead distinctly colored on its median region'
+		,
+		59
+		'diamond-shaped patch '
+		'triangular-shaped patch'
+		'V-shaped patch '
+		,
+		60
+		'white'
+		'black'
+		,
+		61
+		'same color'
+		'distinct color, contrasting with immediately posterior region'
+		,
+		62
+		'pigmented'
+		'pigmented, except for circum-orbital and nasal region'
+		'depigmented around nostrils and upper lip, vertical pigmented stripe between nostrils'
+		'pigmented around mouth and on cilliary region'
+		'depigmented face'
+		,
+		63
+		'pigmented '
+		'melanin concentrated in the distal portion'
+		'depositions only in the disto-superior area'
+		'depigmented '
+		,
+		64
+		'moderately hairy/hirsuste '
+		'sparsely haired'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'originate at the inner surface of auricle'
+		'originate at the external face of auricle'
+		'originate from both auricular surfaces'
+		'restrict to lower auricular lobe'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'pre-auricular tufts present'
+		'circum-auricular tufts present'
+		,
+		69
+		'homogeneously colored'
+		'lighter distally, darkening proximally '
+		'darker distally, lightening proximally '
+		,
+		70
+		'homogeneous to saddle and adjacent fields'
+		'ocher, contrasting with adjacent fields'
+		,
+		71
+		'same color as saddle or weakly defined'
+		'well defined, reaching or passing shoulders, which have the same color was mantle'
+		'well defined, not reaching shoulders'
+		'bizonal dorsum '
+		,
+		72
+		'uni- or bi-colored hairs'
+		'aguti banding pattern (alternate pheo- and eu-melanin bands) '
+		'tri-banded hairs without the aguti pattern '
+		'tetra-banded hairs'
+		,
+		73
+		'uniformly colored '
+		'transverse striations'
+		'mottled '
+		,
+		74
+		'pattern with contrasting black/white spots restrict to the saddle, reaching a small portion of the rump'
+		'pattern with subtly defined pheomelanic patches present in the saddle, reaching anterior portion of rump'
+		'mottled pattern reaching rump and posterior members'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'not reaching thighs'
+		'reaching thighs '
+		,
+		77
+		'does not contrast with dorsum, being of the same color of it '
+		'ail clearly darker or lighter than dorsum'
+		,
+		78
+		'hairs not disposed in rings'
+		'tail hairs disposed in rings'
+		,
+		79
+		'monochromatic hairs'
+		'bi-banded hairs '
+		'tetra-banded hairs'
+		,
+		80
+		'44'
+		'46'
+		'47'
+		'48'
+		,
+		81
+		'constant'
+		'progressively shorter'
+		'progressively longer'
+		,
+		82
+		'same duration '
+		'progressively shorter '
+		'progressively longer'
+		,
+		83
+		'inexpressive'
+		'descending frequency'
+		'ascending frequency'
+		
+	;
+	MATRIX
+	'Callicebus moloch'		                      ???10100000100100000000011100000001000000000001?01100100-0--00000-0-10010-0-10-3???
+	'Saimiri ustus'		                          ???10000000110010002100000010000011(0,1)00101000000?10000000-0--0?000-0-100?0-0--0-0???
+	'Callimico goeldii'		                      ???01110000111110000200000010010010100100000011000010100-0--00010-0-00000-0-00-2020
+	'Leontopithecus chrysomelas'		             ???11101101111110000200101010011111001101001110?11010100-0--00000-0-10000-0-(0,1)0-1222
+	'Leontopithecus chrysopygus'		             ???11(0,1)01101111110000200101010011111101101001110?11010100-0--00000-0-00000-0-(0,1)0-1222
+	'Saguinus fuscicollis weddelli'		          ???11001011010110000200000010010110101110000110000010000-11000010-0-0011200-00-10??
+	'Saguinus midas'		                         ???11001011110110000200000011010110101110000110000010100-0--00010-0-1011220-00-100?
+	'Callithrix aurita'		                      ???01111001110111001321111111010111111100111110111211010-1000000100-10010-0-0111111
+	'Callithrix flaviceps'		                   ???01?11001110111001321111?1??1?1111111?011111???1211010-1000000100-10211-0-0111111
+	'Callithrix geoffroyi'		                   ???01111001110111012321111111110111111100111110111211000----00000-1020211-0-0111000
+	'Callithrix jacchus'		                     ???01111001010111101321111112110111111110111110111211000-10000000-1010211-0-0121000
+	'Callithrix kuhlii'		                      ???0111100111011101232111111(1,2)110111111110111110?11211000-10000000-1020211-0-0111000
+	'Callithrix penicillata'		                 ???0111100101011120132111111211(0,1)111111110111110111211000-10000000-1(0,1)10211-0-0121000
+	'Cebuella pygmaea'		                       ???11111001010111202411111111111111122121121110?01(1,2)10000-0-001100-0-0021220-0120001
+	'Mico acariensis'		                        ???111110011111110123111111120111111211?112111000111?0011111?2100-0-?0??211110-????
+	'Mico argentatus'		                        ???1111100111111101231111111201111112112112111???1110200-0--0(3,4)310-0-00000-?-10-0001
+	'Mico chrysoleucos'		                      ???1111100111(0,1)111012311111112111111121111121110001111000----0430120-20-00-?-1100???
+	'Mico emiliae'		                           ???1111100111111101231111111201111112111112111000111?00?10--131(0,1)0-0-20000-0-10-???1
+	'Mico humeralifer'		                       ???111110011111110123111111120111111211111211100(0,1)111100101111110120-2012201001100?1
+	'Mico humilis'		                           ???111110011111111(0,1)24111111121111111211(1,2)112111000111100101111110030-2012(0,2)10-(0,1)(0,1)1?00?
+	'Mico intermedius'		                       ???111?10011101110??311111?1??1?1111211?112111???1?11000-0--1430110-20332110?1?????
+	'Mico leucippe'		                          ???1111100111(0,1)111012311111112011111121121121110?01110200-0--04310-0-00000-?-10-????
+	'Mico marcai'		                            ???11111001111111012311111?1??11111121121121110001110100-11012110-0-0102210-10-????
+	'Mico mauesi'		                            ???1111100111111101231111111201111112111112111000111?00101111110120-201220100110???
+	'Mico melanurus'		                         ???11101001111111012311111112111111121121121110001110000-1111(2,3)100-0-20(0,1)00-1110-00?1
+	'Mico nigriceps'		                         ???11111001111111012311111?1??1?11112112112111???1110100-11012?10-0-210?211010-0???
+	'Mico rondoni'		                           ???11111001110111012311111112111111121111121110001110100-1101(2,4)110-0-21000-(0,1)-10-00?1
+	'Mico saterei'		                           ???1111100111011101231111111201111112111112111100111100110--14210-0-2013211000-0???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='CONTINUOUS CHARACTERS ARE NOT SUPPORTED BY MORPHOBANK, SEE  .TNT FILE WITH THE CHARACTER IN "DOCUMENTS" SECTION^n^n^nWidth of the medial epicondyle of the humerus (HMEW) divided by the humeral head height (HHH)^n^n';
+	TEXT CHARACTER=2 TEXT='CONTINUOUS CHARACTERS ARE NOT SUPPORTED BY MORPHOBANK, SEE  .TNT FILE WITH THE CHARACTER IN "DOCUMENTS" SECTION^n^nThe intermembral index is calculated by dividing the sum of the total length of humerus (HTL) and total length of radius (RTL) by the sum of the total length of tibia (TTL) and total length of femur (FTL)^n';
+	TEXT CHARACTER=3 TEXT='CONTINUOUS CHARACTERS ARE NOT SUPPORTED BY MORPHOBANK, SEE  .TNT FILE WITH THE CHARACTER IN "DOCUMENTS" SECTION^n^nThe reduction index of the M2 was calculated as (buccolingual width of M1 x mesiodistal width of M1)/ (buccolingual width of M2 x mesiodistal width of M2) x 100 ^n^nSee Kanazawa and Rosenberger (1988) for an explanation of the index.';
+	TEXT CHARACTER=4 TEXT='This character is relatively easy to observe when the skull is in profile view, and separates Callithrix from Cebuella + Mico';
+	TEXT CHARACTER=5 TEXT='A large orbit relative to the orbital bony margin leaves it "Physically enclosed", as described by Martin (1992).';
+	TEXT CHARACTER=6 TEXT='This character was obtained by calculating the ratio of the width between the buccal surfaces of C1 to de distance between the buccal surfaces of M1.^n^n^ni';
+	TEXT CHARACTER=9 TEXT='Du Brul (1965) was the first to note this character, exclusive to Leontopithecus';
+	TEXT CHARACTER=11 TEXT='Character described in detail by MacPhee et al. (1995)';
+	TEXT CHARACTER=14 TEXT='This character is a important synapomorphy for Mico. It is observable with the skull in ventral view (bascicranium)';
+	TEXT CHARACTER=15 TEXT='Using "small" or "absent" as different states was innaplicable, since the same individual may have a small foramen on one side and absent on the other (e.g. Mico melanurus, MZUSP 4263).';
+	TEXT CHARACTER=20 TEXT='A distinct coronoid process, states (1) and (2), between Callitrichini and the remaining Callitrichinae, state (0), was already known (Hershkovitz 1977). Distinction of state (1) and (2), however, is carried out here for the first time. ';
+	TEXT CHARACTER=22 TEXT='The en echelon spacing of the incisor and canine, states (1) and (2), is exclusive of Callitrichini (Rosenberger 1977), being present at different intensities among the marmoset genera.';
+	TEXT CHARACTER=23 TEXT='These structures typical of marmosets are described in Hershkovitz (1977)';
+	TEXT CHARACTER=29 TEXT='Reduction of the metaconid is an observed tendency of Callitrichini';
+	TEXT CHARACTER=32 TEXT='This character in Leontopithecus was discussed by Rosenberger and Coimbra-Filho (1984)';
+	TEXT CHARACTER=33 TEXT='The absence of third molars is common to all callitrichines except for Callimico goeldii';
+	TEXT CHARACTER=34 TEXT='This character was identified by Horovitz et al. (1998) as a synapomorphy of Cebidae (incl. Aotus).';
+	TEXT CHARACTER=35 TEXT='A thickening tendency of the upper incisors was note by Rosenberger and Coimbra-Filho (1984)';
+	TEXT CHARACTER=36 TEXT='A lingual "heel" in the inner upper incisors is unique among Leontopithecus chrysomelas, in the Callitrichinae';
+	TEXT CHARACTER=37 TEXT='Character first noted by Geoffroy (1812: 118), related to the interdigitated occlusion pattern of the anterior dentition of marmosets (Kay 1994).';
+	TEXT CHARACTER=40 TEXT='Kay (1994) refers to this character as "-''waisted premolars"--.';
+	TEXT CHARACTER=42 TEXT='In occlusal view, the protocone can be either aligned to the paracone or to the centrocrista (Natori 1986)';
+	TEXT CHARACTER=44 TEXT='In taxa with a reduced distal entocingulum, the M1 has a more triangular shape in occlusal view (Rosenberger and Coimbra-Filho 1984)';
+	TEXT CHARACTER=45 TEXT='See hershkovitz (1977) and Rosenberger (1977) for detailed description of the hypocone evolution in Callitrichinae';
+	TEXT CHARACTER=50 TEXT='Foramen is consistently absent (1) in all analyzed Callitrichini, except for a single Mico mauesi (INPA 4108), of unknown procedence.';
+	TEXT CHARACTER=53 TEXT='Hershkovitz (1977) mentions this character for some subspecies of Callithrix (p. 504, 541). Was present in juvenile Mico chrysoleucos (INPA 4110), M. humeralifer (MPEG 9213), M. intermedius (MPEG 12599) and M. saterei (MPEG 23960, INPA 5672). Through photos of live animals, the character was observed in Leontopithecus rosalia and also Mico humeralifer and M. chrysoleucos. According to illustrations and photos,  Mico humilis also has this character.';
+	TEXT CHARACTER=65 TEXT='For a detailed description of the ear tufts in marmosets see "vila-Pires (1969) and de Vivo (1991)';
+	TEXT CHARACTER=67 TEXT='For a detailed description of the ear tufts in marmosets see "vila-Pires (1969) and de Vivo (1991)';
+	TEXT CHARACTER=75 TEXT='Hip patches are described in de Vivo (1991)';
+	TEXT CHARACTER=80 TEXT='The 2n chromosome number of 44 present for Cebuella pygmaea and Mico is considered to be a derived feature in Callitrichinae, originating from a robertsonian translocation (Barros et al. 1990; Nagamachi et al. 1992). Karyotypes are known for all six species of Callithrix (Nagamachi et al. 1997) but the diploid number is known for only five species of Mico: Mico argentatus, M. chrysoleucos, M. humeralifer, M. mauesi, M. rondoni and M. saterei (Barros et al. 1996; Nagamachi et al. 1996). ';
+	TEXT CHARACTER=81 TEXT='Vocal parameters were obtained from the sonograms present in Snowdon et al. (1986), Snowdon (1993), Bezerra and Souto (2008), Mendes et al. (2009) and Garbino et al. (2013).';
+	TEXT CHARACTER=82 TEXT='The long call notes (syllables) can have the same duration, or shorten progessively as the vocalization is emitted. They can also become longer as the long call progresses. See Snowdon (1993), Snowdon et al. (1986) and Mendes et al. (2009)';
+
+      [Attribute comments]
+      	TEXT TAXON=14 CHARACTER=4 TEXT='1';
+	TEXT TAXON=8 CHARACTER=4 TEXT='1';
+	TEXT TAXON=20 CHARACTER=4 TEXT='1';
+	TEXT TAXON=9 CHARACTER=4 TEXT='1';
+	TEXT TAXON=10 CHARACTER=4 TEXT='1';
+	TEXT TAXON=11 CHARACTER=4 TEXT='1';
+	TEXT TAXON=12 CHARACTER=4 TEXT='1';
+	TEXT TAXON=13 CHARACTER=4 TEXT='1';
+	TEXT TAXON=15 CHARACTER=4 TEXT='1';
+	TEXT TAXON=16 CHARACTER=4 TEXT='1';
+	TEXT TAXON=18 CHARACTER=4 TEXT='1';
+	TEXT TAXON=19 CHARACTER=4 TEXT='1';
+	TEXT TAXON=21 CHARACTER=4 TEXT='1';
+	TEXT TAXON=22 CHARACTER=4 TEXT='1';
+	TEXT TAXON=23 CHARACTER=4 TEXT='1';
+	TEXT TAXON=24 CHARACTER=4 TEXT='1';
+	TEXT TAXON=25 CHARACTER=4 TEXT='1';
+	TEXT TAXON=26 CHARACTER=4 TEXT='1';
+	TEXT TAXON=27 CHARACTER=4 TEXT='1';
+	TEXT TAXON=28 CHARACTER=4 TEXT='1';
+	TEXT TAXON=1 CHARACTER=4 TEXT='1';
+	TEXT TAXON=2 CHARACTER=4 TEXT='1';
+	TEXT TAXON=3 CHARACTER=4 TEXT='1';
+	TEXT TAXON=4 CHARACTER=4 TEXT='1';
+	TEXT TAXON=5 CHARACTER=4 TEXT='1';
+	TEXT TAXON=6 CHARACTER=4 TEXT='1';
+	TEXT TAXON=7 CHARACTER=4 TEXT='1';
+	TEXT TAXON=17 CHARACTER=4 TEXT='1';
+	TEXT TAXON=14 CHARACTER=5 TEXT='1';
+	TEXT TAXON=8 CHARACTER=5 TEXT='1';
+	TEXT TAXON=20 CHARACTER=5 TEXT='1';
+	TEXT TAXON=9 CHARACTER=5 TEXT='1';
+	TEXT TAXON=10 CHARACTER=5 TEXT='1';
+	TEXT TAXON=11 CHARACTER=5 TEXT='1';
+	TEXT TAXON=12 CHARACTER=5 TEXT='1';
+	TEXT TAXON=13 CHARACTER=5 TEXT='1';
+	TEXT TAXON=15 CHARACTER=5 TEXT='1';
+	TEXT TAXON=16 CHARACTER=5 TEXT='1';
+	TEXT TAXON=18 CHARACTER=5 TEXT='1';
+	TEXT TAXON=19 CHARACTER=5 TEXT='1';
+	TEXT TAXON=21 CHARACTER=5 TEXT='1';
+	TEXT TAXON=22 CHARACTER=5 TEXT='1';
+	TEXT TAXON=23 CHARACTER=5 TEXT='1';
+	TEXT TAXON=24 CHARACTER=5 TEXT='1';
+	TEXT TAXON=25 CHARACTER=5 TEXT='1';
+	TEXT TAXON=26 CHARACTER=5 TEXT='1';
+	TEXT TAXON=27 CHARACTER=5 TEXT='1';
+	TEXT TAXON=28 CHARACTER=5 TEXT='1';
+	TEXT TAXON=1 CHARACTER=5 TEXT='1';
+	TEXT TAXON=2 CHARACTER=5 TEXT='1';
+	TEXT TAXON=3 CHARACTER=5 TEXT='1';
+	TEXT TAXON=4 CHARACTER=5 TEXT='1';
+	TEXT TAXON=5 CHARACTER=5 TEXT='1';
+	TEXT TAXON=6 CHARACTER=5 TEXT='1';
+	TEXT TAXON=7 CHARACTER=5 TEXT='1';
+	TEXT TAXON=17 CHARACTER=5 TEXT='1';
+	TEXT TAXON=14 CHARACTER=6 TEXT='1';
+	TEXT TAXON=8 CHARACTER=6 TEXT='1';
+	TEXT TAXON=20 CHARACTER=6 TEXT='1';
+	TEXT TAXON=9 CHARACTER=6 TEXT='1';
+	TEXT TAXON=10 CHARACTER=6 TEXT='1';
+	TEXT TAXON=11 CHARACTER=6 TEXT='1';
+	TEXT TAXON=12 CHARACTER=6 TEXT='1';
+	TEXT TAXON=13 CHARACTER=6 TEXT='1';
+	TEXT TAXON=15 CHARACTER=6 TEXT='1';
+	TEXT TAXON=16 CHARACTER=6 TEXT='1';
+	TEXT TAXON=18 CHARACTER=6 TEXT='1';
+	TEXT TAXON=19 CHARACTER=6 TEXT='1';
+	TEXT TAXON=21 CHARACTER=6 TEXT='1';
+	TEXT TAXON=22 CHARACTER=6 TEXT='1';
+	TEXT TAXON=23 CHARACTER=6 TEXT='1';
+	TEXT TAXON=24 CHARACTER=6 TEXT='1';
+	TEXT TAXON=25 CHARACTER=6 TEXT='1';
+	TEXT TAXON=26 CHARACTER=6 TEXT='1';
+	TEXT TAXON=27 CHARACTER=6 TEXT='1';
+	TEXT TAXON=28 CHARACTER=6 TEXT='1';
+	TEXT TAXON=1 CHARACTER=6 TEXT='1';
+	TEXT TAXON=2 CHARACTER=6 TEXT='1';
+	TEXT TAXON=3 CHARACTER=6 TEXT='1';
+	TEXT TAXON=4 CHARACTER=6 TEXT='1';
+	TEXT TAXON=5 CHARACTER=6 TEXT='1';
+	TEXT TAXON=6 CHARACTER=6 TEXT='1';
+	TEXT TAXON=7 CHARACTER=6 TEXT='1';
+	TEXT TAXON=17 CHARACTER=6 TEXT='1';
+	TEXT TAXON=14 CHARACTER=7 TEXT='1';
+	TEXT TAXON=8 CHARACTER=7 TEXT='1';
+	TEXT TAXON=20 CHARACTER=7 TEXT='1';
+	TEXT TAXON=9 CHARACTER=7 TEXT='1';
+	TEXT TAXON=10 CHARACTER=7 TEXT='1';
+	TEXT TAXON=11 CHARACTER=7 TEXT='1';
+	TEXT TAXON=12 CHARACTER=7 TEXT='1';
+	TEXT TAXON=13 CHARACTER=7 TEXT='1';
+	TEXT TAXON=15 CHARACTER=7 TEXT='1';
+	TEXT TAXON=16 CHARACTER=7 TEXT='1';
+	TEXT TAXON=18 CHARACTER=7 TEXT='1';
+	TEXT TAXON=19 CHARACTER=7 TEXT='1';
+	TEXT TAXON=21 CHARACTER=7 TEXT='1';
+	TEXT TAXON=22 CHARACTER=7 TEXT='1';
+	TEXT TAXON=23 CHARACTER=7 TEXT='1';
+	TEXT TAXON=24 CHARACTER=7 TEXT='1';
+	TEXT TAXON=25 CHARACTER=7 TEXT='1';
+	TEXT TAXON=26 CHARACTER=7 TEXT='1';
+	TEXT TAXON=27 CHARACTER=7 TEXT='1';
+	TEXT TAXON=28 CHARACTER=7 TEXT='1';
+	TEXT TAXON=1 CHARACTER=7 TEXT='1';
+	TEXT TAXON=2 CHARACTER=7 TEXT='1';
+	TEXT TAXON=3 CHARACTER=7 TEXT='1';
+	TEXT TAXON=4 CHARACTER=7 TEXT='1';
+	TEXT TAXON=5 CHARACTER=7 TEXT='1';
+	TEXT TAXON=6 CHARACTER=7 TEXT='1';
+	TEXT TAXON=7 CHARACTER=7 TEXT='1';
+	TEXT TAXON=17 CHARACTER=7 TEXT='1';
+	TEXT TAXON=14 CHARACTER=8 TEXT='1';
+	TEXT TAXON=8 CHARACTER=8 TEXT='1';
+	TEXT TAXON=20 CHARACTER=8 TEXT='1';
+	TEXT TAXON=9 CHARACTER=8 TEXT='1';
+	TEXT TAXON=10 CHARACTER=8 TEXT='1';
+	TEXT TAXON=11 CHARACTER=8 TEXT='1';
+	TEXT TAXON=12 CHARACTER=8 TEXT='1';
+	TEXT TAXON=13 CHARACTER=8 TEXT='1';
+	TEXT TAXON=15 CHARACTER=8 TEXT='1';
+	TEXT TAXON=16 CHARACTER=8 TEXT='1';
+	TEXT TAXON=18 CHARACTER=8 TEXT='1';
+	TEXT TAXON=19 CHARACTER=8 TEXT='1';
+	TEXT TAXON=21 CHARACTER=8 TEXT='1';
+	TEXT TAXON=22 CHARACTER=8 TEXT='1';
+	TEXT TAXON=23 CHARACTER=8 TEXT='1';
+	TEXT TAXON=24 CHARACTER=8 TEXT='1';
+	TEXT TAXON=25 CHARACTER=8 TEXT='1';
+	TEXT TAXON=26 CHARACTER=8 TEXT='1';
+	TEXT TAXON=27 CHARACTER=8 TEXT='1';
+	TEXT TAXON=28 CHARACTER=8 TEXT='1';
+	TEXT TAXON=1 CHARACTER=8 TEXT='1';
+	TEXT TAXON=2 CHARACTER=8 TEXT='1';
+	TEXT TAXON=3 CHARACTER=8 TEXT='1';
+	TEXT TAXON=4 CHARACTER=8 TEXT='1';
+	TEXT TAXON=5 CHARACTER=8 TEXT='1';
+	TEXT TAXON=6 CHARACTER=8 TEXT='1';
+	TEXT TAXON=7 CHARACTER=8 TEXT='1';
+	TEXT TAXON=17 CHARACTER=8 TEXT='1';
+	TEXT TAXON=14 CHARACTER=9 TEXT='1';
+	TEXT TAXON=8 CHARACTER=9 TEXT='1';
+	TEXT TAXON=20 CHARACTER=9 TEXT='1';
+	TEXT TAXON=9 CHARACTER=9 TEXT='1';
+	TEXT TAXON=10 CHARACTER=9 TEXT='1';
+	TEXT TAXON=11 CHARACTER=9 TEXT='1';
+	TEXT TAXON=12 CHARACTER=9 TEXT='1';
+	TEXT TAXON=13 CHARACTER=9 TEXT='1';
+	TEXT TAXON=15 CHARACTER=9 TEXT='1';
+	TEXT TAXON=16 CHARACTER=9 TEXT='1';
+	TEXT TAXON=18 CHARACTER=9 TEXT='1';
+	TEXT TAXON=19 CHARACTER=9 TEXT='1';
+	TEXT TAXON=21 CHARACTER=9 TEXT='1';
+	TEXT TAXON=22 CHARACTER=9 TEXT='1';
+	TEXT TAXON=23 CHARACTER=9 TEXT='1';
+	TEXT TAXON=24 CHARACTER=9 TEXT='1';
+	TEXT TAXON=25 CHARACTER=9 TEXT='1';
+	TEXT TAXON=26 CHARACTER=9 TEXT='1';
+	TEXT TAXON=27 CHARACTER=9 TEXT='1';
+	TEXT TAXON=28 CHARACTER=9 TEXT='1';
+	TEXT TAXON=1 CHARACTER=9 TEXT='1';
+	TEXT TAXON=2 CHARACTER=9 TEXT='1';
+	TEXT TAXON=3 CHARACTER=9 TEXT='1';
+	TEXT TAXON=4 CHARACTER=9 TEXT='1';
+	TEXT TAXON=5 CHARACTER=9 TEXT='1';
+	TEXT TAXON=6 CHARACTER=9 TEXT='1';
+	TEXT TAXON=7 CHARACTER=9 TEXT='1';
+	TEXT TAXON=17 CHARACTER=9 TEXT='1';
+	TEXT TAXON=14 CHARACTER=10 TEXT='1';
+	TEXT TAXON=8 CHARACTER=10 TEXT='1';
+	TEXT TAXON=20 CHARACTER=10 TEXT='1';
+	TEXT TAXON=9 CHARACTER=10 TEXT='1';
+	TEXT TAXON=10 CHARACTER=10 TEXT='1';
+	TEXT TAXON=11 CHARACTER=10 TEXT='1';
+	TEXT TAXON=12 CHARACTER=10 TEXT='1';
+	TEXT TAXON=13 CHARACTER=10 TEXT='1';
+	TEXT TAXON=15 CHARACTER=10 TEXT='1';
+	TEXT TAXON=16 CHARACTER=10 TEXT='1';
+	TEXT TAXON=18 CHARACTER=10 TEXT='1';
+	TEXT TAXON=19 CHARACTER=10 TEXT='1';
+	TEXT TAXON=21 CHARACTER=10 TEXT='1';
+	TEXT TAXON=22 CHARACTER=10 TEXT='1';
+	TEXT TAXON=23 CHARACTER=10 TEXT='1';
+	TEXT TAXON=24 CHARACTER=10 TEXT='1';
+	TEXT TAXON=25 CHARACTER=10 TEXT='1';
+	TEXT TAXON=26 CHARACTER=10 TEXT='1';
+	TEXT TAXON=27 CHARACTER=10 TEXT='1';
+	TEXT TAXON=28 CHARACTER=10 TEXT='1';
+	TEXT TAXON=1 CHARACTER=10 TEXT='1';
+	TEXT TAXON=2 CHARACTER=10 TEXT='1';
+	TEXT TAXON=3 CHARACTER=10 TEXT='1';
+	TEXT TAXON=4 CHARACTER=10 TEXT='1';
+	TEXT TAXON=5 CHARACTER=10 TEXT='1';
+	TEXT TAXON=6 CHARACTER=10 TEXT='1';
+	TEXT TAXON=7 CHARACTER=10 TEXT='1';
+	TEXT TAXON=17 CHARACTER=10 TEXT='1';
+	TEXT TAXON=14 CHARACTER=11 TEXT='1';
+	TEXT TAXON=8 CHARACTER=11 TEXT='1';
+	TEXT TAXON=20 CHARACTER=11 TEXT='1';
+	TEXT TAXON=9 CHARACTER=11 TEXT='1';
+	TEXT TAXON=10 CHARACTER=11 TEXT='1';
+	TEXT TAXON=11 CHARACTER=11 TEXT='1';
+	TEXT TAXON=12 CHARACTER=11 TEXT='1';
+	TEXT TAXON=13 CHARACTER=11 TEXT='1';
+	TEXT TAXON=15 CHARACTER=11 TEXT='1';
+	TEXT TAXON=16 CHARACTER=11 TEXT='1';
+	TEXT TAXON=18 CHARACTER=11 TEXT='1';
+	TEXT TAXON=19 CHARACTER=11 TEXT='1';
+	TEXT TAXON=21 CHARACTER=11 TEXT='1';
+	TEXT TAXON=22 CHARACTER=11 TEXT='1';
+	TEXT TAXON=23 CHARACTER=11 TEXT='1';
+	TEXT TAXON=24 CHARACTER=11 TEXT='1';
+	TEXT TAXON=25 CHARACTER=11 TEXT='1';
+	TEXT TAXON=26 CHARACTER=11 TEXT='1';
+	TEXT TAXON=27 CHARACTER=11 TEXT='1';
+	TEXT TAXON=28 CHARACTER=11 TEXT='1';
+	TEXT TAXON=1 CHARACTER=11 TEXT='1';
+	TEXT TAXON=2 CHARACTER=11 TEXT='1';
+	TEXT TAXON=3 CHARACTER=11 TEXT='1';
+	TEXT TAXON=4 CHARACTER=11 TEXT='1';
+	TEXT TAXON=5 CHARACTER=11 TEXT='1';
+	TEXT TAXON=6 CHARACTER=11 TEXT='1';
+	TEXT TAXON=7 CHARACTER=11 TEXT='1';
+	TEXT TAXON=17 CHARACTER=11 TEXT='1';
+	TEXT TAXON=14 CHARACTER=12 TEXT='1';
+	TEXT TAXON=8 CHARACTER=12 TEXT='1';
+	TEXT TAXON=20 CHARACTER=12 TEXT='1';
+	TEXT TAXON=9 CHARACTER=12 TEXT='1';
+	TEXT TAXON=10 CHARACTER=12 TEXT='1';
+	TEXT TAXON=11 CHARACTER=12 TEXT='1';
+	TEXT TAXON=12 CHARACTER=12 TEXT='1';
+	TEXT TAXON=13 CHARACTER=12 TEXT='1';
+	TEXT TAXON=15 CHARACTER=12 TEXT='1';
+	TEXT TAXON=16 CHARACTER=12 TEXT='1';
+	TEXT TAXON=18 CHARACTER=12 TEXT='1';
+	TEXT TAXON=19 CHARACTER=12 TEXT='1';
+	TEXT TAXON=21 CHARACTER=12 TEXT='1';
+	TEXT TAXON=22 CHARACTER=12 TEXT='1';
+	TEXT TAXON=23 CHARACTER=12 TEXT='1';
+	TEXT TAXON=24 CHARACTER=12 TEXT='1';
+	TEXT TAXON=25 CHARACTER=12 TEXT='1';
+	TEXT TAXON=26 CHARACTER=12 TEXT='1';
+	TEXT TAXON=27 CHARACTER=12 TEXT='1';
+	TEXT TAXON=28 CHARACTER=12 TEXT='1';
+	TEXT TAXON=1 CHARACTER=12 TEXT='1';
+	TEXT TAXON=2 CHARACTER=12 TEXT='1';
+	TEXT TAXON=3 CHARACTER=12 TEXT='1';
+	TEXT TAXON=4 CHARACTER=12 TEXT='1';
+	TEXT TAXON=5 CHARACTER=12 TEXT='1';
+	TEXT TAXON=6 CHARACTER=12 TEXT='1';
+	TEXT TAXON=7 CHARACTER=12 TEXT='1';
+	TEXT TAXON=17 CHARACTER=12 TEXT='1';
+	TEXT TAXON=14 CHARACTER=13 TEXT='1';
+	TEXT TAXON=8 CHARACTER=13 TEXT='1';
+	TEXT TAXON=20 CHARACTER=13 TEXT='1';
+	TEXT TAXON=9 CHARACTER=13 TEXT='1';
+	TEXT TAXON=10 CHARACTER=13 TEXT='1';
+	TEXT TAXON=11 CHARACTER=13 TEXT='1';
+	TEXT TAXON=12 CHARACTER=13 TEXT='1';
+	TEXT TAXON=13 CHARACTER=13 TEXT='1';
+	TEXT TAXON=15 CHARACTER=13 TEXT='1';
+	TEXT TAXON=16 CHARACTER=13 TEXT='1';
+	TEXT TAXON=18 CHARACTER=13 TEXT='1';
+	TEXT TAXON=19 CHARACTER=13 TEXT='1';
+	TEXT TAXON=21 CHARACTER=13 TEXT='1';
+	TEXT TAXON=22 CHARACTER=13 TEXT='1';
+	TEXT TAXON=23 CHARACTER=13 TEXT='1';
+	TEXT TAXON=24 CHARACTER=13 TEXT='1';
+	TEXT TAXON=25 CHARACTER=13 TEXT='1';
+	TEXT TAXON=26 CHARACTER=13 TEXT='1';
+	TEXT TAXON=27 CHARACTER=13 TEXT='1';
+	TEXT TAXON=28 CHARACTER=13 TEXT='1';
+	TEXT TAXON=1 CHARACTER=13 TEXT='1';
+	TEXT TAXON=2 CHARACTER=13 TEXT='1';
+	TEXT TAXON=3 CHARACTER=13 TEXT='1';
+	TEXT TAXON=4 CHARACTER=13 TEXT='1';
+	TEXT TAXON=5 CHARACTER=13 TEXT='1';
+	TEXT TAXON=6 CHARACTER=13 TEXT='1';
+	TEXT TAXON=7 CHARACTER=13 TEXT='1';
+	TEXT TAXON=17 CHARACTER=13 TEXT='1';
+	TEXT TAXON=14 CHARACTER=14 TEXT='1';
+	TEXT TAXON=8 CHARACTER=14 TEXT='1';
+	TEXT TAXON=20 CHARACTER=14 TEXT='1';
+	TEXT TAXON=9 CHARACTER=14 TEXT='1';
+	TEXT TAXON=10 CHARACTER=14 TEXT='1';
+	TEXT TAXON=11 CHARACTER=14 TEXT='1';
+	TEXT TAXON=12 CHARACTER=14 TEXT='1';
+	TEXT TAXON=13 CHARACTER=14 TEXT='1';
+	TEXT TAXON=15 CHARACTER=14 TEXT='1';
+	TEXT TAXON=16 CHARACTER=14 TEXT='1';
+	TEXT TAXON=18 CHARACTER=14 TEXT='1';
+	TEXT TAXON=19 CHARACTER=14 TEXT='1';
+	TEXT TAXON=21 CHARACTER=14 TEXT='1';
+	TEXT TAXON=22 CHARACTER=14 TEXT='1';
+	TEXT TAXON=23 CHARACTER=14 TEXT='1';
+	TEXT TAXON=24 CHARACTER=14 TEXT='1';
+	TEXT TAXON=25 CHARACTER=14 TEXT='1';
+	TEXT TAXON=26 CHARACTER=14 TEXT='1';
+	TEXT TAXON=27 CHARACTER=14 TEXT='1';
+	TEXT TAXON=28 CHARACTER=14 TEXT='1';
+	TEXT TAXON=1 CHARACTER=14 TEXT='1';
+	TEXT TAXON=2 CHARACTER=14 TEXT='1';
+	TEXT TAXON=3 CHARACTER=14 TEXT='1';
+	TEXT TAXON=4 CHARACTER=14 TEXT='1';
+	TEXT TAXON=5 CHARACTER=14 TEXT='1';
+	TEXT TAXON=6 CHARACTER=14 TEXT='1';
+	TEXT TAXON=7 CHARACTER=14 TEXT='1';
+	TEXT TAXON=17 CHARACTER=14 TEXT='1';
+	TEXT TAXON=14 CHARACTER=15 TEXT='1';
+	TEXT TAXON=8 CHARACTER=15 TEXT='1';
+	TEXT TAXON=20 CHARACTER=15 TEXT='1';
+	TEXT TAXON=9 CHARACTER=15 TEXT='1';
+	TEXT TAXON=10 CHARACTER=15 TEXT='1';
+	TEXT TAXON=11 CHARACTER=15 TEXT='1';
+	TEXT TAXON=12 CHARACTER=15 TEXT='1';
+	TEXT TAXON=13 CHARACTER=15 TEXT='1';
+	TEXT TAXON=15 CHARACTER=15 TEXT='1';
+	TEXT TAXON=16 CHARACTER=15 TEXT='1';
+	TEXT TAXON=18 CHARACTER=15 TEXT='1';
+	TEXT TAXON=19 CHARACTER=15 TEXT='1';
+	TEXT TAXON=21 CHARACTER=15 TEXT='1';
+	TEXT TAXON=22 CHARACTER=15 TEXT='1';
+	TEXT TAXON=23 CHARACTER=15 TEXT='1';
+	TEXT TAXON=24 CHARACTER=15 TEXT='1';
+	TEXT TAXON=25 CHARACTER=15 TEXT='1';
+	TEXT TAXON=26 CHARACTER=15 TEXT='1';
+	TEXT TAXON=27 CHARACTER=15 TEXT='1';
+	TEXT TAXON=28 CHARACTER=15 TEXT='1';
+	TEXT TAXON=1 CHARACTER=15 TEXT='1';
+	TEXT TAXON=2 CHARACTER=15 TEXT='1';
+	TEXT TAXON=3 CHARACTER=15 TEXT='1';
+	TEXT TAXON=4 CHARACTER=15 TEXT='1';
+	TEXT TAXON=5 CHARACTER=15 TEXT='1';
+	TEXT TAXON=6 CHARACTER=15 TEXT='1';
+	TEXT TAXON=7 CHARACTER=15 TEXT='1';
+	TEXT TAXON=17 CHARACTER=15 TEXT='1';
+	TEXT TAXON=14 CHARACTER=16 TEXT='1';
+	TEXT TAXON=8 CHARACTER=16 TEXT='1';
+	TEXT TAXON=20 CHARACTER=16 TEXT='1';
+	TEXT TAXON=9 CHARACTER=16 TEXT='1';
+	TEXT TAXON=10 CHARACTER=16 TEXT='1';
+	TEXT TAXON=11 CHARACTER=16 TEXT='1';
+	TEXT TAXON=12 CHARACTER=16 TEXT='1';
+	TEXT TAXON=13 CHARACTER=16 TEXT='1';
+	TEXT TAXON=15 CHARACTER=16 TEXT='1';
+	TEXT TAXON=16 CHARACTER=16 TEXT='1';
+	TEXT TAXON=18 CHARACTER=16 TEXT='1';
+	TEXT TAXON=19 CHARACTER=16 TEXT='1';
+	TEXT TAXON=21 CHARACTER=16 TEXT='1';
+	TEXT TAXON=22 CHARACTER=16 TEXT='1';
+	TEXT TAXON=23 CHARACTER=16 TEXT='1';
+	TEXT TAXON=24 CHARACTER=16 TEXT='1';
+	TEXT TAXON=25 CHARACTER=16 TEXT='1';
+	TEXT TAXON=26 CHARACTER=16 TEXT='1';
+	TEXT TAXON=27 CHARACTER=16 TEXT='1';
+	TEXT TAXON=28 CHARACTER=16 TEXT='1';
+	TEXT TAXON=1 CHARACTER=16 TEXT='1';
+	TEXT TAXON=2 CHARACTER=16 TEXT='1';
+	TEXT TAXON=3 CHARACTER=16 TEXT='1';
+	TEXT TAXON=4 CHARACTER=16 TEXT='1';
+	TEXT TAXON=5 CHARACTER=16 TEXT='1';
+	TEXT TAXON=6 CHARACTER=16 TEXT='1';
+	TEXT TAXON=7 CHARACTER=16 TEXT='1';
+	TEXT TAXON=17 CHARACTER=16 TEXT='1';
+	TEXT TAXON=14 CHARACTER=17 TEXT='1';
+	TEXT TAXON=8 CHARACTER=17 TEXT='1';
+	TEXT TAXON=20 CHARACTER=17 TEXT='1';
+	TEXT TAXON=9 CHARACTER=17 TEXT='1';
+	TEXT TAXON=10 CHARACTER=17 TEXT='1';
+	TEXT TAXON=11 CHARACTER=17 TEXT='1';
+	TEXT TAXON=12 CHARACTER=17 TEXT='1';
+	TEXT TAXON=13 CHARACTER=17 TEXT='1';
+	TEXT TAXON=15 CHARACTER=17 TEXT='1';
+	TEXT TAXON=16 CHARACTER=17 TEXT='1';
+	TEXT TAXON=18 CHARACTER=17 TEXT='1';
+	TEXT TAXON=19 CHARACTER=17 TEXT='1';
+	TEXT TAXON=21 CHARACTER=17 TEXT='1';
+	TEXT TAXON=22 CHARACTER=17 TEXT='1';
+	TEXT TAXON=23 CHARACTER=17 TEXT='1';
+	TEXT TAXON=24 CHARACTER=17 TEXT='1';
+	TEXT TAXON=25 CHARACTER=17 TEXT='1';
+	TEXT TAXON=26 CHARACTER=17 TEXT='1';
+	TEXT TAXON=27 CHARACTER=17 TEXT='1';
+	TEXT TAXON=28 CHARACTER=17 TEXT='1';
+	TEXT TAXON=1 CHARACTER=17 TEXT='1';
+	TEXT TAXON=2 CHARACTER=17 TEXT='1';
+	TEXT TAXON=3 CHARACTER=17 TEXT='1';
+	TEXT TAXON=4 CHARACTER=17 TEXT='1';
+	TEXT TAXON=5 CHARACTER=17 TEXT='1';
+	TEXT TAXON=6 CHARACTER=17 TEXT='1';
+	TEXT TAXON=7 CHARACTER=17 TEXT='1';
+	TEXT TAXON=17 CHARACTER=17 TEXT='1';
+	TEXT TAXON=14 CHARACTER=18 TEXT='1';
+	TEXT TAXON=8 CHARACTER=18 TEXT='1';
+	TEXT TAXON=20 CHARACTER=18 TEXT='1';
+	TEXT TAXON=9 CHARACTER=18 TEXT='1';
+	TEXT TAXON=10 CHARACTER=18 TEXT='1';
+	TEXT TAXON=11 CHARACTER=18 TEXT='1';
+	TEXT TAXON=12 CHARACTER=18 TEXT='1';
+	TEXT TAXON=13 CHARACTER=18 TEXT='1';
+	TEXT TAXON=15 CHARACTER=18 TEXT='1';
+	TEXT TAXON=16 CHARACTER=18 TEXT='1';
+	TEXT TAXON=18 CHARACTER=18 TEXT='1';
+	TEXT TAXON=19 CHARACTER=18 TEXT='1';
+	TEXT TAXON=21 CHARACTER=18 TEXT='1';
+	TEXT TAXON=22 CHARACTER=18 TEXT='1';
+	TEXT TAXON=23 CHARACTER=18 TEXT='1';
+	TEXT TAXON=24 CHARACTER=18 TEXT='1';
+	TEXT TAXON=25 CHARACTER=18 TEXT='1';
+	TEXT TAXON=26 CHARACTER=18 TEXT='1';
+	TEXT TAXON=27 CHARACTER=18 TEXT='1';
+	TEXT TAXON=28 CHARACTER=18 TEXT='1';
+	TEXT TAXON=1 CHARACTER=18 TEXT='1';
+	TEXT TAXON=2 CHARACTER=18 TEXT='1';
+	TEXT TAXON=3 CHARACTER=18 TEXT='1';
+	TEXT TAXON=4 CHARACTER=18 TEXT='1';
+	TEXT TAXON=5 CHARACTER=18 TEXT='1';
+	TEXT TAXON=6 CHARACTER=18 TEXT='1';
+	TEXT TAXON=7 CHARACTER=18 TEXT='1';
+	TEXT TAXON=17 CHARACTER=18 TEXT='1';
+	TEXT TAXON=14 CHARACTER=19 TEXT='1';
+	TEXT TAXON=8 CHARACTER=19 TEXT='1';
+	TEXT TAXON=20 CHARACTER=19 TEXT='1';
+	TEXT TAXON=9 CHARACTER=19 TEXT='1';
+	TEXT TAXON=10 CHARACTER=19 TEXT='1';
+	TEXT TAXON=11 CHARACTER=19 TEXT='1';
+	TEXT TAXON=12 CHARACTER=19 TEXT='1';
+	TEXT TAXON=13 CHARACTER=19 TEXT='1';
+	TEXT TAXON=15 CHARACTER=19 TEXT='1';
+	TEXT TAXON=16 CHARACTER=19 TEXT='1';
+	TEXT TAXON=18 CHARACTER=19 TEXT='1';
+	TEXT TAXON=19 CHARACTER=19 TEXT='1';
+	TEXT TAXON=21 CHARACTER=19 TEXT='1';
+	TEXT TAXON=22 CHARACTER=19 TEXT='1';
+	TEXT TAXON=23 CHARACTER=19 TEXT='1';
+	TEXT TAXON=24 CHARACTER=19 TEXT='1';
+	TEXT TAXON=25 CHARACTER=19 TEXT='1';
+	TEXT TAXON=26 CHARACTER=19 TEXT='1';
+	TEXT TAXON=27 CHARACTER=19 TEXT='1';
+	TEXT TAXON=28 CHARACTER=19 TEXT='1';
+	TEXT TAXON=1 CHARACTER=19 TEXT='1';
+	TEXT TAXON=2 CHARACTER=19 TEXT='1';
+	TEXT TAXON=3 CHARACTER=19 TEXT='1';
+	TEXT TAXON=4 CHARACTER=19 TEXT='1';
+	TEXT TAXON=5 CHARACTER=19 TEXT='1';
+	TEXT TAXON=6 CHARACTER=19 TEXT='1';
+	TEXT TAXON=7 CHARACTER=19 TEXT='1';
+	TEXT TAXON=17 CHARACTER=19 TEXT='1';
+	TEXT TAXON=14 CHARACTER=20 TEXT='1';
+	TEXT TAXON=8 CHARACTER=20 TEXT='1';
+	TEXT TAXON=20 CHARACTER=20 TEXT='1';
+	TEXT TAXON=9 CHARACTER=20 TEXT='1';
+	TEXT TAXON=10 CHARACTER=20 TEXT='1';
+	TEXT TAXON=11 CHARACTER=20 TEXT='1';
+	TEXT TAXON=12 CHARACTER=20 TEXT='1';
+	TEXT TAXON=13 CHARACTER=20 TEXT='1';
+	TEXT TAXON=15 CHARACTER=20 TEXT='1';
+	TEXT TAXON=16 CHARACTER=20 TEXT='1';
+	TEXT TAXON=18 CHARACTER=20 TEXT='1';
+	TEXT TAXON=19 CHARACTER=20 TEXT='1';
+	TEXT TAXON=21 CHARACTER=20 TEXT='1';
+	TEXT TAXON=22 CHARACTER=20 TEXT='1';
+	TEXT TAXON=23 CHARACTER=20 TEXT='1';
+	TEXT TAXON=24 CHARACTER=20 TEXT='1';
+	TEXT TAXON=25 CHARACTER=20 TEXT='1';
+	TEXT TAXON=26 CHARACTER=20 TEXT='1';
+	TEXT TAXON=27 CHARACTER=20 TEXT='1';
+	TEXT TAXON=28 CHARACTER=20 TEXT='1';
+	TEXT TAXON=1 CHARACTER=20 TEXT='1';
+	TEXT TAXON=2 CHARACTER=20 TEXT='1';
+	TEXT TAXON=3 CHARACTER=20 TEXT='1';
+	TEXT TAXON=4 CHARACTER=20 TEXT='1';
+	TEXT TAXON=5 CHARACTER=20 TEXT='1';
+	TEXT TAXON=6 CHARACTER=20 TEXT='1';
+	TEXT TAXON=7 CHARACTER=20 TEXT='1';
+	TEXT TAXON=17 CHARACTER=20 TEXT='1';
+	TEXT TAXON=14 CHARACTER=21 TEXT='1';
+	TEXT TAXON=8 CHARACTER=21 TEXT='1';
+	TEXT TAXON=20 CHARACTER=21 TEXT='1';
+	TEXT TAXON=9 CHARACTER=21 TEXT='1';
+	TEXT TAXON=10 CHARACTER=21 TEXT='1';
+	TEXT TAXON=11 CHARACTER=21 TEXT='1';
+	TEXT TAXON=12 CHARACTER=21 TEXT='1';
+	TEXT TAXON=13 CHARACTER=21 TEXT='1';
+	TEXT TAXON=15 CHARACTER=21 TEXT='1';
+	TEXT TAXON=16 CHARACTER=21 TEXT='1';
+	TEXT TAXON=18 CHARACTER=21 TEXT='1';
+	TEXT TAXON=19 CHARACTER=21 TEXT='1';
+	TEXT TAXON=21 CHARACTER=21 TEXT='1';
+	TEXT TAXON=22 CHARACTER=21 TEXT='1';
+	TEXT TAXON=23 CHARACTER=21 TEXT='1';
+	TEXT TAXON=24 CHARACTER=21 TEXT='1';
+	TEXT TAXON=25 CHARACTER=21 TEXT='1';
+	TEXT TAXON=26 CHARACTER=21 TEXT='1';
+	TEXT TAXON=27 CHARACTER=21 TEXT='1';
+	TEXT TAXON=28 CHARACTER=21 TEXT='1';
+	TEXT TAXON=1 CHARACTER=21 TEXT='1';
+	TEXT TAXON=2 CHARACTER=21 TEXT='1';
+	TEXT TAXON=3 CHARACTER=21 TEXT='1';
+	TEXT TAXON=4 CHARACTER=21 TEXT='1';
+	TEXT TAXON=5 CHARACTER=21 TEXT='1';
+	TEXT TAXON=6 CHARACTER=21 TEXT='1';
+	TEXT TAXON=7 CHARACTER=21 TEXT='1';
+	TEXT TAXON=17 CHARACTER=21 TEXT='1';
+	TEXT TAXON=14 CHARACTER=22 TEXT='1';
+	TEXT TAXON=8 CHARACTER=22 TEXT='1';
+	TEXT TAXON=20 CHARACTER=22 TEXT='1';
+	TEXT TAXON=9 CHARACTER=22 TEXT='1';
+	TEXT TAXON=10 CHARACTER=22 TEXT='1';
+	TEXT TAXON=11 CHARACTER=22 TEXT='1';
+	TEXT TAXON=12 CHARACTER=22 TEXT='1';
+	TEXT TAXON=13 CHARACTER=22 TEXT='1';
+	TEXT TAXON=15 CHARACTER=22 TEXT='1';
+	TEXT TAXON=16 CHARACTER=22 TEXT='1';
+	TEXT TAXON=18 CHARACTER=22 TEXT='1';
+	TEXT TAXON=19 CHARACTER=22 TEXT='1';
+	TEXT TAXON=21 CHARACTER=22 TEXT='1';
+	TEXT TAXON=22 CHARACTER=22 TEXT='1';
+	TEXT TAXON=23 CHARACTER=22 TEXT='1';
+	TEXT TAXON=24 CHARACTER=22 TEXT='1';
+	TEXT TAXON=25 CHARACTER=22 TEXT='1';
+	TEXT TAXON=26 CHARACTER=22 TEXT='1';
+	TEXT TAXON=27 CHARACTER=22 TEXT='1';
+	TEXT TAXON=28 CHARACTER=22 TEXT='1';
+	TEXT TAXON=1 CHARACTER=22 TEXT='1';
+	TEXT TAXON=2 CHARACTER=22 TEXT='1';
+	TEXT TAXON=3 CHARACTER=22 TEXT='1';
+	TEXT TAXON=4 CHARACTER=22 TEXT='1';
+	TEXT TAXON=5 CHARACTER=22 TEXT='1';
+	TEXT TAXON=6 CHARACTER=22 TEXT='1';
+	TEXT TAXON=7 CHARACTER=22 TEXT='1';
+	TEXT TAXON=17 CHARACTER=22 TEXT='1';
+	TEXT TAXON=14 CHARACTER=23 TEXT='1';
+	TEXT TAXON=8 CHARACTER=23 TEXT='1';
+	TEXT TAXON=20 CHARACTER=23 TEXT='1';
+	TEXT TAXON=9 CHARACTER=23 TEXT='1';
+	TEXT TAXON=10 CHARACTER=23 TEXT='1';
+	TEXT TAXON=11 CHARACTER=23 TEXT='1';
+	TEXT TAXON=12 CHARACTER=23 TEXT='1';
+	TEXT TAXON=13 CHARACTER=23 TEXT='1';
+	TEXT TAXON=15 CHARACTER=23 TEXT='1';
+	TEXT TAXON=16 CHARACTER=23 TEXT='1';
+	TEXT TAXON=18 CHARACTER=23 TEXT='1';
+	TEXT TAXON=19 CHARACTER=23 TEXT='1';
+	TEXT TAXON=21 CHARACTER=23 TEXT='1';
+	TEXT TAXON=22 CHARACTER=23 TEXT='1';
+	TEXT TAXON=23 CHARACTER=23 TEXT='1';
+	TEXT TAXON=24 CHARACTER=23 TEXT='1';
+	TEXT TAXON=25 CHARACTER=23 TEXT='1';
+	TEXT TAXON=26 CHARACTER=23 TEXT='1';
+	TEXT TAXON=27 CHARACTER=23 TEXT='1';
+	TEXT TAXON=28 CHARACTER=23 TEXT='1';
+	TEXT TAXON=1 CHARACTER=23 TEXT='1';
+	TEXT TAXON=2 CHARACTER=23 TEXT='1';
+	TEXT TAXON=3 CHARACTER=23 TEXT='1';
+	TEXT TAXON=4 CHARACTER=23 TEXT='1';
+	TEXT TAXON=5 CHARACTER=23 TEXT='1';
+	TEXT TAXON=6 CHARACTER=23 TEXT='1';
+	TEXT TAXON=7 CHARACTER=23 TEXT='1';
+	TEXT TAXON=17 CHARACTER=23 TEXT='1';
+	TEXT TAXON=14 CHARACTER=24 TEXT='1';
+	TEXT TAXON=8 CHARACTER=24 TEXT='1';
+	TEXT TAXON=20 CHARACTER=24 TEXT='1';
+	TEXT TAXON=9 CHARACTER=24 TEXT='1';
+	TEXT TAXON=10 CHARACTER=24 TEXT='1';
+	TEXT TAXON=11 CHARACTER=24 TEXT='1';
+	TEXT TAXON=12 CHARACTER=24 TEXT='1';
+	TEXT TAXON=13 CHARACTER=24 TEXT='1';
+	TEXT TAXON=15 CHARACTER=24 TEXT='1';
+	TEXT TAXON=16 CHARACTER=24 TEXT='1';
+	TEXT TAXON=18 CHARACTER=24 TEXT='1';
+	TEXT TAXON=19 CHARACTER=24 TEXT='1';
+	TEXT TAXON=21 CHARACTER=24 TEXT='1';
+	TEXT TAXON=22 CHARACTER=24 TEXT='1';
+	TEXT TAXON=23 CHARACTER=24 TEXT='1';
+	TEXT TAXON=24 CHARACTER=24 TEXT='1';
+	TEXT TAXON=25 CHARACTER=24 TEXT='1';
+	TEXT TAXON=26 CHARACTER=24 TEXT='1';
+	TEXT TAXON=27 CHARACTER=24 TEXT='1';
+	TEXT TAXON=28 CHARACTER=24 TEXT='1';
+	TEXT TAXON=1 CHARACTER=24 TEXT='1';
+	TEXT TAXON=2 CHARACTER=24 TEXT='1';
+	TEXT TAXON=3 CHARACTER=24 TEXT='1';
+	TEXT TAXON=4 CHARACTER=24 TEXT='1';
+	TEXT TAXON=5 CHARACTER=24 TEXT='1';
+	TEXT TAXON=6 CHARACTER=24 TEXT='1';
+	TEXT TAXON=7 CHARACTER=24 TEXT='1';
+	TEXT TAXON=17 CHARACTER=24 TEXT='1';
+	TEXT TAXON=14 CHARACTER=25 TEXT='1';
+	TEXT TAXON=8 CHARACTER=25 TEXT='1';
+	TEXT TAXON=20 CHARACTER=25 TEXT='1';
+	TEXT TAXON=9 CHARACTER=25 TEXT='1';
+	TEXT TAXON=10 CHARACTER=25 TEXT='1';
+	TEXT TAXON=11 CHARACTER=25 TEXT='1';
+	TEXT TAXON=12 CHARACTER=25 TEXT='1';
+	TEXT TAXON=13 CHARACTER=25 TEXT='1';
+	TEXT TAXON=15 CHARACTER=25 TEXT='1';
+	TEXT TAXON=16 CHARACTER=25 TEXT='1';
+	TEXT TAXON=18 CHARACTER=25 TEXT='1';
+	TEXT TAXON=19 CHARACTER=25 TEXT='1';
+	TEXT TAXON=21 CHARACTER=25 TEXT='1';
+	TEXT TAXON=22 CHARACTER=25 TEXT='1';
+	TEXT TAXON=23 CHARACTER=25 TEXT='1';
+	TEXT TAXON=24 CHARACTER=25 TEXT='1';
+	TEXT TAXON=25 CHARACTER=25 TEXT='1';
+	TEXT TAXON=26 CHARACTER=25 TEXT='1';
+	TEXT TAXON=27 CHARACTER=25 TEXT='1';
+	TEXT TAXON=28 CHARACTER=25 TEXT='1';
+	TEXT TAXON=1 CHARACTER=25 TEXT='1';
+	TEXT TAXON=2 CHARACTER=25 TEXT='1';
+	TEXT TAXON=3 CHARACTER=25 TEXT='1';
+	TEXT TAXON=4 CHARACTER=25 TEXT='1';
+	TEXT TAXON=5 CHARACTER=25 TEXT='1';
+	TEXT TAXON=6 CHARACTER=25 TEXT='1';
+	TEXT TAXON=7 CHARACTER=25 TEXT='1';
+	TEXT TAXON=17 CHARACTER=25 TEXT='1';
+	TEXT TAXON=14 CHARACTER=26 TEXT='1';
+	TEXT TAXON=8 CHARACTER=26 TEXT='1';
+	TEXT TAXON=20 CHARACTER=26 TEXT='1';
+	TEXT TAXON=9 CHARACTER=26 TEXT='1';
+	TEXT TAXON=10 CHARACTER=26 TEXT='1';
+	TEXT TAXON=11 CHARACTER=26 TEXT='1';
+	TEXT TAXON=12 CHARACTER=26 TEXT='1';
+	TEXT TAXON=13 CHARACTER=26 TEXT='1';
+	TEXT TAXON=15 CHARACTER=26 TEXT='1';
+	TEXT TAXON=16 CHARACTER=26 TEXT='1';
+	TEXT TAXON=18 CHARACTER=26 TEXT='1';
+	TEXT TAXON=19 CHARACTER=26 TEXT='1';
+	TEXT TAXON=21 CHARACTER=26 TEXT='1';
+	TEXT TAXON=22 CHARACTER=26 TEXT='1';
+	TEXT TAXON=23 CHARACTER=26 TEXT='1';
+	TEXT TAXON=24 CHARACTER=26 TEXT='1';
+	TEXT TAXON=25 CHARACTER=26 TEXT='1';
+	TEXT TAXON=26 CHARACTER=26 TEXT='1';
+	TEXT TAXON=27 CHARACTER=26 TEXT='1';
+	TEXT TAXON=28 CHARACTER=26 TEXT='1';
+	TEXT TAXON=1 CHARACTER=26 TEXT='1';
+	TEXT TAXON=2 CHARACTER=26 TEXT='1';
+	TEXT TAXON=3 CHARACTER=26 TEXT='1';
+	TEXT TAXON=4 CHARACTER=26 TEXT='1';
+	TEXT TAXON=5 CHARACTER=26 TEXT='1';
+	TEXT TAXON=6 CHARACTER=26 TEXT='1';
+	TEXT TAXON=7 CHARACTER=26 TEXT='1';
+	TEXT TAXON=17 CHARACTER=26 TEXT='1';
+	TEXT TAXON=14 CHARACTER=27 TEXT='1';
+	TEXT TAXON=8 CHARACTER=27 TEXT='1';
+	TEXT TAXON=20 CHARACTER=27 TEXT='1';
+	TEXT TAXON=9 CHARACTER=27 TEXT='1';
+	TEXT TAXON=10 CHARACTER=27 TEXT='1';
+	TEXT TAXON=11 CHARACTER=27 TEXT='1';
+	TEXT TAXON=12 CHARACTER=27 TEXT='1';
+	TEXT TAXON=13 CHARACTER=27 TEXT='1';
+	TEXT TAXON=15 CHARACTER=27 TEXT='1';
+	TEXT TAXON=16 CHARACTER=27 TEXT='1';
+	TEXT TAXON=18 CHARACTER=27 TEXT='1';
+	TEXT TAXON=19 CHARACTER=27 TEXT='1';
+	TEXT TAXON=21 CHARACTER=27 TEXT='1';
+	TEXT TAXON=22 CHARACTER=27 TEXT='1';
+	TEXT TAXON=23 CHARACTER=27 TEXT='1';
+	TEXT TAXON=24 CHARACTER=27 TEXT='1';
+	TEXT TAXON=25 CHARACTER=27 TEXT='1';
+	TEXT TAXON=26 CHARACTER=27 TEXT='1';
+	TEXT TAXON=27 CHARACTER=27 TEXT='1';
+	TEXT TAXON=28 CHARACTER=27 TEXT='1';
+	TEXT TAXON=1 CHARACTER=27 TEXT='1';
+	TEXT TAXON=2 CHARACTER=27 TEXT='1';
+	TEXT TAXON=3 CHARACTER=27 TEXT='1';
+	TEXT TAXON=4 CHARACTER=27 TEXT='1';
+	TEXT TAXON=5 CHARACTER=27 TEXT='1';
+	TEXT TAXON=6 CHARACTER=27 TEXT='1';
+	TEXT TAXON=7 CHARACTER=27 TEXT='1';
+	TEXT TAXON=17 CHARACTER=27 TEXT='1';
+	TEXT TAXON=14 CHARACTER=28 TEXT='1';
+	TEXT TAXON=8 CHARACTER=28 TEXT='1';
+	TEXT TAXON=20 CHARACTER=28 TEXT='1';
+	TEXT TAXON=9 CHARACTER=28 TEXT='1';
+	TEXT TAXON=10 CHARACTER=28 TEXT='1';
+	TEXT TAXON=11 CHARACTER=28 TEXT='1';
+	TEXT TAXON=12 CHARACTER=28 TEXT='1';
+	TEXT TAXON=13 CHARACTER=28 TEXT='1';
+	TEXT TAXON=15 CHARACTER=28 TEXT='1';
+	TEXT TAXON=16 CHARACTER=28 TEXT='1';
+	TEXT TAXON=18 CHARACTER=28 TEXT='1';
+	TEXT TAXON=19 CHARACTER=28 TEXT='1';
+	TEXT TAXON=21 CHARACTER=28 TEXT='1';
+	TEXT TAXON=22 CHARACTER=28 TEXT='1';
+	TEXT TAXON=23 CHARACTER=28 TEXT='1';
+	TEXT TAXON=24 CHARACTER=28 TEXT='1';
+	TEXT TAXON=25 CHARACTER=28 TEXT='1';
+	TEXT TAXON=26 CHARACTER=28 TEXT='1';
+	TEXT TAXON=27 CHARACTER=28 TEXT='1';
+	TEXT TAXON=28 CHARACTER=28 TEXT='1';
+	TEXT TAXON=1 CHARACTER=28 TEXT='1';
+	TEXT TAXON=2 CHARACTER=28 TEXT='1';
+	TEXT TAXON=3 CHARACTER=28 TEXT='1';
+	TEXT TAXON=4 CHARACTER=28 TEXT='1';
+	TEXT TAXON=5 CHARACTER=28 TEXT='1';
+	TEXT TAXON=6 CHARACTER=28 TEXT='1';
+	TEXT TAXON=7 CHARACTER=28 TEXT='1';
+	TEXT TAXON=17 CHARACTER=28 TEXT='1';
+	TEXT TAXON=14 CHARACTER=29 TEXT='1';
+	TEXT TAXON=8 CHARACTER=29 TEXT='1';
+	TEXT TAXON=20 CHARACTER=29 TEXT='1';
+	TEXT TAXON=9 CHARACTER=29 TEXT='1';
+	TEXT TAXON=10 CHARACTER=29 TEXT='1';
+	TEXT TAXON=11 CHARACTER=29 TEXT='1';
+	TEXT TAXON=12 CHARACTER=29 TEXT='1';
+	TEXT TAXON=13 CHARACTER=29 TEXT='1';
+	TEXT TAXON=15 CHARACTER=29 TEXT='1';
+	TEXT TAXON=16 CHARACTER=29 TEXT='1';
+	TEXT TAXON=18 CHARACTER=29 TEXT='1';
+	TEXT TAXON=19 CHARACTER=29 TEXT='1';
+	TEXT TAXON=21 CHARACTER=29 TEXT='1';
+	TEXT TAXON=22 CHARACTER=29 TEXT='1';
+	TEXT TAXON=23 CHARACTER=29 TEXT='1';
+	TEXT TAXON=24 CHARACTER=29 TEXT='1';
+	TEXT TAXON=25 CHARACTER=29 TEXT='1';
+	TEXT TAXON=26 CHARACTER=29 TEXT='1';
+	TEXT TAXON=27 CHARACTER=29 TEXT='1';
+	TEXT TAXON=28 CHARACTER=29 TEXT='1';
+	TEXT TAXON=1 CHARACTER=29 TEXT='1';
+	TEXT TAXON=2 CHARACTER=29 TEXT='1';
+	TEXT TAXON=3 CHARACTER=29 TEXT='1';
+	TEXT TAXON=4 CHARACTER=29 TEXT='1';
+	TEXT TAXON=5 CHARACTER=29 TEXT='1';
+	TEXT TAXON=6 CHARACTER=29 TEXT='1';
+	TEXT TAXON=7 CHARACTER=29 TEXT='1';
+	TEXT TAXON=17 CHARACTER=29 TEXT='1';
+	TEXT TAXON=14 CHARACTER=30 TEXT='1';
+	TEXT TAXON=8 CHARACTER=30 TEXT='1';
+	TEXT TAXON=20 CHARACTER=30 TEXT='1';
+	TEXT TAXON=9 CHARACTER=30 TEXT='1';
+	TEXT TAXON=10 CHARACTER=30 TEXT='1';
+	TEXT TAXON=11 CHARACTER=30 TEXT='1';
+	TEXT TAXON=12 CHARACTER=30 TEXT='1';
+	TEXT TAXON=13 CHARACTER=30 TEXT='1';
+	TEXT TAXON=15 CHARACTER=30 TEXT='1';
+	TEXT TAXON=16 CHARACTER=30 TEXT='1';
+	TEXT TAXON=18 CHARACTER=30 TEXT='1';
+	TEXT TAXON=19 CHARACTER=30 TEXT='1';
+	TEXT TAXON=21 CHARACTER=30 TEXT='1';
+	TEXT TAXON=22 CHARACTER=30 TEXT='1';
+	TEXT TAXON=23 CHARACTER=30 TEXT='1';
+	TEXT TAXON=24 CHARACTER=30 TEXT='1';
+	TEXT TAXON=25 CHARACTER=30 TEXT='1';
+	TEXT TAXON=26 CHARACTER=30 TEXT='1';
+	TEXT TAXON=27 CHARACTER=30 TEXT='1';
+	TEXT TAXON=28 CHARACTER=30 TEXT='1';
+	TEXT TAXON=1 CHARACTER=30 TEXT='1';
+	TEXT TAXON=2 CHARACTER=30 TEXT='1';
+	TEXT TAXON=3 CHARACTER=30 TEXT='1';
+	TEXT TAXON=4 CHARACTER=30 TEXT='1';
+	TEXT TAXON=5 CHARACTER=30 TEXT='1';
+	TEXT TAXON=6 CHARACTER=30 TEXT='1';
+	TEXT TAXON=7 CHARACTER=30 TEXT='1';
+	TEXT TAXON=17 CHARACTER=30 TEXT='1';
+	TEXT TAXON=14 CHARACTER=31 TEXT='1';
+	TEXT TAXON=8 CHARACTER=31 TEXT='1';
+	TEXT TAXON=20 CHARACTER=31 TEXT='1';
+	TEXT TAXON=9 CHARACTER=31 TEXT='1';
+	TEXT TAXON=10 CHARACTER=31 TEXT='1';
+	TEXT TAXON=11 CHARACTER=31 TEXT='1';
+	TEXT TAXON=12 CHARACTER=31 TEXT='1';
+	TEXT TAXON=13 CHARACTER=31 TEXT='1';
+	TEXT TAXON=15 CHARACTER=31 TEXT='1';
+	TEXT TAXON=16 CHARACTER=31 TEXT='1';
+	TEXT TAXON=18 CHARACTER=31 TEXT='1';
+	TEXT TAXON=19 CHARACTER=31 TEXT='1';
+	TEXT TAXON=21 CHARACTER=31 TEXT='1';
+	TEXT TAXON=22 CHARACTER=31 TEXT='1';
+	TEXT TAXON=23 CHARACTER=31 TEXT='1';
+	TEXT TAXON=24 CHARACTER=31 TEXT='1';
+	TEXT TAXON=25 CHARACTER=31 TEXT='1';
+	TEXT TAXON=26 CHARACTER=31 TEXT='1';
+	TEXT TAXON=27 CHARACTER=31 TEXT='1';
+	TEXT TAXON=28 CHARACTER=31 TEXT='1';
+	TEXT TAXON=1 CHARACTER=31 TEXT='1';
+	TEXT TAXON=2 CHARACTER=31 TEXT='1';
+	TEXT TAXON=3 CHARACTER=31 TEXT='1';
+	TEXT TAXON=4 CHARACTER=31 TEXT='1';
+	TEXT TAXON=5 CHARACTER=31 TEXT='1';
+	TEXT TAXON=6 CHARACTER=31 TEXT='1';
+	TEXT TAXON=7 CHARACTER=31 TEXT='1';
+	TEXT TAXON=17 CHARACTER=31 TEXT='1';
+	TEXT TAXON=14 CHARACTER=32 TEXT='1';
+	TEXT TAXON=8 CHARACTER=32 TEXT='1';
+	TEXT TAXON=20 CHARACTER=32 TEXT='1';
+	TEXT TAXON=9 CHARACTER=32 TEXT='1';
+	TEXT TAXON=10 CHARACTER=32 TEXT='1';
+	TEXT TAXON=11 CHARACTER=32 TEXT='1';
+	TEXT TAXON=12 CHARACTER=32 TEXT='1';
+	TEXT TAXON=13 CHARACTER=32 TEXT='1';
+	TEXT TAXON=15 CHARACTER=32 TEXT='1';
+	TEXT TAXON=16 CHARACTER=32 TEXT='1';
+	TEXT TAXON=18 CHARACTER=32 TEXT='1';
+	TEXT TAXON=19 CHARACTER=32 TEXT='1';
+	TEXT TAXON=21 CHARACTER=32 TEXT='1';
+	TEXT TAXON=22 CHARACTER=32 TEXT='1';
+	TEXT TAXON=23 CHARACTER=32 TEXT='1';
+	TEXT TAXON=24 CHARACTER=32 TEXT='1';
+	TEXT TAXON=25 CHARACTER=32 TEXT='1';
+	TEXT TAXON=26 CHARACTER=32 TEXT='1';
+	TEXT TAXON=27 CHARACTER=32 TEXT='1';
+	TEXT TAXON=28 CHARACTER=32 TEXT='1';
+	TEXT TAXON=1 CHARACTER=32 TEXT='1';
+	TEXT TAXON=2 CHARACTER=32 TEXT='1';
+	TEXT TAXON=3 CHARACTER=32 TEXT='1';
+	TEXT TAXON=4 CHARACTER=32 TEXT='1';
+	TEXT TAXON=5 CHARACTER=32 TEXT='1';
+	TEXT TAXON=6 CHARACTER=32 TEXT='1';
+	TEXT TAXON=7 CHARACTER=32 TEXT='1';
+	TEXT TAXON=17 CHARACTER=32 TEXT='1';
+	TEXT TAXON=14 CHARACTER=33 TEXT='1';
+	TEXT TAXON=8 CHARACTER=33 TEXT='1';
+	TEXT TAXON=20 CHARACTER=33 TEXT='1';
+	TEXT TAXON=9 CHARACTER=33 TEXT='1';
+	TEXT TAXON=10 CHARACTER=33 TEXT='1';
+	TEXT TAXON=11 CHARACTER=33 TEXT='1';
+	TEXT TAXON=12 CHARACTER=33 TEXT='1';
+	TEXT TAXON=13 CHARACTER=33 TEXT='1';
+	TEXT TAXON=15 CHARACTER=33 TEXT='1';
+	TEXT TAXON=16 CHARACTER=33 TEXT='1';
+	TEXT TAXON=18 CHARACTER=33 TEXT='1';
+	TEXT TAXON=19 CHARACTER=33 TEXT='1';
+	TEXT TAXON=21 CHARACTER=33 TEXT='1';
+	TEXT TAXON=22 CHARACTER=33 TEXT='1';
+	TEXT TAXON=23 CHARACTER=33 TEXT='1';
+	TEXT TAXON=24 CHARACTER=33 TEXT='1';
+	TEXT TAXON=25 CHARACTER=33 TEXT='1';
+	TEXT TAXON=26 CHARACTER=33 TEXT='1';
+	TEXT TAXON=27 CHARACTER=33 TEXT='1';
+	TEXT TAXON=28 CHARACTER=33 TEXT='1';
+	TEXT TAXON=1 CHARACTER=33 TEXT='1';
+	TEXT TAXON=2 CHARACTER=33 TEXT='1';
+	TEXT TAXON=3 CHARACTER=33 TEXT='1';
+	TEXT TAXON=4 CHARACTER=33 TEXT='1';
+	TEXT TAXON=5 CHARACTER=33 TEXT='1';
+	TEXT TAXON=6 CHARACTER=33 TEXT='1';
+	TEXT TAXON=7 CHARACTER=33 TEXT='1';
+	TEXT TAXON=17 CHARACTER=33 TEXT='1';
+	TEXT TAXON=14 CHARACTER=34 TEXT='1';
+	TEXT TAXON=8 CHARACTER=34 TEXT='1';
+	TEXT TAXON=20 CHARACTER=34 TEXT='1';
+	TEXT TAXON=9 CHARACTER=34 TEXT='1';
+	TEXT TAXON=10 CHARACTER=34 TEXT='1';
+	TEXT TAXON=11 CHARACTER=34 TEXT='1';
+	TEXT TAXON=12 CHARACTER=34 TEXT='1';
+	TEXT TAXON=13 CHARACTER=34 TEXT='1';
+	TEXT TAXON=15 CHARACTER=34 TEXT='1';
+	TEXT TAXON=16 CHARACTER=34 TEXT='1';
+	TEXT TAXON=18 CHARACTER=34 TEXT='1';
+	TEXT TAXON=19 CHARACTER=34 TEXT='1';
+	TEXT TAXON=21 CHARACTER=34 TEXT='1';
+	TEXT TAXON=22 CHARACTER=34 TEXT='1';
+	TEXT TAXON=23 CHARACTER=34 TEXT='1';
+	TEXT TAXON=24 CHARACTER=34 TEXT='1';
+	TEXT TAXON=25 CHARACTER=34 TEXT='1';
+	TEXT TAXON=26 CHARACTER=34 TEXT='1';
+	TEXT TAXON=27 CHARACTER=34 TEXT='1';
+	TEXT TAXON=28 CHARACTER=34 TEXT='1';
+	TEXT TAXON=1 CHARACTER=34 TEXT='1';
+	TEXT TAXON=2 CHARACTER=34 TEXT='1';
+	TEXT TAXON=3 CHARACTER=34 TEXT='1';
+	TEXT TAXON=4 CHARACTER=34 TEXT='1';
+	TEXT TAXON=5 CHARACTER=34 TEXT='1';
+	TEXT TAXON=6 CHARACTER=34 TEXT='1';
+	TEXT TAXON=7 CHARACTER=34 TEXT='1';
+	TEXT TAXON=17 CHARACTER=34 TEXT='1';
+	TEXT TAXON=14 CHARACTER=35 TEXT='1';
+	TEXT TAXON=8 CHARACTER=35 TEXT='1';
+	TEXT TAXON=20 CHARACTER=35 TEXT='1';
+	TEXT TAXON=9 CHARACTER=35 TEXT='1';
+	TEXT TAXON=10 CHARACTER=35 TEXT='1';
+	TEXT TAXON=11 CHARACTER=35 TEXT='1';
+	TEXT TAXON=12 CHARACTER=35 TEXT='1';
+	TEXT TAXON=13 CHARACTER=35 TEXT='1';
+	TEXT TAXON=15 CHARACTER=35 TEXT='1';
+	TEXT TAXON=16 CHARACTER=35 TEXT='1';
+	TEXT TAXON=18 CHARACTER=35 TEXT='1';
+	TEXT TAXON=19 CHARACTER=35 TEXT='1';
+	TEXT TAXON=21 CHARACTER=35 TEXT='1';
+	TEXT TAXON=22 CHARACTER=35 TEXT='1';
+	TEXT TAXON=23 CHARACTER=35 TEXT='1';
+	TEXT TAXON=24 CHARACTER=35 TEXT='1';
+	TEXT TAXON=25 CHARACTER=35 TEXT='1';
+	TEXT TAXON=26 CHARACTER=35 TEXT='1';
+	TEXT TAXON=27 CHARACTER=35 TEXT='1';
+	TEXT TAXON=28 CHARACTER=35 TEXT='1';
+	TEXT TAXON=1 CHARACTER=35 TEXT='1';
+	TEXT TAXON=2 CHARACTER=35 TEXT='1';
+	TEXT TAXON=3 CHARACTER=35 TEXT='1';
+	TEXT TAXON=4 CHARACTER=35 TEXT='1';
+	TEXT TAXON=5 CHARACTER=35 TEXT='1';
+	TEXT TAXON=6 CHARACTER=35 TEXT='1';
+	TEXT TAXON=7 CHARACTER=35 TEXT='1';
+	TEXT TAXON=17 CHARACTER=35 TEXT='1';
+	TEXT TAXON=14 CHARACTER=36 TEXT='1';
+	TEXT TAXON=8 CHARACTER=36 TEXT='1';
+	TEXT TAXON=20 CHARACTER=36 TEXT='1';
+	TEXT TAXON=9 CHARACTER=36 TEXT='1';
+	TEXT TAXON=10 CHARACTER=36 TEXT='1';
+	TEXT TAXON=11 CHARACTER=36 TEXT='1';
+	TEXT TAXON=12 CHARACTER=36 TEXT='1';
+	TEXT TAXON=13 CHARACTER=36 TEXT='1';
+	TEXT TAXON=15 CHARACTER=36 TEXT='1';
+	TEXT TAXON=16 CHARACTER=36 TEXT='1';
+	TEXT TAXON=18 CHARACTER=36 TEXT='1';
+	TEXT TAXON=19 CHARACTER=36 TEXT='1';
+	TEXT TAXON=21 CHARACTER=36 TEXT='1';
+	TEXT TAXON=22 CHARACTER=36 TEXT='1';
+	TEXT TAXON=23 CHARACTER=36 TEXT='1';
+	TEXT TAXON=24 CHARACTER=36 TEXT='1';
+	TEXT TAXON=25 CHARACTER=36 TEXT='1';
+	TEXT TAXON=26 CHARACTER=36 TEXT='1';
+	TEXT TAXON=27 CHARACTER=36 TEXT='1';
+	TEXT TAXON=28 CHARACTER=36 TEXT='1';
+	TEXT TAXON=1 CHARACTER=36 TEXT='1';
+	TEXT TAXON=2 CHARACTER=36 TEXT='1';
+	TEXT TAXON=3 CHARACTER=36 TEXT='1';
+	TEXT TAXON=4 CHARACTER=36 TEXT='1';
+	TEXT TAXON=5 CHARACTER=36 TEXT='1';
+	TEXT TAXON=6 CHARACTER=36 TEXT='1';
+	TEXT TAXON=7 CHARACTER=36 TEXT='1';
+	TEXT TAXON=17 CHARACTER=36 TEXT='1';
+	TEXT TAXON=14 CHARACTER=37 TEXT='1';
+	TEXT TAXON=8 CHARACTER=37 TEXT='1';
+	TEXT TAXON=20 CHARACTER=37 TEXT='1';
+	TEXT TAXON=9 CHARACTER=37 TEXT='1';
+	TEXT TAXON=10 CHARACTER=37 TEXT='1';
+	TEXT TAXON=11 CHARACTER=37 TEXT='1';
+	TEXT TAXON=12 CHARACTER=37 TEXT='1';
+	TEXT TAXON=13 CHARACTER=37 TEXT='1';
+	TEXT TAXON=15 CHARACTER=37 TEXT='1';
+	TEXT TAXON=16 CHARACTER=37 TEXT='1';
+	TEXT TAXON=18 CHARACTER=37 TEXT='1';
+	TEXT TAXON=19 CHARACTER=37 TEXT='1';
+	TEXT TAXON=21 CHARACTER=37 TEXT='1';
+	TEXT TAXON=22 CHARACTER=37 TEXT='1';
+	TEXT TAXON=23 CHARACTER=37 TEXT='1';
+	TEXT TAXON=24 CHARACTER=37 TEXT='1';
+	TEXT TAXON=25 CHARACTER=37 TEXT='1';
+	TEXT TAXON=26 CHARACTER=37 TEXT='1';
+	TEXT TAXON=27 CHARACTER=37 TEXT='1';
+	TEXT TAXON=28 CHARACTER=37 TEXT='1';
+	TEXT TAXON=1 CHARACTER=37 TEXT='1';
+	TEXT TAXON=2 CHARACTER=37 TEXT='1';
+	TEXT TAXON=3 CHARACTER=37 TEXT='1';
+	TEXT TAXON=4 CHARACTER=37 TEXT='1';
+	TEXT TAXON=5 CHARACTER=37 TEXT='1';
+	TEXT TAXON=6 CHARACTER=37 TEXT='1';
+	TEXT TAXON=7 CHARACTER=37 TEXT='1';
+	TEXT TAXON=17 CHARACTER=37 TEXT='1';
+	TEXT TAXON=14 CHARACTER=38 TEXT='1';
+	TEXT TAXON=8 CHARACTER=38 TEXT='1';
+	TEXT TAXON=20 CHARACTER=38 TEXT='1';
+	TEXT TAXON=9 CHARACTER=38 TEXT='1';
+	TEXT TAXON=10 CHARACTER=38 TEXT='1';
+	TEXT TAXON=11 CHARACTER=38 TEXT='1';
+	TEXT TAXON=12 CHARACTER=38 TEXT='1';
+	TEXT TAXON=13 CHARACTER=38 TEXT='1';
+	TEXT TAXON=15 CHARACTER=38 TEXT='1';
+	TEXT TAXON=16 CHARACTER=38 TEXT='1';
+	TEXT TAXON=18 CHARACTER=38 TEXT='1';
+	TEXT TAXON=19 CHARACTER=38 TEXT='1';
+	TEXT TAXON=21 CHARACTER=38 TEXT='1';
+	TEXT TAXON=22 CHARACTER=38 TEXT='1';
+	TEXT TAXON=23 CHARACTER=38 TEXT='1';
+	TEXT TAXON=24 CHARACTER=38 TEXT='1';
+	TEXT TAXON=25 CHARACTER=38 TEXT='1';
+	TEXT TAXON=26 CHARACTER=38 TEXT='1';
+	TEXT TAXON=27 CHARACTER=38 TEXT='1';
+	TEXT TAXON=28 CHARACTER=38 TEXT='1';
+	TEXT TAXON=1 CHARACTER=38 TEXT='1';
+	TEXT TAXON=2 CHARACTER=38 TEXT='1';
+	TEXT TAXON=3 CHARACTER=38 TEXT='1';
+	TEXT TAXON=4 CHARACTER=38 TEXT='1';
+	TEXT TAXON=5 CHARACTER=38 TEXT='1';
+	TEXT TAXON=6 CHARACTER=38 TEXT='1';
+	TEXT TAXON=7 CHARACTER=38 TEXT='1';
+	TEXT TAXON=17 CHARACTER=38 TEXT='1';
+	TEXT TAXON=14 CHARACTER=39 TEXT='1';
+	TEXT TAXON=8 CHARACTER=39 TEXT='1';
+	TEXT TAXON=20 CHARACTER=39 TEXT='1';
+	TEXT TAXON=9 CHARACTER=39 TEXT='1';
+	TEXT TAXON=10 CHARACTER=39 TEXT='1';
+	TEXT TAXON=11 CHARACTER=39 TEXT='1';
+	TEXT TAXON=12 CHARACTER=39 TEXT='1';
+	TEXT TAXON=13 CHARACTER=39 TEXT='1';
+	TEXT TAXON=15 CHARACTER=39 TEXT='1';
+	TEXT TAXON=16 CHARACTER=39 TEXT='1';
+	TEXT TAXON=18 CHARACTER=39 TEXT='1';
+	TEXT TAXON=19 CHARACTER=39 TEXT='1';
+	TEXT TAXON=21 CHARACTER=39 TEXT='1';
+	TEXT TAXON=22 CHARACTER=39 TEXT='1';
+	TEXT TAXON=23 CHARACTER=39 TEXT='1';
+	TEXT TAXON=24 CHARACTER=39 TEXT='1';
+	TEXT TAXON=25 CHARACTER=39 TEXT='1';
+	TEXT TAXON=26 CHARACTER=39 TEXT='1';
+	TEXT TAXON=27 CHARACTER=39 TEXT='1';
+	TEXT TAXON=28 CHARACTER=39 TEXT='1';
+	TEXT TAXON=1 CHARACTER=39 TEXT='1';
+	TEXT TAXON=2 CHARACTER=39 TEXT='1';
+	TEXT TAXON=3 CHARACTER=39 TEXT='1';
+	TEXT TAXON=4 CHARACTER=39 TEXT='1';
+	TEXT TAXON=5 CHARACTER=39 TEXT='1';
+	TEXT TAXON=6 CHARACTER=39 TEXT='1';
+	TEXT TAXON=7 CHARACTER=39 TEXT='1';
+	TEXT TAXON=17 CHARACTER=39 TEXT='1';
+	TEXT TAXON=14 CHARACTER=40 TEXT='1';
+	TEXT TAXON=8 CHARACTER=40 TEXT='1';
+	TEXT TAXON=20 CHARACTER=40 TEXT='1';
+	TEXT TAXON=9 CHARACTER=40 TEXT='1';
+	TEXT TAXON=10 CHARACTER=40 TEXT='1';
+	TEXT TAXON=11 CHARACTER=40 TEXT='1';
+	TEXT TAXON=12 CHARACTER=40 TEXT='1';
+	TEXT TAXON=13 CHARACTER=40 TEXT='1';
+	TEXT TAXON=15 CHARACTER=40 TEXT='1';
+	TEXT TAXON=16 CHARACTER=40 TEXT='1';
+	TEXT TAXON=18 CHARACTER=40 TEXT='1';
+	TEXT TAXON=19 CHARACTER=40 TEXT='1';
+	TEXT TAXON=21 CHARACTER=40 TEXT='1';
+	TEXT TAXON=22 CHARACTER=40 TEXT='1';
+	TEXT TAXON=23 CHARACTER=40 TEXT='1';
+	TEXT TAXON=24 CHARACTER=40 TEXT='1';
+	TEXT TAXON=25 CHARACTER=40 TEXT='1';
+	TEXT TAXON=26 CHARACTER=40 TEXT='1';
+	TEXT TAXON=27 CHARACTER=40 TEXT='1';
+	TEXT TAXON=28 CHARACTER=40 TEXT='1';
+	TEXT TAXON=1 CHARACTER=40 TEXT='1';
+	TEXT TAXON=2 CHARACTER=40 TEXT='1';
+	TEXT TAXON=3 CHARACTER=40 TEXT='1';
+	TEXT TAXON=4 CHARACTER=40 TEXT='1';
+	TEXT TAXON=5 CHARACTER=40 TEXT='1';
+	TEXT TAXON=6 CHARACTER=40 TEXT='1';
+	TEXT TAXON=7 CHARACTER=40 TEXT='1';
+	TEXT TAXON=17 CHARACTER=40 TEXT='1';
+	TEXT TAXON=14 CHARACTER=41 TEXT='1';
+	TEXT TAXON=8 CHARACTER=41 TEXT='1';
+	TEXT TAXON=20 CHARACTER=41 TEXT='1';
+	TEXT TAXON=9 CHARACTER=41 TEXT='1';
+	TEXT TAXON=10 CHARACTER=41 TEXT='1';
+	TEXT TAXON=11 CHARACTER=41 TEXT='1';
+	TEXT TAXON=12 CHARACTER=41 TEXT='1';
+	TEXT TAXON=13 CHARACTER=41 TEXT='1';
+	TEXT TAXON=15 CHARACTER=41 TEXT='1';
+	TEXT TAXON=16 CHARACTER=41 TEXT='1';
+	TEXT TAXON=18 CHARACTER=41 TEXT='1';
+	TEXT TAXON=19 CHARACTER=41 TEXT='1';
+	TEXT TAXON=21 CHARACTER=41 TEXT='1';
+	TEXT TAXON=22 CHARACTER=41 TEXT='1';
+	TEXT TAXON=23 CHARACTER=41 TEXT='1';
+	TEXT TAXON=24 CHARACTER=41 TEXT='1';
+	TEXT TAXON=25 CHARACTER=41 TEXT='1';
+	TEXT TAXON=26 CHARACTER=41 TEXT='1';
+	TEXT TAXON=27 CHARACTER=41 TEXT='1';
+	TEXT TAXON=28 CHARACTER=41 TEXT='1';
+	TEXT TAXON=1 CHARACTER=41 TEXT='1';
+	TEXT TAXON=2 CHARACTER=41 TEXT='1';
+	TEXT TAXON=3 CHARACTER=41 TEXT='1';
+	TEXT TAXON=4 CHARACTER=41 TEXT='1';
+	TEXT TAXON=5 CHARACTER=41 TEXT='1';
+	TEXT TAXON=6 CHARACTER=41 TEXT='1';
+	TEXT TAXON=7 CHARACTER=41 TEXT='1';
+	TEXT TAXON=17 CHARACTER=41 TEXT='1';
+	TEXT TAXON=14 CHARACTER=42 TEXT='1';
+	TEXT TAXON=8 CHARACTER=42 TEXT='1';
+	TEXT TAXON=20 CHARACTER=42 TEXT='1';
+	TEXT TAXON=9 CHARACTER=42 TEXT='1';
+	TEXT TAXON=10 CHARACTER=42 TEXT='1';
+	TEXT TAXON=11 CHARACTER=42 TEXT='1';
+	TEXT TAXON=12 CHARACTER=42 TEXT='1';
+	TEXT TAXON=13 CHARACTER=42 TEXT='1';
+	TEXT TAXON=15 CHARACTER=42 TEXT='1';
+	TEXT TAXON=16 CHARACTER=42 TEXT='1';
+	TEXT TAXON=18 CHARACTER=42 TEXT='1';
+	TEXT TAXON=19 CHARACTER=42 TEXT='1';
+	TEXT TAXON=21 CHARACTER=42 TEXT='1';
+	TEXT TAXON=22 CHARACTER=42 TEXT='1';
+	TEXT TAXON=23 CHARACTER=42 TEXT='1';
+	TEXT TAXON=24 CHARACTER=42 TEXT='1';
+	TEXT TAXON=25 CHARACTER=42 TEXT='1';
+	TEXT TAXON=26 CHARACTER=42 TEXT='1';
+	TEXT TAXON=27 CHARACTER=42 TEXT='1';
+	TEXT TAXON=28 CHARACTER=42 TEXT='1';
+	TEXT TAXON=1 CHARACTER=42 TEXT='1';
+	TEXT TAXON=2 CHARACTER=42 TEXT='1';
+	TEXT TAXON=3 CHARACTER=42 TEXT='1';
+	TEXT TAXON=4 CHARACTER=42 TEXT='1';
+	TEXT TAXON=5 CHARACTER=42 TEXT='1';
+	TEXT TAXON=6 CHARACTER=42 TEXT='1';
+	TEXT TAXON=7 CHARACTER=42 TEXT='1';
+	TEXT TAXON=17 CHARACTER=42 TEXT='1';
+	TEXT TAXON=14 CHARACTER=43 TEXT='1';
+	TEXT TAXON=8 CHARACTER=43 TEXT='1';
+	TEXT TAXON=20 CHARACTER=43 TEXT='1';
+	TEXT TAXON=9 CHARACTER=43 TEXT='1';
+	TEXT TAXON=10 CHARACTER=43 TEXT='1';
+	TEXT TAXON=11 CHARACTER=43 TEXT='1';
+	TEXT TAXON=12 CHARACTER=43 TEXT='1';
+	TEXT TAXON=13 CHARACTER=43 TEXT='1';
+	TEXT TAXON=15 CHARACTER=43 TEXT='1';
+	TEXT TAXON=16 CHARACTER=43 TEXT='1';
+	TEXT TAXON=18 CHARACTER=43 TEXT='1';
+	TEXT TAXON=19 CHARACTER=43 TEXT='1';
+	TEXT TAXON=21 CHARACTER=43 TEXT='1';
+	TEXT TAXON=22 CHARACTER=43 TEXT='1';
+	TEXT TAXON=23 CHARACTER=43 TEXT='1';
+	TEXT TAXON=24 CHARACTER=43 TEXT='1';
+	TEXT TAXON=25 CHARACTER=43 TEXT='1';
+	TEXT TAXON=26 CHARACTER=43 TEXT='1';
+	TEXT TAXON=27 CHARACTER=43 TEXT='1';
+	TEXT TAXON=28 CHARACTER=43 TEXT='1';
+	TEXT TAXON=1 CHARACTER=43 TEXT='1';
+	TEXT TAXON=2 CHARACTER=43 TEXT='1';
+	TEXT TAXON=3 CHARACTER=43 TEXT='1';
+	TEXT TAXON=4 CHARACTER=43 TEXT='1';
+	TEXT TAXON=5 CHARACTER=43 TEXT='1';
+	TEXT TAXON=6 CHARACTER=43 TEXT='1';
+	TEXT TAXON=7 CHARACTER=43 TEXT='1';
+	TEXT TAXON=17 CHARACTER=43 TEXT='1';
+	TEXT TAXON=14 CHARACTER=44 TEXT='1';
+	TEXT TAXON=8 CHARACTER=44 TEXT='1';
+	TEXT TAXON=20 CHARACTER=44 TEXT='1';
+	TEXT TAXON=9 CHARACTER=44 TEXT='1';
+	TEXT TAXON=10 CHARACTER=44 TEXT='1';
+	TEXT TAXON=11 CHARACTER=44 TEXT='1';
+	TEXT TAXON=12 CHARACTER=44 TEXT='1';
+	TEXT TAXON=13 CHARACTER=44 TEXT='1';
+	TEXT TAXON=15 CHARACTER=44 TEXT='1';
+	TEXT TAXON=16 CHARACTER=44 TEXT='1';
+	TEXT TAXON=18 CHARACTER=44 TEXT='1';
+	TEXT TAXON=19 CHARACTER=44 TEXT='1';
+	TEXT TAXON=21 CHARACTER=44 TEXT='1';
+	TEXT TAXON=22 CHARACTER=44 TEXT='1';
+	TEXT TAXON=23 CHARACTER=44 TEXT='1';
+	TEXT TAXON=24 CHARACTER=44 TEXT='1';
+	TEXT TAXON=25 CHARACTER=44 TEXT='1';
+	TEXT TAXON=26 CHARACTER=44 TEXT='1';
+	TEXT TAXON=27 CHARACTER=44 TEXT='1';
+	TEXT TAXON=28 CHARACTER=44 TEXT='1';
+	TEXT TAXON=1 CHARACTER=44 TEXT='1';
+	TEXT TAXON=2 CHARACTER=44 TEXT='1';
+	TEXT TAXON=3 CHARACTER=44 TEXT='1';
+	TEXT TAXON=4 CHARACTER=44 TEXT='1';
+	TEXT TAXON=5 CHARACTER=44 TEXT='1';
+	TEXT TAXON=6 CHARACTER=44 TEXT='1';
+	TEXT TAXON=7 CHARACTER=44 TEXT='1';
+	TEXT TAXON=17 CHARACTER=44 TEXT='1';
+	TEXT TAXON=14 CHARACTER=45 TEXT='1';
+	TEXT TAXON=8 CHARACTER=45 TEXT='1';
+	TEXT TAXON=20 CHARACTER=45 TEXT='1';
+	TEXT TAXON=9 CHARACTER=45 TEXT='1';
+	TEXT TAXON=10 CHARACTER=45 TEXT='1';
+	TEXT TAXON=11 CHARACTER=45 TEXT='1';
+	TEXT TAXON=12 CHARACTER=45 TEXT='1';
+	TEXT TAXON=13 CHARACTER=45 TEXT='1';
+	TEXT TAXON=15 CHARACTER=45 TEXT='1';
+	TEXT TAXON=16 CHARACTER=45 TEXT='1';
+	TEXT TAXON=18 CHARACTER=45 TEXT='1';
+	TEXT TAXON=19 CHARACTER=45 TEXT='1';
+	TEXT TAXON=21 CHARACTER=45 TEXT='1';
+	TEXT TAXON=22 CHARACTER=45 TEXT='1';
+	TEXT TAXON=23 CHARACTER=45 TEXT='1';
+	TEXT TAXON=24 CHARACTER=45 TEXT='1';
+	TEXT TAXON=25 CHARACTER=45 TEXT='1';
+	TEXT TAXON=26 CHARACTER=45 TEXT='1';
+	TEXT TAXON=27 CHARACTER=45 TEXT='1';
+	TEXT TAXON=28 CHARACTER=45 TEXT='1';
+	TEXT TAXON=1 CHARACTER=45 TEXT='1';
+	TEXT TAXON=2 CHARACTER=45 TEXT='1';
+	TEXT TAXON=3 CHARACTER=45 TEXT='1';
+	TEXT TAXON=4 CHARACTER=45 TEXT='1';
+	TEXT TAXON=5 CHARACTER=45 TEXT='1';
+	TEXT TAXON=6 CHARACTER=45 TEXT='1';
+	TEXT TAXON=7 CHARACTER=45 TEXT='1';
+	TEXT TAXON=17 CHARACTER=45 TEXT='1';
+	TEXT TAXON=14 CHARACTER=46 TEXT='1';
+	TEXT TAXON=8 CHARACTER=46 TEXT='1';
+	TEXT TAXON=20 CHARACTER=46 TEXT='1';
+	TEXT TAXON=9 CHARACTER=46 TEXT='1';
+	TEXT TAXON=10 CHARACTER=46 TEXT='1';
+	TEXT TAXON=11 CHARACTER=46 TEXT='1';
+	TEXT TAXON=12 CHARACTER=46 TEXT='1';
+	TEXT TAXON=13 CHARACTER=46 TEXT='1';
+	TEXT TAXON=15 CHARACTER=46 TEXT='1';
+	TEXT TAXON=16 CHARACTER=46 TEXT='1';
+	TEXT TAXON=18 CHARACTER=46 TEXT='1';
+	TEXT TAXON=19 CHARACTER=46 TEXT='1';
+	TEXT TAXON=21 CHARACTER=46 TEXT='1';
+	TEXT TAXON=22 CHARACTER=46 TEXT='1';
+	TEXT TAXON=23 CHARACTER=46 TEXT='1';
+	TEXT TAXON=24 CHARACTER=46 TEXT='1';
+	TEXT TAXON=25 CHARACTER=46 TEXT='1';
+	TEXT TAXON=26 CHARACTER=46 TEXT='1';
+	TEXT TAXON=27 CHARACTER=46 TEXT='1';
+	TEXT TAXON=28 CHARACTER=46 TEXT='1';
+	TEXT TAXON=1 CHARACTER=46 TEXT='1';
+	TEXT TAXON=2 CHARACTER=46 TEXT='1';
+	TEXT TAXON=3 CHARACTER=46 TEXT='1';
+	TEXT TAXON=4 CHARACTER=46 TEXT='1';
+	TEXT TAXON=5 CHARACTER=46 TEXT='1';
+	TEXT TAXON=6 CHARACTER=46 TEXT='1';
+	TEXT TAXON=7 CHARACTER=46 TEXT='1';
+	TEXT TAXON=17 CHARACTER=46 TEXT='1';
+	TEXT TAXON=14 CHARACTER=47 TEXT='1';
+	TEXT TAXON=8 CHARACTER=47 TEXT='1';
+	TEXT TAXON=20 CHARACTER=47 TEXT='1';
+	TEXT TAXON=9 CHARACTER=47 TEXT='1';
+	TEXT TAXON=10 CHARACTER=47 TEXT='1';
+	TEXT TAXON=11 CHARACTER=47 TEXT='1';
+	TEXT TAXON=12 CHARACTER=47 TEXT='1';
+	TEXT TAXON=13 CHARACTER=47 TEXT='1';
+	TEXT TAXON=15 CHARACTER=47 TEXT='1';
+	TEXT TAXON=16 CHARACTER=47 TEXT='1';
+	TEXT TAXON=18 CHARACTER=47 TEXT='1';
+	TEXT TAXON=19 CHARACTER=47 TEXT='1';
+	TEXT TAXON=21 CHARACTER=47 TEXT='1';
+	TEXT TAXON=22 CHARACTER=47 TEXT='1';
+	TEXT TAXON=23 CHARACTER=47 TEXT='1';
+	TEXT TAXON=24 CHARACTER=47 TEXT='1';
+	TEXT TAXON=25 CHARACTER=47 TEXT='1';
+	TEXT TAXON=26 CHARACTER=47 TEXT='1';
+	TEXT TAXON=27 CHARACTER=47 TEXT='1';
+	TEXT TAXON=28 CHARACTER=47 TEXT='1';
+	TEXT TAXON=1 CHARACTER=47 TEXT='1';
+	TEXT TAXON=2 CHARACTER=47 TEXT='1';
+	TEXT TAXON=3 CHARACTER=47 TEXT='1';
+	TEXT TAXON=4 CHARACTER=47 TEXT='1';
+	TEXT TAXON=5 CHARACTER=47 TEXT='1';
+	TEXT TAXON=6 CHARACTER=47 TEXT='1';
+	TEXT TAXON=7 CHARACTER=47 TEXT='1';
+	TEXT TAXON=17 CHARACTER=47 TEXT='1';
+	TEXT TAXON=14 CHARACTER=48 TEXT='1';
+	TEXT TAXON=8 CHARACTER=48 TEXT='1';
+	TEXT TAXON=20 CHARACTER=48 TEXT='1';
+	TEXT TAXON=9 CHARACTER=48 TEXT='1';
+	TEXT TAXON=10 CHARACTER=48 TEXT='1';
+	TEXT TAXON=11 CHARACTER=48 TEXT='1';
+	TEXT TAXON=12 CHARACTER=48 TEXT='1';
+	TEXT TAXON=13 CHARACTER=48 TEXT='1';
+	TEXT TAXON=15 CHARACTER=48 TEXT='1';
+	TEXT TAXON=16 CHARACTER=48 TEXT='1';
+	TEXT TAXON=18 CHARACTER=48 TEXT='1';
+	TEXT TAXON=19 CHARACTER=48 TEXT='1';
+	TEXT TAXON=21 CHARACTER=48 TEXT='1';
+	TEXT TAXON=22 CHARACTER=48 TEXT='1';
+	TEXT TAXON=23 CHARACTER=48 TEXT='1';
+	TEXT TAXON=24 CHARACTER=48 TEXT='1';
+	TEXT TAXON=25 CHARACTER=48 TEXT='1';
+	TEXT TAXON=26 CHARACTER=48 TEXT='1';
+	TEXT TAXON=27 CHARACTER=48 TEXT='1';
+	TEXT TAXON=28 CHARACTER=48 TEXT='1';
+	TEXT TAXON=1 CHARACTER=48 TEXT='1';
+	TEXT TAXON=2 CHARACTER=48 TEXT='1';
+	TEXT TAXON=3 CHARACTER=48 TEXT='1';
+	TEXT TAXON=4 CHARACTER=48 TEXT='1';
+	TEXT TAXON=5 CHARACTER=48 TEXT='1';
+	TEXT TAXON=6 CHARACTER=48 TEXT='1';
+	TEXT TAXON=7 CHARACTER=48 TEXT='1';
+	TEXT TAXON=17 CHARACTER=48 TEXT='1';
+	TEXT TAXON=14 CHARACTER=49 TEXT='1';
+	TEXT TAXON=8 CHARACTER=49 TEXT='1';
+	TEXT TAXON=20 CHARACTER=49 TEXT='1';
+	TEXT TAXON=9 CHARACTER=49 TEXT='1';
+	TEXT TAXON=10 CHARACTER=49 TEXT='1';
+	TEXT TAXON=11 CHARACTER=49 TEXT='1';
+	TEXT TAXON=12 CHARACTER=49 TEXT='1';
+	TEXT TAXON=13 CHARACTER=49 TEXT='1';
+	TEXT TAXON=15 CHARACTER=49 TEXT='1';
+	TEXT TAXON=16 CHARACTER=49 TEXT='1';
+	TEXT TAXON=18 CHARACTER=49 TEXT='1';
+	TEXT TAXON=19 CHARACTER=49 TEXT='1';
+	TEXT TAXON=21 CHARACTER=49 TEXT='1';
+	TEXT TAXON=22 CHARACTER=49 TEXT='1';
+	TEXT TAXON=23 CHARACTER=49 TEXT='1';
+	TEXT TAXON=24 CHARACTER=49 TEXT='1';
+	TEXT TAXON=25 CHARACTER=49 TEXT='1';
+	TEXT TAXON=26 CHARACTER=49 TEXT='1';
+	TEXT TAXON=27 CHARACTER=49 TEXT='1';
+	TEXT TAXON=28 CHARACTER=49 TEXT='1';
+	TEXT TAXON=1 CHARACTER=49 TEXT='1';
+	TEXT TAXON=2 CHARACTER=49 TEXT='1';
+	TEXT TAXON=3 CHARACTER=49 TEXT='1';
+	TEXT TAXON=4 CHARACTER=49 TEXT='1';
+	TEXT TAXON=5 CHARACTER=49 TEXT='1';
+	TEXT TAXON=6 CHARACTER=49 TEXT='1';
+	TEXT TAXON=7 CHARACTER=49 TEXT='1';
+	TEXT TAXON=17 CHARACTER=49 TEXT='1';
+	TEXT TAXON=14 CHARACTER=50 TEXT='1';
+	TEXT TAXON=8 CHARACTER=50 TEXT='1';
+	TEXT TAXON=20 CHARACTER=50 TEXT='1';
+	TEXT TAXON=9 CHARACTER=50 TEXT='1';
+	TEXT TAXON=10 CHARACTER=50 TEXT='1';
+	TEXT TAXON=11 CHARACTER=50 TEXT='1';
+	TEXT TAXON=12 CHARACTER=50 TEXT='1';
+	TEXT TAXON=13 CHARACTER=50 TEXT='1';
+	TEXT TAXON=15 CHARACTER=50 TEXT='1';
+	TEXT TAXON=16 CHARACTER=50 TEXT='1';
+	TEXT TAXON=18 CHARACTER=50 TEXT='1';
+	TEXT TAXON=19 CHARACTER=50 TEXT='1';
+	TEXT TAXON=21 CHARACTER=50 TEXT='1';
+	TEXT TAXON=22 CHARACTER=50 TEXT='1';
+	TEXT TAXON=23 CHARACTER=50 TEXT='1';
+	TEXT TAXON=24 CHARACTER=50 TEXT='1';
+	TEXT TAXON=25 CHARACTER=50 TEXT='1';
+	TEXT TAXON=26 CHARACTER=50 TEXT='1';
+	TEXT TAXON=27 CHARACTER=50 TEXT='1';
+	TEXT TAXON=28 CHARACTER=50 TEXT='1';
+	TEXT TAXON=1 CHARACTER=50 TEXT='1';
+	TEXT TAXON=2 CHARACTER=50 TEXT='1';
+	TEXT TAXON=3 CHARACTER=50 TEXT='1';
+	TEXT TAXON=4 CHARACTER=50 TEXT='1';
+	TEXT TAXON=5 CHARACTER=50 TEXT='1';
+	TEXT TAXON=6 CHARACTER=50 TEXT='1';
+	TEXT TAXON=7 CHARACTER=50 TEXT='1';
+	TEXT TAXON=17 CHARACTER=50 TEXT='1';
+	TEXT TAXON=14 CHARACTER=51 TEXT='1';
+	TEXT TAXON=8 CHARACTER=51 TEXT='1';
+	TEXT TAXON=20 CHARACTER=51 TEXT='1';
+	TEXT TAXON=9 CHARACTER=51 TEXT='1';
+	TEXT TAXON=10 CHARACTER=51 TEXT='1';
+	TEXT TAXON=11 CHARACTER=51 TEXT='1';
+	TEXT TAXON=12 CHARACTER=51 TEXT='1';
+	TEXT TAXON=13 CHARACTER=51 TEXT='1';
+	TEXT TAXON=15 CHARACTER=51 TEXT='1';
+	TEXT TAXON=16 CHARACTER=51 TEXT='1';
+	TEXT TAXON=18 CHARACTER=51 TEXT='1';
+	TEXT TAXON=19 CHARACTER=51 TEXT='1';
+	TEXT TAXON=21 CHARACTER=51 TEXT='1';
+	TEXT TAXON=22 CHARACTER=51 TEXT='1';
+	TEXT TAXON=23 CHARACTER=51 TEXT='1';
+	TEXT TAXON=24 CHARACTER=51 TEXT='1';
+	TEXT TAXON=25 CHARACTER=51 TEXT='1';
+	TEXT TAXON=26 CHARACTER=51 TEXT='1';
+	TEXT TAXON=27 CHARACTER=51 TEXT='1';
+	TEXT TAXON=28 CHARACTER=51 TEXT='1';
+	TEXT TAXON=1 CHARACTER=51 TEXT='1';
+	TEXT TAXON=2 CHARACTER=51 TEXT='1';
+	TEXT TAXON=3 CHARACTER=51 TEXT='1';
+	TEXT TAXON=4 CHARACTER=51 TEXT='1';
+	TEXT TAXON=5 CHARACTER=51 TEXT='1';
+	TEXT TAXON=6 CHARACTER=51 TEXT='1';
+	TEXT TAXON=7 CHARACTER=51 TEXT='1';
+	TEXT TAXON=17 CHARACTER=51 TEXT='1';
+	TEXT TAXON=14 CHARACTER=52 TEXT='1';
+	TEXT TAXON=8 CHARACTER=52 TEXT='1';
+	TEXT TAXON=20 CHARACTER=52 TEXT='1';
+	TEXT TAXON=9 CHARACTER=52 TEXT='1';
+	TEXT TAXON=10 CHARACTER=52 TEXT='1';
+	TEXT TAXON=11 CHARACTER=52 TEXT='1';
+	TEXT TAXON=12 CHARACTER=52 TEXT='1';
+	TEXT TAXON=13 CHARACTER=52 TEXT='1';
+	TEXT TAXON=15 CHARACTER=52 TEXT='1';
+	TEXT TAXON=16 CHARACTER=52 TEXT='1';
+	TEXT TAXON=18 CHARACTER=52 TEXT='1';
+	TEXT TAXON=19 CHARACTER=52 TEXT='1';
+	TEXT TAXON=21 CHARACTER=52 TEXT='1';
+	TEXT TAXON=22 CHARACTER=52 TEXT='1';
+	TEXT TAXON=23 CHARACTER=52 TEXT='1';
+	TEXT TAXON=24 CHARACTER=52 TEXT='1';
+	TEXT TAXON=25 CHARACTER=52 TEXT='1';
+	TEXT TAXON=26 CHARACTER=52 TEXT='1';
+	TEXT TAXON=27 CHARACTER=52 TEXT='1';
+	TEXT TAXON=28 CHARACTER=52 TEXT='1';
+	TEXT TAXON=1 CHARACTER=52 TEXT='1';
+	TEXT TAXON=2 CHARACTER=52 TEXT='1';
+	TEXT TAXON=3 CHARACTER=52 TEXT='1';
+	TEXT TAXON=4 CHARACTER=52 TEXT='1';
+	TEXT TAXON=5 CHARACTER=52 TEXT='1';
+	TEXT TAXON=6 CHARACTER=52 TEXT='1';
+	TEXT TAXON=7 CHARACTER=52 TEXT='1';
+	TEXT TAXON=17 CHARACTER=52 TEXT='1';
+	TEXT TAXON=14 CHARACTER=53 TEXT='1';
+	TEXT TAXON=8 CHARACTER=53 TEXT='1';
+	TEXT TAXON=20 CHARACTER=53 TEXT='1';
+	TEXT TAXON=9 CHARACTER=53 TEXT='1';
+	TEXT TAXON=10 CHARACTER=53 TEXT='1';
+	TEXT TAXON=11 CHARACTER=53 TEXT='1';
+	TEXT TAXON=12 CHARACTER=53 TEXT='1';
+	TEXT TAXON=13 CHARACTER=53 TEXT='1';
+	TEXT TAXON=15 CHARACTER=53 TEXT='1';
+	TEXT TAXON=16 CHARACTER=53 TEXT='1';
+	TEXT TAXON=18 CHARACTER=53 TEXT='1';
+	TEXT TAXON=19 CHARACTER=53 TEXT='1';
+	TEXT TAXON=21 CHARACTER=53 TEXT='1';
+	TEXT TAXON=22 CHARACTER=53 TEXT='1';
+	TEXT TAXON=23 CHARACTER=53 TEXT='1';
+	TEXT TAXON=24 CHARACTER=53 TEXT='1';
+	TEXT TAXON=25 CHARACTER=53 TEXT='1';
+	TEXT TAXON=26 CHARACTER=53 TEXT='1';
+	TEXT TAXON=27 CHARACTER=53 TEXT='1';
+	TEXT TAXON=28 CHARACTER=53 TEXT='1';
+	TEXT TAXON=1 CHARACTER=53 TEXT='1';
+	TEXT TAXON=2 CHARACTER=53 TEXT='1';
+	TEXT TAXON=3 CHARACTER=53 TEXT='1';
+	TEXT TAXON=4 CHARACTER=53 TEXT='1';
+	TEXT TAXON=5 CHARACTER=53 TEXT='1';
+	TEXT TAXON=6 CHARACTER=53 TEXT='1';
+	TEXT TAXON=7 CHARACTER=53 TEXT='1';
+	TEXT TAXON=17 CHARACTER=53 TEXT='1';
+	TEXT TAXON=14 CHARACTER=54 TEXT='1';
+	TEXT TAXON=8 CHARACTER=54 TEXT='1';
+	TEXT TAXON=20 CHARACTER=54 TEXT='1';
+	TEXT TAXON=9 CHARACTER=54 TEXT='1';
+	TEXT TAXON=10 CHARACTER=54 TEXT='1';
+	TEXT TAXON=11 CHARACTER=54 TEXT='1';
+	TEXT TAXON=12 CHARACTER=54 TEXT='1';
+	TEXT TAXON=13 CHARACTER=54 TEXT='1';
+	TEXT TAXON=15 CHARACTER=54 TEXT='1';
+	TEXT TAXON=16 CHARACTER=54 TEXT='1';
+	TEXT TAXON=18 CHARACTER=54 TEXT='1';
+	TEXT TAXON=19 CHARACTER=54 TEXT='1';
+	TEXT TAXON=21 CHARACTER=54 TEXT='1';
+	TEXT TAXON=22 CHARACTER=54 TEXT='1';
+	TEXT TAXON=23 CHARACTER=54 TEXT='1';
+	TEXT TAXON=24 CHARACTER=54 TEXT='1';
+	TEXT TAXON=25 CHARACTER=54 TEXT='1';
+	TEXT TAXON=26 CHARACTER=54 TEXT='1';
+	TEXT TAXON=27 CHARACTER=54 TEXT='1';
+	TEXT TAXON=28 CHARACTER=54 TEXT='1';
+	TEXT TAXON=1 CHARACTER=54 TEXT='1';
+	TEXT TAXON=2 CHARACTER=54 TEXT='1';
+	TEXT TAXON=3 CHARACTER=54 TEXT='1';
+	TEXT TAXON=4 CHARACTER=54 TEXT='1';
+	TEXT TAXON=5 CHARACTER=54 TEXT='1';
+	TEXT TAXON=6 CHARACTER=54 TEXT='1';
+	TEXT TAXON=7 CHARACTER=54 TEXT='1';
+	TEXT TAXON=17 CHARACTER=54 TEXT='1';
+	TEXT TAXON=14 CHARACTER=55 TEXT='1';
+	TEXT TAXON=8 CHARACTER=55 TEXT='1';
+	TEXT TAXON=20 CHARACTER=55 TEXT='1';
+	TEXT TAXON=9 CHARACTER=55 TEXT='1';
+	TEXT TAXON=10 CHARACTER=55 TEXT='1';
+	TEXT TAXON=11 CHARACTER=55 TEXT='1';
+	TEXT TAXON=12 CHARACTER=55 TEXT='1';
+	TEXT TAXON=13 CHARACTER=55 TEXT='1';
+	TEXT TAXON=15 CHARACTER=55 TEXT='1';
+	TEXT TAXON=16 CHARACTER=55 TEXT='1';
+	TEXT TAXON=18 CHARACTER=55 TEXT='1';
+	TEXT TAXON=19 CHARACTER=55 TEXT='1';
+	TEXT TAXON=21 CHARACTER=55 TEXT='1';
+	TEXT TAXON=22 CHARACTER=55 TEXT='1';
+	TEXT TAXON=23 CHARACTER=55 TEXT='1';
+	TEXT TAXON=24 CHARACTER=55 TEXT='1';
+	TEXT TAXON=25 CHARACTER=55 TEXT='1';
+	TEXT TAXON=26 CHARACTER=55 TEXT='1';
+	TEXT TAXON=27 CHARACTER=55 TEXT='1';
+	TEXT TAXON=28 CHARACTER=55 TEXT='1';
+	TEXT TAXON=1 CHARACTER=55 TEXT='1';
+	TEXT TAXON=2 CHARACTER=55 TEXT='1';
+	TEXT TAXON=3 CHARACTER=55 TEXT='1';
+	TEXT TAXON=4 CHARACTER=55 TEXT='1';
+	TEXT TAXON=5 CHARACTER=55 TEXT='1';
+	TEXT TAXON=6 CHARACTER=55 TEXT='1';
+	TEXT TAXON=7 CHARACTER=55 TEXT='1';
+	TEXT TAXON=17 CHARACTER=55 TEXT='1';
+	TEXT TAXON=14 CHARACTER=56 TEXT='1';
+	TEXT TAXON=8 CHARACTER=56 TEXT='1';
+	TEXT TAXON=20 CHARACTER=56 TEXT='1';
+	TEXT TAXON=9 CHARACTER=56 TEXT='1';
+	TEXT TAXON=10 CHARACTER=56 TEXT='1';
+	TEXT TAXON=11 CHARACTER=56 TEXT='1';
+	TEXT TAXON=12 CHARACTER=56 TEXT='1';
+	TEXT TAXON=13 CHARACTER=56 TEXT='1';
+	TEXT TAXON=15 CHARACTER=56 TEXT='1';
+	TEXT TAXON=16 CHARACTER=56 TEXT='1';
+	TEXT TAXON=18 CHARACTER=56 TEXT='1';
+	TEXT TAXON=19 CHARACTER=56 TEXT='1';
+	TEXT TAXON=21 CHARACTER=56 TEXT='1';
+	TEXT TAXON=22 CHARACTER=56 TEXT='1';
+	TEXT TAXON=23 CHARACTER=56 TEXT='1';
+	TEXT TAXON=24 CHARACTER=56 TEXT='1';
+	TEXT TAXON=25 CHARACTER=56 TEXT='1';
+	TEXT TAXON=26 CHARACTER=56 TEXT='1';
+	TEXT TAXON=27 CHARACTER=56 TEXT='1';
+	TEXT TAXON=28 CHARACTER=56 TEXT='1';
+	TEXT TAXON=1 CHARACTER=56 TEXT='1';
+	TEXT TAXON=2 CHARACTER=56 TEXT='1';
+	TEXT TAXON=3 CHARACTER=56 TEXT='1';
+	TEXT TAXON=4 CHARACTER=56 TEXT='1';
+	TEXT TAXON=5 CHARACTER=56 TEXT='1';
+	TEXT TAXON=6 CHARACTER=56 TEXT='1';
+	TEXT TAXON=7 CHARACTER=56 TEXT='1';
+	TEXT TAXON=17 CHARACTER=56 TEXT='1';
+	TEXT TAXON=14 CHARACTER=57 TEXT='1';
+	TEXT TAXON=8 CHARACTER=57 TEXT='1';
+	TEXT TAXON=20 CHARACTER=57 TEXT='1';
+	TEXT TAXON=9 CHARACTER=57 TEXT='1';
+	TEXT TAXON=10 CHARACTER=57 TEXT='1';
+	TEXT TAXON=11 CHARACTER=57 TEXT='1';
+	TEXT TAXON=12 CHARACTER=57 TEXT='1';
+	TEXT TAXON=13 CHARACTER=57 TEXT='1';
+	TEXT TAXON=15 CHARACTER=57 TEXT='1';
+	TEXT TAXON=16 CHARACTER=57 TEXT='1';
+	TEXT TAXON=18 CHARACTER=57 TEXT='1';
+	TEXT TAXON=19 CHARACTER=57 TEXT='1';
+	TEXT TAXON=21 CHARACTER=57 TEXT='1';
+	TEXT TAXON=22 CHARACTER=57 TEXT='1';
+	TEXT TAXON=23 CHARACTER=57 TEXT='1';
+	TEXT TAXON=24 CHARACTER=57 TEXT='1';
+	TEXT TAXON=25 CHARACTER=57 TEXT='1';
+	TEXT TAXON=26 CHARACTER=57 TEXT='1';
+	TEXT TAXON=27 CHARACTER=57 TEXT='1';
+	TEXT TAXON=28 CHARACTER=57 TEXT='1';
+	TEXT TAXON=1 CHARACTER=57 TEXT='1';
+	TEXT TAXON=2 CHARACTER=57 TEXT='1';
+	TEXT TAXON=3 CHARACTER=57 TEXT='1';
+	TEXT TAXON=4 CHARACTER=57 TEXT='1';
+	TEXT TAXON=5 CHARACTER=57 TEXT='1';
+	TEXT TAXON=6 CHARACTER=57 TEXT='1';
+	TEXT TAXON=7 CHARACTER=57 TEXT='1';
+	TEXT TAXON=17 CHARACTER=57 TEXT='1';
+	TEXT TAXON=14 CHARACTER=58 TEXT='1';
+	TEXT TAXON=8 CHARACTER=58 TEXT='1';
+	TEXT TAXON=20 CHARACTER=58 TEXT='1';
+	TEXT TAXON=9 CHARACTER=58 TEXT='1';
+	TEXT TAXON=10 CHARACTER=58 TEXT='1';
+	TEXT TAXON=11 CHARACTER=58 TEXT='1';
+	TEXT TAXON=12 CHARACTER=58 TEXT='1';
+	TEXT TAXON=13 CHARACTER=58 TEXT='1';
+	TEXT TAXON=15 CHARACTER=58 TEXT='1';
+	TEXT TAXON=16 CHARACTER=58 TEXT='1';
+	TEXT TAXON=18 CHARACTER=58 TEXT='1';
+	TEXT TAXON=19 CHARACTER=58 TEXT='1';
+	TEXT TAXON=21 CHARACTER=58 TEXT='1';
+	TEXT TAXON=22 CHARACTER=58 TEXT='1';
+	TEXT TAXON=23 CHARACTER=58 TEXT='1';
+	TEXT TAXON=24 CHARACTER=58 TEXT='1';
+	TEXT TAXON=25 CHARACTER=58 TEXT='1';
+	TEXT TAXON=26 CHARACTER=58 TEXT='1';
+	TEXT TAXON=27 CHARACTER=58 TEXT='1';
+	TEXT TAXON=28 CHARACTER=58 TEXT='1';
+	TEXT TAXON=1 CHARACTER=58 TEXT='1';
+	TEXT TAXON=2 CHARACTER=58 TEXT='1';
+	TEXT TAXON=3 CHARACTER=58 TEXT='1';
+	TEXT TAXON=4 CHARACTER=58 TEXT='1';
+	TEXT TAXON=5 CHARACTER=58 TEXT='1';
+	TEXT TAXON=6 CHARACTER=58 TEXT='1';
+	TEXT TAXON=7 CHARACTER=58 TEXT='1';
+	TEXT TAXON=17 CHARACTER=58 TEXT='1';
+	TEXT TAXON=14 CHARACTER=59 TEXT='1';
+	TEXT TAXON=8 CHARACTER=59 TEXT='1';
+	TEXT TAXON=20 CHARACTER=59 TEXT='1';
+	TEXT TAXON=9 CHARACTER=59 TEXT='1';
+	TEXT TAXON=10 CHARACTER=59 TEXT='1';
+	TEXT TAXON=11 CHARACTER=59 TEXT='1';
+	TEXT TAXON=12 CHARACTER=59 TEXT='1';
+	TEXT TAXON=13 CHARACTER=59 TEXT='1';
+	TEXT TAXON=15 CHARACTER=59 TEXT='1';
+	TEXT TAXON=16 CHARACTER=59 TEXT='1';
+	TEXT TAXON=18 CHARACTER=59 TEXT='1';
+	TEXT TAXON=19 CHARACTER=59 TEXT='1';
+	TEXT TAXON=21 CHARACTER=59 TEXT='1';
+	TEXT TAXON=22 CHARACTER=59 TEXT='1';
+	TEXT TAXON=23 CHARACTER=59 TEXT='1';
+	TEXT TAXON=24 CHARACTER=59 TEXT='1';
+	TEXT TAXON=25 CHARACTER=59 TEXT='1';
+	TEXT TAXON=26 CHARACTER=59 TEXT='1';
+	TEXT TAXON=27 CHARACTER=59 TEXT='1';
+	TEXT TAXON=28 CHARACTER=59 TEXT='1';
+	TEXT TAXON=1 CHARACTER=59 TEXT='1';
+	TEXT TAXON=2 CHARACTER=59 TEXT='1';
+	TEXT TAXON=3 CHARACTER=59 TEXT='1';
+	TEXT TAXON=4 CHARACTER=59 TEXT='1';
+	TEXT TAXON=5 CHARACTER=59 TEXT='1';
+	TEXT TAXON=6 CHARACTER=59 TEXT='1';
+	TEXT TAXON=7 CHARACTER=59 TEXT='1';
+	TEXT TAXON=17 CHARACTER=59 TEXT='1';
+	TEXT TAXON=14 CHARACTER=60 TEXT='1';
+	TEXT TAXON=8 CHARACTER=60 TEXT='1';
+	TEXT TAXON=20 CHARACTER=60 TEXT='1';
+	TEXT TAXON=9 CHARACTER=60 TEXT='1';
+	TEXT TAXON=10 CHARACTER=60 TEXT='1';
+	TEXT TAXON=11 CHARACTER=60 TEXT='1';
+	TEXT TAXON=12 CHARACTER=60 TEXT='1';
+	TEXT TAXON=13 CHARACTER=60 TEXT='1';
+	TEXT TAXON=15 CHARACTER=60 TEXT='1';
+	TEXT TAXON=16 CHARACTER=60 TEXT='1';
+	TEXT TAXON=18 CHARACTER=60 TEXT='1';
+	TEXT TAXON=19 CHARACTER=60 TEXT='1';
+	TEXT TAXON=21 CHARACTER=60 TEXT='1';
+	TEXT TAXON=22 CHARACTER=60 TEXT='1';
+	TEXT TAXON=23 CHARACTER=60 TEXT='1';
+	TEXT TAXON=24 CHARACTER=60 TEXT='1';
+	TEXT TAXON=25 CHARACTER=60 TEXT='1';
+	TEXT TAXON=26 CHARACTER=60 TEXT='1';
+	TEXT TAXON=27 CHARACTER=60 TEXT='1';
+	TEXT TAXON=28 CHARACTER=60 TEXT='1';
+	TEXT TAXON=1 CHARACTER=60 TEXT='1';
+	TEXT TAXON=2 CHARACTER=60 TEXT='1';
+	TEXT TAXON=3 CHARACTER=60 TEXT='1';
+	TEXT TAXON=4 CHARACTER=60 TEXT='1';
+	TEXT TAXON=5 CHARACTER=60 TEXT='1';
+	TEXT TAXON=6 CHARACTER=60 TEXT='1';
+	TEXT TAXON=7 CHARACTER=60 TEXT='1';
+	TEXT TAXON=17 CHARACTER=60 TEXT='1';
+	TEXT TAXON=14 CHARACTER=61 TEXT='1';
+	TEXT TAXON=8 CHARACTER=61 TEXT='1';
+	TEXT TAXON=20 CHARACTER=61 TEXT='1';
+	TEXT TAXON=9 CHARACTER=61 TEXT='1';
+	TEXT TAXON=10 CHARACTER=61 TEXT='1';
+	TEXT TAXON=11 CHARACTER=61 TEXT='1';
+	TEXT TAXON=12 CHARACTER=61 TEXT='1';
+	TEXT TAXON=13 CHARACTER=61 TEXT='1';
+	TEXT TAXON=15 CHARACTER=61 TEXT='1';
+	TEXT TAXON=16 CHARACTER=61 TEXT='1';
+	TEXT TAXON=18 CHARACTER=61 TEXT='1';
+	TEXT TAXON=19 CHARACTER=61 TEXT='1';
+	TEXT TAXON=21 CHARACTER=61 TEXT='1';
+	TEXT TAXON=22 CHARACTER=61 TEXT='1';
+	TEXT TAXON=23 CHARACTER=61 TEXT='1';
+	TEXT TAXON=24 CHARACTER=61 TEXT='1';
+	TEXT TAXON=25 CHARACTER=61 TEXT='1';
+	TEXT TAXON=26 CHARACTER=61 TEXT='1';
+	TEXT TAXON=27 CHARACTER=61 TEXT='1';
+	TEXT TAXON=28 CHARACTER=61 TEXT='1';
+	TEXT TAXON=1 CHARACTER=61 TEXT='1';
+	TEXT TAXON=2 CHARACTER=61 TEXT='1';
+	TEXT TAXON=3 CHARACTER=61 TEXT='1';
+	TEXT TAXON=4 CHARACTER=61 TEXT='1';
+	TEXT TAXON=5 CHARACTER=61 TEXT='1';
+	TEXT TAXON=6 CHARACTER=61 TEXT='1';
+	TEXT TAXON=7 CHARACTER=61 TEXT='1';
+	TEXT TAXON=17 CHARACTER=61 TEXT='1';
+	TEXT TAXON=14 CHARACTER=62 TEXT='1';
+	TEXT TAXON=8 CHARACTER=62 TEXT='1';
+	TEXT TAXON=20 CHARACTER=62 TEXT='1';
+	TEXT TAXON=9 CHARACTER=62 TEXT='1';
+	TEXT TAXON=10 CHARACTER=62 TEXT='1';
+	TEXT TAXON=11 CHARACTER=62 TEXT='1';
+	TEXT TAXON=12 CHARACTER=62 TEXT='1';
+	TEXT TAXON=13 CHARACTER=62 TEXT='1';
+	TEXT TAXON=15 CHARACTER=62 TEXT='1';
+	TEXT TAXON=16 CHARACTER=62 TEXT='1';
+	TEXT TAXON=18 CHARACTER=62 TEXT='1';
+	TEXT TAXON=19 CHARACTER=62 TEXT='1';
+	TEXT TAXON=21 CHARACTER=62 TEXT='1';
+	TEXT TAXON=22 CHARACTER=62 TEXT='1';
+	TEXT TAXON=23 CHARACTER=62 TEXT='1';
+	TEXT TAXON=24 CHARACTER=62 TEXT='1';
+	TEXT TAXON=25 CHARACTER=62 TEXT='1';
+	TEXT TAXON=26 CHARACTER=62 TEXT='1';
+	TEXT TAXON=27 CHARACTER=62 TEXT='1';
+	TEXT TAXON=28 CHARACTER=62 TEXT='1';
+	TEXT TAXON=1 CHARACTER=62 TEXT='1';
+	TEXT TAXON=2 CHARACTER=62 TEXT='1';
+	TEXT TAXON=3 CHARACTER=62 TEXT='1';
+	TEXT TAXON=4 CHARACTER=62 TEXT='1';
+	TEXT TAXON=5 CHARACTER=62 TEXT='1';
+	TEXT TAXON=6 CHARACTER=62 TEXT='1';
+	TEXT TAXON=7 CHARACTER=62 TEXT='1';
+	TEXT TAXON=17 CHARACTER=62 TEXT='1';
+	TEXT TAXON=14 CHARACTER=63 TEXT='1';
+	TEXT TAXON=8 CHARACTER=63 TEXT='1';
+	TEXT TAXON=20 CHARACTER=63 TEXT='1';
+	TEXT TAXON=9 CHARACTER=63 TEXT='1';
+	TEXT TAXON=10 CHARACTER=63 TEXT='1';
+	TEXT TAXON=11 CHARACTER=63 TEXT='1';
+	TEXT TAXON=12 CHARACTER=63 TEXT='1';
+	TEXT TAXON=13 CHARACTER=63 TEXT='1';
+	TEXT TAXON=15 CHARACTER=63 TEXT='1';
+	TEXT TAXON=16 CHARACTER=63 TEXT='1';
+	TEXT TAXON=18 CHARACTER=63 TEXT='1';
+	TEXT TAXON=19 CHARACTER=63 TEXT='1';
+	TEXT TAXON=21 CHARACTER=63 TEXT='1';
+	TEXT TAXON=22 CHARACTER=63 TEXT='1';
+	TEXT TAXON=23 CHARACTER=63 TEXT='1';
+	TEXT TAXON=24 CHARACTER=63 TEXT='1';
+	TEXT TAXON=25 CHARACTER=63 TEXT='1';
+	TEXT TAXON=26 CHARACTER=63 TEXT='1';
+	TEXT TAXON=27 CHARACTER=63 TEXT='1';
+	TEXT TAXON=28 CHARACTER=63 TEXT='1';
+	TEXT TAXON=1 CHARACTER=63 TEXT='1';
+	TEXT TAXON=2 CHARACTER=63 TEXT='1';
+	TEXT TAXON=3 CHARACTER=63 TEXT='1';
+	TEXT TAXON=4 CHARACTER=63 TEXT='1';
+	TEXT TAXON=5 CHARACTER=63 TEXT='1';
+	TEXT TAXON=6 CHARACTER=63 TEXT='1';
+	TEXT TAXON=7 CHARACTER=63 TEXT='1';
+	TEXT TAXON=17 CHARACTER=63 TEXT='1';
+	TEXT TAXON=14 CHARACTER=64 TEXT='1';
+	TEXT TAXON=8 CHARACTER=64 TEXT='1';
+	TEXT TAXON=20 CHARACTER=64 TEXT='1';
+	TEXT TAXON=9 CHARACTER=64 TEXT='1';
+	TEXT TAXON=10 CHARACTER=64 TEXT='1';
+	TEXT TAXON=11 CHARACTER=64 TEXT='1';
+	TEXT TAXON=12 CHARACTER=64 TEXT='1';
+	TEXT TAXON=13 CHARACTER=64 TEXT='1';
+	TEXT TAXON=15 CHARACTER=64 TEXT='1';
+	TEXT TAXON=16 CHARACTER=64 TEXT='1';
+	TEXT TAXON=18 CHARACTER=64 TEXT='1';
+	TEXT TAXON=19 CHARACTER=64 TEXT='1';
+	TEXT TAXON=21 CHARACTER=64 TEXT='1';
+	TEXT TAXON=22 CHARACTER=64 TEXT='1';
+	TEXT TAXON=23 CHARACTER=64 TEXT='1';
+	TEXT TAXON=24 CHARACTER=64 TEXT='1';
+	TEXT TAXON=25 CHARACTER=64 TEXT='1';
+	TEXT TAXON=26 CHARACTER=64 TEXT='1';
+	TEXT TAXON=27 CHARACTER=64 TEXT='1';
+	TEXT TAXON=28 CHARACTER=64 TEXT='1';
+	TEXT TAXON=1 CHARACTER=64 TEXT='1';
+	TEXT TAXON=2 CHARACTER=64 TEXT='1';
+	TEXT TAXON=3 CHARACTER=64 TEXT='1';
+	TEXT TAXON=4 CHARACTER=64 TEXT='1';
+	TEXT TAXON=5 CHARACTER=64 TEXT='1';
+	TEXT TAXON=6 CHARACTER=64 TEXT='1';
+	TEXT TAXON=7 CHARACTER=64 TEXT='1';
+	TEXT TAXON=17 CHARACTER=64 TEXT='1';
+	TEXT TAXON=14 CHARACTER=65 TEXT='1';
+	TEXT TAXON=8 CHARACTER=65 TEXT='1';
+	TEXT TAXON=20 CHARACTER=65 TEXT='1';
+	TEXT TAXON=9 CHARACTER=65 TEXT='1';
+	TEXT TAXON=10 CHARACTER=65 TEXT='1';
+	TEXT TAXON=11 CHARACTER=65 TEXT='1';
+	TEXT TAXON=12 CHARACTER=65 TEXT='1';
+	TEXT TAXON=13 CHARACTER=65 TEXT='1';
+	TEXT TAXON=15 CHARACTER=65 TEXT='1';
+	TEXT TAXON=16 CHARACTER=65 TEXT='1';
+	TEXT TAXON=18 CHARACTER=65 TEXT='1';
+	TEXT TAXON=19 CHARACTER=65 TEXT='1';
+	TEXT TAXON=21 CHARACTER=65 TEXT='1';
+	TEXT TAXON=22 CHARACTER=65 TEXT='1';
+	TEXT TAXON=23 CHARACTER=65 TEXT='1';
+	TEXT TAXON=24 CHARACTER=65 TEXT='1';
+	TEXT TAXON=25 CHARACTER=65 TEXT='1';
+	TEXT TAXON=26 CHARACTER=65 TEXT='1';
+	TEXT TAXON=27 CHARACTER=65 TEXT='1';
+	TEXT TAXON=28 CHARACTER=65 TEXT='1';
+	TEXT TAXON=1 CHARACTER=65 TEXT='1';
+	TEXT TAXON=2 CHARACTER=65 TEXT='1';
+	TEXT TAXON=3 CHARACTER=65 TEXT='1';
+	TEXT TAXON=4 CHARACTER=65 TEXT='1';
+	TEXT TAXON=5 CHARACTER=65 TEXT='1';
+	TEXT TAXON=6 CHARACTER=65 TEXT='1';
+	TEXT TAXON=7 CHARACTER=65 TEXT='1';
+	TEXT TAXON=17 CHARACTER=65 TEXT='1';
+	TEXT TAXON=14 CHARACTER=66 TEXT='1';
+	TEXT TAXON=8 CHARACTER=66 TEXT='1';
+	TEXT TAXON=20 CHARACTER=66 TEXT='1';
+	TEXT TAXON=9 CHARACTER=66 TEXT='1';
+	TEXT TAXON=10 CHARACTER=66 TEXT='1';
+	TEXT TAXON=11 CHARACTER=66 TEXT='1';
+	TEXT TAXON=12 CHARACTER=66 TEXT='1';
+	TEXT TAXON=13 CHARACTER=66 TEXT='1';
+	TEXT TAXON=15 CHARACTER=66 TEXT='1';
+	TEXT TAXON=16 CHARACTER=66 TEXT='1';
+	TEXT TAXON=18 CHARACTER=66 TEXT='1';
+	TEXT TAXON=19 CHARACTER=66 TEXT='1';
+	TEXT TAXON=21 CHARACTER=66 TEXT='1';
+	TEXT TAXON=22 CHARACTER=66 TEXT='1';
+	TEXT TAXON=23 CHARACTER=66 TEXT='1';
+	TEXT TAXON=24 CHARACTER=66 TEXT='1';
+	TEXT TAXON=25 CHARACTER=66 TEXT='1';
+	TEXT TAXON=26 CHARACTER=66 TEXT='1';
+	TEXT TAXON=27 CHARACTER=66 TEXT='1';
+	TEXT TAXON=28 CHARACTER=66 TEXT='1';
+	TEXT TAXON=1 CHARACTER=66 TEXT='1';
+	TEXT TAXON=2 CHARACTER=66 TEXT='1';
+	TEXT TAXON=3 CHARACTER=66 TEXT='1';
+	TEXT TAXON=4 CHARACTER=66 TEXT='1';
+	TEXT TAXON=5 CHARACTER=66 TEXT='1';
+	TEXT TAXON=6 CHARACTER=66 TEXT='1';
+	TEXT TAXON=7 CHARACTER=66 TEXT='1';
+	TEXT TAXON=17 CHARACTER=66 TEXT='1';
+	TEXT TAXON=14 CHARACTER=67 TEXT='1';
+	TEXT TAXON=8 CHARACTER=67 TEXT='1';
+	TEXT TAXON=20 CHARACTER=67 TEXT='1';
+	TEXT TAXON=9 CHARACTER=67 TEXT='1';
+	TEXT TAXON=10 CHARACTER=67 TEXT='1';
+	TEXT TAXON=11 CHARACTER=67 TEXT='1';
+	TEXT TAXON=12 CHARACTER=67 TEXT='1';
+	TEXT TAXON=13 CHARACTER=67 TEXT='1';
+	TEXT TAXON=15 CHARACTER=67 TEXT='1';
+	TEXT TAXON=16 CHARACTER=67 TEXT='1';
+	TEXT TAXON=18 CHARACTER=67 TEXT='1';
+	TEXT TAXON=19 CHARACTER=67 TEXT='1';
+	TEXT TAXON=21 CHARACTER=67 TEXT='1';
+	TEXT TAXON=22 CHARACTER=67 TEXT='1';
+	TEXT TAXON=23 CHARACTER=67 TEXT='1';
+	TEXT TAXON=24 CHARACTER=67 TEXT='1';
+	TEXT TAXON=25 CHARACTER=67 TEXT='1';
+	TEXT TAXON=26 CHARACTER=67 TEXT='1';
+	TEXT TAXON=27 CHARACTER=67 TEXT='1';
+	TEXT TAXON=28 CHARACTER=67 TEXT='1';
+	TEXT TAXON=1 CHARACTER=67 TEXT='1';
+	TEXT TAXON=2 CHARACTER=67 TEXT='1';
+	TEXT TAXON=3 CHARACTER=67 TEXT='1';
+	TEXT TAXON=4 CHARACTER=67 TEXT='1';
+	TEXT TAXON=5 CHARACTER=67 TEXT='1';
+	TEXT TAXON=6 CHARACTER=67 TEXT='1';
+	TEXT TAXON=7 CHARACTER=67 TEXT='1';
+	TEXT TAXON=17 CHARACTER=67 TEXT='1';
+	TEXT TAXON=14 CHARACTER=68 TEXT='1';
+	TEXT TAXON=8 CHARACTER=68 TEXT='1';
+	TEXT TAXON=20 CHARACTER=68 TEXT='1';
+	TEXT TAXON=9 CHARACTER=68 TEXT='1';
+	TEXT TAXON=10 CHARACTER=68 TEXT='1';
+	TEXT TAXON=11 CHARACTER=68 TEXT='1';
+	TEXT TAXON=12 CHARACTER=68 TEXT='1';
+	TEXT TAXON=13 CHARACTER=68 TEXT='1';
+	TEXT TAXON=15 CHARACTER=68 TEXT='1';
+	TEXT TAXON=16 CHARACTER=68 TEXT='1';
+	TEXT TAXON=18 CHARACTER=68 TEXT='1';
+	TEXT TAXON=19 CHARACTER=68 TEXT='1';
+	TEXT TAXON=21 CHARACTER=68 TEXT='1';
+	TEXT TAXON=22 CHARACTER=68 TEXT='1';
+	TEXT TAXON=23 CHARACTER=68 TEXT='1';
+	TEXT TAXON=24 CHARACTER=68 TEXT='1';
+	TEXT TAXON=25 CHARACTER=68 TEXT='1';
+	TEXT TAXON=26 CHARACTER=68 TEXT='1';
+	TEXT TAXON=27 CHARACTER=68 TEXT='1';
+	TEXT TAXON=28 CHARACTER=68 TEXT='1';
+	TEXT TAXON=1 CHARACTER=68 TEXT='1';
+	TEXT TAXON=2 CHARACTER=68 TEXT='1';
+	TEXT TAXON=3 CHARACTER=68 TEXT='1';
+	TEXT TAXON=4 CHARACTER=68 TEXT='1';
+	TEXT TAXON=5 CHARACTER=68 TEXT='1';
+	TEXT TAXON=6 CHARACTER=68 TEXT='1';
+	TEXT TAXON=7 CHARACTER=68 TEXT='1';
+	TEXT TAXON=17 CHARACTER=68 TEXT='1';
+	TEXT TAXON=14 CHARACTER=69 TEXT='1';
+	TEXT TAXON=8 CHARACTER=69 TEXT='1';
+	TEXT TAXON=20 CHARACTER=69 TEXT='1';
+	TEXT TAXON=9 CHARACTER=69 TEXT='1';
+	TEXT TAXON=10 CHARACTER=69 TEXT='1';
+	TEXT TAXON=11 CHARACTER=69 TEXT='1';
+	TEXT TAXON=12 CHARACTER=69 TEXT='1';
+	TEXT TAXON=13 CHARACTER=69 TEXT='1';
+	TEXT TAXON=15 CHARACTER=69 TEXT='1';
+	TEXT TAXON=16 CHARACTER=69 TEXT='1';
+	TEXT TAXON=18 CHARACTER=69 TEXT='1';
+	TEXT TAXON=19 CHARACTER=69 TEXT='1';
+	TEXT TAXON=21 CHARACTER=69 TEXT='1';
+	TEXT TAXON=22 CHARACTER=69 TEXT='1';
+	TEXT TAXON=23 CHARACTER=69 TEXT='1';
+	TEXT TAXON=24 CHARACTER=69 TEXT='1';
+	TEXT TAXON=25 CHARACTER=69 TEXT='1';
+	TEXT TAXON=26 CHARACTER=69 TEXT='1';
+	TEXT TAXON=27 CHARACTER=69 TEXT='1';
+	TEXT TAXON=28 CHARACTER=69 TEXT='1';
+	TEXT TAXON=1 CHARACTER=69 TEXT='1';
+	TEXT TAXON=2 CHARACTER=69 TEXT='1';
+	TEXT TAXON=3 CHARACTER=69 TEXT='1';
+	TEXT TAXON=4 CHARACTER=69 TEXT='1';
+	TEXT TAXON=5 CHARACTER=69 TEXT='1';
+	TEXT TAXON=6 CHARACTER=69 TEXT='1';
+	TEXT TAXON=7 CHARACTER=69 TEXT='1';
+	TEXT TAXON=17 CHARACTER=69 TEXT='1';
+	TEXT TAXON=14 CHARACTER=70 TEXT='1';
+	TEXT TAXON=8 CHARACTER=70 TEXT='1';
+	TEXT TAXON=20 CHARACTER=70 TEXT='1';
+	TEXT TAXON=9 CHARACTER=70 TEXT='1';
+	TEXT TAXON=10 CHARACTER=70 TEXT='1';
+	TEXT TAXON=11 CHARACTER=70 TEXT='1';
+	TEXT TAXON=12 CHARACTER=70 TEXT='1';
+	TEXT TAXON=13 CHARACTER=70 TEXT='1';
+	TEXT TAXON=15 CHARACTER=70 TEXT='1';
+	TEXT TAXON=16 CHARACTER=70 TEXT='1';
+	TEXT TAXON=18 CHARACTER=70 TEXT='1';
+	TEXT TAXON=19 CHARACTER=70 TEXT='1';
+	TEXT TAXON=21 CHARACTER=70 TEXT='1';
+	TEXT TAXON=22 CHARACTER=70 TEXT='1';
+	TEXT TAXON=23 CHARACTER=70 TEXT='1';
+	TEXT TAXON=24 CHARACTER=70 TEXT='1';
+	TEXT TAXON=25 CHARACTER=70 TEXT='1';
+	TEXT TAXON=26 CHARACTER=70 TEXT='1';
+	TEXT TAXON=27 CHARACTER=70 TEXT='1';
+	TEXT TAXON=28 CHARACTER=70 TEXT='1';
+	TEXT TAXON=1 CHARACTER=70 TEXT='1';
+	TEXT TAXON=2 CHARACTER=70 TEXT='1';
+	TEXT TAXON=3 CHARACTER=70 TEXT='1';
+	TEXT TAXON=4 CHARACTER=70 TEXT='1';
+	TEXT TAXON=5 CHARACTER=70 TEXT='1';
+	TEXT TAXON=6 CHARACTER=70 TEXT='1';
+	TEXT TAXON=7 CHARACTER=70 TEXT='1';
+	TEXT TAXON=17 CHARACTER=70 TEXT='1';
+	TEXT TAXON=14 CHARACTER=71 TEXT='1';
+	TEXT TAXON=8 CHARACTER=71 TEXT='1';
+	TEXT TAXON=20 CHARACTER=71 TEXT='1';
+	TEXT TAXON=9 CHARACTER=71 TEXT='1';
+	TEXT TAXON=10 CHARACTER=71 TEXT='1';
+	TEXT TAXON=11 CHARACTER=71 TEXT='1';
+	TEXT TAXON=12 CHARACTER=71 TEXT='1';
+	TEXT TAXON=13 CHARACTER=71 TEXT='1';
+	TEXT TAXON=15 CHARACTER=71 TEXT='1';
+	TEXT TAXON=16 CHARACTER=71 TEXT='1';
+	TEXT TAXON=18 CHARACTER=71 TEXT='1';
+	TEXT TAXON=19 CHARACTER=71 TEXT='1';
+	TEXT TAXON=21 CHARACTER=71 TEXT='1';
+	TEXT TAXON=22 CHARACTER=71 TEXT='1';
+	TEXT TAXON=23 CHARACTER=71 TEXT='1';
+	TEXT TAXON=24 CHARACTER=71 TEXT='1';
+	TEXT TAXON=25 CHARACTER=71 TEXT='1';
+	TEXT TAXON=26 CHARACTER=71 TEXT='1';
+	TEXT TAXON=27 CHARACTER=71 TEXT='1';
+	TEXT TAXON=28 CHARACTER=71 TEXT='1';
+	TEXT TAXON=1 CHARACTER=71 TEXT='1';
+	TEXT TAXON=2 CHARACTER=71 TEXT='1';
+	TEXT TAXON=3 CHARACTER=71 TEXT='1';
+	TEXT TAXON=4 CHARACTER=71 TEXT='1';
+	TEXT TAXON=5 CHARACTER=71 TEXT='1';
+	TEXT TAXON=6 CHARACTER=71 TEXT='1';
+	TEXT TAXON=7 CHARACTER=71 TEXT='1';
+	TEXT TAXON=17 CHARACTER=71 TEXT='1';
+	TEXT TAXON=14 CHARACTER=72 TEXT='1';
+	TEXT TAXON=8 CHARACTER=72 TEXT='1';
+	TEXT TAXON=20 CHARACTER=72 TEXT='1';
+	TEXT TAXON=9 CHARACTER=72 TEXT='1';
+	TEXT TAXON=10 CHARACTER=72 TEXT='1';
+	TEXT TAXON=11 CHARACTER=72 TEXT='1';
+	TEXT TAXON=12 CHARACTER=72 TEXT='1';
+	TEXT TAXON=13 CHARACTER=72 TEXT='1';
+	TEXT TAXON=15 CHARACTER=72 TEXT='1';
+	TEXT TAXON=16 CHARACTER=72 TEXT='1';
+	TEXT TAXON=18 CHARACTER=72 TEXT='1';
+	TEXT TAXON=19 CHARACTER=72 TEXT='1';
+	TEXT TAXON=21 CHARACTER=72 TEXT='1';
+	TEXT TAXON=22 CHARACTER=72 TEXT='1';
+	TEXT TAXON=23 CHARACTER=72 TEXT='1';
+	TEXT TAXON=24 CHARACTER=72 TEXT='1';
+	TEXT TAXON=25 CHARACTER=72 TEXT='1';
+	TEXT TAXON=26 CHARACTER=72 TEXT='1';
+	TEXT TAXON=27 CHARACTER=72 TEXT='1';
+	TEXT TAXON=28 CHARACTER=72 TEXT='1';
+	TEXT TAXON=1 CHARACTER=72 TEXT='1';
+	TEXT TAXON=2 CHARACTER=72 TEXT='1';
+	TEXT TAXON=3 CHARACTER=72 TEXT='1';
+	TEXT TAXON=4 CHARACTER=72 TEXT='1';
+	TEXT TAXON=5 CHARACTER=72 TEXT='1';
+	TEXT TAXON=6 CHARACTER=72 TEXT='1';
+	TEXT TAXON=7 CHARACTER=72 TEXT='1';
+	TEXT TAXON=17 CHARACTER=72 TEXT='1';
+	TEXT TAXON=14 CHARACTER=73 TEXT='1';
+	TEXT TAXON=8 CHARACTER=73 TEXT='1';
+	TEXT TAXON=20 CHARACTER=73 TEXT='1';
+	TEXT TAXON=9 CHARACTER=73 TEXT='1';
+	TEXT TAXON=10 CHARACTER=73 TEXT='1';
+	TEXT TAXON=11 CHARACTER=73 TEXT='1';
+	TEXT TAXON=12 CHARACTER=73 TEXT='1';
+	TEXT TAXON=13 CHARACTER=73 TEXT='1';
+	TEXT TAXON=15 CHARACTER=73 TEXT='1';
+	TEXT TAXON=16 CHARACTER=73 TEXT='1';
+	TEXT TAXON=18 CHARACTER=73 TEXT='1';
+	TEXT TAXON=19 CHARACTER=73 TEXT='1';
+	TEXT TAXON=21 CHARACTER=73 TEXT='1';
+	TEXT TAXON=22 CHARACTER=73 TEXT='1';
+	TEXT TAXON=23 CHARACTER=73 TEXT='1';
+	TEXT TAXON=24 CHARACTER=73 TEXT='1';
+	TEXT TAXON=25 CHARACTER=73 TEXT='1';
+	TEXT TAXON=26 CHARACTER=73 TEXT='1';
+	TEXT TAXON=27 CHARACTER=73 TEXT='1';
+	TEXT TAXON=28 CHARACTER=73 TEXT='1';
+	TEXT TAXON=1 CHARACTER=73 TEXT='1';
+	TEXT TAXON=2 CHARACTER=73 TEXT='1';
+	TEXT TAXON=3 CHARACTER=73 TEXT='1';
+	TEXT TAXON=4 CHARACTER=73 TEXT='1';
+	TEXT TAXON=5 CHARACTER=73 TEXT='1';
+	TEXT TAXON=6 CHARACTER=73 TEXT='1';
+	TEXT TAXON=7 CHARACTER=73 TEXT='1';
+	TEXT TAXON=17 CHARACTER=73 TEXT='1';
+	TEXT TAXON=14 CHARACTER=74 TEXT='1';
+	TEXT TAXON=8 CHARACTER=74 TEXT='1';
+	TEXT TAXON=20 CHARACTER=74 TEXT='1';
+	TEXT TAXON=9 CHARACTER=74 TEXT='1';
+	TEXT TAXON=10 CHARACTER=74 TEXT='1';
+	TEXT TAXON=11 CHARACTER=74 TEXT='1';
+	TEXT TAXON=12 CHARACTER=74 TEXT='1';
+	TEXT TAXON=13 CHARACTER=74 TEXT='1';
+	TEXT TAXON=15 CHARACTER=74 TEXT='1';
+	TEXT TAXON=16 CHARACTER=74 TEXT='1';
+	TEXT TAXON=18 CHARACTER=74 TEXT='1';
+	TEXT TAXON=19 CHARACTER=74 TEXT='1';
+	TEXT TAXON=21 CHARACTER=74 TEXT='1';
+	TEXT TAXON=22 CHARACTER=74 TEXT='1';
+	TEXT TAXON=23 CHARACTER=74 TEXT='1';
+	TEXT TAXON=24 CHARACTER=74 TEXT='1';
+	TEXT TAXON=25 CHARACTER=74 TEXT='1';
+	TEXT TAXON=26 CHARACTER=74 TEXT='1';
+	TEXT TAXON=27 CHARACTER=74 TEXT='1';
+	TEXT TAXON=28 CHARACTER=74 TEXT='1';
+	TEXT TAXON=1 CHARACTER=74 TEXT='1';
+	TEXT TAXON=2 CHARACTER=74 TEXT='1';
+	TEXT TAXON=3 CHARACTER=74 TEXT='1';
+	TEXT TAXON=4 CHARACTER=74 TEXT='1';
+	TEXT TAXON=5 CHARACTER=74 TEXT='1';
+	TEXT TAXON=6 CHARACTER=74 TEXT='1';
+	TEXT TAXON=7 CHARACTER=74 TEXT='1';
+	TEXT TAXON=17 CHARACTER=74 TEXT='1';
+	TEXT TAXON=14 CHARACTER=75 TEXT='1';
+	TEXT TAXON=8 CHARACTER=75 TEXT='1';
+	TEXT TAXON=20 CHARACTER=75 TEXT='1';
+	TEXT TAXON=9 CHARACTER=75 TEXT='1';
+	TEXT TAXON=10 CHARACTER=75 TEXT='1';
+	TEXT TAXON=11 CHARACTER=75 TEXT='1';
+	TEXT TAXON=12 CHARACTER=75 TEXT='1';
+	TEXT TAXON=13 CHARACTER=75 TEXT='1';
+	TEXT TAXON=15 CHARACTER=75 TEXT='1';
+	TEXT TAXON=16 CHARACTER=75 TEXT='1';
+	TEXT TAXON=18 CHARACTER=75 TEXT='1';
+	TEXT TAXON=19 CHARACTER=75 TEXT='1';
+	TEXT TAXON=21 CHARACTER=75 TEXT='1';
+	TEXT TAXON=22 CHARACTER=75 TEXT='1';
+	TEXT TAXON=23 CHARACTER=75 TEXT='1';
+	TEXT TAXON=24 CHARACTER=75 TEXT='1';
+	TEXT TAXON=25 CHARACTER=75 TEXT='1';
+	TEXT TAXON=26 CHARACTER=75 TEXT='1';
+	TEXT TAXON=27 CHARACTER=75 TEXT='1';
+	TEXT TAXON=28 CHARACTER=75 TEXT='1';
+	TEXT TAXON=1 CHARACTER=75 TEXT='1';
+	TEXT TAXON=2 CHARACTER=75 TEXT='1';
+	TEXT TAXON=3 CHARACTER=75 TEXT='1';
+	TEXT TAXON=4 CHARACTER=75 TEXT='1';
+	TEXT TAXON=5 CHARACTER=75 TEXT='1';
+	TEXT TAXON=6 CHARACTER=75 TEXT='1';
+	TEXT TAXON=7 CHARACTER=75 TEXT='1';
+	TEXT TAXON=17 CHARACTER=75 TEXT='1';
+	TEXT TAXON=14 CHARACTER=76 TEXT='1';
+	TEXT TAXON=8 CHARACTER=76 TEXT='1';
+	TEXT TAXON=20 CHARACTER=76 TEXT='1';
+	TEXT TAXON=9 CHARACTER=76 TEXT='1';
+	TEXT TAXON=10 CHARACTER=76 TEXT='1';
+	TEXT TAXON=11 CHARACTER=76 TEXT='1';
+	TEXT TAXON=12 CHARACTER=76 TEXT='1';
+	TEXT TAXON=13 CHARACTER=76 TEXT='1';
+	TEXT TAXON=15 CHARACTER=76 TEXT='1';
+	TEXT TAXON=16 CHARACTER=76 TEXT='1';
+	TEXT TAXON=18 CHARACTER=76 TEXT='1';
+	TEXT TAXON=19 CHARACTER=76 TEXT='1';
+	TEXT TAXON=21 CHARACTER=76 TEXT='1';
+	TEXT TAXON=22 CHARACTER=76 TEXT='1';
+	TEXT TAXON=23 CHARACTER=76 TEXT='1';
+	TEXT TAXON=24 CHARACTER=76 TEXT='1';
+	TEXT TAXON=25 CHARACTER=76 TEXT='1';
+	TEXT TAXON=26 CHARACTER=76 TEXT='1';
+	TEXT TAXON=27 CHARACTER=76 TEXT='1';
+	TEXT TAXON=28 CHARACTER=76 TEXT='1';
+	TEXT TAXON=1 CHARACTER=76 TEXT='1';
+	TEXT TAXON=2 CHARACTER=76 TEXT='1';
+	TEXT TAXON=3 CHARACTER=76 TEXT='1';
+	TEXT TAXON=4 CHARACTER=76 TEXT='1';
+	TEXT TAXON=5 CHARACTER=76 TEXT='1';
+	TEXT TAXON=6 CHARACTER=76 TEXT='1';
+	TEXT TAXON=7 CHARACTER=76 TEXT='1';
+	TEXT TAXON=17 CHARACTER=76 TEXT='1';
+	TEXT TAXON=14 CHARACTER=77 TEXT='1';
+	TEXT TAXON=8 CHARACTER=77 TEXT='1';
+	TEXT TAXON=20 CHARACTER=77 TEXT='1';
+	TEXT TAXON=9 CHARACTER=77 TEXT='1';
+	TEXT TAXON=10 CHARACTER=77 TEXT='1';
+	TEXT TAXON=11 CHARACTER=77 TEXT='1';
+	TEXT TAXON=12 CHARACTER=77 TEXT='1';
+	TEXT TAXON=13 CHARACTER=77 TEXT='1';
+	TEXT TAXON=15 CHARACTER=77 TEXT='1';
+	TEXT TAXON=16 CHARACTER=77 TEXT='1';
+	TEXT TAXON=18 CHARACTER=77 TEXT='1';
+	TEXT TAXON=19 CHARACTER=77 TEXT='1';
+	TEXT TAXON=21 CHARACTER=77 TEXT='1';
+	TEXT TAXON=22 CHARACTER=77 TEXT='1';
+	TEXT TAXON=23 CHARACTER=77 TEXT='1';
+	TEXT TAXON=24 CHARACTER=77 TEXT='1';
+	TEXT TAXON=25 CHARACTER=77 TEXT='1';
+	TEXT TAXON=26 CHARACTER=77 TEXT='1';
+	TEXT TAXON=27 CHARACTER=77 TEXT='1';
+	TEXT TAXON=28 CHARACTER=77 TEXT='1';
+	TEXT TAXON=1 CHARACTER=77 TEXT='1';
+	TEXT TAXON=2 CHARACTER=77 TEXT='1';
+	TEXT TAXON=3 CHARACTER=77 TEXT='1';
+	TEXT TAXON=4 CHARACTER=77 TEXT='1';
+	TEXT TAXON=5 CHARACTER=77 TEXT='1';
+	TEXT TAXON=6 CHARACTER=77 TEXT='1';
+	TEXT TAXON=7 CHARACTER=77 TEXT='1';
+	TEXT TAXON=17 CHARACTER=77 TEXT='1';
+	TEXT TAXON=14 CHARACTER=78 TEXT='1';
+	TEXT TAXON=8 CHARACTER=78 TEXT='1';
+	TEXT TAXON=20 CHARACTER=78 TEXT='1';
+	TEXT TAXON=9 CHARACTER=78 TEXT='1';
+	TEXT TAXON=10 CHARACTER=78 TEXT='1';
+	TEXT TAXON=11 CHARACTER=78 TEXT='1';
+	TEXT TAXON=12 CHARACTER=78 TEXT='1';
+	TEXT TAXON=13 CHARACTER=78 TEXT='1';
+	TEXT TAXON=15 CHARACTER=78 TEXT='1';
+	TEXT TAXON=16 CHARACTER=78 TEXT='1';
+	TEXT TAXON=18 CHARACTER=78 TEXT='1';
+	TEXT TAXON=19 CHARACTER=78 TEXT='1';
+	TEXT TAXON=21 CHARACTER=78 TEXT='1';
+	TEXT TAXON=22 CHARACTER=78 TEXT='1';
+	TEXT TAXON=23 CHARACTER=78 TEXT='1';
+	TEXT TAXON=24 CHARACTER=78 TEXT='1';
+	TEXT TAXON=25 CHARACTER=78 TEXT='1';
+	TEXT TAXON=26 CHARACTER=78 TEXT='1';
+	TEXT TAXON=27 CHARACTER=78 TEXT='1';
+	TEXT TAXON=28 CHARACTER=78 TEXT='1';
+	TEXT TAXON=1 CHARACTER=78 TEXT='1';
+	TEXT TAXON=2 CHARACTER=78 TEXT='1';
+	TEXT TAXON=3 CHARACTER=78 TEXT='1';
+	TEXT TAXON=4 CHARACTER=78 TEXT='1';
+	TEXT TAXON=5 CHARACTER=78 TEXT='1';
+	TEXT TAXON=6 CHARACTER=78 TEXT='1';
+	TEXT TAXON=7 CHARACTER=78 TEXT='1';
+	TEXT TAXON=17 CHARACTER=78 TEXT='1';
+	TEXT TAXON=14 CHARACTER=79 TEXT='1';
+	TEXT TAXON=8 CHARACTER=79 TEXT='1';
+	TEXT TAXON=20 CHARACTER=79 TEXT='1';
+	TEXT TAXON=9 CHARACTER=79 TEXT='1';
+	TEXT TAXON=10 CHARACTER=79 TEXT='1';
+	TEXT TAXON=11 CHARACTER=79 TEXT='1';
+	TEXT TAXON=12 CHARACTER=79 TEXT='1';
+	TEXT TAXON=13 CHARACTER=79 TEXT='1';
+	TEXT TAXON=15 CHARACTER=79 TEXT='1';
+	TEXT TAXON=16 CHARACTER=79 TEXT='1';
+	TEXT TAXON=18 CHARACTER=79 TEXT='1';
+	TEXT TAXON=19 CHARACTER=79 TEXT='1';
+	TEXT TAXON=21 CHARACTER=79 TEXT='1';
+	TEXT TAXON=22 CHARACTER=79 TEXT='1';
+	TEXT TAXON=23 CHARACTER=79 TEXT='1';
+	TEXT TAXON=24 CHARACTER=79 TEXT='1';
+	TEXT TAXON=25 CHARACTER=79 TEXT='1';
+	TEXT TAXON=26 CHARACTER=79 TEXT='1';
+	TEXT TAXON=27 CHARACTER=79 TEXT='1';
+	TEXT TAXON=28 CHARACTER=79 TEXT='1';
+	TEXT TAXON=1 CHARACTER=79 TEXT='1';
+	TEXT TAXON=2 CHARACTER=79 TEXT='1';
+	TEXT TAXON=3 CHARACTER=79 TEXT='1';
+	TEXT TAXON=4 CHARACTER=79 TEXT='1';
+	TEXT TAXON=5 CHARACTER=79 TEXT='1';
+	TEXT TAXON=6 CHARACTER=79 TEXT='1';
+	TEXT TAXON=7 CHARACTER=79 TEXT='1';
+	TEXT TAXON=17 CHARACTER=79 TEXT='1';
+	TEXT TAXON=14 CHARACTER=80 TEXT='1';
+	TEXT TAXON=8 CHARACTER=80 TEXT='1';
+	TEXT TAXON=20 CHARACTER=80 TEXT='1';
+	TEXT TAXON=9 CHARACTER=80 TEXT='1';
+	TEXT TAXON=10 CHARACTER=80 TEXT='1';
+	TEXT TAXON=11 CHARACTER=80 TEXT='1';
+	TEXT TAXON=12 CHARACTER=80 TEXT='1';
+	TEXT TAXON=13 CHARACTER=80 TEXT='1';
+	TEXT TAXON=15 CHARACTER=80 TEXT='1';
+	TEXT TAXON=16 CHARACTER=80 TEXT='1';
+	TEXT TAXON=18 CHARACTER=80 TEXT='1';
+	TEXT TAXON=19 CHARACTER=80 TEXT='1';
+	TEXT TAXON=21 CHARACTER=80 TEXT='1';
+	TEXT TAXON=22 CHARACTER=80 TEXT='1';
+	TEXT TAXON=23 CHARACTER=80 TEXT='1';
+	TEXT TAXON=24 CHARACTER=80 TEXT='1';
+	TEXT TAXON=25 CHARACTER=80 TEXT='1';
+	TEXT TAXON=26 CHARACTER=80 TEXT='1';
+	TEXT TAXON=27 CHARACTER=80 TEXT='1';
+	TEXT TAXON=28 CHARACTER=80 TEXT='1';
+	TEXT TAXON=1 CHARACTER=80 TEXT='1';
+	TEXT TAXON=2 CHARACTER=80 TEXT='1';
+	TEXT TAXON=3 CHARACTER=80 TEXT='1';
+	TEXT TAXON=4 CHARACTER=80 TEXT='1';
+	TEXT TAXON=5 CHARACTER=80 TEXT='1';
+	TEXT TAXON=6 CHARACTER=80 TEXT='1';
+	TEXT TAXON=7 CHARACTER=80 TEXT='1';
+	TEXT TAXON=17 CHARACTER=80 TEXT='1';
+	TEXT TAXON=14 CHARACTER=81 TEXT='1';
+	TEXT TAXON=8 CHARACTER=81 TEXT='1';
+	TEXT TAXON=20 CHARACTER=81 TEXT='1';
+	TEXT TAXON=9 CHARACTER=81 TEXT='1';
+	TEXT TAXON=10 CHARACTER=81 TEXT='1';
+	TEXT TAXON=11 CHARACTER=81 TEXT='1';
+	TEXT TAXON=12 CHARACTER=81 TEXT='1';
+	TEXT TAXON=13 CHARACTER=81 TEXT='1';
+	TEXT TAXON=15 CHARACTER=81 TEXT='1';
+	TEXT TAXON=16 CHARACTER=81 TEXT='1';
+	TEXT TAXON=18 CHARACTER=81 TEXT='1';
+	TEXT TAXON=19 CHARACTER=81 TEXT='1';
+	TEXT TAXON=21 CHARACTER=81 TEXT='1';
+	TEXT TAXON=22 CHARACTER=81 TEXT='1';
+	TEXT TAXON=23 CHARACTER=81 TEXT='1';
+	TEXT TAXON=24 CHARACTER=81 TEXT='1';
+	TEXT TAXON=25 CHARACTER=81 TEXT='1';
+	TEXT TAXON=26 CHARACTER=81 TEXT='1';
+	TEXT TAXON=27 CHARACTER=81 TEXT='1';
+	TEXT TAXON=28 CHARACTER=81 TEXT='1';
+	TEXT TAXON=1 CHARACTER=81 TEXT='1';
+	TEXT TAXON=2 CHARACTER=81 TEXT='1';
+	TEXT TAXON=3 CHARACTER=81 TEXT='1';
+	TEXT TAXON=4 CHARACTER=81 TEXT='1';
+	TEXT TAXON=5 CHARACTER=81 TEXT='1';
+	TEXT TAXON=6 CHARACTER=81 TEXT='1';
+	TEXT TAXON=7 CHARACTER=81 TEXT='1';
+	TEXT TAXON=17 CHARACTER=81 TEXT='1';
+	TEXT TAXON=14 CHARACTER=82 TEXT='1';
+	TEXT TAXON=8 CHARACTER=82 TEXT='1';
+	TEXT TAXON=20 CHARACTER=82 TEXT='1';
+	TEXT TAXON=9 CHARACTER=82 TEXT='1';
+	TEXT TAXON=10 CHARACTER=82 TEXT='1';
+	TEXT TAXON=11 CHARACTER=82 TEXT='1';
+	TEXT TAXON=12 CHARACTER=82 TEXT='1';
+	TEXT TAXON=13 CHARACTER=82 TEXT='1';
+	TEXT TAXON=15 CHARACTER=82 TEXT='1';
+	TEXT TAXON=16 CHARACTER=82 TEXT='1';
+	TEXT TAXON=18 CHARACTER=82 TEXT='1';
+	TEXT TAXON=19 CHARACTER=82 TEXT='1';
+	TEXT TAXON=21 CHARACTER=82 TEXT='1';
+	TEXT TAXON=22 CHARACTER=82 TEXT='1';
+	TEXT TAXON=23 CHARACTER=82 TEXT='1';
+	TEXT TAXON=24 CHARACTER=82 TEXT='1';
+	TEXT TAXON=25 CHARACTER=82 TEXT='1';
+	TEXT TAXON=26 CHARACTER=82 TEXT='1';
+	TEXT TAXON=27 CHARACTER=82 TEXT='1';
+	TEXT TAXON=28 CHARACTER=82 TEXT='1';
+	TEXT TAXON=1 CHARACTER=82 TEXT='1';
+	TEXT TAXON=2 CHARACTER=82 TEXT='1';
+	TEXT TAXON=3 CHARACTER=82 TEXT='1';
+	TEXT TAXON=4 CHARACTER=82 TEXT='1';
+	TEXT TAXON=5 CHARACTER=82 TEXT='1';
+	TEXT TAXON=6 CHARACTER=82 TEXT='1';
+	TEXT TAXON=7 CHARACTER=82 TEXT='1';
+	TEXT TAXON=17 CHARACTER=82 TEXT='1';
+	TEXT TAXON=14 CHARACTER=83 TEXT='1';
+	TEXT TAXON=8 CHARACTER=83 TEXT='1';
+	TEXT TAXON=20 CHARACTER=83 TEXT='1';
+	TEXT TAXON=9 CHARACTER=83 TEXT='1';
+	TEXT TAXON=10 CHARACTER=83 TEXT='1';
+	TEXT TAXON=11 CHARACTER=83 TEXT='1';
+	TEXT TAXON=12 CHARACTER=83 TEXT='1';
+	TEXT TAXON=13 CHARACTER=83 TEXT='1';
+	TEXT TAXON=15 CHARACTER=83 TEXT='1';
+	TEXT TAXON=16 CHARACTER=83 TEXT='1';
+	TEXT TAXON=18 CHARACTER=83 TEXT='1';
+	TEXT TAXON=19 CHARACTER=83 TEXT='1';
+	TEXT TAXON=21 CHARACTER=83 TEXT='1';
+	TEXT TAXON=22 CHARACTER=83 TEXT='1';
+	TEXT TAXON=23 CHARACTER=83 TEXT='1';
+	TEXT TAXON=24 CHARACTER=83 TEXT='1';
+	TEXT TAXON=25 CHARACTER=83 TEXT='1';
+	TEXT TAXON=26 CHARACTER=83 TEXT='1';
+	TEXT TAXON=27 CHARACTER=83 TEXT='1';
+	TEXT TAXON=28 CHARACTER=83 TEXT='1';
+	TEXT TAXON=1 CHARACTER=83 TEXT='1';
+	TEXT TAXON=2 CHARACTER=83 TEXT='1';
+	TEXT TAXON=3 CHARACTER=83 TEXT='1';
+	TEXT TAXON=4 CHARACTER=83 TEXT='1';
+	TEXT TAXON=5 CHARACTER=83 TEXT='1';
+	TEXT TAXON=6 CHARACTER=83 TEXT='1';
+	TEXT TAXON=7 CHARACTER=83 TEXT='1';
+	TEXT TAXON=17 CHARACTER=83 TEXT='1';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 17 19 21 23 - 28 30 - 36 39 - 42 44 - 50 52 - 83, ord: 18 20 22 29 37 - 38 43 51;
+      ENDBLOCK;
+      

@@ -1,0 +1,442 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 16.27.06 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Atractosteus spatula'
+		'Dorsetichthys bechei'
+		'Amiopsis lepidota'
+		'Solnhofenamia elongata'
+		'Calamopleurus cylindricus'
+		'Pachyamia mexicana'
+		'Vidalamia catalunica'
+		'Cyclurus kehreri'
+		'Amia calva'
+		'Caturus furcatus'
+		'Amblysemius pachyurus'
+		'Liodesmus gracilis'
+		'Ionoscopus cyprinoides'
+		'Ophiopsis procera'
+		'Macrepistius arenatus'
+		'Oshunia brevis'
+		'Watsonulus eugnathoides'
+		'Furo muensteri'
+		'Archaeosemionotus connectens'
+		'Quetzalichtys perrilliatae'
+		'Teoichthys kallistos'
+		'Robustichthys luopinguensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=57;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Posterior extent of exoccipitals in adult-sized individuals'
+		 [2] 'Anteriorly projecting spine-like processes on neural and-or haemal arches.'
+		 [3] 'Lateral fossae of vertebral centra of adult-sized individuals'
+		 [4] 'Number of supraneurals'
+		 [5] 'Articular ossification of lower jaw'
+		 [6] 'Presence/absence of suborbital bones'
+		 [7] 'Strength of ornamentation on dermal bones of skull'
+		 [8] 'Hypural-ural centra fusion in adult-sized individuals'
+		 [9] 'Presence/absence of large parapophyses fused to most of the abdominal centra'
+		 [10] 'Presence/absence of substantial scapulocoracoid ossification in adult-sized individuals'
+		 [11] 'Number of supraorbital bones'
+		 [12] 'Urodermals in the caudal skeleton'
+		 [13] 'Presence/absence of sclerotic ring ossification.'
+		 [14] 'Size and shape of dorsal fin'
+		 [15] 'Morphology of teeth on anterior coronoid and vomer'
+		 [16] 'Parietal length'
+		 [17] 'Number of ural centra'
+		 [18] 'Shape of preopercle'
+		 [19] 'Morphology of caps of the jaw teeth in adult-sized individuals'
+		 [20] 'Lateral edge of posttemporal in adult-sized individuals'
+		 [21] 'Shape of posterior margin of caudal fin'
+		 [22] 'Arrangement of vomerine teeth'
+		 [23] 'Number of epurals'
+		 [24] 'Shape of basipterygium'
+		 [25] 'Postmaxillary process under postmaxillary notch'
+		 [26] 'Morphology of pleural ribs'
+		 [27] 'Shape of gular'
+		 [28] 'Peculiar ornamentation pattern of strongly defined, converging lines on opercles in adult-sized individuals'
+		 [29] 'Frontal width in adult-sized individuals'
+		 [30] 'Shape of dermopterotic'
+		 [31] 'Width of opercle'
+		 [32] 'Number of preural vertebral centra (preural centra = abdominal plus preural caudal centra)'
+		 [33] 'Shape of anterior subinfraorbital bone in adultsized individuals'
+		 [34] 'Number of epaxial procurrent caudal fin rays'
+		 [35] 'Presence/absence of fringing fulcra on median fins'
+		 [36] 'One-to-one arrangement of hypurals and caudal fin rays'
+		 [37] 'Number of ossified ural neural arches'
+		 [38] 'Dermopterotic length to parietal length'
+		 [39] 'Presence/absence of opisthotic'
+		 [40] 'Presence/absence of pterotic'
+		 [41] 'Shape of maxilla extremely slender and rod-like'
+		 [42] 'Number of branchiostegal rays'
+		 [43] 'Numerous paired, block-like ural neural arch ossifications.'
+		 [44] 'Dermosphenotic attachment to skull roof in adultsized individuals'
+		 [45] 'Shape of rostral bone'
+		 [46] 'Lacrimal shape'
+		 [47] 'Posterior extent of maxilla'
+		 [48] 'Presence/absence of lateral line canal in maxilla'
+		 [49] 'Symplectic involvement in jaw joint'
+		 [50] 'Innerorbital flange of dermosphenotic'
+		 [51] 'Shape of haemal spines'
+		 [52] 'Relative size of uppermost postinfraorbital in adult-sized individuals'
+		 [53] 'Orientation of preural haemal and neural spines near caudal peduncle'
+		 [54] 'Lateral line ossicles between caudal fin rays'
+		 [55] 'Type of scales'
+		 [56] 'Ventral surface of lower circumborbital bones'
+		 [57] 'Vertebral centra'
+	;
+	STATELABELS
+		1
+		'reaches posterior margin of occiput'
+		'does not reach posterior margin of occiput'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'present, with two pits on each side of most centra'
+		'present, with three or more pits on each side of most of the centra'
+		'absent, centra smoothsided'
+		,
+		4
+		'15 or more'
+		'13 to 14'
+		'5 to 11'
+		,
+		5
+		'a single element, or two elements tightly sutured to each other'
+		'two separate elements not in contact with each other'
+		,
+		6
+		'one or more present'
+		'absent'
+		,
+		7
+		'weak and/or fine'
+		'strong, coarse'
+		,
+		8
+		'all hypurals autogenous (separate) from the ural centra'
+		'all but first hypural fused to corresponding centra'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'one or more elements present in the shoulder girdle'
+		'absent'
+		,
+		11
+		'3-4'
+		'2'
+		'State 2'
+		'more than 4'
+		,
+		12
+		'present'
+		'absent'
+		'precence of a complete body lobe'
+		,
+		13
+		'present'
+		'absent'
+		,
+		14
+		'short, with straight to falcate margin, 14-25 segmented rays and 14- 25 proximal radials'
+		'medium long, with bow-shaped or straight margin, 30-34 segmented rays, and an estimated 30-34 proximal radials'
+		'very long, with bowshaped margin, 36-47 segmented rays, and 37-48 dorsal proximal radials'
+		'extremely long, with bow-shaped margin, 48-53 segmented rays, and 49-54 proximal radials]'
+		,
+		15
+		'conical, with pointed tips'
+		'styliform, with broadly rounded or flattened tips'
+		,
+		16
+		'relatively long, with a width-to-length ratio not exceeding 0.90'
+		'relatively short, with a width-to-length ratio well exceeding 0.90'
+		,
+		17
+		'10 or fewer'
+		'11 to 22'
+		,
+		18
+		'L-shaped'
+		'crescentshaped, long and narrow'
+		'crescent-shaped, wide in middle tapering dorsally and ventrally'
+		'ovoid'
+		,
+		19
+		'0 = round in cross-section, not sharply carinate'
+		'labiolingually compressed, sharply carinate (keeled)'
+		,
+		20
+		'shorter than length of anterior edge'
+		'elongate, about equal to or greater than width of anterior edge'
+		,
+		21
+		'forked'
+		'convexly rounded'
+		'straight and nearly vertical'
+		,
+		22
+		'tooth patch with two to several rows of teeth'
+		'tooth patch with only a single anterior marginal row, plus one or more teeth in a longitudinal series perpendicular to the anterior marginal row'
+		,
+		23
+		'2-8'
+		'10-15'
+		,
+		24
+		'proximal end flat and widened anteriorly'
+		'proximal end long and rodlike, without significant widening anteriorly'
+		,
+		25
+		'absent'
+		'present and small'
+		'present and thick and elongate'
+		,
+		26
+		'distal ends pointed or with rounded points'
+		'distal ends flatly truncated, even in large adults'
+		,
+		27
+		'subtriangular or subrectangular with acute rounded anterior apex'
+		'broad, oval, without acute anterior apex'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'relatively wide, with a width-to-length ratio of 0.26 to -0.65'
+		'relatively narrow, with a width-to-length ratio of 0.13 to 0.21'
+		,
+		30
+		'greatly widened posteriorly and tapered anteriorly'
+		'subrectangular, not substantially tapered anteriorly or widened posteriorly'
+		,
+		31
+		'narrow, with width-toheight ratio of 0.56 to 1.06'
+		'wide, with width-toheight ratio in range of 1.07 to 1.39'
+		,
+		32
+		'40 to 73'
+		'75 to 82'
+		,
+		33
+		'short, subrectangular, longer than deep'
+		'subrectangular, deeper than long'
+		'long, very thin, tubelike'
+		'posteriorly expansive, tapering anteriorly'
+		,
+		34
+		'0 to 11'
+		'12 to 15'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'last few hypurals each articulate with the bases of several caudal fin rays'
+		'each hypural normally bears a single caudal ray'
+		,
+		37
+		'normally four or more'
+		'normally 2 or fewer'
+		,
+		38
+		'dermopterotic significantly longer'
+		'lengths about equivalent'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'no'
+		'yes'
+		,
+		42
+		'21 or fewer'
+		'22 or more'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'loosely attached on the skull roof or hinged to the side of skull roof'
+		'firmly sutured into skull roof, forming part of it'
+		,
+		45
+		'plate-like or short tube-like, without lateral horns'
+		'roughly V-shaped, with lateral horns'
+		,
+		46
+		'longer than deep, and smaller than orbit'
+		'deeper than long, and massive (about size of orbit)'
+		,
+		47
+		'extends to below posterior orbital margin'
+		'does not extend below posterior orbital margin'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'does not articulate with lower jaw'
+		'distal end articulates with articular bone of lower jaw'
+		,
+		50
+		'smooth, without sensory canal'
+		'= bearing sensory canal tube'
+		,
+		51
+		'spine-like or rodlike'
+		'broadly spatulate in the transverse plane'
+		,
+		52
+		'short, much shorter than lowermost postinfraorbital'
+		'long, about equal in length to lowermost postinfraorbital'
+		,
+		53
+		'positioned at about 250 to 450 from the horizontal'
+		'strongly inclined to nearly horizontal'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'rhomboid'
+		'amioid'
+		,
+		56
+		'smooth'
+		'intensely pitted'
+		,
+		57
+		'unossified'
+		'hemichordacentra, diplospondylous'
+		'solid perichordally ossified, diplospondylous'
+		'solid perichordally ossified, monospondylous'
+		
+	;
+	MATRIX
+	'Atractosteus spatula'		                  1000001010121000?0101100-0-00100000101??000000-0000000000
+	'Dorsetichthys bechei'		                  00-?0000001000-1000?0?0?000000000000000000000000000010001
+	'Amiopsis lepidota'		                     ?1100000000000000100100010000000001110??00011000100000102
+	'Solnhofenamia elongata'		                112100000010000101001000100?0010211110?100011000100000102
+	'Calamopleurus cylindricus'		             112111100030000012112100100000000011101100001000100001102
+	'Pachyamia mexicana'		                    112?1110001001001211101121111111?11110??000110001?0000102
+	'Vidalamia catalunica'		                  ?12??1100010000012111011211111100011101?00011000100000102
+	'Cyclurus kehreri'		                      112211111121121101001000100000000011101100011000100100102
+	'Amia calva'		                            1?2211111121130001001000100000010011101100011000100101102
+	'Caturus furcatus'		                      00-000000000000101100100100000003000001111111000101010101
+	'Amblysemius pachyurus'		                 ?0-0?000001000010110000000000000000000??11111000101010101
+	'Liodesmus gracilis'		                    ?0-0?0000?00000101100?0010000000?00010??11011000101010100
+	'Ionoscopus cyprinoides'		                1000000000000000?100010010000?000000000000011000110000113
+	'Ophiopsis procera'		                     0?21?000000200??01000??010?000001000?1??00011111?10001002
+	'Macrepistius arenatus'		                 002??01?0?32?1???1000?????000?00100??10000?1?111110001002
+	'Oshunia brevis'		                        000?00000020?00001000000?0000?001?00000100011001110000113
+	'Watsonulus eugnathoides'		               00-00000000200010300000?000000000000?00000000000100000000
+	'Furo muensteri'		                        ??2??00?0?32100??10000??1?00?00?000??0??00?1?111???0?000?
+	'Archaeosemionotus connectens'		          ?????01????2100??10?0???0?00000?000??0??0????11????0??00?
+	'Quetzalichtys perrilliatae'		            ?000?0001?12?01011000?0?1??00000100000??00011101?10000113
+	'Teoichthys kallistos'		                  ??2??01???32?3?0?1?00??????0?00?100??1??00?11111???0?1002
+	'Robustichthys luopinguensis'		           ?????01???121000?1000???0?00010?000??0??00?1101111?0?000?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='From Grande & Bemis (1998): character 2. Morphobank Project 482.';
+	TEXT CHARACTER=2 TEXT='From Grande & Bemis (1998): character 3. Morphobank Project 482.';
+	TEXT CHARACTER=3 TEXT='From Grande & Bemis (1998): character 4. Morphobank Project 482.';
+	TEXT CHARACTER=4 TEXT='From Grande & Bemis (1998): character 5. Morphobank Project 482.';
+	TEXT CHARACTER=5 TEXT='From Grande & Bemis (1998): character 6. Morphobank Project 482.';
+	TEXT CHARACTER=6 TEXT='From Grande & Bemis (1998): character 7. Morphobank Project 482.';
+	TEXT CHARACTER=7 TEXT='From Grande & Bemis (1998): character 8. Morphobank Project 482.';
+	TEXT CHARACTER=8 TEXT='From Grande & Bemis (1998): character 9. Morphobank Project 482.';
+	TEXT CHARACTER=9 TEXT='From Grande & Bemis (1998): character 10. Morphobank Project 482.';
+	TEXT CHARACTER=10 TEXT='From Grande & Bemis (1998): character 11. Morphobank Project 482.';
+	TEXT CHARACTER=11 TEXT='From Alvarado-Ortega and Espinoza-Arrubarrena (2008): character 22.';
+	TEXT CHARACTER=12 TEXT='Modified from Grande & Bemis (1998): character 13. Morphobank Project 482.';
+	TEXT CHARACTER=13 TEXT='From Grande & Bemis (1998): character 14. Morphobank Project 482.';
+	TEXT CHARACTER=14 TEXT='From Grande & Bemis (1998): character 15. Morphobank Project 482.';
+	TEXT CHARACTER=15 TEXT='From Grande & Bemis (1998): character 16. Morphobank Project 482.';
+	TEXT CHARACTER=16 TEXT='From Grande & Bemis (1998): character 18. Morphobank Project 482.';
+	TEXT CHARACTER=17 TEXT='From Grande & Bemis (1998): character 19. Morphobank Project 482.';
+	TEXT CHARACTER=18 TEXT='From Grande & Bemis (1998): character 20. Morphobank Project 482.';
+	TEXT CHARACTER=19 TEXT='From Grande & Bemis (1998): character 21. Morphobank Project 482.';
+	TEXT CHARACTER=20 TEXT='From Grande & Bemis (1998): character 22. Morphobank Project 482.';
+	TEXT CHARACTER=21 TEXT='From Grande & Bemis (1998): character 23. Morphobank Project 482.';
+	TEXT CHARACTER=22 TEXT='From Grande & Bemis (1998): character 26. Morphobank Project 482.';
+	TEXT CHARACTER=23 TEXT='From Grande & Bemis (1998): character 28. Morphobank Project 482.';
+	TEXT CHARACTER=24 TEXT='From Grande & Bemis (1998): character 29. Morphobank Project 482.';
+	TEXT CHARACTER=25 TEXT='Modified from Grande & Bemis (1998): characters 30 and 62. Morphobank Project 482.';
+	TEXT CHARACTER=26 TEXT='From Grande & Bemis (1998): character 31. Morphobank Project 482.';
+	TEXT CHARACTER=27 TEXT='From Grande & Bemis (1998): character 32. Morphobank Project 482.';
+	TEXT CHARACTER=28 TEXT='From Grande & Bemis (1998): character 33. Morphobank Project 482.';
+	TEXT CHARACTER=29 TEXT='From Grande & Bemis (1998): character 34. Morphobank Project 482.';
+	TEXT CHARACTER=30 TEXT='From Grande & Bemis (1998): character 35. Morphobank Project 482.';
+	TEXT CHARACTER=31 TEXT='From Grande & Bemis (1998): character 36. Morphobank Project 482.';
+	TEXT CHARACTER=32 TEXT='From Grande & Bemis (1998): character 40. Morphobank Project 482.';
+	TEXT CHARACTER=33 TEXT='From Grande & Bemis (1998): character 43. Morphobank Project 482.';
+	TEXT CHARACTER=34 TEXT='From Grande & Bemis (1998): character 44. Morphobank Project 482.';
+	TEXT CHARACTER=35 TEXT='From Grande & Bemis (1998): character 45. Morphobank Project 482.';
+	TEXT CHARACTER=36 TEXT='From Grande & Bemis (1998): character 46. Morphobank Project 482.';
+	TEXT CHARACTER=37 TEXT='From Grande & Bemis (1998): character 47. Morphobank Project 482.';
+	TEXT CHARACTER=38 TEXT='From Grande & Bemis (1998): character 50. Morphobank Project 482.';
+	TEXT CHARACTER=39 TEXT='From Grande & Bemis (1998): character 51. Morphobank Project 482.';
+	TEXT CHARACTER=40 TEXT='From Grande & Bemis (1998): character 52. Morphobank Project 482.';
+	TEXT CHARACTER=41 TEXT='From Grande & Bemis (1998): character 53. Morphobank Project 482.';
+	TEXT CHARACTER=42 TEXT='From Grande & Bemis (1998): character 54. Morphobank Project 482.';
+	TEXT CHARACTER=43 TEXT='From Grande & Bemis (1998): character 55. Morphobank Project 482.';
+	TEXT CHARACTER=44 TEXT='From Grande & Bemis (1998): character 56. Morphobank Project 482.';
+	TEXT CHARACTER=45 TEXT='From Grande & Bemis (1998): character 57. Morphobank Project 482.';
+	TEXT CHARACTER=46 TEXT='From Grande & Bemis (1998): character 58. Morphobank Project 482.';
+	TEXT CHARACTER=47 TEXT='From Grande & Bemis (1998): character 59. Morphobank Project 482.';
+	TEXT CHARACTER=48 TEXT='From Grande & Bemis (1998): character 60. Morphobank Project 482.';
+	TEXT CHARACTER=49 TEXT='From Grande & Bemis (1998): character 61. Morphobank Project 482.';
+	TEXT CHARACTER=50 TEXT='From Grande & Bemis (1998): character 63. Morphobank Project 482.';
+	TEXT CHARACTER=51 TEXT='From Grande & Bemis (1998): character 65. Morphobank Project 482.';
+	TEXT CHARACTER=52 TEXT='From Grande & Bemis (1998): character 66. Morphobank Project 482.';
+	TEXT CHARACTER=53 TEXT='From Grande & Bemis (1998): character 67. Morphobank Project 482.';
+	TEXT CHARACTER=54 TEXT='From Alvarado-Ortega & Espinosa-Arrbarrena (2008) character 13.';
+	TEXT CHARACTER=55 TEXT='from Alvarado-Ortega & Espinosa-Arrubarrena (2008) character 15.';
+	TEXT CHARACTER=56 TEXT='From Alvarado-Ortega & Espinosa-Arrbarrena (2008) character 18.';
+	TEXT CHARACTER=57 TEXT='Modified from Grande & Bemis (1998) character 1 and Alvarado-Ortega & Espinosa-Arrbarrena (2008) character 6.';
+
+      [Attribute comments]
+      	TEXT TAXON=18 CHARACTER=38 TEXT='In disagreement with Lane and Ebert (2012) after observation of JME ETT-977.';
+	TEXT TAXON=16 CHARACTER=47 TEXT='Scoring after Alvarado-Ortega and Espinoza-Arrubarrena (2008).';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 57;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1393430283338 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 8598452306722257164 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 6967249604329838144 ; mqVersion 275 ; checksumv 0 3 333858132 null getNumChars 57 numChars 57 getNumTaxa 21 numTaxa 21 short true bits 15 states 15 sumSquaresStatesOnly 3206.0 sumSquares 3206.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 254 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1366 684 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; showTaxa #8598452306722257164 #mesquite.lists.TaxonList.TaxonList ; tell It ; setTaxa #8598452306722257164 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord ; tell It ; makeTreeWindow #8598452306722257164 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 1934.1387555633482.844946788924179525 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.interchange ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.SquareTree.SquareTree ; tell It ; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; branchLengthsToggle off ; toggleScale on ; toggleBroadScale off ; toggleCenter on ; toggleEven on ; endTell ; setEdgeWidth 6 ; orientUp ; setCornerMode Right_Angle 50 ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; getInfoPanel ; tell It ; btspOpen true ; apOpen false ; endTell ; toggleInfoPanel on ; showWindow ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; toggleWhiteEdges on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; newValue #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix ; tell It ; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix ; tell It ; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps ; tell It ; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels ; endTell ; endTell ; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep ; tell It ; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices ; tell It ; setDataSet #6967249604329838144 ; endTell ; endTell ; endTell ; panelOpen true ; endTell ; endTell ; makeTreeWindow #8598452306722257164 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 949.1393404682928.1330726983828281069 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.SquareTree.SquareTree ; tell It ; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; branchLengthsToggle off ; toggleScale on ; toggleBroadScale off ; toggleCenter on ; toggleEven on ; endTell ; setEdgeWidth 6 ; orientUp ; setCornerMode Right_Angle 50 ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; showWindow ; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory ; tell It ; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree ; tell It ; toggleLabels off ; toggleGray off ; endTell ; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates ; tell It ; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed ; tell It ; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters ; tell It ; setDataSet #6967249604329838144 ; endTell ; endTell ; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates ; tell It ; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels ; toggleMPRsMode off ; endTell ; endTell ; setCharacter 57 ; setMapping 1 ; toggleShowLegend on ; toggleGray off ; toggleWeights on ; setInitialOffsetX 4 ; setInitialOffsetY -225 ; setLegendWidth 142 ; setLegendHeight 225 ; resume ; endTell ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; toggleShow consensusFrequency ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; toggleWhiteEdges on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; panelOpen false ; endTell ; endTell ; makeTreeWindow #8598452306722257164 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 992.1393405129095.7536564181085364454 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.SquareTree.SquareTree ; tell It ; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; branchLengthsToggle off ; toggleScale on ; toggleBroadScale off ; toggleCenter on ; toggleEven on ; endTell ; setEdgeWidth 6 ; orientUp ; setCornerMode Right_Angle 50 ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setTree ((((((14,(15,21)),(18,19)),((20,16),13)),((3,(4,((5,(6,7)),(8,9)))),((10,11),12))),17),(2,1))<> <> <  setBetweenBits = selected >; ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; getInfoPanel ; tell It ; btspOpen true ; apOpen false ; endTell ; toggleInfoPanel on ; showWindow ; newAssistant #mesquite.trees.TreeLegendMaker.TreeLegendMaker ; tell It ; setOffsetsX 34 ; setOffsetsY 519 ; getLegendsVector ; tell It ; distributeCommands ; setBounds 34 519 300 57 ; setOffsetX 34 ; setOffsetY 519 ; endDistributeCommands ; endTell ; newLegendItemNoCalc #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix ; tell It ; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix ; tell It ; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps ; tell It ; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels ; endTell ; endTell ; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep ; tell It ; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices ; tell It ; setDataSet #6967249604329838144 ; endTell ; endTell ; endTell ; calculate ; endTell ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; toggleShow consensusFrequency ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; toggleWhiteEdges on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; newValue #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix ; tell It ; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix ; tell It ; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps ; tell It ; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels ; endTell ; endTell ; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep ; tell It ; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices ; tell It ; setDataSet #6967249604329838144 ; endTell ; endTell ; endTell ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #6967249604329838144 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Blue ; removeColor off ; endTell ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames off ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; getInfoPanel ; tell It ; btspOpen true ; apOpen true ; fpOpen true ; endTell ; toggleInfoPanel on ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #6967249604329838144 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 617 ; setLocation 18 42 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 57 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "bandb.tree" ; LINK Taxa = Taxa ; TRANSLATE 1 Atractosteusspatula , 2 Dorsetichthysbechei , 3 Amiopsislepidota , 4 Solnhofenamiaelongata , 5 Calamopleuruscylindricus , 6 Pachyamiamexicana , 7 Vidalamiacatalunica , 8 Cycluruskehreri , 9 Amiacalva , 10 Caturusfurcatus , 11 Amblysemiuspachyurus , 12 Liodesmusgracilis , 13 Ionoscopuscyprinoides , 14 Ophiopsisprocera , 15 Macrepistiusarenatus , 16 Oshuniabrevis , 17 Watsonuluseugnathoides , 18 Furomuensteri , 19 Archaeosemionotus , 20 Quetzalichtys , 21 Teoichthys ; TREE PAUP_1 = ((((((((14 , (15 , 21)) , (18 , 19)) , 20) , 16) , 13) , ((3 , (4 , ((5 , (6 , 7)) , (8 , 9)))) , ((10 , 11) , 12))) , 17) , (2 , 1)) ;
+ENDBLOCK;
