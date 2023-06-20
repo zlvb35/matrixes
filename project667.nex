@@ -1,0 +1,1762 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 18.25.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=65;
+    TAXLABELS
+    		'Phenacodus primaevus'
+		'Hyopsodus lepidus'
+		'Protolipterna ellipsodontoides'
+		'Tetramerorhinus lucarius'
+		'Trigonostylops wortmani'
+		'Astrapotherium magnum'
+		'Carodnia vieirai'
+		'Pyrotherium romeroi'
+		'Simpsonotus praecursor'
+		'Notostylops murinus'
+		'Anisotemnus distentus'
+		'Thomashuxleya externa'
+		'Oldfieldthomasia debilitata'
+		'Colbertia magellanica'
+		'Acropithecus rigidus'
+		'Eopachyrucos pliciferus'
+		'Santiagorothia chiliensis'
+		'Proargyrohyrax curanderensis'
+		'Progaleopithecus tournoueri'
+		'Federicoanaya sallaensis'
+		'Archaeophylus patrius'
+		'Plagiarthrus clivus'
+		'Cochilius volvens'
+		'Interatherium robustum'
+		'Punapithecus minor'
+		'Miocochilius anomopodus'
+		'Protypotherium australe'
+		'Johnbel hatcheri'
+		'Ignigena minisculus'
+		'Transpithecus obtentus'
+		'Guilielmoscottia plicifera'
+		'Antepithecus brachystephanus'
+		'Epipatriarchus bifidens'
+		'Altitypotherium chucalensis'
+		'Pseudotypotherium pseudopachygnathum'
+		'Typotheriopsis internum'
+		'Archaeohyrax suniensis'
+		'Archaeotypotherium tinguiriricaense'
+		'Mesotherium cristatum'
+		'Trachytherus alloxus'
+		'Plesiotypotherium casirense'
+		'Hegetotherium mirabile'
+		'Pachyrukhos moyani'
+		'Paedotherium bonaerense'
+		'Campanorco inauguralis'
+		'Pleurostylodon modicus'
+		'Rhyphodon lankesteri'
+		'Homalodotherium cunninghami'
+		'Anayatherium fortis'
+		'Ancylocoelus frequens'
+		'Colpodon propinquus'
+		'Elmerriggsia fieldia'
+		'Coquenia bondi'
+		'Huilatherium pluriplicatum'
+		'Leontinia gaudryi'
+		'Martinmiguelia fernandezi'
+		'Scarittia canquelensis'
+		'Taubatherium paulacoutoi'
+		'Eurygenium pacegnum'
+		'Rhynchippus equinus'
+		'Argyrohippus fraterculus'
+		'Adinotherium ovinum'
+		'Nesodon imbricatus'
+		'Proadinotherium muensteri'
+		'Toxodon platensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=259;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'BRAIN ENDOCAST - Olfactory bulb width vs. length aspect ratio'
+		 [2] 'BRAIN ENDOCAST - Olfactory bulb width vs. depth aspect ratio'
+		 [3] 'BRAIN ENDOCAST - Olfactory bulbs diverge from each other near their posterior junction with the rest of the cerebrum (just anterior to circular fissure)'
+		 [4] 'BRAIN ENDOCAST - Vascular foramen entering the olfactory bulb fossa'
+		 [5] 'BRAIN ENDOCAST - Piriform lobes of the cerebrum size'
+		 [6] 'BRAIN ENDOCAST - Suprasylvian sulcus on cerebrum portion of endocast'
+		 [7] 'BRAIN ENDOCAST - Midbrain exposure on the dorsal surface of the endocast'
+		 [8] 'BRAIN ENDOCAST - Anterior portion of cavum epiptericum leading to the sphenorbital fissure'
+		 [9] 'BRAIN ENDOCAST - Sphenorbital fissure position'
+		 [10] 'BRAIN ENDOCAST - Hypophyseal fossa width versus length'
+		 [11] 'BRAIN ENDOCAST - Hypophysis depth'
+		 [12] 'BRAIN ENDOCAST - Posterior clinoid process of the dorsum sellae'
+		 [13] 'BRAIN ENDOCAST - Pons'
+		 [14] 'BRAIN ENDOCAST - Paraflocculus of the cerebellum'
+		 [15] 'BRAIN ENDOCAST - Paraflocculus shape'
+		 [16] 'BRAIN ENDOCAST - Subarcuate fossa position relative to internal auditory meatus (IAM)'
+		 [17] 'BRAIN ENDOCAST - Lateral cerebral venous sinus'
+		 [18] 'BRAIN ENDOCAST - Large recess (for lateral sinus?) dorsal to, and confluent with, canal leading to jugular foramen'
+		 [19] 'BRAIN ENDOCAST - Foramen rotundum (separate opening for V2)'
+		 [20] 'BRAIN ENDOCAST - Optic fissure (cranial nerve II opening separate from sphenorbital fissure)'
+		 [21] 'BRAIN ENDOCAST - Osseous tentorium'
+		 [22] 'BRAIN ENDOCAST - Endocranial flexure'
+		 [23] 'GENERAL DENTITION - Distribution of enamel on teeth'
+		 [24] 'GENERAL DENTITION - Presence of cementum'
+		 [25] 'GENERAL DENTITION - Presence of diastema in anterior upper dentition'
+		 [26] 'GENERAL DENTITION - Shape of anterior dental arcade'
+		 [27] 'CHEEK TEETH - Height of cheek teeth'
+		 [28] 'UPPER INCISORS - Presence of labial cingulum of upper incisors'
+		 [29] 'UPPER INCISORS- Lingual cingulum on upper incisors forming fossettes'
+		 [30] 'UPPER INCISORS - Incisor root form'
+		 [31] 'UPPER INCISORS - I1 shape'
+		 [32] 'UPPER INCISORS - Development and implantation of I1 in front view'
+		 [33] 'UPPER INCISORS - Procumbency of I1 in lateral view'
+		 [34] 'UPPER INCISORS - Presence of I2'
+		 [35] 'UPPER INCISORS - Relative size of I1 and I2'
+		 [36] 'UPPER INCISORS - Shape of I2'
+		 [37] 'UPPER INCISORS - Development and implantation of I2 in front view '
+		 [38] 'UPPER INCISORS - I2 position relatively to I1'
+		 [39] 'UPPER INCISORS - Presence of I3'
+		 [40] 'UPPER INCISORS - Relative size of I2 and I3'
+		 [41] 'UPPER INCISORS - Shape of I3'
+		 [42] 'UPPER CANINE - Presence of upper canine'
+		 [43] 'UPPER CANINE - C exterior face'
+		 [44] 'UPPER CANINE - Shape of upper canine'
+		 [45] 'CHEEK TEETH - Cristae and cristidae height'
+		 [46] 'UPPER MOLARS- Long crochet on upper cheek teeth connected to the ectoloph, thus isolating a posterolabial fossette'
+		 [47] 'UPPER MOLARS - Crista intermedia running lingually from the ectoloph between the protoloph and the crochet on upper cheek teeth'
+		 [48] 'UPPER MOLARS - Multiple cristae individualized mesially to the crochet on upper cheek teeth'
+		 [49] 'UPPER MOLARS - Central fossette on upper cheek teeth'
+		 [50] 'UPPER PREMOLAR - Upper premolar intermediate lingual cingulum extent'
+		 [51] 'UPPER PREMOLAR - Presence of a persistent sulcus (enamel infolding) between protoloph and metaloph strictly located on the lingual face on upper premolars'
+		 [52] 'UPPER PREMOLARS - Presence of P1'
+		 [53] 'UPPER PREMOLARS - P1 orientation'
+		 [54] 'UPPER PREMOLARS - Presence of vertical anteroexternal ridge on P1'
+		 [55] 'UPPER PREMOLARS - Labial cingulum of P1-3 presence/absence'
+		 [56] 'UPPER PREMOLARS - Deep mesial valley on P2-3 (-4) due to incomplete development of protoloph'
+		 [57] 'UPPER PREMOLARS - P2-4 protoloph'
+		 [58] 'UPPER PREMOLARS - Strong thickening of the cingulum at mesiolingual base of protocone on P2-4'
+		 [59] 'UPPER PREMOLARS - Metacone fold on upper premolars'
+		 [60] 'UPPER PREMOLARS - P2-4 metacone ectoloph'
+		 [61] 'UPPER PREMOLARS - Upper premolar distolingual cingulum position'
+		 [62] 'UPPER PREMOLARS - Parastyle cingulum of P1-3 form'
+		 [63] 'UPPER PREMOLARS - Paracone/parastylar fold on P3/P4'
+		 [64] 'UPPER PREMOLARS - Anterior displacement of lingual sulcus on P3/4'
+		 [65] 'UPPER PREMOLARS - P3-4 fossettes and internal sulcus'
+		 [66] 'UPPER PREMOLARS - P3-4 dimensions'
+		 [67] 'UPPER PREMOLARS - Shape of P3-4'
+		 [68] 'UPPER PREMOLARS - Shape of molarized P4'
+		 [69] 'UPPER MOLARS - Molar series elongate, premolar series foreshortened'
+		 [70] 'UPPER MOLARS - Labial cingulum of M1 presence/absence'
+		 [71] 'UPPER MOLARS - M1 mesiolingual cingulae'
+		 [72] 'UPPER MOLARS - Posterior cingulum of upper molar form'
+		 [73] 'UPPER MOLAR - Upper molar root form'
+		 [74] 'UPPER MOLARS - Anterolabial fossette on upper cheek teeth'
+		 [75] 'UPPER MOLARS - Ectoloph (loph joining paracone and metacone) on upper molars (and premolars)'
+		 [76] 'UPPER MOLARS - Protoloph (loph joining paracone and protocone) on upper molars (and premolars)'
+		 [77] 'UPPER MOLARS - Small persistent lingual sulcus (enamel infolding) between protoloph and metaloph on upper molars'
+		 [78] 'UPPER MOLARS - Deep labial extension of central fossette between the protoloph (-crista 1) and the crochet (-crista 2) on upper molars'
+		 [79] 'UPPER MOLARS - Metaloph on upper molars'
+		 [80] 'UPPER MOLARS - Upper molars trilobed when little worn, with large and rounded median lobe'
+		 [81] 'UPPER MOLARS - Upper molar imbrication (imbrication = width from M2 parastyle to M1 hypocone/width of M1 distal face)'
+		 [82] 'UPPER MOLARS - M1-3 paracone/parastyle inflection'
+		 [83] 'UPPER MOLARS - M1-3 metacone ectoloph'
+		 [84] 'UPPER MOLARS - M1-3 anterior cingulum'
+		 [85] 'UPPER MOLARS - M1-3 dimensions'
+		 [86] 'UPPER MOLARS - Metastyle on M3'
+		 [87] 'UPPER MOLARS - M3 hypocone'
+		 [88] 'UPPER MOLARS - Crista intermedia'
+		 [89] 'UPPER MOLARS - Para- and metaconule'
+		 [90] 'UPPER MOLARS - Origin of crochet'
+		 [91] 'LOWER INCISORS - Orientation of lower incisors'
+		 [92] 'LOWER INCISORS - Lingual ridge on lower incisors'
+		 [93] 'LOWER INCISORS - Lower incisor labial cingulum presence/absence'
+		 [94] 'LOWER INCISORS - Relative size of i1'
+		 [95] 'LOWER INCISORS - Lingual face of i1-2'
+		 [96] 'LOWER INCISORS - Shape of i2'
+		 [97] 'LOWER INCISORS - i3 size'
+		 [98] 'LOWER INCISORS - i3 shape'
+		 [99] 'LOWER CANINE - Presence of lower canine'
+		 [100] 'LOWER CANINE - c size'
+		 [101] 'LOWER PREMOLAR - Presence of p1'
+		 [102] 'LOWER CANINE/LOWER PREMOLAR - diastema between lower canine and first lower premolar'
+		 [103] 'CHEEK TEETH - Isolated cuspid in front of the metalophid on lower cheek teeth'
+		 [104] 'LOWER PREMOLARS - Metaflexid of lower premolars'
+		 [105] 'LOWER PREMOLARS - Distolabial crest on trigonid of lower premolars made by a distolabial extension of protolophid'
+		 [106] 'LOWER PREMOLARS - Lingual connection of lophids of the trigonid and talonid (entolophid connects to metalophid with wear) on lower cheek teeth'
+		 [107] 'LOWER PREMOLARS - Lingual cingulid of lower premolars'
+		 [108] 'LOWER PREMOLARS - Labial cingulid of p2-4'
+		 [109] 'LOWER PREMOLARS - Postmetacristid on p3-p4'
+		 [110] 'LOWER MOLARS - Relative size of m1-3 trigonid and talonid'
+		 [111] 'LOWERS MOLARS - m1-3 trigonid shape'
+		 [112] 'LOWER MOLARS - Talonid of m3'
+		 [113] 'LOWER MOLARS - Small rounded fossettid between m3 entolophid and hypolophid'
+		 [114] 'LOWER MOLARS - Mesial lophid in a paraconid position on lower cheek teeth'
+		 [115] 'LOWER MOLARS - Lower cheek teeth with entoconid transversely expanded into entolophid'
+		 [116] 'LOWER MOLARS - Early formed fossettid at entolophid'
+		 [117] 'LOWER MOLARS - Transversely elongated fossettid isolated between entolophid (mesially) and hypolophid (labially and distally) with advanced wear'
+		 [118] 'LOWER MOLARS - Deep labial and lingual sulci dividing trigonids and talonids on lower cheek teeth at all wear stages'
+		 [119] 'LOWER MOLARS - Trigonid and talonid of lower molars with angulate (pointed) labial edge'
+		 [120] 'LOWER MOLARS - Trigonid of lower molars with a tiny trigonid fossetid partially or entirely isolated lingually bra a crest (premetacristid) running mesially from the metalophid'
+		 [121] 'LOWER MOLARS - Extension of talonid of molars'
+		 [122] 'CRANIUM - Rostrum length'
+		 [123] 'CRANIUM - Anterior edge of ascending process of premaxillary shifted posteriorly'
+		 [124] 'CRANIUM - Narial processes of the premaxillaries'
+		 [125] 'CRANIUM - Premaxillaries defining a strong and long ridge connecting the narial processes to the anterior alveolar border (the nares open much higher than the alveolar border)'
+		 [126] 'CRANIUM - Palatal premaxillary extension almost restricted to lateral parts, with the premaxillary-maxillary suture running strongly forward medially'
+		 [127] 'CRANIUM - Premaxillary-maxillary suture course on palate'
+		 [128] 'CRANIUM - Size of incisive foramina'
+		 [129] 'CRANIUM - Triangular incisive foramina (distal extremities converging)'
+		 [130] 'CRANIUM - Medial platform of palatines expanding palate posteriorly and fully continuous with it'
+		 [131] 'CRANIUM - Posterodorsal extremity of maxillary contacting nasal'
+		 [132] 'CRANIUM - Strong vertical descending process of maxillary'
+		 [133] 'CRANIUM - Descending process of maxillary developed as a horizontal spine lateral to infraorbital foramen'
+		 [134] 'CRANIUM - Infraorbital foramen in adult'
+		 [135] 'CRANIUM - Numerous accessory foramina perforating maxillary in front of infraorbital foramen'
+		 [136] 'CRANIUM - Anterior tips of nasals'
+		 [137] 'CRANIUM - Length of nasals reduced relative to width'
+		 [138] 'CRANIUM - Large facial extent of lacrimal toward nasal bone'
+		 [139] 'CRANIUM - Orbit shape'
+		 [140] 'CRANIUM - Very large orbit (the orbit occupies almost all the orbitotemporal fossa)'
+		 [141] 'CRANIUM - Development of anterior root of zygoma'
+		 [142] 'CRANIUM - Anterior root of zygomatic arch grossly situated at level of M1 anteriorly (removed from M3 posteriorly)'
+		 [143] 'CRANIUM - Origin of anterior masseter muscle'
+		 [144] 'CRANIUM - Zygomatic plate'
+		 [145] 'CRANIUM - Jugal contributes to orbit'
+		 [146] 'CRANIUM - Jugal-squamosal suture curved anteriorly'
+		 [147] 'CRANIUM - Post-orbital constriction'
+		 [148] 'CRANIUM - Squamosal contacts with frontal at level of postorbital apophysis'
+		 [149] 'CRANIUM - Zygomatic arches in dorsal view'
+		 [150] 'CRANIUM - Dorsal edge of posterior root of zygomatic arch'
+		 [151] 'CRANIUM - Well-marked notch posterior to squamosal root of zygomatic process'
+		 [152] 'CRANIUM - Narrow and shallow fossa posterior to squamosal root of zygomatic arch'
+		 [153] 'CRANIUM - Strong and diverging ectopterygoid crests formed exclusively by palatines/alisphenoids'
+		 [154] 'CRANIUM - Choanae divided by a vomerian/palatine process'
+		 [155] 'CRANIUM - Hamular process of pterygoid'
+		 [156] 'CRANIUM - Sphenopalatine foramen'
+		 [157] 'CRANIUM - Position of sphenopalatine foramen'
+		 [158] 'CRANIUM - Auditory region (basicranium) large and short (=auditory region much wider than longer, from level of anterior edge of squamosal root of zygomatic process to posterior border of paroccipital processes)'
+		 [159] 'CRANIUM - Position of postglenoid foramen'
+		 [160] 'CRANIUM - Postglenoid process appressed or almost fused on all its length to crista meatus and/or to external auditory meatus and defining a channel for postglenoid foramen'
+		 [161] 'CRANIUM - Position of carotid foramen'
+		 [162] 'CRANIUM - Foramen ovale'
+		 [163] 'CRANIUM - External aperture of Eustachian (auditory) tube'
+		 [164] 'CRANIUM - Epitympanic sinus of the squamosal'
+		 [165] 'CRANIUM - Hypertrophied epitympanic sinus, prominent in dorsal view'
+		 [166] 'CRANIUM - Epitympanic sinus in a large swollen triangular area delimited by a medial crest continuous with posterior root of zygomatic arch and with lambdoid crest'
+		 [167] 'CRANIUM - Inflated ossified auditory bulla well attached to basicranium'
+		 [168] 'CRANIUM - Medial wall of auditory bulla'
+		 [169] 'CRANIUM - Large quadrangular auditory bulla with an anterior border grossly transverse and a medial border defining a long straight line'
+		 [170] 'CRANIUM - Vertical septum in auditory bulla'
+		 [171] 'CRANIUM - Horizontal septum in auditory bulla'
+		 [172] 'CRANIUM - Posterior bulla'
+		 [173] 'CRANIUM - Ossified tubular external auditory meatus strongly attached to the basicranium'
+		 [174] 'CRANIUM - Ossified tubular external auditory meatus'
+		 [175] 'CRANIUM - Crista meatus'
+		 [176] 'CRANIUM - Size of crista meatus'
+		 [177] 'CRANIUM - Crista meatus and post-tympanic process of squamosal'
+		 [178] 'CRANIUM - Tympanohyal recess defined as a fossa isolated anteriorly and laterally by the crista meatus (or by an adjacent tympanic extension) at posterolateral corner of bulla'
+		 [179] 'CRANIUM - Posterior border of tympanohyal recess'
+		 [180] 'CRANIUM - Very small tympanohyal recess located on posterolateral slope of bulla'
+		 [181] 'CRANIUM - Expanded and fanlike medial margin of tympanic face of petrosal, well demarcated from the beanshaped promontory'
+		 [182] 'CRANIUM - Subarcuate fossa'
+		 [183] 'CRANIUM - Crista tympanica surrounding the tympanic sulcus at internal aperture of external auditory meatus'
+		 [184] 'CRANIUM - Pars mastoidea of petrosal'
+		 [185] 'CRANIUM - Mastoid foramen'
+		 [186] 'CRANIUM - Paroccipital process and post-tympanic process define a blade-like extension on posteroventral part of bulla'
+		 [187] 'CRANIUM - Posterior lacerate (jugular) foramen'
+		 [188] 'CRANIUM - Position of hypoglossal foramen relative to posterior lacerate (jugular) foramen'
+		 [189] 'CRANIUM - Strong relief of medial crest and condyles on basioccipital and exoccipital'
+		 [190] 'CRANIUM - Very high sagittal and lambdoid crests, this latter crest being inclined backward'
+		 [191] 'CRANIUM - Sagittal crest'
+		 [192] 'MANDIBLE - Shape of coronoid process of dentary'
+		 [193] 'MANDIBLE - Position of mandibular foramen'
+		 [194] 'SCAPULA - Coracoid process of the scapula shape'
+		 [195] 'SCAPULA - Acromion border extent'
+		 [196] 'SCAPULA - Metacromion extent'
+		 [197] 'SCAPULA - Secondary metacromion presence/absence'
+		 [198] 'HUMERUS - Greater tubercle height'
+		 [199] 'HUMERUS - Biciptal groove closure'
+		 [200] 'HUMERUS - Deltoid crest shape/position'
+		 [201] 'HUMERUS - Pectoral crest shape/position'
+		 [202] 'HUMERUS - Tuberosity for m. teres major presence/absence'
+		 [203] 'HUMERUS - Supinator crest'
+		 [204] 'HUMERUS - Entepicondylar process, medial extent'
+		 [205] 'HUMERUS - Entepicondylar foramen presence/absence'
+		 [206] 'HUMERUS - Medial trochlear flange size'
+		 [207] 'HUMERUS - Brachial index (BI)'
+		 [208] 'ULNA - Olecranon shape in lateral view'
+		 [209] 'ULNA - Olecranon shape in dorsal (anterior) view'
+		 [210] 'RADIUS - Outline of proximal radial in proximal view'
+		 [211] 'RADIUS - Radial head fossa'
+		 [212] 'RADIUS - Capitular eminence (central process) of radial head presence/absence'
+		 [213] 'RADIUS - Radial sesamoid presence/absence'
+		 [214] 'RADIUS - Distal radius dorsal outline shape'
+		 [215] 'MANUS - Distal ulna articulation with pisiform presence/absence'
+		 [216] 'MANUS - Manus, digit number'
+		 [217] 'MANUS - Relative metacarpal/metatarsal lengths on digit III (Mc III/Mt III)'
+		 [218] 'MANUS - Radial facet of lunar extent'
+		 [219] 'MANUS - Unciform facet angle'
+		 [220] 'MANUS - Ungula phalanx of manus digits compression'
+		 [221] 'MANUS - Apex of ungual phalanx of manus, fissure presence/absence'
+		 [222] 'FEMUR - Suprapatellar medial femoral ridge presence/absence'
+		 [223] 'PES - Number of digits of the pes'
+		 [224] 'CALCANEUM - Dorsal prominence of calcaneum orientation'
+		 [225] 'CALCANEUM - Calcaneal fibular facet size'
+		 [226] 'CALCANEUM - Calcaneal fibular facet form'
+		 [227] 'CALCANEUM - Ectal facet of calcaneum or astragalus orientation'
+		 [228] 'CALCANEUM - Calcaneal-navicular articulation development'
+		 [229] 'ASTRAGALUS - Astragalar foramen (superior)'
+		 [230] 'ASTRAGALUS - Groove for tendon of flexor hallicus longus (or other flexor tendon) development'
+		 [231] 'ASTRAGALUS - Neck of astragalus shape'
+		 [232] 'ASTRAGALUS - Astragalar head shape'
+		 [233] 'ASTRAGALUS - Proximomedial astragalar buttress of navicular presence/absence'
+		 [234] 'ASTRAGALUS - Symmetry of trochlea ridges of astragalus'
+		 [235] 'INNER EAR - Lateral reach of LSC and PSC'
+		 [236] 'INNER EAR - Form of LSC in its transition to the lateral ampulla'
+		 [237] 'INNER EAR - Form of LSC in its transition to vestibule'
+		 [238] 'INNER EAR - Posterior arm of the LSC in relation to the level of the PSC'
+		 [239] 'INNER EAR - Shape of the PSC when viewed in the plane of the canal'
+		 [240] 'INNER EAR - Semicircular canal with largest overall radius of curvature'
+		 [241] 'INNER EAR - Roundest semicircular canal'
+		 [242] 'INNER EAR - Anterior and posterior ampullae dorsoventral girth relative to semicircular canal cross-sectional diameter'
+		 [243] 'INNER EAR - Anterior and lateral ampullae position'
+		 [244] 'INNER EAR - Primary osseous spiral lamina'
+		 [245] 'INNER EAR - Secondary osseous spiral lamina'
+		 [246] 'INNER EAR - Length of secondary osseous lamina'
+		 [247] 'INNER EAR - Crus commune lumen diameter thickness relative to semicircular canals'
+		 [248] 'INNER EAR - Dorsal extent of ASC and PSC above the crus commune'
+		 [249] 'INNER EAR - Utricle and saccule housing'
+		 [250] 'INNER EAR - Position of chamber for utricle (in bony labyrinth) when viewed dorsally'
+		 [251] 'INNER EAR - Thickness of canal connecting the posterior ampulla and foramen singulare (transmits nervus ampullaris posterior)'
+		 [252] 'INNER EAR - Posterior extent of aqueductus cochleae'
+		 [253] 'INNER EAR - Thickness of aqueductus cochleae relative to that of the semicircular canals'
+		 [254] 'INNER EAR - Stapedial ratio'
+		 [255] 'INNER EAR - Confluence between the inferior arm of the PSC and the posterior arm of the LSC that is unassociated with a secondary crus commune'
+		 [256] 'INNER EAR - Secondary crus commune'
+		 [257] 'INNER EAR - Fenestra cochleae position relative to fenestra vestibuli'
+		 [258] 'INNER EAR - Fenestra cochleae orientation'
+		 [259] 'INNER EAR - Diameter of fenestra cochleae relative to that of fenestra vestibuli'
+	;
+	STATELABELS
+		1
+		'longer than wide (aspect ratio < 0.9)'
+		'wider than long (aspect ratio > 1.1)'
+		'length and width are about equivalent (aspect ratio = 0.9-1.1)'
+		,
+		2
+		'deeper than wide (aspect ratio < 0.9)'
+		'wider than deep (aspect ratio > 1.1)'
+		'depth and width are about equivalent (aspect ratio = 0.9-1.1)'
+		,
+		3
+		'absent (olfactory bulbs are fused together prosteriorly)'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'large, such that they are visible in dorsal view of the endocast '
+		'small, not visible in dorsal view of the endocast being obscured by the overlying isocortex '
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'anterior portions of right and left cava are at least partially separated at sphenorbital fissure'
+		'cava are completely confluent at sphenorbital fissure'
+		,
+		9
+		'located well behind the circular fissure'
+		'even with or just behind the circular fissure'
+		,
+		10
+		'wider than long (aspect ratio > 1.1)'
+		'longer than wide (aspect ratio < 0.9)'
+		'hypophyseal fossa width and length approximately equal (aspect ratio = 0.9""1.1)'
+		,
+		11
+		'deep, extending well below the fillings of the anterior portion of the cavum epiptericum leading to the sphenorbital fissure'
+		'shallow, being dorsal or even with the anterior cavum epiptericum'
+		,
+		12
+		'absent (does not leave an impression on the endocast)'
+		'concavity present'
+		'narrow ridge present, extending from clinoid process '
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'cone-shaped'
+		'broad and rounded'
+		,
+		16
+		'subarcuate fossa dorsal or posterodorsal to IAM'
+		'subarcuate fossa posterior to IAM'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'present'
+		'absent'
+		,
+		21
+		'absent'
+		'present and represented by posteromedial ossification of tentorium cerebelli'
+		'present and lateral ossification of tentorium cerebelli'
+		,
+		22
+		'slight or no flexure'
+		'flexed with cerebrum inclined anterodorsally when medulla is oriented horizontally'
+		'flexed with cerebrum inclined anteroventrally when medulla is oriented horizontally'
+		,
+		23
+		'continuous around margins'
+		'reduced or lacking at the antero- and posterolabial angles of the molars'
+		'confined to the labial and lingual faces'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present, with diastema separating anterior teeth (incisors/canines) from cheek teeth'
+		,
+		26
+		'anterior dental arcade convergent, V-shaped, distance between left and right P1 less than half that of left and right M2'
+		'anterior dental arcade paralel, U-shaped, distance between left and right P1 more than half that of left and right M2'
+		'Transverse, not arcuate'
+		,
+		27
+		'brachydont (HI<1)'
+		'hypsodont (HI>1)'
+		,
+		28
+		'absent'
+		'present in at least one incisor'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'incisors with determinate growth, roots form after crown formation'
+		'incisors hypselodont (never form roots)'
+		,
+		31
+		'incisiform (labiolingual compression, with transversely flat occlusal surface)'
+		'caniniform (ovoid or round in cross section with pointed cusp)'
+		'gliriform, much larger (broader and taller) than lateral incisors (if present)'
+		,
+		32
+		'straight'
+		'obliquely implanted, meeting at tips'
+		,
+		33
+		'straight, ortodont'
+		'procumbent, proodont'
+		'curved internally, opisthodont'
+		,
+		34
+		'present'
+		'absent'
+		,
+		35
+		'I1 and I2 subequal'
+		'I1 larger than I2'
+		'I1 smaller than I2'
+		,
+		36
+		'incisiform, labiolingually compressed'
+		'caniniform, circular in cross-section'
+		,
+		37
+		'straight'
+		'hypertrophied, diverging'
+		,
+		38
+		'I2 lateral or posterolateral to I1'
+		'I2 immediately posterior to I1 (I1 and I2 brought into line anteroposteriorly)'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'subequal'
+		'I3 smaller than I2'
+		'I3 larger than I2'
+		,
+		41
+		'ovoid/conical'
+		'labiolingually compressed'
+		,
+		42
+		'present'
+		'absent'
+		,
+		43
+		'convex or vague anterior swelling'
+		'distinct vertical anteroexternal ridge'
+		,
+		44
+		'caniniform, ovoid or round in cross section with pointed cusp'
+		'incisiform, labiolingually compressed and subequal to upper incisors'
+		'tusk-like, more than 2x larger than adjacent teeth'
+		,
+		45
+		'low, lower than the height of the cusps'
+		'similar to height of cups or higher; lophodont'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'no lingual cingulum, or if mesiolingual and distolingual cingulae are present they are not united by lingual (intermediate) cingulum'
+		'mesiolingual and distolingual cingulae are united by intermediate lingual cingulum'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'ectoloph in same plane as that of the other upper premolars'
+		'ectoloph obliquely oriented, parastyle distinctly medial to the paracone'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'present, lies at the base of the tooth between the paracone ridge and the metacone ridge'
+		'absent'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'robust, base inclined and extends to lingual extreme of tooth'
+		'relatively small and recessed from lingual extreme, not inclined toward mesiolingual cingulum'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'moderate to strong metacone ectoloph column'
+		'metacone ectoloph very low or almost flat'
+		,
+		61
+		'distolingual cingulum far removed from the occlusal surface in little worn teeth, may be a little closer to crown than the mesiolingual cingulum'
+		'distolingual cingulum close to crown (closer to crown than mesiolingual cingulum, if present) with tendency to come into wear early and produce mesiodistal bulge that extends more lingual than the protoloph'
+		'tendency for distolingual cingulum to form distinctive "cup"'
+		,
+		62
+		'may be separated from paracone ridge by a longitudinal valley, but does not form a sharp, distinctive mesiolabial "cingulum" that extends from the crown to the base of the tooth'
+		'parastyle forms a sharp, distinctive mesiolabial "cingulum" that extends from the crown to the base of the tooth'
+		,
+		63
+		'shallow'
+		'deep'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'anterior, posterior and lingual fossette moderately to strongly persistent'
+		'lingual remains open as a sulcus, others dissapper with wear'
+		,
+		66
+		'W > L or with mild anteroexternal expansion'
+		'L > W with a rectangular shape'
+		,
+		67
+		'premolariform'
+		'molarized'
+		,
+		68
+		'subtriangular, short, with central fossette'
+		'subtriangular, short, without central fossette'
+		'bilobed, with short and poorly defined lingual plication'
+		'bilobed, with well developed and patent lingual plication'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'present'
+		'absent'
+		,
+		71
+		'present, extends to "pseudohypocone"'
+		'present, extends only to protoloph'
+		'absent'
+		,
+		72
+		'does not form distinct oval fossette with wear'
+		'forms distinct oval fossette with wear'
+		,
+		73
+		'all upper molars with determinate growth, roots form after crown formation'
+		'molars hypselodont, roots do not form'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'absent'
+		'present but disappears with wear'
+		'trilobation persists throughout all wear stages'
+		,
+		81
+		'<1.25 '
+		'between 1.25 and 1.50'
+		'> 1.50'
+		,
+		82
+		'distinct but shallow'
+		'absent or reduced'
+		,
+		83
+		'distinct'
+		'very low or flat'
+		,
+		84
+		'present or low on crown'
+		'absent'
+		,
+		85
+		'W > L or about equidimensional'
+		'L > W, rectangular shape'
+		,
+		86
+		'present'
+		'absent'
+		,
+		87
+		'absent/diminutive'
+		'developed'
+		,
+		88
+		'not-well individualized but suggested by a bulge'
+		'clearly individualized but connected lingually to the crochet'
+		'completely individualized'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'in middle of tooth'
+		'lingual, at anterior edge of hypocone'
+		,
+		91
+		'implanted subvertically (angle greater than 40Â° relative to long axis of mandible)'
+		'markedly procumbent, aligned with long axis of mandible (angle to mandibular ramus <40Â°)'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'present'
+		'absent'
+		,
+		94
+		'similar in size to i2'
+		'mesio-distal length > 25% larger than i2'
+		'reduced relative to other incisors'
+		,
+		95
+		'without vertical sulcus'
+		'with a shallow vertical sulcus'
+		'with a deep vertical sulcus (bifid incisors)'
+		,
+		96
+		'incisiform'
+		'enlarged and tusk-like'
+		,
+		97
+		'i3 > i2'
+		'subequal or smaller than i2'
+		,
+		98
+		'incisiform'
+		'caniniform or tusklike'
+		'peglike, very small or absent'
+		,
+		99
+		'present'
+		'absent'
+		,
+		100
+		'larger than i1-i3'
+		'subequal to i1-i3'
+		'smaller than i1-i2 or missing'
+		,
+		101
+		'present'
+		'reduced or absent'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'absent'
+		'small mesiodistal crest running mesially from the distolingual extremity of the metalophid'
+		'completely isolated cusp'
+		,
+		104
+		'simple without branching'
+		'with bifurcations'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'isolating a trigonid-talonid fossettid in conjunction with the preceding more labial connection of hypolophid with trigonid'
+		'lingual connection trigonid-talonid precedes the labial connection and isolation of fossettid'
+		'single lingual connection, producing a deep labial sulcus between trigonid and talonid'
+		,
+		107
+		'distinct and continuous along the length of the tooth'
+		'not distinct along metaconid, but appears anterior to metaconid and between metaconid and antoconid (or entolophid)'
+		'entirely absent (exept for what may be manifest as a "paraconid")'
+		,
+		108
+		'present on p2-4'
+		'present on p2, but absent on p4'
+		'absent on p2-p4'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'm1 talonid subequal to or slightly smaller than trigonid, m2 subequal to or slightly larger to trigonid, m3 talonid larger tahn trigonid'
+		'all talonids larger than trigonids'
+		,
+		111
+		'anterior margin broad'
+		'anterior margin short, producing a triangular appearing lobe'
+		,
+		112
+		'labially flattened'
+		'labially bilobed'
+		,
+		113
+		'absent'
+		'present'
+		,
+		114
+		'absent'
+		'present'
+		,
+		115
+		'absent'
+		'transversely expanded'
+		'less transverse and attached to the trigonid'
+		,
+		116
+		'absent'
+		'formed early along lateral portion of the entolophid'
+		,
+		117
+		'absent'
+		'present'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'talonid extends short distance past entolophid'
+		'extends well past entolophid'
+		,
+		122
+		'rostrum short compared to anteroposterior length of skull, < 35% of total cranial length'
+		'modest lengthening of rostrum, > 35% of total cranial length'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'absent'
+		'present'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'medially: directed anteriorly'
+		'medially: grossly transverse'
+		'medially: directed posteriorly'
+		'directed posteriorly in its entire course'
+		,
+		128
+		'small, restricted to premaxilla'
+		'anteroposteriorly elongated, extending beyond premaxilla'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present'
+		,
+		131
+		'does not reach posterior extremity of nasals'
+		'does approximately reach posterior extremity of nasals'
+		'reaches much further than posterior extremity of nasals'
+		,
+		132
+		'absent'
+		'present'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'above premolars'
+		'above molars'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'extends anterior to ascending process of premaxillary'
+		'does not extend anterior to ascending process of premaxillary'
+		,
+		137
+		'absent'
+		'present'
+		,
+		138
+		'absent'
+		'present'
+		,
+		139
+		'round'
+		'oval (higher than long, dorsal edge of zygomatic arch excavated below orbit)'
+		,
+		140
+		'absent'
+		'present'
+		,
+		141
+		'modest in development'
+		'expanded'
+		,
+		142
+		'absent'
+		'present'
+		,
+		143
+		'modest area on side of anterior zygomatic root'
+		'large, flattened area on inferior margin of zygomatic root'
+		,
+		144
+		'absent'
+		'well expanded'
+		,
+		145
+		'present'
+		'absent, sandwiched between the maxillary and squamosal'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'strong'
+		'weak'
+		,
+		148
+		'absent'
+		'present'
+		,
+		149
+		'parallel to anteroposterior axis'
+		'semi-circular and well-expanded laterally'
+		,
+		150
+		'weak relief'
+		'strong relief, continuous with lambdoid crests, with medial face of arch deeply excavated'
+		,
+		151
+		'absent'
+		'present'
+		,
+		152
+		'absent'
+		'present'
+		,
+		153
+		'absent'
+		'present'
+		,
+		154
+		'absent'
+		'present'
+		,
+		155
+		'present'
+		'absent'
+		,
+		156
+		'well individualized at limit between medial orbital wall and orbital floor'
+		'poorly individualized, within a groove at limit between medial orbital wall and orbital floor'
+		,
+		157
+		'in posterior part of orbit roof '
+		'at level of middle of orbit roof antero-posterior length'
+		,
+		158
+		'absent'
+		'present'
+		,
+		159
+		'posterior (or postero-medial) to the postglenoid process'
+		'anterior to the postglenoid process'
+		,
+		160
+		'absent'
+		'present'
+		,
+		161
+		'located posterior to auditory bulla'
+		'shifted anteriorly, medial to auditory bulla'
+		,
+		162
+		'entirely within alisphenoid'
+		'mandibular branch of V3 passes through spheno-tympanic fissure and/or piriform fenestra'
+		,
+		163
+		'lateral to foramen ovale or sphenotympanic fissure'
+		'at same level (and ventral to) or medial to foramen ovale or sphenotympanic fissure'
+		,
+		164
+		'present'
+		'absent'
+		,
+		165
+		'absent'
+		'present'
+		,
+		166
+		'absent'
+		'present'
+		,
+		167
+		'absent'
+		'present'
+		,
+		168
+		'attached to basioccipital medially'
+		'not attached to basioccipital medially defining a long posterior lacerate foramen'
+		,
+		169
+		'absent'
+		'present'
+		,
+		170
+		'absent'
+		'present'
+		,
+		171
+		'absent'
+		'present'
+		,
+		172
+		'adjacent to paraoccipital process'
+		'posterior bulla laps up onto paraoccipital process'
+		,
+		173
+		'absent'
+		'present'
+		,
+		174
+		'short, does not reach lateral edge of skull (especially lateral edge of postglenoid process)'
+		'long, reaches lateral edge of skull'
+		,
+		175
+		'absent'
+		'present'
+		,
+		176
+		'small'
+		'well developed'
+		,
+		177
+		'widely separated'
+		'very close to or appressed against each other'
+		,
+		178
+		'absent'
+		'present'
+		,
+		179
+		'formed by paroccipital process'
+		'formed by a tympanic extension and/or post-tympanic process'
+		,
+		180
+		'absent'
+		'present'
+		,
+		181
+		'absent'
+		'present'
+		,
+		182
+		'well marked and deep'
+		'shallow or trifling and reduced surface'
+		,
+		183
+		'in relief and external auditory meatus protrudes within the tympanic cavity'
+		'faint crista tympanica and external auditory meatus aperture in retreat within tympanic cavity'
+		,
+		184
+		'well extended'
+		'reduced to a thin strip of bone appearing between squamosal and exoccipital, disrupted in surface from non-mastoid portion of petrosal'
+		,
+		185
+		'opening medial to petrosal bone'
+		'opening within petrosal'
+		'opening lateral to petrosal'
+		,
+		186
+		'absent'
+		'present'
+		,
+		187
+		'transversally elongated and posterior to posterior wall of bulla'
+		'rounded and medial to posterior wall of bulla'
+		,
+		188
+		'well separated from it'
+		'in a common depression'
+		,
+		189
+		'absent'
+		'present'
+		,
+		190
+		'absent'
+		'present'
+		,
+		191
+		'present as low, narrow ridge extending from posterior orbit to occiput'
+		'present as low, Y-shaped ridge bounded by deep grooves for temporalis'
+		'absent'
+		,
+		192
+		'rectilinear'
+		'bent medially'
+		,
+		193
+		'below alveolar border'
+		'at level of alveolar border'
+		,
+		194
+		'distinctive, with recurved "beak"'
+		'process present, but lacking a "beak"'
+		'process indistinct or absent, scapular tuber small'
+		,
+		195
+		'extends distally to near the level of the glenohumeral joint or beyond'
+		'limited to the region of the scapular body or scapular neck adjacent to the scapular body, but does not extend toward the region over the glenohumeral joint'
+		,
+		196
+		'extends distally to near the level of glenohumeral joint or beyond'
+		'limited to the area above the region of the scapular body or the region of the scapular neck adjacent to the scapular body, but does not extend toward the region over the glenohumeral joint'
+		,
+		197
+		'absent'
+		'present'
+		,
+		198
+		'lower than the head of the humerus'
+		'even with or higher than the head'
+		,
+		199
+		'well enclosed by greater and lesser tubercles'
+		'open, relatively wide space between greater and lesser tubercles'
+		,
+		200
+		'distinctive, extending to more than 2/3 the length of the humeral shaft'
+		'distinctive, proximally placed'
+		'no well defined crest or tuberocity for the deltoid muscles'
+		,
+		201
+		'distinctive, extending to more than 2/3 the length of the humeral shaft'
+		'distinctive, proximally placed'
+		'no well-defined crest or tuberocity for the deltoid muscles'
+		,
+		202
+		'present'
+		'absent'
+		,
+		203
+		'present, well developed, broad and bladelike'
+		'inconspicuous (grades into shaft) or absent'
+		,
+		204
+		'extends medially with a dimension more than half that of the trochlear width'
+		'medial extension short (dimension <40% that of the trochlea)'
+		,
+		205
+		'present'
+		'absent'
+		,
+		206
+		'large'
+		'small'
+		,
+		207
+		'length of radius subequal to that of humerus (90<BI<100)'
+		'radius shorter than humerus (BI<90)'
+		'radius longer than humerus (BI>110)'
+		,
+		208
+		'major axis of olecranon the same as that of the ulnar shaft'
+		'major axis of olecranon with upward curve (crouching stance morphology)'
+		'major axis of olecranon with downward curve (erect stance morphology)'
+		,
+		209
+		'major axis of olecranon in the same orientation as that of the ulnar shaft'
+		'major axis of olecranon with distinct medial curvature'
+		,
+		210
+		'oval'
+		'subrectangular'
+		,
+		211
+		'presence of simple fossa in proximal view'
+		'depression of head is undulating'
+		,
+		212
+		'absent, the radial head is smooth or undulating, without distinctive capitular eminence'
+		'present, with distinctive (sharp) capitular eminence of the proximal end on the dorsal side (pronated) of the radius'
+		,
+		213
+		'absent'
+		'present'
+		,
+		214
+		'dorsal outline convex with no styloid process'
+		'outline oblique, with no distinct styloid process'
+		'outline with distinctive styloid process with facet for scaphoid and lunar on the ulnar side of the process'
+		,
+		215
+		'present'
+		'absent'
+		,
+		216
+		'pentadactyl'
+		'tetradactyl'
+		'tridactyl'
+		,
+		217
+		'metacarpals subequal in length to metatarsals, with the Mc III-to-Mt III ratio not exceeding 1.5'
+		'metacarpals relatively elongate compared to metatarsals, with Mc III/Mt III greater than 1.5'
+		,
+		218
+		'extends over the dorsal surface of the lunar, to a region at least half way down the body of the lunar in dorsal view'
+		'radial facet of lunar restricted to the proximal end of the element so that less than half of the dorsal surface of the lunar is devoted to the facet'
+		,
+		219
+		'distal articulation transverse, with facet for Mc V (if present) at an angle less than 30Â° to Mc IV facet'
+		'facet for Mc V at an angle nearly 45Â° to Mc IV facet'
+		,
+		220
+		'lateromedially compressed'
+		'dorsopalmar compression, but distal region subequal in width to proximal'
+		'hooflike phalanx, distal region wider than proximal'
+		,
+		221
+		'absent, distal apex pointed or rounded, without median fissure'
+		'present, median fissure at distal apex'
+		,
+		222
+		'absent'
+		'present'
+		,
+		223
+		'pes pentadactyl, though Mt I may be reduced'
+		'tetradactyl, Mt I absent'
+		'tridactyl, Mt I absent and Mt V absent or reduced to tarsallike element'
+		'didactyl'
+		,
+		224
+		'oblique orientation'
+		'orthogonal orientation'
+		,
+		225
+		'small or absent'
+		'large'
+		,
+		226
+		'lenticular'
+		'subquadrate'
+		'wedge shaped, with proximal transverse dimension greater than the distal'
+		,
+		227
+		'horizontal orientation'
+		'steeply inclined articulation between calcaneum and astragalus'
+		,
+		228
+		'absent; there is no evidence of a navicular facet of the calcaneum or a calcaneal facet of the navicular (there may be cuboastragalar contact [i.e., "alternating tarsus"])'
+		'present; a small thin articular surface is present at the distal calcaneum that is not due to distal astragalar articulation but has evidence of being due to navicular contact'
+		'well-developed navicular facet is present, indicating a strong "reverse alternating" tarsus'
+		,
+		229
+		'present, foramen is present within the fossa separating the astragalar trochlea with that of the flexor groove'
+		'absent'
+		,
+		230
+		'present'
+		'united to the astragalar trochlea as a plantar component of the astragalar trochlea'
+		,
+		231
+		'neck is well defined, being constricted behind the astragalar head and having a definable length between the head and astragalar body'
+		'very short neck with little or no constriction behind the head, which lies very close to the body of the astragalus'
+		,
+		232
+		'subspherical head that does not cover the lateral body in distal view (not expanded laterally)'
+		'ovoid, with head expanded laterally beyond the midpoint of the body in distal view'
+		'teardrop shaped, due to lateral and plantar expansion of the head'
+		,
+		233
+		'astragalar buttress present'
+		'absent'
+		,
+		234
+		'symmetrical, lateral and medial trochlear ridges subequal in height'
+		'asymmetric, lateral trochlear ridge distinctly higher than medial'
+		,
+		235
+		'equivalent'
+		'LSC terminates more medially than PSC'
+		,
+		236
+		'straight'
+		'undulating'
+		,
+		237
+		'straight'
+		'undulating'
+		,
+		238
+		'anterior or even with the level of the PSC'
+		'extends posterior to the level of the PSC'
+		,
+		239
+		'mostly in the same plane'
+		'curved such that the superior and inferior arms are not aligned when PSC is viewed dorsally'
+		,
+		240
+		'ASC'
+		'PSC'
+		,
+		241
+		'LSC'
+		'PSC'
+		'ASC'
+		,
+		242
+		'ampullae girth in the dorsoventral direction extend well beyond the SSC boundaries'
+		'ampullae are not noticeably expanded anterodorsally beyond the plane of the SSC'
+		,
+		243
+		'lie in the same or nearly the same horizontal plane as the LSC'
+		'anterior ampulla is significantly dorsal to the lateral ampulla'
+		,
+		244
+		'absent'
+		'present'
+		,
+		245
+		'absent'
+		'present'
+		,
+		246
+		'extends well past the basal turn'
+		'extends from fenestra cochleae only through first half of the basal turn'
+		,
+		247
+		'crus diameter is significantly thicker than canals'
+		'crus has a diameter proportional to the canals'
+		,
+		248
+		'only the ASC extends well dorsal of the crus'
+		'ASC and PSC both extend well dorsal to the crus commune'
+		'neither canal extends well dorsal to the crus'
+		,
+		249
+		'in a common chamber'
+		'within distinct, separated chambers in bony labyrinth'
+		,
+		250
+		'utricle positioned closer to the posterior end of the LSC than the anterior end'
+		'centrally located between ends of the LSC'
+		,
+		251
+		'less than that of semicircular canals '
+		'equal to or exceeds that of semicircular canals'
+		,
+		252
+		'extends posterior to the PSC'
+		'does not extend posterior to the PSC'
+		,
+		253
+		'similar'
+		'aqueductus cochleae diameter thinner than the semicircular canals'
+		,
+		254
+		'rounded, less than 1.8'
+		'elliptical, 1.8 or greater'
+		,
+		255
+		'absent'
+		'present'
+		,
+		256
+		'present'
+		'absent'
+		,
+		257
+		'fenestra cochleae is posterior to fenestra vestibuli'
+		'fenestra cochleae is posteromedial to fenestra vestibuli'
+		,
+		258
+		'fenestra opens posterolaterally'
+		'fenestra faces posteriorly'
+		,
+		259
+		'fenestra cochleae is larger '
+		'fenestra vestibuli is larger '
+		
+	;
+	MATRIX
+	'Phenacodus primaevus'		                          210000000?1111--00001201000000000000000000000----000-00--01--0---00-00100-00--0001-0001-1-001000100001---0120000-00--00--110002000100000000000000000000000000000-0-1--0-----0-0-----0?-000-00000011101000000000001010200000100000010000001?????????????????????????
+	'Hyopsodus lepidus'		                             000000100???001000001001010000100011000000000----000-00--00--0---00-00100-00--0001-0001-1-001000100100---0120000-00--00--111001010100000000000000000000000000000-0-1--0-----0-0-----00-000-0000001110100101000110101?200001000000000000000010000000?1?010??10?00?1?
+	'Protolipterna ellipsodontoides'		                ??????????????????????01??0?????????????????0----00?-?0--00--0---00-00100-00--0001-0000-1-????????0?01---0120000-00--00--???????????????????000????????????????????????????????????????????????00????100001010000????????????0?00001100001?????????????????????????
+	'Tetramerorhinus lucarius'		                      ??0?10000????010100002011200-0---0-01-1--10-10-01000000--0---0---00-00100-00-01001-0000-1-101-000102010-00120000-00--000-0000??0000000000000000000000011000??000-0-1--0-----0-0-----0?-0?--0000??1110?000011102??1011202110210200001100000?????????????????????????
+	'Trigonostylops wortmani'		                       ????10000????0101??01001?00????????---1--???1000000???00-01--1000001011000110-100110000-0-00000?1000010-00020100-00--000-???0????0?0000??0000100??01000001000000-011--0000?00-0--0--??-0100101001??????????????????????????????????????????????????????????????????
+	'Astrapotherium magnum'		                         0010100??????1--0???0001101-----------1--01210000(0,1)01--10001001000000011100111-100100100---1000101000110-00120100-00--000-000002?00?0010010000100001?00000000?000-0?1--0--??00-0-----0?-??0-1010011??0000001110200111??00?00??0?1000????????????????????????????????
+	'Carodnia vieirai'		                              ??????????????????????01??0000????????0?100010-00000-000-00--0---00-00100-010-1001-0010---001000100001----020000------0--??????????????????????????????????????????????????????????????????????011???110000010020101120010010??1000?111001?????????????????????????
+	'Pyrotherium romeroi'		                           ??????????????????????01100000101000011--1--10-00101--00-0---0---00-00100-010-1001-0011---101-01--1-1-----020000------0--0?100?000?0000???000100????0?10000??0?0?1100?100??01?11?????????0??0??0111??110100011?20100?????????0??????101000?????????????????????????
+	'Simpsonotus praecursor'		                        ??????????????????????0?000000000000000210001100100000000000010000000010001100100000000-00000-000000002000000000001000000001000000000000000000000?0?000?000??000?1????1?0??010100100?????0???0000??????????????????????????????????????????????????????????????????
+	'Notostylops murinus'		                           000001000200?01000001200100000001010010111--11001001--100000010000000010001100100000000-00101201--1-111000220000001000000001001000000000000001000000000100000000?10000100000101111001001200000001?????????????????????????????????????????0000001001111111001011000
+	'Anisotemnus distentus'		                         ??????????????????????00??0?????????????????1101100010000000111000001010001100100000000--0??????????00?000220100001001000????????????????????????????????????????????????????????????????????????00001000000000100011000?0011??????????????????????????????????????
+	'Thomashuxleya externa'		                         ??????????????????????000000100000000002000011011100?0000000010000001010001100100100000--?011200100001?01010000000100000000?00???0??00000???0000????1101100??10????0001?????1?11?100?????0???00010000100000001?20000?0?0?00?????????0(0,1)00?0?????????????????????????
+	'Oldfieldthomasia debilitata'		                   020???????????????????00000000000000000210011101100000000010010000000010011101100100000--0001000100000100011000000100000010101?00110000?0000100000000001100??0000100001000001?1101?????12000001?0??????????????????????????????????????????????????????????????????
+	'Colbertia magellanica'		                         ??????????????????????000000000000000000000011011000?0000000011000110110011100100000000-0000?0000000002?00??000000100000000?0??001?000000?001100000?000?100??00??1?000101??010???????????00000000?????????100(0,1)?10000???????????000000000?0?????????????????????????
+	'Acropithecus rigidus'		                          ??????????????????????0000000000002000000???110?100101100011110000100110011101100100001--0?????0??0?00?011220100?0?000000?0?0??00??000000000??000?0????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Eopachyrucos pliciferus'		                       ??????????????????????110?1????????????????01???1?1?????????????????01??11111?1001111??--0??????????00?0?0221000011001000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Santiagorothia chiliensis'		                     ??????????????????????1100100021001000001?101???1?0001100?011111001001??11110?101111101?-?101010000000?0?0221000???0?10?0101001001210000000011001000000110001001?11001101??1110--101?????00000100??????????????????????????????????????????????????????????????????
+	'Proargyrohyrax curanderensis'		                  ??????????????????????110?1?????????????????1???0?1???100?11111101130111111110100111101-10??????????0??000221000011001000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Progaleopithecus tournoueri'		                   ??????????????????????11001000000010000010111???0?0001100?011110111301??10111?102111111?-?111110000000?0?0220011???0?10?0????????1?000???000100??00000011????001??1001101??1110--101?????00000200??????????????????????????????????????????????????????????????????
+	'Federicoanaya sallaensis'		                      ??????????????????????20001000000010000010111???0?0001100?011111110101??1?111?102011111?-?101020000100?0?0220001?1?0?10?0?0?00?10120010000001000100?0001100??001?11001101??1110--111?????000002????????111100(0,1)010000?0010?0??0111111110000?????????????????????????
+	'Archaeophylus patrius'		                         ??????????????????????110?1?????0???????????1???0?0001100?011111111301??10111?101111111?-???????????0??0??220001???????????????????00???????1000???????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Plagiarthrus clivus'		                           ??????????????????????11001000210010000010101???0?1001100?011111111301??11111?102111101?-????010?00?0??0?0221000???0?10?01??0????1?1000???001000100000??1?001001?1?001101??1110--111???12000000????????????????????????????????????????????????????????????????????
+	'Cochilius volvens'		                             000000000100000010000021001000210010000010011???0?1001100?011110111301??10111?101111111?-?101010000100?0?0220100???0?10?01010010012100000000110010000001100??0?????001101??11????10??????0?000100????111111??1?10??????11??00?????????????110001001???1011????01???
+	'Interatherium robustum'		                        ??????????????????????21101000210010000111011???0?1001100?011110111301??10111?101111111?-?101010100111?0?0220100???0?10?000100100121000000001100100?0001100??001?11001101001110--111?????0000000021101111111010000000101010000111111100000?????????????????????????
+	'Punapithecus minor'		                            ??????????????????????21??0?????????????????1100001011100000010000100100101110100000001--0????????????00?0220000010000000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Miocochilius anomopodus'		                       0?00110001?0101000000021001000000010000010001???0?0001100?011111101301??10111?102111111?-?101010000000?0?0220011???0?10?010?0010012000000000110?100?000?100??0???1?0011????11?0--????????00?0010?01100111110012000000202101210301100100001?????????????????????????
+	'Protypotherium australe'		                       200?110??????0001???2?21001000000010000010101???0?0001100?011111101101??10111?101111111?-?101010000110?0?0220111?1?0?10?0111001001200(0,1)00000010001000000110001001?110011010?1110--11110012000000000000?111110010100000001010000111111110000?????????????????????????
+	'Johnbel hatcheri'		                              ??????????????????????110?0???????????0?000111000010111000010101011001101011101001001?1--000101000000000?02210?1011001000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Ignigena minisculus'		                           ??????????????????????110?1???????????0?00001100001011110111111010100110101110100101101--0??????????0?00?022???101????000???????????????????0100???????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Transpithecus obtentus'		                        ??????????????????????010?0?????????????????1100101000100000101000110100111100101001011--00???????0?0?0000220000011000000???????????????????0000???????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Guilielmoscottia plicifera'		                    ??????????????????????110?0?????????????????1100001011110000111000110110111110101001010--0????????0?0?00?0220000011000000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Antepithecus brachystephanus'		                  ??????????????????????11000000000000000010001100101000100000000000000110111101100000000--00011100000000010220001011000000??????????0010?????00000??????????????????????????????????????????????00??????????????????????????????????????????????????????????????????
+	'Epipatriarchus bifidens'		                       ??????????????????????21001000000010000010001???0?0001100?011111101301??10111?102111111?-?101010000100?0?0220011???0?10?0??????????????????????????????????????????????????????????????????????0???????????????????????????????????????????????????????????????????
+	'Altitypotherium chucalensis'		                   ??????????????????????211010002121----1--1--1???0?01--1?0?011???100201??1?110?120101101?-?101110-21-11?0?3220101???0?00?00???01001??????????0000????????100100??0?????100??1???????????120100??00?????????????????????????????????????????00101121011102100??10100?
+	'Pseudotypotherium pseudopachygnathum'		          10001?0???0?????10??00201010002121----1--1--1???0?01--1?00011???100101??1?110?120101101?-?101110-21-1110?3220101?1?0?0010101001101100000010001010000001110010011010000100??111111110?101201000110211011111110100011010001??11??00011100001?????????????????????????
+	'Typotheriopsis internum'		                       0000110??????0101???20201010002121----1--1--1???0?01--1?00011???100101??1?110?120101101?-?101110-21-1110?3220101?1?0?0010101001001100?00010000000000001110010011010000100??111111110?0?120100001000001101101000111101000110??0000010100101?????????????????????????
+	'Archaeohyrax suniensis'		                        ??????????????????????211010002100100000000011001000??100001010000000121111101101111111--01010101202001001220101(0,1)1200001010101000110010001001010000000?11011000111?00010010011110110???1200000000??????????????????????????????????????????????????????????????????
+	'Archaeotypotherium tinguiriricaense'		           ??????????????????????211010002100100000000011001000??100001010000000121111101101111111--01010101202001001220001112000010???0??001?0??0???0010?0??0?????1???????1?????1?0??0??????????????????1????????????????????????????????????????????????????????????????????
+	'Mesotherium cristatum'		                         ??0?11000????010100002201010002121----1--1--1???0?01--1?0?011???100301??1?110?120101101?-?101110-21-11?0?3220101???0?00?0101001011100100010001010000001110010011010000100??111111110?1?12010000100110?100100000?11101000110110000000100001?????????????????????????
+	'Trachytherus alloxus'		                          ????1??00010?010??00?0211010002120100000000011011000??100001110?10030121111101110101101--0101110-21-11?00222010101200001010000001110010001001010000?001110010001010000100??111111110?0?12010000???110?100100000111101000110110000000(0,1)00001?????????????????????????
+	'Plesiotypotherium casirense'		                   ??????????????????????2010?0?02101----1--1--1???0?01--1?0?01110?100101??1?110?1201011010-?101110--1-11?0?3220101???0?00?00010010110001000100000100000011100100110100001000?1111111101001201000010????1?010011001111010001?011??00010100001?????????????????????????
+	'Hegetotherium mirabile'		                        020011000210000010000221101000210010000100001?????00??1?0?01110?110201??1???0??00101101?-?101010120200?0?3220011???0?0(0,1)?01000010011001000101101100110011101100011100001001001110-1101001200000100??????111100100011000?????110100000100001?????????????????????????
+	'Pachyrukhos moyani'		                            ????1????????000?????2211010002101----1--1--1?????01--1?0?01110?111201??1???0??00101101?-?101110--1-11?0?3220011???0?01?010000110110101101011011001100111001000111001010010011110110?00--10000200????01111100000011000011101101000001000000011100101111010111?11001
+	'Paedotherium bonaerense'		                       ??0?110?????????1?????211010002101----1--1--1?????01--1?0?011???111201??1???0??00101101?-?101110--1-11?0?3220011???0?01?0100001101101010010110110011001?1011000?11?01010010011110110?00--100002??????0111111000001100001110110100000100000?????????????????????????
+	'Campanorco inauguralis'		                        ??????????????????????0000000021001000000001110?1000??100011010000000111111101101100011--0????????0?00???????????????????0010120011000000100011000000001100??000?1?00010???010110????????0??000????????????????????????????????????????????????????????????????????
+	'Pleurostylodon modicus'		                        ??????????????????????200001100000000000100111011(0,1)0000000000110000021010001100100101001--001??10??????101100010000100000010100?00000000000000000000?0001100??00001?000100??010110100??0120000??0???????????????????????????????????????????????????????????????????
+	'Rhyphodon lankesteri'		                          0010010012100011000100200?0??????00??000?00111??1000?001000011000002111?001100100001001?-0????????????10???00100001000000?0?00?00?0?000?00000000??0?1111?????0--?1?0001?0??010111100?1?120?1000????????????????????????????????????????????????????????????????????
+	'Homalodotherium cunninghami'		                   001010001???001010001220000110100000000010011101110000100000010000021110001100101101001--0010210000100101100010001100000011100300000010000000000000?0001110??000?1?00010001011110100???12000100??11100?00100?1201??01?101?0010011000000000?????????????????????????
+	'Anayatherium fortis'		                           ??????????????????????2000010010????????????11011000??0101001100100311100011001001011010-0???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????1?????????????????????????????????????
+	'Ancylocoelus frequens'		                         ??????????????????????20020100?000210001?1--11010100101101001100000211100011001000010010-0010000011-0001110001000111000011???????0?0010???100000000??101100???00???0001?????111111????1???????000??????????????????????????????????????????????????????????????????
+	'Colpodon propinquus'		                           ??????????????????????20000000000000000011--11111000000111001100100211110011001001011010-0011000010100001101110101110000111100?00000010??0?000000?0?????100001???10000100??011111100???12000000?0??????????????????????????????????????????????????????????????????
+	'Elmerriggsia fieldia'		                          ??????????????????????20?00110???0?11?01100111010110000100000100000310110011001001011010-00100000102000110000100011100001???????????????????????????????????????????????????????????????????????0??????????????????????????????1120(1,2)111111?????????????????????????
+	'Coquenia bondi'		                                ??????????????????????20000110100?01000000001101110000010100010010021011001100100101101--01100000101000?100011010111000010111030000001000000000000001101?????1?0???000110??011111????????0??000????????????????????????????????????????????????????????????????????
+	'Huilatherium pluriplicatum'		                    ??????????????????????20100??0---0-11-1--1--1101110000110000?10000021121001100100101001--0000---011-1100100101011111000011?????000?0010??000000000001101100??100?1000010001011111100?1???000000????????????????????????????????????????????????????????????????????
+	'Leontinia gaudryi'		                             1?1???0??????1--????0?20000100000021000110011101100010010100110010021111001100100101001--0010000010200011000110101110000101110300000010010100000000?1101100??100?1?000110??011111100?1???000000??11101100?111??2?0???????1???1?1120?111111?????????????????????????
+	'Martinmiguelia fernandezi'		                     ??????????????????????2000?110100021000110??11??11000001?100???010021?1?00110?100101001?-????????????????????100011100001???0??10??0010?????00000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Scarittia canquelensis'		                        ??????????????????????20000100100011010000001101110000010100110000021111001100100001101--001001011010001100011000111000011111?3????001001??00000????0??1??0??1???1????110??01?11110011???00?0?1001110110011110120000111111021?011202111111?????????????????????????
+	'Taubatherium paulacoutoi'		                      ??????????????????????20000??0??00210000000011011100?0010100110010021111001100100101001--00?????0?0?000110???101011100001??????????????????????????????????????1??0000110???111111?0???????????????????????????2???????????????11202???????????????????????????????
+	'Eurygenium pacegnum'		                           ??????????????????????210110100000000000100111111000001100001100000211210011001001011010-0011000100100001122010001?000001??1002000?001010???0000?????0??1??????????????????????????????????????0?????110011110010000?0011?0110111111111111?????????????????????????
+	'Rhynchippus equinus'		                           0011100000010010100000210110100000100000100111111000001100001100000211210011001011010010-0011010100100001102010101111000111100?0000001010000000000000011100??00101?000100??011110100???1200000000????1?00111101201111102?11110??1112111111?????????????????????????
+	'Argyrohippus fraterculus'		                      ??????????????????????21111010000000000010011110100???1000001100000211210011001011011011-0?110001001000?11220100011110001101002000?0010000100000000????1100???01??????1?0???11111100?????0??0??????????0??1110?2011?01???????????????????1?????????????????????????
+	'Adinotherium ovinum'		                           11???1000110001010?012201210-10000201001000011101000001000001100000211211011001021011012-1101010000200001122010001111000110100300000010000100000010?110110000101?1?0001000101111110011?120000000(0,1)111111001111?12011112021112002?1112111211?????????????????????????
+	'Nesodon imbricatus'		                            21101000020201--110011201210-10000101001100111101000001000001100000211211011001020011012-1101010100200001122010001111000110100300000010000100000010?11011000?10101000010001011111100??1120000000(0,1)111111001111(0,1)1201111202111200211112111211?????????????????????????
+	'Proadinotherium muensteri'		                     111?10000201101000000220??1?????????????????1110100???1000001100000211211011101021011012-01010?00002000011220100011100001????????0??????????000001??0?01100??101010???1?0??011111100????????0????1??1???????????011112???????0?11112???????????????????????????????
+	'Toxodon platensis'		                             0?1?10000111?1--??0010201210-1000010101--1--1???0?00001?0?00???0110311??1?110?102101101?-?101010100211?0?02201000??0000?1101003000?001000?100000010?0101100??101?1?00010001011111100???120000000121101100111111201111202111200211112111211?????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Macrini, 2006 (character #9). Aspect ratios rounded to nearest 0.1.';
+	TEXT CHARACTER=2 TEXT='New character. Aspect ratios rounded to nearest 0.1.';
+	TEXT CHARACTER=3 TEXT='New character';
+	TEXT CHARACTER=4 TEXT='New character';
+	TEXT CHARACTER=5 TEXT='New character';
+	TEXT CHARACTER=6 TEXT='New character';
+	TEXT CHARACTER=7 TEXT='Macrini et al., 2007 (character #11)';
+	TEXT CHARACTER=8 TEXT='Macrini et al., 2007 (character #21)';
+	TEXT CHARACTER=9 TEXT='New character';
+	TEXT CHARACTER=10 TEXT='Macrini et al., 2007 (character #18). Aspect ratios rounded to nearest 0.1.';
+	TEXT CHARACTER=11 TEXT='New character';
+	TEXT CHARACTER=12 TEXT='New character';
+	TEXT CHARACTER=13 TEXT='Macrini, 2006 (character #23). An impression of the pons is not clearly visible on most mammalian endocasts because the meninges and cisterns (i.e., expansive subarachnoid spaces filled with cerebrospinal fluid) in this area fill in the space surrounding and between the brain and basicranial bones. It is unclear if those taxa with a pons exposed on their endocast have a particularly large pons relative to the meninges and cisterns or if meninges and cisterns are particularly thin and small in this area.';
+	TEXT CHARACTER=14 TEXT='Macrini et al., 2007 (character #15)';
+	TEXT CHARACTER=15 TEXT='modified from Macrini et al., 2007 (character #16)';
+	TEXT CHARACTER=16 TEXT='modified from Gabbert, 1997 (character #17)';
+	TEXT CHARACTER=17 TEXT='New character';
+	TEXT CHARACTER=18 TEXT='New character';
+	TEXT CHARACTER=19 TEXT='Geisler and Uhen, 2003 (character #50)';
+	TEXT CHARACTER=20 TEXT='modified from Macrini, 2006 (character #39)';
+	TEXT CHARACTER=21 TEXT='modified from Macrini et al., 2007 (character #10). We scored this character by inferring the morphology of the osseous tentorium from endocasts.';
+	TEXT CHARACTER=22 TEXT='New character';
+	TEXT CHARACTER=23 TEXT='R2003-10';
+	TEXT CHARACTER=24 TEXT='Sh2012-13^nPresence of cementum: absent (0); present, but in small amounts on one or more tooth (1); thick, always present (2) ^n^nCi1993-Toxodontia-12^nCementum: absent (0), present (1)^n^nR2003-4^nCementum: absent (0), present (1), thick (2)^n^n';
+	TEXT CHARACTER=25 TEXT='Cr2003-6; B2011-1^nupper dentiton; closed (0), with diastema separating anterior teeth (1)^n^nSh2012-9';
+	TEXT CHARACTER=26 TEXT='Sh2012-1^nCheekteeth orientation: (0) strong anterior convergence of cheek teeth, resulting in the distance between left and right P1s being less than half that of the distance between left and right M2s, such that the upper dental arcade will appear V-shaped (fig. 9A); (1) no substantial anterior convergence of cheek teeth (the distance between left and right P1 is greater than half the distance between the M2s) with the anterior dental arcade U-shaped; (2) anterior dental arcade transverse and [-shaped^n^nB2010-13; B2011-13^nSubequal and hypsodont incisors, disposed in a close horseshoe-shaped (U-shaped) series: absent (0); present (1)^n^nB2010-16; B2011-16^nI1-2 dental arcade transverse: absent (0); present (1)^n^nCi1993-Toxodontia-5^nForm of anterior dental arcade: V-shaped (0); U-shaped (1)';
+	TEXT CHARACTER=27 TEXT='Sh2012-12^nRelative height of M1: brachydont (hypsodonty index [HI] of M11) (2); M1 euhypsodont (HI>2) (3)^n^n^n^nH2006-18^nCrown height in posterior P and M: 0, brachydont; 1, hypsodont; 2, hypseledont^n^nR2003-3^nCrown height of cheek teeth: 0, low crowned [HI of m1 < 1]; 1, moderately high crowned [HI of m1 > 1]; 2, extremely high crowned [HI of m1 > 2]^n^nB2011-19^nCheek teeth: brachydont (0); hypsodont (1); hypselodont (2)^n';
+	TEXT CHARACTER=28 TEXT='Sh2012-7^nPresence of labial cingulum of upper incisors: present in all incisors except any that are hypertrophied (0); absent (1)';
+	TEXT CHARACTER=29 TEXT='Ci1993-Toxodontia-6; B2011-15';
+	TEXT CHARACTER=30 TEXT='Sh2012-8^n^nB2010-6; B2011-6^nI1 hypsodont to hypselodont and chisel-like: 0, absent; 1, present';
+	TEXT CHARACTER=31 TEXT='Sh2012-4^n^nB2011-9^nI1 tusk-like and straight: 0, absent; 1, present^n^n';
+	TEXT CHARACTER=32 TEXT='Ci1993-Notoungulate families-19^n';
+	TEXT CHARACTER=33 TEXT='B2011-8^nProcumbent I1-2, occluding in an angle of 90o (or less) with procumbent i1-2? (wear forms a bevel on upper incisors): 0, absent; 1, present^nThe nature of the proclive lower incisor of Pyrotherium cannot be determined. It is likely however to be either i1 or i2. This type of occlusion is associated with wear in a long bevel of the upper incisor occluding with the proclive lower incisor.^n^nB2010-4; B2011-4^nI1 crown highly curved: 0, absent; 1, present';
+	TEXT CHARACTER=35 TEXT='Ci1993-Notoungulate families-17^nRelative size of upper incisors: 0, subequal; 1, enlarged^n^n';
+	TEXT CHARACTER=36 TEXT='B2010-10; B2011-10^n(I1-)I2 caniniform, circular in cross-section: 0, absent; 1, present';
+	TEXT CHARACTER=37 TEXT='B2010-11; B2011-11^nI2 hypertrophied, trigonal, and diverging: 0, absent; 1, present';
+	TEXT CHARACTER=38 TEXT='B2010-12; B2011-12';
+	TEXT CHARACTER=39 TEXT='Ci1993-Toxodontia-34; B2011-14';
+	TEXT CHARACTER=40 TEXT='H2006-4^nI2-I3 size: 0, subequal; I3 smaller than I2';
+	TEXT CHARACTER=41 TEXT='H2006-2^nI2-C: 0, I2 laterally compressed, I3-C ovoid/conical; 1, all laterally compressed';
+	TEXT CHARACTER=42 TEXT='B2011-17^nCanine (upper and lower): 0, present; 1, vestigial, often absent; 2, always absent';
+	TEXT CHARACTER=43 TEXT='H2006-5^n^n';
+	TEXT CHARACTER=44 TEXT='H2006-3^nC size: 0, large; 1, reduced^n^nB2010-18^nTusk-like upper and lower canines^n^nB2011-18^nCanine (upper and lower): 0, caniniform; 1, incisiform and subequal to other incisors^n^n';
+	TEXT CHARACTER=46 TEXT='B2010-27; B2011-26';
+	TEXT CHARACTER=47 TEXT='B2010-32; B2011-31';
+	TEXT CHARACTER=48 TEXT='B2010-31; B2011-30';
+	TEXT CHARACTER=49 TEXT='B2011-28^n^nProterotherium is coded "''1"'' because it isolates a central fossette in late wear stages even if it does not possess protoloph and ectoloph.';
+	TEXT CHARACTER=50 TEXT='Sh2012-22^n^nB2010-23; B2011-22^nContinuous cingulum around lingual margin of upper cheek teeth and labial and lingual cingulum on lower cheek teeth: 0, absent; 1, present';
+	TEXT CHARACTER=51 TEXT='B2010-43; B2011-42^n^nSh2012-23^nUpper premolar protocone lingual face groove: 0, absent, without vertical groove; 1, present, with vertical groove on lingual face';
+	TEXT CHARACTER=53 TEXT='Sh2012-14';
+	TEXT CHARACTER=54 TEXT='H2006-6';
+	TEXT CHARACTER=55 TEXT='Sh2012-16';
+	TEXT CHARACTER=56 TEXT='B2010-40; B2011-39^n^nSh2012-24^nMesiolingual face of upper premolar protoloph ridge: 0, absent, without ridge to mesiolingual cingulum; 1, present, with ridge to mesiolingual cingulum (separates the "leontiniid basin" in species having the ridge as well as mesio- and intermediate lingual cingulae.^n^n';
+	TEXT CHARACTER=57 TEXT='Sh2012-19';
+	TEXT CHARACTER=58 TEXT='B2010-41; B2011-40';
+	TEXT CHARACTER=59 TEXT='B2011-38';
+	TEXT CHARACTER=60 TEXT='H2006-9';
+	TEXT CHARACTER=61 TEXT='Sh2012-21^n^nH2006-11^nP2-P4 cingulum: 0, anterior cingulum low on crown, posterior about midway up crown; 1, anterior cingulum absent, posterior high on crown, merging early in wear';
+	TEXT CHARACTER=62 TEXT='Sh2012-15^n^nB2011-36^nParastyle-paracone sulcus on upper cheek teeth: 0, absent; 1, present';
+	TEXT CHARACTER=63 TEXT='R2003-12; B2011-37';
+	TEXT CHARACTER=64 TEXT='R2003-24';
+	TEXT CHARACTER=65 TEXT='H2006-8';
+	TEXT CHARACTER=66 TEXT='H2006-10';
+	TEXT CHARACTER=67 TEXT='Ci1993-Interatheriidae-12; B2011-41';
+	TEXT CHARACTER=68 TEXT='F2004-19';
+	TEXT CHARACTER=69 TEXT='Ci1993-Notoungulate families-4';
+	TEXT CHARACTER=70 TEXT='Sh2012-25';
+	TEXT CHARACTER=71 TEXT='Sh2012-28^n^nB2011-21^nMesial cingulum on upper molars: 0, absent; 1, present';
+	TEXT CHARACTER=72 TEXT='Sh2012-29^n^nB2010-21; B2011-20^nDistal cingulum isolating a deep fossette (postcingulum fossette) on upper cheek teeth: 0, absent; 1, present';
+	TEXT CHARACTER=73 TEXT='Sh2012-11';
+	TEXT CHARACTER=74 TEXT='B2011-27^n^nR2003-7^nAntero- and posterolabial fossettes on upper molars: 0, persistent in adults; 1, moderately persistent; 2, absent^n^nB2011-33^nPosterolabial fossette on upper molars: 0, co-occurs with the central fossette; 1, disappears before the closure of the central fossette';
+	TEXT CHARACTER=75 TEXT='B2011-24';
+	TEXT CHARACTER=76 TEXT='B2010-24; B2011-23^n^nProterotherium is coded "0" as its anterior loph is not a protoloph in the sense used here, as it does not join the paracone and protocone but only the paraconule to the latter.';
+	TEXT CHARACTER=77 TEXT='B2011-44^n^nCr2003-7^nLingual sulcus on upper molars: (0) with lingual sulcus; (1) without lingual sulcus^n^n';
+	TEXT CHARACTER=78 TEXT='B2010-30; B2011-29';
+	TEXT CHARACTER=79 TEXT='Ci1993-Astrapotheria-14; B2011-25';
+	TEXT CHARACTER=80 TEXT='B2011-45^n^nF2004-20^nM1-M2 shape: 0, subtriangular with fossette; 1, with anterior and posterior lobes convergent, enclosing a middle lobe that disappears with wear; 2, with persistent middle lobe^n^nR2003-11^nMedian lobe on upper molars: 0, present; 1, absent^n';
+	TEXT CHARACTER=81 TEXT='F2005-13';
+	TEXT CHARACTER=82 TEXT='H2006-12';
+	TEXT CHARACTER=83 TEXT='H2006-15';
+	TEXT CHARACTER=84 TEXT='H2006-16';
+	TEXT CHARACTER=85 TEXT='H2006-17';
+	TEXT CHARACTER=86 TEXT='R2003-27';
+	TEXT CHARACTER=87 TEXT='H2006-14';
+	TEXT CHARACTER=88 TEXT='B2010-33; B2011-32';
+	TEXT CHARACTER=89 TEXT='B2010-36; B2011-35^n^nThe taxa that present cusps strongly embedded within lophs are scored "''-"'' for this character.';
+	TEXT CHARACTER=90 TEXT='Ci1993-Toxodontia-26; B2011-34';
+	TEXT CHARACTER=91 TEXT='Cr2003-11; B2011-48^nLower incisors: 0, implanted subvertically; 1, markedly procumbent^n^nSh2012-30^nLower incisor orientation: 0, long axis of lower incisors directed relatively vertically, at an angle greater than 40Â° to long axis of mandible; 1, incisors procumbent, long axis of incisors more in line with long axis of mandible (angle to mandibular ramus ';
+	TEXT CHARACTER=92 TEXT='Ci1993-Notoungulate families-2^n^nB2011-46^nLingual vertical ridge on lower incisors and canine: 0, absent; 1, present';
+	TEXT CHARACTER=93 TEXT='Sh2012-33';
+	TEXT CHARACTER=94 TEXT='Cr&A2006-12^nRelative size of i1: 0, similar in size to i2; 1, mesio-distal length > 25% larger than i2^n^nB2011-49^nFirst lower incisor: 0, well developed; 1, reduced relative to other incisors';
+	TEXT CHARACTER=95 TEXT='B2010-48; B2011-47^n^nH2006-20^ni1-3 shape: 0, two shallow lingual grooves; 1, i1-2 bifid labial and lingually';
+	TEXT CHARACTER=96 TEXT='B2011-50^nLower tusk (i2?): 0, absent; 1, present^nThe tusk-like lower incisor is i1 in Zalambdalestes, so non-homologous with the tusk-like i2 of Notostylops which is considered here. The lower tusk of Pyrotherium is of undetermined positional locus may be homologous with the i2 of Notostylops and this homology hypothesis is tested through the analysis.';
+	TEXT CHARACTER=97 TEXT='H2006-19^ni3 size: 0, i3 > i2; 1, reduced^n^nSh2012-31^nThird lower incisor (i3) size: 0, not enlarged relative to other incisors; 1, larger than other lower incisors.';
+	TEXT CHARACTER=98 TEXT='Sh2012-32^nThird lower incisor (i3) form: 0, incisiform; 1, caniniform or tusklike; 2, peglike, very small or absent.^nIn leontiniids and toxodontids, the i3 is larger than either of the mesial incisors and the canine. The cross section of the hypertrophied i3 is generally triangular in both leontiniids and toxodontids, but that of toxodontids tends to appear more spatulate ("incisiform"; Scott, 1912a) than the i3 of leontiniids.^n^nB2011-51^nThird lower incisor large and canine-like: 0, absent; 1, present^n^nB2011-52^nTusk-like third lower incisor: 0, absent; 1, present';
+	TEXT CHARACTER=99 TEXT='B2011-17^nCanine (upper and lower): 0, present; 1, vestigial, often present; 2, absent^n^nR2003-9^nLower canines and p1: 0, present; 1, reduced or absent';
+	TEXT CHARACTER=100 TEXT='H2006-21';
+	TEXT CHARACTER=101 TEXT='R2003-9^nLower canines and p1: 0, present; 1, reduced or absent';
+	TEXT CHARACTER=102 TEXT='H2006-22^nc-p1 diastema: 0, absent; 1, present';
+	TEXT CHARACTER=103 TEXT='B2010-56';
+	TEXT CHARACTER=104 TEXT='Sh2012-34';
+	TEXT CHARACTER=105 TEXT='B2010-61';
+	TEXT CHARACTER=106 TEXT='B2011-57^n^nCi1993-Notoungulate families-3^nLabial sulci on lower premolars: 0, weak or absent; 1, strong, even on anterior premolars';
+	TEXT CHARACTER=107 TEXT='Sh2012-35';
+	TEXT CHARACTER=108 TEXT='Sh2012-36';
+	TEXT CHARACTER=109 TEXT='R2003-6';
+	TEXT CHARACTER=110 TEXT='H2006-25';
+	TEXT CHARACTER=111 TEXT='H2006-28^n^nR2003-2^nShape of molar trigonid: (0) quadrangular; (1) triangular; (2) rounded';
+	TEXT CHARACTER=112 TEXT='R2003-26';
+	TEXT CHARACTER=113 TEXT='B2010-67; B2011-67';
+	TEXT CHARACTER=114 TEXT='B2011-53^n^nR2003-16^nParacristid: (0) poorly developed; (1) well developed; (2) absent';
+	TEXT CHARACTER=115 TEXT='B2011-55^n^nCi1993-Litopterna & Archaic South American ungulates-36^nLower molar entoconid condition: 0, distinct cuspate; 1, developed as entolophid';
+	TEXT CHARACTER=116 TEXT='Sh1997-21^n^nB2011-58^nFossettid of the entolophid: 0, absent; 1, present^n^nCi1993-Notoungulate families-13^nLower molar fossetids: 0, lacking or weak; 1, three persistent fossetids, including one anterior to entolophid';
+	TEXT CHARACTER=117 TEXT='B2010-60; B2011-60';
+	TEXT CHARACTER=118 TEXT='B2011-63^n^nH2006-26^nm1-3 crown morphology: 0, not bilobed, lingual sulcus broad and extends posteriorly; 1, bilobed, persistent labial and lingual sulci directly opposite one another^n^nCi1993-Notoungulate families-15^nLower molar division of trigonid and talonid: 0, shallow waist; 1, deep labial sulcus';
+	TEXT CHARACTER=119 TEXT='B2010-65; B2011-65';
+	TEXT CHARACTER=120 TEXT='B2011-59^n^nCi1993-Hegetotheriidae & Archaeohyracidae-3^nDevelopment of lingual fossettid between trigonid and talonid of lower molars: 0, absent; 1, present';
+	TEXT CHARACTER=121 TEXT='Sh1997-20; B2011-62';
+	TEXT CHARACTER=122 TEXT='H2006-35; B2011-68';
+	TEXT CHARACTER=123 TEXT='B2010-84; B2011-84';
+	TEXT CHARACTER=124 TEXT='B2010-77; B2011-69';
+	TEXT CHARACTER=125 TEXT='B2010-69; B2011-70';
+	TEXT CHARACTER=126 TEXT='B2010-70; B2011-71';
+	TEXT CHARACTER=127 TEXT='B2010-76; B2011-77';
+	TEXT CHARACTER=128 TEXT='Cr&A2006-15^nSize of incisive foramina: 0, restricted to premaxilla; 1, extending beyond premaxilla^n^nB2011-72^nDevelopment of incisive foramina: 0, small; 1, large (=anteroposteriorly elongated)';
+	TEXT CHARACTER=129 TEXT='B2010-72; B2011-73';
+	TEXT CHARACTER=130 TEXT='B2010-73; B2011-74';
+	TEXT CHARACTER=131 TEXT='B2010-78; B2011-78';
+	TEXT CHARACTER=132 TEXT='B2010-80; B2011-80';
+	TEXT CHARACTER=133 TEXT='B2010-81; B2011-81';
+	TEXT CHARACTER=134 TEXT='B2010-79; B2011-79';
+	TEXT CHARACTER=135 TEXT='B2010-82; B2011-82';
+	TEXT CHARACTER=136 TEXT='B2010-83; B2011-83';
+	TEXT CHARACTER=137 TEXT='B2010-85; B2011-85';
+	TEXT CHARACTER=138 TEXT='B2010-86; B2011-86';
+	TEXT CHARACTER=139 TEXT='B2010-93; B2011-93';
+	TEXT CHARACTER=140 TEXT='B2010-98; B2011-98';
+	TEXT CHARACTER=141 TEXT='Ci1993-Notoungulate families-16';
+	TEXT CHARACTER=142 TEXT='B2011-92^n^nF2004-7^nRoot of zygomatic arch: 0, posteriorly directed from the level of M1 or M2; 1, perpendicular to M1; 2, perpendicular to M1 with biconcave edge^n';
+	TEXT CHARACTER=143 TEXT='Ci1993-Notoungulate families-18';
+	TEXT CHARACTER=144 TEXT='R2003-20; B2011-91';
+	TEXT CHARACTER=145 TEXT='R2003-21^n^nB2011-88^nJugal excluded from anterior orbital border: 0, absent; 1, present';
+	TEXT CHARACTER=146 TEXT='B2010-94; B2011-94';
+	TEXT CHARACTER=147 TEXT='B2010-87; B2011-87';
+	TEXT CHARACTER=148 TEXT='B2010-89; B2011-89';
+	TEXT CHARACTER=149 TEXT='B2010-90; B2011-90';
+	TEXT CHARACTER=150 TEXT='B2010-95; B2011-95';
+	TEXT CHARACTER=151 TEXT='B2010-101; B2011-101';
+	TEXT CHARACTER=152 TEXT='B2010-102; B2011-102';
+	TEXT CHARACTER=153 TEXT='B2010-74; B2011-75^n^nPyrotherium is coded "''0"'' notably because there is a large maxillary contribution in its ectopterygoid crests.';
+	TEXT CHARACTER=154 TEXT='B2010-75; B2011-76';
+	TEXT CHARACTER=155 TEXT='Ci1993-Notoungulate families-20';
+	TEXT CHARACTER=156 TEXT='B2010-96; B2011-96';
+	TEXT CHARACTER=157 TEXT='B2010-97; B2011-97';
+	TEXT CHARACTER=158 TEXT='B2010-100; B2011-100';
+	TEXT CHARACTER=159 TEXT='B2010-104; B2011-104';
+	TEXT CHARACTER=160 TEXT='B2011-117^n^nB2010-105^nPostglenoid foramen piercing deeply postglenoid process postero-dorsally and defining a large sinus within its base: 0, absent; 1, present^n^nG1997-20^nCondition of the postglenoid process (retroarticular process): 0, undeveloped; 1, hypertropoid; 2, hypertropied fused with external acoustic meatus';
+	TEXT CHARACTER=161 TEXT='Cr2003-20; B2011-110';
+	TEXT CHARACTER=162 TEXT='B2011-105^n^nForamen ovale: 0, distinct; 1, confluent with median lacerate foramen^n^nG1997-1^n^nMedian lacerate foramen (anterior carotid foramen) is for the internal carotid artery.^n';
+	TEXT CHARACTER=163 TEXT='B2010-103; B2011-103';
+	TEXT CHARACTER=164 TEXT='G1997-14^n^nB2011-122^nEpitympanic sinus in posterodorsal part of squamosal. 0 absent; 1, present';
+	TEXT CHARACTER=165 TEXT='B2010-125; B2011-123';
+	TEXT CHARACTER=166 TEXT='B2010-126; B2011-124';
+	TEXT CHARACTER=167 TEXT='B2010-107; B2011-106';
+	TEXT CHARACTER=168 TEXT='B2010-111; B2011-109';
+	TEXT CHARACTER=169 TEXT='B2010-113; B2011-111';
+	TEXT CHARACTER=170 TEXT='Ci1993-Notoungulate families-21; B2011-127';
+	TEXT CHARACTER=171 TEXT='Ci1993-Notoungulate families-23';
+	TEXT CHARACTER=172 TEXT='H2006-40^n^nB2011-112^nPosterior bulla laps up onto paraocciptal process: 0, absent; 1, present';
+	TEXT CHARACTER=173 TEXT='B2010-117; B2011-115';
+	TEXT CHARACTER=174 TEXT='B2010-118; B2011-116';
+	TEXT CHARACTER=175 TEXT='B2010-115; B2011-113';
+	TEXT CHARACTER=176 TEXT='B2010-116; B2011-114';
+	TEXT CHARACTER=177 TEXT='B2010-120; B2011-118';
+	TEXT CHARACTER=178 TEXT='B2010-121; B2011-119';
+	TEXT CHARACTER=179 TEXT='B2010-122; B2011-120';
+	TEXT CHARACTER=180 TEXT='B2010-123; B2011-121';
+	TEXT CHARACTER=181 TEXT='B2010-127; B2011-125';
+	TEXT CHARACTER=182 TEXT='B2011-126';
+	TEXT CHARACTER=183 TEXT='B2010-130; B2011-128';
+	TEXT CHARACTER=184 TEXT='B2010-131; B2011-129';
+	TEXT CHARACTER=185 TEXT='B2010-132; B2011-130';
+	TEXT CHARACTER=186 TEXT='B2010-133; B2011-131';
+	TEXT CHARACTER=187 TEXT='B2010-109; B2011-107';
+	TEXT CHARACTER=188 TEXT='B2010-108';
+	TEXT CHARACTER=189 TEXT='B2010-110; B2011-108';
+	TEXT CHARACTER=190 TEXT='B2010-134';
+	TEXT CHARACTER=191 TEXT='Cr&A2006-18^n^nB2011-99^nTemporal lines (forming sagital crest): 0, fused temporal lines, sagital crest well-developed; 1, fusion of temporal lines only in most posterior part; 2, no fusion between temporal lines';
+	TEXT CHARACTER=192 TEXT='B2010-135; B2011-132';
+	TEXT CHARACTER=193 TEXT='B2010-136; B2011-133';
+	TEXT CHARACTER=194 TEXT='Sh2012-43';
+	TEXT CHARACTER=195 TEXT='Sh2012-44';
+	TEXT CHARACTER=196 TEXT='Sh2012-45';
+	TEXT CHARACTER=197 TEXT='Sh2012-46';
+	TEXT CHARACTER=198 TEXT='Sh2012-47';
+	TEXT CHARACTER=199 TEXT='Sh2012-48';
+	TEXT CHARACTER=200 TEXT='Sh2012-49';
+	TEXT CHARACTER=201 TEXT='Sh2012-50';
+	TEXT CHARACTER=202 TEXT='Sh2012-51';
+	TEXT CHARACTER=203 TEXT='Sh2012-52';
+	TEXT CHARACTER=204 TEXT='Sh2012-53';
+	TEXT CHARACTER=205 TEXT='Sh2012-54';
+	TEXT CHARACTER=206 TEXT='Sh2012-55';
+	TEXT CHARACTER=207 TEXT='Sh2012-56';
+	TEXT CHARACTER=208 TEXT='Sh2012-57';
+	TEXT CHARACTER=209 TEXT='Sh2012-58';
+	TEXT CHARACTER=210 TEXT='Sh2012-59';
+	TEXT CHARACTER=211 TEXT='Sh2012-60';
+	TEXT CHARACTER=212 TEXT='Sh2012-61';
+	TEXT CHARACTER=213 TEXT='Sh2012-62';
+	TEXT CHARACTER=214 TEXT='Sh2012-63';
+	TEXT CHARACTER=215 TEXT='Sh2012-64';
+	TEXT CHARACTER=216 TEXT='Sh2012-65';
+	TEXT CHARACTER=217 TEXT='Sh2012-66';
+	TEXT CHARACTER=218 TEXT='Sh2012-67';
+	TEXT CHARACTER=219 TEXT='Sh2012-68';
+	TEXT CHARACTER=220 TEXT='Sh2012-69';
+	TEXT CHARACTER=221 TEXT='Sh2012-70';
+	TEXT CHARACTER=222 TEXT='Sh2012-71';
+	TEXT CHARACTER=223 TEXT='Sh2012-72';
+	TEXT CHARACTER=224 TEXT='Sh2012-73';
+	TEXT CHARACTER=225 TEXT='Sh2012-74';
+	TEXT CHARACTER=226 TEXT='Sh2012-75';
+	TEXT CHARACTER=227 TEXT='Sh2012-76';
+	TEXT CHARACTER=228 TEXT='Sh2012-77';
+	TEXT CHARACTER=229 TEXT='Sh2012-78';
+	TEXT CHARACTER=230 TEXT='Sh2012-79';
+	TEXT CHARACTER=231 TEXT='Sh2012-80';
+	TEXT CHARACTER=232 TEXT='Sh2012-81';
+	TEXT CHARACTER=233 TEXT='Sh2012-82';
+	TEXT CHARACTER=234 TEXT='Sh2012-83';
+	TEXT CHARACTER=235 TEXT='Schmelzle et al., 2007 (character #4)';
+	TEXT CHARACTER=236 TEXT='Schmelzle et al., 2007 (character #6)';
+	TEXT CHARACTER=237 TEXT='Schmelzle et al., 2007 (character #7)';
+	TEXT CHARACTER=238 TEXT='modified from Schmelzle et al., 2007 (character #8)';
+	TEXT CHARACTER=239 TEXT='modified from Schmelzle et al., 2007 (character #9)';
+	TEXT CHARACTER=240 TEXT='character #6 of Macrini et al., 2013';
+	TEXT CHARACTER=241 TEXT='character #7 of Macrini et al., 2013';
+	TEXT CHARACTER=242 TEXT='character #8 of Macrini et al., 2013';
+	TEXT CHARACTER=243 TEXT='character #9 of Macrini et al., 2013';
+	TEXT CHARACTER=244 TEXT='Meng and Fox, 1995; character #10 of Macrini et al., 2013';
+	TEXT CHARACTER=245 TEXT='Meng and Fox, 1995; character #11 of Macrini et al., 2013';
+	TEXT CHARACTER=246 TEXT='Luo and Eastman, 1995; Geisler and Luo, 1996; Luo and Marsh, 1996; character #12 of Macrini et al., 2013';
+	TEXT CHARACTER=247 TEXT='character #14 of Macrini et al., 2013';
+	TEXT CHARACTER=248 TEXT='character #15 of Macrini et al., 2013';
+	TEXT CHARACTER=249 TEXT='character #15 of Macrini et al., 2013';
+	TEXT CHARACTER=250 TEXT='character # 16 of Macrini et al., 2013';
+	TEXT CHARACTER=251 TEXT='character #17 of Macrini et al., 2013';
+	TEXT CHARACTER=252 TEXT='character #18 of Macrini et al., 2013';
+	TEXT CHARACTER=253 TEXT='character #19 of Macrini et al., 2013';
+	TEXT CHARACTER=254 TEXT='Rougier et al., 1998 (character #127)';
+	TEXT CHARACTER=255 TEXT='character #21 of Macrini et al., 2013';
+	TEXT CHARACTER=256 TEXT='character #22 of Macrini et al., 2013';
+	TEXT CHARACTER=257 TEXT='Wible et al., 2007 (character #303)';
+	TEXT CHARACTER=258 TEXT='Bloch et al., 2007 (character #106)';
+	TEXT CHARACTER=259 TEXT='character #25 of Macrini et al., 2013';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 259;
+      ENDBLOCK;
+      

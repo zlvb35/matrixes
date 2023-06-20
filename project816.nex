@@ -1,0 +1,316 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 16.07.12 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+    		'Chaetopteridae'
+		'Magelonidae'
+		'Sabellidae'
+		'Spionidae'
+		'Siboglinidae'
+		'Galathowenia africana'
+		'Galathowenia annae'
+		'Galathowenia fragilis'
+		'Galathowenia scotiae'
+		'Galthowenia quelis'
+		'Galathowenia arafurensis'
+		'Galathowenia australis'
+		'Myriochele heeri'
+		'Myriochele olgae'
+		'Myriochele robusta'
+		'Myriochele corcovata'
+		'Myrioglobula antarctica'
+		'Myrioglobula islandica'
+		'Myrioglobula australiensis'
+		'Myriowenia californiensis'
+		'Myriowenia sp.'
+		'Owenia fusiformis'
+		'Owenia australis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Body shape'
+		 [2] 'Number of chaetigers'
+		 [3] 'Prostomium and persitomium'
+		 [4] 'Head (prostomium + persitomium) shape'
+		 [5] 'Prostomial oral openning'
+		 [6] 'Tentacular crown'
+		 [7] '"Palps"'
+		 [8] 'Well developed anterior lobes'
+		 [9] 'Foregut'
+		 [10] 'Ventral pharingeal organ'
+		 [11] 'Dorsolateral ciliary folds'
+		 [12] 'Cerebral eyespots'
+		 [13] 'Nuchal organs'
+		 [14] 'Collar between head and first segment'
+		 [15] 'Breakage groove between head and first chaetiger'
+		 [16] 'Breakage groove between first and second chaetiger'
+		 [17] 'Neuropodial uncini begin'
+		 [18] 'Chaetiger 4-6'
+		 [19] 'Chaetae emerging from body wall'
+		 [20] 'Acicular chaetae in notopodia'
+		 [21] 'Anteriormost acicular chaetae'
+		 [22] 'Rows of uncini per torus'
+		 [23] 'Uncini'
+		 [24] 'Rostrum'
+		 [25] 'Relative size of teeth of uncini'
+		 [26] 'Uncini manubrium'
+		 [27] 'Manubrium shape'
+		 [28] 'Segmental branchiae'
+		 [29] 'Longitudinal groove on dosum of body'
+		 [30] 'Longitudinal grooves on body sides'
+		 [31] 'Longitudinal grooves on body ventrum'
+		 [32] 'Pygidium'
+		 [33] 'Intra-epidermal cord'
+		 [34] 'Oesophageal commisures shape'
+		 [35] 'Monociliated epidermal cells'
+	;
+	STATELABELS
+		1
+		'thick and rigid.  Decreasing in width at both ends (cigar-like) or truncated.'
+		'slender, long and sinuous'
+		,
+		2
+		'<30'
+		'30-50'
+		'>50'
+		,
+		3
+		'fused (not distinguisable)'
+		'not fused'
+		,
+		4
+		'globular (with rounded or pointed anterior end)'
+		'cylindrical (with abrupt or truncated anterior end)'
+		,
+		5
+		'terminal'
+		'oblique'
+		'ventral slit'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent/ocluded'
+		'ventral buccal organ'
+		'axial simple proboscis'
+		,
+		10
+		'absent (not observed)'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'segment 1'
+		'segment 2'
+		'segment 3'
+		'segment 4'
+		'after chaetiger 4'
+		,
+		18
+		'isometric'
+		'not isometric'
+		,
+		19
+		'absent (well developed parapodia)'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'first chaetiger'
+		'second chaetiger'
+		'third chaetiger'
+		'fourth chaetiger'
+		'fifth chaetiger'
+		,
+		22
+		'1'
+		'<8'
+		'8-20'
+		'>20'
+		,
+		23
+		'with teeth arranged in a vertical row'
+		'with teeeth arranged in a oblique row'
+		'with teeth arranged side by side at the same level'
+		'with teeth in multiple rows'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'isometric'
+		'proximal larger'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'slightly curved, almost straight'
+		'clearly curved, forming almost a 90 degree angle'
+		'"avicular"'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'rim with or without inconspicuous lobes'
+		'clearly bilobed'
+		'three lobes'
+		'multilobed (more than three and often variable with size of specimens)'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'straight'
+		'Y- shaped'
+		,
+		35
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Chaetopteridae'		                      1?1-00110-?(0,1)10004000-00010-010000?0
+	'Magelonidae'		                         ?2001010110000004000-00101000000011
+	'Sabellidae'		                          0?1-00000-0(0,1)10001000-031(0,1)1(0,1)010000-0
+	'Spionidae'		                           121-101120(0,1)110004000-031010100000?0
+	'Siboglinidae'		                        1?1--0000-0000001010-(0,1)30010000001?0
+	'Galathowenia africana'		               1101200011?100013110-210011000001?1
+	'Galathowenia annae'		                  1001200010?100013110-21001100000111
+	'Galathowenia fragilis'		               1001200010?000013110-210011000131?1
+	'Galathowenia scotiae'		                1001200010?000013110-21001100003111
+	'Galthowenia quelis'		                  1001200010?100013110-?1001100002111
+	'Galathowenia arafurensis'		            1101200011?101013110-21001100003111
+	'Galathowenia australis'		              1001200010?000003111221001100000111
+	'Myriochele heeri'		                    00001000111000003111310001101110101
+	'Myriochele olgae'		                    00001000111000002111210001101110101
+	'Myriochele robusta'		                  00001000111000001111020001101110101
+	'Myriochele corcovata'		                00001000101100003111221001101101101
+	'Myrioglobula antarctica'		             000010001??000001111??200110???1101
+	'Myrioglobula islandica'		              000010001??000001011120001101110101
+	'Myrioglobula australiensis'		          010010001??1000010113100011011?0101
+	'Myriowenia californiensis'		           12000011111000103110-1001100000?101
+	'Myriowenia sp.'		                      11000011111000103110-10011000000101
+	'Owenia fusiformis'		                   00010100111101?03010-32001100000111
+	'Owenia australis'		                    00010100111101?03010-32001100000111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=6 TEXT='Kirkegaard, 1959';
+	TEXT TAXON=7 TEXT='from Australia';
+	TEXT TAXON=8 TEXT='Nilsen & Holte, 1986: 25-27, figs 9, 10, 12dParapar 2003: 278-281, figs 4, 5.';
+	TEXT TAXON=10 TEXT='from Australia';
+	TEXT TAXON=12 TEXT='Psammocollus australis Grube, 1966: 178-179, no figuresParapar 2003a: 251-254, Figs 1, 2.';
+	TEXT TAXON=13 TEXT='Malmgren, 1867: 101-102, table 7, Fig. 37Parapar 2006: 527-533; Fig 4-6, 7a, b.';
+	TEXT TAXON=15 TEXT='Parapar 2003b: 224-226, Figs 1e-h, 3 Table 1';
+	TEXT TAXON=16 TEXT='from Australia';
+	TEXT TAXON=17 TEXT='Hartman';
+	TEXT TAXON=18 TEXT='Parapar, 2003: 284-287 Figs 7, 8';
+	TEXT TAXON=19 TEXT='from Australia';
+	TEXT TAXON=20 TEXT='Hartman, 1960';
+	TEXT TAXON=21 TEXT='from Australia';
+
+        [Character comments]
+        	TEXT CHARACTER=5 TEXT='Ventral cleft as continuation of an anterior mouth opening, resulting of two large anterioventral lips with high plasticity. Some taxa lacking this slit have a button-hole-shape mouth with low lips around.';
+	TEXT CHARACTER=6 TEXT='According to Berkeley 1949 and Sene-Silva 2002 the tentacular crown is the modified lips (persitomial). According to Rouse and Fauchald 1997 and Rouse and Pleijel 2001, this structure is prostomial.';
+	TEXT CHARACTER=7 TEXT='At this stage it is still uncertain if ''palps''n and ''tentacular crown'' are homologous between them or even to other polychaetes pals (redactar mejor)-- revisar Orrhage.Nos mojamos y ponemos palpos homologos en Oweniidae, Spionidae y Chaetopteriidae. Buscar bibliografia para corroborar (ej. Rouse y Pleijel 2001:258 fig 64.2)';
+	TEXT CHARACTER=8 TEXT='The origing and nature of these structures typical from Myriowenia species are unknown and some authors have iinterpreted them as labial lobes (peristomial- therefore probably homologus to lips) (Sene-Silva from HArtman1960, 1967- REVISAR) while others consider them prostomial (Blake 2000)';
+	TEXT CHARACTER=9 TEXT='according to Zrzvry et al 2009';
+	TEXT CHARACTER=10 TEXT='Check Rouse and Pleijel 2001, Berkeley 1949, Dales 1957, Purschke and Tzetlin 1996, Blake 1984 for details. For outgroups check Zrzvry et al 2009';
+	TEXT CHARACTER=12 TEXT='We have sonsidere eysposts as peristomial (eg. mirar Cladistics)';
+	TEXT CHARACTER=14 TEXT='Collar defined as a fold not as a result of contraction of the head within the anterior body segments.';
+	TEXT CHARACTER=18 TEXT='Hacer notas de cada caso y revisar carcater y estados al final';
+	TEXT CHARACTER=19 TEXT='From Rousset et al 2004 - similarity between Siboglinidae & Oweniidae';
+	TEXT CHARACTER=22 TEXT='A revisar los rangos. Hacer notas de cada caso';
+	TEXT CHARACTER=24 TEXT='Bartolomaeus 1998. Mirar trabajo microfauna- Westheide';
+	TEXT CHARACTER=25 TEXT='hacer un comentario al carcater 17 de Sene-Silva';
+	TEXT CHARACTER=34 TEXT='not exactly like Sene-Silva';
+	TEXT CHARACTER=35 TEXT='only found in tentacles of Owenia but probably good to include this charcaterr as also in MAgelona. See HAusen 2005b';
+
+      [Attribute comments]
+      	TEXT TAXON=6 CHARACTER=2 TEXT='32 segun descripcion original';
+	TEXT TAXON=7 CHARACTER=2 TEXT='17 en la descripción';
+	TEXT TAXON=9 CHARACTER=2 TEXT='although numbers only vary between 25-28 segments';
+	TEXT TAXON=10 CHARACTER=2 TEXT='20 en la descripcion';
+	TEXT TAXON=11 CHARACTER=2 TEXT='31 en la descripcion';
+	TEXT TAXON=12 CHARACTER=2 TEXT='18 max (Parapar 2003)';
+	TEXT TAXON=18 CHARACTER=2 TEXT='19';
+	TEXT TAXON=19 CHARACTER=2 TEXT='23-35';
+	TEXT TAXON=20 CHARACTER=2 TEXT='>100';
+	TEXT TAXON=21 CHARACTER=2 TEXT='31-51';
+	TEXT TAXON=23 CHARACTER=2 TEXT='19';
+	TEXT TAXON=4 CHARACTER=8 TEXT='According to Rouse and Pleijel 2001- peristomial lobes present';
+	TEXT TAXON=13 CHARACTER=10 TEXT='According to drawing in Nielsen & Holte and Hartmann Schroeder . Also in Parapar 2006';
+	TEXT TAXON=14 CHARACTER=10 TEXT='According to material reviewed by Parapar (2006: Fig 3A)';
+	TEXT TAXON=20 CHARACTER=10 TEXT='Blake 2000';
+	TEXT TAXON=16 CHARACTER=18 TEXT='1-2(1.5)-2(1.5)';
+	TEXT TAXON=14 CHARACTER=20 TEXT='According to M. olgae in Islandia (Parapar 2006). Blake (2000) did not refer to this kind of chaetae in any species but he did not used SEM';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 35;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

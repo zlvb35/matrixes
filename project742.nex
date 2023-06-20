@@ -1,0 +1,536 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.54.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=46;
+    TAXLABELS
+    		'Gammarus'
+		'Niphargus hvarensis mlini'
+		'Niphargus orcinus'
+		'Niphargus longiflagellum'
+		'Niphargus pachytelson'
+		'Niphargus steueri'
+		'Niphargus subtypicus'
+		'Niphargus kolombatovici'
+		'Niphargus liburnicus'
+		'Niphargus rejici'
+		'Niphargus jadranko'
+		'Niphargus balcanicus'
+		'Niphargus dolichopus'
+		'Niphargus croaticus'
+		'Niphargus redenseki'
+		'Niphargus arbiter'
+		'Niphargus arbiter krk'
+		'Niphargus dabarensis'
+		'Niphargus salonitanus'
+		'Niphargus vjetrenicensis'
+		'Niphargus bilecanus'
+		'Niphargus lunaris'
+		'Niphargus trullipes'
+		'Niphargus hercegovinensis'
+		'Niphargus zavalanus'
+		'Niphargus lourensis'
+		'Niphargus hebereri'
+		'Niphargus polymorphus'
+		'Niphargus hvarensis'
+		'Niphargus miljeticus'
+		'Niphargus podgoricensis'
+		'Niphargus stenopus'
+		'Niphargus costozzae'
+		'Niphargus dalmatinus'
+		'Niphargus elegans'
+		'Niphargus krameri'
+		'Niphargus spinulifemur'
+		'Niphargus valachicus'
+		'Niphargus aquilex'
+		'Niphargus schellenbergi'
+		'Niphargus skopljensis'
+		'Niphargus stefanellii'
+		'Niphargus virei'
+		'Niphargus longidactylus'
+		'Niphargus sanctinaumi'
+		'Niphargus pectinicauda'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=71;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'body size'
+		 [2] 'body shape'
+		 [3] 'posterior margin of epimeral plates'
+		 [4] 'shape of telson'
+		 [5] 'length of telson spines'
+		 [6] 'depth of telson cleft'
+		 [7] 'dorsal telson spines'
+		 [8] 'lateral telson spines'
+		 [9] 'mesial telson spines'
+		 [10] 'number of apical telson spines'
+		 [11] 'number of setae along disto-posterior margin of pereomera VII'
+		 [12] 'dorsal spination of pereomera VII'
+		 [13] 'number of postero-dorsal setae/spines on mesosomites'
+		 [14] 'spination pattern of mesosomites'
+		 [15] 'spination of urosomite I'
+		 [16] 'spination pattern of urosomites I-II'
+		 [17] 'spines on urosomite III'
+		 [18] 'number of spines at the base of uI'
+		 [19] 'aI-length'
+		 [20] 'aI peduncle'
+		 [21] 'number of aesthetasks on aI flagellum'
+		 [22] 'aII-peduncle'
+		 [23] 'length of aII flagellum'
+		 [24] 'shape of cx I'
+		 [25] 'setae on gI/3'
+		 [26] 'setae on gI/5-dorsally'
+		 [27] 'relative length of gI/5'
+		 [28] 'shape of gI/6'
+		 [29] 'palmar angle of gI/6'
+		 [30] 'shape of gII coxa'
+		 [31] 'setae on gII/5-dorsally'
+		 [32] 'relative length of gII/5'
+		 [33] 'shape of gII/6'
+		 [34] 'palmar angle of gII/6'
+		 [35] 'position of denticulate spines on gII/6'
+		 [36] 'shape of bulbus on gI-II/5'
+		 [37] 'pattern of setosity on gI,II/7'
+		 [38] 'difference in size between gI-II/6'
+		 [39] 'size of gII/6 (compared to the body length)'
+		 [40] 'shape of coxa III'
+		 [41] 'size posterior lobe of  coxa IV'
+		 [42] 'spination of  pIII-IV/7'
+		 [43] 'shape of coxa V-VI'
+		 [44] 'number of setae along posterior margin of coxa V-VI'
+		 [45] 'width of pV-VI/2'
+		 [46] 'shape of pereopod V-VII basis distally'
+		 [47] 'spination of pV/7'
+		 [48] 'spination of pVI/7'
+		 [49] 'number of setae along posterior margin of coxa VII'
+		 [50] 'proximal posterior lobe on pVII/2'
+		 [51] 'spination of pVII/2'
+		 [52] 'number of plumose setae on pVII/7'
+		 [53] 'spination of pVII/7'
+		 [54] 'length ration between pVI : pVII'
+		 [55] 'length of pVII'
+		 [56] 'pleopod III-presence of spine'
+		 [57] 'number of hooks in retinacula'
+		 [58] 'spination pattern of uropod I'
+		 [59] 'differentiation of the uropod I'
+		 [60] 'hump on uI'
+		 [61] 'differentiation of uropod II'
+		 [62] 'spination pattern along inner and outer margin of uropod III/2'
+		 [63] 'spination pattern of uropod III/3'
+		 [64] 'uropod III length'
+		 [65] 'shape of uropod'
+		 [66] 'length of endopodite uIII'
+		 [67] 'differentiation of distal article of uIII exopodite'
+		 [68] 'spines on inner plate of maxilla I'
+		 [69] 'number of setae on inner plate of maxilla I'
+		 [70] 'maxillliped inner lobe'
+		 [71] 'maxilliped nail'
+	;
+	STATELABELS
+		1
+		'large; adults>>15 mm'
+		'middle; adults <15mm and >8mm'
+		'small; adults <<8mm'
+		,
+		2
+		'stout, gammariform-orcinus-hebereri type'
+		'slender-stygius-hvarensis type'
+		'very slender-aquilex-longicaudatus type'
+		,
+		3
+		'sinusoid-croaticus type'
+		'concave-orcinus type'
+		'variable; concave in juvenile and +/-subrounded in adults: stygius type'
+		'subrounded, sometimes corner marked with seta: aquilex-longicaudatus type'
+		'posteriorly strongly produced'
+		,
+		4
+		'wide (width:length>1)'
+		'narrow  (width:length<1)'
+		,
+		5
+		'shorter than 0.45 of telson length'
+		'longer than 0.45 of telson length'
+		,
+		6
+		'shallow (<0.6 of telson length)'
+		'middle (0.6-0.7 of telson length)'
+		'deep (>0.7 of telson length)'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'few (up to 9)'
+		'elevated (>10)'
+		,
+		11
+		'1, rarely 2'
+		'at least 3'
+		,
+		12
+		'no spines/setae'
+		'setae and spinnes well developed'
+		,
+		13
+		'the most 5 setae'
+		'at least 6 setae/spines'
+		,
+		14
+		'setae'
+		'setae with few spines'
+		'spines'
+		,
+		15
+		'single seta/spine'
+		'several setae/spines'
+		'single spine on elevation'
+		,
+		16
+		'usI>/=usII'
+		'usI<usII'
+		'usI=usII=1'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'spine absent'
+		'single spine'
+		'at least 2 spines'
+		,
+		19
+		'very long; in adults it may reach > 0.9 of body length'
+		'long, in adults measures between 0.55-0.8 of body length'
+		'middle, measures between 0.45-0.55'
+		'short; despite may measure 0.45-0.5 in subadults in adults measures < 0.4 of body length'
+		,
+		20
+		'art. 2 longer or subequal to art. 1, art. 3 short'
+		'art. 2 subequal or longer to art. 1, art. 3 long'
+		'art. 1> art. 2; art. 3 long'
+		'art. 1> art. 2; art. 3 short'
+		,
+		21
+		'1'
+		'1-2, rarely 3'
+		,
+		22
+		'art.4 > art.5 (<<0.95)'
+		'art.4 </= art.5 (0.95-1.1)'
+		'art. 4<<art. 5 (1.15x)'
+		,
+		23
+		'normal'
+		'extremly short'
+		,
+		24
+		'paralelogram'
+		'romboid'
+		'paralelogram with acute anterior corner'
+		'irregularly  flattened trapezoid'
+		,
+		25
+		'only distal row present'
+		'additional setae group present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'short (0.65-0.9 of gI/6 length)'
+		'long (0.9-1.1 of gI/6 length)'
+		'elongated (>1.2 of gI/6 length)'
+		,
+		28
+		'hebereri type'
+		'dalmatinus gI type'
+		'longiflagellum gI-type'
+		'orcinus type-gI'
+		'orcinus type gII'
+		,
+		29
+		'sharply inclined (>>75)'
+		'normal (60-70)'
+		'blunt (<<45)'
+		,
+		30
+		'very deep (heigth:length rato<0.8)'
+		'moderatly deep (heigth:length rato>0.8 and <1)'
+		'extremly shallow (heigth:length rato>1.05)'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'extremly short (<0.65)'
+		'short (0.7-0.9)'
+		'long (0.95-1.1)'
+		'elongated (>1.3)'
+		,
+		33
+		'hebereri type gII'
+		'puteanus type'
+		'dalmatinus gI type'
+		'longiflagellum type gI'
+		'orcinus type gI'
+		'orcinus type gII'
+		,
+		34
+		'blunt (<40)'
+		'normal (40-55)'
+		'sharp (60-75)'
+		'very sharp (>75)'
+		,
+		35
+		'normal, behind the palmar spines'
+		'on inner side'
+		,
+		36
+		'wide, positioned proximally'
+		'narrow'
+		'wide, positioned centrally'
+		,
+		37
+		'setae in groups'
+		'several single setae'
+		'only one seta on dactyl'
+		,
+		38
+		'gI subequal or larger than gII (length ratio 0.9-1 in adults)'
+		'gII moderatley larger than gI (length ratio in adults 0.8-0.89)'
+		'gII distinctly larger than gII (length ratio in adults <0.8)'
+		,
+		39
+		'very small (gII  length in adults below 0.16 of body length)'
+		'small (gII  length in adults remains below 0.22 of body length)'
+		'large (gII  length in adults between 0.24-0.26 of body length)'
+		'large (gII  length in adults exceeds 0.28 of body length)'
+		,
+		40
+		'extremly deep (width less than 0.75 of depth)'
+		'moderatly deep (0.8-1)'
+		'extremly shallow (width more than 1.05 of depth)'
+		,
+		41
+		'well developped (more than 0.2 of width; in adults)'
+		'recognised, but poorly developped'
+		'not developped (<0.1 of coxa width)'
+		,
+		42
+		'normal: dorsally plumose seta, at the base of nail a spine and 1-2 setae; spine may be seta-like'
+		'supraspines: in addition to the normal pattern an additional spine may appear'
+		,
+		43
+		'normal'
+		'well developped posterior lobe'
+		'ventro-posterior corner can be slightly produced'
+		,
+		44
+		'single seta/spine'
+		'several setae/spines'
+		,
+		45
+		'extremly wide (width:length > 0.75 in adults )'
+		'middle sized  (0.55< width: length ratio <0.73 in adult specimens)'
+		'narrow (width:length < 0.55 in adults )'
+		,
+		46
+		'normal type: posterior lobe distinct, but small; anterior and posterior margin straight or slightly convex'
+		'longiflagellum type: anterior and posterior lobe on pV-VI equally developped; pVII with large posterior lobe; anterior and posterior margin very convex'
+		'croaticus type: posterior lobe missing;  posterior margin straight'
+		'steueri type: anterior lobe pronounced on pV-VI'
+		,
+		47
+		'normal: dorsally plumose seta, at the base of nail a spine and 1-2 setae; spine may be seta-like'
+		'supraspines: in addition to the normal pattern an additional spine may appear'
+		,
+		48
+		'normal: dorsally plumose seta, at the base of nail a spine and 1-2 setae; spine may be seta-like'
+		'supraspines: in addition to the normal pattern an additional spine may appear'
+		,
+		49
+		'at least 2 setae/spines'
+		'single seta/spine'
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'setae'
+		'seta and spines'
+		'hook-like spines; almost no setae'
+		,
+		52
+		'several seate in groups'
+		'single'
+		'at least 2'
+		,
+		53
+		'normal: dorsally plumose seta, at the base of nail a spine and 1-2 setae; spine may be seta-like'
+		'supraspines: in addition to the normal pattern an additional spine may appear'
+		,
+		54
+		'pVI distinctly longer than pVII'
+		'pVI and pVII of approximately equal length'
+		'pVII sligthly but distinctly longer than pVI'
+		'pVII distinctly longer than pVI'
+		,
+		55
+		'extremly short (<0.35 of body length in adults)'
+		'normal (0.4-0.5 of body length)'
+		'middle (0.56-0.75 of body length)'
+		'long(more than 0.75 of body length)'
+		,
+		56
+		'spine present behind the retinacle'
+		'behind the retinacle only seta'
+		,
+		57
+		'2'
+		'elevated'
+		,
+		58
+		'arbiter type: single spines and spines in groups prevail; setae are rare'
+		'vjetrenicensis type: spines are accopmpanied with heavy bunches of spines'
+		'simple, setae and spines are mixed'
+		'spination heavily reduced, only few spines or setae occur'
+		,
+		59
+		'endo-: exopodit>1.5'
+		'endo- : exopodit=1.1-1.4'
+		'endo- : exopodit=1.0-1.1'
+		'endo- : exopodit < 1'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'endopodite : exopodite < 1.0'
+		'1.0< endopodite : exopodite < 1.15'
+		'endopodite : exopodite 1.15<'
+		,
+		62
+		'along inner margin at least 1.5x more spine-groups than along outer margin'
+		'along inner margin the most 1.5x more spine-groups than along outer margin'
+		,
+		63
+		'only apical setae present'
+		'lateral setae groups present along one margin'
+		'lateral setae groups present along both margins'
+		,
+		64
+		'very short (<0.23 of body length)'
+		'middle (0.25-0.35 of body length)'
+		'long (>0.38 of body length)'
+		,
+		65
+		'flattened'
+		'rod-shaped'
+		,
+		66
+		'short (<0.55 of protopodite)'
+		'long (>0.65 of protopodite length)'
+		,
+		67
+		'small (<0.2 of proximal article)'
+		'sligthly prolonged in adult males (0.2< distal: proximal article < 0.55)'
+		'distinctly prolonged in adult males (distal: proximal article > 0.6)'
+		,
+		68
+		'all the spines with several teeth'
+		'only few spines with several teeth'
+		,
+		69
+		'1-2 (3)'
+		'3-4'
+		'more than 4'
+		,
+		70
+		'1-2 spines'
+		'3 or more spines'
+		,
+		71
+		'setae present exclusively at the base of nail'
+		'setae present along the inner margin of the  base of nail'
+		
+	;
+	MATRIX
+	'Gammarus'		                           101101--1-001010111301020100201102-210100011000001010(0,1)11032120000110-10
+	'Niphargus hvarensis mlini'		          01110200000010110133(0,1)000(0,1)1011111320001111001100011(0,1)1(0,1)111021120221021211
+	'Niphargus orcinus'		                  00110011100012100110110010131101520112201010100011010120002120100101210
+	'Niphargus longiflagellum'		           0010020110001(0,2)1001111100(0,1)1021012(4,5)1001110000(0,1)010011010011002120100001210
+	'Niphargus pachytelson'		              00110101(0,1)010101001100100000311015211022(0,1)100(0,1)100011010121022120100001(1,2)10
+	'Niphargus steueri'		                  001101011010121101021212000200025200(0,1)0100011030011010121022110200001011
+	'Niphargus subtypicus'		               00110101100012110103(0,1)212(0,1)00200(0,1)2520000101011130001010121022111100001(0,1)11
+	'Niphargus kolombatovici'		            00110201101012110113(0,1)212010210(0,1)2(2,3)20010101011130001010121022111(1,2)00001010
+	'Niphargus liburnicus'		               0011010110001111(0,1)113121200021002320010100011030011010321022111100001010
+	'Niphargus rejici'		                   00110200000010100111010110041201521112211101100111111??1002120211011(0,1)10
+	'Niphargus jadranko'		                 001101000010101(0,1)01111101000412015211(0,1)2211(0,1)01100(0,1)11111121002120211011210
+	'Niphargus balcanicus'		               000101011(0,1)0112100101120110121102320011111021220010220031011121(0,1)11001210
+	'Niphargus dolichopus'		               00010011100112101101121101020112320010111001220001210131002121(1,2)21001010
+	'Niphargus croaticus'		                00010001101012101100121101120112320000111001220001210131022121(1,2)11001(1,2)10
+	'Niphargus redenseki'		                00010001101011101110(0,1)21101120112320000111001220011210121022121111001(0,1)10
+	'Niphargus arbiter'		                  001102011100121101211101100411015211(0,1)2301000100011110011002121200001(0,1)11
+	'Niphargus arbiter krk'		              00110201100010110121110100041101521112300000000011010011002121200001(0,1)10
+	'Niphargus dabarensis'		               00010101111012110101110100031101521012201010220010120121022110000001210
+	'Niphargus salonitanus'		              0011020(0,1)101011110120010110041101521112300000000011110011002120200001(0,1)11
+	'Niphargus vjetrenicensis'		           00010(0,1)01111011110110110000030101520011201021200010020121011110(0,1)00001210
+	'Niphargus bilecanus'		                00011(1,2)011110121101131100(0,1)00(2,3)0101(3,4)20011(1,2)010212000100201210121101(0,1)0001210
+	'Niphargus lunaris'		                  10111111101010110123010010011101520012201001100001110011022111000001210
+	'Niphargus trullipes'		                000101011100121011131110010301113300(0,1)0111021100010120021012110(1,2)00(0,1)01211
+	'Niphargus hercegovinensis'		          00010(0,1)111010121011131100000311015200112020(0,1)(0,1)100010020011012111200001210
+	'Niphargus zavalanus'		                10110211100010110123010000021102420011110001100011011221022111100001010
+	'Niphargus lourensis'		                10111111100010110123010000031101521012311000100011010121022111100001110
+	'Niphargus hebereri'		                 101102000(0,1)00101001230(0,1)0000102002000012100000010011010010001120100100(1,2)10
+	'Niphargus polymorphus'		              0011021111101210010211020(0,1)1110(0,1)20100111000110100011(1,2)(0,1)02(0,1)1(1,2)1110(0,1)00101210
+	'Niphargus hvarensis'		                011(0,1)0200001010110123(0,1)00011011111320002110001100011010111021120221021211
+	'Niphargus miljeticus'		               010(0,1)02000(0,1)1010110123010010011111320002110001100011010111021120221021211
+	'Niphargus podgoricensis'		            001(0,1)11011100101111031100(0,1)00211015210122(0,1)1000100011010111012111100001210
+	'Niphargus stenopus'		                 0011020110?012100101020110041101521(0,1)1230100(0,1)1000110000210021201(0,1)0001111
+	'Niphargus costozzae'		                012102000010101(0,1)0133(0,1)00000021111520001112001100011010111021121221121110
+	'Niphargus dalmatinus'		               01000000001000110233000001011111010001012101101111111101020121211111210
+	'Niphargus elegans'		                  01(0,4)001000010001102330000000111110100010121011011110(1,2)1101020021211111110
+	'Niphargus krameri'		                  01210(1,2)0000?0101101330(0,1)000101111(1,2)51000111(1,2)001100001010111020121211021110
+	'Niphargus spinulifemur'		             01210(1,2)00001010110133000011(0,1)11112010001011001100001110101020121211121210
+	'Niphargus valachicus'		               (0,1)14(0,1)0000(0,1)010102201230100000411(0,1)252001(0,1)1111011011(0,1)10(1,2)112102102121101101(0,1)
+	'Niphargus aquilex'		                  1230(0,1)110(0,1)0000002013300030001120221002(0,1)0220002000110103011331012111210(0,1)0
+	'Niphargus schellenbergi'		            (0,1)(1,2)(2,3)1111010(0,1)0100101230100(0,1)00212(0,1)232001(0,1)02200(0,1)200011010111123101221021000
+	'Niphargus skopljensis'		              201102111000001101330100012020(0,1)30002210000000100110100110321211001(0,1)0010
+	'Niphargus stefanellii'		              101102(0,1)(0,1)10001011012201000000(1,2)0015100112000000100110100(1,2)0002120100000110
+	'Niphargus virei'		                    001011011100101(0,1)0123010000111002220011100001000011010011022110211021210
+	'Niphargus longidactylus'		            201102001000000200130100012020130002210010100000110100?10321110?0100010
+	'Niphargus sanctinaumi'		              011101000(0,1)1000020123110000121112310011012001100011010211022111221021011
+	'Niphargus pectinicauda'		             20110211100000010123120000011002010020100010010011010021101111000101000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 71;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

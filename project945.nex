@@ -1,0 +1,811 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-09 21.52.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=64;
+    TAXLABELS
+    		'Antrozous pallidus'
+		'Lasiurus cinereus'
+		'Chaerephon aloysiisabaudiae'
+		'Chaerephon ansorgei'
+		'Chaerephon bemmeleni'
+		'Chaerephon bivittatus'
+		'Chaerephon chapini'
+		'Chaerephon jobensis'
+		'Chaerephon major'
+		'Chaerephon nigeriae'
+		'Chaerephon plicatus'
+		'Chaerephon pumilus'
+		'Chaerephon russatus'
+		'Cheiromeles'
+		'Cynomops abrasus'
+		'Cynomops planirostris'
+		'Eumops auripendulus'
+		'Eumops bonariensis'
+		'Eumops glaucinus'
+		'Eumops hansae'
+		'Eumops perotis'
+		'Molossops aequatorianus'
+		'Molossops neglectus'
+		'Molossops temminckii'
+		'Molossus molossus'
+		'Molossus rufus'
+		'Mops brachypterus'
+		'Mops condylurus'
+		'Mops congicus'
+		'Mops demonstrator'
+		'Mops leonis'
+		'Mops midas'
+		'Mops mops'
+		'Mops nanulus'
+		'Mops niveiventer'
+		'Mops petersoni'
+		'Mops spurrelli'
+		'Mops thersites'
+		'Mormopterus acetabulosus'
+		'Mormopterus beccarii'
+		'Mormopterus jugularis'
+		'Mormopterus kalinowskii'
+		'Mormopterus loriae'
+		'Mormopterus phrudus'
+		'Mormopterus planiceps'
+		'Myopterus'
+		'Neoplatymops'
+		'Nyctinomops aurispinosis'
+		'Nyctinomops femorosaccus'
+		'Nyctinomops laticaudatus'
+		'Nyctinomops macrotis'
+		'Otomops'
+		'Platymops'
+		'Promops centralis'
+		'Promops nasutus'
+		'Sauromys'
+		'Tadarida aegyptiaca'
+		'Tadarida australis'
+		'Tadarida brasiliensis'
+		'Tadarida fulminans'
+		'Tadarida kuborensis'
+		'Tadarida teniotis'
+		'Tadarida ventralis'
+		'Tomopeas ravus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=102;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Hairs - shape'
+		 [2] 'Hairs - spoonlike position on lips'
+		 [3] 'Hairs - spoonlike presence on lip'
+		 [4] 'Hairs - spoonlike presence in internarial region'
+		 [5] 'Hairs - thornlike presence on face'
+		 [6] 'Hairs - thornlike presence on cheeks and lips'
+		 [7] 'Hairs - thornlike patch on nose'
+		 [8] 'Hairs - presence of small hairs covering nostrils'
+		 [9] 'Hairs - mustache presence'
+		 [10] 'Papillae - vibrissal papillae presence'
+		 [11] 'Facial wrinkles - presence'
+		 [12] 'Facial wrinkles - development'
+		 [13] 'Papillae - internarial papillae presence'
+		 [14] 'Papillae - type surrounding upper nostril'
+		 [15] 'Papillae - internarial keel presence'
+		 [16] 'Papillae - number of columns hard keratinized internarial papillae'
+		 [17] 'Papillae - presence on upper edge of nostril'
+		 [18] 'Rostral keel - presence'
+		 [19] 'Pinnae - degree of separation'
+		 [20] 'Pinnae - presence of band'
+		 [21] 'Pinnae - shape'
+		 [22] 'Papillae - presence on distal pinna'
+		 [23] 'Pinnae - development of pinnal fold'
+		 [24] 'Tragus - development'
+		 [25] 'Tragus - hairs on tip'
+		 [26] 'Antitragus - size'
+		 [27] 'Antitragus - shape'
+		 [28] 'Hairs - sexually dimorphic tuft presence'
+		 [29] 'Glands - gular presence'
+		 [30] 'Glands - gular development'
+		 [31] 'Papillae - presence on forearm'
+		 [32] 'Free tail - presence'
+		 [33] 'Uropatagium - thickness'
+		 [34] 'Hairs - length on pedal digits'
+		 [35] 'Hairs - lateral brush on pedal digit 1 presence'
+		 [36] 'Hairs - medial brush on pedal digit V presence'
+		 [37] 'Tongue - median lobe presence'
+		 [38] 'Tongue- posterior median mechanical papillae development'
+		 [39] 'Tongue - distribution of fungiform papillae on lateral surface'
+		 [40] 'Dentition - I1 inclination '
+		 [41] 'Dentition - I1 orientation'
+		 [42] 'Dentition - I1 buccal surface shape'
+		 [43] 'Dentition - I1 distolingual cingulum presence'
+		 [44] 'Dentition - I1 preparacrista development'
+		 [45] 'Dentition - lower incisor number per hemimandible'
+		 [46] 'Dentition - i1 lobes number'
+		 [47] 'Dentition - i1 furrows on occlusal margin shape'
+		 [48] 'Dentition - i1 lingual cingulum presence'
+		 [49] 'Dentition - i2 lobes number'
+		 [50] 'Dentition - lower incisor position'
+		 [51] 'Dentition - C development'
+		 [52] 'Dentition - C accessory cingular cusp presence'
+		 [53] 'Dentition- C grooves on lingual surface presence'
+		 [54] 'Dentition - number of upper premolars'
+		 [55] 'Dentition - diastema between upper premolar presence'
+		 [56] 'Dentition - P4 position'
+		 [57] 'Dentition - P4 shape'
+		 [58] 'Dentition - p5 axis of root insertion'
+		 [59] 'Dentition - M1 M2 mesiolingual cingulum development'
+		 [60] 'Dentition - M1 metaconule presence'
+		 [61] 'Dentition - M1 metaloph presence'
+		 [62] 'Dentition - M1 metaloph development'
+		 [63] 'Dentition - M1 postprotocrista and metaloph relationship'
+		 [64] 'Dentition - M2 metaloph presence'
+		 [65] 'Dentition - M3 premetacrista presence'
+		 [66] 'Dentition - M1-M2 hypocone presence'
+		 [67] 'Dentition - m1 m2 postcristid condition'
+		 [68] 'Dentition - m3 - talonid basin depth'
+		 [69] 'Dentition - m3 entoconid presence'
+		 [70] 'Cranium - rostral length'
+		 [71] 'Cranium - anterior sagittal crest presence'
+		 [72] 'Cranium - anterior sagittal crest development'
+		 [73] 'Cranium - posterior sagittal crest presence'
+		 [74] 'Cranium - braincase shape in lateral view'
+		 [75] 'Cranium - nuchal crest presence'
+		 [76] 'Cranium - infraorbital crest presence'
+		 [77] 'Cranium - conchal crests number'
+		 [78] 'Cranium - vomer thickness of incisura incisiva'
+		 [79] 'Cranium - palate shape'
+		 [80] 'Cranium - palatal emargination'
+		 [81] 'Cranium - basisphenoid pits presence'
+		 [82] 'Cranium - basisphenoid pits shape'
+		 [83] 'Cranium - basisphenoid pits depth'
+		 [84] 'Cranium - basisphenoid process presence'
+		 [85] 'Cranium - ectotympanic and petrosal bone gap size'
+		 [86] 'Cranium - petrosal promontorium coverage by ectotympanic in ventral view'
+		 [87] 'Cranium - basicochlear fissure breadth'
+		 [88] 'Cranium - sphenopalatine foramen inclination'
+		 [89] 'Cranium - foramen ovale position'
+		 [90] 'Cranium - foramen ovale shape'
+		 [91] 'Cranium - paracondylar process size'
+		 [92] 'Cranium - posttympanic process size'
+		 [93] 'Cranium - mandible coronoid process development'
+		 [94] 'Humerus - distal spinous process size'
+		 [95] 'Vertebrae - C7-T1 fusion presence'
+		 [96] 'Pedal digit III - standardized length'
+		 [97] 'Penis - baculum presence'
+		 [98] 'Penis - accessory cavernous tissue development'
+		 [99] 'Penis - urethral cap presence'
+		 [100] 'Penis - presence of extermal spines on glans'
+		 [101] 'Penis - external spines on glans length'
+		 [102] 'Penis - ventromedial crest of glans presence'
+	;
+	STATELABELS
+		1
+		'fine, tip tapers'
+		'spoonlike, tip expanded'
+		,
+		2
+		'widely distributed'
+		'restricted to anterior region close to nostrils'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'shallow'
+		'deep'
+		,
+		13
+		'absent'
+		'present in at least some individuals'
+		,
+		14
+		'round and fleshy'
+		'pointed and hard'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'one'
+		'two'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'distinctly separated'
+		'close, median edges between nostril and eye'
+		'united, median edges in contact'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'triangular'
+		'rounded'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'developed'
+		'reduced'
+		,
+		24
+		'absent'
+		'small (between 0.01-0.07)'
+		'large (between 0.1-0.25)'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'reduced or absent'
+		'large'
+		,
+		27
+		'rounded distal tip, wide low antitragus'
+		'triangular, tip pointed, wide and low'
+		'round with basal constriction'
+		'tip pointed, narrow base, plicae present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'small'
+		'large'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'thin'
+		'thick'
+		,
+		34
+		'short'
+		'long'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'enlarged area present; lobe with groove absent'
+		'lobe with deep anterior groove present'
+		,
+		38
+		'reduced; papillae short at anterior margin of dorsal median lobe'
+		'developed; elongate fringe at anterior margin of dorsal median lobe'
+		,
+		39
+		'scattered'
+		'in a line'
+		,
+		40
+		'> 90 from base of skull'
+		'90 angle to base of skull'
+		,
+		41
+		'convergent'
+		'parallel'
+		'divergent'
+		,
+		42
+		'curved'
+		'flat'
+		,
+		43
+		'present'
+		'absent'
+		,
+		44
+		'prominent'
+		'reduced'
+		,
+		45
+		'three'
+		'two'
+		'one'
+		,
+		46
+		'three; trifid'
+		'two; bifid'
+		'one; monofid'
+		,
+		47
+		'U-shaped'
+		'V-shaped'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'three; trifid'
+		'two; bifid'
+		,
+		50
+		'between the canines'
+		'anterior to the canines'
+		,
+		51
+		'normal length and width'
+		'elongate and stout'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'one'
+		'two'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'displaced lingually'
+		'in line'
+		'displaced bucally'
+		,
+		57
+		'well-developed'
+		'poorly developed'
+		,
+		58
+		'parallel'
+		'perpendicular'
+		'diagonal'
+		,
+		59
+		'well-developed'
+		'reduced, low, or absent'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'high'
+		'reduced'
+		,
+		63
+		'perpendicular'
+		'parallel'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'one-fourth the length of postparacrista'
+		'half the postparacrista'
+		'equal to postparacrista'
+		'longer than postparacrista'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'nyctalodont'
+		'intermediate'
+		'myotodont'
+		,
+		68
+		'deep'
+		'shallow'
+		,
+		69
+		'present'
+		'absent'
+		,
+		70
+		'short'
+		'medium'
+		'long'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'low'
+		'high'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'domed'
+		'flattened'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'one'
+		'two'
+		,
+		78
+		'thickens gradually'
+		'abruptly thickens'
+		,
+		79
+		'slightly concave'
+		'deeply concave'
+		,
+		80
+		'wide'
+		'narrow'
+		'reduced'
+		'in contact'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'oval'
+		'rectangular'
+		'groove-like'
+		,
+		83
+		'shallow'
+		'deep'
+		'very deep'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'narrow'
+		'wide'
+		,
+		86
+		'well-covered'
+		'partially covered'
+		'largely exposed'
+		,
+		87
+		'narrow'
+		'moderate'
+		'wide'
+		,
+		88
+		'ventrally inclined'
+		'laterally inclined'
+		,
+		89
+		'anteriorly positioned'
+		'posteriorly postioned'
+		'laterally positioned'
+		,
+		90
+		'oval '
+		'round'
+		,
+		91
+		'reduced'
+		'developed'
+		'very developed'
+		,
+		92
+		'small'
+		'large'
+		,
+		93
+		'level with condyloid process'
+		'extends beyond condyloid process'
+		,
+		94
+		'reduced'
+		'developed'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'long'
+		'short'
+		,
+		97
+		'present'
+		'absent'
+		,
+		98
+		'developed'
+		'reduced'
+		'absent'
+		,
+		99
+		'present'
+		'absent'
+		,
+		100
+		'present'
+		'absent'
+		,
+		101
+		'short'
+		'long'
+		,
+		102
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Antrozous pallidus'		                   0--00--0000-0---0000000200-00-000000100000001000000000---10000000001010-000000000--00000000010000??000
+	'Lasiurus cinereus'		                    0--00--0000-0---0000000200-00-00000010000000000000000100000000000000000-0000000010000000000001000?0000
+	'Chaerephon aloysiisabaudiae'		          10100--01011100-1021110111000-01111110111001110011001101020001012101010-001000031010112000000110??????
+	'Chaerephon ansorgei'		                  10100--01011100-1021110111000-011111???110011100110011010200000121010110001000001000112000000110??????
+	'Chaerephon bemmeleni'		                 10100--01011100-1021100111000-011111???11001110011001101020001012101010-001000011000112000000110??????
+	'Chaerephon bivittatus'		                10100--01011100-1021110111000-011111???11001110011001101020001012101010-001000021000112000000110??????
+	'Chaerephon chapini'		                   10100--01011100-1021100111010-011111???11001110011001101020001012101010-000000021000112000000110??????
+	'Chaerephon jobensis'		                  10100--01011100-1021110111000-011111???11001110011001101020001012101010-101000021000112000000110??????
+	'Chaerephon major'		                     10100--01011100-1021100111010-011111???11001110011001101020000012101010-000000031000112000000110??????
+	'Chaerephon nigeriae'		                  10100--01011100-1021110111010-01111110111001110011001101020001011101010-000000021000112000000110??????
+	'Chaerephon plicatus'		                  10100--01011100-1021110111010-01111110111001110011001101020001002101010-101000021000112000000110??????
+	'Chaerephon pumilus'		                   10100--01011100-1021110111010-01111110111001110011001101020001012101010-0000000010001120000001100?????
+	'Chaerephon russatus'		                  10100--01011100-1021110111000-011111???11001110011001101020001013101010-000000031020112000000110??????
+	'Cheiromeles'		                          10101000000-0---00000011112011011010100001012201-00000---21100000021100-000001030--1112000210110??????
+	'Cynomops abrasus'		                     10100--0000-0---00000011112010011111110020011100110000---20000000001100-010101030--01110001101110?????
+	'Cynomops planirostris'		                10100--0000-0---00000011112010011111110020011100110000---20000000001100-010101030--0111000110111001001
+	'Eumops auripendulus'		                  0--10--1100-0---102011011100100111111000210111001100010212000001110101100010000310100120000001110101-0
+	'Eumops bonariensis'		                   0--10--110100---1020110111001001111110002101110011000102120000013101010-0010000310201120010001110101-0
+	'Eumops glaucinus'		                     0--10--1100-0---102010011100100111111000210111001100010212000001110101100010000310101120000001110101-0
+	'Eumops hansae'		                        0--10--110100---0021110111001001111110002101110010000101120000013101010-001000031120112001000111??????
+	'Eumops perotis'		                       0--10--1100-0---102010011100100111111000210111001100010112000001110102100110000311201120000001111101-0
+	'Molossops aequatorianus'		              10000--0010-100-10000011110010011111???100011100?10000---20000010100000-010101031000111000110110??????
+	'Molossops neglectus'		                  10100--0010-100-10000011113010011111110021012100-10000---20000002110000-010101030--0111000110110??????
+	'Molossops temminckii'		                 10100--0010-100-10000011113010011111110021012100-10000---20000002110000-010101030--0011000110110001001
+	'Molossus molossus'		                    10100--0000-0---01200001112010011111100000002100-10000---211000000011011101000031001000000010111011001
+	'Molossus rufus'		                       10100--0000-0---01200001112010011111100000002100-10000---211000000010011101000031001000000010111011001
+	'Mops brachypterus'		                    10100--01011100-1021100111000-0111111011000111001100110102001--011010110101010001000112000000110??????
+	'Mops condylurus'		                      10100--01011100-1021110111010-011111101110011100110011021200010111010111101010021000112000000110??????
+	'Mops congicus'		                        10100--0101011-01021100111000-0111111011100111001100110112001--011010111101010001010112000000110??????
+	'Mops demonstrator'		                    10100--01011100-1021100111000-011111???1100111001100110212001--001010110101010031010112000000110??????
+	'Mops leonis'		                          10100--01011100-1021100111000-011111???1000111001100110202001--011010110101010011000112000000110??????
+	'Mops midas'		                           10100--01011100-1021100111010-0111111011100111001100110112001--011010110001010021010112000000110??????
+	'Mops mops'		                            10100--01011100-1021110111000-01111110110001110011001(1,0)0102001--011010110101010031000112000000110??????
+	'Mops nanulus'		                         10100--0101011-01021000111000-0111111010000111001110110102001--001010110001010011000112000000110??????
+	'Mops niveiventer'		                     10100--01011100-1021100111000-011111???1100111001100110212001--011010110101010021010112000000110??????
+	'Mops petersoni'		                       10100--0101011-01021100111000-011111???1101111001100110102001--011010110001010011000112000000110??????
+	'Mops spurrelli'		                       10100--0101110001021100111000-011111101000012100-110110102001--001010110001010001000112000000110??????
+	'Mops thersites'		                       10100--0101011-01021100111000-0111111011000111001110110102001--011010110001010001000112000000110??????
+	'Mormopterus acetabulosus'		             11101010010-100-1000001101000-011111???101110100110010---20000014100000-010010001000111000101110??????
+	'Mormopterus beccarii'		                 11101010010-100-1000001101000-01111111110100111011010101020000014100000-010110001000112000111110000010
+	'Mormopterus jugularis'		                11101010010-100-1000001101000-011111???101100100110010---20000014100000-01001000100011100010111001??0?
+	'Mormopterus kalinowskii'		              11001010010-100-1000001101000-011111???10111110011000101020000014120000-01001000100011100010011011????
+	'Mormopterus loriae'		                   11101010010-100-1000001101000-011111???10101111011010102?20000014100000-0100100010001120001111100?????
+	'Mormopterus phrudus'		                  11001010010-100-1000001101000-011111???10111110011000(1,0)01020000014120000-010010011000111000100110??????
+	'Mormopterus planiceps'		                11101010010-100-1000001101000-011111???10101111011010101020000014100000-010010001000012000111110020010
+	'Myopterus'		                            11100--000100---0000001111000-011111100010012101-10000---11100000000110-010000031020112001000110??????
+	'Neoplatymops'		                         11101101010-100-1000001111001011111111102001110011000101020000013110000-011101031000111000211110??????
+	'Nyctinomops aurispinosis'		             0--00--0101111-11020110111000-01111110111001110011000111010000113100020-000010011110112101000111010000
+	'Nyctinomops femorosaccus'		             0--00--0101111-11020110111000-01111110111001110011000111010000113100020-000010011110112101000111010000
+	'Nyctinomops laticaudatus'		             0--00--0101111-11020110111000-01111110111001110011000111010000113100020-000010011100112101000111010000
+	'Nyctinomops macrotis'		                 0--00--0101111-11020110111000-01111110111001110011000111010000113100020-000010011120112101000111010000
+	'Otomops'		                              0--00--0101111-010201100-0-010011111100110011100110001010100000030100210000000011120112111000110??????
+	'Platymops'		                            0--01100010-0---1000100101001011111111010001110011010101001000004120000-011110010--0111000211110??????
+	'Promops centralis'		                    10100--0000-0---0120000111201001111110002000110011000(1,0)021011000000010011100000131001000000000111111000
+	'Promops nasutus'		                      10100--0000-0---0120000111201001111110002000110011000(1,0)021011000000010011100000131001000000000111111000
+	'Sauromys'		                             0--01100010-0---1010101101001001111111010001110011000101020000014120000-011010000--0012100211110??????
+	'Tadarida aegyptiaca'		                  0--011101011100-1010110101001001111110110111110011000101020000013100010-0000100010101121200001100100?0
+	'Tadarida australis'		                   10000--01011001-002011011110110111111001100111001101010002000100310001100000100012101120210011110?????
+	'Tadarida brasiliensis'		                0---11101011100-1010110101001001111110110111010011000101020000013100010-0000100010101121200001100100?0
+	'Tadarida fulminans'		                   0--011101011100-1020110101001001111110101111110011000101020001013101010-000010001010112100000110??????
+	'Tadarida kuborensis'		                  10000--01011001-002011011110110111111001100111001101010002000101310001100000100012101120210001110?????
+	'Tadarida teniotis'		                    0--011101011100-1020110101001001111110110111010011000111020000003100020-000010001010112120001110??????
+	'Tadarida ventralis'		                   0--011101011100-1020111101001001111110110111110111011101020001013100010-000010001010112120000111??????
+	'Tomopeas ravus'		                       0--00--0000-0---0010001101000-000000100100011101000000---20000013101010-000000000--0111000000110??????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=3 TEXT='plicatus species group';
+	TEXT TAXON=4 TEXT='bivittatus species group';
+	TEXT TAXON=5 TEXT='bivittatus species group';
+	TEXT TAXON=6 TEXT='bivittatus species group';
+	TEXT TAXON=7 TEXT='plicatus species group';
+	TEXT TAXON=8 TEXT='plicatus species group';
+	TEXT TAXON=9 TEXT='plicatus species group';
+	TEXT TAXON=10 TEXT='plicatus species group';
+	TEXT TAXON=11 TEXT='plicatus species group';
+	TEXT TAXON=12 TEXT='plicatus species group.  ';
+	TEXT TAXON=13 TEXT='plicatus species group';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Curved and spoonlike hairs are present on the lips and cheeks in Chaerephon, Cheiromeles, Cynomops, M. (Molossops), M. (Cabreramops), Molossus, Mops, Mormopterus, Myopterus, Neoplatymops, Promops, and Australian Tadarida. In Myopterus they are the longest among molossids. The hairs may be scattered over the whole side of the face (T. australis and T. kuborensis) or be restricted to the anterior region of the muzzle, as shown by Mormopterus, Myopterus, and Neoplatymops. In Tomopeas spoonlike hairs are absent.  Antrozous and Lasiurus, the outgroup species, also lack spoonlike hairs. ';
+	TEXT CHARACTER=2 TEXT='Most molossines have spoonlike hairs distributed along the lips (see character 1). However, in Mormopterus, Myopterus, and Neoplatymops spoonlike hairs are restricted to the anterior region surrounding the nostrils on the lateral and dorsal portions. Outgroup species lack spoonlike hairs on the lips and cheeks, and we scored these species and all taxa lacking spoonlike hairs on the lips and cheeks (state "-''0"-- for character 1) as inapplicable ("-''-"--) for this character. ';
+	TEXT CHARACTER=3 TEXT='Long spoonlike hairs are present on the upper lip in Chaerephon, Cheiromeles, Cynomops, M. (Molossops), Molossus, Mops, Indo-Australian species of Mormopterus, Myopterus, Neoplatymops, and Promops. Spoonlike hairs are present and are short on the upper lip in Cheiromeles, with the length of the hairs in this species apparently autapomorphic. This pattern of distribution results in a distinct hairy islet under the nostrils on the upper lip (Figs. 2 and 3). Outgroup species lack spoonlike hairs on the lips and cheeks and we scored these species and all taxa lacking spoonlike hairs on the lips and cheeks (state "-''0"-- for character 1) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=4 TEXT='In all species of the genus Eumops, spoonlike hairs are present between the nostrils (Fig. 3).  In all other species, spoonlike hairs are lacking in the internarial region. Outgroup species also lack spoonlike hairs in this region.';
+	TEXT CHARACTER=5 TEXT='In addition to the spoonlike hairs present in some molossid species (see character 1), thick, long, generally black, hyperkeratinized hairs with pointed tips, or thornlike hairs (Werner et al. 1950), are present in Cheiromeles, Mormopterus, Neoplatymops, Platymops Sauromys, and most species of Tadarida (except T. australis and T. kuborensis; see Fig. 2).  Thornlike hairs are absent in Tomopeas, the remaining molossines, and the outgroup taxa. Werner et al. (1950) found that thornlike hairs were associated with the facial sebaceous glands in Tadarida cynocephala (= T. brasiliensis). ';
+	TEXT CHARACTER=6 TEXT='Thornlike hairs, while present on the face in Cheiromeles and species of Mormopterus, are not present on the lips and cheeks. In contrast, in Neoplatymops, Platymops, Sauromys, and most species of Tadarida, thornlike hairs are distributed over the lips and cheeks (Fig. 2).  Hairs in Platymops, for example, are thickly and densely distributed over the lips and cheeks, while hairs in other species (e.g., species of Tadarida) are more scattered. Outgroup species lack thornlike hairs and we scored these species and all taxa lacking thornlike hairs (state "-''0"-- for character 4) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=7 TEXT='A distinct patch of thornlike hairs occurs on the dorsum of the nose in Tadarida brasiliensis, T. ventralis, T. fulminans, T. aegyptiaca and T. teniotis, and all species of Mormopterus. These hairs slant medially along the rostrum (Figs. 2 and 3).  This patch of hairs is absent in Cheiromeles, Neoplatymops, Platymops, and Sauromys. Outgroup species lack thornlike hairs and we scored these species and all taxa lacking thornlike hairs (state "-''0"-- for character 4) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=8 TEXT='The nostrils in many molossid species appear slightly tubular. Immediately at the narial entrance, the skin in all species is smooth and hairless, and in most molossids, the slightly protruding nares are also hairless.  In contrast, the skin on the protruding nares is covered by small hairs in Eumops and Neoplatymops (Fig. 3C). The nares are also hairless in outgroup taxa.';
+	TEXT CHARACTER=9 TEXT='A hairy brushlike "mustache,"-- which is mainly located under the nostrils but may extend across the entire upper lip, is present in Chaerephon, Eumops, Mops, Nyctinomops, Otomops, and Tadarida (Fig. 3). The hairs comprising the mustache are neither spoonlike nor thornlike.  Instead, these hairs are long and delicate.  The hairs are positioned perpendicularly to the mouth, and due to the length of the hairs, the lower lip is covered when the mouth is closed.  The function of these hairs is unknown, but they may be sensory. Tomopeas, the remaining molossines, and the outgroup taxa all lack a mustache on the upper lip.';
+	TEXT CHARACTER=10 TEXT='Vibrissal papillae are present lateral to the nose in M. (Molossops), M. (Cabreramops), Mormopterus, Neoplatymops, Platymops, and Sauromys. These papillae may be either regularly or irregularly arranged on the face, and a modified spoonlike hair usually rises from their center (Fig. 1). In cases where the papillae are regularly distributed, such as M. (Cabreramops) and Mormopterus  kalinowskii, they resemble the facial wrinkles present in some taxa (see character 11, below). The presence of epidermal irregularities on the face and lips, either vibrissal papillae (Fig. 1) or wrinkles (Fig. 2), appears to be an attribute of most molossid taxa.  ';
+	TEXT CHARACTER=11 TEXT='Facial wrinkles are epidermal folds that are distributed along the upper lip. These folds are present in Chaerephon, Eumops bonariensis, E. hansae, Mops, Myopterus, Nyctinomops, Otomops, and Tadarida.  Wrinkles along the upper lip are absent in all other molossid species as well as Antrozous and Lasiurus.';
+	TEXT CHARACTER=12 TEXT='Facial wrinkles vary in development among those molossids in which they are present.  In Eumops bonariensis, E. hansae, Mops congicus, M. nanulus, M. petersoni, M. thersites, and Myopterus shallow wrinkles are distributed along the upper lip. These wrinkles are often inconspicuous and may give the lip a furrowed rather than deeply wrinkled appearance.  In contrast, in Chaerephon, the remaining species of Mops, Nyctinomops, Otomops, and Tadarida conspicuous, deep, and dorsoventrally elongate wrinkles are present and appear to grow deeper and more pronounced approaching the sagittal plane (Fig. 2).  Outgroup species lack facial wrinkles and we scored these species and all taxa lacking facial wrinkles (state "-''0"-- for character 11) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=13 TEXT='Molossid nostrils frequently are conspicuously separated by papillae (Fig. 3D). Papillae are present in the internarial region in Chaerephon, Molossops, Mops, Mormopterus, Neoplatymops, Nyctinomops, Otomops, and most species of Tadarida (except T. kuboriensis, and T. australis; see below).  Mops presented the greatest inter- and intraspecific variation in the arrangement of papillae; most species presented a short, wide row of small fleshy papillae on the upper internarial region. However, in both M. thersites and M. congicus some specimens we examined have a double row of fleshy papillae, while other individuals lack them entirely.  In Tadarida australis and T. kuborensis (Fig. 2), a fleshy keel is present in the internarial region with papillae at the inferior margin of the keel. We follow Wetterer et al. (2000) in hypothesizing that this keel is homologous to a line of fused internarial papillae, and score this variation below. In contrast, all other species of molossid we examined have a smooth internarial region and lack papillae or a keel between the nostrils. The internarial region is smooth in Antrozous and Lasiurus.';
+	TEXT CHARACTER=14 TEXT='Among the molossids with internarial papillae, three distinct morphologies exist. In most species with internarial papillae, the individual papillae are rounded and fleshy. These types of papillae are present in Chaerephon, Molossops, most species of Mops, Mormopterus, Neoplatymops, and Tadarida. In two species of Tadarida, T. kuboriensis, and T. australis, it appears as if these papillae have become fused into a low keel-like structure.  Individual fleshy papillae appear at the inferior margin of the keel and we scored these taxa for the presence of fleshy internarial papillae.  Finally, pointed keratinized papillae are present in the internarial region in Mops congicus, M. nanulus, M. petersoni, M. thersites, Nyctinomops, and Otomops,  Outgroup species lack internarial papillae and we scored these species and all taxa lacking internarial papillae (state "-''0"-- for character 13) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=15 TEXT='In T. kuboriensis, and T. australis, the fleshy papillae in the internarial region have become fused into a low keellike structure, with individual fleshy papillae appearing at the inferior margin of the keel.  All other species have individual papillae in the internarial region.  Outgroup species lack internarial papillae and we scored these species and all taxa lacking pointed internarial papillae or lacking fleshy papillae (state "-''0"-- for character 13; state "-''1"-- for character 14) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=16 TEXT='Among the species with hard, pointed internarial papillae, Mops congicus, M. nanulus, M. petersoni, M. thersites, and Otomops have a single column between the nostrils (Fig. 3).  In contrast, two columns of pointed and hard papillae are present in Nyctinomops.  Outgroup species lack pointed, hard papillae and we scored these species and all taxa lacking pointed hard papillae (state "-''0"-- for character 15) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=17 TEXT='The superior edges of the nostrils in most species of molossids are smooth (Fig. 3). However, in many molossids, such as Chaerephon, most species of Eumops, Molossops, Mops, Mormopterus, Neoplatymops, Nyctinomops Otomops, Platymops, Sauromys, and some species of Tadarida, the upper edge of nostrils is surrounded by a single row of dermal papillae. Such papillae may be hard, pointed, and dark with the apical third whitish, or rounded and fleshy (see character 18 below). Dermal papillae are absent in Cheiromeles, Cynomops, Eumops hansae, Molossus, Myopterus, Promops, Tadarida kuboriensis, T. australis, and Tomopeas.  Dermal papillae are absent in the outgroup taxa.';
+	TEXT CHARACTER=18 TEXT='A low fleshy keel, which extends in the midline of the rostrum from the nostrils to the point where the pinna join in the midline of the forehead (Fig. 1), is present in Molossus and Promops.  There is no keel on the rostrum in any other molossid or in the outgroup taxa.';
+	TEXT CHARACTER=19 TEXT='The degree of contact between the ears at the forehead is variable in molossids. The pinnae are widely separated from each other (see Fig. 1A) in Cheiromeles, Cynomops, Molossops, Mormopterus, Myopterus, Neoplatymops, and Platymops.  In taxa with widely separated pinnae, the medial border of the pinna inserts onto the face superior to or superolateral to the eye. The wide gap between the pinnae allows observation of the rostrum when the specimen is observed dorsally. In other molossids, the medial border of the pinna lies between the eye and the nostrils.  Pinnae in these taxa may lie very close to each other, and often the medial edges appear to have a V-shaped configuration at the mid-point of the forehead. Sauromys, Tadarida aegyptiaca, T. brasiliensis, and Tomopeas all have median edges of the pinna that lie between the eye and the nostrils.  In the remaining molossid taxa, Chaerephon, Eumops, Molossus, Mops, Nyctinomops, Otomops, Promops, and the remaining species of Tadarida, the pinnae touch at the mid-point at the forehead. The contact may be restricted to a point on the dorsum and the median edges form a V shape, or the contact may be complete and a band may be present (see character 20 below).  In the outgroup taxa, Antrozous and Lasiurus, the ears are distinctly separated. ';
+	TEXT CHARACTER=20 TEXT='In Chaerephon, Eumops hansae, and Mops the medial margins of the pinnae are united by a high and prominent band. All other molossids and outgroup species do not have a band joining the medial edges of the pinnae.';
+	TEXT CHARACTER=21 TEXT='The pinna has a triangular-like shape in many molossids including Cheiromeles, Cynomops, Molossops, Molossus, Mops nanulus, Mormopterus, Myopterus, Neoplatymops, Promops, and Tomopeas. In contrast, the pinna is rounded in Charephon, Eumops, most species of Mops, Nyctinomops, Otomops Platymops, Sauromys, and Tadarida. Antrozous and Lasiurus both have triangular shaped pinnae.';
+	TEXT CHARACTER=22 TEXT='In many molossids, the margin of the pinna is smooth. However, small, pointed spinelike papillae are arranged along the distal pinna in Chaerephon (except C. bemmelini, C. chapini, and C. major), E. auripendulus, E. bonariensis, Eumops hansae, Mops condylurus, M. mops, Nyctinomops, Otomops, and Tadarida.  The number of spinelike papillae tends to be low (from two to three, with four occurring rarely) in Chaerephon, E. auripendulus, Eumops hansae, and Mops mops.  In Mops condylurus, Nyctinomops, Otomops, and Tadarida there may be up to five spinelike papillae, and Eumops bonariensis may have more than seven spines arranged in a line along the distal margin of the pinna. Only one species exhibits any variability in form of the papillae on the distal pinna. In Eumops hansae most specimens we examined present both spinelike and cushionlike warts (Fig. 2), but, as this is an autapomorphy and not phylogenetically informative, we note this condition but have not scored it as a separate character.  In Antrozous and Lasiurus, the upper rim of the ear is smooth and spinelike papillae are absent.';
+	TEXT CHARACTER=23 TEXT='The ears of most molossid species have a prominent fold inside the pinna (Figs. 1 and 2). This fold extends from the tip of the pinna to the base of the ears close to tragus, sometimes ending at the anti-tragus (e.g., Eumops, Nyctinomops, and Tadarida). The fold is lacking, or very reduced in Cheiromeles, Cynomops, Molossops, Mormopterus Myopterus Neoplatymops, Sauromys, Tadarida ventralis, and Tomopeas. In Antrozous and Lasiurus, a prominent pinnal fold is present. ';
+	TEXT CHARACTER=24 TEXT='The tragus is absent in Otomops. In molossid bats, the tragus is smaller, in relation to body length, than in other members of Vespertilionoidea that we included in our study. Table II shows the ratio between total length of the tragus (TL), and the total length of the body, excluding the tail (BL), and the pinnae (PL). The ratio TL/BL is very low in molossids (0.01-0.07) while in out-group taxa this ratio ranges from 0.12 to 0.22. Tomopeas presented a typical molossid tragus length (0.05-0.07). In addition to the small tragus, molossids present a simpler structure, lacking the dermal emargination and the pilosity observed in other taxa (see Fig. 4 for diverse shapes of the tragus in studied bats). In Antrozous and Lasiurus, the tragus is well-developed with a TL/BL ratio between 0.12 and 0.22.';
+	TEXT CHARACTER=25 TEXT='In contrast, the tip of the tragus bears hairs in Mormopterus, Platymops, Sauromys, most species of Tadarida, except T. australis and T. kuborensis (Fig. 4). The tip of the tragus also bears hair in Antrozous and Lasiurus. We scored Otomops as inapplicable for this character as this taxon lacks a tragus.';
+	TEXT CHARACTER=26 TEXT='The anti-tragus, a membranous structure anteriorly placed on the tragus, is reduced in most yangochiropterans.  However, in nearly all molossids it is prominent and well-developed and can take many different shapes (see characters below; Figs. 1 and 2). The sole exception in our taxon sample is Otomops in which the antitragus is absent. In Antrozous and Lasiurus the antitragus is also reduced in size.';
+	TEXT CHARACTER=27 TEXT='In most molossids, the antitragus has a rounded distal tip and appears mediolaterally wide while being superoinferiorly short. In contrast, in Tadarida australis and T. kuborensis the antitragus is tall and triangular in shape, being wide at the base and tapering into the distal tip. In Cheiromeles, Cynomops, Molossus, and Promops, the entire antitragus appears round due to the presence of a basal constriction, which is absent in other taxa. Species of Molossops we examined have a tall antitragus, pointed tip and plicae posteriorly. Otomops and the outgroup species have a very reduced or absent antritagus and we scored these species and all taxa lacking the antritragus (state "-''0"-- for characters 26) as inapplicable ("-''-"--) for this character.';
+	TEXT CHARACTER=28 TEXT='An interaural crest occurs posterior to the membrane joining the ears in males of Chaerephon chapini, C. major, C. nigeriae, C. plicatus, C. pumilus, Mops condylurus, and M. midas. The hairs in the tuft are bicolor, reddish brown in the mid-basal stripe and a lighter brown on the mid-apical portion of the hair in C. chapini, but are completely reddish in C. major or dark brown in M. condylurus. A tuft is absent from the foreheads of males of all other molossid species. Both Antrozous and Lasiurus have hairs that are all the same length on the forehead. Braestrup (1933) stated that the tuft of hairs associated the gland on the forehead is present and developed only in adult males during the mating period. However, we examined specimens of C. chapini taken throughout the year and all males, regardless of the time of year, showed a developed gland, while a large sample of C. pumilus never had a gland, contra the reports in the literature.';
+	TEXT CHARACTER=29 TEXT='The gular or hedonic gland is present and well-developed in the males of Cheiromeles, Cynomops, Eumops, Molossus, Molossops, Neoplatymops, Otomops, Platymops, Promops, Sauromys, and  Tadarida. It is less well-developed in the females of these species or may be entirely absent.  The gland is sac-like and is restricted to suprasternal region in most species (but see character 30 below).  This gland is absent in Tomopeas and the outgroup taxa, Antrozous and Lasiurus. ';
+	TEXT CHARACTER=30 TEXT='The gular gland is restricted to the midline of the neck, the suprasternal region, in nearly all molossines in which it is present. The exceptions are Cheiromeles, Tadarida australis, and T. kuboriensis. In these taxa, the gular gland is very large and extends nearly to the lateral margins of the neck. In Cheiromeles, a long tuft of hairs is present at the lateral margins of the gular gland. Gular glands are absent in Antrozous and Lasiurus and these species, and all others which lack a gular gland (state "-''0"-- of character 29 above), have been scored "-''-"-- for this character.';
+	TEXT CHARACTER=31 TEXT='In Neoplatymops and Platymops both pointed and fleshy types of papillae are scattered on the dorsal surface of the forearm. In Neoplatymops these papillae are restricted to the forearm, while in Platymops the papillae extend to the carpal region. Papillae are absent from the forearm in all other molossid species and in outgroup Antrozous and Lasiurus. Willig (1985) suggested that the papillae present on the forearms of these crevice dwelling bats may help the animal remain in the crevice. ';
+	TEXT CHARACTER=32 TEXT='Molossines are characterized by a remarkably elastic uropatagium. In all molossines, the tail freely extends from distal edge of the uropatagium, exposing roughly a third to half of the total length of the tail (Fig. 5). However, due to the elasticity of the membrane, the uropatagium can cover the full length of the tail. This situation is in contrast to Tomopeas, Antrozous and Lasiurus, in which the tail is completely enclosed in the uropatagium, which cannot be retracted over it to produce the free tail condition seen in molossids.';
+	TEXT CHARACTER=33 TEXT='A thickened, elastic uropatagium is present in all molossines. In these taxa, the thickness of the uropatagium obscures the muscular fascicles that run through the membrane. In contrast, in Tomopeas, and the outgroup taxa Antrozous and Lasiurus, the uropatagium is thin with visible fascicles of transverse layers of muscle.  ';
+	TEXT CHARACTER=34 TEXT='Long hairs are present on the median-dorsal region of the pedal digits in nearly all Molossinae. These hairs extend beyond the tip of the pedal digits (Fig. 5C). In Cheiromeles and Tomopeas (Fig. 5B), hairs are present on the dorsal surface of the digits, but are short and do not extend beyond the tips of the digits.  In Antrozous (Fig. 5A) and Lasiurus, short hairs are present on the dorsal surface of the pedal digits.';
+	TEXT CHARACTER=35 TEXT='All molossines have a lateral brush of long hairs hairs on pedal digit I (Fig. 5). In contrast, only shorter hairs are present on pedal digit I in Tomopeas, and the outgroup taxa Antrozous, and Lasiurus.  ';
+	TEXT CHARACTER=36 TEXT='The feet of most molossines have a medial brush of short spoonlike hairs (Fig. 5), which often gives this digit a broader appearance than other pedal digits.  In Cheiromeles, the brush is absent. The medial brush is also absent in Tomopeas, the outgroup taxa Antrozous, and Lasiurus. ';
+	TEXT CHARACTER=37 TEXT='Tongues were not available for all species included in our study, but in all molossid taxa we examined, a prominent lobe is present on the dorsal surface of the tongue.  This lobe, separated from the more anterior portion of the tongue by a deep groove at the base, divides the tongue into anterior and posterior regions (Fig. 6).  In Antrozous and Lasiurus, an enlarged area is present on the median dorsal surface of the tongue, but it lacks the basal groove separating the tongue into anterior and posterior regions (Fig. 6). We were unable to examine tongues of some species of Chaerephon, Mops, and Mormopterus; these species have been scored "NPA" for this character as well as those below.';
+	TEXT CHARACTER=38 TEXT='Cynomops, Molossops, Mormopterus beccarii, Neoplatymops, Platymops, and Sauromys all have extremely long postero-median mechanical papillae at the anterior margin of the median dorsal lobe.  In dorsal view the papillae appear to form a shaggy fringe along the anterior margin of the lobe (Fig. 6).  In contrast, in all other molossid taxa, these papillae are markedly shorter and do not form a fringe at the anterior margin of the median dorsal lobe. Although Antrozous and Lasiurus lack the strongly demarcated median dorsal lobe seen in molossids, they do not lack median posterior mechanical papillae in this region of the tongue.  In these taxa, the median posterior mechanical papillae are short in length and do not form a fringe. ';
+	TEXT CHARACTER=39 TEXT='In Chaerephon, Mops, Mormopterus, Neoplatymops, Nyctinomops, and most species of Tadarida (except T. kuborensis and T. australis), the gustative fungiform papillae are arranged in a line where the dorsal and lateral surfaces of the tongue intersect (Fig. 6).  In the remaining taxa, these papillae are scattered on the lateral surface of the tongue and are generally more numerous.  The fungiform papillae are scattered on the lateral surfaces of the tongue in Antrozous and Lasiurus.';
+	TEXT CHARACTER=40 TEXT='In many molossids, I1 projects beyond the canines (e.g., Cheiromeles, Cynomops, Eumops, most species of Molossops, , Molossus, Mops nanulus, M. spurelli, Myopterus, Neoplatymops, Promops and Tadarida fulminans). When viewed laterally and relative to an imaginary line drawn along the base of the skull, I1 in these taxa has a greater than 90 degree angle relative to the base of the skull. In contrast, in most molossids, I1 is perpendicular to the base of the skull (about 90 degrees), the condition seen in Chaerephon, Molossops aequatorianus, most species of Mops, Mormopterus, Nyctinomops, Otomops, Platymops, Sauromys,most species of Tadarida,  and Tomopeas,.  In Antrozous and Lasiurus, the incisors project beyond the canines and the angle of I1 relative to the base of the skull is greater than 90 degrees.';
+	TEXT CHARACTER=41 TEXT='In many species of molossids, I1 slants toward the midline. These convergent incisors are present in Cheiromeles, Molossops aequatorianus, Molossus,  some species of Mops (M. brachypterus, M. leonis, M. mops, M. nanulus, M. spurrelli, and M. thersites), Mormopterus, Platymops, Sauromys, Tadarida (except T. australis, T. fulminans and T. kuboriensis), and Tomopeas (Fig. 7). Although most of these taxa have no premaxillary branch on the palate, in several of them (e.g., Cheiromeles; see Fig 7B), the palate is complete and the incisors converge and touch each other. In other molossid species, the incisors do not slant towards the midline, and the teeth are roughly parallel (Fig. 7I). Taxa with parallel incisors are Chaerephon, Mops condylurus, M. congicus, M. demonstrator, M. midas, M. niveiventer, M. petersoni, Myopterus, Nyctinomops, Otomops, T. australis, fulminans and T. kuboriensis. In Cynomops, Eumops, most species of Molossops, Neoplatymops, and Promops the proximal part of the tooth may curve towards the midline (and in some cases contact the other incisor); however, the distal portion of I1 in these taxa is divergent; the tip of the tooth curves laterally away from the midline (Fig. 7E). Antrozous and Lasiurus both have convergent I1s.';
+	TEXT CHARACTER=42 TEXT='The buccal face of I1 in most molossid species has a slightly curved appearance. However, in Cheiromeles, Eumops, Molossops (except M. aequatorianus), Mormopterus, and most species of Tadarida (except T. australis and T. kuboriensis) the buccal face of the tooth lacks the slight curvature and it appears flat. In Antrozous and Lasiurus the buccal surface of the tooth is curved.';
+	TEXT CHARACTER=43 TEXT='While most species of molossids bear a distolingual cingulum, Mops petersoni, Mormopterus (except M. beccari, M. loriae, and M. planiceps), and Tadarida (except T. australis and T. kuboriensis) lack a distolingual cingulum on I1. In both Antrozous and Lasiurus the distolingual cingulum is present.';
+	TEXT CHARACTER=44 TEXT='The preparacrista, a crest that runs on the buccal surface of I1 from tip to base, is low and reduced in most molossid species we examined.  This results in a more peglike tooth.  In contrast, Molossus, Mormopterus beccarii, M. jugularis and Promops all possess a high and well-developed preparacrista.  In these taxa, the distal portion of the tooth is expanded when viewed occlusally. In Antrozous and Lasiurus, the preparacrista is high and well-developed.';
+	TEXT CHARACTER=45 TEXT='Three lower incisors are present in each hemimandible in Molossops aequatorianus, Mormopterus acetabulosus, M. jugularis, Tadarida brasiliensis, and T. teniotis (Fig. 8).  In contrast, two lower incisors are present in each hemimandibule in Molossops aequatorianus, Tomopeas and most molossines. A single lower incisor is present in Cheiromeles, M. (Molossops), Molossus, Mops spurrelli, and Myopterus (Fig. 8).  Among outgroups, Antrozous bears two incisors in each hemimandible, while Lasiurus has three. Freeman (1981) recorded polymorphism on the number of lower incisors in Tadarida brasiliensis and Mops spurrelli but we could not confirm this variation in the specimens we examined.';
+	TEXT CHARACTER=46 TEXT='All molossids have a bifid i1, save Cheiromeles in which i1 has no lobes (monofid condition). The monofid condition in Cheiromeles may be derived from bifid teeth because some specimens present a weakly developed furrow dividing the occlusal margin. In molossines with bifid incisors, the mesial lobe in the inner incisors is wider and higher than the distal lobe. In Antrozous and Lasiurus, i1 is trifid.';
+	TEXT CHARACTER=47 TEXT='In most molossid species, the lobes on the teeth have edges that run parallel to each other resulting in a U-shaped occlusal margin (e.g., Fig 8C). In contrast, the Indo-Australian species of Mormopterus share a distinct condition of incisors, in which the mesial lobe is wide and diverges from the distal one (Fig. 8D), resulting in a deep V-shaped furrow on the occlusal margin of the tooth. In Antrozous and Lasiurus, the furrows on the occlusal margin of the tooth have U-shaped edges.';
+	TEXT CHARACTER=48 TEXT='A well-developed lingual cingulum is present on the lower incisors in Tomopeas and in the molossines Cheiromeles, Myopterus, and Tadarida ventralis. In contrast, in most molossines, the lingual surface of the tooth is smooth and no lingual cingulum is present. In Antrozous and Lasiurus, there is no lingual cingulum on the lower incisors.';
+	TEXT CHARACTER=49 TEXT='In Tomopeas i2 is trifid.  Most other molossids have a bifid i2. In Antrozous and Lasiurus, i2 is trifid. We scored all taxa lacking i2 (state "-''0"-- of character 45 above) "-''-"-- for this character.';
+	TEXT CHARACTER=50 TEXT='In most molossines, the lower incisors are positioned well anterior to the canines.  In these species, the lingual surfaces of the canines are close together or touching (e.g., Fig 8C).  In contrast, in Cheiromeles Eumops hansae, and Tomopeas the incisors are positioned between the canines, which consequently are widely separated from each other. In Antrozous and Lasiurus, the lower incisors are arranged between the canines and the lingual surfaces of the canines are widely separated from each other (Fig. 8).';
+	TEXT CHARACTER=51 TEXT='In most molossid species, the upper canines are comparatively narrow and short.  In frontal view, the canines in these species do not reach the lateral margin of the rostrum, and in lateral view they extend to the middle of the mandible. In contrast, the canines of Mops nanulus, M. spurrelli, and M. thersites are robust and are very wide and long. They reach the lateral margin of the rostrum in frontal view and the tip of the canine reaches the ventral margin of the mandible in lateral view (Stanley, 2008 refers to these types of canines as "stout" in M. bakarii). In Antrozous and Lasiurus, the canines are of regular length and width.';
+	TEXT CHARACTER=52 TEXT='In most molossids, a well-developed cingulum extends around the entire base of the upper canine.  In most species the cingulum lacks cusps; however, an accessory cusp, located on the distolingual region on cingulum, is present in Mormopterus beccari, M. loriae, M. planiceps, Platymops, Tadarida australis, T. kuborensis, and T. ventralis. In Antrozous and Lasiurus, the cingulum on the upper canine lacks an accessory cusp.';
+	TEXT CHARACTER=53 TEXT='In most molossids, the lingual surface of the tooth is smooth or slightly wavy and is uninterrupted by grooves. However, in Chaerephon, Mops, Mormopterus acetabulosus, M. jugularis, and Tadarida ventralis, the lingual side of the tooth bears two grooves separated by a distinct ridge. The grooves extend from the base of the tooth to the sub-apical region. In Antrozous and Lasiurus, the lingual surface of the canine lacks grooves. Legendre (1984a) described the grooves as being found exclusively in Mops and Chaerephon; however, we observed a slightly wider distribution in molossids as recorded above. ';
+	TEXT CHARACTER=54 TEXT='Cheiromeles, Cynomops, Molossops, Molossus, Mormopterus acetabulosis, M. jugularis, M. jugularis, M. acetabulosus, Myopterus, and Tomopeas, have a single upper premolar in each hemimaxila. This tooth is most likely homologous with P5, the distal most premolar. The remaining molossid species we examined have two premolars. Mormopterus kalinowskii, M. phrudus, Promops, and Mops mops showed polymorphism for this character. While all specimens of M. kalinowskii we examined have two premolars, Legendre (1984a) recorded a single specimen with one pair. We were unable to examine this specimen and therefore score M. kalinowskii as possessing two premolars. However, in M. phrudus, USNM 194449 showed two premolars per side, in accordance with Handley (1956), while AMNH 91553 had only one pair of upper premolars. Accordingly we scored M. phrudus as polymorphic for this character.  In two taxa, we observed widespread variation; specimens of Promops frequently had two pairs of upper premolars, while specimens of Mops mops often had one. Antrozous has a single premolar in each hemimaxilla, while Lasiurus has two.';
+	TEXT CHARACTER=55 TEXT='In most of the molossid species that bear two premolars in each half of the jaw, the two teeth lie adjacent to one another.  However, the upper premolars are separated by a diastema (distinct gap) in Nyctinomops and Tadarida teniotis. In Lasiurus, the upper premolars lie adjacent to one another in the tooth row.  We scored all taxa with only one premolar (state "-''0"-- of character 54 above) "-''-"-- for this character.';
+	TEXT CHARACTER=56 TEXT='In most of species we studied, the first upper premolar, P4, was located in line with all the other teeth in the toothrow. However, in Tadarida australis and T. kuborensis the tooth is displaced lingually from the toothrow.   In contrast, Eumops auripendulus, E. bonariensis, E. glaucinus, Mops condylurus, M. demonstrator, M. leonis, M. niveiventer, Mormopterus loriae, and Promops have the first upper premolar buccally displaced from the toothrow.  In Lasiurus the first upper premolar is lingually displaced. We scored all taxa with a single premolar (state "-''0"-- of character 54 above) "-''-"-- for this character.';
+	TEXT CHARACTER=57 TEXT='The first upper premolar, P4, in most molossids bears a high paracone and a distinct and well-developed cingulum the base of the tooth. However, first upper premolar, P4, is poorly developed in Eumops, Mops condylurus, M. congicus, M. demonstrator, M. midas, M. niveiventer, and Promops (when this tooth is present).  In these species, the paracone is low and rounded with a weakly developed cingulum at the base of the tooth. In Lasiurus, the first upper premolar is well-developed with a robust paracone and distinct cingulum. Antrozous has a single upper premolar, which we hypothesize is homologous with P5.  We scored this taxon, and all others with a single premolar "-" for this character.';
+	TEXT CHARACTER=58 TEXT='In the molossines Myopterus, Nyctinomops, and Otomops the roots of second lower premolar, p5, run perpendicular to the long axis of the toothrow. In Platymops and Promops, the the roots of that tooth are parallel inserted to the long axis of the tooth row.  In the remaining molossids, the roots of second lower premolar, p5, are inserted diagonal to the long axis of the toothrow. In Antrozous the roots of second lower premolar, p5 are perpendicular to the long axis of the toothrow, while in Lasiurus the roots of the tooth are parallel to the long axis of the tooth row.  Our observations agree with those of Legendre (1984a).';
+	TEXT CHARACTER=59 TEXT='In most molossids, a distinct and well-developed cingulum is present on the mesiolingual surface of the tooth.  In contrast, in Cheiromeles, Molossus, Myopterus, Platymops, and Promops, the cingulum appears to be low or possibly absent. In Antrozous and Lasiurus, the mesiolingual cingulum is well-developed.';
+	TEXT CHARACTER=60 TEXT='In some molossids a metaconule is present on the postprotocrista on M1 (Fig. 8). This cuspule is small and triangular and is mesiodistally located between the metacone and paracone. The metaconule is present in Cheiromeles, Molossus, Myopterus, and Promops. The metaconule is absent in Antrozous and Lasiurus. Fracasso et al. (2011) asserted that the hypocone is absent in all molossids, describing a condition in which the metaconule ranges from small and more conventionally located on the postprotocrista to being large and situated essentially as a hypocone. They described a range of conditions in between these two extremes and noted that when a more conventionally sized and located metaconule is present in molossids the hypocone is always absent. However, as Jernvall (1995) have previously pointed out, across Mammalia the hypocone appears to have evolved more than 20 times. Jernvall (1995) suggested multiple pathways to the convergent evolution of "-''the hypocone"-- including the enlargement of the metaconule.  Thus, we feel justified in continuing to refer to the structure on the distolingual margin of the tooth in molossids as a hypocone and distinguish it from the smaller and more centrally placed metaconule, which we describe here.';
+	TEXT CHARACTER=61 TEXT='As defined by Legendre (1984a), the metaloph is a small crest, which is directed toward the postprotocrista, and occurs at the lingual base of the metacone.  The metaloph is present is most molossids, with the exception of species of Mops (excluding Mops condylurus). The metaloph is present in Antrozous and Lasiurus.';
+	TEXT CHARACTER=62 TEXT='The metaloph is highly crested in most molossids in which it is present. It is reduced in most of the species of the genus Chaerephon, and in Mops condylurus, Tadarida australis, T. fulminans, T. kuborensis, and T. ventralis.  The metaloph is highly crested in Antrozous and Lasiurus.  We scored all taxa lacking a metaloph (state "-''1"-- of character 61 above) "-''-"-- for this character.';
+	TEXT CHARACTER=63 TEXT='As Legendre (1984a) observed, in most molossids, the posterior metaloph and postprotocrista run parallel to one another (see Fig. 8C). However, in the species of Nyctinomops we examined, the metaloph and postprotocrista converge and meet each other at the protocone.  In Antrozous and Lasiurus, the posterior metaloph and the postprotocrista run parallel to each other and do not meet at the protocone.  We scored all taxa lacking a posterior metaloph (state "-''1"-- of character 61 above) "-''-"-- for this character.';
+	TEXT CHARACTER=64 TEXT='A metaloph is present on M2 in Chaerephon (except C. plicatus), Eumops, Molossops aequatorianus, Mops condylurus, Mormopterus, Molossops (Neoplatymops), Nyctinomops, Sauromys, Tadarida (except T. australis and T. teniotis) and Tomopeas.  A metaloph is absent in all other molossids and in Antrozous and Lasiurus.';
+	TEXT CHARACTER=65 TEXT='The premetacrista, a crest running from the metacone mesiobuccally toward the mesostyle, is present in most molossids.  However, this crest is absent in Cheiromeles, Cynomops, Molossops aequatorianus, Molossus, Mops demonstrator, M. nanulus, M. spurrelli, Myopterus, and Promops (see Fig. 10). The premetacrista is present, although greatly reduced in length in Chaerephon nigeriae, Eumops (except E. hansae and E. bonariensis), and in species of Mops in which it is present. In these taxa, the premetacrista is less than 1/4 the length of the postparacrista. The premetacrista reaches half the length of the postparacrista in most species of Chaerephon and Molossops (Fig. 10). The premetacrista and postparacrista are equal in length in Chaerephon russatus, E. bonariensis, E. hansae, Neoplatymops, Nyctinomops, Otomops, Tadarida, and Tomopeas. The premetacrista is longer than the postmetacrista in Mormopterus, Platymops, and Sauromys. A few specimens of Tadarida kuborensis and T. australis presented a vestigial fourth crest, which should be referred to postmetacrista (Fig. 10).  In Antrozous and Lasiurus the premetacrista is absent.';
+	TEXT CHARACTER=66 TEXT='Molossids generally present a distinctive and conical hypocone, such as in Chaerephon, Eumops, Molossops, Mops, Mormopterus, Neoplatymops mattogrossensis, Nyctinomops, Platymops, Sauromys, Tadarida, and Tomopeas (Fig. 10). This condition is quite distinct from the observations of vespertilionids and some molossids. Legendre (1984a) stated that Molossus, Promops, and other genera have a diminutive hypocone over the post-protocrista, but it was difficult to distinguish the small elevation as a main or an accessory cusp. We have considered this feature as a metaconule (see character 60). The hypocone is absent in other molossid species and in the outgroup Antrozous and Lasiurus.';
+	TEXT CHARACTER=67 TEXT='Terms defining the development and position of the postcristid on the molars were proposed by Menu and Sig"© (1971) and used by Legendre (1984a). In the myotodont condition, the postcristid runs from the hypoconid to the entoconid, while in the nyctalodont condition the postcristid runs from the hypoconid to the hypoconulid. In most molossids, the postcristid runs to the hypoconulid, the nyctalodont condition.  Myotodont teeth are rare in molossids; we found the myotodont condition only in Cheiromeles, the Neotropical species of the genus Mormopterus Platymops, and Sauromys. We also noted an intermediate condition in M. (Molossops), M. (Neoplatymops), and Otomops in agreement with observations made by Legendre (1984a). In this condition, branches of the postcristid run to both hypoconulid and entoconid. In Antrozous and Lasiurus, the postcristid runs to the hypoconulid (nyctalodonty).';
+	TEXT CHARACTER=68 TEXT='In many molossids, the talonid basin is deep due the tall crests and cusps that encircle it. In contrast, the talonid basin is shallow in Chaerephon, Cheiromeles, Cynomops, Eumops, Molossus, Mops, Promops, T. fulminans, and Tomopeas. In Antrozous the talonid basin is shallow, while in Lasiurus the talonid basin is deep.';
+	TEXT CHARACTER=69 TEXT='The entoconid is present as a distinct cusp on the distal lingual part of the talonid in most molossid species.  In contrast, the entoconid is absent in Cheiromeles, Cynomops, Molossus, and Myopterus.  The entoconid is present in both Antrozous and Lasiurus.';
+	TEXT CHARACTER=70 TEXT='We assessed rostral development by taking the ratio of the total length of the rostrum (from the most anterior region to the interorbital constriction) to the total length of skull. The rostrum is short (0.36-0.38) in Cheiromeles, Cynomops, Molossops, Molossus, Mormopterus, Neoplatymops, Platymops, Promops, and Sauromys. The rostrum is of medium length (0.4-0.42) in Chaerephon, all Eumops except E. perotis, Mops, Myopterus, all Tadarida except T. teniotis, and Tomopeas. A long rostrum (0.47 or more) occurs in Eumops perotis, Nyctinomops, Otomops, and Tadarida teniotis (Fig. 11).  The rostrum is of medium length in Antrozous and is short in Lasiurus.';
+	TEXT CHARACTER=71 TEXT='The sagittal crest is a prominent midline crest that runs along the dorsum of the braincase, often from the frontal to the occiput.  We subdivided the sagittal crest into two parts following Freeman (1981).  We consider the anterior portion of the sagittal crest to run from the limit of braincase with the rostrum posteriorly to the post-orbital constriction.  This part of the sagittal crest is present in Chaerephon ansorgei, Eumops auripendulus, E. glaucinus, E. perotis, Molossus, Mops, Otomops, Promops, Tadarida australis, and T. kuboriensis (see Fig. 12).  The anterior portion of the sagittal crest is absent in both Antrozous and Lasiurus.  In contrast to the findings of Freeman (1981), we did not observe the anterior sagittal crest in most species of Chaerephon or Tadarida.';
+	TEXT CHARACTER=72 TEXT='The anterior sagittal crest is low and reduced in height in Chaerephon ansorgei, Eumops auripendulus, E. glaucinus, E. perotis, Mops bracypterus, M. demonstrator, M. leonis, M. midas, M. mops, M. nanulus, M. niveiventer, M. petersoni, M. spurelli, M. thersites, Otomops, Tadarida australis, and T. kuboriensis. The anterior sagittal crest is high and accentuate in Molossus, Mops condylurus, M. congicus, and Promops (Fig. 12). In Antrozous and Lasiurus the anterior sagittal crest is absent.  We scored these taxa and others that lacked an anterior sagittal crest (state "-''0"-- of character 71 above) "-''-"-- for this character. ';
+	TEXT CHARACTER=73 TEXT='Most molossids lack a posterior sagittal crest - that portion of the crest running on the braincase.  In these species, the crest is entirely lacking or too low to be reliably observed (Fig. 12A,C).  In contrast, the posterior sagittal crest is present in Chaerephon jobensis, C. plicatus, Molossus, Mops brachypterus, M. condylurus, M. congicus, M. demonstrator, M. leonis, M. mops, M. niveiventer, and Promops (Fig 12B).  The posterior sagittal crest is absent in Antrozous and Lasiurus.';
+	TEXT CHARACTER=74 TEXT='Most molossids have a domed braincase.  In lateral view in these species, the braincase appears rounded and high (Fig. 12B,C). In contrast, in Cynomops, Eumops perotis, Molossops, Mormopterus, Myopterus, Neoplatymops, Platymops, and Sauromys, the braincase is low and flattened in lateral view.  Among species with this trait, extreme flattening can be seen in Neoplatymops, Platymops, and Sauromys (Fig 12A, and see illustrations in Freeman, 1981). The braincase is domed in Antrozous and Lasiurus. ';
+	TEXT CHARACTER=75 TEXT='The nuchal crest, runs across the posterior skull separating the occiput from the temporal region and demarcating the region of attachment of several neck muscles.  This crest is absent in most molossids. The crest, when present,  may be low or extremely developed, making the skull appear posteriorly extended as in Chaerephon jobensis and some species of Eumops (e.g. E. auripendulus) (Fig. 12). The crest is present in most species of Chaerephon, Eumops, Molossus, Mops, Neoplatymops, Platymops, and Sauromys. The nuchal crest is absent in Antrozous and Lasiurus.';
+	TEXT CHARACTER=76 TEXT='Some molossids present an expansion on the lateral of the rostrum due a well-developed projection of the lacrimal bone, but some taxa present a prominent infraorbital crest (Fig. 11) as result of the fusion of the lacrymal and zygomatic portion of the maxillary. Developed infraorbital crests are present in Cynomops, Molossops, Mormopterus beccarii, Neoplatymops, and Platymops.  Infraorbital crests are absent in Antrozous and Lasiurus.';
+	TEXT CHARACTER=77 TEXT='All molossids have a single conchal crest on the maxilla within the nasal aperture for support of the ethmoturbinal bone (Fig. 13A, C).  In Mops, Mormopterus, Nyctinomops, Platymops, Sauromys, and, Tadarida the maxilla bears a second conchal crest superior to the first that also supports the ethmoturbinal (Fig. 13B). A well-preserved specimen of Tadarida teniotis shows a delicate tissue connecting this superior bone projection with the ethmoturbinal bone. Antrozous and Lasiurus have a single conchal crest.';
+	TEXT CHARACTER=78 TEXT='In most molossids, the vomer is slightly thinner proximally than distally.  The distal portion of the vomer in these taxa gradually slightly thickens over the course of the bone.  In contrast, in Cheiromeles, Cynomops, Molossops, and Neoplatymops the vomer is similarly thinner proximally, but it does not gradually become thicker.  Instead the the vomer abruptly becomes strongly thickened on the mid and distal portions of the bone (see Fig. 13).  In Antrozous and Lasiurus, the vomer gradually thickens distally.';
+	TEXT CHARACTER=79 TEXT='Nearly all molossids have a shallow palate that is only slightly concave.  In contrast, the palate of Promops appears deeply domed, similar to the condition found in some stenodermatine bats (e.g., Pygoderma). The palate in Antrozous and Lasiurus is only slightly concave.';
+	TEXT CHARACTER=80 TEXT='The palate is widely emarginate in Chaerephon ansorgei, C. pumilus Mops brachypterus, M. congicus M. spurrelli, M. thersites, Mormopterus (except M. phudrus), Sauromys, Tadarida, and Tomopeas. In these taxa, the premaxillary bodies are separated from each other by a wide gap, the incisive foramina are lacking, and the palatine process is reduced or absent (see Figs 8F and 11E). The palate is similarly emarginate, with the incisive foramina absent and the palatine process reduced or absent in Chaerephon bemmelini, Mops leonis, M. nanulus, M. petersoni, Mormopterus phudrus, Nyctinomops, Otomops, and Platymops, but the gap between the left and right premaxillary bodies is narrow (e.g., Fig. 11D).  In species such as Chaerephon bivittatus, C. chapini, C. jobensis, C. major, C. nigeriae, and C. plicatus, Mops condylurus, M. midas, and M. niveiventer, the palatal emargination is even further reduced, and a pair of incisive foramen are present. In Chaerephon aloysiisabaudi, C. major, C. russatus, Cheiromeles, Cynomops, Eumops, Molossops, Molossus, Mops demonstrator, M. mops, Myopterus, Neoplatymops, and Promops, and the palate is not emarginate and the left and right premaxillary bodies contact each other.  Incisive foramina may be present in these taxa (see e.g., Fig. 11A). The palate is widely emarginate in Antrozous and Lasiurus.';
+	TEXT CHARACTER=81 TEXT='Basisphenoid pits are present in many species of insectivorous bats (Emballonuridae, Vespertilionidae, Molossidae; Miller, 1907). The pits are of varying size and shape, especially in molossids (Valdivieso et al. 1979), and lie on the basicranium in the sphenoid bone.  Basisphenoid pits are present on the basicranium of most molossids.  In contrast, the pits are absent or so shallow that they cannot be reliably observed in Cheiromeles, and Cynomops Molossops neglectus, M. temminckii, Platymops, Sauromys, and Tomopeas. Basisphenoid pits are absent in Antrozous, but present in Lasiurus. ';
+	TEXT CHARACTER=82 TEXT='In most molossids, the basisphenoid pits are oval (Fig 14 A,C), but in Eumops hansae, E. perotis, Nyctinomops, and Otmops the basisphenoid pits are more rectangular than oval (Fig. 14D). In Tadarida australis and T. kuborensis the basisphenoid pits are long, narrow, and groovelike. In Lasiurus the basisphenoid pits are oval, but posteriorly open and continuous with basiocciptal bone, a condition quite distinct from molossids. Basisphenoid pits are absent in Antrozous, and we scored this taxon and all others in which the basisphenoid pits are absent (state "0" of character 81 above) as "-" for this character.';
+	TEXT CHARACTER=83 TEXT='The basisphenoid pits are shallow in most molossids. The pits are moderately deep in Chaerephon aloysiisabaudiae, Eumops auripendulus, E. glaucinus, Mops congicus, M. demonstrator, M.  midas, M.  niveiventer, Nyctinomops aurispinosus, N. femorosaccus, and Tadarida. The basisphenoid pits are very deep in Chaerephon russatus, Eumops bonariensis, E. perotis, E. hansae, Myopterus, Nyctinomops macrotis, and Otomops.  The pits are shallow in Lasiurus.  Basisphenoid pits are absent in Antrozous, and we scored this taxon and all others in which the basisphenoid pits are absent (state "0" of character 81 above) as "-" for this character.';
+	TEXT CHARACTER=84 TEXT='The basisphenoid process, when present, partially embraces the anterior portion of petrosal (Fig 15A). The basisphenoid process is present in Cheiromeles, Molossus, and Promops. A basisphenoid process is absent in Antrozous and Lasiurus.';
+	TEXT CHARACTER=85 TEXT='The ectotympanic and petrosal bones are very close together, nearly in contact, when viewed laterally, in Eumops auripendulus, Molossops temminckii, Molossus, Mormopterus planiceps, Promops, and Sauromys (Fig. 15A). In the remaining molossids, the ectotympanic and the petrosal are more widely separated particularly anteriorly (Fig. 14C, D).  The ectotympanic and petrosal are nearly in contact in Antrozous and Lasiurus.';
+	TEXT CHARACTER=86 TEXT='In most molossids, the ectotympanic partially covers the petrosal promontorium, or as it is often referred to, the cochlea. There are exceptions to this general rule however; in Molossus, and Promops the ectotympanic bone is well-developed and largely covers the petrosal promontorium or cochlea in ventral view. The ectotypanic covers much of the petrosal in Antrozous and Lasiurus.';
+	TEXT CHARACTER=87 TEXT='In microchiropterans the cochlea is widely isolated from the basicranial structures by three opened areas: the basicochlear fissure, the pyriform fenestra, and the jugular foramen (Novacek, 1991; Giannini et al., 2006). The cochlea retains contact with surrounding elements of the basicranium via the sphenoid (anteriorly) and mastoid (posteriorly) regions (Novacek, 1991). The basicochlear fissure is narrow, with a close contact between the cochlea and surrounding basicranial elements (Fig. 14A) in Molossus and Promops.  Cynomops, Molossops, Mormopterus acetabulosus, M. jugularis, M. kalinowskii, M. phudrus, Neoplatymops, Platymops and Tomopeas have anenlargement in posterior portion of the basicochlear fissure (Fig 14B) while in the remaining molossid taxa "-" Chaerephon, Cheiromeles, Eumops, Mops, Mormopterus beccarii, M. loriae, M. planiceps, Myopterus, Nyctinomops, Otomops, Sauromys, and Tadarida (Fig. 14C,D) - the fissure is wide and there is pronounced separation between the basicranium and the cochlea. The basicochlear fissure is narrow in Antrozous and Lasiurus.';
+	TEXT CHARACTER=88 TEXT='In most molossid species, the sphenopalatine foramen, lies on the anterior wall and opens ventrally into the orbit.  This foramen is partially obscured when the skull is viewed laterally. In contrast, in Nyctinomops, Otomops, Sauromys, and Tadarida (excluding T. australis and T. kuboriensis) the sphenopalatine foramen opens more laterally into the orbit and is visible in lateral view.  In Antrozous and Lasiurus the sphenopalatine foramen opens ventrally. ';
+	TEXT CHARACTER=89 TEXT='The foramen ovale is located near the posterior part of the pterygoid bone in most molossids. The foramen ovale is more posteriorly positioned with respect to the pterygoid in Otomops while in Tadarida (except T. fulminans) it is distolaterally positioned.  The foramen ovale lies very close to the pterygoid in Antrozous and Lasiurus.';
+	TEXT CHARACTER=90 TEXT='The foramen ovale, is, as its name suggests, oval in most molossid taxa with an elongate anteroposterior axis.  In contrast, the foramen ovale is round in Eumops bonariensis, E. hansae, Myopterus, Nyctinomops, Otomops, and Tadarida australis. In Antrozous and Lasiurus the foramen ovale is oval.  ';
+	TEXT CHARACTER=91 TEXT='The paracondylar process lies lateral to the occipital condyles on the skull and presents an area for muscle attachment.  In most molossids the paracondylar process is small or absent (e.g., Fig. 15B).  In contrast, the paracondylar process is a moderately sized projection in Cynomops Molossops, and Mormopterus) (Fig. 14C).  In these taxa the paracondylar process does not extend ventrally below the level of the auditory bulla.  However, in Cheiromeles, Neoplatymops Platymops, and Sauromys, the paracondylar process is very developed; the process is long, extending ventrally beyond the level of the auditory bulla, with an anterior curvature and a flattened lateral surface.  The paracondylar process is reduced in Antrozous and Lasiurus.';
+	TEXT CHARACTER=92 TEXT='In most molossids the post-tympanic process is small.  In contrast, the post-tympanic process is laterally expanded and developed in Cheiromeles, Cynomops Molossops, Molossus, Mormopterus beccarii, M. loriae, M. planiceps, Neoplatymops, Platymops, and Sauromys.  In Antrozous and Lasiurus, the process is small.';
+	TEXT CHARACTER=93 TEXT='The coronoid process of the mandible is roughly level dorsally with the condyloid process in most molossid species (Fig 15C). In contrast, the coronoid process extends dorsally well beyond the level of the condyloid process in Platymops (Fig. 15E), Neoplatymops, Sauromys (Fig 15D), Mormopterus (except Neotropical species "-" Fig. 15F), and Tadarida australis and T. teniotis.  The coronoid process extends dorsally well above the level of the condyloid process in Antrozous (Fig. 15B) and in Lasiurus the coronoid process is level with the condyloid process.';
+	TEXT CHARACTER=94 TEXT='The distal spinous process of the humerus is a bony projection extending distally from the medial epicondyle of the humerus.  In all molossid bats, the distal spinous process is well developed and hooklike (Fig. 16). The distal spinous process is similarly well-developed in Lasiurus, but is reduced in size and complexity in Antrozous.';
+	TEXT CHARACTER=95 TEXT='The seventh cervical and first thoracic vertebrae are fused to each other in all molossid bats, including Tomopeas (Miller, 1907; Simmons, 1998). In contrast, the seventh cervical and first thoracic vertebrae are free and are not fused to each other in Antrozous and Lasiurus.';
+	TEXT CHARACTER=96 TEXT='We measured the length of second phalanx of pedal digit III and divided it by total body length. Based on the ratio second phalanx/total length of the body (PII/BL), we distinguished two discrete classes: one group with the ratio between 0.04 and 0.08, indicating that the second phalanx is short (Cynomops, Eumops, Molossus, Nyctinomops, Promops, Tadarida australis, T. kuborensis, and T. ventralis), and a second group, including all other molossid species and the outgroups where the ratio is between 0.12-0.24, indicating a longer phalanx.';
+	TEXT CHARACTER=97 TEXT='A baculum (= os penis) is present in most molossid species. Within molossids, a baculum is absent in Eumops perotis, Mormopterus kalinowskii, and Promops. A baculum is present in the outgroup taxa Antrozous and Lasiurus.';
+	TEXT CHARACTER=98 TEXT='Accessory cavernous tissue occurs superficial to the corpus spongiosum ventrally and on the apex of the penis. Accessory cavernous tissue occupies a considerable volume of penis in Cynomops planirostris, M. (Molossops), and Mormopterus beccarri. In nearly all remaining molossid species, the accessory cavernous tissue is present but not as abundant.  In Mormopterus planiceps, accessory cavernous tissue is absent.  Information was not available for outgroup species.';
+	TEXT CHARACTER=99 TEXT='A urethral cap, a structure that covers the urinary meatus when the penis is flaccid (Ryan, 1991b), is present on the apical edge of the glans penis in most molossids. A urethral cap is absent in Cynomops planirostris, Molossus, Molossops temmincki, and Promops. A urethral cap is present in Lasiurus. Information was unavailable for Antrozous.';
+	TEXT CHARACTER=100 TEXT='Bats usually have ornamentation on the external surface of the glans penis (excluding the prepuce). In molossids, conical or pointed and flattened spines cover the whole surface of the glans penis. These spines are lacking in Eumops. In Tadarida brasiliensis and T. aegyptiaca, multilobed glandularlike structures are present on the glans penis and we hypothesize that these structures are the homologs of the spines due to their distribution. Consequently, we score spines as present in these two species. Spines are present in Antrozous and Lasiurus.';
+	TEXT CHARACTER=101 TEXT='In most molossids with spines on the glans penis, the spines are short in length with a gap between a spine and that immediately anterior to it.  In contrast, the spines present on the glans penis are long and well developed with the apical edge overlapping the basal edge of immediately anterior spine in Mormopterus beccari and M. planiceps. Spines are short on the glans penis of Antrozous and Lasiurus.  We scored all taxa that lack spines (state "-''0"-- of character 101 above) "-''-"-- for this character.';
+	TEXT CHARACTER=102 TEXT='A ventromedial crest is present on the glans penis of Cynomops planirostris, M. (Molossops), and Molossus. The ventromedial crest is separated from lateral ridges by two longitudinal grooves (Ryan, 1991a,b). Remaining molossids and the outgroup taxa lack a ventromedial crest on the glans penis. ';
+
+      [Attribute comments]
+      	TEXT TAXON=64 CHARACTER=26 TEXT='Called small and well-developed by Gardner.';
+	TEXT TAXON=64 CHARACTER=27 TEXT='Scored by ALC based on original description of T. ravus';
+	TEXT TAXON=1 CHARACTER=54 TEXT='Mammalian species';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 102;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ;
+ENDBLOCK;

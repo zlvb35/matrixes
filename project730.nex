@@ -1,0 +1,500 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.34.28 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Guiyu'
+		'Onychodus'
+		'Miguashaia'
+		'Osteolepis'
+		'Cheirolepis canadensis'
+		'Cheirolepis schultzei'
+		'Cheirolepis trailli'
+		'Cuneognathus gardineri'
+		'Donnrosennia schaefferi'
+		'Gogosardina coatesi'
+		'Howqualepis rostridens'
+		'Mimipiscis bartrami'
+		'Mimipiscis toombsi'
+		'Kentuckia hlavini'
+		'Krasnoyaricthys jesseni'
+		'Limnomis delaneyi'
+		'Moythomasia lineata'
+		'Moythomasia durgaringa'
+		'Moythomasia nitida'
+		'Osorioichthys marginis'
+		'Stegotrachelus finlayi'
+		'Tegeolepis clarki'
+		'Mansfieldiscus sweeti'
+		'Melanecta anneae'
+		'Novagonatodus kasantsevae'
+		'Wendichthys dicksoni'
+		'Woodicthys bearsdeni'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=77;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Rostral (or equivalent ethmoid bone) - contributes to biting margin. F&B1'
+		 [2] 'Premaxillae - shape of'
+		 [3] 'Postrostrals'
+		 [4] 'Single median rostral, contacting nasals laterally, frontals/postrostrals posteriorly.'
+		 [5] 'Rostral (or equivalent ethmoid bone) - presence of transverse ornamentation.'
+		 [6] 'Posterior nostril in communication with orbital fenestra'
+		 [7] 'Posterior nostril - margin contributed to by premaxillae.'
+		 [8] 'Nasal bone as single consolidated ossification'
+		 [9] 'Pineal foramen'
+		 [10] 'postparietals'
+		 [11] 'Frontals (= sarcopt parietals), relative length of'
+		 [12] 'Intertemporal - relative length'
+		 [13] 'Intertemporal, contact with supratemporal anterior to that between frontal and parietal'
+		 [14] 'Dermosphenotic, contact with frontals blocked by intertemporal or dermopterotic'
+		 [15] 'Number of paired extrascapulae'
+		 [16] 'Lachrymal - anterior expansion'
+		 [17] 'Jugal - notch in anterior margin.'
+		 [18] 'Anamesic suborbital bones'
+		 [19] 'Accessory operculum'
+		 [20] 'Lateral gulars'
+		 [21] 'Mandibular canal - course of'
+		 [22] 'Dentary with conspicuously reflexed distal tip'
+		 [23] 'Infradentaries, number of'
+		 [24] 'Enlarged parasymphysial teeth on anterior dentary.'
+		 [25] 'Acrodin caps on teeth'
+		 [26] 'Porous ganoine ornamentation on lower jaw'
+		 [27] 'Mentomeckelian region is ossified.'
+		 [28] 'Parasphenoid - ascending process'
+		 [29] 'Parasphenoid - anterior tripartite subdivision.'
+		 [30] 'Ganoine'
+		 [31] 'Scale rows - number of'
+		 [32] 'Scales - Peg-and-socket articulation between scales with narrow based peg.'
+		 [33] 'Scales - anterodorsal extension'
+		 [34] 'Scales'
+		 [35] 'Scales - well-developed pores/punctae on ganoine surface'
+		 [36] 'Scales - curved ridges coursing along anterior margin of scale, truncating transverse ornament ridges.'
+		 [37] 'Fringing fulcra'
+		 [38] 'Pelvic fins'
+		 [39] 'Presupracleithrum'
+		 [40] 'Scapulacoracoid with horizontal plate'
+		 [41] 'Pectoral fin - anterior rays embrace protopterygium'
+		 [42] 'Pectoral fin - metapterygium enlarged relative to radials.'
+		 [43] 'Pectoral fin insertion'
+		 [44] 'Pectoral fin segmentation'
+		 [45] 'Pelvic fin insertion'
+		 [46] 'Caudal fin - epichordal lobe'
+		 [47] 'Fulcra on dorsal ridge of caudal fin'
+		 [48] 'Dorsal scutes'
+		 [49] 'Ventral scutes between caudal and anal fin.'
+		 [50] 'Ventral scutes anterior to anal fin.'
+		 [51] 'Anal fin, anterior margin - relative position to anterior margin of dorsal fin.'
+		 [52] 'Dorsal fins - number of.'
+		 [53] 'Dermohyal'
+		 [54] 'Dermosphenotic'
+		 [55] 'Intertemporal - contact with parietal'
+		 [56] 'Rostral - shape of'
+		 [57] 'Nasal - mesial margin notched for anterior nostril'
+		 [58] 'Quadratojugal'
+		 [59] 'Antorbital bone'
+		 [60] 'Suborbitals contribute to dorsal margin of orbit'
+		 [61] 'Infraorbitals - number of'
+		 [62] 'Jugal canal'
+		 [63] 'Maxilla, posteroventral overlap of lower jaw'
+		 [64] 'Dermopterotic  (assumed fusion between intertemporal and supratemporal)'
+		 [65] 'Preoperculum - vertical linear ornamentation.'
+		 [66] 'Serrated linear ganoine ornament on skull roof.'
+		 [67] 'Operculum, relative size'
+		 [68] 'Suboperculum - narrow, tapering anterodorsal process.'
+		 [69] 'Supratemporal - narrow anterolateral flange forming ventral margin of spiracular opening.'
+		 [70] 'Extrascapulae - median branching of sensory canals.'
+		 [71] 'Median extrascapular'
+		 [72] 'Branchiostegal rays - 1st ray ventral to suboperculum.'
+		 [73] 'Facet for parasymphysial tooth-whorl on anterior dentary.'
+		 [74] 'Mandibular canal'
+		 [75] 'Dermal intracranial joint'
+		 [76] 'Scales - anastomosing linear ornament'
+		 [77] 'Maxilla - shape of anterior section'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'wider than deep'
+		'depth approximately equal to width'
+		'Premaxillae absent'
+		,
+		3
+		'mosaic of small bones'
+		'large median postrostral with or without accessory elements.'
+		'absent'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent - multiple bones carry supraorbital canal from premaxillae to frontals.'
+		'present'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'rectangular - long axis parallel to midline'
+		'subquadrate'
+		'Parietals wider than long'
+		,
+		11
+		'frontal shorter than parietal'
+		'frontal approximately equal to parietal'
+		'frontal longer than parietal'
+		,
+		12
+		'intertemporal shorter than supratemporal'
+		'intertemporal of similar length to supratemporal'
+		'Intertemporal longer than supratemporal'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'one pair'
+		'two pairs'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present - single or single vertical row'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'large with rounded posterolateral profile'
+		'equivalent in area to 3 branchiostegal rays or less, with prominent posterior and lateral angles.'
+		,
+		21
+		'traces ventral margin of jaw along entire length.'
+		'arches dorsally in anterior half of jaw.'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'more than two'
+		'two (angular and surangular)'
+		'one (angular only)'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'present'
+		'absent'
+		,
+		31
+		'fewer than 60'
+		'more than 60'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'macromeric'
+		'micromeric'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'present'
+		'absent or greatly reduced'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'false'
+		'true'
+		,
+		42
+		'false'
+		'true'
+		,
+		43
+		'into basal fleshy lobe'
+		'directly into lateral flank'
+		,
+		44
+		'roughly even segmentation to fin-base.'
+		'Proximal segments greatly elongated'
+		'No significant segmentation on pectoral fin.'
+		,
+		45
+		'short based'
+		'long based'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'few anterior to dorsal fin.'
+		'complete series from DF to occipit'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'present immeditately anterior to anal fin.'
+		'absent'
+		'Series extends on ventral surface to near pectoral fin.'
+		,
+		51
+		'anal fin shifted anterior to dorsal fin.'
+		'anal fin opposite to dorsal fin.'
+		'anal fin posterior to dorsal fin.'
+		,
+		52
+		'two'
+		'one'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present - distinct posterior ramus'
+		'present - no posterior ramus'
+		,
+		55
+		'no contact'
+		'contacts parietals laterally.'
+		'contacts parietals posterolaterally'
+		,
+		56
+		'equal anteriorly and posteriorly'
+		'narrows anteriorly'
+		'widens anteriorly'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'false'
+		'true'
+		,
+		61
+		'two'
+		'more than two'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'minimal overlap.'
+		'pronounced posteroventral overlap.'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'at least twice as high as suboperculum'
+		'less than twice as high as suboperculum'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'present'
+		'absent'
+		,
+		71
+		'present'
+		'absent'
+		,
+		72
+		'of similar depth to adjacent branchiostegal rays.'
+		'deeper than 2nd branchiostegal ray.'
+		,
+		73
+		'present'
+		'absent'
+		,
+		74
+		'primarily carried by infradentaries'
+		'primarily carried by dentary'
+		,
+		75
+		'present'
+		'absent'
+		,
+		76
+		'State 0'
+		'[state 1]'
+		,
+		77
+		'straight'
+		'reflexed'
+		
+	;
+	MATRIX
+	'Guiyu'		                              00000000000---00000000000000000000000000??000??1002000-0010100000000000000000
+	'Onychodus'		                          00000000100---00000000000-00010110-0000000000000110000-0010110000-00000000000
+	'Miguashaia'		                         0000???0100---0?000001000-00010110-0000???000000111000-?000110-00-00000?1000-
+	'Osteolepis'		                         00000010000---01000000000-?0010110-0000???000001002000-0010110000-00000010000
+	'Cheirolepis canadensis'		             ?0000100(0,1)01000001010111000?00011110010000?001011000111(0,1)0010001000000001011101
+	'Cheirolepis schultzei'		              000001?0102??000101?11?000???0?111001?0?????????????11?00100010000000?1011101
+	'Cheirolepis trailli'		                00000100001000001010111000?00011110010000000101110011110000001000000001011101
+	'Cuneognathus gardineri'		             ??1111010120100?000??1?0?0???0011001111???1?-11?0?21110010000?1000000?1?11100
+	'Donnrosennia schaefferi'		            ?11101010010100??0111110?0???0100010101???111?11101111011000??100001001011111
+	'Gogosardina coatesi'		                00010101001000??000101201000?0100000101111110?1200211121100001100011??1011100
+	'Howqualepis rostridens'		             101101010120100100010011?01110100000101?1011101110111101100001100001001111111
+	'Mimipiscis bartrami'		                010101010010000000010120100010100000101111110?1200211111100001100011101011110
+	'Mimipiscis toombsi'		                 01110111001000000001012010001010000010111111011200111111100001100011101011110
+	'Kentuckia hlavini'		                  ??110??11122010?011??100000??0000000101???1101111?2111101??01?100000??1?11100
+	'Krasnoyaricthys jesseni'		            ?????????1200?0???1??????????0000000100???101??202211?2??1????1000100011??10?
+	'Limnomis delaneyi'		                  10111101012000000001?11010???0011001111???10-1120021112010000?1000010?1011100
+	'Moythomasia lineata'		                01110101001100110001111010???010000010111110011200211120110001101101011111100
+	'Moythomasia durgaringa'		             11110101012100110001011011011000001010111111011200211121100001100111011111110
+	'Moythomasia nitida'		                 011101010011001101111110?1???0000010101???10011200111120110001101110011111110
+	'Osorioichthys marginis'		             001101111010001001001110?0???0?010001?1?1?00???1????1111100001000010001111101
+	'Stegotrachelus finlayi'		             01110101002001000011?110?01??0000000101???10011200111120110001100000001011100
+	'Tegeolepis clarki'		                  00110001101000?1000?00?100110010010000????120??0001102021100110000100??011101
+	'Mansfieldiscus sweeti'		              00110101112--001011?0110100??00010011011??110111102111-1101001110010001011100
+	'Melanecta anneae'		                   10110101112--0?00?0??1?01????01??000100???1111111?21?2-01100011000100??011100
+	'Novagonatodus kasantsevae'		          10110101012--00?110?01?0?0???00??000100???101??2?02111-21000011100100?0011100
+	'Wendichthys dicksoni'		               0211010112201110110101?0?0???00??000100???10011110211100111001100000001111100
+	'Woodicthys bearsdeni'		               00110101112010100001011010?100000010100?1?11011110211201110001100000001011100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='F&B 1';
+	TEXT CHARACTER=2 TEXT='F&B 2';
+	TEXT CHARACTER=3 TEXT='F&B 3T';
+	TEXT CHARACTER=4 TEXT='C&A 4T';
+	TEXT CHARACTER=5 TEXT='F&B 5';
+	TEXT CHARACTER=6 TEXT='F&B 6';
+	TEXT CHARACTER=7 TEXT='F&B7';
+	TEXT CHARACTER=8 TEXT='F&B 8T';
+	TEXT CHARACTER=9 TEXT='F&B 9T';
+	TEXT CHARACTER=10 TEXT='F&B';
+	TEXT CHARACTER=11 TEXT='F&B 11T';
+	TEXT CHARACTER=12 TEXT='F&B12';
+	TEXT CHARACTER=15 TEXT='F&B 15';
+	TEXT CHARACTER=16 TEXT='T';
+	TEXT CHARACTER=22 TEXT='modified from F&B 22.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 77;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ; TYPESET * default = ORD: 23 48 54 ;
+ENDBLOCK;

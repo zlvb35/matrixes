@@ -1,0 +1,425 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.14.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+    		'Tunicata'
+		'Cephalochordata'
+		'Myxinoidea'
+		'Petromyzontida'
+		'Heterostraci'
+		'Astraspis'
+		'Eriptychius'
+		'Arandaspida'
+		'Anaspida'
+		'Jamoytius'
+		'Euphanerops'
+		'Osteostraci'
+		'Galeaspida'
+		'Loganellia scotica'
+		'Pituriaspida'
+		'Jawed vertebrates'
+		'Conodonta'
+		'Yunnanozoon'
+		'Myllokunmingia'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=68;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] '1 neural crest'
+		 [2] '2 brain'
+		 [3] '3 olfactory peduncles'
+		 [4] '4 pineal organ'
+		 [5] '5 divided pituitary'
+		 [6] '7 optic tectum'
+		 [7] '8 cerebellum'
+		 [8] '14 number of nasal openings'
+		 [9] '15 nasopharyngeal duct'
+		 [10] '16 single nasohypophyseal opening'
+		 [11] '17 position of nasohypophyseal opening'
+		 [12] '18 olfactory organ'
+		 [13] '19 extrinsic eye musculature'
+		 [14] '20 semicircular canals in labyrinth'
+		 [15] '21 vertical semicircular canal looped'
+		 [16] '22 endolymphatic ducts open externally'
+		 [17] '23 sensory line system with neuromasts'
+		 [18] '25 sensory line grooves or canals'
+		 [19] '26 sensory line'
+		 [20] '27 gill openings'
+		 [21] '28 gill relative position'
+		 [22] '29 elongate branchial series'
+		 [23] '30 gill openings lateral, slantiing row'
+		 [24] '31 position of gill openings'
+		 [25] '32 opercular flaps'
+		 [26] '34 gill lamellae with filaments'
+		 [27] '35 mouth position'
+		 [28] '37 relative position atrium & ventricle'
+		 [29] '38 closed pericardium'
+		 [30] '40 paired dorsal aortae'
+		 [31] '41 lateral head vein'
+		 [32] '43 subaponeurotic vascular plexus'
+		 [33] '44 separate dorsal fin'
+		 [34] '45 anal fin separate'
+		 [35] '46 unpaired fin ray supports closeset'
+		 [36] '47 paired lateral fin folds'
+		 [37] '48 constricted pectorals'
+		 [38] '49 tail shape'
+		 [39] '50 preanal median fold'
+		 [40] '51 ability to synthesise creatine phosphatase'
+		 [41] '52 visceral arches fused to neurocranium'
+		 [42] '54 trematic rings'
+		 [43] '55 arcualia'
+		 [44] '58 braincase with lateral walls'
+		 [45] '59 neurocranium entirely colsed dorsally, covering brain'
+		 [46] '60 occiput enclosing vagus and glossopharyngeal'
+		 [47] '61 annular cartilage'
+		 [48] '62 trunk dermal skeleton'
+		 [49] '63 perichondral bone'
+		 [50] '64 calcified cartilage'
+		 [51] '65 calcified dermal skeleton'
+		 [52] '66 spongy aspidin'
+		 [53] '67 lamellar aspidin'
+		 [54] '68 cellular bone'
+		 [55] '69 dentine'
+		 [56] '70 enamel/oid'
+		 [57] '71 three-layered exoskeleton'
+		 [58] '72 cancellar layer in exoskeleton with honeycomb-shaped cavities'
+		 [59] '73 composition of scales/denticles'
+		 [60] '74 scales'
+		 [61] '75 oakleaf-shaped tubercles'
+		 [62] '76 oral plates'
+		 [63] '77 denticles in pharynx'
+		 [64] '78 dermal head covering in adult state'
+		 [65] '79 large unpaired ventral and dorsal dermal plates on head'
+		 [66] '80 massive endoskeletal head shield covering gills dorsally'
+		 [67] '81 sclerotic ossicles'
+		 [68] '82 ossified scleral capsule'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present and covered'
+		'present and uncovered'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'none'
+		'paired'
+		'single median'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'none'
+		'terminal'
+		'dorsal'
+		,
+		12
+		'absent'
+		'paired'
+		'unpaired'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'1'
+		'2'
+		'3'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present on head only'
+		'on head plus body'
+		,
+		19
+		'absent'
+		'in grooves'
+		'in canals'
+		,
+		20
+		'simple slits'
+		'pores'
+		'slits opening to chambers'
+		,
+		21
+		'alternate'
+		'symmetrical'
+		,
+		22
+		'more than 10'
+		'fewer than 10'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'laterally'
+		'ventrally'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'terminal'
+		'ventral'
+		,
+		28
+		'well separated'
+		'close'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'isocercal'
+		'hypocercal'
+		'epicercal'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present, mesodentine'
+		'present, orthodentine'
+		,
+		56
+		'absent'
+		'present, monotypic enamel'
+		'present, enameloid'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present, single odontode'
+		'present, polyodontode'
+		,
+		60
+		'absent'
+		'present, diamond-shaped'
+		'present, rod-shaped'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'small micromeric'
+		'large dermal plates or shield'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Tunicata'		                    0?000000000000000000????00000000000000000000000000000000000000000000
+	'Cephalochordata'		             00000000000000000000000000000100000100100000000000000000000000000000
+	'Myxinoidea'		                  1100110211110100011100(0,1)0(0,1)0000111(0,1)00001111000000000000000000000000000
+	'Petromyzontida'		              11021112112112001211111001011010110001011111001001000000000000000000
+	'Heterostraci'		                1111?11100?1?21012211100010?????01?00011??1???0100111020112(1,2)11021000
+	'Astraspis'		                   11?1?1?????????0111111100??????100?00??1???????10011102210211??10??0
+	'Eriptychius'		                 11???1?????????????1???????????????????1???????1?111102210210??10???
+	'Arandaspida'		                 11?2?1?????????0121110100?0?????0?000101??????01??111000112211021?11
+	'Anaspida'		                    11?2?1?2112?????121110100?0????00?010101???????100101000002201010000
+	'Jamoytius'		                   11???1?2111????????11010??1???????100?01?1????01??1????????200000000
+	'Euphanerops'		                 11???1?????????????11010010?1???01110101?010??1001000000000000000100
+	'Osteostraci'		                 11021?12112212111221110111111011111012011?11110111100110102101020111
+	'Galeaspida'		                  1112?1110121121112211101011???1100?00?011?11110111101000001101020110
+	'Loganellia scotica'		          11??????????????12(1,2)111100?0?????1?010101???????10010?0100011001100?0
+	'Pituriaspida'		                11????1???????????????????1???????1?1??1???111??1?1?????????0??211??
+	'Jawed vertebrates'		           111(1,2)11110001131112(1,2)211001101111(0,1)11?(0,1)12010011110111100111102110110011
+	'Conodonta'		                   ????????????????????????00??????00?00101000?0?0000000000000000000000
+	'Yunnanozoon'		                 01????0?000????????011(0,1)0010?????00?0000000000??000000000000?00000000
+	'Myllokunmingia'		              11????02?11????????111(0,1)0010?????1?110?0?0?100??00?000000000?00000000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 68;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

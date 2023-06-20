@@ -1,0 +1,177 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 16.07.13 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Xerophynus machadoi'
+		'Euphrynichus bacillifer'
+		'Phrynichus scaber'
+		'Phrynichodamon scullyi'
+		'Musicodamon atlanteus'
+		'Damon medius'
+		'Damon diadema 1'
+		'Damon diadema 2'
+		'Damon annulatipes 1'
+		'Damon annulatipes 2'
+		'Damon annulatipes 3'
+		'Damon gracilis 1'
+		'Damon gracilis 2'
+		'Damon sylviae 1'
+		'Damon sylviae 2'
+		'Damon variegatus 1'
+		'Damon variegatus 2'
+		'Damon variegatus 3'
+		'Damon variegatus 4'
+		'Damon variegatus 5'
+		'Damon variegatus 6'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Chelicerae, uppermost or distal, bicuspidate tooth'
+		 [2] 'Cheliceral stridulating organ'
+		 [3] 'Antenniform legs, tibia'
+		 [4] 'Antenniform legs, tarsal segments with leaf-like setae'
+		 [5] 'Fourth leg tibia (basitibia IV)'
+		 [6] 'Pedipalps, shape'
+		 [7] 'Pedipalp trochanter, number of large spines on ventral surface'
+		 [8] 'Pedipalp femoral spines'
+		 [9] 'Pedipalp tibia, arrangement of spines'
+		 [10] 'Pedipalp tibia, development of phrynichid â€œhandâ€?'
+		 [11] 'Pedipalp tibial spine I'
+		 [12] 'Pedipalp tibial spine II'
+		 [13] 'Pedipalp basitarsus with backwardly directed spine'
+		 [14] 'Pedipalp distitarsus with two small denticles above cleaning organ'
+		 [15] 'Ventral sac covers'
+		 [16] 'Female genitalia, gonopodial appendage vestiges'
+		 [17] 'Gonopods with unpaired sclerotized bar or plate anteriad'
+		 [18] 'Spermatophores'
+		 [19] 'Egg sac development'
+	;
+	STATELABELS
+		1
+		'lower cusp larger'
+		'upper cusp larger'
+		,
+		2
+		'absent'
+		'present, type I'
+		'present, type II, row of setae that may be a stridulating organ'
+		,
+		3
+		'not thickened'
+		'thickened'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'divided into three articles, i.e. 3-segmented'
+		'divided in two articles, i.e. 2-segmented'
+		'undivided, i.e. 1-segmented'
+		,
+		6
+		'short and stout'
+		'slightly elongated'
+		'greatly elongated and slender'
+		,
+		7
+		'one'
+		'two'
+		,
+		8
+		'well developed, spiniform'
+		'reduced to bacilliform apophyses'
+		,
+		9
+		'three large dorsal spines (1 to 3) form a catching basket, with smaller spines between the large ones'
+		'three large dorsal spines (1 to 3) are shifted to the distal end and form the phrynichid â€œhandâ€'
+		,
+		10
+		'weakly developed, with straight spines'
+		'well developed, with curved spines'
+		,
+		11
+		'normal'
+		'bifid'
+		,
+		12
+		'does not participate in formation of the hand'
+		'has shifted distally and participates in formation of the hand'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'soft finger-like'
+		'hook-like'
+		'reduced or missing'
+		'flat, with a sharp edge'
+		,
+		17
+		'absent'
+		'present, of D. variegatus type'
+		'present, of D. gracilis type'
+		,
+		18
+		'simple, with free sperm packages'
+		'sperm packages on distal ends of movable bars'
+		'with reduced bars'
+		'of D. variegatus type'
+		'with reduced stalk'
+		,
+		19
+		'brood pouch absent'
+		'brood pouch present, weakly developed, eggs visible from the sides'
+		'brood pouch present, well developed, egg sac surrounded by large lateral and posterior pleural folds'
+		
+	;
+	MATRIX
+	'Xerophynus machadoi'		              000000000-0000130?0
+	'Euphrynichus bacillifer'		          1200220111010102010
+	'Phrynichus scaber'		                1200210011010102010
+	'Phrynichodamon scullyi'		           100020001000101000?
+	'Musicodamon atlanteus'		            1100110011101001010
+	'Damon medius'		                     1001100010001002021
+	'Damon diadema 1'		                  1001101010001012131
+	'Damon diadema 2'		                  1001101010001012131
+	'Damon annulatipes 1'		              1011100010001012131
+	'Damon annulatipes 2'		              1011100010001012131
+	'Damon annulatipes 3'		              1011100010001012131
+	'Damon gracilis 1'		                 1001120010001012242
+	'Damon gracilis 2'		                 1001120010001012242
+	'Damon sylviae 1'		                  1001100010001012132
+	'Damon sylviae 2'		                  1001100010001012132
+	'Damon variegatus 1'		               1001100010001012132
+	'Damon variegatus 2'		               1001100010001012132
+	'Damon variegatus 3'		               1001100010001012132
+	'Damon variegatus 4'		               1001100010001012132
+	'Damon variegatus 5'		               1001100010001012132
+	'Damon variegatus 6'		               1001100010001012132
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 19;
+      ENDBLOCK;
+      

@@ -1,0 +1,351 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 18.34.46 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+    		'Prodiacodon spp.'
+		'Cimolestes magnus'
+		'Arfia gingerichi'
+		'Arfia junnei'
+		'Arfia shoshoniensis and opisthotoma'
+		'Prototomus minimus'
+		'Prototomus deimos'
+		'Prototomus phobos'
+		'Prototomus secundarius'
+		'Prototomus martis'
+		'Pyrocyon strenuus'
+		'Pyrocyon dioctetus'
+		'Prolimnocyon haematus'
+		'Prolimnocyon atavus'
+		'Galecyon morloi'
+		'Galecyon peregrinus'
+		'Galecyon mordax'
+		'Galecyon chronius'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'p1 size'
+		 [2] 'p1 roots'
+		 [3] 'Diastema between p1 and p2'
+		 [4] 'Diastema between p2 and p3'
+		 [5] 'p3 proportions'
+		 [6] 'p3 talonid cusps'
+		 [7] 'p4 mesial cusp'
+		 [8] 'p4 protoconid height'
+		 [9] 'p4 protoconid cross-section'
+		 [10] 'p4 talonid buccal cusps'
+		 [11] 'Lingual margin of p4 talonid'
+		 [12] 'p4 width'
+		 [13] 'm2 buccal cingulid at mesial margin of crown'
+		 [14] 'm2 buccal cingulid'
+		 [15] 'Protoconid height on m1?2'
+		 [16] 'm2 paraconid and metaconid relative heights'
+		 [17] 'm2 paraconid orientation'
+		 [18] 'Length of paraconid portion ofm2 paracristid'
+		 [19] 'm1?2 paraconid keel'
+		 [20] 'm2 metaconid position'
+		 [21] 'Orientation of m1?2 cristid obliqua'
+		 [22] 'm1?2 hypoconid size'
+		 [23] 'm1?2 entoconid size'
+		 [24] 'm1?2 entoconulid morphology'
+		 [25] 'm1?2 talonid basin depth'
+		 [26] 'm1?2 size'
+		 [27] 'm3 roots'
+		 [28] 'm3 trigonid height'
+		 [29] 'm3 morphology'
+		 [30] 'M3 size'
+		 [31] 'Orientation of P3'
+		 [32] 'Protocone lobe on P3'
+		 [33] 'P4 buccal cingulum'
+		 [34] 'P4 parastyle'
+		 [35] 'P4 metastyle'
+		 [36] 'P4 protocone position'
+		 [37] 'P4 protocone size'
+		 [38] 'P4 preprotocrista'
+		 [39] 'M1 parastyle development'
+		 [40] 'M1 paracone and metacone'
+		 [41] 'M1 paracone and metacone size'
+		 [42] 'Separation of M1 metacone and metastyle'
+		 [43] 'Elongation of M1 metastyle'
+		 [44] 'Orientation of M1 metastyle'
+		 [45] 'Development of M1 conules'
+		 [46] 'Termination ofM1 postmetaconule crista'
+		 [47] 'M1 protocone transverse width'
+		 [48] 'M1 protocone length'
+		 [49] 'M1 protocone height'
+		 [50] 'Elongation of M1 distal cingulum'
+		 [51] 'M2 parastylar region'
+		 [52] 'Distal portion of M2'
+		 [53] 'M3'
+		 [54] 'Enamel texture on cheek teeth'
+	;
+	STATELABELS
+		1
+		'large'
+		'small'
+		'absent.'
+		,
+		2
+		'one'
+		'two.'
+		,
+		3
+		'shorter than the length of p2'
+		'longer than the length of p2.'
+		,
+		4
+		'absent'
+		'small.'
+		,
+		5
+		'elongate and low, protoconid apex lower than p2'
+		'short and high, protoconid apex taller than p2.'
+		,
+		6
+		'hypoconid only'
+		'second cusp present distal to the hypoconid.'
+		,
+		7
+		'absent or very weak'
+		'strong.'
+		,
+		8
+		'tall: much taller than talonid, subequal to or taller than m1 protoconid'
+		'low: moderately taller than talonid, lower than m1 protoconid.'
+		,
+		9
+		'circular'
+		'lenticular.'
+		,
+		10
+		'hypoconid only'
+		'second cusp present distal to the hypoconid.'
+		,
+		11
+		'no rim present'
+		'weak rim present'
+		'well-developed entocristid present.'
+		,
+		12
+		'narrow (gracile)'
+		'broad (robust).'
+		,
+		13
+		'weak and crestiform, restricted to mid-height of paraconid'
+		'weak and denticulate, at least on m2, restricted to mid-height of paraconid'
+		'strong and shelf-like, extends to base of paraconid to form a bulge at the mesiobuccal corner of the crown.'
+		,
+		14
+		'absent or restricted to hypoflexid'
+		'continuous around protoconid and/or hypoconid.'
+		,
+		15
+		'tall, much taller than metaconid and paraconid; trigonid substantially elevated above talonid'
+		'low, only slightly taller than metaconid and paraconid; height differential between trigonid and talonid reduced.'
+		,
+		16
+		'paraconid substantially lower than metaconid'
+		'paraconid moderately lower than metaconid'
+		'paraconid subequal to metaconid'
+		'paraconid taller than metaconid.'
+		,
+		17
+		'slightly oblique, trigonid relatively closed'
+		'strongly oblique, trigonid relatively open.'
+		,
+		18
+		'short'
+		'elongate.'
+		,
+		19
+		'weak'
+		'strong.'
+		,
+		20
+		'metaconid apex immediately lingual to protoconid apex'
+		'metaconid apex distolingual to protoconid apex.'
+		,
+		21
+		'oblique to long axis of crown; contact with trigonid beneath protocristid notch'
+		'parallel to long axis of crown; contact with trigonid beneath protoconid.'
+		,
+		22
+		'small; hypoconid apex at distobuccal corner of crown; hypoconid portion of postcristid absent'
+		'enlarged; hypoconid apex mesial to distobuccal corner of crown; hypoconid portion of postcristid distinct.'
+		,
+		23
+		'very small; much lower than hypoconulid; talonid semitrenchant'
+		'small; subequal to hypoconulid height; entoconid and entocristid form a low rim on the lingual margin of the crown'
+		'enlarged; subequal to hypoconulid height and well separated apically; entoconid and entocristid form a distinct wall closing the lingual margin of the talonid basin.'
+		,
+		24
+		'absent or very small, becoming indistinct from the remainder of the entocristid with light wear'
+		'forming a series of denticulations on the lingual portion of the entocristid'
+		'mesially displaced and well-separated from the remainder of the entocristid.'
+		,
+		25
+		'shallow; cusp relief low'
+		'deep; cusp relief substantial.'
+		,
+		26
+		'm2 much larger than m1'
+		'size subequal.'
+		,
+		27
+		'two'
+		'one.'
+		,
+		28
+		'much taller than talonid; height differential comparable to m1?2'
+		'low, height differential between trigonid and talonid much reduced compared to m1?2.'
+		,
+		29
+		'comparable to m1?2 with minor distinctions (trigonid relatively larger; talonid longer but more narrow; hypoconulid enlarged)'
+		'disjunct from m1?2; paraconid and paracristid greatly enlarged relative to other crown structures.'
+		,
+		30
+		'larger than M1?2'
+		'subequal to M1?2'
+		'slightly reduced'
+		'strongly reduced.'
+		,
+		31
+		'aligned with P4; rostrum broad'
+		'set at an angle to P4; rostrum narrow.'
+		,
+		32
+		'absent'
+		'present.'
+		,
+		33
+		'complete'
+		'incomplete mesially.'
+		,
+		34
+		'weak or absent'
+		'forming a strong, conical cusp.'
+		,
+		35
+		'long, subequal to length of paracone'
+		'short, much shorter than paracone.'
+		,
+		36
+		'lingual to paracone'
+		'mesiolingual to paracone.'
+		,
+		37
+		'prominent, extending as far lingual as the protocone of M1'
+		'reduced, lingual extent less than M1.'
+		,
+		38
+		'continuous onto parastyle'
+		'ending at base of paracone.'
+		,
+		39
+		'poorly developed, forming a slight thickening at the junction of the buccal cingulum and preparaconule crista'
+		'prominent, forming a well developed cusp and parastylar lobe mesial to the paracone.'
+		,
+		40
+		'separate almost to base'
+		'fused to midway from base.'
+		,
+		41
+		'paracone much larger and much taller than metacone'
+		'paracone slightly larger than metacone; cusps heights subequal.'
+		,
+		42
+		'linear crests separated by a well-developed carnassial notch'
+		'a single unbroken arcuate crest connects the metacone and metastyle.'
+		,
+		43
+		'short, much less than the combined length of paracone and metacone'
+		'elongate, length subequal to combined length of paracone and metacone.'
+		,
+		44
+		'subparallel to a line between the paracone and metacone apices'
+		'sharply oblique to a line between the paracone and metacone apices.'
+		,
+		45
+		'paraconule larger and more elevated than metaconule'
+		'paraconule and metaconule subequal in size and height.'
+		,
+		46
+		'joins metastylar crest at distolingual corner of crown'
+		'terminates beneath metastylar crest.'
+		,
+		47
+		'short; protocone apex close to apices of buccal cusps'
+		'elongate; apex of protocone well lingual to apices of buccal cusps.'
+		,
+		48
+		'broad'
+		'compressed.'
+		,
+		49
+		'much lower than buccal cusps'
+		'slightly lower than buccal cusps.'
+		,
+		50
+		'distal cingulum terminates beneath, but does not contact, metaconule'
+		'distal cingulum extends buccal to metaconule.'
+		,
+		51
+		'bearing a single cusp oriented subparallel to the paracone and metacone'
+		'oriented transversely with a stylocone and parastyle.'
+		,
+		52
+		'well-developed; comparable in morphology to M1; metastyle much more elongate than on M1'
+		'well-developed; comparable in morphology to M1; metastylar elongation comparable to M1'
+		'reduced; metacone much smaller than paracone; metastyle absent.'
+		,
+		53
+		'slightly smaller than M1?2'
+		'much reduced in size'
+		'absent.'
+		,
+		54
+		'smooth'
+		'crenulate.'
+		
+	;
+	MATRIX
+	'Prodiacodon spp.'		                             00011011-12-00000000012011000111(0,1)11000?00101?01110000?
+	'Cimolestes magnus'		                            110010000020200000000110110001?10010001000010?101?1100
+	'Arfia gingerichi'		                             ??????001020201100000120-00010?00110000011001110??0001
+	'Arfia junnei'		                                 ?????????????11?00?00120?00010?0001000001101101011???1
+	'Arfia shoshoniensis and opisthotoma'		          000000001(0,1)210(0,1)1100(0,1)(0,1)01201000101(0,1)0(0,1)10000011001(0,1)101100?1
+	'Prototomus minimus'		                           10(0,1)1??001100200201100010-0000????100101100110111?011?0
+	'Prototomus deimos'		                            1001??0?0010200?0110001?100001???????????????????????0
+	'Prototomus phobos'		                            100100??????20?2010000101?0001?????????10011011110010?
+	'Prototomus secundarius'		                       101100000010200201001010100001??1000100100110?11101100
+	'Prototomus martis'		                            ??00?00??0002002011000(0,1)(0,1)000001????????010011011100(0,1)1?0
+	'Pyrocyon strenuus'		                            110000001000200211100010000001???010000110110111101101
+	'Pyrocyon dioctetus'		                           110000001010200211100010000001????????????????????1??1
+	'Prolimnocyon haematus'		                        100000(0,1)01(0,1)(0,1)0000?0110001011010300001100110011?011??1210
+	'Prolimnocyon atavus'		                          1100000010000002(0,1)11000101(0,1)11030?0011001100110011101211
+	'Galecyon morloi'		                              ????????????000210100010-?0002??11010?1100000000?0???0
+	'Galecyon peregrinus'		                          0??(0,1)0001(0,1)100(0,1)00310100010(0,1)10102???????????????????????1
+	'Galecyon mordax'		                              (0,1)00001(0,1)10110100?101(0,1)0010110102????????110000000000???1
+	'Galecyon chronius'		                            (0,1)000111101111003101(0,1)00120101021(0,1)1111011(0,1)000000000002?1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 54;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1329331097418 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 7486343805869207068 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 2882641767562545488 ; mqVersion 275 ; checksumv 0 3 147595221 null getNumChars 54 numChars 54 getNumTaxa 18 numTaxa 18 short true bits 15 states 15 sumSquaresStatesOnly 2541.0 sumSquares 2541.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 380 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1185 650 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.trees.ManageTrees.ManageTrees ; tell It ; showTreeBlocks #mesquite.lists.TreeblockList.TreeblockList ; tell It ; getWindow ; tell It ; newAssistant #mesquite.lists.TreeblocksListNumber.TreeblocksListNumber ; newAssistant #mesquite.lists.TreeblocksListTaxa.TreeblocksListTaxa ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 805 583 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #2882641767562545488 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 805 583 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor ; tell It ; makeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 805 583 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; rowsAreCharacters on ; toggleConstrainChar on ; toggleConstrainCharNum 3 ; togglePanel off ; toggleSummaryPanel off ; endTell ; showWindow ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.silk.AnnotSummary.AnnotSummary ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.silk.CellImages.CellImages ; tell It ; togglePanel off ; toggleAnnotations off ; toggleSums off ; toggleHistory off ; toggleLocations off ; endTell ; getEmployee #mesquite.silk.StateImages.StateImages ; tell It ; togglePanel off ; toggleStateAnnotations off ; toggleCharAnnotations off ; toggleLocations off ; endTell ; getEmployee #mesquite.silk.aaManageImageIndices.aaManageImageIndices ; tell It ; setLocal ; reset ; endTell ; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #2882641767562545488 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 805 583 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setActive ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 54 ;
+ENDBLOCK;

@@ -1,0 +1,269 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-09 22.06.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Amphicynodon'
+		'Mustelavus'
+		'Mydaus'
+		'Palaeomephitis'
+		'Promephitis'
+		'Martinogale faulli'
+		'Martinogale chisoensis'
+		'Martinogale alveodens'
+		'Buisnictis meadensis'
+		'Buisnictis burrowsi'
+		'Buisnictis transitorius'
+		'Brachyprotoma'
+		'Spilogale'
+		'Mephitis'
+		'Osmotherium'
+		'Conepatus sanmiguelensis'
+		'Conepatus leuconotus'
+		'Conepatus robustus'
+		'Conepatus semistriatus'
+		'Conepatus altiramus'
+		'Conepatus sam spp'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=37;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'M2'
+		 [2] 'm3'
+		 [3] 'alisphenoid foramen'
+		 [4] 'upper carnassial notch'
+		 [5] 'mastoid sinus'
+		 [6] 'extra root in m1'
+		 [7] 'P1 and p1'
+		 [8] 'central septum in internal nares'
+		 [9] 'ridge on posterior face of m1 protoconid'
+		 [10] 'chin on mandibular symphysis'
+		 [11] 'anterior shelf of P4 protocone'
+		 [12] 'cuspules (entoconid) on m1 entoconid crest'
+		 [13] 'P4 parastyle'
+		 [14] 'talonid cusps of m1'
+		 [15] 'M1 lingual cingulum'
+		 [16] 'lower canine lingual cingulum'
+		 [17] 'premolar anterior and posterior cingular cusps'
+		 [18] 'crown height of p4'
+		 [19] 'premolar width'
+		 [20] 'postorbital constriction'
+		 [21] 'entoconid crest of m1'
+		 [22] 'M1 protocone height'
+		 [23] 'P4 protocone crest'
+		 [24] 'paroccipital process'
+		 [25] 'P2'
+		 [26] 'outline of M1'
+		 [27] 'profile of forehead'
+		 [28] 'relative length of m1 trigonid and talonid'
+		 [29] 'crista behind M1 postprotocrista'
+		 [30] 'nasal and premaxillary'
+		 [31] 'P4 paracone crown height'
+		 [32] 'premaxillary-maxillary suture in palatal view'
+		 [33] 'condyloid foramen'
+		 [34] 'postorbital process of frontal'
+		 [35] 'infraorbital foramen'
+		 [36] 'angular process'
+		 [37] 'reduction of m1 metaconid'
+	;
+	STATELABELS
+		1
+		'present'
+		'absent'
+		,
+		2
+		'present'
+		'absent'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'present'
+		'absent'
+		,
+		5
+		'absent'
+		'small'
+		'large'
+		'further expansion'
+		,
+		6
+		'no'
+		'yes'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'hypoconid equal to entoconid'
+		'hypoconid dominate over entoconid'
+		,
+		15
+		'surrounding protocone lingually'
+		'posteriorly shifted and not surrounding protocone lingually'
+		'a widened shelf on posterolingual corner'
+		,
+		16
+		'absent or poorly developed'
+		'well developed'
+		,
+		17
+		'absent or weakly developed'
+		'distinctly developed'
+		,
+		18
+		'relatively low and not much exceeding m1 paraconid'
+		'relatively high and equal or exceeding m1 protoconid'
+		,
+		19
+		'narrow'
+		'widened'
+		,
+		20
+		'narrow'
+		'widened'
+		,
+		21
+		'fully enclosed on lingual side'
+		'notch on anterior end of entoconid crest'
+		'State 2'
+		,
+		22
+		'low'
+		'high'
+		'State 2'
+		,
+		23
+		'narrowly constricted and anteriorly located'
+		'thin and crest-like'
+		'broadened and posteriorly shifted'
+		'swollen and conical'
+		,
+		24
+		'not reduced'
+		'reduced'
+		,
+		25
+		'not reduced'
+		'much reduced relative to P3'
+		'lost'
+		,
+		26
+		'transverse width nearly twice anteroposterior length'
+		'transverse width less than twice anteroposterior length'
+		'approximately equal length and width'
+		,
+		27
+		'flat'
+		'domed'
+		,
+		28
+		'trigonid much longer than talonid'
+		'trigonid roughly equal to talonid'
+		'State 2'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'normally proportioned'
+		'nasal retracted and premaxillary protruded'
+		,
+		31
+		'relatively low'
+		'very high'
+		,
+		32
+		'across incisive foramen'
+		'at level of posterior edge of incisive foramen'
+		'behind posterior edge of incisive foramen'
+		,
+		33
+		'present'
+		'outside of posterior lacerate foramen'
+		'extremely reduced or absent'
+		'confluent with posterior lacerate foramen'
+		,
+		34
+		'present'
+		'extremely reduced or absent'
+		,
+		35
+		'one foramen'
+		'two or more foramina'
+		,
+		36
+		'small interior ramus for medial pterygoid muscle'
+		'enlarged interior ramus'
+		,
+		37
+		'no'
+		'yes'
+		
+	;
+	MATRIX
+	'Amphicynodon'		                      0000000000000000000000(0,0)00000000??0000
+	'Mustelavus'		                        1100000?00000000000000(0,0)00000000??00?0
+	'Mydaus'		                            1111211111100010010100(0,1)012010002(0,0)0000
+	'Palaeomephitis'		                    ??11111???1?0??????0??(0,1)02??0??0??????
+	'Promephitis'		                       1111211111110000000000(0,1)01100000?(0,0)0000
+	'Martinogale faulli'		                111121111100111?000000(0,0)00000000?(0,0)00?0
+	'Martinogale chisoensis'		            1111211?1100111100?000(0,0)001000?0?????0
+	'Martinogale alveodens'		             ?1???11?11?0?1?1111?0??????0???????00
+	'Buisnictis meadensis'		              11?1?11?11001111111?1?(0,0)00100000?????1
+	'Buisnictis burrowsi'		               ?1?1?11?11000111111?1?0??0?00?0?????1
+	'Buisnictis transitorius'		           111121??1100111??10011(0,1)1?1?0000?(0,0)0??0
+	'Brachyprotoma'		                     11112111110001?011111?(1,1)02210000?????0
+	'Spilogale'		                         1111311111001111111111(0,1)102000000(0,0)0100
+	'Mephitis'		                          1111211111000120011111(1,1)012110001(0,1)1010
+	'Osmotherium'		                       ?1?1211?11?1?1?001110?????11????????0
+	'Conepatus sanmiguelensis'		          1111211?1?000121111111(0,1)01211011?(1,1)1010
+	'Conepatus leuconotus'		              1111211111000121111122(0,1)022111112(1,1)1010
+	'Conepatus robustus'		                1111211?11000121111?2?(0,1)022?10?1?????0
+	'Conepatus semistriatus'		            1111211111010121111111(0,1)021120112(0,1)1110
+	'Conepatus altiramus'		               ?1???1??11?1?1?1111?1??????2???????10
+	'Conepatus sam spp'		                 1111211111000121111111(0,1)020120112(0,1)1110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 37;
+      ENDBLOCK;
+      

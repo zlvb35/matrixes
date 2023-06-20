@@ -1,0 +1,209 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-09 21.39.25 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+    		'Cryptobranchus alleganiensis'
+		'Proteus anguinus'
+		'Necturus maculosus'
+		'Necturus krausei'
+		'Paranecturus garbanii'
+		'Opisthotriton kayi'
+		'Prodesmodon copei'
+		'Scapherpeton tectum'
+		'Lisserpeton bairdi'
+		'Piceoerpeton willwoodense'
+		'Piceoerpeton naylori'
+		'Habrosaurus dilatus'
+		'Proamphiuma cretacea'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=23;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Relative depth of anterior cotyles'
+		 [2] 'Outline of anterior cotyles'
+		 [3] 'Form of odontoid process'
+		 [4] 'Position of neural canal relative to anterior cotyles'
+		 [5] 'Dorsal outline of posterior margin of neural arch roof'
+		 [6] 'Dorsal outline of neural crest'
+		 [7] 'Condition of anterior end of neural crest in dorsal view'
+		 [8] 'Postzygapophyses'
+		 [9] 'Condition of articular surface of odontoid process'
+		 [10] 'Alar-like process of centrum'
+		 [11] 'Lateral flanges of neural arch'
+		 [12] 'Condition of articular surface of odontoid process and anterior cotyles'
+		 [13] 'Position of odontoid process relative to anterior cotyles'
+		 [14] 'Form of centrum'
+		 [15] 'Posterior basapophyses'
+		 [16] 'Anterior basapophyses'
+		 [17] 'Position of ventral margin of subcentral keel in lateral view of middle trunk vertebrae relative to ventral margin of anterior and posterior cotyles'
+		 [18] 'Height of neural spine'
+		 [19] 'Height of neural crest of middle trunk vertebrae'
+		 [20] 'Form of transverse process'
+		 [21] 'Form of transverse process and condition of lateral ends of rib-bearer(s) of middle trunk vertebrae'
+		 [22] 'Condition of neural spine'
+		 [23] 'Mediolateral groove on the posterior face of the neural arch spanning between the neural spine and postzygapophyses'
+	;
+	STATELABELS
+		1
+		'nearly flat to shallowly excavated'
+		'moderate to deeply excavated'
+		,
+		2
+		'subcircular'
+		'compressed dorsoventrally'
+		'compressed lateromedially'
+		,
+		3
+		'anteriorly elongate knob'
+		'dorsoventrally flattened and reduced in length'
+		'dorsoventrally flattened and reduced further to a horizontal bar'
+		,
+		4
+		'above'
+		'partly between'
+		,
+		5
+		'truncate or pointed'
+		'forked'
+		,
+		6
+		'broadens posteriorly'
+		'narrows posteriorly'
+		,
+		7
+		'not emarginated laterally'
+		'emarginated laterally'
+		,
+		8
+		'prominent and laterally divergent'
+		'smaller and directed more ventrolaterally'
+		'". . . weakly developed and does not project ventrally or laterally any significant distance from the neural arch" (Gardner, 2003a:774)'
+		,
+		9
+		'large'
+		'small'
+		'absent'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'not confluent'
+		'confluent'
+		,
+		13
+		'midheight or lower'
+		'upper one-half'
+		,
+		14
+		'amphicoelous'
+		'semi-opisthocoelous'
+		'fully opisthocoelous'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'above'
+		'approximately in line'
+		'below'
+		,
+		18
+		'low'
+		'high'
+		,
+		19
+		'low, gently rises posteriorly onto base of neural spine'
+		'moderate in height, rises at a more pronounced angle posteriorly relative to dorsal surface of neural arch roof'
+		'high, rises at a pronounced angle and is equal to or greater than the height of the neural spine'
+		,
+		20
+		'bicipitate and appressed'
+		'bicipitate and divergent'
+		'unicipitate'
+		,
+		21
+		'bicipitate with dorsal and ventral rib-bearers hollow'
+		'bicipitate with dorsal rib-bearer solid and ventral rib-bearer hollow '
+		'unicipitate and solid'
+		,
+		22
+		'finished in cartilage'
+		'finished in bone'
+		,
+		23
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Cryptobranchus alleganiensis'		          00000000000000000000000
+	'Proteus anguinus'		                      01001100001110001002201
+	'Necturus maculosus'		                    010000000(0,1)1110000001(0,1)01
+	'Necturus krausei'		                      ?????????????0000001001
+	'Paranecturus garbanii'		                 0101????0100000000011?1
+	'Opisthotriton kayi'		                    10(1,2)1(0,1)101(1,2)(0,1)0001102000010
+	'Prodesmodon copei'		                     12210101210002102002210
+	'Scapherpeton tectum'		                   01011010000000002111000
+	'Lisserpeton bairdi'		                    01010110000000001111000
+	'Piceoerpeton willwoodense'		             1111?000200000001111000
+	'Piceoerpeton naylori'		                  1111????200000000?110?0
+	'Habrosaurus dilatus'		                   0100????000100010022210
+	'Proamphiuma cretacea'		                  10010102000000010022210
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Atlas';
+	TEXT CHARACTER=2 TEXT='Atlas';
+	TEXT CHARACTER=3 TEXT='Atlas';
+	TEXT CHARACTER=4 TEXT='Atlas';
+	TEXT CHARACTER=5 TEXT='Atlas';
+	TEXT CHARACTER=6 TEXT='Atlas';
+	TEXT CHARACTER=7 TEXT='Atlas';
+	TEXT CHARACTER=8 TEXT='Atlas';
+	TEXT CHARACTER=9 TEXT='Atlas';
+	TEXT CHARACTER=10 TEXT='Atlas';
+	TEXT CHARACTER=11 TEXT='Atlas';
+	TEXT CHARACTER=12 TEXT='Atlas';
+	TEXT CHARACTER=13 TEXT='Atlas';
+	TEXT CHARACTER=14 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=15 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=16 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=17 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=18 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=19 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=20 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=21 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=22 TEXT='Trunk vertebrae';
+	TEXT CHARACTER=23 TEXT='Trunk vertebrae';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 23;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1365803387979 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 5352179833155785034 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 8448622067267012586 ; mqVersion 275 ; checksumv 0 3 2341900995 null getNumChars 23 numChars 23 getNumTaxa 13 numTaxa 13 short true bits 7 states 7 sumSquaresStatesOnly 894.0 sumSquares 894.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 176 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1030 211 ; setLocation -1221 61 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #8448622067267012586 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 854 144 ; setLocation -1221 61 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 23 ;
+ENDBLOCK;

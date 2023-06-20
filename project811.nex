@@ -1,0 +1,700 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 16.05.14 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=64;
+    TAXLABELS
+    		'Acerentomon'
+		'Aglaspis'
+		'Agnostus'
+		'Alalcomenaeus'
+		'Alima'
+		'Androctonus'
+		'Anomalocaris'
+		'Argulus'
+		'Artemia'
+		'Aysheaia'
+		'Baltoeurypterus'
+		'Branchiocaris'
+		'Bredocaris'
+		'Burgessia'
+		'Calanus'
+		'Campodea'
+		'Canadaspis'
+		'Cheloniellon'
+		'Corynothrix'
+		'Cypridina'
+		'Derocheilocaris'
+		'Echiniscus'
+		'Emeraldella'
+		'Galathea'
+		'Habelia'
+		'Julus'
+		'Kalbarria'
+		'Kerygmachela'
+		'Leanchoilia'
+		'Lepas'
+		'Lepidocaris'
+		'Lepisma'
+		'Sandersiella'
+		'Lithobius'
+		'Marrella'
+		'Martinssonia'
+		'Mimetaster'
+		'Molaria'
+		'Nahecaris'
+		'Naraoia'
+		'Nebalia'
+		'Odaraia'
+		'Olenoides'
+		'Opabinia'
+		'Pauropus'
+		'Peripatiodes'
+		'Periplaneta'
+		'Perspicaris'
+		'Rehbachiella'
+		'Sanctacaris'
+		'Sarotrocercus'
+		'Scutigerella'
+		'Sidneyia'
+		'Skara'
+		'Speleonectes'
+		'Tachypleus'
+		'Triarthrus'
+		'Lepidurus'
+		'Vachonisia'
+		'Waptia'
+		'Weinbergina'
+		'Yohoia'
+		'Annelida'
+		'Mollusca'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=97;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789ABCDEFGH";
+	CHARLABELS
+		 [1] 'Cuticle sclerotization'
+		 [2] 'Ecdysial sutures'
+		 [3] 'Cuticle sculpture'
+		 [4] 'Cephalic shield'
+		 [5] 'Anterior margin of carapace'
+		 [6] 'Posterior margin of carapace'
+		 [7] 'Ventral extent of the carapace'
+		 [8] 'Style of post-cephalic articulation'
+		 [9] 'Extent of the anteroposterior division of the dorsal cuticle'
+		 [10] 'Reflexion of the more heavily sclerotized dorsal cuticle of the cephalic shield to form a doublure'
+		 [11] 'Marginal rim'
+		 [12] 'Pygidium'
+		 [13] 'Genal spines'
+		 [14] 'Eye ridges'
+		 [15] 'Cardiac lobe'
+		 [16] 'Articulating half-rings'
+		 [17] 'Outline of posterior trunk tergites in dorsal aspect'
+		 [18] 'Prominent, thick, and armlike lateral extensions from the carapace, approaching the length of the body itself'
+		 [19] 'Transverse wrinkling of the dorsal cuticle'
+		 [20] 'Well-developed epistome'
+		 [21] 'Orientation of anterior esophagus'
+		 [22] 'Labrum'
+		 [23] 'Condition of labrum'
+		 [24] 'Number of median eyes'
+		 [25] 'Lateral eyes'
+		 [26] 'Compound eyes'
+		 [27] 'Position of lateral eyes'
+		 [28] 'Organs of Tomosvary'
+		 [29] 'Number of post-acronal somites incorporated into the cephalon'
+		 [30] 'Nature of first appendage'
+		 [31] 'Form of the first appendage'
+		 [32] 'Inner ramus of second appendage'
+		 [33] 'Outer ramus of second appendage'
+		 [34] 'Form of outer ramus of appendage of second post-acronal somite'
+		 [35] 'Form of the appendage of the second post-acronal somite'
+		 [36] 'Gnathobases on appendages of the third post-acronal somite'
+		 [37] 'Form of third appendage'
+		 [38] 'Gnathal lobe of third appendage'
+		 [39] 'Degree of fusion of the appendage of the fourth post-acronal somite'
+		 [40] 'Degree of fusion of the appendage of the fifth post-acronal somite'
+		 [41] 'Total number of somites in cephalon and trunk, excluding the telson (not a true somite) or terminal division'
+		 [42] 'Differentiation of trunk somites'
+		 [43] 'Ventrolateral arthropod or lobopod appendages'
+		 [44] 'Attitude of the trunk appendages relative to the body'
+		 [45] 'Gross morphology of trunk appendages'
+		 [46] 'Correlation between trunk segments and appendages'
+		 [47] 'Relative length of limbs along the length of the trunk'
+		 [48] 'Inner ramus of trunk (eighth) appendages'
+		 [49] 'Inner ramus of trunk (eighth) appendages with a terminal group of reflexed, clawlike spines'
+		 [50] 'Spinose inner ramus of trunk (eighth) appendages'
+		 [51] 'Number of podomeres in inner ramus of trunk (eighth) appendages'
+		 [52] 'Form of "knee" in inner ramus of trunk (eighth) appendages'
+		 [53] 'Outer ramus of trunk (eighth) appendages'
+		 [54] 'Filaments on the outer ramus of the trunk (eighth) appendages'
+		 [55] 'Segmentation of the outer ramus of the trunk (eighth) appendages'
+		 [56] 'Organization of the outer rami of the trunk (eighth) appendages'
+		 [57] 'Distal lobe on outer ramus of trunk (eighth) appendages'
+		 [58] 'Epipodite arising from trunk (eighth) appendages'
+		 [59] 'Gnathobases or protopodal endites on trunk (eighth) appendages'
+		 [60] '"Orsten"-type appendages'
+		 [61] 'Suppression of the sixth pair of appendages (anteriormost trunk appendages)'
+		 [62] 'Sixth appendages (anteriormost trunk) modified as poison fangs'
+		 [63] 'Collum'
+		 [64] 'Mobile appendages on terminal division'
+		 [65] 'Condition of the appendages of the posteriormost trunk somite'
+		 [66] 'Location of the anus'
+		 [67] 'Gross form of the terminal body division'
+		 [68] 'Terminal body division with three, dorsolaterally directed lobes, forming a tail fan'
+		 [69] 'Border of the posterior body division'
+		 [70] 'Postventral plate'
+		 [71] 'Cuticle of alpha chitin and protein'
+		 [72] 'Resilin'
+		 [73] 'Tracheae'
+		 [74] 'Intersegmental tendon system'
+		 [75] 'Carapace adductor muscles'
+		 [76] 'Suppression of all circular body wall musculature'
+		 [77] 'Muscle'
+		 [78] 'Pretarsal segment of inner ramus of trunk appendages with only a single muscle'
+		 [79] 'Structure of brain'
+		 [80] 'Acronal protocerebrum serving the eyes (where present) and containing an association center connected with pedunculate bodies'
+		 [81] 'Malpighian tubules'
+		 [82] 'Gonads'
+		 [83] 'Nephridia with sacculi'
+		 [84] 'Reduction in number of nephridia (number of post-cephalic segments containing nephridia)'
+		 [85] 'Gut diverticulae'
+		 [86] 'Cephalic (at least anterior) ecdysial glands'
+		 [87] 'Repugnatorial glands'
+		 [88] 'Reduction of the coelom (hemocoel and circulatory system with  dorsal blood vessel, paired ostia, and pericardial sinus)'
+		 [89] 'Dorsal blood vessel'
+		 [90] 'Two primary pigment cells in ommatidia'
+		 [91] 'Specialized ommatidial structures'
+		 [92] 'Cilia'
+		 [93] 'Ordering of fate map tissues from anterior to posterior'
+		 [94] 'Superficial blastoderm formation'
+		 [95] 'Embryos with four gangliar post-oral segments'
+		 [96] 'Number of anatomically pre-oral limb-bearing segments in the larva'
+		 [97] 'Nauplius or egg nauplius in development'
+	;
+	STATELABELS
+		1
+		'cuticle unsclerotized, or very weakly sclerotized but not forming articulated plates (sclerites)'
+		'cuticle sclerotized and forming sclerites'
+		,
+		2
+		'not visible'
+		'visible and marginal'
+		'visible and dorsal'
+		,
+		3
+		'smooth'
+		'strongly tuberculate'
+		,
+		4
+		'absent or developed only as a simple head capsule'
+		'simple head shield, entire carapace as a single unit, or followed by a variable number of tergites in association with it'
+		'bivalved carapace'
+		,
+		5
+		'rounded or invaginated'
+		'produced into a fixed rostral spine'
+		'produced into an articulating rostral spine'
+		,
+		6
+		'straight or rounded'
+		'with a sharp, V-shaped invagination, diverging at an angle of less than 100 degrees from the apex'
+		,
+		7
+		'carapace covering the anterior dorsum and possibly the sides of the animal, but leaving the appendages to protrude more than half of their length beneath it'
+		'carapace all-enveloping'
+		,
+		8
+		'without overlapping pleurae'
+		'with overlapping pleurae'
+		,
+		9
+		'not trilobed'
+		'trilobed'
+		,
+		10
+		'not reflexed'
+		'reflexed'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'straight or slightly curved'
+		'strongly curved or semicircular'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'anterior to posterior or ventral to dorsal (mouth terminal or ventral)'
+		'posterior to anterior (mouth facing backward)'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'attached'
+		'natant'
+		,
+		24
+		'none'
+		'two'
+		'three'
+		'four'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'on dorsal cuticle of cephalon'
+		'free or pedunculate beneath carapace'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'none'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		'seven'
+		,
+		30
+		'uniramous'
+		'biramous'
+		,
+		31
+		'antennule or antenna'
+		'vestigial antennule or antenna (unsegmented or single-segmented appendages, found solely in some crustaceans and the Protura)'
+		'chelicera'
+		'relatively small, possibly chelate and grasping, but not homologous with the chelicera of arachnids (Aglaspis: Briggs et al. 1979)'
+		'biramous, raptorial, and forming an integral part of an anteriorly dircted grasping basket (Sanctacaris)'
+		'as in Sartrocercus'
+		'"great appendage" composed of three massive proximal podomeres, with distal spines. In Leanchoilia and Alalcomenaeus the n-1 and n-2 podomeres are barlike with a flagellar extension (Whittington 1981; Bruton and Whittington 1983)'
+		'massive and sclerotized, bearing large spines on the inner margin, and capable of flexing beneath the animal to the ventral mouth (Anomalocaris: Whittington and Briggs 1985)'
+		'fused and proboscis-like, with a terminal cla bearing serrations on the inner margins (Opabinia: Whittington 1975)'
+		'fleshy, unsclerotized, and unjointed "grasping" appendage, bearing spines on the inner margin (Kerygmachela: Budd 1993)'
+		'simple, unsclerotized lobopod with terminal hooks (Echiniscus)'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'filiform or filamentous'
+		'developed as an antennal scale or scaphocerite'
+		,
+		35
+		'unspecialized and undifferentiated from those that follow'
+		'antenniform'
+		'as in Agnostus (autapomorphic)'
+		'as in Branchiocaris'
+		'pedipalps'
+		'as in Marrella'
+		'bladelike jaw as in Peripatoides'
+		'as in Mimetaster'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'unspecialized'
+		'gnathobasic mandible'
+		'mandible biting with tip'
+		'slime papillae'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'not fused'
+		'medially coalesced'
+		'fused to form a gnathochilarium'
+		,
+		40
+		'not fused'
+		'medially coalesced'
+		'fused to form a labium'
+		,
+		41
+		'5'
+		'9'
+		'10'
+		'12'
+		'13'
+		'14'
+		'15'
+		'16'
+		'17'
+		'18'
+		'19'
+		'20'
+		'22'
+		'23'
+		'24'
+		'25'
+		'>25'
+		,
+		42
+		'no gross differentiation of somites'
+		'trunk somites grouped into tagmata'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'pendent or located beneath the trunk'
+		'laterally deflected'
+		,
+		45
+		'lobopodous or very lightly sclerotized and lamellate'
+		'strongly sclertotized and rigid or composed of a number of articulating podomeres'
+		,
+		46
+		'segmentation distinct, with one pair of appendages per division, or segmentation indistinct (simple absence of visible intersomite boundaries) with one limb pair per embryonic somite'
+		'segmentation distinct, with more pairs of appendages than divisions'
+		,
+		47
+		'more or less constant or increasing'
+		'trunk limbs regularly diminishing in length'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'not clawed'
+		'clawed'
+		,
+		50
+		'not spinose'
+		'spinose'
+		,
+		51
+		'one'
+		'three'
+		'four'
+		'five'
+		'six'
+		'seven'
+		'eight'
+		'11'
+		'14'
+		'>14'
+		,
+		52
+		'segment'
+		'joint'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'unsegmented'
+		'segmented'
+		,
+		56
+		'around a simple, longitudinal rhachis'
+		'around a flattened lamellate or lobate region'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'distinctive'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'not suppressed'
+		'suppressed'
+		,
+		62
+		'not modified'
+		'modified'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent or, if present, independent of the telson'
+		'present as uropods incorporated into a tail fan'
+		,
+		66
+		'terminal'
+		'ventral in the terminal division of the body'
+		'ventral in the penultimate division of the body'
+		,
+		67
+		'rounded'
+		'styliform'
+		'paddle-shaped or platelike'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'smooth'
+		'flanked with fine spines'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'no'
+		'yes'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'no'
+		'yes'
+		,
+		77
+		'striated and smooth'
+		'all striated'
+		,
+		78
+		'no'
+		'yes'
+		,
+		79
+		'less than bipartite'
+		'bipartite or tripartite'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'endodermal'
+		'ectodermal'
+		,
+		82
+		'ventral'
+		'dorsal'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'more than four'
+		'four or less'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'no'
+		'yes'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'variable and higher number of components than state 1'
+		'two corneagen cells, four Semper cells (usually producing a cone with four parts), and a retinula with eight cells (one or two of which may be modified as short basal cells)'
+		,
+		92
+		'many tissues ciliate'
+		'no cilia except in photoreceptors and/or sperm'
+		,
+		93
+		'anterior - stomodaeum - midgut - mesoderm - posterior'
+		'anterior -  midgut - mesoderm - stomodaeum -posterior'
+		,
+		94
+		'no'
+		'yes'
+		,
+		95
+		'no'
+		'yes'
+		,
+		96
+		'two or more'
+		'one or less'
+		,
+		97
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Acerentomon'		              10000000000000000000010000?050000??02002A111100100210????00000000000001111011111211101011??101010
+	'Aglaspis'		                 10110001111010101000?100110040310?0100006011100100200????0100000021001??0?01????????0????????????
+	'Agnostus'		                 11010000111110000000111000?0400010210000101010010150101000110000010000??0?01????????1?????????11?
+	'Alalcomenaeus'		            1001000101000000000011021100406110010000601010010170110100100000012010??0?01????????0????????????
+	'Alima'		                    1001200101000000000111121110510111111000A110100100200????1000000110000110101101101110101101111011
+	'Androctonus'		              1001000000000010000000?1100060210?41000091111000???00????0000000021000110101101111111101100111110
+	'Anomalocaris'		             1001000000000000000000?0110040710000000060110000????100100000001000100??0?00?????????????????????
+	'Argulus'		                  100100000000000000001112111050010?111000211110010000101000000000000000110101101101110101101111011
+	'Artemia'		                  100000000000000000001102110050110?111000E11010010000100101100001000000110101101101111101101111011
+	'Aysheaia'		                 0000000000000000001000?000?010010?0000004011000111??0????0000001000000??0?00????????0????????????
+	'Baltoeurypterus'		          110100010110001000001111110060210?01000091111000????0????0000000021000??0?01????????0????????????
+	'Branchiocaris'		            10020110000000000000011000?020010?300000G0101110????101100000000000000??0?11????????0????????????
+	'Bredocaris'		               1001000000000000000011001110500110011000411010010120100000110001000000??0?11????????????????????1
+	'Burgessia'		                1001000000100000000010?000?0400110000000301110010040100100000000021000??0?01????????1????????????
+	'Calanus'		                  10010000000000000000111200?0500110111000611010010010101000000001000000110101101101110101101111011
+	'Campodea'		                 10000000000000000000010000?050000??020029111100100210????00000010000001111011111211101011??101010
+	'Canadaspis'		               100201000000000000001110111050110?111000811010010180100100100000000000??0?11????????0????????????
+	'Cheloniellon'		             10110001110000001000?110110060010?0100006011100100301110000000000?0000??0?01????????0????????????
+	'Corynothrix'		              100000000000000000000103110050000??020024110100100210????0000001000000110101111121110101111101010
+	'Cypridina'		                100200100100000000001110111050011011100000101000????0????0000001000000110111101101110101101111011
+	'Derocheilocaris'		          10010000000000000000111300?05001100110006110100100000????0000001000000110101101101110101101111011
+	'Echiniscus'		               1000000000000000000000?0100010A10?0000000011000110??0????00000000100001100010?1001010000000001010
+	'Emeraldella'		              10010001010000001000110000?060010?010000A111100101401101101000000?1001??0?01????????0????????????
+	'Galathea'		                 1001100101000000000111121110510111111000A111100100300????1000000112000110101101101111101101111011
+	'Habelia'		                  10110001101000000000???000?03001100?00006010100101?0110100?00000011010??0?01????????0????????????
+	'Julus'		                    100000010000000000000100100140000??0212?G011110100400????0001?10000000111101111121110111101101010
+	'Kalbarria'		                11000001000010000000?100110030000???(1,2)0000111110100?00????0000000021000????01????????0????????????
+	'Kerygmachela'		             001000000000000000100??000?01091100000003011000100??1001000000010?0000??0?00????????0????????????
+	'Leanchoilia'		              10010001100000001000010000?0306110000000501010010060110100000000021010??0?01????????0????????????
+	'Lepas'		                    10020010000000000000111200?050000??11000311010010090101000000000000000110111101101111101101111011
+	'Lepidocaris'		              10010000000000000000110000?0501110111000C11010010000100000100001000000??0?01????????0???????????1
+	'Lepisma'		                  100000000000000000000102110050000??02002A111100100310????0000001000000111101111121110101111101010
+	'Sandersiella'		             10010001010000000000110001?0500110111000E11010010040101001100001000000110111101101111101101111011
+	'Lithobius'		                100000000000000000000100110150000??02111D011100100300????0000100000000111101111121110111101101010
+	'Marrella'		                 10010000010000000100?10000?020010?500000G01110110030111000000000000000??0?01????????0????????????
+	'Martinssonia'		             10010000000000000000110000?050011001000031101000????0????0010000010000??0?11????????0???????????0
+	'Mimetaster'		               10010000000000000100?101110030010?700000G01110110050111000000000000000??0?01????????0????????????
+	'Molaria'		                  10010001111000001000110000?0400110010000301010010140110100100000021000??0?01????????1????????????
+	'Nahecaris'		                1002201000000000000011101110510110111000B11110010050100000?00001011000??0?11????????0????????????
+	'Naraoia'		                  10010001111100000000110000?0400110010000B01110010140110110100000010000??0?01????????1?????????11?
+	'Nebalia'		                  100220110000000000001110111051010?111000B11010010010100101000001000000110111101101110101101111011
+	'Odaraia'		                  100201100000000000001112111050?10?111000G01011110030100100100000000000??0?11????????0????????????
+	'Olenoides'		                1211000111111101100011031100400110010000811110010140110010100000010000??0?01????????1?????????11?
+	'Opabinia'		                 000000000000000000001102110010801000000070110000????100100000000000100??0?00????????1????????????
+	'Pauropus'		                 10000000000000000000010000?140000??0212?6011110100500????0001?100000001101011111211101111??101010
+	'Peripatiodes'		             0000000000000000001000?0100030010?603000B011000110??0????00000010100001110000?1101000001100101000
+	'Periplaneta'		              100000000000000000000102110050000??02002A111100100210????0000000000000111101111121111101111101010
+	'Perspicaris'		              10020110000000000000?110111050110?1??000B1101000????100100?00001000000??0??1????????0????????????
+	'Rehbachiella'		             1001000000000000000011001110500110111000911110110020100000100001000000??0111????????????????????1
+	'Sanctacaris'		              10010001111000100000?1001110614110010000811110010160100100100000022010??0?01????????0????????????
+	'Sarotrocercus'		            10010001110000001000?100111020501000000030101000????1101000000000?1000??0?01????????0????????????
+	'Scutigerella'		             10000000000000000000010000?150000??02112A011100100200????00001000000001111011111211101111??101010
+	'Sidneyia'		                 1101000101000000100010?01110100110010000411110010160110100100000112000??0?01????????0????????????
+	'Skara'		                    10010000010000000000110000?050011001100071101000????0????0010001000000??0?01????????0???????????1
+	'Speleonectes'		             10010001010000000000110000?0510110111000F011100100201110000000010000001101011011011101011??11101?
+	'Tachypleus'		               110100001110101000001111110060210?410000501110010020100100000000021000110101101101110101100111110
+	'Triarthrus'		               1201000111111101100011131100400110010000G11110010040110000100000010000??0101????????1?????????11?
+	'Lepidurus'		                110100000100100000001103110050110?111000G11111110000100101100001010000110111101101111101101111011
+	'Vachonisia'		               1?010000010000000000?10000?040110?010000G01110110030111000000000000000??0?01?????????????????????
+	'Waptia'		                   10020000000000000000?110111050010?1?????B110100100??0????0?00001000000??0?11????????0????????????
+	'Weinbergina'		              111100011100011000001110110070210?01000080111000????110100000000021000??0?01?????????????????????
+	'Yohoia'		                   100100011100100000000100111040610?00000081101000????100100000000012010??0?01????????0????????????
+	'Annelida'		                 0000000000000000001000?000?000?00??0?????00????0????0????00?00000?00000000000?11000000001??000000
+	'Mollusca'		                 0000000000000000000000?000?000?00??0?????00????0????0????00?00000000000000000?000000?0000??010000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 97;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

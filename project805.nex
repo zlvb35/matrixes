@@ -1,0 +1,136 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 15.59.12 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+    		'Olenoides serratus'
+		'Naraoia compacta'
+		'Marrella splendens'
+		'Furca bohemica'
+		'Mimetaster hexagonalis'
+		'Vachonisia rogeri'
+		'Xylokorys chledophilia'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'Single dorsal shield with ventral shelf and median ridge'
+		 [2] 'Anterolateral spines'
+		 [3] 'Mediolateral spines'
+		 [4] 'Posterolateral spines'
+		 [5] 'Secondary spines'
+		 [6] 'Inflated cephalic shield'
+		 [7] 'Compound eyes'
+		 [8] 'Biramous cephalic appendages'
+		 [9] 'Cephalic exopods much longer than endopods'
+		 [10] 'Chelate cephalic endopods'
+		 [11] 'Antenniform fifth appendage'
+		 [12] 'High number of trunk somites'
+		 [13] 'Trunk endopod endites'
+		 [14] 'Trunk exopod setae'
+		 [15] 'Trunk exopod setae orientation'
+		 [16] 'Trunk exopod multisegmented with individual setae on each podomere'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent (<25)'
+		'present (>25)'
+		,
+		13
+		'spiniferous'
+		'rounded'
+		,
+		14
+		'lamellate'
+		'filamentous'
+		,
+		15
+		'laterally-directed'
+		'medially-directed'
+		,
+		16
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Olenoides serratus'		              0???-01100000000
+	'Naraoia compacta'		                0000-00100000000
+	'Marrella splendens'		              0011000000111111
+	'Furca bohemica'		                  011111??????????
+	'Mimetaster hexagonalis'		          0111111000111111
+	'Vachonisia rogeri'		               1000-00111110111
+	'Xylokorys chledophilia'		          1000-00111111111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The head and trunk of X. chledophilia and V. rogeri are covered by a dorsal shield. Homology with other arthropod structures is unclear (K"¼hl et al. 2008), although Lin et al. (2006) considered the dorsal shield of parvancorinomorphs to be homologous. The dorsal shields of X. chledophilia and V. rogeri possesses a flat doublure on the edge outer margins of the dorsal shield (Fig. 1B), i.e., a ventral shelf (sensu K"¼hl et al. 2008), and a medial ridge-like structure. The latter is not to be mistaken with the "median keel" in the rostrum of Mimetaster (sensu K"¼hl and Rust 2010).';
+	TEXT CHARACTER=2 TEXT='This and other characters that refer to the spines in the cephalic shield of marrellmorphs (characters 2 "" 4) are coded as uncertain for Olenoides, as their relationship, if any, with the genal spines of trilobites cannot be reliably established.';
+	TEXT CHARACTER=3 TEXT='The medial spines of F. bohemica are similar in morphology to the "lateral" spines of Ma. splendens (Fig. 1A) and are therefore considered homologous. Further evidence for the homology of the medial spines of F. bohemica and M. hexagonalis with the "lateral" spines of Ma. splendens comes from an aberrant specimen of the latter species that bears an additional pair of anterior spines (Whittington 1971: pl. 18: 3 [GSC26600]). This specimen has been interpreted by Van Roy (2006) as a possibly atavistic individual, thus suggesting that F. bohemica and M. hexagonalis display the plesiomorphic condition of this character. Under this scheme, the anterolateral spines (as defined herein) have been secondarily lost in Ma. splendens.';
+	TEXT CHARACTER=5 TEXT='The cephalic spines of F. bohemica and M. hexagonalis are fringed with delicate secondary spines. All specimens of Ma. splendens have serrated posterolateral spines (Whittington 1971; Garc"­a-Bellido and Collins 2006), but no secondary spines are present (Fig. 1A2). The serration is not considered homologous to the secondary spines, as the latter appear to be separate from the cephalic shield and possibly detachable; a close relationship between the serrated edges of Ma. splendens and the triangular bases of the secondary spines observed in F. bohemica remains a possibility.';
+	TEXT CHARACTER=6 TEXT='The cephalic shields of F. bohemica and M. hexagonalis have a raised central area. In M. hexagonalis this area is^nassociated with a pair of median eyes.';
+	TEXT CHARACTER=9 TEXT='The cephalic exopods of V. rogeri (K"¼hl et al. 2008), and X. chledophilia (Siveter et al. 2007) are considerably longer than their corresponding endopods. The second cephalic appendage of Ma. splendens is setiferous (see Garc"­a-Bellido and Collins 2006: fig. 11B), thus suggesting that it is an exopod; although this appendage is uniramous, we interpret the secondary loss of the endopod and thus score this characters as present in Ma. splendens. This character is coded as uncertain for Mimetaster as it is unclear is the uniramous cephalic appendages of this taxon are endopods or exopods due to the lack of setae.';
+	TEXT CHARACTER=11 TEXT='The fifth cephalic appendage of V. rogeri and X. chledophilia is antenniform. This appendage is uniramous and nonsetiferous, making it unclear whether it is an endopod or an exopod.';
+	TEXT CHARACTER=13 TEXT='Unlike many arthropods (e.g., trilobites, naraoiids), which have spiniferous endites on their trunk endopods, marrellomorphs have rounded endites (Fig. 1C).';
+	TEXT CHARACTER=14 TEXT='Marrellomorphs were previously placed in the Lamellipedia Hou and Bergstr"¶m, 1997, based on the presence of lamellate respiratory organs on the trunk exopods. The exopod setae of Ma. splendens, however, are filamentous (Garc"­a-Bellido and Collins 2006: fig. 13C), as are the setae of M. hexagonalis (K"¼hl and Rust 2010: fig. 3b). The setae of X. chledophilia are poorly preserved, as such this character is coded as uncertain. The lanceolate exopod setae of V. rogeri are coded as filamentous. Lamellate exopod setae are characteristic of trilobites (e.g., Olenoides) and trilobite-like arthropods (e.g., Naraoia).';
+	TEXT CHARACTER=15 TEXT='This character is specific to the appendage"''s setae in the trunk region. Cotton and Braddy(2004) suggested that the presence of medially-directed exopod setae is synapomorphic for marrellomorphs and crustaceanomorphs. Although both taxa possess medially-directed setae, they are not considered homologous herein. The medially-directed exopod setae of marrellomorphs are restricted to the trunk appendages, whereas those of fossil crustaceanomorphs (e.g., Martinssonia M"¼ller and Walossek 1986) are restricted to the cephalon, with the trunk exopods bearing laterally directed setae. This character can be hard to code from dorso-ventrally flattened specimens, but is clearer from isolated limbs. The exopod setae of Olenoides and Naraoia are laterally directed (see Hou and Bergstr"¶m 1997: fig. 41).';
+	TEXT CHARACTER=16 TEXT='As with character 16, this character refers exclusively to the exopod setae of the trunk appendages and not the cephalic appendages.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 16;
+      ENDBLOCK;
+      

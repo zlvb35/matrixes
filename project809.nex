@@ -1,0 +1,590 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 16.02.33 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=41;
+    TAXLABELS
+    		'Pitangus sulphuratus'
+		'Liosceles thoracicus'
+		'Merulaxis ater'
+		'Merulaxis stresemanni'
+		'Eleoscytalopus indigoticus'
+		'Eleoscytalopus psychopompus'
+		'Myornis senilis'
+		'Eugralla paradoxa'
+		'Scytalopus speluncae'
+		'Scytalopus iraiensis'
+		'Scytalopus pachecoi'
+		'Scytalopus magellanicus'
+		'Scytalopus macropus'
+		'Scytalopus femoralis'
+		'Scytalopus unicolor'
+		'Scytalopus latrans'
+		'Scytalopus spillmanni'
+		'Scytalopus meridanus'
+		'Teledromas fuscus'
+		'Rhinocrypta lanceolata'
+		'Scelorchilus rubecula'
+		'Pteroptochos tarnii'
+		'Pteroptochos castaneus'
+		'Psilorhamphus guttatus'
+		'Acropternis orthonyx'
+		'Grallaria varia'
+		'Hylopezus ocholeucus'
+		'Hylopezus macularius'
+		'Formicarius colma'
+		'Conopophaga lineata'
+		'Geositta cunicularia'
+		'Sittasomus griseicapillus'
+		'Dendrocolaptes platyrostris'
+		'Syndactyla rufosuperciliata'
+		'Phacellodomus striaticollis'
+		'Cranioleuca sulphurifera'
+		'Furnarius rufus'
+		'Melanopareia torquata'
+		'Sclateria naevia'
+		'Myrmotherula unicolor'
+		'Mackenziaena severa'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=90;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'A1b - Rostro pré-maxilar, tamanho'
+		 [2] 'A3 - Processo nasal do pré-maxilar, forma'
+		 [3] 'A3c - Processo nasal do pré-maxilar, largura do mesorinum'
+		 [4] 'A5b - Maxila, pneumatização'
+		 [5] 'A7 - Septo nasal, ossificação'
+		 [6] 'A8 - Lâmina recorrente do septo nasal, tamanho'
+		 [7] 'A9 - Parede alinasal, ossificação'
+		 [8] 'A10 - Narina, extensão da margem caudal'
+		 [9] 'A11 - Processo pré-maxilar do nasal, borda lateral'
+		 [10] 'A12 - Maxilopalatino, forma'
+		 [11] 'A14 - Transpalatino, tamanho'
+		 [12] 'A14b - Barra jugal, forma'
+		 [13] 'A14c - Barra jugal, margem lateral'
+		 [14] 'A15c - Vômer, composição'
+		 [15] 'A15b - Vômer composto, largura da bifurcação'
+		 [16] 'A15 - Vômer composto, configuração dos turbinais alinasais'
+		 [17] 'A16b - Processo mandibular do quadrado, côndilo lateral'
+		 [18] 'A17 - Ectetmóide, extensão dorsal da lâmina'
+		 [19] 'A18 - Ectetmóide, constituição'
+		 [20] 'A19 - Ectetmóide, largura do processo ou projeção jugal em sua extremidade ventral'
+		 [21] 'A19b - Ectetmóide, contato com a barra jugal'
+		 [22] 'A20 - Ectetmóide, projeção rostral lateral'
+		 [23] 'A21 - Ectetmóide, projeção rostral medial'
+		 [24] 'A21b - Ectetmóide, abertura medial'
+		 [25] 'A23 - Ectetmóide, arqueamento da porção lateral da lâmina'
+		 [26] 'A24b - Lacrimal, configuração'
+		 [27] 'A24 - Lacrimal, forma'
+		 [28] 'A25 - Lacrimal, forâmen rostral'
+		 [29] 'A27b - Septo interorbital'
+		 [30] 'A29 - Frontal, aresta'
+		 [31] 'A30b - Região dos ossos parietal e frontal, pneumatização'
+		 [32] 'A32 - Processo pós-orbital, configuração'
+		 [33] 'A34b - Processo zigomático, margem ventral'
+		 [34] 'A35 - Chapa paraesfenoidal, margem rostral'
+		 [35] 'A36 - Fossa temporal, longitude'
+		 [36] 'A37 - Processo paraoccipital'
+		 [37] 'A38c - Mandíbula, margem lateral da extremidade caudal'
+		 [38] 'A38d - Processo medial da mandíbula, forâmen'
+		 [39] 'A38e - Mandíbula, pneumatização'
+		 [40] 'A39b - Manúbrio, asas ou processos'
+		 [41] 'A 39 - Manúbrio, forâmen'
+		 [42] 'A42b - Esterno, incisões ou fenestras'
+		 [43] 'A44 - Coracóide, tuberosidade braquial, forâmen'
+		 [44] 'A45 - Clavículas, configuração medial'
+		 [45] 'A46 - Hipocleido, configuração'
+		 [46] 'A47 - Escápulo, processo cranial'
+		 [47] 'A48 - Úmero, fossa pneumática'
+		 [48] 'A49 - Ulna, tamanho'
+		 [49] 'A51 - Ílio, cristas ilíacas dorsais'
+		 [50] 'A52b - ìlio, projeções posteriores da crista'
+		 [51] 'A56b - Vértebras sacrais, fenestras'
+		 [52] 'A57 - Fêmur, forâmen pneumático na superfície caudal do pescoço'
+		 [53] 'A61 - Extremidade proximal do tibiotarso, tamanho da crista cnemial'
+		 [54] 'A62 - Sulco intercnemial do tibio-tarso'
+		 [55] 'A64 - Hipotarso, ossificação do canal tendinal lateral externo'
+		 [56] 'A64b - Hipotarso, ossificação do canal tendinal medial externo'
+		 [57] 'A65 - Tarso-metatarso, desenvolvimento da crista plantar lateral'
+		 [58] 'A68 - Extremidade distal do tarso-metatarso, disposição apical das trócleas'
+		 [59] 'A71 - Tróclea II, sulco'
+		 [60] 'A72 - Tróclea III, profundidade do sulco'
+		 [61] 'A73 - Tróclea IV, sulco'
+		 [62] 'A74 - Dígito IV, falange proximal'
+		 [63] '1. Processus vocalis'
+		 [64] '2. Constituição do Processus vocalis'
+		 [65] '3. Ponto mais caudal de apoio do Processus vocalis'
+		 [66] '4. Variação da largura do Processus vocalis'
+		 [67] '6. Orientação da porção cranial do Processus vocalis'
+		 [68] '7. Consitência da porção cranial do Processus vocalis'
+		 [69] '8. Projeção dorsal na porção caudal do Processus vocalis'
+		 [70] '9. Placa ossificada no Processus vocalis'
+		 [71] '11. Processus vocalis, diferença de tamanho'
+		 [72] '12. Cornos no Processus vocalis'
+		 [73] '14. Membranae tracheales'
+		 [74] '15. Redução / ausência dos elementos A3-A5 dorsalmente'
+		 [75] '16. Protuberância cartilaginosa ventral na porção caudal da siringe'
+		 [76] '17. Presença de janela cranial na Membrana trachealis'
+		 [77] '18. Sulco ventrolateral na metade cranial da siringe'
+		 [78] '19. Fusão de elementos caudais da siringe'
+		 [79] '21. Elementos A, craniais à siringe'
+		 [80] '22. Dobra lateral dos elementos A na siringe'
+		 [81] '23. Processos na superfície de origem do músculo intrínseco ventral'
+		 [82] '24. Tímpano formado pela fusão de elementos A, craniais à Membranae tracheales'
+		 [83] '26. Músculo intrínseco lateral'
+		 [84] '27. Músculo intrínseco ventral'
+		 [85] '28. Músculo intrínseco dorsoventral'
+		 [86] '29. Músculus sternotrachealis, composição'
+		 [87] '30. Musculus sternotrachealis, inserção na traquéia / siringe'
+		 [88] '31. Musculus sternotrachealis, inserção no esqueleto'
+		 [89] '32. Musculus tracheolateralis, configuração ventral'
+		 [90] 'Inserção caudal do músculo intrínseco lateral'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		27
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		54
+		'State 0'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		65
+		'State 0'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		84
+		'State 0'
+		'State 1'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		'State 2'
+		
+	;
+	MATRIX
+	'Pitangus sulphuratus'		                 00001000000000--00000000000000000000000010100000000000000000000---------0----00-001100-00-
+	'Liosceles thoracicus'		                 010000000011010000111000012121100000111002000001021000000000011111000-00100000000010000110
+	'Merulaxis ater'		                       12110000001101000011100001213110000021110200011102100000000001101021100012100000000000010-
+	'Merulaxis stresemanni'		                ???????????????????????????????????????10200011?0210??????????101021100012100000000000010-
+	'Eleoscytalopus indigoticus'		           11110000001101000011100001213110000021110200011102100000000001101021110011100000000000010-
+	'Eleoscytalopus psychopompus'		          ???????????????????????????????????????10200011?0210??????????101021110011100000000000010-
+	'Myornis senilis'		                      12110000000101000011100001313110101121110201-111121000110000011211100-101000120000?000011?
+	'Eugralla paradoxa'		                    12010?00000001000011100001313110101121110201-111121000010000011212000-10100010000010000110
+	'Scytalopus speluncae'		                 11110000000111000011100011313110001111110201-11?121000????????1211100-10100012000010000110
+	'Scytalopus iraiensis'		                 10110000000111000011100011313110?01?11110201-11?121000????????1211100-10100012000010000110
+	'Scytalopus pachecoi'		                  11110000000111000011100011313110101111110201-111121000??0000011211100-10100012000010000110
+	'Scytalopus magellanicus'		              10110000000111000011100011313110101111110201-111121000010000011211100-10100012000010000110
+	'Scytalopus macropus'		                  10110000000111000011100011313110001111110201-111121000000000011211100-10100012000010000100
+	'Scytalopus femoralis'		                 10110000000111000011100011313110101111110201-111121000000000011211100-10100011000010000110
+	'Scytalopus unicolor'		                  10110000000111000011100111313110001111110201-1111210000?0000011211100-10100011000010000110
+	'Scytalopus latrans'		                   11110000000111000011100111313110101111110201-111121000000000011211100-10100012000010000110
+	'Scytalopus spillmanni'		                11110000000111000011100011313110101111110201-111121000000000011211100-10100010000010000110
+	'Scytalopus meridanus'		                 11110000000111000011100011313110?011?1110201-111121000000000011211100-101000110000?0000110
+	'Teledromas fuscus'		                    10100?000100011110111000011121011000211002000111121000000000011010100000100010000010000100
+	'Rhinocrypta lanceolata'		               101000000100011110111000011121011000211002000111121000000000011011100000100010000010000100
+	'Scelorchilus rubecula'		                101100000010010001111110011031101000211002001111110000100000011011100000100010000010100110
+	'Pteroptochos tarnii'		                  100100000000010001111111011031101000111102001111120000100000011011100000100010000010100100
+	'Pteroptochos castaneus'		               10010000000001000111111101103110?00021110200?111120000100000011011100000100010000010100?10
+	'Psilorhamphus guttatus'		               0010000000110???00111000113121100000111102000111021000000000011310000-0010000?000010000100
+	'Acropternis orthonyx'		                 130000000000010000111000011121101000211102000111121000000000011011000000100010000010100100
+	'Grallaria varia'		                      00000100001000--0000100002-121000000000000000000001010000000011100000-00100100100010000000
+	'Hylopezus ocholeucus'		                 00000?0000?000--0000000002-121000000000000100000001010000000011100100-00100100100010000010
+	'Hylopezus macularius'		                 00000100001000--0000000002-121000000000000100000001010000000011100000-00100100100010000010
+	'Formicarius colma'		                    00000100000100--0000100002-121000000101000100000011000100000011110000-00100002000010000110
+	'Conopophaga lineata'		                  00000010001100--0000000002-12100000000000100010001000010000000100?01000010000000000000100-
+	'Geositta cunicularia'		                 00100001000001000000100002-111010000101000100000010000000000001311000-01100002000020000111
+	'Sittasomus griseicapillus'		            00100001000001000001000002-110000100001000100000011121001101101311000-01100200000120000111
+	'Dendrocolaptes platyrostris'		          0000000000100???0000000002-10?000100001010100000121121111101101311000-01100200000120000111
+	'Syndactyla rufosuperciliata'		          00001001101001000001100002-111000100001000100000011020000000101311000-00100002000120000102
+	'Phacellodomus striaticollis'		          02001001100001000001100002-121100100001000000001011020001010101310000-00100302000120000101
+	'Cranioleuca sulphurifera'		             00001001101001000001100002-121100100001000000001111020000000101311000-00100300000120000101
+	'Furnarius rufus'		                      00000001101001000001100002-111000100101010100000011000000010101311000-00100002000120000102
+	'Melanopareia torquata'		                10110100000100--0000000002-12101000000000200000101100000000001100000000010000301000010011-
+	'Sclateria naevia'		                     00000?10001100--0000000002-12100000010000010000001100000001010100000000010000001100101200-
+	'Myrmotherula unicolor'		                0000011000?000--0000000002-12100000000000000000001100000001010100010000010000001100101200-
+	'Mackenziaena severa'		                  00000?10000000--0000000002-12100000000001010000001100000001010100000000010000001100101200-
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=16 CHARACTER=84 TEXT='000';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 90;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 3774568407820376737 ; tell It ; setDefaultOrder 28 0 1 38 2 39 3 4 6 33 5 7 31 32 34 35 36 37 8 9 10 11 40 29 30 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 3395928106493497004 ; tell It ; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 57 58 59 12 11 10 13 14 15 95 96 16 17 18 19 21 20 22 23 25 26 27 97 28 29 30 31 101 102 32 88 33 89 35 36 98 37 38 39 40 41 42 44 45 48 49 50 51 53 54 55 56 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 86 75 76 77 78 79 80 81 82 83 84 85 87 ; attachments ; endTell ; checksumv 0 2 2706350740 null ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1024 666 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; showTaxa #3774568407820376737 #mesquite.lists.TaxonList.TaxonList ; tell It ; setTaxa #3774568407820376737 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition ; newAssistant #mesquite.lists.TaxonListArchivedName.TaxonListArchivedName ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.TaxonList.TaxonListWindow.arrow ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #3395928106493497004 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; getTable ; tell It ; rowNamesWidth 117 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor ; tell It ; makeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; rowsAreCharacters on ; toggleConstrainChar on ; toggleConstrainCharNum 3 ; togglePanel off ; toggleSummaryPanel off ; endTell ; showWindow ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; showExtraDataWindow #3395928106493497004 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; showExtraDataWindow #3395928106493497004 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showDatasList #mesquite.lists.DatasetList.DatasetList ; tell It ; getWindow ; tell It ; newAssistant #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa ; newAssistant #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars ; newAssistant #mesquite.lists.DatasetsListClass.DatasetsListClass ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; endTell ; showCharacters #3395928106493497004 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow ; endTell ; showPage 1 ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharModels.ManageCharModels ; tell It ; showModels #mesquite.lists.ModelsList.ModelsList ; tell It ; getWindow ; tell It ; newAssistant #mesquite.lists.ModelsListType.ModelsListType ; newAssistant #mesquite.lists.ModelsListParadigm.ModelsListParadigm ; newAssistant #mesquite.lists.ModelsListWhole.ModelsListWhole ; newAssistant #mesquite.lists.ModelsListDatatype.ModelsListDatatype ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; endTell ; endTell ; getEmployee #mesquite.parsimony.ManageTypesets.ManageTypesets ; tell It ; showList 0 #mesquite.parsimony.TypesetList.TypesetList ; tell It ; setData 0 ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 599 ; setLocation -4 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 90 ;
+ENDBLOCK;

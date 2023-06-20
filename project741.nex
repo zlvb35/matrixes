@@ -1,0 +1,1143 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.52.34 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Herrerasaurus'
+		'Syntarsus'
+		'Allosaurus'
+		'Abelisaurus'
+		'Aucasaurus'
+		'Berberosaurus'
+		'Carnotaurus'
+		'Ceratosaurus'
+		'Deltadromeus'
+		'Ekrixinatosaurus'
+		'Elaphrosaurus'
+		'Eoabelisaurus'
+		'Genusaurus'
+		'Genyodectes'
+		'Ilokelesia'
+		'Indosaurus'
+		'Kryptops'
+		'Laevisuchus'
+		'Limusaurus'
+		'Majungasaurus'
+		'Masiakasaurus'
+		'Noasaurus'
+		'Rajasaurus'
+		'Rugops'
+		'Skorpiovenator'
+		'Spinostropheus'
+		'Velocisaurus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=206;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'External surface of maxilla and nasal: smooth (0), sculptured (1)'
+		 [2] 'External surface of postorbital, lacrimal, and jugal: smooth (0), sculptured (1)'
+		 [3] 'Maxillary process of premaxilla: well-developed (0), reduced to a short triangle (1)'
+		 [4] 'Subnarial foramen: enclosed (0), reduced/open dorsally (1)'
+		 [5] 'Height/length ratio of premaxilla ventral to external naris: 0.5-2.0 (0), > 2.0 (1)'
+		 [6] 'Proportions/presence of the anterior ramus of the maxilla: absent (0), anteroposteriorly long (1), or tall and blunt (2)'
+		 [7] 'Ascending process of the maxilla: posterodorsally directed, with strongly convex anterior and concave posterior margin (0), or subvertical, with almost straight anterior and posterior margins (1)'
+		 [8] 'Extension of ascending process of maxilla: large, reaching posteriorly to more than half the length of the maxilla (0), reduced, posterodorsal tip ends well before the half length of the maxilla (1)'
+		 [9] 'Facet for nasal articulation on maxilla: shallow, anterolateral (0), socket, lateral (1)'
+		 [10] 'Palatal process of maxilla: long and ridged (0), reduced, small, and blunt (1)'
+		 [11] 'Horizontal ridge on the maxilla: absent (0) - present (1)'
+		 [12] 'Antorbital fossa: reaches anterior margin of ascending process in its dorsal part (0), separated from anterior margin by a ridge (1), strongly reduced, covers less than half the anteroposterior length of the ascending process (2)'
+		 [13] 'Ventral portion of antorbital fossa: present on maxilla (0), strongly reduced or absent (1)'
+		 [14] 'Anteroposterior length of maxillary-jugal contact relative to total maxilla length: less than 40% (0), more than 40% (1)'
+		 [15] 'Inclination of maxilla-jugal contact: low, less than 45¡ from the horizontal (0), steep, more than 45¡ from the horizontal (1)'
+		 [16] 'Nasal-nasal contact in adults: separate (0), partly or fully fused (1)'
+		 [17] 'Row of foramina on dorsal nasal surface: absent (0), present (1)'
+		 [18] 'External nares: facing laterally (0) - facing strongly antero-laterally (1)'
+		 [19] 'Location of nasal-frontal contact relative to highest point of orbit: anterior (0), directly above (1)'
+		 [20] 'Condition of prefrontal in adults: separate (0), partly or completely fused (1)'
+		 [21] 'Frontals unfused (0), or fused (1)'
+		 [22] 'Frontal-parietal contact in adults: separate (0), fused at least on the dorsal surface (1)'
+		 [23] 'Skull roof dorsoventral thickness: thin, relatively flat (0), thickened (1)'
+		 [24] 'skull roof ornamentation: none (0), midline (1), lateral (2)'
+		 [25] 'Contact between lacrimal and postorbital: absent (0) - present (1)'
+		 [26] 'Small fenestra in the skull roof placed between prefrontal, frontal, postorbital and lacrimal absent (0), or present (1)'
+		 [27] 'Posteriorly placed, knob-like dorsal projection of the parietals: absent (0) - present (1)'
+		 [28] 'Supratemporal fenestrae: separated by a horizontal plate formed by the parietals (0) - contact posteriorly, separated anteriorly by triangular plate formed by the parietals (1) - confluent over the parietals; parietals form a saggital crest (2)'
+		 [29] 'Size and elevation of nuchal wedge and parietal alae: moderate (0), tall and expanded (1)'
+		 [30] 'Infratemporal fenestra: smaller than or subequal in size to orbit (0) - strongly enlarged, more than 1.5 times the size of the orbit (1)'
+		 [31] 'Jugal process of the postorbital: ventrally directed and tapering (0) - with a small anterior spur indicating the lower delimitation of the eyeball (1)'
+		 [32] 'Anteroposterior length of postorbital relative to height: markedly less (0), equal to or greater (1)'
+		 [33] 'Length of the posterior process of the postorbital: less than half of the length of the anterior process (0); more than half, but less than the length of the anterior process (1); longer than the anterior process (2)'
+		 [34] 'Orientation of posterior edge of postorbital: vertical (0), strongly sloped anteroventrally at an angle of 25¡ or more (1)'
+		 [35] 'Jugal process of the postorbital: with distinct kink in posterior margin at the beginning of the jugal facet (0), jugal facet continuous with posterior margin of the dorsal part of the postorbital (1)'
+		 [36] 'Anterior margin of ventral process of the postorbital: straight or slightly concave (0); strongly concave (1)'
+		 [37] 'Posterior margin of the ventral process of the postorbital: convex in at least its dorsal part (0); straight or slightly concave over its entire length (1)'
+		 [38] 'Dorsal margin of postorbital strongly inflated and bulked: absent (0), or present (1).'
+		 [39] 'Lateral depression on the posterodorsal part of the junction of the postorbital processes: present (0), absent (1)'
+		 [40] 'Morphology of anteroventral portion of ventral process of the postorbital: confluent with remainder of process (0), step and fossa present (1)'
+		 [41] 'Morphology of dorsalmost postorbital-squamosal contact: smooth (0), knob (1)'
+		 [42] 'Angle between dorsal margin of upper temporal arc (formed by posterior process of po and anterior process of sq) and dorsal skull roof: less (0) or more (1) than 45¡'
+		 [43] 'Appearance of postorbital-squamosal contact in lateral view: contact edges visible (0), edges covered by dermal expansions (1)'
+		 [44] 'Anterior process of lacrimal: includes antorbital fossa and rim (0), antorbital fossa only (1)'
+		 [45] 'Lacrimal fossa: exposed laterally (0), covered by dermal ossifications (1)'
+		 [46] 'Suborbital process of lacrimal: absent (0), present (1)'
+		 [47] 'Morphology of lacrimal along dorsal orbit rim: flat (0), raised brow or shelf (1)'
+		 [48] 'Ventral ramus of lacrimal: broadly triangular, articular end nearly twice as wide anteroposteriorly as lacrimal body (0) - bar- or strut-like, roughly same width anteroposteriorly throughout ventral ramus (1)'
+		 [49] 'Posterior expansion of ventral part of lacrimal: present, ventral part of posterior margin of lacrimal concave (0); strongly reduced or absent, ventral part of posterior margin straight or slightly convex (1)'
+		 [50] 'Morphology of jugal-maxilla contact: slot or groove (0), lateral shelf (1)'
+		 [51] 'Morphology of jugal-lacrimal articulation: simple butt joint (0), overlapping and pocketed (1)'
+		 [52] 'Minimal height of jugal below the orbit: one third or less of the height of the orbit (0); half the height of the orbit or more (1)'
+		 [53] 'Ventral margin of the posterior half of the jugal: straight or only slightly convex (0); strongly convex (1)'
+		 [54] 'Relative lengths of posterior jugal prongs: upper prong much shorter than lower (0); both prongs subequal in length (1)'
+		 [55] 'Squamosal contribution to nuchal crest: absent or minimal (0), present and broad (1)'
+		 [56] 'Quadrate flange of squamosal: wraps around quadrate head (0), ends posterior to quadrate head (1)'
+		 [57] 'Dorsoventral proportions of quadratojugal prongs for jugal: narrow (0), deep (1)'
+		 [58] 'Overlap of quadratojugal onto quadrate posteriorly: absent (0), present (1)'
+		 [59] 'Quadrate and quadratojugal separated (0), or fused to each other (1)'
+		 [60] 'Quadrate foramen: present (0), absent (1)'
+		 [61] 'Ossification of interorbital region: weak or absent (0), extensive (1)'
+		 [62] 'Morphology of trigeminal foramen: single (0), partly or fully split (1)'
+		 [63] 'Vagal canal opening: through otoccipital (0), onto occiput (1)'
+		 [64] 'Depth of basisphenoid recess: shallow (0), deep (1)'
+		 [65] 'Shape of opening for basisphenoid recess: ovoid (0), teardrop-shaped (1)'
+		 [66] 'Depth of indentation between basal tubera and basisphenoid processes: deep notch (0), shallow embayment (1)'
+		 [67] 'Medial fossa ventral to occipital condyle: absent (0), present (1)'
+		 [68] 'Size of dorsal groove on occipital condyle: wide (0), narrow (1)'
+		 [69] 'Orientation of basioccipital-basisphenoid suture: oblique (0), horizontal (1)'
+		 [70] 'Depth of median ridge on supraoccipital: less than width (0), greater than width (1)'
+		 [71] 'Morphology of jugal process of palatine: tapered process, triradiate palate (0), expanded process, tetraradiate palatine (1)'
+		 [72] 'Pocket on ectopterygoid flange of the pterygoid: absent (0), present (1)'
+		 [73] 'Shape of pterygoid articulation with basipterygoid process: tab-like (0), acuminate (1)'
+		 [74] 'Arrangement of jugal and pterygoid processes of ectopterygoid: oblique (0), parallel (1)'
+		 [75] 'Proportions of ectopterygoid: gracile (0), robust (1)'
+		 [76] 'Ventral excavation into ectopterygoid: absent (0), fossa (1), groove (2)'
+		 [77] 'Size of external mandibular fenestra: small to moderate (0), large (1)'
+		 [78] 'Position of anterior end of external mandibular fenestra relative to last dentary tooth: posterior (0), ventral (1)'
+		 [79] 'Horizontal ridge on lateral surface of surangular below mandibular joint: weak or moderate (0), strong (1)'
+		 [80] 'Posterior end of splenial: straight (0) - forked (1)'
+		 [81] 'Prongs at anterior end of splenial: one (0), two (1)'
+		 [82] 'Morphology of dentary-surangular articulation just above external mandibular fenestra: small notch (0), large socket (1)'
+		 [83] 'Dentary: almost straight in occlusal view (0) - anterior portion with distinct medial curve (1)'
+		 [84] 'Ventral margin of dentary: straight or only slightly convex (0), strongly convex anteroposteriorly (1)'
+		 [85] 'Position of lateral dentary groove: at or above mid-depth (0), in ventral half (1)'
+		 [86] 'Position of posterior end of posteroventral process of dentary relative to posterior end of posterodorsal process: far posterior (0), directly ventral (1)'
+		 [87] 'Arrangement of premaxillary tooth carinae: nearly symmetrical, on opposite sides (0), more asymmetrical, both on lingual side (1)'
+		 [88] 'Number of maxillary teeth: more than 12 (0), 12 or fewer (1)'
+		 [89] 'Tooth curvature: substantially-curved mesial and distal profiles with apex positioned distal to distal profile (0), or apex centrally positioned; mesial profile exhibits strong curvature; distal profile is straight or very slightly curved (1)'
+		 [90] 'Surface texture of paradental plates: smooth (0), vertically striated or ridged (1)'
+		 [91] 'Visibility of paradental plates in medial view: widely exposed (0), obscured (1)'
+		 [92] 'Medial groove in paradental plates exposing replacement teeth: present (0), absent (1)'
+		 [93] 'Pronounced size difference between premaxillary and maxillary teeth: absent (0) - present, largest maxillary tooth crowns more than 1.5 times the height of largest premaxillary tooth crowns (1)'
+		 [94] 'Transverse flattening of lateral maxillary teeth: moderate (0), extreme (1)'
+		 [95] 'Size of largest maxillary tooth: less (0) or more (1) than height of the dentary'
+		 [96] 'neural arch pneumaticity: moderate (0), extreme (1)'
+		 [97] 'Interior pneumatic spaces in cervicals: absent (0) - present, structure camerate (1) - present, structure camellate (2)'
+		 [98] 'Atlantal epipophysis: short and triangular in lateral outline (0); strongly elongate and rod-like (1)'
+		 [99] 'length of axial epipophyses: moderate (0), long (1)'
+		 [100] 'Morphology of axial spinopostzygapophyseal lamina: weakly concave (0), deeply invaginated (1)'
+		 [101] 'Development of axial diapophyses: weak, nubbin (0), prominent, pendant (1)'
+		 [102] 'Pneumatic foramen in axis absent (0); present (1).'
+		 [103] 'Postzygodiapophyseal lamina in axis: absent (0), present (1)'
+		 [104] 'Posterior pleurocoel in postaxial presacral vertebrae: absent (0), fossa only (1), fossa with pneumatic foramen (2)'
+		 [105] 'Anterior articular end of cervical centra: mildly concave (0) - flat to slightly convex (1) - strongly convex, ball-shaped (2)'
+		 [106] 'Prezygoepipophyseal lamina in anterior cervical vertebrae: absent/weak (0), marked (1)'
+		 [107] 'Anterior articular facet of anterior cervical vertebrae: approximately as high as wide or higher (0) - significantly wider than high (1) - wider than high and higher laterally than medially (kidney-shaped) (2)'
+		 [108] 'Anteroposterior position of cervical neural spines: posterior half of centrum (0), anterior half of centrum (1)'
+		 [109] 'Ventral keel in anterior cervicals: present (0) - absent (1)'
+		 [110] 'Anterior prongs on postaxial cervical epipophyses: absent (0), present (1)'
+		 [111] 'Development of pre- and postspinal fossae in postaxial cervical vertebrae: narrow (0), broad (1)'
+		 [112] 'Postzygapophysis in mid-cervical vertebrae: placed at least partially over the posterior end of the neural arch pedicle and does not overhang the centrum posteriorly (0); posterior to the neural arch pedicle and overhangs the centrum posteriorly (1)'
+		 [113] 'Prezygapophyses in anterior cervicals: transverse distance between prezygapophyses less than width of neural canal (0) - prezygapophyses situated lateral to the neural canal (1)'
+		 [114] 'Morphology of anterior cervical epipophyses: low, blunt (0), long, thin (1), long, robust (2)'
+		 [115] 'Length/height ratio of mid-cervical centra: less than 2 (0), 2-3 (1), more than 3 (2)'
+		 [116] 'Cervical neural spines: exceeding the height of the neural arch (0); lower than neural arch (1)'
+		 [117] 'Postzygodiapophyseal lamina in mid-cervical vertebrae: present, and connects the diapophysis with the postzygapophysis (0); reduced, indicated by a low ridge in parts (1)'
+		 [118] 'Accessory fossa on dorsal surface of postaxial cervical transverse processes: absent (0), present (1)'
+		 [119] 'Shape of dorsal transverse processes in dorsal view: rectangular (0), triangular (1)'
+		 [120] 'Height of dorsal parapophyses: slightly elevated from centrum (0), project far laterally (1)'
+		 [121] 'Paradiapophyseal lamina: absent, weak (0), pronounced (1)'
+		 [122] 'Dorsal vertebral centrum length relative to height: more than 2 (0), less than 2 (1)'
+		 [123] 'Number of sacral vertebrae: five or less (0), six or more (1)'
+		 [124] 'Transverse dimensions of mid-sacral centra relative to other sacrals: equivalent (0), constricted (1)'
+		 [125] 'Orientation of ventral margin of mid-sacral centra: horizontal (0), arched (1)'
+		 [126] 'Dorsal edge of sacral neural spines: as thin as remainder of spine (0), thickened (1)'
+		 [127] 'Condition of sacral neural spines in adults: separate (0), fused (1)'
+		 [128] 'sacral neural spines: apneumatic (0); paired fossae between spines (1)'
+		 [129] 'Neural spines of anterior caudal vertebrae in comparison to last dorsal vertebrae: approximately of equal anteroposterior length (0), two thirds or less the length of last dorsal neural spines (1)'
+		 [130] 'Ventral groove in anterior caudals: absent (0) - present (1)'
+		 [131] 'Centrodiapophyseal laminae in anterior mid-caudal vertebrae: absent (0); present as low, rounded ridges (1)'
+		 [132] 'Proportions of anterior caudal neural arch base relative to mid-centrum proportions: smaller (0), equal or greater (1)'
+		 [133] 'Hyposphene-hypantrum articulations in anterior to mid-caudal vertebrae: absent (0), present (1)'
+		 [134] 'Distal morphology of anterior to mid-caudal transverse processes: tapering or of subequal width (0), expanded posteriorly (1)'
+		 [135] 'Anterior process at distal end of anterior to mid-caudal transverse processes: absent (0), present (1)'
+		 [136] 'Neural spines of mid-caudals: rod-like and posteriorly inclined (0) - subrectangular and sheet-like (1) - rod-like and vertical (2)'
+		 [137] 'Proximodistal length of anterior caudal transverse processes: less (0), or more (1) than 1.4 times the length of caudal centra'
+		 [138] 'Contact between cervical vertebrae and cervical ribs in adults: separate (0), fused (1)'
+		 [139] 'Wing-like process at the base of the anterior cervical rib shafts: absent (0), present (1)'
+		 [140] 'bifurcate cervical ribs: absent (0), present (1)'
+		 [141] 'Large vertical depression on lateral side of scapula above the glenoid: absent (0); present (1)'
+		 [142] 'Distal end of scapula: expanded (0) - not expanded (1)'
+		 [143] 'Relative width of scapular blade: broad, more than twice glenoid depth (0), narrow, less than twice glenoid depth (1)'
+		 [144] 'Development of posteroventral process on coracoid: moderate (0), pronounced (1)'
+		 [145] 'Spacing between glenoid and posteroventral process of coracoid: moderate (0), close (1)'
+		 [146] 'Ratio of coracoid height (as measured over the glenoid) and coracoid length: less than 1.8 (0), more than 1.8 (1)'
+		 [147] 'Outline of proximal articular facet of humerus: broadly oval (more than twice as broad transversely than antero-posteriorly) (0) - distinctly rounded (less than twice as broad antero-posteriorly than transversely) (1)'
+		 [148] 'Shape of distal humeral condyles: rounded (0), flattened (1)'
+		 [149] 'Placement of humeral greater tubercle relative to internal tuberosity: proximal (0), distal (1)'
+		 [150] 'Humerus in lateral view: sigmoidal (0) - straight (1)'
+		 [151] 'Longitudinal torsion of humeral shaft: absent (0), present (1)'
+		 [152] 'Deltopectoral crest: extending over at least one third of the length of humerus and well developed (0) - strongly reduced, only developed as a small, triangular eminence (1)'
+		 [153] 'Length of humerus relative to femur length: more than one-third (0), less than one-third (1)'
+		 [154] 'Radius: more than half the length of humerus (0) - less than half the length of humerus (1)'
+		 [155] 'Distal articular surface of radius: flat or slightly concave (0); strongly convex (1)'
+		 [156] 'Ratio between length of metacarpal two and length of humerus: more than 20 % (0); between 20 % and 15 % (1); less than 15 % (2)'
+		 [157] 'Ventromedial expansion of medial distal condyle of Mc II: present (0), absent (1)'
+		 [158] 'Metacarpal IV: slender, width of mid-shaft less than half of the width of mid-shaft of McII (0), robust, width more than half of that of Mc II (1)'
+		 [159] 'Relative length of manual phalanx II-1: more than twice width (0), less than twice width (1)'
+		 [160] 'Constricted neck between articular ends of manual phalanges: present (0), absent (1)'
+		 [161] 'Gynglimoidal distal articular surface of proximal manual phalanges: well, developed, condyles separated by deep notch (0); reduced, notch weak or absent (1)'
+		 [162] 'Manual unguals: large, strongly curved (0), reduced, only eakl curved (1)'
+		 [163] 'Contacts between pelvic elements in adults: separate (0), at least partially fused (1)'
+		 [164] 'Ratio of length of femur to length of ilium: more than 1.3 (0), less than 1.1 (1)'
+		 [165] 'Brevis fossa: narrow and with subparallel margins (0) - very strongly expanded posteriorly (1)'
+		 [166] 'Morphology of lateral ilium between supraacetabular crest and brevis shelf: gap (0), continuous (1)'
+		 [167] 'Anterior margin of ilium: faces anteriorly or anterodorsally (0); faces anteroventrally (1)'
+		 [168] 'Shape of posterior margin of iliac postacetabular process: convex (0), undulating (1)'
+		 [169] 'Shape of dorsal margin of central iliac blade: convex (0), straight (1)'
+		 [170] 'Pubic peduncle: subequal in length to ischial peduncle (0) - significantly longer than ischial peduncle, ischial peduncle tapering ventrally and without clearly defined articular facet (1)'
+		 [171] 'Relative proximodistal length of pubic and ischial peduncle: pubic peduncle considerably longer than ischial peduncle (0); peduncle of subequal length, or ischial peduncle longer (1)'
+		 [172] 'Orientation of ischial peduncle of ilium: posteroventrally inclined (0); vertical (1)'
+		 [173] 'Shape of anterior margin of iliac preacetabular process: rounded (0), undulating (1)'
+		 [174] 'Pronounced ventral "hook" on anterior expansion of ilium: absent (0) - present (1)'
+		 [175] 'Contact between pubic apices: separate (0), contacting (1)'
+		 [176] 'Morphology of contact between pubis and ilium: planar (0), peg-and-socket (1)'
+		 [177] 'Morphology of dorsal surface of pubic boot on midline: convex (0), concave (1)'
+		 [178] 'Ventral notch between obturator-process or -flange on ischium: absent (0) - present (1)'
+		 [179] 'Distal end of ischium: slightly expanded (0) - strongly expanded, forming ischial "boot" (1) - tapering (2)'
+		 [180] 'Morphology of contact between ischium and ilium: planar (0), peg-and-socket (1)'
+		 [181] 'Proportions of limb bones: moderate to gracile (0), robust (1)'
+		 [182] 'Dimorphism in hind limb morphology: absent (0), present (1)'
+		 [183] 'Fourth trochanter on the femur: forming a stout, well developed, high ridge (0) - reduced to a feeble, low ridge or absent (1)'
+		 [184] 'Morphology of anterolateral muscle attachments on proximal femur: continuous trochanteric shelf (0), distinct lesser trochanter and attachment bulge (1)'
+		 [185] 'Development of medial epicondyle of femur: rounded (0), ridge (1), long flange (2)'
+		 [186] 'Morphology and orientation of femoral tibiofibularis crest: narrow, longitudinal (0), broad, oblique (1)'
+		 [187] 'Cnemial crest: distal end subequal or smaller in proximodistal width to shaft of crest (0), distal end expanded proximodistally (1)'
+		 [188] 'Expansion of cnemial crest (as measured from the level of the tibial shaft): ratio tibial length / cnemial crest > 6.5 (0); less than 6.5 (1)'
+		 [189] 'Shape of distal tibia in distal view: rounded (0), mediolaterally elongate (1)'
+		 [190] 'Anterior side of distal end of tibia: with marked step, demarcating the border of the ascending process of the astragalus (0), flat (1)'
+		 [191] 'Deep groove on medial side of proximal end of fibula: absent (0) - present, but covering less than 2/3 of the width of the fibula (1) - present and wide, covering more than 2/3 the width of the fibula (2)'
+		 [192] 'Size of iliofibularis tubercle on fibula: moderate (0), large (1)'
+		 [193] 'Contact between fibula and ascending process of astragalus in adults: separate (0), fused (1)'
+		 [194] 'Morphology of astragalar ascending process: blocky (0), laminar (1)'
+		 [195] 'Orientation of astragalar distal condyles: ventral (0), 10-30¡ anterior (1), 30-45¡ anterior (2)'
+		 [196] 'Horizontal groove across astragalar condyles anteriorly: absent (0) - present (1)'
+		 [197] 'Contact between astragalus and calcaneum in adults: separate (0), fused (1)'
+		 [198] 'Fibular facet on the astragalus: large and facing partially proximally (0) - reduced and facing laterally or absent (1)'
+		 [199] 'Ascending process of astragalus: lower than astragalar body (0) - higher than the astragalar body (1) - more than twice the height of astragalar body (2)'
+		 [200] 'Width of shaft of metatarsal II relative to widths of metatarsals III and IV: subequal (0), reduced (1)'
+		 [201] 'Proximal articular surface of metatarsal II: Subequal in width to that of Mt III and IV and (0), two thirds or less the width of Mt III or IV (1)'
+		 [202] 'Distal end of metatarsal IV: strongly asymmetrical, medial condyle much broader and more distally expanded than lateral condyle (0); more symmetrical, condyles subequal (1)'
+		 [203] 'Morphology of lateral and medial grooves on pedal unguals: single (0), double (1)'
+		 [204] 'Mediolateral symmetry of pedal digit II ungual: symmetrical (0), asymmetrical (1)'
+		 [205] 'Ventral surface of pedal unguals with a well developed flexor tubercle, and usually flat (0), or without flexor tubercle and with a ventral depression in its proximal end (1)'
+		 [206] 'Length of pedal digit phalanges I-1 + I-2 relative to III-1: greater (0), less than or equal (1)'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 1'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 1'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 1'
+		,
+		95
+		'State 0'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 1'
+		,
+		100
+		'State 0'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 1'
+		,
+		102
+		'State 0'
+		'State 1'
+		,
+		103
+		'State 0'
+		'State 1'
+		,
+		104
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		105
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		106
+		'State 0'
+		'State 1'
+		,
+		107
+		'State 0'
+		'State 1'
+		,
+		108
+		'State 0'
+		'State 1'
+		,
+		109
+		'State 0'
+		'State 1'
+		,
+		110
+		'State 0'
+		'State 1'
+		,
+		111
+		'State 0'
+		'State 1'
+		,
+		112
+		'State 0'
+		'State 1'
+		,
+		113
+		'State 0'
+		'State 1'
+		,
+		114
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		115
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		116
+		'State 0'
+		'State 1'
+		,
+		117
+		'State 0'
+		'State 1'
+		,
+		118
+		'State 0'
+		'State 1'
+		,
+		119
+		'State 0'
+		'State 1'
+		,
+		120
+		'State 0'
+		'State 1'
+		,
+		121
+		'State 0'
+		'State 1'
+		,
+		122
+		'State 0'
+		'State 1'
+		,
+		123
+		'State 0'
+		'State 1'
+		,
+		124
+		'State 0'
+		'State 1'
+		,
+		125
+		'State 0'
+		'State 1'
+		,
+		126
+		'State 0'
+		'State 1'
+		,
+		127
+		'State 0'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 1'
+		,
+		129
+		'State 0'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 1'
+		,
+		131
+		'State 0'
+		'State 1'
+		,
+		132
+		'State 0'
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 1'
+		,
+		135
+		'State 0'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		137
+		'State 0'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 1'
+		,
+		139
+		'State 0'
+		'State 1'
+		,
+		140
+		'State 0'
+		'State 1'
+		,
+		141
+		'State 0'
+		'State 1'
+		,
+		142
+		'State 0'
+		'State 1'
+		,
+		143
+		'State 0'
+		'State 1'
+		,
+		144
+		'State 0'
+		'State 1'
+		,
+		145
+		'State 0'
+		'State 1'
+		,
+		146
+		'State 0'
+		'State 1'
+		,
+		147
+		'State 0'
+		'State 1'
+		,
+		148
+		'State 0'
+		'State 1'
+		,
+		149
+		'State 0'
+		'State 1'
+		,
+		150
+		'State 0'
+		'State 1'
+		,
+		151
+		'State 0'
+		'State 1'
+		,
+		152
+		'State 0'
+		'State 1'
+		,
+		153
+		'State 0'
+		'State 1'
+		,
+		154
+		'State 0'
+		'State 1'
+		,
+		155
+		'State 0'
+		'State 1'
+		,
+		156
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		157
+		'State 0'
+		'State 1'
+		,
+		158
+		'State 0'
+		'State 1'
+		,
+		159
+		'State 0'
+		'State 1'
+		,
+		160
+		'State 0'
+		'State 1'
+		,
+		161
+		'State 0'
+		'State 1'
+		,
+		162
+		'State 0'
+		'State 1'
+		,
+		163
+		'State 0'
+		'State 1'
+		,
+		164
+		'State 0'
+		'State 1'
+		,
+		165
+		'State 0'
+		'State 1'
+		,
+		166
+		'State 0'
+		'State 1'
+		,
+		167
+		'State 0'
+		'State 1'
+		,
+		168
+		'State 0'
+		'State 1'
+		,
+		169
+		'State 0'
+		'State 1'
+		,
+		170
+		'State 0'
+		'State 1'
+		,
+		171
+		'State 0'
+		'State 1'
+		,
+		172
+		'State 0'
+		'State 1'
+		,
+		173
+		'State 0'
+		'State 1'
+		,
+		174
+		'State 0'
+		'State 1'
+		,
+		175
+		'State 0'
+		'State 1'
+		,
+		176
+		'State 0'
+		'State 1'
+		,
+		177
+		'State 0'
+		'State 1'
+		,
+		178
+		'State 0'
+		'State 1'
+		,
+		179
+		'State 0'
+		'State 1'
+		,
+		180
+		'State 0'
+		'State 1'
+		,
+		181
+		'State 0'
+		'State 1'
+		,
+		182
+		'State 0'
+		'State 1'
+		,
+		183
+		'State 0'
+		'State 1'
+		,
+		184
+		'State 0'
+		'State 1'
+		,
+		185
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		186
+		'State 0'
+		'State 1'
+		,
+		187
+		'State 0'
+		'State 1'
+		,
+		188
+		'State 0'
+		'State 1'
+		,
+		189
+		'State 0'
+		'State 1'
+		,
+		190
+		'State 0'
+		'State 1'
+		,
+		191
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		192
+		'State 0'
+		'State 1'
+		,
+		193
+		'State 0'
+		'State 1'
+		,
+		194
+		'State 0'
+		'State 1'
+		,
+		195
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		196
+		'State 0'
+		'State 1'
+		,
+		197
+		'State 0'
+		'State 1'
+		,
+		198
+		'State 0'
+		'State 1'
+		,
+		199
+		'State 0'
+		'State 1'
+		,
+		200
+		'State 0'
+		'State 1'
+		,
+		201
+		'State 0'
+		'State 1'
+		,
+		202
+		'State 0'
+		'State 1'
+		,
+		203
+		'State 0'
+		'State 1'
+		,
+		204
+		'State 0'
+		'State 1'
+		,
+		205
+		'State 0'
+		'State 1'
+		,
+		206
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Herrerasaurus'		             00000000000210000000000000000000100100(0,1)0000000000000000?0000000000000000000010000000000000000010000000000000000(0,1)00100000010000000?000000000001100?0000000000100000000000000000000000000000000-0000000000000000
+	'Syntarsus'		                 00000100001000000000000000000000100000000000000000000000000000000010000000010000000000000000000010000001000000010121101000000010010010000(0,1)00000011000000000000000?101101101000000100010011000000100010001?0000
+	'Allosaurus'		                0000010000000000000000001000000020000100000000000000100000000111011000110101001100000010000000001001110020100000100000000100000001000000000000100000001000000-00000(0,1)000001000110010000010000102001210110000001
+	'Abelisaurus'		               1111120?1?021??1011111121011111011101000101?11111?1001?1111?10???10011??1???1??1?????????101??????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Aucasaurus'		                11?112??1?0?11???1??11?2??????0????????????110???1?????????????????????????????????????0?????????????????1?????????1??????(0,1)?????1?11111?1?????010?1111111112111?1???11?11???111???1?0??1?1111??1?1111??0??1111
+	'Berberosaurus'		             ????????????????????????????????????????????????????????????????????????????????????????????????1??????20000??00??0?(0,1)1????(0,1)1?????????????0??????????????????0???????????????????????010(0,1)1???10110?????????????
+	'Carnotaurus'		               111112111?0211101101111210111111011100111011101111111111101111???100111?111?111111111110?10100012?11111211101110120100111111111110111?1?1011110110111111111211111?1111111111111?11110?1111????11????1?????????
+	'Ceratosaurus'		              00001200100000000100000000010100201000000000000000000000001111?110000111011100111101001000011111210111121000000(0,1)1200001111110?1?01001002000001000001111(0,1)000010100?1111??01000?111111010(0,1)1101101101111100010???
+	'Deltadromeus'		              ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????0??????1????1??1010111?0??????????????????????????1?0?01100?1121?111?1100?0???
+	'Ekrixinatosaurus'		          1??1?011??01110?????1110?11?1?1?0????1???11???????????1?????1??????????????????????11??01?0????1???????2211?001?1??11????1(0,1)???0?0???111??0????????????????????????1????1?1??111?????0?011?1110??01??1?00????1?
+	'Elaphrosaurus'		             ???????????????????????????????????????????????????????????????????????????????????????????????1(1,2)??????1001010010?2111111011011?00001??1?1??1?01111111110??110????10111(0,1)01000110?0100?1101001121?1101??10?????
+	'Eoabelisaurus'		             ?0????????????????0001000000(0,1)10020101001000?10?01??0??01?0011?????00?1??????????????????00???0?1(1,2)??????21110?0101?0100111111111?1011110200??110?0000?1?(0,1)010(0,1)11111111111?0100?11?-11???0(0,1)(0,1)101101101111??000111?
+	'Genusaurus'		                ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????0(0,1)???????????????????????????????????????1??11?1111?1??????0??12?1???11??????????????
+	'Genyodectes'		               0???0?????????????????????????????????????????????????????????????????????????????000?(0,1)?0001111???????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Ilokelesia'		                ?1????????????????????????????11101111010?1????????????????????1???????????????????????????????1???????221001010120110?111????????1??112?011??????????????????????????????????????????????????????????????111?
+	'Indosaurus'		                ??????????????????11?1111?111???????????????????????????????11?????1??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Kryptops'		                  1????20111021??????????????????????????????????????????????????????????????????????????01100???0(1,2)?????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Laevisuchus'		               ???????????????????????????????????????????????????????????????????????????????????????????????1?????????1?1?0011?11?0???0???????????????0????????????????????????????????????????????????????????????????????
+	'Limusaurus'		                00-?0?0?0??000000?00?000000??000?01(1,0)???00?0?0?0000??????00??????????????????1-?????0?0-1???????1??0?000?(0,1)??11?????21??11??????????(0,1)0?00?010011011110?10101?11(0,1)1111001100(0,1)10000?00?0????1(1,2)?00???1??(2,1)????1??1???
+	'Majungasaurus'		             11111201110211010111111110111111011000100011110111101111111111111101111111121111111001101101000121111112111010101201001111(0,1)11111111100021011??010?111111??????1?????1111111011?11??11?11??0?1011?1111110011111
+	'Masiakasaurus'		             00?1?00?111?0?????00000000????00001000100?0?0010??????????0???11?1001???????10?1110000110011?0?12?01111211111001112100111010111101111000?0111?01011111010?????110?1111?11010??1110110111210?111111111111111101
+	'Noasaurus'		                 0??1?00111110?0???????????????????????????????????????????00???????????????????????????10011??01(1,2)????????1?1?10111??00???????????????????000????????????????????00??????????????????0???????????????????1?????
+	'Rajasaurus'		                11????????????????1??1111?111????????????????????1??????????1111??01???????211????1?0110?101???12??????2111???????0??01111110?11?0???????0????????????????????????0??0???110???1???11??111??1?11?1?????0?0????
+	'Rugops'		                    111110??1?0(2,1)11011101000011110??????????????11110011???????????????????????????????????101101?0???????????????????????????????????????????0????????????????????????????????????????????????????????????????????
+	'Skorpiovenator'		            11?112111?02111????????01????11111110111011011111??11???1?1?????????????????1??????111?01???0?0?????????(0,1)1???010?2?11?????????????1?111?1?11???????????????????????1?110011011?????????11??????????????0?1??1?
+	'Spinostropheus'		            ???????????????????????????????????????????????????????????????????????????????????????????????12??????10000100000201111101??111?????????000??????01??????????????????????????1?????0???????1?????????????????
+	'Velocisaurus'		              ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????0???????11???11111?11?????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 206;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1-11 13-15 17-19 21-32 34-114 116-151 153-155 157-194 196-206 , ord: 12 16 20 33 115 152 156 195 ;
+ENDBLOCK;
+BEGIN AUTHORS;
+AUTHOR NAME = Diego_Pol CODE = 0 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -887893055 ; FileSettings editor 0 0 1 1 ; Singles 000 ; Editor 0001100111111110010001001 1 24 Geneva 9 100 1 all ; EditorPosition 46 27 723 1227 ; TreeWindowPosition 46 6 739 1230 ; ListWindow Characters closed Geneva 9 44 22 737 1268 000 ; ListWindow Taxa closed Geneva 9 50 10 276 490 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 718 1220 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder Data ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 591 307 115 165 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 0100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 0 0 0 0 -10532 456 636 35 678 35 678 288 24 35 1 1 1 1 0 -12357 -39 4 -40 0 1 2 4 8 18 18 0 2 0010110000000000010100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 10 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1309951557073 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 7723664830016278362 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 6887872760503673059 ; tell It ; setDefaultOrder 0 1 2 3 4 5 166 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 205 160 161 162 163 164 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 ; attachments ; endTell ; mqVersion 274 ; checksumv 0 2 777359889 null getNumChars 206 numChars 206 getNumTaxa 26 numTaxa 26 short true bits 2305843009213693959 states 7 sumSquaresStatesOnly 6735.0 sumSquares -1.567973246265312E20 NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1526 902 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #6887872760503673059 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1426 835 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor ; tell It ; makeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1426 835 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam ; endTell ; rowsAreCharacters on ; toggleConstrainChar on ; toggleConstrainCharNum 3 ; togglePanel off ; toggleSummaryPanel off ; endTell ; showWindow ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #6887872760503673059 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1426 835 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 161 163 - 167 ;
+ENDBLOCK;

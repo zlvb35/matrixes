@@ -1,0 +1,287 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 23.03.46 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=36;
+    TAXLABELS
+    		'Didelphis virginiana'
+		'Kulbeckia kulbecke'
+		'Ukhaatherium nessovi'
+		'Zalambdalestes lechei'
+		'Zhelestid'
+		'Chrysochloris sp.'
+		'Elephantimorpha'
+		'Hemicentetes semispinosum'
+		'Macroscelides proboscideus'
+		'Orycteropus afer'
+		'Procavia capensis'
+		'Trichechus manatus'
+		'Dasypus novemcinctus'
+		'Atelerix albiventris'
+		'Balaenopteridae'
+		'Bathygenys reevesi'
+		'Canis familiaris'
+		'Equus caballus'
+		'Eumetopias jubatus'
+		'Felis catus'
+		'Manis tricuspis'
+		'Nycteris grandis'
+		'Pteropus lylei'
+		'Rhinolophus ferrumequinum'
+		'Sorex monticolus'
+		'Sus scrofa'
+		'Tadarida brasiliensis'
+		'Tursiops truncatus'
+		'Cavia porcellus'
+		'Cynocephalus volans'
+		'Homo sapiens'
+		'Lepus californicus'
+		'Macaca mulatta'
+		'Mus musculus'
+		'Sylvilagus floridanus'
+		'Tupaia glis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=6;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Posterior Entry of Lateral Semicircular Canal'
+		 [2] 'Position of the Lateral Semicircular Canal with respect to Posterior Semicircular Canal'
+		 [3] 'Largest Semicircular Arc Radius of Curvatue'
+		 [4] 'Shape of Cochlear Spiral'
+		 [5] 'Coiling of the Cochlea'
+		 [6] 'Percent Volume of the Cochlea'
+	;
+	STATELABELS
+		1
+		'Secondary Common Crus'
+		'Posterior Ampulla'
+		'Vestibule'
+		,
+		2
+		'Low (SLI = 0.0)'
+		'High (SLI > 0.0)'
+		,
+		3
+		'Anterior Semicircular Canal'
+		'Lateral Semicircular Canal'
+		'Posterior Semicircular Canal'
+		,
+		4
+		'low (aspect ratio equals 0.55 and below)'
+		'high (aspect ratio above 0.55)'
+		,
+		5
+		'1-2 turns (360-720 degrees)'
+		'2-3 turns (720-1080 degrees)'
+		'3+ turns (>1080 degrees)'
+		,
+		6
+		'"‰¤50%'
+		'51-75%'
+		'>75%'
+		
+	;
+	MATRIX
+	'Didelphis virginiana'		                000011
+	'Kulbeckia kulbecke'		                  000000
+	'Ukhaatherium nessovi'		                000001
+	'Zalambdalestes lechei'		               000000
+	'Zhelestid'		                           000001
+	'Chrysochloris sp.'		                   210121
+	'Elephantimorpha'		                     200010
+	'Hemicentetes semispinosum'		           110000
+	'Macroscelides proboscideus'		          210111
+	'Orycteropus afer'		                    002001
+	'Procavia capensis'		                   212120
+	'Trichechus manatus'		                  201001
+	'Dasypus novemcinctus'		                212111
+	'Atelerix albiventris'		                210100
+	'Balaenopteridae'		                     100012
+	'Bathygenys reevesi'		                  210001
+	'Canis familiaris'		                    000121
+	'Equus caballus'		                      110011
+	'Eumetopias jubatus'		                  101111
+	'Felis catus'		                         110121
+	'Manis tricuspis'		                     212010
+	'Nycteris grandis'		                    100111
+	'Pteropus lylei'		                      210101
+	'Rhinolophus ferrumequinum'		           110122
+	'Sorex monticolus'		                    210000
+	'Sus scrofa'		                          210121
+	'Tadarida brasiliensis'		               210011
+	'Tursiops truncatus'		                  101002
+	'Cavia porcellus'		                     210121
+	'Cynocephalus volans'		                 210010
+	'Homo sapiens'		                        212010
+	'Lepus californicus'		                  210101
+	'Macaca mulatta'		                      210020
+	'Mus musculus'		                        210101
+	'Sylvilagus floridanus'		               210111
+	'Tupaia glis'		                         110121
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The posterior limb of the lateral semicircular canal opens into one of three structures - a secondary common crus formed with the posterior canal that ultimately empties into the posterior ampulla; through the anterior wall of the posterior ampulla; directly into the vestibule.';
+	TEXT CHARACTER=2 TEXT='The plane of the lateral semicircular canal takes a high position with respect to the posterior semicircular canal so that the lateral canal bisects the area enclosed by the posterior canal in anterior view. In other taxa, the plane of the lateral canal is positioned below (ventral) to the ampullar aperture of the posterior canal. The determination is made by calculating the sagittal labyrintine index (SLI), which is defined as the percentage of the width of the posterior semicircular canal arc below the plane of the lateral semicircular canal (Spoor and Zonneveld, 1995). Indices for each taxon are provided in the Notes section of each cell.';
+	TEXT CHARACTER=3 TEXT='The largest semicircular canal arc radius of curvature is variable among mammals.';
+	TEXT CHARACTER=4 TEXT='The aspect ratio of the cochlear spiral corresponds to an observation that the cochlea of mammals is either low (ratio below 0.55; "flattened" condition of Gray, 1907, 1908) or high (ratio equals 0.55 or greater; "sharp pointed" condition of Gray, 1907, 1908). However, the distinction is expressed numerically and not always apparent in images of inner ear endocasts.';
+	TEXT CHARACTER=5 TEXT='The number of turns completed by the cochlea varies among extinct and extant mammals. Ancestrally, the therian cochlea completed approximately one turn (360 degrees), but the cochleae of more recent mammals can complete over 4 (e.g., guinea pigs). For purposes of this discrete matrix, the coiling of the cochlea is binned per number of turns.';
+	TEXT CHARACTER=6 TEXT='The percent volume of the bony labyrinth that is contributed by the cochlea varies among placental mammals, ranging from around 50% (e.g., Hemicentetes) to over 90% (e.g., Tursiops). For purposes of this discrete matrix, the percent volume has been binned in ranges of 75%.';
+
+      [Attribute comments]
+      	TEXT TAXON=1 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=2 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=3 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=6 CHARACTER=2 TEXT='SLI = 21.7';
+	TEXT TAXON=8 CHARACTER=2 TEXT='SLI = 4.1';
+	TEXT TAXON=9 CHARACTER=2 TEXT='SLI = 32.7';
+	TEXT TAXON=10 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=11 CHARACTER=2 TEXT='SLI = 44.9';
+	TEXT TAXON=12 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=13 CHARACTER=2 TEXT='SLI = 23.0';
+	TEXT TAXON=16 CHARACTER=2 TEXT='SLI = 45.2';
+	TEXT TAXON=26 CHARACTER=2 TEXT='SLI = 16.5';
+	TEXT TAXON=28 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=18 CHARACTER=2 TEXT='SLI = 10.5';
+	TEXT TAXON=17 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=19 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=20 CHARACTER=2 TEXT='SLI = 13.1';
+	TEXT TAXON=21 CHARACTER=2 TEXT='SLI = 20.5';
+	TEXT TAXON=23 CHARACTER=2 TEXT='SLI = 29.7';
+	TEXT TAXON=22 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=24 CHARACTER=2 TEXT='SLI = 38.3';
+	TEXT TAXON=27 CHARACTER=2 TEXT='SLI = 22.1';
+	TEXT TAXON=14 CHARACTER=2 TEXT='SLI = 26.4';
+	TEXT TAXON=25 CHARACTER=2 TEXT='SLI = 11.9';
+	TEXT TAXON=29 CHARACTER=2 TEXT='SLI = 25.3';
+	TEXT TAXON=34 CHARACTER=2 TEXT='SLI = 25.8';
+	TEXT TAXON=32 CHARACTER=2 TEXT='SLI = 32.4';
+	TEXT TAXON=35 CHARACTER=2 TEXT='SLI = 33.9';
+	TEXT TAXON=33 CHARACTER=2 TEXT='SLI = 50.1';
+	TEXT TAXON=31 CHARACTER=2 TEXT='SLI = 55.8';
+	TEXT TAXON=30 CHARACTER=2 TEXT='SLI = 30.8';
+	TEXT TAXON=36 CHARACTER=2 TEXT='SLI = 13.1';
+	TEXT TAXON=4 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=5 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=7 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=15 CHARACTER=2 TEXT='SLI = 0.0';
+	TEXT TAXON=1 CHARACTER=4 TEXT='Aspect ratio 0.62';
+	TEXT TAXON=2 CHARACTER=4 TEXT='Aspect ratio 0.44';
+	TEXT TAXON=3 CHARACTER=4 TEXT='Aspect ratio 0.35';
+	TEXT TAXON=6 CHARACTER=4 TEXT='Aspect ratio 0.63';
+	TEXT TAXON=8 CHARACTER=4 TEXT='Aspect ratio 0.38';
+	TEXT TAXON=9 CHARACTER=4 TEXT='Aspect ratio 0.80';
+	TEXT TAXON=10 CHARACTER=4 TEXT='Aspect ratio 0.45';
+	TEXT TAXON=11 CHARACTER=4 TEXT='Aspect ratio 0.72';
+	TEXT TAXON=12 CHARACTER=4 TEXT='Aspect ratio 0.55';
+	TEXT TAXON=13 CHARACTER=4 TEXT='Aspect ratio 0.63';
+	TEXT TAXON=16 CHARACTER=4 TEXT='Aspect ratio 0.32';
+	TEXT TAXON=26 CHARACTER=4 TEXT='Aspect ratio 0.71';
+	TEXT TAXON=28 CHARACTER=4 TEXT='Aspect ratio 0.47';
+	TEXT TAXON=18 CHARACTER=4 TEXT='Aspect ratio 0.41';
+	TEXT TAXON=17 CHARACTER=4 TEXT='Aspect ratio 0.64';
+	TEXT TAXON=19 CHARACTER=4 TEXT='Aspect ratio 0.68';
+	TEXT TAXON=20 CHARACTER=4 TEXT='Aspect ratio 0.69';
+	TEXT TAXON=21 CHARACTER=4 TEXT='Aspect ratio 0.54';
+	TEXT TAXON=23 CHARACTER=4 TEXT='Aspect ratio 0.61';
+	TEXT TAXON=22 CHARACTER=4 TEXT='Aspect ratio 0.61';
+	TEXT TAXON=24 CHARACTER=4 TEXT='Aspect ratio 0.63';
+	TEXT TAXON=27 CHARACTER=4 TEXT='Aspect ratio 0.52';
+	TEXT TAXON=14 CHARACTER=4 TEXT='Aspect ratio 0.69';
+	TEXT TAXON=25 CHARACTER=4 TEXT='Aspect ratio 0.47';
+	TEXT TAXON=29 CHARACTER=4 TEXT='Aspect ratio 1.29';
+	TEXT TAXON=34 CHARACTER=4 TEXT='Aspect ratio 0.62';
+	TEXT TAXON=32 CHARACTER=4 TEXT='Aspect ratio 0.64';
+	TEXT TAXON=35 CHARACTER=4 TEXT='Aspect ratio 0.71';
+	TEXT TAXON=33 CHARACTER=4 TEXT='Aspect ratio 0.48';
+	TEXT TAXON=31 CHARACTER=4 TEXT='Aspect ratio 0.36';
+	TEXT TAXON=30 CHARACTER=4 TEXT='Aspect ratio 0.50';
+	TEXT TAXON=36 CHARACTER=4 TEXT='Aspect ratio 0.66';
+	TEXT TAXON=4 CHARACTER=4 TEXT='Aspect ratio 0.36';
+	TEXT TAXON=5 CHARACTER=4 TEXT='Aspect ratio 0.46';
+	TEXT TAXON=7 CHARACTER=4 TEXT='Aspect ratio 0.42';
+	TEXT TAXON=15 CHARACTER=4 TEXT='Aspect ratio 0.48';
+	TEXT TAXON=1 CHARACTER=5 TEXT='791 degrees';
+	TEXT TAXON=2 CHARACTER=5 TEXT='446 degrees';
+	TEXT TAXON=3 CHARACTER=5 TEXT='380 degrees';
+	TEXT TAXON=6 CHARACTER=5 TEXT='1191 degrees';
+	TEXT TAXON=8 CHARACTER=5 TEXT='540 degrees';
+	TEXT TAXON=9 CHARACTER=5 TEXT='720 degrees';
+	TEXT TAXON=10 CHARACTER=5 TEXT='709 degrees';
+	TEXT TAXON=11 CHARACTER=5 TEXT='1363 degrees';
+	TEXT TAXON=12 CHARACTER=5 TEXT='407 degrees';
+	TEXT TAXON=13 CHARACTER=5 TEXT='816 degrees';
+	TEXT TAXON=16 CHARACTER=5 TEXT='667 degrees';
+	TEXT TAXON=26 CHARACTER=5 TEXT='1340 degrees';
+	TEXT TAXON=28 CHARACTER=5 TEXT='661 degrees';
+	TEXT TAXON=18 CHARACTER=5 TEXT='911 degrees';
+	TEXT TAXON=17 CHARACTER=5 TEXT='1156 degrees';
+	TEXT TAXON=19 CHARACTER=5 TEXT='795 degrees';
+	TEXT TAXON=20 CHARACTER=5 TEXT='1092 degrees';
+	TEXT TAXON=21 CHARACTER=5 TEXT='863 degrees';
+	TEXT TAXON=23 CHARACTER=5 TEXT='656 degrees';
+	TEXT TAXON=22 CHARACTER=5 TEXT='801 degrees';
+	TEXT TAXON=24 CHARACTER=5 TEXT='1115 degrees';
+	TEXT TAXON=27 CHARACTER=5 TEXT='753 degrees';
+	TEXT TAXON=14 CHARACTER=5 TEXT='624 degrees';
+	TEXT TAXON=25 CHARACTER=5 TEXT='493 degrees';
+	TEXT TAXON=29 CHARACTER=5 TEXT='1457 degrees';
+	TEXT TAXON=34 CHARACTER=5 TEXT='628 degrees';
+	TEXT TAXON=32 CHARACTER=5 TEXT='693 degrees';
+	TEXT TAXON=35 CHARACTER=5 TEXT='817 degrees';
+	TEXT TAXON=33 CHARACTER=5 TEXT='1088 degrees';
+	TEXT TAXON=31 CHARACTER=5 TEXT='889 degrees';
+	TEXT TAXON=30 CHARACTER=5 TEXT='954 degrees';
+	TEXT TAXON=36 CHARACTER=5 TEXT='1125 degrees';
+	TEXT TAXON=4 CHARACTER=5 TEXT='368 degrees';
+	TEXT TAXON=5 CHARACTER=5 TEXT='545 degrees';
+	TEXT TAXON=7 CHARACTER=5 TEXT='765 degrees';
+	TEXT TAXON=15 CHARACTER=5 TEXT='886 degrees';
+	TEXT TAXON=1 CHARACTER=6 TEXT='69%';
+	TEXT TAXON=2 CHARACTER=6 TEXT='48%';
+	TEXT TAXON=3 CHARACTER=6 TEXT='57%';
+	TEXT TAXON=6 CHARACTER=6 TEXT='71%';
+	TEXT TAXON=8 CHARACTER=6 TEXT='50%';
+	TEXT TAXON=9 CHARACTER=6 TEXT='72%';
+	TEXT TAXON=10 CHARACTER=6 TEXT='55%';
+	TEXT TAXON=11 CHARACTER=6 TEXT='48%';
+	TEXT TAXON=12 CHARACTER=6 TEXT='71%';
+	TEXT TAXON=13 CHARACTER=6 TEXT='66%';
+	TEXT TAXON=16 CHARACTER=6 TEXT='54%';
+	TEXT TAXON=26 CHARACTER=6 TEXT='59%';
+	TEXT TAXON=28 CHARACTER=6 TEXT='94%';
+	TEXT TAXON=18 CHARACTER=6 TEXT='51%';
+	TEXT TAXON=17 CHARACTER=6 TEXT='66%';
+	TEXT TAXON=19 CHARACTER=6 TEXT='54%';
+	TEXT TAXON=20 CHARACTER=6 TEXT='68%';
+	TEXT TAXON=21 CHARACTER=6 TEXT='49%';
+	TEXT TAXON=23 CHARACTER=6 TEXT='59%';
+	TEXT TAXON=22 CHARACTER=6 TEXT='67%';
+	TEXT TAXON=24 CHARACTER=6 TEXT='89%';
+	TEXT TAXON=27 CHARACTER=6 TEXT='73%';
+	TEXT TAXON=14 CHARACTER=6 TEXT='50%';
+	TEXT TAXON=25 CHARACTER=6 TEXT='46%';
+	TEXT TAXON=29 CHARACTER=6 TEXT='55%';
+	TEXT TAXON=34 CHARACTER=6 TEXT='59%';
+	TEXT TAXON=32 CHARACTER=6 TEXT='54%';
+	TEXT TAXON=35 CHARACTER=6 TEXT='55%';
+	TEXT TAXON=33 CHARACTER=6 TEXT='50%';
+	TEXT TAXON=31 CHARACTER=6 TEXT='43%';
+	TEXT TAXON=30 CHARACTER=6 TEXT='48%';
+	TEXT TAXON=36 CHARACTER=6 TEXT='55%';
+	TEXT TAXON=4 CHARACTER=6 TEXT='48%';
+	TEXT TAXON=5 CHARACTER=6 TEXT='66%';
+	TEXT TAXON=7 CHARACTER=6 TEXT='31%';
+	TEXT TAXON=15 CHARACTER=6 TEXT='91%';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 6;
+      ENDBLOCK;
+      

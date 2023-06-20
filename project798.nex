@@ -1,0 +1,2443 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 14.05.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=73;
+    TAXLABELS
+    		'Georgiacetus vogtlensis'
+		'Zygorhiza kochii'
+		'Archaeodelphis patrius'
+		'Xenorophus sloanii'
+		'Agorophius pygmaeus'
+		'Patriocetus kazakhstanicus'
+		'Orycterocetus crocodilinus'
+		'Physeter catodon'
+		'Kogia breviceps'
+		'Waipatia maerewhenua'
+		'Squalodon calvertensis'
+		'Notocetus vanbenedeni'
+		'Prosqualodon davidis'
+		'Squaloziphius emlongi'
+		'Zarhachis flagellator'
+		'Pomatodelphis inaequalis'
+		'Platanista gangetica'
+		'Tasmacetus shepherdi'
+		'Berardius bairdii'
+		'Ziphius cavirostris'
+		'Mesoplodon ginkgodens'
+		'Xiphiacetus bossi'
+		'Lipotes vexillifer'
+		'Parapontoporia sternbergi'
+		'Inia geoffrensis'
+		'Pontoporia blainvillei'
+		'Pliopontos littoralis'
+		'Brachydelphis mazeasi'
+		'Kentriodon pernix'
+		'Atocetus iquensis'
+		'Hadrodelphis calvertense'
+		'Albireo whistleri'
+		'Denebola brachycephala'
+		'Delphinapterus leucas'
+		'Monodon monoceros'
+		'Odobenocetops peruvianus'
+		'Australithax intermedia'
+		'Lomacetus ginsburgi'
+		'Haborophocoena toyoshimai'
+		'Piscolithax boreios'
+		'Piscolithax longirostris'
+		'Piscolithax tedfordi'
+		'Salumiphocaena stocktoni'
+		'Septemtriocetus bosselaersi'
+		'Phocoena sinus'
+		'Phocoena spinipinnis'
+		'Phocoena dioptrica'
+		'Phocoena phocoena'
+		'Phocoenoides dalli'
+		'Neophocaena phocaenoides'
+		'Lissodelphis borealis'
+		'Cephalorhynchus hectori'
+		'Lagenorhynchus acutus'
+		'Orcaella brevirostris'
+		'Orcinus orca'
+		'Feresa attenuata'
+		'Globicephala macrorhynchus'
+		'Grampus griseus'
+		'Hemisyntrachelus cortesii'
+		'Peponocephala electra'
+		'Pseudorca crassidens'
+		'Delphinus delphis'
+		'Lagenodelphis hosei'
+		'Sousa chinensis'
+		'Stenella attenuata'
+		'Tursiops truncatus'
+		'Sotalia fluviatilis'
+		'Steno bredanensis'
+		'Pterophocaena nishinoi'
+		'Stenella kabatensis'
+		'Miophocaena nishinoi'
+		'Archaeophocaena teshioensis'
+		'Haborophocoena minutus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=282;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789ABCDEFG";
+	CHARLABELS
+		 [1] 'rostral length'
+		 [2] 'premaxilla 1'
+		 [3] 'premaxilla 2'
+		 [4] 'premaxillary width 1'
+		 [5] 'maxillary length'
+		 [6] 'mesorostral groove 1'
+		 [7] 'rostrum'
+		 [8] 'rostral constriction'
+		 [9] 'antorbital notch 1'
+		 [10] 'premaxillary width 2'
+		 [11] 'maxillary width 1'
+		 [12] 'maxillary width 2'
+		 [13] 'mesorostral groove 2'
+		 [14] 'suture between premaxilla and maxilla'
+		 [15] 'antorbital notch 2'
+		 [16] 'vomarin width'
+		 [17] 'anterior sinus fossa'
+		 [18] 'double rooted teeth'
+		 [19] 'large diastema'
+		 [20] 'tooth enamel'
+		 [21] 'teeth'
+		 [22] 'upper anterior teeth'
+		 [23] 'ectocingulum'
+		 [24] 'entocingulum'
+		 [25] 'teeth size'
+		 [26] 'anterior mandibular teeth 1'
+		 [27] 'anterior mandibular teeth 2'
+		 [28] 'mandibular teeth'
+		 [29] 'mandibular symphysis 1'
+		 [30] 'mandibular symphysis 2'
+		 [31] 'mandbule'
+		 [32] 'mandible'
+		 [33] 'coronoid crest'
+		 [34] 'antorbital process 1'
+		 [35] 'supraorbital process 1'
+		 [36] 'antorbital process 2'
+		 [37] 'lacrimal'
+		 [38] 'lacrimal foramen'
+		 [39] 'lacrimal and jugal 1'
+		 [40] 'lacrimal and jugal 2'
+		 [41] 'jugal'
+		 [42] 'lacrimal and jugal 3'
+		 [43] 'infraorbital foramen 1'
+		 [44] 'infraorbital foramen 2'
+		 [45] 'infraorbital plate'
+		 [46] 'postorbital process 1'
+		 [47] 'postorbital process 2'
+		 [48] 'frontal maxilla suture'
+		 [49] 'infraorbital foramen 3'
+		 [50] 'rostral basin'
+		 [51] 'premaxillary width 3'
+		 [52] 'premaxillary foramen 1'
+		 [53] 'premaxillary foramen 2'
+		 [54] 'premaxillary foramen 3'
+		 [55] 'posterolateral sulcus'
+		 [56] 'premaxilla 3'
+		 [57] 'infraorbital foramen 4'
+		 [58] 'infraorbital foramen 5'
+		 [59] 'premaxillary sac'
+		 [60] 'ascending process'
+		 [61] 'supraorbital process 2'
+		 [62] 'antorbital process 3'
+		 [63] 'pneumatic maxillary crest'
+		 [64] 'maxillary ridge'
+		 [65] 'nasal 1'
+		 [66] 'premaxilla 4'
+		 [67] 'bony nares'
+		 [68] 'inferior vestible fossa'
+		 [69] 'suture between maxilla premaxilla'
+		 [70] 'premaxillary crest'
+		 [71] 'premaxilla 5'
+		 [72] 'premaxilla sac fossa'
+		 [73] 'asymmetry of premaxillae'
+		 [74] 'premaxillary width 4'
+		 [75] 'premaxillary eminence'
+		 [76] 'premaxilla 6'
+		 [77] 'right premaxilla 1'
+		 [78] 'left bony nares'
+		 [79] 'supracranial basin'
+		 [80] 'ethmoid'
+		 [81] 'mesethmoid'
+		 [82] 'premaxilla 7'
+		 [83] 'premaxillary inflection'
+		 [84] 'premaxillary cleft'
+		 [85] 'nasal 2'
+		 [86] 'nasal 3'
+		 [87] 'nasal protuberance'
+		 [88] 'nasal 4'
+		 [89] 'nasal fossa'
+		 [90] 'width of nasal'
+		 [91] 'nasal 5'
+		 [92] 'nasal 6'
+		 [93] 'suture between nasal frontal'
+		 [94] 'frontal'
+		 [95] 'frontal boss'
+		 [96] 'synvertex'
+		 [97] 'cranial vertex'
+		 [98] 'brain casa'
+		 [99] 'nuchal crest 1'
+		 [100] 'temporal fossa 1'
+		 [101] 'temporal fossa 2'
+		 [102] 'origin for temporal muscle'
+		 [103] 'parietal 1'
+		 [104] 'parietal 2'
+		 [105] 'interparietal'
+		 [106] 'sagittal crest'
+		 [107] 'alisphenoid'
+		 [108] 'zygomatic process 1'
+		 [109] 'zygomatic process 2'
+		 [110] 'zygomatic process 3'
+		 [111] 'width of squamosal'
+		 [112] 'zygomatic process 4'
+		 [113] 'retroarticular process 1'
+		 [114] 'retroarticular process 2'
+		 [115] 'retroarticular process 3'
+		 [116] 'nuchal crest 2'
+		 [117] 'occipital shield'
+		 [118] 'dorsal condyloid fossa'
+		 [119] 'palatine 1'
+		 [120] 'palatine 2'
+		 [121] 'lateral lamina of palatine 1'
+		 [122] 'lateral lamina of palatine 2'
+		 [123] 'lateral lamina of palatine 3'
+		 [124] 'pterygoid'
+		 [125] 'suture between pterygoid and palatine'
+		 [126] 'lateral lamina of pterygoid'
+		 [127] 'subtemporal crest'
+		 [128] 'superior lamina'
+		 [129] 'pterygoid sinus 1'
+		 [130] 'pterygoid sinus 2'
+		 [131] 'pterygoid sinus 3'
+		 [132] 'pterygoid sinus 4'
+		 [133] 'preorbital sinus fossa 1'
+		 [134] 'preorbital sinus fossa 2'
+		 [135] 'postorbital sinus fossa'
+		 [136] 'pterygoid sinus 5'
+		 [137] 'orbitosphenoid'
+		 [138] 'hamular process'
+		 [139] 'keel of hamular process'
+		 [140] 'medial lamina'
+		 [141] 'falciform process 1'
+		 [142] 'falciform process 2'
+		 [143] 'tympanosquamosal recess 1'
+		 [144] 'tympanosquamosal recess 2'
+		 [145] 'basisphenoidal sinus fossa'
+		 [146] 'suture between alisphenoid and squamosal'
+		 [147] 'groove for trigeminal nerve'
+		 [148] 'periotic fossa 1'
+		 [149] 'suprametal pit'
+		 [150] 'foramen spinosum'
+		 [151] 'periotic fossa 2'
+		 [152] 'zygomatic process 5'
+		 [153] 'external auditory meatus'
+		 [154] 'vomer'
+		 [155] 'rectus capitus anticus muscle fossa'
+		 [156] 'basioccipital crest 1'
+		 [157] 'basioccipital crest 2'
+		 [158] 'hypoglossal foramen'
+		 [159] 'jugal notch'
+		 [160] 'paroccipital process'
+		 [161] 'postrior sinus fossa'
+		 [162] 'tuberculum of malleus'
+		 [163] 'processus muscularis of malleus'
+		 [164] 'anterior process of periotic 1'
+		 [165] 'anterior process of periotic 2'
+		 [166] 'lateral groove of periotic'
+		 [167] 'anterior process of periotic 3'
+		 [168] 'anterior and posterior process of periotic'
+		 [169] 'lateral tuberosity 1'
+		 [170] 'lateral tuberosity 2'
+		 [171] 'parabullary ridge'
+		 [172] 'articulation with squamossal 1'
+		 [173] 'anterior bullar facet'
+		 [174] 'origin of tensor tympani muscle'
+		 [175] 'fenestra rotunda'
+		 [176] 'periotic'
+		 [177] 'stapedial muscle fossa'
+		 [178] 'stylomastoid fossa'
+		 [179] 'caudal tympanic process'
+		 [180] 'aperture for cochlear aqueduct 1'
+		 [181] 'aperture for cochlear aqueduct 2'
+		 [182] 'tegmen tympani'
+		 [183] 'internal acoustic meatus 1'
+		 [184] 'internal acoustic meatus 2'
+		 [185] 'internal acoustic meatus 3'
+		 [186] 'aperture for vestibular aqueduct'
+		 [187] 'articular rim'
+		 [188] 'articulation with squamossal occipital'
+		 [189] 'posterior process of periotic 1'
+		 [190] 'posterior process of periotic 2'
+		 [191] 'posterior process of periotic 3'
+		 [192] 'posterior bullar facet 1'
+		 [193] 'posterior bullar facet 2'
+		 [194] 'mastoid exposure'
+		 [195] 'anterior spine'
+		 [196] 'anterolateral convexity'
+		 [197] 'articulation with squamossal 2'
+		 [198] 'tympanic width'
+		 [199] 'accessory ossicle'
+		 [200] 'lateral furrow'
+		 [201] 'sigmoid process 1'
+		 [202] 'sigmoid process 2'
+		 [203] 'tympanic bulla 1'
+		 [204] 'elliptical foramen'
+		 [205] 'posterior process of tympanic bulla 1'
+		 [206] 'posterior process of tympanic bulla 2'
+		 [207] 'median furrou'
+		 [208] 'median furrow'
+		 [209] 'median prominence'
+		 [210] 'involucrum 1'
+		 [211] 'involucrum 2'
+		 [212] 'tympanic bulla 2'
+		 [213] 'ventromedial keel 1'
+		 [214] 'ventromedial keel 2'
+		 [215] 'basihyal and thyrohyals 1'
+		 [216] 'basihyal and thyrohyals 2'
+		 [217] 'transverse process of atlas'
+		 [218] 'neural canal of atlas'
+		 [219] 'postzygapophysis of axis'
+		 [220] 'cervical vertebrae 1'
+		 [221] 'cervical vertebrae 2'
+		 [222] 'thoracic vertebrae counts'
+		 [223] 'capitular articular process'
+		 [224] 'transverse processes of lumbar vertebrae 1'
+		 [225] 'transverse processes of lumbar vertebrae 2'
+		 [226] 'transverse processes of lumbar vertebrae 3'
+		 [227] 'lumbar vertebraecounts'
+		 [228] 'caudal vertebraecounts'
+		 [229] 'sternum'
+		 [230] 'ventrorateral process'
+		 [231] 'sternal ribs'
+		 [232] 'scapula 1'
+		 [233] 'scapula 2'
+		 [234] 'scapula 3'
+		 [235] 'scapula 4'
+		 [236] 'scapula 5'
+		 [237] 'coracoid process 1'
+		 [238] 'coracoid process 2'
+		 [239] 'acromion 1'
+		 [240] 'acromion 2'
+		 [241] 'supraspinous fossa'
+		 [242] 'radial rength'
+		 [243] 'deltopectral tuberosity'
+		 [244] 'deltoid crest'
+		 [245] 'radial and ulnar facets'
+		 [246] 'olecranon process'
+		 [247] 'spermceti organ'
+		 [248] 'museau de singe'
+		 [249] 'lateral lips of nasal plug'
+		 [250] 'proximal suc'
+		 [251] 'posterior nasal suc 1'
+		 [252] 'posterior nasal suc 2'
+		 [253] 'nasofrontal suc 1'
+		 [254] 'nasofrontal sac 2'
+		 [255] 'vestibular sac 1'
+		 [256] 'vestibular sac 2'
+		 [257] 'vestibular sac 3'
+		 [258] 'vestibular sac 4'
+		 [259] 'vestibular sac 5'
+		 [260] 'vestibular sac 6'
+		 [261] 'diagonal membrane'
+		 [262] 'spiracular cavity'
+		 [263] 'pars posteroexternus muscle'
+		 [264] 'pars intermedius muscle'
+		 [265] 'pars posterointernus muscle'
+		 [266] 'pars antrointernus muscle'
+		 [267] 'blowhole shape'
+		 [268] 'nasal passage'
+		 [269] 'distal suc'
+		 [270] 'blowhole ligament 1'
+		 [271] 'blowhole ligament 2'
+		 [272] 'cartilage on blowhole ligament'
+		 [273] 'premaxillary suc'
+		 [274] 'accessory sac'
+		 [275] 'esophageal forestomach'
+		 [276] 'external throat groove'
+		 [277] 'dorsal fin'
+		 [278] 'flipper'
+		 [279] 'mesorostral groove 3'
+		 [280] 'premaxillary foramen 4'
+		 [281] 'right premaxilla 2'
+		 [282] 'two head rib counts'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		,
+		2
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		6
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		8
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		9
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		11
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		12
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		13
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		'State 5'
+		'State 5'
+		,
+		14
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		17
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		18
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		21
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		22
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		23
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		26
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		28
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		'State 5'
+		'State 5'
+		'State 6'
+		'State 6'
+		'State 7'
+		'State 7'
+		,
+		29
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		34
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		38
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		43
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		44
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		45
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		48
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		50
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		52
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		53
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		56
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		58
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		61
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		63
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		65
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		67
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		74
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		75
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		76
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		'State 5'
+		'State 5'
+		,
+		77
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		82
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		85
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		87
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		89
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		91
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		94
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		95
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		97
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		98
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		100
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		102
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		103
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		104
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		105
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		106
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		107
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		108
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		109
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		110
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		111
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		112
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		113
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		114
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		115
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		116
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		,
+		117
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		118
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		119
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		120
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		121
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		122
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		123
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		124
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		125
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		126
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		127
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		129
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		131
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		132
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		135
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		137
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		139
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		140
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		141
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		142
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		143
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		144
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		145
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		146
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		147
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		148
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		149
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		150
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		151
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		152
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		153
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		154
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		155
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		156
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		157
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		158
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		159
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		160
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		161
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		162
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		163
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		164
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		165
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		166
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		167
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		168
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		169
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		170
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		171
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		172
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		173
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		174
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		175
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		176
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		177
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		178
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		179
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		180
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		181
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		182
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		183
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		184
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		185
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		186
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		187
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		188
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		189
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		190
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		191
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		192
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		193
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		194
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		195
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		196
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		197
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		198
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		199
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		200
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		201
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		202
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		203
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		204
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		205
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		206
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		207
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		208
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		209
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		210
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		211
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		212
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		213
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		214
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		215
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		216
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		217
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		218
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		219
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		220
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		,
+		221
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		222
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		223
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		224
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		225
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		226
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		227
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		,
+		228
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		'State 4'
+		'State 4'
+		,
+		229
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		230
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		231
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		232
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		233
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		234
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		235
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		236
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		237
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		238
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		239
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		240
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		241
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		242
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		243
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		244
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		245
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		246
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		247
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		248
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		249
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		250
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		251
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		252
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		253
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		254
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		255
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		256
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		257
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		258
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		259
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		260
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		261
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		262
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		263
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		264
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		265
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		266
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		267
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		268
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		269
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		270
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		271
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		272
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		273
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		274
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		275
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		276
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		277
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		278
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		279
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		280
+		'State 0'
+		'State 1'
+		,
+		281
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		282
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		
+	;
+	MATRIX
+	'Georgiacetus vogtlensis'		              ?000?0-00000?00?00000?000??0?0000-0??0000?0?0??-00-0---0-?0-0-0-0000000???-0--000000000000000-000?00-000?0000?000000?0000--?00000?0-??00??0?0000?00???0?0?000000???????????0?00?????????0??0?0???000?000???0??0?0????0???????0?00?0???????????????????????????????????????????????????---0
+	'Zygorhiza kochii'		                     000000-000010000000000000?0000000-0000000?0?000-(1,2)0-0---0-00-0-0-000000000?-0--000000000000001-000?00-000?0010000010001000?-0000(2,3)000-0000000-0?100??????00100101000000000000?0100??00?00(0,1)0000?0000000000?0?0?0?00000?00000000?000002???0?00????0?0??000????????????????????????????????---0
+	'Archaeodelphis patrius'		               ????????1??1??1?0????????????????1??0100?0211?00?1?????0001-000000000????-?0-00000100?0001001-?000?0-000??010001000???000--?100?000-0000?00-0?10011???3?011010000??1?00????0?10?0?1????????0????01??0?0???????????????????????????????????????????????????????????????????????????????????
+	'Xenorophus sloanii'		                   ?000?0011101101100120?000????????0000100?2111??021????0000101000001000000?01-00000100?000100000100??1?????????????????000-??0?0?0??-??000?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????0???
+	'Agorophius pygmaeus'		                  ?????0??1??0?01???0?0???0??0?000?-????01?11010?02011001?101-10?000000000??01-000010(1,2)010?0?0010010010010011010010000011????????0????-0?00??????0??1?011??0???????0???????????????????????????????????????????????????????????????0?????????????????????????????????????????????????????000?
+	'Patriocetus kazakhstanicus'		           2000?0011??1101??0000?000?????0?00?01?01?01?1000?00100101013100010000000??01-?0?01010?0?020000010010010011?1001001001??00??????????-??00??????30??111?300101??001??????????(0,1)?????????????????00??1?????????????????????????????????????????????????????????????????????????????????????10?
+	'Orycterocetus crocodilinus'		           2000?00110?0100101031?--2????????11??????110100110111(0,1)10100110011010000020021111?000(0,1)00002?01-001?0000111100000010-400200--21003000-0000?10-0-20021000001012(2,3)1100??000021001101101001000100?00200??00012?00101110?0021????????????????????????????????????????????????????????????????(0,1)(0,1)1?
+	'Physeter catodon'		                     210110111100100101-31-1120(0,1)(4,5)00002(1,0)102110011010210001111-000112001010000020-201110-00100-01001-001010-0110110000110-400200--22003000-000011?-1-3001101001100?30?00101000210?311110000100010010020010000111?0101110000(2,1)10112241110?10010000000011100011011000?0?0?????0000000010??0012111101
+	'Kogia breviceps'		                      010110111101100101-11---201010002101211102101001(1,2)021110-?0001200-110000022--01110-001---------000101-0111111100(0,1)000400210--21000000-0000101-2??000100001110130100101000211?31101000021101001101201000011110101110000000010221110111010020010011000001011000?0?0?????0000002010??0010010111
+	'Waipatia maerewhenua'		                 ?00?00011??110110?120?100?0?0000100011?(0,1)?01011202021010020131000100011000001-00101010100020001011?10010011110100011001100--???0?100-00000???00(3,2)00(1,2)1121(0,1)0000020000??101110102010201000000111100110101010201001021000?20??00?0??????????????????????????????????????????????????????????010?
+	'Squalodon calvertensis'		               2100?0011221101100101?1000?0?000000??10(0,1)?11?103020110110201310001000010?0001-00100020000020001011110010211110010000000110-????00110-0000??0?002002(0,1)10100010021000??1000?000201010000001011100002112101020?001021001120??20?????01?????????10?012100?11????????????????????????????????0(0,1)01
+	'Notocetus vanbenedeni'		                2000100012211001?10011101???0000?001??????101100(0,1)021010021131000100001000100-0010000010101??11010?(1,2)(0,1)1102?111001000(0,1)1011000-?310(2,3)111-1?00??????30??10213001001110100101110002010200002011111000011121000001001031001120??00????????????????102-021?????????????????????????????????????000?
+	'Prosqualodon davidis'		                 010010001211100?000200110010?000?00-1?011110102(0,1)(1,2)0110000(1,2)0101101100001000001-00101000100020011011?100102?111001001000??010?0200(2,3)1?0-0?00000-00(3,2)0?21????001002?01???12?0?????11????1????????1?0(0,1)101???01????????00???00??????????????20?000102-021???10????????????????????????????????010?
+	'Squaloziphius emlongi'		                ?????0?01??1?01?0????????????????000110??01111202001010010101001100001000100-00100000100010021020?100102111100000201011110-?000?120-0?00?10-00300(1,2)100000111020110?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????010?
+	'Zarhachis flagellator'		                20001000122140110101111020170110210???????1?10202011000011101310100?01000001-0010000000002001101001(0,1)110211110012000111121??1310(2,3)111-0000?20-01300?112130010020101??1211?0100010100(0,1)0(1,0)100112000(0,1)?1?21?1020(0,1)0010311001001000?0??0010????????????????????????????????????????????????????0002
+	'Pomatodelphis inaequalis'		             20001000112240010101??????07?110?10?1????0?11120?021001010131310100?01000001-00100000?00020001010?001?020111001201010??1??-131??111-0000??0-01300????13?010001000000211?010?01?100000100012000121?2101020?0?102110?000?????????0??????????????????????????????????????????????????????000?
+	'Platanista gangetica'		                 200010001222410001?111??11150110011-1???0331102120(1,0)20100(1,2)112131010000(0,1)000?01-001000000000100(0,1)10010(1,2)0010311110012110000120?013100111-0000120-0130010??1300000(1,2)10010?1011100000101000101111120001111200012010010311010000000000100?001100000102--21000(0,1)2001111100?????10??000101011010100102
+	'Tasmacetus shepherdi'		                 200111001221110101011011012501002(1,0)003101121210300001010010101002111011001100100101000101010012021?21010(2,3)01100110021300110-120000111-0000031110310010110111003?1101?1000100120112010120100001100211000012100001011010101120-211101010(1,0)0?20??010010101100001100?0?????1000111101111101010102
+	'Berardius bairdii'		                    200120001121101?01-13----12210012(1,0)00310003121020(0,1,2)101011020101002110001001100100101000201010001021?2?010301100110020(4,3)00110-?200011?1-00001301103100100?001101301001010001001?011101101010000100111?0000121000012110000001???2111000200001001010110101000011110?0?????10001121011111?(2,1)010101
+	'Ziphius cavirostris'		                  20012100122110(0,1)101--1----12310012000310013121000(0,1)0010110101(0,2)1002110001102100100100000101010011021011010301100110021(4,3)0(0,1)100-?20001111-000013111-3101101?0111103(0,1)1001?1000101?10101010120100001110211000012100001211011100120?21110101000000010(0,1)0(0,1)0010110000110000?????100011110111110101(0,1)102
+	'Mesoplodon ginkgodens'		                200121101121101101-13----123100121003100?30210001?010110(0,1)013110211100100120010010?000101?10011021?110?0201100200021302?00??200??1?1-000013111-310??????11110301001000001010?0111011110100001110211000112100?01210011101020?21110?011000000101000010100000110??0?????100011310?111??101(0,1)102
+	'Xiphiacetus bossi'		                    200120001221411011011-112??70100?000111(0,1)1010110020010100(1,2)0101002100001010100-0010100000102002002001(0,1)(1,0)?021110001002110(1,2)100-?131001?0??01001?00?3102100000110010100011000?011(3,2)01010101(2,0)001100?0001111001020(0,1)001021011000??001001?01????0?00011020201001?????????????????????????????????0101
+	'Lipotes vexillifer'		                   2000100212203110010210111006011000002110132010000002011110101000110010000100-0010000000311002210101011031111011000011110100032131210101001102031121000101111311010?0000210131112111000111101101011000002000010211101010?2000000110112002100002020011120011111020?10010??00310?001000000101
+	'Parapontoporia sternbergi'		            2000?0121221311101011?112??(7,6)?110?00021?01?10?100(0,1)00101111010110011000000??00-001000000001100121010210?021111010001010(1,2)101000??1?1?1-00101???(1,2)03102101030110020001?????????????????????????????????????????????????????????????????0????????0??????????????????????????????????????????110?
+	'Inia geoffrensis'		                     200010101221311001021011000601000100211013101000(0,1,2)0010101(1,2)0121001111000000020-00100000003110010101020(1,0)10301110110010(0,1)1110110--0(0,1)3120-10100---2031021010(3,1,2)01113(1,2)(0,1)0010101002100311020000100(0,1)0101100211001112010(0,1)10011101000000100201101021000010001000-2120001110?20?10010??00110?00111011(0,1)102
+	'Pontoporia blainvillei'		               2000101012213110110110112007011001002110101010(0,1)010(1,0)1010110101003111000100020-001000001001100120000100103111101100001021011103100121-101011(0,1)220310201003010012(0,1)10101010021003110200001010110111(0,1)211001102010012010101001000200001101021000010000000-2120001110?20?10010??001101001100000102
+	'Pliopontos littoralis'		                ?00??0?01??1??110?011???2????????000?????1??1000(0,1)0110101(1,2)010100111100000(0,1)010-0010?000100110012001?101103011101100101021?1(0,1)00??(0,1)01?1?1?100??-00310????0?0110020001??0100?100?1100000010?0110?11111?0011020?001221010000???21001?1??????????????????????????????????????????????????????0102
+	'Brachydelphis mazeasi'		                001010001121101?110?1??????40?1?100011?0?2111010(1,2)0110100(0,1)0101001111000000010-00100000100110012001011010(2,3)0111010000?101?010003(1,2)1?1?(0,1)?1?10000200(3,2)10(1,2)???0?111001??01010100?1003110000?0000011011011110?1?0???0?122??101?0????10????????2????????????10111????????????????????????????????(0,1)10?
+	'Kentriodon pernix'		                    1011100011211010010110101??6??00??0031101310112010110100(1,2)0101000110011000100-001000002001200120110200102(1,0)11102000100011(0,1)110???1(2,3)121?1010??100-3102100000110(0,1)20100010200?1003110000001000110100110100110200101201010100?0?000?1011????1?????????????(0,1)10????????????????????????????????1102
+	'Atocetus iquensis'		                    201110001121501001011?1120?5010000003110?11010201021010010101100110011000000-0012?000203121112000?210102011102?(0,1)0000???110003213121?1?1001100-21??1???311?00101000102002100?11000000(1,0)0?011011011(0,1)?0011020?101201010?101?20100101?02??????01002?0011101????????????????????????????????0101
+	'Hadrodelphis calvertense'		             20001?001221401?1112101?100411000000?110?320112020010100??101?0?1100110?0100-0010?0?0000121111000?1??10301?????????00??0100???1?1?1-10?00?0???????1????????????????120??100?1??0?0?000?0?1?100?10?001?020?1?120111???????11001?1?????1????10020?000000????????????????????????????????1002
+	'Albireo whistleri'		                    0101??00112140100??11?111??50?01210031101111112020110100(1,2)0101101111110001020-0011-000002120021100?11010301100100000002101002221?110-001010000-310?10??31110021100??02002111?110210000?001101?011?10010000010120101010010212010101?4?211200100211001110????????????????????????????????0100
+	'Denebola brachycephala'		               300110001001101?0101?2???????0?????02??0???0?1202?11?101?01110001??111?0?004-?011???00031101121010100???01?111?00001??1010????1??20-00100??00?21???????01???????0??02002101?110210001000110?10111?00?10000111001110100?????????????????????????????111??????????????????????????????????0?
+	'Delphinapterus leucas'		                31001000100120100111121110111001200011101211112020110101(1,2)01110001111111(0,1)2114-0011-000103120112001010010301111100010112101010210(0,1)110-000110000-310210(1,2)0001100201000102002101311020000000011001011(0,1)10001000011100111010010021001011?112110001012(0,1)000-2110011111010100011110011010110102(1,2)0(0,1)0?
+	'Monodon monoceros'		                    31001001100120(0,1)001--1211-0--100121001110131?112020110101(1,2)01110001111111(0,1)2114-0012-000(0,1)03120112101?100?0211111(1,2)0(0,1)0101011010102103110-000110000-310?1???0011002010001020021013110100000000010010110?0001000011100111010111001001?11?112110001000(0,1)00011010011111010?00011110011010010?02(1,2)0(0,1)01
+	'Odobenocetops peruvianus'		             4--00020100010?201-31111-0-??????1?-----??001100202101?11003100011101?10-003-001?-000?03???0--000?10?103111?00021211?1101-00-11?110-0010-00-20300??0??30?11??110???1200?011?11?1?00000?1010010?2??000001??1?1?21110100??02?0??????????????????????????????????????????????????????????111?
+	'Australithax intermedia'		              ?????0?00??1?01?1?0???????????????0?311013001???1001011110111001111111101223-0011-000012120?12101?110103?11002010?00021010????13121?11100???0?211?10??31?100??101?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????010?
+	'Lomacetus ginsburgi'		                  110110100111101?1?0?????????1???21003110130?10?01011011110111101111111101223-0011-000012120012101?110?03?1?????????002101010??13120?10100???????1?????3??100??102?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????010?
+	'Haborophocoena toyoshimai'		            ?????0?01??1?01????11???2???????210?3110130011201011011110111000111111102113-0011-0000???????2101?11010201100200000002?010102?12120?1?1001000?310?10??31110?21?01??020021013110210000000110101110?00100000111201010100????????????????????????????????????????????????????????????????100?
+	'Piscolithax boreios'		                  ?101?0101101101?1?01????2???1?0?2100311012001120200101111011100111111010-223-0011-000012120112101?11010201?????????002?0101?????120??1100??????????????????????????0200?101?110210000000110101110?001000??111201010?00???0?0????1?????????????????????????????????????????????????????010?
+	'Piscolithax longirostris'		             010010101101101111011?1120?61?0?110031101200112020110111(1,2)0111001111110101223-0011-000012?20011101?110102?110020100000?1110?02213120?1110011000310?1???311?002?102010200?101?11020000000011010?1???0011000?11120111010011?010?0??????21????????????????????????????????????????????????010?
+	'Piscolithax tedfordi'		                 000010101101101?1?0??????????????100311011?0103010010111?011100111111110?223-0011-000012120011101?110102?11002?100000?101??02??3120??1100???0?311?10??3111002?10??10200?101?11?210000000110101110?0011000?111201110?00????10?0???????????????????11110????????????????????????????????010?
+	'Salumiphocaena stocktoni'		             ?101??101???101???011?1?2??61?0??10?31??1???1??010?101111011100?11111110???3-?011-000?1212?111?0??110?0201??02??0?00?2??101?????1?0???1?0??1??31??????????????1??010200?10??1??????0000011?1?1111?00?00???1?1201110?00?????0???01??????????0????010100????????????????????????????????00??
+	'Septemtriocetus bosselaersi'		          ?????0?01??1?01?1?0???????????????0????????01120?0?1011??01110001111?010-213-00?1-0?00??????1210??11010201?0??02???001????????1?120?1110??????211?10??31??0020101?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????00??
+	'Phocoena sinus'		                       41001010010110121101221120?4100?2100311012001000200(1,2)0(0,1)211012100(0,1)111110110223-0011-000012120110101?110103(1,0)11001010000011010002213120?1110000100211??00?31110021001010200?100?110200000000110110111?0011000?11120?1101??1122-2100010222112001012000110?00011111111101110011011010011?0020102
+	'Phocoena spinipinnis'		                 410010100101101211012211201410012100311012011000200(1,2)0(0,1)2110121000111110110223-0011-000012120110101?1(0,1)0?03(1,0)110010(0,1)00000(1,2)1010002213120?1110000100311??0??3111002(0,1)1010?02002100?110200000000110110111?00110001111201(0,1)101(0,2)01122-21000102221100010120201101000111111111?1110011011010011?0020101
+	'Phocoena dioptrica'		                   410010100111101211012211201410012100311012011120(1,2)00(1,2)0121(1,2)0121001111110110223-0011-000012120110101?11010(2,3)0110010111100(1,2)1010002213120?1110000200211??0??311?0021(0,1)01??0200??0??1??????01??0?1??11?21??01?00????12011???001122-310001032211?0????????11000???????1?11?11???????11???????0(1,2)0(0,1)00
+	'Phocoena phocoena'		                    410010100111101211012211201(4,5,6)10012100311012011120(1,2)00(1,2)0121(1,2)0121001111110110223-0011-0000121201101010110?0(2,3)011001011110021010002213120-1110000200211210(1,0)031110(0,1)2(0,1)10201020021003110200000000110110(0,1)211001100011112011101201022-3100010322112(0,1)01010000110100011111111101110011011010011100(1,2)0102
+	'Phocoenoides dalli'		                   410010100101101211012211201(4,5,6)10012100311012011120200(1,2)0121(1,2)0121001111110100223-0011-00001212011010101101021110010(0,1)11000(1,2)1010002213120?1110000200211210(1,0)0?1110020102010200211031102000000001101111(2,1)1?00110001111201110100102(0,2)-312?01044211(0,2)(0,1)00(0,1)10(0,1)0011(0,1)000011111111101110011011010011?0010(0,1)00
+	'Neophocaena phocaenoides'		             410010101001101211012211101(0,4)10012100211012011120(1,2)00(1,2)0121(1,2)0121000111110111223-0011-000012120110101?11010(2,3)(1,0)11001010000011010002213120-1110000100311?10?031110021002?10200211031102000000001101101111001100011112011101001022-2100010222112(0,1)01012000110(0,1)10011111111101110011011010011?02(1,2)0(0,1)0(1,2)
+	'Lissodelphis borealis'		                110110101111201?11011211201(7,6)100120013110110(1,0)112020010(0,1)11(1,2)011100011101(0,1)102105-0012-0001031200(0,1)2001?110102(1,0)1100200000101?010002213120?1010001000310?10??3111002010?0102002100?110100000000110111101?10110100101001(0,1)101111022-11(2,3)00104321101111120001101000110?1010000110111011010011?0220102
+	'Cephalorhynchus hectori'		              310110101101201111011211201(5,6)1001210031101301101020010111(1,2)0121000111011102105-0012-0001031200220010110103011002000001011010002213120?101000110-(3,2)102100031110?2110101020021003110210001000110110101100110100111021110110??22?11(1,2)001?2121100010120101111000110?1010000110111011010011?001010?
+	'Lagenorhynchus acutus'		                3100102011111011110112??2016100120013110100111202011011110111000111011002105-0012-000103120022001?21010(2,3)011001000001011010022213120-101000100-210?10??3111102110101020?21??3110200000000110101100100110100101001110101?????212?0??4321120011110101111000110?1010000110111011010011?0021102
+	'Orcaella brevirostris'		                410011201001101111011???001(0,4)100110003110130111202?11011110121100111011102005-0012-000103?20022001?110103011102000001??111010221?120-101000100-310??0??311100200010102002101?110110000000110110100?001101001110011101(2,1)01022-1?1?01?2221101110020001111(0,1)00110?1010000110111011010011?0011101
+	'Orcinus orca'		                         3101102111011010110112111010100101003110130110202?(1,0)1011020121100111011001100-0012-000(1,2)03120022001?(1,2)10103011102000104011010(0,1)02213120-1010001?0-?10?1????11100201000112002101?11111000(1,2,0)000010111100?1011010011100111011(0,1)1(0,1)20-311?01011211200101?1?0111(0,1)000110?1010000110111011010011?0010102
+	'Feresa attenuata'		                     310111201001101111011211101010012100311012(0,1)1112020110111(1,2)0121100111011002105-0012-000100120112001011010201110(1,2)00000(1,2)011010002213120-101001100-310?1??031111021000010200210131102000000001101111011001101001110011101101122-21100103321120010101001101000110?1010000110111011010011?0020102
+	'Globicephala macrorhynchus'		           3101112010011010110112112001100121003110130110002?11011110111100111011102105-0012-000200120122001?01010211100201000402?110102213120-101000100-31021???311113300000102002101?110000000000110110101?101101001110011101001022-311?0?021?1100011(0,1)2(0,1)2011?1000110?1010000110111011010011?0031112
+	'Grampus griseus'		                      310110001000101011-11-1121021001210031101201112020010101(1,2)012110011101010211(0,5)-0012-000103120022001?01010201100(1,2)0(0,1)000(1,2)1?111002221?1210101000100-310?1??031111030000010200210131101(0,1)00000001101111011100101001110211101011022-311?01?3221101011101101101000110?1010000110111011010011?0020102
+	'Hemisyntrachelus cortesii'		            110010201101501011011???1?00100111003110?2??11202?11011110121100111011001105-0012-000103?20?22001?010102?1100(1,2)000101???0101?221?120?1?1000120-310?????3111102?100???2????01????2???00??0110?1??0??0011????1010211101101120-1?1?01???111?????1202011110????????????????????????????????010?
+	'Peponocephala electra'		                110111201001101011011211201(4,5)100120003110130111(0,2)020110111(1,2)0111100111011102105-0012-000203120022001?2101020110020(0,1)0102011010002213121-101001100-310?10??31110021000010200210131102(0,1)0000000100111101?001101001010011101101122-211?0??3421121011101101111000110?1010000110111011010011?0020102
+	'Pseudorca crassidens'		                 3101112010011010110112??101(0,1)100101003110130110(2,3)020110110(1,2)012110011101(0,1)(0,1)0210(0,5)-0012-0001031201220010110102011(0,1)0(1,2)00000110101010221?120-101000120-310?10??3111002100001020021013110100000000100111100100010100101001110110?(0,1)22-311?01?211?111010(0,1)000011?1000110?1010000110101011010011?0030112
+	'Delphinus delphis'		                    1001102012215010310112112017100120012110110011(2,3)020110111(1,2)0111100111011102105-0012-000103120022001?1101020110020(0,1)00010(1,2)10100022131201101001100-310?10??3111002(0,1)101010200210131112100000001101111011101101001010011101011(0,1)21-112?0??4221121(0,1)1(0,1)101101101000110?1010000110111011010011?0020102
+	'Lagenodelphis hosei'		                  010110201101501131011211201(7,6)1001200121101010113020010011(1,2)01111001110111(0,1)2105-0012-0001031200220010210102(1,0)110020(0,1)00010210100(0,2)221312(0,1)?101001100-310?1000311100211010102002101?110210000000110101101?101101001010011101011022-21200104321121011121101111000110?1010000110101011010011?0020102
+	'Sousa chinensis'		                      200110021121501111011211201610011(1,0)00311013001(0,1)00201101111011110011101(0,1)002105-0012-000103120022001?010103011(0,1)020(0,1)0001(0,1)110100022131201101000100-(3,2)1021000311100200000?0?00?100?11020001?000110111101?001??10???10???1??????20-211001011211(0,2)101102110111(0,1)000110?1010000110111011010011?0020102
+	'Stenella attenuata'		                   200110101121501021011211201(7,6)10012001(2,3)1101101113020110111(1,2)011110011101(0,1)102105-0012-000103120022001?1101020110020(0,1)000(1,2)021010022213120?1010011(0,2)0-3102101?3111002(0,1)101010200210131112100000001101011011101101001(0,1)1001(0,1)101011022-212001?442112101112(0,1)101?11000110?1010000110111011010011?002(0,1)102
+	'Tursiops truncatus'		                   100110201111501021011211201(4,5)1001200131101(0,2,1)0011(2,3)0201101111012110011101110210(0,5)-0012-0001031200220010110102011(0,1)02000(0,1)0(1,2)(0,1)110100(0,2)221(2,3)1201101001120-310210(1,0)0(3,1)1110021(0,1)00010200210131102100010001101111011001101001010010101111122-11(1,2)001031211(0,2)(0,1)011101101111000110?101000011011101101001110020102
+	'Sotalia fluviatilis'		                  100110101121501011011211201(5,6)10012000311013(0,1)0101020110111(1,2)0121100111011(0,1)02105-0012-000103120012001?01010301100200000101101010221?12001010001(0,2)0-310?11?0311100(2,3)10000102002101?110210000000110101101?101101001110011101001020-211001022211210110201(0,1)1101000110?1010000110111011010011?0020102
+	'Steno bredanensis'		                    100110011121501011001211101(4,5)00002000(2,3)1101100111020110(0,1)1(0,1)(1,2)0121100111011(0,1)02105-0012-0001031200120010110102011002000001021010(0,1)0221?1201101001100-310210(1,0)?31110021(0,1)0001020021003110210001000110101101?001101001010210101101022-111?0??122112101112(0,1)101101000110?1010000110111011010011?0020102
+	'Pterophocaena nishinoi'		               ????????1??1??1?1?0??????????????1003?1011101120201??11?101?1000????1?10?00???0???0??????????????0?10102?1100200010??21010022213120?10100?00??311210??31110021101??0200?1?1311021000000011010111010?110001111201010120??22101??????????????????????????????????????????????????????????1??
+	'Stenella kabatensis'		                  ???????????????????11???2?????0?2???????????110?20?10?1?201??????1101?10100?????2?0?0???????????10?1??0??1?00100010????01012221?12???0100?10??3102??00?111?????????020021?13110210000000110101100100110000101021110110?1??????????????????????????????????????????????????????????????101?
+	'Miophocaena nishinoi'		                 ????????1??1??1??????????????????1??3?10??101??010110121101110001111111?2115-001?-0000???????21010??????0??????????0??1010??????120??01?0??????????????????????????0200?11??110?000??0?0?1???111??????????????????????????????????????????????????????????????????????????????????????101?
+	'Archaeophocaena teshioensis'		          ??????????????????????????????????0??????????????0120?10??1?1???111111102?10-0012-000?131200????10???????????2?0??????1010?02???1????01???????31????????1?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????101?
+	'Haborophocoena minutus'		               ????????1??1??1??????????????????1003110?2??1120(1,2)001011110111000111111102113-0011-000011120012101?11?10201100200010002?010102?1?120?1?10????0?310??0??3010002110??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????100?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 282;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1351479439515 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 6229740911909113282 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 3402589407203153222 ; mqVersion 274 ; checksumv 0 2 3375279491 null getNumChars 282 numChars 282 getNumTaxa 73 numTaxa 73 short true bits 255 states 255 sumSquaresStatesOnly 437008.0 sumSquares 437008.0 NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 63 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 700 464 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #3402589407203153222 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 637 397 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 282 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Imported_trees ; LINK Taxa = Taxa ; TRANSLATE 1 Georgiacetus_vogtlensis , 2 Zygorhiza_kochii , 3 Archaeodelphis_patrius , 4 Xenorophus_sloanii , 5 Agorophius_pygmaeus , 6 Patriocetus_kazakhstanicus , 7 Orycterocetus_crocodilinus , 8 Physeter_catodon , 9 Kogia_breviceps , 10 Waipatia_maerewhenua , 11 Squalodon_calvertensis , 12 Notocetus_vanbenedeni , 13 Prosqualodon_davidis , 14 Squaloziphius_emlongi , 15 Zarhachis_flagellator , 16 Pomatodelphis_inaequalis , 17 Platanista_gangetica , 18 Tasmacetus_shepherdi , 19 Berardius_bairdii , 20 Ziphius_cavirostris , 21 Mesoplodon_ginkgodens , 22 Xiphiacetus_bossi , 23 Lipotes_vexillifer , 24 Parapontoporia_sternbergi , 25 Inia_geoffrensis , 26 Pontoporia_blainvillei , 27 Pliopontos_littoralis , 28 Brachydelphis_mazeasi , 29 Kentriodon_pernix , 30 Atocetus_iquensis , 31 Hadrodelphis_calvertense , 32 Albireo_whistleri , 33 Denebola_brachycephala , 34 Delphinapterus_leucas , 35 Monodon_monoceros , 36 Odobenocetops_peruvianus , 37 Australithax_intermedia , 38 Lomacetus_ginsburgi , 39 Haborophocoena_toyoshimai , 40 Piscolithax_boreios , 41 Piscolithax_longirostris , 42 Piscolithax_tedfordi , 43 Salumiphocaena_stocktoni , 44 Septemtriocetus_bosselaersi , 45 Phocoena_sinus , 46 Phocoena_spinipinnis , 47 Phocoena_dioptrica , 48 Phocoena_phocoena , 49 Phocoenoides_dalli , 50 Neophocaena_phocaenoides , 51 Lissodelphis_borealis , 52 Cephalorhynchus_hectori , 53 Lagenorhynchus_acutus , 54 Orcaella_brevirostris , 55 Orcinus_orca , 56 Feresa_attenuata , 57 Globicephala_macrorhynchus , 58 Grampus_griseus , 59 Hemisyntrachelus_cortesii , 60 Peponocephala_electra , 61 Pseudorca_crassidens , 62 Delphinus_delphis , 63 Lagenodelphis_hosei , 64 Sousa_chinensis , 65 Stenella_attenuata , 66 Tursiops_truncatus , 67 Sotalia_fluviatilis , 68 Steno_bredanensis , 69 Pterophocaena_nishinoi , 70 Stenella_kabatensis , 71 Miophocaena_nishinoi , 72 Archaeophocaena_teshioensis , 73 Haborophocoena_minutus ; TREE Imported_tree_1 = (25 , (((26 , (((33 , 35) , (51 , 66)) , ((37 , (38 , (39 , (40 , 43 , ((44 , 49) , 50))))) , 41)) , 68) , 32) , 27)) ; TREE Imported_tree_2 = (((26 , ((32 , (((33 , 35) , (51 , 66)) , 68)) , (41 , (37 , (38 , (39 , (40 , 43 , ((44 , 49) , 50)))))))) , 27) , 25) ; TREE Imported_tree_3 = (((26 , ((32 , (((33 , 35) , (51 , 66)) , 68)) , (41 , (37 , (38 , (39 , (40 , 43 , ((44 , 49) , 50)))))))) , 27) , 25) ; TREE Imported_tree_4 = (((26 , ((32 , ((33 , 35) , (51 , 66)) , ((37 , 38) , ((39 , ((43 , ((44 , 49) , 50)) , 40)) , 41))) , 68)) , 27) , 25) ; TREE Imported_tree_5 = (((26 , ((32 , ((33 , 35) , (51 , 66)) , ((37 , 38) , ((39 , ((43 , ((44 , 49) , 50)) , 40)) , 41))) , 68)) , 27) , 25) ; TREE Imported_tree_6 = (((26 , ((32 , ((33 , 35) , (51 , 66)) , ((37 , 38) , ((39 , ((43 , ((44 , 49) , 50)) , 40)) , 41))) , 68)) , 27) , 25) ; TREE Imported_tree_7 = (((26 , ((32 , ((33 , 35) , (51 , 66)) , ((37 , 38) , ((39 , ((43 , ((44 , 49) , 50)) , 40)) , 41))) , 68)) , 27) , 25) ; TREE Imported_tree_8 = (((26 , ((32 , ((33 , 35) , (51 , 66)) , ((37 , 38) , ((39 , ((43 , ((44 , 49) , 50)) , 40)) , 41))) , 68)) , 27) , 25) ; TREE Imported_tree_9 = (1 , ((((3 , 17) , 22) , (4 , 5 , 6) , ((((7 , 8) , 9) , ((((((23 , 24) , 26) , 25) , (32 , ((((33 , 35) , 36) , (((((((51 , (63 , 66)) , 68) , (56 , (58 , (62 , 65)))) , 53) , 57) , 61) , 55)) , ((((37 , 38) , 39 , 40 , 43 , ((44 , 50) , 49)) , 41) , 69)))) , 27) , (29 , 31))) , ((18 , 21) , 20)) , 10 , 11 , 12 , 13) , 14 , 15)) ; TREE Imported_tree_10 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_11 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_12 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_13 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_14 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_15 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_16 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_17 = (1 , (2 , (3 , (4 , (5 , 6 , ((((((((7 , (8 , 9)) , ((18 , 20) , (19 , 21))) , (((23 , 24) , ((25 , 26) , 27 , 28)) , ((29 , (30 , 31)) , (32 , ((((((33 , 35) , 36) , 54 , 55 , 59) , 56 , (57 , 58) , 61) , 51 , 52 , 53 , 60 , 62 , 63 , ((64 , 67) , 68) , 65 , 66) , (((37 , 38) , (39 , 44) , 40 , 42 , 43 , (((45 , 46) , 47 , 48 , 49) , 50)) , 41) , 69 , 70))))) , (14 , 22)) , (15 , (16 , 17))) , (11 , 12)) , 13) , 10)))))) ; TREE Imported_tree_18 = (1 , (2 , (3 , (4 , (5 , 6 , (((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , ((23 , 24) , ((25 , 26) , (27 , (28 , ((29 , (31 , ((32 , ((((((((37 , 42) , (((45 , 46) , (47 , (48 , 49))) , 50)) , 40) , ((39 , 44) , 43)) , 41) , 38) , 69) , (((51 , 53 , ((((54 , 59) , 55 , 61) , 56 , (57 , 58)) , 60 , ((62 , 63) , 65) , ((64 , 67) , 68) , 66)) , 52) , 70))) , ((33 , 35) , 36)))) , 30)))))) , (14 , 22)) , 11 , (12 , ((15 , 16) , 17))) , 10 , 13))))) ; TREE Imported_tree_19 = (1 , (2 , (3 , (4 , (5 , 6 , (((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , ((23 , 24) , ((25 , 26) , (27 , (28 , ((29 , (31 , ((32 , ((((((((37 , 42) , (((45 , 46) , (47 , (48 , 49))) , 50)) , 40) , ((39 , 44) , 43)) , 41) , 38) , 69) , (((51 , 53 , ((((54 , 59) , 55 , 61) , 56 , (57 , 58)) , 60 , ((62 , 63) , 65) , ((64 , 67) , 68) , 66)) , 52) , 70))) , ((33 , 35) , 36)))) , 30)))))) , (14 , 22)) , 11 , (12 , ((15 , 16) , 17))) , 10 , 13))))) ; TREE Imported_tree_20 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_21 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_22 = (1 , (2 , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11)))))) ; TREE Imported_tree_23 = (1 , (2 , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11)))))) ; TREE Imported_tree_24 = (1 , (2 , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11)))))) ; TREE Imported_tree_25 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_26 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_27 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_28 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , (14 , 22)) , ((((23 , (25 , (26 , 27))) , 24) , 28) , ((29 , 30) , (31 , ((32 , (((37 , 38 , 39 , 40 , 41 , 42 , 43 , 44 , (((45 , 46) , (47 , 48 , 49)) , 50)) , 69) , ((((51 , (53 , ((60 , 66) , ((62 , 63) , 65)))) , ((((54 , (55 , 61)) , 56) , ((57 , 58) , 59)) , ((64 , 67) , 68))) , 52) , 70))) , ((33 , 35) , 36)))))) , (12 , ((15 , 16) , 17))) , (10 , 13) , 11))))) ; TREE Imported_tree_29 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , ((14 , 22) , (((((23 , 24 , (25 , (26 , 27))) , 28) , 31) , (29 , 30)) , ((32 , (((((37 , 39 , 40 , 41 , 42 , 43 , 44) , (((45 , 46) , 50) , ((47 , 48) , 49))) , 38) , 69) , ((((51 , 53) , (((((((54 , (55 , 59)) , 61) , 56) , (57 , 58)) , 66) , 60) , (((62 , 63) , 65) , ((64 , 67) , 68)))) , 52) , 70))) , ((33 , 35) , 36))))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_30 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , (8 , 9)) , ((18 , (20 , 21)) , 19)) , ((14 , 22) , (((((23 , 24 , (25 , (26 , 27))) , 28) , 31) , (29 , 30)) , ((32 , (((((37 , 39 , 40 , 41 , 42 , 43 , 44) , (((45 , 46) , 50) , ((47 , 48) , 49))) , 38) , 69) , ((((51 , 53) , (((((((54 , (55 , 59)) , 61) , 56) , (57 , 58)) , 66) , 60) , (((62 , 63) , 65) , ((64 , 67) , 68)))) , 52) , 70))) , ((33 , 35) , 36))))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_31 = (1 , 2 , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((51 , 53) , (62 , 63) , ((64 , 67) , 68) , 65) , 60 , 66) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_32 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((51 , 53) , (62 , 63) , ((64 , 67) , 68) , 65) , 60 , 66) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_33 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((51 , 53) , (62 , 63) , ((64 , 67) , 68) , 65) , 60 , 66) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_34 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((((51 , 53) , ((62 , 65) , 63)) , ((64 , 67) , 68)) , 66) , 60) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_35 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((((51 , 53) , ((62 , 65) , 63)) , ((64 , 67) , 68)) , 66) , 60) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_36 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 40) , (38 , (41 , (44 , (((45 , 46) , ((47 , 49) , 48)) , 50))) , 42 , 43)) , 39) , 69) , ((((((((((((51 , 53) , ((62 , 65) , 63)) , ((64 , 67) , 68)) , 66) , 60) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_37 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14) , (22 , (((23 , 24) , (((25 , 26) , 27) , 28)) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((((((37 , 38) , 42) , 43) , (41 , (((45 , 46) , 50) , ((47 , 48) , 49)))) , 40) , 44) , 39) , 69) , ((((((((((((51 , 53) , ((62 , 65) , 63)) , ((64 , 67) , 68)) , 66) , 60) , 56) , (57 , 58)) , 61) , 54) , (55 , 59)) , 52) , 70))))) , 31)))) , (11 , (12 , ((15 , 16) , 17)))) , (10 , 13)))))) ; TREE Imported_tree_38 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , 22 , ((23 , 24) , ((25 , 26) , 27) , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 38) , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((51 , 53) , (62 , 63 , 65)) , ((64 , 67) , 68)) , 66) , 60) , (56 , (57 , 58))) , (55 , 59) , 61 , 70) , 54) , 52))))) , 31))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_39 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , 22 , ((23 , 24) , ((25 , 26) , 27) , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 38) , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((51 , 53) , (62 , 63 , 65)) , ((64 , 67) , 68)) , 66) , 60) , (56 , (57 , 58))) , (55 , 59) , 61 , 70) , 54) , 52))))) , 31))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_40 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , 22 , ((23 , 24) , ((25 , 26) , 27) , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 38) , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((51 , 53) , (62 , 63 , 65)) , ((64 , 67) , 68)) , 66) , 60) , (56 , (57 , 58))) , (55 , 59) , 61 , 70) , 54) , 52))))) , 31))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_41 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , 22 , ((23 , 24) , ((25 , 26) , 27) , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((((37 , 38) , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((51 , 53) , (62 , 63 , 65)) , ((64 , 67) , 68)) , 66) , 60) , (56 , (57 , 58))) , (55 , 59) , 61 , 70) , 54) , 52))))) , 31))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_42 = (1 , 2 , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , (22 , ((23 , 24) , ((25 , 26) , 27) , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , ((((37 , 38 , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , (39 , 44)) , 69) , (((((((((((51 , 53) , (62 , 65) , 63) , (64 , 67) , 68) , 66) , 60) , 56) , 61) , (55 , (59 , 70))) , (57 , 58)) , 54) , 52))))) , 31)))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_43 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , (22 , ((23 , 24) , (((25 , 26) , 27) , 28) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , ((((37 , 38 , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((((51 , 53) , (62 , 65) , 63) , (64 , 67) , 68) , 66) , 60) , 56) , 61) , (55 , (59 , 70))) , (57 , 58)) , 54) , 52))))) , 31)))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_44 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , (22 , ((23 , 24) , (((25 , 26) , 27) , 28) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , ((((37 , 38 , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((((51 , 53) , (62 , 65) , 63) , (64 , 67) , 68) , 66) , 60) , 56) , 61) , (55 , (59 , 70))) , (57 , 58)) , 54) , 52))))) , 31)))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_45 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8 , 9) , ((18 , (20 , 21)) , 19)) , 14 , (22 , ((23 , 24) , (((25 , 26) , 27) , 28) , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , ((((37 , 38 , (40 , (((41 , (((45 , 46) , 50) , ((47 , 48) , 49))) , 42) , 43))) , 39 , 44) , 69) , (((((((((((51 , 53) , (62 , 65) , 63) , (64 , 67) , 68) , 66) , 60) , 56) , 61) , (55 , (59 , 70))) , (57 , 58)) , 54) , 52))))) , 31)))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_46 = ((1 , 2) , (3 , (4 , ((5 , 6) , ((((7 , 8) , 9) , 14 , ((18 , (20 , 21)) , 19) , 22 , ((23 , 24) , (25 , 26) , 27 , 28 , (((29 , 30) , (32 , (((33 , (34 , 35)) , 36) , (((37 , 38 , (39 , 44) , 40 , 41 , 42 , 43 , ((45 , 46) , ((47 , 49) , 48) , 50)) , 69) , ((((51 , 53) , ((((62 , 63 , 65) , 66) , 68) , (64 , 67))) , 52) , ((54 , ((56 , (57 , 58) , 60) , 61)) , (55 , 59 , 70))))))) , 31))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ; TREE Imported_tree_47 = ((1 , 2) , (3 , (4 , ((5 , 6) , (((((7 , 8) , 9) , ((18 , (20 , 21)) , 19)) , 14 , 22 , ((23 , 24) , ((((25 , 26) , 27) , 28) , (((29 , 30) , (32 , ((33 , (34 , 35) , 36) , ((((((((37 , 38) , 40 , (((41 , ((45 , 46) , (47 , 48 , 49) , 50)) , 42) , 43)) , 44) , 73) , 39) , (71 , 72)) , 69) , ((((((((51 , 53) , (62 , 65) , 63) , (64 , 67) , 68) , 66) , 60) , 56 , (57 , 58)) , 54 , 55 , 59 , 61 , 70) , 52))))) , 31)))) , ((10 , 13) , (11 , (12 , ((15 , 16) , 17))))))))) ;
+ENDBLOCK;

@@ -1,0 +1,775 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-10 02.29.35 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Leptoceratops gracilis'
+		'Protoceratops andrewsi'
+		'Magnirostris dodsoni'
+		'Bagaceratops rozhdestvenskyi'
+		'Turanoceratops tardabilis'
+		'Zuniceratops christopheri'
+		'Diabloceratops eatoni'
+		'Albertaceratops nesmoi'
+		'Rubeosaurus ovatus'
+		'Styracosaurus albertensis'
+		'Spinops sternbergorum'
+		'Centrosaurus apertus'
+		'Coronosaurus brinkmani'
+		'Xenoceratops foremostensis'
+		'Sinoceratops zhuchengensis'
+		'Einiosaurus procurvicornis'
+		'Achelousaurus horneri'
+		'Pachyrhinosaurus canadensis'
+		'Pachyrhinosaurus lakustai'
+		'Pachyrhinosaurus perotorum'
+		'Chasmosaurus belli'
+		'Pentaceratops sternbergii'
+		'Avaceratops lammersi'
+		'Nasutoceratops titusi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=98;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'no character'
+		 [2] 'Rostral elongate'
+		 [3] 'premax septum semicircular'
+		 [4] 'pm septum formed by pm and nasal'
+		 [5] 'pm narial strut present'
+		 [6] 'pm septal fossa present'
+		 [7] 'pm triangular process present'
+		 [8] 'ventral septal recess'
+		 [9] 'pm oral margin caudoventral expansion'
+		 [10] 'pm extent of expansion'
+		 [11] 'pm ventral angle only pm'
+		 [12] 'pm caudoventral process inserts between max and nasal'
+		 [13] 'pm caudoventral process formed'
+		 [14] 'pm nasal contact doral view nasal inserts into premaxilla'
+		 [15] 'accessory antorbital fenestra presnent'
+		 [16] 'aaof size small'
+		 [17] 'external antorbital fossa small'
+		 [18] 'max tooth row ventrally displaced'
+		 [19] 'maxillary cavity present'
+		 [20] 'ectopterygoid vestigual'
+		 [21] 'Nasal ornamentation'
+		 [22] 'epinasal'
+		 [23] 'narial spine'
+		 [24] 'sinus enters postorbital'
+		 [25] 'subadult ornamentation'
+		 [26] 'pacyosteotic boss'
+		 [27] 'horncore position'
+		 [28] 'horncore orientation'
+		 [29] 'horncore length'
+		 [30] 'horncore curvature'
+		 [31] 'horncore lateral curvature'
+		 [32] 'prefrontal present'
+		 [33] 'Palpebral blocky'
+		 [34] 'antorbital butress'
+		 [35] 'butress long'
+		 [36] 'jugal ventrally oriented'
+		 [37] 'Jugal infratemporal process present'
+		 [38] 'epijugal scar equilateral'
+		 [39] 'frontal fontanelle'
+		 [40] 'frontal fontanelle keyhole shaped'
+		 [41] 'rostral parietal directly over oc'
+		 [42] 'squamosl triangular'
+		 [43] 'squamosal forms floor of DTF'
+		 [44] 'squamosal/quadrate contact elongated grove'
+		 [45] 'sq thickened rounded swelling on medial margin'
+		 [46] 'parietosquamosal contact medially concave'
+		 [47] 'parietal median embayment'
+		 [48] 'embayment deep'
+		 [49] 'parietal rim on medial margin of parietal fenestra'
+		 [50] 'Parietal sharp median crest'
+		 [51] 'Parietal transverse bar rostrocaudally thick'
+		 [52] 'Parietal transverse bar wide'
+		 [53] 'frill imbrication of marginal undulations'
+		 [54] 'epiossifications on frill'
+		 [55] 'episquamosal delta shaped'
+		 [56] '6 or more episquamosals'
+		 [57] 'eps'
+		 [58] '5 or more epiparietals per side'
+		 [59] 'p1 present'
+		 [60] 'p2 spike'
+		 [61] 'p2 curved'
+		 [62] 'P3 spike'
+		 [63] 'P3 curvature'
+		 [64] 'p4 spike'
+		 [65] 'P5 present'
+		 [66] 'P5 spike'
+		 [67] 'P6 present'
+		 [68] 'p6 spike'
+		 [69] 'P7 present'
+		 [70] 'supraoccipital excluded in foramen magnum'
+		 [71] 'predentary dorsal and verntral processes subequal'
+		 [72] 'Predentary triturating surface inclined laterally'
+		 [73] 'dentary lateral ridge confluent with cutting surface of predentary'
+		 [74] 'caudal extent of tooth row caudal to coronoid process'
+		 [75] 'double rooted teeth'
+		 [76] 'number of alveoli in dentary more than 20'
+		 [77] '3 or more replacement teeth per alveolus'
+		 [78] 'syncervical with complete ring'
+		 [79] 'axis neural spine swept back to C3'
+		 [80] 'atlantal rib absent'
+		 [81] 'dorsal vertebae shortened'
+		 [82] 'sacrum longitudinal sulcus'
+		 [83] 'scapula makes up more than half of the glenoid'
+		 [84] 'large olecranon process'
+		 [85] 'clavical absent'
+		 [86] 'unguals flat with rounded tips'
+		 [87] 'penultimate phalanges wider than long'
+		 [88] 'ilium lateral eversion'
+		 [89] 'ischial pedulcle shorter then pubic peduncle'
+		 [90] 'pubis prepubic process long'
+		 [91] 'pubis postpubic rod short'
+		 [92] 'pubis forms medial wall of acetabulum'
+		 [93] 'ischium laterally compressed'
+		 [94] 'ischium curved'
+		 [95] 'femur without distinct greater and lesser torchantters'
+		 [96] 'small 4th trochanter'
+		 [97] 'tibia shorter than femur'
+		 [98] 'MT I half the length of II'
+	;
+	STATELABELS
+		1
+		,
+		2
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 0'
+		,
+		9
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		22
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		31
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		,
+		32
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		43
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		'State 2'
+		'State 2'
+		'State 3'
+		'State 3'
+		,
+		62
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		67
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		85
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		95
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		98
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		
+	;
+	MATRIX
+	'Leptoceratops gracilis'		                -1--0---0010001-00?0--0-00-----000-0000-0000000-00-------------------00000000000000000000000000000
+	'Protoceratops andrewsi'		                -0--0---000000010000000-0?--?--000-0000-0010000-0000-0---------------00000000000000000000000000000
+	'Magnirostris dodsoni'		                  -1--0---000110000000100-?1000--000-0000-?????0????-------------------00100?0??????????????????????
+	'Bagaceratops rozhdestvenskyi'		          -1--0---000100000000000-?0-----000-0000-001??00-?0-------------------0010000??????????????????????
+	'Turanoceratops tardabilis'		             -???????????????0000???-?0001-1?1?????0-??????????????????????????????00????0?????????????????????
+	'Zuniceratops christopheri'		             -1000000???010000000--100000102?1101100-?0?0????0010-0---------------00000000???110?????????01?0??
+	'Diabloceratops eatoni'		                 -01100001010010000?0001??000102?11011010001100101111110011100000101011??????1?????????????????????
+	'Albertaceratops nesmoi'		                -?1?000??????01-101?00???000112?111111??00110010111111001111000010101?1101111?????????????????????
+	'Rubeosaurus ovatus'		                    -01??0001?1??0??????1??0?000022?1?????????????101??1?100?1000101111?1?????????????????????????????
+	'Styracosaurus albertensis'		             -01100001111001-11111010000002211111111000110010111111001110001111111111011111?111101111111101111?
+	'Spinops sternbergorum'		                 -??1?00???????1-????1??0?000022?111???10??????101111?100??112000?0?0??????????????????????????????
+	'Centrosaurus apertus'		                  -01100001111001-1111101000000201111111100011001011111100111120001010111101111111111011111111011111
+	'Coronosaurus brinkmani'		                -011?000111??01-11111010000102011111111000110010111111001111??0010101111011111?11?1????111110?111?
+	'Xenoceratops foremostensis'		            -????????????????????0???????????????????01?0010?111?1??1110100010101?????????????????????????????
+	'Sinoceratops zhuchengensis'		            -??1??????????001???1?????00022010-???100011000-111111001111(1,3)00010101?????????????1????11?????11??
+	'Einiosaurus procurvicornis'		            -?11?000??????1-111110111100022010-111100011001011111100110001(0,1)010101111011111?11?1??1?111??1111??
+	'Achelousaurus horneri'		                 -011?00011110?1-111120111100022?10-1?1100011001011111100?10001101010111101111?????????????????????
+	'Pachyrhinosaurus canadensis'		           -011000011110?1-11112011?110022?10-111100?1100??11???1???10121101010111101????????????????????????
+	'Pachyrhinosaurus lakustai'		             -01100001111001-111120111110022?10-1?11000110010111111001111211010101111011111?11?1??11111110111??
+	'Pachyrhinosaurus perotorum'		            -01?0000111???1-11?1201??110022?10-???1????1?010?111?1???111(2,3)11010101?????1?1???1???????????0111??
+	'Chasmosaurus belli'		                    -100111000-0100111111101?000(0,1)0201111111111011111110001110010300-0-0-011011111111111111111111111111
+	'Pentaceratops sternbergii'		             -100111000-0110111111101000111201111111111011111110001110010300-0-0-01101111111111111111111111?111
+	'Avaceratops lammersi'		                  -01?000011110?1-10100011?001111?11011?100011000-11--0100?1100000101011??011111111?10?11???????1?1?
+	'Nasutoceratops titusi'		                 -01100001111001-10100011?001112?110??1100011000-111101001110000010101???????111?1?10??????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 98;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1370241843165 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 8954039863745924640 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 6101546399440562683 ; mqVersion 275 ; checksumv 0 3 2597004909 null getNumChars 98 numChars 98 getNumTaxa 24 numTaxa 24 short true bits 15 states 15 sumSquaresStatesOnly 4683.0 sumSquares 4683.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 700 893 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; showTaxa #8954039863745924640 #mesquite.lists.TaxonList.TaxonList ; tell It ; setTaxa #8954039863745924640 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 600 826 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord ; tell It ; makeTreeWindow #8954039863745924640 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 1061.1370237773589.6161422259650502427 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 600 826 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.SquareTree.SquareTree ; tell It ; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; branchLengthsToggle off ; toggleScale on ; toggleBroadScale off ; toggleCenter on ; toggleEven on ; endTell ; setEdgeWidth 6 ; orientUp ; setCornerMode Right_Angle 50 ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; showWindow ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; toggleWhiteEdges on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; panelOpen false ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #6101546399440562683 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 600 826 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; showPage 1 ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #6101546399440562683 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 600 826 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam ; endTell ; setActive ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 98 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Imported_trees ; LINK Taxa = Taxa ; TRANSLATE 1 Leptoceratops_gracilis , 2 Protoceratops_andrewsi , 3 Magnirostris_dodsoni , 4 Bagaceratops_rozhdestvenskyi , 5 Turanoceratops_tardabilis , 6 Zuniceratops_christopheri , 7 Diabloceratops_eatoni , 8 Albertaceratops_nesmoi , 9 Rubeosaurus_ovatus , 10 Styracosaurus_albertensis , 11 Spinops_sternbergorum , 12 Centrosaurus_apertus , 13 Coronosaurus_brinkmani , 14 Xenoceratops_foremostensis , 15 Sinoceratops_zhuchengensis , 16 Einiosaurus_procurvicornis , 17 Achelousaurus_horneri , 18 Pachyrhinosaurus_canadensis , 19 Pachyrhinosaurus_lakustai , 20 Pachyrhinosaurus_perotorum , 21 Chasmosaurus_belli , 22 Pentaceratops_sternbergii , 23 Avaceratops_lammersi , 24 Nasutoceratops_titusi ; TREE Imported_tree_1 = (1 , ((2 , (3 , 4)) , ((5 , 6) , ((7 , ((8 , (((9 , 10) , (11 , (12 , 13))) , ((14 , 15) , (16 , (17 , (18 , (19 , 20))))))) , (23 , 24))) , (21 , 22))))) ;
+ENDBLOCK;

@@ -1,0 +1,361 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 16.03.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=16;
+    TAXLABELS
+    		'Agnostus pisiformis'
+		'Bredocaris admirabilis'
+		'Cambropachycope clarksoni'
+		'Eoredlichia intermedia'
+		'Euphausia superba'
+		'Goticaris longispinosa'
+		'Henningsmoenicaris scutula'
+		'Hesslandona angustata'
+		'Klausmuelleria salopensis'
+		'Kunmingella douvillei'
+		'Martinssonia elongata'
+		'Musacaris gerdgeyeri'
+		'Oelandocaris oelandica'
+		'Sandtorpia vestrogothiensis'
+		'Shankouia zhenghei'
+		'Vestrogothia spinata'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'Shield type'
+		 [2] 'Shield dorsal hinge structure'
+		 [3] 'In addition to the ocular segment, the cephalon (or cephalothorax) incorporates:'
+		 [4] 'Hypostome/labrum complex'
+		 [5] 'Compound eyes type'
+		 [6] 'Position of the mouth opening'
+		 [7] 'Anterior sternites fused to form a single sternum'
+		 [8] 'Paragnath on the mandibular sternite'
+		 [9] 'Fine hairs on the structures around the mouth opening'
+		 [10] 'Tail end'
+		 [11] 'Anus position'
+		 [12] 'The anterior (at least three) pairs of appendages'
+		 [13] 'The antennulae (first antennae)'
+		 [14] 'Antennulae: setae positioned'
+		 [15] 'The second appendages (antennae): limb stem in first stage'
+		 [16] 'Antennal limb stem in later stages'
+		 [17] 'Antennal exopod design'
+		 [18] 'In earlier larval stages, antennal exopod with three setae on the terminal article and two on the sub-terminal article'
+		 [19] 'Antennae: segments of endopod'
+		 [20] 'The third appendages (mandibles): limb stem in first stage'
+		 [21] 'Mandibles: limb stem in later stages'
+		 [22] 'Mandibular exopod design'
+		 [23] 'In earlier larval stages, mandibular exopod with three setae on the terminal article and two on the sub-terminal article'
+		 [24] 'Mandibles: segments of endopod'
+		 [25] 'The fourth appendages specialized as maxillulae'
+		 [26] 'Maxillulae: limb stem in first stage'
+		 [27] 'Maxillulae: limb stem in later stages'
+		 [28] 'Maxillular exopod design'
+		 [29] 'Maxillulae: segments of endopod'
+		 [30] 'The fifth appendages specialized as maxillae'
+		 [31] 'Maxillae: limb stem in first stage'
+		 [32] 'Maxillae: limb stem in later stages'
+		 [33] 'Maxillar exopod design'
+		 [34] 'Maxillae: segments of endopod'
+		 [35] 'The sixth appendages (first thoracopods) specialized as a maxilliped'
+		 [36] 'First thoracopods: limb stem in first stage'
+		 [37] 'First thoracopods: limb stem in later stages'
+		 [38] 'First thoracopods: exopod design'
+		 [39] 'First thoracopods: segments of endopod'
+		 [40] 'First larval type'
+	;
+	STATELABELS
+		1
+		'univalved'
+		'bivalved'
+		,
+		2
+		'not developed'
+		'a dorsal furrow'
+		'an interdorsum'
+		,
+		3
+		'1 segment'
+		'4 segments'
+		'5 segments'
+		'6 to 12 segments'
+		'13 segments'
+		,
+		4
+		'Hypostome only'
+		'Labrum developed'
+		,
+		5
+		'two lateral compound eyes'
+		'a single compound eye inserted anterior to the head'
+		'compound eyes secondarily lost'
+		,
+		6
+		'on the rear of the hypostome'
+		'ventrally on the hypostome'
+		'covered by the labrum'
+		,
+		7
+		'no'
+		'yes'
+		,
+		8
+		'not developed'
+		'developed'
+		,
+		9
+		'no'
+		'yes'
+		,
+		10
+		'conical or spine-like pieces with lateral flaps'
+		'spinose or plated non-metameric piece, possibly with marginal setae'
+		'telson with articulated uropods forming a tail fan'
+		,
+		11
+		'sub-terminal'
+		'terminal'
+		,
+		12
+		'non-specialized, identical in size and basic design as the following pairs'
+		'different a little, either in size of the exopods and endopods or in basic design as in crustaceans'
+		,
+		13
+		'strong with only a few annuli'
+		'long and thin, with more annuli'
+		'much reduced in size, setation and segmentation'
+		,
+		14
+		'without setae'
+		'mainly anteriorly'
+		'mainly medially'
+		'mainly posteriorly'
+		,
+		15
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		16
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		17
+		'flap-shaped without setae'
+		'paddle-shaped with setae on the outer margin'
+		'multi-annulated with setae on the outer and distal margin'
+		'multi-annulated with setae on the inner margin'
+		'an undivided, flat exopod, the scaphocerite'
+		,
+		18
+		'no'
+		'yes'
+		,
+		19
+		'>7'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		'2'
+		'1'
+		'State 8'
+		,
+		20
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		'basipod secondarily lost, a coxa only'
+		,
+		21
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		'basipod secondarily lost, a coxa only'
+		,
+		22
+		'flap-shaped without setae'
+		'paddle-shaped with setae on the outer margin'
+		'multi-annulated with setae on the outer and distal margin'
+		'multi-annulated with setae on the inner margin'
+		'exopod absent'
+		,
+		23
+		'no'
+		'yes'
+		,
+		24
+		'>7'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		'2'
+		'1'
+		'State 8'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		27
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		28
+		'paddle-shaped, one article, without setae'
+		'paddle-shaped, one article, with setae on the outer margin'
+		'paddle-shaped, two articles, basal part joining to the endopod portion, with setae on the outer margin'
+		'multi-annulated with setae on the outer and distal margin'
+		'multi-annulated with setae on the inner margin'
+		'exopod largely reduced or totally absent (uniramous)'
+		,
+		29
+		'>7'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		'2'
+		'1'
+		'State 8'
+		,
+		30
+		'no'
+		'yes'
+		,
+		31
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		32
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		33
+		'paddle-shaped, one article, without setae'
+		'paddle-shaped, one article, with setae on the outer margin'
+		'paddle-shaped, two articles, basal part joining to the endopod portion, with setae on the outer margin'
+		'multi-annulated with setae on the outer and distal margin'
+		'multi-annulated with setae on the inner margin'
+		'exopod largely reduced or totally absent (uniramous)'
+		,
+		34
+		'>7'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		'2'
+		'1'
+		'State 8'
+		,
+		35
+		'no'
+		'yes'
+		,
+		36
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		37
+		'a multi-segmented main stem'
+		'a basipod'
+		'a proximal endite + a basipod'
+		'a coxa + a basipod'
+		'fusion product of coxa and basipod'
+		,
+		38
+		'paddle-shaped, one article, without setae'
+		'paddle-shaped, one article, with setae on the outer margin'
+		'paddle-shaped, two articles, basal part joining to the endopod portion, with setae on the outer margin'
+		'multi-annulated with setae on the outer and distal margin'
+		'multi-annulated with setae on the inner margin'
+		'exopod largely reduced or totally absent (uniramous)'
+		,
+		39
+		'>7'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		'2'
+		'1'
+		'State 8'
+		,
+		40
+		'a possibly very primitive larva (longer compared
+with head-larva)'
+		'head-larva'
+		'nauplius'
+		'a more advanced type'
+		
+	;
+	MATRIX
+	'Agnostus pisiformis'		                  0010?0000??10211208112020113201131011311
+	'Bredocaris admirabilis'		               0021?21112110333305333041225402214022143
+	'Cambropachycope clarksoni'		            001011000101032230322303011430115?0115?1
+	'Eoredlichia intermedia'		               001000000??01011101111010111101111011111
+	'Euphausia superba'		                    0041021112112234408354081335713317033132
+	'Goticaris longispinosa'		               001011000101031230322303011430115?0115?1
+	'Henningsmoenicaris scutula'		           0020000001010112316123160122401224012261
+	'Hesslandona angustata'		                122122111??12044306343060224502245022451
+	'Klausmuelleria salopensis'		            00?122111??1203?3053?30502?450????0????1
+	'Kunmingella douvillei'		                1120?0000??0021110311103011130111301113?
+	'Martinssonia elongata'		                00202000010102223032230302243022430221?1
+	'Musacaris gerdgeyeri'		                 00?020000101022230?2230?0224?0????0????1
+	'Oelandocaris oelandica'		               0020200001010111314123140112501125011251
+	'Sandtorpia vestrogothiensis'		          002020000101011?3151?31501?2?0??????????
+	'Shankouia zhenghei'		                   0000000000000000000000000000000000000000
+	'Vestrogothia spinata'		                 112122111??12044306343060224502245022451
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 40;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

@@ -1,0 +1,471 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.16.08 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Marmorerpeton'
+		'Karaurus'
+		'Liaoxitriton'
+		'Jeholotriton'
+		'Chunerpeton'
+		'Valdotriton'
+		'Iridotriton'
+		'Pangerpeton'
+		'Sirenidae'
+		'Hynobiidae'
+		'Cryptobranchidae'
+		'Ambystomatidae'
+		'Salamandra'
+		'Dicamptodon'
+		'Plethodontidae'
+		'Rhyacotriton'
+		'Amphiumidae'
+		'Proteidae'
+		'Regalerpeton'
+		'Seminobatrachus'
+		'Batrachosauroididae'
+		'Kokartus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=72;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Premaxilla'
+		 [2] 'Dorsal process of premaxilla'
+		 [3] 'Maxilla'
+		 [4] 'Septomaxilla'
+		 [5] 'Nasal ossification'
+		 [6] 'Lacrimal'
+		 [7] 'Quadratoqugal'
+		 [8] 'Prootic-exoccipital-opisthotic fusion'
+		 [9] 'Pterygoid process'
+		 [10] 'Internal carotid foramina'
+		 [11] 'Prefrontal'
+		 [12] 'Basilaris complex of inner ear'
+		 [13] 'Angular'
+		 [14] 'Coronoid'
+		 [15] 'Articular'
+		 [16] 'First hypobranchial and first ceratobranchial'
+		 [17] 'Ceratobranchial II in adults'
+		 [18] 'Premaxillary teeth'
+		 [19] 'Palatal dentition'
+		 [20] 'Vertebral centrum'
+		 [21] 'Four facetted articulation of exoccipital and atlas'
+		 [22] 'Postatlantal ribs'
+		 [23] 'Atlantal spinal nerve foramen'
+		 [24] 'Postatlantal spinal nerve foramina:'
+		 [25] 'Stapes'
+		 [26] 'Lateral wall of nasal capsule'
+		 [27] 'Lateral narial fenestrae'
+		 [28] 'Posterior wall of nasal capsule'
+		 [29] 'Nasolacrimal duct'
+		 [30] 'Dermal sculpture on skull roof'
+		 [31] 'Frontal anterior extension:'
+		 [32] 'Medial border of orbit:'
+		 [33] 'Frontal/maxillary contact:'
+		 [34] 'Anterolateral process of parietal:'
+		 [35] 'Squamosal orientation in dorsal view:'
+		 [36] 'Exposure of prootic-exoccipital-opisthotic complex in dorsal view:'
+		 [37] 'Squamosal contact with the parietal or other roofing elements:'
+		 [38] 'Origin of m. adductor mandibulae internus superficialis:'
+		 [39] 'Ypsiloid cartilage:'
+		 [40] 'Fusion of distal carpal 1 + 2'
+		 [41] 'Fusion of distal tarsal 1 + 2'
+		 [42] 'Number of centralia in manus or pes:'
+		 [43] 'Intermedium and ulnare:'
+		 [44] 'Distal carpal 4 and 5:'
+		 [45] 'Haploid chromosome number:'
+		 [46] 'Diploid chromosome number:'
+		 [47] 'Microchromosome'
+		 [48] 'Ciliated epithelium of female cloaca:'
+		 [49] 'Extent of epidermis in female cloacal chamber:'
+		 [50] 'Male cloacal folds:'
+		 [51] 'Anteroventral glands in female:'
+		 [52] 'Spermathecae in cloaca'
+		 [53] 'Dorsal cloacal glands in female:'
+		 [54] 'Posteroventral cloacal glands:'
+		 [55] 'Pubotibialis and puboischiotibialis muscles:'
+		 [56] 'Number of free ribs on anterior caudal vertebrae:'
+		 [57] 'Ectopterygoid'
+		 [58] 'Postfrontal'
+		 [59] 'Scapulocoracoid ossification:'
+		 [60] 'Nasal-prefrontal contact;'
+		 [61] 'Number of presacrals:'
+		 [62] 'Shape of atlas centrum in ventral view:'
+		 [63] 'Maximum skull length/width:'
+		 [64] 'Marginal dentition:'
+		 [65] 'Operculum:'
+		 [66] 'Vomerine dentition:'
+		 [67] 'Male anteroventral glands in cloaca:'
+		 [68] 'Male posteroventral glands in cloaca:'
+		 [69] 'Kingsbury’s glands in males:'
+		 [70] 'Dorsal pelvic glands in males:'
+		 [71] 'Lateral pelvic glands:'
+		 [72] 'Male dorsal or ventral glands:'
+	;
+	STATELABELS
+		1
+		'separate'
+		'fused'
+		,
+		2
+		'absent or poorly defined with only partial contact with nasal bone'
+		'short but well-defined, separating the tips of the nasals or overlapp'
+		'strong posterior extension separating nasals and contacting frontal'
+		'extension of dorsa'
+		'State 4'
+		,
+		3
+		'present in adults as a normal member of the maxillary arcade'
+		'greatly reduced as a rudimentary element'
+		'entirely absent and functionally replaced by a modified vomer'
+		,
+		4
+		'present'
+		'absent'
+		,
+		5
+		'paired nasals present with sutural midline contact or fused'
+		'nasals separate without midline contact'
+		'nasal absent'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'three separate elements'
+		'prootic-exoccipital fused, separate opisthotic'
+		'all three elements fused'
+		,
+		9
+		'triradiate with distinct anterolateral and posterolateral processes'
+		'with an additional distinct anteromedial process'
+		'boomerang-shaped with distinct anteromedial and posterolateral pr'
+		'bar-like/vestigial'
+		'absent'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'present'
+		'absent'
+		,
+		12
+		'presence of both recessus basilaris'
+		'loss of papillae'
+		'loss of entire basilaris complex'
+		,
+		13
+		'angular distinct from the prearticular'
+		'no distinct angular (absent or fused to prearticular in adult)'
+		,
+		14
+		'present as a separate element'
+		'absent in adult stage'
+		,
+		15
+		'present as separate element'
+		'fused with prearticular'
+		,
+		16
+		'the two elements separate'
+		'two elements fused'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'confined to vomer'
+		'vomer and parasphenoid'
+		'vomer and palatine'
+		'vomer, palatine and pterygoid'
+		,
+		20
+		'amphicoelous'
+		'opisthocoelous'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'bicapitate'
+		'unicapitate'
+		,
+		23
+		'absent'
+		'notch'
+		'fully enclosed'
+		,
+		24
+		'all postatlantal spinal nerves exit intervertebrally'
+		'spinal nerve foramina present in some caudal vertebrae'
+		'foramina present in caudal and sacral vertebrae'
+		'foramina in trunk, sacral and caudal'
+		'occasional notch or f'
+		,
+		25
+		'present in adult'
+		'absent in adult'
+		,
+		26
+		'complete'
+		'incomplete'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'complete'
+		'incomplete'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'present, coarse, pitted'
+		'present, weak'
+		'absent'
+		'present, coarse, tubercules and ridges (NEW)'
+		,
+		31
+		'frontal does not extend lateral to nasal bone'
+		'does extend to lateral border of nasal'
+		,
+		32
+		'more than 50% of orbital margin formed by frontal'
+		'frontal contributes less than 50% of the orbital margin'
+		'frontal fully excluded from entering orbital margin'
+		,
+		33
+		'frontal and maxilla separated by prefrontal'
+		'frontal contacts dorsal process of maxilla'
+		'contact absent because of loss of maxilla'
+		,
+		34
+		'absent'
+		'present but forms less than 50% of the total length of the parietal'
+		'present and makes up more than 50% of total length of parietal'
+		,
+		35
+		'mediolaterally oriented as a transverse bar'
+		'anteroposteriorly inclined or parallel to skull midline'
+		,
+		36
+		'complex largely concealed by parietal or exposed posterior to skull'
+		'large exposure extends lateral to parietal table'
+		,
+		37
+		'contact present'
+		'absent'
+		,
+		38
+		'on dorsolateral surface of parietal'
+		'origin extends posteriorly to exoccipital'
+		'origin extends to cervical vertebra'
+		'origin extends anteriorly towards level of frontal'
+		'on expanded lateral surfa'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'fusion absent'
+		'present'
+		,
+		41
+		'fusion absent'
+		'present'
+		,
+		42
+		'more than one central element'
+		'one central element'
+		,
+		43
+		'intermedium separate'
+		'fused to ulnare'
+		,
+		44
+		'two elements remain separate'
+		'fused'
+		,
+		45
+		'more than 20'
+		'reduced to 19'
+		'further reduced to 14 or fewer'
+		,
+		46
+		'56 or more'
+		'40-55'
+		'lower than 40'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'epidermal lining does notextend to anterior one half of cloacal cha'
+		'does extend into anteriorone-half of chamber'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'separate'
+		'fused'
+		,
+		56
+		'more than three pairs'
+		'two to three pairs'
+		'free ribs absent'
+		,
+		57
+		'presenr'
+		'absent'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'ossified as separate elements'
+		'fused elements'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'15 or 16'
+		'14 or fewer'
+		'more than 16'
+		,
+		62
+		'roughly equal in length to postatlantals'
+		'much shorter'
+		'longer'
+		,
+		63
+		'greater than 1.2'
+		'1.19-0.81'
+		'0.8 or less'
+		,
+		64
+		'pedicellate, conical'
+		'pedicellate, compressed'
+		'non-pedicellate'
+		,
+		65
+		'separate, ossified operculum and stapes'
+		'operculum and stapes fused'
+		'loss of operculum'
+		,
+		66
+		'transverse row, medial in the palate'
+		'marginal, tooth row parallel to premaxilla and maxilla'
+		'longitudinal row or patch'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent in males'
+		'present'
+		,
+		72
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Marmorerpeton'		                010??????????????0000(0,1)000????0?0??????????????????????????1??0?0?0??????
+	'Karaurus'		                     010?000?000?01?0?00000?00????300000004??????????????????11101100?0??????
+	'Liaoxitriton'		                 010?0?1?0???11??0000?1???????(1,2)000(1,2)0????01??????????????11110001??0??????
+	'Jeholotriton'		                 011?0?1?200??1???130?1?00????10000000???????????????????1110000??2??????
+	'Chunerpeton'		                  010?0?10100?01???030?1???????11201000??????????????????11111000??1??????
+	'Valdotriton'		                  010?0?12010?111??000?0210????20000011??????????????????(0,1)11100010?0??????
+	'Iridotriton'		                  0000???1010?01???000?1(1,2)10????200??011??????1????????????1?1?10?0?0??????
+	'Pangerpeton'		                  010?(0,1)?1000??11??0000?1?????????0?00?????????????????????1?1?100??2??????
+	'Sirenidae'		                    04(1,2)11110311210101120?0230101111122100?1?????11111000000?110-2?2202000000
+	'Hynobiidae'		                   010000(0,1)00100(0,1)1010000?12000000201010?1?0?????0000(0,1)010001?11102?10(0,1)(0,2)000000
+	'Cryptobranchidae'		             010101102000011(0,1)0000?1200000111211000?0?????00000010001?1111211011000000
+	'Ambystomatidae'		               020011120(0,1)0011(0,1)01000?02301100(1,2)02010(0,1)1?0?????22100111110?1110001(0,1)(0,1)0111111
+	'Salamandra'		                   03011112010011001001102311101201000112011111220(0,1)001101021110(0,1)01002011101
+	'Dicamptodon'		                  0200001000001000100010220110020102001?0?????22100111010?11102011000111?1
+	'Plethodontidae'		               (0,1)2(0,2)(0,1)(1,2)11241(0,1)2111010(0,1)1?(0,1)23(0,1)1100200(0,1)0(0,1)11?1?????22111001010?111(0,1)(0,1,2)?2(0,1)1(0,2)011111
+	'Rhyacotriton'		                 02002010000011001000?02201100?0000011?0?????22111101010?1111???000011111
+	'Amphiumidae'		                  12011110300011101000?0210101110001000?1?????22000001000?1110212012001101
+	'Proteidae'		                    022121113012101010(2,3)0?0200101120222111?1?????22(0,1)11011010?111-212(0,1)01011111
+	'Regalerpeton'		                 010?011?1?0?01???030?1???????201010?????????????????????111??0??1???????
+	'Seminobatrachus'		              021?1???110?11?0?030?0?3?????20(1,2)01011???????????????????111?0010?1??????
+	'Batrachosauroididae'		          030?1?1?3?0?111000(2,3)(0,1)?020?????21(1,2)0(1,2)111??????????????????211102?02?1??????
+	'Kokartus'		                     010?0???100??0?0?030?000?????300000004???????????????????100?102?0??????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 72;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

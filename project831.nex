@@ -1,0 +1,343 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 23.02.34 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Phoenicopterus chilensis'
+		'Phoenicopterus ruber'
+		'Aechmophorus clarkii'
+		'Aechmophorus occidentalis'
+		'Podiceps auritus'
+		'Podiceps cristatus'
+		'Podiceps grisegena'
+		'Podiceps major'
+		'Podiceps nigricollis'
+		'Podiceps occipitalis'
+		'Podilymbus gigas'
+		'Podilymbus podiceps'
+		'Poliocephalus poliocephalus'
+		'Rollandia microptera'
+		'Rollandia rolland'
+		'"Tachybaptus" dominicus'
+		'Tachybaptus ruficollis'
+		'Tachybaptus novaehollandiae'
+		'Thiornis sociata'
+		'Truckee species A'
+		'Truckee species B'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=49;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Premaxilla, rostral tip'
+		 [2] 'Nares, length'
+		 [3] 'Large, paired fenestra perforate occipital region of skull, dorsolateral to foramen magnum'
+		 [4] 'Skull, shape in caudal view'
+		 [5] 'Ossified median raphe extends crista nuchalis saggitalis caudally, forming a wedge-shaped eminence'
+		 [6] 'Vomer, rostral end expanded mediolaterally forming small, spoon-like tip'
+		 [7] 'Tuberculum basilare'
+		 [8] 'Mandible, extensive pneumatization'
+		 [9] 'Mandible, processus retroarticularis elongate and mediolaterally compressed'
+		 [10] 'Mandible, shape of fossa caudalis in posterior view'
+		 [11] 'Mandible, shape of fossa caudalis'
+		 [12] 'Axis, strong lateral flanges project from processus ventralis'
+		 [13] 'Posterior cervical vertebrae bear chevron-like processes'
+		 [14] 'Presacral vertebrae, number'
+		 [15] 'Sternum, labri externi'
+		 [16] 'Sternum, labrum externum'
+		 [17] 'Sternum, trabecula lateralis'
+		 [18] 'Sternum, margo caudalis, notch at midline'
+		 [19] 'Furcula, apophysis furcula'
+		 [20] 'Coracoid, processus procoracoideus'
+		 [21] 'Coracoid, processus lateralis'
+		 [22] 'Coracoid, facies articularis sternalis extends over significant portion of ventral surface'
+		 [23] 'Ulna, tuberculum carpale'
+		 [24] 'Pelvis, proportions'
+		 [25] 'Ischium, caudal extent'
+		 [26] 'Proportions of hindlimb'
+		 [27] 'Hypertrophied patella'
+		 [28] 'Tibiotarsus, proximal projection of cnemial crests'
+		 [29] 'Tibiotarsus, anterior projection of distal condyles'
+		 [30] 'Tibiotarsus, distal notch in rim of condylus medialis'
+		 [31] 'Tibiotarsus, distal notch in rim of condylus lateralis'
+		 [32] 'Tarsometatarsus, canal for tendon of m. flexor perforatus digiti II'
+		 [33] 'Tarsometatarsus, canal for tendon of m. flexor perforatus digiti II - 2'
+		 [34] 'Tarsometatarsus, shaft'
+		 [35] 'Cervical epaxial musculature'
+		 [36] 'M. extensor longus digiti III, distal head'
+		 [37] 'Rostrum, wide black ring around bill in breeding adult'
+		 [38] 'Rima oris (gape), bright yellow area of bare skin forming "grin patch"'
+		 [39] 'Feathers of forehead, distal barbs fused into shaft'
+		 [40] 'Feathers of head, median crest'
+		 [41] 'Feathers of regio auricularis ("ear feathers")'
+		 [42] 'Colouration pattern on dorsal surface of wing'
+		 [43] 'White triangular panel on dorsal surface of patagium'
+		 [44] 'Rectrices'
+		 [45] 'Pedal digits'
+		 [46] 'Hatchling plumage extensively striped'
+		 [47] 'Hatchling plumage, buff or reddish colouration'
+		 [48] 'Corona (crown) bare in downy young'
+		 [49] 'Corona (crown) with patch of red feathers in downy young'
+	;
+	STATELABELS
+		1
+		'straight'
+		'hooked'
+		'strongly down-turned (as in flamingos)'
+		,
+		2
+		'extends for more than half length of beak'
+		'less than half length of beak'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'dorsal face rounded'
+		'dorsal face very flat, giving skull a square appearance'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'flat or modestly projected'
+		'strong projection contribute to lateral walls bounding lamina parasphenoidalis'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'dorsoventrally narrow, rectangle in outline'
+		'trapezoidal in outline'
+		'open pneumatic chamber'
+		,
+		11
+		'oriented caudally, not visible in dorsal view'
+		'oriented caudodorsally, visible in dorsal view'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'twenty-two or less'
+		'twenty-three'
+		'twenty-four'
+		'tweny-five'
+		'twenty-six'
+		'twenty-seven or more'
+		,
+		15
+		'separated by a notch at midline'
+		'meet at midline, forming a continuous ridge'
+		,
+		16
+		'level with labrum internum at midline'
+		'projected cranial to labrum internum at midline'
+		,
+		17
+		'narrow'
+		'mediolaterally wide throughout length'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent or present as a minute tubercle'
+		'strong, blade-like projection'
+		'two tubercles present, each slightly lateral of midline'
+		'low, mediolaterally wide projection with slight tubercles at lateral ends'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'placed near the facies articularis sternalis and triangular'
+		'displaced towards omal end and forming a weak flange'
+		'displaced towards omal end and forming a strong, triangular expansion'
+		,
+		22
+		'abesnt'
+		'present'
+		,
+		23
+		'distally placed, forms a small incisura tuberculi carpalis'
+		'proximally displaced, creating larger incisura tuberculi carpalis'
+		,
+		24
+		'wide'
+		'mediolaterally compressed'
+		'extremely mediolaterally compressed'
+		,
+		25
+		'subequal to ilium or shorter'
+		'projects moderately beyond ilium'
+		'projects far beyond ilium'
+		,
+		26
+		'femur much shorter than tarsometatarsus'
+		'femur and tarsometatarsus subequal in length'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'short, length of cnemial crests much less than 10% of the total length of tibiotarsus'
+		'elongated, length of cnemial crests between 10% and 15% of the total length of tibiotarsus'
+		'extremely elongated, length of cnemial crests greater than 15% of the total length of tibiotarsus'
+		,
+		29
+		'subequal'
+		'condylus lateralis projects farther'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'centrally located, directly plantar to canal for tendon of m. flexor digitorum longus'
+		'laterally displaced relative to level of canal for tendon of m. flexor digitorum longus'
+		,
+		34
+		'slender with strong mediolateral compression'
+		'stout'
+		,
+		35
+		'ossification of tendons absent or sparse'
+		'large bundles formed by intratendinous ossifications flank cervical vertebrae'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'forming a median occipital crest'
+		'forming a small, helmet-like crest'
+		,
+		41
+		'undifferentiated from adjacent feathers'
+		'form a fan of plumes'
+		'arranged as a broad ruff'
+		'white elongate feathers arranged throughout plumage on side of head (these feather give the head a "frosty" appearance in Poliocephalus)'
+		'all feathers long and narrow'
+		,
+		42
+		'no white panel present'
+		'tips of remiges secundariae white'
+		'white wing panel formed by remiges secundariae'
+		'white wing stripe formed by colouration of remiges primariae and remiges secundariae'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'well-developed, forming distinct tail'
+		'reduced to loose tufts, forming short and indistinct tail'
+		,
+		45
+		'webbed over most of length'
+		'lobed'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present over most of corona, occiput and nucha (head and neck)'
+		'restricted to a bar across occiput'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Phoenicopterus chilensis'		             21100001111001100011000000000100-00?0000000000000
+	'Phoenicopterus ruber'		                 211000011100011000110000000001{0,1}0-00?0000000000000
+	'Aechmophorus clarkii'		                 010110100111150-1120210210121110-01?0000010110010
+	'Aechmophorus occidentalis'		            010110100111150-1120211210121110-0110000010110010
+	'Podiceps auritus'		                     0000000001100{3,4}0-011011020012{0,1}1{0,1}0-00?000022{0,1}111010
+	'Podiceps cristatus'		                   0000000001100{4,5}110110211200120100-00?0000221111010
+	'Podiceps grisegena'		                   00000{0,1}0001100{3,4}0-0130211200121100-0010000021111010
+	'Podiceps major'		                       010{0,1}000001100{4,5}0-01{1,3}021120011000{0,1}-0010002030111010
+	'Podiceps nigricollis'		                 0000000000100{2,3,4}0-0110{1,2}10100120100-00?0001120111010
+	'Podiceps occipitalis'		                 0000000000100{2,3}0-01{0,1}011?120110100-0010001120111010
+	'Podilymbus gigas'		                     1000010001100{2,3}11010011?2011?00?111001010010111201
+	'Podilymbus podiceps'		                  1000010001100{1,2}11010011020111000111001010010111201
+	'Poliocephalus poliocephalus'		          000000000100021?01001101201{1,2}0{0,1}00-0010000330111101
+	'Rollandia microptera'		                 0010000001{0,1}00{2,3}0-0100110100110{0,1}0100010000420111100
+	'Rollandia rolland'		                    0010000001{0,1}00{2,3}0-0100210100110{0,1}0100010000420111100
+	'"Tachybaptus" dominicus'		              000000000?000{1,2}100110110120110100-0010000030111001
+	'Tachybaptus ruficollis'		               000000000100021001{1,2}001012011000100010100010111101
+	'Tachybaptus novaehollandiae'		          00000100010001100110210120110001000?0100030111101
+	'Thiornis sociata'		                     ????????????????01?011??2011?0???0???????????????
+	'Truckee species A'		                    ????????????????011011?1?011010??????????????????
+	'Truckee species B'		                    ???????????????????????1?011?????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 14 16 - 24 27 - 28 30 - 49, ord: 15 25 - 26 29;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 87; LastModified -841847950; FileSettings treewindow '1' '1' '6' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Geneva '9' '100' '1' all; EditorPosition '44' '6' '795' '1390'; TreeWindowPosition '44' '26' '798' '1366'; ListWindow Characters open Geneva '9' '50' '10' '273' '749' 000; ListWindow Taxa closed Geneva '9' '50' '25' '273' '331' 100000000; ListWindow Trees closed Geneva '9' '50' '10' '276' '490' ; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490' ; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '818' '1380'; StateNamesSymbols open Geneva '9' '10' '50' '30' '192' '1016'; WindowOrder States Tree List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '735' '1291' '88' '85'; TreeLegendPosition '759' '1193' '64' '93'; EditorToolsPosition '705' '46' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Geneva '9' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '11' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; E
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; E
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Phoenicopterus_chilensis, 2 Phoenicopterus_ruber, 3 Aechmophorus_clarkii, 4 Aechmophorus_occidentalis, 5 Podiceps_auritus, 6 Podiceps_cristatus, 7 Podiceps_grisegena, 8 Podiceps_major, 9 Podiceps_nigricollis, 10 Podiceps_occipitalis, 11 Podilymbus_gigas, 12 Podilymbus_podiceps, 13 Poliocephalus_poliocephalus, 14 Rollandia_microptera, 15 Rollandia_rolland, 16 '"Tachybaptus" dominicus', 17 Tachybaptus_ruficollis, 18 Tachybaptus_novaehollandiae, 19 Thiornis_sociata, 20 Truckee_Species_A, 21 Truckee_Species_B ; TREE Grebe = [&R] ((2,1),((16,(18,17,19,13)),(((15,14),(11,12)),((10,9),(20,5,6,7,(8,(3,4))))))); TREE * UNTITLED = [&R] ((2,1),((16,(((18,17),13),19)),((21,20),(((11,12),(15,14)),((10,9),(5,((6,7),((3,4),8)))))))); E
+ENDBLOCK;

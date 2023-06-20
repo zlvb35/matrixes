@@ -1,0 +1,453 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.12.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+    		'Obtusacanthus corroconis'
+		'Acritolepis ushakovi'
+		'Brachyacanthus scutiger'
+		'Brochoadmones milesi'
+		'Cassidiceps vermiculatus'
+		'Cheiracanthus latus'
+		'Climatius reticulatus'
+		'Culmacanthus stewarti'
+		'Diplacanthus horridus'
+		'Euthacanthus macnicoli'
+		'Gladiobranchus probaton'
+		'Gyracanthides murrayi'
+		'Homalacanthus concinnus'
+		'Ischnacanthus gracilis'
+		'Lodeacanthus gaujicus'
+		'Lupopsyrus pygmaeus'
+		'Mesacanthus mitchelli'
+		'Milesacanthus antarctica'
+		'Nostolepis scotica'
+		'Paucicanthus vanelsti'
+		'Tetanopsyrus breviacanthus'
+		'Triazeugacanthus affinis'
+		'Zemlyacanthus menneri'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=68;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'circumorbital scales/bones'
+		 [2] 'scerotic plates'
+		 [3] 'endocranium'
+		 [4] 'hyoidean gill covers (hyoidean gill plates above the angle of the jaw)'
+		 [5] 'branchiostegals (hyoidean gill plates below the angle of the jaw)'
+		 [6] 'extent of gill chamber cover'
+		 [7] 'branchial chamber length'
+		 [8] 'palatoquadrate surface'
+		 [9] 'palatoquadrate adductor fossa'
+		 [10] 'Meckel''s cartilage surface'
+		 [11] 'prominent prearticular "coronoid" flange on Meckel''s cartilage'
+		 [12] 'dermal cover on Meckel''s cartilage'
+		 [13] 'occlusal bone on Meckel''s cartilage'
+		 [14] 'occlusal bone on palatoquadrate'
+		 [15] 'upper jaw cartilage mineralization centres'
+		 [16] 'single/multicuspid teeth within buccal cavity'
+		 [17] 'mandibular splint'
+		 [18] 'symphysial tooth whorls'
+		 [19] 'lower jaw articulation with palatoquadrate'
+		 [20] 'flank scale growth pattern'
+		 [21] 'relative size of body scales'
+		 [22] 'body scale alignment'
+		 [23] 'ascending canals in body scales'
+		 [24] 'scale primordium'
+		 [25] 'bone forming basal tissue in body scales'
+		 [26] 'body scale neck tissue'
+		 [27] 'head tesserae'
+		 [28] 'body scales along anterior end of main sensory canal'
+		 [29] 'scale transition from body to fins'
+		 [30] 'fin scale alignment'
+		 [31] 'scales around bases of paired fin spines'
+		 [32] 'scales at base of median fin spines'
+		 [33] 'median fin spine ornament'
+		 [34] 'median fin spine ribs'
+		 [35] 'median fin spine rib orientation'
+		 [36] 'fin spine rib spacing'
+		 [37] 'fin spine exserted ornament'
+		 [38] 'number of dorsal fins'
+		 [39] 'anterior dorsal spine length'
+		 [40] 'ossified dorsal spine basals'
+		 [41] 'dorsal fin spine denticles'
+		 [42] 'anterior dorsal fin spine curvature'
+		 [43] 'dorsal fin spine insertion'
+		 [44] 'prepectoral spines'
+		 [45] 'pectoral spine denticles'
+		 [46] 'pectoral fin spine curvature'
+		 [47] 'ornamented paired pinnal plates'
+		 [48] 'admedian spines'
+		 [49] 'lorical plates'
+		 [50] 'pectoral fin spine attachment'
+		 [51] 'scapulocoracoid surface'
+		 [52] 'separate procoracoid'
+		 [53] 'scapulocoracoid elements'
+		 [54] 'pectoral fin spine and scapulocoracoid'
+		 [55] 'prepelvic spine series'
+		 [56] 'fin spine insertion surface'
+		 [57] 'anal fin spine insertion'
+		 [58] 'length of base of anal fin'
+		 [59] 'fin spine ribs'
+		 [60] 'main dentinous tissue forming fin spines'
+		 [61] 'bone cell lacunae in flank scale bases'
+		 [62] 'enameloid in scale crowns'
+		 [63] 'scale crown dentine'
+		 [64] 'Stranggewebe in scale crowns'
+		 [65] 'pore canal system in scale crowns'
+		 [66] 'sensory line scales/plates on head'
+		 [67] 'branchial denticles'
+		 [68] 'multiple oral tooth whorls'
+	;
+	STATELABELS
+		1
+		'small, undifferentiated from head scales'
+		'different from head scales, circumorbitals approximately the same size'
+		'different from head scales, anterior and/or posterior circumorbitals enlarged'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'nonmineralized'
+		'mineralized'
+		,
+		4
+		'absent'
+		'plate-like'
+		'fillamentous'
+		,
+		5
+		'absent'
+		'plate-like'
+		'fillamentous'
+		,
+		6
+		'multiple slits'
+		'single flap, covers up to ventral two-thirds of the lateral wall of gill chamber'
+		'single flap, completely covers lateral wall of gill chamber'
+		,
+		7
+		'compact, shorter than jaw'
+		'elongate, longer than jaw'
+		,
+		8
+		'unmineralized'
+		'granular mineralization'
+		'perichondrally ossified'
+		,
+		9
+		'over half the length of the upper jaw'
+		'less than half the length of the upper jaw'
+		,
+		10
+		'unmineralized'
+		'granular mineralization'
+		'perichondrally ossified'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'none'
+		'small scales'
+		'polygonal or plate-like scales'
+		,
+		13
+		'absent'
+		'dentigerous dermal bone'
+		'toothless plate'
+		,
+		14
+		'absent'
+		'dentigerous dermal bone'
+		'toothless plate'
+		,
+		15
+		'none/single'
+		'multiple macroelements'
+		,
+		16
+		'absent'
+		'present, with solid bases'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present, lower and/or upper jaw'
+		,
+		19
+		'single condyle-socket articulation'
+		'double articulation'
+		'no articulatory projections'
+		,
+		20
+		'monodontode'
+		'superpositional'
+		'polyodontode/areal'
+		'superpositional and appositional'
+		,
+		21
+		'all of similar size'
+		'largest scales below second dorsal fin'
+		'scales decrease in size from pectoral to caudal region'
+		,
+		22
+		'aligned in oblique rows'
+		'unaligned'
+		,
+		23
+		'wide diameter'
+		'narrow, resemble dentine tubules'
+		'none'
+		,
+		24
+		'large, greater than half the crown width'
+		'small, with 4-8 growth zones'
+		'small, with >8 growth zones'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'only developed as low rim'
+		'prominent, well-developed'
+		,
+		27
+		'monodontode'
+		'polyodontode/areal'
+		'absent'
+		,
+		28
+		'undifferentiated'
+		'enlarged, irregularly shaped'
+		,
+		29
+		'gradual'
+		'abrupt'
+		,
+		30
+		'aligned in rows'
+		'unaligned'
+		,
+		31
+		'unmodified'
+		'enlarged'
+		,
+		32
+		'undifferentiated'
+		'enlarged'
+		,
+		33
+		'round, elevated nodes'
+		'flat lepidotrich-like nodes'
+		'smooth'
+		'with stellate tubercles'
+		'stellate tubercles and overlapping nodes (ctenacanth-like)'
+		,
+		34
+		'five or more per side'
+		'two to four per side'
+		'only one leading edge ridge'
+		'none'
+		,
+		35
+		'converge on leading edge for most of the fin spine length'
+		'parallel the leading edge to near the distal tip'
+		,
+		36
+		'well-spaced, troughs as wide or wider than ribs'
+		'compact, troughs narrower than ribs'
+		,
+		37
+		'only ribs or rows of tubercles/nodes'
+		'ribs and fine posterolateral striations'
+		,
+		38
+		'two'
+		'only one (?posterior) fin'
+		,
+		39
+		'shorter than posterior dorsal spine'
+		'longer than posterior dorsal spine'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'double row along trailing edge'
+		'single row along trailing edge'
+		,
+		42
+		'straight'
+		'curved'
+		,
+		43
+		'shallow'
+		'deep'
+		,
+		44
+		'absent'
+		'free in skin'
+		'fused to ornamented dermal plates'
+		,
+		45
+		'absent'
+		'along trailing edge'
+		'along leading edge'
+		,
+		46
+		'curved for most of its length'
+		'straight'
+		'plate-like'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present, not attached to plates'
+		'present, attached to plates'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'not attached to dermal plates'
+		'firmly attached to ornamented dermal plates'
+		,
+		51
+		'unmineralized'
+		'granular mineralization'
+		'perichondrally ossified'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'single, with U-shaped shaft cross-section and wide base'
+		'single element, shaft with circular cross-section'
+		'single element, circular cross-section shaft plus wide posterior flange'
+		'two growth centres, ventral portion relatively flat & extending below level of pectoral fin spine'
+		'triangular element, oval cross-section'
+		'flattened element with broad scapula and coracoid regions of chondrichthyan type'
+		,
+		54
+		'loosely associated, movable joint'
+		'firmly fixed, fin spine held erect'
+		,
+		55
+		'absent'
+		'present, conical, sub-oval cross-section'
+		'present, compressed and blade-like'
+		,
+		56
+		'same as exserted surface'
+		'short longitudinal striations'
+		'full-length parallel grooves and ridges'
+		,
+		57
+		'shallow'
+		'deep'
+		,
+		58
+		'equivalent to fin depth'
+		'less than 25% of fin depth'
+		'elongate'
+		,
+		59
+		'enlarged leading edge rib'
+		'equal-width ribs'
+		,
+		60
+		'osteodentine'
+		'orthodentine'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'with lacunae'
+		'without lacunae'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'unspecialized'
+		'apposed growth/paralleling canal'
+		'semicylindrical'
+		,
+		67
+		'absent'
+		'small denticles'
+		'dentition cones'
+		,
+		68
+		'absent'
+		'present, median cusp largest'
+		
+	;
+	MATRIX
+	'Obtusacanthus corroconis'		            00000210?0?1000000?00100100001002000000000?101000000?02?000???100000
+	'Acritolepis ushakovi'		                ??000?0???0?110101?1?021011?10012011000000110?0000200001011001010?2?
+	'Brachyacanthus scutiger'		             1001021101?200?0001?10??0110100000010000000200021120001?001?????0?0?
+	'Brochoadmones milesi'		                10000010?0?2000000?110000111000020110000101002000000??11111?00?00111
+	'Cassidiceps vermiculatus'		            200111010100000010?1101101111011211110000100010000210011?00?????0?00
+	'Cheiracanthus latus'		                 0112220202000001001110120110101?221111?10?10010000211001100111110000
+	'Climatius reticulatus'		               100101110102000000?211000110??001001000001020012112000100010?00?0001
+	'Culmacanthus stewarti'		               20000?10?0?1000000?110?201101011201100100110011010202002101010?0??00
+	'Diplacanthus horridus'		               20000201?012201000211000011?1000211100100110100101212112100010000200
+	'Euthacanthus macnicoli'		              01111110?0?1000000?1100001101011200100000001011000200010100000000100
+	'Gladiobranchus probaton'		             20010100?21120000021100001111011101100100011001200200112100010?00100
+	'Gyracanthides murrayi'		               00000??0?001000000?2000000100?00300000?00002001000214?01111001000000
+	'Homalacanthus concinnus'		             0112220101000000002110??01111010221101?00?00010000213000000111100200
+	'Ischnacanthus gracilis'		              000221010102111101011011011110112111000001100000002000001000111001?0
+	'Lodeacanthus gaujicus'		               01111101110?0000001110???1101000211101?00?1020000020310?1?0?????0200
+	'Lupopsyrus pygmaeus'		                 00010100?0?0000000?011001100010000000000000110000021002000100001000?
+	'Mesacanthus mitchelli'		               010112010100001010?11002010?1011211111?00?00010000200010000?11100000
+	'Milesacanthus antarctica'		            10010?00?001200000?1101201101000201100110110000100211102100010101200
+	'Nostolepis scotica'		                  001??011?10?000000?1?00001110?1?01?000??0?0001???02?00?0??100001011?
+	'Paucicanthus vanelsti'		               00000?00?1000000002110??01?01010?11110000000??000000??0?020??0??0100
+	'Tetanopsyrus breviacanthus'		          00000201111122000001100001011011101100010010010000111100000??0100100
+	'Triazeugacanthus affinis'		            01011201010000?0?01110??011010??211101?00?0000000020101?000??1?00200
+	'Zemlyacanthus menneri'		               ??000?0101011101010320020111110120110010010000000020000000011010112?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 68;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

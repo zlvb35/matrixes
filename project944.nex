@@ -1,0 +1,454 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-09 21.50.38 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Atractosteus spatula'
+		'Eurycormus speciosus'
+		'Pholidophorus bechei'
+		'Pholidophorus macrocephalus'
+		'Amiopsis lepidota'
+		'Solnhofenamia elongata'
+		'Calamopleurus cylindricus'
+		'Pachyamia mexicana'
+		'Vidalamia catalunica'
+		'Cyclurus kehreri'
+		'Amia calva'
+		'Sinamia zdanskyi'
+		'Ikechaoamia orientalis'
+		'Ikechaoamia meridionalis'
+		'Caturus furcatus'
+		'Amblysemius pachyurus'
+		'Liodesmus gracilis'
+		'Ionoscopus cyprinoides'
+		'Ophiopsis procera'
+		'Macrepistius arenatus'
+		'Oshunia brevis'
+		'Watsonulus eugnathoides'
+		'Siamamia naga'
+		'Tomognathus mordax'
+		'Tomognathus gigeri'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=72;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Solid, perichondrally ossified, diplospondylous centra in adult-sized individuals'
+		 [2] 'Posterior extent of exoccipital in adult-sized individuals'
+		 [3] 'Anteriorly projecting spine-like processes on neural and/or haemal arches'
+		 [4] 'Lateral fossae of vertebral centra of adult-sized individuals'
+		 [5] 'Number of supraneurals'
+		 [6] 'Articular ossification of lower jaw'
+		 [7] 'Presence/absence of suborbital bones'
+		 [8] 'Strength of ornamentation on dermal bones of skull'
+		 [9] 'Hypural-ural centra fusion in adult-sized individuals'
+		 [10] 'Presence/absence of large parapophyses fused to most of the abdominal centra'
+		 [11] 'Presence/absence of substantial scapulocoracoid ossification in adult-sized individuals'
+		 [12] 'Presence/absence of supraorbital bones'
+		 [13] 'Urodermals in the caudal skeleton:'
+		 [14] 'Presence/absence of sclerotic ring ossification'
+		 [15] 'Size and shape of dorsal fin'
+		 [16] 'Morphology of teeth on anterior coronoid and vomer'
+		 [17] 'Anterior extent of parasphenoid tooth patch'
+		 [18] 'Parietal length'
+		 [19] 'Number of ural centra'
+		 [20] 'Shape of preopercle'
+		 [21] 'Morphology of caps of the jaw teeth in adult-sized individuals'
+		 [22] 'Lateral edge of posttemporal in adult-sized individuals'
+		 [23] 'Shape of posterior margin of caudal fin'
+		 [24] 'Elongation of opercular process of hyomandibula'
+		 [25] 'Number of tooth rows on coronoids'
+		 [26] 'Arrangement of vomerine teeth'
+		 [27] 'Presence/absence of dermopterotic ribs'
+		 [28] 'Number of epurals'
+		 [29] 'Shape of basipterygium'
+		 [30] 'Postmaxillary process under posmaxillary notch'
+		 [31] 'Morphology of pleural ribs'
+		 [32] 'Shape of gular'
+		 [33] 'Peculiar ornamentation pattern of strongly defined, converging lines on opercles in adult-sized individuals'
+		 [34] 'Frontal width in adult-sized individuals'
+		 [35] 'Shape of dermopterotic'
+		 [36] 'Width of opercle'
+		 [37] 'Presence of interfrontal fontanelle in adult-sized individuals'
+		 [38] 'Position of dermosphenotic relative to orbit in adult-sized individuals'
+		 [39] 'Shape of supramaxilla'
+		 [40] 'Number of preural vertebral centra'
+		 [41] 'Shape of posterior end of posttemporal in adult-sized individuals'
+		 [42] 'Ventral transverse ridge of gular'
+		 [43] 'Shape of anterior subinfraorbital bone in adult-sized indviduals'
+		 [44] 'Number of epaxial procurrent caudal fin rays'
+		 [45] 'Presence/absence of fringing fulcra on median fins'
+		 [46] 'One-to-one arrangement of hypurals and caudal fin rays'
+		 [47] 'Number of ossified ural neural arches'
+		 [48] 'Number of parietal bones'
+		 [49] 'Number of pairs of extrascapular bones'
+		 [50] 'Dermopterotic length to parietal length'
+		 [51] 'Presence/absence of opisthotic'
+		 [52] 'Presence/absence of pterotic'
+		 [53] 'Shape of maxilla extremely slender and rod-like'
+		 [54] 'Number of branchiostegal rays'
+		 [55] 'Numerous paired, block-like ural neural arch ossifications'
+		 [56] 'Dermosphenotic attachment to skull roof in adult-sized individuals'
+		 [57] 'Shape of rostral bone'
+		 [58] 'Lacrimal shape'
+		 [59] 'Posterior extent of maxilla'
+		 [60] 'Presence/absence of lateral line canal in maxilla'
+		 [61] 'Symplectic involvement in jaw joint'
+		 [62] 'Shape of posterior margin of maxilla'
+		 [63] 'Innerorbital flange of dermosphenotic'
+		 [64] 'Posterior margin of gular'
+		 [65] 'Shape of Haemal spines'
+		 [66] 'Relative size of uppermost postinfraorbital in adult-sized individuals'
+		 [67] 'Orientation of preural haemal and neural spines near caudal peduncle'
+		 [68] 'Presence/absence of interopercle'
+		 [69] 'Number of supramaxillae'
+		 [70] 'Both premaxillae'
+		 [71] 'Coronoid(s)'
+		 [72] 'Dermopalatine(s)'
+	;
+	STATELABELS
+		1
+		'Absent'
+		'Present'
+		,
+		2
+		'Reaches posterior margin of occiput'
+		'Does not reach posterior margin of occiput'
+		,
+		3
+		'Absent'
+		'Present'
+		,
+		4
+		'Present, with two pits on each side of most centra'
+		'Present, with three or more pits on each side of most centra'
+		'Absent, centra smooth-sided'
+		,
+		5
+		'15 or more'
+		'13 to 14'
+		'5 to 112'
+		,
+		6
+		'Single element, or two elements tightly sutured to each other'
+		'Two seperate elements not in contact with each other'
+		,
+		7
+		'One or more present'
+		'Absent'
+		,
+		8
+		'Weak and/or fine'
+		'Strong, coarse'
+		,
+		9
+		'All hypurals autogenous (separate) from the ural centra'
+		'All but first hypural fused to corresponding centra'
+		,
+		10
+		'Absent'
+		'Present'
+		,
+		11
+		'One or more elements present in the shoulder girdle'
+		'Absent'
+		,
+		12
+		'Two or more present'
+		'Absent'
+		,
+		13
+		'Present'
+		'Absent'
+		,
+		14
+		'Present'
+		'Absent'
+		,
+		15
+		'Short, with straight to falcate margin, 14-25 segmented rays and 14-25 proximal radials'
+		'Medium long, with bow-shaped or straight margin, 30-34 segmented rays, and an estimated 30-34 proximal radials'
+		'Very long, with bow-shaped margin, 36-47 segmented rays, and 37-48 dorsal proximal radials2'
+		'Extremely long, with bow-shaped margin, 48-53 segmented rays, and 49-54 proximal radials'
+		,
+		16
+		'Conical, with pointed tip'
+		'Styliform, with broadly rounded or flattened tips'
+		,
+		17
+		'Extends well anterior to the lateral ascending arms of the parasphenoid'
+		'Short, does not extend anterior to the lateral ascending arms'
+		'Parasphenoid tooth patch absent'
+		,
+		18
+		'Relatively long, with a width-to-length ratio range not exceeding 0.90'
+		'Relatively short, with a width-to-length ratio range well exceeding 0.90'
+		,
+		19
+		'10 or fewer'
+		'11 to 22'
+		,
+		20
+		'L-shaped'
+		'Crescent-shaped, long and narrow'
+		'Crescent-shaped, wide in middle tapering dorsally and ventrally'
+		'Ovoid'
+		,
+		21
+		'Round in cross-section, not sharply carinate'
+		'Labiolingually compressed, sharply carinate (keeled)'
+		,
+		22
+		'Shorter than length of anterior edge'
+		'Elongate, about equal to or greater than width of anterior edge'
+		,
+		23
+		'Forked'
+		'Convexely rounded'
+		'Straight and nearly vertical'
+		,
+		24
+		'Absent'
+		'Present'
+		,
+		25
+		'Two or more rows for at least part of one or more coronoids'
+		'One row'
+		,
+		26
+		'Tooth patch with two to several rows of teeth'
+		'Tooth patch with only a single anterior marginal row, plus one or more teeth in a longitudinal series perpendicular to the anterior marginal row'
+		'Tooth patch arranged as a single transverse row'
+		,
+		27
+		'Absent'
+		'Present'
+		,
+		28
+		'2-8'
+		'10-15'
+		,
+		29
+		'Proximal end flat and widened anteriorly'
+		'Proximal end long and rod-like, without significant widening anteriorly'
+		,
+		30
+		'Tiny or absent'
+		'Thick and elongate'
+		,
+		31
+		'Distal ends pointed or with rounded points'
+		'Distal ends flatly truncated, even in large adults'
+		,
+		32
+		'Subtriangular or subrectangular with acute rounded anterior apex'
+		'Broad, oval, without acute anterior apex'
+		,
+		33
+		'Absent'
+		'Absent[state 1]'
+		,
+		34
+		'Relatively wide, with a width-to-length ratio of 0.26 to -0.65'
+		'Relatively narrow, with a width-to-length ratio of 0.13 to 0.21'
+		,
+		35
+		'Greatly widened posteriorly and tapered anteriorly'
+		'Subrectangular, not substantially tapered anteriorly or widened posteriorly'
+		,
+		36
+		'Narrow, with width-to-height ratio of 0.56 to 1.06'
+		'Wide, with width-to-height ratio in range of 1.07 to 1.39'
+		,
+		37
+		'Absent: frontals sutured to each other medially for their entire length'
+		'Frontals seperated for about one-half their length or more by a fontanelle'
+		,
+		38
+		'Anterior or anteroventral margin of dermosphenotic included in circumorbital margin, even in large individual of 200 mm SL or more'
+		'Dermosphenotic excluded from orbital margin in large individuals of 200 mm SL or more'
+		,
+		39
+		'Elongate'
+		'Extremely deep, shaped like a rounded triangle'
+		,
+		40
+		'40 to 73'
+		'75 to 82'
+		,
+		41
+		'Elongate, with rounded apex or apices'
+		'Elongate but abruptly truncated'
+		,
+		42
+		'Absent'
+		'Present'
+		,
+		43
+		'Short, subrectangular, longer than deep'
+		'Subrectangular, deeper than long'
+		'Long, very thin, tubelike2'
+		'Posteriorly expansive, tapering anteriorly'
+		,
+		44
+		'0 to 11'
+		'12 to 15'
+		,
+		45
+		'Present'
+		'Absent'
+		,
+		46
+		'Last few hypurals each articulate with the bases of several caudal fin rays'
+		'Each hypural normally bears a single caudal ray'
+		,
+		47
+		'Normally four or more'
+		'Normally 2 or fewer'
+		,
+		48
+		'Paired parietals normally present'
+		'Only a single median parietal present'
+		,
+		49
+		'Only one pair present'
+		'Three pairs normally present'
+		,
+		50
+		'Dermopterotic significantly longer'
+		'Lengths about equivalent'
+		,
+		51
+		'Present'
+		'Absent'
+		,
+		52
+		'Present'
+		'Absent'
+		,
+		53
+		'No'
+		'Yes'
+		,
+		54
+		'21 or fewer'
+		'22 or more'
+		,
+		55
+		'Absent'
+		'Present'
+		,
+		56
+		'Loosely attached on the skull roof or hinged to the side of skull roof'
+		'Firmly sutured into skull roof, forming part of it'
+		,
+		57
+		'Plate-like or short tube-like, without lateral horns'
+		'Roughly V-shaped, with lateral horns'
+		,
+		58
+		'Longer than deep, and smaller than orbit'
+		'Deeper than long, and massive (about size of orbit)'
+		,
+		59
+		'Extends to below posterior orbital margin'
+		'Does not extend below posterior orbital margin'
+		,
+		60
+		'Absent'
+		'Present'
+		,
+		61
+		'Does not articualte with lower jaw'
+		'Distal end articulates with articular bone of lower jaw'
+		,
+		62
+		'Convexly rounded or straight'
+		'Excavated (concave or with a posterior maxillary notch present)'
+		,
+		63
+		'Smooth, without sensory canal'
+		'Bearing sensory canal tube'
+		,
+		64
+		'Smooth'
+		'Deeply scalloped with a series of sharp points and concavities'
+		,
+		65
+		'Spine-like or rod-like'
+		'Broadly spatulate in the transvers plane'
+		,
+		66
+		'Short, much shorter than lowermost postinfraorbital'
+		'Long, about equal in length to lowermost postinfraorbital'
+		,
+		67
+		'Positioned at about 25° to 45° from the horizontal'
+		'Strongly inclined to nearly horizontal'
+		,
+		68
+		'Absent'
+		'Present'
+		,
+		69
+		'None'
+		'One'
+		'Two'
+		,
+		70
+		'Free'
+		'Fused together'
+		,
+		71
+		'Several'
+		'One'
+		'No coronoid'
+		,
+		72
+		'Two pairs'
+		'One pair'
+		
+	;
+	MATRIX
+	'Atractosteus spatula'		                 010000010100010000?0101001000-0-001000000-00010011??000000-0000-00000000
+	'Eurycormus speciosus'		                 000-0?000000000-0000000?-?000-0000?00000?000000000??000000000000000120??
+	'Pholidophorus bechei'		                 000-?0000000?00-01000?0?-?00?-0000000000000000000000000000000000001120??
+	'Pholidophorus macrocephalus'		          000-00000000?00-2?000000-000000000000000000000000000000000000000101120??
+	'Amiopsis lepidota'		                    1?110000000000000001001000000000000000000000111000??0001100011000001100?
+	'Solnhofenamia elongata'		               11121000000000000101001000000000?00100000021111000?100011000110000011000
+	'Calamopleurus cylindricus'		            111211110000000000121121111000000000000000001110001100001000110100011000
+	'Pachyamia mexicana'		                   1112?1110000001000121110000111111111111101?1111000??0001100011?000011000
+	'Vidalamia catalunica'		                 1?12??1100000000001211100001111111110?0000001110001?00011000110000011000
+	'Cyclurus kehreri'		                     111221111111112111010010000000000000000000001110001100011000110001011000
+	'Amia calva'		                           11?221111111113000010010000000000000000100001110001100011000110001011000
+	'Sinamia zdanskyi'		                     000(0,1,2)00?000000?00??010111??00?0000000000000001??11111000110001100000110??
+	'Ikechaoamia orientalis'		               0?000?00000?0?00??01001???00000?00?000000?00111111??0001100011??0001?0??
+	'Ikechaoamia meridionalis'		             0?000??000000?00??010?1?0?000000000000000?00111111??00011000110?000110??
+	'Caturus furcatus'		                     000?00000000000001011000?10000000000000000300000001111111000110010111000
+	'Amblysemius pachyurus'		                0?0?0?00000000000101100000000?00000000000000000000??11111000100?10111000
+	'Liodesmus gracilis'		                   0?0?0?0000?00000?10110000?0000000000000000?0001000??110110001100101110??
+	'Ionoscopus cyprinoides'		               010000000000000000?100000100000000?00000000000000000000110001110000110??
+	'Ophiopsis procera'		                    10?21?000000000???0100000?0?000?000000000?1000?00???0001111111100001100?
+	'Macrepistius arenatus'		                1002??01?0?0??1????1000?0?0????000?0000000100??00?0000?1?1111?1?000110??
+	'Oshunia brevis'		                       0000?000000?0?0000?1000?0000000000?000000?1?00000000000110111110000110??
+	'Watsonulus eugnathoides'		              000?000000000000010300000000?00000000000000000?000000000000011000001100?
+	'Siamamia naga'		                        01?(0,1)???1?0?????????10??100???0???00????????????1?1?10?????00?1???????0??
+	'Tomognathus mordax'		                   ?0???010??01?1202??10??0120??0?00?00?00??02?1??1?0110??010001101???1111?
+	'Tomognathus gigeri'		                   ???????????????0????1???0??????0?????????????????????????????????????11?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 72;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

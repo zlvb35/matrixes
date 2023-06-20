@@ -1,0 +1,777 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 23.06.37 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=38;
+    TAXLABELS
+    		'Hypochilus pococki'
+		'Hickmania troglodytes'
+		'Lycosidae sp'
+		'Araneus sp'
+		'Badumna longinqua'
+		'Dysdera sp'
+		'Holarchaea sp'
+		'Kukulcania hibernalis hw0079'
+		'Loxosceles sp'
+		'Mimetus sp'
+		'Pararchaeidae sp'
+		'Stegodyphus sp hwSteg42'
+		'Uroctea sp'
+		'Gnaphosidae sp'
+		'Palpimanus sp hw0082'
+		'Stenochilus sp hw0081'
+		'Huttonia sp hwHutt41'
+		'Aotearoa magna hw0050'
+		'Mesarchaea bell hw0040 20A'
+		'Mecysmauchenius segmentatus hw0098'
+		'Chilarchaea quellon hw0029'
+		'Zearchaea sp hw0051'
+		'NewGenus lavatenda hw0003AB'
+		'NewGenus jeanneli hw0057'
+		'NewGenus legendrei hw0014'
+		'Eriauchenius workmani hw0006'
+		'Eriauchenius bourgini hw0061'
+		'Afrarchaea pilgrimsrest hw59Af3'
+		'Afrarchaea woodae hw57Af1'
+		'Austrarchaea nodosa hw0074'
+		'Austrarchaea davisae hwAu066'
+		'Austrarchaea mainae hw0075'
+		'Lacunauchenius speciousus'
+		'Archaea paradoxa'
+		'Afrarchaea grimaldii'
+		'Myrmecarchaea sp'
+		'Baltarchaea conica'
+		'Patarchaea muralis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=126;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Pairs of organized spines on carapace'
+		 [2] 'Spine next to lateral eyes'
+		 [3] 'AME'
+		 [4] 'AME size'
+		 [5] 'AME on tubercle'
+		 [6] 'Distance between median eyes'
+		 [7] 'tapetum'
+		 [8] 'PME shape'
+		 [9] 'Carapace texture'
+		 [10] 'Foramen around cheliceral bases'
+		 [11] 'Foramen seam posterior to chelicerae'
+		 [12] 'Formation of foramen'
+		 [13] 'Fovea'
+		 [14] 'Posterior sternum tubercle'
+		 [15] 'Sternum border'
+		 [16] 'Chilum'
+		 [17] 'Shape of sclerite between cheliceral bases'
+		 [18] 'Additional sclerite beneath cheliceral base sclerite'
+		 [19] 'Clypeal hood'
+		 [20] 'Lateral labral spurs'
+		 [21] 'Labium distal edge'
+		 [22] 'Posterior dorsal edge of pedicel with two elongations'
+		 [23] 'Pars cephalica shape'
+		 [24] 'Raised cephalic area shape'
+		 [25] 'Posterior of raised cephalic area'
+		 [26] 'Endite length'
+		 [27] 'Shape of posterior edge of carapace'
+		 [28] 'Dorsal basal portion of tarsus I'
+		 [29] 'Type of tarsus I modification'
+		 [30] 'Leg 3 metatarsus apical ventral setae'
+		 [31] 'Tarsal organ'
+		 [32] 'Shape of exposed tarsal organ'
+		 [33] 'Femur 4 shape'
+		 [34] 'Dorsal surface of femora'
+		 [35] 'Scopula on leg I'
+		 [36] 'Scopula leg I position'
+		 [37] 'Scopula on leg 2'
+		 [38] 'Patella and tibia juncture on leg 4'
+		 [39] 'Relative length of patella and tarsus I'
+		 [40] 'Relative shape and size of STC I and 4'
+		 [41] 'Tarsal claws'
+		 [42] 'Claw tufts'
+		 [43] 'Trochanter distal margin'
+		 [44] 'Tarsal trichobothria'
+		 [45] 'Tarsal trichobothria rows'
+		 [46] 'Metatarsal trichobothria'
+		 [47] 'Serrate accessory claw setae'
+		 [48] 'Leg cuticle texture'
+		 [49] 'Leg hair type'
+		 [50] 'Trichobothrial base hood and texture'
+		 [51] 'Reduced leg spination'
+		 [52] 'Chelicerae anterior surface'
+		 [53] 'Cheliceral modification in females'
+		 [54] 'Cheliceral modification in males'
+		 [55] 'Basal edge of chelicerae'
+		 [56] 'Cheliceral trigger hairs'
+		 [57] 'Trigger hair distribution'
+		 [58] 'Peg teeth'
+		 [59] 'Peg teeth distribution'
+		 [60] 'Two peg teeth in first row'
+		 [61] 'Thickened setae at fang base'
+		 [62] 'Cheliceral stridulatory striae'
+		 [63] 'Texture of stridulatory striae'
+		 [64] 'Shape of chelicerae distad of stridulatory ridges'
+		 [65] 'Peg teeth shape'
+		 [66] 'Promarginal row of peg teeth'
+		 [67] 'Cheliceral gland mound'
+		 [68] 'Cuticle adjacent to cheliceral gland mound'
+		 [69] 'Cheliceral boss'
+		 [70] 'Cheliceral chela'
+		 [71] 'Cheliceral basal fusion'
+		 [72] 'Cheliceral diastema'
+		 [73] 'Abdomen shape'
+		 [74] 'Abdomen tubercles placement'
+		 [75] 'Posterior respiratory system'
+		 [76] 'Posterior spiracle'
+		 [77] 'Dorsal abdominal scutum on male'
+		 [78] 'Epiandrous spigots'
+		 [79] 'Posterior spinnerets'
+		 [80] 'Spigot base texture'
+		 [81] 'Sclerotization around anterior of abdomen'
+		 [82] 'Modification of sclerotization around anterior of abdomen in females'
+		 [83] 'Abdomen with folds'
+		 [84] 'Abdomen cuticle highly wrinkled with critically point dried'
+		 [85] 'Spinnerets projected on conical tubercle'
+		 [86] 'Brush of hairs on female palpal tarsus (also male cymbium)'
+		 [87] 'Placement of palpal brush on tarsus'
+		 [88] 'Picks on palpal femur'
+		 [89] 'Prolateral spines on female palp tarsus'
+		 [90] 'Placement of female palp spines'
+		 [91] 'Female palp claw'
+		 [92] 'Female genitalia'
+		 [93] 'Female sclerotized genital plate'
+		 [94] 'FSGP with wings'
+		 [95] 'FSGP with keel'
+		 [96] 'Membraneous sacs (receptaculae) originating from bursa'
+		 [97] 'Distribution of membraneous sacs'
+		 [98] 'Membraneous sac shape'
+		 [99] 'Fusion of tegulum and subtegulum'
+		 [100] 'Palp rotated, cymbium prolateral, bulb retrolateral'
+		 [101] 'Conductor'
+		 [102] 'Conductor shape'
+		 [103] 'Median apophysis'
+		 [104] 'Palpal tarsus M30 muscle'
+		 [105] 'Palpal tarsus M29 muscle'
+		 [106] 'Paracymbium'
+		 [107] 'Shape of paracymbium'
+		 [108] 'Retrolateral apophysis on femur'
+		 [109] 'Retrolateral apophysis on patella'
+		 [110] 'Retrolateral apophysis on tibia (RTA)'
+		 [111] 'Shape of RTA'
+		 [112] 'Tegulum'
+		 [113] 'Shape of bulb apex'
+		 [114] 'Palpal bulb expands distally'
+		 [115] 'Cribellum'
+		 [116] 'Cribellum organization'
+		 [117] 'Cribellate spigots'
+		 [118] 'PMS paracribellar gland spigots in females'
+		 [119] 'PMS paracribellar gland spigots in male'
+		 [120] 'PLS paracribellar gland spigots in females'
+		 [121] 'PLS modified spigot'
+		 [122] 'ALS MAP field separated by furrow'
+		 [123] 'ALS segment number'
+		 [124] 'Tartipores'
+		 [125] 'PMS mAP postion'
+		 [126] 'Cylindrical gland spigots'
+	;
+	STATELABELS
+		1
+		'absent'
+		'2 pair'
+		'3 pair'
+		'4 pair'
+		'greater than 4 pairs, or in triplets'
+		,
+		2
+		'absent'
+		'1 pair'
+		'2 pair'
+		,
+		3
+		'Present'
+		'absent'
+		,
+		4
+		'AME equal to or smaller than other eyes'
+		'AME larger than other eyes'
+		,
+		5
+		'no'
+		'yes'
+		,
+		6
+		'distance between AME less than distance between PME'
+		'distance between PME less than distance between AME'
+		'AME-AME and PME-PME equal'
+		,
+		7
+		'primitive'
+		'canoe shaped'
+		'grate shaped'
+		'absent'
+		,
+		8
+		'round'
+		'elongated'
+		,
+		9
+		'smooth'
+		'scales'
+		'tuberculate'
+		'fingerprint'
+		'pitted'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'rebordered'
+		'smooth'
+		'not completely fused'
+		'thickened'
+		,
+		12
+		'formed from intercoxal sclerites'
+		'formed from carapace'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'mound'
+		'tubercle'
+		'two tubercles'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'divided, bilateral'
+		'single, median'
+		,
+		17
+		'reduced rod'
+		'thick rod for trap jaw'
+		'triangular'
+		'tear-drop shaped'
+		'fused to cheliceral bases'
+		'two tear-drop shapes pointing toward each other'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'straight to rounded'
+		'narrow v-shaped notch'
+		'shallow wide notch'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'unelevated'
+		'elevated'
+		,
+		24
+		'tubular'
+		'constricted to form "neck"'
+		,
+		25
+		'flat'
+		'rounded out'
+		,
+		26
+		'less than half carapace length'
+		'at least half the carapace length'
+		,
+		27
+		'tapering off'
+		'flattened'
+		,
+		28
+		'similar to rest of segment'
+		'membranous or folded cuticle'
+		,
+		29
+		'large membraneous bulge'
+		'membraneous ring around tarsus'
+		'cuticular foldings'
+		,
+		30
+		'similar to other segment setae'
+		'distinct brush of setae'
+		'spines'
+		'comb'
+		,
+		31
+		'exposed'
+		'capsulate'
+		,
+		32
+		'flat plate'
+		'with greatly elongated sensilla'
+		,
+		33
+		'straight'
+		'with bend'
+		,
+		34
+		'smooth'
+		'with prominent bump'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'large prolateral group'
+		'prolateral row'
+		'one porlateral and one retrolateral row'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'straight'
+		'bent, hyperextended'
+		,
+		39
+		'patella shorter than tarsus'
+		'patella longer than or equal to tarsus'
+		,
+		40
+		'the same'
+		'STC 1 and 4 different shape'
+		'STC 1 smaller than STC 4'
+		,
+		41
+		'two'
+		'three'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'entire'
+		'deeply notched'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'one row'
+		'two or more'
+		,
+		46
+		'one'
+		'two'
+		'three or more'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'fingerprint'
+		'squamate'
+		'smooth'
+		,
+		49
+		'plumose'
+		'serrate'
+		,
+		50
+		'hood absent'
+		'smooth or same as leg texture'
+		'with transverse ridges'
+		,
+		51
+		'no'
+		'yes'
+		,
+		52
+		'smooth'
+		'with spine or protuberance'
+		,
+		53
+		'spine'
+		'bump'
+		,
+		54
+		'same as female'
+		'a brush of setae'
+		,
+		55
+		'parallel'
+		'splayed out'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'scattered'
+		'one evenly spaced row'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'limited to promargin'
+		'some on retromargin'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'uniform and densly spaced fingerprint ridges'
+		'widely spaced uniform ridges'
+		'widely spaced heterogeneous ridges'
+		'rounded bumps'
+		'uneven small ridges'
+		,
+		64
+		'straight'
+		'curved toward posterior'
+		,
+		65
+		'straight, tapering, smooth'
+		'straight, blunt, textured'
+		'curved, tapering, textured'
+		,
+		66
+		'uniform lengths'
+		'with different lengths'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'flat'
+		'with deep groove'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'free'
+		'fused'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'smoothly curved'
+		'with tubercles'
+		,
+		74
+		'pairs'
+		'singular'
+		,
+		75
+		'pair of normal booklungs'
+		'pair of reduced booklungs'
+		'pair of tracheae or modifications thereof'
+		,
+		76
+		'single'
+		'double'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'medians developed, laterals as large as anterior laterals'
+		'very reduced'
+		,
+		80
+		'fingerprint texture'
+		'smooth'
+		'scaly'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'unsclerotized'
+		'dorsal and ventral sclerites separate'
+		'dorsal and ventral sclerites fused'
+		'only ventral plate present, dorsal plate absent'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'on prolateral side'
+		'on retrolateral side'
+		,
+		88
+		'absent'
+		'at least one cusp present'
+		,
+		89
+		'absent'
+		'present'
+		'thick hairs'
+		,
+		90
+		'scattered'
+		'one row'
+		,
+		91
+		'absent'
+		'present'
+		'very reduced'
+		,
+		92
+		'haplogyne'
+		'entelegyne'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'dispersed evenly over bursa'
+		'clustered and originating from one or two openings on bursa'
+		,
+		98
+		'large sacs sessile, not on stalks'
+		'sacs on long stalks'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'conductor separate from embolus'
+		'conductor embraces embolus'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'protrusion with thick spine or setae'
+		'cluster of long setae not on protrusion'
+		'long curved apophysis'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'protrusion at distal edge'
+		'protrusion with thick seta'
+		'many thick setae not on protrusion'
+		'complex, 2 to 4 processes'
+		,
+		112
+		'entire, smooth surface'
+		'with sulcus'
+		,
+		113
+		'apex of bulp without a dark ridged spiral'
+		'with a dark ridged spiral forming a conductor'
+		,
+		114
+		'no'
+		'yes'
+		,
+		115
+		'absent'
+		'present'
+		,
+		116
+		'entire'
+		'divided'
+		,
+		117
+		'strobilate'
+		'claviform'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'absent'
+		'present'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'three'
+		'two'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'median to anterior'
+		'posterior'
+		'absent'
+		,
+		126
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Hypochilus pococki'		                          0000000000--10000000000--000-000000--0001000-0000110--00-0--00-0--0000000-0101020-0000-010100--0--00111??10000-0001000-01000-0
+	'Hickmania troglodytes'		                       0000000000--10000010200--000-000000--0001000-0100100--00-0--1130--0000000-0101000-0000-010100--101000-0??0-000-000100110100101
+	'Lycosidae sp'		                                0000002030--10010000000--000-01-000--000101112001100--00-0--10-0--0010000-200?000-0000-010110--0--00101??0-000-0000-----001101
+	'Araneus sp'		                                  0000011010--11010000000--000-01-000--0101010-0111000--00-0--00-0--0010000-2001010-0100-010110--0--011010012000-0010-----110111
+	'Badumna longinqua'		                           0001001030--10010000000--000-01-000--010100102000100--00-0--00-0--0010000-2000000-0100-010110--0--00111??0-0013000110101101101
+	'Dysdera sp'		                                  001---0000--00120000110--000-100000--0100100-0000000--00-0--00-0--0000000-2100010-0001000-101000--100-1??0-000-0000-----000020
+	'Holarchaea sp'		                               000000?040--0000-010000--000-01-000--1001000-011(0,1)100--10-0--00-0--1000010-2000010-0000-010010--0--010-0??0-010-0000-----011101
+	'Kukulcania hibernalis hw0079'		                0000000100--10000000000--000-21-000--0001000-2020000--00-0--00-0--0001100-1101010-0000-010100--0--100-01?0-000-000111111000000
+	'Loxosceles sp'		                               001---0000--10000000010--000-000000--0000000-002(0,1)210--00-0--0140--0001100-2001010-0000-110100--0--100-0??0-000-0000-----001020
+	'Mimetus sp'		                                  4201011010--10000000000--000-01-000--0001000-01110010000-10000-0000000110-2001010-0000-010110--0--01101??12000-0000-----010111
+	'Pararchaeidae sp'		                            000000101121000040000010-000-01-000--0001000-0111110--01010000-0100000010-200101120000-010110--0--00111??12000-0000-----011121
+	'Stegodyphus sp hwSteg42'		                     0000003000--00003010000--000-21-000--0101000-0020210--00-0--00-0--0010000-2001010-0000-010110--0--00110??0-000-0001100-0100101
+	'Uroctea sp'		                                  0001000000--10000000000--000-01-000--0101000-0020100--00-0--00-0--0000000-2001010-0000-010110--0--00101000-000-0000-----000121
+	'Gnaphosidae sp'		                              0000021000--10025010000--000-01-00121010000112020100--00-0--00-0--0010000-20110(0,1)0-0000-010110--0--000-1??0-00100000-----101101
+	'Palpimanus sp hw0082'		                        00010010213013100001110--011211-00100012(0,1)(0,1)00-0000210--00-10001000-1000010-200011120101110-000--111?0???110-000-0010-----001121
+	'Stenochilus sp hw0081'		                       00010011212010100001010--001010000101012(0,1)000-0000210--00-0--0100--1000010-200010130101110-200--11000100??0-000-0010-----001121
+	'Huttonia sp hwHutt41'		                        0001001010--00100000000--001031-0012101(1,2)1000-00(0,1)0210--00-1110110101000010-2000010-01011110000--11100101??0-000-0010-----001121
+	'Aotearoa magna hw0050'		                       12000010111101101011?010-0011101000--01(1,2)1000-0??0?11001111100100111000010-200?1?0-0?00-111?00--11100101??0-00111010-----??1???
+	'Mesarchaea bell hw0040 20A'		                  121---10(1,2)11101101011001110011101000--01(1,2)1000-0??0?11001111100110111000010-20011?0-0?00-1???0??????0010???0-00121010-----??1???
+	'Mecysmauchenius segmentatus hw0098'		          001---101111011010111010-0011101000--01(1,2)1000-00(0,1)0211001111100120111000010-2001100-0000-111200--1010010?1?1000111010-----011121
+	'Chilarchaea quellon hw0029'		                  001---101111011010110010-0011101000--01(1,2)1000-00(0,1)0111011111100120(1,2)-1000010-2001100-0100-11-200--101000-0??1100111010-----001121
+	'Zearchaea sp hw0051'		                         2200001011110110(1,2)0110010-0011101000--01(1,2)1000-00(0,1)0211001111000100001000010-2001100-0100-111200--11100101??0-10111010-----011121
+	'NewGenus lavatenda hw0003AB'		                 2101111021010211211110111011111-111211111000-01(0,1)02110010-1110101101100010-210000111111010-101100--00101??0-010-0110-----011101
+	'NewGenus jeanneli hw0057'		                    2101111021010211210110110011111-111211111000-0????110010-1110101101100010-21000?111?11000-101100--00101??0-010-0110-----??1???
+	'NewGenus legendrei hw0014'		                   2101111021010211210110111011111-1112?1111000-0????110010-1110101101100010-21000?111?11000-101000--00101??0-110-0110-----??1???
+	'Eriauchenius workmani hw0006'		                1001111021010211211110111011111-111211111000-01(0,1)02110010-11101011011000111210000111111000-101100--00101??0-000-0110-----011101
+	'Eriauchenius bourgini hw0061'		                1101111021010211210110110011111-111211111000-0????110010-1110101101100010-21000?111?11000-101100--00101??0-000-0010-----??1???
+	'Afrarchaea pilgrimsrest hw59Af3'		             1101111021010211210110111011111-111111111000-0????110010-1110101101100010-21000?111?11000-101110--00101??0-000-0110-----??1???
+	'Afrarchaea woodae hw57Af1'		                   1101111021010211210110111011111-111101111000-01(0,1)02110010-1110101101100010-210000111111000-101110--00101??0-000-0110-----011121
+	'Austrarchaea nodosa hw0074'		                  1001101021010211210110110011111-111201111000-01(0,1)02111110-11101011011000110211100111111000-100--10000101??0-000-0110-----011101
+	'Austrarchaea davisae hwAu066'		                1001101021010211210110110011111-111211111000-0????111110-11101011011000110211?0?111?11000-100--10000101??0-000-0110-----??1???
+	'Austrarchaea mainae hw0075'		                  0001101021010211210110110011111-111201111000-0????111110-11101011011000110211?0?111?11000-100--10000101??0-000-0010-----??1???
+	'Lacunauchenius speciousus'		                   000110?0(1,2)1?10?????0???10-00??1??1?????1?10????????10--11?110???011??00010-??0?0?0-0?00-???????????0010???0-000-?0?0-----??????
+	'Archaea paradoxa'		                            000110?02101001?21011?11110111??111??11?1000-0????10--10-111?100111100010-??1?0?111?10-10-?0??????00101??0-000-0010-----??????
+	'Afrarchaea grimaldii'		                        000110?02101001???011?11110?????1????11?1000-0????10--10-11??1?010??00010-????0???1?10-???????????0010???0-000-01?0-----??????
+	'Myrmecarchaea sp'		                            000110?011?100????01??11110?????011??11???0???????10--?0-1?????011??00010-????0???1?1?????????????????????????????0-----??????
+	'Baltarchaea conica'		                          100110?0211100??2?011?11110?????01???11???0???????10--10-1???1001???00011(0,1)????0???1?1??????0??????????????????????0-----??????
+	'Patarchaea muralis'		                          ?????????1????????????11?1??????0?11??1?10????????10--10-11??1101?1?0001?????????????0-?10????????0??????0-??11???0-----??????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 126;
+      ENDBLOCK;
+      

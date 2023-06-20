@@ -1,0 +1,427 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-09 22.05.05 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+    		'Mikadocephalus gracilirostris'
+		'Hudsonelpidia brevirostris'
+		'Macgowania janiceps'
+		'Leptonectes tenuirostris'
+		'Excalibosaurus costini'
+		'Eurhinosaurus longirostris'
+		'Temnodontosaurus'
+		'Suevoleviathan disinteger'
+		'Ichthyosaurus communis'
+		'Hauffiopteryx typicus'
+		'Stenopterygius quadriscissus'
+		'Chacaicosaurus cayi'
+		'Ophthalmosaurus icenicus'
+		'Ophthalmosaurus natans'
+		'Mollesaurus perialus'
+		'Acamptonectes densus'
+		'Brachypterygius extremus'
+		'Arthropterygius chrisorum'
+		'Caypullisaurus bonapartei'
+		'Aegirosaurus leptospondylus'
+		'Platypterygius australis'
+		'Platypterygius hercynicus'
+		'Maiaspondylus lindoei'
+		'Athabascasaurus bitumineus'
+		'Sveltonectes insolitus'
+		'Malawania anachronus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Crown striation'
+		 [2] 'Base enamel'
+		 [3] 'Root section'
+		 [4] 'Root striation'
+		 [5] 'Overbite'
+		 [6] 'Process postpal. pterygo'
+		 [7] 'Mx ant. process'
+		 [8] 'Desc. proces. naris'
+		 [9] 'Mx nares'
+		 [10] 'Pmx supranarialis pr'
+		 [11] 'Prf narialis pr.'
+		 [12] 'Jugal ant. margin'
+		 [13] 'Sagittal eminence'
+		 [14] 'Frontal pr. temporalis'
+		 [15] 'ST-PO contact'
+		 [16] 'Sq shape'
+		 [17] 'Qj exposure'
+		 [18] 'lower temp fenestra'
+		 [19] 'Basipterygoid processes'
+		 [20] 'Bo extracondylar area'
+		 [21] 'Bo peg'
+		 [22] 'Ventral notch BO'
+		 [23] 'Slender POP opis'
+		 [24] 'Stapes head size'
+		 [25] 'Angular lateral exposure'
+		 [26] 'Anterior caudals height'
+		 [27] 'Fluke centra lat. compress.'
+		 [28] 'A-A neural'
+		 [29] 'Apical chevrons'
+		 [30] 'Dorsal rib head'
+		 [31] 'Rib cross-section'
+		 [32] 'Ossified haemapomhyses'
+		 [33] 'Tail size'
+		 [34] 'Lunate tail fin'
+		 [35] 'Sc glenoid'
+		 [36] 'Sc acromion'
+		 [37] 'Anterior notch coracoid'
+		 [38] 'Plate-like dorsal troch'
+		 [39] 'Hu DPC'
+		 [40] 'Hu prox/distal ends'
+		 [41] 'Hu AAEF'
+		 [42] 'Post delfected Ul facet'
+		 [43] 'Hu/it contact'
+		 [44] 'Leading edge facet Hu'
+		 [45] 'Ulna post. edge'
+		 [46] 'Ra/Ul foramen'
+		 [47] 'Pisiform'
+		 [48] 'Notching anterior edge forefin'
+		 [49] 'Post. enlarg. foregin'
+		 [50] 'Preaxial digits'
+		 [51] 'Longi/Lati'
+		 [52] 'Flat prox. elements'
+		 [53] 'tighly packed rectangular phalanges'
+		 [54] 'Digital bifurcation'
+		 [55] 'Lost of V digit'
+		 [56] 'Paired fin ratio'
+		 [57] 'Is-Pu fusion'
+		 [58] 'Is shape'
+		 [59] 'Illium shape'
+		 [60] 'Fe trochanters'
+		 [61] 'Wide distal femur blade'
+		 [62] 'Fe/As contact'
+		 [63] 'Fe AAE'
+		 [64] 'Ti/FI interosseum space'
+		 [65] 'Hindfin notches'
+		 [66] 'Postaxial digits hindfin'
+	;
+	STATELABELS
+		1
+		'Present'
+		'Reduced'
+		,
+		2
+		'no'
+		'yes'
+		,
+		3
+		'Rounded'
+		'Quadrangular'
+		,
+		4
+		'Yes'
+		'No'
+		,
+		5
+		'no'
+		'yes'
+		,
+		6
+		'Absent'
+		'Present'
+		,
+		7
+		'As far as Na'
+		'Reduced'
+		,
+		8
+		'Absent'
+		'Present'
+		,
+		9
+		'Contact'
+		'NO CONTACT'
+		,
+		10
+		'Present'
+		'Absent'
+		,
+		11
+		'Absent'
+		'Present'
+		,
+		12
+		'between Mx & Lac'
+		'Fan covers Mx'
+		,
+		13
+		'Present'
+		'Absent'
+		,
+		14
+		'No'
+		'Yes'
+		,
+		15
+		'pRESENT'
+		'ABSENT'
+		,
+		16
+		'Squared'
+		'Triangular'
+		'lost'
+		,
+		17
+		'Large'
+		'Small, covered'
+		,
+		18
+		'Present'
+		'Lost'
+		,
+		19
+		'barely protruding'
+		'large wings'
+		,
+		20
+		'Wide'
+		'Reduced'
+		'Extremely reduced'
+		,
+		21
+		'Present'
+		'Absent'
+		,
+		22
+		'Yes'
+		'No'
+		,
+		23
+		'No, stout'
+		'Yes, elongated and slender'
+		,
+		24
+		'Small'
+		'Large'
+		,
+		25
+		'Small'
+		'Extensive'
+		,
+		26
+		'?3.5'
+		'?4'
+		,
+		27
+		'Laterally compressed'
+		'Rounded'
+		,
+		28
+		'fused'
+		'not fused'
+		,
+		29
+		'Present'
+		'Lost'
+		,
+		30
+		'Single head'
+		'Double head'
+		,
+		31
+		'Round'
+		'8'
+		,
+		32
+		'Yes'
+		'No'
+		,
+		33
+		'Long'
+		'Small'
+		,
+		34
+		'No'
+		'Yes'
+		,
+		35
+		'Extensive'
+		'Reduced'
+		,
+		36
+		'Absent'
+		'Present'
+		,
+		37
+		'yes'
+		'no'
+		,
+		38
+		'No'
+		'Yes'
+		,
+		39
+		'Absent'
+		'Present triangular'
+		'Present enormous'
+		,
+		40
+		'distal wider'
+		'equal or prox wider'
+		,
+		41
+		'Absent'
+		'Present'
+		,
+		42
+		'no'
+		'yes'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Marked bump'
+		'None'
+		,
+		45
+		'Round and not tapering'
+		'tapering and concave'
+		,
+		46
+		'Yes'
+		'No'
+		,
+		47
+		'Absent'
+		'Present'
+		,
+		48
+		'Notched'
+		'Straight'
+		,
+		49
+		'No'
+		'One digit'
+		'Two digits'
+		,
+		50
+		'Absent'
+		'One'
+		,
+		51
+		'Longipinnate'
+		'Latipinnate'
+		,
+		52
+		'Flat'
+		'Thick'
+		,
+		53
+		'no'
+		'yes'
+		,
+		54
+		'Absent'
+		'Present'
+		,
+		55
+		'Yes of reduced to small floating elements'
+		'No'
+		,
+		56
+		'?1'
+		'>>1 (forefin longer)'
+		,
+		57
+		'Absent'
+		'Fused foramina'
+		'Fused no foramina'
+		,
+		58
+		'Plate-like'
+		'Rod-like'
+		,
+		59
+		'sTRAIGHT ANTERIOR MARGIN'
+		'POINTED PROCESS'
+		,
+		60
+		'Absent'
+		'Present'
+		,
+		61
+		'Yes'
+		'No'
+		,
+		62
+		'no'
+		'yes'
+		,
+		63
+		'no element'
+		'yes element'
+		,
+		64
+		'Yes'
+		'No'
+		,
+		65
+		'Yes'
+		'No'
+		,
+		66
+		'Absent'
+		'Present'
+		
+	;
+	MATRIX
+	'Mikadocephalus gracilirostris'		          ????0?000000??0000??????0?????????0000000000?0?0???????0000000000?
+	'Hudsonelpidia brevirostris'		             ????0??????????????????????????0?????000000000??000?0?100010000000
+	'Macgowania janiceps'		                    ?0?00?100??????100??????0??????????????0000?00?0001?001???????????
+	'Leptonectes tenuirostris'		               10010??00?00000111?0?????0???0010000000000000000000?00010000000000
+	'Excalibosaurus costini'		                 100?1??0???????????00???????0?0?0001000000000100000?000?0000000000
+	'Eurhinosaurus longirostris'		             100011100000000111?0??0000?10001000000?000000110000?00(0,1)00000000000
+	'Temnodontosaurus'		                       0000000000000011010000000000001100000000000(0,1)0100000000000000000000
+	'Suevoleviathan disinteger'		              0??000100000?00101??????0??????101?000?0000001?1000001100010000100
+	'Ichthyosaurus communis'		                 000000101(0,1)00000(1,2)110000000000011111(0,1)00011000101(0,1)1101011110000100100
+	'Hauffiopteryx typicus'		                  1???0?100???000111?00??100???11?110?00?0000?0100000?001100?0000100
+	'Stenopterygius quadriscissus'		           100101101000001111000001011111111111001000010110(0,1)000(0,1)111100?100100
+	'Chacaicosaurus cayi'		                    ????0??0???????????001???????????????0??0?0?0?10000100????????????
+	'Ophthalmosaurus icenicus'		               010101111101101111(0,1)1(0,1)011110111111101011111011111111100111001100110
+	'Ophthalmosaurus natans'		                 10?10111110??01111?1?01110?0??????110?11110111?1?11?001???????????
+	'Mollesaurus perialus'		                   ????????1?0????011111001?0????????????????????????????????????????
+	'Acamptonectes densus'		                   11?1???1????1?????111111100?1?(0,1)???0101111101111??1??0?????????????
+	'Brachypterygius extremus'		               01110?0110?1?????11211??1??????????101?1001101111111001???????????
+	'Arthropterygius chrisorum'		              ??????????????????0201?1?11?1???????0111110101?1??0????????0?0????
+	'Caypullisaurus bonapartei'		              ????0?00100???0001??????10????????111121100101112101101121?110?111
+	'Aegirosaurus leptospondylus'		            00010?111111?11111??????1???????11???1?100110111111?101121??100111
+	'Platypterygius australis'		               01110000000101120112110110111??11?011121100101112101101120?1101111
+	'Platypterygius hercynicus'		              01100?101?01111(0,1)11?2?1?1??1?111???011121100101112101101????111011?
+	'Maiaspondylus lindoei'		                  ?110??1?11?1??????0??????0???????????1?10011011?1?0?101??????10???
+	'Athabascasaurus bitumineus'		             10?1??0001?1101001?2???110?1????????????????????????????2001??????
+	'Sveltonectes insolitus'		                 10110?11111111???10211?1100?1?11??1101210001?1?11111101121?1101111
+	'Malawania anachronus'		                   ??????????????????????????????1???00??11000101?0001?001???????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 19 21 - 38 40 - 48 50 - 56 58 - 66, ord: 20 39 49 57;
+      ENDBLOCK;
+      BEGIN LABELS;
+CHARGROUPLABEL Teeth ; CHARGROUPLABEL Skull ; CHARGROUPLABEL Axial ; CHARGROUPLABEL Shoulder_girdle ; CHARGROUPLABEL Pelvic_girdle ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1368868076454 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 4444536175602907748 ; tell It ; setDefaultOrder 28 18 19 20 21 22 0 23 1 29 2 4 3 37 24 25 5 6 8 9 41 10 11 43 12 32 ; attachments ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 8195619463141173495 ; tell It ; setDefaultOrder 48 96 1 66 51 4 16 5 6 7 8 49 10 11 12 13 15 64 47 17 18 80 73 19 21 23 24 97 25 52 53 68 54 55 26 27 50 28 29 30 31 86 33 63 74 61 32 34 35 36 37 38 39 40 56 58 41 42 59 43 65 44 94 60 45 46 ; attachments ; endTell ; mqVersion 275 ; checksumv 0 3 3023694108 null getNumChars 66 numChars 66 getNumTaxa 26 numTaxa 26 short true bits 2305843009213693959 states 7 sumSquaresStatesOnly 2858.0 sumSquares -5.995191823955604E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 161 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1280 612 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #8195619463141173495 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; getTable ; tell It ; rowNamesWidth 152 ; endTell ; setExplanationSize 30 ; setAnnotationSize 40 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1119 525 ; setLocation 0 22 ; setFont Arial_Unicode_MS ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames off ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; setColumnWidth 16 ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; getInfoPanel ; tell It ; btspOpen true ; apOpen true ; fpOpen true ; endTell ; toggleInfoPanel on ; endTell ; showWindow ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #8195619463141173495 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels ; getTable ; tell It ; columnWidth 2 89 ; endTell ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1119 545 ; setLocation 0 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 66 ;
+ENDBLOCK;
+BEGIN SETS;
+CHARPARTITION * UNTITLED = Teeth : 1 - 3 , Skull : 6 - 17 19 - 25 , Axial : 26 - 29 , Shoulder_girdle : 35 - 43 45 47 - 54 , Pelvic_girdle : 57 - 58 60 62 - 63 65 - 66 ;
+ENDBLOCK;

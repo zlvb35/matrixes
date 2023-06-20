@@ -1,0 +1,239 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-02 17.11.38 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Phiomys andrewsi'
+		'Metaphiomys schaubi'
+		'Gaudeamus aegyptius'
+		'Sacaresia moyaeporisi'
+		'Paraphiomys simonsi'
+		'Paraphiomys pigotti'
+		'Neosciuromys africanus'
+		'Paraphiomys knolli'
+		'Apodecter stromeri'
+		'Paraphiomys orangeus'
+		'Paraphiomys hopwoodi'
+		'Paraphiomys renelavocati'
+		'Epiphiomys coryndoni'
+		'Paraphiomys occidentalis'
+		'Paraphiomys shipmani'
+		'Kochalia geespei'
+		'Paraphiomys afarensis'
+		'Paraphiomys roessneri'
+		'Paraphiomys australis'
+		'Thryonomys swinderianus'
+		'Thryonomys gregorianus'
+		'Thryonomys asakomae'
+		'Paraulacodus indicus'
+		'Paraulacodus johanesi'
+		'Protohummus dango'
+		'Lavacatomys aequatorialis'
+		'Thryonomys wesselmani'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=22;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'dp4 replacement'
+		 [2] 'dp4 anterior cingulum'
+		 [3] 'dp4 metalophulid II '
+		 [4] 'dp4 metalophulid II'
+		 [5] 'dp4 hypolophid '
+		 [6] 'm1 or m2: anterolabial cuspid'
+		 [7] 'm1 or m2 anterolabial cuspid'
+		 [8] 'm1 or m2 metalophulid II'
+		 [9] 'm1 or m2 mesoflexid'
+		 [10] 'm1 or m2 mesoflexid'
+		 [11] 'm1 or m2 anterolabial cingulum'
+		 [12] 'm1 or m2 hypolophid'
+		 [13] 'm1 or m2 length'
+		 [14] 'm1 or m2 width'
+		 [15] 'm3 length'
+		 [16] 'm3 anterolabial cingulum'
+		 [17] 'dI2 upper incisor grooves'
+		 [18] 'M1 or M2 mesoloph'
+		 [19] 'M1 or M2 length'
+		 [20] 'M1 or M2 metaloph'
+		 [21] 'M1 or M2 protoloph'
+		 [22] 'Hypsodonty'
+	;
+	STATELABELS
+		1
+		'replaced'
+		'not replaced'
+		,
+		2
+		'present'
+		'weak or absent'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'transverse'
+		'oblique'
+		,
+		5
+		'posteriorly oblique'
+		'transverse'
+		'anteriorly oblique'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'isolated'
+		'partially submerged in crest'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'not anteriorly directed'
+		'anteriorly directed'
+		,
+		10
+		'equal or longer than the metaflexid'
+		'shorter than the metaflexid'
+		,
+		11
+		'present'
+		'weak or absent'
+		,
+		12
+		'posteriorly oblique'
+		'transverse'
+		'anteriorly oblique'
+		,
+		13
+		'm1 < m2'
+		'm1 = m2'
+		'm1 > m2'
+		,
+		14
+		'm1 < m2'
+		'm1 = m2'
+		'm1 > m2'
+		,
+		15
+		'm3 > m2'
+		'm3 < m2'
+		,
+		16
+		'present'
+		'weak or absent'
+		,
+		17
+		'ungrooved upper incisor'
+		'one groove'
+		'two grooves'
+		'three grooves'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'M1 < M2'
+		'M1 = M2'
+		'M1 > M2'
+		,
+		20
+		'present'
+		'absent'
+		,
+		21
+		'transverse'
+		'oblique'
+		,
+		22
+		'low'
+		'semihypsodonty'
+		'high'
+		
+	;
+	MATRIX
+	'Phiomys andrewsi'		                   000020-100000000000000
+	'Metaphiomys schaubi'		                000100-110020000000000
+	'Gaudeamus aegyptius'		                010120-011100011?10111
+	'Sacaresia moyaeporisi'		              000120-100000010110110
+	'Paraphiomys simonsi'		                ?11-010010100000000102
+	'Paraphiomys pigotti'		                111-010101120001001001
+	'Neosciuromys africanus'		             111-011000120001?00012
+	'Paraphiomys knolli'		                 ?????1010012???1?0?000
+	'Apodecter stromeri'		                 111-011000012211000001
+	'Paraphiomys orangeus'		               101-111010110011000001
+	'Paraphiomys hopwoodi'		               111-01010012101100?111
+	'Paraphiomys renelavocati'		           111-011000010111001111
+	'Epiphiomys coryndoni'		               ?001010100012011?02001
+	'Paraphiomys occidentalis'		           111-010000110001?02111
+	'Paraphiomys shipmani'		               111-21101010201??????0
+	'Kochalia geespei'		                   011-110000000010000001
+	'Paraphiomys afarensis'		              111-01100010000100?011
+	'Paraphiomys roessneri'		              101-10-000000211012001
+	'Paraphiomys australis'		              101-00-000002210?10011
+	'Thryonomys swinderianus'		            110010-000110011310111
+	'Thryonomys gregorianus'		             110010-000100011310011
+	'Thryonomys asakomae'		                ?10010-000110001211011
+	'Paraulacodus indicus'		               111-110000112011210011
+	'Paraulacodus johanesi'		              111-111000110011210011
+	'Protohummus dango'		                  ?11-10-00011????21?011
+	'Lavacatomys aequatorialis'		          ?10000-100112011??????
+	'Thryonomys wesselmani'		              ?10010-00011001131?011
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Denotes whether the fourth permanent premolar has a deciduous (milk tooth) precursor. Scored as "-˜?"-™ for Protohummus dango.';
+	TEXT CHARACTER=2 TEXT='Refers to a minor crest found anterior to the anterior most loph. Scored as absent (1) in Protohummus dango.';
+	TEXT CHARACTER=3 TEXT='Coded for the presence of a fourth loph between that is roughly parallel to the hypolophid and metalophulid I. Also referred to as the posterior arm of the protoconid by other authors. Scored as "-˜1"-™ in Protohummus dango.';
+	TEXT CHARACTER=4 TEXT='Refers to the orientation of the metalophulid II relative to the long axis of the tooth. Scored as absent (0) in Protohummus dango.';
+	TEXT CHARACTER=5 TEXT='Refers to the orientation of the hypolophid relative to the long access of the tooth. Scored as transverse (1) in Protohummus dango';
+	TEXT CHARACTER=6 TEXT='A minor cusp, sometimes found on the anterior and buccal corner of lower molars. Scored as absent (0) in Protohummus dango.';
+	TEXT CHARACTER=7 TEXT='Refers to whether the isolate from the anterior portion of the tooth via a saddle, or is found along a continuous crest. ';
+	TEXT CHARACTER=8 TEXT='Refers to the there presence of a metalophulid II on the first and/or second molars. Scored as absent (0) in Protohummus dango.';
+	TEXT CHARACTER=9 TEXT='Referring to the orientation of the space between the metalophulid I and hypolophid relative to the long axis of the tooth. Scored as not anteriorly directed (0) in Protohummus dango.';
+	TEXT CHARACTER=10 TEXT='Refers to the relative length of the mesoflexid (basin between metalophulid I and hypolophid) and metaflexid (basin between hypolophid and posterolphid). Scored as the mesoflexid equal or longer than the metaflexid (0) in Protohummus dango.';
+	TEXT CHARACTER=11 TEXT='Coded for the presence of an additional, minor cingulum anterior to the metalophulid I. Scored as absent (0) in Protohummus dango.';
+	TEXT CHARACTER=12 TEXT='Refers to the orientation of the hypolophid to the long axis of the tooth. Scored as transverse (1) in Protohummus dango. Scored as transverse (1) in Protohummus dango.';
+	TEXT CHARACTER=13 TEXT='Refers to the relative lengths of the first and second lower molars. ';
+	TEXT CHARACTER=14 TEXT='Refers to the relative widths of the first and second lower molars. ';
+	TEXT CHARACTER=15 TEXT='Refers to the relative lengths of the second and third molars. ';
+	TEXT CHARACTER=16 TEXT='Coded for the presence of an additional, minor cingulum anterior to the metalophulid I on the third lower molar. ';
+	TEXT CHARACTER=17 TEXT='Coded for the number of buccal grooves on an upper incisor. Scored as having two grooves (2) in Protohummus dango.';
+	TEXT CHARACTER=18 TEXT='Refers of the presence of a loph (often a fourth primary loph), projecting buccally from anterior arm of the hypocone. Scored as absent (1) in Protohummus dango.';
+	TEXT CHARACTER=19 TEXT='Refers to the relative lengths of the first and second upper molars. ';
+	TEXT CHARACTER=20 TEXT='Refers to the presence of a metaloph, which projects bucco-anteriorly from the midpoint of the posteroloph. Scored as present (0) in in Protohummus dango. ';
+	TEXT CHARACTER=21 TEXT='Refers to the orientation of the protoloph relative to the long-axis of the tooth. Scored as oblique (1) in in Protohummus dango.';
+	TEXT CHARACTER=22 TEXT='Refers to the height of the enamel crowns on the upper teeth. Scored as high (1) in in Protohummus dango.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 22;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ; TYPESET * UNTITLED = unord: 1 - 22 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 87 ; LastModified -904575734 ; FileSettings editor 0 0 1 1 ; Singles 000 ; Editor 00011001111111100100010010 0 24 Geneva 18 216 1 all ; EditorPosition 26 2054 773 931 ; TreeWindowPosition 46 6 1019 1870 ; ListWindow Characters closed Geneva 9 50 10 129 352 000 ; ListWindow Taxa closed Geneva 9 50 10 276 490 100000000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 998 1860 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder Data ; OtherSymbols & / 00 ? - ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 883 46 115 165 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 ( normal ) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 ( normal ) ; TreeShape 1.0 1.0 0100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 ( normal ) Geneva 10 ( normal ) Geneva 9 ( normal ) Geneva 9 ( normal ) Geneva 9 ( bold ) Geneva 9 ( normal ) Geneva 9 ( normal ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 256 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 1 100010101110011 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1362607791211 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 6180892448602518295 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 3489279097844097525 ; mqVersion 274 ; checksumv 0 2 2419451137 null getNumChars 22 numChars 22 getNumTaxa 27 numTaxa 27 short true bits 15 states 15 sumSquaresStatesOnly 1947.0 sumSquares 1947.0 NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 187 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1280 706 ; setLocation 135 166 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; showTaxa #6180892448602518295 #mesquite.lists.TaxonList.TaxonList ; tell It ; setTaxa #6180892448602518295 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1093 639 ; setLocation 135 166 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord ; tell It ; makeTreeWindow #6180892448602518295 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker ; tell It ; suppressEPCResponse ; setTreeSource #mesquite.trees.StoredTrees.StoredTrees ; tell It ; setTreeBlock 1 ; toggleUseWeights off ; endTell ; setAssignedID 1031.1361035931733.8166335872268236802 ; getTreeWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1093 639 ; setLocation 135 166 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator ; tell It ; suppress ; setTreeDrawer #mesquite.trees.SquareTree.SquareTree ; tell It ; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard ; tell It ; branchLengthsToggle off ; toggleScale on ; toggleBroadScale off ; toggleCenter on ; toggleEven on ; endTell ; setEdgeWidth 6 ; orientUp ; setCornerMode Right_Angle 50 ; endTell ; setBackground White ; setBranchColor Black ; showNodeNumbers off ; showBranchColors on ; labelBranchLengths off ; centerBrLenLabels on ; showBrLensUnspecified on ; showBrLenLabelsOnTerminals on ; setBrLenLabelColor 0 0 255 ; setNumBrLenDecimals 6 ; desuppress ; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames ; tell It ; setColor Black ; toggleColorPartition on ; toggleShadePartition off ; toggleShowFootnotes on ; toggleNodeLabels on ; toggleCenterNodeNames off ; toggleShowNames on ; namesAngle ? ; endTell ; endTell ; setTreeNumber 1 ; setDrawingSizeMode 0 ; toggleLegendFloat on ; scale 0 ; toggleTextOnTree off ; showWindow ; endTell ; desuppressEPCResponse ; getEmployee #mesquite.trees.ColorBranches.ColorBranches ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes ; tell It ; setAlwaysOn off ; endTell ; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition ; tell It ; colorByPartition off ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles ; tell It ; setOn on ; setDigits 4 ; writeAsPercentage off ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings ; tell It ; setOn on ; toggleCentred on ; toggleHorizontal on ; setFontSize 10 ; setOffset 0 0 ; endTell ; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues ; tell It ; panelOpen false ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #3489279097844097525 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1093 639 ; setLocation 135 166 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 22 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "NoGaud_NoLavo_contree.tree" ; LINK Taxa = Taxa ; TRANSLATE 1 Phiomys_andrewsi , 2 Metaphiomys_schaubi , 3 Gaudeamus_aegyptius , 4 Sacaresia_moyaeporisi , 5 Paraphiomys_simonsi , 6 Paraphiomys_pigotti , 7 Neosciuromys_africanus , 8 Paraphiomys_knolli , 9 Apodecter_stromeri , 10 Paraphiomys_orangeus , 11 Paraphiomys_hopwoodi , 12 Paraphiomys_renelavocati , 13 Epiphiomys_coryndoni , 14 Paraphiomys_occidentalis , 15 Paraphiomys_shipmani , 16 Kochalia_geespei , 17 Paraphiomys_afarensis , 18 Paraphiomys_roessneri , 19 Paraphiomys_australis , 20 Thryonomys_swinderianus , 21 Thryonomys_gregorianus , 22 Thryonomys_asakomae , 23 Paraulacodus_indicus , 24 Paraulacodus_johanesi , 25 Protohummus_dango_ , 26 Lavacatomys_aequatorialis_ , 27 Thryonomys_wesselmani ; TREE Strict = (1 , 2 , 4 , (((5 , (((((((6 , 8) , 11) , 14) , 12) , (10 , ((((20 , 21 , 27) , 22) , 25) , 23 , 24))) , (7 , 17)) , ((9 , (18 , 19)) , 15))) , 16) , 13)) ;
+ENDBLOCK;

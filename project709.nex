@@ -1,0 +1,311 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.04.07 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=31;
+    TAXLABELS
+    		'Aglaspis'
+		'Emeraldella'
+		'Sidneyia'
+		'Australimicola'
+		'Buenaspis'
+		'Cindarella'
+		'Emucaris'
+		'Eoredlichia'
+		'Helmetia'
+		'Kangacaris'
+		'Kuamaia'
+		'Kwanyinaspis'
+		'Liwia'
+		'Misszhouia'
+		'Naraoia compacta'
+		'Naraoia spinosa'
+		'Olenoides'
+		'Panlongia'
+		'Phytophilaspis'
+		'Pygmaclypeatus'
+		'Retifacies'
+		'Saperion'
+		'Sinoburius'
+		'Siriocaris'
+		'Skioldia'
+		'Soomaspis'
+		'Squamacula clypeata'
+		'Squamacula buckorum'
+		'Tariccoia'
+		'Tegopelte'
+		'Xandarella'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=38;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Mineralisation of cuticle'
+		 [2] 'Number of cephalic somites/appendages'
+		 [3] 'Position of lateral facetted eyes'
+		 [4] 'Visual surface with calcified lenses bounded by circumocular suture'
+		 [5] 'Bulge in exoskeleton accommodating drop-shaped ventral eyes'
+		 [6] 'Eye slits'
+		 [7] 'Dorsal facial sutures'
+		 [8] 'Head shield overlapping anterior trunk tergite(s)'
+		 [9] 'Transverse suture across anterolateral part of head shield'
+		 [10] 'Anteromedian margin of cephalon notched, accommodating pre-hypostomal sclerite'
+		 [11] 'Frontal organs on pre-hypostomal sclerite'
+		 [12] 'Hypostome attachment'
+		 [13] 'Hypostome divided into anterior and posterior parts by transverse suture'
+		 [14] 'Decoupling of trunk tergites and somites'
+		 [15] 'Trunk narrowed anteriorly relative to head shield, widest posteriorly'
+		 [16] 'Trunk effacement'
+		 [17] 'Relative length of thorax'
+		 [18] 'Trunk tagmosis of pygidium fused to thorax'
+		 [19] 'Joints between posterior tergites functional, anterior ones variably fused'
+		 [20] 'Tergite articulations'
+		 [21] 'Exoskeletal boundaries of anterior trunk segments'
+		 [22] 'Pygidium'
+		 [23] 'Size of pygidium'
+		 [24] 'Median keel on pygidium'
+		 [25] 'Pygidium with broad-based median spine and two pairs of segmental marginal spines'
+		 [26] 'Posterior tergite with axial spine'
+		 [27] 'Telson'
+		 [28] 'Segmentation of telson'
+		 [29] 'Width of doublure on cephalic shield'
+		 [30] 'Paired flaps lateral to telson'
+		 [31] 'Exopod on first post-antennal segment'
+		 [32] 'Exopod structure'
+		 [33] 'Proximal section of exopod'
+		 [34] 'Shape and articulation of distal lobe of exopod'
+		 [35] 'Form of exopod setae'
+		 [36] 'Gnathobase on protopodite and prominent endites on endopod'
+		 [37] 'Differentiation of cephalic diverticulae'
+		 [38] 'Length of endopods of trunk limbs'
+	;
+	STATELABELS
+		1
+		'absent'
+		'calcitic'
+		'phosphatic'
+		,
+		2
+		'antenna only'
+		'antenna and three limb pairs'
+		'antenna and four limb pairs'
+		'antenna and five limb pairs'
+		,
+		3
+		'ventral'
+		'dorsal'
+		'absent'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'overlap similar to that between adjacent thoracic segments'
+		'head shield covers first thoracic tergite only (tergite completely covered medially)'
+		'head shield covers multiple anterior trunk tergites, with small median area of attachment'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'notch and sclerite absent'
+		'notch and sclerite present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'wide attachment with or without suture'
+		'natant'
+		'narrow overlap with pre-hypostomal sclerite'
+		'narrow attachment at hypostomal suture'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent (trunk wider anteriorly or of equal width)'
+		'present'
+		,
+		16
+		'trunk with defined (separate or fused) tergite boundaries'
+		'trunk tergite boundaries effaced laterally'
+		'trunk tergite boundaries completely effaced'
+		,
+		17
+		'longer than pygidium'
+		'shorter than pygidium'
+		,
+		18
+		'absent'
+		'present with functional cephalic articulation'
+		'present with fused cephalic articulation'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'extensive overlap of tergites'
+		'edge to edge articulations'
+		,
+		21
+		'boundaries transverse or reflexed posterolaterally'
+		'reflexed anterolaterally'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'shorter to slightly longer than cephalon'
+		'much longer than cephalon'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'spines absent'
+		'spines present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent (unjointed)'
+		'present'
+		,
+		29
+		'narrow or moderately wide'
+		'wide (maximum width 30-35% length of cephalic shield)'
+		'entire ventral side of head covered by expansion of doublure'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'exopod differentiated into proximal and distal lobes, the proximal lobe bearing lamellae setae, the distal lobe bearing short setae'
+		'exopod an undivided flap'
+		,
+		33
+		'lobe'
+		'shaft'
+		,
+		34
+		'small to moderate sized flap, with short to moderately long attachment to proximal lobe'
+		'large, tear-drop-shaped, with long attachment to proximal lobe'
+		,
+		35
+		'spiniform'
+		'lamellar (lamellipedian setae)'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'small, serially regular diverticulae'
+		'anterior pair of diverticulae large, expanding across genal region of cephalic shield, with complicated ramification'
+		,
+		38
+		'extending to or beyond edge of tergum'
+		'terminating a substantial distance from the edge of the tergum'
+		
+	;
+	MATRIX
+	'Aglaspis'		                     2(1,2)10000000000000-00000---010010???????
+	'Emeraldella'		                  012-000000000000-00000---0100100001000
+	'Sidneyia'		                     0000000000000000-00000---0102101--10?0
+	'Australimicola'		               0?(0,2)0000000?2000000011100000-?????????1
+	'Buenaspis'		                    0?(0,2)?000000????0000000100000-00????1???
+	'Cindarella'		                   0200000200010100-0000100010-0010001100
+	'Emucaris'		                     012-000000?11?0010000110000-00????????
+	'Eoredlichia'		                  111100100003000000010100000-0010001000
+	'Helmetia'		                     0100?0001112000000111100100-001???1??1
+	'Kangacaris'		                   012-000000?11?0010000110000-00???????0
+	'Kuamaia'		                      0?00100011?2000000111100100-00100110?1
+	'Kwanyinaspis'		                 0?00100000?00000-0011????01000100010?0
+	'Liwia'		                        0?????01?0????1010000100000-?0????????
+	'Misszhouia'		                   022-000000110-12?1-0???0000-0010101000
+	'Naraoia compacta'		             0(1,2)2-000000?10-12?1-0???0000-0010101010
+	'Naraoia spinosa'		              022-000000110-12?1-0???0000-0010001010
+	'Olenoides'		                    111100100003000000010100000-00100010?0
+	'Panlongia'		                    0?(0,2)?000010?(2,3)??0000?00100000-00?0?0???0
+	'Phytophilaspis'		               2210010000?10?00??0-0??0000-?0????????
+	'Pygmaclypeatus'		               0?2-000000000?0000000100001100????????
+	'Retifacies'		                   01000000000000000000010000110011--10?0
+	'Saperion'		                     0?00100-?1?20-01?2--1??0000-00100111?0
+	'Sinoburius'		                   020011020011?00000000100110-001???????
+	'Siriocaris'		                   01(0,2)00000000??000000100---0???01??????0
+	'Skioldia'		                     0?00100-?1?20-01?2--1??0000-00????????
+	'Soomaspis'		                    0?(0,2)?000100????1010000101000-10????????
+	'Squamacula clypeata'		          002-00000000000000000100000-2011--00?0
+	'Squamacula buckorum'		          0?20000?00?00?0000000?0?????2?????0??0
+	'Tariccoia'		                    0?(0,2)?000100????1010000101000-10????????
+	'Tegopelte'		                    0??0?00-?1??0-0??2--???0000-001?0?11?0
+	'Xandarella'		                   0300010200010100-0000100010-0010101000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='This character is modified from Edgecombe and Ramskold''s (1999) character 1 (calcified cuticle) to accomodate the possible phosphatic cuticle or phosphatic visual curface in aglaspidids that may have originally had a calcitic cuticle (Fortey and Theron 1994). A such, our character formulation follows that of Cotton and Braddy''s (2004) character 30. We code Phytophilaspis as being preserved with secondary  phosphate replacement of an unmineralised or at most weakly mineralised cuticle, as argued by Ivantsov (1999).';
+	TEXT CHARACTER=2 TEXT='Coding for Aglaspis follows Cotton and Braddy''s (2004) character 4. The state in trilobites and helmetiids follows Cotton and Braddy''s reinterpretation of Edgecombe and Ramskold''s (1999) coding, recognising three pairs of post-antennal limbs as structural and functional parts of the head.  We accept the evidence tabled by Zhang et al. (2007) that Misszhouia and Naraoia spinosa have an A+4 head, the former being most clearly indicated by the sternites. Reinterpretation of N. compacta by Zhang et al. (2007:101-12) renders it probable that it has the same number of cephalic limbs as other naroiids but we use a partial uncertainty coding (A+3 or A+4) until unequivocal refutation of Whittington''s (1977) A+3 tagmosis is available.';
+	TEXT CHARACTER=3 TEXT='Bergstrom and Hou (2003) criticised the interpretation of Edgecombe and Ramskold (1999) that the eyes of Xandarella and Kuamaia are ventral rather than dorsal.  Bergstrom and Hou (2003) used reconstructions of the optic nerve (unobserved) as the basis for claiming that eyes of these animals are "not much different from the condition in other arthropods with dorsal eyes".  In spite of asserting that the eyes in Kuamaia and Xandarella are dorsal, they assert that it is "more realistic" to attribute this condition to parallel evolution, i.e., that they are modified ventral eyes. That coding would thus correspond to that of Edgecombe and Ramskold, without the need to posit unnecessary homoplasy or speculations about the course of the optic nerve.';
+	TEXT CHARACTER=6 TEXT='Bergstrom and Hou (2003, Bull. of Geosciences) discuss and depict eye slits in Phylophilaspis comparable to those of Xandarella, this interpretation being followed herein.';
+	TEXT CHARACTER=8 TEXT='State 1 involves a complete medial overlap of the first thoracic segment by the cephalic shield in Liwiidae (discussed under character 18 of Edgecombe and Ramskold 1999). State 0 was correctly coded for Buenaspis by Cotton and Braddy (2004) and we dispute the coding of state 1 for this taxon by Caron et al. (2004) because the cephalic shield overlaps the first thoracic segment to the same extend as the overlap of adjacent thoracic segments (Budd 1999, pl. 1, fig. 1).';
+	TEXT CHARACTER=12 TEXT='Character states follow Edgecombe and Ramskold (1999, their character 12). Sidneyia and Squamacula have a doublure-like expansion that covers the ventral side of the cephalon (see character 28) but otherwise lack a discrete hypostome. Like Cotton and Braddy (1999) we take the comparison with the wide, hypostome-like expansion of the doublure in Retifacies and Emeraldella as an indication that this region is the same in all of these taxa and indicative of a wide hypostome.';
+	TEXT CHARACTER=14 TEXT='Bergstrom and Hou (2003) pointed out the non-correspondance between the axis and pleurae in the trunk of Phytophilaspis but the relationship to trunk appendages/somites is unknown.';
+	TEXT CHARACTER=16 TEXT='State 1 follows Cotton and Braddy''s (2004) character 35.';
+	TEXT CHARACTER=22 TEXT='Contrary to Ramskold et al (1997) and the coding of Edgecombe and Ramskold (1999), Cotton and Braddy (2004, character 47) interpreted the multi-somite terminal tagma of xandarellids as a pygidium. Their coding is adopted for xandarellids herein. Squamacula clypeata was originally described with a "tail shield" (Hou & Bergstroem 1997).  Zhang et al. (2004) regarded multiple appendages to "very likely" be associated with this structure, which they called a pygidium. Assuming that thoracic appendages and tergites have a one-to-one relationship in Squamacula, as appears to be the case, we agree with Zhang et al (2004) that the posterior tergite bears multiple leg pairs and accordingly code it as a pygidium. Kwanyinaspis maotianshanensis has a tail spine that is coded as a telson but whether or not it may possess a pygidium is uncertain. The terminal axial part of the holotype has transverse, possibly segmental boundaries (in part interpreted by Zhang & Shu 2005 as postventral plates) that could indicate a pygidium. The status of the pygidium is left as uncertain ("?").';
+	TEXT CHARACTER=23 TEXT='Coding is confined to the medial segmented part of the pygidium (e.g., in helmetiids the terminal spine is not measured in assessing pygidial length). This proportion does not precisely covary with character 18, which also refers to pygidial length in delimiting states. The distinction between the two characters is that liwiids have a short thorax (relative to the cephalon and pygidium) and standard-sized pygidium wheras Emucarididae have a short thorax (relative to the cephalon and pygidium) but have a long pygidium relative to the cephalon.';
+	TEXT CHARACTER=24 TEXT='The medial keel in liwiids is independent of the axial furrow, as best seen in Soomaspis splendida, in which the axial furrow on the thorax can be traced onto the pygidium. The axis is wide on the pygidium but the median keel is a narrow ridge (Fortey and Theron 1994, Pl. 1, fig. 3). The raised posterior trunk axis of Phylophyllaspis and the pygidial axis of Emucaris encompasses the entire axis, not a medial keel, and is not regarded as homologous with medially-confined keel in liwiids. Contrary to the coding of Cotton and Braddy (2004, character 49), a median keel is lacking in most specimens of Buenaspis forteyi, and the occasional presence of a weak sagittal ridge may be taphonomic (Budd 1999).';
+	TEXT CHARACTER=27 TEXT='Following Hendricks and Lieberman (2008), a telson is a post-segmental terminal structure that lacks appendages. As they noted, accepting the tail spine of Retifacies as a telson provides an instance of a telson and a pygidium in conjunction. We have treated the tail spine of Kwanyinaspis as a telson.';
+	TEXT CHARACTER=29 TEXT='Widening of the doublure in Tariccoia and Soomaspis (state 1) follows a state definition of Edgecombe and Ramskold (1999, their character 24). This character state was confined to the cephalic shield and followed by Cotton and Braddy (2004) and Caron et al. (2004). The doublure in Buenaspis was coded as state 1 by Cotton and Braddy (2004, their character 25) but as state 0 by Caron et a. (2004, their character 4).';
+	TEXT CHARACTER=30 TEXT='Zhang and Shu (2005) suggested that postventral plates as in aglaspidids are possibly impressed in the sole specimen of Kwanyingaspis maotianshanensis, but the labelled structures (their Fig. 3) are as plausibly interpreted as short axial rings and we code postventral flaps as lacking.  Van Roy (2006) considered postventral plates in Kwanyingaspis to be "highly tenuous at best".';
+	TEXT CHARACTER=31 TEXT='This character relates to Cotton and Braddy''s (2004) character 3.';
+	TEXT CHARACTER=37 TEXT='An elaborated anterior pair of gut diverticulae distinguishes Naraoia from Mizzhouia (Chen et al. 1997; Zhang et al. 2007).';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 38;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS ;
+ENDBLOCK;

@@ -1,0 +1,330 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.58.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Euparkeria capensis'
+		'''Paleorhinus'' scurriensis'
+		'Paleorhinus bransoni'
+		'''Paleorhinus'' sawini'
+		'Brachysuchus megalodon'
+		'Angistorhinus'
+		'Rutiodon carolinensis'
+		'''Phytosaurus'' doughtyi'
+		'Leptosuchus crosbiensis'
+		'Leptosuchus imperfecta'
+		'Leptosuchus studeri'
+		'Smilosuchus adamanensis'
+		'Smilosuchus lithodendrorum'
+		'''Machaeroprosopus'' zunii'
+		'Smilosuchus gregorii'
+		'PEFO 31218'
+		'PEFO 34239'
+		'Pravusuchus hortus'
+		'Protome batalaria'
+		'TMM 31173 120'
+		'Pseudopalatus mccauleyi'
+		'Pseudopalatus pristinus'
+		'Mystriosuchus westphali'
+		'Pseudopalatus jablonskiae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Narial openings'
+		 [2] 'Position of nares'
+		 [3] 'Antorbital fossa'
+		 [4] 'Jugal and AOF'
+		 [5] 'Jugal and orbit'
+		 [6] 'Medial margins of orbits'
+		 [7] 'Anterior end of premaxillae'
+		 [8] 'Interpremaxillary fossa'
+		 [9] 'Alveolar ridges'
+		 [10] 'Alveolar rim of maxilla'
+		 [11] 'Degree of heterodonty'
+		 [12] 'Anterior extent of ''septomaxilla'''
+		 [13] 'Lateral extent of ''septomaxilla'''
+		 [14] 'Length of snout (pre-orbital over orbital plus postorbital length)'
+		 [15] 'Internarial septum'
+		 [16] 'Premaxillary crest'
+		 [17] 'Premaxilla'
+		 [18] 'Rostral crest'
+		 [19] 'Rostral crest shape'
+		 [20] 'Dorsal rim of nares'
+		 [21] 'Interorbital-nasal area'
+		 [22] 'Sutural articulation of sq and po in dorsal view'
+		 [23] 'Lateral ridge from po-sq bar'
+		 [24] 'Length of posterior process of sq'
+		 [25] 'Morphology of posterior process of sq in lateral view'
+		 [26] 'Dorsal edge of sq, width'
+		 [27] 'Dorsal edge of sq'
+		 [28] 'Ventral margin of sq'
+		 [29] 'Subsidiary opisthotic process of sq'
+		 [30] 'Extent of sq fossa'
+		 [31] 'Shape of quadratojugal'
+		 [32] 'Orientation of supratemporal fenestrae'
+		 [33] 'Visibility of supratemporal fenestrae in dorsal view'
+		 [34] 'Path of parietal-sq bars'
+		 [35] 'Parietal-squamosal bars'
+		 [36] 'Shape of distal end of paroccipital process'
+		 [37] 'Lateral border of posttemporal fenestra'
+		 [38] 'Shape of skull in posterior view'
+		 [39] 'Anterior border of parabasisphenoid contribution to basitubera'
+		 [40] 'Morphology of basioccipital between tubera'
+		 [41] 'Lateral extent of basitubera compared to basipterygoid processes in ventral view'
+		 [42] 'Premaxillary-palatine contact'
+		 [43] 'Suborbital foramen'
+	;
+	STATELABELS
+		1
+		'directed laterally'
+		'directed dorsally'
+		,
+		2
+		'terminal'
+		'non-terminal, posterior rim of nares in front of anterior rim of antorbital fenestra'
+		'non-terminal, posterior rim of nares behind anterior rim of antorbital fenestra'
+		,
+		3
+		'present, lacrimal/jugal and maxillary fossae touching'
+		'present but reduced, lacrimal/jugal and maxillary fossae not touching'
+		'absent'
+		,
+		4
+		'excluded from antorbital fenestra'
+		'contributing to antorbital fenestra'
+		,
+		5
+		'excluded from orbit'
+		'contributing to orbit'
+		,
+		6
+		'flat with skull roof'
+		'raised into orbital ridges'
+		,
+		7
+		'in anteroposterior plane of posterior rostrum'
+		'downturned'
+		,
+		8
+		'absent'
+		'present, broad and rounded'
+		'present, narrow slit'
+		,
+		9
+		'visible in lateral view'
+		'not visible in lateral view'
+		,
+		10
+		'horizontal'
+		'ventrally convex'
+		,
+		11
+		'homodont dentition'
+		'bipartite upper dentition'
+		'tripartite upper dentition'
+		,
+		12
+		'anterior to anterior tip of nasal'
+		'posterior to or at level with anterior tip of nasal'
+		,
+		13
+		'restricted to anterior rim of naris'
+		'contributes to lateral rim of naris'
+		,
+		14
+		'short, less than 1'
+		'moderate, 1-3'
+		'long, 3-3.5'
+		'very long, exceeds 3.5'
+		,
+		15
+		'composed of equal contributions from the nasals and premaxillae'
+		'composed for more than 50% of length by premaxillae'
+		'composed of contributions from nasal and ''septomaxilla'''
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'dorsoventrally taller than mediolaterally wide for the majority of the element'
+		'approximately the same height as width and tube-like'
+		,
+		18
+		'absent, rostrum low, slender, and essentially ''tube-like'' for entire length'
+		'present'
+		,
+		19
+		'present, ''partial'' or undulating dorsoventrally from nares to terminal rosette'
+		'present, continuous and sloping steeply anteroventrally from nares to terminal rosette'
+		'present, continuous and level from nares to terminal rosette'
+		,
+		20
+		'at or below level of skull roof'
+		'above level of skull roof'
+		,
+		21
+		'flat'
+		'concave'
+		,
+		22
+		'slot-like, posterior process of po fits into slot in sq'
+		'diagonal, sq forms anteromedial portion of po-sq bar and po forms posterolateral portion'
+		'approximately transverse'
+		,
+		23
+		'continues posteriorly onto sq as a horizontal ridge, forming a shelf overhanging the infratemporal fenestra'
+		'continues on lateral surface of squamosal as a rugosity delimiting the dorsal and lateral surfaces of sq, but not overhanging as a shelf'
+		'continues strongly on lateral surface of sq as two raised ridges'
+		,
+		24
+		'absent or extremely short, posterior edge of sq does not extend or barely extends posteriorly beyond the distal end of the paroccipital process of the opisthotic'
+		'moderate, posterior process of sq extends posteriorly beyond opisthotic process of sq'
+		'long, posterior process of squamosal extends posteriorly far beyong opisthotic process of sq'
+		,
+		25
+		'dorsoventrally compressed'
+		'dorsoventrally expanded'
+		'greatly dorsoventrally expanded, rounded posteriorly'
+		,
+		26
+		'straight and narrow, no medial expansion'
+		'expanded medially'
+		,
+		27
+		'mediolaterally flat'
+		'ventral depression between medial and lateral edges of the dorsal edge of the sq'
+		,
+		28
+		'gently sloping anteroventrally from posterior edge of posterior process to opisthotic process'
+		'distinct horizontal ventral edge between posterior edge of posterior process and opisthotic process'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'extends to posterior edge of sq'
+		'does not reach posterior edge of sq'
+		,
+		31
+		'L-shaped'
+		'subtriangular'
+		,
+		32
+		'dorsally expressed, parietal-sq bar at level with skull roof'
+		'partially depressed, parietal process of sq below level of skull roof'
+		'fully depressed, posterior process of parietal and entire parietal-sq bar below level of skull roof'
+		,
+		33
+		'visible, STF completely open dorsally'
+		'mostly visible, posterolateral portions of STF covered in dorsal view'
+		'mostly covered/completely closed dorsally, at most only anteromedial corners of STF visible in dorsal view'
+		,
+		34
+		'trending straight posteriorly to attachment on squamosals'
+		'curved, medially convex before attaching on squamosals'
+		,
+		35
+		'slender, narrower than or the same mediolateral width of po-sq bars'
+		'wide, approximately the same mediolateral width of po-sq bars'
+		,
+		36
+		'straight, distal edge is dorsoventrally oriented'
+		'angled, distal edge trends ventrolaterally'
+		'rounded, distal edge is curved rather than straight'
+		'pointed'
+		,
+		37
+		'formed by contact of the parietal process of the sq and the paroccipital process of the opisthotic'
+		'formed laterally only by the paroccipital process'
+		'formed laterally and slightly ventrally by process of sq that extends onto paroccipital process'
+		,
+		38
+		'boxy, width across squamosals approximately equal to width across ventral edge of quadrates'
+		'trapezoidal, width across squamosals less than width across ventral edge of quadrates'
+		,
+		39
+		'basitubera separated widely'
+		'basitubera separated narrowly, with a ridge along their anterior border'
+		'basitubera connected, tubera form a sharp ridge along their anterior border'
+		,
+		40
+		'concave depression'
+		'anteroposteriorly oriented ridge on the midline'
+		,
+		41
+		'lateral extent of basitubera even with lateral extent of basipterygoid processes'
+		'lateral extent of basitubera more laterally expanded compared to basipterygoid processes'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'large'
+		'reduced, but elongated'
+		'greatly reduced and circular'
+		
+	;
+	MATRIX
+	'Euparkeria capensis'		                  00001000000??0000--000?0000?0?000000000?000
+	'''Paleorhinus'' scurriensis'		          1100???1?0?10?1??????000001?0??000?0??00001
+	'Paleorhinus bransoni'		                 110011?10011030010-01000001?0?100000001011?
+	'''Paleorhinus'' sawini'		               111??0?101???2?010-01000001?0?1001031?101??
+	'Brachysuchus megalodon'		               12?110110111012010-??01110100?10011?11???1?
+	'Angistorhinus'		                        121??0110011012010-0101010100?10011??0???1?
+	'Rutiodon carolinensis'		                121??111001??2?010-01?1120000011000??0???11
+	'''Phytosaurus'' doughtyi'		             1?1??1?????????????0101220010111?001???????
+	'Leptosuchus crosbiensis'		              1211?1110120?12001000012200101110002?1???1?
+	'Leptosuchus imperfecta'		               12???11?0?2?????010???1?2?0?0??1?00??1?????
+	'Leptosuchus studeri'		                  12111111012001210100001220010011000211???1?
+	'Smilosuchus adamanensis'		              1220011101210120010?111121000011100?0121112
+	'Smilosuchus lithodendrorum'		           12?0?111012??12001100?1220000011100??1???12
+	'''Machaeroprosopus'' zunii'		           1?1??1?????????????01011210001?1?001??2????
+	'Smilosuchus gregorii'		                 122001111120012001201111210000111001?12??12
+	'PEFO 31218'		                           122??1110?2??120???001122101?111100??1???1?
+	'PEFO 34239'		                           122??1?10?2???2????001122101?111100??1???1?
+	'Pravusuchus hortus'		                   12200111012011200100011221011111100111211??
+	'Protome batalaria'		                    1????1110?????2010-01112210001?1?00??121???
+	'TMM 31173 120'		                        121??11100200120010000122101011110011121112
+	'Pseudopalatus mccauleyi'		              122??1121120012001110222110011122001202?112
+	'Pseudopalatus pristinus'		              12200112101002201??(0,1)12221101111220012021112
+	'Mystriosuchus westphali'		              122001121111022111?00200010?1012100?00???1?
+	'Pseudopalatus jablonskiae'		            1????1?????????????01??10101?0?22000??211??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=2 TEXT='OTU is holotype specimen.';
+	TEXT TAXON=4 TEXT='OTU is holotype specimen.';
+	TEXT TAXON=18 TEXT='OTU is holotype specimen AMNH FR 30646';
+	TEXT TAXON=19 TEXT='OTU is holotype specimen PEFO 34034';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 43;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MAXSTEPS ; TYPESET * UNTITLED = unord: 1 - 43 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -944490671 ; FileSettings treewindow 2 2 37 1 ; Singles 000 ; Editor 0001100111111110010001001 0 24 Geneva 9 100 1 all ; EditorPosition 63 189 1123 1851 ; TreeWindowPosition 22 -1895 1131 1870 ; ListWindow Characters closed Geneva 9 486 -755 273 666 000 ; ListWindow Taxa closed Geneva 9 50 10 273 316 100000 ; ListWindow Trees open Geneva 9 77 -1010 225 379 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 70 11 1118 1860 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder Tree List Trees ; OtherSymbols & / 00 ? - ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; CharLegendPosition 642 1437 207 86 ; TreeLegendPosition 1094 1677 64 93 ; EditorToolsPosition 1009 46 115 165 ; TreeToolsPosition 336 301 126 138 ; TreeWindowProgram 00 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 ( normal ) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 ( normal ) ; TreeShape 1.0 1.0 1001 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 0 1 ; BarsOnBranchesDisplay 1 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 2 0100101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 ( normal ) Geneva 10 ( normal ) Geneva 9 ( normal ) Geneva 9 ( normal ) Geneva 9 ( bold ) Geneva 9 ( normal ) Geneva 9 ( normal ) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 19571 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1338786681815 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 4049350067651116793 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 5641218394945079381 ; checksumv 0 2 2536532008 null getNumChars 43 numChars 43 getNumTaxa 24 numTaxa 24 short true bits 15 states 15 sumSquaresStatesOnly 3626.0 sumSquares 3626.0 NumFiles 1 NumMatrices 1 ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 281 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1393 760 ; setLocation 8 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #5641218394945079381 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 693 ; setLocation 8 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #5641218394945079381 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1112 693 ; setLocation 8 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam ; endTell ; setActive ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 43 ;
+ENDBLOCK;
+BEGIN TREES;
+Title Trees from "phytosauria matrix 3-1-10sm.nex" ; LINK Taxa = phytos ; TRANSLATE 1 Euparkeria_capensis , 2 Paleorhinus_scurriensis , 3 Paleorhinus_bransoni , 4 Paleorhinus_sawini , 5 Brachysuchus_megalodon , 6 Angistorhinus , 7 Rutiodon_carolinensis , 8 Phytosaurus_doughtyi , 9 Leptosuchus_crosbiensis , 10 Leptosuchus_imperfecta , 11 Leptosuchus_studeri , 12 Smilosuchus_adamanensis , 13 S_lithodendrorum , 14 M_zunii , 15 Smilosuchus_gregorii , 16 PEFO_31218 , 17 PEFO_34239 , 18 AMNH_FR_30646 , 19 PEFO_34034 , 20 TMM_31173_120 , 21 P_mccauleyi , 22 P_pristinus , 23 Mystriosuchus_westphali , 24 my_jablonskiae_code ; TREE UNTITLED+ = (1 , 2 , (3 , (4 , ((5 , 6) , (7 , ((8 , ((9 , 11) , ((((12 , 15) , 13) , (18 , (21 , (22 , (23 , 24))))) , 20))) , (14 , 19))))))) ;
+ENDBLOCK;

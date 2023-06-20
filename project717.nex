@@ -1,0 +1,599 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 21.13.27 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=29;
+    TAXLABELS
+    		'Actinopterygii'
+		'Porolepiformes'
+		'Axelrodichthys'
+		'Caridosuctor'
+		'Chinlea'
+		'Coccoderma'
+		'Coelacanthus'
+		'Diplocercides'
+		'Diplurus'
+		'Allenypterus'
+		'Holopterygius'
+		'Euporosteus'
+		'Gavinia'
+		'Garnbergia'
+		'Hadronector'
+		'Holophagus'
+		'Latimeria'
+		'Laugia'
+		'Libys'
+		'Lochmocercus'
+		'Macropoma'
+		'Mawsonia'
+		'Miguashaia'
+		'Polyosteorhynchus'
+		'Rhabdoderma'
+		'Sassenia'
+		'Spermatodus'
+		'Undina'
+		'Whiteia'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=101;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Margin of dermal intracranial joint'
+		 [2] 'Snout bones'
+		 [3] 'Median rostral'
+		 [4] 'Premaxillae'
+		 [5] 'Dorsal lamina of premaxilla'
+		 [6] 'Anterior opening of rostral organ'
+		 [7] 'Parietals'
+		 [8] 'Anterior and posterior pairs of parietals'
+		 [9] 'Number of supraorbitals/tectals'
+		 [10] 'Preorbital'
+		 [11] 'Descending process of parietal'
+		 [12] 'Intertemporal'
+		 [13] 'Postparietal descending process'
+		 [14] 'Supratemporal descending process'
+		 [15] 'Extrascapulars'
+		 [16] 'Number of extrascapulars'
+		 [17] 'Posterior margin of the skull roof'
+		 [18] 'Supraorbital sensory canal'
+		 [19] 'Medial branch of otic canal'
+		 [20] 'Otic canal joining supratemporal canal'
+		 [21] 'Anterior branches of supratemporal commissure'
+		 [22] 'Supraorbital sensory canals opening through bones as'
+		 [23] 'Anterior pit line'
+		 [24] 'Middle and posterior pit lines'
+		 [25] 'Pit lines'
+		 [26] 'Parietals and postparietals ornamented with'
+		 [27] 'Parietals and postparietals'
+		 [28] 'Cheek bones'
+		 [29] 'Spiracular (postspiracular)'
+		 [30] 'Preoperculum'
+		 [31] 'Suboperculum'
+		 [32] 'Quadratojugal'
+		 [33] 'Squamosal'
+		 [34] 'Lachrymojugal'
+		 [35] 'Peroperculum'
+		 [36] 'Anterodorsal excavation in postorbital'
+		 [37] 'Postorbital'
+		 [38] 'Infraorbital canal'
+		 [39] 'Jugal sensory canal'
+		 [40] 'Jugal canal'
+		 [41] 'Ornament on cheek bones'
+		 [42] 'Openings for infraorbital, jugal and preopercular sensory canals'
+		 [43] 'Sclerotic ossicles'
+		 [44] 'Retroarticular and articular'
+		 [45] 'Dentary teeth'
+		 [46] 'Number of coronoids at anterior end of jaw'
+		 [47] 'Coronoid opposite posterior end of dentary'
+		 [48] 'Dentary'
+		 [49] 'Oral pit line'
+		 [50] 'Subopercular branch of mandibular sensory canal'
+		 [51] 'Dentary sensory pore'
+		 [52] 'Ornament of lower jaw'
+		 [53] 'Splenial'
+		 [54] 'Principal coronoid'
+		 [55] 'Cornoid fangs'
+		 [56] 'Prearticular and/or coronoid teeth'
+		 [57] 'Orbitosphenoid and basisphenoid regions'
+		 [58] 'Basisphenoid'
+		 [59] 'Processus connectens'
+		 [60] 'Basipterygoid process'
+		 [61] 'Antotic process'
+		 [62] 'Temporal excavation'
+		 [63] 'Otico-occipital'
+		 [64] 'Supraoccipital'
+		 [65] 'Vestibular fontanelle'
+		 [66] 'Buccohypophysial canal'
+		 [67] 'Parasphenoid'
+		 [68] 'Suprapterygoid process'
+		 [69] 'Vomers'
+		 [70] 'Prootic'
+		 [71] 'Superficial opthalmic branch of anterodorsal lateral line nerve'
+		 [72] 'Process on braincase for articulation of infrabranchial 1'
+		 [73] 'Separate lateral ethmoids'
+		 [74] 'Separate basioccipital'
+		 [75] 'Dorsum sellae'
+		 [76] 'Extracleithrum'
+		 [77] 'Anocleithrum'
+		 [78] 'Posterior neural and haemal spines'
+		 [79] 'Occipital neural arches'
+		 [80] 'Ossified ribs'
+		 [81] 'Diphycercal fin'
+		 [82] 'Caudal fin rays'
+		 [83] 'Fin rays'
+		 [84] 'Fin rays in D1'
+		 [85] 'Caudal lobes'
+		 [86] 'Paired fin rays'
+		 [87] 'Pelvics'
+		 [88] 'Basal plate of D1'
+		 [89] 'Basal support of D2'
+		 [90] 'Median fin rays'
+		 [91] 'Scale ornament'
+		 [92] 'Lateral line openings in single scales'
+		 [93] 'Swimbladder'
+		 [94] 'Pelvic bones on each side'
+		 [95] 'Ventral keel scales'
+		 [96] 'Preoribital portion of the parietonasal shield relative to the total parietonasal shield length'
+		 [97] 'Maxilla'
+		 [98] 'Extensive dorsal expansion of angular'
+		 [99] 'Surangular'
+		 [100] 'Parasymphysial tooth whorl'
+		 [101] 'Width/length of postparietal'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 0'
+		'State 1'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		42
+		'State 0'
+		'State 1'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 3'
+		'State 4'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 1'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 1'
+		,
+		95
+		'State 0'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 1'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 1'
+		,
+		100
+		'State 0'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Actinopterygii'		             ?0000?0??00100(0,0)?0000021100000(1,0)111?0?????1010040(0,0,0)000000000??1??00110000010000?100000(0,0)?000?0(0,0)000?000010
+	'Porolepiformes'		             00100?0??00000(0,0)00000021000001(1,0)11(1,0)000(0,0,0)(0,0)001010030(0,0,0)000?00100101?000?101000?0?000000000(0,0)?00000(0,0)0000000000
+	'Axelrodichthys'		             10001111001010(0,1)111?1020?(1,1)2010(1,1)00(1,0)(0,1,1)00(0,1,1)(0,1)002001140(1,1,1)?01?110110001111?0??110?1111?111111(1,1)000010(1,1)?1001111?0
+	'Caridosuctor'		               1000001101?0??(0,0)101100001(0,0)0001(1,0)1?0(0,0,0)00(0,0,0)?001010141(0,0,1)(0,0)010001????????????????????101?0111(0,0)100110(0,0)?100111111
+	'Chinlea'		                    00?01?100010??(0,0)11?110????2011(1,0)000(1,1,1)00(0,0,1)0??200???1(0,1,1)??1?101????????????????????1?1?1111(0,1)?00?10(1,1)??0011111?
+	'Coccoderma'		                 10?011110?1001(0,0)101100201(0,1)1010(1,1)001(0,0,0)00(0,0,0)(0,1)01001?141(0,0,1)(0,0)011100????????????????????11110111(0,0)011010(0,1)1110111111
+	'Coelacanthus'		               00?11?11001001(0,0)11?110?0?1101???0(1,0)(0,0,0)?0(0,0,1)1?11010141(0,0,1)?01?1000???????????????????10100111(0,0)100010(0,0)?100111111
+	'Diplocercides'		              001???11010000(0,0)001000211(0,0)0001(1,0)10(1,0)(0,0,0)00(0,0,0)(0,0)001010030(0,0,0)(0,1)0000000011101001101?010000??000101(0,0)000??0(0,0)0???111111
+	'Diplurus'		                   00001?11101010(0,1)21111000?(1,1)1011(1,0)00(0,0)(0,1,1)00(0,0,1)(0,1)110101??0(0,0,1)(0,0)01?100010001?11?00???0?11110111111(1,1)000010(0,1)?000111110
+	'Allenypterus'		               0?????1001?0??(0,0)001000000(0,1)001?(1,0)10(0,0)(0,0,0)00(0,0,1)(0,1)??0110???(0,0,1)(1,1)00000?????????????????????10100101(0,0)100000(0,0)0001111110
+	'Holopterygius'		              ?0?0?????????????????0?????????????????????00??0??????00?????????00????????10?00101?1???00??0?1???1??
+	'Euporosteus'		                0?1???10?10?????0??0?0???????0??????????????????????????011?0????1010?1?0?0????????????????????1????1
+	'Gavinia'		                    ?0?000?????1????????????0??0????(1,0)0??(0,0)(0,0)0010?00??(0,0,0)??010???????????????????????????000?1????0(0,0)???001010?
+	'Garnbergia'		                 ??????11?0?0????1??????????1?(1,0)00(0,0)(1,1,1)?0(0,0,0)???1?0????????????????????????????????????????(0,1)???010(0,0)???01111??
+	'Hadronector'		                00100011?1?0??(0,0)00100010100001(1,0)10(0,0)000(0,0,0)1?01010???(0,0,0)(0,1)00000?????????????????????101?0111(0,0)0000100?100111110
+	'Holophagus'		                 10?01?11101011(0,1)?1111?20?(1,1)0010(1,0)10(0,0)(0,1,1)00(0,0,0)1??1001??1(0,1,1)(0,0)111001???????11?????1??1??1?110111(1,1)010011(0,0)?100?11110
+	'Latimeria'		                  00111111101011(0,1)211111001(0,1)2111(1,0)10(0,0)(0,1,1)11(0,0,0)(1,1)111101141(0,1,1)(0,1)11?1010100010110010110011110110111(1,2)000010(0,0)1000111110
+	'Laugia'		                     11?0??0?011001(0,0)10110000?(1,1)0010(0,0)00(0,0)(0,0,0)00(0,0,0)(0,1)011010140(0,0,1)(0,0)011100011101110110??00010110110111(0,1)111010(0,0)?110111111
+	'Libys'		                      0???1?????10111?1111?00?11010(1,0)00(0,0)(0,1)10(0,0,0)1??011?141(0,1,1)(0,0)11?1001???????????????????11110111(1,1)010011(0,0)1100?11110
+	'Lochmocercus'		               ?????????????????10100??00001(1,0)1?0(0,0,0)00(0,0)(0,1)00?01?0?0(0,0)?000?00????????????????????101??101(0,0)0001000??00?111??
+	'Macropoma'		                  01?0?111101011(0,1)21111120?(1,1)0010(1,0)?0(0,0)(0,1,1)11(0,0,0)(1,1)01100114?(0,1,1)(0,1)111100010001011?01?110?11111110111(1,2)000010(0,1)1100111111
+	'Mawsonia'		                   1?????11001010(0,1)11?11020?(1,1)2010100(0,0)(0,0,1)00(0,1,1)00020011??(1,1,1)?01?1101?????????????????????1??1111000010(1,1)??0?111110
+	'Miguashaia'		                 00?0000?0?01??(0,0)0000002?00000?(1,0)10(1,0)?00(0,0,0)000101?0??(0,0)(0,1)??0?000???????????????????1?0??000(0,0)?00??0(0,0)0??0011111
+	'Polyosteorhynchus'		          00?0001101?0?1(0,0)?010101??00001(1,0)1?(0,0)(0,0,0)00(0,0,0)1?010101?0(0,0)(0,1)010?00????????????????????1?1101110100100(0,0)?000111110
+	'Rhabdoderma'		                10000010011001(0,0)101100001(0,0)0001(1,0)10(0,0)(0,0,0)00(0,0,0)(0,1)101010141(0,0,0)(0,0)01010101110110?0000?00010110100111(0,0)000110(0,0)0100111111
+	'Sassenia'		                   10????1?011001(0,0)?01??0201(0,0)0011(1,0)10(1,0)(0,0,0)00(0,0,0)(0,1)00101?1?1(0,0,1)?01110??011011001?01?0011011??????????????(0,0)???0111111
+	'Spermatodus'		                10000011011001(0,1)?111?020?(0,1)001?(1,0)10(1,0)(0,0,0)00(0,0)???1010141?(0,0)0?1?01110101??0110??00?101???????????????(0,0)????111111
+	'Undina'		                     00?00?11101011(0,1)211?1?2??10110(1,0)10(0,0)100(0,0,0)1011001??1(0,0,1)(0,1)?11001010001011?01??1??111101?0111(1,1)000010(0,0)1100?11110
+	'Whiteia'		                    00?00010011001(0,1)111110001(0,0)0011(1,0)10(0,0)(0,0,1)00(0,0,0)(1,1)101011141(0,1,1)(0,1)?1110001000111??00?11011111?100111(1,2)000010(0,0)1000111111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 101;
+      ENDBLOCK;
+      

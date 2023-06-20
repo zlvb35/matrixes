@@ -1,0 +1,1489 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 14.03.27 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=47;
+    TAXLABELS
+    		'Oncodamus decipiens'
+		'Parasteatoda tepidariorum'
+		'Allende nigrohumeralis'
+		'Araneus marmoreus'
+		'Argiope argentata'
+		'Asagena americana'
+		'Azilia affinis'
+		'Chrysometa alajuela'
+		'Clitaetra episinoides'
+		'Cyclosa conica'
+		'Cyrtognatha espaniola'
+		'Deliochus sp'
+		'Diphya spinifera'
+		'Dolichognatha pentagona'
+		'Epeirotypus brevipes'
+		'Gasteracantha cancriformis'
+		'Glenognatha foxi'
+		'Herennia multipuncta'
+		'Larinioides cornutus'
+		'Leucauge argyra'
+		'Leucauge venusta'
+		'Linyphia triangularis'
+		'Mangora gibberosa'
+		'Mecynogea lemniscata'
+		'Mesida argentiopunctata'
+		'Meta menardi'
+		'Metabus ocellatus'
+		'Metellina segmentata'
+		'Metepeira labyrinthea'
+		'Nanometine sp'
+		'Metleucauge eldorado'
+		'Micrathena gracilis'
+		'Mollemeta edwardsi'
+		'Nanometa sp'
+		'Neoscona domiciliorum'
+		'Nephila clavipes'
+		'Nephilengys malabarensis'
+		'Nesticus cellulanus'
+		'Opadometa sp'
+		'Orsinome cf vethi'
+		'Orsinome sarasini'
+		'Pachygnatha autumnalis'
+		'Phonognatha graeffei'
+		'Tetragnatha versicolor'
+		'Tylorida striata'
+		'Uloborus glomosus'
+		'Zygiella x notata'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=213;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'ALS piriform spigot bases height'
+		 [2] 'ALS piriform spigot bases distal edge'
+		 [3] 'ALS piriform field perimeter'
+		 [4] 'PMS anterior surface'
+		 [5] 'PMS aciniform anterior spigots'
+		 [6] 'PMS cylindrical spigots number'
+		 [7] 'PMS nubbin'
+		 [8] 'PLS cylindrical spigot bases'
+		 [9] 'PLS cylindrical spigot position'
+		 [10] 'PLS aggregate gland spigots'
+		 [11] 'PLS distal aciniform spigots'
+		 [12] 'Aggregate spigots'
+		 [13] 'Flagelliform spigots'
+		 [14] 'Flagelliform spigot position'
+		 [15] 'AG-flagelliform triad'
+		 [16] 'Spinnerets cuticle'
+		 [17] 'Sclerotized ring around spinnerets'
+		 [18] 'Epiandrous fusules arrangement'
+		 [19] 'Epiandrous fusules line'
+		 [20] 'Epiandrous fusules pits'
+		 [21] 'Epiandrous fusule base distal margin'
+		 [22] 'Epiandrous plate posterior edge'
+		 [23] 'Cymbium orientation'
+		 [24] 'Cymbial tarsal organ diameter'
+		 [25] 'Cymbium median width'
+		 [26] 'Cymbial ecto-basal process (CEBP)'
+		 [27] 'CEBP shape'
+		 [28] 'Cymbial ecto-median process (CEMP)'
+		 [29] 'CEMP macrosetae'
+		 [30] 'CEMP length'
+		 [31] 'Cymbial dorso-basal process (CDBP)'
+		 [32] 'CDBP length'
+		 [33] 'CDBP orientation'
+		 [34] 'Cymbium-bulb lock mechanism'
+		 [35] 'Cymbium length'
+		 [36] 'Cymbium ectal margin sclerotization'
+		 [37] 'Paracymbium'
+		 [38] 'Paracymbium morphology'
+		 [39] 'Paracymbium length'
+		 [40] 'Paracymbium articulation'
+		 [41] 'Paracymbium distal part'
+		 [42] 'Paracymbium basal apophyses'
+		 [43] 'Paracymbium margin fold'
+		 [44] 'Paracymbium setae'
+		 [45] 'Paracymbium setae distribution'
+		 [46] 'Subtegulum position'
+		 [47] 'Tegulum shape'
+		 [48] 'Tegulum ectal surface'
+		 [49] 'Tegulum-subtegulum size'
+		 [50] 'Tegular sclerites insertion'
+		 [51] 'Median apophysis'
+		 [52] 'Median apophysis and sperm duct'
+		 [53] 'Conductor'
+		 [54] 'Conductor and embolus'
+		 [55] 'Conductor tegular origin'
+		 [56] 'Conductor end'
+		 [57] 'Conductor area covering the embolus'
+		 [58] 'Conductor path'
+		 [59] 'Conductor tegulum attachment'
+		 [60] 'Conductor size'
+		 [61] 'Theridiid tegular apophysis'
+		 [62] 'Embolus tegulum orientation'
+		 [63] 'Embolus tegulum membrane'
+		 [64] 'Embolic basal apophyses'
+		 [65] 'Embolic apophyses attachment'
+		 [66] 'Embolic base length'
+		 [67] 'Embolus shape'
+		 [68] 'Embolus length'
+		 [69] 'Embolus path'
+		 [70] 'Embolus tip'
+		 [71] 'Radix'
+		 [72] 'Stipes'
+		 [73] 'Distal hematodocha'
+		 [74] 'Terminal apophysis'
+		 [75] 'Subterminal apophysis'
+		 [76] 'Sperm reservoir diameter'
+		 [77] 'Sperm duct path'
+		 [78] 'Sperm turns or switchbacks'
+		 [79] 'Sperm duct embolus joint'
+		 [80] 'Female cheliceral boss'
+		 [81] 'Female cheliceral boss cuticle'
+		 [82] 'Female cheliceral length'
+		 [83] 'Female chelicerae width'
+		 [84] 'Female cheliceral denticles'
+		 [85] 'Female chillum'
+		 [86] 'Cheliceral promargin'
+		 [87] 'Cephalothorax supra-cheliceral lobe'
+		 [88] 'Female ocular area height'
+		 [89] 'Clypeus height'
+		 [90] 'Separation between the lateral and median eyes'
+		 [91] 'PME separation'
+		 [92] 'PME canoe-shaped tapeta'
+		 [93] 'PME canoe-shaped tapetum position'
+		 [94] 'PLE canoe-shaped tapetum'
+		 [95] 'PLE size relative to PME'
+		 [96] 'Female lateral eyes'
+		 [97] 'Female posterior eye row'
+		 [98] 'Female cephalothorax seta'
+		 [99] 'Female carapace shape'
+		 [100] 'Female anterior gut caeca'
+		 [101] 'Cephalothorax fovea'
+		 [102] 'Female fovea shape'
+		 [103] 'Carapace pits'
+		 [104] 'Labium edge'
+		 [105] 'Labium shape'
+		 [106] 'Female sternum'
+		 [107] 'Female sternal surface'
+		 [108] 'Male cheliceral length'
+		 [109] 'Female frontal sternal tubercle'
+		 [110] 'Male cheliceral boss'
+		 [111] 'Male cheliceral distal curvature'
+		 [112] 'Male cheliceral macroseta bases'
+		 [113] 'Male ectal cheliceral cuticle'
+		 [114] 'Male cheliceral meso-median apophysis'
+		 [115] 'Male cheliceral distal apophysis'
+		 [116] 'Male paturon basal tubercle'
+		 [117] 'Cheliceral cuticle sexual dimorphism'
+		 [118] 'Cheliceral length sexual dimorphism'
+		 [119] 'Carapace shape sexual dimorphism'
+		 [120] 'Ocular area height sexual dimorphism'
+		 [121] 'Fovea shape sexual dimorphism'
+		 [122] 'Body size sexual dimorphism'
+		 [123] 'Epigynum'
+		 [124] 'Epigynal plate height'
+		 [125] 'Epigynal plate atrium'
+		 [126] 'Cuticular area anterior to the epigynum'
+		 [127] 'Scape'
+		 [128] 'Scape cuticle texture'
+		 [129] 'Scape apex'
+		 [130] 'Genital openings shape'
+		 [131] 'Genital openings orientation'
+		 [132] 'Copulatory opening'
+		 [133] 'Uterus externus modified with an enlarged chamber'
+		 [134] 'Posterior sac'
+		 [135] 'Epigynal plate'
+		 [136] 'Epigynal sclerotized arch'
+		 [137] 'Spermatheca sclerotization'
+		 [138] 'Spermathecae separation'
+		 [139] 'Spermathecae chambers'
+		 [140] 'Accessory gland distribution'
+		 [141] 'Accessory gland base diameter'
+		 [142] 'Accessory gland base shape'
+		 [143] 'Accessory glands distribution'
+		 [144] 'Copulatory ducts path'
+		 [145] 'Copulatory ducts shape'
+		 [146] 'Copulatory ducts length'
+		 [147] 'Copulatory ducts cuticle'
+		 [148] 'Female genitalia'
+		 [149] 'Fertilization ducts origin'
+		 [150] 'Fertilization ducts length'
+		 [151] 'Fertilization ducts path'
+		 [152] 'Fertilization duct and copulatory ducts paths'
+		 [153] 'Fertilization duct path and spermathecae'
+		 [154] 'Female abdominal dorsal surface'
+		 [155] 'Female abdominal spines'
+		 [156] 'Female micro-sculpture abdominal cuticle'
+		 [157] 'Female anterior abdominal tubercles'
+		 [158] 'Female Booklung surface'
+		 [159] 'Female abdominal tip color'
+		 [160] 'Female light pigmented pattern form on abdominal venter'
+		 [161] 'Median tracheal morphology'
+		 [162] 'Median trachea tip morphology'
+		 [163] 'Median trachea length'
+		 [164] 'Tracheal atrium glands'
+		 [165] 'Tracheal glands abundance'
+		 [166] 'Male abdominal scutum'
+		 [167] 'Male micro-sculpture abdominal cuticle'
+		 [168] 'Male booklung stridulatory groove'
+		 [169] 'Femur IV trichobothria'
+		 [170] 'Femoral trichobothria position'
+		 [171] 'Femur IV trichobothria organization'
+		 [172] 'Femur IV trichobothria distribution'
+		 [173] 'Trichobothrium flagellum morphology'
+		 [174] 'Female femur IV mesal surface'
+		 [175] 'Female IV tibia'
+		 [176] 'Sustentaculum'
+		 [177] 'Sustentaculum tip'
+		 [178] 'Tarsus IV theridiid comb'
+		 [179] 'Male tibia II macrosetae'
+		 [180] 'Male palpal patella macrosetae'
+		 [181] 'Male palpal tibia length'
+		 [182] 'Male palpal femur length'
+		 [183] 'Male palpal trochanter length'
+		 [184] 'Male I coxal hook'
+		 [185] 'Male coxa IV mesal surface'
+		 [186] 'Web'
+		 [187] 'Web architecture'
+		 [188] 'Web frame'
+		 [189] 'Web posture'
+		 [190] 'Stabilimentum'
+		 [191] 'Orb-web angle'
+		 [192] 'Barrier web'
+		 [193] 'Partial web renewal'
+		 [194] 'Hub'
+		 [195] 'Hub bite-out'
+		 [196] 'Hub against substrate'
+		 [197] 'Hub loop-no sticky spiral shift'
+		 [198] 'Hub cup'
+		 [199] 'Hub relative position on the web'
+		 [200] 'Radii construction attachment'
+		 [201] 'Radii construction removal'
+		 [202] 'Secondary split radii'
+		 [203] 'Tertiary split radii'
+		 [204] 'Sticky spiral location'
+		 [205] 'Non sticky spiral'
+		 [206] 'Non sticky spiral contacts 1st sticky spiral construction'
+		 [207] 'Retreat'
+		 [208] 'Retreat form'
+		 [209] 'Wrap-bite attack'
+		 [210] 'Wrap bite silk'
+		 [211] 'Body shake'
+		 [212] 'Bulbus detachment'
+		 [213] 'Cheliceral clasp'
+	;
+	STATELABELS
+		1
+		'tall, (Tetragnatha versicolor, Fig. 109B)'
+		'low, (Epeirotypus brevipes, Fig. 119D)'
+		,
+		2
+		'tightly wrapping column base, (Araneus marmoreus, Fig. 119C)'
+		'separated from the column base leaving a torus, (Metellina segmentata, Fig. 66B)'
+		,
+		3
+		'notched, (Phonognatha graeffei, Fig. 135C, arrow)'
+		'uniform, (Zygiella x-notata, Fig. 119F)'
+		,
+		4
+		'without aciniform spigots, (Tetragnatha versicolor, Fig. 109D)'
+		'with aciniform spigots, (Cyclosa conica, Fig. 120A)'
+		,
+		5
+		'20 or less AC spigots, (Gasteracantha cancriformis, Fig. 120C)'
+		'more than 20 spigots, (Mangora gibberosa, Fig. 120D)'
+		,
+		6
+		'one, (Glenognatha foxi, Fig. 36H)'
+		'two, (Uloborus glomosus, Fig. 121A)'
+		,
+		7
+		'absent, (Epeirotypus brevipes, Fig. 120B)'
+		'present, (Tylorida striata, Fig. 114E)'
+		,
+		8
+		'same size, (Diphya spinifera, Fig. 26D)'
+		'mesal larger than the more distal spigot base, (Pachygnatha autumnalis, Fig. 105E)'
+		,
+		9
+		'central, (Mangora gibberosa, Fig. 121F)'
+		'peripheral, (Tylorida striata, Fig. 114G)'
+		,
+		10
+		'approximately the same size as the distal cylindrical spigot, (Leucauge argyra, Fig. 46F)'
+		'enlarged, (Steatoda americana, Fig. 121B)'
+		,
+		11
+		'not extending beyond the triplet area, (Chrysometa alajuela, Fig. 18E)'
+		'extending beyond the triplet area, (Nephilengys malabarensis, Fig. 122A)'
+		,
+		12
+		'absent, (Uloborus glomosus, Fig. 122C)'
+		'present, (Araneus marmoreus, Fig. 121C)'
+		,
+		13
+		'absent, (Oncodamus decipiens, Fig. 122B)'
+		'present, (Cyclosa conica, Fig. 121E)'
+		,
+		14
+		'near the aggregate spigots, (Argiope argentata, Fig. 121D)'
+		'apart, (Zygiella x-notata, Fig. 122D)'
+		,
+		15
+		'aggregate spigots distal end apart from flagelliform spigot, (Tetragnatha versicolor, Fig. 109F)'
+		'distal end of the aggregate spigots embracing the distal end of the flagelliform spigot, (Mesida argentiopunctata, Fig. 51E)'
+		,
+		16
+		'squamose, (Chrysometa alajuela, Fig. 18F)'
+		'rugose, (Oncodamus decipiens, Fig. 122B)'
+		,
+		17
+		'absent, (Uloborus glomosus, Fig. 119B)'
+		'present, (Gasteracantha cancriformis, Fig. 119A)'
+		,
+		18
+		'one transverse line, (Orsinome nr. Vethi, Fig. 100F)'
+		'two main clusters, (Dolichognatha pentagona, Fig. 31G)'
+		,
+		19
+		'level with the surrounding cuticle, (Tetragnatha versicolor, Fig. 109C)'
+		'within in a groove, (Leucauge argyra, Fig. 46G)'
+		,
+		20
+		'absent, (Meta menardi, Fig. 56F)'
+		'present, (Larinioides cornutus, Fig. 122F)'
+		,
+		21
+		'sharp edge, (Epeirotypus brevipes, Fig. 122E)'
+		'round edge, (Mesida argentiopunctata, Fig. 51G)'
+		,
+		22
+		'as the upper edge, (Diphya spinifera, Fig. 26G)'
+		'swollen, (Metabus ocellatus, Fig. 61G)'
+		,
+		23
+		'dorsal, (Meta menardi, Fig. 59A)'
+		'mesal, (Cyclosa conica, Fig. 140B)'
+		,
+		24
+		'as the surrounding macrosetal base diameter (Argiope argentata, Fig. 137C)'
+		'larger, (Tetragnatha versicolor, Fig. 112C)'
+		,
+		25
+		'entire not constricted, (Leucauge venusta, Fig. 44B)'
+		'constricted, (Glenognatha foxi, Fig. 39F)'
+		,
+		26
+		'absent, (Leucauge venusta, Fig. 44B)'
+		'present, (Dolichognatha pentagona, Figs. 34A, C)'
+		,
+		27
+		'longer than wide, (Chrysometa alajuela, Fig. 21D)'
+		'cuticular fold, (Meta menardi, Figs. 59A, F)'
+		,
+		28
+		'absent, (Metellina segmentata, Fig. 69D)'
+		'present, (Allende nigrohumeralis, Fig. 11A)'
+		,
+		29
+		'absent, (Metleucauge eldorado, Fig. 80B)'
+		'as in the cymbium, (Orsinome sarasini, Fig. 99D)'
+		'thicker, (Allende nigrohumeralis, Fig. 11D)'
+		,
+		30
+		'less than half the cymbial width, (Diphya spinifera, Fig. 29D)'
+		'more than half the cymbial width, (Allende nigrohumeralis, Fig. 11A)'
+		,
+		31
+		'absent, (Azilia affinis, Fig. 16C)'
+		'present, (Tylorida striata, Fig. 117A)'
+		,
+		32
+		'shorter than the cymbial width, (Metleucauge eldorado, Fig. 80C)'
+		'longer than the cymbial width, (Metabus ocellatus, Fig. 65D)'
+		,
+		33
+		'perpendicular in relation to the cymbial longitudinal axis, (Mesida argentiopunctata, Fig. 54C)'
+		'parallel, (Leucauge argyra, Figs. 49B-C)'
+		,
+		34
+		'absent, (Nesticus cellulanus, Agnarsson, 2004: figs. 2A-B)'
+		'present, (Anelosimus sp., Agnarsson, 2004: fig. 28F)'
+		,
+		35
+		'shorter than two times its width, (Argiope argentata, Fig. 137A)'
+		'longer, (Orsinome cf. vethi Fig. 103C)'
+		,
+		36
+		'sclerotized as cymbium'
+		'transparen'
+		,
+		37
+		'absent, (Steatoda americana, Fig. 138E)'
+		'present, (Argiope argentata, Fig. 137E)'
+		,
+		38
+		'hook shaped, (Argiope argentata, Fig. 137E)'
+		'cylindrical, longer than wide, (Meta menardi, Fig. 59A)'
+		'rectangular, (Nephilengys malabarensis, Fig. 138D)'
+		'rim following tegular margin, (Phonognatha graeffei, Fig. 125F)'
+		'U-shaped, (Linyphia triangularis, Fig. 138A)'
+		'conical (Mollemeta edwardsi, Fig. 85C)'
+		'with protuberances (Chrysometa alajuela, Fig. 21C)'
+		,
+		39
+		'shorter than half the cymbial length, (Mesida argentiopunctata, Fig. 54F)'
+		'longer, (Metellina segmentata, Fig. 69D)'
+		,
+		40
+		'integral, (Metabus ocellatus, Fig. 65A)'
+		'articulated, (Chrysometa alajuela, Fig. 22A)'
+		'intersegmental, (Linyphia triangularis, Hormiga, 1994a: fig. 9C)'
+		,
+		41
+		'not swollen, (Azilia affinis, Fig. 16D)'
+		'swollen, (Diphya spinifera, Fig. 29C)'
+		,
+		42
+		'absent, (Mesida argentiopunctata, Fig. 54F)'
+		'present, (Tetragnatha versicolor, Fig. 112D)'
+		,
+		43
+		'absent, (Metleucauge eldorado, Fig. 80B)'
+		'present, (Nephilengys malabarensis, Fig. 138D)'
+		,
+		44
+		'absent, (Micrathena gracilis, Fig. 138B)'
+		'present, (Metellina segmentata, Fig. 69D)'
+		,
+		45
+		'only on the tip, (Orsinome cf. vethi, Fig. 99F)'
+		'evenly distributed, (Metellina segmentata, Fig. 69F)'
+		'only at the base, (Leucauge argyra Fig. 49E)'
+		'only on the margins, (Chrysometa alajuela, Fig. 21D)'
+		,
+		46
+		'under the tegulum, (Diphya spinifera, Fig. 29A)'
+		'mesally displaced, (Metleucauge eldorado, Figs. 80A, 81C)'
+		,
+		47
+		'spherical to oval, (Tetragnatha versicolor, Fig. 112A)'
+		'disk-shaped, (Linyphia triangularis, Fig. 138B)'
+		,
+		48
+		'same as mesal, (Azilia affinis, Fig. 16A)'
+		'swollen, (Leucauge argyra, Fig. 49F)'
+		,
+		49
+		'larger than subtegulum, (Mesida argentiopunctata, Fig. 55B)'
+		'smaller than subtegulum, (Meta menardi, Figs. 60A-B)'
+		,
+		50
+		'apical, (Tetragnatha versicolor, Figs. 112A, D)'
+		'subterminal, (Argiope argentata, Fig. 140A)'
+		,
+		51
+		'absent, (Pachygnatha autumnalis, Fig. 105A)'
+		'present, (Araneus marmoreus, Fig. 138F)'
+		,
+		52
+		'duct loop inside MA, (Argyrodes argyrodes; Agnarsson, 2004: figs. 91A-B)'
+		'apart, (Eidmannella pallida, Agnarsson, 2004: fig. 89E)'
+		,
+		53
+		'absent, (Azilia affinis, Fig. 16F)'
+		'present, (Tetragnatha versicolor, Figs. 112C-D)'
+		,
+		54
+		'coiled with embolus, (Nanometa sp., Fig. 90B-C)'
+		'separated, (Argiope argentata, Figs. 140A, F)'
+		,
+		55
+		'center, (Tetragnatha versicolor, Fig. 112D)'
+		'lateral edges, (Araneus marmoreus, Fig. 138D)'
+		,
+		56
+		'straight, (Tetragnatha versicolor, Fig. 112F)'
+		'sigmoid, (Nephilengys malabarensis, Fig. 139C)'
+		,
+		57
+		'one third or less, (Uloborus glomosus, Fig. 140D)'
+		'one side of the embolus, (Metellina segmentata, Fig. 70B)'
+		'all embolus, (Mesida argentiopunctata, Fig. 54A, 55C)'
+		,
+		58
+		'parallel to tegular margin, (Cyclosa, conica Fig. 140E)'
+		'curving with tegular margin, (Meta menardi, Fig. 59D)'
+		'apically distended, (Metabus ocellatus, Fig. 64B)'
+		'ventrally distended, (Nephilengys malabarensis, Fig. 139C)'
+		,
+		59
+		'solid, (Meta menardi, Fig. 60A)'
+		'membranous, (Mesida argentiopunctata, Fig. 55B)'
+		,
+		60
+		'shorter than half of the bulb longitudinal axis, (Zygiella x-notata, Fig. 139F)'
+		'longer, (Orsinome cf. vethi, Fig. 103E)'
+		,
+		61
+		'absent, (Achaearanea tepidariorum, Fig. 140E)'
+		'present, (Steatoda americana, Fig. 139D)'
+		,
+		62
+		'90 degrees, (Nephilengys malabarensis, Figs. 139C, 140C)'
+		'parallel, (Tetragnatha versicolor, Fig. 113A)'
+		,
+		63
+		'absent, (Uloborus glomosus, Fig. 139E)'
+		'present, (Orsinome cf. vethi, Figs. 104D)'
+		,
+		64
+		'absent, (Tetragnatha versicolor, Figs. 113A-B)'
+		'metine embolic apophysis, (Meta menardi, Figs. 60A-B)'
+		'araneid basal apophyses, (Araneus marmoreus, Fig. 138F)'
+		'linyphiid embolic apophyses, (Linyphia triangularis, Fig. 139B)'
+		,
+		65
+		'membranous, (Allende nigrohumeralis, Figs. 12A-B)'
+		'sclerotized, (Metellina segmentata, Figs. 70B-C)'
+		,
+		66
+		'shorter than or equal to 2 times its width, (Achaearanea tepidariorum, Fig. 140E)'
+		'longer, (Leucauge venusta, Fig. 45C)'
+		,
+		67
+		'Tubular embolus, (Metinae from Australia, Figs. 67A-C)'
+		'Flagelliform embolus, (Leucauge venusta, Figs. 45D, 45C)'
+		'Lamelliform embolus, (Azilia affinis, Figs. 17A, C)'
+		,
+		68
+		'less than half cymbium length, (Azilia affinis, Fig. 17C)'
+		'from 0.5 to 1.5 cymbium length, (Orsinome cf. vethi, Figs. 104B-D)'
+		'greater than 1.5 cymbium length, (Nephila clavipes, Hormiga et al., 1995: figs. 10, 8G and 13H)'
+		,
+		69
+		'less than half a circumference of curvature, (Araneus marmoreus; Levi, 1971: figs. 4-8)'
+		'more than half but less than a complete circumference (Uloborus glomosus, Fig. 139E)'
+		'more than a complete circumference (Diphya spinifera, Fig. 29E)'
+		,
+		70
+		'cylindrical, (Nanometa sp., Fig. 90C)'
+		'with caps or hooks, (Argiope argentata, Fig. 140F)'
+		,
+		71
+		'absent, (Leucauge venusta, Fig. 45C)'
+		'araneid radix, (Argiope argentata, Levi, 1968: fig 42)'
+		'linyphiid radix, (Linyphia triangularis; Hormiga, 1994a: figs. 8-9)'
+		,
+		72
+		'absent, (Leucauge venusta, Fig. 45C)'
+		'present, (Araneus marmoreus, Levi, 1971: figs. 4-8)'
+		,
+		73
+		'absent, (Meta menardi, Figs. 60A-B)'
+		'present, (Araneus marmoreus, Levi, 1971: figs. 4-8)'
+		,
+		74
+		'absent, (Leucauge venusta, Fig. 45C)'
+		'present, (Araneus marmoreus, Levi, 1971: figs. 4-8)'
+		,
+		75
+		'absent, (Leucauge venusta, Fig. 45C)'
+		'present, (Araneus marmoreus, Levi, 1971: figs. 4-8)'
+		,
+		76
+		'constant, (Mesida argentiopunctata, Fig. 55C)'
+		'medially enlarged, (Glenognatha foxi, Fig. 40A)'
+		,
+		77
+		'spiral, (Metellina segmentata, Fig. 70C)'
+		'with switchbacks, (Meta menardi, Fig. 60B)'
+		,
+		78
+		'less than two switchbacks, (Dolichognatha pentagona, Fig. 35C)'
+		'more than two, (Tylorida striata, Fig. 133A-B)'
+		,
+		79
+		'enters the embolus through the base, (Orsinome cf. vethi, Fig. 104A)'
+		'duct joins embolus via a pars pendula, (Deliochus sp., Fig. 45C)'
+		,
+		80
+		'absent, (Epeirotypus brevipes, Fig. 131B)'
+		'present, (Micrathena gracilis, Fig. 131D)'
+		,
+		81
+		'striated, (Clitaetra episinoides, Fig. 131A)'
+		'as the paturon, (Mecynogea lemniscata, Fig. 131C)'
+		,
+		82
+		'shorter than clypeal width, (Gasteracantha cancriformis, Fig. 130D)'
+		'same length, (Argiope argentata, Fig. 130A)'
+		'longer, (Linyphia triangularis, Fig. 130C)'
+		,
+		83
+		'massive, (Gasteracantha cancriformis, Fig. 130D)'
+		'slender, (Metleucauge eldorado, Fig. 78G, C)'
+		,
+		84
+		'absent, (Diphya spinifera, Fig. 27F)'
+		'present, (Deliochus sp., Fig. 130E)'
+		,
+		85
+		'absent, (Leucauge venusta)'
+		'present, (Nephila clavipes)'
+		,
+		86
+		'toothed, (Diphya spinifera, Fig. 27F)'
+		'without teeth, (Steatoda americana, Fig. 129C)'
+		,
+		87
+		'absent, (Epeirotypus brevipes, Fig. 131B)'
+		'present, (Clitaetra episinoides, Fig. 131A)'
+		,
+		88
+		'low, (Leucauge argyra, Fig. 47A)'
+		'high, (Metellina segmentata, Fig. 67E)'
+		,
+		89
+		'low, (Mangora gibberosa, Fig. 130F)'
+		'intermediate, (Metellina segmentata, Fig. 67E)'
+		'high, (Linyphia triangularis, Fig. 130C)'
+		,
+		90
+		'less than the PME area length, (Tetragnatha versicolor, Fig. 110D)'
+		'more, (Araneus marmoreus, Fig. 130A)'
+		,
+		91
+		'less than the PME diameter, (Cyclosa conica, Fig. 126C)'
+		'equal to the PME diameter, (Meta menardi, Fig. 57A)'
+		'more than the PME diameter, (Uloborus glomosus, Fig. 127D)'
+		,
+		92
+		'absent, (Azilia affinis, Levi, 1980: figs 299-300)'
+		'present, (Argiope picta, Scharff and Coddington, 1997: fig. 38)'
+		,
+		93
+		'broad, (Metleucauge eldorado, Levi, 1980: fig. 139-140)'
+		'narrow, (Argiope picta, Scharff and Coddington, 1997: fig 38)'
+		,
+		94
+		'absent, (Azilia affinis, Levi, 1980: figs 299-300)'
+		'present, (Argiope picta, Scharff and Coddington, 1997: fig. 38)'
+		,
+		95
+		'smaller than PME, (Araneus marmoreus)'
+		'same as PME, (Metellina segmentata)'
+		'larger than PME, (Dolichognatha pentagona)'
+		,
+		96
+		'separated, (Diphya spinifera, Figs. 27A. E)'
+		'together on a single tubercle, (Opadometa sp., Figs. 93A-B)'
+		,
+		97
+		'straight, (Orsinome sarasini, Figs. 97A-B)'
+		'procurved, (Metepeira labyrinthea, Fig. 127B)'
+		'recurved, (Argiope argentata, Fig. 126B)'
+		,
+		98
+		'glabrous, macrosetae covering up to 10% of the carapace dorsal surface (Nanometa sp., Fig. 88B)'
+		'moderately hirsute, macrosetae covering more than 10% but less than 50% of its surface, (Phonognatha graeffei, Fig. 125E)'
+		'hirsute, macrosetae covering more than 50% of its surface (Herennia multipuncta, Fig. 126E)'
+		,
+		99
+		'piriform, (Argiope argentata, Fig. 126B)'
+		'oval, (Phonognatha graeffei, Fig. 125E)'
+		,
+		100
+		'absent, (Argiope aurantia)'
+		'present, (Tetragnatha versicolor)'
+		,
+		101
+		'absent, (Glenognatha foxi, Figs. 37A-B)'
+		'present, (Metleucauge eldorado, Fig. 78A)'
+		,
+		102
+		'transversely elongate, (Metellina segmentata, Fig. 67A)'
+		'longitudinally elongate, (Mangora gibberosa, Fig. 126F)'
+		'two deep transverse pits, (Tetragnatha versicolor, Fig. 110D)'
+		'shallow oval depression, (Mecynogea lemniscata, Fig. 127A)'
+		'single deep hole, (Micrathena gracilis, Fig. 127C)'
+		,
+		103
+		'absent, (Tylorida striata, Fig. 115A)'
+		'present, (Leucauge argyra, Fig. 47B)'
+		,
+		104
+		'slightly swollen, (Araneus marmoreus, Fig. 128A)'
+		'folding back, (Tetragnatha versicolor, Fig. 110F)'
+		,
+		105
+		'pentagonal, (Gasteracantha cancriformis, Fig. 128F)'
+		'trapezoidal, (Allende nigrohumeralis, Fig. 9F)'
+		,
+		106
+		'longer than wide, (Meta menardi, Fig. 53C)'
+		'as wide as or wider than long, (Herennia multipuncta, Fig. 128E)'
+		,
+		107
+		'flat, (Dolichognatha pentagona, Fig. 32F)'
+		'tubercles I to IV present, (Orsinome sarasini, Fig. 97G)'
+		'tubercles I to III, (Herennia multipuncta, Fig. 128E)'
+		'tubercles I, III, and IV, (Orsinome cf. vethi, Fig. 101B)'
+		'tubercles III and IV, (Chrysometa alajuela, Fig. 19G)'
+		'tubercles I and II, (Leucauge argyra, Fig. 47G)'
+		'only tubercle I, (Diphya spinifera, Fig. 27F)'
+		'tubercle only III, (Zygiella x-notata, Fig. 128D)'
+		'only tubercle IV, (Mollemeta edwardsi, Fig. 83F)'
+		,
+		108
+		'cheliceral length less the clypeal width, (Argiope argentata, Fig. 130B)'
+		'chelicera same length as the clypeal width, (Azilia affinis, Fig. 14D)'
+		'chelicera longer, (Metleucauge eldorado, Fig. 78D)'
+		,
+		109
+		'absent, (Leucauge argyra, Fig. 47G)'
+		'present, (Meta menardi, Fig. 57C)'
+		,
+		110
+		'absent, (Leucauge venusta, Fig. 42H)'
+		'present, (Dolichognatha pentagona, Fig. 32E)'
+		,
+		111
+		'straight, less than two times the clypeus width, (Azilia affinis, Fig. 14D)'
+		'larger, (Pachygnatha autumnalis, Fig. 106C)'
+		,
+		112
+		'as in the clypeal area, (Dolichognatha pentagona, Fig. 32B)'
+		'bases larger, (Mesida argentiopunctata, Fig. 52H)'
+		,
+		113
+		'as in the anterior surface, (Metellina segmentata, Fig. 67C)'
+		'rugose, (Orsinome sarasini, Fig. 97H)'
+		,
+		114
+		'absent, (Metellina segmentata, Fig. 67F)'
+		'present, (Tetragnatha versicolor, Fig. 110C)'
+		,
+		115
+		'absent, (Metellina segmentata, Fig. 67F)'
+		'present, (Glenognatha foxi, Fig. 37D)'
+		'covered with setae, (Cyrtognatha espaniola, Fig. 23E)'
+		,
+		116
+		'absent, (Steatoda americana)'
+		'present, (Meta menardi)'
+		,
+		117
+		'same texture in male and females, (Pachygnatha autumnalis, Figs. 106D-E)'
+		'different (Allende nigrohumeralis, Figs. 09B-C)'
+		,
+		118
+		'male chelicerae smaller, (Neoscona domiciliorum, Figs. 129E-F)'
+		'same length, (Metellina segmentata, Figs. 67C, 67E)'
+		'male chelicerae larger, (Dolichognatha pentagona, Figs. 32E, 32G)'
+		,
+		119
+		'same shape in male and females, (Leucauge venusta, Figs. 42A-B)'
+		'cephalic region narrower in males, (Cyclosa conica, Figs. 126C-D)'
+		,
+		120
+		'same height in male and females, (Micrathena gracilis, Figs. 127E-F)'
+		'male ocular area higher, (Orsinome cf. vethi, Figs. 101B, 101D)'
+		'male ocular area lower (Neoscona domiciliorum, Fig. 129E-F)'
+		,
+		121
+		'same in male and females, (Mollemeta edwardsi, Figs. 83A-B)'
+		'different, (Cyclosa conica, Figs. 126C-D)'
+		,
+		122
+		'male less than half of the female body length, (Leucauge venusta, Figs. 42A-B)'
+		'male more than half of the female body length, (Herennia multipuncta, Fig. 2C)'
+		,
+		123
+		'absent, (Tetragnatha versicolor, Figs. 111A-B)'
+		'present, (Opadometa sp., Figs. 94A, 95E)'
+		,
+		124
+		'same height as the surrounding cuticle (Mesida argentiopunctata, Figs. 53A-B)'
+		'projected at least one third of the epigynal plate width, (Meta menardi, Figs. 58A-B)'
+		,
+		125
+		'absent, (Metellina segmentata, Figs. 68A-B)'
+		'present, (Metabus ocellatus, Figs. 63A-B)'
+		,
+		126
+		'flat or rounded, (Leucauge venusta)'
+		'excavated, (Meta menardi)'
+		,
+		127
+		'absent, (Tylorida striata, Fig. 116A)'
+		'present, (Larinioides cornutus, Fig. 135A)'
+		,
+		128
+		'smooth, (Gasteracantha cancriformis, Fig. 133E)'
+		'wrinkled, (Araneus marmoreus, Fig. 133A)'
+		,
+		129
+		'tapering towards the end, (Cyclosa conica, Fig. 133C)'
+		'with a pocket, (Mangora gibberosa, Fig. 134B)'
+		,
+		130
+		'resembling pits, (Deliochus sp., Fig. 125G)'
+		'longitudinal grooves, (Meta menardi, Fig. 58A-B)'
+		'transverse groves, (Epeirotypus brevipes, Fig. 133G)'
+		,
+		131
+		'ventral, (Nanometa sp., Fig. 89A)'
+		'posterior, (Metellina segmentata, Fig. 68D)'
+		'anterior, (Metepeira labyrinthea, Fig. 134C)'
+		,
+		132
+		'never plugged, (Mesida argentiopunctata, Figs. 53A-B)'
+		'plugged with broken embolus, (Argiope argentata, Fig. 133B)'
+		'plugged with embolus and conductor, (Herennia multipuncta, Fig. 133F)'
+		'plugged with secretions, (undescribed species form Australia, Fig. 74A)'
+		,
+		133
+		'absent, (Diphya spinifera, Fig. 28C)'
+		'present, (Cyrtognatha espaniola, Fig. 24D)'
+		,
+		134
+		'absent, (Glenognatha foxi, Figs. 38C-D)'
+		'present, (Cyrtognatha espaniola, Fig. 24D)'
+		,
+		135
+		'apart from the spermatheca, (Metellina segmentata, Fig. 68C)'
+		'enclosing the spermatheca, (Larinioides cornutus, Fig. 136D)'
+		,
+		136
+		'absent, (Deliochus sp., Fig. 125H)'
+		'present, (Nephilengys malabarensis, Fig. 135B)'
+		,
+		137
+		'sclerotized, (Meta menardi, Fig. 60C)'
+		'not sclerotized, (Metleucauge eldorado, Fig. 81D)'
+		,
+		138
+		'separated more than two spermatheca diameters apart (Metellina segmentata, Fig. 68C)'
+		'closer, (Neoscona domiciliorum, Fig. 135A)'
+		,
+		139
+		'one single chamber, (Nephilengys malabarensis, Fig. 136F)'
+		'two chambers, (Deliochus sp., Fig. 125H)'
+		,
+		140
+		'isolated, (Mesida argentiopunctata, Fig. 53D)'
+		'grouped, (Metellina segmentata, Fig. 68E)'
+		,
+		141
+		'less than 1.5 times the flagella diameter, (Mollemeta edwardsi, Fig. 84D)'
+		'thicker, (Glenognatha foxi, Fig. 37B)'
+		,
+		142
+		'tubular, (Metabus ocellatus, Fig. 63F)'
+		'acorn-shaped, (Leucauge venusta, Fig. 43F)'
+		,
+		143
+		'evenly over the spermatheca, (Deliochus sp., Fig. 125H)'
+		'clustered near the fertilization duct, (Nanometa sp., Figs. 89B-C)'
+		'clustered near the copulatory ducts, (Glenognatha foxi, Fig. 38B)'
+		,
+		144
+		'path curved less than half a circumference, (Opadometa sp., Fig. 95E)'
+		'path curved more than half a circumference but less than a complete turn, Gasteracantha cancriformis, Fig. 136A)'
+		'coiled more than one turn, (Steatoda americana, Fig. 136B)'
+		'L-shaped, (Larinioides cornutus, Fig. 136D)'
+		,
+		145
+		'cylindrical, (Dolichognatha pentagona, Fig. 35D)'
+		'modified as a sack, (Metine from Australia, Fig. 76E)'
+		,
+		146
+		'less than half the spermathecae length, (Metellina segmentata, Fig. 70D)'
+		'more than half the spermathecae length but less than its total length (Tylorida striata, Fig. 118D)'
+		'longer than the spermathecae length, (Nephilengys malabarensis, Fig. 136F)'
+		,
+		147
+		'well sclerotized, (Orsinome cf. vethi, Figs. 102C-D, 104E)'
+		'membranous, (Mesida argentiopunctata, Figs. 53E-F, 55D)'
+		,
+		148
+		'entelegyne, (Metellina segmentata, Fig. 70D)'
+		'haplogyne, (Glenognatha foxi, Fig. 40B)'
+		,
+		149
+		'posterior, (Mollemeta edwardsi, Fig. 86D)'
+		'anterior, (Chrysometa alajuela, Fig. 22D)'
+		,
+		150
+		'shorter than the spermatheca width (Nephilengys malabarensis, Fig. 135B)'
+		'longer, (Chrysometa alajuela, Fig. 22D)'
+		,
+		151
+		'curved (Metleucauge eldorado, Figs. 79C, 81D)'
+		'coiled (Tylorida striata, Figs. 116F, 118D)'
+		,
+		152
+		'separated (Herennia multipuncta, Figs. 134E-F)'
+		'fertilization ducts coiled around the copulatory ducts; Opadometa sp., Fig. 95E)'
+		,
+		153
+		'separated (Herennia multipuncta, Fig. 134F)'
+		'crossing over (Meta menardi, Fig. 58D-F, 60C)'
+		,
+		154
+		'without guanine silver patches, (Meta menardi, Fig. 1D)'
+		'with guanine silver patches, (Leucauge venusta, Figs. 1C-E)'
+		,
+		155
+		'absent, (Phonognatha graeffei, Fig. 2D)'
+		'present, (Micrathena gracilis, Fig. 2E)'
+		,
+		156
+		'made of flaps, (Diphya spinifera, Fig. 26C)'
+		'made of cylinders, (Pachygnatha autumnalis, Fig. 105A)'
+		,
+		157
+		'absent, (Meta menardi, Fig. 1D)'
+		'present, (Dolichognatha pentagona, Fig. 35D)'
+		,
+		158
+		'flat, (Leucauge venusta, Fig. 41A)'
+		'grooved, (Argiope argentata, Fig. 123B)'
+		'covered with transverse lines, (Micrathena gracilis, Fig. 123C)'
+		,
+		159
+		'as the sub-apical part, (Mollemeta edwardsi)'
+		'with paired white dots around spinnerets, (Metellina segmentata)'
+		'lighter than the sub-apical part, (Oncodamus decipiens)'
+		,
+		160
+		'one central white area, (Leucauge venusta)'
+		'transverse lines, (Argiope argentata)'
+		'four large spots, (Nephilengys malabarensis)'
+		'numerous spots, (Nephila clavipes)'
+		'longitudinal line, (Clitaetra episinoides)'
+		'same pattern as lateral sides, (Mangora gibberosa)'
+		,
+		161
+		'cylindrical, (Neoscona domiciliorum, Fig. 125A)'
+		'tracheal trunk divided in thick tracheoles, (Nanometa sp., Fig. 87B)'
+		'tracheal trunk divided in several small tracheoles, (Glenognatha foxi, Figs. 36C-D)'
+		,
+		162
+		'leaf-shaped, (Nephilengys malabarensis, Figs. 124E-F)'
+		'round, (Leucauge venusta, Figs. 41C-D)'
+		'bifurcated, (Metepeira labyrinthea, Fig. 125B)'
+		,
+		163
+		'shorter than half the lateral trachea length, (Dolichognatha pentagona, Fig. 31A)'
+		'longer, (Tylorida striata, Fig. 114C)'
+		,
+		164
+		'absent, (Mangora gibberosa, Fig. 125D)'
+		'present, (Gasteracantha cancriformis, Fig. 125C)'
+		,
+		165
+		'less than four on each side, (Mesida argentiopunctata, Fig. 51C)'
+		'more, (undescribed species from Australia, Fig. 71D)'
+		,
+		166
+		'absent, (Leucauge venusta, Fig. 1E)'
+		'present, (Nephila clavipes, Kuntner, 2006)'
+		,
+		167
+		'made of flaps, (Neoscona domiciliorum, Fig. 124A)'
+		'made of cylinders, (Pachygnatha autumnalis, Fig. 105F)'
+		,
+		168
+		'absent, (Metellina segmentata, Fig. 66A)'
+		'present, (Nanometa sp., Fig. 97A)'
+		,
+		169
+		'absent, (Metellina segmentata, Fig. 67H)'
+		'present, (Leucauge venusta, Fig. 42E-F)'
+		,
+		170
+		'dorsal, (Tylorida striata, Fig. 115F)'
+		'ectal, (Mesida argentiopunctata, Fig. 52G)'
+		,
+		171
+		'one irregular line, (Tetragnatha versicolor, Fig. 110E)'
+		'two parallel rows, (Opadometa sp., Fig. 93E)'
+		,
+		172
+		'less than one third of femur, (Tylorida striata, Fig. 115F)'
+		'more than one third of femur, (Opadometa sp., Fig. 93F)'
+		,
+		173
+		'smooth, (Tetragnatha versicolor, Fig. 110E)'
+		'branched, (Leucauge venusta, Fig. 42F)'
+		,
+		174
+		'with setae, (Cyclosa conica, Fig. 132D)'
+		'without seta, (Azilia affinis, Fig. 14H)'
+		,
+		175
+		'without bristles, (Meta menardi, Fig. 1D)'
+		'with bristles, (Nephila clavipes, Levi, 1980: fig 31)'
+		,
+		176
+		'absent, (Pachygnatha autumnalis, Fig. 106G)'
+		'present, (Araneus marmoreus, Fig. 132B)'
+		,
+		177
+		'straight, (Nephilengys malabarensis, Fig. 132F)'
+		'bent, (Cyclosa conica, Fig. 132C)'
+		,
+		178
+		'absent, (Larinioides cornutus, Fig. 132E)'
+		'present, (Achaearanea tepidariorum, Fig. 132A)'
+		,
+		179
+		'as in tibia I, (Cyclosa conica, Levi, 1977: fig. 12)'
+		'thicker, (Neoscona domiciliorum, Berman and Levi, 1971: fig. 127)'
+		,
+		180
+		'none, (Dolichognatha pentagona, Fig. 32E)'
+		'one, (Diphya spinifera, Fig. 29F)'
+		'two, (Larinioides cornutus, Fig. 129F)'
+		,
+		181
+		'approximately as long as the widest point of the tibia, (Linyphia triangularis, Fig. 137B)'
+		'approximately two times the greatest width of the tibia, (Metellina segmentata, Fig. 69C)'
+		'approximately three times the greatest width of the tibia or more, (Metleucauge eldorado, Fig. 78F)'
+		,
+		182
+		'less than four times its width, (Zygiella x-notata, Fig. 129D)'
+		'longer, (Metleucauge eldorado, Fig. 78F)'
+		,
+		183
+		'less than twice its width, (Epeirotypus brevipes, Fig. 128C)'
+		'more, (Tetragnatha versicolor, Fig. 110F)'
+		,
+		184
+		'absent, (Argiope argentata, Fig. 129B)'
+		'present, Araneus marmoreus, Fig. 129A)'
+		,
+		185
+		'smooth, (Diphya spinifera Fig 27F)'
+		'with denticles, (Nanometa sp., Fig. 88F)'
+		,
+		186
+		'absent, (Pachygnatha autumnalis)'
+		'present, (Dolichognatha pentagona, Fig. 3E)'
+		,
+		187
+		'orbicular, (Mesida argentiopunctata, Fig. 3A)'
+		'as a sheet, (Linyphia sp., Fig. 6D)'
+		'gum foot, (Achaearanea sp., Fig. 5F)'
+		,
+		188
+		'two dimensional, (Nanometa sp., Fig. 4F)'
+		'three dimensional, (Linyphia sp., Fig. 6D)'
+		,
+		189
+		'legs I and II extended, (Cyrtognatha sp., Fig. 2A)'
+		'flexed, (Herennia multipuncta, Fig. 2C)'
+		,
+		190
+		'absent, (Ocrepeira sp., Fig. 7C)'
+		'present, Argiope versicolor (Seah and Li, 2002; Fig. 1)'
+		,
+		191
+		'horizontal, (Leucauge venusta, Fig 3F)'
+		'vertical, (Mesida argentiopunctata, Figs. 4A)'
+		,
+		192
+		'absent, (Orsinome cf. vethi, Fig. 5C)'
+		'present, (Linyphia sp., Fig. 6D)'
+		,
+		193
+		'new web build each day or after damage, (Chrysometa sp.)'
+		'webs repaired, (Nephila clavipes)'
+		,
+		194
+		'closed, (Wagneriana sp., Fig. 7F)'
+		'open, (Opadometa sp., Fig. 5B)'
+		,
+		195
+		'absent, (Phonognatha graeffei)'
+		'present, (Araneus marmoreus)'
+		,
+		196
+		'absent, (Nanometa sp., Fig. 4F)'
+		'present, (Nephilengys malabarensis, Fig. 6B)'
+		,
+		197
+		'gradual, (Nephilengys malabarensis)'
+		'abrupt, (Metellina segmentata)'
+		,
+		198
+		'absent, (Nanometa sp., Fig. 4F)'
+		'present, (Herennia multipuncta, Fig. 2C)'
+		,
+		199
+		'central, (Meta menardi Fig., 4C)'
+		'displaced up, (Phonognatha graeffei Fig., 7A)'
+		'displaced down, (Deliochus sp., Kuntner, 2005, 2006)'
+		,
+		200
+		'radii singly attached, (Araneus marmoreus)'
+		'radii attached twice, (Nephila clavipes)'
+		,
+		201
+		'radii not cut and reeled, (Nephila clavipes)'
+		'radii cut and reeled, (Araneus marmoreus)'
+		,
+		202
+		'absent, (Nanometa, Fig. 4F)'
+		'present, (Phonognatha graeffei, Fig. 7A)'
+		,
+		203
+		'absent, (Nanometa sp., Fig. 4F)'
+		'present, (Nephilengys malabarensis, Fig. 6B)'
+		,
+		204
+		'oL1, (Argiope argentata)'
+		'iL1, (Leucauge venusta)'
+		'oL4, (Nephila clavipes)'
+		,
+		205
+		'removed from finished web, (Tetragnatha versicolor)'
+		'remains in finished web, (Nephila clavipes)'
+		,
+		206
+		'absent, (Nephilengys malabarensis)'
+		'present, (Leucauge venusta)'
+		,
+		207
+		'absent, (Epeirotypus brevipes, Fig. 6A)'
+		'off web, (Nephilengys malabarensis, Fig. 6B)'
+		'in web, (Phonognatha graeffei, Fig. 7A)'
+		,
+		208
+		'silken tube, (Nephilengys malabarensis, Fig. 6B)'
+		'utilization of a leaf, (Phonognatha graeffei, Fig. 7A)'
+		,
+		209
+		'the spider first bites the prey then wraps it, (Meta menardi)'
+		'the spider first wraps the prey with silk, (Tetragnatha elongata)'
+		,
+		210
+		'dry, (Araneus diadematus)'
+		'sticky, (Steatoda sp)'
+		,
+		211
+		'absent, (Steatoda sp)'
+		'present, (Argiope argentata)'
+		,
+		212
+		'absent, (Nephila clavipes)'
+		'present, (Nephilengys malabarensis)'
+		,
+		213
+		'absent, (Araneus diadematus)'
+		'present, (Tetragnatha sp., Fig. 1B)'
+		
+	;
+	MATRIX
+	'Oncodamus decipiens'		                 001111101-000--10001000000-0--0--0110--------0101010111012010100-00000000--00-01110000112020-021000?100001010100000001000010000--003000000000-230200000000000025000110000----000-000100000-------------------------0?
+	'Parasteatoda tepidariorum'		           1010-000110110000100000100-0--0--1010--------010100-111011010100-02010000--00-00-110110120010111210?130010210000000001100010100--000000001010-03020000000000000500?0-0000----000-10000100121?--11-------------??-?00?
+	'Allende nigrohumeralis'		              0110-01010011010001000010101210--000111110011000000-1010110101110020100000000-111100001110110111120?100111320100100011000011010--113000001010-000000011010000000001110000----100-0012110010??????1?0?????00?0??????0?
+	'Araneus marmoreus'		                   00111010001110100001001000-0--0--01110000000-01001101110001001020020011111100-011101101101011101120010000010000000010012101101111021001001000-0002000000000001140????0000----0011012000101001010001000001000001000000
+	'Argiope argentata'		                   00111010001110100001001000-0--0--00110000000-0100110111010100100-02121110--00-0111111010002111112200130001200000000000001111010--001001001100-01010000000000110100?100000----0011001000001001110001000001000000-00100
+	'Asagena americana'		                   1010-000110110100101000000-0--0--1000--------0101111111010111100-011-0000--00-00-110110120110121200?130011000000000001000010100--210000001010-120200000000000005000100000----000-100010001211--11-------------0-1100?
+	'Azilia affinis'		                      01111010100110000001000100-0--0--001100000011000000-0-------0110-02010000--01101110000100000-010110?120110110100000001000010000--010000011010-200010001100000000001110000----10??001101001000000?010100010010?10???0?
+	'Chrysometa alajuela'		                 0110-01010011000000100010101000--001161111013000000-1000111101111020200000000-111100001110010111110?100111420100100012101010000--010000001010-120200110011000005000100000----100-00100000100?010?1?0?00??00?0?10???0?
+	'Clitaetra episinoides'		               01110010100110100001000100-0--0--001120000112000000-101023110010-012-0000--01101000100110020-020120?100001000100000?01001010000--110000001000-000100000000000014010100000----00100010000010??010???1???????????????0?
+	'Cyclosa conica'		                      01111010001110100001001000-0--0--00110000000-01001101110100101020011-01011100-011101101100011111110?13000010000000000012101100110023001001000-0202000000000010140200-0000----001101200010100111000?0?000?0000?20???0?
+	'Cyrtognatha espaniola'		               0110-010100110000001110110-0--0--010111110011000000-100012100110-02120000--10-011200001000110111100110011002011010201200000------21011-----10-200-01-----10010140101100011011?00-00101100100000001?0?00??00?0?0-???0?
+	'Deliochus sp'		                        01010010100111000?????0?00-0--0--00113100000-000100-100022110110-011-1000--00-111101101100010101101?0-000032010110001200-110000--001000011100-020210000000000015011100?00----000-0010100010??0100????02??10???11??01?
+	'Diphya spinifera'		                    0110-010100110000001000100-1000--000110011010000000-100021010110-02120000--00-01111000112000-010100?100111620100000112000010000--003000001100-200000000000000014000100000----000-00100000??????????????????????????0?
+	'Dolichognatha pentagona'		             0110-01010011000010100010110--0--011110000011010000-1010120101111020000000001001121000110000-020100?100111020100000102000010010--110000000000-000100000000001014000100000----100-000110001001000?010100010010110???0?
+	'Epeirotypus brevipes'		                1110-000100110000000000000-0--0--00112000000-0010110111011010100-02110000--01100-101100110010101100?130000600000000000000011000--21000001101102000100000000000050110-0000----000-001000001011010001010001001000-1?00?
+	'Gasteracantha cancriformis'		          00110010101110101?????1000-0--0--00112000000-0100110111000100100-00100100--00-011001101101211121121?0-0000100100000??100-11001100110000001000-0101000000001010050?0110?00----001-00000000100101000?0100010000?0-???0?
+	'Glenognatha foxi'		                    0110-011100110000000110110-0--0--010111110010000000-100022000110-00120000--10-01120000011010-111100?0-011102000000110200-00------20010--000010200101-----00100151??110100----100-0000010010000000-00?00010010-0-???0?
+	'Herennia multipuncta'		                00110010101110100001000100-0--0--001120000112000000-101123110010-012-0000--01101000110111020-001020?100001110100?000011?0110110--002000101000-020200000000001110000111000----00100010?0001001010?00101110??21?20???1?
+	'Larinioides cornutus'		                00111010001110100001001000-0--0--00110000000-01001101110001001020021011111100-011001101101011101120?10000010010000000002101101110020001001000-0302000000000001140????0000----101000200010100101?0????000?0000??????0?
+	'Leucauge argyra'		                     0110-010100110100010100100-0--101001100000012101000-101022110110-111-0000--011011100001010110101100?121100510101000111000011000--01300001100111100000111010000140111100011111100-00111100100?00101?0?00??00?0?0-???0?
+	'Leucauge venusta'		                    0110-010100110100010100100-0--0--000100000011101000-101022110110-111-0000--0110111000010102101110001121101510000000001000010100--00000001100111001100111010000100111100011111100-001211001000001011010001001010-00001
+	'Linyphia triangularis'		               1010-001100110100001000000-0--0--001141200012010000-0-------01130012-02000000-00-2100001202101011000110110020010000102000011100--010000000000-12020011000000000500?0-0000----000-000011001111--11-------------0-1?00?
+	'Mangora gibberosa'		                   01111010001110100101001000-0--0--00110000000-01001101110000001020020001011100-011101101000011101120?11000120000000000000001100111110001001000-020200000000010015021100000----0011011000101001010001000001000000-???0?
+	'Mecynogea lemniscata'		                0(0,1)111010001110100001001000-0--0--00110000000-01001101110000001020011-01001100-011111101000211101210?130000110000000001000011110--110000001100-0301000000000011140010-0000----0011001000001011001?0?0000??00?1??????0?
+	'Mesida argentiopunctata'		             0110-010100110100010110100-0--110001100000012101000-101022110110-111-0000--011011200001010110111101?120111020101010112000010100--00000001100101001100111010000040111100011111000-00101100100???001?0?00??00?0?0-???0?
+	'Meta menardi'		                        0011101010011010000000010111100--000110000011010100-10101101011110200000000010011210001110110111110?120110121100000011000011010--110000000010-000000011010000114?????0000----100-001111001000010011010001001010-00000
+	'Metabus ocellatus'		                   0110-010100110100010110100-0--111001100000011101000-101022110110-111-0000--011011210001010110111020?120111620100000001000010110--1000000110010100110011101000004000110000----100-00121100100?00??1?0??0?????0??????0?
+	'Metellina segmentata'		                0110-01010011010010100010110--0--011111000011010000-1010110101111020000000000-011110001110110111110?100111120100000001000010000--110000000010-200000110000000014001100000----100-0011100010000100110100??00?0?0-???0?
+	'Metepeira labyrinthea'		               00111010001110100101001000-0--0--01110000000-01001101110001001020020011011100-011101101000111111120?11000011110000000100011101110001001001000-020200000000000110020100000----0011012000001011011?0?0?000?0000?21???0?
+	'Nanometine sp'		                       0110-01010011010000000010101110--001100000011000000-100011010110-00120000--00-011111001110010111110?100111020100100112000010000--003000001010-1212100000010000041?1110010----100-00011101100?0?001?0?00??00?0??????0?
+	'Metleucauge eldorado'		                0110-010100110100000000100-100100011120010011101000-101022110110-10000000--00-011210101010210111120?120111120100100111000010000--003000011011-000110000000000004001100000----100-0012110010??00001?0?00??00????????0?
+	'Micrathena gracilis'		                 00110010101110101010001000-0--0--00111001000-01001101110001001020021001000100-011001101111211101120?14000030010000000100011101100010001001000-010100000000101205000110010----000-00100000100101001?0100010000?0-???0?
+	'Mollemeta edwardsi'		                  0010-01010011010000100010111000--000150000011010000-101012110110-00100000--00-011100101110110111210?10011081010000000100001001100013000001010-200100010000000104000110000----100-00121100100?010?0?1000??00?0??????0?
+	'Nanometa sp'		                         0110-01010011010010100010101100--000100000011000000-100011010110-00120000--00-011101001110110111000?0-011101010010001100-010000--001000001010-1212100000010000041010-0010----000-00000001100?00001?0?00??00?0?0-???0?
+	'Neoscona domiciliorum'		               00111010001110100001001000-0--0--00110000000-01001101110000001020020001111000-011111101100111101120?11000020000000000010001101101010001001000-030200000000010114000100000----001?01200010100101000?0?000?0000??????0?
+	'Nephila clavipes'		                    00110010101110100001010100-0--0--001120000112000000-101023110010-012-0000--0110100011011102101?1121?100001201100000002101111110--111000001000-000100000000000113?????1000----?1100010000010111111000001101121?0-1?100
+	'Nephilengys malabarensis'		            00110010101110100001000-00-0--0--001120000111000000-101123110010-012-0000--011010001101110210101121?120000200100000002101110010--000000101000-020200000000000112000001000----0010001000001011011?0010111011210101??10
+	'Nesticus cellulanus'		                 1010-000110110000?????0?00-0--0--0011110110120100111111000101100-00010000--01000-111100120110111200?100010010001?00101001011100--2100000010????201001100000?00000????0?00----?00-1001?000121---11-------------??-1000
+	'Opadometa sp'		                        0110-010100110100?????0100-0--110011100010010111000-101022010110-111-0000--00-011100101010110111110?120101120101000012010110100--10000001100111001100111000010140??110?011111110-00011100100?01001?0?00??00?0??????0?
+	'Orsinome cf vethi'		                   0110-010100110100010000100-0--100011100010010101000-101022110110-111-0000--011011210101010010111020?120111320110010002010010110--00300001100111201000111010000040?11000011110100-00101100100?00001?0?00??00?0?0-???0?
+	'Orsinome sarasini'		                   0110-01010011000000000010101110--000111001011000000-100011010110-00120000--00-011111001110110111000?1301111201001000110000100?0--003000001000-1212100000000000040?1110010----100-0001110110????????????????????????0?
+	'Pachygnatha autumnalis'		              0110-0011-000--00000110110-0--0--010111111011000000-100022010110-00120000--10-01121000111020-1010101130110020110010?0100000------20010--00110-000001-----00100050?11001010000100-000010000--------------------??-?-0?
+	'Phonognatha graeffei'		                00010010100111000000000100-0--0--0101310000(0,1)1010000-100022110110-00220000--00-011101101100010111111?130000320101000112001010000--001000001110-000000000000000004001110000----000-00111000100101100010010?11210211?00?
+	'Tetragnatha versicolor'		              0110-010100110000101000110-0--0--010111101011000000-100022010110-00120000--10-01121000101020-000120112011002011001210200000------21011--011110000001-----10000140????00010000000-001211001000000011010001001010-1?001
+	'Tylorida striata'		                    0110-010100110100010?00100-0--100001120010011101000-101022100110-111-0000--0110112000010100101?1000?120111320000000001000010100--00000001100111001100111010010050111100010010000-00101100100?00001?0?00??00?0??????0?
+	'Uloborus glomosus'		                   011111100-100--10000000000-0--0--0000--------0101110111000100100-00020000--00-01100100110020-010120?130000000000000000100011000--010000000000-0102100000000010141????0000----000-0000000010001001-00-0000000000-0?00?
+	'Zygiella x notata'		                   00110010100111000001001000-0--0--00110000000-01011101110001001020020001111100-011101101100011111120?110000710101000011000011000--010000001000-010200000000000104020100000----001100200000100?0100??0?00??0000??????0?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Tall piriform spigot bases are those higher than 1/4 of the spigot shaft; low piriform spigot bases are shorter. The ALS piriform spigots are homologous across all araneoids and outside Orbiculariae. These spigots serve piriform silk glands that produce the cement used to attach drag lines. All spigots are formed by a shaft and a base, both made of cuticle. Low piriform spigot bases are a synapomorphy of the clade that includes linyphioids, theridiidioids and symphytognathoids (the "reduced piriform clade" of Griswold et al., 1998) (H95, S97, G98, A04, G05, K07, A07, DIP).';
+	TEXT CHARACTER=2 TEXT='The margin of the piriform bases can be either separated from the shaft base leaving a torus, or tightly wrapping the shaft base. Separated piriform bases margins are common among tetragnathids except in Meta menardi and Mollemeta edwardsi (Figs. 56B, 82E). Mecynogea lemniscata present both types of piriform margin bases and is coded as polymorphic (Fig. 119E) (G05).';
+	TEXT CHARACTER=3 TEXT='0^n';
+	TEXT CHARACTER=4 TEXT='The PMS anterior surface is the area between the cylindrical gland spigot and the anterior base of the spinneret. All tetragnathids lack aciniform spigots in this area, except Azilia affinis and Meta menardi (Fig. 13G and Hormiga et al., 1995 fig. 19B-C). The PMS anterior surface is considered with aciniform spigots if there is at least one spigot separated from the cylindrical spigot base (Micrathena gracilis (Fig. 120E) (H94, H95, S97, G98, A04, G05, K07, A07, DIP).';
+	TEXT CHARACTER=5 TEXT='0^n';
+	TEXT CHARACTER=6 TEXT='The presence of only one cylindrical spigot on the PMS is synapomorphic for Araneoids (Griswold et al., 1998, 2005). Uloborus and Oncodamus decipiens have many (Fig. 120F) (G98, G07).';
+	TEXT CHARACTER=7 TEXT='0^n';
+	TEXT CHARACTER=8 TEXT='PLS cylindrical spigot bases are the same size in almost all araneoids. Linyphioids and some tetragnathids have the mesal cylindrical spigot base larger on the PLS (Hormiga, 1994a, 2000) (H94, H95, G98, A04, A07, DIP).';
+	TEXT CHARACTER=9 TEXT='0^n';
+	TEXT CHARACTER=10 TEXT='Enlarged aggregate gland spigots are at least two times larger than the cylindrical spigots. Enlarged aggregate spigots are synapomorphic for nesticids and theridiids (Agnarsson, 2004 and references therein) (H95, G98, A04, K07, A07, DIP).';
+	TEXT CHARACTER=11 TEXT='0^n';
+	TEXT CHARACTER=12 TEXT='Aggregate spigots are associated with the aggregate glands that produce the liquid viscid silk unique of araneoid spiders. Araneoids use this viscid silk to catch or retain the prey. Other orbicularians lack aggregate glands and produce sticky silk with the cribellum. Aggregate spigots are synapomorphic for Araneoidea with secondary loss of these glands and spigots in several araneoid taxa (Griswold et al., 1998; 2005) (H95, G98, G05, A07, DIP).';
+	TEXT CHARACTER=13 TEXT='0^n';
+	TEXT CHARACTER=14 TEXT='In most araneoid taxa the aggregate spigots flank the flagelliform spigot. The flagelliform spigot is also separated towards the anterior spinneret edge at least one aggregate spigot diameter apart in Deliochus sp (Fig. 135E). and Phonognatha graeffei (Fig. 135E).';
+	TEXT CHARACTER=15 TEXT='0^n';
+	TEXT CHARACTER=16 TEXT='The spinneret cuticle of araneoid spiders is scaly. Such squamose spinneret cuticle is synapomorphic for Araneoidea (Griswold et al., 1998). The spinneret cuticle of Uloborus and Oncodamus has a rugose pattern (Lehtinen, 1975) (G98, G05).';
+	TEXT CHARACTER=17 TEXT='0^n';
+	TEXT CHARACTER=18 TEXT='The epiandrous fusules are exclusively in males and it has been suggested that they produce a sperm web and are serial homologs of the median spinnerets (Fage and Machado, 1951; Machado, 1951; Marples, 1967) (A04, G05).';
+	TEXT CHARACTER=19 TEXT='0^n';
+	TEXT CHARACTER=20 TEXT='The bases of the epiandrous fusules can be leveled with the surrounding cuticle, or immersed in pits. The number of spigots per pit can vary in the same specimen from one to several.';
+	TEXT CHARACTER=21 TEXT='0^n';
+	TEXT CHARACTER=22 TEXT='The posterior margin of the epiandrous region can be either undifferentiated from the surrounding cuticle or distinctively swollen.';
+	TEXT CHARACTER=23 TEXT='0^n';
+	TEXT CHARACTER=25 TEXT='0^n';
+	TEXT CHARACTER=26 TEXT='In most araneoids the ecto-basal cymbial margin has only one process known as the paracymbium. In some tetragnathids the cymbial base bears another process close to the paracymbium called the cymbial ecto-basal process (Kuntner and Alvarez-Padilla, 2006). Cymbium with similar but not homologous processes are found in Pimoidae (Hormiga, 1994b figs. 301-304, 310-311) and in some linyphiids. In tetragnathids this process has been considered as part of the paracymbium in other studies (Levi, 1980 fig. 124, Hormiga et. al 1995 fig. 6 C) (L80, H95, A07, DIP).';
+	TEXT CHARACTER=27 TEXT='0^n';
+	TEXT CHARACTER=28 TEXT='In addition to the CEBP and the paracymbium, the ectal edge of the cymbium has another process located at the middle region called the CEMP. All taxa with a CEBP have a CEMP except Dolichognatha pentagona, Metellina segmentata and Diphya spinifera. Diphya spinifera represents a interesting case because it’s CEMP could be interpreted either as such or homologous to the CEBP. None of these alternative codings produced topological changes in the most parsimonious trees (A07, DIP).';
+	TEXT CHARACTER=29 TEXT='0^n';
+	TEXT CHARACTER=30 TEXT='1';
+	TEXT CHARACTER=31 TEXT='The dorso-basal surface of the cymbium in most araneoids lacks any processes or apophyses. Some tetragnathids have a spine-shaped process at the dorso-basal surface of the cymbium. Based on conjunction and the CDBP is not homologous to the cymbial ectal processes, because Metleucauge eldorado has both CEMP and CEDP (Figs. 80B, E). The CEBP and the CEDP were hypothesized as homologous in previous studies, and an extra character added to account for their topological differences (Álvarez-Padilla, 2007) these alternative hypotheses produced no changes in topology (A07, DIP).';
+	TEXT CHARACTER=32 TEXT='1';
+	TEXT CHARACTER=34 TEXT='The cymbium internal ectal margin has an apophysis, previously thought to be homologous with the paracymbium, which interacts with the median apophysis locking the bulb in theridiids (Agnarsson, 2004: fig. 31F, ch31 and references therein). This locking mechanism is synapomorphic for Theridiidae (G98, A04, A07, DIP).';
+	TEXT CHARACTER=35 TEXT='1';
+	TEXT CHARACTER=36 TEXT='The ectal cymbial margin can be either sclerotized as the rest of the cymbium, or modified as a translucent cuticular flap. The flap of Phonognatha graeffei is interpreted here as a paracymbium (see Hormiga et al., 1995 for justification) and therefore Phonognatha is coded as lacking the translucent flap (coded different in Kuntner, 2005, 2006; Kuntner et al., 2008).';
+	TEXT CHARACTER=37 TEXT='The paracymbium is a basal process arising from the ectal edge of the cymbium and it has been postulated as synapomorphic for Araneoidea (Griswold et al., 1998 and references therein). All tetragnathids, like most araneids, have a paracymbium except Homalometa Simon, 1897 species (Levi, 1986: 206 figs. 735-739). However, in several taxa of the “reduced piriform clade” the paracymbia have been lost and reappear several times. Theridiids and many symphytognathoids lack paracymbia such as Anapis Simon, 1895 (Anapidae); Maymena Gertsch, 1960; Mysmena Simon, 1894 (Mysmenidae) and Patu Marples, 1951 (Symphytognathidae) (Griswold et al., 1998, 2005; Agnarsson, 2004). Whereas, Symphytognatha Hickman, 1931 (Symphytognathidae) Synaphris Simon, 1894; Cepheia Simon 1894 (Synaphridae) and some Synotaxus Simon, 1895; (Synotaxidae) Nesticus Thorell, 1869 (Nesticidae) among other taxa have paracymbia (Harvey, 1992; Agnarsson, 2004; Lopardo et al., 2007; Lopardo and Hormiga, in press). Topologically similar structures are found on spiders in other non araneoid families (e.g. Hypochilus, (Hypochilidae) Griswold et al., 2005: fig. 166A; Tapinillus (Oxyopidae) Griswold, 1993: fig. 56) (L80, C90, H94, H95, S97, G98, T01, A04, G05, A07, DIP).';
+	TEXT CHARACTER=38 TEXT='5';
+	TEXT CHARACTER=40 TEXT='0^n';
+	TEXT CHARACTER=41 TEXT='1';
+	TEXT CHARACTER=43 TEXT='1';
+	TEXT CHARACTER=44 TEXT='Phonognatha graeffei is coded as polymorphic, some specimens have no setae (Kuntner, 2005, 2006) while other specimens that we have studied have four setae evenly distributed (K07, DIP).';
+	TEXT CHARACTER=45 TEXT='1';
+	TEXT CHARACTER=46 TEXT='1';
+	TEXT CHARACTER=47 TEXT='The tegulum shape is a complex character that varies considerably across Araneoidea; however this diversity can be summarized in two basic morphologies, oval to spherical and disk-shaped. If tegulum height is less than one third of its diameter then it is considered as disk shaped, otherwise it is considered as oval to spherical.';
+	TEXT CHARACTER=48 TEXT='1';
+	TEXT CHARACTER=50 TEXT='1';
+	TEXT CHARACTER=51 TEXT='In many araneoids two sclerites arise from the tegulum, the conductor and the median apophysis, although some taxa can have more tegular sclerites such as theridiids (Fig. 139D; Agnarsson, 2004 and references therein). Often the median apophysis is distinguished from the conductor because it is separated from the embolus. During pedipalp development the median apophysis and the conductor originate form the dorsal lobe of the palpal claw fundament, while all other sclerites develop from the ventral lobe. At the last stages of pedipalp development all sclerites differentiate and insert into the tegulum; the sclerite closest to the embolus is the conductor and the other is the median apophysis (Bhatnagar and Rempel, 1962). However, shifts of position during development between the median apophysis, the conductor and any extra tegular sclerite could occur complicating discerning the homology of this structures. All tetragnathids lack a median apophysis (contra Archer, 1951) (L80, C90, H94, H95, S97, G98, G05, A04, K07, A07, DIP).';
+	TEXT CHARACTER=52 TEXT='1';
+	TEXT CHARACTER=53 TEXT='Several palpal sclerites attach to the tegulum including the conductor (see discussion of character 51). The conductor has been traditionally defined as the tegular sclerite associated with the embolus, presumably to protect it, at least its apical region. In a recent study Kuntner (2005) interpreted the conductor of nephilids as a sclerite unique to nephilids that he called “embolic-conductor,” and argued that the “embolic-conductor” was not homologous to the araneoid conductor. The main reason for Kuntner (2005) to refer to the conductor of nephilids as the “embolic conductor” (not homologous to the araneoid conductor itself) was the presence of a membrane which connects the “embolic conductor” with the embolus-tegulum membrane and the tegulum. In Kuntner’s view the “embolic-conductor” is part of the embolic division because it has a membranous attachment to the tegulum (see character 59). This membrane is consequently interpreted as part of the embolus-tegulum membrane (see character 63). Both membranes in nephilids are contiguous (Kuntner, 2005, 2006). However, the conductor of many tetragnathids also has a membranous attachment to the tegulum, as can be seen in Orsinome cf. vethi (Figs. 104C-D), Leucauge argyra (Fig. 50A), L. venusta (Walckenaer, 1842), L. mariana (Taczanowski, 1881) and Cyrtognatha spp. (Dimitrov and Hormiga, in press.: figs. 6C, 41D-E). We have homologized the conductor of nephilids with the conductor of other araneoid taxa, following Levi and Eickstedt (1989), Hormiga et al (1995), Griswold et al. (1998) and Dimitrov and Hormiga (in press.). New light on the homology of the conductor of nephilids may come from studying the development of the pedipalp; nevertheless, if the nephilids’ sclerite indeed originates from the ventral lobe, then it would be more parsimonious to homologize it to an existing embolic apophysis sclerite than to postulate its de novo origin (the latter also would require a secondary absence of the conductor) (L80, C90, H94, H95, S97, G98, T01, A04, G05, A07, DIP).';
+	TEXT CHARACTER=54 TEXT='1';
+	TEXT CHARACTER=55 TEXT='The conductor can originate either at the center of the tegulum or along the tegular lateral edges (G05, A07, DIP).';
+	TEXT CHARACTER=56 TEXT='1';
+	TEXT CHARACTER=57 TEXT='In all araneoids studied here, except tetragnathids, the conductor area enclosing the embolus extends from the embolus base up to one third of the embolus length. In tetragnathids the conductor covers more than one third of the embolus and it can surround either only one side of the embolus or completely enclose it (A07, DIP).';
+	TEXT CHARACTER=58 TEXT='0^n';
+	TEXT CHARACTER=59 TEXT='1';
+	TEXT CHARACTER=61 TEXT='1';
+	TEXT CHARACTER=62 TEXT='The embolus-conductor of nephilids is at a right angle to the longitudinal axis of the pedipalp (G95, G98, K07, DIP).';
+	TEXT CHARACTER=63 TEXT='1';
+	TEXT CHARACTER=64 TEXT='3';
+	TEXT CHARACTER=66 TEXT='1';
+	TEXT CHARACTER=67 TEXT='The shape of the embolus of tetragnathid spiders, contrary to that of araneids, is not very variable but there are some general patterns. Tubular emboli are those roughly cylindrical for more than half of their length and gradually decreasing towards the apex (e.g., Tetragnatha versicolor Figs. 113A-B). Flagelliform emboli have a base considerably wider than the rest of the embolus, which is characteristic of nephilids and leucaugines. Lamelliform emboli are defined as flat rectangular sclerotized plates. Within Tetragnathidae Meta menardi, Azilia affinis and Allende nigrohumeralis are considered as having lamelliform-shaped emboli (Figs. 12A-B, 17C, 60B) (A04, K07, DIP).';
+	TEXT CHARACTER=68 TEXT='0^n';
+	TEXT CHARACTER=69 TEXT='This character is inapplicable to flagelliform emboli (see character 67 definition).';
+	TEXT CHARACTER=70 TEXT='1';
+	TEXT CHARACTER=71 TEXT='The araneid radix is defined by Scharff and Coddington (1997) as an intermediate sclerite between the tegulum and the embolus. The radix can be differentiated from other embolic division sclerites by its relative position on the tegulum, by having the sperm duct runs through it and by having a membranous attachment to more distal sclerites. Tetragnathids lack a radix. The absence of a radix is plesiomorphic for Araneoidea with two independent origins, one of them synapomorphic for araneids (Scharff and Coddington, 1997). Linyphia triangularis (and linyphiids in general) have an equally named sclerite but it is not homologous to the araneid radix. The linyphiid radix differs morphologically from the araneid radix in that the spermatic duct dose not crosses through it (Levi, 1971; Hormiga, 1994a; 1994b). Radix can be defined as a basal modification of the embolus that interacts with a tegular membrane and that it is crossed through its longitudinal axis by the spermatic duct. If this definition of homology is applied the basal modification of “leucaugines” e.g., Leucauge venusta (Fig. 44D) and nephilids can be considered as a radix; this alternative coding had no effects on the topologies recovered (C90, H94, H95, S97, G98, K07, A07, DIP).';
+	TEXT CHARACTER=72 TEXT='The stipes is a sclerite between the radix and the embolus. As in the radix, the spermatic duct also runs through it. This character is found only within some Araneidae (Scharff and Coddington, 1997 and references therein) (H95, S97, K07, A07, DIP).';
+	TEXT CHARACTER=73 TEXT='The distal hematodocha is a membranous sack located between the radix and the stipes. In some Araneids the distal hematodocha is enlarged and associated with the terminal and subterminal apophyses (Scharff and Coddington, 1997: fig. 8) (H95, S97, A07, DIP).';
+	TEXT CHARACTER=74 TEXT='0^n';
+	TEXT CHARACTER=75 TEXT='The subterminal apophysis is defined as the most basal sclerite attached to the embolus via the distal hematodocha (Scharff and Coddington, 1997: fig. 10). Taxa without embolic apophyses are coded as inapplicable. This apophysis is present in some araneids (Figs. 138F, 140B) (S97, A07, DIP).';
+	TEXT CHARACTER=76 TEXT='The palpal sperm duct is divided in three distinct parts: the fundus, an enlargement forming a pouch usually at the proximal end; the reservoir, a long tube spiraling throughout the tegulum; and the ejaculatory duct that resides inside the embolus (Comstock, 1910). The sperm duct of most araneoids has the same diameter through all its length. The median section of the spermatic duct of Glenognatha, Pachygnatha, Tetragnatha and Cyrtognatha species is considerably enlarged between the fundus and before entrance to the embolus, and synapomorphic for these four taxa (C90, H95, G98, A07, DIP).';
+	TEXT CHARACTER=77 TEXT='0^n';
+	TEXT CHARACTER=78 TEXT='Dolichognatha pentagona has few turns although other congeneric species lack them (e.g. Dolichognatha sp. Hormiga et al., 1995: fig. 13C). Some “leucaugines”, nephilids and theridiosomatids have sperm ducts with several turns (e.g., Nephilengys cruentata, Hormiga et al., 1995: fig. 12D; Epeirotypus brevipes Coddington, 1986a: figs. 62-63) (A07, DIP).';
+	TEXT CHARACTER=79 TEXT='0^n';
+	TEXT CHARACTER=80 TEXT='The cheliceral boss is a swelling of the ecto-basal part of the paturon (Griswold et al., 2005). All taxa studied except the members of the “reduced piriform clade” have cheliceral bosses (C90, A04, K07, DIP).';
+	TEXT CHARACTER=81 TEXT='0^n';
+	TEXT CHARACTER=82 TEXT='2';
+	TEXT CHARACTER=83 TEXT='Massive chelicerae are those in which its width is longer than half the paturon length; slender chelicerae are shorter (K07, DIP).';
+	TEXT CHARACTER=84 TEXT='1';
+	TEXT CHARACTER=85 TEXT='The chillum is a small sclerotized plate between the clypeal margin and the chelicerae paturon membrane (G05, K07, DIP).';
+	TEXT CHARACTER=86 TEXT='In all araneoids studied the cheliceral promargin has teeth; lack of these teeth is optimized as synapomorphic for theridiids (Agnarsson, 2004: figs.19C, 22E, 27F) (A04).';
+	TEXT CHARACTER=87 TEXT='1';
+	TEXT CHARACTER=88 TEXT='The ocular area position is a comparison between the ALE height relative to the coxal carapace margin. Low ocular areas are those in which the ALE are below the coxal margin. High ocular areas are those in which ALE are above the coxal carapace margin.';
+	TEXT CHARACTER=89 TEXT='1';
+	TEXT CHARACTER=90 TEXT='The lateral eye separation is measured in relation to the separation of the PME (Scharff and Coddington, 1997) (S97, K07, DIP).';
+	TEXT CHARACTER=91 TEXT='0^n';
+	TEXT CHARACTER=92 TEXT='The tapetum is a reflective layer of guanine crystals found only on the secondary eyes, its function is to amplify the amount of light received by the rhabdomes. In most araneoids the tapetum, when present, is equally distributed along both sides of the mid line of the eye forming a canoe shape. Eyes without a tapetum have a uniform gray color without any reflective coating. The tapetum deteriorates in dead and old museum specimens, but sometimes the canoe-shaped scar left by the tapetum can be seen. If this scar was identified then the studied species they were coded as having a tapetum (L80, C90, S97, G98, G05, K07, DIP).';
+	TEXT CHARACTER=93 TEXT='The canoe-shaped tapetum can be either evenly distributed along both sides of the middle line covering more than one third of the eye area, or covering less than one third of the eye area. In araneids the tapetum is reduced to a thin line, this type of tapetum is synapomorphic for Araneidae (Scharff and Coddington, 1997) (L80, S97, G98).';
+	TEXT CHARACTER=94 TEXT='Araneoid spiders without a tapetum usually lack this structure in all secondary eyes, except in a few tetragnathids such as Pachygnatha autumnalis and Glenognatha foxi that have a tapetum in the PME but lack this structure in the PLE (L80, C90, S97, H95, G98, G05, K07, A07, DIP).';
+	TEXT CHARACTER=95 TEXT='1';
+	TEXT CHARACTER=97 TEXT='1';
+	TEXT CHARACTER=98 TEXT='2';
+	TEXT CHARACTER=99 TEXT='Piriform carapaces are considered as having the cephalic region width less than 70% the thoracic region width. Oval carapace is defined as the cephalic wider than 70% (S97, A04, K07, DIP).^n0.65';
+	TEXT CHARACTER=100 TEXT='Enlarged anterior gut caeca are midgut projections than extend inside the chelicerae and coxae. Tetragnatha and Pachygnatha have bulkier ventral caeca. Normal anterior gut caeca do not extend into the chelicerae and pedipalp coxae. Anterior gut caecae have been observed in Leucauge, Pachygnatha, and Tetragnatha, and absent in Meta (Pallgrem, 1978a, 1978b; Hormiga et al., 1995) (L80, H95, G98, G05, A07, DIP).';
+	TEXT CHARACTER=101 TEXT='1';
+	TEXT CHARACTER=102 TEXT='3';
+	TEXT CHARACTER=103 TEXT='Usually the only depression on the cephalic area is the cephalic fovea; some “leucaugines” however have an additional pair of pits anterior to the fovea. This character has no sexual dimorphism.';
+	TEXT CHARACTER=104 TEXT='0^n';
+	TEXT CHARACTER=105 TEXT='The sternal apical edge of many araneids and nephilids is roughly triangular giving the appearance of a pentagonal sternum. The sternum apical edge of most tetragnathid is flat giving the appearance of a trapezoidal sternum. This character has no variation between females and males.';
+	TEXT CHARACTER=106 TEXT='0^n';
+	TEXT CHARACTER=107 TEXT='6';
+	TEXT CHARACTER=108 TEXT='1';
+	TEXT CHARACTER=109 TEXT='In addition to the tubercles located at the edge of the sternum, there can be an anterior median tubercle (K07, DIP).';
+	TEXT CHARACTER=110 TEXT='0^n';
+	TEXT CHARACTER=111 TEXT='The cheliceral curvature is measured by comparing the width between the distal ectal surfaces of the chelicera, with the clypeus width.';
+	TEXT CHARACTER=112 TEXT='0^n';
+	TEXT CHARACTER=114 TEXT='0^n';
+	TEXT CHARACTER=115 TEXT='2';
+	TEXT CHARACTER=116 TEXT='This tubercle is found on the cheliceral surface that its in front of the mouth (K07, DIP).';
+	TEXT CHARACTER=117 TEXT='The paturon cuticle anterior surface is usually more wrinkled in males when dimorphic.';
+	TEXT CHARACTER=118 TEXT='1';
+	TEXT CHARACTER=119 TEXT='Proportions between the cephalic and thoracic regions in males and females are the same in most of the taxa studied. In some araneids and nephilids the cephalic region of the male is considerably narrower than the female cephalothorax. Carapace sexual dimorphism within Tetragnathidae is present only in Chrysometa alajuela (Figs. 19A-B).';
+	TEXT CHARACTER=120 TEXT='0^n';
+	TEXT CHARACTER=121 TEXT='1';
+	TEXT CHARACTER=122 TEXT='For this character the body longitudinal length was taken into consideration. Sexual size dimorphism in araneoid spiders has been the subject of numerous studies (Hormiga et al 2000 and references therein). The evolution of size dimorphism in Araneoidea has been studied recently with a cladistic perspective concluding that female gigantism has been responsible for most cases of size dimorphism, although a few cases of male dwarfism exist e.g., Kaira spp. (Hormiga et al., 1995; Scharff and Coddington, 1997; Hormiga et al., 2000) (H95, S97, G98, K07, A07, DIP).';
+	TEXT CHARACTER=123 TEXT='1';
+	TEXT CHARACTER=125 TEXT='1';
+	TEXT CHARACTER=126 TEXT='The area between the pedicel and epigynal plate can be either the height of the surrounding cuticle or excavated (K07, DIP).';
+	TEXT CHARACTER=127 TEXT='The scape is a projection of the ventral epigynal plate found in some araneids. A similar but homoplasious projection is present in Mollemeta edwardsi (Fig. 84A-B). Linyphia and many linyphiids have a scape that originates from the dorsal epigynal plate. In previous studies both apophyses of the epigynal plates, either dorsal or ventral, have been considered as scape (Hormiga, 1994a, 2000). In this study we have restricted the term scape to only those projections of the anterior plate (H94, S97, A07, DIP).';
+	TEXT CHARACTER=128 TEXT='1';
+	TEXT CHARACTER=130 TEXT='1';
+	TEXT CHARACTER=131 TEXT='2';
+	TEXT CHARACTER=132 TEXT='3';
+	TEXT CHARACTER=133 TEXT='This membranous chamber is located between the spermathecae, when present, and could be a transformation of the uterus externus walls into a sack. This membranous sack is unique to tetragnathines (Dimitrov et al., 2007). The presence of this chamber is synapomorphic for Tetragnathinae (DIP).';
+	TEXT CHARACTER=134 TEXT='1';
+	TEXT CHARACTER=135 TEXT='The epigynum is a sclerotized plate where the spermatheca and copulatory ducts connect (see character 123). Most araneoids’ epigynal plate is flat and the ventral surface of the spermatheca is surrounded by accessory glands and the uterus externus. In some araneids the epigynal plate folds, surrounding the spermathecae (e.g., Neoscona domiciliorum, Fig. 135A). In these taxa, parts of the curved plate had to be removed to observe the copulatory ducts and spermatheca junction (e.g., Cyclosa conica, Fig. 134D).';
+	TEXT CHARACTER=136 TEXT='1';
+	TEXT CHARACTER=137 TEXT='The spermatheca cuticle can be either hard or soft resembling a membranous sac due to different levels of sclerotization (T01, A07, DIP).';
+	TEXT CHARACTER=138 TEXT='1';
+	TEXT CHARACTER=139 TEXT='There is always a continuous space between the spermatheca volume, however in some species the spermathecae have constrictions and turns that create more chambers (A04, K07, DIP).';
+	TEXT CHARACTER=140 TEXT='1';
+	TEXT CHARACTER=142 TEXT='1';
+	TEXT CHARACTER=144 TEXT='0^n';
+	TEXT CHARACTER=145 TEXT='0^n';
+	TEXT CHARACTER=146 TEXT='2';
+	TEXT CHARACTER=147 TEXT='This character was coded with cleared epigyna. The level of sclerotization in the cuticle varies from well sclerotized, opaque, thick, walls that are brown when made translucent; to less sclerotized duct walls with thin, clear walls.';
+	TEXT CHARACTER=148 TEXT='1';
+	TEXT CHARACTER=149 TEXT='The fertilization ducts origin is defined as where they join the spermatheca. Most of the araneoid studied have fertilization ducts originating on the posterior edge of the spermatheca (A07, DIP).';
+	TEXT CHARACTER=150 TEXT='1';
+	TEXT CHARACTER=151 TEXT='Curved fertilization ducts paths are C-shaped, coiled ducts have more than one turn.';
+	TEXT CHARACTER=152 TEXT='1';
+	TEXT CHARACTER=154 TEXT='1';
+	TEXT CHARACTER=155 TEXT='The surface of the abdomen for Gasteracantha and Micrathena is decorated with sharp spines; the presence of these spines is synapomorphic for these two taxa. It has been suggested that the evolution of these spines could be a response to predation mainly form birds (S97, A07, DIP).';
+	TEXT CHARACTER=156 TEXT='1';
+	TEXT CHARACTER=158 TEXT='1';
+	TEXT CHARACTER=159 TEXT='This character is from Kuntner (2006), but state two was added to include the variation presented in this taxonomic sample (K07).';
+	TEXT CHARACTER=160 TEXT='The ventral pattern of the abdomen can be decorated with patches of various shapes (Kuntner, 2005, 2006) (K07).';
+	TEXT CHARACTER=161 TEXT='2';
+	TEXT CHARACTER=163 TEXT='0^n';
+	TEXT CHARACTER=164 TEXT='The internal surface of the tracheal atrium can be either smooth or covered with cylindrical glands.';
+	TEXT CHARACTER=165 TEXT='0^n';
+	TEXT CHARACTER=166 TEXT='A scutum is defined as a sclerotized plate that covers the abdomen. In some nephilines the scutum is located on the dorsal surface of the abdomen. This character is synapomorphic for Nephila, Herennia and Nephilengys. Other araneoid taxa have an abdominal scutum such as the species of the araneid genus Hypognatha Guérin, 1839 (Levi, 1996) (H95, G98, K07, A07, DIP).';
+	TEXT CHARACTER=167 TEXT='1';
+	TEXT CHARACTER=168 TEXT='The anterior edge of the booklung cuticle can be either smooth or modified with a stridulatory organ. This stridulatory organ is synapomorphic of the “Nanometa clade”; Forster and Forster (1999) were the first to notice this structure in those taxa. These authors also mentioned that this groove could be a stridulatory organ because it is anterior to a line of denticles on coxa IV. Males of Micrathena have a similar stridulatory organ than in females; however, the ridges are less conspicuous.';
+	TEXT CHARACTER=169 TEXT='1';
+	TEXT CHARACTER=171 TEXT='1';
+	TEXT CHARACTER=173 TEXT='1';
+	TEXT CHARACTER=174 TEXT='In most araneoids the mesal and ectal basal surfaces of the femur IV have similar setae densities; whereas in most tetragnathids the mesal surface has a basal area has no setae.';
+	TEXT CHARACTER=175 TEXT='These bristles are made of modified setae that cover the basal part of the tibia in Nephila clavipes and Opadometa sp. (K07, A07, DIP).';
+	TEXT CHARACTER=176 TEXT='0^n';
+	TEXT CHARACTER=178 TEXT='0^n';
+	TEXT CHARACTER=180 TEXT='2';
+	TEXT CHARACTER=181 TEXT='This character is coded by dividing the length of the tibia by its width at the widest point.';
+	TEXT CHARACTER=182 TEXT='0^n';
+	TEXT CHARACTER=183 TEXT='This character is coded by dividing the length of the trochanter by its width at the widest point (K07, DIP).';
+	TEXT CHARACTER=184 TEXT='0^n';
+	TEXT CHARACTER=185 TEXT='The mesal surface of the male coxa IV can be smooth or covered with rows of denticles. It has been mentioned that these teeth interact with a stridulatory organ found in the book lung cover (see character 168) (A07, DIP).';
+	TEXT CHARACTER=186 TEXT='1';
+	TEXT CHARACTER=187 TEXT='Orbicular webs are composed by a radial frame covered with a spiral of sticky silk; although some araneids such as cyrtophorines make orb webs without sticky silk (Scharff and Coddington, 1997 and references therein). Orb webs are plesiomorphic for Araneoidea and also found in deinopoids (Coddington, 1986b). The highest diversity of web architectures is found within the reduced piriform clade (Figs. 5F, 6A-C, 7B). Araneoids with web architecture similar to that of Tetragnathidae are found mostly in Araneidae (Figs. 7C-D). Similar orbicular webs also exist outside of Araneoidea (e.g., in the psechrid Fecenia sp. Fig. 6C). The presence of sheet webs or gum foot webs has been proposed as synapomorphic for Linyphia, Nesticus, Steatoda and Achaearanea (C90, H95, S97, G98, A04, K07, A07, DIP).';
+	TEXT CHARACTER=188 TEXT='0^n';
+	TEXT CHARACTER=189 TEXT='This character refers to the position of the legs when the spider is at the center of the web or resting inside its retreat. Extended legs I and II also has been referred as the “metine resting posture” (L80, C90, H95, S97, G98, K07, A07, DIP).';
+	TEXT CHARACTER=190 TEXT='0^n';
+	TEXT CHARACTER=191 TEXT='Horizontal webs are those considered with less than 45 degrees of slope; vertical webs are those with greater angles (K07, DIP).';
+	TEXT CHARACTER=192 TEXT='1';
+	TEXT CHARACTER=193 TEXT='Most araneids and all tetragnathids build a new web each day or remove the complete web after it is damaged; other araneoids, such as nephilids, repair their webs after damage (Kuntner, 2006: fig. 34C) (K07, DIP).';
+	TEXT CHARACTER=194 TEXT='The hub is a series of silk loops in the center of the web where all radii converge. The hub construction can be either integrated with radii construction, or radii construction can be interrupted while hub loops are added to the unfinished web. However, hub construction is not finished until the last stages of web building, after the spider has spun the sticky spiral. Four adjustments can be done to the hub: the hub can either be left intact, have only its center removed, be removed and replaced, or be completely removed and the radii attached directly. Furthermore, some spiders such as Ogulnius sp. (Theridiosomatidae) never build a hub (Eberhard, 1982). In tetragnathids the hub can either be left intact or have only its center removed (open hubs). Open hubs are common within tetragnathids; of the taxa studied only Mollemeta, Azilia and Dolichognatha have closed hubs (Figs. 3C, 4E) (L80, C90, H95, G98, K07, A07, DIP).';
+	TEXT CHARACTER=195 TEXT='The center of the hub can be either left intact or removed by biting it out; after hub removal the spider can either rebuild the hub or leave it open (Eberhard, 1982). The only tetragnathid that has intact hubs attached to the substrate is Glenognatha (C90, H95, G98, K07, A07, DIP).';
+	TEXT CHARACTER=196 TEXT='1';
+	TEXT CHARACTER=197 TEXT='The last loop of silk in the hub can be either continuous with the no sticky spiral, or discontinuous. This character must be coded before web building completion before the spider removes the no sticky spiral (Eberhard 1982). Gradual transition between the hub loops and the no sticky spiral is synapomorphic for Deliochus, Phonognatha and nephilines; this character is coded as unknown (?) for Deliochus. Just a few tetragnathids are coded for this character, among them Mollemeta is the only species that has a gradual transition between these two web components (H95, K07, A07, DIP).';
+	TEXT CHARACTER=198 TEXT='The hub can also be modified on to a silken cup, this cup unique and synapomorphic for Herennia and Nephilengys (Kuntner, 2005) (K07, DIP).';
+	TEXT CHARACTER=199 TEXT='1';
+	TEXT CHARACTER=200 TEXT='radii attached twice, (Nephila clavipes). Radial construction starts when the spider attaches a new radius to the hub, then walks over an existing radius until it reaches the edge of the web; if the spider replaces this radius while returning to the hub, then only one point of attachment exists for this radius to the hub (state 0). Few tetragnathids and Phonognatha are coded for this character, and all of them have a single attached radius. By contrast, nephilids do not replace the previous radius while returning to the hub and attach this second radius to the same junction of the previous one, creating a double attachment (state 1) (Eberhard, 1982) (C90, H95, G98, K07, A07, DIP).';
+	TEXT CHARACTER=201 TEXT='When the spider knits a new radius, it can cut the original radius and knit a new one while returning to the hub (state 0), or leave intact that radius (state 1) (see also character 199 definition). Uloborus glomosus have a single attached radius that is not cut and reeled (Eberhard, 1982) (C90, H95, G98, K07, A07, DIP).';
+	TEXT CHARACTER=202 TEXT='Radii can follow a straight path to the web perimeter or divide (K07, DIP).';
+	TEXT CHARACTER=203 TEXT='1';
+	TEXT CHARACTER=204 TEXT='This character refers to the leg that the spider uses to measure where to attach the sticky silk line to the radii. oL1 means leg one pointing outside the hub, iL1 internal leg one, and so forth (Eberhard, 1982). Leg oL1 is optimized as plesiomorphic for Araneoidea, Uloborus glomosus also uses this leg to measure where to attach the sticky silk. The use of iL1 is synapomorphic for a clade that includes Tetragnathidae, “the reduced piriform clade”, Deliochus, Phonognatha and nephilids. Finally, the use of leg oL4 is synapomorphic for Phonognatha and nephilids. This behavior has not been documented for Deliochus or Clitaetra (L80, C90, H95, S97, G98, K07, A07, DIP).';
+	TEXT CHARACTER=205 TEXT='This is the first spiral that the spider builds after radial construction from the hub to the edge of the web. The spider uses this frame to produce the sticky silk spiral starting from the perimeter towards the center (Eberhard, 1982) (H95, S97, G98, K07, A07, DIP).';
+	TEXT CHARACTER=206 TEXT='The first line of sticky silk can be either separated from the first line non sticky silk or continuous (Hormiga et al., 1995 and references therein).';
+	TEXT CHARACTER=207 TEXT='Many araneoids are found either hanging on the hub, or build a retreat were they wait until a prey is caught in the web. The placement of the retreat can be either in the web or away from it. Usually retreats in the web are made of leaves (Phonognatha graeffei, Fig. 7A), dirt orh remains from previous meals (Cyclosa caroli, Levi, 1977: pl. 3; Tso, 1998). Retreats off the web are usually located above the web and are made of the surrounding substrate, usually leaves. Retreats off the web are connected to the web by telegraphic silk threads (Chrysometa spp., Fig. 3D; Levi, 1986: pl. 1-2). Within Tetragnathidae Azilia, Dolichognatha and Chrysometa build retreats off the web. No tetragnathines build retreats on the web, although the webs of some Tetragnatha species are in close contact with twigs and braches that run through the hub (Levi, 1981). Retreats on the web are found within Araneidae in some Metepeira species (Levi, 1977: pl. 1; Piel, 2001) and Cyclosa, and within nephilids in Herennia (Kuntner, 2005) (K07, DIP).';
+	TEXT CHARACTER=208 TEXT='0^n';
+	TEXT CHARACTER=209 TEXT='This character describes the sequence in which the spider immobilizes and injects venom to the prey. Eberhard (1982) identified four types of attack behavior that can be summarized in two general patterns; the spider first bites the prey injecting venom and then wraps it with silk, or the spider first wraps the prey and then injects venom. The other two patterns refer to whether the spider rotates the pray while wrapping it or not. We coded presence of wrap-bite attack without taking into account the pray rotation as specified in Eberhard’s I4 behavior category (C90, H95, G98, A04, K07, A07, DIP).';
+	TEXT CHARACTER=210 TEXT='This character codes whether or not the spider uses sticky silk to wrap the prey. The use of sticky silk while wrapping is optimized as synapomorphic for theridiids in our analysis, however this character has been observed only for six terminals. The use of sticky silk while wrapping the prey has been postulated as a synapomorphy for the “spineless femur clade” (Griswold et al., 1998; Agnarsson, 2004) (G98, A04, K07, DIP).';
+	TEXT CHARACTER=211 TEXT='This refers to a behavior exhibited when the spider is disturbed, and it forcefully shakes the web (Kuntner, 2005) (K07, DIP).';
+	TEXT CHARACTER=212 TEXT='Some nephilines block the epigynum by detaching the complete pedipalp bulb. This character is synapomorphic for Herennia and Nephilengys (Kuntner, 2005, 2006) and also is present on some theridiids (Agnarsson, 2004) (A04, K07, DIP)';
+	TEXT CHARACTER=213 TEXT='Males and females interlock their chelicera while mating in some Tetragnatha (Levi, 1981: pl. 4) and Leucauge species. Cheliceral clasp does not occur in Meta and Nephila (Robinson, 1982; Eberhard and Huber, 1998a and references therein).';
+
+      [Attribute comments]
+      	TEXT TAXON=14 CHARACTER=36 TEXT='coded different as Kuntner';
+	TEXT TAXON=41 CHARACTER=36 TEXT='coded different as Kuntner. This flap is the paracymbium.';
+	TEXT TAXON=17 CHARACTER=45 TEXT='coded different as Kuntner';
+	TEXT TAXON=5 CHARACTER=60 TEXT='coded different as Kuntner';
+	TEXT TAXON=36 CHARACTER=68 TEXT='coded different as Kuntner see Agnarsson 2004';
+	TEXT TAXON=17 CHARACTER=70 TEXT='coded different as Kuntner';
+	TEXT TAXON=5 CHARACTER=79 TEXT='coded different as Kuntner';
+	TEXT TAXON=44 CHARACTER=79 TEXT='coded different as Kuntner';
+	TEXT TAXON=5 CHARACTER=83 TEXT='coded different as Kuntner';
+	TEXT TAXON=25 CHARACTER=83 TEXT='coded different as Kuntner';
+	TEXT TAXON=40 CHARACTER=83 TEXT='coded different as Kuntner';
+	TEXT TAXON=36 CHARACTER=85 TEXT='coded different as Kuntner';
+	TEXT TAXON=43 CHARACTER=85 TEXT='coded different as Kuntner';
+	TEXT TAXON=12 CHARACTER=87 TEXT='very small, coded as 0 no change in topology';
+	TEXT TAXON=40 CHARACTER=87 TEXT='very small';
+	TEXT TAXON=3 CHARACTER=99 TEXT='0.65';
+	TEXT TAXON=7 CHARACTER=99 TEXT='0.69';
+	TEXT TAXON=30 CHARACTER=99 TEXT='0.65';
+	TEXT TAXON=38 CHARACTER=99 TEXT='0.68';
+	TEXT TAXON=4 CHARACTER=109 TEXT='coded different as Kuntner';
+	TEXT TAXON=4 CHARACTER=116 TEXT='coded different as Kuntner';
+	TEXT TAXON=7 CHARACTER=116 TEXT='coded different as Kuntner';
+	TEXT TAXON=20 CHARACTER=116 TEXT='coded different as Kuntner';
+	TEXT TAXON=41 CHARACTER=118 TEXT='coded different as Kuntner';
+	TEXT TAXON=24 CHARACTER=126 TEXT='coded different as Kuntner';
+	TEXT TAXON=19 CHARACTER=130 TEXT='coded different as Kuntner';
+	TEXT TAXON=24 CHARACTER=130 TEXT='coded different as Kuntner';
+	TEXT TAXON=25 CHARACTER=130 TEXT='coded different as Kuntner';
+	TEXT TAXON=24 CHARACTER=131 TEXT='coded different as Kuntner';
+	TEXT TAXON=25 CHARACTER=131 TEXT='coded different as Kuntner';
+	TEXT TAXON=37 CHARACTER=131 TEXT='coded different as Kuntner';
+	TEXT TAXON=43 CHARACTER=131 TEXT='coded different as Kuntner';
+	TEXT TAXON=10 CHARACTER=140 TEXT='cirthognatha is covered by these gands on some apodemes';
+	TEXT TAXON=22 CHARACTER=140 TEXT='both but more isolated';
+	TEXT TAXON=17 CHARACTER=157 TEXT='coded different as Kuntner, paired tubercles as in A. argentata';
+	TEXT TAXON=46 CHARACTER=159 TEXT='coded different as Kuntner';
+	TEXT TAXON=20 CHARACTER=183 TEXT='coded different as Kuntner';
+	TEXT TAXON=24 CHARACTER=183 TEXT='coded different as Kuntner';
+	TEXT TAXON=36 CHARACTER=193 TEXT='coded different as Kuntner';
+	TEXT TAXON=43 CHARACTER=193 TEXT='coded different as Kuntner';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 213;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1348524853828 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 5142562478481702812 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 5469106322534349482 ; mqVersion 275 ; checksumv 0 3 2604809564 null getNumChars 213 numChars 213 getNumTaxa 47 numTaxa 47 short true bits 2305843009213694463 states 511 sumSquaresStatesOnly 145856.0 sumSquares -9.2233720368546611E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1024 488 ; setLocation -4 -4 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #5469106322534349482 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 924 421 ; setLocation -4 -4 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 213 ;
+ENDBLOCK;

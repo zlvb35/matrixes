@@ -1,0 +1,529 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-01 23.54.07 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Chelidae'
+		'Pelomedusidae'
+		'Araripemys'
+		'Euraxemydidae'
+		'Bothremydidae'
+		'Portezueloemys'
+		'Brasilemys'
+		'Hamadachelys'
+		'Bauruemys'
+		'Pricemys'
+		'Peiropemys'
+		'Lapparentemys'
+		'Podocnemis erythrocephala'
+		'Podocnemis expansa'
+		'Podocnemis lewyana'
+		'Podocnemis sextuberculata'
+		'Podocnemis unifilis'
+		'Podocnemis vogli'
+		'Turkanemys'
+		'Erymnochelys'
+		'Peltocephalus'
+		'Neochelys'
+		'Papoulemys'
+		'Caninemys'
+		'Dacquemys'
+		'UCMP 42008'
+		'Mogharemys'
+		'Brontochelys'
+		'Lemurchelys'
+		'Shweboemys'
+		'Stereogenys'
+		'Latenemys'
+		'Cordichelys'
+		'Bairdemys hartsteini'
+		'Bairdemys venezuelensis'
+		'Bairdemys sanchezi'
+		'Bairdemys winklerae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=74;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'NA, nasals'
+		 [2] 'FR, orbital position'
+		 [3] 'FR, interorbital groove'
+		 [4] 'FR, frontal/prefrontal'
+		 [5] 'PAR, qj-par contact'
+		 [6] 'PAR, par-pt contact in septum orbitotemporale'
+		 [7] 'PAR, temporal emargination'
+		 [8] 'PAR, interparietal scale'
+		 [9] 'JU, ju-qu contact'
+		 [10] 'JU, ju-par contact'
+		 [11] 'JU, cheek emargination'
+		 [12] 'SQ, ventral vertical flange'
+		 [13] 'PO, size'
+		 [14] 'PM, premaxillae reach apertura narium interna'
+		 [15] 'PM, pinched snout'
+		 [16] 'MX, medial expansion of triturating surface'
+		 [17] 'MX, secondary palate long'
+		 [18] 'MX, triturating surface convexity'
+		 [19] 'MX, labial ridge'
+		 [20] 'MX, accessory ridges'
+		 [21] 'MX, meet broadly on midline'
+		 [22] 'VO, vomer'
+		 [23] 'PAL, med edges pal cleft'
+		 [24] 'PAL, palatine extent in triturating surface'
+		 [25] 'PAL, dorsal process reaches parietal'
+		 [26] 'PAL, dorsal process reaches frontal'
+		 [27] 'PAL, fossa orbitalis posterior pocket'
+		 [28] 'PAL, palatine-basisphenoid contact separates pterygoids'
+		 [29] 'QU, antrum postoticum'
+		 [30] 'QU, fossa precolumellaris'
+		 [31] 'QU, eustachian tube separated from fenestra postotica'
+		 [32] 'QU, incisura columellae auris'
+		 [33] 'QU, quadrate-basioccipital contact'
+		 [34] 'QU, medial process reaches braincase'
+		 [35] 'PT, cavum pterygoidei'
+		 [36] 'PT,anterior opening of cavum pterygoidei'
+		 [37] 'PT, pterygoid flange around cavum pterygoidei'
+		 [38] 'PT, processus trochlearis pterygoidei'
+		 [39] 'SO, roof exposure'
+		 [40] 'SO, horizontal plate along ventral edge of crista supraoccipitalis'
+		 [41] 'EX, occipital condyle'
+		 [42] 'EX, foramen jugulare posterius'
+		 [43] 'EX, foramen nervi hypoglossi'
+		 [44] 'BO, basioccipital very short'
+		 [45] 'BO, basiocipital tubera width'
+		 [46] 'BO, horizontal occipital shelf'
+		 [47] 'PR, ventral exposure'
+		 [48] 'PR, pterygoid covers prootic'
+		 [49] 'PR, foramen posterius canalis carotici interni'
+		 [50] 'OP, processus interfenestralis'
+		 [51] 'OP, fen postotica'
+		 [52] 'BS, foramen nervi abducentis'
+		 [53] 'BS, bs-qu contact'
+		 [54] 'DEN,symphyseal contact'
+		 [55] 'ART, processus retroarticularis'
+		 [56] 'ART, chorda tympani enclosed in processus retroarticularis'
+		 [57] 'SP, splenial'
+		 [58] 'VT, cervical centra 4-7 saddle-shaped'
+		 [59] 'VT, second cervical biconvex'
+		 [60] 'VT, cervical zygapophyses'
+		 [61] 'CAR, cervical scale'
+		 [62] 'CAR, nuchal bone width'
+		 [63] 'CAR, neural series extent'
+		 [64] 'CAR, neural number'
+		 [65] 'CAR, keeled neurals'
+		 [66] 'CAR, four-sided neural'
+		 [67] 'CAR, costal 2 anterior edge thickened'
+		 [68] 'CAR, axillary buttress'
+		 [69] 'PLA, axillary musk duct(1)'
+		 [70] 'PLA, axillary musk duct(2)'
+		 [71] 'PLA, mesoplastra'
+		 [72] 'PLA, pectoral scales contact mesoplastra'
+		 [73] 'PLA, pectoral scales contact entoplastron'
+		 [74] 'PLA, pectoral scales contact epiplastra'
+	;
+	STATELABELS
+		1
+		'present'
+		'absent'
+		,
+		2
+		'facing laterally, anterolaterally'
+		'facing dorsolaterally'
+		'facing dorsally'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'flat or slight convex'
+		'strongly convex'
+		,
+		5
+		'absent'
+		'short contact'
+		'long contact'
+		,
+		6
+		'absent'
+		'present and wider (Bairdemys)'
+		'present and narrower (Podocnemis expansa)'
+		,
+		7
+		'moderate to absent'
+		'extreme as in Pelusios'
+		'extending above quadrate'
+		'emargination absent due to large parietal and supraoccipital'
+		,
+		8
+		'absent'
+		'equilateral triangle'
+		'elongate triangle'
+		'parallel sided'
+		'broad posteriorly'
+		,
+		9
+		'absent'
+		'pesent'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'slight'
+		'reaches level of orbit'
+		'reaches above level of orbit'
+		'reaches above quadrate'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'equal to orbit (Brasilemys)'
+		'smaller than orbit (Podocnemis expansa)'
+		,
+		14
+		'no (Podocnemis expansa)'
+		'yes (Bairdemys venezuelensis)'
+		,
+		15
+		'absent'
+		'concave outline near PMMX contact, snout not elongated'
+		'concave outline posterior to PMMX contact, snout elongated'
+		,
+		16
+		'absent'
+		'present, not forming secondary palate'
+		'secondary palate with midline cleft'
+		,
+		17
+		'no (Bairdemys)'
+		'yes (Stereogenys)'
+		,
+		18
+		'absent or shallow (Shweboemys)'
+		'deep (Bairdemys venezuelensis)'
+		,
+		19
+		'high and narrow (Bairdemys venezuelensis)'
+		'low and thick (Shweboemys)'
+		,
+		20
+		'absent (Euraxemys)'
+		'one or two (Podocnemis)'
+		,
+		21
+		'no'
+		'yes'
+		,
+		22
+		'present (Chelidae)'
+		'absent (Pododcnemis expansa)'
+		,
+		23
+		'absent (Euraxemys)'
+		'parallel (Shweboemys)'
+		'curved (Bairdemys venezuelensis)'
+		,
+		24
+		'narrow or absent (Eraxemys)'
+		'moderate, but much less than maxilla extent (Podocnemis)'
+		'large, equal or slightly less than maxilla extent (Bairdemys)'
+		,
+		25
+		'absent (Euraxemys)'
+		'in septum orbitotemporale, posterior view (Shweboemys)'
+		,
+		26
+		'no (Podocnemis)'
+		'yes (Cordichelys)'
+		,
+		27
+		'absent (Podocnemis)'
+		'present in septum orbitotemporale (Cordichelys)'
+		,
+		28
+		'no (Euraxemys)'
+		'yes (Stereogenys)'
+		,
+		29
+		'large (Eraxemys)'
+		'smaller (Podocnemis)'
+		'smallest (Bairdemys venezuelensis)'
+		,
+		30
+		'very small to absent (Proganochelys)'
+		'present but shallow (Podocnemis expansa)'
+		'deep and well-defined (Pelomedusidae)'
+		,
+		31
+		'no (Euraxemys)'
+		'yes (Bairdemys venezuelensis)'
+		,
+		32
+		'no posterior bony restrictions (Euraxemys)'
+		'eustachian tube separated from stapes by bone or narrow fissure (Bothremys)'
+		'eustachian tube and stapes enclosed or nearly enclosed by bone (Podocnemis)'
+		,
+		33
+		'absent (Euraxemys)'
+		'present (Podocnemis)'
+		,
+		34
+		'absent (Proganochelys)'
+		'present (Podocnemis)'
+		,
+		35
+		'absent (Pelusios)'
+		'partial  (Hamadachelys)'
+		'complete (Podocnemis)'
+		,
+		36
+		'absent (Pelusios)'
+		'small opening (Hamadachelys)'
+		'moderate opening (Podocnemis expansa)'
+		'large opening with foramen cavernosum in roof (Erymnochelys)'
+		,
+		37
+		'absent or very small (Pelusios)'
+		'partial (Hamadachelys)'
+		'complete (Podocnemis)'
+		,
+		38
+		'absent (Chelydra)'
+		'oblique (Pelusios)'
+		'right angle (Podocnemis)'
+		,
+		39
+		'absent, slight (Pelusios)'
+		'present, small (Podocnemis)'
+		'present, very large (Dacquemys)'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'basioccipitals plus exoccipitals (Euraxemys)'
+		'exoccipitals only (Pelusios)'
+		,
+		42
+		'closed partially (Euraxemys)'
+		'closed completely (Bairdemys venezuelensis)'
+		,
+		43
+		'separated (Pelusios)'
+		'combined and recessed  (Bairdemys venezuelensis)'
+		,
+		44
+		'no (Pelusios)'
+		'yes (Stereogenys)'
+		,
+		45
+		'closer to median (Pelusios)'
+		'farther from median  (Bairdemys venezuelensis)'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'completely exposed (Pelomedusa)'
+		'at least partially covered (Euraxemys)'
+		,
+		48
+		'no (Pelomedusa)'
+		'at least in part (Hamadachelys)'
+		,
+		49
+		'in prootic (Pelomedusa)'
+		'in basisphenoid within cavum pterygoidei (Podocnemis)'
+		'variably in pterygoid, quadrate, basisphenoid'
+		'pterygoid and basisphenoid'
+		,
+		50
+		'exposed (Pelomedusa)'
+		'covered (Hamadachelys)'
+		,
+		51
+		'open'
+		'at least partially closed'
+		,
+		52
+		'minute'
+		'moderate to large'
+		,
+		53
+		'present'
+		'absent'
+		,
+		54
+		'fused'
+		'sutured'
+		,
+		55
+		'long and posterior'
+		'short or absent'
+		'long and posteroventral'
+		,
+		56
+		'no'
+		'yes'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'no'
+		'completely heterocoelic'
+		'wide, as in Erymnochelys'
+		,
+		59
+		'no'
+		'yes'
+		,
+		60
+		'none fused'
+		'some fused'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'width 2 or more times length'
+		'width greater than length, but less than 2 times'
+		'width equals length'
+		'width less than length'
+		'Araripemys condition'
+		,
+		63
+		'to suprapygal'
+		'to costals 8'
+		'to costals 7'
+		'to costals 6'
+		'neurals discontinuous or absent'
+		,
+		64
+		'eight or more'
+		'seven'
+		'six'
+		'five or less'
+		,
+		65
+		'none'
+		'some'
+		,
+		66
+		'first neural'
+		'second neural'
+		'third neural'
+		'neurals absent or discontinuous'
+		'foursided neural absent,  neurals 2 and 3 five-sided'
+		,
+		67
+		'anterior edge even in thickness'
+		'thickened anteriorly near buttress'
+		,
+		68
+		'reaches per 3'
+		'reaches per 2'
+		,
+		69
+		'in buttress'
+		'absent in buttress'
+		,
+		70
+		'not in bridge'
+		'one opening in bridge'
+		'three in bridge'
+		'four in bridge'
+		,
+		71
+		'meet medially'
+		'reduced and lateral'
+		'absent'
+		,
+		72
+		'yes'
+		'no'
+		,
+		73
+		'no'
+		'yes'
+		,
+		74
+		'no'
+		'yes'
+		
+	;
+	MATRIX
+	'Chelidae'		                           0(0,1)000020003000000000100000000202010001100100000000000(0,1)1000000(0,1,2)(0,2,4)(0,1,2,3)0(0,2,3)0(0,1)??2?11
+	'Pelomedusidae'		                      11000011001001000000010(0,1)00000202010001001100010000000(0,1)1010101(1,2)(1,2)(0,1,2,3)0000??1000
+	'Araripemys'		                         11000010001001000000010000000200010001000(0,1)00000000000110101114000300??2?00
+	'Euraxemydidae'		                      11001000001000000000000000000100010001100000001031100111101111000000??1000
+	'Bothremydidae'		                      1(0,1,2)00(0,1)000(0,1)00000(0,1)00000000(0,1)00(0,1)0(0,1)(0,2)0111000(1,2)00(0,1)00010102110100(0,1)101(0,1)1(0,1,2)(0,2,3)(1,2,3)0(0,1,4)00??10(0,1)0
+	'Portezueloemys'		                     ?1?0??0????0????00???000???0??0?111112?????00?11111?1???????1?2204????1110
+	'Brasilemys'		                         ?100000??0?00??000000?000?0001001111110??0000010011?1021?0?0121204????????
+	'Hamadachelys'		                       1100100200100?00000000000?00120211111200000001111110102?1?????????????1???
+	'Bauruemys'		                          12001001001000000000000100001202112122100000011111101?2010?01222011???1111
+	'Pricemys'		                           ?1????030?2????00000??010??01102112122110100111111111?????????????????????
+	'Peiropemys'		                         1100200100200000000000010?0012021121221111001111111?1?????????????????????
+	'Lapparentemys'		                      1100200100200000000000010?001102112122?101001?1111101020?1?0112100?0??10??
+	'Podocnemis erythrocephala'		          111020010110110100010101000012021122221101001111111110201110121100?1021111
+	'Podocnemis expansa'		                 11102202011010010001110100001102112222110100111111111020111011110011111111
+	'Podocnemis lewyana'		                 1110220201101001000101010000120211212211010011111111102011101?110011?31111
+	'Podocnemis sextuberculata'		          11102202011011010001010100001102112222110100111111111020111011111011121111
+	'Podocnemis unifilis'		                11102002011000010001110100001202112122110100111111111020111011111011121111
+	'Podocnemis vogli'		                   11102001011010010001000100001202112122110100111111111020111011110010131111
+	'Turkanemys'		                         10002?010000010100010101??001102112?220?010011?111??10211210113200????1111
+	'Erymnochelys'		                       10002002100001010001010100001202112322000100101111101021121011320011001111
+	'Peltocephalus'		                      1000200410000111000101010000110211232200(0,1)100101111101021111011320010001111
+	'Neochelys'		                          10(0,1)021010000010100000101000011021123220101001011111?1021????11(2,3)(1,2)00?0??1(0,1)11
+	'Papoulemys'		                         10002?0100000?0100000?01??001102112?220111001011111?1?????????????????????
+	'Caninemys'		                          11002?02000000010001000100002002112?22?101001111111?1?????????????????????
+	'Dacquemys'		                          10002?3100000001000111010?001102112?22210100111111101?????????????????????
+	'UCMP 42008'		                         10002?3?100?0?010001??010?00??02112?222?0?00??11?11?1???????????0?????????
+	'Mogharemys'		                         ?000?1??????0??100?1??0101001002112322??01101011111?1?????????????????????
+	'Brontochelys'		                       1000?1?????????2001001220?10????112322???110101111?01?????????????????????
+	'Lemurchelys'		                        1000????????01120010011201102?021123220??1001011111?1?????????????????????
+	'Shweboemys'		                         1000?1?????001121010011211?1????112?22???1111?11??????????????????????????
+	'Stereogenys'		                        10002103??0?0?121010011211112002112322010111101111101021??????????????????
+	'Latenemys'		                          ?000?1?????00??20000012201101?121123220?0110101111101?????????????????????
+	'Cordichelys'		                        ?00021030010010200000122011?10021123220101101011111?1???????113200????1111
+	'Bairdemys hartsteini'		               1001210300?10102010001220?1020121123220?01101011111?1????1????????????????
+	'Bairdemys venezuelensis'		            100121030011010201000122011020121123220101101011111?102??????143031???1111
+	'Bairdemys sanchezi'		                 1001210?0011010200000?220?102012112??20101001011111?1?????????????????????
+	'Bairdemys winklerae'		                10002?0?0?1101220?000?22???0?012112??2?????01011?1????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=38 TEXT='from Franca and Langer 2006';
+	TEXT CHARACTER=62 TEXT='fill in more characters!!';
+	TEXT CHARACTER=67 TEXT='fill in more characters';
+	TEXT CHARACTER=68 TEXT='fill in chars';
+	TEXT CHARACTER=72 TEXT='this is the characater that keeps Cambaremys from Peiro A';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 74;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MINSTEPS ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 75 ; LastModified -924642222 ; FileSettings treewindow 2 2 58 0 ; Singles 010 ; Editor 000110011111111000100 0 200 Geneva 9 164 1 all ; EditorPosition 40 4 814 1276 ; TreeWindowPosition 40 2 814 1274 ; ListWindow Characters closed Geneva 9 50 10 265 588 00 ; ListWindow Taxa closed Geneva 9 50 10 617 325 100 ; ListWindow Trees closed Geneva 9 50 10 121 379 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow NexusBlocks closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 772 1220 ; StateNamesSymbols closed Geneva 9 10 499 229 192 475 ; WindowOrder Tree ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; CharLegendPosition 596 988 73 85 ; TreeLegendPosition 760 1077 64 93 ; EditorToolsPosition 685 44 115 165 ; TreeToolsPosition 701 5 126 138 ; TreeWindowProgram 00 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011001 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 0101 ; TraceLabels 0101 ; ChartColors 0 0 -1 9 11 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 0 1 ; BarsOnBranchesDisplay 0 0 -5536 10000 10000 10000 10000 -5536 -536 -536 -536 6 1 0100101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 262 55 0 0 423 632 492 35 534 35 534 376 24 35 1 1 1 1 25458 25957 -39 4 -31 24 1 2 1 8 18 18 0 2 0100110000000000010100000111000 ; MatchChar 00 . ; EntryInterpretation 00 ; ColorOptions 0 ; TreeTools 0 5 4 0 10 4 0 00100111011101110 ; EditorTools 0 0 0 1000 0 0 6 3 000001011100001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN TREES;
+TRANSLATE 1 Chelidae , 2 Pelomedusidae , 3 Araripemys , 4 Euraxemydidae , 5 Bothremydidae , 6 Portezueloemys , 7 Brasilemys , 8 Hamadachelys , 9 Bauruemys , 10 Pricemys , 11 Peiropemys , 12 Lapparentemys , 13 Podocnemis_erythrocephala , 14 Podocnemis_expansa , 15 Podocnemis_lewyana , 16 Podocnemis_sextuberculata , 17 Podocnemis_unifilis , 18 Podocnemis_vogli , 19 Turkanemys , 20 Erymnochelys , 21 Peltocephalus , 22 Neochelys , 23 Papoulemys , 24 Caninemys , 25 Dacquemys , 26 UCMP_42008 , 27 Mogharemys , 28 Brontochelys , 29 Lemurchelys , 30 Shweboemys , 31 Stereogenys , 32 Latenemys , 33 Cordichelys , 34 Bairdemys_hartsteini , 35 Bairdemys_venezuelensis , 36 Bairdemys_sanchezi , 37 Bairdemys__winklerae ; TREE PAUP_1 = ((((13 , (((14 , 17) , 15 , 18) , 16)) , (20 , 21)) , 22) , 12) ; TREE Strict = (1 , (2 , 3 , (4 , (5 , (8 , (9 , ((((10 , 12) , 11) , (((((13 , (14 , 16)) , 17) , 15) , 18) , 24)) , (((20 , 21) , 22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27)) , (25 , 26))))))))) ; TREE Strict = (1 , (2 , 3 , (4 , (5 , (8 , (9 , ((((10 , 12) , 11) , (((((13 , (14 , 16)) , 17) , 15) , 18) , 24)) , (((20 , 21) , 22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27)) , (25 , 26))))))))) ; TREE Strict = (1 , ((2 , 3) , (4 , (5 , (8 , (9 , (10 , 11 , ((13 , (((14 , 16) , 15) , 17) , 18) , (((20 , 21) , (22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27))) , (25 , 26)) , 24) , 12))))))) ; TREE Strict = (1 , ((2 , 3) , (4 , (5 , (8 , (9 , (10 , 11 , ((13 , (((14 , 16) , 15) , 17) , 18) , (((20 , 21) , (22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27))) , (25 , 26)) , 24) , 12))))))) ; TREE Strict = (1 , ((2 , 3) , (4 , (5 , (8 , (9 , (10 , 11 , ((13 , (((14 , 16) , 15) , 17) , 18) , (((20 , 21) , (22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27))) , (25 , 26)) , 24) , 12))))))) ; TREE Strict = (1 , ((2 , 3) , (4 , (5 , (8 , (9 , ((10 , 12) , 11 , ((13 , ((14 , 16) , 15) , 17 , 18) , (((20 , 21) , (22 , (((33 , (32 , (34 , 35))) , ((30 , 31) , 28)) , 27))) , (25 , 26)) , 24)))))))) ; TREE * UNTITLED = (1 , ((2 , 3) , (4 , (5 , (7 , (6 , 8 , (9 , (((10 , 12) , 11) , (((((13 , (14 , 16)) , 17) , 15) , 18) , (24 , ((25 , 26) , (19 , ((20 , 21) , (22 , 23 , (27 , ((((((34 , 35) , 36) , 37) , 32) , 33) , (28 , (29 , (30 , 31))))))))))))))))))) ;
+ENDBLOCK;
