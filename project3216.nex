@@ -1,0 +1,603 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.08.19 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+    		'Priacma'
+		'Helpless'
+		'Noterus'
+		'Trachypachus'
+		'Hydraena'
+		'Catops'
+		'Delevea'
+		'Satonius'
+		'Torridincola'
+		'Incoltorrida'
+		'Iapir'
+		'Ytu'
+		'Claudiella'
+		'Sphaerius'
+		'Hydroscapha'
+		'Scaphydra'
+		'Yara'
+		'Confossa'
+		'Lepicerus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=98;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Peristome'
+		 [2] 'Keel of vertex'
+		 [3] 'shape of eyes'
+		 [4] 'Posterolateral tentorial extension'
+		 [5] 'Labro-mandibular locking device'
+		 [6] 'Number of antennomeres'
+		 [7] 'Scapus and pedicellus'
+		 [8] 'Base of pedicellus'
+		 [9] 'Intercalary antennomere with sucker'
+		 [10] 'flagellomere 1'
+		 [11] 'Three segemented antennal club'
+		 [12] 'Terminal antennomere'
+		 [13] 'Origin of M. 2 on posterior head capsule'
+		 [14] 'Exposure of mouthparts'
+		 [15] 'Mola'
+		 [16] 'Prostheca'
+		 [17] 'Galea and lacinia'
+		 [18] 'Row of flattened teeth on maxilla'
+		 [19] 'Size of penultimate maxillary palpomere'
+		 [20] 'Size of apical maxillary palpomere'
+		 [21] 'Mx'
+		 [22] 'Connection of mentum and submentum'
+		 [23] 'Shape of mentum'
+		 [24] 'Ligular papillae'
+		 [25] 'Size of apical labial palpomere'
+		 [26] 'Lateral appendage of apical labial palpomere'
+		 [27] 'Insertion of M. 28 on unpaired mental apodeme'
+		 [28] 'Shape of labiohypopharyngeal complex between maxillary bases'
+		 [29] 'Cephalic glands'
+		 [30] 'Prosternal process'
+		 [31] 'Apex of prosternal process'
+		 [32] 'Exposure of pleuron'
+		 [33] 'Tarsomeres of pro- and middle-legs'
+		 [34] 'Ventrites sclerites of meso- and metathorax'
+		 [35] 'Separation of mesocoxae'
+		 [36] 'Angle between pronotum and and elytral shoulder'
+		 [37] 'Elytral apex'
+		 [38] 'Longitudinal suture and ridge of the metathorax'
+		 [39] 'Transverse suture of metaventrite'
+		 [40] 'Separation of metacoxae'
+		 [41] 'Metacoxal plates'
+		 [42] 'Metafurcal arms'
+		 [43] 'Fringe of microtrichia along hind wing margin'
+		 [44] 'Oblongum'
+		 [45] 'Subcosta'
+		 [46] 'Plastron'
+		 [47] 'Recumbent pilosity'
+		 [48] 'Abdominal segments V-VIII'
+		 [49] 'Sternite IV'
+		 [50] 'Sternite VIII'
+		 [51] 'Median carina of abdominal sternites'
+		 [52] 'Tubular fields of abdominal segments VI and VII'
+		 [53] 'Parallel-sided incisions of posterior abdominal sternites'
+		 [54] 'Abdominal tergite VIII'
+		 [55] 'Emargination of abdominal tergite VIII'
+		 [56] 'Parameres'
+		 [57] 'Longitudinal split of Aedeagus'
+		 [58] 'Forked apophysis with elongated stalk'
+		 [59] 'Habitat of adults'
+		 [60] 'Length of ultimate larva'
+		 [61] 'Body shape'
+		 [62] 'Tergal extensions'
+		 [63] 'Length of thorax'
+		 [64] 'Shape of head'
+		 [65] 'Number of stemmata'
+		 [66] 'Insertion area of stemmata'
+		 [67] 'Dorsal surface structure'
+		 [68] 'Hemispherical projection of larval head capsule'
+		 [69] 'Tentorial bridge'
+		 [70] 'Lateral labral extensions'
+		 [71] 'Flattened disc-shaped labral sensilla'
+		 [72] 'Flattened, frayed labral setae'
+		 [73] 'Fusion of genal lobes with lateral clypeolabral margin'
+		 [74] 'Antennomeres of later instars'
+		 [75] 'Distal antennomeres of later instars'
+		 [76] 'Sensorial appendage of subapical antennomere'
+		 [77] 'Rounded subapical prostheca'
+		 [78] 'Distal appendage of maxillary palp'
+		 [79] 'Galea and lacinia - 2'
+		 [80] 'Apex of mala or lacinia'
+		 [81] 'Labial palpomeres'
+		 [82] 'Ligular papillae - 2'
+		 [83] 'Internal sacs'
+		 [84] 'Posterior tergal rows of lancet-shaped setae'
+		 [85] 'Lateral rows of contact hairs'
+		 [86] 'Leg segments'
+		 [87] 'Base of claws'
+		 [88] 'Spiracular gills'
+		 [89] 'Mesothoracic spiracles'
+		 [90] 'Lateral process of segment VIII'
+		 [91] 'Sternite IX'
+		 [92] 'Operuclar plate of segment X'
+		 [93] 'Paired anal flaps of abdominal segment X'
+		 [94] 'Terminal abdominal hooks'
+		 [95] 'Urogomphi'
+		 [96] 'Segmental abdominal glands'
+		 [97] 'Pupation'
+		 [98] 'Habitat of larvae'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present, anteriorly concave'
+		'elongated and anteriorly concave'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'11'
+		'10'
+		'9'
+		'8'
+		'5'
+		'4'
+		,
+		7
+		'not urn-shaped'
+		'urn-shaped'
+		,
+		8
+		'straight'
+		'bent'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'not distinctly elongated'
+		'distinctly elongated and distinct from remaining flagellum'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'not enlarged and club-shaped'
+		'rounded enlarged club'
+		'very large and blade-like'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'exposed'
+		'partly concealed'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'absent'
+		'present on left mandible'
+		'present on both mandibles'
+		,
+		17
+		'not fused'
+		'mala'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'not inflated'
+		'strongly inflated'
+		,
+		20
+		'not distinctly smaller than preceeding palpomeres'
+		'reduced in size, with very small distal appendage'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'separate'
+		'fused'
+		,
+		23
+		'parallel-sided, quadrangular'
+		'narrow posteriorly, with two anterior lobes;'
+		'transverse, with very distinct, rounded lateral lobes'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'normal'
+		'greatly reduced in size'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'not strongly narrowed'
+		'strongly narrowed, hourglass-shaped in cross section'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'not in contact with the mesothoracic ventrite, narrow or moderatel'
+		'broad, apically convex, in contact with mesothoracic ventrite'
+		'broad, apically truncate, overlapping mesothoracic ventrite'
+		'broad, apically truncate, articulation with meso- and metathoracic'
+		,
+		31
+		'not truncated'
+		'truncated'
+		,
+		32
+		'well developed, exposed'
+		'greatly reduced in size, con-cealed'
+		,
+		33
+		'five'
+		'four'
+		'three'
+		'tarsomeres largely fused'
+		,
+		34
+		'connected by a membrane'
+		'both sclerites firmly connected.'
+		,
+		35
+		'contiguous or only slightly separated'
+		'broadly separated'
+		,
+		36
+		'distinct'
+		'indistinct'
+		,
+		37
+		'not truncated'
+		'truncated'
+		,
+		38
+		'present, at least half as long as the preepisternum'
+		'very short or absent'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'medially adjacent or narrowly separated'
+		'widely eparated'
+		'State 2'
+		,
+		41
+		'very narrow or absent'
+		'distinctly developed mesally'
+		'broad, concave posteriorly'
+		'very strongly enlarged,'
+		,
+		42
+		'single srem'
+		'distinctly separated at base, inserted on  internal trans'
+		,
+		43
+		'absent'
+		'present at hind margin'
+		'present along anterior and posterior margin'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'not distinctly curved, separated from radius anterior'
+		'curved, connected with radius anterior after a short distance'
+		,
+		46
+		'absent'
+		'present'
+		'State 2'
+		,
+		47
+		'absent'
+		'present on tergites III and IV'
+		'present on tergite VII'
+		,
+		48
+		'not strongly narrowed and ring-like'
+		'strongly narrowed and ring-like'
+		,
+		49
+		'exposed'
+		'narrow sternite IV covered by abdominal ventrite 1'
+		,
+		50
+		'not exposed'
+		'exposed'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent;'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'not extended anteriorly'
+		'strongly extended anteriorly'
+		,
+		55
+		'absent'
+		'distinctly incised'
+		,
+		56
+		'present'
+		'absent'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'terrestrial'
+		'semiquatic'
+		'hygropetric'
+		'aquatic'
+		,
+		60
+		'more than 2.7. mm'
+		'more 1.5 mm and less than 2.7 mm'
+		'1,5 mm or less'
+		,
+		61
+		'parallel-sided or subparallel'
+		'thorax subparallel, abdomen distinctly tapering posteriorly'
+		'ovoid'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'abdomen distinctly longer'
+		'about equally long'
+		,
+		64
+		'not broader than long'
+		'broader than long'
+		,
+		65
+		'6'
+		'5'
+		'4'
+		'3'
+		'vestigial or absent'
+		,
+		66
+		'not elevated'
+		'elevated'
+		,
+		67
+		'without serrate scales'
+		'with serrate scales'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'not distinctly broadened'
+		'distinctly broadened'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent'
+		'present'
+		'present and fused'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'4'
+		'3'
+		'2'
+		,
+		75
+		'not elongated'
+		'elongated and well developed'
+		'elongated and very slender'
+		,
+		76
+		'short'
+		'strongly elongated'
+		'flattened abnd embedded in excavation'
+		'absent'
+		,
+		77
+		'absent or slender'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'separate'
+		'mala'
+		'lacinia reduced'
+		,
+		80
+		'simple or with several fixed teeth'
+		'with external fixed tooth and several flattened and articulated teet'
+		,
+		81
+		'2'
+		'1'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present on thoracic segments'
+		'present on thoracic and abdominal segments'
+		,
+		86
+		'6'
+		'5'
+		,
+		87
+		'without strong flattened spines'
+		'with strong flattened spines'
+		,
+		88
+		'absent'
+		'long and segmented'
+		'short and balloon-like'
+		,
+		89
+		'present'
+		'absent'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'well developed and quadrangular'
+		'small and triangular'
+		'absent'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent'
+		'1 pair'
+		'2 pairs'
+		'3 pairs'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'not within last larval exuvia'
+		'within last larval exuvia'
+		,
+		98
+		'terrestrial'
+		'semiaquatic'
+		'hygropetric'
+		'fully aquatic'
+		
+	;
+	MATRIX
+	'Priacma'		               000000000000001000000--000000000000000000-00000000000000000000014-00?0000?00000000?000000000000000
+	'Helpless'		              00000000000000100000002000000110000100003000000000000000003000000010000000030020000000000000001003
+	'Noterus'		               00000000000000100000002000000000000100101000000000000000003000000000000000030020000000001020-010?3
+	'Trachypachus'		          00000000000000100000002000000000000000001000000000000000000000000000000000000020000000000000001000
+	'Hydraena'		              00001100000001020000100100010001010001100011020001000000001(0,1)00001001000001010100010001000000021?01
+	'Catops'		                00000000000000000000100000010001010001100001000000000000000000004001000001000000000001000000001?00
+	'Delevea'		               000?00100001?1011?01?00110???100011101100????02000010000102101012110101002121011011011011100101?12
+	'Satonius'		              000000100001010111010001101001001111011000?-?0000001001010212111211010200?1210110110110111101011?2
+	'Torridincola'		          112?02100001?1011101?01110???21011100110002?110000011010102121113110102102121011011001011010100??2
+	'Incoltorrida'		          112?021?0001?1011?01??1110???210111001100?201100000?10?0102????????0????????????????????????????-?
+	'Iapir'		                 111?021?0001?1011?01?01110???210111001100?20110010110010102121113110102102121011011001011110101?12
+	'Ytu'		                   111?02100001?1011101?01110???210111001100?201100001?0010102121113110102102121011011011011110101112
+	'Claudiella'		            11??021?0001??011?0??0?110???2101?100??0???0?100101?0010102????????0??????????????????????????????
+	'Sphaerius'		             000110011110110?101100011010100021110110212010000000010-00120101201011101201?0100101211211000301?1
+	'Hydroscapha'		           00010301000101011001010111001000211111122121101101000001002211011010111012211110110121120101010112
+	'Scaphydra'		             000?040?0001?1011001?10111???000211111122??1?011010000010122110110?0?1?0?221111011?121120101010??2
+	'Yara'		                  00??030?0001?1011001?0?11????0002?1111120??1?0?1010?00?1012????????0??????????????????????????????
+	'Confossa'		              000?030?0001?11?1?01?00?1????000210111120?11?0?101000??1012????????0??????????????????????????????
+	'Lepicerus'		             000005000002?101100000010000100031100001001000000000000010100000000000?00100001001?001000000000???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 9 11 - 20 22 - 27 29 - 98, ord: 10 21 28;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1530573838584; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7266264903569279099; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6062784521733127752; mqVersion 350; checksumv 0 3 1323677312 null getNumChars 98 numChars 98 getNumTaxa 19 numTaxa 19 short true bits 63 states 63 sumSquaresStatesOnly 7157.0 sumSquares 7157.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6062784521733127752 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 98; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "syen12304-sup-0001-appendixs1.nex"'; ID 01645d4ee4b31; LINK Taxa = Taxa; TRANSLATE [0] 1 Priacma, [1] 2 Helpless, [2] 3 Noterus, [3] 4 Trachypachus, [4] 5 Hydraena, [5] 6 Catops, [6] 7 Delevea, [7] 8 Satonius, [8] 9 Torridincola, [9] 10 Incoltorrida, [10] 11 Iapir, [11] 12 Ytu, [12] 13 Claudiella, [13] 14 Sphaerius, [14] 15 Hydroscapha, [15] 16 Scaphydra, [16] 17 Yara, [17] 18 Confossa, [18] 19 Lepicerus; TREE t1 = (1,((6,(5,(19,((14,(18,(17,(15,16)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t2 = (1,((6,(5,(19,((14,(18,(17,(15,16)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t3 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t4 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t5 = (1,((6,(5,(19,((14,((17,18),(15,16))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t6 = (1,((6,(5,(19,((14,((17,18),(15,16))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t7 = (1,((4,(2,3)),(6,(5,(19,((14,(15,16,17,18)),(7,(8,(12,(11,13),(9,10)))))))))); TREE t8 = (1,((6,(5,(19,((14,(17,(18,(15,16)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t9 = (1,((6,(5,(19,((14,(17,(18,(15,16)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t10 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t11 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t12 = (1,(((19,((14,(18,(17,(15,16)))),(7,(8,((12,(11,13)),(9,10)))))),(5,6)),(4,(2,3)))); TREE t13 = (1,(((19,((14,(18,(17,(15,16)))),(7,(8,(12,((11,13),(9,10))))))),(5,6)),(4,(2,3)))); TREE t14 = (1,(((19,((14,(15,(16,(17,18)))),(7,(8,((12,(11,13)),(9,10)))))),(5,6)),(4,(2,3)))); TREE t15 = (1,((6,(5,(19,((14,(18,(17,(15,16)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t16 = (1,(((19,((14,(15,(16,(17,18)))),(7,(8,(12,((11,13),(9,10))))))),(5,6)),(4,(2,3)))); TREE t17 = (1,((6,(5,(19,((14,(18,(17,(15,16)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); TREE t18 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,((12,(11,13)),(9,10)))))))),(4,(2,3)))); TREE t19 = (1,((6,(5,(19,((14,(15,(16,(17,18)))),(7,(8,(12,((11,13),(9,10))))))))),(4,(2,3)))); 
+ENDBLOCK;

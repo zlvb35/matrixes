@@ -1,0 +1,258 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.19.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=31;
+    TAXLABELS
+    		'Stenopus spinosus'
+		'Nephrops norvegicus'
+		'Mecochirus longimanatus'
+		'Eryma ventrosa'
+		'Enoploclytia collignoni'
+		'Pustulina spinulata'
+		'Glyphea regleyana'
+		'Paraglyphea ambigua'
+		'Paraglyphea alpina'
+		'Paraglyphea arborinsularis'
+		'Trachysoma scabrum'
+		'Pseudoglyphea foersteri'
+		'Litogaster obtusa'
+		'Litogaster durlachensis'
+		'Glypheopsis ornata'
+		'Glypheopsis etalloni'
+		'Glypheopsis robusta'
+		'Angarestia australensis'
+		'Angarestia tricarinata'
+		'Meyeria ornata'
+		'Neoglyphea inopinata'
+		'Laurentaeglyphea neocaledonica'
+		'Heteroglyphaea paronae'
+		'Lissocardia silesiaca'
+		'Audogaster spinosus'
+		'Pemphix suerii'
+		'Pseudopemphix albertii'
+		'Sinopemphix guizhouensis'
+		'Chimaerastacus pacifluvialis'
+		'Clytiopsis argentoratensis'
+		'Rectaglyphea howardae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'carapace branchial region side'
+		 [2] 'carapace with strongly inflated regions'
+		 [3] 'ventral margin of antennal-pterygostomial region'
+		 [4] 'cervical groove'
+		 [5] 'anterior margin with'
+		 [6] 'orbital ridge'
+		 [7] 'gastro-orbital ridge'
+		 [8] 'gastro-orbital ridge split'
+		 [9] 'antennal ridge'
+		 [10] 'gastro-orbital groove'
+		 [11] 'postcervical and branchiocardiac grooves'
+		 [12] 'postcervical and branchiocardiac grooves parallel'
+		 [13] 'postcervical and branchiocardiac groove converging dorsally'
+		 [14] 'postcervical and branchiocardiac grooves joined dorsally'
+		 [15] 'postcervical groove'
+		 [16] 'laterocardiac groove'
+		 [17] 'cardiac groove'
+		 [18] 'inferior groove'
+		 [19] 'hepatic groove'
+		 [20] 'connection between hepatic and cervical grooves'
+		 [21] 'hepatic groove swung toward posterior'
+		 [22] 'intercervical groove'
+		 [23] 'pereiopod 1'
+		 [24] 'P1 propodus length between carpus and dactylus articulations'
+		 [25] 'intercalated plate'
+		 [26] 'rostrum'
+		 [27] 'rostrum with'
+		 [28] 'pereiopod 2'
+		 [29] 'orbital spine'
+		 [30] 'antennal spine'
+		 [31] 'ventral margin of branchial region (in lateral view)'
+	;
+	STATELABELS
+		1
+		'rounded'
+		'flat'
+		,
+		2
+		'no'
+		'yes'
+		,
+		3
+		'strongly convex'
+		'slightly convex'
+		'strongly concave'
+		,
+		4
+		'subvertical'
+		'oblique'
+		'strongly oblique'
+		,
+		5
+		'orbital notch'
+		'orbital and antennal notches'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'no'
+		'yes'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'simple (one branch)'
+		'double (two branches)'
+		,
+		11
+		'directed toward the posterior margin'
+		'directed toward dorsal margin with angle ca 30 degrees'
+		'directed toward the dorsal margin with angle ca 45 degrees'
+		,
+		12
+		'no'
+		'yes'
+		,
+		13
+		'no'
+		'yes'
+		,
+		14
+		'no'
+		'yes'
+		,
+		15
+		'interrupted ventrally in the middle of the carapace'
+		'joined ventrally to branchiocardiac groove'
+		'joined ventrally to hepatic groove'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'deep'
+		'shallow'
+		,
+		19
+		'biconvex ventrally'
+		'semicircular'
+		'circular'
+		'concavo-convex'
+		'sinuose'
+		'convex'
+		,
+		20
+		'strongly incurved'
+		'almost straight'
+		,
+		21
+		'no'
+		'yes'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'pseudochelate (with or without distal spine on ventral margin of propodus)'
+		'chelate (true chela)'
+		,
+		24
+		'equal or shorter than carapace'
+		'longer than carapace'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'laterally flattened'
+		'dorsoventrally flattened'
+		'dorsoventrally flattened and broad (= spatulate)'
+		,
+		27
+		'lateral margin not followed by a row of spines in cephalic  region'
+		'lateral margin followed by a row of spines in cephalic  region'
+		,
+		28
+		'pseudochelate'
+		'chelate'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'rounded'
+		'slightly rounded'
+		'almost straight'
+		
+	;
+	MATRIX
+	'Stenopus spinosus'		                       0002100-00-00010014100100111010
+	'Nephrops norvegicus'		                     1000100-01-00020015101100111111
+	'Mecochirus longimanatus'		                 1022111011010010101110010000001
+	'Eryma ventrosa'		                          0001000-01210000013100101111110
+	'Enoploclytia collignoni'		                 0001000-01210020013100101?11110
+	'Pustulina spinulata'		                     0001000-0121002001310010110?110
+	'Glyphea regleyana'		                       1020111012111111110101000000002
+	'Paraglyphea ambigua'		                     102011101211111011010000000?002
+	'Paraglyphea alpina'		                      1020111012111110110100000?0?002
+	'Paraglyphea arborinsularis'		              1020111012111110110100000000002
+	'Trachysoma scabrum'		                      1020111010111110010101000?0?002
+	'Pseudoglyphea foersteri'		                 1010111112210010121000000100001
+	'Litogaster obtusa'		                       1010111010210010121100??010?001
+	'Litogaster durlachensis'		                 1010111010210010121100000100001
+	'Glypheopsis ornata'		                      1020111010111110110101??0000002
+	'Glypheopsis etalloni'		                    102011101011111011010100000?002
+	'Glypheopsis robusta'		                     1020111010111110110101000000002
+	'Angarestia australensis'		                 1020111010111010010100000?0?002
+	'Angarestia tricarinata'		                  1020111010111010010100000000002
+	'Meyeria ornata'		                          1022111010010010101110000000001
+	'Neoglyphea inopinata'		                    1020111011111110010101000000002
+	'Laurentaeglyphea neocaledonica'		          1020111011111110110101000000002
+	'Heteroglyphaea paronae'		                  10201110101100100?????000000001
+	'Lissocardia silesiaca'		                   1001000-01210010012100100111010
+	'Audogaster spinosus'		                     1010?11112211010121100??0?????1
+	'Pemphix suerii'		                          0111100-02111010110100000200001
+	'Pseudopemphix albertii'		                  0111100-02111010110100000200001
+	'Sinopemphix guizhouensis'		                101??11012211010121100??010?001
+	'Chimaerastacus pacifluvialis'		            0001011010210000012100100101000
+	'Clytiopsis argentoratensis'		              0001000-0?210000?13100100111110
+	'Rectaglyphea howardae'		                   1020101010111010010101000000002
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 31;
+      ENDBLOCK;
+      

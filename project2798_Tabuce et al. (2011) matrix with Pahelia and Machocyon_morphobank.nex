@@ -1,0 +1,452 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.55.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=38;
+    TAXLABELS
+    		'OG dummy'
+		'Aspanlestes aptap'
+		'Parazhelestes minor'
+		'Eoungulatum kudukensis'
+		'Valenia wilsoni'
+		'Simpsonodus chacensis'
+		'Choeroclaenus turgidunculus'
+		'Maiorana noctiluca'
+		'Mimatuta minuial'
+		'Protungulatum donnae'
+		'Oxyprimus galadrielae'
+		'Baioconodon nordicum'
+		'Carcinodon simplex'
+		'Carcinodon olearyi'
+		'Carcinodon antiquus'
+		'Chriacus pelvidens'
+		'Loxolophus hyattianus'
+		'Mimotricentes subtrigonus'
+		'Arctocyon ferox'
+		'Deuterogonodon noletil'
+		'Eoconodon ginibitohia'
+		'Eoconodon gaudrianus'
+		'Eoconodon coryphaeus'
+		'Goniacodon levisanus'
+		'Goniacodon crassicuspis'
+		'Goniacodon hiawatha'
+		'Triisodon quivirensis'
+		'Andrewsarchus mongoliensis'
+		'Oxyclaenus cuspidatus'
+		'Hapalodectes hetangensis'
+		'Hukoutherium sp.'
+		'Dissacus navajovius'
+		'Ankalogon saurognathus'
+		'Sinonyx jiashanensis'
+		'Landenodon woutersi'
+		'Mondegodon eutrigonus'
+		'Pahelia mysteriosa'
+		'Machocyon abbasi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Canine shape'
+		 [2] 'Canine posterior carina'
+		 [3] 'Canine surface texture'
+		 [4] 'Premolar number'
+		 [5] 'P1/p1'
+		 [6] 'P3 width'
+		 [7] 'P3 protocone'
+		 [8] 'P4 metacone'
+		 [9] 'P4 metaconule'
+		 [10] 'P4 pre- and postprotocone crests orientation'
+		 [11] 'P4 pre- and postprotocone crests (buccal extent)'
+		 [12] 'P4 parastylar lobe'
+		 [13] 'Enamel texture'
+		 [14] 'M2 parastylar cusps'
+		 [15] 'M2 preparacrista'
+		 [16] 'M1-3 ectocingulum'
+		 [17] 'M1-2 metastylar lobe shape'
+		 [18] 'M1-2 parastylar lobe shape'
+		 [19] 'M1 shape'
+		 [20] 'M1-3 paracone and metacone'
+		 [21] 'M1-2 size of paracone relative to metacone'
+		 [22] 'M1-3 protocone, paracone, and metacone shape'
+		 [23] 'Protocone position'
+		 [24] 'M1-3, postmetaconule crista'
+		 [25] 'M1-3 mesostyle'
+		 [26] 'M1-3 metastylar region'
+		 [27] 'M1-2 paraconules'
+		 [28] 'M1-2 metaconules'
+		 [29] 'M2 metaconular region'
+		 [30] 'M1-2 hypocone'
+		 [31] 'M2 hypocone shape'
+		 [32] 'M1-2 relative size'
+		 [33] 'M1-3 relative size'
+		 [34] 'M1 basal endocingulum'
+		 [35] 'M3 parastylar lobe'
+		 [36] 'Diastema between mesial premolars'
+		 [37] 'p2 talonid'
+		 [38] 'p3 protoconid cusp orientation'
+		 [39] 'p4 protoconid cusp orientation'
+		 [40] 'p4 Length/p3 Length'
+		 [41] 'p4 paraconid'
+		 [42] 'p4 metaconid'
+		 [43] 'p4 talonid'
+		 [44] 'p4 protoconid'
+		 [45] 'p4'
+		 [46] 'm1-2 paraconid position'
+		 [47] 'Paraconid orientation'
+		 [48] 'm2 metaconid position'
+		 [49] 'Molar metaconid size'
+		 [50] 'Metaconid and protoconid shape'
+		 [51] 'm1-3 paracristid'
+		 [52] 'm1-3 postprotocristid'
+		 [53] 'm1-3 cristid obliqua'
+		 [54] 'Metaconid and protoconid height'
+		 [55] 'Molar shape'
+		 [56] 'Relative size of the trigonid/talonid'
+		 [57] 'Metaconid'
+		 [58] 'm1-2 hypoconulid and entoconid, relative size'
+		 [59] 'm1-3 entocristid'
+		 [60] 'm1-2 orientation'
+		 [61] 'm3'
+		 [62] 'Lingual cingulid on one or more molars, especially lingual face of metaconid'
+		 [63] 'Molar labial cingulid'
+		 [64] 'Dummy 1 Ingroup Monophyly'
+		 [65] 'Dummy 2 Zhelestidae Monophyly'
+	;
+	STATELABELS
+		1
+		'ovoid cross-section, lacking distal carina'
+		'somewhat laterally compressed with distinct distal carina'
+		,
+		2
+		'smooth'
+		'serrated'
+		,
+		3
+		'smooth'
+		'with longitudinal placations'
+		,
+		4
+		'five, including retained dP3'
+		'four or less'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'length approximately equals width'
+		'length exceeds width'
+		,
+		7
+		'present as a distinct cusp'
+		'absent and lingual heel low'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'extend from protocone so that in occlusal view, it looks symmetrical'
+		'protocone is situated distally with preprotocone crest extending mesially from the protocone so that together, it is not symmetrical in occlusal view'
+		,
+		11
+		'extend labially beyond lingual base of paracone'
+		'extend labially only to base of metacone and terminate at a mesiodistally oriented groove'
+		,
+		12
+		'broadly rounded mesially'
+		'labiolingually constricted so that lingual and labial borders are subparallel'
+		,
+		13
+		'smooth'
+		'coarsely crenulated'
+		'finely crenulated'
+		,
+		14
+		'multiple'
+		'single cusp mesial to paracone'
+		,
+		15
+		'extends labially to labial stylocone'
+		'extends mesially to cone on precingulum (parastylocone)'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'expanded labially giving convex labial margin to metastylar lobe'
+		'not labially expanded'
+		,
+		18
+		'expanded labially giving convex labial margin to parastylar lobe'
+		'not labially expanded'
+		,
+		19
+		'transverse with an M2 mesiodistal length/mesial labiolingual width less than 0.85'
+		'approaching square (M2 mesiodistal length/mesial labiolingual width reduced relative to length is greater than 0.85 and less than 1.0)'
+		'square M2 mesiodistal length/mesial labiolingual width is greater than 1.0'
+		,
+		20
+		'close so that bases merge'
+		'separated but connected by centrocrista'
+		,
+		21
+		'subequal'
+		'paracone somewhat larger'
+		'paracone twice as large'
+		,
+		22
+		'cross-section triangular'
+		'crosssection connate'
+		,
+		23
+		'lingual'
+		'base of the protocone is expanded lingually and the apex is shifted labially'
+		,
+		24
+		'forms metacingulum'
+		'metacingulum formed by the postmetaconule crista continuing onto the metastylar lobe'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'smooth or bears single metastylocone on distal cingulum'
+		'bears thickened cuspidate ridge on distal cingulum'
+		'thin transverse ridge present above distal cingulum'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'bears single metaconule'
+		'bears twin cuspules positioned on postprotocrista'
+		'metaconule absent'
+		,
+		30
+		'absent'
+		'sometimes present on M1-2 (polymorphic)'
+		'always present'
+		,
+		31
+		'absent or sometimes present as linguolabially elongated thickening of postcingula'
+		'always present as an elongated linguolabially thickening of the postcingula, sometimes with multiple swellings'
+		'forms thickened crescent lingual and distolingual to protocone'
+		'variably present and forms a small and distinct circular cusp'
+		'always present as distinct circular cusp'
+		,
+		32
+		'M2 is larger than M1'
+		'M1 is subequal or larger than M2'
+		,
+		33
+		'M3 is not reduced but is subequal to M1'
+		'M3 is moderately to greatly smaller M1'
+		'M3 is larger than M1'
+		,
+		34
+		'present'
+		'absent'
+		,
+		35
+		'projects mesiolabially to near the labial edge of M2'
+		'broadly rounded and not projecting'
+		,
+		36
+		'mesial premolars closely spaced with relatively small diastema between p2 and p3'
+		'mesial premolars p2 and p3 separated by significant diastema'
+		,
+		37
+		'bears distinct ?heel?'
+		'lacks distinct heel'
+		,
+		38
+		'vertical'
+		'apex canted distally (the angle formed by the distal carinae and the base of tooth form an acute angle distally)'
+		,
+		39
+		'vertical'
+		'apex canted distally (the angle formed by the distal carinae and the base of tooth form an acute angle distally'
+		,
+		40
+		'subequal, greater than 0.9 and less than 1.25'
+		'greater than 1.25 and less than 1.5'
+		'greater than 1.5'
+		'less than 0.9'
+		,
+		41
+		'present'
+		'greatly reduced or absent'
+		,
+		42
+		'present'
+		'reduced to lingual ridge'
+		'absent'
+		,
+		43
+		'two or more cuspids and/or with talonid basin'
+		'simplified with just one central blade and no talonid basin'
+		,
+		44
+		'distal face is smooth'
+		'bears distinct distally directed postprotoconid cristid'
+		,
+		45
+		'small relative to m1, length of p4 is less than length of m1 (p4 length/m1 length is less than 0.95'
+		'large relative to m1, length p4 is subequal to or greater than length of m1 (p4 length/m1 length is greater than or equal to 0.95)'
+		,
+		46
+		'lingual'
+		'mesial to position between metaconid and protoconid'
+		'mesial to protoconid (2)'
+		,
+		47
+		'erect'
+		'projects mesially'
+		,
+		48
+		'distolingual to protoconid'
+		'lingual to protoconid'
+		,
+		49
+		'subequal to protoconid'
+		'somewhat smaller than protoconid'
+		'significantly smaller than protoconid'
+		,
+		50
+		'distinct'
+		'inflated and confluent at base above trigonid basin or ?twinned?'
+		,
+		51
+		'curves mesiolingually'
+		'forms distinct, mesially directed crest that rises mesiodorsal to protoconid'
+		,
+		52
+		'absent'
+		'distally directed crest extends distally from protoconid'
+		,
+		53
+		'oriented mesiolingually'
+		'oriented mesiodistally to form cutting edge with ?notch? between postprotoconid and cristid oblique'
+		,
+		54
+		'low, with difference between the height of protoconid and hypoconid less than height of hypoconid above the tooth base'
+		'much higher than talonid cuspids with difference between the height of protoconid and hypoconid more than height of hypoconid above the tooth base'
+		,
+		55
+		'?average? m2 distal width/m2 length is greater or equal to 0.7 and less than 0.85'
+		'somewhat narrow, m2 distal width/m2 length is less than 0.7 and greater than or equal to 0.5'
+		'narrow (trenchant) m2 distal width/m2 length is less than 0.5'
+		'wide, m2 distal width/m2 length is greater than 0.85'
+		,
+		56
+		'subequal'
+		'talonid expanded in length and width'
+		,
+		57
+		'present'
+		'absent on m1, but present on m2-3'
+		,
+		58
+		'hypoconulid and entoconid are subequal in size'
+		'entoconid is larger than hypoconulid'
+		'hypoconulid and entoconid are absent'
+		,
+		59
+		'extends mesiodorsally on the base of the distal wall of the metaconid (talonid basin enclosed lingually)'
+		'extends mesioventrolingually on distolingual base of metaconid to lingual cingulid (if present)'
+		'entoconid present but entocristid absent or extremely faint, talonid basin widely open lingually'
+		'entoconid and entocristid extremely reduced or absent'
+		,
+		60
+		'base of both are subhorizontal'
+		'teeth are canted to lean distally'
+		,
+		61
+		'longer than m2, m3 mesiodistal length/m2 length ? 1.1'
+		'length subequal to m2, m3 length/m2 length < 1.1 and ? 0.9'
+		'much shorter than m2, m2 length/m3 length < than 0.9'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'present and sharp'
+		'present and subdued forming a "shoulder"'
+		'absent, or restricted to hypoflexid'
+		,
+		64
+		'Outgroups'
+		'Ingroup'
+		,
+		65
+		'not Zhelestidae'
+		'Zhelestidae'
+		
+	;
+	MATRIX
+	'OG dummy'		                             ???????????????????????????????????????????????????????????????00
+	'Aspanlestes aptap'		                    ???00??0100100000111010000000000010??00110101000000000000000?0001
+	'Parazhelestes minor'		                  ???00110100000000111010000000000010?????????????????????0??0??001
+	'Eoungulatum kudukensis'		               ???00??0100000000101010000000000010??????????000000000?00000?0001
+	'Valenia wilsoni'		                      ???10101100001101101010100000100010000000000?000000000?000?0?0210
+	'Simpsonodus chacensis'		                ?????101100001101101010100000000000??0030100100000000000010000110
+	'Choeroclaenus turgidunculus'		          00010011(0,1)01001100001010110000210010000001200100000000000000001010
+	'Maiorana noctiluca'		                   00110001100000000001011100000210010000000000100000000000001011010
+	'Mimatuta minuial'		                     ???10001100000000001011100000210010000000000100000000000001001010
+	'Protungulatum donnae'		                 ???100011000000000010101000001000100?00?0000000000000000001010010
+	'Oxyprimus galadrielae'		                ???100011000000000010101000001000100?0000000100000000000001000010
+	'Baioconodon nordicum'		                 00110001100001000001010100000100010000000000100000000000001001010
+	'Carcinodon simplex'		                   ????????????01100001010100000210000??0?0????100000000000001011010
+	'Carcinodon olearyi'		                   ?????1111001111000010101000002100000?0110(1,2)10100000000000001011010
+	'Carcinodon antiquus'		                  1001?1101001111000010101100002100001001?0210100000000000001011010
+	'Chriacus pelvidens'		                   ???1000110100110001100010000022000000000000000000000000101100(0,1)010
+	'Loxolophus hyattianus'		                00010001100011100011010100000210000000000000000000000000010000010
+	'Mimotricentes subtrigonus'		            10111001100011101011010100000240000000001000010000000000011001010
+	'Arctocyon ferox'		                      11010001100011101011010100000240000100000100100000000001010000010
+	'Deuterogonodon noletil'		               ???10?010000011010110101000002400100?00?0000?10000000001002000210
+	'Eoconodon ginibitohia'		                ??????????????????????????????????????1?0200101001?00?10010010010
+	'Eoconodon gaudrianus'		                 ??????011000111001000101000012101000?0110200101001100000010011010
+	'Eoconodon coryphaeus'		                 00010001100021100110010100001210100000110201101001100000010011010
+	'Goniacodon levisanus'		                 00010101100020100110010111000210101000111200100001100110010020010
+	'Goniacodon crassicuspis'		              ???1?10?????2?10010001011100021010???????????0000110011001?020010
+	'Goniacodon hiawatha'		                  ????????????2010011001011100021010???????????000011001100100?0110
+	'Triisodon quivirensis'		                00010001100021100110110102001130100000110201101011111110011021010
+	'Andrewsarchus mongoliensis'		           0001011???10???01110?10?000001002?1????????????????????????????10
+	'Oxyclaenus cuspidatus'		                1101011111112(0,1)1001100101000001301(0,1)110?1?1211?0111110111001(0,1)110010
+	'Hapalodectes hetangensis'		             0??10????????11111200101001122411111011???11121121111120023020110
+	'Hukoutherium sp.'		                     0001011??????11011?021??0011200?1100011(0,1)12110?1011?11120023?21110
+	'Dissacus navajovius'		                  00010100101121110120210100112001111001101211021121111120023120110
+	'Ankalogon saurognathus'		               00010100001021110120210100112001111101101211021121111120123120110
+	'Sinonyx jiashanensis'		                 00010100101021100120210100112001111101101211021121111120123120110
+	'Landenodon woutersi'		                  ???1000(0,1)1000(0,2)1100101010100000101100100(0,1)01(0,1,2)011000000000000(0,1)1020010
+	'Mondegodon eutrigonus'		                ????????????21100110010100000130101???????????1?2110(0,1)1????1??0010
+	'Pahelia mysteriosa'		                   ???1????????0??????????????????????0?00011000??101000000012000110
+	'Machocyon abbasi'		                     0?010??110002?1011?1010110000000??1010001200100100000030000000010
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 65;
+      ENDBLOCK;
+      

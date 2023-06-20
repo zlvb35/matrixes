@@ -1,0 +1,137 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.10.21 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+    		'Prokennalestes'
+		'Cimolestes'
+		'Deccanolestes hislopi'
+		'Deccanolestes robustus'
+		'Afrodon chleuhi'
+		'Bustylus germanicus'
+		'Afrodon gheerbranti'
+		'Bustylus cernaysi'
+		'Bustylus marandati'
+		'Bustylus folieae'
+		'Adapisoriculus minimus'
+		'Indolestes kalamensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'mesostyle'
+		 [2] 'postparaconule crest'
+		 [3] 'centrocrista'
+		 [4] 'stylar cusps'
+		 [5] 'm2 ectoflexus'
+		 [6] 'M2 size of parastylar lobe versus metastylar lobe'
+		 [7] 'paracone size'
+		 [8] 'paracone and metacone shape'
+		 [9] 'm1,2 hypoconid size'
+		 [10] 'hypoconulid place'
+		 [11] 'talonid width'
+		 [12] 'trigonid length'
+		 [13] 'trigonid height'
+		 [14] 'p4 metaconid'
+		 [15] 'talonid of p4'
+		 [16] 'size of p4 paraconid'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'marked'
+		'faint'
+		,
+		3
+		'straight'
+		'dilambdodont'
+		,
+		4
+		'crestiform'
+		'cuspate'
+		,
+		5
+		'deep and asymmetrical'
+		'deep and symmetrical'
+		,
+		6
+		'parastylar lobe more or equally projecting labially than metastylar lobe '
+		'parastylar lobe less projecting labially than metastylar lobe'
+		,
+		7
+		'markedly larger than metacone'
+		'slightly larger or similarly sized'
+		,
+		8
+		'much higher than long'
+		'slightly higher than long'
+		,
+		9
+		'similar to the entoconid'
+		'slightly larger than the entoconid'
+		'much larger than the entoconid'
+		,
+		10
+		'median'
+		'slightly closer to the entoconid'
+		'very close to the entoconid'
+		,
+		11
+		'narrower than trigonid'
+		'equally wide'
+		,
+		12
+		'compressed antero-posteriorly and much shorter than the talonid'
+		' trigonid about as long as the talonid'
+		,
+		13
+		'more than twice de height of the talonid'
+		'trigonid less than twice the height of the talonid'
+		,
+		14
+		'absent or present only as a slight bulge on the side of the protoconid'
+		'well differentiated but smaller than the protoconid'
+		'size similar to that of the protoconid'
+		,
+		15
+		'with one cuspid'
+		'two cuspids'
+		,
+		16
+		'very small, barely present as individual cuspid'
+		'small but forming a distinct cuspid'
+		'almost as large as m1 paraconid'
+		
+	;
+	MATRIX
+	'Prokennalestes'		                  0000000000000000
+	'Cimolestes'		                      0000000000000000
+	'Deccanolestes hislopi'		           0000001100111???
+	'Deccanolestes robustus'		          0000001100111???
+	'Afrodon chleuhi'		                 0000001100011000
+	'Bustylus germanicus'		             (0,1)000011111111111
+	'Afrodon gheerbranti'		             0000001100111000
+	'Bustylus cernaysi'		               1101111111111111
+	'Bustylus marandati'		              1100111111111111
+	'Bustylus folieae'		                1100111111111111
+	'Adapisoriculus minimus'		          1111111022111212
+	'Indolestes kalamensis'		           ????????110?10?1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 16;
+      ENDBLOCK;
+      

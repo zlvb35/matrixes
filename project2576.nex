@@ -1,0 +1,845 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.27.28 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=83;
+    TAXLABELS
+    		'Stenotritus sp1'
+		'Paroxystoglossa crossotos'
+		'Paroxystoglossa seabrai'
+		'Paroxystoglossa andromache'
+		'Paroxystoglossa spiloptera'
+		'Parosystoglossa mimetica'
+		'Paroxystoglossa jocasta'
+		'Paroxystoglossa brachycera'
+		'Paroxystoglossa barbata'
+		'Paroxystoglossa mourella'
+		'Paroxystoglossa transversa'
+		'Paroxystoglossa laevigata'
+		'Megaloptilla byronella'
+		'Megaloptilla calliopis'
+		'Belopria nitidior'
+		'Colletes bicolor'
+		'Penapis penai'
+		'Dufourea sp1'
+		'Conanthalictus conanthi'
+		'Dieunomia nevadensis'
+		'Lipotriches australica'
+		'Nomioides facilis'
+		'Thrinchostoma torridum'
+		'Sphecodes confertus'
+		'Mexalictus arizonensis'
+		'Lasioglossum zephyrum'
+		'Agapostemon tyleri'
+		'Caenohalictus mourei'
+		'Ruizantheda proxima'
+		'Andinaugochlora micheneri'
+		'Ariphanarthra palpalis'
+		'Augochlora iphigenia'
+		'Augochlora caerulior'
+		'Augochlorella ephyra'
+		'Augochlorella aurata'
+		'Augochlorodes turrifaciens'
+		'Augochlorodes politus'
+		'Augochloropsis cupreola'
+		'Augochloropsis cognata'
+		'Caenaugochlora sp1'
+		'Caenaugochlora inermis'
+		'Caenaugochlora perpectinata'
+		'Ceratalictus clonius'
+		'Ceratalictus psoraspis'
+		'Chlerogas cyaneus'
+		'Chlerogella arhyncha'
+		'Chlerogelloides simplex'
+		'Corynura patagonica'
+		'Corynura chloris'
+		'Halictillus loureiroi'
+		'Ischnomelissa zonata'
+		'Ischnomelissa lescheni'
+		'Megalopta guimaresi'
+		'Megalopta atra'
+		'Megalopta byroni'
+		'Megalopta furunculosa'
+		'Xenochlora nigrofemorata'
+		'Xenochlora ianthina'
+		'Megaloptidia nocturna'
+		'Megaloptidia saulensis'
+		'Megommation insigne'
+		'Megaloptina minuta'
+		'Megaloptina festivaga'
+		'Stilbochlora eickworti'
+		'Micrommation larocai'
+		'Neocorynura oiospermi'
+		'Neocorynura aenigma'
+		'Neocorynurella seeleyi'
+		'Pereirapis semiaurata'
+		'Pseudaugochlora simulata'
+		'Pseudaugochlora pandora'
+		'Rhectomia catarina'
+		'Corynurella cognata'
+		'Paracorynurella betoi'
+		'Rhinocorynura briseis'
+		'Rhinocorynura inflaticeps'
+		'Temnosoma sp1'
+		'Temnosoma sp2'
+		'Thectochlora alaris'
+		'Thectochlora basiatra'
+		'Thectochlora brachycera'
+		'Thectochlora hamata'
+		'Thectochlora mixta'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=125;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Number of flagellomeres ( Nr. female / Nr. male)'
+		 [2] 'Position of antennal sockets'
+		 [3] 'Angle formed between dorsal and lateral clypeogenal sulci and opening toward compound eye'
+		 [4] 'Apical margin of clypeus'
+		 [5] 'Compound eye setae'
+		 [6] 'Frons'
+		 [7] 'Anterior angle of hypostomal ridge'
+		 [8] 'Hypostomal ridge'
+		 [9] 'Glossa apex'
+		 [10] 'Prementum'
+		 [11] 'Basal elevation , notch'
+		 [12] 'Distal process of labrum'
+		 [13] 'Shape of distal process of labrum'
+		 [14] 'Keel of labral distal process'
+		 [15] 'Shape of basal elevation'
+		 [16] 'Length of malar space'
+		 [17] 'Mandible teeth'
+		 [18] 'Apex of galea'
+		 [19] 'Base of galea'
+		 [20] 'Galeal surface'
+		 [21] 'Inner surface of galea'
+		 [22] 'Position of the lacinia'
+		 [23] 'Maxillary palpus'
+		 [24] 'Sixth maxillary palpomere'
+		 [25] 'Distance between the lateral ocellus and the upper margin of compound eye'
+		 [26] 'Female paraocular area'
+		 [27] 'Integument of upper paraocular areas'
+		 [28] 'Preoccipital area'
+		 [29] 'Female supraclypeal area'
+		 [30] 'Internal portion of head'
+		 [31] 'Vertex near occelli'
+		 [32] 'Vertex'
+		 [33] 'Fore leg trochanter'
+		 [34] 'Marginal cell apex'
+		 [35] 'Basitarsus and second tarsomere of hind leg'
+		 [36] 'Hind leg'
+		 [37] 'Hind tibia and basitarsus'
+		 [38] 'Inner metatibial spur'
+		 [39] 'Metatibia'
+		 [40] 'Pectinate inner metatibial spur'
+		 [41] 'Serrate inner metatibial spur'
+		 [42] 'Mesoscutal anterior border'
+		 [43] 'Tegula'
+		 [44] 'Lateral surface of metapostnotum'
+		 [45] 'Metapostnotum length'
+		 [46] 'Metapostnotum declivity'
+		 [47] 'Mesofemur and mesotibia'
+		 [48] 'Mesotrochanter'
+		 [49] 'Pronotal carina , laterally'
+		 [50] 'Pronotal carina'
+		 [51] 'Pronotal dorsal surface between lateral angles'
+		 [52] 'Pronotal dorsal surface'
+		 [53] 'Pronotum dorsal surface'
+		 [54] 'Pronotum lateral angle'
+		 [55] 'Propodeal pit'
+		 [56] 'Pubescence of dorsal angle of propodeum'
+		 [57] 'Prosternum'
+		 [58] 'Distal hamuli'
+		 [59] 'Distal venation of front wing'
+		 [60] 'Intersection between 1a. M-cu and basal cell'
+		 [61] 'Metasomal marginal areas'
+		 [62] 'Metasomal marginal areas(2)'
+		 [63] 'S1 ventral surface'
+		 [64] 'Anterior surface of T1'
+		 [65] 'Apical margin of T1-2'
+		 [66] 'First tergum disc'
+		 [67] 'T5 pre-pygidial fimbriae'
+		 [68] 'T5'
+		 [69] 'Antenna'
+		 [70] 'Apex of F11'
+		 [71] 'Male antenna'
+		 [72] 'Relative lengths of F1 versus length of F2'
+		 [73] 'Frons(2)'
+		 [74] 'Gena'
+		 [75] 'Labrum'
+		 [76] 'Preoccipital area(2)'
+		 [77] 'Hind femur'
+		 [78] 'Inner hind tibial spur'
+		 [79] 'Metatibia(2)'
+		 [80] 'Propodeal spiracle'
+		 [81] 'Male metasomal marginal areas'
+		 [82] 'Median surface of S3'
+		 [83] 'Apical margin of S3'
+		 [84] 'Medio apical surface of S3'
+		 [85] 'Apical margin of S4 oblique elevation'
+		 [86] 'Apical margin of S4'
+		 [87] 'Apical margin of S4(2)'
+		 [88] 'Gradulus of S4'
+		 [89] 'Lateral margin of S4'
+		 [90] 'Medial surface of S4'
+		 [91] 'Medial surface of S4(2)'
+		 [92] 'Medio apical surface of S4'
+		 [93] 'Apical margin of S5'
+		 [94] 'Median surface of S5 , depression'
+		 [95] 'Median surface of S5'
+		 [96] 'Medio-apical margin of S5'
+		 [97] 'Gradulus of S6'
+		 [98] 'Medio-apical margin of S6'
+		 [99] 'Apical margin of S7'
+		 [100] 'Apical margin of S8'
+		 [101] 'Point of fusion between S7 and S8'
+		 [102] 'S8'
+		 [103] 'S8(2)'
+		 [104] 'Apical margin of proctiger'
+		 [105] 'Apical margin of proctiger(2)'
+		 [106] 'T7 , carina'
+		 [107] 'T7 , notch'
+		 [108] 'Dorsal surface of gonapophysis , ridge'
+		 [109] 'Dorsal surface of gonapophysis , process'
+		 [110] 'Gonapophysis'
+		 [111] 'Outer surface of gonapophysis'
+		 [112] 'Ventral surface of gonapophysis'
+		 [113] 'Gonobasal dorsal lobes'
+		 [114] 'Gonocoxite'
+		 [115] 'Basal process of gonostylus'
+		 [116] 'Dorsal process of gonostylus , projections'
+		 [117] 'Dorsal process of gonostylus , presence'
+		 [118] 'Gonostylus'
+		 [119] 'Parapenial lobe'
+		 [120] 'Ventral process of gonostylus , shape'
+		 [121] 'Ventral process of gonostylus , size'
+		 [122] 'Ventral surface of gonostylus'
+		 [123] 'Inner apical corner of volsella'
+		 [124] 'Outer basal corner of volsella'
+		 [125] 'Volsellar axis'
+	;
+	STATELABELS
+		1
+		'10 / 11'
+		'9 / 10'
+		,
+		2
+		'on middle or on upper half of face'
+		'on lower half of face'
+		,
+		3
+		'obtuse or linear'
+		'approximately orthogonal'
+		'acute, forming lobe projecting into clypeal base'
+		'projected as remaining face'
+		,
+		4
+		'straight'
+		'concave'
+		,
+		5
+		'inconspicuous, at most as long as an ommatidium diameter'
+		'conspicuous, much longer than several ommatidium diameters'
+		,
+		6
+		'not depressed above antennal alveoles'
+		'strongly depressed above antennal alveoles'
+		,
+		7
+		'rounded'
+		'angled, coming to a distinct point'
+		,
+		8
+		'rounded to carinate'
+		'lamellate'
+		,
+		9
+		'pointed'
+		'bifid'
+		,
+		10
+		'unmodified, less than 7x longer than wide'
+		'greatly narrowed and elongate, 7x or more longer than wide'
+		,
+		11
+		'not entirely divided'
+		'entirely divided, including its basal limit'
+		,
+		12
+		'broadly rounded, or truncate, not keeled'
+		'ending in a process with a strong, laterally compressed keel'
+		,
+		13
+		'triangular'
+		'quadrate'
+		,
+		14
+		'thin ridge'
+		'expanded at base'
+		,
+		15
+		'transversal'
+		'elliptical'
+		,
+		16
+		'short, less than basal width of mandible'
+		'elongate, as long as, or longer than, basal width of mandible'
+		,
+		17
+		'not widely separated'
+		'widely separated ( one or more than one time the tooth width)'
+		,
+		18
+		'lobed'
+		'distinctly acute'
+		,
+		19
+		'extending posterad to middle of stipes'
+		'extending posterad or near to base of stipes'
+		,
+		20
+		'pores sparsely distributed'
+		'pores uniformly distributed'
+		,
+		21
+		'without comb'
+		'with comb'
+		,
+		22
+		'at base of galea'
+		'stretched up anterior surface of labiomaxillary tube'
+		,
+		23
+		'unmodified, extending posterad to premental base at most'
+		'greatly elongate, extending posterad to metasoma'
+		,
+		24
+		'with same length of fifth palpomere'
+		'longer than fifth palpomere'
+		,
+		25
+		'three times greater than F1 length'
+		'two times greater than F1 length'
+		'equal to F1 length'
+		'less than F1 length'
+		,
+		26
+		'long erect setae with very short branches, almost simple'
+		'long setae conspicuously branched'
+		,
+		27
+		'not differentiated from median parts of frons'
+		'differentiated by other kind of sculpture or coloration ( paraocular fovea)'
+		,
+		28
+		'rounded, not carinate'
+		'carinate or lamellate'
+		,
+		29
+		'conspicuously convex, its lateral portions with a more pronounced curvature than adjacent parocular surface'
+		'only weakly convex, its lateral portions with same curvature as adjacent parocular surface'
+		,
+		30
+		'without second tentorial arm bridge'
+		'with second tentorial arm bridge'
+		,
+		31
+		'without furrow'
+		'with interocellar furrow'
+		,
+		32
+		'without ridge'
+		'with dorsally extended transverse ridge behind ocelli'
+		,
+		33
+		'without a dorsal hook'
+		'with a dorsal hook'
+		,
+		34
+		'acute and not appendiculate'
+		'truncate and appendiculate'
+		,
+		35
+		'not fused'
+		'fused in some degree'
+		,
+		36
+		'without scopa'
+		'with scopa'
+		,
+		37
+		'without dense stiff black setae'
+		'with dense stiff black setae'
+		,
+		38
+		'serrate'
+		'pectinate'
+		,
+		39
+		'without spine'
+		'with spine'
+		,
+		40
+		'few teeth'
+		'many teeth'
+		,
+		41
+		'with basal portion enlarged'
+		'without basal enlargement'
+		,
+		42
+		'broadly rounded'
+		'depressed dorsally'
+		'acuminate, but not depressed'
+		'projected over dorsal surface of pronotum'
+		,
+		43
+		'oval'
+		'inner margin notched'
+		,
+		44
+		'ornamented'
+		'polished, without ornamentaion'
+		,
+		45
+		'shorteR than scutellum and metanotum combined'
+		'as long or longer than scutellum and metanotum combined'
+		,
+		46
+		'strongly angled from propodeal posterior surface'
+		'declivitous'
+		,
+		47
+		'not expanded'
+		'expanded'
+		,
+		48
+		'unmodified'
+		'with medio-dorsal hook'
+		,
+		49
+		'not expanded to ventral pronotum'
+		'descending ventral pronotum, reaching propleura'
+		'descending ventral pronotum, not reaching propleura'
+		,
+		50
+		'not lamellate'
+		'forming a weak lamella'
+		'forming a distinctly elevated lamella'
+		'forming a lamella contiguous throughout pronotal dorsal surface'
+		'incomplete lamela from lobe to lateral angle'
+		,
+		51
+		'short, mostly covered by mesoscutum'
+		'convex, inflated, and greatly expanded anteriorly, not obscured by mesoscutum'
+		,
+		52
+		'without row of erect setae'
+		'with a conspicuous row of erect setae'
+		,
+		53
+		'not carinate'
+		'with carinate ridge'
+		,
+		54
+		'not projected'
+		'strongly projected'
+		,
+		55
+		'set into triangular recess'
+		'not set into a triangular recess'
+		,
+		56
+		'without appressed setae'
+		'with a tuft of appressed setae'
+		,
+		57
+		'not expanded'
+		'expanded in a diamond shape format'
+		,
+		58
+		'irregularly spaced'
+		'uniformly spaced and numerous'
+		,
+		59
+		'strong'
+		'weakened'
+		,
+		60
+		'between 2a. rs-m and Rs'
+		'after 2a. Rs-m'
+		,
+		61
+		'not broadened, depressed and glabrous'
+		'broadened, depressed and glabrous'
+		,
+		62
+		'without couloured bands'
+		'with coloured bands'
+		,
+		63
+		'not modified'
+		'with tubercle'
+		,
+		64
+		'not depressed'
+		'depressed, forming an acarinarium'
+		,
+		65
+		'not produced'
+		'depressed and rimmed'
+		,
+		66
+		'punctured'
+		'almost impunctate'
+		,
+		67
+		'not cleft'
+		'medially cleft'
+		,
+		68
+		'without pre-pygidial fimbriae'
+		'with pre-pygidial fimbriae'
+		,
+		69
+		'without defined sensory plate areas'
+		'with sensory plate areas'
+		,
+		70
+		'unmodified'
+		'hooked'
+		,
+		71
+		'flagellomeres decreasing in length from base to apex'
+		'F2-F11 subequal in length'
+		,
+		72
+		'F1 equal to F2'
+		'F1 shorter than F2'
+		'F1 longer than F2'
+		,
+		73
+		'without long and erect branched setae'
+		'with long and erect branched setae'
+		,
+		74
+		'with short, setae ( less than one half an eye lenght)'
+		'with long setae ( more than one half na eye lenght)'
+		,
+		75
+		'without a basal elevation'
+		'with basal elevation'
+		,
+		76
+		'rounded, not carinate'
+		'carinate'
+		,
+		77
+		'not swollen'
+		'swollen'
+		,
+		78
+		'serrate'
+		'pectinate'
+		,
+		79
+		'without row of erect setae'
+		'with a row of erect setae with approximately same tibial diameter'
+		,
+		80
+		'without dense and plumose setae'
+		'surrounded with dense, plumose setae'
+		,
+		81
+		'without couloured bands'
+		'with coloured bands'
+		,
+		82
+		'without longitudinal sulcus'
+		'with longitudinal sulcus'
+		,
+		83
+		'not notched'
+		'medially notched'
+		,
+		84
+		'without medio-apical process'
+		'with weakly projected medio-apical process'
+		'with strongly projected medio-apical process'
+		,
+		85
+		'not widely separated'
+		'widely produced and separated'
+		,
+		86
+		'straight'
+		'medially concave'
+		'produced ( new state for Thectochlora)'
+		,
+		87
+		'without elevation'
+		'with oblique elevations'
+		,
+		88
+		'continuous'
+		'medially interrupted'
+		,
+		89
+		'straight'
+		'with small lateral processes'
+		'with projected lateral processes ( more than 0.5 the sternum lenght)'
+		,
+		90
+		'without setal patch'
+		'with triangular setal patch'
+		,
+		91
+		'without setal tuft'
+		'with circular setal tuft'
+		,
+		92
+		'unmodified'
+		'with basal patches of setae and apical tuft near a median projection'
+		,
+		93
+		'without setal tuft'
+		'with tufts of long setae'
+		,
+		94
+		'without lateral tubercles'
+		'with lateral tubercles'
+		,
+		95
+		'not depressed'
+		'with a median depressed area'
+		,
+		96
+		'not modified'
+		'weakly emarginate'
+		'cleft'
+		,
+		97
+		'continuous'
+		'medially interrupted'
+		,
+		98
+		'clearly straight'
+		'cleft'
+		,
+		99
+		'continuous, straight'
+		'with median process'
+		'with lateral processes'
+		'State 3'
+		,
+		100
+		'continuous, straight'
+		'with median process'
+		,
+		101
+		'at apodeme apex'
+		'before apodeme apex'
+		,
+		102
+		'sclerotinized, with unique apical projections and usually with moderate basal arms'
+		'membranous, without an apical projection'
+		,
+		103
+		'without spicule'
+		'with spicule'
+		,
+		104
+		'without anal filaments'
+		'with short anal filaments'
+		'with long anal filaments'
+		,
+		105
+		'without microtrichiae'
+		'with microtrichiae'
+		,
+		106
+		'without apical carina'
+		'apical carina produced as a false apex, similar to a pygidial plate'
+		,
+		107
+		'without apical notch'
+		'with apical notch'
+		,
+		108
+		'without ridge'
+		'ridged'
+		,
+		109
+		'absent'
+		'with long, anteriorly directed process'
+		,
+		110
+		'medially broad'
+		'entirely narrowed'
+		,
+		111
+		'unmodified'
+		'indentate'
+		'with two indentations'
+		,
+		112
+		'unmodified'
+		'with broad prong'
+		'with keel'
+		,
+		113
+		'narrow, situated between apodemes of penis valves in dorsal view'
+		'broad, situated at or lateral to apodemes of penis valves in dorsal'
+		'broadly excavated'
+		,
+		114
+		'unmodified'
+		'distinctly broader than gonobase'
+		,
+		115
+		'without basal process'
+		'with basal process'
+		,
+		116
+		'a single projection'
+		'divided projection'
+		,
+		117
+		'without dorsal process'
+		'with inflated dorsal process'
+		'with transversal dorsal process'
+		'with apical dorsal process'
+		,
+		118
+		'externally contiguous with gonocoxite, not clearly constricted at base'
+		'clearly constricted at base'
+		,
+		119
+		'absent'
+		'present'
+		'enlarged'
+		,
+		120
+		'globose'
+		'calix-like'
+		'truncate'
+		,
+		121
+		'not enlarged'
+		'enlarged'
+		,
+		122
+		'without a projection'
+		'with projection'
+		,
+		123
+		'variously produced'
+		'modified into a thin hook'
+		,
+		124
+		'rounded'
+		'acuminate or indented'
+		,
+		125
+		'parallel'
+		'oblique'
+		
+	;
+	MATRIX
+	'Stenotritus sp1'		                      0000000000000000000000000?00?0000001000?00000000??00000000000000000000?0000000000000?0?0000?0?0000000000000000000000?0?0?0000
+	'Paroxystoglossa crossotos'		            0000000000010010001001000?01?0000101000?120000000000101000000100001100?1010100001000?100000100110111011000000011000?011001000
+	'Paroxystoglossa seabrai'		              0000000000010010001001000?01?0000101000?120000000000111000000100001100?1010100001000?100000100110111011000000011000?010001000
+	'Paroxystoglossa andromache'		           0000000000010010001001000?01?0000101000?120000000000101100000100001100?1010100001000?100000100110111011000000011000?011001000
+	'Paroxystoglossa spiloptera'		           0000000000010010001001000?01?0000101000?120000000000101100000100001100?1000100001000?100000100110111011000000021000?011001000
+	'Parosystoglossa mimetica'		             0000000000010010001001000?01?0000101000?12000000000010100000010001110011010100000000?100000100110111011000000011000?011001000
+	'Paroxystoglossa jocasta'		              0010000000010000001001000?00?0000101000?100000000000101000000000001100?10100100000001110000001110111011000000011000?011001000
+	'Paroxystoglossa brachycera'		           0010000000010000001001000?00?0000101000?100000000000101000000000001100?00100000000000110000001110111011000000011000?011001000
+	'Paroxystoglossa barbata'		              0010000000010000001001000?00?0000101000?100000000000101000000000001100?00100100000001110000001110111011000000011000?011201000
+	'Paroxystoglossa mourella'		             0010000000010000001001000?00?0000101000?100000000000101000000000001100?10100000000000110000000110111011000000011000?011001000
+	'Paroxystoglossa transversa'		           0000000000010000001001000?00?0000101000?120000000400101000001000001100?10101000000000110000000110111011000000011200?011001000
+	'Paroxystoglossa laevigata'		            0000000000010000001001000?00?0000101000?120000000400101000001000001100?10101000000000110000000110111011000000011200?011001000
+	'Megaloptilla byronella'		               0000000000010000001001000?00?0000001000?100000000300101000000000001100?00?00?0000000?000000?0??1012101100000010?000?211001000
+	'Megaloptilla calliopis'		               0000000000010000001001000?00?0000001000?1000000003001010000000000011?????0?00???0?????0????0??0??????????????????????????????
+	'Belopria nitidior'		                    00000000100000?0000000000?00?0000?01000?00000000??000?0?0000??000?0000?00?0??0000000?0?0000?0??000000000000000000000?0?0?0000
+	'Colletes bicolor'		                     00000000100000?0000000000?00?0000?01000?00000000??000?0?0000??000?0000?00?0??0000000?0?0000?0??000000000000000000000?0?0?0000
+	'Penapis penai'		                        0100000000?0?0?0000011000?10?0000?010100?000000000001?1?0000??000?0000?00????0000000?0?0000?0??000???000010000010000?0?0?0000
+	'Dufourea sp1'		                         0100000000?0?0?0000011000?10?0000?010100?000000000001?1?0000??000?0000?00????0000000?0?0000?0??000???000010000010000?0?0?0000
+	'Conanthalictus conanthi'		              0100000000?0?0?0000011000?10?0000?010100?000000000001?1?0000??000?0000?00????0000000?0?0000?0??000???000010000010000?0?0?0000
+	'Dieunomia nevadensis'		                 0000000000?1?0?0000011000?00?1000?010100?000000000001?1?0000??000?0000?00?0??0000000?0?0000?0??000???000010000010000?0?0?0000
+	'Lipotriches australica'		               0000000000?1?0?0000011000?00?1000?010100?000000000001?1?0000??000?0000?00????0000000?0?0000?0??000???000010000010000?0?0?0000
+	'Nomioides facilis'		                    0000000000?1?0?0000001000?00?0000?010100?000000000001?1?0000??000?0000?00?0??0000000?0?0000?0??000???100010000010000?0?0?0000
+	'Thrinchostoma torridum'		               0000000000?1?0?0000001000?00?0000?110100?000000000001?1?0000??000?1000?00????0000000?0?0000?0??000???100010000010000?1?0?1000
+	'Sphecodes confertus'		                  0000000000?1?0?0000001000?00?0000?110100?000000000001?1?0000??000?1000?00????0000000?0?0000?0??000???100010000010000?1?0?1000
+	'Mexalictus arizonensis'		               0000000000?1?0?0000001000?00?0000?110100?000000000001?1?0000??000?1000?00?0??0000000?0?0000?0??000???100010000010000?1?0?1000
+	'Lasioglossum zephyrum'		                0000000000?100?000000100??00?0000?110100?000000000001?1?0010??000?1000?00????0000000?0?0?00?0???00???100010000010000?1?0?1000
+	'Agapostemon tyleri'		                   0000100000?100?0000001000?10?0000?110100?000000000001?1?0000??000?1000?00?0??0000000?0?1000?0??000???100010000000000?1?0?1000
+	'Caenohalictus mourei'		                 0000100000?100?0000001000?10?0000?110100?000000000001?1?0000??000?1000?00?0??0000000?0?1000?0??000???100010000000000?1?0?1000
+	'Ruizantheda proxima'		                  0000000000?100?0000001000?10?0000?110100?000000000001?1?0000??000?1000?00?0??0000000?0?0000?0??000???100010000000000?1?0?1000
+	'Andinaugochlora micheneri'		            0000000000?100?0001111000?01?0000?010100?000000000001?1?0000??000?1110?00?0??0000000?0?0?00?0??001110110000001010000211001000
+	'Ariphanarthra palpalis'		               0000010001?100?0011001110?00?0000?01000?0000000000011?1?0001??000?1100?10?0??0000000?0?0000?0??101100111000000000000111001000
+	'Augochlora iphigenia'		                 00200010000100?0001001000?01?0000?01000?0000000001001?1?0000??000?1100?00?0??0000000?0?0000?0??001111112000100021010311001000
+	'Augochlora caerulior'		                 00200010000100?0101001000?01?0000?01000?0000000000001?1?0000??100?1100?00?0??0000000?0?0000?0??00?111112000100021010311001000
+	'Augochlorella ephyra'		                 00100000000100?0001001000?01?0000?01000?0000000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001110112000100021010311001010
+	'Augochlorella aurata'		                 00100000000100?0001001000?01?0000?01000?0000000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001110112000100021011311001010
+	'Augochlorodes turrifaciens'		           00000000000100?0011001000?00?0000?010100?000000000001?1?0001??000?1100?00?0??0000000?0?0100?0??001100111000000000000312011000
+	'Augochlorodes politus'		                00000000000100?0011001000?00?0000?010100?000000000001?1?0001??000?1100?00?0??0000000?0?0100?0??001100111000000000000312011000
+	'Augochloropsis cupreola'		              00000000000110?0001001000?01?0000?010100?010000001001?1?0000??000?1100?00?1??0000000?0?0200?0??201110110000000010000311001100
+	'Augochloropsis cognata'		               00000000000110?0001001000?01?0000?010100?010000001001?1?0000??000?1100?00?1??0000000?0?0200?0??201110110000000010000311001100
+	'Caenaugochlora sp1'		                   00001000000100?0001001000?01?0000?010100?000000000001?1?0000??000?1100?00?0??0000010?1?0210?0??201110110000000000000010001000
+	'Caenaugochlora inermis'		               00001000000100?0001001000?01?0000?010100?000000000001?1?0000??000?1100?00?0??0000010?1?0210?0??201110110000000000000010001000
+	'Caenaugochlora perpectinata'		          00001000000100?0001001000?01?0000?010100?100000000001?1?0000??000?1100?00?0??0000010?1?0000?0??201100110000000000000010001000
+	'Ceratalictus clonius'		                 00000000000100?0001001000?01?0000?01000?0000000000001?1?0000??000?1100?00?0??0100000?0?0000?0??001011110000100001010311001000
+	'Ceratalictus psoraspis'		               00000000000100?0001001000?01?0000?01000?0000000000001?1?0000??000?1100?00?0??0100000?0?0000?0??001011110000100001010311001000
+	'Chlerogas cyaneus'		                    10300000000100?1001001000?00?0000?010100?000000000001?1?0000??000?1100?00?0??1000000?0?0000?0??101110110000001010000211001000
+	'Chlerogella arhyncha'		                 00100000000100?0001001000?00?0000?010100?0001000??000?1?1000??000?1100?20?0??0000000?0?0000?1??001110110000000010000010001001
+	'Chlerogelloides simplex'		              00300000000100?0001001000?00?0000?01000?00001010??100?1?1000??000?1100?10?0??0000000?0?0000?0??001010110000000000000310001000
+	'Corynura patagonica'		                  00000000000100?0000011000?00?0000?01001?0000000000001?0?0000??000?1100?20?0??0000000?0?0000?0??001110110000000010110010001000
+	'Corynura chloris'		                     00000000000100?0000011000?00?0000?01001?0000000000001?0?0000??000?1100?20?0??0000000?0?0000?0??001110110000000010110010001000
+	'Halictillus loureiroi'		                00000000000100?0000011000?00?0000?010110?000000000001?0?0000??000?1100?20?0??0000000?0?0000?0??000110110000000010110010001000
+	'Ischnomelissa zonata'		                 00100000000100?1001001000?00?0000?010101?0001000??000?1?1000??000?1100?20?0??0000000?0?0000?1??001110110000000000000010001001
+	'Ischnomelissa lescheni'		               00100000000100?1001001000?00?0000?010101?0001000??000?1?1000??000?1100?20?0??0000000?0?0000?1??001110110000000000000010001001
+	'Megalopta guimaresi'		                  00200000000101?0001001003?00?0100?010100?001010020001?1?0100??000?1100?00?0??0000110?1?0000?0??201210110000000000000312001000
+	'Megalopta atra'		                       00200000000101?0001001001?00?0100?010100?000010020001?1?0100??000?1100?00?0??0000010?1?0000?0??201210110000000000000312001000
+	'Megalopta byroni'		                     00200000000101?0001001002?00?0100?000100?001010020001?1?0100??000?1100?00?0??0000110?1?0000?0??201210110000000000000312001000
+	'Megalopta furunculosa'		                00200000000101?0001001002?00?0100?000100?001010020001?1?0100??000?1100?00?0??0000110?1?0000?0??201210110000000000000312001000
+	'Xenochlora nigrofemorata'		             00200000?0?101?0001001000?00?0100?011100?000010020001?1?0000??000?1100?10?1??0000112?1?0200?0??2012????0000000010000312001000
+	'Xenochlora ianthina'		                  00200000?0?101?0001001000?00?0100?011100?000010020001?1?0000??000?110???0?????0?0?????????0?0????????1?????0?00??0???1???1??0
+	'Megaloptidia nocturna'		                00000100010100?0011001011?00?0000?01000?0000000000011?1?0001??000?1100?10?0??0000000?0?1000?0??001110111000000000000312001000
+	'Megaloptidia saulensis'		               00000100010100?0011001011?00?0000?01000?0000000000011?1?0001??000?1100?10?0??0000000?0?1000?0??001110111000000000000312001000
+	'Megommation insigne'		                  00010001010100?0011001001?00?0000?01000?00000000??010?1?0001??000?1100?10?0??0000001?0?1000?0??011200111000000001000311111000
+	'Megaloptina minuta'		                   00010000010100?0011001000?00?0000?00000?0000000000011?1?0001??000?1100?00?0??0010001?0?1000?0??011110111000000001000311111000
+	'Megaloptina festivaga'		                00010000010100?0011001000?00?0000?010100?000000000011?1?0001??000?1100?00?0??0010001?0?1000?0??011100111000000001000311111000
+	'Stilbochlora eickworti'		               00000000010100?0011001000?00?0000?010100?000000000011?1?0001??000?1100?00?0??0000000?0?1000?0??001100111000000000000011011000
+	'Micrommation larocai'		                 00000000010100?0011001010?00?0000?01000?0000000000001?1?0001??000?1100?10?0??0000000?0?0000?0??00111011??00000000000111001000
+	'Neocorynura oiospermi'		                00000000000100?0001101000?01?0000?010100?200000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001110110000001000000211001000
+	'Neocorynura aenigma'		                  00000000000100?0001101000?01?0000?010100?200000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001110110000001000000211001000
+	'Neocorynurella seeleyi'		               00000000000100?0001111000?00?0000?010100?000000000001?1?0000??000?1110?00?0??0000000?0?0000?0??001110110000000000000211001000
+	'Pereirapis semiaurata'		                00000000000100?0001001000?01?0000?01000?0000000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001011110000100001010311001000
+	'Pseudaugochlora simulata'		             00000000000100?0011001000?00?0010?010100?000000000001?1?0000??000?1101?00?0??0000000?0?0010?0??001310111000000010000311001000
+	'Pseudaugochlora pandora'		              00000000000100?0011001000?00?0010?010100?000000000001?1?0000??000?1100?00?0??0000000?0?0010?0??001310111000000010000311001000
+	'Rhectomia catarina'		                   00000000001100?0001011000?00?0000?010100?000000000001?1?0000??000?1100?00?0??0000000?0?0000?0??001100110100000010010311001000
+	'Corynurella cognata'		                  00000000000100?0001011000?00?0000?010100?000000010001?1?0000??000?1100?01?0??0000000?0?0000?0??001100110100000010000311001000
+	'Paracorynurella betoi'		                00000000000100?0001011000?00?0000?010100?000000000001?1?0000??000?1100?01?0??0000000?0?0000?0??001100110100000010010311001000
+	'Rhinocorynura briseis'		                00000000001100?0001011000?00?0000?010100?100000001001?1?0000??000?1100?00?0??0000000?0?0000?0??001110110100000010010311001000
+	'Rhinocorynura inflaticeps'		            00000000001100?0001011000?00?0000?010100?100000001001?1?0000??000?1100?00?0??0000000?0?0000?0??001110110100000010010311001000
+	'Temnosoma sp1'		                        00000000000110?0001001000?01?0000?00000?0000000000001?1?0000??001?1000?00?0??0000000?0?0000?0??001?10110001010000000010011000
+	'Temnosoma sp2'		                        00000000000110?0001001000?01?0000?00000?0000000000001?1?0000??001?1000?00?0??0000000?0?0000?0??001?10110001010000000010011000
+	'Thectochlora alaris'		                  0000000000?100?000100100000010000?010100?300000102001?1?0000??010?1100100?0??0000000?1?0201?0??201110110000000000000311001000
+	'Thectochlora basiatra'		                0000000000?100?000100100000010000?010100?300000102001?1?0000??010?1110100?0??0000000?2?0201?0??201110110000000000000311001000
+	'Thectochlora brachycera'		              0000000000?100?000100100010000000?010100?300000102001?1?0000??010?1100000?0??0000000?1?0200?0??201110110000000000000311001000
+	'Thectochlora hamata'		                  0000000000?100?000100100000010001?010100?300000102001?1?0000??010?1110100?0??0000000?2?0201?0??201110110000000000000311001000
+	'Thectochlora mixta'		                   0000000000?100?000100100000000000?010100?300000102001?1?0000??010?1110100?0??0000000?1?0201?0??201110110000000000000311001000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 125;
+      ENDBLOCK;
+      

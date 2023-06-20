@@ -1,0 +1,462 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.09.12 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+    		'Azygonyx'
+		'Esthonyx'
+		'Megalesthonyx hopsoni'
+		'Adapidium huanghoense'
+		'Kuanchuanius shantunensis'
+		'ANSP'
+		'SDSNH'
+		'ANSP-SDSNH'
+		'Trogosus hyracoides'
+		'Trogosus grangeri'
+		'Trogosus hillsii'
+		'Trogosus latidens'
+		'Trogosus gazini'
+		'Tillodon fodiens'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=75;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'den01 P2 root(s)'
+		 [2] 'den02 P3 parastyle'
+		 [3] 'den03 P3 paracone'
+		 [4] 'den04 P3 metastyle'
+		 [5] 'den05 Precingulum (anterolingual cingulum) on P4?M3'
+		 [6] 'den06 Stylar shelf and ectocingulum (labial cingulum between parastyle and metastyle) on P4?M3'
+		 [7] 'den07 Lingual crests (preprotocrista and postprotocrista) from P4 protocone, and position of P4 paracone'
+		 [8] 'den08 Hypoconal crest (posterolingual cingulum, postcingulum) on P4'
+		 [9] 'den09 M1 size relative to P4: ratio of M1/P4 in crown area (length x width).'
+		 [10] 'den10 Hypoconal crest (posterolingual cingulum, postcingulum) on M1?2'
+		 [11] 'den11 M3 size relative to M2: ratio of M3/M2 in crown area (length x width)'
+		 [12] 'den12 ?Enamel loop? (Gazin, 1953:66) in trigon basin of M1?3'
+		 [13] 'den13 Mesostyle on M1?3'
+		 [14] 'den14 i1'
+		 [15] 'den15 i2 (I2) morphology'
+		 [16] 'den16 A longitudinal groove on i2 labial enamel surface'
+		 [17] 'den17 i3'
+		 [18] 'den18 c1'
+		 [19] 'den19 p2 root(s)'
+		 [20] 'den20 i2?p3 distance (diastemata anterior to p3) or I2?P2 distance: ratio of length from i2 posterior edge to p3 anterior edge with the diastemata / length of lower cheek teeth (p3?m3), or ratio of length from I2 posterior edge to P2 anterior edge with the diastemata / length of lower cheek teeth (P3?M3)'
+		 [21] 'den21 Unilateral hypsodonty of lower cheek teeth: ratio of labial enamel expansion of the tooth / the tooth length (m1 or m2, preferable)'
+		 [22] 'den22 Metaconids of lower molars'
+		 [23] 'den23 Anterolingual connection of cristid obliqua in lower molars'
+		 [24] 'den24 Size of m2 relative to m1: ratio of m2/m1 in crown area (length x width)'
+		 [25] 'den25 m2 hypoconulid and entoconid'
+		 [26] 'den26 m3 metastylid'
+		 [27] 'den27 m3 third lobe (m3 hypoconulid basin)'
+		 [28] 'den28 Groove on lingual surface of m3 talonid (lingual extension of occlusal notch between entoconid and third lobe (= hypoconulid))'
+		 [29] 'mnd-1 Mandibular depth: ratio of the maximum depth of mandible / m2 size in the natural logarithmic crown area (Ln length x width)'
+		 [30] 'mnd-2 Lateral shape of mandible'
+		 [31] 'mnd-3 Mandibular symphysis'
+		 [32] 'mnd-4 Thickness (robustness) of mandibular ramus and depth of masseteric fossa'
+		 [33] 'sk01 Rostral depth relative to palatal length (ratio of rostral depth / palatal length, Table 1)'
+		 [34] 'sk02 Pattern of premaxilla-maxilla suture on lateral surface of rostrum'
+		 [35] 'sk03 Narrowness of posterodorsal process of premaxilla (measured as the angle between the premaxilla-nasal and premaxilla-maxilla sutures)'
+		 [36] 'sk04 Posterior extension of palatine process of premaxilla, or the anterior edge of palatine junction with maxilla'
+		 [37] 'sk05 Anterior parts of premaxillae along the external nares'
+		 [38] 'sk06 Alignment of lateral margins of paired nasals between premaxillae'
+		 [39] 'sk07 Posterior margin of paired nasals intrusion into frontals at the midline (computed as ratio of the anteroposterior length of nasal from maxilla-frontal suture to the posterior-most end of nasal / total nasal length)'
+		 [40] 'sk08 Shape of posterior border of paired nasals (frontonasal sutures)'
+		 [41] 'sk09 Lateral intrusion of nasals between maxilla and frontal (into maxilla-frontal suture)'
+		 [42] 'sk10 Length of maxilla-nasal contact (ratio of the anteroposteior length of maxilla-nasal contact / total nasal length)'
+		 [43] 'sk11 Shape of infraorbital foramen (ratio of W/H)'
+		 [44] 'sk12 Position of paired palatine foramina on palatal processes with anteriorly-directed sulci (Gazin, 1953)'
+		 [45] 'sk13 Lateral constriction of rostrum, showing lateral concavity of the alveolar process of the maxilla between C1 and P2'
+		 [46] 'sk14 Position of anterior margin of choanae (or posterior margin of horizontal process of palatine)'
+		 [47] 'sk16 Posterior palatine sulcus, continuing to the saddle-shaped flexion between the horizontal and perpendicular processes'
+		 [48] 'ex3 Palatal length, ratio of palatal length / condylobasal length (related to basicranial length)'
+		 [49] 'sk17 Facial process and anterior orbital rim'
+		 [50] 'sk18 Position of lacrimal foramen'
+		 [51] 'sk19 Lacrimal tubercle'
+		 [52] 'sk20 Masseteric margin of jugal and zygomatic process of maxilla'
+		 [53] 'sk21 Lateral expansion of zygomatic arch, ratio of distance between zygion and sagittal crest / anteroposterior length of orbitotemporal fossa'
+		 [54] 'sk22 Position of the zygion, for anteroposterior length of orbitotemporal fossa'
+		 [55] 'sk23 Dorsal aspect of frontal (ratio of maximum L/W on vertex)'
+		 [56] 'sk24 Supraorbital rim, distance between lacrimal foramen and postorbital process'
+		 [57] 'sk25 Postorbital process'
+		 [58] 'ex6 Postorbital constriction'
+		 [59] 'sk27 Dorsolateral surface of parietal, comprising side walls of braincase'
+		 [60] 'ex7 Coronal narrowness of parietals between squamosals in dorsal view, ratio of narrowest width of paired parietal / greatest width of occiput'
+		 [61] 'sk28 Sagittal crest, ratio of sagittal crest length / skull length; depth of sagittal crest'
+		 [62] 'sk29 Ventral outline of the pterygoid plate in lateral view, from the perpendicular process of palatine to pterygoid'
+		 [63] 'sk30 Size and position of posterior opening of alisphenoid canal'
+		 [64] 'sk31 Midline crest (ventral keel)'
+		 [65] 'ex2 Suprameatal crest of squamosal'
+		 [66] 'sk32 Postglenoid process'
+		 [67] 'ex4 Glenoid fossa'
+		 [68] 'ex1 Nuchal crest near midline'
+		 [69] 'sk33 Occipitomastoid process'
+		 [70] 'sk34 Occipital shield'
+		 [71] 'sk35 Narrowness of width between occipital condyles, ratio of anteroposterior length of condyle / width between the condyles (related to the anteroposterior oblateness of condyles, or to the width of odontoid notch)'
+		 [72] 'sk36 Shape of basioccipital in ventral view'
+		 [73] 'at1 Transverse process'
+		 [74] 'at2 Position of neural spine'
+		 [75] 'at3 Groove (sulcus) on caudal surface between neural arch and articular facet for axis'
+	;
+	STATELABELS
+		1
+		'Two roots'
+		'Single root'
+		,
+		2
+		'Low crest-like cusp on the anterior slope of paracone'
+		'Diminutive (much reduced) or lost'
+		'Large and cusp-like parastyle, separating from paracone by a notch'
+		,
+		3
+		'Intermediately or slightly anteriorly positioned paracone, without a labial enamel extension to root'
+		'Anteriorly positioned paracone, with a labial enamel extension to root'
+		,
+		4
+		'Low and obtuse cusp, showing a symmetric aspect with parastyle'
+		'Posteriorly expanded, developed crest-like cusp, forming a broad ectoflexus'
+		,
+		5
+		'Present, as a defined shelf- or crest-like structure'
+		'Reduced or lost'
+		,
+		6
+		'Present, as shelf-like structure (stylar shelf)'
+		'No shelf-like structure, but sometimes with weak and discontinuous cingulum'
+		,
+		7
+		'Symmetric (V-shaped crests), and mid-positioned paracone'
+		'Slightly asymmetric with relatively expanded postprotocrista, and anteriorly positioned paracone'
+		'Distinctly asymmetric with well-expanded postprotocrista and reduced preprotocrista, anteriorly positioned paracone, and anteriorly swelling lingual wall of P4'
+		,
+		8
+		'Present, a shelf- or crest-like structure'
+		'Reduced as a small enamel pit or lost'
+		,
+		9
+		'Moderately larger than P4: approximate range = 1.10?1.45'
+		'Much larger than P4: approximate range = 1.60?1.90'
+		,
+		10
+		'Cingulum or crest-like structure, less developed than pre- and postprotocristae'
+		'Expanded hypoconal crest, a shelf-like structure with a square posterolingual edge, as developed as pre- and postprotocristae'
+		,
+		11
+		'Smaller than M2: approximate range = 0.74?0.97 (average 0.83)'
+		'Larger than M2: approximate range = 1.18?1.32'
+		,
+		12
+		'Absent'
+		'Present'
+		,
+		13
+		'Absent'
+		'Present'
+		,
+		14
+		'Present'
+		'Absent'
+		,
+		15
+		'Rooted, with oval cross section'
+		'Rootless, with posteriorly elongated dentine and labial enamel layer extending to the basal end'
+		,
+		16
+		'Absent, flattened or smooth surface'
+		'Present'
+		,
+		17
+		'Present, smaller than i1 and than c1'
+		'Much vestigial or possibly lost, because of no space between i2 and c1'
+		'Lost, despite enough space (long diastema) between i2 and c1'
+		,
+		18
+		'As large as, or slightly smaller than i2'
+		'Reduced, apparently smaller than i2, almost the same size as i3 or p2'
+		,
+		19
+		'Two roots'
+		'Single root'
+		,
+		20
+		'Moderately long: approximate range = 0.30?0.35 (0.59?0.61 in upper dentition)'
+		'Shorter: approximate range = 0.22?0.27 (0.50?0.54 in upper dentition)'
+		'Longer: approximate range = 0.37?0.41 (0.65?0.71 in upper dentition)'
+		,
+		21
+		'Less hypsodont: less than 0.4 (approximate range = 0.28?0.38)'
+		'Moderately hypsodont: approximate range = 0.41?0.48'
+		'Greatly hypsodont: over 0.57 (approximate range = 0.58?0.72)'
+		,
+		22
+		'Relatively conical and slender, with no strong posterior projection over protocristid'
+		'Elongated anteroposteriorly, with flat lingual wall and defined posterior projection'
+		,
+		23
+		'Almost at the middle of protocristid'
+		'At lingual position of protocristid, close to metaconid (posterolabial side of metaconid)'
+		,
+		24
+		'Slightly larger than m1: approximate range = 1.06?1.22'
+		'Moderately larger than m1: approximate range = 1.22?1.52'
+		'Much larger than m1: approximate range = 1.60?1.65'
+		,
+		25
+		'No basin structure, with a conical or weak crest-like hypoconulid and a conical entoconid'
+		'No basin structure, with a lingually positioned crest-like hypoconulid and a conical entoconid'
+		'Basin-shaped (lingually positioned hypoconulid-entoconid basin), with connection between a crest-like hypoconulid and a conical entoconid by a low enamel ridge'
+		,
+		26
+		'Single, weak or prominent'
+		'Double (twinned) and weak'
+		'Much reduced (possibly absent)'
+		,
+		27
+		'No basin structure and no posthypocristid: a conical hypoconulid and a small crest-like entoconid'
+		'Basin-shaped, with a weak posthypocristid'
+		'Basin-shaped, with a distinct posthypocristid'
+		,
+		28
+		'Absent'
+		'Present'
+		,
+		29
+		'Shallow: less than 7 (approximate range = 4.19?6.85)'
+		'Moderate: approximate range = 8.08?8.97'
+		'Deep: over 10 (approximate range = 10.12?11.27)'
+		,
+		30
+		'Depth decreasing anteriorly from m3'
+		'Depth decreasing anteriorly from p3'
+		,
+		31
+		'Unfused'
+		'Fused, with posterior expansion under p3 or more anterior'
+		'Well-fused, further posteriorly extending at least under p4 talonid'
+		,
+		32
+		'Thin to moderate thickness with a shallow masseteric fossa'
+		'Very thick (massive) with a deep masseteric fossa'
+		,
+		33
+		'Shallow: approximate range = 0.27?0.29'
+		'Moderate: approximate range = 0.33?0.35'
+		'Deep: approximate range = 0.38?0.41'
+		,
+		34
+		'Gently extending posteriorly with a faint inflection above the level of the infraorbital foramen'
+		'Weak sigmoid contact with a right-angled flexure slightly above the level of infraorbital foramen'
+		'Sigmoid contact with an intricate sub-vertical flexure above the level of the infraorbital foramen, between C1 and P2'
+		,
+		35
+		'Broad: approximate range = 57?64º'
+		'Narrow: approximate range = 33?48º'
+		,
+		36
+		'Midpoint of I3 alveolus or more anterior'
+		'Posterior margin of I3 alveolus'
+		'Between I3 and C1'
+		,
+		37
+		'Weak, not projected'
+		'Stout ridge-like projection'
+		,
+		38
+		'Nearly parallel lateral margins of nasals (not anteriorly convergent)'
+		'Slightly narrower anteriorly, or slightly anteriorly convergent'
+		,
+		39
+		'Shallow: approximate range = 0.20?0.24'
+		'Deep: approximate range = 0.30?0.32'
+		,
+		40
+		'V-shaped'
+		'Rectangular'
+		,
+		41
+		'Absent'
+		'Weak'
+		'Deep'
+		,
+		42
+		'Moderate: approximate range = 0.10?0.14'
+		'Long: > 0. 20'
+		'No maxilla-nasal suture (point-like contact with maxilla)'
+		,
+		43
+		'Nearly circular: approximate range = 1.0?1.3'
+		'Dorsoventrally elongated, or ovoid: > 1.8'
+		,
+		44
+		'Anteromedial or medial to P3'
+		'Medial to P2'
+		,
+		45
+		'Weak'
+		'Distinct'
+		,
+		46
+		'At level close to posterior margin of M3 crown'
+		'Almost at level of M3 paracone'
+		,
+		47
+		'Broad'
+		'Narrow'
+		,
+		48
+		'Palate < basicranium (slightly longer basicanium): < 0.48'
+		'Palate > basicranium (slightly longer palate): approximate range = 0.52?0.57'
+		,
+		49
+		'Narrow facial process, anterior to a saddle-shape curvature partially forming the orbital rim'
+		'Concave facial process with anterior border partially delimitating the orbital rim (not anteriorly extending beyond the orbital rim)'
+		,
+		50
+		'Almost on anterior orbital rim'
+		'Anterior to orbital rim, on the facial process of lacrimal'
+		'Posterior to orbital rim'
+		,
+		51
+		'Absent'
+		'Present, faint'
+		'Present, strong'
+		,
+		52
+		'Narrow jugal with acute masseteric margin (ventral ridge) above M3 and shallow depression between zygomatic and alveolar processes of maxilla above M2?3'
+		'Robust jugal with rounded masseteric margin, with no depression between zygomatic and alveolar processes of maxilla'
+		,
+		53
+		'Weakly expanded: < 0.75'
+		'Moderately expanded: approximate range = 1.00?1.06'
+		'Well expanded: > 1.26'
+		,
+		54
+		'Anteriorly positioned (about mid-position along length of fossa), on the contact of jugal with the zygomatic process of squamosal: approximate range = 0.51?0.58'
+		'Posteriorly positioned (posterior one third to one fifth), on the zygomatic process of squamosal: approximate range = 0.70?0.85'
+		,
+		55
+		'Moderate: approximate range = 0.9?1.0'
+		'Short: approximate range = 0.7?0.8'
+		,
+		56
+		'Moderate'
+		'Short'
+		'Long'
+		,
+		57
+		'Blunt'
+		'Distinct'
+		,
+		58
+		'Present'
+		'Absent'
+		,
+		59
+		'Dorsolaterally bulged with prominent swelling'
+		'Posteriorly narrow without bulging'
+		,
+		60
+		'Narrow: approximate range = 0.19?0.24'
+		'Wide: approximate range = 0.32?0.36'
+		,
+		61
+		'Long: approximate ratio = 0.45; shallow'
+		'Short: approximate range = 0.34?0.37; shallow'
+		'Short: approximate range = 0.34?0.37; deep (well-developed)'
+		,
+		62
+		'Straight (gradually descends posteriorly), with shallow pterygoid'
+		'Concave, with downwardly developed pterygoid'
+		,
+		63
+		'Smaller than the foramen ovale and positioned close to the latter with a weak depression between the two'
+		'As large as the foramen ovale and connected to the latter by a distinct, short channel'
+		'Approximately as large as the foramen ovale and connected to the latter by a long channel'
+		,
+		64
+		'Absent, or very weakly develope'
+		'Present, strongly developed'
+		,
+		65
+		'Undeveloped, or forming no continuous crest uniting the nuchal crest and dorsal crest of the zygomatic process'
+		'Developed, or forming continuous crest between the nuchal crest and dorsal crest of the zygomatic process (formation of a concave triangular shelf of the squamosal in dorsal view)'
+		,
+		66
+		'Tab-like, or transversely narrow projection with a short lateral process (expanded less than half of glenoid fossa)'
+		'Transversely wide with a long lateral process extending close to the lateral end of the glenoid fossa'
+		,
+		67
+		'Expanded anteromedially'
+		'Narrow anteroposteriorly'
+		,
+		68
+		'Anteriorly turned (upturned)'
+		'Posterodorsally projected'
+		,
+		69
+		'Knob-like (bulbous)'
+		'Anteroposteriorly compressed'
+		,
+		70
+		'Concave shield, with apparent dorsal condyloid fossa, exoccipital crests, and swelling at the center'
+		'Relatively flattened shield, with faint dorsal condyloid fossa and weak exoccipital crests'
+		,
+		71
+		'Broad width (approximate range = 0.23?0.34) and laterally expanded (i.e., anteroposteriorly compressed) occipital condyles'
+		'Narrow width (> 0.47) and posterolaterally faced occipital condyles'
+		,
+		72
+		'Quadrate with parasaggitally oriented margins (medial edge of the channel-like depression, continuing to jugular foramen from ventral condyloid fossa)'
+		'Ventrolaterally-facing lateral wall on each side (i.e., V-shaped bottom in coronal plane) and no channel-like depression continuing to jugular foramen'
+		,
+		73
+		'Short, with small transverse foramen'
+		'Posterodorsally expanded, with large and oval transverse foramen'
+		,
+		74
+		'Anterior margin of neural arch'
+		'Middle of neural arch'
+		,
+		75
+		'Deep, continuous to the transverse foramen'
+		'No distinct groove'
+		
+	;
+	MATRIX
+	'Azygonyx'		                           0000000000000000(0,1)0(0,1)(0,1)00000(0,1)0000001?????????0?000000?000?0000000?000000000000
+	'Esthonyx'		                           (0,1)00000000(0,1)00000000(0,1)0(0,1)0000000001001?0??????00000????0???????????????????????
+	'Megalesthonyx hopsoni'		              ?20001???1?0100001001011?0?00110???????????????????????????????????????????
+	'Adapidium huanghoense'		              ????011001?01???????111?11000??0???????????????????????????????????????????
+	'Kuanchuanius shantunensis'		          ?????????????0110110101?10201120???????????????????????????????????????????
+	'ANSP'		                               ?????????????01011111??1????1121???????????????????????????????????????????
+	'SDSNH'		                              1011111101010?1????1101?10{0,1}11??10110011002?00011000011020110101011110010011
+	'ANSP-SDSNH'		                         10111111010100101111101110{0,1}111210110011002?00011000011020110101011110010011
+	'Trogosus hyracoides'		                121111110111001001101011?0102121111101100000(0,1)001120011021110201?111????????
+	'Trogosus grangeri'		                  1???111?0111001001121011?02021212001100110101101002120101101210110111101101
+	'Trogosus hillsii'		                   10?111???101001001?1???1????1121200??001111?01010011111001011?0?10111001???
+	'Trogosus latidens'		                  ?1111121?1?10010?112(1,2)011(1,2)020??2????????????????????????????????????????????
+	'Trogosus gazini'		                    ?111112101110?1001??10122020???????????????????????????????????????????????
+	'Tillodon fodiens'		                   12111121110101102112101222?0212112020000200110010100210101112020101?0101???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 75;
+      ENDBLOCK;
+      BEGIN AUTHORS;
+ AUTHOR NAME = Sharon_Doyle CODE = Sharon LASTSAVER; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1477076852868; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7838802857022959625; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8912692474186172346; mqVersion 304; checksumv 0 3 3482829682 null getNumChars 75 numChars 75 getNumTaxa 14 numTaxa 14 short true bits 2305843009213693959 states 7 sumSquaresStatesOnly 2343.0 sumSquares -9.2233720368547748E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 103; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1212 567; setLocation 8 23; setFont Monospaced; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8912692474186172346 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1109 495; setLocation 8 23; setFont Monospaced; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 218; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1109 495; setLocation 8 23; setFont Monospaced; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #8912692474186172346 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1109 495; setLocation 8 23; setFont Monospaced; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = 'Matrix in file "Datamatrix-Miyata&Demere 2016.nex"') = 'Mk1 (est.)': 1 - 75; 
+ENDBLOCK;

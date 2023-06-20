@@ -1,0 +1,110 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 02.19.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+    		'Cyclotella atomus atomus'
+		'Cyclotella distinguenda'
+		'Cyclotella atomus marina'
+		'Cyclotella gamma'
+		'Cyclotella choctawhatcheeana'
+		'Cyclotella cryptica'
+		'Cyclotella litoralis'
+		'Cyclotella cf. meneghiniana (l1263)'
+		'Cyclotella nana'
+		'Cyclotella quillensis'
+		'Cyclotella undescribed miocene ect 765'
+		'Cyclotella striata'
+		'Cyclotella stylorum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=8;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Development of radiating ribs in the interior side of the wall - between the center and mantle'
+		 [2] 'Mantle area strutted process frequency'
+		 [3] 'Relative thickness of ribs with and without mantle area strutted processes'
+		 [4] 'Mantle area strutted process satellite pore number'
+		 [5] 'Mantle area strutted process - cowling shape'
+		 [6] 'Labiate process (LP) - number'
+		 [7] 'Labiate process shape internally'
+		 [8] 'Labiate process internal slit orientation'
+	;
+	STATELABELS
+		1
+		'none'
+		'weak'
+		'strong'
+		'very prominent'
+		,
+		2
+		'Almost every primary radial interrupt has a mantle strutted process'
+		'About every 3rd or 4th primary radial interrupt lacks a strutted process'
+		'About every other primary radial interrupt has a strutted process'
+		'About every 3rd or 4th (or more) primary radial interrupt has a has a mantle area strutted process'
+		,
+		3
+		'more or less equal ribs with and without strutted processes'
+		'much larger ribs with strutted process'
+		'much smaller ribs with strutted process'
+		,
+		4
+		'2 satellite pores'
+		'3 satellite pores'
+		,
+		5
+		'none'
+		'small rim'
+		'ridge'
+		,
+		6
+		'1'
+		'2'
+		,
+		7
+		'weakly separated and raised'
+		'prominent slab stalk (stalk about as wide as labiate portion)'
+		,
+		8
+		'radial'
+		'oblique'
+		'tangential'
+		
+	;
+	MATRIX
+	'Cyclotella atomus atomus'		                        23002000
+	'Cyclotella distinguenda'		                         23012012
+	'Cyclotella atomus marina'		                        23002000
+	'Cyclotella gamma'		                                20012110
+	'Cyclotella choctawhatcheeana'		                    22002010
+	'Cyclotella cryptica'		                             1?012011
+	'Cyclotella litoralis'		                            32202010
+	'Cyclotella cf. meneghiniana (l1263)'		             20012010
+	'Cyclotella nana'		                                 03011000
+	'Cyclotella quillensis'		                           20012010
+	'Cyclotella undescribed miocene ect 765'		          21212011
+	'Cyclotella striata'		                              22102010
+	'Cyclotella stylorum'		                             31202010
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=8 TEXT='Part of Alverson''s Cyclotella meneghiniana clade (from Loras College culture L1263)';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='weak = barely above poroidal layer; strong (in connection with similar oblique ri development) forms a pore but poroidal layer visible; very prominent, with similar oblique ri development would result in poroidal layer being not visible.  When o.i. development is very weak, then this basically describes the internal costal development of "alveoli".^n^nDO NOT CONSIDER WHETHER OR NOT THERE IS A STRUTTED PROCESS YET.';
+	TEXT CHARACTER=2 TEXT='The frequency of mantle area strutted processe relative to the number of ribs';
+	TEXT CHARACTER=5 TEXT='From Theriot (1992), Megathal and Julius'' observations on similarity of Spicaticribra and Cyclotella (state 6).';
+	TEXT CHARACTER=6 TEXT='See Theriot (1992. Systematic Biology).  Most species either always have just one rimoportula (also called labiate process or LP), or LP number is correlated with valve diameter.  A very few (maybe just one species) always has two LPs.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 8;
+      ENDBLOCK;
+      

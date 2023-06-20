@@ -1,0 +1,385 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.21.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=29;
+    TAXLABELS
+    		'Calyptaulax glabella'
+		'Acernaspis orestes'
+		'Barrandeops granulops'
+		'Austerops smoothops'
+		'Barrandeops ovatus'
+		'Phacops araw'
+		'Austerops speculator punctatus'
+		'Austerops kermiti'
+		'Austerops salamandar'
+		'Boeckops stelcki'
+		'Barrandeops lebesus'
+		'Barrandeops forteyi'
+		'Reedops pembertoni'
+		'Reedops cephalotes hamlagdadianus'
+		'Reedops bronni'
+		'Pedinopariops (Pedinopariops) lentigifer'
+		'Pedinopariops (Hypsipariops) vagabundus'
+		'Drotops megalomanicus'
+		'Drotops armatus'
+		'Eldredgeops rana rana'
+		'Chotecops auspex'
+		'Boeckops boecki'
+		'Paciphacops logani'
+		'Viaphacops cristatus'
+		'Geesops schlotheimi'
+		'Phacops latifrons'
+		'Morocops struvei'
+		'Kainops microps'
+		'Ananaspis fecunda'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Glabellar width [1 modified]'
+		 [2] 'Occipital ring width [3]'
+		 [3] 'Intercalating ring [4 modified]'
+		 [4] 'L1 lateral lobe size [5]'
+		 [5] 'Length of L2 versus length of L3 [6 modified]'
+		 [6] 'Granules on glabella [7 modified]'
+		 [7] 'Tubercles on glabella [8 modified]'
+		 [8] 'Postocular area length [11]'
+		 [9] 'Lateral border furrow [12 modified]'
+		 [10] 'Palpebral area height [13 modified]'
+		 [11] 'Lateral L1 definition and shape [14 modified]'
+		 [12] 'Palpebral furrow definition [15]'
+		 [13] 'Genal angle [16]'
+		 [14] 'Palpebral sculpture [19 modified]'
+		 [15] 'Terrace lines'
+		 [16] 'Definition of lateral axial lobes [21 modified]'
+		 [17] 'Sclera in eyes [23]'
+		 [18] 'Vincular furrow [24 modified]'
+		 [19] 'Width of pygidial axis [26 modified]'
+		 [20] 'Closure of pygidial axis'
+		 [21] 'lnterannular rings [27 modified]'
+		 [22] 'Number of axial rings'
+		 [23] 'Number of clear pleural ribs'
+		 [24] 'Depth of pleural furrows [31]'
+		 [25] 'Number of vertical rows in eye'
+		 [26] 'Maximum number of lenses per vertical row'
+		 [27] 'Subocular pad'
+		 [28] 'Pygidial axis length [29 modified]'
+		 [29] 'Thorax shape'
+		 [30] 'Degree of glabellar overhang'
+		 [31] 'Degree of glabellar divergence'
+		 [32] '''Marginulation'''
+		 [33] 'Posterior border spines or tubercle row'
+		 [34] 'S1 medial continuity'
+		 [35] 'Doublure sculpture'
+		 [36] 'Base of visual surface with tubercles'
+		 [37] 'Sculpture on pygidium'
+		 [38] 'Accessory lens row'
+		 [39] 'Interpleural furrow strength [32 modified]'
+		 [40] 'Sculpture upon sclera'
+	;
+	STATELABELS
+		1
+		'51-55.9%'
+		'56.0-60.9%'
+		'61.0-65.9%'
+		'66.0-70.9%'
+		'71.0-75.9%'
+		,
+		2
+		'>/=38%'
+		'36.0-37.9%'
+		'34.0-35.9%'
+		'32.0- 33.9%'
+		'0-31.9%'
+		,
+		3
+		'small, subtriangular, displaying independent inflation, and typically barren of sculpture (e.g., Reedops bronni, Pl. 1.9)'
+		'mid-sized to large, raised pad with sculpture (e.g., Barrandeops forteyi, Pl. 16.2)'
+		'small, circumscribed by furrows, set anterior to L1 lateral lobes (e.g., Phacops araw, Pl. 18.4)'
+		'faint or absent with no sculpture (e.g., Austerops kermiti, Pl. 8.7)'
+		,
+		4
+		'L1 lateral very small (e.g., Acernaspis orestes, see Chatterton and Ludvigsen, 2004, pl. 28)'
+		'(1) L1 lateral medium-sized (e.g., Phacops araw, Pl. 18.4)'
+		'L1 lateral large, with distinct adaxial edge (e.g., Barrandeops ovatus, Pl. 13.5)'
+		'L1 lateral large, with indistinct adaxial edge (e.g., Austerops kermiti, Pl. 8.7)'
+		,
+		5
+		'40-49%'
+		'50-59%'
+		'60-69%'
+		'>/=70%'
+		,
+		6
+		'granules present on all convex surfaces (e.g., Acernaspis orestes, Chatterton and Ludvigsen, 2004, pl. 33)'
+		'granules reduced between tubercles (e.g., Paciphacops logani, Campbell, 1977; pl. 12-13)'
+		'granules absent between tubercles (e.g., Austerops speculator punctatus, Pl. 6.9)'
+		,
+		7
+		'tubercles absent or bordering on granule-size (e.g., Reedops pembertoni, Pl. 4.10)'
+		'tubercles weak, sparse (e.g., Boeckops stelcki, Pl. 11.8)'
+		'tubercles distinct, medium density (e.g., Barrandeops lebesus, see Chatterton et al., 2006, pl. 3)'
+		'tubercles distinct to coarse, high density (e.g., Barrandeops forteyi, Pl. 17.5)'
+		'tubercles pustular, dense (e.g., Eldredgeops rana rana, see Eldredge, 1972, fig. 4)'
+		'tubercles pustular, relatively sparse (e.g., Phacops araw, Pl. 18.2)'
+		'tubercles tall, conical or spinose (e.g., Drotops megalomanicus, see Struve, 1995, pl. 1)'
+		,
+		8
+		'less than half the length of posterior border'
+		'half to equal length of posterior border'
+		'longer than posterior border'
+		,
+		9
+		'absence or hint of furrow, pad fades distally (e.g., Reedops pembertoni, Pl. 4.11)'
+		'narrow weak furrow, pad has poorly defined tip (e.g., Phacops araw, Pl. 18.6);'
+		'narrow deep furrow, pad has sharply defined tip (e.g., Barrandeops forteyi, Pl. 16.12)'
+		'wide distinct furrow, pad has rounded tip (e.g., Barrandeops ovatus, Pl. 14.10)'
+		'wide shallow furrow, pad has gently sloping tip (e.g., Pedinopariops (Hypsipariops) vagabundus, Pl. 19.6)'
+		,
+		10
+		'regions are about level'
+		'palpebral area lower than palpebral lobe'
+		'palpebral area markedly higher than lobe'
+		,
+		11
+		'distinct, globular, unornamented'
+		'distinct, globular, ornamented'
+		'indistinct, nearly flat, unornamented.'
+		,
+		12
+		'faint to absent (e.g.,Austerops kermiti, Pl. 8.7)'
+		'weak (e.g., Barrandeops ovatus, Pl. 13.5)'
+		'distinct (e.g., Barrandeops forteyi, Pl. 17.5)'
+		'deep (e.g., Paciphacops birdsongensis, Campbell, 1977, pl. 11)'
+		,
+		13
+		'drawn out, with acute tip or large spine (e.g., Viaphacops cristatus, see Eldredge, 1973, fig. 20)'
+		'drawn out, with small spine (e.g., Reedops pembertoni, Pl. 4.11)'
+		'rounded angular, with distinct node at corner (e.g., Boeckops stelcki, Pl. 12.3)'
+		'rounded, with or without hint of node (e.g., Barrandeops forteyi, Pl. 17.9)'
+		,
+		14
+		'even surface'
+		'pitted surface'
+		'perforated appearance, with deep, wide pits'
+		'smooth between tubercles'
+		,
+		15
+		'absent or nearly so'
+		'on ventral margin only'
+		'on glabella, cheek, and ventral margin'
+		,
+		16
+		'lobes are strongly defined, furrow runs halfway across occipital ring'
+		'lobes are weak to distinctly inflated, moderately defined'
+		'distinct lobes are absent or effaced, poorly defined'
+		,
+		17
+		'thin sclera throughout'
+		'sclera slightly thickened, dorsally only'
+		'sclera considerably thickened dorsally, only weakly ventrally'
+		'entire sclera surface thickened'
+		,
+		18
+		'wide, shallow'
+		'deep, distinct'
+		'completely absent medially, or only shown through sculpture'
+		,
+		19
+		'25-29.9%'
+		'30-34.9%'
+		'35-39.9%'
+		,
+		20
+		'nearly complete closure, with mild postaxial ridge (e.g., Barrandeops forteyi, Pl. 16.8)'
+		'minor closure, often with strong postaxial ridge (e.g., Austerops kermiti, Pl. 8.8)'
+		,
+		21
+		'widened furrow or hint of ring (e.g., Barrandeops forteyi, Pl. 15.6)'
+		'distinct ring present (e.g., Austerops kermiti, Pl. 8.8)'
+		'strong ring, near level with axial ring in front, and sculpted (e.g., Calyptaulax glabella, Ludvigsen and Chatterton, 1982, pl. 4)'
+		,
+		22
+		'7-11 well defined rings, relatively numerous'
+		'4-6 well defined rings, relatively few'
+		,
+		23
+		'2-5 clear pleural ribs, comparatively few'
+		'6-10 clear pleural ribs, comparatively many'
+		,
+		24
+		'weak, thin pleural furrows (e.g., Reedops pembertoni, Pl. 4.6)'
+		'deep, thin pleural furrows (e.g., Austerops kermiti, Pl. 8.8)'
+		'deep, steep-sided to mediumwide pleural furrows (e.g., Barrandeops ovatus, Pl. 14.9)'
+		'deep, wide pleural furrows, usually with semi-circular profiles (e.g., Phacops araw, Pl. 18.10)'
+		,
+		25
+		'14-16'
+		'17'
+		'18'
+		'19'
+		'21'
+		'25'
+		,
+		26
+		'4'
+		'5'
+		'6'
+		'7'
+		'8'
+		'9'
+		,
+		27
+		'absent (e.g., Austerops kermiti, Pl. 9.7)'
+		'weak (e.g., Phacops araw, Pl. 18.6)'
+		'strong (e.g., Barrandeops forteyi, Pl. 15.5)'
+		,
+		28
+		'short, <84%'
+		'long, >84%'
+		'exceptionally short, <78%'
+		'exceptionally long, >89%'
+		,
+		29
+		'strong taper, last segment <80% of first segment''s total width'
+		'weak taper, last segment >80% of first segment''s total width'
+		,
+		30
+		'no overhang'
+		'frontal face of glabella vertical or with mild overhang'
+		'high degree of overhang'
+		,
+		31
+		'low, <60"?'
+		'moderate, 60-70"?'
+		'high, >70"?'
+		,
+		32
+		'rim incomplete or absent'
+		'rim complete, reaching almost or fully to genal angle'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'discontinuous or effaced furrow'
+		'continuous furrow'
+		,
+		35
+		'relatively equidimensional granules dominant'
+		'short, broken terrace lines, or granules severely elongated transversely'
+		'fully developed, largely continuous tenace lines dominant'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'tubercles absent'
+		'tubercles restricted to axis only'
+		'tubercles faintly present on pleural ribs and axis'
+		'tubercles moderately to strongly present on pleural ribs, and also upon border and axis'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'weak to completely absent'
+		'moderately impressed'
+		,
+		40
+		'tubercles absent'
+		'tubercles on thickened sclera, lenses in cruciform arrangement'
+		'tubercles on thickened sclera, lenses in hexagonal arrangement'
+		
+	;
+	MATRIX
+	'Calyptaulax glabella'		                              1032?00000002000??0120005000?00?00??0?1?
+	'Acernaspis orestes'		                                0200300000013000012000010300000000000100
+	'Barrandeops granulops'		                             2312?23122113310211010023111012101113000
+	'Austerops smoothops'		                               2313121100103112110010012100011000202000
+	'Barrandeops ovatus'		                                2212223132113311211000023121011101113000
+	'Phacops araw'		                                      2121?25010013122311100132012012?00213000
+	'Austerops speculator punctatus'		                    2113121000103111111110012410111000202000
+	'Austerops kermiti'		                                 1333121000203122100111012501?10000201000
+	'Austerops salamandar'		                              2303121000103112111111012300010000201000
+	'Boeckops stelcki'		                                  4012122030112110112010022310111000103000
+	'Barrandeops lebesus'		                               2312222132113310211010023211011101113000
+	'Barrandeops forteyi'		                               2112223122123311312000022020012101113001
+	'Reedops pembertoni'		                                2133120100201002020001002302111100001000
+	'Reedops cephalotes hamlagdadianus'		                 3213220232212300121001005502121100001000
+	'Reedops bronni'		                                    2213120232212002000000000400021100001000
+	'Pedinopariops (Pedinopariops) lentigifer'		          1212?23130022?113101?013242??11101213002
+	'Pedinopariops (Hypsipariops) vagabundus'		           0412224130022111310110132313111111213002
+	'Drotops megalomanicus'		                             1223?26140122311311110132213111111213002
+	'Drotops armatus'		                                   1323?26140022311311110132313111111213002
+	'Eldredgeops rana rana'		                             1313?24140213212311000131211?11101??3000
+	'Chotecops auspex'		                                  2113?12232213012100011000301011000101000
+	'Boeckops boecki'		                                   2012?22120012?10102000014402?21000102000
+	'Paciphacops logani'		                                1212313131111?00212110121211?11001100110
+	'Viaphacops cristatus'		                              1321023131210?01312110110210?12000103110
+	'Geesops schlotheimi'		                               0321?23141012?12311010122213111111?13000
+	'Phacops latifrons'		                                 1221?2403002312231??0013001?001001203000
+	'Morocops struvei'		                                  032112314101??1231??????221??11111?1?0?0
+	'Kainops microps'		                                   2121013232112?00201110122411?11001102010
+	'Ananaspis fecunda'		                                 1311213120013000000000133301?01000000110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='transverse width of frontal^nlobe adjacent to anteroventral comer of eye, expressed as^npercentage of total cephalic width (tr.).^nRemarks. This character is a continuation of [1], with the^naddition of the larger (4) character state to accommodate^nnew taxa. The character has been retained because it^nhad the potential to form synapomorphic states at low^ntaxonomic levels, but after analysis, most of these appear to^nbe homoplastic in a broader context. An extremely narrow^nglabella is characteristic of some upper Middle Devonian^ntaxa found in Morocco (but not included in this study due to^nlimited material), so this character will likely be more useful^nin future studies but probably would benefit from wider^nranges in its character states.';
+	TEXT CHARACTER=2 TEXT='transverse width of occipital^nring, measured from axial furrow to axial furrow, and^nexpressed as percentage of total cephalic width (tr.).^nRemarks. This is an unaltered continuation of [3], a character^nthat suffered from the same problem of broader-scale^nhomoplasy as [1] in both this study and that of Ramskold^nand Werdelin (1991). It was retained because, in most cases,^nit accurately depicts the percentage of the anterior thoracic^nsegments'' width (tr.) that is occupied by the axial ring. It is not^nas prone to the problems of deformation or missing sclerites^nas is the thoracic region. Given the scarcity of thoracic^ncharacters, even indirect measurements are desirable.';
+	TEXT CHARACTER=3 TEXT='shape and position of^nintercalating ring (Ll), relative to surrounding glabella and^nLllaterallobes.^nRemarks. As long ago as 1933, workers like Richter and^nRichter realized the importance of the intercalating ring^nto the classification of phacopids. This feature has figured^nprominently in most phacopid descriptions and diagnoses^nsince. The only significant modification to this character was^nto replace the #1 "other" state of Ramskold and Werdelin^n(1991) with the character states (1) and (3) itemized below.^nThe only difficulty in using this character comes from^njudging degree of prominence or size in cases where the^nintercalating ring is very close to level with the back of the^nglabella, or bears a concentration of tubercles that locally^nboosts its prominence.';
+	TEXT CHARACTER=4 TEXT='relative size of each lobe and its^ndistinction from intercalating ring by obvious furrow.^nRemarks. [5] is retained unchanged, because it appears to^nbe a fairly reliable synapomorphy at the species level, and^nperhaps a little higher. Some caution should be used with^nthis character, as was mentioned by Ramskold and Werdelin^n(1991), because photographic representation can be^nsomewhat variable. This character is somewhat subjective^nin nature, so explicit examples of the character states are^nprovided below, and direct comparison to these exemplars^nwas followed during coding.';
+	TEXT CHARACTER=5 TEXT='exsagittal length of L2 across its long axis, expressed as percentage of^nsame measure for L3.^nRemarks. Although none of the highest states used by^nRamskold and Werdelin (1991) are present in the specimens^nencompassed in this study, those states that are used appear^nto act as fairly consistent synapomorphies for the groups^ninvolved. This should be accepted with some hesitancy,^nbecause many of the specimens analyzed were not possible^nto code from photographs, or had coarse tubercles that totally^nobscured the paths of the S2 and S3 furrows concerned.';
+	TEXT CHARACTER=6 TEXT='presence and concentration of granules on various surfaces and sculpture^nof glabellar surface.^nRemarks. This has been commonly used as a measure of^nhow ''primitive'' or ''advanced'' any given phacopid is, since^nmost early forms show pervasive granulation, and there^nseems to be a general reduction through time (Campbell,^n1977; Ramskold and Werdelin, 1991). Unfortunately, there^nis no rigid definition as to what constitutes a true granule,^nas opposed to a very fine tubercle, especially within^nReedops (see Systematic Palaeontology, Discussion section^nof Reedops bronni). Campbell''s (1977) view of Reedops^nsculpture as being of fine tubercles is used here.';
+	TEXT CHARACTER=7 TEXT='generalized class of large sculpture elements and their distribution upon^nglabella.^nRemarks. Sculpture elements and their density are used in^nalmost all phacopid diagnoses and have been considered^nimportant aspects of classification at all levels. The character^nstates of Ramskold and Werdelin (1991) have been repeated^nhere, with some modification to accommodate forms with^nreduced sculpture, and some added states to accommodate^nmore specialized tubercle forms.';
+	TEXT CHARACTER=8 TEXT='exsagittal length of area between back of eye and posterior border furrow, measured^nat most posterior extreme of eye when specimen is viewed^ndorsally, and expressed as fraction of posterior border length^n(exsag.), directly behind first measurement.^nRemarks. This character encompasses aspects of both the^npositioning of the eye relative to the glabella and cephalic^nmargin, and the width (exsag.) of the postocular pad.^nRamskold and Werdelin (1991) stated that the posterior^nborder itself has a very neutral allometry throughout holaspid^ngrowth, making this an ideal point for comparison. Problems^narise when one tries to locate a point along the back of the^neye for measuring (the posterior border and postocular pad^nboth widen distally, and not at the same rate, and the back of^nthe eye usually presents a rounded margin): this necessitates^nmeasuring from a dorsal view, along the exsagittal plane,^ndirectly behind the most posterior portion of the eye. This^nmeasurement can also be compromised by variable lighting^nconditions in photographs, or angled dorsal views. This^ncharacter has been used with both unordered and ordered^n(with reversibility) character states in the analyses conducted^nhere.';
+	TEXT CHARACTER=9 TEXT='definition and shape of lateral border furrow behind posterior branch of^nfacial suture (i.e., posterior border furrow where it swings^nanteriorly below tip of postocular pad), and resulting effect^nthis has upon definition of postocular pad.^nRemarks. Struve (1976) and many other workers have^ncommented upon the variations in the postocular pad of^nphacopids, and this feature is essentially coded for in the work^nof Ramskold and Werdelin (1991), by commenting upon the^nfurrow at its distal tip. The only significant addition to [12]^nwas to take note of the corresponding pad condition.';
+	TEXT CHARACTER=10 TEXT='in true frontal view, height of palpebral lobe relative to dorsal surface of^npalpebral area, and glabella.^nRemarks. ''True frontal view'' refers to an anterior view with^nthe cephalon held so that the tops of the palpebral lobes are^nhorizontal, and lens rows near the middle of the eye are^nusually vertical. In coding this character, there often was^nsome degree of interpretation necessary. Interpretation was^nbased upon a lateral picture for specimens, when the frontal^nview was missing or imperfect, but in most cases the coding^nwas still fairly obvious.';
+	TEXT CHARACTER=11 TEXT='distinction of L1 lateral lobe from adjacent (abaxial)^npalpebral area, and its general shape and sculpture.^nRemarks. Besides the overall size of the Ll lateral lobes^nmentioned previously, these lobes have distinctive^ncombinations of shape ornament and separation from their^nsurroundings. To some extent, this character also shows how^npronounced the axial furrows are between the palpebral areas^nand the back of the glabella.';
+	TEXT CHARACTER=12 TEXT='Depth of palpebral furrow in median one-third of its course.^nRemarks. States (2) and (3) may be impossible to consistently^ndiscern based on photographs, and (3) may have been treated^nas too extreme of a difference here, so the number of taxa^ncoded as (2) may be slightly high. In future work, (2) and (3)^nmay be treated as a single state to avoid this problem. Even^nwith the problems in coding, this character seemed to delimit^nsome groups quite well and would be a reasonable addition^nto future analyses. This character has been used with both^nunordered and ordered (with reversibility) character states in^nthe analyses conducted here.';
+	TEXT CHARACTER=13 TEXT='shape of genal angle and any prominences it may bear.^nRemarks. Genal spines are seen in many similar outgroups^n(outside this study), are often associated with early members^nof the Phacopidae, and are seen in many juvenile forms of^nthe ingroup, making their remnants focal points in many^nclassification schemes (Ramskold and Werdelin, 1991;^nEldredge, 1973). Additionally, the degree of elongation^n(posteroventrally) changes the shape of the genae into a more^nangular form, which has also been viewed as important in^nclassification. Here only the three most obvious conditions are^nrecognized, but there is still some difficulty in distinguishing^nstates (2) and (3).';
+	TEXT CHARACTER=14 TEXT='Presence of pitting on palpebral lobe and palpebral area (which shows some^ncorrespondence to pitting in genal field), and other sculpture^nelements present.^nRemarks. Ramskold and Werdelin (1991) observed the^nsculpture on the palpebral area only, but the specimens in this^nstudy showed fairly uniform sculpture across the palpebral^nlobe as well (as long as the broad depressions adjacent to the^npalpebral rim were not mistaken for pits). In addition, the^ncorrelation between pronounced pitting in the genal field and^nthat in the palpebral region (noted by these authors) was seen^nhere and used as an additional indicator for this character in^ndoubtful cases.';
+	TEXT CHARACTER=15 TEXT='Presence of terrace lines or generally elongate sculpture (either fragmentary or continuous) on^nvarious regions of dorsal surfaces of cephalon.^nRemarks. The presence and extent of terrace lines or their^nfragments, upon the dorsal or laterally facing regions of the^ncephalon, is often mentioned in species descriptions but^nseldom used as a diagnostic character. Struve (1982) used^nthe presence of elongate sculpture across the cheek as an^nindicator of ''marginulation'' being incomplete (see below),^nbut there is more to the distribution of elongate sculpture.^nSome species show strong terrace lines or keeled tubercles^nacross the anterior face of their glabella. Other groups, like^nthe genus Reedops, appear to have relatively equidimensional^ngranules along their ventral margins, instead of the slightly^nelongate granules seen in most other taxa at this level of^nanalysis.';
+	TEXT CHARACTER=16 TEXT='Definition of lateral axial lobes of occipital ring (as delimited by furrow^narising from apodemal pit directly ahead of it), and definition^nof lateral axial lobes in thoracic segments, (which seem to be^ncontrolled by same factors).^nRemarks. Campbell (1977) used lateral ''notching'' of the^naxial rings as a thoracic characteristic in his discussion of^nphacopid classification, and other authors have made note of^nit in their descriptions. Here it is combined with the impact^napodemes have on the occipital ring-previously character^n[21]-since this is essentially a metameric repetition caused^nby similar apodemal impingements.';
+	TEXT CHARACTER=17 TEXT='Thickness of interlensar sclera within visual surface of eye.^nRemarks. Distinctive scleral surfaces have often been^noverlooked in the classification of phacopids, because^nworkers such as Eldredge have portrayed them as something^nthat can vary intraspecifically. Ramskold and Werdelin (1991)^nused the varying degrees of thickness seen in the interlensar^nsclera as a character in their analysis; this character has^nbeen used again here and is supplemented with character^n40, which examines the sculpture found upon the sclera of^nsome species. It has also been used with both unordered and^nordered (with reversibility) character states in our analyses.';
+	TEXT CHARACTER=18 TEXT='Course and depth of medial part of vincular furrow. Remarks. Whether or not the vincular furrow is continuous^nmedially has been one of the most consistently used^ncharacters for classifying phacopids (Richter et al., 1959). It^nhas also been one of the most problematic. The type species^nof Reedops shows an impressed vincular furrow throughout^nits course, while the lack thereof is supposed to be the main^ndefining characteristic for the genus. It has been included^nhere without some of the inapplicable character states used in^nprevious work, and with slight modifications to match better^nthe specimens in this study.';
+	TEXT CHARACTER=19 TEXT='Width (tr.) of pygidial axis across its first axial ring, expressed as percentage^nof total pygidial width (tr.) excluding articulating facets.^nRemarks. The only modification made to this character was^nto enlarge the ranges encompassed by the character states.^nMost sets of specimens had a range of variation well outside^n2-3% originally allowed and categories this narrow could^neasily fall within the range of measurement error.';
+	TEXT CHARACTER=20 TEXT='Degree of closure of axial furrows behind terminus of pygidial axis and attendant^npostaxial ridge this sometimes creates.^nRemarks. Chlupac (1977) mentioned this character in many^nof his species descriptions but was uncertain of its use in^nclassification because he had doubts as to whether or not it^nwas a product of sexual dimorphism. This feature has been^nnoted in many taxa and is fairly easy to see in both specimens^nand photographs (with occasional lighting complications in^nthe latter). In the species considered here, it seems to be a^nstable character within each species, so it has been included.';
+	TEXT CHARACTER=21 TEXT='Presence or absence of interannular rings behind anteriormost axial rings of^npygidium, as well as their general appearance.^nRemarks. Interannular rings are common in the apodemal^nsector of the pygidium (sensu Ludvigsen and Chatterton,^n1982) for most phacopids. These rings may vary slightly in^ntheir expression from specimen to specimen, but generally^nthey fall into one of the states proposed by Ramskold and^nWerdelin (1991) at the species level, and perhaps higher. In^nthis study, those specimens with pronounced interannular^nrings often have strong ring furrows, which also produce^nwell-impressed depressions within the axial futTow distally.^nThis character has been used with both unordered and ..^nordered (with reversibility) character states in the analyses''^nconducted here.';
+	TEXT CHARACTER=22 TEXT='Generalized number of axial rings in pygidial axis, roughly corresponding to use of^n''richly'' or ''poorly'' segmented as axis descriptors.^nRemarks. Most descriptions of phacopids include a range^nfor the number of axial rings borne by the pygidial axis, but^nmost diagnoses for larger groupings rely on vague terms^nlike ''richly'' or ''poorly'' segmented (Chlupac, 1977). Here^nthere is an attempt to make use of this generalized statement^nand avoid the "numbers trap" that concerned Ramskold and^nWerdelin (1991). Ranges were charted for each taxon, and^na natural gap in the number of segments was utilized here.^nFuture studies may choose to add more character states at^nthe extreme ends of the spectrum, but this was not attempted^nhere.';
+	TEXT CHARACTER=23 TEXT='Generalized number of clear pleural ribs in pygidium, based on independent^ninflation, and roughly corresponding to use of ''richly'' or^n''poorly'' segmented pleural field descriptions.^nRemarks. Character states were constructed as they were for^nthe preceding character, and with the same reasoning. With^nthis character, there is also the additional problem of defining^na ''clear'' rib. In this context, a clearly defined rib was judged^nto be one that displayed independent convexity and was^ntypically bound by a set of observable pleural furrows (note^npleural furrows are usually much deeper than interpleural^nfurrows in Phacopidae). Sometimes lateral views were used^nto help in this assessment with hand-specimens, meaning^nthat specimens coded from pictures could potentially have^nmore pleural ribs than indicated here. The descriptive work^nof others was taken into account, as well as their figures,^nand we maintain that conservative choices were made in the^nnumber of ribs coded for each taxon.';
+	TEXT CHARACTER=24 TEXT='Depth and profile shape of pleural furrows in pygidium. Remarks. This character remains unchanged from the work of Ramskold and Werdelin (1991). It should be noted that this^ncharacter also corresponds to the ribbing on the pygidium^n(its profile in cross-section) and gives some indication of^nhow far the furrows continue distally before fading into the^npleural field.';
+	TEXT CHARACTER=25 TEXT='Typical number of vertical rows of lenses within visual surface of relatively^nlarge holaspid cephala, excluding specimens showing^nteratological or atypical features.^nRemarks. Aside from injured or atypical specimens,^nthose encompassed in this study have shown remarkable^nintraspecific consistency in the number of vertical rows^nwithin their eyes. This feature has been used as a diagnostic^ncharacter in mostphacopid studies, but is usually restricted^nto species-level diagnoses. In an attempt to circumvent the^n"numbers trap" that prevented Ramskold and Werdelin^n(1991) from using this character, the character states have^nbeen kept narrow herein so that they are not taken as largescale^nsynapomorphies. Instead, they are meant to unite taxa^njust above the species level in a study that spans an array of^ndisparate morphologies.';
+	TEXT CHARACTER=26 TEXT='Typical maximum number of lenses found within single vertical^nrow of visual surface of fairly large holaspid free from^nteratological or otherwise atypical features.^nRemarks. In most cases (without scleral spacers or reduced^nlens sizes), this character reflects the height of the visual^nsurface. Aside from potential cases of sexual dimorphism,^nthis character appears to be relatively stable at the species^nlevel, with the potential to act as a synapomorphy for small^nspecies groups. With the sheer variety of scleral types and eye^nsizes in this study, this character is prone to homoplasy but^nis worth using for its finer resolution. It may be worthwhile^nto amalgamate the many states into a binary character for^nfuture work.';
+	TEXT CHARACTER=27 TEXT='Presence and relative inflation of raised pad beneath eye and dorsal to genal field,^nRemarks. Campbell (1977), Maksimova (1972), Struve^n(1982) and Haas (1968) have all commented on the^npresence or absence of a convex pad beneath the eye, or^na mostly concave region there. Generally, this feature has^nbeen used in the description of species, but Maksimova and^nCampbell disputed whether it could be used as a diagnostic^ncharacteristic at the genus level, in order to distinguish^nbetween Paciphacops and Phacops. Here, the presence of^na pad appears related to the lower margin of the eye and^nwhether this margin extends ventrally to crowd the area;^nwhether the visual surface is raised away from that of the^ncheek, leaving a sort of column with a weak pad below the^neye; or whether the eye is in an intermediate position, with^nsome room for independent inflation below it. In all cases,^nsculpture emphasizes the pad itself and in some is limited to^nthe surface of the pad. This character has been used with both^nunordered and ordered (with reversibility) character states in^nthe analyses conducted here.';
+	TEXT CHARACTER=28 TEXT='length (sag.) of pygidial axis from base of first axial ring to tip of its terminal^npiece, expressed as percent of total pygidial length (sag.)^nfrom base of first axial ring to pygidial margin.^nRemarks. Instead of measuring the length of the first 5^naxial rings, this character indicates how long the axis is by^nshowing how close to the pygidial margin it extends. Natural^nbreaks in the measured ranges for each taxon have again^nbeen used for coding this character, and the two extreme^nstates are those that are obvious to even the casual observer.';
+	TEXT CHARACTER=29 TEXT='Backwards taper of thorax, measured by observing total width (tr.) of first and last thoracic segments,^nexpressed as percentage of first segment that last segment comprises.^nRemarks. Again, plotting ranges and using natural gaps in^ndistribution have allowed this character to quantify something^nthat has been observed in many works. This feature has not^nbeen used extensively in phacopid classification but is used in^nthe classification of other groups of trilobites. Measurements^nwere taken preferentially from enrolled specimens where^ndistortion of the thoracic segments becomes fairly obvious^nand can be avoided.';
+	TEXT CHARACTER=30 TEXT='A qualitative judgment of how much the glabella overhangs the anterior border furrow^nand adjacent anterior border, usually taking into account the^nposition of vincular furrow as well.^nRemarks. This has been one of the two key features used in^nmost diagnoses for Reedops, and like the vincular funow, it^nhas created some minor problems. The degree of glabellar^noverhang seen in some Phacops species approaches that of^nthe type species of Reedops, but the position of the vincular^nfurrow must also figure prominently. In most specimens with^nhigh glabellar overhang, this furrow is well behind the anterior^ntip when the cephalon is positioned with the palpebral lobes^nhorizontal. This measure also corresponds with the length^nof the glabella lobe relative to the rest of the cephalon. This^ncharacter has been used with both unordered and ordered^n(with reversibility) character states in the analyses conducted^nhere.';
+	TEXT CHARACTER=31 TEXT='Angle of divergence found between two axial furrows as they spread anteriorly^naround sides of glabella in front of S1.^nRemarks. This is another character that has been used in^nmost species descriptions but never significantly employed^nin classification. Broad categories are used for each character^nstate because this character is most easily measured from a^nphotograph. As such, the angle of the cephal on plays a major^nrole in the final measurement, so care must be taken that the^npalpebral lobes are horizontal when measuring this angle.';
+	TEXT CHARACTER=32 TEXT='Presence of laterally raised bead along ventral margin of cephalon, to position behind that of eye and usually extending to genal angle without disappearing into gena or disintegrating into component sculpture elements.^nRemarks. "Marginulation" was a diagnostic feature used^nby Flick and Struve (1984) for their tribe Geesopini, which^nwas meant to encompass most of the old world phacopid^ngenera. This character may be identical to [17] of Ramskold^nand Werdelin (1991), but these authors made no mention^nof duration of their "ridge" behind the eye, which was^nfundamental to its use by Flick and Struve (1984). Campbell^n(1977) also mentioned "ropy" ornament along the cephalic^nmargin of some North American taxa, but judging from the^nfigures he cited, his usage was far from that of Flick and^nStruve. This feature has never really been evaluated from a^nphylogenetic standpoint.';
+	TEXT CHARACTER=33 TEXT='Presence of locally prominent concentration of coarse tubercles or spines along posterolateral margin of posterior border.^nRemarks. This character seems to be a synapomorphy shared^nby many of the taxa Flick and Struve allocated to their tribe^nGeesopini. In many instances where cephalic ornament is^nreduced or pustular, there still appears to be a distinct row of^ntubercles in this position.';
+	TEXT CHARACTER=34 TEXT='Whether or not the medial portion of S1 funow is continuous and easily traceable between^nintercalating ring and back of more anterior portions of glabella.^nRemarks. This character focuses on the trend within the^nPhacopidae, in which the intercalating ring merges into^nthe back of the frontal lobe of the glabella. This is termed^n"basisolution" of the glabella by Richter and Richter (1939)^nand has since been observed by most phacopid workers.^nIt has been used to separate the genera Paciphacops and^nViaphacops (Maksimova, 1972; Campbell, 1977) but has^nbeen applied to few broad classification schemes.';
+	TEXT CHARACTER=35 TEXT='Nature of sculpture elements upon doublure, especially its medial portion beneath glabella.^nRemarks. Chlupac (1977) was the first to use this character^nas a diagnostic feature for the genus Reedops, after the^nimportance of a complete vincular funow had been^nquestioned. Researchers such as Eldredge and Campbell^nhave mentioned an intermediate condition (1) but never really^nused it in classification schemes. This character has been^nused with both unordered and ordered (with reversibility)^ncharacter states in the analyses conducted here.';
+	TEXT CHARACTER=36 TEXT='Presence or absence of row of coarse tubercles along ventral margin of visual surface, often these have become broad and rounded in nature.                                                                                                 Remarks. Occasionally termed a ''socle'' (a feature found^nin other groups of trilobites, to which this is unlikely to be^nhomologous), there exists a row of tubercles along the base of^nthe visual surface within many phacopid taxa. This feature is^nparticularly common and prominent in Turkish species (Haas,^n1968) and Rheno-Bohemian species (Chlupac, 1977), and^ntakes on a much more subdued, almost pustular, appearance^nin Middle Devonian North American and European species^n(Eldredge, 1972, 1973; Struve 1982, 1995).';
+	TEXT CHARACTER=37 TEXT='Nature and extent of tuberculation upon various regions of pygidium.^nRemarks. Many works comment upon the presence of^ntubercles on the pygidium, but comparatively few note^ntheir distribution. Here, tuberculation is characterized by its^nextent and prominence across the three major regions of the^npygidium, which to some degree also corresponds with the^nextent and prominence of ornament on the thoracic segments.';
+	TEXT CHARACTER=38 TEXT='Presence of single additional horizontal row of lenses beginning near middle of visual surface and continuing posteriorly. This is usually composed of diminutive lenses, as opposed to possessing a consistently level top row proceeding from anterior corner of eye.^nRemarks. Clarkson (in Kaesler, 1997, p.122) termed this^nfeature the "accessory lens row". It appears consistently in^nspecies placed within the genus Acernaspis (Chatterton and^nLudvigsen, 2004) and can also be found within members of^nPaciphacops and Viaphacops (Campbell, 1977).';
+	TEXT CHARACTER=39 TEXT='Depth of impression found in interpleural furrows of pygidium.^nRemarks. Most phacopids have exceedingly weak^ninterpleural furrows within their pygidial pleural fields, but^nsome groups of taxa show an interpleural funow set that is^nas well developed as that found in outgroup taxa. Here, this^nalso seems to conespond with a high number of congruent^nsegments ([30] mentioned below), which combined to give^nthe pygidium a ''rainbow-like'' banding pattern in dorsal^nview. This character did not display the range of states used^nby Ramskold and Werdelin (1991), so it has been reduced to^na binary character for the present analysis.';
+	TEXT CHARACTER=40 TEXT='Presence of tubercles upon sclera surface and their impact upon lens arrangement within visual surface.^nRemarks. Sclera thickness was used as a character by^nRamskold and Werdelin (1991), and the current study simply^ntakes this a step further, using the various forms of sculpture^nseen in the sclera of Devonian phacopids as well.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 40;
+      ENDBLOCK;
+      

@@ -1,0 +1,311 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.52.19 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+    		'Arganodus atlantis'
+		'Asiatoceratodus'
+		'Beltanodus'
+		'Ceratodus'
+		'Dipterus'
+		'Fergano martini'
+		'Gnathorhiza'
+		'Gosfordia'
+		'Lepidosiren paradoxa'
+		'Microceratodus'
+		'Neoceratodus forsteri'
+		'Paraceratodus'
+		'Protopterus annectens'
+		'Protopterus amphibius'
+		'Protopterus aethiopicus'
+		'Protopterus dolloi'
+		'Ptychoceratodus'
+		'Sagenodus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Anterior skull roof'
+		 [2] 'Ethmoid articulation'
+		 [3] 'Median series'
+		 [4] 'Sutures between median series'
+		 [5] 'Paired median bones'
+		 [6] 'Mediolateral series, number of elements'
+		 [7] 'Sensory lines, presence'
+		 [8] 'Frontoparietal, sagittal crest'
+		 [9] 'Frontoparietal, lateral processes'
+		 [10] 'Frontoparietal, anterior extent of lat proc'
+		 [11] 'Frontoparietal, ventral prongs'
+		 [12] 'Additional lateral parietals'
+		 [13] 'Supraorbital, lateral process'
+		 [14] 'Supraorbital, midline articulation'
+		 [15] 'Dermosphenotic, free or fused/lacking'
+		 [16] 'Operculum, shape/curve'
+		 [17] 'Suboperculum, curvature'
+		 [18] 'Suboperculum, lateral ridge'
+		 [19] 'Suboperculum, dorsal process'
+		 [20] 'Parasphenoid, posterior end'
+		 [21] 'Parasphenoid, ridges'
+		 [22] 'Parasphenoid, shape of anterior end'
+		 [23] 'Exoccipitals, presence'
+		 [24] 'Pterygoid, posterior flaring'
+		 [25] 'Prearticular, coronoid process'
+		 [26] 'Splenial, presence'
+		 [27] 'Angular, relative length'
+		 [28] 'Angular, dorsal process location'
+		 [29] 'First tooth ridge'
+		 [30] 'Toothplate angle'
+		 [31] 'Pterygoid tooth plates, contact'
+		 [32] 'Prearticular tooth plates, contact'
+		 [33] 'Number of ridges on pterygoid tooth plates'
+		 [34] 'Vomerine teeth, shape'
+		 [35] 'Ceratohyal, distal ridge'
+		 [36] 'Ceratohyal, curvature'
+		 [37] 'Anocleithrum size'
+		 [38] 'Cleithrum, shape'
+		 [39] 'Clavicle, anterior pocket'
+		 [40] 'Rib number'
+		 [41] 'Scales'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		2
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		3
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		7
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		21
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		22
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		28
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		32
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		33
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		38
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		41
+		'State 0'
+		'State 1'
+		'State 2'
+		
+	;
+	MATRIX
+	'Arganodus atlantis'		               202012200-01-01????00?000?1010111????????
+	'Asiatoceratodus'		                  202012200-?1-0??????????????0010????????2
+	'Beltanodus'		                       111001000-?1-00??????????????????????????
+	'Ceratodus'		                        ?12112200-01-00??????0?????01010?????????
+	'Dipterus'		                         000000000-?1-0000004?0?1011?00000???????0
+	'Fergano martini'		                  202012200-01-00????030???11?110030??????1
+	'Gnathorhiza'		                      111001100-?1-0101103?2?0?10?000040?0????1
+	'Gosfordia'		                        202011200-?1-010000????????0?????????0?02
+	'Lepidosiren paradoxa'		             22201321111001120011221210321022510122042
+	'Microceratodus'		                   111011200-?1-0?????????????????????????0?
+	'Neoceratodus forsteri'		            112112200-01-0000002101101111000200000031
+	'Paraceratodus'		                    201010200-?1-00?????????????0?0?4????????
+	'Protopterus annectens'		            22201321100012111111211210211022511111112
+	'Protopterus amphibius'		            22201321100012110111211210211022511111102
+	'Protopterus aethiopicus'		          22201321100012111111211210211022511111122
+	'Protopterus dolloi'		               22201321110002110011221210321022511111132
+	'Ptychoceratodus'		                  201111200-01-01????????11?12101130???????
+	'Sagenodus'		                        000000000-01-00011001001011100001010000?1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 41;
+      ENDBLOCK;
+      BEGIN LABELS;
+ TAXAGROUPLABEL Lepidosirenidae COLOR = (RGB 1 0.03529412 0.03529412) ; TAXAGROUPLABEL basal_taxa COLOR = (RGB 0.03529412 0.03529412 1) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1486720605658; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 617826932151173206; tell It; setDefaultOrder 0 7 8 9 10 12 13 14 2 15 1 16 3 4 5 6 17 19; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6807689757022168944; tell It; setDefaultOrder 45 0 38 36 39 6 30 1 2 3 4 5 7 8 33 9 10 11 12 21 22 23 34 13 17 19 20 50 40 43 14 16 15 18 26 37 27 28 29 32 44; attachments ; endTell; mqVersion 320; checksumv 0 3 2513185086 null getNumChars 41 numChars 41 getNumTaxa 18 numTaxa 18 short true bits 63 states 63 sumSquaresStatesOnly 9400.0 sumSquares 9400.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 43; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1213 697; setLocation 15 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #617826932151173206 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #617826932151173206; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1170 625; setLocation 15 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Black; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #617826932151173206 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; laxMode; setTreeBlock -2147483647; toggleUseWeights off; endTell; setAssignedID 1203.1411948956185.8009443037585345113; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1170 625; setLocation 15 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.collapse; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareTree.SquareTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 6; orientUp; setCornerMode Right_Angle 50; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition on; toggleColorAssigned off; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(5,((3,7),18),(12,(2,4,6,11,(1,(8,(17,(9,(16,(14,(13,15))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.trees.TreeLegendMaker.TreeLegendMaker; tell It; setOffsetsX 761; setOffsetsY 468; getLegendsVector; tell It; distributeCommands; setBounds 761 468 230 39; setOffsetX 761; setOffsetY 468; endDistributeCommands; endTell; newLegendItemNoCalc #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #6807689757022168944; endTell; endTell; endTell; calculate; endTell; newAssistant #mesquite.trees.TreeLegendMaker.TreeLegendMaker; tell It; setOffsetsX 691; setOffsetsY 550; getLegendsVector; tell It; distributeCommands; setBounds 691 550 230 39; setOffsetX 691; setOffsetY 550; endDistributeCommands; endTell; newLegendItemNoCalc #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #6807689757022168944; endTell; endTell; endTell; calculate; endTell; newAssistant #mesquite.trees.TreeLegendMaker.TreeLegendMaker; tell It; setOffsetsX 830; setOffsetsY 383; getLegendsVector; tell It; distributeCommands; setBounds 830 383 230 39; setOffsetX 830; setOffsetY 383; endDistributeCommands; endTell; newLegendItemNoCalc #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #6807689757022168944; endTell; endTell; endTell; calculate; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred on; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6807689757022168944 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1170 625; setLocation 15 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.NoColor.NoColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; setColumnWidth 16; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip on; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #6807689757022168944 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; newAssistant #mesquite.lists.CharNumForList.CharNumForList; tell It; suppress; setValueTask #mesquite.charMatrices.PercentMissing.PercentMissing; toggleShadeCells off; desuppress; endTell; newAssistant #mesquite.lists.BooleanForCharList.BooleanForCharList; tell It; suppress; setValueTask #mesquite.categ.CategVariable.CategVariable; desuppress; endTell; newAssistant #mesquite.lists.BooleanForCharList.BooleanForCharList; tell It; suppress; setValueTask #mesquite.charMatrices.IncludedCharBoolean.IncludedCharBoolean; desuppress; endTell; getTable; tell It; rowNamesWidth 226; columnWidth 0 100; columnWidth 1 51; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1170 625; setLocation 15 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 41; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "8taxatree"'; ID 015a276f32c32; LINK Taxa = Taxa; TRANSLATE [0] 1 Arganodus_atlantis, [1] 2 Asiatoceratodus, [2] 3 Beltanodus, [3] 4 Ceratodus, [4] 5 Dipterus, [5] 6 Fergano_martini, [6] 7 Gnathorhiza, [7] 8 Gosfordia, [8] 9 Lepidosiren_paradoxa, [9] 10 Microceratodus, [10] 11 Neoceratodus_forsteri, [11] 12 Paraceratodus, [12] 13 Protopterus_annectens, [13] 14 Protopterus_amphibius, [14] 15 Protopterus_aethiopicus, [15] 16 Protopterus_dolloi, [16] 17 Ptychoceratodus, [17] 18 Sagenodus; TREE 'PAUP 1++' = (1,(11,(9,(((13,15),14),16)))); TREE 'PAUP 2++' = (1,(11,(9,(((13,15),14),16)))); 
+ENDBLOCK;

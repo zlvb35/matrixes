@@ -1,0 +1,1059 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 05.10.09 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Ochrogaster lunifer'
+		'Thaumetopoea pityocampa'
+		'Thaumetopoea pityocampa orana'
+		'Thaumetopoea pityocampa ENA'
+		'Thaumetopoea wilkinsoni'
+		'Thaumetopoea herculeana'
+		'Thaumetopoea herculeana judea'
+		'Thaumetopoea solitaria'
+		'Thaumetopoea solitaria iranica'
+		'Thaumetopoea processionea'
+		'Thaumetopoea processionea pseudosolitaria'
+		'Thaumetopoea bonjeani'
+		'Thaumetopoea pinivora'
+		'Thaumetopoea libanotica'
+		'Thaumetopoea ispartaensis'
+		'Thaumetopoea sedirica'
+		'Thaumetopoea torosica'
+		'Thaumetopoea cheela'
+		'Thaumetopoea jordana'
+		'Thaumetopoea dhofarensis'
+		'Thaumetopoea apologetica'
+		'Thaumetopoea apologetica abyssinica'
+		'Gazalina apsara'
+		'Gazalina chrysolopha'
+		'Gazalina transversa'
+		'Paradrallia rhodesi'
+		'Paradrallia punctigera'
+		'Anaphe panda'
+		'Anaphe panda infracta'
+		'Anaphe venata'
+		'Anaphe etiennei'
+		'Epanaphe subsordida'
+		'Epanaphe nigricincta'
+		'Epanaphe moloney'
+		'Epanaphe carteri'
+		'Hypsoides antsianakana'
+		'Hypsoides placidus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=165;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Head hair-like scales colour'
+		 [2] 'Frons'
+		 [3] 'Crest - number of teeth'
+		 [4] 'Apical tooth, position'
+		 [5] 'Apical tooth, height'
+		 [6] 'Apical tooth, width'
+		 [7] 'Length of first and second tooth'
+		 [8] 'Major tooth/teeth'
+		 [9] 'Base of 2nd tooth'
+		 [10] 'Projection of 2nd tooth'
+		 [11] 'Antenna length'
+		 [12] 'Antennae rami length'
+		 [13] 'Antenna scales colour'
+		 [14] 'Scape"s tuft (Pecten)'
+		 [15] 'Adfrontal tuft between eyes and frons'
+		 [16] 'Labial palpus length'
+		 [17] 'Labial palpal segments'
+		 [18] 'Labial palpus: length of first segment'
+		 [19] 'Labial palpus: width of first segment'
+		 [20] 'Labial palpus: apical protuberance of second segment'
+		 [21] 'Labial palpus: apical protuberance of second segment features'
+		 [22] 'Thorax colour hairs'
+		 [23] 'Thorax tuft'
+		 [24] 'Foretibia robustness'
+		 [25] 'Epiphysis'
+		 [26] 'Epiphysis shape'
+		 [27] 'Foretibia spine'
+		 [28] 'Abdomen colour'
+		 [29] 'Apical tuft colour'
+		 [30] 'Female - Anal tuft composition'
+		 [31] 'Female - Anal flat scale general pigmentation'
+		 [32] 'Female - Anal flat scale spots'
+		 [33] 'Female - Anal flat scale spots spread'
+		 [34] 'Female - Anal flat scale width of central portion'
+		 [35] 'Female - Anal flat scale ratio length/width'
+		 [36] 'Female - Urticating setae on adult'
+		 [37] 'Forewing scales general colouration'
+		 [38] '1.basal line or patch'
+		 [39] '1.basal line type'
+		 [40] '1.basal line colour'
+		 [41] '1.basal line shape'
+		 [42] '1.basal line width'
+		 [43] '1.basal line edges'
+		 [44] '1.basal line from costa to inner angle'
+		 [45] '1.basal line continuous'
+		 [46] '3.ante-median line or patch'
+		 [47] '3.ante-median line type'
+		 [48] '3.ante-median line colour'
+		 [49] '3.ante-median line shape'
+		 [50] '3.ante-median line edge'
+		 [51] '3.ante-median line edge colour'
+		 [52] '3.ante-median line width'
+		 [53] '3.ante-median line from costa to inner angle'
+		 [54] '3.ante-median line continuous'
+		 [55] '4.median shade'
+		 [56] '4.median shadetooth'
+		 [57] '4.median shade width'
+		 [58] '4.median shade from costa to inner angle'
+		 [59] '5.post-median line or patch'
+		 [60] '5.post-median line type'
+		 [61] '5.post-median line colour'
+		 [62] '5.post-median line continuous'
+		 [63] '5.post-median line from costa to inner angle'
+		 [64] '5.post-median line shape'
+		 [65] '5.tooth on node (Cu1-M3) in post-median line'
+		 [66] '5.post-median line edge'
+		 [67] '5.post-median line edge colour'
+		 [68] '5.post-median line width'
+		 [69] '6.sub-terminal line'
+		 [70] '7.terminal line'
+		 [71] '7.terminal line colour'
+		 [72] '7.terminal line from costa to inner angle'
+		 [73] '7.terminal line continuous'
+		 [74] 'Fringe'
+		 [75] 'Fringe - colour'
+		 [76] 'Fringe - series'
+		 [77] 'Fringe distal part'
+		 [78] 'Fringe - number of teeth in distal part'
+		 [79] 'Costal ends of ante and post-median lines'
+		 [80] 'Inner angle ends of ante and post-median lines'
+		 [81] 'Ante-median line junctionon inner angle (direction)'
+		 [82] 'Post-median line junction on inner angle (direction)'
+		 [83] 'Degree of inwardly post-median patch'
+		 [84] 'Discal spot'
+		 [85] 'Discal spot mark'
+		 [86] 'Discal spot shape'
+		 [87] 'Discal spot colour'
+		 [88] 'Discal spot ring'
+		 [89] 'Forewing marginal lines'
+		 [90] 'Forewing dark marginal lines'
+		 [91] 'Female - Elements of forewing pattern'
+		 [92] 'Marked veins'
+		 [93] 'Hindwing scales general colouration'
+		 [94] 'Ante-median line'
+		 [95] 'Median line'
+		 [96] 'Post-median line'
+		 [97] 'Terminal line'
+		 [98] 'Terminal line mark'
+		 [99] 'Fringe concolorous'
+		 [100] 'Fringe colour'
+		 [101] 'Discal spot presence'
+		 [102] 'Anal spot'
+		 [103] 'Anal spot - colour intensity'
+		 [104] 'Anal spot colour'
+		 [105] 'Inner angle'
+		 [106] 'Underside Hindwing'
+		 [107] 'Uncus'
+		 [108] 'Uncus shape'
+		 [109] 'Uncus apical teeth count'
+		 [110] 'Uncus apical teeth closeness'
+		 [111] 'Socii'
+		 [112] 'Socii shape'
+		 [113] 'Socii lateral margin shape'
+		 [114] 'Socii lateral margin'
+		 [115] 'Socii apex shape'
+		 [116] 'Socii apex ribbing'
+		 [117] 'Socii apex ribbing direction'
+		 [118] 'Socii posterior tooth'
+		 [119] 'Socii posterior tooth mark'
+		 [120] 'Socii posterior tooth shape'
+		 [121] 'Socii posterior tooth direction'
+		 [122] 'Tegumen'
+		 [123] 'Tegumen central tooth'
+		 [124] 'Gnathos'
+		 [125] 'Gnathos shape'
+		 [126] 'Scaphium'
+		 [127] 'Subscaphium'
+		 [128] 'Valva shape'
+		 [129] 'Valva baso-dorsal corners process'
+		 [130] 'Valva ventral margin silhouette - basal portion'
+		 [131] 'Valva ventral margin silhouette - distal portion'
+		 [132] 'Valva dorsal margin silhouette - basal portion'
+		 [133] 'Valva dorsal margin silhouette - distal portion'
+		 [134] 'Valva dorsal margin junction'
+		 [135] 'Valvae upper ribbing'
+		 [136] 'Valvae upper ribbing length'
+		 [137] 'Cucculus shape'
+		 [138] 'Bulge'
+		 [139] 'Bulge length'
+		 [140] 'Cucullus process'
+		 [141] 'Cucullus process side'
+		 [142] 'Saccular process'
+		 [143] 'Saccular process shape'
+		 [144] 'Anellus'
+		 [145] 'Juxta shape'
+		 [146] 'Juxta length/width'
+		 [147] 'Juxta superior margin silhouette'
+		 [148] 'Juxta lateral-up margin silhouette'
+		 [149] 'Juxta lateral-low margin silhouette'
+		 [150] 'Juxta inferior margin silhouette'
+		 [151] 'Juxta lateral angle'
+		 [152] 'Juxta ribbing'
+		 [153] 'Aedeagus length'
+		 [154] 'Basal part of aedeagus'
+		 [155] 'Process on basal part of aedeagus'
+		 [156] 'Opening on basal part of aedeagus'
+		 [157] 'Aedeagus apex'
+		 [158] 'Carina of aedeagus'
+		 [159] 'Carina position'
+		 [160] 'Vesica'
+		 [161] 'Cornuti of vesica'
+		 [162] 'Number of cornuti on vesica'
+		 [163] 'Basal curvature'
+		 [164] 'Level of basal curvature'
+		 [165] 'Medial curvature'
+	;
+	STATELABELS
+		1
+		'brown'
+		'light brown'
+		'brownish grey'
+		'black'
+		'whitish'
+		'yellowish'
+		,
+		2
+		'crested'
+		'smooth'
+		,
+		3
+		'six'
+		'seven'
+		,
+		4
+		'fore'
+		'rear'
+		,
+		5
+		'high'
+		'low'
+		'flattened'
+		,
+		6
+		'large'
+		'medium'
+		'narrow'
+		,
+		7
+		'disequal'
+		'equal or subequal'
+		,
+		8
+		'1st and 2nd pronounced'
+		'2nd pronounced'
+		'1st pronounced'
+		,
+		9
+		'wide'
+		'narrow'
+		,
+		10
+		'short'
+		'medium'
+		'long'
+		,
+		11
+		'long'
+		'short'
+		,
+		12
+		'long'
+		'medium'
+		'short'
+		,
+		13
+		'ochraceous'
+		'dark'
+		'whitish'
+		'dark and whitish'
+		,
+		14
+		'yellowish'
+		'ochraceous'
+		'brownish grey'
+		'whitish'
+		'dark'
+		,
+		15
+		'ochraceous'
+		'brownish grey'
+		'dark'
+		'black and whitish'
+		'yellowish'
+		'brown'
+		,
+		16
+		'short'
+		'long'
+		,
+		17
+		'merged'
+		'articulated'
+		,
+		18
+		'longer than second'
+		'as long as second'
+		'shorter than second'
+		'half of second'
+		'extremely shorter than second'
+		,
+		19
+		'wider than second'
+		'narrower than second'
+		'as wide as second'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'not well delimited'
+		'well delimited'
+		,
+		22
+		'light brown'
+		'dark'
+		'ash grey'
+		'brownish grey'
+		'whitish'
+		'yellowish'
+		'reddish'
+		,
+		23
+		'2 white lateral spots in the middle of root of FW'
+		'2 whitish lateral spots divided by a black line in the middle of root of FW'
+		'2 long whitish lateral spots in the middle of root of FW'
+		'2 long lateral yellow spots'
+		'long orange spot in centre of thorax'
+		'2 long lateral whitish spots that start at the beginning of thorax'
+		'2 short lateral white spots that start at the beginning of thorax'
+		,
+		24
+		'stout'
+		'medium'
+		'thin'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'claw-shape'
+		'finger-shape'
+		'acuminate leaf-shape'
+		'rounded leaf-shape'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'ochraceous'
+		'reddish'
+		'brown'
+		'grey'
+		'black and whitish'
+		'yellowish'
+		,
+		29
+		'ochraceous'
+		'brownish grey'
+		'dark'
+		'ash grey'
+		'brown'
+		'straw'
+		,
+		30
+		'only scales'
+		'only hair-like scales'
+		'both scales and hair-like scales'
+		,
+		31
+		'dark'
+		'whitish'
+		'translucent'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'localized'
+		'spread'
+		,
+		34
+		'narrow'
+		'wide'
+		'medium'
+		,
+		35
+		'< 2'
+		'2 - 3'
+		'3 - 4'
+		'>> 4'
+		,
+		36
+		'no'
+		'yes'
+		,
+		37
+		'light brown'
+		'whitish'
+		'ash grey'
+		'brown'
+		'yellowish'
+		'reddish'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'line'
+		'fused on costal patch'
+		,
+		40
+		'light brown'
+		'dark'
+		,
+		41
+		'zigzagged'
+		'curved'
+		'straight'
+		'fused on costal patch'
+		,
+		42
+		'narrow'
+		'wide'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'incomplete'
+		'complete'
+		,
+		45
+		'yes'
+		'no'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'line'
+		'costal patch'
+		,
+		48
+		'light brown'
+		'brown'
+		'vague'
+		'dark yellow'
+		,
+		49
+		'zigzagged'
+		'straight'
+		'curved'
+		'dotted'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'both edges dark'
+		'yellow external edge'
+		,
+		52
+		'wide'
+		'narrow'
+		,
+		53
+		'complete'
+		'incomplete'
+		,
+		54
+		'yes'
+		'no'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'outwardly on Cu'
+		'without tooth on Cu'
+		,
+		57
+		'narrow'
+		'wide'
+		'medium'
+		,
+		58
+		'complete'
+		'incomplete'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'line'
+		'patch'
+		,
+		61
+		'light brown'
+		'dark'
+		'yellowish'
+		,
+		62
+		'yes'
+		'no'
+		,
+		63
+		'complete'
+		'incomplete'
+		,
+		64
+		'jagged'
+		'straight'
+		'dotted'
+		,
+		65
+		'without outwardly tooth'
+		'with outwardly tooth'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'dark internal edge'
+		'yellow internal edge'
+		,
+		68
+		'wide'
+		'narrow'
+		'medium'
+		,
+		69
+		'absent'
+		'present as termen patch'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'dark'
+		'brownish-grey'
+		'whitish'
+		,
+		72
+		'complete'
+		'tornal patch'
+		,
+		73
+		'yes'
+		'no'
+		,
+		74
+		'concolorous'
+		'not concolorous'
+		,
+		75
+		'brown and white'
+		'whitish'
+		'brown'
+		'yellowish'
+		'black'
+		,
+		76
+		'uniseriate'
+		'biseriate'
+		,
+		77
+		'jagged'
+		'smooth'
+		,
+		78
+		'various (3-8)'
+		'two'
+		'three'
+		'four'
+		'five'
+		'seven'
+		'nine'
+		,
+		79
+		'parallel'
+		'divergent'
+		'convergent'
+		,
+		80
+		'parallel'
+		'convergent'
+		'divergent'
+		,
+		81
+		'outwardly'
+		'inwardly'
+		'straight'
+		'does not reach margin'
+		,
+		82
+		'outwardly'
+		'inwardly'
+		'straight'
+		'does not reach margin'
+		,
+		83
+		'reach thorax'
+		'ends the middle of basal patch'
+		'ends just before basal patch'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'strong'
+		'medium'
+		'faint'
+		,
+		86
+		'half-moon'
+		'irregular'
+		'dot'
+		,
+		87
+		'brown'
+		'whitish'
+		'black'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'completely around wing'
+		'on costa and inner angle'
+		'only on costa'
+		,
+		91
+		'elements of pattern blurred, indistinct'
+		'sharp, as defined as in male'
+		,
+		92
+		'no'
+		'yes'
+		,
+		93
+		'whitish'
+		'yellowish'
+		'reddish'
+		'brownish'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'marked brownish'
+		'vague brownish'
+		,
+		99
+		'concolorous'
+		'not concolorous'
+		,
+		100
+		'whitish'
+		'brownish grey'
+		'light brown'
+		'yellowish'
+		'reddish'
+		'black'
+		'black up-white down'
+		,
+		101
+		'absent'
+		'present albeit faint'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'marked, definite'
+		'vague, faint'
+		,
+		104
+		'dark'
+		'light brown'
+		,
+		105
+		'whitish'
+		'brownish grey'
+		'yellowish'
+		,
+		106
+		'as upperside, with faint discal spot'
+		'as upperside, without pattern'
+		'as upperside, with costal dark mark'
+		,
+		107
+		'developed'
+		'well developed'
+		'tiny'
+		,
+		108
+		'claw-like'
+		'triangular'
+		'rounded'
+		'narrow'
+		,
+		109
+		'single'
+		'couple'
+		,
+		110
+		'divided'
+		'close'
+		'fused'
+		,
+		111
+		'absent'
+		'present'
+		,
+		112
+		'half-moon'
+		'triangular'
+		'trapezoidal'
+		,
+		113
+		'convex'
+		'straight'
+		'concave'
+		,
+		114
+		'smooth'
+		'wrinkled'
+		,
+		115
+		'rounded'
+		'narrow'
+		'sharp'
+		,
+		116
+		'absent'
+		'present'
+		,
+		117
+		'central'
+		'outer'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'strong, define'
+		'vague, faint'
+		,
+		120
+		'rounded'
+		'sharp'
+		,
+		121
+		'straight'
+		'inward'
+		,
+		122
+		'developed'
+		'tiny'
+		'well developed'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'sub-triangular'
+		'hook-shaped'
+		'filiform'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'absent'
+		'present'
+		,
+		128
+		'claw-like'
+		'reverse claw-like'
+		'spear-like'
+		'U-shape'
+		'S-shape'
+		'quarter circle'
+		,
+		129
+		'not sclerotized'
+		'sclerotized'
+		,
+		130
+		'straight'
+		'concave'
+		'convex'
+		,
+		131
+		'convex'
+		'extremely convex'
+		'concave'
+		'straight'
+		,
+		132
+		'convex'
+		'straight'
+		'concave'
+		,
+		133
+		'straight'
+		'concave'
+		'convex'
+		,
+		134
+		'not sclerotized'
+		'sclerotized'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'short'
+		'long'
+		,
+		137
+		'rounded'
+		'narrow'
+		'sharp'
+		'broadly rounded'
+		,
+		138
+		'absent'
+		'present'
+		,
+		139
+		'1/2 of valvae'
+		'1/4 of valvae'
+		,
+		140
+		'absent'
+		'present'
+		,
+		141
+		'upperside'
+		'underside'
+		,
+		142
+		'absent'
+		'present'
+		,
+		143
+		'straight'
+		'claw-like'
+		'hook-like'
+		,
+		144
+		'not sclerotized'
+		'sclerotized'
+		,
+		145
+		'pentagonal'
+		'hexagonal'
+		'heptagonal'
+		'triangular'
+		'diamond'
+		'bone'
+		,
+		146
+		'as wide as long'
+		'longer than wide'
+		,
+		147
+		'concave'
+		'straight'
+		'rounded convex'
+		'convex'
+		,
+		148
+		'convex'
+		'straight'
+		'concave'
+		,
+		149
+		'convex'
+		'straight'
+		'concave'
+		,
+		150
+		'convex'
+		'straight'
+		'extremely convex'
+		,
+		151
+		'broadly rounded'
+		'rounded'
+		'narrow'
+		'flat'
+		,
+		152
+		'absent'
+		'present'
+		,
+		153
+		'short'
+		'medium'
+		'long'
+		,
+		154
+		'completely encircle'
+		'not completely encircle'
+		,
+		155
+		'absent'
+		'present'
+		,
+		156
+		'flared vertically'
+		'flared horizontally'
+		'circular'
+		,
+		157
+		'circular'
+		'double spiked'
+		'flared'
+		,
+		158
+		'absent'
+		'present'
+		,
+		159
+		'on a single spike'
+		'on terminal portion'
+		,
+		160
+		'simple'
+		'bulbous'
+		,
+		161
+		'absent'
+		'present'
+		,
+		162
+		'one big'
+		'small several'
+		,
+		163
+		'absent'
+		'present'
+		,
+		164
+		'strong'
+		'gently'
+		,
+		165
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Ochrogaster lunifer'		                                01--------1001511310-6300-0142---?-150----0--10210-0110---10100100--00---02000---1-102100-1020100-0400--1110100----------00110050221200-30-0-0-?51010010100120-00-0-1
+	'Thaumetopoea pityocampa'		                            30010101020101000100-10010101001020031010001010100-1000---10100000-101001100020100-10001120000001100110000001110000111010000-0011000100-00-0-0-010010011100100-00-0-0
+	'Thaumetopoea pityocampa orana'		                      00010101020101000100-300101010?1020031010001010100-1000---10100000-101001100020100-10001120000001100110000001110000111010000-0011000100-00-0-0-010010011100100-00-0-0
+	'Thaumetopoea pityocampa ENA'		                        ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Thaumetopoea wilkinsoni'		                            00010201010101000100-30010101001010021010001110100-1000---10100000-101001100020101-10001120000001000110000001110010111000000-0011001101100-0-0-011020011100100-00-0-0
+	'Thaumetopoea herculeana'		                            10010010000020000000-0011010000110200100000001000100000---100000010001001101040122-100010-0001011111111100001112202111001000-0021100200-00-0-0-021010020101100-00-0-0
+	'Thaumetopoea herculeana judea'		                      40010010000020000000-0011010000110200100000001000100000---100000010001001101040122-100010-0001011111111100001112202111001000-0021100200-00-0-0-021010020101100-00-0-0
+	'Thaumetopoea solitaria'		                             01--------1120100200-21211033001002021011001010100-1000---10100000-101001101041000-111010-00000011000110010011122020-1111010-0001011100-20-0-0-011011110100100-00-100
+	'Thaumetopoea solitaria iranica'		                     11--------1120100200-21211033011002021011001010100-1000---10100000-101001101??1010-121110-000000110000--010011122020-1111010-0001011100-20-0-0-011011110100100-00-100
+	'Thaumetopoea processionea'		                          01--------1130100200-21211003001002031010001010110-1000---10100100-101001100040101-110010-0000010-110100010011121010-1110010-0021001200-10-0-0-010010010101100-00-0-0
+	'Thaumetopoea processionea pseudosolitaria'		          01--------1130100200-21211003001102031010001010110-1000---10100100-101001100040101-110010-0000010-110100010011122020-1111010-0001011100-20-0-0-011011110101100-00-0-0
+	'Thaumetopoea bonjeani'		                              20111201110112000000-1011012400100102101001111012111000---1010000111010011001?0102-11001120000000-000100010011110110-1111000-0041100110-010100-000202111100100-00-110
+	'Thaumetopoea pinivora'		                              20111201111212200000-3011012400112102101001101012111000---101000011101001100120101-100000-0000000-110100010011110110-1010000-0041101210-011100-000202111100100-00-110
+	'Thaumetopoea libanotica'		                            20111201101212200310-301101240?1??103101001111012111000---1010000111010011001?0002-102000-0000000-11111011001111?????????000-00???0?????01?100-000222110100100-00-110
+	'Thaumetopoea ispartaensis'		                          20111201001202200310-3011012400112003101001011012111000---101000011101101100121211-10200120000000-11111011001111011101011000-0041102210-011100-000320010100100-00-110
+	'Thaumetopoea sedirica'		                              20111201001102200100-3011012400112103101001011012111000---101000011101101100121210-10200120000000-1110-010001111011101011000-0041102210-011100-000320010100100-00-110
+	'Thaumetopoea torosica'		                              00???????????2200100-3011?1240010??03101001??1012??1000---1010?00??101101?0?12????-1??0???000?????11??????001111011101011000-0041102210-01?100-000320010100100-00-110
+	'Thaumetopoea cheela'		                                20111201110122200??0-3011012400110302101001111012111000---101000011101200100??0022-100010-1000000-011100100011112010-0---000-0021002210-00-100-00032001?100100-00-0-0
+	'Thaumetopoea jordana'		                               0010--02100122000320-2211011401100201111-100011100-0100---10100000-000---010010-3120----0-0000000-0000--110011100000-1100000-0031010201030-0-0-010010000100120-00-0-0
+	'Thaumetopoea dhofarensis'		                           0010--02100121000320-2211011401100201111-100011100-0100---11100000-000---020010-3100----0-0030100-1200--110011100000-1110000-0031010201030-0-0-010010000100120-00-0-0
+	'Thaumetopoea apologetica'		                           00102101100121000320-2211011401100201111-100011100-0100---11100000-000---110010-3110----0-0000100-0000--110011100010-1010000-0031012201030-0-0-010010000100120-00-0-0
+	'Thaumetopoea apologetica abyssinica'		                00102101100121000320-2211011401100201111-100011100-0100---11100000-000---110010-3110----0-0000100-0000--110011100010-1010000-0031012201030-0-0-010010000100120-00-0-0
+	'Gazalina apsara'		                                    41--------1213301121044113045220-0111101200000---0----100010100110-100---010050-10-0----0-1100000-0000--012111121020-0---100-0050012101110-0-0-040111020200211110-0-0
+	'Gazalina chrysolopha'		                               41--------121330112104?113045220-01110----0--0---0----0---0------0--00---01005-----0----0-1100000-0000--012111121010-0---100-0050012101110-0-0-040111020200211110-0-0
+	'Gazalina transversa'		                                41--------1213301121044113045220-03110----0--0---0----110110101110-100---010061101-0----0-1000000-0000--01210-121010-0---100-0000221101110-110-041111020200211010-0-0
+	'Paradrallia rhodesi'		                                51--------11004113111552110501-----?40----0--10230-1110---10211200-101011030032133-102200-1010000-0300--2103100----------20100030222200-30-0-0-130011230010200-0110-1
+	'Paradrallia punctigera'		                             51--------11004113111552110501-----?40----0--10230-1110---10211200-101001030032133-102200-1010000-0300--2103100----------20100030222200-30-0-0-130011230010??????????
+	'Anaphe panda'		                                       01--------11110113010661110021-----110----0--0---0----112010100100-200---130041101-0----101010100-1200--2112120----------20111020201001010-0-12130011230010000-00-0-0
+	'Anaphe panda infracta'		                              01--------11110013111061110001-----110----0--0---0----112010100100-200---130041101-0----101010100-1200--2112120----------20111020201001010-0-12130011230010000-00-0-0
+	'Anaphe venata'		                                      01--------11110112010050110001-----110----0--0---0----112010100100-201000130041121-0----101110000-1200--2112120----------20121020221001100-0-10130011230010000-00-0-0
+	'Anaphe etiennei'		                                    01--------11110113010650110101-----150----0--0---0----11100------0--00---02004-----0----0-1120100-0400--1112120----------20121020221001100-0-1113001123001?000-00-0-0
+	'Epanaphe subsordida'		                                01--------1111011320-051120001-----110----0--0---0----0---10100100-000---14004---0-0----101000000-1500--2113100----------20120130000200-30-0-10130011230010200-0100-0
+	'Epanaphe nigricincta'		                               01--------1114511310-051120001-----110----0--0---0----0---10100100-000---04004---0-0----111000000-0000--01????0----------?????????????????-??????????????????????????
+	'Epanaphe moloney'		                                   01--------1114511320-051120001-----110----0--0---0----0---10100100-000---04004---0-0----121100000-1500--0112100----------20120130000200-30-1010130011230010200-0100-0
+	'Epanaphe carteri'		                                   01--------11145113110051120501-----110----0--0---0----0---10100100-000---14004---0-0----101000000-1500--0212100----------20120130000200-30-0-10130011230010200-00-0-0
+	'Hypsoides antsianakana'		                             01--------1114511200-530110551-----110----0--0---0----0---11100100-000---14003---2-0----12100000111600--0112100----------20121020032101100-0-10130011230010000-0110-0
+	'Hypsoides placidus'		                                 01--------1114511200-530110551-----110----0--0---0----0---0---------10---04?03-----0----121000000-0000--0112100----------20121020032101100-0-10130011230010000-0110-0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 165;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1515784890076; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3661608669912410231; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6016036832138493911; mqVersion 320; checksumv 0 3 2539711675 null getNumChars 165 numChars 165 getNumTaxa 37 numTaxa 37 short true bits 127 states 127 sumSquaresStatesOnly 109005.0 sumSquares 109005.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 127; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1089 583; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6016036832138493911 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 962 511; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 165; 
+ENDBLOCK;

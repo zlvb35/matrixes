@@ -1,0 +1,345 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.06.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+    		'Gypsonictops hypoconus'
+		'Prodiacodon puercensis'
+		'Prodiacodon tauricinerei'
+		'Blacktops'
+		'Leptictis dakotensis'
+		'Megaleptictis altidens'
+		'Palaeictops altimontis'
+		'Palaeictops bicuspis'
+		'Palaeictops borealis'
+		'Palaeictops bridgeri'
+		'Palaeictops matthewi'
+		'Palaeictops multicuspis'
+		'Palaeictops robustus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=50;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Sagittal crest presence'
+		 [2] 'Lacrimal tubercle on anterior edge of orbit, presence'
+		 [3] 'Nasal posteriorly expansion'
+		 [4] 'Suprameatal fossa'
+		 [5] 'Suprameatal foramen'
+		 [6] 'Basioccipital that overlaps ventrally the promontorium of the petrosal'
+		 [7] 'Grooves on the promontorium'
+		 [8] 'Posterior lacerate foramen '
+		 [9] 'Bridge of the mastoid tubercle of the petrosal '
+		 [10] 'Groove on the paraoccipital process for digastric muscle'
+		 [11] 'Paraoccipital process size'
+		 [12] 'Postglenoid process '
+		 [13] 'Postglenoid foramen position'
+		 [14] 'Median petrosal crest of the promontorium'
+		 [15] 'Fossula cochlea dorsal rim '
+		 [16] 'Mandibular ramus'
+		 [17] 'Posterior concavity of coronoid process '
+		 [18] 'Extremity of coronoid process'
+		 [19] 'P4 anterior extension'
+		 [20] 'Trenchant P4'
+		 [21] 'P4 paracone development'
+		 [22] 'P5 and upper molars occlusal anteroposterior length'
+		 [23] 'P5 and upper molars: Paracones, protocones, and metacones'
+		 [24] 'P5 and upper molars: Hypocone development'
+		 [25] 'Upper molar protocones lingually swollen'
+		 [26] 'Upper molar trigonids'
+		 [27] 'Upper molars parastylar spurs development'
+		 [28] 'Precingulum in lingual region of upper molars'
+		 [29] 'Upper molars "doubled" paraconule presence'
+		 [30] 'M2 ectoflexi'
+		 [31] 'p2 number of cusps'
+		 [32] 'p4 anterior cusp presence'
+		 [33] 'Trenchant p4'
+		 [34] 'p4 number of cusps'
+		 [35] 'p5 length'
+		 [36] 'Prefossid between paraconid and metaconid on p5'
+		 [37] 'p5 paraconid'
+		 [38] 'p5 paraconid anterior accessory cuspule at labial base'
+		 [39] 'p5 trigonid'
+		 [40] 'p5 metaconid and protoconid'
+		 [41] 'p5 talonid'
+		 [42] 'p5 talonid'
+		 [43] 'm1-m3 trigonids'
+		 [44] 'm3 hypoconulid location'
+		 [45] 'Angle between the sacral vertebrae and the long axis of the ilium'
+		 [46] 'Anterior inferior gluteal eminence'
+		 [47] 'Rim of the acetabulum'
+		 [48] 'Projection of the ischium above the level of the acetabulum'
+		 [49] 'Anterior ilium'
+		 [50] 'Tibia and fibula fusion'
+	;
+	STATELABELS
+		1
+		'Single sagittal crest'
+		'Paired sagittal crests'
+		,
+		2
+		'Weakly developed'
+		'Well developed'
+		,
+		3
+		'Absent'
+		'Present'
+		,
+		4
+		'Deep'
+		'Shallow'
+		,
+		5
+		'Large'
+		'Small'
+		,
+		6
+		'Less expanded'
+		'More transversely flaired '
+		,
+		7
+		'Deeper'
+		'Shallow'
+		,
+		8
+		'Much larger than stapedius fossa'
+		'Only slightly larger than the stapedius fossa '
+		,
+		9
+		'Wide'
+		'Narrow'
+		,
+		10
+		'Deep'
+		'Shallow'
+		,
+		11
+		'Large'
+		'Small'
+		,
+		12
+		'Large'
+		'Small'
+		,
+		13
+		'Posteriomedial to postglenoid process'
+		'Posterior to postglenoid process'
+		,
+		14
+		'Well developed'
+		'Weakly developed'
+		,
+		15
+		'Less expanded'
+		'More expanded'
+		,
+		16
+		'Slender'
+		'Deep'
+		,
+		17
+		'Absent'
+		'Present'
+		,
+		18
+		'Hooklike'
+		'Rounded'
+		,
+		19
+		'Less anteriorly projecting '
+		'Anteriorly extended'
+		,
+		20
+		'Less'
+		'More'
+		,
+		21
+		'Well developed and swollen'
+		'less developed'
+		,
+		22
+		'More elongated'
+		'Less elongated'
+		,
+		23
+		'Lower'
+		'Higher'
+		,
+		24
+		'Moderately developed'
+		'Well developed'
+		,
+		25
+		'Less'
+		'More'
+		,
+		26
+		'Higher'
+		'Lower'
+		,
+		27
+		'Less developed'
+		'More developed'
+		,
+		28
+		'Less extensive'
+		'Extensive'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Shallow'
+		'Deep'
+		,
+		31
+		'Two cusps'
+		'Three cusps'
+		'Four cusps'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Less developed'
+		'Well developed'
+		,
+		34
+		'Three cusps'
+		'Four cusps'
+		'Five cusps'
+		,
+		35
+		'Elongate'
+		'Short'
+		,
+		36
+		'Small'
+		'Large'
+		,
+		37
+		'Weakly developed'
+		'Moderately developed'
+		'Strongly developed'
+		,
+		38
+		'Absent'
+		'Conspicuous'
+		,
+		39
+		'Open'
+		'Closed'
+		,
+		40
+		'Metaconid aligned less obliquely relatively to protoconid'
+		'Metaconid positioned more posteriorly relative to the protoconid'
+		,
+		41
+		'Short'
+		'Large'
+		,
+		42
+		'Open lingually'
+		'Closed lingually'
+		,
+		43
+		'Lower'
+		'Higher'
+		,
+		44
+		'Less lingually'
+		'More lingually'
+		,
+		45
+		'Less acute'
+		'More acute'
+		,
+		46
+		'Small'
+		'Large'
+		,
+		47
+		'Weakly developed'
+		'Well developed'
+		,
+		48
+		'Less dorsal'
+		'More dorsal'
+		,
+		49
+		'not flaired in lateral direction'
+		'distal flairing in lateral direction'
+		,
+		50
+		'Distal one-third fused'
+		'not fused'
+		
+	;
+	MATRIX
+	'Gypsonictops hypoconus'		            ???????????????0??00011101100101011000001011??????
+	'Prodiacodon puercensis'		            ???????????????0??101110001111?1011101101010111111
+	'Prodiacodon tauricinerei'		          1?1????????????00010111000101101011101001110??????
+	'Blacktops'		                         110??0?01?0???????001001010001????????????????????
+	'Leptictis dakotensis'		              11000000000000001010100101000100101000101100000000
+	'Megaleptictis altidens'		            110010?0??00???001001001010001001?1?00?00?0???????
+	'Palaeictops altimontis'		            00011111111111100????00111000111010110000000??????
+	'Palaeictops bicuspis'		              0?111??????????00?100001110001?0000021010011??????
+	'Palaeictops borealis'		              ?????????????????????00111010?????????????0???????
+	'Palaeictops bridgeri'		              ???????????????0??????????????????0110010000??????
+	'Palaeictops matthewi'		              ???????????????0??0100011100000111002001001?111110
+	'Palaeictops multicuspis'		           ???????????????1??????????????21120021010010??????
+	'Palaeictops robustus'		              01???????111111001???001110???????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=4 TEXT='Located behind the zygomatic process of the squamosal';
+	TEXT CHARACTER=7 TEXT='These grooves are for the promontory and stapedial branches of the internal carotid artery';
+	TEXT CHARACTER=9 TEXT='This bridge extends from dorsal rim of the cochlear fossula between the stylomastoid foramen and stapedius fossa';
+
+      [Attribute comments]
+      	TEXT TAXON=4 CHARACTER=3 TEXT='Both species';
+	TEXT TAXON=3 CHARACTER=29 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=22 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=23 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=24 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=21 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=1 CHARACTER=21 TEXT='Score as "Well developed and not swollen" as a 0';
+	TEXT TAXON=4 CHARACTER=2 TEXT='Blacktops longinares';
+	TEXT TAXON=3 CHARACTER=16 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=17 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=18 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=30 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=19 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=20 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=25 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=26 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=27 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=28 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=40 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=31 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=32 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=33 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=34 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=35 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=36 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=37 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=38 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=39 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=41 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=42 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=43 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+	TEXT TAXON=3 CHARACTER=44 TEXT='Prodiacodon tauricinerei (YPM PU:13104)';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 50;
+      ENDBLOCK;
+      

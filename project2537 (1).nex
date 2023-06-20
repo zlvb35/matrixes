@@ -1,0 +1,557 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.04.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=58;
+    TAXLABELS
+    		'Cornus oblonga'
+		'Cornus controversa'
+		'Cornus sanguenea'
+		'Cornus mas'
+		'Cornus officinalis'
+		'Cornus volkensii'
+		'Cornus canadensis'
+		'Cornus eydeana'
+		'Cornus piggae'
+		'Cornus multilocularis'
+		'Cornus florida'
+		'Cornus kousa'
+		'Alangium chinense'
+		'Alangium eydei'
+		'Alangium vermontanum'
+		'Alangium javanicum'
+		'Alangium villosum'
+		'Diplopanax stachyanthus'
+		'Diplopanax eydei'
+		'Mastixia philippenensis'
+		'Retinomastixia schultei'
+		'Mastixioidiocarpum oregonense'
+		'Langtonia bisulcata'
+		'Beckettia samuelis'
+		'Davidia involucrata'
+		'Davidia antiqua'
+		'Drumheller fruit 1'
+		'Camptotheca acuminata'
+		'Nyssa sylvatica'
+		'Nyssa ogeche'
+		'Nyssa aquatica'
+		'Nyssa talamancana'
+		'Nyssa javanica'
+		'Nyssa grayensis'
+		'Nyssa spatulata'
+		'Curtisia dentata'
+		'Curtisia quadrilocularis'
+		'Grubbia rosmarinifolia'
+		'Hydrostachys spp.'
+		'Hydrangea heteromalla'
+		'Deutzia corymbosa'
+		'Jamesia americana'
+		'Philadelphus purpurascens'
+		'Mentzelia dispersa'
+		'Loasa sclareifolia'
+		'Hironoia fusiformis'
+		'Amersinia obtrullata'
+		'Suciacarpa starrii'
+		'Suciacarpa xiangae'
+		'Eydeia hokkaidoensis'
+		'Eydeia vancouverensis'
+		'Edencarpa grandis'
+		'Obamacarpa edenensis'
+		'Drumheller fruit 2'
+		'Sheltercarpa vancouverensis'
+		'Hydrocera triflora'
+		'Marcgravia nepenthoides'
+		'Fouquieria columnaris'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=77;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Ovary position'
+		 [2] 'Fruit type'
+		 [3] 'Capsule dehiscence'
+		 [4] 'Capsule dehiscence procession'
+		 [5] 'Fruit fusion'
+		 [6] 'Number of locules'
+		 [7] 'Symplicate zone'
+		 [8] 'General endocarp morphology'
+		 [9] 'Endocarp shape'
+		 [10] 'Apical depression on endocarp'
+		 [11] 'Acuminate apex'
+		 [12] 'Germination valves'
+		 [13] 'Germinatin valve length'
+		 [14] 'Germination valve apex'
+		 [15] 'Pits on endocarp surface'
+		 [16] 'Grooves on endocarp valve/dorsal area exterior surface'
+		 [17] 'Valve/dorsal area exterior groove morphology'
+		 [18] 'Grooves on endocarp valve/dorsal interior surface'
+		 [19] 'Ridges on endocarp valve/dorsal area exterior surface'
+		 [20] 'Germination valve/dorsal exterior ridge morphology'
+		 [21] 'Ridges(s) on endocarp ventral area interior surface'
+		 [22] 'Endocarp septal/ventral grooves'
+		 [23] 'Endocarp septal/ventral ridges'
+		 [24] 'Locule shape in cross section'
+		 [25] 'Crescent-shaped locule morphology in cross section'
+		 [26] 'Germination vavle/dorsal area depression'
+		 [27] 'Fertile locule size symmetry'
+		 [28] 'Abortive locules seen in mature fruits'
+		 [29] 'Conspicuous locule lining'
+		 [30] 'Conspicuous inner endocarp'
+		 [31] 'Isodiametric sclereids in germination valve'
+		 [32] 'Elongated sclereids in germination valve'
+		 [33] 'Fibers in germination valve'
+		 [34] 'Parenchyma in germination valve'
+		 [35] 'Isodiametric sclereids in septa and central axis'
+		 [36] 'Elongated sclereids in septa and central axis'
+		 [37] 'Fibers in septa and central axis'
+		 [38] 'Parenchyma in septa'
+		 [39] 'Sclerenchyma cells with large lumen diameter in central axis'
+		 [40] 'Endocarp fibers in chaotic/interwoven multiseriate groups'
+		 [41] 'Secretory cavities'
+		 [42] 'Secretory cavities forming uniseriate cycle around each locule'
+		 [43] 'Resin canals'
+		 [44] 'Resin canals forming uniseriate cycle around locules'
+		 [45] 'Locule lining histology'
+		 [46] 'Inner endocarp histology'
+		 [47] 'Vascular bundles in central axis/ventral area'
+		 [48] 'Position of vascular bundles in central axis'
+		 [49] 'Vascular bundles towards outer periphery of septa (or ventral endocarp tissue)'
+		 [50] 'Transseptal bundles ending blindly in septum'
+		 [51] 'Transseptal bundles entering endocarp'
+		 [52] 'Vascular bundles in longitudinal rows in septa (or ventral area of endocarp) for most of the endocarp length'
+		 [53] 'Fibers surrounding vascular bundles'
+		 [54] 'Vascular bundles within exterior grooves on germination valve/dorsal exterior sufaceae'
+		 [55] 'Vascular bundles running parallel along exterior ridges on germination valve/dorsal area surface'
+		 [56] 'Vascular bundles between ridges on germination valve/dorsal area surface'
+		 [57] 'Vascular bundles within germination valve/dorsal area tissue'
+		 [58] 'Persistent calyx/tepal lobes'
+		 [59] 'Transition sclereids'
+		 [60] 'Sclereids in mesocarp'
+		 [61] 'Radially elongated cells in mesocarp'
+		 [62] 'Resin canals in mesocarp'
+		 [63] 'Secretory cavities in mesocarp'
+		 [64] 'Laticifers in mesocarp'
+		 [65] 'Mesocarp texture at maturity'
+		 [66] 'Wings formed by pericarp'
+		 [67] 'Dense layer of large trichomes on exocarp at matruity'
+		 [68] 'Position of raphe'
+		 [69] 'Intrusive placentae'
+		 [70] 'Number of placentae per locule'
+		 [71] 'Placentation'
+		 [72] 'Number of ovules/seeds per locule'
+		 [73] 'Number of cell layers in integument/seed coate'
+		 [74] 'Cotyledon shape'
+		 [75] 'Chalazal wing'
+		 [76] 'Seed coat morphology'
+		 [77] 'Endosperm copious'
+	;
+	STATELABELS
+		1
+		'inferior/semi-inferior'
+		'superior'
+		,
+		2
+		'capsule'
+		'drupaceous fruit'
+		,
+		3
+		'septicidal'
+		'loculicidal'
+		'apical interstylar region'
+		'apical valves'
+		,
+		4
+		'basipetally from apex to base of fruit'
+		'acropetally from base to apex of fruits'
+		,
+		5
+		'in fused heads'
+		'not in fused heads'
+		,
+		6
+		'one'
+		'two'
+		'three'
+		'four'
+		'five or more'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'thick and woody'
+		'thin and not woody'
+		,
+		9
+		'ovoid'
+		'spheroid'
+		'ob-ovoid'
+		'spindle-shaped'
+		'fusiform'
+		'conical'
+		'funnel-shaped'
+		'elliptical'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'present'
+		'absent'
+		,
+		12
+		'present'
+		'absent'
+		,
+		13
+		'short'
+		'elongate'
+		'absent'
+		,
+		14
+		'pointed'
+		'rounded'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'shallow'
+		'deep'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'present'
+		'absent'
+		,
+		20
+		'broad/shallow'
+		'sharp/conspicuous'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'present'
+		'absent'
+		,
+		24
+		'elliptical/sub-triangular'
+		'crescent-shaped'
+		'~W-shaped;'
+		'~W-shaped'
+		'D-shaped'
+		', D-shaped'
+		,
+		25
+		'U-shaped'
+		'C-shaped'
+		'V-shaped'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'equal-sized'
+		'sizes differ'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'present'
+		'absent'
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'present'
+		'absent'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'present'
+		'absent'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'present'
+		'absent'
+		,
+		42
+		'present'
+		'absent'
+		,
+		43
+		'present'
+		'absent'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'fibers'
+		'sclereids'
+		'thin- walled cells'
+		'thin-walled cells'
+		,
+		46
+		'fibers'
+		'elongated sclereids'
+		'isodiametric sclereids'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'center'
+		'in margin of axis opposite the locules'
+		'in margin of axis opposite of the locules'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'through grooves'
+		'through pits'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'present'
+		'absent'
+		,
+		54
+		'present'
+		'absent'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'present'
+		'absent'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'present'
+		'absent'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'present'
+		'absent'
+		,
+		63
+		'present'
+		'absent'
+		,
+		64
+		'present'
+		'absent'
+		,
+		65
+		'leathery/dry'
+		'fleshy'
+		,
+		66
+		'present'
+		'absent'
+		,
+		67
+		'present'
+		'absent'
+		,
+		68
+		'ventral'
+		'lateral/dorsal'
+		,
+		69
+		'intrusive'
+		'non-intrusive'
+		,
+		70
+		'one'
+		', two or more'
+		,
+		71
+		'apical/sub-apical'
+		'axile'
+		'parietal'
+		,
+		72
+		'one'
+		'two or more'
+		,
+		73
+		'one to two'
+		'three or more'
+		,
+		74
+		'wide'
+		'narrow'
+		,
+		75
+		'present'
+		'absent'
+		,
+		76
+		'sculptured'
+		'smooth'
+		,
+		77
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Cornus oblonga'		                         01--121001101011-1011110-10101011101111-1-1-0-1-01111-01111111111111100000110
+	'Cornus controversa'		                     01--111010101110011-0010-10101011101111-1-1-0-1-010110--111111111111100000110
+	'Cornus sanguenea'		                       01--111010101110011-1010-10101011101111-1-1-0-1-01011001111111111111100001110
+	'Cornus mas'		                             01--111000101111-11-1010-10010011101111-001--11-01011---110111111111100000110
+	'Cornus officinalis'		                     01--101000101111-11-1010-1--10011101111-001--11-01011---110111111111100000110
+	'Cornus volkensii'		                       01--111000101111-11-1010-10001011110111-001-001-01011---11???111111110000?110
+	'Cornus canadensis'		                      01--101051101011-11-1010-1--11011101111-1-1---1-01011---111111111111100000110
+	'Cornus eydeana'		                         01--111000101?11-1011010-100?0101110111-001-?01-0101?-???1?????1111?10000?110
+	'Cornus piggae'		                          ?1--121001101?11-11-1010-10110011101111-001--11-01011---11??????????100000110
+	'Cornus multilocularis'		                  ?1--141000101011-11-1010-10101011110111-001-0-1-01011---1??????????110000011?
+	'Cornus florida'		                         01--111001101011-11-1010-11111011101111-1-1---1-01011---110011111111100000110
+	'Cornus kousa'		                           01--00-051101011-11-1010-11111011101111-1-1---1-01011---111011111111100000110
+	'Alangium chinense'		                      01--111000101101-1001010-11101011101101-1-1-2-1-00111-??110111101111100000110
+	'Alangium eydei'		                         ?1--111000101001-1001010-11101011101101-1-1-2-1-0?111-??1???????????10000?11?
+	'Alangium vermontanum'		                   01--?11000101101-11-1010-11111011101101-1-1---1-0011?-??1?0?????????10000?11?
+	'Alangium javanicum'		                     01--10-000101011-1001100-1--11011101111-1-1---1-01?11-0111?00110111110000?110
+	'Alangium villosum'		                      01--11100110100--1--1110-111110111011?1-1-1---1-01111---11???11011?110000?110
+	'Diplopanax stachyanthus'		                01--10-071101010011-101101--1010001000111-01-01-1--01?--11???????11?1000??110
+	'Diplopanax eydei'		                       01--10-071101?11-11-111101--1011101001111-01-01-1--01---11011111111?10001?11?
+	'Mastixia philippenensis'		                01--10-071101?10111-111101--1111011101111-1--01-01?110--110010110110100000110
+	'Retinomastixia schultei'		                01--10-071101010111-101101--0011011101111-00?01-01?1??--1??????????01000??1??
+	'Mastixioidiocarpum oregonense'		          ?1--10-0711010101101110101--0011011001101-1-?01-01?1?0111??????????010000?11?
+	'Langtonia bisulcata'		                    01--111071101110101-101101000011011101101-01001-1--01?--1??11011?1?010000?11?
+	'Beckettia samuelis'		                     ?1--?11071101?10111-11112101???????????-1-1--??-??-???-????????????0?000?????
+	'Davidia involucrata'		                    01--141001001011-1011110-0000010011001111-1-00--1--00-00111011110110100000110
+	'Davidia antiqua'		                        01--141001101011-11-1110-0010111011101111-1-0---1--00---11???????1?010000011?
+	'Drumheller fruit 1'		                     ?1--141001001011-1011110-10001011100111-1-1-0---1--01---1??????????0?0?00?11?
+	'Camptotheca acuminata'		                  01--101121000011-11-1100-0--1111011101111-1-----01?11---11001111001?100001110
+	'Nyssa sylvatica'		                        01--101001100010011-1110-1--0011011101101-1-001-011110--111001111110100000110
+	'Nyssa ogeche'		                           01--101021000011-1011100-0--0011011101101-1-001-1--01--0110??1111110100000110
+	'Nyssa aquatica'		                         01--101031100011-1011100-0--0011011101101-1-001-01?11-01111111111110100000110
+	'Nyssa talamancana'		                      01--111001100010011-101111000011011101101-1-001-01?110--11??????111010000?110
+	'Nyssa javanica'		                         01--101001100011-0000012-1--0011011101101-1-001-01?11-01110011111110100000110
+	'Nyssa grayensis'		                        ?1--?11021000010011-1010-1010011011101101-1-001-01??00--1???????????1000??1??
+	'Nyssa spatulata'		                        ?1--121001100111-10011111101??11011101101-1---1-01?1?-??1???????????1000??1??
+	'Curtisia dentata'		                       01--131011101111-11-1010-10101011101111-1-1-1-001--10---110001111110100000110
+	'Curtisia quadrilocularis'		               01--131011101111-11-1010-10101011101111-1-1-1-001--1?---1??????????0?0000?1??
+	'Grubbia rosmarinifolia'		                 01--0100611???11-11-1110-101??011101111-1-1---001--1?---?1101111111010100?11?
+	'Hydrostachys spp.'		                      -0001101--------------------------------------0?--------------------101100101
+	'Hydrangea heteromalla'		                  002-1201--------------------------------------00---------0??1111011-01110?000
+	'Deutzia corymbosa'		                      00211201--------------------------------------00---------1111111010-01110?00?
+	'Jamesia americana'		                      00001201--------------------------------------0?---------0111111010-01110?00?
+	'Philadelphus purpurascens'		              00101301--------------------------------------0?---------0111111011-01110?00?
+	'Mentzelia dispersa'		                     003110-1-------------------------------------------------0111111010-11210?100
+	'Loasa sclareifolia'		                     003110-1-------------------------------------------------0111111010-11210?100
+	'Hironoia fusiformis'		                    01--121041001011-1011110-10000011101110-1-1-20011--11-0110??????111010000?110
+	'Amersinia obtrullata'		                   01--121021000011-11-1110-10100011101111-1-1-200101?11---101??111101010000?110
+	'Suciacarpa starrii'		                     01--131001100011-11-1111210010011110111-011--01-1--00---0?0????????010000?110
+	'Suciacarpa xiangae'		                     01--131001100?11-11-11111100100111100111011--01-1--00---??0?????????10000?110
+	'Eydeia hokkaidoensis'		                   01--131001101111-1011110-10101011100110-1-1-0-1-1--01-01110101111110100000110
+	'Eydeia vancouverensis'		                  ?1--131001001011-1011110-10101001100111-1-1-2-1-1--01-??1??????????010000?110
+	'Edencarpa grandis'		                      ?1--12100??01?11-11-1110-10101011100111-1-1-0-1-1--01---1???????????10000?11?
+	'Obamacarpa edenensis'		                   01--121001000011-11-1110-10110011101111-1-1--01-1--01---1?010111111010000?110
+	'Drumheller fruit 2'		                     ?1--?21021100111-11-111111000001110001111-1-021-1--01---0???????????10000?11?
+	'Sheltercarpa vancouverensis'		            ?1--?310???01?11-11-1110-10101011100111-1-1-0-1-?????--??????????????????????
+	'Hydrocera triflora'		                     100-1401--------------------------------------00-------------------?00111?111
+	'Marcgravia nepenthoides'		                10(0,1)11401--------------------------------------01-------------------?11111?101
+	'Fouquieria columnaris'		                  100?1201--------------------------------------00-------------------?11111?000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 77;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1528201943823; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 623435189432737003; tell It; setDefaultOrder 0 1 2 3 4 5 8 61 9 10 6 7 11 12 53 14 15 16 17 18 19 20 21 59 22 23 24 25 26 27 28 29 30 49 50 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 48 47 51 52 54 55 56; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 273094289417952146; tell It; setDefaultOrder 0 1 104 91 2 22 26 3 4 6 7 9 10 11 12 15 13 14 16 19 17 19 21 23 93 76 24 25 42 44 27 28 29 30 31 32 33 34 35 36 38 41 42 39 43 45 51 49 46 52 47 48 52 57 53 54 105 8 57 58 59 60 61 62 63 64 65 66 67 68 69 70 73 111 71 113 113; attachments ; endTell; mqVersion 304; checksumv 0 3 2385343499 null getNumChars 77 numChars 77 getNumTaxa 58 numTaxa 58 short true bits 255 states 255 sumSquaresStatesOnly 132051.0 sumSquares 132051.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 247; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 2736 1624; setLocation -4 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #623435189432737003 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #623435189432737003; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 50; setAnnotationSize 40; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1512; setLocation -4 0; setFont SanSerif; setFontSize 24; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #273094289417952146 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1552; setLocation -4 0; setFont SanSerif; setFontSize 14; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Cyan; removeColor off; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1552; setLocation -4 0; setFont SanSerif; setFontSize 18; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; showExtraDataWindow #273094289417952146 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1552; setLocation -4 0; setFont SanSerif; setFontSize 18; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1552; setLocation -4 0; setFont SanSerif; setFontSize 18; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #273094289417952146 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; columnWidth 1 16; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2489 1552; setLocation -4 0; setFont SanSerif; setFontSize 24; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 77; 
+ENDBLOCK;

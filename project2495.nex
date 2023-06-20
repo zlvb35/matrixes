@@ -1,0 +1,510 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 02.26.45 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Petrolacosaurus kansasensis'
+		'Shinisaurus crocodilurus'
+		'Uromastyx sp.'
+		'Diphydontosaurus avonis'
+		'Sphenodon punctatum'
+		'Saurosternon bainii'
+		'Protorosaurus speneri'
+		'Azendohsaurus madagaskarensis'
+		'Macrocnemus bassanii'
+		'Tanystropheus longobardicus'
+		'Claudiosaurus germaini'
+		'Hovasaurus boulei'
+		'Thadeosaurus colcanapi'
+		'Dolabrosaurus aquatilis'
+		'gr113'
+		'Drepanosaurus unguicaudatus'
+		'HaydenDrepanosaur'
+		'Hypuronector limnaios'
+		'Megalancosaurus preonensis'
+		'Vallesaurus cenensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=75;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Premaxilla, posterodorsal process (=maxillary process, = subnarial process):'
+		 [2] 'Lacrimal, facial contribution:'
+		 [3] 'Frontals, degree of fusion:'
+		 [4] 'Frontal, shape of contact with parietal in dorsal view:'
+		 [5] 'Parietals, degree of fusion:'
+		 [6] 'Parietal, dorsal surface:'
+		 [7] 'Postorbital, medial contact with frontal and parietal:'
+		 [8] 'Postorbital, posterior process, length:'
+		 [9] 'Squamosal, size of descending process:'
+		 [10] 'Squamosal, posterior lamina:'
+		 [11] 'Quadratojugal:'
+		 [12] 'Quadrate, shape of posterior margin:'
+		 [13] 'Quadrate, lateral flange (=tympanic crest):'
+		 [14] 'Stapes, foramen for stapedial artery:'
+		 [15] 'Angular, exposure on lateral mandibular surface:'
+		 [16] 'Angular, exposure on lateral mandibular surface2:'
+		 [17] 'Retroarticular process:'
+		 [18] 'Marginal dentition, implantation:'
+		 [19] 'Marginal dentition, lingual surface:'
+		 [20] 'Vertebrae, notochordal canal:'
+		 [21] 'Cervical ribs, anterior process:'
+		 [22] 'Intercentra in the cervical column:'
+		 [23] 'Anterior post-axial cervical vertebrae, shape of anterior margin of neural spine in lateral view:'
+		 [24] 'Dorsal vertebrae, intercentra:'
+		 [25] 'Dorsal vertebra, accessory zygosphene-zygantrum articulations:'
+		 [26] 'Second sacral rib, shape:'
+		 [27] 'Caudal vertebrae, autotomic septa within the centrum:'
+		 [28] 'Chevron, shape of hemal spine:'
+		 [29] 'Chevrons, hemal spine length:'
+		 [30] 'Chevrons, hemal spine curvature:'
+		 [31] 'Interclavicle, shape of anterior surface anteromedial to clavicular articulations:'
+		 [32] 'Humerus, ectepicondyle, morphology of radial nerve groove:'
+		 [33] 'Humerus, entepicondyle morphology:'
+		 [34] 'Ulna, ossified olecranon process:'
+		 [35] 'Medial centrale of hand:'
+		 [36] 'Distal carpal five:'
+		 [37] 'Ulnare and intermedium, perforating foramen between elements:'
+		 [38] 'Puboischiadic plate, fenestration:'
+		 [39] 'Ilium, long axis of orientation for iliac blade in lateral view:'
+		 [40] 'Astragalus-calcaneum, extent of co-ossification:'
+		 [41] 'Astragalus-calcaneum, perforating foramen at contact:'
+		 [42] 'Distal tarsal four, morphology of proximal contact:'
+		 [43] 'First distal tarsal:'
+		 [44] 'Second distal tarsal:'
+		 [45] 'Fifth distal tarsal:'
+		 [46] 'Metatarsal five, angling of primary shaft with proximal tarsal articulation:'
+		 [47] 'Scapula, blade, dorsoventral height-anteroposterior length (at base of blade) ratio:'
+		 [48] 'Palatine, anterior transverse expansion:'
+		 [49] 'Dentary, contribution to lateral mandibular surface:'
+		 [50] 'Splenial:'
+		 [51] 'Post-axial cervical vertebra, morphology of intervertebral articulation in amphicoelous animals Post-axial cervical vertebra, morphology of intervertebral articulations (for amphicoelous taxa):'
+		 [52] 'Cervical vertebrae, hypapophysis:'
+		 [53] 'Cervical ribs:'
+		 [54] 'Anterior dorsal vertebrae, pedicel height:'
+		 [55] 'Anterior dorsal vertebrae, neural spine expansion:'
+		 [56] 'Mid dorsal ribs, fusion to respective centra:'
+		 [57] 'Caudal vertebrae, anterior neural spines:'
+		 [58] 'Chevrons, proximal articular morphology:'
+		 [59] 'Anterior chevrons, hemal spine morphology'
+		 [60] 'Anteriormost chevrons, hemal spine morphology:'
+		 [61] 'Posterior chevrons, proximal articulation:'
+		 [62] 'Terminal caudal vertebra(e):'
+		 [63] 'Supraneural ossification, bone growth positioned anterodorsal to anterior dorsal neural spines:'
+		 [64] 'Scapula, curavture of long-axis of blade:'
+		 [65] 'Scapulocoracoid, glenoid fossa, position:'
+		 [66] 'Scapulocoracoid, glenoid fossa, orientation relative to long axis of body:'
+		 [67] 'Humerus, epicondyles, proximal origination:'
+		 [68] 'Humerus, distalmost end:'
+		 [69] 'Radius, proximal tab:'
+		 [70] 'Ulna, shape:'
+		 [71] 'Ulnare and intermedium, elongation:'
+		 [72] 'Manus, digit two (II), ungual:'
+		 [73] 'Manus, manual digit three (III), phalangeal formula'
+		 [74] 'Calcaneum, lateral projection, ventral margin:'
+		 [75] 'Pes,  digit three (III), phalangeal count:'
+	;
+	STATELABELS
+		1
+		'absent, such that premaxilla contributes a small ventral margin for the naris'
+		'posterodorsal process present, framing the posteroventral margin of the naris.'
+		,
+		2
+		'forms a portion of lateral surface of the face, reaching anteriorly to the external naris'
+		'forms a portion of the lateral surface of the face, but does not reach naris'
+		'limited to orbital margin'
+		,
+		3
+		'frontals unfused to one another (suture patent)'
+		'frontals fused in the midline'
+		,
+		4
+		'roughly transverse in orientation'
+		'frontal exhibits posterolateral processes, forming anteriorly curved U-shaped contact'
+		,
+		5
+		'parietals unfused to one another (patent suture)'
+		'parietals fused at the midline'
+		,
+		6
+		'parietal skull table flattened'
+		'dorsal exposure of parietal forms a raised margin, elevated above lateral excavation for jaw adductor musculature'
+		'thin, blade-like sagittal crest'
+		,
+		7
+		'present'
+		'absent with postfrontal fitted in-between'
+		,
+		8
+		'process contributes to lateral margin of supratemporal fenestra, but does not reach the posterior aspect of that opening'
+		'process contributes to the entire length of the supratemporal fenestra, reaching the posterior aspect of that opening'
+		,
+		9
+		'forms massive flange that covers the quadrate entirely in lateral view'
+		'anteroposteriorly slender'
+		'absent'
+		,
+		10
+		'posterior lamina present, covering much of posterior aspect of quadrate'
+		'posterior lamina absent, posterior aspect of quadrate exposed in occipital view'
+		,
+		11
+		'present'
+		'absent as distinct ossification'
+		,
+		12
+		'straight, vertical posterior margin'
+		'concave, excavated posterior margin'
+		,
+		13
+		'absent, quadrate has no lateral expansion'
+		'present, flattened lateral crest projects from lateral surface of quadrate'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'broadly exposed'
+		'limited to <1/3 the dorsoventral height of the mandible'
+		,
+		16
+		'terminates anterior to the glenoid'
+		'extends to the glenoid'
+		,
+		17
+		'present as extension of articular and adjacent bones posterior to quadrate articulation'
+		'absent'
+		,
+		18
+		'teeth situated in shallow groove (pleurodonty + thecodonty)'
+		'teeth superficially attached to tooth-bearing bones, with limited extension of pulp cavity into the bone'
+		'teeth superficially attached to tooth-bearing bones, with no extension of pulp cavity into the bone (acrodonty).'
+		,
+		19
+		'teeth walled by minimal lingual wall'
+		'no lingual wall (=pleurodonty)'
+		,
+		20
+		'present'
+		'absent'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'straight and linear'
+		'anterodorsal process present forming an anterior notch'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'rib is a single unit'
+		'rib bifurcates posteriorly into anterior and posterior processes'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'tapers along its anteroposterior length'
+		'broadens slightly along its length'
+		'broadens distally, forming inverted T shape'
+		'broadens distally, forming subcircular expansion'
+		,
+		29
+		'similar in length or shorter than caudal neural spines'
+		'substantially longer than caudal neural spines'
+		,
+		30
+		'spines roughly straight'
+		'spines convex anteriorly'
+		,
+		31
+		'smooth margin'
+		'prominent notch in margin'
+		,
+		32
+		'groove has no roof'
+		'groove roofed, forming ectepicondylar foramen'
+		,
+		33
+		'entepicondylar foramen absent'
+		'entepicondylar foramen present'
+		,
+		34
+		'present'
+		'absent'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'no fenestra'
+		'thyroid fenestra within plate'
+		,
+		39
+		'horizontal orientation'
+		'posterodorsal orientation'
+		'anterodorsal orientation'
+		,
+		40
+		'present as distinct ossifications'
+		'co-ossified'
+		,
+		41
+		'distinct foramen situated between astragalus and calcaneum'
+		'no foramen evident between astragalus and calcaneum'
+		,
+		42
+		'smooth contact surface for proximal tarsals'
+		'prominent process for contact with proximal tarsals'
+		,
+		43
+		'present'
+		'absent'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'present'
+		'absent'
+		,
+		46
+		'metatarsal is straight, with proximal tarsal articulation forming straight line with primary shaft'
+		'metatarsal is hooked, with proximal tarsal articulation forming right angle with primary shaft'
+		,
+		47
+		'>.4'
+		'.4"-".25'
+		'<.25'
+		,
+		48
+		'absent, producing anteriorly curved suborbital fenestrae'
+		'present, producing anteriorly tapered suborbital fenestrae'
+		,
+		49
+		'terminates at or near to posterior terminus of tooth row'
+		'extends posteriorly to overlap coronoid'
+		'extends well posterior to coronoid'
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'circular/eliptical articulations appressed to one another (traditional amphicoely)'
+		'saddle-shaped articulations (heterocoely)'
+		,
+		52
+		'absent, ventral surface of centrum unexpanded posteroventrally'
+		'posteroventral surface of centrum exhibits massive, posteroventrally projecting crest'
+		,
+		53
+		'present as distinct ossifications from cervical vertebrae'
+		'absent as distinct ossifications'
+		,
+		54
+		'substantially shorter than respective centra'
+		'taller than respective centra'
+		,
+		55
+		'spines similar in morphology to posterior dorsal neural spines'
+		'spines dorsally broader anteroposteriorly than spine base'
+		'third dorsal spine anteroposteriorly expanded into hatchet shape'
+		,
+		56
+		'fusion absent'
+		'fusion present'
+		,
+		57
+		'spines unexpanded dorsally'
+		'spines exhibit slender anterior/posterior projections, forming T-shape'
+		,
+		58
+		'chevrons remain separate from centra'
+		'chevrons fuse to centra'
+		,
+		59
+		'element forms single spine'
+		'element bifurcates ventrally'
+		,
+		60
+		'bifid spines remain separate ventrally'
+		'bifid spines recontact ventrally, forming foramen'
+		,
+		61
+		'articulate intervertebrally'
+		'contact anteroventral margin of centrum'
+		,
+		62
+		'similar in morphology to other posterior caudals'
+		'modified into claw-like element'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'blade directed dorsally'
+		'blade curves anterodorsally'
+		,
+		65
+		'at or near base of scapular blade'
+		'located far ventral of base of scapular blade'
+		,
+		66
+		'oriented posterolaterally, ventral margin extends posterior of dorsal margin'
+		'oriented laterally, ventral margin positioned directly underneath to dorsal margin'
+		,
+		67
+		'positioned distal to midshaft'
+		'positioned at/near midshaft'
+		,
+		68
+		'colinear with proximal shaft'
+		'primary axis of shaft curves towards flexor surface at distal end.'
+		,
+		69
+		'absent'
+		'prominent tab for articulation with ulna present'
+		,
+		70
+		'similar to radius, with elongate shaft'
+		'flattened in pre-axial-post-axial plane, forming enormous crescent'
+		,
+		71
+		'elements longer proximodistally than in pre-axial-post-axial plane'
+		'elements short, equivalent in proximodistal and pre-axial-post-axial length'
+		,
+		72
+		'similar in morphology to other manual unguals'
+		'substantially taller and more massive than other manual unguals'
+		,
+		73
+		'multiple phalanges'
+		'single, non-ungual phalanx'
+		,
+		74
+		'margin is convex and continuous with the lateral margin of the projection'
+		'margin is concave, sharply angled relative to lateral margin of the projection'
+		,
+		75
+		'four'
+		'three'
+		
+	;
+	MATRIX
+	'Petrolacosaurus kansasensis'		            00010000000000011000000000000000101100100000000000000000000-0?0000000000000
+	'Shinisaurus crocodilurus'		               011010?-211111100011000100111000101111111100110010-10000000-000000?00010000
+	'Uromastyx sp.'		                          021010??2111111002-100011011000110111111111111001001?000000-000000000010000
+	'Diphydontosaurus avonis'		                0?1?01101?011?1?0(0,1)10??????1???0?11???1?1??01111121?????0?????0?0000000?00?0
+	'Sphenodon punctatum'		                    0-01(0,1)2100101011102-0000010110001101111111110110121000000000-000010000010000
+	'Saurosternon bainii'		                    ???????????????????0???0??01?0011?1?10?0010010?????????0?00-0?????00001??0?
+	'Protorosaurus speneri'		                  0100110011011?0100011101000100100?1000000000110?00000000000-000000000010000
+	'Azendohsaurus madagaskarensis'		          11000100110111001001110100030010001000000000110000000000000-00?00000001001?
+	'Macrocnemus bassanii'		                   1101010011011?01000111110101??1000?0?1000001110???00001???????0?00?0??????0
+	'Tanystropheus longobardicus'		            11001100210101010001111100010010010001000011110000000010000-0?0000?00000000
+	'Claudiosaurus germaini'		                 0101011000000?011000000000010001111100000000000?00000000000-0?0000000010000
+	'Hovasaurus boulei'		                      ??01001111?000??0??000000?010001111100100000(0,1)00???000000000-0?000000?010000
+	'Thadeosaurus colcanapi'		                 ??0????????0??01????0??0000100?1101100100000?0????000000000-0?0000000010000
+	'Dolabrosaurus aquatilis'		                ???????????????????0????000111?????????000?000?????????111??1??????????001?
+	'gr113'		                                  ?????????????????????????????????0????????????2????????????????111???0?????
+	'Drepanosaurus unguicaudatus'		            ???????????????????????1?00111???0???1200?00002?????112?1110111111111101111
+	'HaydenDrepanosaur'		                      ???????????????????0???????????1??????????????????11?????????????1111101???
+	'Hypuronector limnaios'		                  ?????????????????0?0???10?0110???????12???????1?0?1?10?1010-000000???0??0??
+	'Megalancosaurus preonensis'		             ?10100??0??0??0?0????1010?0111???0???1200?00002?0?1111211111111100000000111
+	'Vallesaurus cenensis'		                   010?0???????????00?0?1?1??0111???11?01?0?????02????11110010-001100?000100?0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='Pritchard et al.';
+	TEXT TAXON=2 TEXT='Pritchard et al.';
+	TEXT TAXON=3 TEXT='Pritchard et al.';
+	TEXT TAXON=7 TEXT='Pritchard et al.';
+	TEXT TAXON=8 TEXT='Pritchard et al.';
+	TEXT TAXON=9 TEXT='Pritchard et al.';
+	TEXT TAXON=10 TEXT='Pritchard et al.';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Pritchard et al. character 4';
+	TEXT CHARACTER=2 TEXT='Pritchard et al.^nORDERED';
+	TEXT CHARACTER=3 TEXT='Pritchard et al.';
+	TEXT CHARACTER=4 TEXT='Pritchard et al.';
+	TEXT CHARACTER=5 TEXT='Pritchard et al.';
+	TEXT CHARACTER=6 TEXT='Pritchard et al.^nORDERED';
+	TEXT CHARACTER=7 TEXT='Replaced on May 5, 2015.^n^nPritchard et al. (2015) included the following character in place: ^n^n"Postfrontal, medial contact with frontal and parietal: postfrontal forms broad contact with midline skull elements, without bifurcation (0); postfrontal bifid, fitting broadly across both parietal and frontal (1)."';
+	TEXT CHARACTER=8 TEXT='Pritchard et al. (2015) and Nesbitt et al. (in press) said: "Postorbital, location of medial process: (0) situated deep to postfrontal, (1) dorsally excludes postfrontal from supratemporal fenestra margin."';
+	TEXT CHARACTER=9 TEXT='Pritchard et al. (2015) described only the relative size of the process, rather than addressing its presence or absence. However, restudy of taxa lacking the process strongly suggests that its reduction is part of a sequence of changes.';
+	TEXT CHARACTER=10 TEXT='Pritchard et al. (2015) originally read "Squamosal, posterior process: no posterior process (0); posterior process, extending beyond quadrate contact (1)" for character 35. We elected to move this character to #33.';
+	TEXT CHARACTER=11 TEXT='Modified from Pritchard et al.';
+	TEXT CHARACTER=12 TEXT='Pritchard et al.';
+	TEXT CHARACTER=13 TEXT='Pritchard et al. (2015) originally read: "Quadrate, tympanic crest: quadrate has no lateral expansion (0); flattened tympanic crest projects from lateral surface of quadrate (1)."';
+	TEXT CHARACTER=14 TEXT='Pritchard et al.';
+	TEXT CHARACTER=15 TEXT='Pritchard et al.';
+	TEXT CHARACTER=16 TEXT='Pritchard et al.';
+	TEXT CHARACTER=17 TEXT='Pritchard et al.';
+	TEXT CHARACTER=18 TEXT='Pritchard et al. (Modified 12/7/2015 to accommodate new state).^n^nData comes from Fraser and Shelton (1988). "Acrodont" taxa without X-ray data coded as 1,2.';
+	TEXT CHARACTER=19 TEXT='Prichard et al.';
+	TEXT CHARACTER=21 TEXT='Pritchard et al.';
+	TEXT CHARACTER=22 TEXT='Pritchard et al.';
+	TEXT CHARACTER=23 TEXT='Pritchard et al.';
+	TEXT CHARACTER=24 TEXT='Pritchard et al.';
+	TEXT CHARACTER=25 TEXT='Pritchard et al.';
+	TEXT CHARACTER=26 TEXT='Pritchard et al.';
+	TEXT CHARACTER=27 TEXT='Pritchard et al.';
+	TEXT CHARACTER=28 TEXT='Pritchard et al.';
+	TEXT CHARACTER=31 TEXT='Pritchard et al.';
+	TEXT CHARACTER=32 TEXT='Pritchard et al.';
+	TEXT CHARACTER=33 TEXT='Pritchard et al.';
+	TEXT CHARACTER=34 TEXT='Pritchard et al.';
+	TEXT CHARACTER=35 TEXT='Pritchard et al.';
+	TEXT CHARACTER=36 TEXT='Pritchard et al.';
+	TEXT CHARACTER=37 TEXT='Pritchard et al.';
+	TEXT CHARACTER=38 TEXT='Pritchard et al.';
+	TEXT CHARACTER=39 TEXT='Pritchard et al.';
+	TEXT CHARACTER=40 TEXT='Pritchard et al.';
+	TEXT CHARACTER=41 TEXT='Pritchard et al.';
+	TEXT CHARACTER=42 TEXT='Pritchard et al.';
+	TEXT CHARACTER=43 TEXT='Pritchard et al.';
+	TEXT CHARACTER=44 TEXT='Pritchard et al.';
+	TEXT CHARACTER=45 TEXT='Pritchard et al.';
+	TEXT CHARACTER=46 TEXT='Pritchard et al.';
+	TEXT CHARACTER=55 TEXT='Partially based on character 363, Ezcurra et al. (2016)';
+	TEXT CHARACTER=63 TEXT='Only code in associated, articulated trunk vertebrae.';
+	TEXT CHARACTER=68 TEXT='This character describes a character of derived drepanosaurus (Drepanosaurus, Hayden Quarry drepanosaur, Brigham Young drepanosaur), in which the primary axis of the humeral shaft "curls" in the direction of the flexor surface of the humerus. It honestly looks like a change that pulls the forearm further into flexion.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 3 - 5 7 - 8 10 - 46 48 50 - 54 56 - 75, ord: 2 6 9 47 49 55;
+      ENDBLOCK;
+      

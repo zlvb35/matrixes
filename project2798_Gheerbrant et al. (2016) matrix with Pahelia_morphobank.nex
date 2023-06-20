@@ -1,0 +1,1139 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.55.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+    		'Eutheria'
+		'Abdounodus'
+		'Anthracobunidae'
+		'Arctocyonidae'
+		'Cambaytherium'
+		'Desmostylia'
+		'Embrithopoda'
+		'Eritherium'
+		'Hyopsodus'
+		'Hyracoidea'
+		'Macroscelidea'
+		'Minchenella'
+		'Numidotherium'
+		'Ocepeia'
+		'Orycteropus'
+		'Paschatherium'
+		'Perissodactyla'
+		'Phenacodontidae'
+		'Phenacolophus'
+		'Phosphatherium'
+		'Potamogale'
+		'Protungulatum'
+		'Ptolemaia'
+		'Radinskya'
+		'Sirenia'
+		'Teilhardimys'
+		'Todralestes'
+		'Pahelia mysteriosa'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=184;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'Lower incisors development and shape'
+		 [2] 'Lower incisors lower incisors'
+		 [3] 'I/1'
+		 [4] 'I/1 enlargement'
+		 [5] 'I/2'
+		 [6] 'I/2 enlargement'
+		 [7] 'I/3'
+		 [8] 'Lower canine'
+		 [9] 'C/1 Number of roots'
+		 [10] 'Lower anterior diastema'
+		 [11] 'P/1 development'
+		 [12] 'P/1: Number of roots'
+		 [13] 'P/2 development'
+		 [14] 'P/2: Number of roots'
+		 [15] 'P/3'
+		 [16] 'P/3: Metaconid'
+		 [17] 'P/3: Paraconid'
+		 [18] 'P/3: Talonid'
+		 [19] 'P/3-4: Paraconid location'
+		 [20] 'P/4'
+		 [21] 'P/4: Paraconid development'
+		 [22] 'P/4: Talonid'
+		 [23] 'P/4: Metaconid'
+		 [24] 'Lower premolars (at least P/4): Labial cingulum (ectocingulid)'
+		 [25] 'M/1-3: Molar pattern'
+		 [26] 'M/1-3: Lophs'
+		 [27] 'M/1-3'
+		 [28] 'M/1-3: Labial cusps (protoconid-hypoconid) vs lingual cusps (metaconid-entoconid)'
+		 [29] 'M/1-3:Trigonid elongation and paracristid'
+		 [30] 'M/1-3: Paraconid'
+		 [31] 'M/1-3: Premetacristid'
+		 [32] 'M/1-3: Posmetacristid'
+		 [33] 'M/1-3: Protocristid'
+		 [34] 'M/1-3: Hypolophid presence'
+		 [35] 'M/1-3: Hypolophid shape'
+		 [36] 'M/1-3: Entocristid'
+		 [37] 'M/1-3: Entoconulid'
+		 [38] 'M/1-3: Mesoconid'
+		 [39] 'M/1-3: Cristid obliqua'
+		 [40] 'M/1-3 Postcristid development and link to hypoconulid'
+		 [41] 'M/1-2: Hypoconulid'
+		 [42] 'M/1-2: Postentoconulid'
+		 [43] 'M/3: Postentoconulid'
+		 [44] 'M/1-3: Ectocingulid and/or ectostylid'
+		 [45] 'M/1: Trigonid/talonid relative width'
+		 [46] 'M/2: Trigonid/talonid relative width'
+		 [47] 'M/3 trigonid/talonid relative width'
+		 [48] 'M/3 relative size'
+		 [49] 'M/3'
+		 [50] 'Dentary: Extension of mandibular symphysis'
+		 [51] 'Dentary: Fusion of the mandibular symphysis'
+		 [52] 'Dentary: Anteriormost mental foramen'
+		 [53] 'Dentary:Posteriormost mental foramen'
+		 [54] 'Dentary: Horizontal ramus (body)'
+		 [55] 'Dentary: Position of the coronoid apophysis'
+		 [56] 'Dentary: Orientation of coronoid apophysis'
+		 [57] 'Dentary: Development of the coronoid apophysis'
+		 [58] 'Dentary: Mandibular condyle position'
+		 [59] 'Mandibular condyle shape'
+		 [60] 'Dentary: Coronoid foramen'
+		 [61] 'Dentary: Angular process'
+		 [62] 'Dentary: Anterior coronoid (= retromolar) fossa'
+		 [63] 'Number of upper incisors'
+		 [64] 'Relative size of upper incisors'
+		 [65] 'Relative size of I1/'
+		 [66] 'Relative size of I2/'
+		 [67] 'Relative size of I3/'
+		 [68] 'Upper diastema'
+		 [69] 'C1/'
+		 [70] 'C1/: number of roots'
+		 [71] 'P1/'
+		 [72] 'P1/: Number of roots'
+		 [73] 'P2/'
+		 [74] 'P2/: Number of roots'
+		 [75] 'P2/: Protocone'
+		 [76] 'P3/: Number of roots'
+		 [77] 'P3/: Protocone'
+		 [78] 'P3/: Metacone'
+		 [79] 'P3/: Conules'
+		 [80] 'P4/ (and P3/): parastyle'
+		 [81] 'P4/: Conules'
+		 [82] 'P4/: Number of roots'
+		 [83] 'P4: metacone'
+		 [84] 'P4/: metacone'
+		 [85] 'P4/: protocone'
+		 [86] 'P4/: lingual cingulum'
+		 [87] 'P4/: Hypocone'
+		 [88] 'P4/: Lophs'
+		 [89] 'P4/ (and P3/): postprotocrista'
+		 [90] 'M1-3/ bunodonty'
+		 [91] 'M1-3/: Lophodonty'
+		 [92] 'M1-3/: Lophs'
+		 [93] 'M-13/ parastyle position'
+		 [94] 'M1-3/ parastyle development'
+		 [95] 'M1-3/: Ectocingulum'
+		 [96] 'M1-2/: Stylar shelf development'
+		 [97] 'M1-3/: Pericone'
+		 [98] 'M1-3/ true hypocone (cingulum derived)'
+		 [99] 'Postcingulum'
+		 [100] 'M1-3/ mesostyle development'
+		 [101] 'Mesostyle longitudinal position'
+		 [102] '1 M1-3/ mesostyle transverse position'
+		 [103] 'M1-3/ centrocrista'
+		 [104] 'M1-3/ Centrocrista shape'
+		 [105] 'M1-3/: Postmetacrista'
+		 [106] 'M-13/ Preparacrista'
+		 [107] 'M3/: Metacone development'
+		 [108] 'M1-3/ metaconule development'
+		 [109] 'M1-3/ metaconule position'
+		 [110] 'M1-3/ paraconule development'
+		 [111] 'M1-3/ postprotocrista'
+		 [112] 'M1-3/: "Prehypocrista" and metaloph'
+		 [113] 'M1-3/ Interloph'
+		 [114] 'M1-2/: Distocrista'
+		 [115] 'M1-3/: Postentoconule (hypostyle)'
+		 [116] 'M1-2/: M1/ and M2/ relative size'
+		 [117] 'M2/ and M3/ relative size'
+		 [118] 'M1-2/ lingual root'
+		 [119] 'M3/: Protocone root'
+		 [120] 'M3/ postero-lingual root under hypocone or pseudohypocone'
+		 [121] 'K12(0) M1-3/: Brachyodonty/hypsodonty'
+		 [122] 'M1-3/: Occlusal outline'
+		 [123] 'Skull pneumatization'
+		 [124] 'Rostrum elongation'
+		 [125] 'Rostrum relative width to length: ratio of width of the snout at canine level to preorbital length'
+		 [126] 'Skull: Extension ot the tooth row'
+		 [127] 'Skull: Palatine development'
+		 [128] 'Skull: Major palatine foramen'
+		 [129] 'Skull: Location of anterior margin of the choanae'
+		 [130] 'Skull: Postpalatine torus'
+		 [131] 'Skull: Nasal cavity development'
+		 [132] 'Skull: Nasal extension'
+		 [133] 'Skull: Nasal fossa'
+		 [134] 'Skull: Premaxillary-frontal contact'
+		 [135] 'Skull: frontal and maxillary contact anterior to orbit'
+		 [136] 'Naso-frontals sutures'
+		 [137] 'Skull: Lacrimal'
+		 [138] 'Skull:Lacrimal facial process'
+		 [139] 'Skull: Lacrimal tubercle'
+		 [140] 'Skull: Lacrimal foramen'
+		 [141] 'Skull: Orbit location'
+		 [142] 'Skull: Orbit lower rim construction'
+		 [143] 'Skull: Infraorbital foramen size'
+		 [144] 'Skull: Infraorbital foramen position vs upper teeth'
+		 [145] 'Skull: infraorbital foramen position vs orbit'
+		 [146] 'Skull: Submaxillary fossa'
+		 [147] 'Skull: Frontal'
+		 [148] 'Skull: Tuber maxillae development'
+		 [149] 'Skull: Tuber maxillae location'
+		 [150] 'Skull: Ascending process of the palatine extention in orbitotemporal fossa'
+		 [151] 'Skull: Morphology of zygomatic arch at zygomatic process'
+		 [152] 'Skull: Distal extention of the jugal'
+		 [153] 'Skull: Postorbital constriction'
+		 [154] 'Skull: Postorbital process of the frontal'
+		 [155] 'Skull: Postorbital process of the jugal'
+		 [156] 'Skull: Zygomatic arch'
+		 [157] 'Skull: Squamosal cerebral part development'
+		 [158] 'Skull: Squamosal zygomatic process development'
+		 [159] 'Skull: Parietal-alisphenoid contact'
+		 [160] 'Skull: Parietal'
+		 [161] 'Skull: Alisphenoid canal'
+		 [162] 'Skull: Foramen rotundum and sphenorbital fissure'
+		 [163] 'Skull: External auditory meatus (eam) elevation'
+		 [164] 'Skull: Post-tympanic process and external auditory meatus ventral rim'
+		 [165] 'Skull: Sagittal crest'
+		 [166] 'Skull: Nuchal crests'
+		 [167] 'Skull: Periotic mastoidy/amastoidy'
+		 [168] 'Skull: Periotic pars mastoidea relative development'
+		 [169] 'Skull: Periotic fenestra vestibuli size'
+		 [170] 'Skull: Periotic fenestra vestibuli shape'
+		 [171] 'Skull: Periotic fenestra cochleae position'
+		 [172] 'Skull: Periotic (pars cochlearis): Round window and cochlear canal'
+		 [173] 'Skull: Periotic subarcuate fossa'
+		 [174] 'Skull: Preglenoid process'
+		 [175] 'Skull: Postglenoid foramen location'
+		 [176] 'Skull: Tegmen tympani'
+		 [177] 'Skull: Jugular foramen'
+		 [178] 'Skull: Midline keel at ventral surface of basioccipital'
+		 [179] 'Skull: Hypoglossal foramen'
+		 [180] 'Skull: Ethmoidal foramen'
+		 [181] 'Skull: Inner ear Cochlea, Secondary bony spiral lamina'
+		 [182] 'Skull: Inner ear Cochlea, number of turns of the cochlea'
+		 [183] 'Skull: : Inner ear, secondary crus commune'
+		 [184] 'Skull: Inner ear cochlea shape'
+	;
+	STATELABELS
+		1
+		'Lower incisors small, peg like'
+		'spatulate Lower incisors'
+		'higher or enlarged,'
+		,
+		2
+		'subvertical lower incisors'
+		'enlarged and procumbent,'
+		,
+		3
+		'I/1present'
+		'I/1 absent,'
+		,
+		4
+		'I/1 and I/2 of similar size'
+		'I/1 slightly larger than I/2'
+		'I/1 very enlarged'
+		'I/1 hypsodont,'
+		,
+		5
+		'I/2 present'
+		'absent,'
+		,
+		6
+		'I/1 and I/2 of similar size'
+		'I/2 larger than I/1,'
+		,
+		7
+		'I/3 present'
+		'well developed'
+		'I/3 very small and labial to C/1'
+		'I/3 lost,'
+		,
+		8
+		'present and enlarged'
+		'Lower canine very large, more than two times higher than molars'
+		'present and small'
+		'Large, higher than molars (no more than two times)'
+		'absent'
+		'medium, as high than molars'
+		'small, lower and smaller than molars'
+		'very small, smaller and lower than P/2'
+		'absent,'
+		,
+		9
+		'C/1 biradicular'
+		'C/1 uniradicular,'
+		,
+		10
+		'diastema absent or very short present'
+		'diastema well distinct long (in relation to loss of 2 teeth'
+		'diastema C/1 and P/1 or P/1 and P/2)'
+		'very long (and in relation to loss of at least two teeth),'
+		,
+		11
+		'P/1 well developed'
+		'P/1 small but more or less premolarized'
+		'P/1 small and simple (basically conical)'
+		'P/1 absent,'
+		,
+		12
+		'P/1 biradicular'
+		'P/1 uniradicular,'
+		,
+		13
+		'P/2 well developed'
+		'P/2 small, but premolariform'
+		'P/2 small and simple (basically conical)'
+		'P/2 absent,'
+		,
+		14
+		'P/2 biradicular'
+		'P/2 uniradicular,'
+		,
+		15
+		'biradicular and large'
+		'uniradicular and smaller crown,'
+		,
+		16
+		'P/3: Metaconid absent or weak'
+		'P/3: Metaconid present,'
+		,
+		17
+		'P/3: Paraconid present'
+		'P/3: Paraconid absent or weak,'
+		,
+		18
+		'P/3: Talonid reduced and simple (mostly cutting or piercing)'
+		'P/3: Talonid developed and molariform,'
+		,
+		19
+		'P/3-4: Paraconid low'
+		'P/3-4: Paraconid high,'
+		,
+		20
+		'biradicular and large'
+		'one root and smaller crown,'
+		,
+		21
+		'Paraconid present'
+		'Paraconid absent or weak,'
+		,
+		22
+		'P/4: Talonid reduced (small) and simple (mostly cutting)'
+		'P/4: Talonid enlarged and molariform,'
+		,
+		23
+		'P/4: Metaconid weak and distal with respect to protoconid'
+		'P/4: Metaconid present and lingual,'
+		,
+		24
+		'Lower premolars (at least P/4): Labial cingulum absent'
+		'Lower premolars (at least P/4): Labial cingulum present,'
+		,
+		25
+		'M/1-3: Molar pattern tribosphenic with high trigonid + sharp cusps'
+		'M/1-3: Bunodont pattern with low trigonid'
+		'M/1-3: Bunodont-lophodont pattern'
+		'M/1-3: True lophodont pattern'
+		'M/1-3: Bunolophodont pattern,'
+		,
+		26
+		'M/1-3: No lophs'
+		'M/1-3: Lophs oblique'
+		'M/1-3: Lophs transverse,'
+		,
+		27
+		'Crown uniformly brachyodont'
+		'unilateral lingual and/or labial hypsodonty'
+		'crown uniformly hypsodont,'
+		,
+		28
+		'M/1-3: Labial cusps larger than lingual cusps'
+		'M/1-3: Lingual cusps larger than labial cusps (or cusps subequal),'
+		,
+		29
+		'M/1-3: Trigonid elongated with well differentiated paracristid'
+		'M/1-3: Trigonid short, with paracristid weakened,'
+		,
+		30
+		'M/1-3: Paraconid present'
+		'M/1-3: Paraconid weak or absent,'
+		,
+		31
+		'M/1-3: Premetacristid weak or absent'
+		'M/1-3: Premetacristid developed,'
+		,
+		32
+		'M/1-3: Posmetacristid reduced or absent'
+		'M/1-3: Postmetacristid well developed'
+		'M/1-3: Postmetacristid more or less inflated as a metastylid,'
+		,
+		33
+		'M/1-3: Protocristid depressed by a deep median notch'
+		'M/1-3: Protocristid lophid-like, with no strong notch,'
+		,
+		34
+		'M/1-3: Hypolophid absent'
+		'M/1-3: Hypolophid present,'
+		,
+		35
+		'M/1-3: Hypolophid absent or incomplete'
+		'M/1-3: Hypolophid depressed by a deep median notch'
+		'M/1-3: Hypolophid lophid-like,'
+		,
+		36
+		'M/1-3: Entocristid present'
+		'M/1-3: Entocristid reduced to absent,'
+		,
+		37
+		'M/1-3: Entoconulid absent'
+		'M/1-3: Entoconulid present,'
+		,
+		38
+		'M/1-3: Mesoconid absent'
+		'M/1-3: Mesoconid present,'
+		,
+		39
+		'M/1-3: Cristid obliqua strongly oblique, joining the trigonid in its lingual part'
+		'M/1-3: Cristid obliqua joining the trigonid at its mid-width'
+		'M/1-3: Cristid obliqua joining the trigonid in its labial part,'
+		,
+		40
+		'M/1-3: Postcristid developed, linking hypoconulid to other cusps'
+		'M/1-3: Hypoconulid and entoconid separated by a narrow notch'
+		'M/1-3: Postcristid absent, hypoconulid cingular like,'
+		,
+		41
+		'M/1-2: Hypoconulid median transversely'
+		'M/1-2: Hypoconulid lingual'
+		'M/1-2: Hypoconulid labial,'
+		,
+		42
+		'M/1-2: Postentoconulid absent'
+		'M/1-2: Postentoconulid present, but weak'
+		'M/1-2: Postentoconulid well developed,'
+		,
+		43
+		'M/3: Postentoconulid absent'
+		'M/3: Postentoconulid present, but weak'
+		'M/3: Postentoconulid well developed,'
+		,
+		44
+		'M/1-3: Ectocingulid and/or ectostylid weak or absent'
+		'M/1-3: Ectocingulid present,'
+		,
+		45
+		'M/1:Trigonid wider than the talonid'
+		'M/1: Trigonid subequal to the talonid'
+		'M/1: Trigonid narrower than the talonid,'
+		,
+		46
+		'M/2: Trigonid wider than the talonid'
+		'M/2: Trigonid subequal to the talonid'
+		'M/2: Trigonid narrower than the talonid,'
+		,
+		47
+		'M/3: Trigonid wider than the talonid'
+		'M/3: Trigonid subequal to the talonid'
+		'M/3: Trigonid narrower than the talonid,'
+		,
+		48
+		'M/3 of similar size to M/2, or slightly larger'
+		'M/3 smaller than M/2'
+		'M/3 significantly larger than M/2, which is larger than M/1,'
+		,
+		49
+		'two roots'
+		'two roots, but roots fused in higher part'
+		'one root,'
+		,
+		50
+		'Mand symphysis short, extended to P/2 or more anterior'
+		'Mandibular symphysis moderately long: extended between P/2 and P/3'
+		'Mand symphysis long, extended to P/3 or posterior,'
+		,
+		51
+		'Mandibular symphysis unfused (synchondrosis)'
+		'Mandibular symphysis fused,'
+		,
+		52
+		'Anteriormost mental foramen below P/1 or more anterior'
+		'below P/2'
+		'below P/3'
+		'posterior to P/3,'
+		,
+		53
+		'below canine and anterior premolars'
+		'below penultimate premolar'
+		'below ultimate premolar'
+		'at ultimate premolar and first molar junction, or more posterior,'
+		,
+		54
+		'Dentary: Horizontal ramus (body) low'
+		'Dentary: Horizontal ramus (body) high,'
+		,
+		55
+		'Coronoid apophysis rising at level of M/3, or more distally'
+		'Coronoid apophysis rising anteriorly to M/3,'
+		,
+		56
+		'Dentary: Anterior margin vertical or posteriorly canted'
+		'Dentary: Anterior margin anteriorly canted,'
+		,
+		57
+		'coronoid apophysis very high above tooth row (as high or higher than M/3-P/4 length)'
+		'coronoid apophysis moderately high above tooth row'
+		'coronoid apophysis strongly reduced to absent,'
+		,
+		58
+		'At level or low above the dental row'
+		'Moderately high above the dental row (one molar length)'
+		'Very high above the tooth row (>one molar length),'
+		,
+		59
+		'ovoid (or plate-like)'
+		'transversely elongate and cylindrical'
+		'antero-posteriorly elongate,'
+		,
+		60
+		'Coronoid foramen absent'
+		'Coronoid foramen present,'
+		,
+		61
+		'thin stick-like or hook-like distally protruding angular process'
+		'broad and rounded distally projecting angular process'
+		'Mandibular angle broad-and round without angular process,'
+		,
+		62
+		'absence of retromolar fossa'
+		'retromolar fossa present'
+		'retromolar fossa enlarged,'
+		,
+		63
+		'three'
+		'two'
+		'one'
+		'none,'
+		,
+		64
+		'small'
+		'large,'
+		,
+		65
+		'not enlarged (= I2/)'
+		'I1/>I2/'
+		'I1/ greatly enlarged (I1/>>I2/. I1/ tusk like),'
+		,
+		66
+		'I2/ not enlarged (similar to I1/)'
+		'I2/>>I1/,'
+		,
+		67
+		'I3/ similar in size to I2/ and I1/'
+		'I3/ very small, much smaller than I2/ and I1/'
+		'I3/ larger than I2/ and I1/,'
+		,
+		68
+		'small, between incisors and canine'
+		'small or absent'
+		'small, between canine and premolars'
+		'developed but short elongated (I2/-P2/),'
+		'enlarged'
+		'State 2'
+		'absent'
+		,
+		69
+		'large (>> premolars)'
+		'medium to small (= or < premolars and incisors)'
+		'absent,'
+		,
+		70
+		'two roots'
+		'one root,'
+		,
+		71
+		'P1/: present'
+		'P1/: absent,'
+		,
+		72
+		'P1/: Two roots'
+		'P1/: One root,'
+		,
+		73
+		'P2/: Present'
+		'P2/: Absent,'
+		,
+		74
+		'P2/: Two roots'
+		'P2/: Three roots'
+		'P2/: One root,'
+		,
+		75
+		'P2/: Protocone absent, crown narrow transversely'
+		'P2/: Protocone present, crown slightly developed transversely'
+		'P2/: Protocone large, crown as long as wide,'
+		,
+		76
+		'P3/: Two roots'
+		'P3/: Three roots'
+		'P3/: one root,'
+		,
+		77
+		'P3/: Protocone absent or reduced'
+		'P3/: Protocone present'
+		'P3/: Protocone well developed, crown at least as wide as long,'
+		,
+		78
+		'P3/: Metacone absent'
+		'P3/: Metacone present and small'
+		'P3/: Metacone medium to large, but still closely connate to paracone'
+		'P3/: Metacone large and well separated from paracone,'
+		,
+		79
+		'absent'
+		'present,'
+		,
+		80
+		'large'
+		'medium'
+		'small or absent,'
+		,
+		81
+		'absent'
+		'present,'
+		,
+		82
+		'P4/: Two roots'
+		'P4/: Three roots'
+		'P4/: Four roots'
+		'P4/: One root,'
+		,
+		83
+		'absent'
+		'present, small'
+		'Metacone medium (smaller than paracone)'
+		'Metacone large, close in size to paracone,'
+		,
+		84
+		'Metacone conate to paracone'
+		'Metacone well separated from paracone,'
+		,
+		85
+		'P4/: protocone absent or weak'
+		'P4/: protocone present, medium'
+		'P4/: protocone large (occlusal outline at least as wide as long),'
+		,
+		86
+		'absent'
+		'present,'
+		,
+		87
+		'P4/: Hypocone absent'
+		'P4/: Hypocone present, small'
+		'P4/: Hypocone present, large,'
+		,
+		88
+		'P4/: No loph'
+		'P4/: At least one loph present,'
+		,
+		89
+		'P4/ (and P3/): Postprotocrista distinct'
+		'P4/ (and P3/): Postprotocrista absent or weak,'
+		,
+		90
+		'Morphology more or less puncturing with high and pointed cusps'
+		'Morphology bunodont with low and inflated crown and cusps,'
+		,
+		91
+		'Strictly bunodont pattern without loph'
+		'Bunodont bilophodont pattern, with weak meta- and protololophs'
+		'Bunodont bilophodont pattern with developed meta and protoloph'
+		'True lophodont pattern, 4 Bunolophodont pattern,'
+		,
+		92
+		'No loph'
+		'Lophs transverse'
+		'Lophs oblique,'
+		,
+		93
+		'labial to paracone'
+		'shifted mesially to paracone,'
+		,
+		94
+		'large'
+		'small'
+		'absent,'
+		,
+		95
+		'Ectocingulum reduced, or thin and isolated'
+		'Ectocingulum inflated and continuous with mesial and distal cingula,'
+		,
+		96
+		'Stylar shelf wide (5(0) -25 % molar width)'
+		'Stylar shelf very wide, enlarged (>5(0) % molar width)'
+		'Stylar shelf reduced (< 25% molar width)'
+		'Stylar shelf absent,'
+		,
+		97
+		'M1-3/: Pericone absent'
+		'M1-3/: Pericone absent present,'
+		,
+		98
+		'absent or weak'
+		'small, crestiform'
+		'well inflated'
+		'subegal protocone,'
+		,
+		99
+		'absent or very small'
+		'present (joined or not to distocrista),'
+		,
+		100
+		'absent or weak'
+		'present and inflated'
+		'enlarged,'
+		,
+		101
+		'more or less in between paracone and metacone'
+		'distinctly closer to metacone (alignement with metaloph),'
+		,
+		102
+		'distant labially from paracone and metacone'
+		'close to paracone and metacone,'
+		,
+		103
+		'present'
+		'absent,'
+		,
+		104
+		'rectodont, not linked to mesostyle moderatly'
+		'dilambdodont and linked to a close mesostyle'
+		'strongly dilambdodont (V shaped centrocr.) & linked to mesostyle'
+		'hyperdilambdodont (para- & metac lingual) & linked to mesostyle,'
+		,
+		105
+		'Postmetacrista well developed and predominantly transverse'
+		'Postmetacrista weak and predominantly longitudinal,'
+		,
+		106
+		'long and transverse'
+		'short and longitudinal'
+		'absent or weak,'
+		,
+		107
+		'Metacone smaller than paracone but well developed'
+		'Metacone weak or absent on M3/'
+		'Metacone as large or larger than paracone,'
+		,
+		108
+		'Absent to weak Small but well distinct (<paraconule)'
+		'Large (= or >paraconule)'
+		'Distinctly enlarged and bulbous (>>paraconule, but < protocone)'
+		'As large as protocone= pseudohypocone,'
+		'State 4'
+		,
+		109
+		'Labial: more labial or equal to paraconule'
+		'Shifted linguallly close to protocone level'
+		'Lingual, behind the protocone or more lingual: pseudohypocone,'
+		,
+		110
+		'absent or weak'
+		'present but small (crestiform)'
+		'large and inflated,'
+		,
+		111
+		'present'
+		'absent or reduced (partly correlated with interloph development),'
+		,
+		112
+		'"Prehypocrista" and metaloph absent or reduced'
+		'"Prehypocrista" absent or weak, metaloph present'
+		'"Prehypocrista" forms metaloph and joins metacone base'
+		'"Prehypocrista" forms metaloph and joins metacone apex,'
+		,
+		113
+		'absent'
+		'present,'
+		,
+		114
+		'Distocrista present between postcingulum and hypocone'
+		'Distocrista absent, postcingulum independant from hypocone,'
+		,
+		115
+		'Postentoconule (hypostyle) absent'
+		'Postentoconule (hypostyle) present,'
+		,
+		116
+		'M1/ and M2/ of similar size'
+		'M1/ significantly smaller than M2/'
+		'M1/ significantly larger than M2/,'
+		,
+		117
+		'M2/ and M3/ of similar size'
+		'M3/ smaller than M2/'
+		'M3/ strongly reduced'
+		'M3/ significantly larger than M2/ (molar size increase posteriorly),'
+		,
+		118
+		'M1-2/: one simple lingual root'
+		'M1-2/: Lingual root enlarged + incipiently divided (sulcus)'
+		'M1-2/: At least 2 lingual roots (hypocone or pseudohypocone root),'
+		,
+		119
+		'M3/: Protocone root small and simple'
+		'M3/: Protocone root enlarged (or fused with hypocone root),'
+		,
+		120
+		'Postero-lingual root absent'
+		'One root under hypocone or pseudohypocone'
+		'2 roots (mesial and distal) roots under hypocone or pseudohypocone,'
+		,
+		121
+		'Crown uniformly brachyodont Unilateral labial hypsodonty'
+		'Unilateral lingual hypsodonty'
+		'Crown uniformly hypsodont,'
+		'State 3'
+		,
+		122
+		'M1-3/: Occlusal outline extended transversally'
+		'M1-3/: Occlusal outline narrower (squared or slightly elongated),'
+		,
+		123
+		'Reduced pneumatization of skull bones'
+		'Significant pneumatization (developed sinuses/diploe)'
+		'Extensive pneumatization,'
+		,
+		124
+		'Preorbital length vs total skull length between 30% and 50%'
+		'Preorbital length vs total skull length > 50%'
+		'Preorbital length vs total skull length < 30%,'
+		,
+		125
+		'Between 30% (included) and 50% < 30%'
+		'Between 50% (included) and 70%'
+		'Between 70% (included) and 90%'
+		'> 90%,'
+		,
+		126
+		'Upper tooth row not extended more distally than mid skull length'
+		'upper tooth row very extended distally, up to the two thirds of the skull,'
+		,
+		127
+		'Palatine anteriorly extended to M1/ level'
+		'Palatine short, more posterior than M1/'
+		'Palatines more anterior than M1/,'
+		,
+		128
+		'Within palatine'
+		'Between palatine and maxilla'
+		'Within maxilla'
+		'Multiple small foramina'
+		'Absent,'
+		,
+		129
+		'At M3/ level'
+		'Posterior to M3/'
+		'Anterior to M3/,'
+		,
+		130
+		'present'
+		'absent,'
+		,
+		131
+		'Nasal cavity narrow and not high anteriorly'
+		'Nasal cavity wide and high,'
+		,
+		132
+		'Nasal long and located anterior to the orbit'
+		'Nasal short and posteriorly shifted,'
+		,
+		133
+		'Nasal fossa anterior'
+		'Nasal fossa moderately retracted'
+		'Nasal fossa strongly retracted,'
+		,
+		134
+		'Premaxillary-frontal contact absent (separated by the nasal)'
+		'Premaxillary-frontal contact present,'
+		,
+		135
+		'absent or weak (seprated by lacrimal--nasal contact)'
+		'present, well developed (=lacrimal-nasal suture absent),'
+		,
+		136
+		'Naso-frontals sutures convex posteriorly (nasals intrude in frontals)'
+		'Naso-frontals sutures straight transversely,'
+		,
+		137
+		'Lacrimal present'
+		'lacrimal absent,'
+		,
+		138
+		'Lacrimal facial process large, and in contact to nasal'
+		'Lacrimal facial process large but with reduced or no contact to nasal'
+		'Lacrimal facial process small, reduced along orbital rim'
+		'Lacrimal facial process absent,'
+		,
+		139
+		'Lacrimal tubercle absent'
+		'lacrimal tubercle present,'
+		,
+		140
+		'anterior to orbit (facial)'
+		'in the orbit rim'
+		'in the orbit lacrimal foramen'
+		'absent,'
+		,
+		141
+		'Orbit very posterior, above M3/ or more posterior'
+		'Orbit posterior, above M2/'
+		'Orbit above M1/'
+		'Orbit above P4/ or in between P/4 and M1/ level'
+		'Orbit above P3/ or in between P4/ and P3/ level, 4 Orbit anterior to P3/,'
+		'State 5'
+		,
+		142
+		'Orbit bordered ventrally mostly or entirely by the jugal that joins the lacrimal (reduced zygomatic process of the maxillary)'
+		'orbit bordered ventrally partly by a short process of the maxillary extended between lacrimal and jugal'
+		'maxillary forms the antorbital rim (jugal restricted distally to orbit),'
+		,
+		143
+		'Infraorbital foramen small'
+		'infraorbital foramen large,'
+		,
+		144
+		'Infraorbital foramen anterior to last premolar'
+		'Infraorbital foramen above the last premolar'
+		'Infraorbital foramen below M1/ or more posterior,'
+		,
+		145
+		'Anterior to orbit (> one tooth length), long infraorbital canal'
+		'Close to the orbit, short infraorbital canal'
+		'Below to the orbit, short infraorbital canal,'
+		,
+		146
+		'Submaxillary fossa absent'
+		'submaxillary fossa present,'
+		,
+		147
+		'Frontal similar or a little shorter than parietal'
+		'frontal very shortened, less than half length of parietal'
+		'Frontal very elongated, longer than parietal,'
+		,
+		148
+		'Tuber maxillae absent/small'
+		'tuber maxillae large (to inflated),'
+		,
+		149
+		'Tuber maxillae ventral or anterior to the orbit'
+		'Tuber maxillae noticeably posterior to the orbit,'
+		,
+		150
+		'Ascending process of the palatine present in orbito-temporal fossa'
+		'Ascending process of the palatine reduced in orbito-temporal fossa'
+		'Ascending process of the palatine absent in the orbito-temporal fossa,'
+		,
+		151
+		'Zygoma narrow and slender without distinct ventral max. process'
+		'Zygoma high dorso-ventrally + ventral max process (max. sut.),'
+		,
+		152
+		'Jugal restricted distally to the anterior part of the glenoid fossa, 1 Jugal extended distally up to the distal part of the glenoid fossa,'
+		'State 1'
+		,
+		153
+		'Postorbital constriction strong'
+		'Postorbital constriction weak,'
+		,
+		154
+		'Postorbital process of the frontal developed and inflated'
+		'postorbital process of the frontal reduced or absent,'
+		,
+		155
+		'Postorbital process of the jugal present but weak postorbital process of the jugal absent'
+		'postorbital process of the jugal very developed,'
+		'State 2'
+		,
+		156
+		'Zygomatic arch poorly divergent laterally'
+		'zygomatic arch widely divergent laterally,'
+		,
+		157
+		'Cerebral part not extended dorsally'
+		'Cerebral part extended and inflated (=scale),'
+		,
+		158
+		'moderately developed laterally'
+		'very well developed laterally and very robust,'
+		,
+		159
+		'Parietal-alisphenoid contact'
+		'frontal-squamosal contact,'
+		,
+		160
+		'Not extended more anteriorly than alisphenoid'
+		'Extended more anteriorly than alisphenoid with an orbitosphenoid suture,'
+		,
+		161
+		'Absent'
+		'Present,'
+		,
+		162
+		'confluent'
+		'separated,'
+		,
+		163
+		'eam poorly elevated above the tooth row'
+		'eam high above the tooth row,'
+		,
+		164
+		'Post-tympanic proc. reduced, eam opened ventrally'
+		'Post-tympanic proc. developed, eam still opened ventrally'
+		'Post-tympanic proc. joining postglenoid proc., eam closed ventrally,'
+		,
+		165
+		'Sagittal crest present all along top of skull (joining temporal crests)'
+		'Sagittal crest reduced to back of skull'
+		'Sagittal crest weak or absent,'
+		,
+		166
+		'Nuchal crests present'
+		'Nuchal crests reduced/absent,'
+		,
+		167
+		'Posterior mastoidy: large posterior (occipital) mastoid exposure'
+		'Lateral mastoidy: narrow lateral mastoid exposure'
+		'Amastoidy: no mastoid exposure,'
+		,
+		168
+		'Pars mastoidea small'
+		'Pars mastoidea larger than pars cochlearis,'
+		,
+		169
+		'Fenestra vestibuli medium to large'
+		'Fenestra vestibuli very small (<< f. cochleae),'
+		,
+		170
+		'Fenestra vestibuli round with low stapedial ratio (< 1.8)'
+		'Fenestra vestibuli elliptical with high stapedial ratio (>1.8),'
+		,
+		171
+		'Fenestra cochleae postero-medial to fenestra vestibuli'
+		'Fenestra cochleae posterior to fenestra vestibuli,'
+		,
+		172
+		'Round window and cochlear canal present'
+		'Perilymphatic for. present, no round window and cochlear canal'
+		'=,'
+		,
+		173
+		'Subarcuata fossa present and deeply excavated'
+		'Subarcuata fossa present but poorly excavated'
+		'Subarcuata fossa absent,'
+		,
+		174
+		'absent'
+		'present,'
+		,
+		175
+		'Postglenoid foramen medial'
+		'Postglenoid foramen distal'
+		'Postglenoid foramen absent,'
+		,
+		176
+		'small or absent inflated'
+		'forming large and robust barrel-like bony structure,'
+		,
+		177
+		'Small (subequal to fenestra cochleae)'
+		'Large (>> fenestra cochleae),'
+		,
+		178
+		'Absent weak but present'
+		'well developed,'
+		'State 2'
+		,
+		179
+		'Present and isolated'
+		'Coalescent with f. lacerum posterius,'
+		,
+		180
+		'Ethmoidal f. far from optic f'
+		'median in orbito-temporal fossa'
+		'Ethmoidal f. posteriorly shifted,'
+		,
+		181
+		'Secondary bony spiral lamina present on the basal turn'
+		'Secondary bony spiral lamina present on basal and higher turns'
+		'Secondary bony spiral lamina absent,'
+		,
+		182
+		'1.5 Number of turns of the cochlea between 1.5 and 2 turns'
+		'Number of turns of the cochlea = 2 or more,'
+		'State 2'
+		,
+		183
+		'present'
+		'absent,'
+		,
+		184
+		'planispiral (cochlear ratio < 0.6)'
+		'conic (cochlear ratio > 0.6)'
+		
+	;
+	MATRIX
+	'Eutheria'		                    0000000(0,0)0000000000000000000000000000000000000000000(0,1)10000(0,1)00(0,1)00000000000000(0,1)00000(0,1)0?1(0,1)0000?000000000??00000001000?0000000000000(0,1)00000000000100000000000000000000000000000(0,1)00000000000000
+	'Abdounodus'		                  ????????1(1,2)????0010000000100000100111(0,1)(0,1)2121200(0,1)0(0,1)01002000010011?????????????1100201(0,1)0200001(0,1)0111000011001110310111?01100000????1?????????????2??000?00???????????????????????????????????
+	'Anthracobunidae'		             000000001100000101(0,1)0011122011112011(0,1)000200212(0,1)(1,2)2001??000(0,1)1001000000?01000(0,1)(0,1)12212113021000112111(2,3)0310??00110202111101311?0100?0??00?00???????(0,1)1?(0,1)00?0??0?0000?0????0010???????1??????????
+	'Arctocyonidae'		               0000000(0,0)1(0,1)(0,1)(0,1)0000(0,1)00000(0,1)(0,1)10000011000000(1,2)0100122(0,1)0000020000(1,2)(0,1)0(0,1)0000000010100011001010?210001001(0,1)020(1,2)(0,1)0??00110102000?011(0,1)(0,1)00000000(0,1)000000100111(0,1)0100010000000(0,1)10000(0,1)10000(0,1)001000(0,1)100000??0?
+	'Cambaytherium'		               0000000(1,0)1(0,1)00000010?0100111011112011(0,1)002220210102001??00012?0??00000001000001220211202100(0,1)11111120310??00110(1,2)021110013(0,1)??01?0?02?????0?11?1??20???0?1??00?01??0??1??0?????????0??????????
+	'Desmostylia'		                 110000001(0,1)(1,2)1000010?00011220111000111001200(0,1)1(1,2)(1,2)02001?(0,1)100011(0,1)20010000010?00012(1,2)1(1,2)110?21001112111(2,3)0?10??1?120??21111(0,1)1311?0100?0021?10(0,1)0100(2,3)123011(1,2)0211000000001??101(1,2)00200??010???200????
+	'Embrithopoda'		                ??0?0?0110110001011001103?11111111210002100(0,1)2(0,1)(0,1)202??200002012101???0110100012?010120200(0,1)11??0001000210031024201?1?013111(0,1)100000101111011021?3(1,2)1110001110000101001011?02000?1(1,2)02011112210
+	'Eritherium'		                  11010?121021210010101010220111(0,1)101110122222(0,1)(0,1)(0,1)01010020?????11(1,2)?????0110100012(0,1)0101(0,1)?20001111111200011101120420111?(0,1)11111010??00???1000?00??2311000?01?1?00?1????????0???????????????????
+	'Hyopsodus'		                   000?010(1,1)102110000000011010001(0,1)(0,1)(0,2)0001000(0,1)100(0,1)2(1,2)00000(0,1)200001101001100011010001100101(0,1)?2100010011020210??0011020(1,2)00000110000000200000?0001001020010001000(0,1)01000110010001000100001101200??01
+	'Hyracoidea'		                  ?10?0?0110(0,1)1000100100010220111020111011120(0,1)1(1,2)102001000000201(1,2)1012?001(0,1)0001212(1,2)010120200001(1,2)2001000011(0,1)0(1,2)1(0,1)0420121?01121101000001010000100202(1,2)(0,1)0(0,1)000(0,1)(0,1)00100(1,2)0000(0,1)110100200100102012000110
+	'Macroscelidea'		               010(0,1,2)0?011(0,1)1(0,1)000(0,1)011001101010000100001011(0,1)00020(0,1)1010(0,1)2?00(0,1)2(0,1)(0,1)(0,1)0012000(0,1)00000011110113(0,1)20(0,1)0011111120310??00121(1,2)0102100121001100002(0,1)110000000(1,2)1220(0,1)10000000010101000(0,1)00?000??0?00011?(1,2)001201
+	'Minchenella'		                 ????????1???0001111001112101110201110002102100220????1???????0???????????????????????????11200120310??0000020002(0,1)001311001??????????????????????????????????????????????????????????????
+	'Numidotherium'		               11020?22?33?00001(0,1)1011103201111011200012200022(1,2)202131101020112010101111?0111210101102001113111030000??1?120420131?113211011201?11111001?011242101100121100111110111200211110100002100100
+	'Ocepeia'		                     0000001(1,0)1(1,2)3?3?0010101000100(0,1)00120110111010002(0,1)100212300002001101?110011?1??12002010?20000100001000111002000211000?013000002030110010000000?2010000100?1?01000?010?00002111000001120?1210
+	'Orycteropus'		                 ??1?1?22?(1,2)(2,3)121101??1??????2????????????????021012000?0002210103????12?1?(0,1)2?2?????3?????0?1?????????????????????????11???310111041010001001100002000000001000100(0,1)00002000000020201000(0,1,2)(0,1)00
+	'Paschatherium'		               ???????110000000100000000000111000000(0,1)20000121010?0030???????0??????????????110011(1,2)02110000000120210??001(1,2)0101000?00200000??????????????????????????????????????????????????????????????
+	'Perissodactyla'		              000000001(0,1)2(0,1)000101000111210(0,1)11020111101200012(1,2)020010(1,2)0000210(1,2)00000(0,2)00100000122(0,1)01131210001221(0,1)120310??00110(1,2)0(1,2)1211011110000100(0,2)1(0,2)10000010002(0,1,2)00100011000000000001100(0,1)1100100?010100002??
+	'Phenacodontidae'		             0000000(0,0)1121000(0,1)0000011(0,1)10000002000(0,1)(0,1)10(0,1)10012(1,2)01000020000210100000(0,2)00100000112011131210001(0,1)0101203110(0,1)01110102(0,1)1100111(0,1)000002022010000000(0,1)(0,1)200(0,1)(0,1,2)0011000000000000100100000000?11012000???
+	'Phenacolophus'		               00000001100100000000????3101000211100002100122(0,1)200???100?????0??????????020?0000?????????1111(0,1)12031110020102020110003(1,2)1?01??????????????????0???????????????????????????????????????????
+	'Phosphatherium'		              11020?22?021(1,2)1001010101032(0,1)111101120(0,1)122211022(1,2)2020(0,1)(2,3)000010112?????01101000121010110200111311103000111011204201(2,3)1?113(1,2)1121022021011000100(2,3)12411001001?1?000101101?1100210010000001000???
+	'Potamogale'		                  100?0101103?000010(0,1)000101000000000000000?0001000020(0,1)3000001000012000101?00011001010?100000?00011000(0,1)00?00010?0000?01100000001023110000101313(1,2)210201000??11??1?001000010??1000010111002?0
+	'Protungulatum'		               0000000(0,0)10110000000000101001000100010010(0,1)0012020000(0,1)(1,2)000020020??????010?0??11000010?1100010000120110??00000102000?01100000?????????????????????????00??????????????????001000??0????????
+	'Ptolemaia'		                   ???????0103?0000001000101020000000000020000011012001(1,2)000001000001000011?00?12???01101000010011030000??0011000(0,1)000?0220?02000?0??1?000???0(2,3)?1001000000???00????????0000??????????????????
+	'Radinskya'		                   ??????????????????????????????????????????????????????????????????????0000012??011102100012211120310??00110(1,2)02121101111?0000?02?20000011011?10000001(0,1)00000?000??100001100?00?01??0000???
+	'Sirenia'		                     11000101(0,1)0(1,2)1(1,2)11???110?1022011100011100120?202122021?(1,2)10002012?0120001101020(0,2)0?0?00???????111120(2,3)000???0?12042?111?113111010000?1(0,1)111211?021250102100101000010100101120200(0,1)00(1,2)02(0,1)10002200
+	'Teilhardimys'		                ????????101?000010101000121011100001101100012(1,2)010000300????0?0??????????0121210(1,2)112(0,1)2100011111121310??00111(1,2)0(1,2)(0,1)21001210011??????????????????????????????????????????????????????????????
+	'Todralestes'		                 ???????011110000001000100000000000000010000011000?023000000000??????????00?0???0010?1000000000000110??00000101000?00000000???????????????????????0??????????????????????????????????????
+	'Pahelia mysteriosa'		          ?????????????00010001000201011100111001100010002021120??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 3 5 - 6 10 12 14 - 34 36 - 39 41 44 46 - 50 53 - 56 60 - 61 64 66 - 68 70 - 74 76 78 - 81 83 - 84 86 88 - 97 99 101 - 104 107 111 - 122 124 - 132 134 - 137 139 - 141 143 145 - 149 151 - 163 166 - 172 174 - 180 183 - 184, ord: 4 7 - 9 11 13 35 40 42 - 43 45 51 - 52 57 - 59 62 - 63 65 69 75 77 82 85 87 98 100 105 - 106 108 - 110 123 133 138 142 144 150 164 - 165 173 181 - 182;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1514493140250; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 9001862849995775157; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 143574947076979361; mqVersion 310; checksumv 0 3 1109165862 null getNumChars 184 numChars 184 getNumTaxa 28 numTaxa 28 short true bits 63 states 63 sumSquaresStatesOnly 27747.0 sumSquares 27747.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 174; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1366 650; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #143574947076979361 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1192 578; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1192 578; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.silk.AnnotSummary.AnnotSummary; tell It; togglePanel off; endTell; getEmployee #mesquite.silk.CellImages.CellImages; tell It; togglePanel off; toggleAnnotations off; toggleSums off; toggleHistory off; toggleLocations off; endTell; getEmployee #mesquite.silk.StateImages.StateImages; tell It; togglePanel off; toggleStateAnnotations off; toggleCharAnnotations off; toggleLocations off; endTell; getEmployee #mesquite.silk.aaManageImageIndices.aaManageImageIndices; tell It; setLocal; reset; endTell; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 184; 
+ENDBLOCK;

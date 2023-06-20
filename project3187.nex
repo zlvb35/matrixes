@@ -1,0 +1,626 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 05.53.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Gorgonopsid'
+		'Lycosuchus'
+		'Dvinia'
+		'Procynosuchus'
+		'Galesaurus'
+		'Thrinaxodon'
+		'Cynognathus'
+		'Diademodon'
+		'Trirachodon'
+		'Pascualgnathus'
+		'Scalenodon angustifrons'
+		'Mandagomphodon'
+		'Luangwa'
+		'Massetognathus'
+		'Gomphodontosuchus'
+		'Exaeretodon'
+		'Tritylodontidae'
+		'Lumkuia fuzzi'
+		'Probainognathus'
+		'Ecteninion'
+		'Probelesodon'
+		'Aleodon'
+		'Chiniquodon'
+		'Pachygenelus'
+		'Morganucodon'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=101;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'HK1'
+		 [2] 'HK2'
+		 [3] 'HK3'
+		 [4] 'HK4'
+		 [5] 'HK5'
+		 [6] 'HK6'
+		 [7] 'HK7'
+		 [8] 'HK8'
+		 [9] 'HK9'
+		 [10] 'HK10'
+		 [11] 'HK11'
+		 [12] 'HK12'
+		 [13] 'HK13'
+		 [14] 'HK14'
+		 [15] 'HK15'
+		 [16] 'HK16'
+		 [17] 'HK17'
+		 [18] 'HK18'
+		 [19] 'HK19'
+		 [20] 'HK20'
+		 [21] 'HK21'
+		 [22] 'HK22'
+		 [23] 'HK23'
+		 [24] 'HK24'
+		 [25] 'HK25'
+		 [26] 'HK26'
+		 [27] 'HK27'
+		 [28] 'HK28'
+		 [29] 'HK29'
+		 [30] 'HK30'
+		 [31] 'HK31'
+		 [32] 'HK32'
+		 [33] 'HK33'
+		 [34] 'HK34'
+		 [35] 'HK35'
+		 [36] 'HK36'
+		 [37] 'HK37'
+		 [38] 'HK38'
+		 [39] 'HK39'
+		 [40] 'HK40'
+		 [41] 'HK41'
+		 [42] 'HK42'
+		 [43] 'HK43'
+		 [44] 'HK44'
+		 [45] 'HK45'
+		 [46] 'HK46'
+		 [47] 'HK47'
+		 [48] 'HK48'
+		 [49] 'HK49'
+		 [50] 'HK50'
+		 [51] 'HK51'
+		 [52] 'HK52'
+		 [53] 'HK53'
+		 [54] 'HK54'
+		 [55] 'HK55'
+		 [56] 'HK56'
+		 [57] 'HK57'
+		 [58] 'HK58'
+		 [59] 'HK59'
+		 [60] 'HK60'
+		 [61] 'HK61'
+		 [62] 'HK62'
+		 [63] 'HK63'
+		 [64] 'HK64'
+		 [65] 'HK65'
+		 [66] 'HK66'
+		 [67] 'HK67'
+		 [68] 'HK68'
+		 [69] 'HK69'
+		 [70] 'HK70'
+		 [71] 'HK71'
+		 [72] 'HK72'
+		 [73] 'HK73'
+		 [74] 'HK74'
+		 [75] 'HK75'
+		 [76] 'HK76'
+		 [77] 'HK77'
+		 [78] 'HK78'
+		 [79] 'HK79'
+		 [80] 'HK80'
+		 [81] 'HK81'
+		 [82] 'HK82'
+		 [83] 'HK83'
+		 [84] 'HK84'
+		 [85] 'HK85'
+		 [86] 'HK86'
+		 [87] 'HK87'
+		 [88] 'HK88'
+		 [89] 'HK89'
+		 [90] 'HK90'
+		 [91] 'HK91'
+		 [92] 'HK92'
+		 [93] 'HK93'
+		 [94] 'HK94'
+		 [95] 'HK95'
+		 [96] 'HK96'
+		 [97] 'HK97'
+		 [98] 'HK98'
+		 [99] 'HK99'
+		 [100] 'HK100'
+		 [101] 'HK101'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		13
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		14
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		15
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		28
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		33
+		'State 0'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		49
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		53
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		54
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		55
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		58
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		63
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		64
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		65
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		,
+		73
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		,
+		81
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		,
+		92
+		'State 0'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		94
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		95
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		96
+		'State 0'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 1'
+		,
+		100
+		'State 0'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Gorgonopsid'		                      0000000000000??001000000000000000000000?00000000200000000000000?0???????000?000?000000000000000000000
+	'Lycosuchus'		                       0000000000000??000000000000000010000000?00000000000000000000000?0???????000?000?000000000001200000000
+	'Dvinia'		                           0101010010111001000000010?1100121110110000001100000100100011122110??????210?000?000?0??0?????1001000?
+	'Procynosuchus'		                    010101001011100100000001001100121110110000001100000100100011010?00??????010?000?00010000000011001?000
+	'Galesaurus'		                       010101001111100101000101101100121110110000002111100211100011000?00??????0?0?000001010000000011102?000
+	'Thrinaxodon'		                      010101011112200101000101101100121110110000002111100211100011010?00??????010?0000010100000000111020000
+	'Cynognathus'		                      010101011112200102101201211101121110111000012112201311000001000?00??????010?0000?1111000000121102?000
+	'Diademodon'		                       01010101?112200102111201211201121110111000112112201311?000?1022110010000110?0000111110?00001211120000
+	'Trirachodon'		                      0101010121122011021112012122011211101110001121122013111000010221100??000210?1100111110000001211120000
+	'Pascualgnathus'		                   ?1010101211220110211120121220112111011100?112112201311?000?10210010100001?1012002111110?000??11120000
+	'Scalenodon angustifrons'		          0101010121122001121112012122011211101110011121122013110000011221220000001110120021???????????1??2????
+	'Mandagomphodon'		                   010101?121122011??11?2?121??011?111011?00??12112201322111?11022122101010111012012??????????????????0?
+	'Luangwa'		                          ?1010101211220?1?2111201212201121110111?011121122013110000?11221221010101110120121011100000??21120000
+	'Massetognathus'		                   110101012112202112110201212201121110111001112112201311201111122222100010101012012101110100012211200?0
+	'Gomphodontosuchus'		                ?10101?121122001??1??20121??011?111?11?00??12112201311101111021202101111101112012??????????????????0?
+	'Exaeretodon'		                      ?101011121122011?21012?121220112111011100?11211220132111011102120211111110111211200111010011220120000
+	'Tritylodontidae'		                  1111101121122021121102111122111211111110021021122113221122?10222121?101011??1211200111011111222121111
+	'Lumkuia fuzzi'		                    010101112012201101000101201101121110110000112112201311100011000?00??????010?000010011?010???????????0
+	'Probainognathus'		                  110101112112211101000111201101121110110001112112201311100011010?00??????010?01001001110???0??211?0000
+	'Ecteninion'		                       ?1010111211220110?00011120110112111011000?1121122013111000010?0?00??????0?0?0000??0??????????????????
+	'Probelesodon'		                     1101011121122121010001112011011211101101111121122013111000?1000?00??????010?0000?001110100012211?0000
+	'Aleodon'		                          11010111211222210?00011120??011?111011021??121122013111000?1021?00??????110?00001?0?????0????????????
+	'Chiniquodon'		                      ?1010111211222210100011120110112111011021?1121122013111000?1021?00??????110?0000??01110100???211?0000
+	'Pachygenelus'		                     111110112012222100000011001101121111110202102112211322111111110?00??????010?021000011111101??22121011
+	'Morganucodon'		                     01111011211222210000001?002211?11111110002102112211310100111110?00??????010?0100100111111111222121111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=12 TEXT='Referred to as "Scalenodon" hirschoni in the paper.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 101;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1440026806494; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6510027749277340886; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 271592101813105713; mqVersion 301; checksumv 0 3 818942208 null getNumChars 101 numChars 101 getNumTaxa 25 numTaxa 25 short false bits 4111 states 4111 sumSquaresStatesOnly 1.6788002E7 sumSquares 1.6788002E7 longCompressibleToShort false usingShortMatrix false NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 2067 664; setLocation 54 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #6510027749277340886 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #6510027749277340886; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1967 592; setLocation 54 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #6510027749277340886 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; laxMode; setTreeBlock 1; toggleUseWeights off; endTell; setAssignedID 1057.1440026431231.5559175102379859037; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1967 592; setLocation 54 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setActive; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(2,(3,(4,(5,(6,((18,(20,((19,(24,25)),(21,(22,23))))),(7,(8,(9,(10<selected = on >,(11,(13,(14,((12,17),(16,15))))))))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; getInfoPanel; tell It; btspOpen true; apOpen false; endTell; toggleInfoPanel on; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #271592101813105713 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1967 592; setLocation 54 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #271592101813105713 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1967 592; setLocation 54 22; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 101; 
+ENDBLOCK;

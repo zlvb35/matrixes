@@ -1,0 +1,1826 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.26.19 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+    		'Zygorhiza kochii'
+		'Cynthiacetus peruvianus'
+		'Archaeodelphis patrius'
+		'Simocetus rayii'
+		'Waipatia maerewhenua'
+		'Squalodon spp'
+		'Tursiops truncatus'
+		'Physeter macrocephalus'
+		'Mystacodon selenensis'
+		'Llanocetus denticrenatus'
+		'Coronodon havensteini'
+		'Janjucetus hunderi'
+		'Mammalodon colliveri'
+		'Fucaia goedertorum'
+		'Aetiocetus cotylalveus'
+		'Aetiocetus polydentatus'
+		'Aetiocetus weltoni'
+		'ChM pv4745'
+		'ChM pv5720'
+		'Micromysticetus rothauseni'
+		'Yamatocetus canaliculatus'
+		'Eomysticetus whitmorei'
+		'Morenocetus parvus'
+		'Balaena mysticetus'
+		'Eubalaena spp.'
+		'Caperea marginata'
+		'Miocaperea pulchra'
+		'Cetotherium rathkii'
+		'Cetotherium riabinini'
+		'Piscobalaena nana'
+		'Herpetocetus morrowi'
+		'Herpetocetus transatlanticus'
+		'Herpetocetus bramblei'
+		'Diorocetus hiatus'
+		'Aglaocetus patulus'
+		'Aglaocetus moreni'
+		'Parietobalaena campiniana'
+		'Parietobalaena palmeri'
+		'Pelocetus calvertensis'
+		'Eschrichtius robustus'
+		'Megaptera novaeangliae'
+		'Balaenoptera acutorostrata'
+		'Balaenoptera physalus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=282;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Length of rostral portion of maxilla anterior to antorbital notch'
+		 [2] 'Portion of rostrum anterior to nasals in lateral view'
+		 [3] 'Mesorostral groove'
+		 [4] 'Maxilla in cross section on rostrum at mid-mlength'
+		 [5] 'Height of the maxilla at transverse midpoint at the level of anteroposterior midpoint'
+		 [6] 'Alveolar border of  maxilla on posterior region of rostrum'
+		 [7] 'Lateral border of maxilla anterior to antorbital notch or homologous point on rostrum in dorsal view'
+		 [8] 'Transverse width of maxilla at midpoint'
+		 [9] 'Premaxilla in dorsal view'
+		 [10] 'Premaxilla adjacent to and anterior to narial fossa'
+		 [11] 'Premaxilla adjacent to and at posterior edge of nasal opening'
+		 [12] 'Anterior portions of premaxillae'
+		 [13] 'Suture between maxilla and premaxilla on rostrum'
+		 [14] 'Antorbital process'
+		 [15] 'Medial extension of the antorbital process'
+		 [16] 'Antorbital notch morphology'
+		 [17] 'Distinct pocket between the ascending process of the maxilla dorsally and the supraorbital process ventrally'
+		 [18] 'Lateral process of maxilla'
+		 [19] 'Palatal keel formed by Vomer and Maxilla bordered by wide troughs laterally'
+		 [20] 'Exposure of premaxilla on palate'
+		 [21] 'Palatal window exposing vomer'
+		 [22] 'Palatal nutrient foramina and sulci'
+		 [23] 'Outline of suture between maxillae and palatines'
+		 [24] 'Anteriormost point of palatine'
+		 [25] 'Anterior portion of palatine distinctly concave transversely and forming a sharp median crest'
+		 [26] 'premaxillae abruptly depressed just anterior to the nasals'
+		 [27] 'Rostrum width'
+		 [28] 'Teeth in adult individuals'
+		 [29] 'Upper dentition'
+		 [30] 'Large diastemata between posterior upper molars'
+		 [31] 'Diastema between upper P3 and P4'
+		 [32] 'Enamel ornamentation on premolars'
+		 [33] 'Shape of upper molars in lingual or labial view'
+		 [34] 'Ectocingulum on P3 and P4'
+		 [35] 'Entocingulum on P3 and P4'
+		 [36] 'Posterior upper premolar and molar roots'
+		 [37] 'Posteriormost upper tooth'
+		 [38] 'Heterodonty'
+		 [39] 'Skull length about one third of total body length'
+		 [40] 'Facial asymmetry'
+		 [41] 'Diameter of orbit as measured between the distalmost points of the preorbital and postorbital processes'
+		 [42] 'Anterior edge of supraorbital process lateral to ascending process of maxilla'
+		 [43] 'Outline of anterior edge of supraorbital process in dorsal view'
+		 [44] 'Posterior border of supraorbital process in dorsal view'
+		 [45] 'Supraorbital process of frontal in anterior view'
+		 [46] 'Anterior and posterior borders of supraorbital process in dorsal view'
+		 [47] 'Width of supraorbital process as measured in a straight line from the lateralmost point of the postorbital process to the intertemporal constriction'
+		 [48] 'Postorbital process in lateral view'
+		 [49] 'Orbital rim of supraorbital process of frontal in lateral view'
+		 [50] 'Position of anteriormost point of supraorbital process in dorsal view'
+		 [51] 'Dorsalmost point of orbit relative to lateral edge of rostrum in lateral view, with skull resting on a horizontal surface'
+		 [52] 'Lacrimal in dorsal view: thin blade wedged between posterior edge of Mx and anterior edge of supraorbital process of Fr'
+		 [53] 'Contact of jugal with zygomatic process of squamosal'
+		 [54] 'Anteriormost portion of jugal broadly underlapped by maxilla'
+		 [55] 'Optic canal in ventral view'
+		 [56] 'Postorbital ridge along medial portion of optic canal'
+		 [57] 'Maxillary infraorbital plate'
+		 [58] 'Maxillary window originating from posterior border of infraorbital plate'
+		 [59] 'Anteromedial corner of supraorbital process extending to a point medial to antorbital notch'
+		 [60] 'Preorbital region of frontal in lateral view'
+		 [61] 'Enlarged dorsal infraorbital foramen on ascending process of maxilla, opening into a posterodorsally directed sulcus'
+		 [62] 'Premaxillary sac fossa'
+		 [63] 'Premaxillary foramen'
+		 [64] 'Suture between maxilla and frontal'
+		 [65] 'Ascending process of maxilla'
+		 [66] 'Triangular parasagittal wedge of frontal separating ascending process of maxilla from nasal or premaxilla'
+		 [67] 'Posterior end of ascending process of premaxilla (contact with frontal)'
+		 [68] 'Posterior ends of ascending processes of maxillae in dorsal view contact each other medially with nasal being compressed between them into a thin sheet'
+		 [69] 'Relative position of posteriormost edge of ascending process of maxilla in dorsal view'
+		 [70] 'Lateral profile of cranium along exposure of parietals on vertex'
+		 [71] 'Length of nasal relative to bizygomatic width'
+		 [72] 'Shape of nasal medial and lateral margins'
+		 [73] 'Anterior margins of nasals'
+		 [74] 'Dorsal surface of nasals'
+		 [75] 'Anterior edge of nasal upturned'
+		 [76] 'Separation of posterior portions of nasals along sagittal plane by narial process of frontal'
+		 [77] 'Zygomatic process of squamosal and exoccipital in dorsal view'
+		 [78] 'Orbitotemporal crest'
+		 [79] 'Area enclosed by orbitotemporal crest on supraorbital process of frontal'
+		 [80] 'Outline and orientation of orbitotemporal crest'
+		 [81] 'Shape of temporal fossa'
+		 [82] 'Intertemporal constriction'
+		 [83] 'Exposure of frontal on skull vertex'
+		 [84] 'Parietal and interparietal'
+		 [85] 'Sagittal median trough on anterior portion of parietals and/or posterior region of frontal vertex'
+		 [86] 'Frontoparietal suture forms and elevated ridge dorsally or dorsolaterally'
+		 [87] 'On fronto-parietal suture, frontals projects posteriorly along the sagittal plane and separate the left and right parietal anteriorly'
+		 [88] 'Orbitotemporal crest extends posteriorly on the parietal forming parasagittal crest'
+		 [89] 'Parietal in lateral view'
+		 [90] 'Spreading of anterolateral portion of parietal on to posteromedial corner of supraorbital process of frontal'
+		 [91] 'Anteriormost point of parietal and interparietal'
+		 [92] 'Anteriormost point of supraoccipital in dorsal view'
+		 [93] 'Anteroposterior position of posterior apex of nuchal crest'
+		 [94] 'Mediolateral position of posterior apex of nuchal crest'
+		 [95] 'Distinct nuchal tubercle at junction of parieto-squamosal suture and supraoccipital'
+		 [96] 'Exposure of alisphenoid in or at ventral border of temporal fossa'
+		 [97] 'Postparietal foramen located at junction of parietal and squamosal'
+		 [98] 'Zygomatic process of squamosal extremely well developed and robust in dorsal view'
+		 [99] 'Orientation of zygomatic process of squamosal in dorsal view'
+		 [100] 'Zygomatic process of squamosal in lateral or ventral view'
+		 [101] 'Twisting of zygomatic process of squamosal'
+		 [102] 'Position of apex of zygomatic process of squamosal'
+		 [103] 'Apex of zygomatic process of squamosal deflected anteroventrally'
+		 [104] 'Supramastoid crest of zygomatic process of squamosal'
+		 [105] 'Size of squamosal including zygomatic and postglenoid processes'
+		 [106] 'Parieto-squamosal suture shaped like a crest or ridge'
+		 [107] 'Squamosal prominence'
+		 [108] 'Transverse width of squamosal lateral to exoccipital'
+		 [109] 'Length of squamosal fossa relative to maximum transverse width of temporal fossa as measured in a straight line from the posteriormost point of the temporal fossa to the posteriormost point of the nuchal crest'
+		 [110] 'Squamosal cleft'
+		 [111] 'Squamosal crease'
+		 [112] 'Paired tubercles on supraoccipital'
+		 [113] 'Lateral edge of supraoccipital in dorsal view'
+		 [114] 'Anterior border of supraoccipital shield'
+		 [115] 'Overall outline of supraoccipital in dorsal view'
+		 [116] 'Anterior half of dorsal surface of supraoccipital'
+		 [117] 'External occipital crest'
+		 [118] 'Tip of postglenoid process in lateral view'
+		 [119] 'Ventral edge of postglenoid process in lateral view'
+		 [120] 'Orientation of postglenoid process in posterior view'
+		 [121] 'Outline of postglenoid process in anterior or posterior view'
+		 [122] 'Twisting of postglenoid process in ventral view'
+		 [123] 'Position of base of postglenoid process in ventral or posterior view'
+		 [124] 'Medial border of postglenoid process in ventral view'
+		 [125] 'Choanal margin of palatine in ventral view'
+		 [126] 'Pterygoid in ventral view'
+		 [127] 'Anteriomost point of pterygoid sinus fossa'
+		 [128] 'Lateral lamina of pterygoid'
+		 [129] 'Superior lamina of pterygoid'
+		 [130] 'Shape of pterygoid hamulus'
+		 [131] 'Position of pterygoid hamuli in ventral view'
+		 [132] 'Position of foramen pseudovale'
+		 [133] 'Foramen pseudovale raised above more lateral portions of squamosal in ventral view'
+		 [134] 'Fossa on squamosal for reception of sigmoid process of tympanic bulla'
+		 [135] 'Base of postglenoid process in ventral view'
+		 [136] 'Ventral border of sagittal part of vomer (nasal septum) in ventral view'
+		 [137] 'Basioccipital crest'
+		 [138] 'Lateral border of basioccipital crest in ventral view'
+		 [139] 'Orientation of basioccipital crests in ventral view'
+		 [140] 'supraoccipital shield orientation'
+		 [141] 'Ventromedial corner of paroccipital process in posterior view'
+		 [142] 'Posteriormost point of exoccipital in dorsal view'
+		 [143] 'Outline of stylohyal in cross section'
+		 [144] 'Orientation of thyrohyal in dorsal or ventral view'
+		 [145] 'Shape of thyrohyal'
+		 [146] 'Distal end of thyrohyal expanded relative to shaft'
+		 [147] 'Posterior projections on basihyal for attachment of sternohyoid muscle'
+		 [148] 'Ankylosed basihyal and thyrohyals'
+		 [149] 'Tympanohyal'
+		 [150] 'Dorsomedial (cranial) elongation of pars cochlearis towards cranial cavity'
+		 [151] 'Attachment of anterior process to pars cochlearis'
+		 [152] 'Anterior process of periotic in lateral view'
+		 [153] 'Shape of anteroventral angle of anterior process of periotic in medial or lateral view'
+		 [154] 'Ventral edge of anterior process of periotic in medial view'
+		 [155] 'Anterior process transversely compressed and blade-like'
+		 [156] 'Length of anterior process of periotic'
+		 [157] 'Anteroexternal sulcus'
+		 [158] 'Pyramidal process'
+		 [159] 'Articulation of anterior process of periotic and tympanic bulla'
+		 [160] 'Anterior bullar facet'
+		 [161] 'Shape of lateral tuberosity of anterior process'
+		 [162] 'Position of lateral tuberosity'
+		 [163] 'Body of periotic lateral to pars cochlearis hypertrophied'
+		 [164] 'Mallear fossa'
+		 [165] 'Distinct ridge delimiting insertion surface of tensor tympani on medial side of anterior process'
+		 [166] 'Dorsal extension of attachment area for tensor tympani on medial side of anterior process'
+		 [167] 'Anteromedial corner of pars cochlearis in ventral view'
+		 [168] 'Promontorial groove on medial side of pars cochlearis'
+		 [169] 'Caudal tympanic process ( = posterior cochlear crest ) in posteromedial view'
+		 [170] 'Posteromedial corner of pars cochlearis medial to fenestra rotunda'
+		 [171] 'Morphology of caudal tympanic process ( = posterior cochlear crest )'
+		 [172] 'Anteroposterior alignment of proximal opening of facial canal, internal acoustic meatus and aperture for cochlear aqueduct'
+		 [173] 'Anteroposterior alignment of aperture for cochlear aqueduct and aperture for vestibular aqueduct'
+		 [174] 'Prominent septum dividing foramina for vestibular and cochlear nerves within internal acoustic meatus'
+		 [175] 'Sharp cranial rim surrounding proximal opening of facial canal'
+		 [176] 'Shape of aperture for cochlear aqueduct'
+		 [177] 'Size of aperture for cochlear aqueduct'
+		 [178] 'Aperture for cochlear aqueduct and fenestra rotunda'
+		 [179] 'Superior process'
+		 [180] 'Suprameatal area hypertrophied'
+		 [181] 'Development of crista transversa'
+		 [182] 'Morphology of crista transversa'
+		 [183] 'Hiatus Fallopii'
+		 [184] 'Size of proximal opening of facial canal'
+		 [185] 'Tympanal rescess of scala tympani'
+		 [186] 'Squamosal flange located posterior to lateral tuberosity'
+		 [187] 'Articulation surfaces on posterior processes of tympanic bulla and periotic'
+		 [188] 'Morphology of facial sulcus on distal half of compound posterior process'
+		 [189] 'Position of facial sulcus on compound posterior process in ventral view'
+		 [190] 'Orientation of compound posterior process in ventral view, with periotic being in situ'
+		 [191] 'Shape of compound posterior process'
+		 [192] 'Exposure of compound posterior process on lateral skull wall'
+		 [193] 'Bony texture of ventral surface of compound posterior process'
+		 [194] 'Neck of compound posterior process markedly constricted'
+		 [195] 'Anterior border of bulla in dorsal or ventral view'
+		 [196] 'Anterior portion of bulla transversely wider than posterior portion in ventral view'
+		 [197] 'In situ orientation of main axes of tympanic bullae in ventral view'
+		 [198] 'Position of dorsal origin of lateral furrow'
+		 [199] 'Orientation of lateral furrow in lateral view'
+		 [200] 'Orientation of ventral keel of lateral lobe of bulla'
+		 [201] 'Anteroposterior outline of lateral lobe or main ridge of bulla'
+		 [202] 'Position of involucral ridge in dorsal view'
+		 [203] 'Position of involucral ridge relative to posterior margin of bulla'
+		 [204] 'Sigmoid process deflected laterally in anterior or posterior view'
+		 [205] 'Dorsomedial corner of sigmoid process in anterior view'
+		 [206] 'Ventral margin of sigmoid process in lateral view'
+		 [207] 'Shape of conical process in lateral view'
+		 [208] 'Elliptical foramen'
+		 [209] 'Inner posterior prominence (medial lobe of tympanic bulla)'
+		 [210] 'Interprominential ridge (crest connecting medial and lateral lobes of tympanic bulla) in posterior view'
+		 [211] 'Transverse creases on dorsal surface of involucrum'
+		 [212] 'Ridge on inside of bulla'
+		 [213] 'Tympanic sulcus'
+		 [214] 'Outline and position of tympanic sulcus'
+		 [215] 'Anteromedial portion of ventral surface of tympanic bulla'
+		 [216] 'Anterolateral corner of bulla'
+		 [217] 'Anterolateral ridge or shelf'
+		 [218] 'Position of posterior pedicle of tympanic bulla in dorsal view'
+		 [219] 'Posterior mandibular cheek teeth'
+		 [220] 'Medial surface of central part of mandible'
+		 [221] 'Dorsomedial surface of posterior portion of mandibular body'
+		 [222] 'Mandibular symphysis'
+		 [223] 'Outline of posterior portion of mandible in dorsal or ventral view'
+		 [224] 'Mandibular body in dorsal view'
+		 [225] 'Anterior extremity of mandible'
+		 [226] 'Height of dentary at anterior extremity'
+		 [227] 'Mandibular body in medial or lateral view'
+		 [228] 'Height of mandibular foramen'
+		 [229] 'Anterior border of mandibular foramen'
+		 [230] 'Dorsal border of mandibular foramen projected medially and developed into a roof'
+		 [231] 'Satellite process'
+		 [232] 'Ridge on posteromedial portion of coronoid process running close and parallel to its posterior border'
+		 [233] 'Relative position of anterior border of mandibular foramen'
+		 [234] 'Subcondylar furrow'
+		 [235] 'Coronoid process in lateral or medial view'
+		 [236] 'Shape of coronoid process (if triangular) in lateral or medial view'
+		 [237] 'Outline of coronoid process in anterior view'
+		 [238] 'Postcoronoid elevation'
+		 [239] 'Angular process in medial view'
+		 [240] 'Position of angular process relative to mandibular condyle'
+		 [241] 'Height of mandibular condyle relative to angular process'
+		 [242] 'Angular process deflected ventrally'
+		 [243] 'Fossa on medial side of angular process'
+		 [244] 'Orientation of articular surface of mandibular condyle'
+		 [245] 'Mylohyoid sulcus on ventromedial surface of mandible'
+		 [246] 'Vertebrarterial foramen in axis'
+		 [247] 'Development of parapophysis and diapophysis on axis in anterior or posterior view'
+		 [248] 'Cervical vertebrae'
+		 [249] 'Parapophysis on seventh cervical vertebra'
+		 [250] 'Centra of cervical vertebrae in anterior or posterior view'
+		 [251] 'Orientation of transverse processes of anterior lumbar vertebrae in anterior or posterior view'
+		 [252] 'Outline of transverse processes of lumbar vertebrae in anterior or posterior view'
+		 [253] 'Apices of neural spines of posterior thoracic and anterior lumbar vertebrae anteroposteriorly expanded and squared off'
+		 [254] 'Number of lumbar vertebrae'
+		 [255] 'Metapophyses on posterior thoracic and anterior lumbar vertebrae in lateral view'
+		 [256] 'Sternum'
+		 [257] 'Manubrium of sternum'
+		 [258] 'Distal extremity of anterior ribs expanded and pestle-like'
+		 [259] 'Proportions of scapula'
+		 [260] 'Coracoid process of scapula'
+		 [261] 'Acromion process of scapula'
+		 [262] 'Supraspinous fossa of scapula'
+		 [263] 'Deltoid crest of humerus'
+		 [264] 'Relative length of humerus'
+		 [265] 'Orientation of humeral head in medial or lateral view'
+		 [266] 'Posterior notch on distal portion of humeral shaft in medial or lateral view'
+		 [267] 'Articulation facet for radius on humerus in medial or lateral view'
+		 [268] 'Shaft of radius in medial or lateral view'
+		 [269] 'Functional humeral trochlea'
+		 [270] 'Radial crest'
+		 [271] 'Proximal epihysis of radius in medial or lateral view'
+		 [272] 'Olecranon process'
+		 [273] 'Manus'
+		 [274] 'Femur'
+		 [275] 'Tibia'
+		 [276] 'Ventral throat grooves'
+		 [277] 'Ventral throat pouch'
+		 [278] 'Tongue'
+		 [279] 'Temporomandibular joint'
+		 [280] 'Longitudinal ridges on rostrum'
+		 [281] 'Dorsal fin'
+		 [282] 'Chromosome number'
+	;
+	STATELABELS
+		1
+		'less than bizygomatic width'
+		'equal to or greater than bizygomatic width'
+		'more than one and a half times the bizygomatic width'
+		,
+		2
+		'below the level of the supraoccipital'
+		'raised to or above the supraoccipital'
+		,
+		3
+		'closed dorsally'
+		'partially open dorsally'
+		,
+		4
+		'forms an angle of more than 45 degrees'
+		'lateral edge is flattened with an angle of less than 45 degrees'
+		,
+		5
+		'Higher than wide'
+		'Roughly as high as wide or lower'
+		,
+		6
+		'Rounded or subvertical'
+		'crest-like'
+		,
+		7
+		'concave'
+		'straight or slightly convex'
+		'broadly convex'
+		,
+		8
+		'distinctly less than that of the premaxilla'
+		'roughly equal to or up to twice the width of the premaxilla'
+		'more than twice the width of the premaxilla'
+		,
+		9
+		'widens at anterior end'
+		'portion anterior to nasal opening narrows or remains the same width anteriorly'
+		,
+		10
+		'elevated above the maxilla and forming a distinct lateral face'
+		'continuous or nearly continuous with the maxilla'
+		,
+		11
+		'does not clearly overhang maxilla'
+		'premaxilla overhangs maxilla'
+		,
+		12
+		'firmly contact each other'
+		'premaxillae are separated or only loosely contact along their entire length'
+		,
+		13
+		'firmly articulated'
+		'loose'
+		,
+		14
+		'absent'
+		'present and defined by a steep face clearly separating the posterolateral corner of the maxilla from its more anterior rostral portion'
+		'present'
+		,
+		15
+		'absent'
+		'crest in posterior region of maxilla'
+		,
+		16
+		'absent'
+		'present subvertical'
+		'present oblique'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present and clearly distinct from ascending process of maxilla'
+		'present and confluent with ascending process of maxilla'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'exposed along at least one third of the medial border of the maxilla'
+		'limited in extent to less than one third of the medial border of the maxilla'
+		,
+		21
+		'absent'
+		'present'
+		'narrow and variable exposure of vomer along most or all of the midline of the rostrum'
+		'vomer broadly exposed along the midline of the rostrum'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'roughly straight transversely or bowed anteriorly'
+		'forms a posteriorly pointing V shape'
+		'anterior margins of palatines form two separate and posteriorly pointing U shapes'
+		,
+		24
+		'located in line with or posterior to the level of the antorbital notch or equivalent point on rostrum'
+		'located anterior to the level of the antorbital notch'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'present'
+		'absent'
+		'absent but premaxillae gently concave'
+		,
+		27
+		'width at antorbital notches or equivalent point on rostrum less than 80% the length of the rostrum as measured from its tip to the antorbital notches'
+		'width at antorbital notches or equivalent point more than 80% the length of the rostrum'
+		,
+		28
+		'present'
+		'absent or vestigial'
+		,
+		29
+		'comprises 10 teeth including M2'
+		'includes 11 teeth including M3 or is polydont'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present and shorter than one tooth length'
+		'present and as long as or longer than one tooth length'
+		,
+		32
+		'vertical striations present on lingual surface only'
+		'heavy vertical striations present on both lingual and labial surfaces'
+		'vertical striations are poorly developed or absent'
+		'enamel is absent'
+		'State 3'
+		,
+		33
+		'crown base distinctly wider than crown height'
+		'crown base is shorter than or roughly equal to crown height'
+		,
+		34
+		'present'
+		'absent'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'separate along their entire length'
+		'fused proximally but separate distally'
+		'fused or closely apposed along entire length'
+		,
+		37
+		'situated below anterior portion of orbit'
+		'situated anterior to anterior border of orbit'
+		,
+		38
+		'present with accessory denticles being well developed'
+		'presentwith clear distinctions between anterior teeth, premolars and molars'
+		'absent or greatly reduced with accessory denticles absent or tiny compared to main cusp'
+		'present but reduced with molars and premolars being of comparable size and shape'
+		'absent or greatly reduced with accessory denticles on postcanines absent or tiny compared to main cusp'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'less than 25% of bizygomatic width'
+		'25% or more'
+		,
+		42
+		'oriented transversely or pointing anteriorly'
+		'pointing posteriorly'
+		'linguiform and tapering to a point'
+		,
+		43
+		'roughly straight or concave'
+		'distinctly sinusoidal'
+		,
+		44
+		'concave'
+		'straight'
+		,
+		45
+		'horizontal or nearly horizontal'
+		'gradually slopes away lateroventrally from the skull vertex'
+		'as state 1 but with the lateral portion of the supraorbital being nearly horizontal thus causing the latter to appear concave in anterior view'
+		'abruptly depressed to a level noticeably below the vertex with the lateral skull wall above the supraorbital formed by both parietal and frontal'
+		,
+		46
+		'roughly parallel or converging medially'
+		'converging laterally'
+		,
+		47
+		'equal to or shorter than the anteroposterior length of the supraorbital process above the orbit'
+		'up to twice the length above the orbit'
+		'more than twice the length above the orbit'
+		,
+		48
+		'pointed or rounded'
+		'forms an anteroposteriorly elongate triangle with a flattened posterior face'
+		,
+		49
+		'dorsoventrally thin'
+		'thickened with a flat lateral surface'
+		'thickened with a rounded lateral surface'
+		,
+		50
+		'in line with the posterior extremity of the nasals or passing through the nasals'
+		'at the same level as the anterior extremity of the nasals'
+		'anterior to the anterior extremity of the nasals'
+		,
+		51
+		'elevated above or roughly in line with the lateral edge of the rostrum'
+		'located well below the lateral edge of the rostrum'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'the two bones overlap dorsoventrally'
+		'little or no overlap'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'ventrally open'
+		'medial portion is enclosed by anterior and/or posterior bony laminae'
+		,
+		56
+		'absent or anteroposteriorly thin, with the optic canal running adjacent to the posterior border of the supraorbital process'
+		'well developed and thickened, thus resulting in the displacement of the optic canal away from the posterior border of the supraorbital process'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'thickened compared to more central portions of the orbit'
+		'dorsoventrally flat'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'contact between the bones is straight or maxilla overrides anteromedial corner of the frontal'
+		'maxilla overrides half or more of the frontal'
+		,
+		65
+		'lateral edges convergent with the process tapering to a point'
+		'lateral edges parallel or divergent posteriorly'
+		'ascending process wide with a rounded apex'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'no contact with frontal or  with the posteriormost tip only'
+		'robust contact with the frontal at the level of posterior end of nasal'
+		,
+		68
+		'Absent'
+		'Present'
+		,
+		69
+		'approximately in transverse line with or posterior to posterior edge of nasal'
+		'anterior to posterior edge of nasal'
+		,
+		70
+		'dorsal edge of parietal ascends steeply towards posterior edge of skull at an angle of 10 degrees or more measured relative to the lateral edge of rostrum'
+		'dorsal edge of parietal is low to flat with an angle of less than 10 degrees'
+		,
+		71
+		'less than 50% of bizygomatic width'
+		'more than 50% of bizygomatic width'
+		,
+		72
+		'parallel'
+		'posteriorly convergent'
+		,
+		73
+		'roughly straight or U shaped'
+		'form a distinct, posteriorly pointing W shape'
+		'with point on midline and a gap on each side between premaxilla and nasal'
+		'form an anteriorly pointing W shape'
+		,
+		74
+		'flattened'
+		'developed into a sagittal keel'
+		'medial portion raised into a nasal scoop'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'present'
+		'absent'
+		,
+		77
+		'clearly separated by an angle'
+		'posterior border of zygomatic process and lateral edge of exoccipital are confluent forming a continuous or nearly continuous lateral skull border'
+		,
+		78
+		'positioned along posterior border of supraorbital process with the origin of the temporal muscle facing posteriorly or posteroventrally'
+		'absent or positioned on the dorsal surface of the supraorbital process with the origin of the temporal muscle facing posterodorsally or dorsally'
+		,
+		79
+		'forms less than half of the dorsal surface of the supraorbital process'
+		'covers half or more of the dorsal surface of the supraorbital process'
+		,
+		80
+		'subparallel to posterior border of supraorbital process'
+		'distal half oriented distinctly posterolaterally and approaching the posterolateral corner of the supraorbital process'
+		'as state 1 but with the crest terminating halfway along the posterior border of the supraorbital process'
+		'as state 1 but with the crest being distinctly U-shaped'
+		,
+		81
+		'longer anteroposteriorly than wide transversely or as wide as long'
+		'wider than long'
+		,
+		82
+		'longer anteroposteriorly than wide transversely'
+		'longer  than wide'
+		'as state 1 but with the temporal fossa forming a large parasagittal oval'
+		'wider  than long'
+		'wider transversely than long anteroposteriorly'
+		,
+		83
+		'broadly exposed'
+		'anteroposteriorly compressed or absent'
+		,
+		84
+		'anteriormost point located no further forward than postorbital process'
+		'anteriormost point in line with supraorbital process'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'as long or longer anteroposteriorly than high dorsoventrally'
+		'higher dorsoventrally than long anteroposteriorly'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'more posterior than the posterior border of the ascending process of the maxilla'
+		'more anterior than or in line with the posterior border of the ascending process of the maxilla'
+		'as state 1 but the parietal being dorsoventrally concave and undercutting the maxilla and associated frontal'
+		,
+		92
+		'located posterior to or in line with the anterior border of the squamosal fossa'
+		'in line with temporal fossa, but posterior to the apex of the zygomatic process of the squamosal'
+		'in line with or located anterior to the level of the apex of the zygomatic process of the squamosal'
+		'in line with the anterior half or anterior edge of the supraorbital process'
+		,
+		93
+		'posterior to the occipital condyle'
+		'anterior to or in line with the posteriormost point of the occipital condyle'
+		,
+		94
+		'aligned with the medial half or halfway point of the temporal fossa'
+		'approaching the level of the lateral border of the temporal fossa'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'exposed on temporal wall of skull and contributing to orbital fissure'
+		'alisphenoid separated from orbital fissure or not exposed on temporal skull wall'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'directed anteromedially'
+		'directed anteriorly or slightly anterolaterally'
+		'directed anterolaterally'
+		,
+		100
+		'tapering anteriorly'
+		'expanded anteriorly, thus forming a central constriction'
+		,
+		101
+		'absent'
+		'present with the zygomatic process being partially twisted clockwise on the left and anticlockwise on the right'
+		'as state 1 but with the process twisted almost 90 degrees'
+		'partially twisted anticlockwise on the left and clockwise on the right (3)'
+		,
+		102
+		'situated entirely posterior to the postorbital process'
+		'closely apposed to the postorbital process or situated ventral to the latter'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'present'
+		'absent'
+		'State 2'
+		,
+		105
+		'longer anteroposteriorly than high dorsoventrally or about as high as long'
+		'distinctly higher than long'
+		,
+		106
+		'absent or low'
+		'present and distinctly elevated'
+		,
+		107
+		'present as a projection on the crest delimiting the lateral or posterolateral edge of the squamosal fossa'
+		'absent'
+		,
+		108
+		'width equal to or greater than 15% of the distance between the sagittal plane and the lateral edge of the exoccipital'
+		'exposed portion of squamosal is less than 15% of that distance'
+		,
+		109
+		'length of squamosal fossa is three quarters the width of the temporal fossa or longer'
+		'length of squamosal fossa is less than three quarters the width of the temporal fossa'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'absent'
+		'present'
+		,
+		112
+		'absent'
+		'limited to low ridges forming the lateral edges of a medial fossa'
+		'present'
+		,
+		113
+		'convex'
+		'straight'
+		'concave'
+		'sigmoidal'
+		,
+		114
+		'rounded or pointed'
+		'squared'
+		,
+		115
+		'rounded'
+		'triangular'
+		,
+		116
+		'concave'
+		'flat or convex'
+		,
+		117
+		'absent or faint'
+		'restricted to anterior half of supraoccipital shield'
+		'present and running all the way along the supraoccipital shield'
+		,
+		118
+		'curving anteriorly'
+		'pointing ventrally'
+		'pointing posteriorly'
+		,
+		119
+		'approximately in line with or dorsal to ventral edge of exoccipital'
+		'extending well ventral to ventral edge of exoccipital'
+		,
+		120
+		'ventrolateral'
+		'ventral'
+		'ventromedial'
+		,
+		121
+		'parabolic'
+		'as state 0 but with lateral and medial edges parallel or concave'
+		'as state 1 but distinctly wider transversely than high dorsoventrally'
+		'triangular'
+		'trapezoidal with a ventrally directed medial border'
+		,
+		122
+		'absent'
+		'twisted clockwise on the left side and anticlockwise on the right side so that the glenoid cavity faces anteromedially'
+		,
+		123
+		'in line with the lateral edge of the skull'
+		'shifted away medially from the lateral edge of the skull'
+		,
+		124
+		'confluent with more medial portion of squamosal'
+		'offset from remainder of squamosal by a distinct ridge'
+		,
+		125
+		'absent'
+		'straight or convex'
+		'concave'
+		'forms a longitudinal notch'
+		,
+		126
+		'partially or entirely exposed'
+		'palatine almost completely covers pterygoid and extends on to the hamular process'
+		,
+		127
+		'located anterior to foramen pseudovale'
+		'approximately in line with anterior edge of foramen pseudovale'
+		'located posterior to anterior edge of foramen pseudovale'
+		,
+		128
+		'located entirely anterior to the anterior process of the periotic'
+		'extending on to the anterior process of the periotic'
+		,
+		129
+		'absent or restricted to anteromedial quarter of pterygoid sinus fossa'
+		'present and covering half or more of ventral exposure of alisphenoid within pterygoid sinus fossa'
+		,
+		130
+		'finger-like'
+		'expanded into a dorsoventrally flattened plate flooring the pterygoid sinus fossa'
+		'triangular and wing-like'
+		'reduced in size or almost absent'
+		,
+		131
+		'located directly adjacent to the sagittal plane and almost contacting each other'
+		'well separated from each other'
+		,
+		132
+		'foramen located within squamosal or between squamosal and pterygoid and opening anterolaterally or laterally'
+		'as state 0 but with foramen opening posteriorly'
+		'foramen lies within pterygoid'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'present'
+		'absent or poorly defined'
+		,
+		135
+		'in transverse line with or located posterior to the posterior half of the tympanic bulla'
+		'in transverse line with or located anterior to the anterior half of the tympanic bulla'
+		'in transverse line with the anteroposterior centre of the tympanic bulla'
+		,
+		136
+		'posteriormost portion projects beyond the posterior border of the palatines and is visible in ventral view'
+		'completely covered by palatines'
+		,
+		137
+		'narrow transversely'
+		'wide and bulbous'
+		,
+		138
+		'straight'
+		'concave'
+		,
+		139
+		'diverging posteriorly'
+		'parallel or subparallel with no angle formed'
+		,
+		140
+		'subvertical'
+		'inclined anterodorsally'
+		,
+		141
+		'located more ventrally than the basioccipital crest'
+		'level with or more dorsal than the basioccipital crest'
+		,
+		142
+		'located more anteriorly than posterior edge of occipital condyle'
+		'level with or posterior to posterior edge of condyle'
+		,
+		143
+		'cylindrical'
+		'flattened'
+		,
+		144
+		'oriented posteriorly'
+		'oriented laterally'
+		,
+		145
+		'cylindrical'
+		'flattened and wing-like'
+		'plate-like'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'absent'
+		'present'
+		,
+		148
+		'absent'
+		'present'
+		,
+		149
+		'indistinct'
+		'clearly differentiated trumpet-shaped element fused to crista parotica'
+		,
+		150
+		'absent'
+		'present'
+		'as state 1, but with only the anterior side of the pars cochlearis being elongated'
+		,
+		151
+		'absent'
+		'present'
+		,
+		152
+		'squared off or rounded'
+		'triangular'
+		'anterior border of process is two-bladed and L-shaped'
+		,
+		153
+		'rounded or forms a relatively blunt angle'
+		'slender and tapering to a point'
+		,
+		154
+		'at the same level or dorsal to ventral edge of pars cochlearis'
+		'ventral to ventral profile of pars cochlearis'
+		,
+		155
+		'absent'
+		'present'
+		,
+		156
+		'shorter than the anteroposterior length of the pars cochlearis, as measured from the anterior border of the pars cochlearis to the medial border of the fenestra rotunda'
+		'same length or longer than the pars cochlearis'
+		,
+		157
+		'forms an oblique or vertical groove on lateral side of anterior process, immediately anterior to lateral tuberosity'
+		'absent'
+		,
+		158
+		'absent'
+		'present'
+		,
+		159
+		'no contact or contact with accessory ossicle via fovea epitubaria on the anterior process of the periotic'
+		'accessory ossicle or homologous region on periotic fused to bulla'
+		,
+		160
+		'present'
+		'absent'
+		'State 2'
+		,
+		161
+		'absent or poorly developed'
+		'well-defined tubercle'
+		'broadly triangular and longer than wide'
+		'hyperthrophied and blade-like'
+		'forms a distinct shelf'
+		,
+		162
+		'situated posterolateral to anterior pedicle of tympanic bulla or fovea epitubaria'
+		'situated lateral or anterolateral to anterior pedicle of tympanic bulla or fovea epitubaria'
+		,
+		163
+		'absent'
+		'present laterally and ventrally'
+		'present laterally only'
+		,
+		164
+		'well excavated and possessing a clearly defined rim'
+		'present only as a depression with diffuse edges'
+		,
+		165
+		'absent'
+		'absent but insertion surface distinctly excavated'
+		'present'
+		,
+		166
+		'absent or indistinct'
+		'present as a deeply excavated canal'
+		'present as a deeply excavated groove'
+		,
+		167
+		'developed as a rounded, anteroposterior ridge'
+		'angular and projecting medially, resulting in a flattened ventral surface of the pars cochlearis'
+		'smooth and rounded'
+		,
+		168
+		'present, but relatively shallow'
+		'present and deeply excavated'
+		'present and forming a distinct constriction, separating a smooth and rounded ventral portion of the pars cochlearis from a flattened and striated dorsal one'
+		'absent'
+		,
+		169
+		'well separated from crista parotica'
+		'narrow separation or contact'
+		,
+		170
+		'rounded and level with fenestra rotunda'
+		'inflated and projecting posteriorly beyond fenestra rotunda'
+		'as state 0, but with the crest appearing sigmoidal in ventral view'
+		,
+		171
+		'developed as a posteriorly extending triangular shelf'
+		'as state 0, but wias state 0, but with the crest appearing sigmoidal in ventral view th the ventral border bulging ventrally'
+		'as state 0, but with the ventral border bulging ventrally'
+		'as state 0, but pointing posterodorsally'
+		'developed as a robust, ventrally directed projection'
+		'absent or poorly developed'
+		,
+		172
+		'present'
+		'absent'
+		,
+		173
+		'absent'
+		'present'
+		,
+		174
+		'present'
+		'absent'
+		,
+		175
+		'present'
+		'absent'
+		,
+		176
+		'round with sharply defined dorsal margins'
+		'slit-like'
+		,
+		177
+		'smaller than aperture for vestibular aqueduct'
+		'approximately the same size'
+		,
+		178
+		'separate'
+		'confluent'
+		,
+		179
+		'present as a distinct crest forming the lateral wall of the suprameatal fossa'
+		'the lateral border of the suprameatal fossa is low and not clearly defined'
+		'present but low'
+		'absent'
+		,
+		180
+		'absent'
+		'present'
+		,
+		181
+		'depressed well below the rim of the internal acoustic meatus'
+		'well developed and reaching the cerebral surface of the pars cochlearis'
+		,
+		182
+		'developed as a septum of varying thickness'
+		'proximal opening of facial canal is widely separated from internal acoustic meatus and connected to the latter via a distinct sulcus'
+		,
+		183
+		'absent or small opening located anterior or anteroventral to proximal opening of facial canal'
+		'as state 0, but with the hiatus Fallopii being well developed and large'
+		'anterior border of proximal opening of facial canal is continuous with the hiatus Fallopii and shaped like a fissure'
+		,
+		184
+		'no more than half the size of the internal acoustic meatus'
+		'more than half the size of the internal acoustic meatus'
+		,
+		185
+		'absent'
+		'present'
+		,
+		186
+		'absent'
+		'present'
+		,
+		187
+		'unfused'
+		'fused in adults to form compound posterior process'
+		,
+		188
+		'absent or relatively shallow sulcus with equally defined anterior and posterior borders'
+		'marked groove with an elevated anterior border'
+		'deeply incised canal'
+		'as state 2, but with the facial sulcus being partially or entirely floored, tubular and present along the entire ventral surface of the compound posterior process'
+		,
+		189
+		'facial sulcus runs close to or along the posterior border of the compound posterior process'
+		'facial sulcus located centrally on the ventral surface of the compound posterior process'
+		,
+		190
+		'oriented posterolaterally with respect to the longitudinal axis of the anterior process of the periotic'
+		'oriented at a right angle to the axis of the anterior process'
+		,
+		191
+		'cylindrical or slightly conical'
+		'short and stocky'
+		'flattened anteroposteriorly'
+		'forms a distinct plug'
+		,
+		192
+		'external surface of compound posterior process is absent or poorly defined'
+		'external surface is present but distinct from lateral skull wall'
+		'lateral surface is expanded and firmly integrated into the lateral skull wall'
+		'as state 2, but with the exposed lateral surface of the compound posterior process being concave and defined by a distinct ridge separating it from the ventral surface'
+		,
+		193
+		'massive'
+		'fibrous'
+		'State 2'
+		,
+		194
+		'absent'
+		'present'
+		,
+		195
+		'obliquely truncated'
+		'squared'
+		'rounded'
+		'pointed'
+		,
+		196
+		'absent'
+		'present'
+		,
+		197
+		'diverging posteriorly'
+		'parallel'
+		'diverging anteriorly'
+		,
+		198
+		'located along posterior two thirds of the anteroposterior length of the bulla'
+		'located at roughly one third of the anteroposterior length of the bulla'
+		,
+		199
+		'ventral'
+		'distinctly anteroventral'
+		,
+		200
+		'faces ventrally'
+		'faces ventromedially or medially'
+		,
+		201
+		'concave'
+		'straight or convex'
+		,
+		202
+		'coincident with medial edge of the bulla'
+		'laterally retracted'
+		,
+		203
+		'coincident with posterior margin'
+		'retracted anteriorly'
+		,
+		204
+		'absent'
+		'present'
+		'as state 1, but with the sigmoid process being nearly horizontal'
+		,
+		205
+		'separated from the pedicle of the malleus'
+		'confluent with the pedicle of the malleus'
+		,
+		206
+		'present'
+		'absent, with the lateral margin of the sigmoid process turning smoothly into a sulcus on the lateral side of the bulla'
+		,
+		207
+		'well developed and dorsally convex'
+		'reduced to a low ridge or absent'
+		,
+		208
+		'present'
+		'absent'
+		,
+		209
+		'present as distinct lobe and transversely wider than its lateral counterpart'
+		'present but subequal in width to the lateral lobe or smaller'
+		'absent or indistinct'
+		,
+		210
+		'present'
+		'absent'
+		,
+		211
+		'poorly developed or absent'
+		'well defined and deep'
+		,
+		212
+		'extends laterally from involucrum and partially divides cavum tympani into anterior and posterior portions'
+		'absent'
+		,
+		213
+		'developed as a faint line'
+		'forms a distinct crest or sulcus'
+		,
+		214
+		'forms a semicircular and ventrally curved line well separated from the intersection of the conical and sigmoid processes'
+		'forms a roughly horizontal line at or close to the level of the intersection of the conical and sigmoid processes'
+		,
+		215
+		'transversely convex'
+		'distinctly flattened or slightly concave'
+		,
+		216
+		'broadly rounded'
+		'rounded or flattened'
+		'inflated and forming a distinct lobe'
+		'flattened'
+		,
+		217
+		'absent'
+		'present'
+		,
+		218
+		'situated at or near the posterior border of the bulla'
+		'located far anterior to the posterior end of the bulla'
+		,
+		219
+		'oriented vertically or anteriorly'
+		'reclined posteriorly'
+		,
+		220
+		'similar to lateral surface'
+		'distinctly flattened relative to lateral surface'
+		,
+		221
+		'flat or convex'
+		'distinctly excavated'
+		,
+		222
+		'sutured or fused'
+		'unfused'
+		,
+		223
+		'follows a straight line or simple curve'
+		'sigmoidal owing to a laterally reflexed neck and condyle'
+		,
+		224
+		'bowed medially'
+		'straight'
+		'bowed laterally, but with curvature mainly confined to anterior portion of mandible'
+		'evenly bowed laterally'
+		,
+		225
+		'vertical or slightly twisted, with the ventral edge shifted medially'
+		'apex of mandible shifted to an almost horizontal position'
+		,
+		226
+		'tapering dorsoventrally'
+		'not tapering'
+		,
+		227
+		'height of ramus remains roughly constant throughout'
+		'arched dorsally'
+		'increases in height anteroposteriorly'
+		'dorsoventrally constricted near the centre'
+		'decreasing in height anteroposteriorly, with the anteriormost portion being distinctly expanded'
+		,
+		228
+		'dorsoventral height approximately that of the horizontal ramus, thus forming a mandibular fossa'
+		'dorsoventral height about half that of the horizontal ramus or less'
+		,
+		229
+		'rounded'
+		'sharply triangular'
+		,
+		230
+		'absent'
+		'present'
+		,
+		231
+		'absent or limited to a low rugosity'
+		'present'
+		,
+		232
+		'absent'
+		'present'
+		,
+		233
+		'in line with coronoid process'
+		'posterior to coronoid process'
+		,
+		234
+		'absent or extremely shallow'
+		'present as a well-defined groove medially only'
+		'as state 1, but with the dorsal border of the furrow being accentuated by a medially well-developed condyle'
+		'extends across the posterior surface of the condyle, separating it from the angular process both medially and laterally'
+		,
+		235
+		'forms a broad plate'
+		'forms a broad elevated plate'
+		'distinctly triangular'
+		'distinctly triangular and low'
+		'shaped like a finger and pointing posteriorly'
+		,
+		236
+		'sharply triangular and about as high dorsoventrally as long anteroposteriorly'
+		'bluntly triangular and considerably longer than high'
+		,
+		237
+		'vertical'
+		'bent laterally'
+		,
+		238
+		'absent'
+		'present'
+		,
+		239
+		'hollowed out'
+		'solid'
+		,
+		240
+		'located anterior to mandibular condyle'
+		'located approximately below the condyle'
+		'projects posteriorly beyond the condyle'
+		,
+		241
+		'lower than angular process'
+		'as high or higher'
+		,
+		242
+		'absent'
+		'present'
+		,
+		243
+		'absent'
+		'present'
+		,
+		244
+		'posterior'
+		'posterodorsal'
+		'dorsal, with the condyle being confluent with a dorsoventrally expanded angular process'
+		'dorsal, with the condyle being larger than and clearly offset from the angular process'
+		,
+		245
+		'absent'
+		'present'
+		,
+		246
+		'absent'
+		'present'
+		,
+		247
+		'parapophysis considerably more robust than diapophysis'
+		'parapophysis and diapophysis are similar in size'
+		,
+		248
+		'separate'
+		'partially fused starting from the axis'
+		'completely fused'
+		,
+		249
+		'present'
+		'absent'
+		,
+		250
+		'rounded'
+		'squared'
+		,
+		251
+		'oriented distinctly ventrolaterally'
+		'oriented slightly ventrolaterally or subhorizontally'
+		'oriented laterally and horizontally'
+		,
+		252
+		'flattened or slightly thickened'
+		'robust and triangular, with a dorsoventrally thickened base reaching up to the ventral border of the neural arch'
+		,
+		253
+		'absent'
+		'present'
+		,
+		254
+		'more than 12'
+		'10 to 12'
+		'fewer than 10'
+		,
+		255
+		'oriented dorsally'
+		'oriented anterodorsally or anteriorly'
+		,
+		256
+		'composed of several bones'
+		'composed of one bone'
+		,
+		257
+		'massive'
+		'cordiform or plate-like'
+		'cruciform'
+		'State 3'
+		,
+		258
+		'present'
+		'absent'
+		,
+		259
+		'anteroposterior length of scapula approximately equals or is less than its maximum dorsoventral height'
+		'length of scapula is less than 150 percent its maximum dorsoventral height'
+		'maximum anteroposterior length clearly exceeds its maximum dorsoventral height'
+		'length equals 150 percent of height or more'
+		,
+		260
+		'present'
+		'absent'
+		,
+		261
+		'present'
+		'absent'
+		,
+		262
+		'present'
+		'absent or nearly absent, with acromion process located near anterior edge of scapula'
+		,
+		263
+		'present as a distinct crest'
+		'absent or reduced to a variably developed rugosity'
+		,
+		264
+		'longer than or roughly the same length as radius and ulna'
+		'distinctly shorter than radius and ulna'
+		,
+		265
+		'angled'
+		'proximal to posteroproximal (with the posterior component much smaller than the proximal one)'
+		'vertical'
+		'Posterior to posteroproximal (with the posterior component equal to or much greater than the proximal one'
+		,
+		266
+		'present'
+		'absent'
+		,
+		267
+		'radial and ulnar facets are subequal in size'
+		'radial facet is distinctly larger than ulnar facet, excluding the olecranon'
+		,
+		268
+		'roughly as wide as that of the ulna'
+		'markedly more robust and up to twice as wide as that of the ulna'
+		'twice the width of that of the ulna or wider'
+		,
+		269
+		'present'
+		'absent'
+		,
+		270
+		'present as a distinct tubercle or crest'
+		'absent or reduced to a low angle'
+		,
+		271
+		'narrower than radial shaft or approximately equal in width'
+		'proximal epiphysis is slightly flared'
+		,
+		272
+		'present as a distinct process'
+		'absent'
+		,
+		273
+		'pentadactyl'
+		'tetradactyl'
+		,
+		274
+		'present as a relatively well-developed bone'
+		'absent or reduced to a barely recognisable lump with an extremely rough surface texture'
+		,
+		275
+		'present'
+		'absent'
+		,
+		276
+		'absent'
+		'present and terminate well anterior to umbilicus'
+		'present and extend to umbilicus'
+		,
+		277
+		'absent'
+		'present'
+		,
+		278
+		'muscular'
+		'reduced and predominantly connective tissue'
+		,
+		279
+		'synovial'
+		'fibrocartilagenous mass originates in the glenoid fossa and envelopes the mandibular condyle'
+		,
+		280
+		'absent or indistinct'
+		'single median ridge'
+		'three longitudinal ridges'
+		,
+		281
+		'present as fin or dorsal hump'
+		'absent'
+		,
+		282
+		'42'
+		'44'
+		
+	;
+	MATRIX
+	'Zygorhiza kochii'		                      000000000000000000000000000000000000000000000000000000000000000000010000000000--000000000-000000000010000000000000000001000000000??0000?0000000000??00-00000000000000000?00000000000000000000000000000000000?000000???0000?00000?0000000000-0000000000-0000000000000000000-00000000???????
+	'Cynthiacetus peruvianus'		               000000000000000000000000000000010110000000000010000000000-00000000001000?00000--00001110000000000000100000000000000000000000?0000??00001000001000?0000-000000000000000101000??00?0000000?0000000000000000000?000000?1?000001000000000000000-000000000(0,1)00000000000000000000000000000???????
+	'Archaeodelphis patrius'		                ?0????????0??1010?????1000??????????????0-0010000000?0000?0101?120?00?00000000--0100????0-0?10?0?000?0000010000??????00100000000001000?0000100??????00-000010?0010001120000???????????????00001000????????????????????????????????????????????????????????????????????????????????????????
+	'Simocetus rayii'		                       10100000000101010001000100000111101011?10-0110000000?0000-01111120000000000000--010000000000110000002002001000000001000100000000000001?0000100??????00-00001000000001020100??????????????000001000????????????????????????000001002???00??0?0???????0?????????????????????????????????????
+	'Waipatia maerewhenua'		                  10101102000101010000000100001111100011?11-0111000200?0000-01111120000-00000000--010000--1-101000000020020010000000010001000000000??00120000100???????0-001010000000010200051000000100000?00?001010300000000000?0110???100000000000200000000-000000000?????????????0000000?00100???????????
+	'Squalodon spp'		                         2010000200010101000000-100001011100011011-011100220000000-01111120000-00000010--0100-0--1-101000000010020010000000010001000000000000?120000100????????-00(0,1)010000000010200051000000100000?000001010300000000000001101??100000000000200000000-000000000???????????1??1010000001?????????????
+	'Tursiops truncatus'		                    10100002000111010000002100001012111-12011-001000220000010-01111120000-0---0010--0100-0--1-10110000001011101000001001020100000000010-1120010110001101?0-0111010020000--231051000000200000?000001010300--00000000011010?000000000100200000000-0000000000-0-010001111100100011111000110000000
+	'Physeter macrocephalus'		                1-1011020--111-1000020210-00---3-----2110-001000220000010-010111--000-00----10--1100------1110000000110110111000-001020--1000000000-?12100000000110000-1100010000000--231051000010200000?00310002030000000020010110???100000-00000(0,2)0(0,1)?0?000-0000100000-1-?10021011000100010111100(0,1)10000000
+	'Mystacodon selenensis'		                 00111000000101000000?0???0000010???0000000010010100001001001000000000010000000--000011110000?00?0000210000000?0010101??????????????????????1??000??0??????????????????????????????????????????????????????????????????????0000?0012???00??0-0???????0000?0?????0000000001000100000????????
+	'Llanocetus denticrenatus'		              00111111?00?01?2?11??10001?00121000000?0???00011?00?0?001???100000000110?0?000--0100110?0001100?00?0210000000000301010010000?0011??000001001?1000??000-00?0???01????0?????5???????0???????0000000?0000000000?000000011000000??0????00?000?0-000010000???00?????001????????????????????????
+	'Coronodon havensteini'		                 101011110001111200000001?0001002011101?010000010200???001?00000000100100?21100--0000-?10000000000000200000000000101020010000??0?0??0000?100101??????00-0011001000000?10000000?0100101020?1000010001000000000000000001?100000000001200000000-00??0??0?10001????????????????????????????????
+	'Janjucetus hunderi'		                    0010111200000102000100000?100111111101?012-00000000001??1001000001000000?0?100--000010100000100?0000210000100000000010010?0?10000??00000100100?????0?0-00??00??20000?12??05??????0????????0100000?000?00000????000????000?1000000120000?0?0-000?0??00?????????????????????????????????????
+	'Mammalodon colliveri'		                  00?01122000?111200???000?0101111?1?101?012-100000000??001001000001000000001100--000000100000100?0????????0?0000000001??????????00????0??1001?0?00??0?0-00000010200000120?0500000002010010?????????1000000000???01010??0?00100?01012000000?0-00?????000-0?0?????01?????????????????????????
+	'Fucaia goedertorum'		                    00111111?01?01?20110??000000112?????1??0110000000000??00100100000010110000110100010000100000100000003000000000023010100100003?001??000?010(0,1)100???????0-00000?1020000?02?005??????0????????0??010?0?0?000000??000100???000000110101300?0?0?2-?0?00??000-0?020????3?000?00100?1??0??????????
+	'Aetiocetus cotylalveus'		                001111110010011201100100000011201112120011000000000001001000000000101101001?01000100001?000110000001311000010002000010010000301?00000?00101100?????????????????????????????????????????????10?000?00100000?0?0??00????0000???????????????????????????0-0101001103?????????????????????????
+	'Aetiocetus polydentatus'		               101111110010011201???????0001120111212?01100000000000100100000000010110000110100010000110001100000?1311000010000000020010000301????00?00100100000100???????????????????????????????????????????0??00100000?0?0??10????000?000101013??0000?2-00?????000-010?????03?1??000??00?000??????????
+	'Aetiocetus weltoni'		                    001111110010011201100100000011201??212?011000000000001001000000000101?00?01101000100001?000?10?0000131100001000??????0010000300010000000101100??????0?-0?0010?02000001??0?0???????1???????0101000?301000000000001000??0000000101013000000?2-00?01??00?????????????????????????????????????
+	'ChM pv4745'		                            10?0??1??????1????1??0????00?00?0??0?1?001000010000???00???0???0???0?1??????00--0000?01?0000000??000110100000000001000010000??011??000??100100???????0-00000010010000100?00000?000000020?10??0???0100??0000?????0000??0?00???????1????????????????????????????????????????????????????????
+	'ChM pv5720'		                            1010111010111??2??1000?100001011011111?000?00011100???00??00?000??1??100?11?00--0001-0?0?0?2100?0100?0000?0010001010101000000?????????0?110101??????01-000110100100001000?0000?010100000??????????1001001000???0001????000010?0?0?20000?0?0-00??0???0100??????????????????????????????????
+	'Micromysticetus rothauseni'		            ?????????????????????????????-??????????????????????????????????????????????0???00?00?100??1100?01013?020000000?0010?0010000??001??000??111100???????0-00010010200000000?000000000000020000??0???0???????????????????????????????????????????????????0-0?0????????????????????????????????
+	'Yamatocetus canaliculatus'		             2011111200010112011101011101--?-------?00??00011000101001000000000101110300?010000000010000110000101311200000000001011010000200??0000?00101100000101???????????????????????????????????????00?000?000000000000?0001???0000-1010201000000030-1001100000-000????????10010010101000??????????
+	'Eomysticetus whitmorei'		                2011?112?00???1??????????101--?-------?0???00????00?0????????0000?101110001?0100000000100001100??1013?1200000001201012010000??0????000??101100??????00-00010000200000000?0?0000000001000000000000000?000000000001010??0000-101020?0000000?0-10?????100-00000?????1?0??0011101000??????????
+	'Morenocetus parvus'		                    ???????????????????????????1????????????0100101000????001?00???000100-?????111001101-?--1002100000100?0010011000100102111001??001??1012?100110??????00-10100??1231111120002??????0000000??11000100????????????????????????????????????????????????????????????????????????????????????????
+	'Balaena mysticetus'		                    2111??1010011112011111100101--?-------10010010202-11111011000000001-0-00100011001101----10031000001-01011100100000010212110111?011110?111001100001(0,1)110-001010112311110(1,2)00121010010010001?011000010110111100001112-11101100-1010311010000100--111100311121110000111000010011211000000000000
+	'Eubalaena spp.'		                        10111?1010011112011111100101--?-------100(0,1)0010202-11111011000000001-0-00100(0,1)11001101----100310(0,1)0001001011100100(0,1)0001021210011110111111111001110(0,1)011110-201010-1231111020000001(0,1)000-100000011010010100111110001012-11101100-1010311010000100-1111100311121110010111010110011211110000010010
+	'Caperea marginata'		                     00111?1111011112011121(0,1)01101--?-------00000011100-11111010100000101-0-00210111021111----010301100-0--1100(0,1)11010021012112111120211312?111111111000001020201010(0,1)1241010-10005(0,1)0100002010(0,1)10111003211101101100001112-1111(0,1)101-101031011-10011111111100111?2-02002111110011111011100111000000?
+	'Miocaperea pulchra'		                    00111?111001?1?201112?001101--?-------?0000011100-11??101?100000101-0-01210101--1111----010311110000101000010100200121121110?0211?100110111111??????02120101??1241?10022003??????0??????1?12003(2,3)11????????????????????????-???????????????????????????????????????????????????????????????
+	'Cetotherium rathkii'		                   ?0???10??????11201??21010101--?-------?0010010100201??0011011??01?000-01?00-01101110----0021100?00001?0000000100101022112100201?101001201001?1???????0-2?1????1?40011120003???????20??????120002111110011??0?10?1?????010?-1???3??0???????????????????????????????????????????????????????
+	'Cetotherium riabinini'		                 2011110100011112011?21010101--?-------10010010100001?1001000100010000101000101101111----002110000000110000000000101022112000201???100?2?100111?00001???????????????????????????????????????210021?1111011??0010?1?????110?-10103014101000111-112?0110???1?1102111110011111011100??????????
+	'Piscobalaena nana'		                     2011111201011112011121200201--?-------?0010010100201??001000(0,1)0001--10-01210-01001110----002110000000110000100000101022110100201110100121101111?0000100-0010101121021012000300111102011211112103311101101100001011011110100-101030141010011111112?01111(0,1)01110011??1100111110111001?????????
+	'Herpetocetus morrowi'		                  1011111201011112011?21001201--?-------?0111010100001??00100010001--10101210-110011?0--0-00??10001000211000100000301011121100200?12100110101111??????00-10111111241011010003001000021102111121033?11000011(0,1)0001?11?111?0100-101030141000011111112?1111101?110??1???????1??11?1?????????????
+	'Herpetocetus transatlanticus'		          ??1?????????????????????????????????????????1?????????00???????01?-1?-?????-1???11?0----0?0110?0100021000?10000??????1121100??0?1??0011?101?11??????00-201111112410110100030010000211021011210331110-101100001111011110100????????????????????????????????????????????????????????????????
+	'Herpetocetus bramblei'		                 ?01???????0??1?201???1??12?1--?-------??01??10100?01????1?001???1?-10-01210-11001110----??0?1000100021100010000??????1121100??0?1??001??101?11??????00-20111111241011010?031010000211021?112103311????????????????????????-101030141000011111112?1110?????????????????????????????????????
+	'Diorocetus hiatus'		                     1011111201011112011111000101--?-------00010010100001??0010000000001001?1??010???1111-0000002100?0000110000000001301012113000?00?1??001201011?1??????00-00101011210011022?031110100200011?011110?1120?0011001010110010?0100-1010301000?0112101112?110010?1110?11???1001?????????0??????????
+	'Aglaocetus patulus'		                    1011111201011112011111??0101--?-------?0011010100001??00100?000000100101000101--1111-0000?02100?0000110000000?01301002103000?00?1??00120101111??????00-101010112112110200001110100210001101100001020?0011(0,1)00010111(0,1)1000100?????????????????????????????0?110??0???????????????????????????
+	'Aglaocetus moreni'		                     1011111211011112011121???101--?-------?0011010100001??001000000000100100000101101111-000000200010000110000000000301001103000????1??0???0101111??????00-??????????????????0???????????????????020??????????????????????????-1110301000?0101101111?1000?????????????????????????????????????
+	'Parietobalaena campiniana'		             1?11111?0???11?2?11??101??01--?-------??011010100?0???001?00???0?????1??????01--11??????????10???00011020?001?0??????211000020001??001201011?00?????00-1010000121121001000311?0000201021?011000?1020???111??0?011101??0?01-11?03??001?0101101111?1010??011????????????????????????????????
+	'Parietobalaena palmeri'		                1011?11201011?????1121010101--?-------001??01010000???00???000000010010(0,1)0001011?1111-0000002(0,1)0010000110000001100301012110000200???10012010111(0,1)??????00-101010012412100(1,2)000311100002010211011000110202101111001011101100101-11103010011010110111(1,2)?1000100?1???1????????1??10?1?0???????????
+	'Pelocetus calvertensis'		                10111122010111?2011111000101--?-------?001001010000111001000000000100101000?01101111-00000020001?000110000000001301002103000201?101001201011111000?100-?01?10?1241?11020000??????0????????1100??1?201001111201011101100101-10?03??01010013101111?10000-11120111??11010111101111???????????
+	'Eschrichtius robustus'		                 10111?1110011112011121000101--?-------00000(0,1)3010000111111000000000101-01110111131101----0-0111010000110000000102201112112100201110100120101111100(0,1)?10101110100120001102301411101112000001011000021(0,2)01001110101012-11(0,1)00100-101131111011013111111?002110001201(0,1)0121000111110111101011001001
+	'Megaptera novaeangliae'		                1011111201011112111121000101--?-------000001311(0,1)120111111010100010100-01110001111111----0012100101001110101011013011211040001011101011001111111100?101120101001221010023110111010020100110110020(1,2)1201001111111011101100110-101130101010013101111?0001110112011012111111111011111101211110?
+	'Balaenoptera acutorostrata'		            1011111111011112111121000101--?-------0000013011110111111010100010100-01000101111111----0112110100001111000011113111011040002001101011011111111110?10111110100122101102311(0,2)10101002000011011002010201001110111012-01000110-101130101-10013101111?00001101120110121100111110111101111111101
+	'Balaenoptera physalus'		                 1011111111011112111121000101--?-------0000013111120111111010000010100-01111101111111----0(0,1)12100100001111001011113111011040002011101011011111111110?10101110110122(0,1)0100201121110110201021?011002010201001110111012-01000111-101130101010013101111?00001001120100121100111110111101112111101
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Churchill et al. (2011) 3; Fitzgerald (2006) 2; Fitzgerald (2010) 2; Geisler and Sanders (2003) 3; Kimura and Ozawa (2002) 9; Kimura and Ozawa (2002) 9; Kimura and Hasegawa (2010) 26; Marx (2011) 1;';
+	TEXT CHARACTER=2 TEXT='Bisconti (2008) 140, 142; Churchill et al. (2011) 1, 19; Marx (2011) 2, 52;';
+	TEXT CHARACTER=7 TEXT='Bisconti (2008) 107; Marx (2011) 5;';
+	TEXT CHARACTER=8 TEXT='Churchill et al. (2011) 2; Demere and Berta (2008) 1; Demere et al. (2008) 2; Kimura and Hasegawa (2010) 4;';
+	TEXT CHARACTER=9 TEXT='Bisconti (2008) 106; Fitzgerald (2006) 8; Fitzgerald (2010) 6; Geisler and Sanders (2003) 8; Kimura and Hasegawa (2010) 9; Marx (2011) 7;';
+	TEXT CHARACTER=11 TEXT='Bisconti (2008) 128; Fitzgerald (2006) 100; Fitzgerald (2010) 49; Geisler and Sanders (2003) 110; Kimura and Ozawa (2002) 17; Kimura and Hasegawa (2010) 8; Marx (2011) 9;';
+	TEXT CHARACTER=12 TEXT='Fitzgerald (2006) 5,10; Fitzgerald (2010) 7; Geisler and Sanders (2003) 5,9; Kimura and Hasegawa (2010) 6;';
+	TEXT CHARACTER=13 TEXT='Demere and Berta (2008) 44; Demere et al. (2008) 5; El Adli et al. (2014) 7; Fitzgerald (2006) 11; Fitzgerald (2010) 8; Geisler and Sanders (2003) 10; Kimura and Hasegawa (2010) 25;';
+	TEXT CHARACTER=14 TEXT='Bisconti (2008) 7; Bouetel and Muizon (2006) 9, 10; Demere and Berta (2008) 39; Fitzgerald (2006) 14; Fitzgerald (2010) 10; Geisler and Sanders (2003) 13; Kimura and Hasegawa (2010) 16; Marx (2011) 11;';
+	TEXT CHARACTER=17 TEXT='Churchill et al. (2011) 15; Demere et al. (2008) 17; Kimura and Hasegawa (2010) 23; Marx (2011) 13;';
+	TEXT CHARACTER=18 TEXT='Bisconti (2008) 80; Bouetel and Muizon (2006) 8; Fitzgerald (2006) 16; Fitzgerald (2010) 11; Geisler and Sanders (2003) 15; Kimura and Ozawa (2002) 11; Kimura and Hasegawa (2010) 15; Marx (2011) 16; Steeman (2007) 16;';
+	TEXT CHARACTER=20 TEXT='Fitzgerald (2010) 13;';
+	TEXT CHARACTER=21 TEXT='Demere and Berta (2008) 13; Demere et al. (2008) 96; El Adli et al. (2014) 55; Fitzgerald (2010) 15; Marx (2011) 19;';
+	TEXT CHARACTER=22 TEXT='Bouetel and Muizon (2006) 4; Demere and Berta (2008) 16; Demere et al. (2008) 38; El Adli et al. (2014) 50; Fitzgerald (2006) 18; Fitzgerald (2010) 14; Geisler and Sanders (2003) 17; Kimura and Hasegawa (2010) 11; Marx (2011) 20; Steeman (2007) 2;';
+	TEXT CHARACTER=23 TEXT='Churchill et al. (2011) 29; Demere et al. (2008) 40; El Adli et al. (2014) 53; Fitzgerald (2006) 21; Geisler and Sanders (2003) 20; Kimura and Hasegawa (2010) 32; Marx (2011) 21;';
+	TEXT CHARACTER=25 TEXT='Kimura and Ozawa (2002) 23; Kimura and Hasegawa (2010) 33;';
+	TEXT CHARACTER=28 TEXT='Bisconti (2008) 15; Churchill et al. (2011) 83; Demere and Berta (2008) 42; Demere et al. (2008) 61; El Adli et al. (2014) 119; Fitzgerald (2006) 38; Fitzgerald (2010) 25; Geisler and Sanders (2003) 37; Kimura and Hasegawa (2010) 28; Marx (2011) 25; Steeman (2007) 1;';
+	TEXT CHARACTER=29 TEXT='Bouetel and Muizon (2006) 3; Demere and Berta (2008) 21; Demere et al. (2008) 77; El Adli et al. (2014) 123; Fitzgerald (2006) 25; Fitzgerald (2010) 17; Geisler and Sanders (2003) 24; Kimura and Hasegawa (2010) 30;';
+	TEXT CHARACTER=32 TEXT='Demere and Berta (2008) 22; Demere et al. (2008) 101; El Adli et al. (2014) 121; Fitzgerald (2006) 27; Fitzgerald (2010) 19; Geisler and Sanders (2003) 26;';
+	TEXT CHARACTER=33 TEXT='Fitzgerald (2006) 31; Fitzgerald (2010) 20; Geisler and Sanders (2003) 30;';
+	TEXT CHARACTER=34 TEXT='Fitzgerald (2006) 32; Fitzgerald (2010) 21; Geisler and Sanders (2003) 31;';
+	TEXT CHARACTER=35 TEXT='Fitzgerald (2006) 33; Fitzgerald (2010) 22; Geisler and Sanders (2003) 32;';
+	TEXT CHARACTER=37 TEXT='Demere and Berta (2008) 29; Fitzgerald (2010) 122;';
+	TEXT CHARACTER=38 TEXT='Churchill et al. (2011) 83; Demere and Berta (2008) 23, 32; Demere et al. (2008) 62, 102; El Adli et al. (2014) 120; Fitzgerald (2006) 34; Fitzgerald (2010) 23; Geisler and Sanders (2003) 33; Kimura and Hasegawa (2010) 29;';
+	TEXT CHARACTER=39 TEXT='Bisconti (2008) 56; Churchill et al. (2011) 114; Marx (2011) 26;';
+	TEXT CHARACTER=41 TEXT='Marx (2011) 27;';
+	TEXT CHARACTER=42 TEXT='Bisconti (2008) 110; Bouetel and Muizon (2006) 25; Churchill et al. (2011) 24; El Adli et al. (2014) 30; Fitzgerald (2006) 50; Fitzgerald (2010) 33; Geisler and Sanders (2003) 49; Kimura and Ozawa (2002) 13; Kimura and Hasegawa (2010) 24, 47; Marx (2011) 28, 42; Steeman (207) 9;';
+	TEXT CHARACTER=44 TEXT='Bouetel and Muizon (2006) 29; Fitzgerald (2006) 61; Fitzgerald (2010) 35; Geisler and Sanders (2003) 60; Kimura and Hasegawa (2010) 50, 57; Marx (2011) 30;';
+	TEXT CHARACTER=45 TEXT='Bisconti (2008) 24; Bouetel and Muizon (2006) 28; Churchill et al. (2011) 26; Demere and Berta (2008) 31; Demere et al. (2008) 23; Dooley et al. (2004) 29; El Adli et al. (2014) 32; Fitzgerald (2006) 47; Geisler and Sanders (2003) 46; Kimura and Ozawa (2002) 3; Kimura and Hasegawa (2010) 49; Marx (2011) 31; Steeman (2007) 11;';
+	TEXT CHARACTER=46 TEXT='Bisconti (2008) 108; Bouetel and Muizon (2006) 26; Marx (2011) 33;';
+	TEXT CHARACTER=47 TEXT='Bisconti (2008) 152; Bouetel and Muizon (2006) 27; Demere and Berta (2008) 2; Demere et al. (2008) 22; El Adli et al. (2014) 29; Kimura and Ozawa (2002) 6, 7; Kimura and Hasegawa (2010) 48; Marx (2011) 34; Steeman (2007) 10;';
+	TEXT CHARACTER=50 TEXT='NA FOR TAXA WITH A SUPRAOCCIPITAL PROJECTED TO THE LEVEL OF THE ANTERIOR HALF OF THE SUPRAORBITAL PROCESS OR FURTHER^n^nBisconti (2008) 112; Bouetel and Muizon (2006) 21, 23; Demere et al. (2008) 6; El Adli et al. (2014) 9; Fitzgerald (2006) 83; Fitzgerald (2010) 46; Geisler and Sanders (2003) 80; Marx (2011) 36; Steeman (2007) 4;';
+	TEXT CHARACTER=51 TEXT='Bisconti (2008) 33; Bouetel and Muizon (2006) 1, 33; Churchill et al. (2011) 4, 13, 25; Demere et al. (2008) 1; El Adli et al. (2014) 1; Fitzgerald (2006) 48; Fitzgerald (2010) 32; Geisler and Sanders (2003) 47; Kimura and Ozawa (2002) 8; Kimura and Hasegawa (2010) 53; Marx (2011) 37; Steeman (2007) 3';
+	TEXT CHARACTER=53 TEXT='Demere and Berta (2008) 36;';
+	TEXT CHARACTER=55 TEXT='Bisconti (2008) 119';
+	TEXT CHARACTER=56 TEXT='Bisconti (2008) 118; Churchill et al. (2011) 27; Fitzgerald (2006) 64; Fitzgerald (2010) 36; Geisler and Sanders (2003) 62;';
+	TEXT CHARACTER=57 TEXT='Bisconti (2008) 6, 141?; Bouetel and Muizon (2006) 7; Churchill et al. (2011) 12; Demere and Berta (2008) 29; Demere et al. (2008) 16; El Adli et al. (2014) 23; Fitzgerald (2006) 60; Fitzgerald (2010) 34; Geisler and Sanders (2003) 59; Kimura and Hasegawa (2010) 14; Marx (2011) 39;';
+	TEXT CHARACTER=58 TEXT='Churchill et al. (2011) 14; Demere et al. (2008) 37; El Adli et al. (2014) 49; Marx (2011) 40;';
+	TEXT CHARACTER=59 TEXT='Marx (2011) 4;';
+	TEXT CHARACTER=62 TEXT='Fitzgerald (2006) 70; Fitzgerald (2010) 39; Geisler and Sanders (2003) 68;';
+	TEXT CHARACTER=63 TEXT='Fitzgerald (2006) 71; Fitzgerald (2010) 40; Geisler and Sanders (2003) 69; Kimura and Ozawa (2002) 16; Marx (2011) 43;';
+	TEXT CHARACTER=64 TEXT='Churchill et al. (2011) 15; Demere and Berta (2008) 3; Demere et al. (2008) 17; Dooley et al. (2004) 37; El Adli et al. (2014) 24; Fitzgerald (2006) 78; Fitzgerald (2010) 42; Geisler and Sanders (2003) 76; Kimura and Ozawa (2002) 1; Kimura and Hasegawa (2010) 23; Marx (2011) 44;';
+	TEXT CHARACTER=69 TEXT='Bouetel and Muizon (2006) 14; Demere and Berta (2008) 37; Fitzgerald (2006) 80; Fitzgerald (2010) 44; Kimura and Hasegawa (2010) 19;';
+	TEXT CHARACTER=70 TEXT='El Adli et al. (2014) 8; Fitzgerald (2010) 55;^n^nNA FOR TAXA IN WHICH THE PARIETAL EXPOSURE ON THE VERTEX HAS BEEN OBLITERATED BY TELESCOPING OF THE ROSTRAL BONES AND/OR THE SUPRAOCCIPITAL';
+	TEXT CHARACTER=71 TEXT='Churchill et al. (2011) 17; Demere et al. (2008) 7; El Adli et al. (2014) 10; Kimura and Hasegawa (2010) 40; Marx (2011) 54;';
+	TEXT CHARACTER=73 TEXT='Bisconti (2008) 100; Churchill et al. (2011) 20; Demere et al. (2008) 9; El Adli et al. (2014) 13; Fitzgerald (2006) 106; Fitzgerald (2010) 51; Geisler and Sanders (2003) 116; Kimura and Hasegawa (2010) 42;';
+	TEXT CHARACTER=74 TEXT='Churchill et al. (2011) 22; Demere et al. (2008) 11; El Adli et al. (2014) 15; Kimura and Hasegawa (2010) 43;';
+	TEXT CHARACTER=76 TEXT='Bouetel and Muizon (2006) 20; Churchill et al. (2011) 21; Demere et al. (2008) 10; El Adli et al. (2014) 14; Fitzgerald (2006) 111; Fitzgerald (2010) 53; Geisler and Sanders (2003) 121; Kimura and Hasegawa (2010) 45;^n^nNA FOR TAXA WITH TRANSVERSELY COMPRESSED NASALS';
+	TEXT CHARACTER=77 TEXT='Bisconti (2008) 76; Kimura and Hasegawa (2010) 69; Steeman (2007) 19;';
+	TEXT CHARACTER=78 TEXT='Bisconti (2008) 3, 19, 90; Bouetel and Muizon (2006) 24; Churchill et al. (2011) 23; Demere and Berta (2008) 43; Demere et al. (2008) 79; El Adli et al. (2014) 33; Fitzgerald (2006) 121; Fitzgerald (2010) 58; Geisler and Sanders (2003) 131; Kimura and Hasegawa (2010) 46; Marx (2011) 56;';
+	TEXT CHARACTER=79 TEXT='Bisconti (2008) 131;';
+	TEXT CHARACTER=80 TEXT='Bisconti (2008) 151; Marx (2010) 57;';
+	TEXT CHARACTER=81 TEXT='Bouetel and Muizon (2006) 32; Kimura and Hasegawa (2010) 77; Marx (2011) 58; Steeman (2007) 12;';
+	TEXT CHARACTER=82 TEXT='Bisconti (2008) 126; Demere and Berta (2008) 8; Kimura and Hasegawa (2010) 60; Marx (2011) 59; Steeman (2007) 8;';
+	TEXT CHARACTER=83 TEXT='Bisconti (2008) 71; Bouetel and Muizon (2006) 36; Demere et al. (2008) 24; Dooley et al. (2004) 38; El Adli et al. (2014) 31; Kimura and Hasegawa (2010) 54;';
+	TEXT CHARACTER=84 TEXT='Bisconti (2008) 22; Demere and Berta (2008) 4; Demere et al. (2008) 95; Marx (2011) 61;';
+	TEXT CHARACTER=89 TEXT='Bisconti (2008) 57;';
+	TEXT CHARACTER=90 TEXT='Bisconti (2008) 144; Churchill et al. (2011) 37;^n^nNA FOR TAXA IN WHICH THE SUPRAOCCIPITAL DOES NOT EXTEND ANTERIOR TO THE ZYGOMATIC PROCESS OF THE SQUAMOSAL.';
+	TEXT CHARACTER=91 TEXT='Bisconti (2008) 163; El Adli et al. (2014) 27; Fitzgerald (2006) 123; Geisler and Sanders (2003) 133; Kimura and Ozawa (2002) 28; Kimura and Hasegawa (2010) 21, 56; Marx (2011) 63;';
+	TEXT CHARACTER=92 TEXT='Bisconti (2008) 78; Bouetel and Muizon (2006) 39; Churchill et al. (2011) 49; Demere et al. (2008) 27; El Adli et al. (2014) 37; Fitzgerald (2006) 129; Fitzgerald (2010) 62; Geisler and Sanders (2003) 139; Kimura and Ozawa (2002) 2; Kimura and Hasegawa (2010) 78; Marx (2011) 64; Steeman (2007) 5;';
+	TEXT CHARACTER=93 TEXT='Bisconti (2008) 83; Marx (2011) 65;';
+	TEXT CHARACTER=96 TEXT='Bisconti (2008) 113, 114; Churchill et al. (2011) 32; Marx (2011) 66;';
+	TEXT CHARACTER=98 TEXT='Barnes (2006) 61; Bisconti (2008) 37; Bouetel and Muizon (2006) 41; Churchill et al. (2011) 44; Kimura and Ozawa (2002) 20; Kimura and Hasegawa (2010) 63; Steeman (2007) 17;';
+	TEXT CHARACTER=99 TEXT='Bisconti (2008) 91; Bouetel and Muizon (2006) 42; Churchill et al. (2011) 45; Demere et al. (2008) 30; El Adli et al. (2014) 40; Fitzgerald (2006) 132; Fitzgerald (2010) 63; Geisler and Sanders (2003) 142; Kimura and Hasegawa (2010) 64; Marx (2011) 67;';
+	TEXT CHARACTER=100 TEXT='Demere and Berta (2008) 10; El Adli et al. (2014) 45; Fitzgerald (2010) 64; Marx (2011) 68;';
+	TEXT CHARACTER=102 TEXT='Bisconti (2008) 93; Bouetel and Muizon (2006) 31; Churchill et al. (2011) 46; Demere and Berta (2008) 11; Demere et al. (2008) 21; El Adli et al. (2014) 28; Fitzgerald (2010) 65; Kimura and Ozawa (2002) 21; Kimura and Hasegawa (2010) 62; Marx (2011) 69;';
+	TEXT CHARACTER=104 TEXT='Bisconti (2008) 18, 158; Bouetel and Muizon (2006) 43; Kimura and Hasegawa (2010) 65; Marx (2011) 70;';
+	TEXT CHARACTER=105 TEXT='Bisconti (2008) 35; Churchill et al. (2011) 42; Demere et al. (2008) 33; El Adli et al. (2014) 43; Kimura and Ozawa (2002) 19; Kimura and Hasegawa (2010) 71; Marx (2011) 71;';
+	TEXT CHARACTER=106 TEXT='Bisconti (2008) 143; Bouetel and Muizon (2006) 37; Churchill et al. (2011) 38';
+	TEXT CHARACTER=107 TEXT='Churchill et al. (2011) 40; Fitzgerald (2006) 139; Geisler and Sanders (2003) 149;';
+	TEXT CHARACTER=108 TEXT='Demere et al. (2008) 34; El Adli et al. (2014) 44; Fitzgerald (2006) 135; Fitzgerald (2010) 66; Geisler and Sanders (2003) 145; Kimura and Hasegawa (2010) 73; Marx (2011) 72;';
+	TEXT CHARACTER=109 TEXT='El Adli et al. (2014) 41;';
+	TEXT CHARACTER=110 TEXT='Bisconti (2008) 69; Churchill et al. (2011) 43; Demere et al. (2008) 32; El Adli et al. (2014) 42; Kimura and Hasegawa (2010) 70; Marx (2011) 75;';
+	TEXT CHARACTER=112 TEXT='Marx (2011) 76;';
+	TEXT CHARACTER=113 TEXT='Bisconti (2008) 62; Churchill et al. (2011) 50; Demere et al. (2008) 29; El Adli et al. (2014) 39; Kimura and Hasegawa (2010) 81; Marx (2011) 77;';
+	TEXT CHARACTER=114 TEXT='Bisconti (2008) 63; Bouetel and Muizon (2006) 53; Churchill et al. (2011) 51; Demere et al. (2008) 28; El Adli et al. (2014) 38; Fitzgerald (2006) 142; Fitzgerald (2010) 68; Geisler and Sanders (2003) 152; Kimura and Hasegawa (2010) 79;';
+	TEXT CHARACTER=116 TEXT='Bisconti (2008) 157; Churchill et al. (2011) 55;';
+	TEXT CHARACTER=117 TEXT='Bouetel and Muizon (2006) 40; Churchill et al. (2011) 54; Fitzgerald (2006) 145; Fitzgerald (2010) 70; Geisler and Sanders (2003) 155; Kimura and Hasegawa (2010) 82;';
+	TEXT CHARACTER=118 TEXT='Bouetel and Muizon (2006) 45, 48; Churchill et al. (2011) 48; Fitzgerald (2006) 141; Fitzgerald (2010) 67; Geisler and Sanders (2003) 151; Marx (2011) 73;';
+	TEXT CHARACTER=120 TEXT='Bouetel and Muizon (2006) 46; Kimura and Hasegawa (2010) 67; Marx (2011) 74;';
+	TEXT CHARACTER=122 TEXT='Bouetel and Muizon (2006) 47; Kimura and Hasegawa (2010) 68;';
+	TEXT CHARACTER=125 TEXT='Bisconti (2008) 129; Demere and Berta (2008) 14; Demere et al. (2008) 97; El Adli et al. (2014) 54; Kimura and Ozawa (2002) 24; Kimura and Hasegawa (2010) 34;';
+	TEXT CHARACTER=126 TEXT='Bisconti (2008) 46; Churchill et al. (2011) 30; Demere and Berta (2008) 15; Demere et al. (2008) 39; El Adli et al. (2014) 52, 57; Fitzgerald (2006) 149; Geisler and Sanders (2003) 159; Kimura and Ozawa (2002) 18; Kimura and Hasegawa (2010) 31; Marx (2011) 79; Steeman (2007) 22;';
+	TEXT CHARACTER=127 TEXT='Bisconti (2008) 2; Fitzgerald (2006) 153; Fitzgerald (2010) 72; Geisler and Sanders (2003) 163;';
+	TEXT CHARACTER=129 TEXT='Fitzgerald (2006) 157; Fitzgerald (2010) 73; Geisler and Sanders (2003) 167;';
+	TEXT CHARACTER=130 TEXT='Churchill et al. (2011) 31; Demere et al. (2008) 80; El Adli et al. (2014) 58; Kimura and Hasegawa (2010) 35;';
+	TEXT CHARACTER=132 TEXT='Bisconti (2008) 11, 117; Demere et al. (2008) 35; El Adli et al. (2014) 47; Kimura and Hasegawa (2010) 76; Marx (2011) 80;';
+	TEXT CHARACTER=134 TEXT='Fitzgerald (2006) 168; Fitzgerald (2010) 74; Geisler and Sanders (2003) 178;';
+	TEXT CHARACTER=137 TEXT='Bisconti (2008) 8; Bouetel and Muizon (2006) 51; Churchill et al. (2011) 34; Demere et al. (2008) 42; El Adli et al. (2014) 59; Fitzgerald (2006) 181; Fitzgerald (2010) 76; Geisler and Sanders (2003) 191; Kimura and Hasegawa (2010) 84; Marx (2011) 81; Steeman (2007) 21;';
+	TEXT CHARACTER=139 TEXT='Demere and Berta (2008) 18; Fitzgerald (2006) 184; Fitzgerald (2010) 77; Geisler and Sanders (2003) 194; Marx (2011) 82;';
+	TEXT CHARACTER=142 TEXT='Bouetel and Muizon (2006) 55; Churchill et al. (2011) 35; Demere et al. (2008) 43; El Adli et al. (2014) 60; Fitzgerald (2006) 187; Fitzgerald (2010) 78; Geisler and Sanders (2003) 197; Kimura and Ozawa (2002) 29; Kimura and Hasegawa (2010) 83; Marx (2011) 83;';
+	TEXT CHARACTER=143 TEXT='Churchill et al. (2011) 91;';
+	TEXT CHARACTER=144 TEXT='Demere et al. (2008) 91; El Adli et al. (2014) 128;';
+	TEXT CHARACTER=148 TEXT='Demere et al. (2008) 92; El Adli et al. (2014) 129; Kimura and Hasegawa (2010) 155;';
+	TEXT CHARACTER=151 TEXT='Bisconti (2008) 99; Ekdale et al. (2011) 19; El Adli et al. (2014) 79;^n^nNA FOR TAXA IN WHICH THE PARS COCHLEARIS IS NOT CRANIALLY ELONGATED';
+	TEXT CHARACTER=152 TEXT='Bisconti (2008) 86; Bouetel and Muizon (2006) 70; Ekdale et al. (2011) 20; El Adli et al. (2014) 80; Fitzgerald (2006) 191; Geisler and Sanders (2003) 201; Kimura and Hasegawa (2010) 88;';
+	TEXT CHARACTER=153 TEXT='Bisconti (2008) 86; Bouetel and Muizon (2006) 70; Ekdale et al. (2011) 20; Fitzgerald (2006) 191; Geisler and Sanders (2003) 201; Kimura and Hasegawa (2010) 88;';
+	TEXT CHARACTER=154 TEXT='Bouetel and Muizon (2006) 64; Fitzgerald (2006) 192; Fitzgerald (2010) 80; Geisler and Sanders (2003) 202; Kimura and Hasegawa (2010) 87;';
+	TEXT CHARACTER=155 TEXT='Fitzgerald (2006) 198; Fitzgerald (2010) 84; Geisler and Sanders (2003) 208;';
+	TEXT CHARACTER=156 TEXT='Bouetel and Muizon (2006) 63; Dooley et al. (2004) 1; Ekdale et al. (2011) 37; El Adli et al. (2014) 95; Fitzgerald (2006) 193; Fitzgerald (2010) 81; Geisler and Sanders (2003) 203; Kimura and Ozawa (2002) 51; Kimura and Hasegawa (2010) 86;';
+	TEXT CHARACTER=157 TEXT='Bouetel and Muizon (2006) 65; Ekdale et al. (2011) 23; El Adli et al. (2014) 83; Fitzgerald (2006) 195, 196; Fitzgerald (2010) 82; Geisler and Sanders (2003) 205, 206;';
+	TEXT CHARACTER=158 TEXT='Ekdale et al. (2011) 24; Fitzgerald (2006) 225; Fitzgerald (2010) 103; Geisler and Sanders (2003) 235;';
+	TEXT CHARACTER=159 TEXT='Bisconti (2008) 29; Churchill et al. (2011) 63; Dooley et al. (2004) 3, 6; Fitzgerald (2006) 245; Fitzgerald (2010) 114; Geisler and Sanders (2003) 255; Kimura and Ozawa (2002) 53; Marx (2011) 85;';
+	TEXT CHARACTER=160 TEXT='Fitzgerald (2006) 199; Geisler and Sanders (2003) 209;';
+	TEXT CHARACTER=163 TEXT='Bouetel and Muizon (2006) 69; Dooley et al. (2004) 4; Fitzgerald (2010) 85; Kimura and Ozawa (2002) 54; Marx (86); Steeman (2007) 28;';
+	TEXT CHARACTER=164 TEXT='Bisconti (2008) 27; Bouetel and Muizon (2006) 78; Dooley et al. (2004) 9; Ekdale et al. (2011) 43; El Adli et al. (2014) 100; Fitzgerald (2006) 204; Fitzgerald (2010) 86; Geisler and Sanders (2003) 214; Kimura and Ozawa (2002) 58; Kimura and Hasegawa (2010) 96; Steeman (2007) 42;';
+	TEXT CHARACTER=165 TEXT='Bisconti (2008) 148; Bouetel and Muizon (2006) 80; Churchill et al. (2011) 72; Demere et al. (2008) 48; Dooley et al. (2004) 7; Ekdale et al. (2011) 28; El Adli et al. (2014) 87; Fitzgerald (2006) 207; Fitzgerald (2010) 88; Geisler and Sanders (2003) 217; Kimura and Ozawa (2002) 56; Kimura and Hasegawa (2010) 98;';
+	TEXT CHARACTER=167 TEXT='Fitzgerald (2006) 209; Fitzgerald (2010) 90; Geisler and Sanders (2003) 219;';
+	TEXT CHARACTER=168 TEXT='Bisconti (2008) 89?; Bouetel and Muizon (2006) 81; Churchill et al. (2011) 70; Demere et al. (2008) 49; Dooley et al. (2004) 13; Ekdale et al. (2011) 29; El Adli et al. (2014) 88; Kimura and Ozawa (2002) 62; Kimura and Hasegawa (2010) 99;';
+	TEXT CHARACTER=170 TEXT='Steeman (2007) 31;';
+	TEXT CHARACTER=172 TEXT='Marx (2011) 88; Steeman (2007) 39;';
+	TEXT CHARACTER=173 TEXT='Ekdale et al. (2011) 38; El Adli et al. (2014) 96;';
+	TEXT CHARACTER=177 TEXT='Fitzgerald (2006) 217; Geisler and Sanders (2003) 227; Marx (2011) 89;';
+	TEXT CHARACTER=178 TEXT='Bisconti (2008) 92; Demere et al. (2008) 51; Dooley et al. (2004) 21; Ekdale et al. (2011) 32; El Adli et al. (2014) 90; Fitzgerald (2006) 218; Fitzgerald (2010) 96; Geisler and Sanders (2003) 228; Kimura and Ozawa (2002) 70; Kimura and Hasegawa (2010) 95;';
+	TEXT CHARACTER=179 TEXT='Bisconti (2008) 1; Bouetel and Muizon (2006) 71; Demere et al. (2008) 50; Dooley et al. (2004) 18; Ekdale et al. (2011) 33; El Adli et al. (2014) 91; Kimura and Ozawa (2002) 67;';
+	TEXT CHARACTER=180 TEXT='Ekdale et al. (2011) 24; El Adli et al. (2014) 84;';
+	TEXT CHARACTER=181 TEXT='Bisconti (2008) 65; Bouetel and Muizon (2006) 72; Churchill et al. (2011) 71; Ekdale et al. (2011) 35; El Adli et al. (2014) 93; Fitzgerald (2006) 226; Fitzgerald (2010) 104; Geisler and Sanders (2003) 236; Kimura and Hasegawa (2010) 102;';
+	TEXT CHARACTER=182 TEXT='Bouetel and Muizon (2006) 74;';
+	TEXT CHARACTER=183 TEXT='Bouetel and Muizon (2006) 75; Demere et al. (2008) 52; Dooley et al. (2004) 20; Ekdale et al. (2011) 47; Fitzgerald (2006) 228; Fitzgerald (2010) 105; Geisler and Sanders (2003) 238; Kimura and Ozawa (2002) 69; Kimura and Hasegawa (2010) 105; Marx (2011) 90;';
+	TEXT CHARACTER=184 TEXT='Ekdale et al. (2011) 40; El Adli et al. (2014) 97;';
+	TEXT CHARACTER=187 TEXT='Bisconti (2008) 28; Bouetel and Muizon (2006) 62; Dooley et al. (2004) 27; Fitzgerald (2006) 231; Fitzgerald (2010) 107; Geisler and Sanders (2003) 241; Kimura and Ozawa (2002) 76; Kimura and Hasegawa (2010) 110; Marx (2011) 91; Steeman (2007) 37;';
+	TEXT CHARACTER=188 TEXT='Bisconti (2008) 105?; Bouetel and Muizon (2006) 83; Dooley et al. (2004) 26; Fitzgerald (2006) 234; Fitzgerald (2010) 108; Geisler and Sanders (2003) 244; Kimura and Ozawa (2002) 75; Kimura and Hasegawa (2010) 111; Marx (2011) 92;';
+	TEXT CHARACTER=190 TEXT='Churchill et al. (2011) 64; Dooley et al. (2004) 22; Ekdale et al. (2011) 25; Fitzgerald (2006) 236; Fitzgerald (2010) 110; Geisler and Sanders (2003) 246; Kimura and Ozawa (2002) 71; Kimura and Hasegawa (2010) 108;';
+	TEXT CHARACTER=191 TEXT='Bouetel and Muizon (2006) 85; Fitzgerald (2006) 238, 254; Geisler and Sanders (2003) 248, 264; Kimura and Hasegawa (2010) 113; Marx (2011) 93;';
+	TEXT CHARACTER=192 TEXT='Bouetel and Muizon (2006) 86; Dooley et al. (2004) 28; El Adli et al. (2014) 103; Fitzgerald (2006) 239; Fitzgerald (2010) 112; Geisler and Sanders (2003) 249; Kimura and Ozawa (2002) 77; Kimura and Hasegawa (2010) 107; Marx (2010) 93;';
+	TEXT CHARACTER=193 TEXT='Whitmore and Kaltenbach (2008)';
+	TEXT CHARACTER=194 TEXT='Churchill et al. (2011) 67; Dooley et al. (2004) 24; Fitzgerald (2006) 237; Fitzgerald (2010) 111; Geisler and Sanders (2003) 247; Kimura and Ozawa (2002) 73; Kimura and Hasegawa (2010) 109; Marx (2010) 94; Steeman (2007) 36;';
+	TEXT CHARACTER=195 TEXT='Churchill et al. (2011) 57; Ekdale et al. (2011) 1;';
+	TEXT CHARACTER=196 TEXT='El Adli et al. (2014) 62; Fitzgerald (2006) 241; Fitzgerald (2010) 113; Geisler and Sanders (2003) 251; Kimura and Hasegawa (2010) 119; Steeman (2007) 48, 49;';
+	TEXT CHARACTER=197 TEXT='Bouetel and Muizon (2006) 56; Kimura and Hasegawa (2010) 115; Marx (2011) 95;';
+	TEXT CHARACTER=198 TEXT='Ekdale et al. (2011) 14; El Adli et al. (2014) 74;';
+	TEXT CHARACTER=200 TEXT='Bouetel and Muizon (2006) 61; Marx (2011) 96;';
+	TEXT CHARACTER=202 TEXT='Ekdale et al. (2011) 6; El Adli et al. (2014) 67;';
+	TEXT CHARACTER=206 TEXT='Fitzgerald (2006) 249; Fitzgerald (2010) 115; Geisler and Sanders (2003) 259; Kimura and Hasegawa (2010) 120; Marx (2011) 97; Steeman (2007) 45;';
+	TEXT CHARACTER=207 TEXT='Churchill et al. (2011) 62; Ekdale et al. (2011) 8; El Adli et al. (2014) 69;';
+	TEXT CHARACTER=208 TEXT='Fitzgerald (2006) 251; Geisler and Sanders (2003) 261; Marx (2011) 98;';
+	TEXT CHARACTER=212 TEXT='Bisconti (2008) 154; Fitzgerald (2006) 262; Fitzgerald (2010) 118; Geisler and Sanders (2003) 272; Marx (2011) 103;';
+	TEXT CHARACTER=215 TEXT='Bisconti (2008) 41; Bouetel and Muizon (2006) 60; Churchill et al. (2011) 58; Demere et al. (2008) 44; Ekdale et al. (2011) 2; El Adli et al. (2014) 63; Kimura and Ozawa (2002) 31; Kimura and Hasegawa (2010) 119; Marx (2011) 104; Steeman (2007) 53;';
+	TEXT CHARACTER=216 TEXT='Bisconti (2008) 44; Steeman (2007) 46;';
+	TEXT CHARACTER=217 TEXT='Ekdale et al. (2011) 7; El Adli et al. (2014) 68;';
+	TEXT CHARACTER=218 TEXT='Ekdale et al. (2011) 10;';
+	TEXT CHARACTER=219 TEXT='Fitzgerald (2009) based on Mitchell (1989)';
+	TEXT CHARACTER=220 TEXT='Bouetel and Muizon (2006) 91; El Adli et al. (2014) 110; Kimura and Ozawa (2002) 42; Kimura and Hasegawa (2010) 124; Marx (2011) 105;';
+	TEXT CHARACTER=222 TEXT='Bisconti (2008) 9; Bouetel and Muizon (2006) 88; Churchill et al. (2011) 82; Demere and Berta (2008) 26; Demere et al. (2008) 53; El Adli et al. (2014) 104; Fitzgerald (2006) 41; Fitzgerald (2010) 26; Geisler and Sanders (2003) 40; Kimura and Ozawa (2002) 33; Kimura and Hasegawa (2010) 121; Marx (2011) 106;';
+	TEXT CHARACTER=223 TEXT='Demere et al. (2008) 55; El Adli et al. (2014) 105; Marx (2011) 108;';
+	TEXT CHARACTER=224 TEXT='Bisconti (2008) 21; Bouetel and Muizon (2006) 87; Churchill et al. (2011) 76; Demere and Berta (2008) 25; Demere et al. (2008) 57; El Adli et al. (2014) 106; Fitzgerald (2006) 43; Fitzgerald (2010) 27; Geisler and Sanders (2003) 42; Kimura and Ozawa (2002) 37; Kimura and Hasegawa (2010) 125; Marx (2011) 109; Steeman (2007) 55;';
+	TEXT CHARACTER=225 TEXT='Bisconti (2008) 50; Bouetel and Muizon (2006) 89; Churchill et al. (2011) 78; Demere et al. (2008) 89; El Adli et al. (2014) 109; Kimura and Ozawa (2002) 39; Kimura and Hasegawa (2010) 122; Marx (2011) 110; Steeman (2007) 60;';
+	TEXT CHARACTER=227 TEXT='Bisconti (2008) 95; Bouetel and Muizon (2006) 90; Churchill et al. (2011) 77; Dooley et al. (2004) 34; El Adli et al. (2014) 117; Fitzgerald (2006) 39; Fitzgerald (2010) 120; Geisler and Sanders (2003) 38; Kimura and Ozawa (2002) 36, 43; Kimura and Hasegawa (2010) 123, 127; Marx (2010) 111;';
+	TEXT CHARACTER=228 TEXT='Bisconti (2008) 26, 159; Bouetel and Muizon (2006) 98; Demere et al. (2008) 58; El Adli et al. (2014) 107; Fitzgerald (2006) 44; Fitzgerald (2010) 28; Geisler and Sanders (2003) 43; Kimura and Ozawa (2002) 38; Kimura and Hasegawa (2010) 132; Marx (2011) 112; Steeman (2007) 58;';
+	TEXT CHARACTER=229 TEXT='Bisconti (2008) 160; Marx (2011) 113;^n^nNA FOR TAXA IN WHICH THE DORSOVENTRAL COMPRESSION OF THE MANDIBULAR FORAMEN OBSCURES THE OUTLINE OF ITS ANTERIOR BORDER';
+	TEXT CHARACTER=231 TEXT='Marx (2011) 114, from Bisconti and Varola (2006)';
+	TEXT CHARACTER=233 TEXT='Bouetel and Muizon (2006) 97; Demere et al. (2008) 87; El Adli et al. (2014) 111; Kimura and Hasegawa (2010) 130; Marx (2011) 115; Steeman (2007) 58;';
+	TEXT CHARACTER=234 TEXT='Bouetel and Muizon (2006) 96; Demere et al. (2008) 86; El Adli et al. (2014) 112; Kimura and Hasegawa (2010) 138; Marx (2011) 116; Steeman (2007) 59;';
+	TEXT CHARACTER=235 TEXT='Bisconti (2008) 32; Bouetel and Muizon (2006) 92; Churchill et al. (2011) 81; Demere and Berta (2008) 27; Demere et al. (2008) 60; Dooley et al. (2004) 30; El Adli et al. (2014) 107; Fitzgerald (2006) 45; Fitzgerald (2010) 29; Geisler and Sanders (2003) 44; Kimura and Ozawa (2002) 34; Kimura and Hasegawa (2010) 128; Marx (2011) 117; Steeman (2007) 56;';
+	TEXT CHARACTER=238 TEXT='Demere et al. (2008) 82; Kimura and Hasegawa (2010) 131; Marx (2011) 118;';
+	TEXT CHARACTER=242 TEXT='Demere et al. (2008) 84; El Adli et al. (2014) 114; Kimura and Hasegawa (2010) 135;';
+	TEXT CHARACTER=244 TEXT='Bisconti (2008) 38; Bouetel and Muizon (2006) 99; Churchill et al. (2011) 80; Demere et al. (2008) 59; El Adli et al. (2014) 113; Fitzgerald (2010) 30; Kimura and Ozawa (2002) 35; Kimura and Hasegawa (2010) 136; Marx (2011) 119;';
+	TEXT CHARACTER=248 TEXT='Bisconti (2008) 48; Churchill et al. (2011) 93; Demere et al. (2008) 63; Dooley et al. (2004) 36; El Adli et al. (2014) 124; Geisler and Sanders (2003) 278, 279; Kimura and Ozawa (2002) 45; Kimura and Hasegawa (2010) 139; Marx (2011) 124; Steeman (2007) 62;';
+	TEXT CHARACTER=249 TEXT='Steeman (2007) 69;';
+	TEXT CHARACTER=250 TEXT='Kimura and Hasegawa (2010) 143; Steeman (2007) 67;';
+	TEXT CHARACTER=251 TEXT='Churchill et al. (2011) 96; Geisler and Sanders (2003) 284;';
+	TEXT CHARACTER=254 TEXT='Churchill et al. (2011) 95; Geisler and Sanders (2003) 287;';
+	TEXT CHARACTER=256 TEXT='Bisconti (2008) 13; Demere et al. (2008) 90; El Adli et al. (2014) 127; Geisler and Sanders (2003) 290; Kimura and Hasegawa (2010) 154; Marx (2011) 125;';
+	TEXT CHARACTER=259 TEXT='Bisconti (2008) 68; Kimura and Hasegawa (2010) 147;';
+	TEXT CHARACTER=260 TEXT='Bisconti (2008) 97; Churchill et al. (2011) 99; Demere et al. (2008) 65; Geisler and Sanders (2003) 292; Kimura and Ozawa (2002) 48; Kimura and Hasegawa (2010) 146; Marx (2011) 127;';
+	TEXT CHARACTER=261 TEXT='Bisconti (2008) 98; Churchill et al. (2011) 98; Demere et al. (2008) 64; Kimura and Hasegawa (2010) 145; Marx (2011) 128;';
+	TEXT CHARACTER=262 TEXT='Churchill et al. (2011) 97; Geisler and Sanders (2003) 293;';
+	TEXT CHARACTER=263 TEXT='Churchill et al. (2011) 102; Geisler and Sanders (2003) 294, 295; Kimura and Hasegawa (2010) 148;';
+	TEXT CHARACTER=265 TEXT='Churchill et al. (2011) 101;';
+	TEXT CHARACTER=272 TEXT='Churchill et al. (2011) 104, 105; Geisler and Sanders (2003) 298; Marx (2011) 130;';
+	TEXT CHARACTER=273 TEXT='Bisconti (2008) 70; Churchill et al. (2011) 106; Demere et al. (2008) 67; Dooley et al. (2004) 35; El Adli et al. (2014) 126; Geisler and Sanders (2003) 299; Kimura and Ozawa (2002) 49; Kimura and Hasegawa (2010) 151; Marx (2011) 131;';
+	TEXT CHARACTER=276 TEXT='Bisconti (2008) 52; Churchill et al. (2011) 112; Demere et al. (2008) 69; Geisler and Sanders (2003) 301; Kimura and Hasegawa (2010) 159; Marx (2011) 132;';
+	TEXT CHARACTER=277 TEXT='Churchill et al. (2011) 110; Demere et al. (2008) 70; Kimura and Hasegawa (2010) 160; Marx (2011) 133;';
+	TEXT CHARACTER=278 TEXT='Churchill et al. (2011) 109; Demere et al. (2008) 75; Kimura and Hasegawa (2010) 161; Marx (2011) 134;';
+	TEXT CHARACTER=279 TEXT='Marx (2011) 135;';
+	TEXT CHARACTER=280 TEXT='Demere et al. (2008) 76; Kimura and Hasegawa (2010) 158; Marx (2011) 136;';
+	TEXT CHARACTER=281 TEXT='Bisconti (2008) 51; Churchill et al. (2011) 115; Demere et al. (2008) 68; Geisler and Sanders (2003) 304; Marx (2011) 137;';
+	TEXT CHARACTER=282 TEXT='Churchill et al. (2011) 119;';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 7 - 8 45 47 50 68 75 92 99 112 117 120 127 135 192 197 204 209 224 234 248 251 254 280, unord: 2 - 6 9 - 44 46 48 - 49 51 - 67 69 - 74 76 - 91 93 - 98 100 - 111 113 - 116 118 - 119 121 - 126 128 - 134 136 - 191 193 - 196 198 - 203 205 - 208 210 - 223 225 - 233 235 - 247 249 - 250 252 - 253 255 - 279 281 - 282;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1541772531872; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6094093471137440091; tell It; setDefaultOrder 0 1 3 2 4 5 6 7 8 9 18 10 11 12 14 13 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3576081586813229968; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 13 14 15 18 19 20 21 22 23 24 25 26 27 12 32 33 34 35 30 35 36 37 38 39 40 42 43 44 45 46 47 48 51 52 53 55 56 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 73 74 75 76 78 79 80 81 82 30 83 84 85 86 87 88 89 95 96 90 91 96 93 96 97 98 99 102 103 104 105 106 107 109 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 134 135 136 137 138 139 132 139 140 141 142 145 146 147 148 149 153 143 153 154 155 156 160 149 150 160 157 161 161 162 163 164 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 186 190 191 192 182 191 192 193 194 197 198 199 200 201 188 201 201 202 203 204 205 206 207 208 209 210 213 214 215 216 217 218 211 218 219 220 221 222 223 224 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 225 243 244 245 246 247 248 249 252 253 256 257 258 258 259 254 263 264 264 265 267 274 275 275 276 277 278 279 280 285 286 268 269 293 294 295 296 297 298 299 300 301 281 272 281 282 300 301 302 303 304 305 306 307 308 309 310; attachments ; endTell; mqVersion 310; checksumv 0 3 3956100514 null getNumChars 282 numChars 282 getNumTaxa 43 numTaxa 43 short true bits 63 states 63 sumSquaresStatesOnly 42964.0 sumSquares 42964.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 181; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1438 818; setLocation 1527 -270; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #6094093471137440091 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #6094093471137440091; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1257 746; setLocation 1527 -270; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3576081586813229968 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 146; endTell; setExplanationSize 30; setAnnotationSize 60; setFontIncAnnot 0; setFontIncExp 0; setSize 1257 706; setLocation 1527 -270; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.QuickKeySelector.QuickKeySelector.quickKeySelector; endTell; setActive; setTool mesquite.charMatrices.QuickKeySelector.QuickKeySelector.quickKeySelector; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel on; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 639; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1257 746; setLocation 1527 -270; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabDown; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #3576081586813229968 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1257 746; setLocation 1527 -270; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 282; 
+ENDBLOCK;

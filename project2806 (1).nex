@@ -1,0 +1,155 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 05.10.09 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Ochrogaster lunifer'
+		'Thaumetopoea pityocampa'
+		'Thaumetopoea pityocampa orana'
+		'Thaumetopoea pityocampa ENA'
+		'Thaumetopoea wilkinsoni'
+		'Thaumetopoea herculeana'
+		'Thaumetopoea herculeana judea'
+		'Thaumetopoea solitaria'
+		'Thaumetopoea solitaria iranica'
+		'Thaumetopoea processionea'
+		'Thaumetopoea processionea pseudosolitaria'
+		'Thaumetopoea bonjeani'
+		'Thaumetopoea pinivora'
+		'Thaumetopoea libanotica'
+		'Thaumetopoea ispartaensis'
+		'Thaumetopoea sedirica'
+		'Thaumetopoea torosica'
+		'Thaumetopoea cheela'
+		'Thaumetopoea jordana'
+		'Thaumetopoea dhofarensis'
+		'Thaumetopoea apologetica'
+		'Thaumetopoea apologetica abyssinica'
+		'Gazalina apsara'
+		'Gazalina chrysolopha'
+		'Gazalina transversa'
+		'Paradrallia rhodesi'
+		'Paradrallia punctigera'
+		'Anaphe panda'
+		'Anaphe panda infracta'
+		'Anaphe venata'
+		'Anaphe etiennei'
+		'Epanaphe subsordida'
+		'Epanaphe nigricincta'
+		'Epanaphe moloney'
+		'Epanaphe carteri'
+		'Hypsoides antsianakana'
+		'Hypsoides placidus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=6;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'Urticating setae on larva'
+		 [2] 'Pupation site'
+		 [3] 'Larval seasonal activity'
+		 [4] 'Host plant group'
+		 [5] 'Host plant family'
+		 [6] 'Zoogeoagraphical Region'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'into soil'
+		'tent'
+		'on litter'
+		,
+		3
+		'winter'
+		'summer'
+		,
+		4
+		'Gymnosperm'
+		'Angiosperm'
+		,
+		5
+		'Anacardiaceae'
+		'Betulaceae + Fagaceae'
+		'Capparaceae'
+		'Cistaceae'
+		'Fagaceae'
+		'Gentianaceae'
+		'Fabaceae'
+		'Myrtaceae + Fabaceae'
+		'polyphagous'
+		'Pinaceae'
+		,
+		6
+		'Afrotropical'
+		'Australian'
+		'Oriental'
+		'Palaearctic'
+		
+	;
+	MATRIX
+	'Ochrogaster lunifer'		                                121171
+	'Thaumetopoea pityocampa'		                            100093
+	'Thaumetopoea pityocampa orana'		                      100093
+	'Thaumetopoea pityocampa ENA'		                        10?093
+	'Thaumetopoea wilkinsoni'		                            100093
+	'Thaumetopoea herculeana'		                            101133
+	'Thaumetopoea herculeana judea'		                      ?????3
+	'Thaumetopoea solitaria'		                             121103
+	'Thaumetopoea solitaria iranica'		                     121103
+	'Thaumetopoea processionea'		                          111143
+	'Thaumetopoea processionea pseudosolitaria'		          111143
+	'Thaumetopoea bonjeani'		                              101093
+	'Thaumetopoea pinivora'		                              101093
+	'Thaumetopoea libanotica'		                            101093
+	'Thaumetopoea ispartaensis'		                          101093
+	'Thaumetopoea sedirica'		                              ?01093
+	'Thaumetopoea torosica'		                              ?01093
+	'Thaumetopoea cheela'		                                ????93
+	'Thaumetopoea jordana'		                               100103
+	'Thaumetopoea dhofarensis'		                           ?????0
+	'Thaumetopoea apologetica'		                           ???120
+	'Thaumetopoea apologetica abyssinica'		                ???120
+	'Gazalina apsara'		                                    ???112
+	'Gazalina chrysolopha'		                               ???112
+	'Gazalina transversa'		                                ???112
+	'Paradrallia rhodesi'		                                ???160
+	'Paradrallia punctigera'		                             ???160
+	'Anaphe panda'		                                       01?180
+	'Anaphe panda infracta'		                              01?180
+	'Anaphe venata'		                                      01?180
+	'Anaphe etiennei'		                                    01?180
+	'Epanaphe subsordida'		                                ???180
+	'Epanaphe nigricincta'		                               ???140
+	'Epanaphe moloney'		                                   ???140
+	'Epanaphe carteri'		                                   ???140
+	'Hypsoides antsianakana'		                             ????50
+	'Hypsoides placidus'		                                 ????50
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 6;
+      ENDBLOCK;
+      BEGIN CODONS;
+ CODESET * UNTITLED (CHARACTERS = DNA_Matrix) = universal: 1 - 6348; 
+ENDBLOCK;
+BEGIN LABELS;
+ TAXAGROUPLABEL Ochrogaster COLOR = (RGB 0.56862745 0.56862745 0.56862745) ; TAXAGROUPLABEL Thaumetopoea COLOR = (RGB 0.92156863 0.6 1) ; TAXAGROUPLABEL Gazalina COLOR = (RGB 0.4 0.52156863 1) ; TAXAGROUPLABEL Paradrallia COLOR = (RGB 1 1 0.63529412) ; TAXAGROUPLABEL Anaphe COLOR = (RGB 1 0.77254902 0.43529412) ; TAXAGROUPLABEL Epanaphe COLOR = (RGB 0.78039216 1 0.63529412) ; TAXAGROUPLABEL Hypsoides COLOR = (RGB 0.56862745 0.91372549 1) ; CHARGROUPLABEL Head COLOR = (RGB 0.70196078 0.51764706 0.39607843) ; CHARGROUPLABEL Thorax COLOR = (RGB 1 1 0.63529412) ; CHARGROUPLABEL Abdomen COLOR = (RGB 1 0.67843137 0.46666667) ; CHARGROUPLABEL Forewing COLOR = (RGB 0.36862745 0.49411765 1) ; CHARGROUPLABEL Hindwing COLOR = (RGB 0.6 0.92156863 1) ; CHARGROUPLABEL Genitalia COLOR = (RGB 0.46666667 1 0.46666667) ; CHARGROUPLABEL Aedeagus COLOR = (RGB 0.8 1 0.8) ; CHARGROUPLABEL mtDNA COLOR = (RGB 1 0.6 0.76078431) ; CHARGROUPLABEL Larvae COLOR = (RGB 1 0.03529412 0.41960784) ; CHARGROUPLABEL Biogeography COLOR = (RGB 0.41176471 1 0.26666667) ; CHARGROUPLABEL Host_plant COLOR = (RGB 0.73333333 0.66666667 1) ; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = Morpho_Matrix) = 'Mk1 (est.)': 1 - 165; ProbModelSet * UNTITLED (CHARACTERS = DNA_Matrix) = 'Jukes-Cantor': 1 - 6348; ProbModelSet * UNTITLED (CHARACTERS = Ecology_&_Biology) = 'Mk1 (est.)': 1 - 6; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Ochrogaster : 1, Thaumetopoea : 2 - 22, Gazalina : 23 - 25, Paradrallia : 26 - 27, Anaphe : 28 - 31, Epanaphe : 32 - 35, Hypsoides : 36 - 37; CHARPARTITION * UNTITLED (CHARACTERS = Morpho_Matrix) = Head : 1 - 21, Thorax : 22 - 27, Abdomen : 28 - 36, Forewing : 37 - 92, Hindwing : 93 - 106, Genitalia : 107 - 152, Aedeagus : 153 - 165; CHARPARTITION * UNTITLED (CHARACTERS = DNA_Matrix) = mtDNA : 1 - 6348; CHARPARTITION * UNTITLED (CHARACTERS = Ecology_&_Biology) = Larvae : 1 - 3, Host_plant : 4 - 5, Biogeography : 6; 
+ENDBLOCK;

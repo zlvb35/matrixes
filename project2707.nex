@@ -1,0 +1,390 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.29.58 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=64;
+    TAXLABELS
+    		'Acidaspis cincinnatiensis'
+		'Diacanthaspis cooperi'
+		'Diacanthaspis scitula'
+		'Exallaspis bufo'
+		'Exallaspis acarescola'
+		'Exallaspis coronata'
+		'Exallaspis deflexa'
+		'Exallaspis cf. illinoiensis'
+		'Exallaspis lothiana'
+		'Exallaspis muldensis'
+		'Exallaspis mutica'
+		'Exallaspis quadrimucronata 1'
+		'Exallaspis quadrimucronata 2'
+		'Exallaspis varbolensis'
+		'Kettneraspis belli'
+		'Kettneraspis beni'
+		'Kettneraspis besti'
+		'Kettneraspis bispinosa'
+		'Kettneraspis boltoni'
+		'Kettneraspis centrina'
+		'Kettneraspis chacaltayana'
+		'Kettneraspis clavata'
+		'Kettneraspis crenata crenata'
+		'Kettneraspis crenata angelini'
+		'Kettneraspis crenata brutoni'
+		'Kettneraspis dormitzeri'
+		'Kettneraspis ''elliptica'''
+		'Kettneraspis franconica'
+		'Kettneraspis geinitziana'
+		'Kettneraspis hirta'
+		'Kettneraspis jaanussoni'
+		'Kettneraspis lenzi'
+		'Kettneraspis leridae'
+		'Kettneraspis leucothea'
+		'Kettneraspis longstaffei'
+		'Kettneraspis myops'
+		'Kettneraspis orphana'
+		'Kettneraspis parkini'
+		'Kettneraspis pigra pigra'
+		'Kettneraspis pigra ornata'
+		'Kettneraspis rattei'
+		'Kettneraspis risbeyi'
+		'Kettneraspis tuberculata tuberculata'
+		'Kettneraspis tuberculata favonia'
+		'Kettneraspis wellingtonensis'
+		'Kettneraspis williamsi a'
+		'Kettneraspis williamsi b'
+		'Kettneraspis cf. williamsi'
+		'Kettneraspis sp. A'
+		'Kettneraspis sp. nov. NSW'
+		'Leonaspis argentea'
+		'Leonaspis belisarius'
+		'Leonaspis britannica'
+		'Leonaspis confluens'
+		'Leonaspis ezellina'
+		'Leonaspis glabrata'
+		'Leonaspis hastata'
+		'Leonaspis hoernesi'
+		'Leonaspis jenkinsi'
+		'Leonaspis lochkovensis'
+		'Leonaspis leonhardi'
+		'Leonaspis maura'
+		'Leonaspis truncata'
+		'Meadowtownella ascita'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Anterior border tubercles'
+		 [2] 'Sutural convergence'
+		 [3] 'Sutural concavity'
+		 [4] 'Eye position'
+		 [5] 'Size L2/L1'
+		 [6] 'Glabellar sculpture'
+		 [7] 'Paired occipital spines'
+		 [8] 'Occipital organ'
+		 [9] 'Median occipital structure'
+		 [10] 'S1 laterally'
+		 [11] 'Frontal lobe width'
+		 [12] 'Fixigena width'
+		 [13] 'Occipital lobes'
+		 [14] 'Hypostome width'
+		 [15] 'Posterolateral spines'
+		 [16] 'Border spines'
+		 [17] 'Dorsal spines'
+		 [18] 'Genal spine length'
+		 [19] 'Genal spine stoutness'
+		 [20] 'Border spine shape'
+		 [21] 'Marginal curvature'
+		 [22] 'Eye height'
+		 [23] 'Tubercle distribution'
+		 [24] 'Epiborder tubercles'
+		 [25] 'Anterior pleural spines'
+		 [26] 'Posterior pleural spine length'
+		 [27] 'Axial tubercles'
+		 [28] 'Spine pattern'
+		 [29] 'Number of thoracic segments'
+		 [30] 'Width of axis'
+		 [31] 'Medial spine number'
+		 [32] 'Lateral spine number'
+		 [33] 'Width of ''terminal piece'''
+		 [34] 'Position of pleural ridge'
+		 [35] 'Posterior border'
+	;
+	STATELABELS
+		1
+		'absent'
+		'single row of 10-20 symmetrically set'
+		'numerous, irregular row'
+		,
+		2
+		'Less than or equal to 0-10 degrees'
+		'11 degrees or more'
+		,
+		3
+		'concave'
+		'straight or convex'
+		,
+		4
+		'opposite S0'
+		'op. back 1/3 of L1'
+		'op. mid 1/3 of L1'
+		'op. ant. 1/3 of L1 or farther forward'
+		'eye absent'
+		,
+		5
+		'Less than or equal to 52% [25-52%]'
+		'Greater than or equal to 53% [53-92%]'
+		,
+		6
+		'tubercles'
+		'spines'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'small tubercle (including virtually smooth)'
+		'short spine (less than sag. length of occipital ring)'
+		'long spine (more than sag. length of occipital ring)'
+		,
+		10
+		'deep'
+		'shallow'
+		,
+		11
+		'40-57%'
+		'58-80%'
+		,
+		12
+		'absent'
+		'5-16%'
+		'17-25%'
+		,
+		13
+		'distinct'
+		'otherwise'
+		,
+		14
+		'1.05-1.27'
+		'1.28-1.58'
+		,
+		15
+		'present'
+		'clearly absent'
+		,
+		16
+		'10-11'
+		'12-13'
+		'14-15'
+		'16 or more'
+		,
+		17
+		'0'
+		'1'
+		'2 or more'
+		,
+		18
+		'shorter'
+		'longer'
+		,
+		19
+		'<30%'
+		'Greater than or equal to 30%'
+		,
+		20
+		'all spines conical, taper distally'
+		'spines parallel-sided, pointed tips, to anterior spines rectangular or expanded distally, truncated tips'
+		,
+		21
+		'strongly reentrant (adaxial)'
+		'weakly reentrant (abaxial)'
+		,
+		22
+		'height equal to or greater than width'
+		'height less than width'
+		'no visual surface'
+		,
+		23
+		'evenly distributed'
+		'concentrated near eye'
+		'otherwise unevenly distributed'
+		'smooth'
+		,
+		24
+		'fewer than 3'
+		'row of 3-6 similarly spaced'
+		'irregular pattern without well defined major row'
+		'no epiborder tubercles'
+		,
+		25
+		'single spine or no spine, just ridge'
+		'branching spine'
+		'''barbed'''
+		'row of tubercles on anterior edge'
+		,
+		26
+		'length greater than distance from sagittal line to fulcrum'
+		'less than ditto'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'1-3'
+		'3-5'
+		'5-7'
+		,
+		29
+		'10'
+		'9'
+		'2: 8-9 [ = K. williamsi type A ]'
+		,
+		30
+		'20-40%'
+		'41-45%'
+		,
+		31
+		'2'
+		'4'
+		'6'
+		,
+		32
+		'0'
+		'2'
+		'4'
+		'6 or more'
+		,
+		33
+		'50-72%'
+		'73-90%'
+		,
+		34
+		'separated from second axial ring'
+		'adjacent to this ring'
+		,
+		35
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Acidaspis cincinnatiensis'		                     01010011200201110101111300000013?00
+	'Diacanthaspis cooperi'		                         1112110?10121011?1011001300??023011
+	'Diacanthaspis scitula'		                         1113?10?10121011?1011?01300??023011
+	'Exallaspis bufo'		                               0101001000020111001011130110?011000
+	'Exallaspis acarescola'		                         0?01001?0002011?00101?33?1100011000
+	'Exallaspis coronata'		                           01010?1?00020????0101????????01100?
+	'Exallaspis deflexa'		                            0101001?00??011001101??3001100010?0
+	'Exallaspis cf. illinoiensis'		                   010100???0020??????????3?????011000
+	'Exallaspis lothiana'		                           01?1001??0020??2001011?301?00011000
+	'Exallaspis muldensis'		                          010100???0020111001011130?1?0011000
+	'Exallaspis mutica'		                             010100100002011?00101133?1?00011000
+	'Exallaspis quadrimucronata 1'		                  01010010000201100010111301100011000
+	'Exallaspis quadrimucronata 2'		                  01010?1?000201?100101?1301100011000
+	'Exallaspis varbolensis'		                        0101001000020??20???1????????011000
+	'Kettneraspis belli'		                            11?2000?10(0,1)11012?1010?01000??000?11
+	'Kettneraspis beni'		                             110(0,1)001?20011??321010?01?????003100
+	'Kettneraspis besti'		                            11(0,1)1?0??20011??1?1010?01??0??001111
+	'Kettneraspis bispinosa'		                        111010??00010??12??11011??0??003111
+	'Kettneraspis boltoni'		                          1101000?200?1??2(1,2)10100010?0??002?11
+	'Kettneraspis centrina'		                         111110??00120??3010?1????0?21002111
+	'Kettneraspis chacaltayana'		                     11?11????00?????21011????0011?03?1?
+	'Kettneraspis clavata'		                          111010??0011100121011021100??002011
+	'Kettneraspis crenata crenata'		                  111000111011100101011010101?1101111
+	'Kettneraspis crenata angelini'		                 1111100110?110010101101110021101111
+	'Kettneraspis crenata brutoni'		                  1111100?10111??101011011?0021101111
+	'Kettneraspis dormitzeri'		                       ?111100?101100??010?1?1?00021002111
+	'Kettneraspis ''elliptica'''		                    1110100?2001?0?12101101110011003111
+	'Kettneraspis franconica'		                       1114100??0121??1?????2???????003111
+	'Kettneraspis geinitziana'		                      111010??0001?????1???????????00?111
+	'Kettneraspis hirta'		                            11101????011???1?1011?11?0021002111
+	'Kettneraspis jaanussoni'		                       110100?000?(1,2)00010101?011001?1002001
+	'Kettneraspis lenzi'		                            1100100?00011002010110010001?0011(0,1)1
+	'Kettneraspis leridae'		                          ???11???00?20??2?10?101??00?100311?
+	'Kettneraspis leucothea'		                        ?110100??0111??22?011?11100?1002111
+	'Kettneraspis longstaffei'		                      1101000?20011?130(0,1)01000100011003010
+	'Kettneraspis myops'		                            1104?00??1121??1010?1211?0?2110??1?
+	'Kettneraspis orphana'		                          11111?0?1012?????10?1?????0??001101
+	'Kettneraspis parkini'		                          1110?00000010??1010?10111?0??002111
+	'Kettneraspis pigra pigra'		                      1110101?00010??1010?1?11000?1003111
+	'Kettneraspis pigra ornata'		                     1??1101??011????0?0?1?1??????003111
+	'Kettneraspis rattei'		                           111110??00?1???10101101?10021003111
+	'Kettneraspis risbeyi'		                          ?1?100??00121??1???01???00???001?01
+	'Kettneraspis tuberculata tuberculata'		          1110000?2001?0112101101110021002011
+	'Kettneraspis tuberculata favonia'		              111000??20010??121011?11100??002111
+	'Kettneraspis wellingtonensis'		                  1110000?1001?00121011?11100??0031?1
+	'Kettneraspis williamsi a'		                      1110000?0001(0,1)01121011?111001(1,2)002011
+	'Kettneraspis williamsi b'		                      1110000?00011??1?101100210012002111
+	'Kettneraspis cf. williamsi'		                    11100001101110?12101100?100??002111
+	'Kettneraspis sp. A'		                            1111000110010??121011000000??000111
+	'Kettneraspis sp. nov. NSW'		                     1110100100?100?121011011100??003111
+	'Leonaspis argentea'		                            2000?01001110????????????????012101
+	'Leonaspis belisarius'		                          ?00000??2111???201011?121?00?011101
+	'Leonaspis britannica'		                          2000?00?11111??10101111100011011100
+	'Leonaspis confluens'		                           2000001?01110???????1????????011?01
+	'Leonaspis ezellina'		                            2000101000110????????????????01?101
+	'Leonaspis glabrata'		                            000?00100110?????????????????012100
+	'Leonaspis hastata'		                             2000001001110????????????????011100
+	'Leonaspis hoernesi'		                            ?0?0101?11100??1010?1012?0011012101
+	'Leonaspis jenkinsi'		                            000010??00110??2010?1?0?10011012101
+	'Leonaspis lochkovensis'		                        2000?01001110??200?110120100101210(0,1)
+	'Leonaspis leonhardi'		                           2000?010001100?21001100201001012101
+	'Leonaspis maura'		                               2000001?0111???10?0?1?12?????01?100
+	'Leonaspis truncata'		                            0000?01?01100??101011012???????????
+	'Meadowtownella ascita'		                         010100100002011300111103011??013010
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The presence and nature of tubercles on the anterior border is divided into three distinct states. This is an easily identified character, and the confidence in assigned states is high.^nOntogeny. In the earliest meraspid stages of Kettneraspis there are four spines on the anterior border {clavata, lenzi, longstaffei). A row of prominent, spinose tubercles is then present on the anterior border of Kettneraspis from early meraspid stages and onward (clavata, cf. williamsi, Mackenzie spp.). In all these species the anterior border spines decrease in prominence during ontogeny. In Exallaspis the border is smooth at least from early meraspid stages on. In Leonaspis the ontogeny of this character, as of the following characters, is unknown.^nOutgroup comparison. Diacanthaspis: the border is spinose, usually carrying a single row of spines of tubercles. Meadowtownella: The border is smooth (with a minute granulation).';
+	TEXT CHARACTER=2 TEXT='The angle of convergence (forward) of the anterior branch of the facial suture, between alpha and gamma, to the sagittal line, times two. This is measured in dorsal view. With deflections from the true dorsal view the angle will change (decrease in posterior tilt, increase in anterior tilt of specimen). In several species measured from photographs, in particular those with strong convergence, the confidence in the angular measurement is low. This has caused the division of this potentially multidivisible character into only two states. For these the confidence in state assignments are high.^nOntogeny. In Kettneraspis and Exallaspis the sutures converge strongly in early meraspides, and from late meraspides onward the angle has approximately reached the adult state.^nOutgroup comparison. The sutures converge strongly in Diacanthaspis and Meadowtownella.';
+	TEXT CHARACTER=3 TEXT='The anterior branch of the facial suture may curve inward opposite the lateral border furrow, causing a weak concavity in the lateral cranidial margin immediately behind the anterolateral cranidial corner. Some quality of preservation and illustration is necessary to determine the course of the suture, and confidence in state assignments is low in several species.^nOntogeny. There is a sutural concavity from meraspid stages onward in Exallaspis and in some Kettneraspis (Mackenzie spp.) In other Kettneraspis the sutures are straight or convex in early stages (clavata, cf. williamsi).^nOutgroup comparison. Diacanthaspis; concavity absent (state 1). Meadowtownella: present (state 0).';
+	TEXT CHARACTER=4 TEXT='This is the position of the centre of the eye/palpebral lobe relative to the lateral lobes and furrows of the glabella, as seen in dorsal view. With deviation from a strict dorsal view the apparent eye position will vary slightly. This deviation increases with the height of the eyes.^nOntogeny. In Exallaspis the palpebral lobe is opposite S3 in the protaspid, opposite S2 to L2 in early meraspides, and it migrates posteriorly during ontogeny. In Kettneraspis the palpebral lobe is approximately opposite S1 to L2 in early meraspid stages, after which it migrates posteriorly.^nOutgroup comparison. Diacanthaspis: the palpebral lobe is opposite anterior one-third to mid L1. Meadowtownella: it is opposite mid L1 to occipital furrow.';
+	TEXT CHARACTER=5 TEXT='This is the ratio of the size of L2 to L1. It is measured as the L2 lobe length times width over ditto for L1 (exsag., trans.). Width measurements are made in the bottom of the axial and longitudinal furrows, and length measurements at the lobe margins. These places of measurement yield the most reproducible results. In particular the apparent size of L2 is influenced by specimen tilt (lobe size decreases with anterior tilt), and in some species, in particular of Leonaspis, the anterior margin of L1 is indistinct. Measured values are therefore in many cases approximate, and state assignments sometimes ambiguous.^nOntogeny. In Exallaspis and Kettneraspis L1 and L2 are of subequal size in early meraspides, the relative size of L1 then increases during ontogeny, and from probably holaspid stages the adult state is reached.^nOutgroup comparison. Diacanthaspis: L2 is only slightly smaller than L1. Meadowtownella: L2 is considerably smaller than L1.';
+	TEXT CHARACTER=6 TEXT='Ontogeny. In Exallaspis the sculpture consists of tubercles that become lower during ontogeny. In Kettneraspis the sculpture consists of spines that become relatively lower during ontogeny, usually to end up as tubercles.^nOutgroup comparison. Diacanthaspis: The glabellar sculp- ture consists of short spines. Meadowtownella: The glabellar tubercles are hemispherically shaped or short, cylindrical with rounded top in most species. In some Meadowtownella (the stratigraphically earliest), the tubercles are quite tall.';
+	TEXT CHARACTER=7 TEXT='These may be paired spines on the posterior margin of the occipital lobe, or low tubercles in the same position. In some species these tubercles are very small, and can only be seen in well preserved specimens (e.g. K. elliptica). State assignments to ''present'' are always correct, but there is accordingly a possibility that assignments to ''absent'' may occasionally be in error.^nOntogeny. In Exallaspis there are no paired spines in protaspid or early meraspid stages onward. In some Kettneraspis such spines are tiny or absent in early meraspides, and, if present, recognisable only as small tubercles in adults (clavata, cf. williamsi, beni, boltoni, longstaffei), sometimes a bit more prominent (belli), or they may be long in early meraspides, and then gradually become smaller to be completely lost in adults (jaanussoni, lenzi).^nOutgroup comparison. Paired spines are present in Diacanthaspis, but are absent in Meadowtownella.';
+	TEXT CHARACTER=8 TEXT='This is the presence of four pits forming a square on an elevated, median area of the occipital ring. When this area is elevated into an occipital spine the occipital organ may be retained on the tip of the spine. It is uncertain if all unpaired, occipital spines originate from the same place, and it is possible that in some taxa the occipital organ may be set anterior to the occipital spine, as it is in Acidaspis. Median, occipital spines are usually broken, and absence of an occipital organ cannot be confirmed. State assignments to ''present'' are, however, always unambiguous.^nOntogeny. It is not clear whether or not an occipital organ is present in early stages of Exallaspis. In Kettneraspis species with an occipital organ in adults, this is present at least from early adult stages, and possibly in a modified form from early meraspid stages (lenzi).^nOutgroup comparison. An occipital organ is always present in Meadowtownella, and in at least some species of Diacanthaspis (cooperi, orandensis, ulrichi).';
+	TEXT CHARACTER=9 TEXT='This structure may range in size from virtually non-existent (K. parkini) via a tubercle to a long spine. When the occipital spine is broken it may be impossible to know whether the spine was originally long or short and the feasible state assignment is in effect a non-state 0 assignment. Such assignments cannot be entered into the phylogenetic analysis, and the state must be given as unknown.^nOntogeny. The median tubercle in Exallaspis is of similar relative height during ontogeny. In Kettneraspisthere is commonly a long median spine in early stages. It usually decreases in length during ontogeny, from a long spine to a tubercle (clavata, cf. williamsi, belli) or to a short spine (longstaffei). Sometimes there is almost no reduction in length (beni, boltoni). In Kettneraspis species with a very short, truncated median spine in meraspides, this is reduced to a tubercle in adults (jaanussoni, lenzi).^nOutgroup comparison. A tall tubercle or a short, blunt spine is present in Diacanthaspis. A median tubercle is present in Meadowtownella.';
+	TEXT CHARACTER=10 TEXT='This is the depth of S1 where it joins the axial furrow. The depth is a relative character, but efforts have been made to standardise the concepts of ''deep'' and ''shallow''. The apparent depth is influenced by photographic technique, but state assignments are ambiguous only for a small number of possible intermediate depths.^nOntogeny. In Exallaspis S1 is deep laterally throughout ontogeny. In Kettneraspis S1 is very shallow in early meraspides, and it then becomes progressively deeper during ontogeny.^nOutgroup comparison. S1 is deep laterally in Meadowtownella and in Diacanthaspi';
+	TEXT CHARACTER=11 TEXT='This is expressed as the maximum width of the frontal lobe over the width of the glabella across L1. Sometimes the anterolateral corner of the frontal lobe merges smoothly with the ocular ridge, making the lateral limit of the lobe indistinct, but in general the width can be measured with high precision.^nOntogeny. The frontal lobe becomes relatively narrower during ontogeny in Exallaspis and Kettneraspis due to the increasing size of L1, but there are no conspicuous changes in the width of the frontal lobe compared to the width of the median lobe or the occipital ring.^nOutgroup comparison. The frontal lobe is narrow (tr.) in Meadowtownella (usually 40-55%) and wide in Diacanthaspis (usually 60-75%).';
+	TEXT CHARACTER=12 TEXT='This is measured as the width of the fixigenal field opposite gamma over the width of the glabella. Measurements are made between bottom of furrows.^nOntogeny. The fixigenal field is very wide in protaspid and meraspid stages of Exallaspis, but from early holaspid stages it has reached the narrower adult state. In Kettneraspis the fixigenal field is fairly wide in early meraspides only, and far from as wide as in meraspid Exallaspis.^nOutgroup comparison. Approximate values are: Meadowtownella 16-22%; Diacanthaspis 20-25%. In some Diacanthaspis (e.g. decacantha) the fixigenal field is very wide, and one species, Diacanthaspistrippi, is blind and lacks sutures, so the fixigenal field extends to the lateral border furrow.';
+	TEXT CHARACTER=13 TEXT='Distinct occipital lobes are characteris- tic of acidaspidines, e.g. Exallaspis. In Kettneraspis there is a varying development of occipital lobes, and they have been regarded as present only when they are distinct. There are several border-line cases where assignments to state 1 (''otherwise'') are ambiguous.^nOntogeny. Well defined occipital lobes occur in adult stages only.^nOntgroup comparison. The occipital lobes are well developed in Meadowtownella, and present though much less distinct in Diacanthaspis.';
+	TEXT CHARACTER=14 TEXT='This is measured as the width across the shoulders over the length (sag.).^nOntogeny. In Kettneraspis the hypostome becomes narrower during the holaspid ontogeny, i.e. in K. crenata angelini the width/length ratio decreases from 1.35 to 1.18 (small to large holaspis); in K. lenzi from 1.60 to 1.16 (meraspis to holaspis), and in K. jaanussoni from 1.55 to 1.13 (degree 0 meraspis to holaspis).^nOutgroup comparison. The given ranges of ratios are somewhat approximate since some are from juvenile specimens. Diacanthaspis: 1.19-1.32. Meadowtownella: 1.29-1.44.';
+	TEXT CHARACTER=15 TEXT='There is sometimes a pair of spines at the posterolateral corners of the hypostome. They are visible in well preserved material only. State assignments to ''present'' are unambiguous, and ''absent'' has been coded only for very well preserved material.                                                                                                                  Ontogeny. When spines are present in Kettneraspis, they appear to become a little less pronounced during holaspid ontogeny (clavata, crenata angelini), though in K. lenzi they may be about equally distinct. In K. jaanussoni they are absent in a degree 0 meraspis, but distinct in a degree 4 meraspis as well as in adults.^nOutgroup comparison. Diacanthaspis: posterolateral marginal spines are present in some species. Meadowtownella: spines are absent. ^n';
+	TEXT CHARACTER=16 TEXT='The number of border spines. All ventrally directed marginal spines in the row have been included, also, when present, the two on the ventral side of the genal spine. This character is discussed in detail above (Section 3.1.1).^nOntogeny. In Kettneraspis lenzi there is no change in number of border spines from mid meraspid stages to adults.^nOutgroup comparison. Diacanthaspis: 12-16. Meadowtownella: 13-17';
+	TEXT CHARACTER=17 TEXT='The number of dorsal marginal spines on the base of the genal spine.^nOntogeny. In Kettneraspis clavata there are four spines in both small and large holaspides. In K. lenzi there are two small spines in meraspides that are gradually lost in adults.^nOutgroup comparison. Diacanthaspis: 1-3, varying from small to large. Meadowtownella: complete absence.';
+	TEXT CHARACTER=18 TEXT='The length of genal spine from its tip to the posterior termination of the facial suture compared with length of cheek from back to front of facial suture.^nOntogeny. In K. lenzi the length of the genal spine decreases from meraspid to holaspid stages. In Exallaspis there is a decrease in length from small to large holaspides. Outgroup comparison. Diacanthaspis: long (state 1). Meadowtownella: short (state 0)';
+	TEXT CHARACTER=19 TEXT='The width of the base of the genal spine relative to the length of the genal spine. The width is measured between points of maximum curvature on inside and outside of base of spine, when viewed perpendicular to the main external surface of the cheek.^nOntogeny. In Kettneraspis {clavata, lenzi) there is an increase in this ratio from meraspid to holaspid stages. In Exallaspis there is an increase in this ratio from small to large holaspides.^nOutgroup comparison. Diacanthaspis: thin base (state 0). Meadowtownella: wide base (state 1)';
+	TEXT CHARACTER=20 TEXT='The shape of the border spines varies depending on position in the row. The two states for this character are, however, separated by a morphological hiatus.^nOntogeny. In Kettneraspis clavata the shape of the spines change from long, slender, cylindrical, with pointed to rounded tips in early holaspides via intermediates to very short, truncated subrectangular, distally inflated in large specimens. Changes in K. crenata angelini parallels those of clavata but are slower, so that adult c. angelini resemble intermediate stages of holaspides of clavata. Development in K. jaanussoni is similar. In Exallaspis the spines change from long and slender to short and almost subtriangular.^nOutgroup comparison. In both Diacanthaspis and Meadowtownella the border spines are subparallel-sided, with rounded to pointed tips.';
+	TEXT CHARACTER=21 TEXT='The lateral margin of the free cheek may be weakly or strongly reentrant in front of the genal spine, i.e., the marginal curvature, when extrapolated, cuts the base of the genal spine in front of (abaxial to) or behind (adaxial to) the back of the facial suture. Exterior views are usually necessary to determine this.^nOntogeny. In Kettneraspis lenzi the margin is strongly reentrant in meraspid stages, but weakly so in adults. In K. boltoni, a species with strongly reentrant margin in adults, the margin is strongly reentrant also in juveniles. In K. clavata the margin is considerably more reentrant in juveniles than in adults. In K. jaanussoni, however, the margin is more strongly reentrant in adults than in early meraspides.^nOutgroup comparison. Diacanthaspis: the margin is weakly reentrant, but far from as weakly as in Meadowtownella. It should be noted that in Odontopleura (Sinespinaspis) the margin is strongly reentrant in a manner exceedingly similar to that in Kettneraspis species with such a margin.';
+	TEXT CHARACTER=22 TEXT='The height of the visual surface is compared to its width in exterior view of the cheek.^nOntogeny. In Kettneraspis (clavata, jaanussoni, lenzi, boltoni) the visual surface is low in juveniles and tall in adults.^nOutgroup comparison. Diacanthaspis:tall (state 0), but not as tall as in Kettneraspis. Meadowtownella: low (state 1).';
+	TEXT CHARACTER=23 TEXT='This is the distribution of tubercles on the field of the free cheek.                                                            Ontogeny. In meraspides of Kettneraspis lenzi tubercles first appear close under the eye, more tubercles are then added as the field of cheek increases in size, and tubercles are soon evenly distributed. In K. boltoni tubercles are evenly distrubuted in juveniles as well as in adults. In K. clavata, which is unique in possessing state 2 in adults, tubercles are concentrated near the eye in juveniles (state 1), in slightly larger specimens they are evenly distributed (state 0), and in adults there is a progressive concentration of tubercles in the lateral border furrow and beneath the eye whereas tubercles in the field of the cheek are lost.^nOutgroup comparison. Tubercles are fairly evenly dis- tributed in both Diacanthaspis and Meadowtownella';
+	TEXT CHARACTER=24 TEXT='The epiborder tubercles are usually readily identifiable. In species with dense tubercula- tion on the lateral border they may be difficult to distinguish from other tubercles.^nOntogeny. Discounting the tubercle centrally on the base of the genal spine, there are three to five epiborder tubercles in juvenile Kettneraspis clavata, whereas there are only three in adults. In K. lenzi there are four epiborder tubercles in meraspides and early holaspids, whereas in later stages additional tubercles appear between the original ones. These additional tubercles increase in relative size parallel to a decrease in size of the epiborder tubercles, so that in adults they are of equal size, and the epiborder tubercles cannot be identified without access to the ontogeny. In Exallaspis, there are three epiborder tubercles visible in a juvenile cheek, whereas there are no tubercles on the border in adults.^nOutgroup comparison. Diacanthaspis: there are usually five, occasionally four or six, epiborder tubercles, commonly interspersed by a small number (about 4-8) of lesser tubercles. Meadowtownella: there are no identifiable epiborder tubercles in adults.';
+	TEXT CHARACTER=25 TEXT='This is the shape of the anterior pleural spines. Segments in the center of the thorax have been used. Anterior pleural spines on the anterior segments are invariably small, and not typical for the thorax as a whole.^nOntogeny. The development of this character is unknown in Kettneraspis, Leonaspis and Exallaspis. In K. jaanussoni, a species with single anterior pleural spines, they are short, stout and apparently single in a meraspid degree 4 exoskeleton (Fig. 3f-g). Barbs are present in juveniles of Acanthalomina, but are lost in adults.^nOutgroup comparison. Diacanthaspis: anterior pleural spine is long, single and barbed. Meadowtownella: anterior pleural spine is long, no barbs.';
+	TEXT CHARACTER=26 TEXT='The length of the longest posterior pleural spine is compared with the distance from the sagittal line to the fulcrum of that segment.^nOntogeny. In a meraspid degree 0 exoskeleton of Kettneraspis jaanussoni (Fig. 2) the posterior pleural spine of the unreleased first thoracic segment is extremely long and robust. In a meraspid degree 4 exoskeleton the spine of the first segment is relatively shorter than in the degree 0 specimen, but still quite long (Fig. 3f-g). The following posterior pleural spines are long also in the remaining three released segments and apparently also in the following unreleased ones. This is in contrast with the adult condition, in which the most anterior segment has a tiny posterior pleural spine. Spines then become progressively longer posteriorly in the thorax. There is thus during ontogeny a relative shortening of the posterior pleural spines in the anterior segments. In the adult, the anterior segments are more modified (apomorphic) than the posterior, the latter being more primitive (plesiomorphic), and closer to the ancestral condition. The ontogeny of this character is unknown in other taxa.^nOutgroup comparison. Diacanthaspis: The pleural spines of several segments are considerably longer than distance from sagittal line to fulcrum. Meadowtownella: All pleural spines are shorter than distance from sagittal line to fulcrum.';
+	TEXT CHARACTER=27 TEXT='This is the presence of one or two distinct pairs of tubercles on the axial ring of thoracic segments. The variation within the thorax is small, and affects the size only of the tubercles.^nOntogeny. Paired tubercles (actually spines) are present on the axial rings in early stages of all odontopleurids with known ontogeny, including Kettneraspis.^nOutgroup comparison. Diacanthaspis: present throughout ontogeny. Meadowtownella: present in early stages, lost in adults.';
+	TEXT CHARACTER=28 TEXT='This is expressed as the number of (posterior) pleural spines that reach behind the body (pygidium minus marginal spines) of the pygidium. This character can be determined only for well preserved, articulated material.^nOntogeny. Little is known of the ontogeny of this character. It can be inferred from the meraspides of K. jaanussoni that in early stages (degrees 0-3) all spines reach behind the pygidial body. In the degree 4 meraspis the spine of the first segment apparently ends anterior to this point. In adult K. jaanussoni the anterior three (four?) spines end short of the pygidial termination. It thus appears that, in Kettneraspis at least, the primitive condition for each spine is to reach far posteriorly.^nOutgroup comparison. Diacanthaspis: D. decacantha: three; D. morenaica: at least three; D. trippi: three to four. Meadowtownella: not more than one pleural spine reaches behind body of pygidium.';
+	TEXT CHARACTER=29 TEXT='Ontogeny. The full number of segments defines the beginning of the holaspid period, well before the trilobites are fully grown.^nOutgroup comparison. Diacanthaspis: 9. Meadowtownella: 10.';
+	TEXT CHARACTER=30 TEXT='This is expressed as the ratio between the width of the first axial ring, measured between bottoms of axial furrows, and the maximum width of the pygidium.^nOntogeny. Measurements cannot be made in meraspid specimens. There is no change during the holaspid period in Kettneraspis.^nOutgroup comparison. Diacanthaspis: 32-40%. Meadowtownella: 31-35%';
+	TEXT CHARACTER=31 TEXT='This is the total number of medial secondary border spines.^nOntogeny. In Kettnerapis the final number of spines (two) is present at least from earliest holaspid stages onward.^nOutgroup comparison. Diacanthaspis: There are primi- tively six medial pygidial border spines (Ramskold 1991a). Meadowtownella: four or six spines.';
+	TEXT CHARACTER=32 TEXT='This is the total number of lateral secondary border spines (excluding tiny denticles). In articulated material the outermost, smallest, spine pair/s is commonly concealed by the posterior pleural spine of the last segment and/or by matrix. This is the case in particular in species with numerous lateral secondary border spines, but since these species are all included in state 3, the precision in state assignment is not affected.^nOntogeny. In Kettneraspis the final number of spines is established already from earliest holaspid stages, although the outermost spine may be very small in juveniles and proportionally considerably larger in adults.^nOutgroup comparison. Diacanthaspis: four to eight. Meadowtownella: two to ten.';
+	TEXT CHARACTER=33 TEXT='This is expressed as the ratio between the width of the first axial ring (measured between bottoms of axial furrows) and the width of the second axial ring (measured between lateral edges).^nOntogeny. The ontogeny of this character is unknown.                                                                                                    Outgroup comparison. Diacanthaspis: usually 65-71%. Meadowtownella: usually 60-70%.';
+	TEXT CHARACTER=34 TEXT='This is the position of the distal, posteriorly directed part of the pleural ridge relative to the axial furrow along the second axial ring.^nOntogeny. In some Kettneraspis the pleural ridge runs closer to the second axial ring in early holaspid stages than in later (K. jaanussoni, K. lenzi).^nOutgroup comparison. In Diacanthaspis as well as in Meadowtownella there are species with the pleural ridge adjacent to the second axial ring and also species where it is separated from this by a raised area.';
+	TEXT CHARACTER=35 TEXT='Any convexity along the posterior margin has been regarded as a posterior border. We do not assume all these structures to be homologous.^nOntogeny. In Kettneraspis longstaffei the border appears fairly late in the holaspid stage.^nOutgroup comparison. Diacanthaspis: there is no post- erior border. Meadowtownella: a posterior border is present.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 35;
+      ENDBLOCK;
+      

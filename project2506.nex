@@ -1,0 +1,310 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 02.31.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Vitis'
+		'Mortonia'
+		'Ampelozizyphus'
+		'Bathiorhamnus'
+		'Ventilago'
+		'Berchemia'
+		'Sageretia'
+		'Rhamnus'
+		'Reynosia'
+		'Krugiodendron'
+		'Condalia'
+		'Karwinskia'
+		'Pomaderris'
+		'Adolphia'
+		'Colletia'
+		'Noltea'
+		'Ceanothus'
+		'Colubrina'
+		'Gouania'
+		'Helinus'
+		'Sarcomphalus'
+		'Hovenia'
+		'Paliurus'
+		'Ziziphus'
+		'Notiantha grandensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=30;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789ABCDE";
+	CHARLABELS
+		 [1] 'Petal width (mm)'
+		 [2] 'Petal length (mm)'
+		 [3] 'Sepal width (mm)'
+		 [4] 'Sepal length (mm)'
+		 [5] 'Ring diameter (mm) (insertion of other floral parts area)'
+		 [6] 'Pedicel length (mm)'
+		 [7] 'Claw in petal'
+		 [8] 'Petal shape'
+		 [9] 'Petal apex'
+		 [10] 'Sepal shape'
+		 [11] 'Keel'
+		 [12] 'Enlarged sepal apex'
+		 [13] 'Fruit type'
+		 [14] 'Locule number'
+		 [15] 'Petal presence'
+		 [16] 'Ovary type'
+		 [17] 'Floral cup shape'
+		 [18] 'Flower sex'
+		 [19] 'Stamen size relative to petals'
+		 [20] 'Corolla vs. calyx'
+		 [21] 'Winged fruit'
+		 [22] 'Outer surface of calyx'
+		 [23] 'floral disk'
+		 [24] 'disk type'
+		 [25] 'ovary texture'
+		 [26] 'leaf margin'
+		 [27] 'Primary vein framework'
+		 [28] 'Naked basal veins'
+		 [29] 'Secondary vein framework'
+		 [30] 'tertiary vein framework'
+	;
+	STATELABELS
+		1
+		'0.15'
+		'0.30-0.60'
+		'0.90+'
+		,
+		2
+		'<0.50'
+		'0.50-0.90'
+		'1.00-1.80'
+		'3+'
+		'2.0-2.9'
+		,
+		3
+		'<0.30'
+		'0.30-0.70'
+		'0.90-1.50'
+		'1.50+'
+		,
+		4
+		'0.70-1.10'
+		'1.20-1.40'
+		'1.50-1.80'
+		'2+'
+		,
+		5
+		'0.70-1.10'
+		'1.20- 1.50'
+		'2.00-2.10'
+		'2.5+'
+		,
+		6
+		'0.30-1.70'
+		'2.00-3.00'
+		'3.50-5.00'
+		,
+		7
+		'absent'
+		'short'
+		'long'
+		,
+		8
+		'cucullate'
+		'obovate'
+		'ovate concave'
+		'linear'
+		'urceolate'
+		'valvate'
+		'imbricate'
+		,
+		9
+		'not emarginate'
+		'emarginate'
+		,
+		10
+		'triangular'
+		'triangular reflexed'
+		'triangular lobed'
+		'triangular acute'
+		'triangular inflexed'
+		,
+		11
+		'absent'
+		'not prominent'
+		'prominent'
+		,
+		12
+		'absent'
+		'present'
+		'drupe'
+		'unilocular capsule'
+		'trilocular capsule'
+		'schizocarp'
+		'berry'
+		'orbicular samara'
+		'nut'
+		'lanciolate samara'
+		,
+		13
+		'drupe = 0'
+		'unilocular capsule = 1'
+		'trilocular capsule = 2'
+		'schizocarp = 3'
+		'berry = 4'
+		'samara = 5'
+		'nut = 6'
+		'lanciolate samara = 7'
+		,
+		14
+		'-'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		,
+		15
+		'always present = 1'
+		'regularly present = 1'
+		'rarely present'
+		'frequently present = 2'
+		'regularly present'
+		'rarely present = 3'
+		'note state 2 is not helpful at generic level'
+		'State 2'
+		'State 3'
+		,
+		16
+		'inferior'
+		'superior'
+		'seminferior'
+		,
+		17
+		'hemisphaeric = 0'
+		'absent = 0'
+		'absent'
+		'campanulate = 1'
+		'cup-like, campanulate/obconic = 1'
+		'cup-like, campanulate/obconic'
+		'obconic = 2'
+		'patelliform = 2'
+		'patelliform urceolate'
+		'patelliform = 3'
+		'urceolate = 3'
+		'State 3'
+		'urceolate = 4'
+		'check = 9'
+		,
+		18
+		'perfect'
+		'imperfect'
+		'perfect and poligamous'
+		,
+		19
+		'longer than petals'
+		'shorter than petals'
+		'shorter than sepals'
+		,
+		20
+		'same size'
+		'corolla bigger than calyx'
+		'corolla smaller than calyx'
+		,
+		21
+		'not winged'
+		'winged'
+		,
+		22
+		'glabrous'
+		'hairy'
+		'hairy only near the sepal apex'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'flat'
+		'adnate to ovary only'
+		'adnate to hypanthium only (ovary free)'
+		'annular, elevated'
+		'adpressed, lining the lower part of the hypanthuium'
+		'adnate to both ovary and hypanthium'
+		'a free, revolute lamina'
+		'annular, thin free lamina'
+		'a small elevated rim delimiting nectar-secreting tissue'
+		,
+		25
+		'glabrous ovary'
+		'hirsute ovary/inside flower'
+		,
+		26
+		'untoothed'
+		'toothed'
+		,
+		27
+		'pinnate'
+		'basal acrodromous'
+		'suprabasal acrodromous'
+		'actinodromous'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'craspedodromous'
+		'semicraspedodromous'
+		'eucamptodromous'
+		'brochidodromous'
+		'cladodromous'
+		,
+		30
+		'opposite'
+		'alternate/mixed'
+		
+	;
+	MATRIX
+	'Vitis'		                         111102050?0042113000000?013001
+	'Mortonia'		                      222002060400?2(0,1)1101100120000??
+	'Ampelozizyphus'		                243330100021231210100115002031
+	'Bathiorhamnus'		                 2(1,2,3,4)(2,3)(0,1,2,3)3(1,2)(1,2)00(0,3)2103(0,1)12000011?0(0,1)10(1,3)1
+	'Ventilago'		                     21301010(0,1)(0,4)217112101?11121(0,1)00(1,2)0
+	'Berchemia'		                     12220111042002111(0,1)00001?000020
+	'Sageretia'		                     0210101004200(2,3)11201?0012010010
+	'Rhamnus'		                       1122021214100(2,4)(0,1)11(0,1)(0,1)10(0,1)1201001(0,1)
+	'Reynosia'		                      24210101131002(0,1)1101?0(0,1)12000041
+	'Krugiodendron'		                 --2121???4210(1,2)0110??0017000021
+	'Condalia'		                      2121200100100(1,2)0110000112000031
+	'Karwinskia'		                    1221101414200211100?0012000020
+	'Pomaderris'		                    221301100421?31(0,2)10(0,1)?0117110011
+	'Adolphia'		                      122111240420231210110(0,1)1200????
+	'Colletia'		                      --3131???3112202102?0012?0????
+	'Noltea'		                        1121111000212312101?0012110011
+	'Ceanothus'		                     2221022000102(3,4)121010001701(0,1)(0,1)01
+	'Colubrina'		                     1222221000102(3,4)12101?011?000021
+	'Gouania'		                       11101110031033101(0,1)1?1117010(0,1)11
+	'Helinus'		                       24333?101011231010111015000031
+	'Sarcomphalus'		                  122121(1,2)0002103(0,1)110100(0,1)1?011(0,1)11
+	'Hovenia'		                       2223111000216312(1,2)000001?110(0,1)11
+	'Paliurus'		                      011010(1,2)0(0,1)0215(2,3)12(1,2)0000112011(0,1)11
+	'Ziziphus'		                      1221211000210(2,3)(0,1)11000001?011(0,1)11
+	'Notiantha grandensis'		          122212101021??1?1000?01?011(0,1)11
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=22 TEXT='"The hypanthium and the sepals may be covered with hairs on the outside. The density of this indumentum varies, being very dense in, e.g. Kentrothamnus weddellianus and sparse in, e.g. Discaria chacaye. The variation is continuous, and no attempt has been made to divide this state any further. In some species of Discaria the indumentum is, however, restricted to the apex of the sepals, and is then scored as a separate character state. In various species of the Colletieae, as well as in all outgroup taxa except Colubrina asiatica, the hypanthial tube and the sepals are completely glabrous." Aagesen, 1999';
+	TEXT CHARACTER=24 TEXT='"When a disc is present, it may be voluminous, annular and flat as in Colubrina asiatica. This kind of disc occupies the entire disc-formed flower cup, and nectar is secreted all over the surface (see Medan & Hilger, 1992)." Aagesen 1999';
+	TEXT CHARACTER=26 TEXT='leaves toothed or untoothed. Leaves with teeth on the distal margin scored as toothed';
+	TEXT CHARACTER=30 TEXT='percurrent tertiary veins opposite or alternate/mixed';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 30;
+      ENDBLOCK;
+      

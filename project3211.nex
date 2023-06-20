@@ -1,0 +1,1623 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.04.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=50;
+    TAXLABELS
+    		'Watsonulus eugnathoides'
+		'Amia calva'
+		'Araripelepidotes temnurus'
+		'Atractosteus spatula'
+		'Callipurbeckia minor'
+		'Camerichthys lunae'
+		'Cuneatus cuneatus'
+		'Cuneatus wileyi'
+		'Dentilepisosteus laevis'
+		'Histionotus oberndorferi'
+		'Isanichthys lertboosi'
+		'Isanichthys palustris'
+		'Kyphosichthys grandei'
+		'Lepidotes gigas'
+		'Lepisosteus osseus'
+		'Macrosemimimus fegerti'
+		'Macrosemius rostratus'
+		'Masillosteus janeae'
+		'Masillosteus kelleri'
+		'Neosemionotus puntanus'
+		'Notagogus denticulatos'
+		'Obaichthys decoratus'
+		'Occitanichthys canjuersensis'
+		'Paralepidotus ornatus'
+		'Pliodetes nigeriensis'
+		'Propterus elongatus'
+		'Sangiorgioichthys aldae'
+		'Sangiorgioichthys sui'
+		'Sangiorgioichthys valmarensis'
+		'Scheenstia mantelli'
+		'Scheenstia maximus'
+		'Scheenstia zappi'
+		'Semiolepis brembanus'
+		'Semionotus bergeri'
+		'Semionotus capensis'
+		'Semionotus elegans'
+		'Thaiichthys buddhabutrensis'
+		'Ticinolepis crassidens'
+		'Ticinolepis longaeva'
+		'Tlayuamichin itztli'
+		'Eosemionotus vogeli'
+		'Eosemionotus ceresiensis'
+		'Eosemionotus diskosomus'
+		'Eosemionotus sceltrichensis'
+		'Eosemionotus minutus'
+		'Macrosemius furneti'
+		'Paleomacrosemius thiollieri'
+		'Lophionotus sanjuanensis'
+		'Lophionotus chinleana'
+		'Lophionotus kanabensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=192;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789ABCDEFG";
+	CHARLABELS
+		 [1] 'Relative position of the dorsal fin respect to the pelvic and anal fins'
+		 [2] 'Elongation of the rostral region anterior to the lower jaw symphysis'
+		 [3] 'Ornamentation of the dermal bones of the skull'
+		 [4] 'Posterior margin of rhomboid anterior flank scales'
+		 [5] 'Vertical peg-and-socket articulation'
+		 [6] 'Longitudinal articulation of the scales of the body'
+		 [7] 'Mode of longitudinal articulation of the scales'
+		 [8] 'Dorsal ridge of scales'
+		 [9] 'Shape of dorsal ridge scales'
+		 [10] 'Development of posterior epioccipital process'
+		 [11] 'Exit of the vagus nerve (X) placed'
+		 [12] 'Posterior extent of exoccipitals in adult-sized individuals'
+		 [13] 'Exoccipital position relative to basioccipital'
+		 [14] 'Posterior myodome'
+		 [15] 'Relative size of posterior myodome'
+		 [16] 'Intercalar'
+		 [17] 'Opisthotic'
+		 [18] 'Autopterotic'
+		 [19] 'Sphenotic with small dermal component'
+		 [20] 'Sphenotic fused to dermosphenotic'
+		 [21] 'Basisphenoid'
+		 [22] 'Lateral ethmoid ossifications'
+		 [23] 'Width of parasphenoid anterior to the ascending processes'
+		 [24] 'Posterior extent of parasphenoid'
+		 [25] 'Basipterygoid processes of parasphenoid'
+		 [26] 'Ascending processes of parasphenoid'
+		 [27] 'Orientation of the ascending processes of parasphenoid'
+		 [28] 'Extent of the processus ascendens posterior of parasphenoid'
+		 [29] 'Laterally sliding articulation between the metapterygoid and the parasphenoid basipterygoid process in adults'
+		 [30] 'Parasphenoid tooth patch'
+		 [31] 'Extent of parasphenoid tooth patch'
+		 [32] 'Vomer in adults'
+		 [33] 'Autopalatine bone'
+		 [34] 'Shape of ectopterygoid'
+		 [35] 'Marginal row of teeth on ectopterygoid'
+		 [36] 'Ectopterygoid participation in palatal surface area'
+		 [37] 'Part of dorsal surface of ectopterygoid ornamented and forming part of skull roof'
+		 [38] 'Metapterygoid/quadrate relationship'
+		 [39] 'Metapterygoid / ectopterygoid contact'
+		 [40] 'Relative position of the lower jaw articulation'
+		 [41] 'Quadratojugal fused to quadrate'
+		 [42] 'Shape of anterior ceratohyal'
+		 [43] 'Symplectic relationship to lower jaw'
+		 [44] 'Relation between symplectic and quadrate'
+		 [45] 'Shape of symplectic'
+		 [46] 'Shape of hyomandibula'
+		 [47] 'Number of extrascapular bones'
+		 [48] 'Shape of the extrascapular bone/s'
+		 [49] 'Posterior extension of parietals median to the extrascapular bones'
+		 [50] 'Dermopterotic (or pterotic) extending anterior to parietal'
+		 [51] 'Dermopterotic descending lamina'
+		 [52] 'Dermopterotic posterior projection(s)'
+		 [53] 'Parietal width to length ratio'
+		 [54] 'Relative length of parietals respect to the length of the frontals'
+		 [55] 'Length to width ratio of frontals in adult sized individuals'
+		 [56] 'Anterior portion of frontal'
+		 [57] 'Postorbital portion of frontal'
+		 [58] 'Preorbital portion of frontal'
+		 [59] 'Shape of nasal bones'
+		 [60] 'Relationship between left and right nasal bones'
+		 [61] 'Posterior nostril relationship to nasal bone'
+		 [62] 'Ossified sclerotic ring'
+		 [63] 'Quadrate laterally covered by infraorbital bones'
+		 [64] 'Supraorbital bones'
+		 [65] 'Circumborbital ring'
+		 [66] 'Number of supraorbital bones'
+		 [67] 'Size of supraorbital bones relative to orbit'
+		 [68] 'Shape of most anterior supraorbital bone'
+		 [69] 'Size and shape of dermosphenotic'
+		 [70] 'Position of dermosphenotic relative to orbital margin'
+		 [71] 'Dermosphenotic / sphenotic association'
+		 [72] 'Shape of the postinfraorbital bones (jugal not included)'
+		 [73] 'Number of postorbital bones (infraorbital bones forming the posterior rim of the orbit (jugal not included)'
+		 [74] 'The largest circumborbital bone is'
+		 [75] 'Contact between preopercle and jugal or lower postinfraorbital'
+		 [76] 'General shape of the subinfraorbital bone(s) (Infraorbital bones forming the ventral border of the orbit between the lacrimal and the jugal)'
+		 [77] 'Anterior infraorbitals'
+		 [78] 'Number of anterior infraorbitals'
+		 [79] 'Shape of most anterior anterior-infraorbital'
+		 [80] 'Ventral border of infraorbital series'
+		 [81] 'A series of toothed infraorbitals bordering the snout'
+		 [82] 'Shape of antorbital bone'
+		 [83] 'Suborbital bones'
+		 [84] 'Number of suborbital bones'
+		 [85] 'Distribution of suborbital bones'
+		 [86] 'Arrangement of suborbital bones'
+		 [87] 'Independent of the total number, there is a large suborbital covering almost the whole area between the infraorbital bones and the preopercle'
+		 [88] 'Independent of the total number, there is asuborbital between the dermopterotic and preopercle'
+		 [89] 'Relative size of the most anterior and most dorsal suborbitals'
+		 [90] 'Suborbitals covering the quadrate laterally'
+		 [91] 'Premaxillary nasal processes (= lateral dermethmoids)'
+		 [92] 'Premaxillary nasal process relationship to frontal'
+		 [93] 'Maxilla'
+		 [94] 'Length of maxilla relative to coronoid process'
+		 [95] 'Posterior extent of maxilla relative to orbit'
+		 [96] 'Shape of maxilla'
+		 [97] 'Ventral margin of maxilla'
+		 [98] 'Shape of posterodorsal corner of maxilla'
+		 [99] 'Postmaxillary process'
+		 [100] 'Shape of dorsal margin of maxilla'
+		 [101] 'Supramaxilla'
+		 [102] 'Posteroventral end of the dentary'
+		 [103] 'Coronoid process'
+		 [104] 'Retroarticular'
+		 [105] 'Retroarticular and quadrato-mandibular joint'
+		 [106] 'Plicidentine structure in teeth'
+		 [107] 'Organization of teeth on premaxilla'
+		 [108] 'Relative size of largest premaxillary teeth'
+		 [109] 'Maxillary teeth'
+		 [110] 'Tooth organization on dentary'
+		 [111] 'Extent of teeth on dentary (excluding coronoid toothplates)'
+		 [112] 'Morphology of dentary teeth'
+		 [113] 'Morphology of teeth on anterior coronids'
+		 [114] 'Morphology of vomerine teeth'
+		 [115] 'Shape of preopercle'
+		 [116] 'Anterior/anteroventral end of preopercle'
+		 [117] 'Relative length of preopercular arms'
+		 [118] 'Exposure of dorsal limb of preopercle'
+		 [119] 'Preopercle to dermopterotic relationship'
+		 [120] 'Posterior border of the preopercle notched ventrally'
+		 [121] 'Suprapreopercle'
+		 [122] 'Shape of the opercle width/length'
+		 [123] 'Opercle ornamentation in adult-sized individutals'
+		 [124] 'Base of ascending process of the subopercle'
+		 [125] 'Height ascending process of the subopercle'
+		 [126] 'Subopercle maximal depth (excluding ascending process)'
+		 [127] 'Interopercle'
+		 [128] 'Relationship between interopercle and the lower jaw'
+		 [129] 'Branchiopercle'
+		 [130] 'Maximal number of branchiostegal rays'
+		 [131] 'Median gular'
+		 [132] 'Position of junction of supraorbital and temporal canals'
+		 [133] 'Supraorbital sensory canal in parietal'
+		 [134] 'Middle pit line'
+		 [135] 'Position of the supratemporal commissure'
+		 [136] 'Orbital canal'
+		 [137] 'Posttemporal penetration by lateral line canal'
+		 [138] 'Arcocentrum'
+		 [139] 'Large parapophyses'
+		 [140] 'Relationship between the abdominal neural arches and vertebral centra'
+		 [141] 'Distribution of supraneural bones'
+		 [142] 'Neural arch on preural centrum 1 (Pu1)'
+		 [143] 'Shape of posterior margin of caudal fin'
+		 [144] 'Total number of principal caudal fin rays'
+		 [145] 'Number of rays forming the dorsal margin of the caudal fin'
+		 [146] 'Number of principal caudal fin rays below lateral line'
+		 [147] 'Number of principal caudal fin rays associated to the preural skeleton'
+		 [148] 'Number of rays forming the ventral margin of the caudal fin'
+		 [149] 'Dorsal processes of the bases of innermost principal caudal fin rays'
+		 [150] 'Number of hypaxial procurrent (segmented) caudal fin rays'
+		 [151] 'Epaxial basal fulcra (not segmented)'
+		 [152] 'Accessory row of scales adjacent to the ventral border of the body lobe'
+		 [153] 'Dorsal scute(s) preceding caudal fin'
+		 [154] 'Ventral scute preceding caudal fin'
+		 [155] 'Number of fringing fulcra on the first principal caudal fin ray'
+		 [156] 'Maximal numer of dorsal fin rays'
+		 [157] 'Shape of dorsal fin'
+		 [158] 'Relationship between first dorsal proximal pterygiophore and fin rays'
+		 [159] 'First principal dorsal ray'
+		 [160] 'Maximal number of anal fin rays'
+		 [161] 'Shape of anal fin'
+		 [162] 'Relationship between first anal pterygiophore and fin rays'
+		 [163] 'First principal anal fin ray'
+		 [164] 'Relative size of the basal fulcra in the dorsal fin'
+		 [165] 'Relative size of the basal fulcra in the anal fin'
+		 [166] 'Preanal scute'
+		 [167] 'Fringing fulcra on dorsal and anal fins'
+		 [168] 'Pattern of fringing fulcra on median fins'
+		 [169] 'Relative height of the posttemporal bone'
+		 [170] 'Anterior process of posttemporal bone'
+		 [171] 'Presupracleithrum'
+		 [172] 'Supracleithrum with a concave articular facet for articulation with the posttemporal'
+		 [173] 'Relationship between lateral line system and supracleithrum'
+		 [174] 'General shape of cleithrum'
+		 [175] 'Medial wing of cleithrum'
+		 [176] 'Ornamentation of the cleithrum'
+		 [177] 'Number of postcleithra'
+		 [178] 'Clavicles'
+		 [179] 'Fringing fulcra on pectoral fin'
+		 [180] 'Fringing fulcra on pelvic fin'
+		 [181] 'Premaxillary nasal processes form external dermal components of the skull roof'
+		 [182] 'Supraorbital sensory canal in premaxillary nasal processes'
+		 [183] 'Median ethmoidal ossification'
+		 [184] 'Bone separating the metapterygoid from the ectopterygoid'
+		 [185] 'Contact between metapterygoid/ectopterygoid is due to'
+		 [186] 'Frontal bones'
+		 [187] 'Deep interobital constriction'
+		 [188] 'Maximal number of premaxillary teeth'
+		 [189] 'Maximal number of scales in marginal row of body lobe'
+		 [190] 'Maximal number of scales posterodorsal to the hinge-line'
+		 [191] 'Maximal number of dorsal caudal fulcra on the body lobe'
+		 [192] 'Number of scales along the lateral line'
+	;
+	STATELABELS
+		1
+		'originating posterior to insertion of pelvic and extending backwards not beyond middle of
+anal fin'
+		'originating approximately at the level of the origin of the anal fin and extending opposite
+to it'
+		'extending anterior to opposite of insertion of pelvic fins'
+		'originating anterior to insertion of pelvic and extending opposite to anal fins'
+		'originating posterior to the origin of anal fin'
+		'originating posterior to insertion of pelvic and extending backwards up to end of anal fin'
+		,
+		2
+		'does not extend anterior to the dentary symphysis significantly'
+		'extends well anterior to the dentary symphysis by more than 50% of mandibular length'
+		,
+		3
+		'ornamented with tubercles or ridges'
+		'smooth or very slightly ornamented'
+		'ornamented with sharp tubercles (odontodes) resembling conical teeth'
+		,
+		4
+		'smooth'
+		'serrate or dentate'
+		'spiny, with a few small spines'
+		,
+		5
+		'well developed'
+		'reduced'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'small anterodorsal process'
+		'strong anterior dorsal process'
+		'double, anterior dorsal and ventral processes'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'with a low spine'
+		'with a high spine'
+		,
+		10
+		'small'
+		'large'
+		,
+		11
+		'through the fissura otico occipitalis'
+		'between intercalar and exoccipital'
+		'in exoccipital'
+		'between intercalar and opisthotic'
+		,
+		12
+		'reach posterior margin of occiput'
+		'do not reach posterior margin of occiput'
+		,
+		13
+		'dorsal'
+		'anterodorsal'
+		'anterior'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'not extending into basioccipital'
+		'extending into basioccipital'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent, the two bones are separate'
+		'present'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'the parasphenoid narrows towards its anterior end, but it is equally broad directly anterior and posterior to the ascending processes'
+		'approximately uniformly broad, as wide or wider than posterior to the processes'
+		'distinctly narrower than posterior to the processes'
+		'the parasphenoid bar narrows directly in front of the ascending processes, but it broadens distinctly anteriorly'
+		,
+		24
+		'short, does not extend beyond the fissura oticalis ventralis'
+		'short, but extending beyond the fissura oticalis ventralis reaching'
+		'long, reaching the occipital condyle or close to it'
+		'very long, extending posterior to the occipital condyle'
+		,
+		25
+		'almost or totally absent'
+		'well developed'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'extend perpendicularly'
+		'extend anteriorly'
+		'extend posteriorly'
+		,
+		28
+		'high, reaching the sphenotic'
+		'low, sutured to the prootic only'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'extends anterior and posterior to the ascending processes'
+		'extends only anterior to the ascending processes'
+		'extends only posterior to the ascending processes'
+		'limited to the area between the ascending processes'
+		,
+		32
+		'pair'
+		'co-ossified'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'elongate, triangular, straight ventral border, deepest mid length'
+		'approximately crescent shape, convex dorsally, concave ventrally'
+		'approximately boomerang shape'
+		'approximately triangular, deepest posteriorly, tapering anteriorly'
+		'elongate, with bar-like anterior portion and deeply expanded posterior portion'
+		'bar-like'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'ectopterygoid form half or less of the palatal region'
+		'ectopterygoid forms most of the palatal region'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'metapterygoid sutured or closely associated with the quadrate'
+		'ectopterygoid separating metapterygoid from quadrate'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'posterior to the orbit'
+		'around the posterior border of the orbit'
+		'around the centre of the orbit'
+		'around the anterior border of the orbit'
+		'in front of the orbit'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'deep, subrectangular'
+		'elongate hourglass shape'
+		'narrow anteriorly, more expansive and laterally compressed posteriorly'
+		'deeply hourglass shape without Beryciform foramen'
+		'deeply hourglass shape with Beryciform foramen'
+		,
+		43
+		'is not directly involved in the jaw joint'
+		'participates directly in the jaw joint'
+		,
+		44
+		'symplectic posteroventral to quadrate, the two bones are separate'
+		'symplectic articulates with the inner, medial surface of quadrate'
+		'symplectic attached into a groove formed by the posteroventral border of the quadrate'
+		'symplectic posterodorsal and well separated from quadrate'
+		'symplectic attached between the quadrate and quadratojugal'
+		,
+		45
+		'slightly curved tube or splint'
+		'bar-like shaped'
+		'hatchet shaped'
+		'L-shaped'
+		'laterally compressed, broadening posteriorly and tapering anteriorly'
+		,
+		46
+		'rod like'
+		'hourglass shaped, with a constriction between the shaft and the articular head'
+		'shaft approximately as broad as hyomandibular head'
+		'shaft notably narrower than hyomandibular head'
+		,
+		47
+		'one pair'
+		'two pairs'
+		'more than four extrascapulars'
+		,
+		48
+		'plate like, quadrangular to triangular'
+		'tubular'
+		'semicircular, expanded caudolaterally'
+		'expanded rostrally'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'by more than 50% of its total length'
+		'by more than 40% but less than 50% of its total length'
+		'by more than 30% but less than 40% of its total length'
+		'by less than 30% of its total length'
+		'not extending anterior to parietal'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present and simple'
+		'present, one or more, and notably large'
+		,
+		53
+		'not exceeding 0.90'
+		'well exceeding 0.90'
+		,
+		54
+		'less than one half but more than one third the length of frontals'
+		'about half the length of frontals'
+		'less than one third the length of frontals'
+		'more than half the length of frontals'
+		,
+		55
+		'lower than three'
+		'equal or larger than three'
+		,
+		56
+		'subrectangular not significantly narrower anteriorly than posteriorly'
+		'tapering gradually'
+		'projected in the form of long tubular extensions'
+		'projected in the form of small processes'
+		,
+		57
+		'not significantly large'
+		'large, more than 1/3 of total length of frontal'
+		,
+		58
+		'not significantly large'
+		'large, more than 1/3 of total length of frontal'
+		,
+		59
+		'broad, approximately rectangular to oval or trapezoidal'
+		'broad kidney shaped'
+		'narrow, rectangular, longer than broad, to approximately tubular'
+		'approximately tear-shape, broadest anteriorly, narrowing posteriorly'
+		'small, approximately kidney shaped'
+		'long and narrow, anterior end incurved laterally'
+		'inverted Y-shaped'
+		,
+		60
+		'sutured to each other'
+		'close to each other'
+		'widely separated'
+		,
+		61
+		'excavating the lateral margin of the nasals'
+		'completely included in the posterior portion of the nasals'
+		'cutting of the posterolateral border of the nasals'
+		'not indicated by the nasals'
+		,
+		62
+		'present'
+		'absent'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'present'
+		'absent'
+		,
+		65
+		'most anterior supraorbital does not contact infraorbitals'
+		'most anterior supraorbital contacts infraorbital series'
+		,
+		66
+		'more than four'
+		'three or four'
+		'two'
+		'one'
+		,
+		67
+		'small'
+		'large'
+		'all supraorbitals small except the first, most anterior supraorbital, which is large, expanded
+anteriorly'
+		,
+		68
+		'subrectangular to triangular, if the ring is closed, contacting only the antorbital or one
+infraorbital bone'
+		'trapezoidal, longest ventrally, contacting more than one infraorbital bone'
+		'pentagonal'
+		'expanded anteroventrally, making the anterodorsal corner of the orbit'
+		,
+		69
+		'extended and tapering rostrally'
+		'extended and tapering caudally, ending at the level of the anterior margin of the dermopterotic (or pterotic)'
+		'very large, extended and tapering caudally, reaching close to the level of the preopercular canal'
+		'small, not distinctly extended rostrally or caudally'
+		'large, keystone shaped'
+		,
+		70
+		'dermosphenotic participates in orbital margin'
+		'dermosphenotic is excluded from orbital margin'
+		,
+		71
+		'closely associated with each other (i.e. contacting or fused to each other)'
+		'not in contact with each other'
+		,
+		72
+		'deeper than long, sometimes almost tubular'
+		'approximately quadrangular'
+		'longer than deep, expanded posteriorly, not longer than the orbital diameter'
+		'very large, longer than the orbit'
+		'approximately triangular, tapering dorsally'
+		'subrectangular and elongated in posterodorsal to anteroventral direction'
+		,
+		73
+		'one'
+		'two'
+		'three'
+		'none'
+		,
+		74
+		'the jugal (infraorbital placed at the posteroventral corner of the orbit), and it is not much larger than other infraorbital bones'
+		'the jugal (infraorbital placed at the posteroventral corner of the orbit), and it is notably larger than other infraorbitals'
+		'a postorbital occupying the posteroventral and posterior rim of the orbit (in some cases this area is occupied by one or more bones of similar size)'
+		'the dermosphenotic or a supraorbital (all these bones being of similar size)'
+		'one of the supraorbitals (the dermosphenotic is notably smaller than the supraorbitals)'
+		'the infraorbital placed at the centre of the ventral margin of the orbit'
+		'the lacrimal or infraorbital placed at the anteroventral corner of the orbit'
+		'one of the anterior infraorbitals'
+		'the jugal or the lacrimal, both with similar size'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'subrectangular to triangular, about 1,5 to 2,5 times deeper than long'
+		'subtriangular, longer ventrally, more than 3 times deeper than long'
+		'quadrangular to longer than deep, notably smaller than the orbit'
+		'subrectangular, a quarter to half the size of the orbit'
+		'scroll-like'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'one'
+		'two or more'
+		'three or more'
+		'four or more'
+		'five or more'
+		'six or more'
+		'seven or more'
+		,
+		79
+		'not distinct than adjacent infraorbital'
+		'rectangular dorsal portion, ventrally expanded and higher than adjacent infraorbital'
+		'narrowing dorsally, expanded ventrally, further ventral than the adjacent anterior infraorbitals'
+		'approximately rectangular, deeper than adjacent anterior infraorbital'
+		,
+		80
+		'follows a straight line or a gentle curve'
+		'flexes abruptly dorsally at the anterior margin of the orbit'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'approximately triangular or drop-like, narrowing posterodorsally'
+		'rectangular'
+		'clavate'
+		'sickle- to L-shaped'
+		'approximately triradiated, Y-shaped'
+		'tubular'
+		'splint-like'
+		,
+		83
+		'present'
+		'absent'
+		,
+		84
+		'one'
+		'two'
+		'three'
+		'four or more, usually numerous suborbitals'
+		,
+		85
+		'do not outspread anteriorly below the orbit'
+		'outspread anteriorly below the orbit'
+		,
+		86
+		'one row'
+		'two rows'
+		'mosaic of numerous suborbitals'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'of similar size than the other suborbitals'
+		'notably larger than the other suborbitals'
+		,
+		90
+		'present, suborbitals within a series or mosaic, no distinct shape'
+		'present, one or two suborbitals forming a triangular plate'
+		,
+		91
+		'small lining the nasal pits, without or only partially surrounding the olfactory foramen'
+		'large completely enclosing the olfactory fenestra'
+		'spiniform, not enclosing the olfactory fenestra'
+		,
+		92
+		'does not suture to the frontal'
+		'sutures to the ventral surface of the frontal'
+		'sutures to the frontal and forms an external dermal component of the skull roof'
+		,
+		93
+		'present and independent'
+		'absent or fused to toothed infraorbital bones'
+		,
+		94
+		'very long, extends beyond the coronoid process'
+		'extends backwards partially covering the coronoid process laterally'
+		'very short, does not reach the coronoid process'
+		,
+		95
+		'beyond posterior orbital margin'
+		'up to posterior orbital margin'
+		'up to centre of the orbit'
+		'up to anterior orbital margin'
+		'in front of the orbit'
+		,
+		96
+		'elongate, broad posteriorly, stretches well behind the orbit'
+		'elongate, shallow'
+		'maxilla extremely slender'
+		'deep, depth > 0,5 of its length'
+		,
+		97
+		'straight or almost straight'
+		'slightly convex'
+		'slightly concave'
+		'bends downwards posteriorly'
+		,
+		98
+		'rounded to straight angle'
+		'acute angle'
+		,
+		99
+		'absent'
+		'present and small'
+		'present and notably large, posterior border of maxilla deeply excavated'
+		,
+		100
+		'straight or concave infraorbital and convex postorbital portions'
+		'generally straight or convex'
+		'gently concave allocating supramaxilla'
+		'with a distinct supramaxillary notch'
+		,
+		101
+		'absent'
+		'present, single bone'
+		'present, two bones'
+		,
+		102
+		'not particularly expanded'
+		'forming a well-developed process extending beyond the coronoid process'
+		,
+		103
+		'made up by the dentary and surangular'
+		'made up by the dentary only'
+		'made up by the surangular only'
+		'made up by the surangular and angular'
+		'made up by the dentary and angular'
+		,
+		104
+		'absent'
+		'present and separate'
+		'present and fused to angular only'
+		'present and fused to articular only'
+		'present and fused to angular and articular'
+		,
+		105
+		'retroarticular excluded from the joint facet for quadrate'
+		'retroarticular included in the joint facet for quadrate'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'single row'
+		'more than one row'
+		'single row plus anterior fang'
+		,
+		108
+		'of similar size of dentary teeth'
+		'larger than dentary teeth'
+		'smaller than dentary teeth'
+		,
+		109
+		'present'
+		'absent'
+		,
+		110
+		'teeth in a single row and all of similar size'
+		'in addition to a lateral single row of similar sized teeth, there is a medial row of much larger fangs'
+		'teeth in two or more rows and all of similar size'
+		,
+		111
+		'tooth row extends over at least a third the length of dentary'
+		'tooth row is present on only the anterior one third or less of dentary'
+		,
+		112
+		'conical'
+		'pointed pencil like'
+		'high, bluntly pencil like'
+		'molariform, borader than high'
+		'conical with labiolingually compressed, sharply carinate (keeled) caps'
+		,
+		113
+		'conical'
+		'pointed pencil like'
+		'high, blunt, flattened or broadly rounded'
+		'molariform, broader than high'
+		,
+		114
+		'conical'
+		'pointed pencil like'
+		'blunt, flattened or broadly rounded'
+		'molariform'
+		'heterogeneous sharply pointed fangs'
+		,
+		115
+		'long, angularly bent, with almost horizontal anterodorsal and vertical posteroventral
+portions'
+		'plate-like, broad dorsally, narrowing ventrally'
+		'comma-shape'
+		'roughly L-shape'
+		,
+		116
+		'broadely tapered'
+		'finely tapered'
+		,
+		117
+		'vertical arm is longer than horizontal arm'
+		'horizontal arm is longer than vertical arm'
+		,
+		118
+		'infraorbital or suborbital bones do not overlap, but only the anterior rim of preopercle'
+		'suborbital bones mostly or completely overlap the dorsal limb of preopercle'
+		,
+		119
+		'preopercule reaches at least close to dermopterotic'
+		'preopercule and dermopterotic are well separated'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'absent'
+		'present'
+		,
+		122
+		'deeper than long'
+		'approximately as deep as long'
+		'tapering anteroventrally'
+		'longer than deep'
+		,
+		123
+		'densely arranged low tubercles and/or ridges'
+		'well-defined tubercles'
+		'pattern of ridges radiating from the anterodorsal corner'
+		'denticles'
+		'ornamentation weak or absent'
+		,
+		124
+		'broad, more than 30 % of the maximal length of the bone'
+		'narrow, between 10 and 30 % of the maximal length of the bone'
+		'tiny, less than 10 % of the maximal length of the bone'
+		,
+		125
+		'low, 20 % of the maximal length of the bone'
+		'medium, 20-40 % of the maximal length of the bone'
+		'high, approximatly 50-60 % of the maximal length of the bone'
+		'very high, approximately 70 % or more the maximal length of the bone'
+		,
+		126
+		'more than half the depth of the operculum'
+		'less than half the depth of the operculum'
+		'deeper than the opercle'
+		,
+		127
+		'absent'
+		'present'
+		,
+		128
+		'anterior end of interopercle close to mandible'
+		'interopercle remote from mandible'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'14'
+		'12'
+		'10'
+		'9'
+		'8'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		,
+		131
+		'absent'
+		'present'
+		,
+		132
+		'exclusively within frontal bone'
+		'exclusively within dermosphenotic bone'
+		'exclusively within dermopterotic bone'
+		,
+		133
+		'present'
+		'absent'
+		,
+		134
+		'leaving a groove or pore-line on the parietal and dermopterotic'
+		'leaving a groove or pore-line on the parietal only'
+		'in the dermopterotic only'
+		'leaving no trace on the bones'
+		,
+		135
+		'pierces extrascapulars'
+		'pierces extrascapulars and parietals'
+		'pierces parietals only, or parietals and supraoccipital'
+		'pierces dermopterotics'
+		,
+		136
+		'absent'
+		'present'
+		,
+		137
+		'present'
+		'absent'
+		,
+		138
+		'absent'
+		'present and thin, ring like centra'
+		'present and forming solidly ossified centra'
+		,
+		139
+		'absent'
+		'present, not fused to the centra'
+		'present, fused to the centra'
+		,
+		140
+		'nerual arches attached to the centra but not fused to them'
+		'all or most of the neural arches fused to the centra'
+		,
+		141
+		'extend below dorsal fin'
+		'the series of supraneurals ends anterior to dorsal fin'
+		,
+		142
+		'with neural spine'
+		'without neural spine'
+		,
+		143
+		'forked'
+		'convexly rounded'
+		'concave'
+		,
+		144
+		'variable, more than 50'
+		'variable, between 19 and 50'
+		'stable at 19'
+		'variable, up to 19'
+		,
+		145
+		'more than two (unbranched or not)'
+		'two, at least the first unbranched'
+		'one branched'
+		'one unbranched'
+		,
+		146
+		'more than eight'
+		'eight'
+		'seven'
+		'six'
+		,
+		147
+		'more than nine'
+		'seven or eight'
+		'four to six'
+		'one to three'
+		,
+		148
+		'two or more (unbranched or not)'
+		'one branched'
+		'one unbranched'
+		,
+		149
+		'absent'
+		'present'
+		,
+		150
+		'none'
+		'one'
+		'two to five'
+		'six to eleven'
+		'twelf to fifteen'
+		,
+		151
+		'present scale-like'
+		'present as procurrent rays'
+		'distinctly large dorsal caudal fulcra embracing the body lobe, deeply imbricated forming a dorsal keel'
+		,
+		152
+		'absent'
+		'present, one row'
+		'present, two or more rows'
+		,
+		153
+		'present, more than one'
+		'present, single'
+		'absent'
+		,
+		154
+		'present, more than one'
+		'present, single'
+		'absent'
+		'distinctly large, deeply imbricated'
+		,
+		155
+		'numerous'
+		'one to five'
+		,
+		156
+		'6'
+		'7'
+		'8'
+		'9'
+		'10'
+		'11'
+		'12'
+		'13'
+		'15'
+		'16'
+		'18'
+		'20'
+		'21'
+		'24'
+		'30-40'
+		'50 or more'
+		,
+		157
+		'triangular'
+		'anterior rays distinctly higher forming a sickle-shaped margin'
+		'bow-shaped'
+		'divided in two sections'
+		,
+		158
+		'articulates with procurrent rays or basal fulcra and first principal ray'
+		'articulates with procurrent rays or basal fulcra only'
+		,
+		159
+		'branched'
+		'unbranched'
+		,
+		160
+		'5'
+		'6'
+		'7'
+		'8'
+		'9'
+		'10'
+		'11'
+		'12'
+		'15'
+		,
+		161
+		'triangular'
+		'anterior rays distinctly deeper forming a sickle-shaped margin'
+		'bow-shaped or straight'
+		,
+		162
+		'articulates with procurrent rays or basal fulcra and first principal ray'
+		'articulates with procurrent rays or basal fulcra only'
+		,
+		163
+		'branched'
+		'unbranched'
+		,
+		164
+		'slender'
+		'short and stout'
+		'increasingly large and stout'
+		'ray-like'
+		,
+		165
+		'slender'
+		'short and stout'
+		'stout and increasing up to relatively long'
+		'ray-like'
+		,
+		166
+		'absent'
+		'present, smooth surface and borders'
+		'present, smooth surface, indented border'
+		,
+		167
+		'present'
+		'absent'
+		,
+		168
+		'formed by a combination of small, spiny bony fringing fulcra positioned between the terminal segments of the procurrent and/or marginal rays'
+		'formed by a combination of small, spiny bony fringing fulcra positioned between the terminal segments of the procurrent and subsequently lying on the surface of the marginal ray(s)'
+		'formed of small, paired, spine-like elements lying on the surface of the marginal ray(s) only'
+		,
+		169
+		'heigh, reaching or almost reaching the dorsal midline'
+		'low, approximately as heigh as the dermopterotic'
+		'posttemporals very small'
+		,
+		170
+		'absent'
+		'present, blunt'
+		'present, large and knob-like'
+		,
+		171
+		'absent'
+		'present'
+		,
+		172
+		'absent'
+		'present'
+		,
+		173
+		'emerging at the middle'
+		'emerging at its upper half'
+		'emerging at its lower half'
+		,
+		174
+		'sickle to L-shape with approximately equally large vertical and horizontal portions'
+		'sickle to L-shape with horizontal portion 1,5 to 2 times larger than vertical portion'
+		'sickle without clearly distinct vertical and horizontal portions'
+		'sickle with anterior portion bent downwards'
+		,
+		175
+		'absent'
+		'present'
+		,
+		176
+		'absent'
+		'one or more toothed ridges on the anterolateral surface'
+		,
+		177
+		'none'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six or more'
+		,
+		178
+		'present'
+		'absent'
+		,
+		179
+		'present'
+		'absent'
+		,
+		180
+		'present'
+		'absent'
+		,
+		181
+		'absent'
+		'present'
+		,
+		182
+		'absent'
+		'present'
+		,
+		183
+		'absent'
+		'present'
+		,
+		184
+		'endopterygoid'
+		'quadrate or a large palatoquadrate endochondral ossification'
+		'the bones were porbably separated by cartilage'
+		,
+		185
+		'metapterygoid placed anteriorly'
+		'metapterygoid expanded anteriorly'
+		'ectopterygoid enlarged posteriorly'
+		,
+		186
+		'independent'
+		'fused to each other'
+		,
+		187
+		'absent'
+		'present'
+		,
+		188
+		'4'
+		'5'
+		'6'
+		'7'
+		'8'
+		'9'
+		,
+		189
+		'13-14'
+		'12'
+		'11'
+		'10'
+		'9'
+		'8'
+		'7'
+		'5'
+		'4'
+		,
+		190
+		'9'
+		'8'
+		'7'
+		'6'
+		'5'
+		'4'
+		'3'
+		,
+		191
+		'12'
+		'10'
+		'9'
+		'8'
+		'7'
+		'6'
+		'5'
+		'4'
+		,
+		192
+		'More or equal 60'
+		'More or equal 50'
+		'More or equal 40'
+		'More or equal 30'
+		'26'
+		'?29'
+		'20'
+		'?25'
+		
+	;
+	MATRIX
+	'Watsonulus eugnathoides'		                10010??0--0001000?100011000001100?1000100210100000?012011001?0001200300008020---020-------0001010112110100000000001--00000?2?0101010000?00????01?0?0?20???0B???????00?000?1??2113000000-0005???0
+	'Amia calva'		                             300------0110110111000120010-10000100010-21022000210010010002101----1003(0,1)2020---021-------11010100131001000000000020-0000121111011101000022010132020021-20-F20172113301-000001011011000-0004????
+	'Araripelepidotes temnurus'		              20110120-121210?110000?3?????????2000??0?2???01004?001000051?0?012134002111010?00?02000000??0221000100-?????1---??---000004121100?02130?00?????322?100022201???3??0212021101???0??00000??00?3131
+	'Atractosteus spatula'		                   40011110-02110-1111-112211--11101401111401033220040100110141011012114112031013011203020000111-------002111101100043011000000300-0902100112211013232100022204200520011002200112106000110-200-???0
+	'Callipurbeckia minor'		                   000201211?2?????????0?1?100?0????10000030?04??0004??021101513100110030001700122003010010-01101432001110110?00001??21-00000113110?501000????????3?1?1010120070004?102?202110102?14?000000-0032233
+	'Camerichthys lunae'		                     00?1???10??????????????????????????00??1???????????????101????001201?0?2170013210303100010??01430?01?101?0???0012?20-0-010?110100?0?????????????????????????????????????????????????000??00?????
+	'Cuneatus cuneatus'		                      40000??0-?211??111??112211--10-0140111130103??1004??030101410110121140?2031211011?03020000111-------?0211??2?0000?3011?0010?200-090?????12?1??1323?100022201??02???111022?0??????100110-200-???2
+	'Cuneatus wileyi'		                        4000???0-?211??11?1??12211--10-01?011??30103??1004??03010141?110121140?2031211011?03020000111-------?02111????????3011??????200-090?????12?1??132??1000?22?2??04???110022?0?021??100110??00-???2
+	'Dentilepisosteus laevis'		                11211110-02120-011-1111211--1110?30101040103?220041?001101???10011013101141214?10?0?0?00001102412001?001?0000010?031100001312011080??0???221?1?3233100022203???4?????2022000?2????001100-00-???2
+	'Histionotus oberndorferi'		               3001???0-??????????0?1??1???0????11000040?0???011-??121201???1000000?000??041??0051-------??0141200?00?1?0?00000??20-0?100?11111???113100?????0321???000??0C3?03???00?0211?????????00012-01????2
+	'Isanichthys lertboosi'		                  0000?12100210??111000??????????????00??1??????0003??00000111310012114002130011100?031000101101312001113??0?010001?20-000004???10060?000000?-???12???000?2208???????1??02110??2????00000??00????1
+	'Isanichthys palustris'		                  0000?????0?????????0???????????????00??1??????1004??000001???10012114002130?11?00?03120000??0121300111???0??0000??20-0000001?1100?0?????0???????????????????????????????????????????000??00????1
+	'Kyphosichthys grandei'		                  000101110?????????00????002?-??????00??10?0???0014??0000005??010010030?0111011000302001100??0131010310?0-??20000??20-01000011110051?031?0?????01?0??02002207?111?1100?0?1101?2115?00000??0015333
+	'Lepidotes gigas'		                        00111120-0210110110000?210210??101100??1030???0004??(0,1)001011130001211400113001211030310100011013100011101000000011?20-00000412110?60100??0?????2120?1?00222020??30?11120212010??14?00000??0055203
+	'Lepisosteus osseus'		                     40000110-02110-11100112211--111014011114010332(1,2)0040100110141011012114012031012011203020000111-------?02111100100003011000100200-0902100112211113233100022204210620011002200112106000110-200-???0
+	'Macrosemimimus fegerti'		                 00120120-?????????0000??10??0??1?1?000020304?00014??001101?1?0000(1,2)00300??70-132003010010-0110143?00111011000?0?2(2,3)(1,2)21-00000413110040100010?????0331?2?00122050?050?020202110102114?000000-0022123
+	'Macrosemius rostratus'		                  301100---?21010110?0?1?210010??0?1100004130??2011-??021201213101----300017041300051-------200141000?0001100000003320-011004111111400131-010???1321?1000023?A20022003?11211000??1?1110002-011????
+	'Masillosteus janeae'		                    10001120-0??????1?1-?1?????????0?3010??30?03??1004??01010141?11012114112031214310503020000111-------002111?2-010223011000000200-0?0??0??1221??1323?1?00-22022?032?011102200112106100110??00-????
+	'Masillosteus kelleri'		                   1000???0-?????????1-????????????????0??30?0???1004??0101014?211012114012031215310503020000111-------00211??2-010223011100140?00-090?????1221??1323?1?00-2202??02??011102200????05100110??00-???2
+	'Neosemionotus puntanus'		                 0010???11?????????00???????????0???00???03???32004??00000051??00121040?114021111030200(0,1)000120121000??1????000000?020-0000041?111?50?00000?????2120?1?001001501140??2221211?1121??110000??0040053
+	'Notagogus denticulatos'		                 301100-0-??????????0?1?????????????00?????????0??????21201???100?????000??041??0051-------??0141200?00???0?00000??20-011004??1111?0???????????0321?1?00?0??D3??02??3????????????????000??0118553
+	'Obaichthys decoratus'		                   11210110-?2120-?11-111?211--110??30101040103?2200401001101???1001?0-3101170015-10?010000-01?02410001?021100?00100?31100001312111080?????1221???32??1?00???05???5???110022001?-?-??001100-00????0
+	'Occitanichthys canjuersensis'		           000101210?????????1000???????????1000003030???0004??000101513100?10030001-0014200?020000001101430001110110???0022221-000001131101?010?0?0??????3?1?2?10?0?06??01?1?20?02110102114?000000-00?23?3
+	'Paralepidotus ornatus'		                  30010110-??????????????????????0?10000030?????0004??021201????00000030???0021???0?00--10-0??0????????????????0??3?21-00000?12110?30??????0?-??0130?2?201220?2??8???0?????????211??000000-01?2112
+	'Pliodetes nigeriensis'		                  20210110-?????????0????????????0???00????3????1004??010000113?10121140?10300110103030200001202410????041??001010?030000001311010?70?1?????00???????????????2?0?2?1?1??021??1?21???00100??0037??3
+	'Propterus elongatus'		                    301100-0-??????????0?1??10??0??0???000?1030???011-??02120121?1000100300017041300051-------2?0141200?00???0000000?020-00100411111140?13000???0?0322?10200231A31012?033200110??211?0100002?0112213
+	'Sangiorgioichthys aldae'		                000200-10?????????0????????????????00??2?30???0004??00110052??00020030?0110310--0?031(0,1)0101??013100021120-0?01010??20-00000011110130?0?0?0?????????????00????0??5???0??000?01?211310?000??00??2?3
+	'Sangiorgioichthys sui'		                  000100-10?????????0????????????001100001030??100(0,1)4??000000513?00020030?011(0,1)210--030(2,3)1010011?012100021120-0000000??20-01000011110130003110?????0130?0020000060?150?1002000?010211?1000000-0012223
+	'Sangiorgioichthys valmarensis'		          2001???10??????????????????????????00?????????000???001100????000(1,2)0030?0?103????0??3100001??0??10002?????0??0010??20-000000111??1?0?0?0?0??????1??????00???????????0??000?01?211?10?000??00????3
+	'Scheenstia mantelli'		                    00011120-0210??0110000?210210???0??000?2?3???02004??0(0,2)(0,1)101????0012114001130013?10?03100010110243?0011101?0???0123?20-000001111100?0?000??1???????0???0020?0????????1??021201?2?14?0?000??00????3
+	'Scheenstia maximus'		                     000111210??????????????????????1????0??1??????2004??????01????00121040?2130013?10?03100010????????????????00?0133320-00000111110??????????????1??0???0020?082?032?011?021201?2????00000??00-0222
+	'Scheenstia zappi'		                       0001???10????????????0??????????0??00???0?0???2004??000101113100121030?1130213?10303100010110????????101?0?0?0022?20-0001011?010??0100010?????21?0???00200060?15???0010212011??15??0000??00?1533
+	'Semiolepis brembanus'		                   000(0,1)01111??????????????????????????00??30?????2004??02110111??00000030?0?10012000300--10-0??0141000??1??????00??2?21-00000412111?20???????????2130?2?201?0070??3???002???????211??00000??00?34?3
+	'Semionotus bergeri'		                     000101111?????????10???????????????00??3??0???0003??001101???10011003000270012000?00--10-01?0???????????????0010??20-000000111100?0?0?000?????03?1??000???090??2???2?102??0??211??00000??00?3343
+	'Semionotus capensis'		                    00??01111?????????10????????????01?00003030???1003??00110151?10001003000070212?00300--10-0110????????1?????0?010??20-000000111100?0?0?0?0?????0321??0001000A01030??220021?0??2????000000-0033343
+	'Semionotus elegans'		                     00100??111200111??10??1?102??13001?0000202041000031010110151310011003000060011000300--10-0110241?0011101000000100020-0000041111004010?0000?-0?032131?00?000701?5?1?20?021?0?0211?0000000-0043123
+	'Thaiichthys buddhabutrensis'		            00?0?12100?10??011000?1?0???-??????00??20?0?1?2003??01000111311012114002111012?00?010010-0110241000101???0110010??301000004121110602000000?????120?1000?22060107??0002021?0??21?4100000??00????2
+	'Ticinolepis crassidens'		                 000000-0-00????0000000??1000?????1-0000200????000???120??0003?0001003000250211000303120000??0131000311???0?200023320-00000011110150?????0?????0210?012012207???3???0000000111211??000000-(0,1)0?3003
+	'Ticinolepis longaeva'		                   000100-0-0????????00??1?10???0-001100??200011100011012001000300002003000(0,1)5021100030312000000013100031101000200011120-00000011110150110??0?????0110?0120122090?110?100200001102114100000??0020003
+	'Tlayuamichin itztli'		                    000201210?????????10???11????0-0?1000004030???(1,2)004??00110151?100000230002700162003020001001101430001110110021002?221-01000113110150?03010??????331?2?001??07??02???212021101?2?14?0000?0-00?4223
+	'Eosemionotus vogeli'		                    001000-0-?????????0??0220????0-?????0??213???200010010030022?101----????????????0?1-------2001410001010??0001010?030001001411111050?01?-??????232(1,2)?1002022?40??20??001020?0??00?11?0001??1006554
+	'Eosemionotus ceresiensis'		               001000-0-?????????0??03?????????????0??313????2003??10030022?101----????????????0?1-------2001410001010??0000010?0300010014??111040?01?-??????232(0,1)?1002002000??10??001020?0??00?11?0001??1127464
+	'Eosemionotus diskosomus'		                001000-0-?????????0??032?0010???01000003130??220020010030022?101----????????12??0?1-------2001430001010??00010100030001000411111070?1??-??????2322?1002002030??20??001020?0??10?11?00011-1108575
+	'Eosemionotus sceltrichensis'		            001000-0-?????????0??0?2?0010???????0002130???101???---3--???101----????????1???0?1-------2001430001010??000101000300010014??011060?11?-??????2321?1002020010??20??001020?0??00?11?00011-1108475
+	'Eosemionotus minutus'		                   1010???0-?????????0??0??????????????0??213????2003??10?300???101----????????????0?1-------2001410001010??000?010?0300010004??111070?0??-??????2321?1002020-00??00??00102??0??10?11?0001??1028675
+	'Macrosemius furneti'		                    300100---????????????1??????0??????00004?3??????????021201?13101----??????0413?00?1-------2?014100010????0000000??20-01?000111111600131-??????1321?10000230A20022003?112110000?1?111000?-0?1?4?2
+	'Paleomacrosemius thiollieri'		            301100---????????????1??????0??????00004?3??????????021201?13101----??????0?????0?1-------??014100010????0000000??20-01?004111111?00131-??????1321?1000023?A20022003?112110000?1?111000?-0????62
+	'Lophionotus sanjuanensis'		               000101111?????????00???????????????00???03????000(1,2)??000000????1012003000101012010300--10--120141?00??10???0?000???20000000411111??0?0??00?????23??????010??90??20??20?020201?0?0??00000??0020313
+	'Lophionotus chinleana'		                  00110??11?????????00????????????????0??20?0???0003??000000????1012003000?11?1??10?00--10--110241?00??1????0?000???3000000041?111?50?0??00????????1????0????50?040??22?020010?0??2?00000??00????3
+	'Lophionotus kanabensis'		                 00110??11?????????00????????????01?00??20?????0003???00101????001???000???1?1???0?00--10--120?41?00?112???0?101???2??00000411110?50?0??0??????????????0????50?020??22?02????????????000??013????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=14 TEXT='Scorings for this taxon include some features only observed in the sister species Lepidotes semiserratus, which otherwise scores exactly the same as Lepidotes gigas. See notes for each character scoring.';
+
+        [Character comments]
+        	TEXT CHARACTER=2 TEXT='From Grande (2010: character 4) and Lopez-Arbarello (2012: character 9).';
+	TEXT CHARACTER=3 TEXT='From L"³pez-Arbarello (2012: character 19). Also used by Thies and Waschkewitz (2015: 19), L"³pez-Arbarello & Wencker (2016: 17).^nGrande & Bemis (1998: character 8) is equivalent to our character states 0 and 1, without distinguishing our state 3, which is not present in their data set. Grande (2010: character 2) is equivalent to our character state 2. Pending a more detailed analysis (e.g. histological) of each kind of ornamentation, we think that the variation scored so far should be treated in a single character.^nFollowing these Grande & Bemis"-? character 8, other authors scored states 0 and 1 only: Alvarado-Ortega & Espinosa-Arrubarrena (2008: 19), Cavin & Giner (2012: 8), L"³pez-Arbarello et al. (2014: 7). Following Grande"-?s character 2, our state 2 has been scored as an independent character by Cavin et al. (2013: 89), Deesri et al. (2014: 89).';
+	TEXT CHARACTER=4 TEXT='This character includes Grande"s (2010) character 38, which is represented under character sate 3. Following Grande, the state 3 of this character was also used as an independent character by Cavin et al. (2013: 87), Deesri et al. (2014: 87), Thies and Waschkewitz (2015: 84), L"³pez-Arbarello & Wencker (2016: 79).';
+	TEXT CHARACTER=5 TEXT='From L"³pez-Arbarello (2012: character 85). Also used by Gardiner & Schaeffer (1989: 3), Xu et al. (2012: 59), Thies and Waschkewitz (2015: 85), L"³pez-Arbarello & Wencker (2016: 80).';
+	TEXT CHARACTER=7 TEXT='Modified from Lopez-Arbarello (2012: character 86).^nWe have split Lopez-Arbarello"s (2012) character state 1 (here retained as character state 2) "only a strong dorsal anterior peg for the longitudinal articulation", which is the condition found in several ginglymodian taxa (e.g. Semionotus, Paralepidotus, Pliodetes, and the gars), to score the presence of a small anterodorsal process in several out-group taxa (Australosomus, Boreosomus, Perleidus).^nL"³pez-Arbarello"-?s character 86 has also been used by Thies and Waschkewitz (2015: 86), L"³pez-Arbarello & Wencker (2016: 81).';
+	TEXT CHARACTER=9 TEXT='From Lopez-Arbarello (2012: character 83). Also used by Cavin (2010: 42), Cavin et al. (2013: 85), Deesri et al. (2014: 85), Thies and Waschkewitz (2015: 83), L"³pez-Arbarello & Wencker (2016: 78).';
+	TEXT CHARACTER=11 TEXT='Modified from Sferco et al. (2015: character 2014).^nWe added character state 0 to represent the condition in the out group taxa (Australosomus, Boreosomus, Pteronisculus, Perleidus, and Pteronisculus).';
+	TEXT CHARACTER=12 TEXT='From Grande & Bemis (1998: character 2).';
+	TEXT CHARACTER=14 TEXT='From Sferco et al. (2015: character 17).';
+	TEXT CHARACTER=16 TEXT='From Lopez-Arbarello (2012: character 5).';
+	TEXT CHARACTER=17 TEXT='From Lopez-Arbarello (2012: character 4).';
+	TEXT CHARACTER=18 TEXT='From Grande & Bemis (1998: character 5).';
+	TEXT CHARACTER=19 TEXT='From Lopez-Arbarello (2012: character 7).';
+	TEXT CHARACTER=21 TEXT='From Lopez-Arbarello (2012: character 6).';
+	TEXT CHARACTER=24 TEXT='Modified from Sferco et al. (2015: character 26).^nWe added character states 0 and 1 to represent the conditions found in the out group taxa (Australosomus, Boreosomus, Pteronisculus, Perleidus, and Pteronisculus).';
+	TEXT CHARACTER=25 TEXT='From Sferco et al. (2015: character 27).^nCharacter state 2 includes both the poorly developed processus ascendens anterior of Boreosomus, or Amia, and other halecomorphs, and the complete absence the process in Australosomus and Perleidus because it might be impossible to distinguish between the two conditions in many fossils and they might be functionally equivalent.';
+	TEXT CHARACTER=29 TEXT='Modified from Grande (2010: character 59).';
+	TEXT CHARACTER=30 TEXT='Modified from Grande & Bemis (1998: character 17) and Forey & Patterson (2006: character 17).^nWe have added character states to represent all the observed variation.';
+	TEXT CHARACTER=32 TEXT='From Grande (2010: character 37), Lopez-Arbarello (2012: character 10), and Sferco et al. 2015: character 22).';
+	TEXT CHARACTER=33 TEXT='From Grande (2010: character 64), Lopez-Arbarello (2012: character 11), Sferco et al. (2015: character 21).';
+	TEXT CHARACTER=36 TEXT='From Grande (2010: character 63) and Lopez-Arbarello (2012: character 13).';
+	TEXT CHARACTER=37 TEXT='From Grande (2010: character 61) and Lopez-Arbarello (2012: character 14).';
+	TEXT CHARACTER=38 TEXT='From Grande (2010: character 60).';
+	TEXT CHARACTER=40 TEXT='The relative postion of the lower jaw articulation has been scored in different ways by several previous authors [e.g. Lopez-Arbarello (2012: character 16), Sferco et al. (2015: character 66) and literature cited therein]. Compared to those previous authors, we have here defined more character states aiming to improve and facilitate the scoring of this character.';
+	TEXT CHARACTER=44 TEXT='Modified from Grande & Bemis (1998: character 61), Grande (2010: character 49), Lopez-Arbarello (2012: character 18), and Sferco et al. (2015: character 45).^nWe added character state 1 to represent the condition found in Pachycormiformes (Patterson 1973).';
+	TEXT CHARACTER=45 TEXT='From Grande (2010: character 68).';
+	TEXT CHARACTER=47 TEXT='Lopez-Arbarello (2012: character 20).';
+	TEXT CHARACTER=48 TEXT='Modified from Sferco et al. (2015: character 8).';
+	TEXT CHARACTER=49 TEXT='From Lopez-Arbarello (2012: character 21).';
+	TEXT CHARACTER=50 TEXT='Modified from Grande & Bemis (1998: character 50).';
+	TEXT CHARACTER=52 TEXT='Modified from Grande & Bemis (1998: character 27).';
+	TEXT CHARACTER=53 TEXT='From Grande & Bemis (1998: character 18).';
+	TEXT CHARACTER=54 TEXT='From Lopez-Arbarello (2012: character 22).';
+	TEXT CHARACTER=55 TEXT='From Lopez-Arbarello (2012: character 23).';
+	TEXT CHARACTER=59 TEXT='Modified from Sferco et al. (2015: character 3).';
+	TEXT CHARACTER=60 TEXT='From Sferco et al. (2015: character 4).';
+	TEXT CHARACTER=61 TEXT='It is important to note that this character does not refer to the actual position of the posterior naris, which usually impossible to know in fossils. In many ginglymodians and halecomorphs the anterior end of the nasal bones is laterally incurved or the lateral border of the bone is deeply concave, in both cases probably surrounding the posterior nare, but the bone itself is not excavated or perforated as in character states 0 to 2.';
+	TEXT CHARACTER=62 TEXT='From Grande & Bemis (1998: character 14).';
+	TEXT CHARACTER=63 TEXT='From Lopez-Arbarello (2012: character 40).';
+	TEXT CHARACTER=64 TEXT='From Grande & Bemis (1998: character 12) and Grande (2010: character 14)';
+	TEXT CHARACTER=65 TEXT='From Grande (2010: character 15) and Lopez-Arbarello (2012: character 29).';
+	TEXT CHARACTER=66 TEXT='From Lopez-Arbarello et al. (2014: character 11) and Sferco et al. (2015: character 33).';
+	TEXT CHARACTER=67 TEXT='From Lopez-Arbarello (2012: character 31).';
+	TEXT CHARACTER=68 TEXT='From Lopez-Arbarello (2012: character 32).';
+	TEXT CHARACTER=70 TEXT='From Grande & Bemis (1998: character 38), Grande (2010: character 16), and Lopez-Arbarello (2012: character 38).';
+	TEXT CHARACTER=71 TEXT='From Grande (2010: character 22), and Lopez-Arbarello (2012: character 39).';
+	TEXT CHARACTER=72 TEXT='From Lopez-Arbarello (2012: character 37).';
+	TEXT CHARACTER=74 TEXT='Modified from Lopez-Arbarello (2012: character 36).^nCharacter state three is observed in the gars. In these fishes, the dermosphenotic is usually the largest circumborbital bone and only slightly larger than any of the supraorbitals. In some specimens however, the supraorbital forming the dorsal rim of the orbit is slightly larger than the dermosphenotic. According to our observations this variation is intraspecific and in all the cases scored with character state 3, the largest supraorbital and the dermosphenotic are of similar size.';
+	TEXT CHARACTER=75 TEXT='Modified from Lopez-Arbarello (2012: character 36).';
+	TEXT CHARACTER=76 TEXT='Modified from Grande & Bemis 1998: character 43).';
+	TEXT CHARACTER=77 TEXT='From Lopez-Arbarello (2012: character 34).';
+	TEXT CHARACTER=78 TEXT='From Lopez-Arbarello & Wencker (2016: character 31).^nThe number of anteriro infraorbital bones is intraspecifically and in some cases even individually varaible. Therefore, we score the minimal number of anterior infraorbitals.';
+	TEXT CHARACTER=79 TEXT='From Lopez-Arbarello (2012: character 35).';
+	TEXT CHARACTER=80 TEXT='From Lopez-Arbarello (2012: character 30).^nThis character is only applicable in those taxa with anterior infraorbitals.';
+	TEXT CHARACTER=81 TEXT='From Grande (2010: character 42) and Lopez-Arbarello (2012: character 33).';
+	TEXT CHARACTER=82 TEXT='From Sferco et al. (2015: character 38).';
+	TEXT CHARACTER=83 TEXT='FRom Grande & Bemis (1998: characer 7), and Lopez-Arbarello (2012: character 41).';
+	TEXT CHARACTER=84 TEXT='Modified from Grande (2010: character 21), Lopez-Arbarello (2012: character 42), and Sferco et al. (2015, character 32)';
+	TEXT CHARACTER=87 TEXT='From Lopez-Arbarello (2012: character 43).';
+	TEXT CHARACTER=89 TEXT='From Lopez-Arbarello (2012: character 44).';
+	TEXT CHARACTER=90 TEXT='From Lopez-Arbarello (2012: character 46).';
+	TEXT CHARACTER=94 TEXT='From Lopez-Arbarello (2012: character 50).';
+	TEXT CHARACTER=95 TEXT='From Lopez-Arbarello et al. (2014: character 47).';
+	TEXT CHARACTER=96 TEXT='This caracter merges Grande and Bemis (1998: character 53), Lopez-Arbarello (2012: character 51), and Lopez-Arbarello et al. (2014: character 41).';
+	TEXT CHARACTER=97 TEXT='Modified from Sferco et al. (2015: character 61).';
+	TEXT CHARACTER=98 TEXT='Modified from Grande & Bemis (1998: character 60).';
+	TEXT CHARACTER=99 TEXT='Modified from Grande & Bemis (1998: character 30).';
+	TEXT CHARACTER=101 TEXT='From Lopez-Arbarello (2012: character 52) and Sferco et al. (2015: character 64).';
+	TEXT CHARACTER=102 TEXT='Modified from Lopez-Arbarello (2012: character 56).';
+	TEXT CHARACTER=103 TEXT='Modified from Grande (2010: character 51).';
+	TEXT CHARACTER=104 TEXT='From Sferco et al. (2015: character 68).';
+	TEXT CHARACTER=105 TEXT='From Sferco et al. (2015: character 69).';
+	TEXT CHARACTER=106 TEXT='From Grande (2010: character 41)';
+	TEXT CHARACTER=109 TEXT='From Lopez-Arbarello (2012: character 53) and Sferco et al. (2015: character 60).';
+	TEXT CHARACTER=110 TEXT='From Grande (2010: character 39).';
+	TEXT CHARACTER=111 TEXT='From Grande (2010: character 56).';
+	TEXT CHARACTER=112 TEXT='Grande & Bemis (1998) character 21 is included as character state 4.';
+	TEXT CHARACTER=113 TEXT='Grande & Bemis (1998) scored the morphology of the teeth on the anterior coronoids and vomer in a single character (number 16), but we think there is not necessarily a biological dependence in the morphology of the teeth in these different bones and, thus, we split Grande & Bemis"-? character 16 in our independent characters 178 and 179.';
+	TEXT CHARACTER=118 TEXT='From Grande (2010: character 73).';
+	TEXT CHARACTER=120 TEXT='From Lopez-Arbarello (2012: character 62).';
+	TEXT CHARACTER=121 TEXT='From Sferco et al. (2015: character 53).';
+	TEXT CHARACTER=122 TEXT='Modified from Grnade and Bemis (1998: character 36), Lopez-Arbarello (2012: character 63), and Sferco et al. (2015: character 56).';
+	TEXT CHARACTER=123 TEXT='Modified from Grande and Bemis (1998: character 33).';
+	TEXT CHARACTER=124 TEXT='From Lopez-Arbarello (2012: character 65).';
+	TEXT CHARACTER=125 TEXT='Modified from Grande (2010: character 71) and Lopez-Arbarello (2012: character 66).^nIt is only possible to score characters 187 and 188 if a subopercle is at least partially disarticulated and the whole ascending process is exposed. Otherwise a variably large portion of the process is overlapped and thus hidden by the opercle.';
+	TEXT CHARACTER=126 TEXT='From Lopez-Arbarello (2012: character 67).';
+	TEXT CHARACTER=127 TEXT='From Grnade and Bemis (1998: character 36), Lopez-Arbarello (2012: character 63), and Sferco et al. (2015: character 56).';
+	TEXT CHARACTER=128 TEXT='From Lopez-Arbarello (2012: character 69).';
+	TEXT CHARACTER=131 TEXT='From Grnade (2010: character 75), and Sferco et al. (2015: character 52).';
+	TEXT CHARACTER=133 TEXT='From Lopez-Arbarello (2012: character 88), and Sferco et al. (2015: character 82).';
+	TEXT CHARACTER=134 TEXT='From Sferco et al. (2015: character 79).';
+	TEXT CHARACTER=135 TEXT='From Sferco et al. (2015: character 81).';
+	TEXT CHARACTER=136 TEXT='From Lopez-Arbarello (2012: character 89).';
+	TEXT CHARACTER=137 TEXT='From Grande (2010: character 91).';
+	TEXT CHARACTER=139 TEXT='Modified from Grande & Bemis (1998: character 10).';
+	TEXT CHARACTER=140 TEXT='From Sferco et al. (2015: character 94).';
+	TEXT CHARACTER=142 TEXT='Modified from Sferco et al. (2015: character 131).';
+	TEXT CHARACTER=143 TEXT='From Grande & Bemis (1998: character 23).';
+	TEXT CHARACTER=144 TEXT='Modified from Grande (2010: character 88), and Sferco et al. (2015: 163).^nIn Amia, there is a rather clear distinction between procurrent and principal rays on the dorsal margin, but not in the ventral margin where the rays increase in length gradually. We take the first branched ray as the first ventral principal ray';
+	TEXT CHARACTER=145 TEXT='Modified from Grande (2010: character 87).';
+	TEXT CHARACTER=146 TEXT='This character merges characters 80 and 81 of Lopez-Arbarello (2012) because they are not independent, but represent different states of the same feature and are thus merged in the previous character.';
+	TEXT CHARACTER=148 TEXT='Modified from Sferco et al. (2015: character 166).';
+	TEXT CHARACTER=149 TEXT='Modified from Sferco et al. (2015: character 168).';
+	TEXT CHARACTER=151 TEXT='From Sferco et al. (2015: character 159).';
+	TEXT CHARACTER=153 TEXT='Modified from Sferco et al. (2015: character 158).';
+	TEXT CHARACTER=155 TEXT='Modified from Sferco et al. (2015: character 162).';
+	TEXT CHARACTER=156 TEXT='Modified from Grande & Bemis (1998: character 15)';
+	TEXT CHARACTER=157 TEXT='Modified from Grande & Bemis (1998: character 15), and Sferco et al. (2015: character 118).';
+	TEXT CHARACTER=158 TEXT='From Sferco et al. (2015: character 120).';
+	TEXT CHARACTER=161 TEXT='Modified from Sferco et al. (2015: character 122).';
+	TEXT CHARACTER=164 TEXT='From Lopez-Arbarello (2012: character 78).';
+	TEXT CHARACTER=167 TEXT='From Lopez-Arbarello et al. (2014: character 35).';
+	TEXT CHARACTER=170 TEXT='Modified from Lopez-Arbarello (2012: character 72).';
+	TEXT CHARACTER=172 TEXT='From Grande (2010: character 93).';
+	TEXT CHARACTER=173 TEXT='From Sferco et al. (2015: character 106).';
+	TEXT CHARACTER=175 TEXT='Modified from Grande (2010: character 94).';
+	TEXT CHARACTER=176 TEXT='Modified from Lopez-Arbarello (2012: character 74).';
+	TEXT CHARACTER=177 TEXT='Modified from Sferco et al. (2015: character 108).';
+	TEXT CHARACTER=178 TEXT='From Grande (2010: character 95).';
+	TEXT CHARACTER=179 TEXT='From Lopez-Arbarello (2012: character 75), and Sferco et al. (2015: character 115).';
+	TEXT CHARACTER=180 TEXT='From Lopez-Arbarello (2012: character 76)';
+
+      [Attribute comments]
+      	TEXT TAXON=4 CHARACTER=1 TEXT='Grande (2010), Table 62: average predorsal length 83.9%, average preanal length 82%';
+	TEXT TAXON=7 CHARACTER=1 TEXT='Grande (2010), Table 122: mean predorsal length 82.5% SL, mean preanal length 80% SL';
+	TEXT TAXON=8 CHARACTER=1 TEXT='Grande (2010), Table 132: mean predorsal length 83% SL, mean preanal length 80% SL';
+	TEXT TAXON=10 CHARACTER=1 TEXT='We consider the whole area ocuppied by the two dorsal fins';
+	TEXT TAXON=15 CHARACTER=1 TEXT='Grande (2010), Table 3: average predorsal length 84.7%, average preanal length 81.3%';
+	TEXT TAXON=18 CHARACTER=1 TEXT='Grande (2010), Table 152: mean predorsal length 80.7% SL, mean preanal length 80.7% SL';
+	TEXT TAXON=19 CHARACTER=1 TEXT='Grande (2010), Table 152: mean predorsal length 82.5% SL, mean preanal length 82.5% SL';
+	TEXT TAXON=20 CHARACTER=1 TEXT='Correction to López-Arbarello & Codorniú (2007) based on reexamination of the specimens (e.g. MHINUNSL-^nGEO-V183, V187)';
+	TEXT TAXON=22 CHARACTER=1 TEXT='Grande (2010), Table 162: predorsal length 75%, preanal length 77%';
+	TEXT TAXON=41 CHARACTER=4 TEXT='Only very few anterior flank scales present one or two small posterior spines.';
+	TEXT TAXON=28 CHARACTER=5 TEXT='GMPKU-P-1695';
+	TEXT TAXON=42 CHARACTER=5 TEXT='PIMUZ T 245';
+	TEXT TAXON=28 CHARACTER=6 TEXT='GMPKU-P-1695';
+	TEXT TAXON=28 CHARACTER=7 TEXT='GMPKU-P-1695';
+	TEXT TAXON=14 CHARACTER=11 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=37 CHARACTER=11 TEXT='The condition is doubtful (Cavin et al. 2013)';
+	TEXT TAXON=14 CHARACTER=12 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=14 CHARACTER=14 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=30 CHARACTER=16 TEXT='According to Rayner (1948), Patterson (1975)';
+	TEXT TAXON=14 CHARACTER=17 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=14 CHARACTER=18 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=14 CHARACTER=21 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=14 CHARACTER=22 TEXT='(Stensiö 1932: fig. 80)';
+	TEXT TAXON=30 CHARACTER=22 TEXT='Patterson (1975: p. 35)';
+	TEXT TAXON=31 CHARACTER=22 TEXT='Cavin et al (2013) citing Patterson (1975: 499)';
+	TEXT TAXON=5 CHARACTER=23 TEXT='NHMUK 21974';
+	TEXT TAXON=3 CHARACTER=24 TEXT='AMNH-11813L';
+	TEXT TAXON=13 CHARACTER=25 TEXT='Sun & Ni (2017)';
+	TEXT TAXON=13 CHARACTER=27 TEXT='Sun & Ni (2017)';
+	TEXT TAXON=13 CHARACTER=28 TEXT='Sun & Ni (2017: 10) described "Visible^non specimen GMPKU-P-1479, the ascending processes^nof the parasphenoid are relatively large and^npossibly articular with the sphenotic (Fig. 4)" However, we doubt that the bone indicated as the ascending process of the parasphenoid actually represents this process and, anyway, it is only partially exposed and its actual height and posible relationship with the spenotic remains unknown.';
+	TEXT TAXON=14 CHARACTER=29 TEXT='SNSB-BSPG 2015 I 82';
+	TEXT TAXON=14 CHARACTER=32 TEXT='Based on Lepidotes semiserratus';
+	TEXT TAXON=28 CHARACTER=32 TEXT='Sun & Ni (2017: Suppl. data): GMPKU-P-1733';
+	TEXT TAXON=28 CHARACTER=33 TEXT='GMPKU-P-1695';
+	TEXT TAXON=28 CHARACTER=35 TEXT='GMPKU-P-1695';
+	TEXT TAXON=28 CHARACTER=38 TEXT='GMPKU-P-1695';
+	TEXT TAXON=28 CHARACTER=39 TEXT='GMPKU-P-1695';
+	TEXT TAXON=3 CHARACTER=40 TEXT='Only very few specimens show the jaws of this species. MNHN BCE 335 and 376 exceptionally preserve both the maxilla and the dentary in natural position.';
+	TEXT TAXON=3 CHARACTER=42 TEXT='MNHN BCE 376';
+	TEXT TAXON=5 CHARACTER=44 TEXT='Patterson (1973: fig. 26)';
+	TEXT TAXON=36 CHARACTER=44 TEXT='Described by Olsen & McCune (1991)';
+	TEXT TAXON=3 CHARACTER=46 TEXT='Isolated hyomandibula at the AMNH';
+	TEXT TAXON=28 CHARACTER=46 TEXT='GMPKU-P-1472';
+	TEXT TAXON=11 CHARACTER=47 TEXT='Three extrascapulars in total';
+	TEXT TAXON=13 CHARACTER=47 TEXT='Sun & Ni (2017)';
+	TEXT TAXON=13 CHARACTER=49 TEXT='Sun & Ni (2017)';
+	TEXT TAXON=13 CHARACTER=50 TEXT='State 0 in Lopez-Arbarello & Wencker (2016); corrected by Sun & Ni (2017).';
+	TEXT TAXON=16 CHARACTER=50 TEXT='Character 82 refers to the "posterior extension of the parietal bones medial to the single pair of laterally placed extrascapulars", which is apparently due to the fusion of the median extrascapulars with the parietal bones (see discussion of this character in Lopez-Arbarello 2012) and it is thus independent from this character referring to the length of the parietals. This is the condition usually present in Macrosemimimus fegerti. However, the parietals are not or not completely fused in a few specimens of Macrosemimimus fegerti. In this cases the lengths of the dermopterotic and parietals are approximately the same (e.g. Schroeder et al. 2012: fig. 6).';
+	TEXT TAXON=48 CHARACTER=50 TEXT='35% and 44% measured in line drawings of AMNH 5680A and 5679A, respectively (Gibson 2013: figs. 3 and 5, respectively)';
+	TEXT TAXON=49 CHARACTER=50 TEXT='25% measured in line drawing of UMNH VP 19417 (Gibson 2013b: fig. 4)';
+	TEXT TAXON=50 CHARACTER=50 TEXT='24% measured in line drawing of AMNH 8870 (Gibson 2013b: fig. 6)';
+	TEXT TAXON=4 CHARACTER=53 TEXT='Grande (2010), Table 61: 0.40-0.59, mean = 0.505, n = 11';
+	TEXT TAXON=7 CHARACTER=53 TEXT='Grande (2010), Table 121: 0.52-0.62, mean = 0.588, n = 5';
+	TEXT TAXON=8 CHARACTER=53 TEXT='Grande (2010), Table 131: 0.58-0.70, mean = 0.636, n = 5';
+	TEXT TAXON=13 CHARACTER=53 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=14 CHARACTER=53 TEXT='The parietals are usually very asymmetric with one of them being much shorter, state 1, than the other one, state 0.';
+	TEXT TAXON=15 CHARACTER=53 TEXT='Grande (2010), Table 2: 0.33-0.47, mean = 0.317, n = 13';
+	TEXT TAXON=18 CHARACTER=53 TEXT='Grande (2010), Table 151: 0.66-0.74, mean = 0.69, n= 3';
+	TEXT TAXON=19 CHARACTER=53 TEXT='Grande (2010), Table 141: 0.58, n= 1';
+	TEXT TAXON=22 CHARACTER=53 TEXT='Grande (2010), Table 161: 0.41-0.47, mean = 0.44, n = 2';
+	TEXT TAXON=38 CHARACTER=53 TEXT='PIMUZ T 2835';
+	TEXT TAXON=48 CHARACTER=53 TEXT='0,7 measured in line drawings of AMNH 5680A and 5679A  (Gibson 2013: figs. 3 and 5)';
+	TEXT TAXON=49 CHARACTER=53 TEXT='0,8 measured in line drawing of UMNH VP 19417 (Gibson 2013b: fig. 4)';
+	TEXT TAXON=4 CHARACTER=54 TEXT='Grande (2010), Table 61: 0.40-0.48, mean = 0.43, n = 8';
+	TEXT TAXON=7 CHARACTER=54 TEXT='Grande (2010), Table 121: 0.58-0.65, mean = 0.612, n = 5';
+	TEXT TAXON=8 CHARACTER=54 TEXT='Grande (2010), Table 131: 0.57-0.61, mean = 0.588, n = 5';
+	TEXT TAXON=13 CHARACTER=54 TEXT='State 2 in Lopez-Arbarello & Wencker (2016); corrected by Sun & Ni (2017).';
+	TEXT TAXON=15 CHARACTER=54 TEXT='Grande (2010), Table 2: 0.27-0.42, mean = 0.345, n = 11';
+	TEXT TAXON=18 CHARACTER=54 TEXT='Grande (2010), Table 151: 0.48-0.53, mean = 0.51, n= 3';
+	TEXT TAXON=19 CHARACTER=54 TEXT='Grande (2010), Table 141: 0.44-0.50, mean = 0.47, n=2';
+	TEXT TAXON=22 CHARACTER=54 TEXT='Grande (2010), Table 161: 0.46-0.49, mean = 0.475, n = 2';
+	TEXT TAXON=38 CHARACTER=54 TEXT='PIMUZ T 2835';
+	TEXT TAXON=4 CHARACTER=55 TEXT='Grande (2010), Table 61: 3.23-4.55, mean = 3.73, n = 8';
+	TEXT TAXON=7 CHARACTER=55 TEXT='Grande (2010), Table 121: 2.22-2.50, mean = 2.33, n = 6';
+	TEXT TAXON=8 CHARACTER=55 TEXT='Grande (2010), Table 131: 2.13-2.50, mean = 2.29, n = 7';
+	TEXT TAXON=13 CHARACTER=55 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=15 CHARACTER=55 TEXT='Grande (2010), Table 2: 5.26-8.33, mean = 6.58, n = 11';
+	TEXT TAXON=18 CHARACTER=55 TEXT='Grande (2010), Table 151: 2.44-2.56, mean = 2.48, n= 3';
+	TEXT TAXON=19 CHARACTER=55 TEXT='Grande (2010), Table 141: 2.56-2.63, mean = 2.60, n= 2';
+	TEXT TAXON=22 CHARACTER=55 TEXT='Grande (2010), Table 161: 3.12, n = 1';
+	TEXT TAXON=38 CHARACTER=55 TEXT='PIMUZ T 2835';
+	TEXT TAXON=13 CHARACTER=56 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=58 TEXT='From Sun & Ni (2017: fig. 2A).';
+	TEXT TAXON=50 CHARACTER=58 TEXT='0,32 measured in line drawing of AMNH 8870 (Gibson 2013b: fig. 6)';
+	TEXT TAXON=3 CHARACTER=59 TEXT='AMNH-11813';
+	TEXT TAXON=13 CHARACTER=59 TEXT='From Sun & Ni (2017: fig. 2).';
+	TEXT TAXON=20 CHARACTER=59 TEXT='MHINUNSL-^nGEO-V189';
+	TEXT TAXON=27 CHARACTER=59 TEXT='MCSN 5050';
+	TEXT TAXON=3 CHARACTER=60 TEXT='AMNH-11813';
+	TEXT TAXON=20 CHARACTER=60 TEXT='MHINUNSL-^nGEO-V189';
+	TEXT TAXON=27 CHARACTER=60 TEXT='MCSN 5050';
+	TEXT TAXON=3 CHARACTER=62 TEXT='AMNH-11833';
+	TEXT TAXON=13 CHARACTER=62 TEXT='From Sun & Ni (2017: fig. 2A).';
+	TEXT TAXON=13 CHARACTER=63 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=64 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=23 CHARACTER=65 TEXT='Lopez-Arbarello and Wencker (2016) scored this character state one based on the specimen NHMUK PV P.1118. However, we have now identified further specimens of Occitanichthys canjuersensis among the specimens referred to Callipurbeckia minor in the Natural History Museum and none of the specimens preserved in lateral view clearly shows whether the supraorbitals contacted the infraorbitals closing the circumborbital ring.';
+	TEXT TAXON=13 CHARACTER=66 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=67 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=68 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=23 CHARACTER=74 TEXT='All bones in the circumborbital series are similar in size, with somwhat larger bones among the anterior infraorbitals, infraorbitals at the ventral rim of the orbit, or supraorbitals.';
+	TEXT TAXON=48 CHARACTER=74 TEXT='Based on the holotype';
+	TEXT TAXON=12 CHARACTER=76 TEXT='Very irregular';
+	TEXT TAXON=16 CHARACTER=76 TEXT='Variable shapes';
+	TEXT TAXON=18 CHARACTER=78 TEXT='The distinction between lacrimals (anterior infraorbitals) and lacrimomaxillae (toothed infraorbitals) in Masillosteus kelleri (Grande 2010) is arbitrary because there is no toothed bone carrying the infraorbital sensory canal and the gradual change in the shape of the whole series of anterior infraorbitals in this taxon agrees with the condition in other more basal lepisosteiforms, in which toothed infraorbitals are also absent.';
+	TEXT TAXON=19 CHARACTER=78 TEXT='The distinction between lacrimals (anterior infraorbitals) and lacrimomaxillae (toothed infraorbitals) in Masillosteus kelleri (Grande 2010) is arbitrary because there is no toothed bone carrying the infraorbital sensory canal and the gradual change in the shape of the whole series of anterior infraorbitals in this taxon agrees with the condition in other more basal lepisosteiforms, in which toothed infraorbitals are also absent.';
+	TEXT TAXON=35 CHARACTER=78 TEXT='NHMUK PV P56020';
+	TEXT TAXON=14 CHARACTER=80 TEXT='Scored 0 in previous analyses, which is mistake corrected here. Compare for example Lopez-Arbarello (2012) figure 8 with figures 6 and 10.';
+	TEXT TAXON=13 CHARACTER=82 TEXT='From Sun & Ni (2017: fig. 2).';
+	TEXT TAXON=13 CHARACTER=84 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=102 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=108 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=109 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=110 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=112 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=3 CHARACTER=115 TEXT='The preopercle of this species is very peculiarly shape. It resembles most closely the preopercle of Thaiichthys buddhabutrensis, but the horizontal arm is extremely short in Araripelepidotes temnurus.';
+	TEXT TAXON=4 CHARACTER=116 TEXT='Under the assumption there is a fusion with an interopercular ossification';
+	TEXT TAXON=6 CHARACTER=119 TEXT='The character is not applicable due to the presence of the suprapreopercle.';
+	TEXT TAXON=4 CHARACTER=122 TEXT='Grande (2010), Table 61: 0.80-1.05, mean = 0.88, n = 11';
+	TEXT TAXON=7 CHARACTER=122 TEXT='Grande (2010), Table 121: 0.82-1.07, mean = 0.956, n = 5';
+	TEXT TAXON=18 CHARACTER=122 TEXT='Grande (2010), Table 151: 0.84-0.87, media 0.855, n= 2';
+	TEXT TAXON=19 CHARACTER=122 TEXT='Grande (2010), Table 141: 0.90-1.00, media 0.95, n= 2';
+	TEXT TAXON=41 CHARACTER=124 TEXT='GZG.G6.1202.10a';
+	TEXT TAXON=50 CHARACTER=124 TEXT='16 %';
+	TEXT TAXON=41 CHARACTER=125 TEXT='GZG.G6.1202.10a';
+	TEXT TAXON=50 CHARACTER=125 TEXT='c. 40%';
+	TEXT TAXON=13 CHARACTER=131 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=28 CHARACTER=132 TEXT='GMPKU-P-1568 and Sun & Ni (2017: supplmentarey figure S2)';
+	TEXT TAXON=13 CHARACTER=133 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=135 TEXT='Sun & Ni (2017)';
+	TEXT TAXON=20 CHARACTER=143 TEXT='MHIN-UNSL-GEO-V190';
+	TEXT TAXON=13 CHARACTER=145 TEXT='Sun & Ni (2017: fig. 7)';
+	TEXT TAXON=5 CHARACTER=149 TEXT='Observed in MBf1621';
+	TEXT TAXON=13 CHARACTER=149 TEXT='Sun & Ni (2017: fig. 7)';
+	TEXT TAXON=13 CHARACTER=150 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=151 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=13 CHARACTER=152 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=4 CHARACTER=156 TEXT='Grande (2010), Table 68: 7-9, mean = 8, n = 10';
+	TEXT TAXON=5 CHARACTER=156 TEXT='11';
+	TEXT TAXON=46 CHARACTER=156 TEXT='Ebert et al. (2016: Table 1)';
+	TEXT TAXON=47 CHARACTER=156 TEXT='Ebert et al. (2016: Table 1)';
+	TEXT TAXON=5 CHARACTER=158 TEXT='Observed in MBf1621';
+	TEXT TAXON=13 CHARACTER=158 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=4 CHARACTER=160 TEXT='Grande (2010), Table 68: 7-8, mean = 8, n = 10';
+	TEXT TAXON=13 CHARACTER=162 TEXT='From Sun & Ni (2017: fig. 6B).';
+	TEXT TAXON=3 CHARACTER=166 TEXT='MNHN BCE 376';
+	TEXT TAXON=13 CHARACTER=170 TEXT='Sun & Ni (2017), though described as an anteroventral process, but compared with the anterior process of Scheenstia';
+	TEXT TAXON=13 CHARACTER=172 TEXT='From Sun & Ni (2017).';
+	TEXT TAXON=22 CHARACTER=174 TEXT='It has a very peculiar shape';
+	TEXT TAXON=13 CHARACTER=175 TEXT='Sun & Ni (2017: fig. 4)';
+	TEXT TAXON=5 CHARACTER=177 TEXT='Observed in NHMUK P.12211';
+	TEXT TAXON=13 CHARACTER=177 TEXT='Sun & Ni (2017: figs 1 and 2)';
+	TEXT TAXON=13 CHARACTER=180 TEXT='From Sun & Ni (2017).';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 54 56 - 76 78 - 129 131 - 143 145 - 154 156 - 159 161 - 187, ord: 55 77 130 144 155 160 188 - 192;
+      ENDBLOCK;
+      BEGIN LABELS;
+ TAXAGROUPLABEL Halecomorphi COLOR = (RGB 0.90196078 0.05882353 0.05882353) ; TAXAGROUPLABEL Teleostei COLOR = (RGB 0.03137255 0.03137255 0.90196078) ; TAXAGROUPLABEL Ginglymodi COLOR = (RGB 0.02352941 0.66666667 0.02352941) ; CHARGROUPLABEL 'Matrix in file "Neopterygii 180517.nex"'; CHARGROUPLABEL 'Matrix in file "Neopterygii 210617.nex"'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1528206234057; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 435630795058634181; tell It; setDefaultOrder 0 1 15 18 23 24 29 30 8 44 51 52 54 56 57 61 62 63 64 65 66 68 69 78 84 86 92 93 94 95 96 97 98 99 100 101 105 118 119 120 107 108 109 110 114 111 112 47 48 49; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5234821667228549837; tell It; setDefaultOrder 0 2 3 8 11 9 11 13 15 24 28 31 32 36 33 42 45 46 58 43 58 64 67 68 74 57 68 69 75 77 63 80 83 69 85 88 89 91 92 93 70 100 103 107 108 112 113 114 114 115 115 116 118 119 120 121 122 123 126 127 129 131 132 133 134 135 139 140 141 142 143 145 148 149 150 151 154 161 162 163 164 166 170 171 174 175 176 213 177 179 154 155 188 197 198 199 200 201 202 203 211 217 218 224 227 231 232 234 235 237 238 239 243 250 251 207 208 250 251 252 253 254 255 257 258 259 260 261 262 224 263 278 279 280 281 282 285 243 291 294 302 317 363 367 368 369 370 371 372 377 378 380 383 314 387 389 390 392 393 397 394 396 398 397 332 397 398 401 402 404 406 407 410 411 413 414 412 415 422 424 180 181 349 350 351 352 355 187 188 189 190 191; attachments ; endTell; mqVersion 340; checksumv 0 3 2448181673 null getNumChars 192 numChars 192 getNumTaxa 50 numTaxa 50 short false bits 49151 states 49151 sumSquaresStatesOnly 1.170447986E9 sumSquares 1.170447986E9 longCompressibleToShort false usingShortMatrix false NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 146; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1224 788; setLocation 178 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #435630795058634181 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 0163b7f279453; toggleUseWeights off; endTell; setAssignedID 1077.1528104808529.5343591415718452820; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1078 716; setLocation 178 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; setActive; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned off; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 17; setTree '(1,(2,((28,(27,29)),((38,39),(13,(((14,(11,12),((6,32),(30,31))),(37,(3,(25,((9,22),((18,19),(7,(8,(4,15))))))))),((20,48,49,50),(36,(((16,(5,(23,40))),(24,33)),(34,35,((21,26,(10,(17,46,47))),(42,(41,(44,(43,45)))))))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #5234821667228549837; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 156; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 4; setInitialOffsetY -416; setLegendWidth 142; setLegendHeight 369; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5234821667228549837 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 195; endTell; setExplanationSize 50; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1078 696; setLocation 178 23; setFont SanSerif; setFontSize 14; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Goldenrod; removeColor off; endTell; colorRowNames #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Goldenrod; removeColor off; endTell; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; getInfoPanel; tell It; btspOpen true; apOpen true; fpOpen true; endTell; toggleInfoPanel on; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; newAssistant #mesquite.basic.TextWindowMaker.TextWindowMaker; tell It; setText ; setTitle Note_1; getWindow; tell It; popAsTile true; popOut; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 0 -22; setLocation 178 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; hideWindow; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 192; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = Ginglymodi : 3 - 8 10 - 40 46 - 47; 
+ENDBLOCK;
+BEGIN TREES;
+ Title Imported_trees; ID 0163b7f279453; LINK Taxa = Taxa; TRANSLATE [0] 1 Watsonulus_eugnathoides, [1] 2 Amia_calva, [2] 3 Araripelepidotes_temnurus, [3] 4 Atractosteus_spatula, [4] 5 Callipurbeckia_minor, [5] 6 Camerichthys_lunae, [6] 7 Cuneatus_cuneatus, [7] 8 Cuneatus_wileyi, [8] 9 Dentilepisosteus_laevis, [9] 10 Histionotus_oberndorferi, [10] 11 Isanichthys_lertboosi, [11] 12 Isanichthys_palustris, [12] 13 Kyphosichthys_grandei, [13] 14 Lepidotes_gigas, [14] 15 Lepisosteus_osseus, [15] 16 Macrosemimimus_fegerti, [16] 17 Macrosemius_rostratus, [17] 18 Masillosteus_janeae, [18] 19 Masillosteus_kelleri, [19] 20 Neosemionotus_puntanus, [20] 21 Notagogus_denticulatos, [21] 22 Obaichthys_decoratus, [22] 23 Occitanichthys_canjuersensis, [23] 24 Paralepidotus_ornatus, [24] 25 Pliodetes_nigeriensis, [25] 26 Propterus_elongatus, [26] 27 Sangiorgioichthys_aldae, [27] 28 Sangiorgioichthys_sui, [28] 29 Sangiorgioichthys_valmarensis, [29] 30 Scheenstia_mantelli, [30] 31 Scheenstia_maximus, [31] 32 Scheenstia_zappi, [32] 33 Semiolepis_brembanus, [33] 34 Semionotus_bergeri, [34] 35 Semionotus_capensis, [35] 36 Semionotus_elegans, [36] 37 Thaiichthys_buddhabutrensis, [37] 38 Ticinolepis_crassidens, [38] 39 Ticinolepis_longaeva, [39] 40 Tlayuamichin_itztli, [40] 41 Eosemionotus_vogeli, [41] 42 Eosemionotus_ceresiensis, [42] 43 Eosemionotus_diskosomus, [43] 44 Eosemionotus_sceltrichi, [44] 45 Eosemionotus_minutus, [45] 46 Macrosemius_furneti, [46] 47 Paleomacrosemius_thiollieri, [47] 48 'Lophionotus_sanjuanensis', [48] 49 'Lophionotus_chinleana', [49] 50 'Lophionotus_kanabensis'; TREE Imported_tree_1 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),((((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))),(34,35)))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_2 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),((((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))),(34,35)))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_3 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(((21,(26,(10,(17,(46,47))))),(42,(41,(44,(43,45))))),(34,35)))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_4 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,(((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))))))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_5 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),((((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))),(34,35)))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_6 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(((21,(26,(10,(17,(46,47))))),(42,(41,(44,(43,45))))),(34,35)))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_7 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,(((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))))))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_8 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),((((10,(17,(46,47))),(21,26)),(42,(41,(44,(43,45))))),(34,35)))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_9 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,((21,(26,(10,(17,(46,47))))),(42,(41,(44,(43,45))))))))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_10 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(((21,(26,(10,(17,(46,47))))),(42,(41,(44,(43,45))))),(34,35)))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_11 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,(((10,(46,(17,47))),(21,26)),(42,(41,(44,(43,45))))))))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_12 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,(((10,(46,(17,47))),(21,26)),(42,(41,(44,(43,45))))))))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_13 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,((21,(26,(10,(46,(17,47))))),(42,(41,(44,(43,45))))))))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_14 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),((14,((6,32),(30,31))),(11,12))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,((21,(26,(10,(46,(17,47))))),(42,(41,(44,(43,45))))))))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_15 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(((21,(26,(10,(46,(17,47))))),(42,(41,(44,(43,45))))),(34,35)))),(20,(49,(48,50)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_16 = (1,(2,(((13,(((37,(3,(25,(((7,(8,(4,15))),(18,19)),(9,22))))),(14,(((6,32),(30,31)),(11,12)))),((36,(((16,(5,(23,40))),(24,33)),(35,(34,((21,(26,(10,(46,(17,47))))),(42,(41,(44,(43,45))))))))),(50,(20,(48,49)))))),(38,39)),(28,(27,29))))); TREE Imported_tree_17 = (1,(2,((28,(27,29)),((38,39),(13,(((14,(11,12),((6,32),(30,31))),(37,(3,(25,((9,22),((18,19),(7,(8,(4,15))))))))),((20,48,49,50),(36,(((16,(5,(23,40))),(24,33)),(34,35,((21,26,(10,(17,46,47))),(42,(41,(44,(43,45))))))))))))))); 
+ENDBLOCK;

@@ -1,0 +1,384 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.51.07 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+    		'Teilhardina belgica'
+		'Copelemur tutus'
+		'Copelemur australotutus'
+		'Copelemur praetutus'
+		'Cantius abditus'
+		'Cantius nunienus'
+		'Cantius torresi'
+		'Cantius ralstoni'
+		'Cantius mckennai'
+		'Cantius trigonodus'
+		'Notharctus venticolus'
+		'Notharctus robinsoni'
+		'Notharctus tenebrosus'
+		'Smilodectes gracilis'
+		'Smilodectes mcgrewi'
+		'Smilodectes sororis'
+		'Pelycodus jarrovii'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=53;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'c1-p1 diastema'
+		 [2] 'p2 roots'
+		 [3] 'p2 paracristid'
+		 [4] 'p3 paracristid'
+		 [5] 'p3 postvallid'
+		 [6] 'p3 talonid'
+		 [7] 'p3 shape'
+		 [8] 'p4 paraconid'
+		 [9] 'p4 paracristid'
+		 [10] 'p4 metaconid'
+		 [11] 'p4 talonid'
+		 [12] 'p4 lingual talonid'
+		 [13] 'm1 paraconid'
+		 [14] 'm1 paracristid'
+		 [15] 'm1-2 entoconid'
+		 [16] 'm1-2 entocristid'
+		 [17] 'm1 hypoconulid'
+		 [18] 'm1-2 talonid notch'
+		 [19] 'm1-2 entoconid notch'
+		 [20] 'm1 cristid obliqua'
+		 [21] 'm2 paraconid'
+		 [22] 'm2 paracristid'
+		 [23] 'm2 hypoconulid'
+		 [24] 'm3 paraconid'
+		 [25] 'm3 paracristid'
+		 [26] 'm3 entoconid'
+		 [27] 'm3 entocristid'
+		 [28] 'm3 talonid notch'
+		 [29] 'm3 talonid enamel'
+		 [30] 'm3 cristid obliqua'
+		 [31] 'M1-2 mesostyle'
+		 [32] 'M1-2 parastyle'
+		 [33] 'M1-2 metastyle'
+		 [34] 'M1 paraconule'
+		 [35] 'M1 metaconule'
+		 [36] 'M1-2 hypocone'
+		 [37] 'M2 paraconule'
+		 [38] 'M2 metaconule'
+		 [39] 'M3 mesostyle'
+		 [40] 'M3 parastyle'
+		 [41] 'M3 paraconule'
+		 [42] 'M3 metaconule'
+		 [43] 'M3 hypocone'
+		 [44] 'Upper molar shape'
+		 [45] 'P4 shape'
+		 [46] 'P4 protocone'
+		 [47] 'P4 protocone position'
+		 [48] 'P4 distolingual basin'
+		 [49] 'P4 paracone'
+		 [50] 'P4 metacone'
+		 [51] 'Upper molar postprotocingula (Nannopithex Fold)'
+		 [52] 'M3 postprotocrista'
+		 [53] 'm3 entoconid notch'
+	;
+	STATELABELS
+		1
+		'short/absent'
+		'moderate/long'
+		,
+		2
+		'double'
+		'one?two'
+		'single'
+		,
+		3
+		'weak'
+		'strong'
+		,
+		4
+		'weak'
+		'strong and straight'
+		'strong and curving'
+		,
+		5
+		'weak and single or double'
+		'strong and single or double'
+		,
+		6
+		'cuspule absent'
+		'central cuspule present'
+		,
+		7
+		'distolingually narrow'
+		'distolingually expanded'
+		,
+		8
+		'small'
+		'low, moderate'
+		'central, distinct, mesially projecting'
+		'high, small,
+incorporated into paracristid'
+		'absent'
+		,
+		9
+		'weak, compressed'
+		'strong, compressed'
+		'strong, broad'
+		,
+		10
+		'distinct, low, appressed'
+		'distinct, high, separate'
+		'distinct, high, connected to protoconid by crest'
+		,
+		11
+		'central ridge only'
+		'ridge and buccal cusp'
+		'ridge, buccal, and lingual cusps'
+		,
+		12
+		'sloping'
+		'basined with cuspule and/or incipient talonid notch'
+		,
+		13
+		'distinct, lingual'
+		'distinct, mesial'
+		'weak/absent'
+		,
+		14
+		'lower, short, curving'
+		'high, broad, continuous'
+		'curving, mesially extended'
+		,
+		15
+		'low, isolated'
+		'intermediate, marginal'
+		'high, isolated'
+		,
+		16
+		'short, steeply sloping'
+		'high, strong'
+		'high, short, mesiolingually inflected'
+		'sloping, mesially inflected'
+		,
+		17
+		'low, cuspate, weak'
+		'low, shelf-like, strong'
+		'absent'
+		,
+		18
+		'closed'
+		'narrow'
+		,
+		19
+		'closed'
+		'narrow'
+		'open'
+		,
+		20
+		'continuous with metaconid'
+		'not continuous with metaconid'
+		,
+		21
+		'distinct'
+		'small'
+		'small, very appressed'
+		'absent'
+		,
+		22
+		'low, broad, continuous'
+		'broad, mesially expanded'
+		'low, broad, not continuous'
+		,
+		23
+		'small, cuspate, low'
+		'large, cuspate'
+		'shelf-like'
+		'absent'
+		,
+		24
+		'distinct'
+		'small'
+		'small, very appressed'
+		'absent'
+		,
+		25
+		'low, broad, continuous'
+		'low, broad, continuous, mesially expanded'
+		'short, not
+continuous lingually'
+		,
+		26
+		'distinct'
+		'low, weak'
+		'mesiobucally inflected'
+		,
+		27
+		'strong'
+		'absent'
+		'mesiobucally inflected'
+		,
+		28
+		'closed'
+		'open'
+		,
+		29
+		'smooth'
+		'rugose'
+		,
+		30
+		'not flexed, joins postvallid'
+		'flexed, continuous with protoconid'
+		,
+		31
+		'absent'
+		'small, crescentic'
+		'large, crescentic'
+		'large, cuspate'
+		,
+		32
+		'weak/absent'
+		'moderate'
+		'strong'
+		,
+		33
+		'weak/absent'
+		'moderate'
+		'strong'
+		,
+		34
+		'moderate, mesial'
+		'small, mesial'
+		'strong, mesial'
+		,
+		35
+		'small ridge with cuspule'
+		'weak'
+		'larger, cuspate'
+		,
+		36
+		'absent'
+		'small/weak, continuous PPC'
+		'small, weakly lobate'
+		'lobate, separate,
+distinct'
+		'compressed, blade-like, lingual'
+		,
+		37
+		'distinct, mesial'
+		'small, mesial'
+		,
+		38
+		'distinct ridge'
+		'weak ridge'
+		'State 2'
+		,
+		39
+		'weak/absent'
+		'strong'
+		,
+		40
+		'weak'
+		'moderate to strong'
+		,
+		41
+		'small'
+		'absent'
+		,
+		42
+		'weak'
+		'absent'
+		'large, isolated'
+		'large, crestiform'
+		,
+		43
+		'absent'
+		'small, continuous PPC'
+		,
+		44
+		'rectangular'
+		'squared'
+		,
+		45
+		'rectangular'
+		'squared'
+		,
+		46
+		'low'
+		'elevated'
+		,
+		47
+		'lingual, separated from paracone'
+		'appressed to paracone base'
+		,
+		48
+		'absent'
+		'developed, partially closed'
+		'strong, fully closed'
+		,
+		49
+		'tall, inflated'
+		'tall, buccolingually compressed'
+		,
+		50
+		'absent'
+		'paracone twinned'
+		'present'
+		,
+		51
+		'absent'
+		'low, does not extend to apex of protocone'
+		'weak, short, extends to apex of protocone'
+		'strong, compressed, extends to apex of protocone'
+		'curving, extends from apex of protocone and is continuous with lingual cingulum'
+		,
+		52
+		'present, weakly inflated'
+		'absent'
+		'present, sharply crested, often continuous
+with protocone'
+		,
+		53
+		'absent'
+		'weak'
+		'strong'
+		
+	;
+	MATRIX
+	'Teilhardina belgica'		              ???00000000000{0,1}{0,1}0000100101000000011011010000000000010
+	'Copelemur tutus'		                  101110121101101210200221202000{2,3}2{1,2}1140111??00????????2
+	'Copelemur australotutus'		          00110012110110121020022120200011111401011100000100312
+	'Copelemur praetutus'		              00110002110110121020022120200011111411000100??????312
+	'Cantius abditus'		                  10?100001000000{0,1}1000102201000111100202000000000000100
+	'Cantius nunienus'		                 11010{0,1}1010{0,1}000100{0,1}{0,1}01002000{0,1}{0,1}11{1,2}{0,1}20{1,2}000100{0,1}0010100100
+	'Cantius torresi'		                  00000000001000010000000001000100{0,1}00{0,1}0000{0,1}000??????100
+	'Cantius ralstoni'		                 00?100000{0,1}0000111000002201000100000{0,1}000000{0,1}0000000100
+	'Cantius mckennai'		                 00?100011100001110000022010001{0,1}0{0,1}0010100{0,1}110000{0,1}00100
+	'Cantius trigonodus'		               00?100{0,1}111000011100000220100{0,1}1111001010101{0,1}0000{0,1}00100
+	'Notharctus venticolus'		            10121{0,1}102{0,1}{1,2}100110{0,1}{0,1}0111{1,2}{0,1}{0,1}1011{2,3}1{1,2}{1,2}23{0,1}0{0,1}1{0,1}300010110220
+	'Notharctus robinsoni'		             01?110132111021100{1,2}10121101111{2,3}221231111{0,1}301010212221
+	'Notharctus tenebrosus'		            0{1,2}1111132121001100{1,2}11101101111{2,3}2212{2,3}1101{0,1}301010212221
+	'Smilodectes gracilis'		             0{1,2}11100420211220111032032021003{0,1}{1,2}00211000201101100412
+	'Smilodectes mcgrewi'		              011210011{1,2}111020111022232121101{0,1}{0,1}00{1,2}01000211111110412
+	'Smilodectes sororis'		              ???????1102100231{0,1}101223212100{1,3}010041{0,1}101001??????110
+	'Pelycodus jarrovii'		               00??????????0101200020320000110001121100100{0,1}??????200
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 53;
+      ENDBLOCK;
+      BEGIN AUTHORS;
+ AUTHOR NAME = Sharon_Doyle CODE = Sharon LASTSAVER; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1486415015148; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8932559135250519333; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4189799483994772531; mqVersion 304; checksumv 0 3 3979938043 null getNumChars 53 numChars 53 getNumTaxa 17 numTaxa 17 short true bits 2305843009213693983 states 31 sumSquaresStatesOnly 7438.0 sumSquares -3.320413933267719E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 103; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1116 464; setLocation -66 335; setFont Monospaced; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #8932559135250519333 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #8932559135250519333; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1013 392; setLocation -66 335; setFont Monospaced; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4189799483994772531 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 131; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1013 392; setLocation -66 335; setFont Monospaced; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.NoColor.NoColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground Black; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames off; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel on; toggleDiagonal off; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 110; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1013 392; setLocation -66 335; setFont Monospaced; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4189799483994772531 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1013 392; setLocation -66 335; setFont Monospaced; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 53; 
+ENDBLOCK;

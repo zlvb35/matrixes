@@ -1,0 +1,280 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.18.32 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+    		'Ophioglossum reticulatum'
+		'Angiopteris lygodiifolia'
+		'Cephalomanes thysanostomum'
+		'Lygodium japanicum'
+		'Gleichenia japonica'
+		'Dryopteris cristata'
+		'Stegnogramma pozoi'
+		'Todea barbara (New Zealand)'
+		'Todea barbara (South Africa)'
+		'Osmundastrum cinnamomum (USA)'
+		'Osmundastrum cinnamomum (Japan)'
+		'Leptopteris hymenophylloides (New Zealand)'
+		'Leptopteris wilkesiana (New Caledonia)'
+		'Osmunda regalis (USA)'
+		'Osmunda regalis (UK)'
+		'Osmunda vachellii (Malaysia)'
+		'Todea tidwellii'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Rhizome orientation'
+		 [2] 'Internodes'
+		 [3] 'Protostele'
+		 [4] 'Dictyoxylic stele'
+		 [5] 'Dictyostele'
+		 [6] 'Gap in xylem formed by leaf trace divergence'
+		 [7] 'Cauline protoxylem'
+		 [8] 'Pith'
+		 [9] 'Primarily sclerenchymatous pith'
+		 [10] 'Primarily parenchymatous pith'
+		 [11] 'Winged stipe base (stipular wings)'
+		 [12] 'Sclerenchyma bundles in stipular wings'
+		 [13] 'Number of differentiated cortical regions in stem'
+		 [14] 'Innter cortex composition'
+		 [15] 'Outer cortex composition'
+		 [16] 'Heterogeneous sclerotic cortex'
+		 [17] 'Leaf trace xylem cnfiguration at frond base'
+		 [18] 'Recurved leaf trace xylem margins'
+		 [19] 'Stele or roots'
+		 [20] 'Rots diverging per leaf trace'
+		 [21] 'Roots diverging from cauline xylem'
+		 [22] 'Roots diverging from leaf traces'
+		 [23] 'Sclerenchyma sheath in stipe cortex'
+		 [24] 'Sclerenchyma sheath of heterogeneous cellular construction'
+		 [25] 'Sclerenchyma sheath differentiating at inner margin of inner cortex'
+		 [26] 'Sclerenchyma sheath differentiating at inner margin of outer cortex'
+		 [27] 'Sclerenchyma sheath differentiating in outer region of outer cortex'
+		 [28] 'Sclerenchyma sheath differentiating distal to divergence from cortex'
+		 [29] 'Interior sclerenchyma'
+		 [30] 'Interior sclerenchyma as scattered bundles'
+		 [31] 'Interior sclerenchyma from pith'
+		 [32] 'Occluded sclerenchyma bundles at adaxial margin of leaf trace'
+		 [33] 'Sclerenchyma bundles at abaxial margin of leaf trace'
+		 [34] 'Adaxial side of sclerenchyma sheath thinner'
+		 [35] 'Differentiated regions of sclerenchyma sheath'
+		 [36] 'Leaf trace protoxylem'
+		 [37] 'Protoxylem strands in diverging leaf trace'
+		 [38] 'Leaf trace protoxylem bifurcates at'
+		 [39] 'root hairs'
+		 [40] 'Sporangia abaxial on broad laminar pinnules'
+		 [41] 'Sporangia abaxial on distinctly narrow or skeletinized pinnules'
+	;
+	STATELABELS
+		1
+		'diagonal'
+		'erect horizontal'
+		,
+		2
+		'short'
+		'long'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'endarch'
+		'mesarch'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'one'
+		'two'
+		'more than two'
+		,
+		14
+		'sclerenchyma'
+		'parenchyma'
+		,
+		15
+		'sclerenchyma'
+		'parenchyma'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'single'
+		'C-shaped bundle'
+		'two hippocampiform bundles'
+		'C-shaped arc of 3 or more bundles'
+		'trapazoidal'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'primarily diarch'
+		'polyarch'
+		,
+		20
+		'zero'
+		'one'
+		'one to two'
+		'two'
+		'three to five'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'one'
+		'two-many'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'adaxial (endarch)'
+		'mesarch'
+		'abaxial (exarch)'
+		,
+		37
+		'one'
+		'two'
+		'several'
+		,
+		38
+		'margin of stele'
+		'inner cortex'
+		'outer cortex'
+		'divergence from cortex'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Ophioglossum reticulatum'		                            0010110101001110000?10000000000000000?000
+	'Angiopteris lygodiifolia'		                            0010111101101110201111100100100010002?110
+	'Cephalomanes thysanostomum'		                          0000011000000000010???1010??00?00?0???100
+	'Lygodium japanicum'		                                  1100001000000000300???0010??10?000000?101
+	'Gleichenia japonica'		                                 1100001000001010010010101000100000010?110
+	'Dryopteris cristata'		                                 00101011010001101104??0000??1??00?0?2?110
+	'Stegnogramma pozoi'		                                  1110101101000000??02???000??1??00?0???110
+	'Todea barbara (New Zealand)'		                         001101111011100101021010--10111000000?101
+	'Todea barbara (South Africa)'		                        001101111011100101021010--10111000000--01
+	'Osmundastrum cinnamomum (USA)'		                       001101110111100000011011--01100100100?110
+	'Osmundastrum cinnamomum (Japan)'		                     001101110111100000011011--0110-10-100-110
+	'Leptopteris hymenophylloides (New Zealand)'		          001101110111100100011010--01100000000?101
+	'Leptopteris wilkesiana (New Caledonia)'		              001101110111100100011010--0110-00-000-101
+	'Osmunda regalis (USA)'		                               001101110111100001031010--01110200000?110
+	'Osmunda regalis (UK)'		                                001101110111100001031010--0111-20-000-110
+	'Osmunda vachellii (Malaysia)'		                        001101110111100001011010--01110000001?110
+	'Todea tidwellii'		                                     0011011110??100101011011--001?10010000???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 41;
+      ENDBLOCK;
+      

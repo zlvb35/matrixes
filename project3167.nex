@@ -1,0 +1,304 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 05.46.42 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+    		'Adocus sp.'
+		'Zangerlia testudinimorph'
+		'''Zangerlia'' neimongolensis'
+		'''Zangerlia'' ukhaachelys'
+		'Basilemys variolosa'
+		'Basilemys gaffneyi'
+		'Basilemys sinuosa'
+		'Basilemys praeclara'
+		'Hanbogdemys orientalis'
+		'Anomalochelys angulata'
+		'Nanhsiungchelys wuchingensis'
+		'Kharakhutulia kalandadzei'
+		'Jianxichelys ganzhouensis'
+		'''Zangerlia'' dzamynchondi'
+		'Basilemys morrinensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=47;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'External narial opening'
+		 [2] 'Numerous deep cranial scute sulci on dermal roofing elements'
+		 [3] 'Extensive postorbital squamosal contact due to the great anterior extent of the squamosal and the greatposterior extent of the postorbital'
+		 [4] 'Extent of upper temporal emargination'
+		 [5] 'Extent of lower temporal emargination'
+		 [6] 'Lingual ridges of maxilla'
+		 [7] 'Antorbital groove on the surface of the maxilla along the anteroventral rim of the orbit'
+		 [8] 'Medial contact of palatines'
+		 [9] 'Incisura columella auris'
+		 [10] 'Size and contacts of the basisphenoid'
+		 [11] 'Central morphology of the eighth cervical'
+		 [12] 'Coracoid'
+		 [13] 'Size and medial contact of thyroid fenestrae'
+		 [14] 'Thelial process of ilium'
+		 [15] 'Length of manual and pedal digits'
+		 [16] 'Limb osteoderms'
+		 [17] 'Steep deflection of the postneural part of the carapace'
+		 [18] 'Knobby protrusion of the carapace at the position ofthe first suprapygal'
+		 [19] 'Nuchal notch'
+		 [20] 'Shape and size of nuchal'
+		 [21] 'Costiform process of nuchal'
+		 [22] 'Neurals'
+		 [23] 'Contacts of suprapygals with peripherals'
+		 [24] 'Shape of pygal'
+		 [25] 'Medial process of marginal 2'
+		 [26] 'First vertebral scute'
+		 [27] 'Anterior contacts of vertebral I'
+		 [28] 'Second to fourth vertebral scutes'
+		 [29] 'Contacts of vertebral V with marginals X and XI'
+		 [30] 'Position of vertebral V relative to suprapygals'
+		 [31] 'Position of vertebral V relative to peripheral X'
+		 [32] 'Sulcus between pleural I and marginals II and III'
+		 [33] 'Sulcus between pleural III and marginals VII-IX'
+		 [34] 'Extent of anterior plastral lobe'
+		 [35] 'Extragulars'
+		 [36] 'Fusion of gulars'
+		 [37] 'Size and medial contact of extragulars'
+		 [38] 'Broad dorsal extension of gulars onto thickened anterior plastral lip'
+		 [39] 'Position of gulars and extragulars relative to entoplastron'
+		 [40] 'Humero-pectoral sulcus'
+		 [41] 'Inframarginals'
+		 [42] 'Expansion of the ventromedial edge of marginal VI'
+		 [43] 'Participation of pectoral to rim of axillary notch'
+		 [44] 'Sculpturing of the shell surface with relatively big and irregular pits and grooves'
+		 [45] 'Overlapping of scales on the dorsal surface of plastral lobes'
+		 [46] 'Ratio of midline epiplastral suture length to total midline plastral length'
+		 [47] 'Epiplastral beak distinct from anterior plastral lobe'
+	;
+	STATELABELS
+		1
+		'small to moderate size (less than half the width of the orbit) and faces anteriorly'
+		'large (more than half the width of the orbit) and faces anterodorsally'
+		,
+		2
+		'absent'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'foramen stapedio-temporale fully exposed in dorsal view'
+		'foramen stapedio-temporale concealed in dorsal view'
+		,
+		5
+		'moderately developed, processus pterygoideus externus barely visible in lateral view'
+		'absent or shallow, processus pterygoideus externus concealed in lateral view'
+		,
+		6
+		'double'
+		'single or absent'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'open posteriorly'
+		'closed posteriorly'
+		,
+		10
+		'basisphenoid short, anteriorly only in contact with pterygoid'
+		'basisphenoid elongate, anteriorly in contact withvomer or palatine'
+		,
+		11
+		'opistocoelous'
+		'biconvex'
+		,
+		12
+		'flat and elongate'
+		'flat, fan-shaped'
+		,
+		13
+		'fenestrae large and confluent'
+		'fenestrae small, medialcontact absent'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'digits elongate,typically three phalanges per digit'
+		'digits shortened,less than three phalanges per digit'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent, posterior peripherals greatly flared'
+		'present, posterior peripherals shortened'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent or shallow'
+		'present,formed by the nuchal and peripheral I'
+		'present,formed by nuchal only'
+		,
+		20
+		'small and trapezoid'
+		'large and V-shaped'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'neurals VII and VIII reduced or lost'
+		'full set of eight neurals present'
+		,
+		23
+		'contactwith peripherals X and XI'
+		'contact with peripheralXI only'
+		,
+		24
+		'longer than wide'
+		'wider than long'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'with straight lateral edge'
+		'with convex or angled lateral edge'
+		'with lateral edges converging anteriorly'
+		,
+		27
+		'anterior side verywide, in contact with marginal II'
+		'anterior side moderately wide, in contact with marginal I'
+		'anteriorside constricted, primarily in contact with cervical only'
+		,
+		28
+		'width greater than half length'
+		'width less than half length'
+		,
+		29
+		'vertebral V only in contact with half the length of marginal XI'
+		'vertebral V contacts full length of marginal XI and may even contact marginal X'
+		,
+		30
+		'vertebral V only partially covers suprapygals'
+		'vertebral V fully, or almost fully, covers the suprapygals'
+		,
+		31
+		'vertebral V does not reach peripheral X'
+		'vertebral V clearly covers part of peripheral X'
+		,
+		32
+		'clearly situated on peripherals'
+		'situated on or near suture of peripherals and costals or clearly situated oncostals'
+		,
+		33
+		'clearly situated on costals'
+		'situated near suture of peripherals and costals'
+		'clearly situated on peripherals'
+		,
+		34
+		'anterior lobe covered by carapace in dorsal view'
+		'anterior lobe protrudes farther anterior than carapace'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'extragulars small or absent, and, if present, do not meet medially'
+		'extragulars elongate, in medial contactwith another, thus hindering a contact between gulars and humerals'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'scutes do not overlap entoplastron'
+		'scutes overlap onto entoplastron'
+		,
+		40
+		'does not intersect entoplastron'
+		'intersects entoplastron'
+		,
+		41
+		'four or three pairs'
+		'two pairs'
+		'absent'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'present'
+		'absent'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'0.10 or less'
+		'greater than 0.10'
+		,
+		47
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Adocus sp.'		                            000000000000000000000000000000000000000?0000000
+	'Zangerlia testudinimorph'		              ??????????????1?110??111?00011011??????001111??
+	'''Zangerlia'' neimongolensis'		          1000011?101001111110?10111110000210011110111?10
+	'''Zangerlia'' ukhaachelys'		             1000011?????????1?10???1??????0111???1?100111??
+	'Basilemys variolosa'		                   ?000001?1??111110000010101111010210(0,1)0111111110(0,1)
+	'Basilemys gaffneyi'		                    ??????????????110000?0010111101021010111(0,1)(0,1)11101
+	'Basilemys sinuosa'		                     ????????????????0000?10101?11010210011111111111
+	'Basilemys praeclara'		                   ????????????????0??0???101?110102?001111???1111
+	'Hanbogdemys orientalis'		                ???????????1111?0010110101110001110101010111110
+	'Anomalochelys angulata'		                ?????????????????01101??0220????1?01011???111??
+	'Nanhsiungchelys wuchingensis'		          10111??110?1?1110?20????0220???1111101112?111?0
+	'Kharakhutulia kalandadzei'		             ????????????????0?000??10101???1?00?00010111101
+	'Jianxichelys ganzhouensis'		             ????????????????1110?1011111000021?????????1??0
+	'''Zangerlia'' dzamynchondi'		            ????????????????0110??110??????0210?01010111100
+	'Basilemys morrinensis'		                 ????????????????00000?010111101021?001111111?11
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=20 TEXT='Doesn"t appear phylogenetically informative. Only scored as 1 in Anomalochelys';
+	TEXT CHARACTER=21 TEXT='Doesnt" appear phylogenetically informative. Only coded as 1 in Hanbogdemys.';
+	TEXT CHARACTER=45 TEXT='Is this independent of char 34?';
+
+      [Attribute comments]
+      	TEXT TAXON=7 CHARACTER=27 TEXT='perhaps score as 0+1?';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 47;
+      ENDBLOCK;
+      

@@ -1,0 +1,389 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.10.23 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+    		'Parabolinella prolata'
+		'Parabolinella tumifrons'
+		'Cloacaspis senilis'
+		'Cloacaspis tesselata'
+		'Cloacaspis ekphymosa'
+		'Cloacaspis dejecta'
+		'Balnibarbi ceryx ceryx'
+		'Balnibarbi ceryx anataphra'
+		'Balnibarbi pulvurea'
+		'Balnibarbi tholia'
+		'Balnibarni erugata'
+		'Balnibarbi sombrero'
+		'Balnibarbi scimitar'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=45;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Width of anterior border relative to frontal area.'
+		 [2] 'Anterior border pits'
+		 [3] 'Number of anterior border pits'
+		 [4] 'Number of rows of anterior border pits'
+		 [5] 'Expression of anterior border pits'
+		 [6] 'Granulation on adults'
+		 [7] 'Caeca on preglabellar field/frontal area'
+		 [8] 'Terrace lines on preglabellar field'
+		 [9] 'Degree of divergence of anterior facial suture'
+		 [10] 'Shape of anterior border of cranidium'
+		 [11] 'Maximum sagittal width of preglabellar field'
+		 [12] 'Curvature of preglabellar field'
+		 [13] 'Bulge in preglabellar field at sagittal axis'
+		 [14] 'Size of frontal area relative to cranidial length'
+		 [15] 'Pitting in preglabellar furrow'
+		 [16] 'Medial indent in preglabellar furrow'
+		 [17] 'Placement of anterior end of palpebral lobe relative to glabellar furrows'
+		 [18] 'Placement of posterior end of palpebral lobe relative to glabellar furrows'
+		 [19] 'Size of palpebral lobes relative to cranidial length'
+		 [20] 'Forward curvature of palpebral lobe'
+		 [21] 'Width of palpebral lobes relative to frontal area'
+		 [22] 'Shape of postocular fixigena (posterior limbs)'
+		 [23] 'Shape of S2'
+		 [24] 'Shape of S3'
+		 [25] 'Shape of S4'
+		 [26] 'Bifuracting glabellar furrows in adults'
+		 [27] 'Bifurcating glabellar furrows in juveniles'
+		 [28] 'Frontal lobe bisected by furrow'
+		 [29] 'Post-palpebral furrow in adults'
+		 [30] 'Post-palpebral furrow in juveniles'
+		 [31] 'Articulating socket in posterior margin'
+		 [32] 'Bifurcation in occipital furrow'
+		 [33] 'Length of genal spine'
+		 [34] 'Genal angle/advanced genal spine'
+		 [35] 'Genal vein from eye to margin'
+		 [36] 'Genal ridge around eye'
+		 [37] 'Number of axial rings on pygidium'
+		 [38] 'Number of completely defined axial rings'
+		 [39] 'Number of pleural furrows'
+		 [40] 'Extent of pleural/interpleural furrows'
+		 [41] 'Granulation on pygidium'
+		 [42] 'Terrace lines on pleural region of pygidium'
+		 [43] 'Pleural region between terminal piece and border'
+		 [44] 'Medial indent on posterior border'
+		 [45] 'Pygidial border spines'
+	;
+	STATELABELS
+		1
+		'Narrow (>0.2, <0.3)'
+		'Wide (>0.3)'
+		'Very narrow (<0.2)'
+		,
+		2
+		'Absent'
+		'Present'
+		,
+		3
+		'20-25'
+		'25-35'
+		'35-45'
+		,
+		4
+		'One'
+		'Two'
+		,
+		5
+		'Visible on external surface'
+		'Visible only on internal mold'
+		,
+		6
+		'Absent'
+		'On preglabellar/frontal area'
+		'On furrows only'
+		'Everywhere'
+		,
+		7
+		'Absent'
+		'Present'
+		,
+		8
+		'Absent'
+		'On preglabellar field/frontal area'
+		'On frontal area and glabella'
+		,
+		9
+		'Low (20 degrees)'
+		'Moderate (40 degrees)'
+		'High (>55 degrees)'
+		,
+		10
+		'Curved smoothly'
+		'Comes to point at sagittal axis'
+		,
+		11
+		'At sagittal axis (medially)'
+		'At lateral edge'
+		'Both medially and antero-laterally (e.g., Balnibarni ceryx)'
+		,
+		12
+		'Flat or sloping downward smoothly'
+		'Convex (e.g., Balnibarbi tholia)'
+		,
+		13
+		'Absent'
+		'Present'
+		,
+		14
+		'Short (<0.15)'
+		'Wide (>0.15, <0.25)'
+		'Very wide (>0.25)'
+		,
+		15
+		'Absent'
+		'Present (e.g., some Balnibarbi pulvurea?)'
+		,
+		16
+		'Absent'
+		'Present'
+		,
+		17
+		'Between 4P and 3P (4S and 3S)'
+		'Between 3P and 2P (3S and 2S)'
+		,
+		18
+		'Between 2P and 1P (2S and 1S)'
+		'Between 1P and occipital furrow (1S)'
+		'Posterior to occipital furrow'
+		,
+		19
+		'Very short (<0.25)'
+		'Short (<0.35 >0.25)'
+		'Long (>0.35)'
+		,
+		20
+		'Absent'
+		'Present'
+		,
+		21
+		'Narrower'
+		'Even'
+		'Wider'
+		,
+		22
+		'strap-like (long)'
+		'trapezoidal (extends laterally then postero-laterally)'
+		'triangular (short)'
+		,
+		23
+		'Straight'
+		'Deflected or curved midway'
+		,
+		24
+		'Straight, reaches axial furrow'
+		'Straight, long, almost reaches axial furrow'
+		'Marooned (short, straight, does not reach axial furrow)'
+		,
+		25
+		'Straight'
+		'Marooned'
+		'Not expressed'
+		,
+		26
+		'Absent'
+		'Present'
+		,
+		27
+		'Absent'
+		'Present'
+		,
+		28
+		'Absent'
+		'Present'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Absent'
+		'Present'
+		,
+		31
+		'Absent'
+		'Present (e.g., Balnibarni ceryx)'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Short (=<length of cranidium)'
+		'Long (1.5 x length of cranidium)'
+		'Very long (=>2 x length of cranidium)'
+		,
+		34
+		'Absent (posterior border continues laterally)'
+		'Present (posterior border curves forward to meet advanced genal spine)'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Absent'
+		'Present'
+		,
+		37
+		'Four'
+		'Three'
+		'Two'
+		,
+		38
+		'Four'
+		'Three'
+		'Two'
+		'One'
+		,
+		39
+		'Four'
+		'Three'
+		'Two'
+		,
+		40
+		'Extend to border'
+		'Do not extend to border'
+		,
+		41
+		'Absent'
+		'Present'
+		,
+		42
+		'Absent'
+		'Present'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Absent'
+		'Present'
+		,
+		45
+		'Absent'
+		'Present'
+		
+	;
+	MATRIX
+	'Parabolinella prolata'		               00---000011?01001000220020?00??10010?????????
+	'Parabolinella tumifrons'		             21?00011001101001000220020?00??1001??????????
+	'Cloacaspis senilis'		                  110002020100000101212201101101?01101232001001
+	'Cloacaspis tesselata'		                01000002110?00010121?21111110?10110122111?000
+	'Cloacaspis ekphymosa'		                2100030?110?00?10121220110?111?0????2210??000
+	'Cloacaspis dejecta'		                  11200212110?01?10121221210?00??011011211?0010
+	'Balnibarbi ceryx ceryx'		              11210110212011001121110210?00?101100111001110
+	'Balnibarbi ceryx anataphra'		          011010002120?1000121110210?00?101100?????????
+	'Balnibarbi pulvurea'		                 112103102120011112200012100100?02010010011110
+	'Balnibarbi tholia'		                   010003112121011011101?1210?10??0??????00??100
+	'Balnibarni erugata'		                  01101310201002001110001210?00?00?000010000110
+	'Balnibarbi sombrero'		                 01101010201002001110001210?00?00?????????????
+	'Balnibarbi scimitar'		                 21200010201002001110011210?00?00?110110000110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Excludes furrow and/or "preglabellar depressed area" in Cloacaspis dejecta (Fortey 1974, p. 42). See notes for each cell for specimen measurement.';
+	TEXT CHARACTER=3 TEXT='NA when border pits are absent; states need to be adjusted as taxa are being coded';
+	TEXT CHARACTER=4 TEXT='NA = no anterior border pits';
+	TEXT CHARACTER=8 TEXT='And possibly glabella for tholia?';
+	TEXT CHARACTER=9 TEXT='Quantiative character; character states are place-holders for now';
+	TEXT CHARACTER=14 TEXT='See notes for each cell for specimen measurements';
+	TEXT CHARACTER=15 TEXT='Similar to pits in anterior border furrow';
+	TEXT CHARACTER=17 TEXT='Specifically where the glabellar furrows meet the axial furrow';
+	TEXT CHARACTER=18 TEXT='Specifically where the glabellar furrows meet the axial furrow';
+	TEXT CHARACTER=19 TEXT='Discretized version, might co-vary with placement of ends of palpebral lobes. See notes for each cell for specimen measurements.';
+	TEXT CHARACTER=20 TEXT='Palpebral lobes curves forward such that it is parallel to axial furrow from 2P to 4P (Cloacaspis)';
+	TEXT CHARACTER=22 TEXT='Trapezoidal ends up being medium length.';
+	TEXT CHARACTER=26 TEXT='Glabellar furrows are interconnected by longitudinal furrows which bifurcate medially.';
+	TEXT CHARACTER=31 TEXT='Close to occipital ring';
+	TEXT CHARACTER=33 TEXT='Quantitative';
+	TEXT CHARACTER=41 TEXT='Both axial and pleural regions. Covaries with granulation on glabella?';
+
+      [Attribute comments]
+      	TEXT TAXON=1 CHARACTER=1 TEXT='0.21 - 0.29';
+	TEXT TAXON=2 CHARACTER=1 TEXT='0.04 - 0.05';
+	TEXT TAXON=3 CHARACTER=1 TEXT='0.333';
+	TEXT TAXON=4 CHARACTER=1 TEXT='0.25';
+	TEXT TAXON=5 CHARACTER=1 TEXT='0.1667';
+	TEXT TAXON=6 CHARACTER=1 TEXT='0.333';
+	TEXT TAXON=7 CHARACTER=1 TEXT='0.375';
+	TEXT TAXON=8 CHARACTER=1 TEXT='0.214';
+	TEXT TAXON=9 CHARACTER=1 TEXT='0.3125';
+	TEXT TAXON=10 CHARACTER=1 TEXT='0.25';
+	TEXT TAXON=11 CHARACTER=1 TEXT='0.231';
+	TEXT TAXON=12 CHARACTER=1 TEXT='0.222';
+	TEXT TAXON=13 CHARACTER=1 TEXT='0.074';
+	TEXT TAXON=8 CHARACTER=2 TEXT='But see Fortey 1974 Plate 9, fig. 7';
+	TEXT TAXON=11 CHARACTER=2 TEXT='Expressed on external mold ~30';
+	TEXT TAXON=3 CHARACTER=3 TEXT='Maybe closer to 30?';
+	TEXT TAXON=6 CHARACTER=3 TEXT='Currently based on description on Fortey 1974';
+	TEXT TAXON=9 CHARACTER=4 TEXT='Seen on a couple of specimens--but just a few, looks almost teratological except that that is how it looks on the plates for ceryx in Fortey';
+	TEXT TAXON=3 CHARACTER=6 TEXT='Specifically just the occipital furrow';
+	TEXT TAXON=6 CHARACTER=6 TEXT='Includes axial furrow, glabellar furrows, and anterior border furrow';
+	TEXT TAXON=6 CHARACTER=8 TEXT='At least on glabella--check frontal area';
+	TEXT TAXON=3 CHARACTER=9 TEXT='30 degrees?';
+	TEXT TAXON=6 CHARACTER=9 TEXT='50 degrees?';
+	TEXT TAXON=13 CHARACTER=9 TEXT='Very high (80?)';
+	TEXT TAXON=3 CHARACTER=11 TEXT='Subtle change in width';
+	TEXT TAXON=4 CHARACTER=12 TEXT='Looks convex but might be because of furrows';
+	TEXT TAXON=1 CHARACTER=14 TEXT='0.21 - 0.26';
+	TEXT TAXON=2 CHARACTER=14 TEXT='0.18 - 0.22';
+	TEXT TAXON=3 CHARACTER=14 TEXT='0.08 - 0.15';
+	TEXT TAXON=4 CHARACTER=14 TEXT='0.1 - 0.15';
+	TEXT TAXON=5 CHARACTER=14 TEXT='0.09 - 0.1';
+	TEXT TAXON=6 CHARACTER=14 TEXT='0.15 -0.17';
+	TEXT TAXON=7 CHARACTER=14 TEXT='0.17 - 0.21';
+	TEXT TAXON=8 CHARACTER=14 TEXT='0.12 - 0.19';
+	TEXT TAXON=9 CHARACTER=14 TEXT='0.18 - 0.25';
+	TEXT TAXON=10 CHARACTER=14 TEXT='0.21 - 0.26';
+	TEXT TAXON=11 CHARACTER=14 TEXT='0.25 - 0.32';
+	TEXT TAXON=12 CHARACTER=14 TEXT='0.31 - 0.36';
+	TEXT TAXON=13 CHARACTER=14 TEXT='0.23 - 0.34';
+	TEXT TAXON=10 CHARACTER=15 TEXT='very shallow';
+	TEXT TAXON=5 CHARACTER=16 TEXT='Really subtle...';
+	TEXT TAXON=6 CHARACTER=16 TEXT='Really subtle...';
+	TEXT TAXON=3 CHARACTER=18 TEXT='Increasingly closer to occipital ring with size increase';
+	TEXT TAXON=1 CHARACTER=19 TEXT='0.23 - 0.25';
+	TEXT TAXON=2 CHARACTER=19 TEXT='0.16 - 0.19';
+	TEXT TAXON=3 CHARACTER=19 TEXT='0.436';
+	TEXT TAXON=4 CHARACTER=19 TEXT='0.369';
+	TEXT TAXON=5 CHARACTER=19 TEXT='0.407';
+	TEXT TAXON=6 CHARACTER=19 TEXT='0.417';
+	TEXT TAXON=7 CHARACTER=19 TEXT='0.366';
+	TEXT TAXON=8 CHARACTER=19 TEXT='0.458';
+	TEXT TAXON=9 CHARACTER=19 TEXT='0.35 - 0.4';
+	TEXT TAXON=10 CHARACTER=19 TEXT='0.308';
+	TEXT TAXON=11 CHARACTER=19 TEXT='0.327';
+	TEXT TAXON=12 CHARACTER=19 TEXT='0.278';
+	TEXT TAXON=13 CHARACTER=19 TEXT='0.292';
+	TEXT TAXON=7 CHARACTER=22 TEXT='Closest to strap-like of any Cloacaspis species';
+	TEXT TAXON=13 CHARACTER=22 TEXT='Closest to triangular of any Balnibarbi species';
+	TEXT TAXON=3 CHARACTER=24 TEXT='Becomes more and more marooned as specimen size increases';
+	TEXT TAXON=5 CHARACTER=24 TEXT='Almost reaches axial furrow, rather long';
+	TEXT TAXON=4 CHARACTER=27 TEXT='Based on USNM 495689';
+	TEXT TAXON=9 CHARACTER=27 TEXT='See Fortey 1974, Plate 1, fig. 8--is this correct assignment?';
+	TEXT TAXON=3 CHARACTER=28 TEXT='More strongly expressed on internal mold';
+	TEXT TAXON=5 CHARACTER=28 TEXT='More strongly expressed on internal mold';
+	TEXT TAXON=9 CHARACTER=28 TEXT='Present in juvenile';
+	TEXT TAXON=10 CHARACTER=28 TEXT='Visible on internal mold';
+	TEXT TAXON=4 CHARACTER=31 TEXT='Visible in Ikes Canyon material';
+	TEXT TAXON=1 CHARACTER=35 TEXT='Extends to posterior margin just in front of base of genal spine';
+	TEXT TAXON=9 CHARACTER=35 TEXT='Extends to lateral margin just in front of base of genal spine';
+	TEXT TAXON=13 CHARACTER=35 TEXT='Extends to lateral margin far in front of base of genal spine';
+	TEXT TAXON=9 CHARACTER=42 TEXT='Mostly on anterior border and along lateral border';
+	TEXT TAXON=3 CHARACTER=45 TEXT='Small spine on anterior segment';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 8 10 - 13 15 - 18 20 - 32 34 - 45, ord: 9 14 19 33;
+      ENDBLOCK;
+      

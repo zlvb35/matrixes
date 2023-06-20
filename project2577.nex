@@ -1,0 +1,182 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.28.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+    		'Cynopterus sphinx'
+		'Saccopteryx bilineata'
+		'Trachops cirrhosus'
+		'Kerivoula hardwickii'
+		'Miniopterus schrebersii'
+		'Erinaceus europaeus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=20;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'GEN skull, dorsal margin, shape at juncture of braincase and rostrum in lateral view'
+		 [2] 'RPL nasal bones, anterior edge, shape'
+		 [3] 'Nasal bones, profile in lateral view'
+		 [4] 'Braincase, length from interorbital constriction'
+		 [5] 'RPL rostrum, orientation of upper alveolar line at anterior half of rostrum relative to posterior half of rostrum in lateral view'
+		 [6] 'Palatal foramina, number'
+		 [7] 'Infraorbital foramen, size'
+		 [8] 'Postorbital process presence'
+		 [9] 'Zygomatic breadth'
+		 [10] 'Zygoma, location of anterior root'
+		 [11] 'ZYG Zygoma, shape of ventral margin'
+		 [12] 'Basisphenoid, presence of grooves or pits'
+		 [13] 'Petrosal, thickness of petrosal promontorium'
+		 [14] 'Ectotympanic, bulla extent over cochlea'
+		 [15] 'Basioccipital, anterior constriction presence'
+		 [16] 'Braincase, sagittal crest presence'
+		 [17] 'Incisor number'
+		 [18] 'Cheek tooth number'
+		 [19] 'Premolar number'
+		 [20] 'Molar number'
+	;
+	STATELABELS
+		1
+		'concave'
+		'flat'
+		,
+		2
+		'midline is positioned posterior to lateral extremity'
+		'relatively straight'
+		'midline is positioned anterior to lateral extremity'
+		,
+		3
+		'flat or convex upward '
+		'concave upward'
+		,
+		4
+		'Short, braincase less than or equal to 52% of total skull length'
+		'Long, braincase greater than or equal to 56% of total skull length'
+		,
+		5
+		'downturned anteriorly'
+		'horizontal'
+		'upturned anteriorly'
+		,
+		6
+		'no holes on roof of mouth behind incisor teeth'
+		'two holes on roof of mouth behind incisor teeth'
+		'three holes on roof of mouth behind incisor teeth'
+		'large gap on roof of mouth behind incisor teeth'
+		,
+		7
+		'foramen not enlarged, diameter less than one eighth the height of the rostrum'
+		'enlarged, diameter one quarter to one half the height of the rostrum'
+		,
+		8
+		'absent'
+		'well-developed postorbital process present'
+		,
+		9
+		'zygomatic breadth greater than mastoid breadth'
+		'less than mastoid breadth'
+		,
+		10
+		'Zygomatic arches extend smoothly toward back of skull without bulging to the side'
+		'Zygomatic arches bulge off the face after M2'
+		'Zygomatic arches bulge off face between M1 and M2'
+		'Zygomatic arches bulge off face before M1'
+		,
+		11
+		'straight'
+		'curved upward'
+		'V-shaped'
+		,
+		12
+		'mostly flat or with wide, shallow longitudinal furrows'
+		'with narrow, deep longitudinal furrows'
+		'with deep pits'
+		,
+		13
+		'thick, cochlear turns not visible'
+		'thin, cochlear turns visible'
+		,
+		14
+		'ectotympanic bulla extends across two thirds or more of cochlea'
+		'bulla extends across one half of cochlea'
+		'bulla extends across no more than one third of cochlea'
+		,
+		15
+		'basioccipital not constricted, width of anterior portion one half or more of the width of the foramen magnum'
+		'basioccipital constricted, width of the anterior portion is one third the width of the foramen magnum'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'Three incisors'
+		'Two incisors '
+		'One incisor '
+		'No incisors'
+		,
+		18
+		'two cheek teeth'
+		'four cheek teeth'
+		'five cheek teeth'
+		'six cheek teeth'
+		,
+		19
+		'three premolars'
+		'two premolars'
+		'one premolar'
+		,
+		20
+		'three molars'
+		'two molars'
+		'one molar'
+		
+	;
+	MATRIX
+	'Cynopterus sphinx'		                (1,1)(2,2)(0,0)(0,0)(1,1)(3,3)(0,0)(1,1)(0,0)(3,3)(1,1)(0,0)(0,0)(0,0)(0,0)(1,1)(1,1)(1,1)(0,0)(2,2)
+	'Saccopteryx bilineata'		            00012301000211102210
+	'Trachops cirrhosus'		               00011200001001101210
+	'Kerivoula hardwickii'		             00011000020002011300
+	'Miniopterus schrebersii'		          00011300120010001210
+	'Erinaceus europaeus'		              10000100022100010300
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Lateral view^nGiannini and Simmons';
+	TEXT CHARACTER=2 TEXT='Dorsal ^nGaudin and Branham (1998)';
+	TEXT CHARACTER=3 TEXT='From Simmons and Conway (2001) character 6.';
+	TEXT CHARACTER=5 TEXT='Gaudin and Wible (2006)';
+	TEXT CHARACTER=6 TEXT='Created for crowd sourcing experiment';
+	TEXT CHARACTER=7 TEXT='From Simmons and Conway (2001), character 10.';
+	TEXT CHARACTER=8 TEXT='From Simmons and Conway (2001) character 13.';
+	TEXT CHARACTER=9 TEXT='From Simmons and Conway (2001) character 14.  Inapplicable in taxa which have an incomplete zygomatic arch.';
+	TEXT CHARACTER=12 TEXT='From Simmons and Conway (2001) character 24.  Unordered';
+	TEXT CHARACTER=13 TEXT='From Simmons and Conway (2001) character 20.  "Phanerocochlear" refers to a condition in which the walls of the petrosal promontorium, which overlies the cochlea, are thin, resulting a condition in which the coils of the cochlear labyrinth are clearly visable.  In the cryptocochlear condition, the walls are thicker and the cochlear coils cannot be seen.';
+	TEXT CHARACTER=14 TEXT='From Simmons and Conway (2001) character 22.  Ordered.';
+	TEXT CHARACTER=15 TEXT='From Simmons and Conway (2001) character 25.';
+	TEXT CHARACTER=16 TEXT='Dorsal ^nGaubert et al. (2005)^n';
+	TEXT CHARACTER=17 TEXT='Created for CS project';
+	TEXT CHARACTER=18 TEXT='Created for Evolution Project to see if inexperienced users can distinguish premolars and molars or if cheek teeth need to be "lumped" into one category.';
+	TEXT CHARACTER=19 TEXT='Created for CS project.';
+
+      [Attribute comments]
+      	TEXT TAXON=4 CHARACTER=12 TEXT='Still considering this scoring, reminds me of Nycteris';
+	TEXT TAXON=6 CHARACTER=12 TEXT='May need to revise the states for this character.';
+	TEXT TAXON=4 CHARACTER=4 TEXT='.60';
+	TEXT TAXON=6 CHARACTER=4 TEXT='.4';
+	TEXT TAXON=1 CHARACTER=4 TEXT='.52';
+	TEXT TAXON=2 CHARACTER=4 TEXT='.60';
+	TEXT TAXON=3 CHARACTER=4 TEXT='.63';
+	TEXT TAXON=5 CHARACTER=4 TEXT='.57';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 20;
+      ENDBLOCK;
+      

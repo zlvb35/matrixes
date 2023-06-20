@@ -1,0 +1,607 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.29.58 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+    		'Ptilodus'
+		'Stygimys'
+		'Taeniolabis'
+		'Eucosmodon'
+		'Lambdopsalis'
+		'Sloanbaatar'
+		'Buginbaatar'
+		'Nessovbaatar'
+		'Bulganbaatar'
+		'Kamptobaatar'
+		'Nemegtbaatar'
+		'Chulsanbaatar'
+		'Kryptobaatar'
+		'Djadochtatherium'
+		'Catopsbaatar'
+		'Tombaatar'
+		'Mangasbaatar'
+		'Guibaatar'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=74;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Lower incisor, enamel covering:'
+		 [2] 'Lower p3, presence:'
+		 [3] 'Lower p4, serrated tooth:'
+		 [4] 'Lower p4, serration count:'
+		 [5] 'Lower p4, serrated tooth in lateral view:'
+		 [6] 'Lower p4, number of roots:'
+		 [7] 'Lower p4, posterobuccal basal cusp or ridge, presence:'
+		 [8] 'Lower m1, labial row, cusp formula:'
+		 [9] 'Lower m1, lingual row, cusp formula:'
+		 [10] 'Ratio of lower p4-m1 length:'
+		 [11] 'Lower m2, labial row, cusp formula:'
+		 [12] 'Lower m2, lingual row, cusp formula:'
+		 [13] 'Upper I2, enamel covering:'
+		 [14] 'Upper I2, cusp number:'
+		 [15] 'Upper I2, position:'
+		 [16] 'Upper I2, orientation:'
+		 [17] 'Upper I3, mediolateral position:'
+		 [18] 'Upper P1, presence:'
+		 [19] 'Upper P1, cusp number:'
+		 [20] 'Upper P1, number of roots:'
+		 [21] 'Upper P2, presence:'
+		 [22] 'Upper P2, cusp number:'
+		 [23] 'Upper P2, number of roots:'
+		 [24] 'Upper P3, presence:'
+		 [25] 'Upper P3, cusp number:'
+		 [26] 'Upper P3, root number:'
+		 [27] 'Length of upper premolar tooth row to molar tooth row, ratio:'
+		 [28] 'Upper P4, occlusal morphology:'
+		 [29] 'Upper P4, labial row of cusps, presence'
+		 [30] 'Upper P4, labial row, cusp number'
+		 [31] 'Upper P4, middle row, cusp formula:'
+		 [32] 'Upper P4, lingual row of cusps, presence'
+		 [33] 'Upper P4, lingual row, cusp formula:'
+		 [34] 'Upper P4, root number:'
+		 [35] 'Upper M1, labial row, cusp formula:'
+		 [36] 'Upper M1, middle row, cusp formula:'
+		 [37] 'Upper M1, lingual row, cusp formula:'
+		 [38] 'Upper M1, inner ridge length to total length of upper M1:'
+		 [39] 'Width of upper P4-M1, ratio:'
+		 [40] 'Upper M2, labial row, cusp formula:'
+		 [41] 'Upper M2, middle row, cusp formula:'
+		 [42] 'Upper M2, lingual row, cusp formula:'
+		 [43] 'Skull width to skull length ratio:'
+		 [44] 'Width of snout:skull length ratio'
+		 [45] 'Ridge between palate and lateral wall of premaxilla, presence:'
+		 [46] 'Thickenings in palatal process of premaxilla, presence:'
+		 [47] 'Incisive foramen, size'
+		 [48] 'Palatal vacuities, presence:'
+		 [49] 'Postpalatine torus, presence:'
+		 [50] 'Postpalatine torus, development:'
+		 [51] 'Minor palatine foramen, alisphenoid contribution'
+		 [52] 'Nasal foramina, number per side:'
+		 [53] 'Infraorbital foramen, position in lateral view:'
+		 [54] 'Infraorbital foramen, visibility in ventral view:'
+		 [55] 'Secondary infraorbital foramen, presence'
+		 [56] 'Facial surface of lacrimal, size and shape:'
+		 [57] 'Base of zygomatic arch as marked by posterior edge:'
+		 [58] 'Zygomatic process of squamosal, anterior extent'
+		 [59] 'Frontal-nasal suture, shape:'
+		 [60] 'Midline crest on vomer posterior to choanae, presence'
+		 [61] 'Postorbital process, size:'
+		 [62] 'Supraorbital notch, presence:'
+		 [63] 'Frontal-parietal suture, shape:'
+		 [64] 'Contact between nasal and parietal, presence:'
+		 [65] 'Foramen masticatorium, position'
+		 [66] 'Anterior part of promontorium, shape:'
+		 [67] 'Hiatus Fallopii, visible in ventral view'
+		 [68] 'Tensor tympani fossa on lateral side of promontorium, depth'
+		 [69] 'Jugular fossa, size and depth:'
+		 [70] 'Posttemporal foramen, size:'
+		 [71] 'Coronoid process, angle relative to tooth row:'
+		 [72] 'Coronoid process, shape:'
+		 [73] 'Angle between the ventral margin of dentary and occlusal plane:'
+		 [74] 'Mandibular condyle, height to coronoid process'
+	;
+	STATELABELS
+		1
+		'thickness uniform'
+		'thicker on labial surface than on lingual surface'
+		'completely restricted to labial surface'
+		,
+		2
+		'present'
+		'absent'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'five or fewer'
+		'six to ten'
+		'more than ten'
+		,
+		5
+		'arcuate'
+		'trapedzoidal'
+		,
+		6
+		'one'
+		'two'
+		'three'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'four'
+		'five'
+		'six'
+		'seven'
+		,
+		9
+		'three'
+		'four'
+		'five'
+		'six'
+		,
+		10
+		'less than 0.6'
+		'0.6 to 1.7'
+		'greater than 1.7'
+		,
+		11
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		,
+		12
+		'two or less'
+		'three'
+		'four or more'
+		,
+		13
+		'thickness uniform'
+		'thicker on labial surface than on lingual surface'
+		'completely restricted to labial surface'
+		,
+		14
+		'two'
+		'one'
+		,
+		15
+		'separated from midline by equal to or greater than the tooth''s width'
+		'separated from midline by less than the tooth''s width'
+		,
+		16
+		'more vertical'
+		'more medially directed'
+		,
+		17
+		'located on margin of palate'
+		'slightly shifted from labial margin'
+		'in middle of palatal part of premaxilla'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'three'
+		'four'
+		,
+		20
+		'one'
+		'two'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'three'
+		'four'
+		'five or more'
+		,
+		23
+		'two'
+		'one'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		,
+		26
+		'two'
+		'one'
+		,
+		27
+		'1.5 to 0.5'
+		'less than 0.5'
+		,
+		28
+		'multiple rows of cusps'
+		'one row of cusps'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'one'
+		'two'
+		'three'
+		,
+		31
+		'four or five'
+		'six'
+		'seven or eight'
+		'nine or more'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'one'
+		'two'
+		'three or more'
+		,
+		34
+		'two'
+		'one'
+		'three'
+		,
+		35
+		'four'
+		'five'
+		'six'
+		'seven'
+		'eight or more'
+		,
+		36
+		'four'
+		'five'
+		'six'
+		'seven'
+		'eight'
+		'nine or more'
+		,
+		37
+		'ridge'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		'six'
+		'seven or more'
+		,
+		38
+		'less than 0.5'
+		'greater than 0.5'
+		,
+		39
+		'greater than or equal to 0.9'
+		'greater than or equal to 0.6 but less than 0.9'
+		'greater than 0.45 but less than 0.60'
+		'less than or equal to 0.45'
+		,
+		40
+		'ridge'
+		'one'
+		'two or more'
+		,
+		41
+		'two '
+		'three'
+		'four or more'
+		,
+		42
+		'two'
+		'three'
+		'four or more'
+		,
+		43
+		'equal to or less than 0.79'
+		'greater than 0.8'
+		,
+		44
+		'below 0.3'
+		'0.3-0.39'
+		'0.4 and above'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'subequal to or greater than the length of I2 and I3'
+		'subequal to or less than the length of I2'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'developed laterally and with a ventral projection from the palate forming a distinctive bulge'
+		'strongly developed forming a raised, ornate, and sharply angled plate'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'one'
+		'two'
+		'more than two'
+		,
+		53
+		'dorsal to P1'
+		'dorsal to P1-P2 embrasure'
+		'dorsal to P2'
+		'dorsal to P2-P3 embrasure'
+		'dorsal to P3 or more posterior'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'absent'
+		'large, roughly rectangular'
+		,
+		57
+		'directly dorsal to P4'
+		'dorsal or posterior to P4-M1 embrasure'
+		,
+		58
+		'posterior to orbit'
+		'nearly contacting lacrimal and contributing to orbital rim'
+		,
+		59
+		'frontal pointed anteriorly and not deeply inserted between the nasals'
+		'frontal pointed anteriorly and deeply inserted between the nasals'
+		'frontal with subtransversal anterior margins'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'swelling'
+		'less than half orbit width but more than swelling'
+		'equal to or more than half orbit width'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'V-shaped'
+		'U-shaped'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'on lateral braincase wall'
+		'on basicranial surface'
+		,
+		66
+		'oval'
+		'irregular with incurvatures on both sides'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'deep'
+		'shallow'
+		,
+		69
+		'small and shallow'
+		'large and deep'
+		,
+		70
+		'large'
+		'small'
+		,
+		71
+		'steep, equal to 45 degrees or greater than 45 degrees'
+		'low, less than 45 degrees'
+		,
+		72
+		'angle between anterior and posterior edges less than or equal to 50 degrees'
+		'angle between anterior and posterior edges greater than 50 and less than 70 degrees'
+		'angle between anterior and posterior edges greater than 70 degrees'
+		,
+		73
+		'equal to or less than 10 degrees'
+		'greater than 10 and less than 20 degrees'
+		'greater than or equal to 20 degrees'
+		,
+		74
+		'mandibular condyle lower'
+		'mandibular condyle level with or  higher'
+		
+	;
+	MATRIX
+	'Ptilodus'		                  0002010212100101000101002000011020455102120100010-?140100000000000?0000120
+	'Stygimys'		                  21020?1321(1,2)0?0??20000010210001300033(2,3)01(2,1)11????01????001?0?????????????1?1?
+	'Taeniolabis'		               211--10330(2,3,4)2210101--1--1--11-----14571312211000?0-??2110102?0001?????10100
+	'Eucosmodon'		                21020?132120?0???1--0010?1?0?????0????0???????????????????????????????1221
+	'Lambdopsalis'		              211--00110(2,3)0210?11--1--1--11-----1(2,3)(3,4)(5,6,7)1310(1,2)1110000-0240101?2000010100110110
+	'Sloanbaatar'		               10010?100100?111200?00?020000101-?000011011011111??0111???1?1010001??00221
+	'Buginbaatar'		               01001?032011???????????????002100?34612210??????????????????????????????1?
+	'Nessovbaatar'		              ?0010?100210??????????????????????????????????????????????????????????1211
+	'Bulganbaatar'		              ????????????1???2001000020000101-011311100??1111????1?1?0?????????????????
+	'Kamptobaatar'		              10010??001???10120010000200002(0,1)1-01101210101101010?(1,2)1111001010100010101201
+	'Nemegtbaatar'		              20010?11111021??20010000(1,0)00002(1,2)(0,1)00(2,3)(2,3)(4,5)1211001111110022111001010100000101210
+	'Chulsanbaatar'		             20010?1001(0,1)0?11?2011000020000(1,2)(0,1)1-0011021(0,1)0101110100(1,2)0111001010101000101111
+	'Kryptobaatar'		              20010210011021112001000020001-0010(1,0)(0,1)00110(0,1)121110110(1,2)1111001021101100101100
+	'Djadochtatherium'		          200?0?1001??211020?10?00?0??????????????????111????121110?1?2?10?????00?10
+	'Catopsbaatar'		              200012101(0,1)(0,1)0211120?11--0?0?01-0000(2,1)(1,2)4132(0,1)(0,1)121?10101(1,2)(0,4)1(0,1)1(0,1)1(0,1)?2110?1?1100020
+	'Tombaatar'		                 ????????????21??20011--02000010??001202001??1110111111?10?1????0??????????
+	'Mangasbaatar'		              2000121000002??120011--0200000000011303001121110111?210100112?101101100010
+	'Guibaatar'		                 (1,2)00102100100(1,2)1??21--0200300001000011202?????111?111131010011???01111??001?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='scored December 4, 2018';
+	TEXT TAXON=2 TEXT='scored December 6, 2018';
+	TEXT TAXON=3 TEXT='scored December 6, 2018';
+	TEXT TAXON=4 TEXT='scored December 6, 2018';
+	TEXT TAXON=5 TEXT='scored Nov. 15, 2018';
+	TEXT TAXON=6 TEXT='done scoring Nov. 15, 2018';
+	TEXT TAXON=7 TEXT='Scoring done Nov. 15, 2018';
+	TEXT TAXON=8 TEXT='scored Nov. 20, 2018';
+	TEXT TAXON=9 TEXT='scored Nov. 28 2018';
+	TEXT TAXON=10 TEXT='scored December 5, 2018';
+	TEXT TAXON=11 TEXT='scored Nov. 28 2018';
+	TEXT TAXON=12 TEXT='scored December 5, 2018';
+	TEXT TAXON=14 TEXT='scored December 5, 2018';
+	TEXT TAXON=15 TEXT='scored Nov. 20, 2018';
+	TEXT TAXON=16 TEXT='scored Nov. 20, 2018';
+	TEXT TAXON=17 TEXT='scored Nov. 20, 2018';
+	TEXT TAXON=18 TEXT='scored Nov. 20, 2018';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Modified from Rougier et al. (2016), character 1.';
+	TEXT CHARACTER=2 TEXT='Rougier et al. (2016), character 2.';
+	TEXT CHARACTER=3 TEXT='New.';
+	TEXT CHARACTER=4 TEXT='Rougier et al. (2016), character 3.';
+	TEXT CHARACTER=5 TEXT='modified from Rougier et al. (2016), character 4.';
+	TEXT CHARACTER=6 TEXT='New.';
+	TEXT CHARACTER=7 TEXT='New.';
+	TEXT CHARACTER=8 TEXT='Modified from Rougier et al. (2016), character 5.';
+	TEXT CHARACTER=9 TEXT='Modified from Rougier et al. (2016), character 5.';
+	TEXT CHARACTER=10 TEXT='Rougier et al. (2016), character 6.';
+	TEXT CHARACTER=11 TEXT='Modified from Rougier et al. (2016), character 7.';
+	TEXT CHARACTER=12 TEXT='Modified from Rougier et al. (2016), character 7.';
+	TEXT CHARACTER=13 TEXT='Modified from Rougier et al. (2016), character 1.';
+	TEXT CHARACTER=14 TEXT='Rougier et al. (2016), character 8.';
+	TEXT CHARACTER=15 TEXT='New.';
+	TEXT CHARACTER=16 TEXT='New.';
+	TEXT CHARACTER=17 TEXT='Rougier et al. (2016), character 9.';
+	TEXT CHARACTER=18 TEXT='New.';
+	TEXT CHARACTER=19 TEXT='New.';
+	TEXT CHARACTER=20 TEXT='New.';
+	TEXT CHARACTER=21 TEXT='New.';
+	TEXT CHARACTER=22 TEXT='New.';
+	TEXT CHARACTER=23 TEXT='New.';
+	TEXT CHARACTER=24 TEXT='New.';
+	TEXT CHARACTER=25 TEXT='New.';
+	TEXT CHARACTER=26 TEXT='Rougier et al. (2016), character 11.';
+	TEXT CHARACTER=27 TEXT='Modified from Rougier et al. (2016), character 13.';
+	TEXT CHARACTER=28 TEXT='New.';
+	TEXT CHARACTER=29 TEXT='New.';
+	TEXT CHARACTER=30 TEXT='Modified from Rougier et al. (2016), character 14.';
+	TEXT CHARACTER=31 TEXT='Modified from Rougier et al. (2016), character 14.';
+	TEXT CHARACTER=32 TEXT='New.';
+	TEXT CHARACTER=33 TEXT='Modified from Rougier et al. (2016), character 14.';
+	TEXT CHARACTER=34 TEXT='Modified from Rougier et al. (2016), character 12.';
+	TEXT CHARACTER=35 TEXT='Modified from Rougier et al. (2016), character 15.';
+	TEXT CHARACTER=36 TEXT='Modified from Rougier et al. (2016), character 15.';
+	TEXT CHARACTER=37 TEXT='Modified from Rougier et al. (2016), character 15.';
+	TEXT CHARACTER=38 TEXT='Rougier et al. (2016), character 16.';
+	TEXT CHARACTER=39 TEXT='Rougier et al. (2016), character 17.';
+	TEXT CHARACTER=40 TEXT='Modified from Rougier et al. (2016), character 18.';
+	TEXT CHARACTER=41 TEXT='Modified from Rougier et al. (2016), character 18.';
+	TEXT CHARACTER=42 TEXT='Modified from Rougier et al. (2016), character 18.';
+	TEXT CHARACTER=43 TEXT='Rougier et al. (2016), character 43.';
+	TEXT CHARACTER=44 TEXT='Rougier et al. (2016), character 42.';
+	TEXT CHARACTER=45 TEXT='Rougier et al. (2016), character 19.';
+	TEXT CHARACTER=46 TEXT='Rougier et al. (2016), character 30.';
+	TEXT CHARACTER=47 TEXT='New.';
+	TEXT CHARACTER=48 TEXT='Modified from Rougier et al. (2016), character 32.';
+	TEXT CHARACTER=49 TEXT='Modified from Rougier et al. (2016), character 44.';
+	TEXT CHARACTER=50 TEXT='Modified from Rougier et al. (2016), character 44.';
+	TEXT CHARACTER=51 TEXT='New.';
+	TEXT CHARACTER=52 TEXT='Rougier et al. (2016), character 21.';
+	TEXT CHARACTER=53 TEXT='Modified from Rougier et al. (2016), character 22.';
+	TEXT CHARACTER=54 TEXT='New.';
+	TEXT CHARACTER=55 TEXT='New.';
+	TEXT CHARACTER=56 TEXT='Modified from Rougier et al. (2016), character 29.';
+	TEXT CHARACTER=57 TEXT='Rougier et al. (2016), character 23.';
+	TEXT CHARACTER=58 TEXT='New.';
+	TEXT CHARACTER=59 TEXT='Rougier et al. (2016), character 26.';
+	TEXT CHARACTER=60 TEXT='New.';
+	TEXT CHARACTER=61 TEXT='Modified from Rougier et al. (2016), character 24.';
+	TEXT CHARACTER=62 TEXT='New.';
+	TEXT CHARACTER=63 TEXT='Rougier et al. (2016), character 27.';
+	TEXT CHARACTER=64 TEXT='Rougier et al. (2016), character 28.';
+	TEXT CHARACTER=65 TEXT='New.';
+	TEXT CHARACTER=66 TEXT='Rougier et al. (2016), character 35.';
+	TEXT CHARACTER=67 TEXT='New.';
+	TEXT CHARACTER=68 TEXT='New.';
+	TEXT CHARACTER=69 TEXT='Rougier et al. (2016), character 34.';
+	TEXT CHARACTER=70 TEXT='Rougier et al. (2016), character 39.';
+	TEXT CHARACTER=71 TEXT='Rougier et al. (2016), character 37.';
+	TEXT CHARACTER=72 TEXT='New.';
+	TEXT CHARACTER=73 TEXT='Modified from Rougier et al. (2016), character 40. With occlusal plane horizontal, measure angle of elevation of ventral margin.';
+	TEXT CHARACTER=74 TEXT='New.';
+
+      [Attribute comments]
+      	TEXT TAXON=16 CHARACTER=1 TEXT='scored as "2" by Rougier et al. 2017; changed here to ? because lower incisor is unknown';
+	TEXT TAXON=6 CHARACTER=4 TEXT='8';
+	TEXT TAXON=15 CHARACTER=4 TEXT='3';
+	TEXT TAXON=16 CHARACTER=4 TEXT='6';
+	TEXT TAXON=17 CHARACTER=4 TEXT='5';
+	TEXT TAXON=18 CHARACTER=4 TEXT='6';
+	TEXT TAXON=15 CHARACTER=10 TEXT='.55 to .64';
+	TEXT TAXON=17 CHARACTER=10 TEXT='.59';
+	TEXT TAXON=18 CHARACTER=10 TEXT='.97 L^n.95 R';
+	TEXT TAXON=17 CHARACTER=27 TEXT='.97';
+	TEXT TAXON=18 CHARACTER=27 TEXT='1.04 L^n1.15 R';
+	TEXT TAXON=5 CHARACTER=39 TEXT='.39';
+	TEXT TAXON=6 CHARACTER=39 TEXT='0.73';
+	TEXT TAXON=7 CHARACTER=39 TEXT='49';
+	TEXT TAXON=13 CHARACTER=39 TEXT='.60';
+	TEXT TAXON=15 CHARACTER=39 TEXT='.44';
+	TEXT TAXON=16 CHARACTER=39 TEXT='.51';
+	TEXT TAXON=17 CHARACTER=39 TEXT='.43';
+	TEXT TAXON=18 CHARACTER=39 TEXT='.58';
+	TEXT TAXON=15 CHARACTER=53 TEXT='P1 and P3 in juveniles only and foramen above P3';
+	TEXT TAXON=17 CHARACTER=53 TEXT='above diastema between P1 and P3';
+	TEXT TAXON=15 CHARACTER=46 TEXT='2005 KJ says not visible but 1997 scored as present';
+	TEXT TAXON=10 CHARACTER=43 TEXT='.65';
+	TEXT TAXON=11 CHARACTER=43 TEXT='.77';
+	TEXT TAXON=6 CHARACTER=72 TEXT='70';
+	TEXT TAXON=15 CHARACTER=72 TEXT='37';
+	TEXT TAXON=17 CHARACTER=72 TEXT='52';
+	TEXT TAXON=18 CHARACTER=72 TEXT='40';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 38 40 - 42 44 - 74, ord: 39 43;
+      ENDBLOCK;
+      

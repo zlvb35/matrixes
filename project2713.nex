@@ -1,0 +1,162 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 04.30.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+    		'Selenopeltoides'
+		'Dicranurus'
+		'Isoprusia mydlakia'
+		'Isoprusia matutina'
+		'Isoprusia maura'
+		'Isoprusia tafilaltana'
+		'Isoprusia cf. subterarmata'
+		'Laethoprusia salax'
+		'Laethoprusia brikelos'
+		'Laethoprusia sp.'
+		'Koneprusia fuscina'
+		'Koneprusia subterarmata'
+		'Koneprusia sp.'
+		'Koneprusia subterarmata'
+		'Koneprusia sp. (ramskÃ¶ld 1991; fig 1)'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'L3 relative to anterolateral expansion of frontal lobe'
+		 [2] 'Longitudinal furrow across L3'
+		 [3] 'Glabella widest across:'
+		 [4] 'Position of eyes'
+		 [5] 'Occipital Spines'
+		 [6] 'Posterior band'
+		 [7] 'Pleural furrows on thoracic segments'
+		 [8] 'Second and third axial rings'
+		 [9] 'Axial furrow along first axial ring'
+		 [10] 'Axial furrow along second axial ring'
+		 [11] 'Second inter-ring furrow'
+		 [12] 'Central part of pleural area (abaxially to pleural ridge)'
+		 [13] 'Pleural area between ''posterior portion'' and pleural ridge'
+		 [14] 'Pleural ridges near posterior margin'
+		 [15] 'Posterior border'
+		 [16] 'Median border spine'
+	;
+	STATELABELS
+		1
+		'defined from it by deep S3'
+		'merged, S3 weak or absent'
+		,
+		2
+		'deep'
+		'weak or absent'
+		,
+		3
+		'posterior part of L1'
+		'anterior part of L1'
+		,
+		4
+		'opposite anterior part of L1'
+		'opposite posterior part of L1'
+		,
+		5
+		'paired'
+		'single'
+		'absent'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'distinct'
+		'faint or absent'
+		,
+		8
+		'subequally long'
+		'third ring much shorter'
+		'third ring not defined'
+		,
+		9
+		'distinct'
+		'weak, ring confluent with pleural ridges'
+		,
+		10
+		'distinctly impressed'
+		'break in slope only'
+		,
+		11
+		'does not indent margin of ''posterior portion'''
+		'indents margin'
+		'absent'
+		,
+		12
+		'flat, tuberculated'
+		'depressed, carrying reticulate ridge pattern, lacking tuberculation'
+		,
+		13
+		'flat, level and sculpture similar to adjacent pleural area'
+		'deeply recessed, irregular topography, lacking sculpture'
+		,
+		14
+		'well defined at least adaxially'
+		'poorly defined'
+		,
+		15
+		'absent'
+		'present abaxially to pleural ridge'
+		,
+		16
+		'shorter than axis (including spine expressed only as a tiny node)'
+		'as long as or longer than axis'
+		
+	;
+	MATRIX
+	'Selenopeltoides'		                                   00?00?0200200000
+	'Dicranurus'		                                        0011000100000000
+	'Isoprusia mydlakia'		                                1100100100000000
+	'Isoprusia matutina'		                                11011??100100000
+	'Isoprusia maura'		                                   ???????100000000
+	'Isoprusia tafilaltana'		                             11001??100?0?000
+	'Isoprusia cf. subterarmata'		                        110?1????0?00000
+	'Laethoprusia salax'		                                1111211001100100
+	'Laethoprusia brikelos'		                             1111211001100100
+	'Laethoprusia sp.'		                                  11012??00?100000
+	'Koneprusia fuscina'		                                ?0????0?00???011
+	'Koneprusia subterarmata'		                           ???????11001101?
+	'Koneprusia sp.'		                                    ???????110011111
+	'Koneprusia subterarmata'		                           110110?110111011
+	'Koneprusia sp. (ramskÃ¶ld 1991; fig 1)'		          1001100????1?011
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=15 TEXT='of Figure 1';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Cranidium';
+	TEXT CHARACTER=2 TEXT='Cranidium';
+	TEXT CHARACTER=3 TEXT='Cranidium';
+	TEXT CHARACTER=4 TEXT='Cranidium';
+	TEXT CHARACTER=5 TEXT='Cranidium';
+	TEXT CHARACTER=6 TEXT='Cranidium';
+	TEXT CHARACTER=7 TEXT='Thorax';
+	TEXT CHARACTER=8 TEXT='Pygidium';
+	TEXT CHARACTER=9 TEXT='Pygidium';
+	TEXT CHARACTER=10 TEXT='Pygidium';
+	TEXT CHARACTER=11 TEXT='Pygidium';
+	TEXT CHARACTER=12 TEXT='Pygidium';
+	TEXT CHARACTER=13 TEXT='Pygidium';
+	TEXT CHARACTER=14 TEXT='Pygidium';
+	TEXT CHARACTER=15 TEXT='Pygidium';
+	TEXT CHARACTER=16 TEXT='Pygidium';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 16;
+      ENDBLOCK;
+      

@@ -1,0 +1,222 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.23.52 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=49;
+    TAXLABELS
+    		'Aglaia elaeagnoidea'
+		'Ailanthus altissima'
+		'Anthocarapa nitidula'
+		'Aphanamixis polystachya'
+		'Astrotrichilia sp'
+		'Azadirachta indica'
+		'Cabralea canjerana'
+		'Calodecaryia crassifolia'
+		'Capuronianthus mahafalensis'
+		'Carapa guianensis'
+		'Cedrela odorata'
+		'Chisocheton macrophyllus'
+		'Chukrasia tabularis'
+		'Cipadessa baccifera'
+		'Dysoxylum gaudichaudianum'
+		'Ekebergia capensis'
+		'Guarea glabra'
+		'Heckeldora staudtii'
+		'Humbertioturraea sp'
+		'Khaya anthotheca'
+		'Lansium domesticum'
+		'Lepidotrichilia volkensii'
+		'Lovoa swynnertonii'
+		'Malleastrum mandenense'
+		'Melia azedarach'
+		'Melia yakimaensis'
+		'Munronia humilis'
+		'Naregamia alata'
+		'Nymania capensis'
+		'Owenia vernicosa'
+		'Manchestercarpa vancouverensis'
+		'Pseudobersama mossambicensis'
+		'Pseudocedrela kotschyi'
+		'Pseudoclausena chrysogyne'
+		'Quassia amara'
+		'Quivisianthe papinae'
+		'Reinwardtiodendron kinabaluense'
+		'Ruagea pubescens'
+		'Sandoricum cf koetijape'
+		'Schmardaea microphylla'
+		'Simarouba glauca'
+		'Swietenia macrophylla'
+		'Synoum glandulosum'
+		'Toona sp'
+		'Trichilia emetica'
+		'Turraea sericea'
+		'Vavaea amicorum'
+		'Walsura tubulata'
+		'Xylocarpus mekongensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=18;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'Carpel fusion'
+		 [2] 'Fruit type'
+		 [3] 'Mericarpy'
+		 [4] 'Exocarp consistency'
+		 [5] 'Conspicuous endocarp'
+		 [6] 'Center of fruit'
+		 [7] 'Fruit dehiscence'
+		 [8] 'Columella length'
+		 [9] 'Endocarp consistency'
+		 [10] 'Number of locules'
+		 [11] 'Number of mature seeds per locule'
+		 [12] 'Seed wings'
+		 [13] 'Wing attachment to seeds'
+		 [14] 'Wings attached to collumella/central axis'
+		 [15] 'Sarcotesta or fleshy/corky/woody seed coat'
+		 [16] 'Arillode'
+		 [17] 'Endosperm'
+		 [18] 'Amount of endosperm'
+	;
+	STATELABELS
+		1
+		'syncarpous'
+		'apocarpous/weakly syncarpous'
+		,
+		2
+		'fully dehiscent'
+		'indehiscent'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'woody'
+		'fleshy/succulent/leathery'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'solid'
+		'hollow'
+		,
+		7
+		'loculicidal'
+		'septifragal'
+		,
+		8
+		'full length'
+		'extending only halfway up fruit'
+		,
+		9
+		'thick and woody/corky'
+		'cartilaginous'
+		,
+		10
+		'one to five'
+		'more than five'
+		,
+		11
+		'one to two'
+		'three or more'
+		,
+		12
+		'present'
+		'absent'
+		,
+		13
+		'terminal'
+		'entire'
+		,
+		14
+		'seed body end'
+		'wing end'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'abundant'
+		'residual'
+		
+	;
+	MATRIX
+	'Aglaia elaeagnoidea'		                      0{0,1}11100--001--{0,1}{0,1}1-
+	'Ailanthus altissima'		                      11011?---001--111-
+	'Anthocarapa nitidula'		                     0010100--001--011-
+	'Aphanamixis polystachya'		                  0011100--001--101-
+	'Astrotrichilia sp'		                        011100--0001--0100
+	'Azadirachta indica'		                       011100--1001--0100
+	'Cabralea canjerana'		                       0011100--001--101-
+	'Calodecaryia crassifolia'		                 0011100--000--0100
+	'Capuronianthus mahafalensis'		              0{0,1}1100{0,1}-1001--111-
+	'Carapa guianensis'		                        001{0,1}101?-011--011-
+	'Cedrela odorata'		                          00101010-010001101
+	'Chisocheton macrophyllus'		                 001{0,1}100--001--{0,1}{0,1}1-
+	'Chukrasia tabularis'		                      00101010-0100?110?
+	'Cipadessa baccifera'		                      01010?--{0,1}001--1100
+	'Dysoxylum gaudichaudianum'		                0011100--001--{0,1}{0,1}1-
+	'Ekebergia capensis'		                       010100--{0,1}001--11{0,1}0
+	'Guarea glabra'		                            001{0,1}{0,1}00-1{0,1}01--011-
+	'Heckeldora staudtii'		                      011110---0{0,1}1--011-
+	'Humbertioturraea sp'		                      0111?0---101--0100
+	'Khaya anthotheca'		                         00101011-110111101
+	'Lansium domesticum'		                       011110---001--101-
+	'Lepidotrichilia volkensii'		                011100?-1001--111-
+	'Lovoa swynnertonii'		                       00101010-010011101
+	'Malleastrum mandenense'		                   011110---001--111-
+	'Melia azedarach'		                          010101--0101--0101
+	'Melia yakimaensis'		                        010101--0101--?1??
+	'Munronia humilis'		                         0111100--001--010{0,1}
+	'Naregamia alata'		                          001?100--001--1000
+	'Nymania capensis'		                         0111100--001--0101
+	'Owenia vernicosa'		                         011100--0001--0101
+	'Manchestercarpa vancouverensis'		           01?101--0101--01??
+	'Pseudobersama mossambicensis'		             001{0,1}100--001--0001
+	'Pseudocedrela kotschyi'		                   00101010-010001101
+	'Pseudoclausena chrysogyne'		                011110---001--11??
+	'Quassia amara'		                            11010---?001--111-
+	'Quivisianthe papinae'		                     0010100--0000-1101
+	'Reinwardtiodendron kinabaluense'		          011110---001--011-
+	'Ruagea pubescens'		                         001{0,1}100--001--011-
+	'Sandoricum cf koetijape'		                  010100--1001--011-
+	'Schmardaea microphylla'		                   0010101?-010011100
+	'Simarouba glauca'		                         11010---?001--111-
+	'Swietenia macrophylla'		                    00101010-010011101
+	'Synoum glandulosum'		                       0011100--001--101-
+	'Toona sp'		                                 00101010-01?0{0,1}1101
+	'Trichilia emetica'		                        001{0,1}100--001--0{0,1}{0,1}0
+	'Turraea sericea'		                          001{0,1}100--{0,1}01--1100
+	'Vavaea amicorum'		                          011{0,1}10---{0,1}{0,1}1--0101
+	'Walsura tubulata'		                         011110---001--101-
+	'Xylocarpus mekongensis'		                   0011101?-011--011-
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 18;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1572965568565; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7561902390560396537; tell It; setSelected 25 - 26 31; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2637580523766251046; mqVersion 331; checksumv 0 3 1005141505 null getNumChars 18 numChars 18 getNumTaxa 49 numTaxa 49 short true bits 2305843009213693955 states 3 sumSquaresStatesOnly 1817.0 sumSquares -1.3835058055282164E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 13; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 1081; setLocation 1912 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2637580523766251046 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1907 1009; setLocation 1912 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1907 1009; setLocation 1912 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 18; 
+ENDBLOCK;

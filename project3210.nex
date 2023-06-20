@@ -1,0 +1,511 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 06.01.23 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Radinskya'
+		'Phenacodus'
+		'Cambaytherium'
+		'Hallensia matthesi'
+		'Hyracotherium leporinum'
+		'Cymbalophus'
+		'Sifrhippus'
+		'Cardiolophus'
+		'Orientolophus'
+		'Lambdotherium'
+		'Ectocion'
+		'Karagalax'
+		'Pachynolophus eulaliensis'
+		'Pliolophus quesnoyensis'
+		'Protomoropus'
+		'Homogalax wutuensis'
+		'Lophiaspis'
+		'Paleomoropus'
+		'Litolophus'
+		'Eolophiodon'
+		'Eomoropus'
+		'Heptodon'
+		'Ghazijhippus'
+		'Erihippus tingae'
+		'Arenahippus'
+		'Propachynolophus gaudryi'
+		'Chowliia'
+		'Cambaylophus'
+		'Gandheralophus'
+		'Minchenletes'
+		'Danjiangia lambdodon'
+		'Protomoropus? hengyangensis'
+		'Pappamoropus'
+		'Danjiangia pingi'
+		'Propalaeotherium sinense'
+		'Eotitanops'
+		'Protorohippus venticolus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=70;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Degree of check teeth lophodonty'
+		 [2] 'Upper molar preparaconule crista direction towards'
+		 [3] 'Upper molar paraconule situated related to the protocone'
+		 [4] 'Occupation of upper molar facet 2A'
+		 [5] 'Molar preprotocrista'
+		 [6] '"Metastylid" separated from the metaconid'
+		 [7] 'Lower molar cristid obliqua'
+		 [8] 'Lower molar protolophid'
+		 [9] 'Lower molar metastylid'
+		 [10] 'Position of upper molar metaconule'
+		 [11] 'm1-2 hypoconulid'
+		 [12] 'Upper molar metaconule'
+		 [13] 'Size of upper molar metaconule'
+		 [14] 'Upper molar centrocrista'
+		 [15] 'Upper molar mesostyle'
+		 [16] 'Lower molar buccal and lingual cusp outer walls converge at about c'
+		 [17] 'Lower molar metaconid buttress'
+		 [18] 'Lower molar cristid obliqua attaches to trigonid'
+		 [19] 'Attachment of lower molar cristid obliqua to trigonid:'
+		 [20] 'Lower molar entoconulid'
+		 [21] 'Lower molar paracristid, when slightly worn, makes angle to tooth long axis of'
+		 [22] 'Lower molar paracristid with mesiobuccal angle'
+		 [23] 'Lower molar trigonid back wall'
+		 [24] 'P1'
+		 [25] 'M1-2'
+		 [26] 'M3 hypocone'
+		 [27] 'M1-2 postmetacrista'
+		 [28] 'Upper molar parastyle'
+		 [29] 'Size of M3'
+		 [30] 'Relative length of m3 hypoconulid'
+		 [31] 'm3 hypoconulid forming'
+		 [32] 'm3 hypolophid'
+		 [33] 'P3 metacone compared with paracone'
+		 [34] 'P3'
+		 [35] 'p3 metaconid'
+		 [36] 'p3 paraconid'
+		 [37] 'p1'
+		 [38] 'Position of optic foramen related to anterior lacerate foramen'
+		 [39] 'Navicular facet of astragalus'
+		 [40] 'Astragalar canal'
+		 [41] 'Upper molars'
+		 [42] 'Lower preultimate molar'
+		 [43] 'Lower m1-2 distal cingulum lingual of hypoconulid'
+		 [44] 'Lower molar hypolophid (or line drawn between hypoconid and entoconid), especially on m3'
+		 [45] 'Distal lower molar metaconid compared to mesial metaconid'
+		 [46] 'Mesial crest of lower molar metaconid'
+		 [47] 'Upper molar parastyle - 2'
+		 [48] 'Position of M3 parastyle'
+		 [49] 'Upper molar metacone'
+		 [50] 'Upper molar paracone'
+		 [51] 'P4 postprotocrista'
+		 [52] 'P4 metaconule'
+		 [53] 'P4 premetaconule crista'
+		 [54] 'P4 metaconule and postprotocrista or its position'
+		 [55] 'P3 postprotocrista'
+		 [56] 'P3 paracone and metacone'
+		 [57] 'Post P1 diastema'
+		 [58] 'Post p1 diastema'
+		 [59] 'p2-3 diastema'
+		 [60] 'Lingual side of upper molar paracone'
+		 [61] 'Buccal side of upper molar paracone'
+		 [62] 'Buccal surface of upper molar metacone'
+		 [63] 'Upper molar paraconule position'
+		 [64] 'Position of hypocone related to protocone on molars'
+		 [65] 'Upper molar lingual cingulum'
+		 [66] 'A cuspule lingual to hypoconulid on m3'
+		 [67] 'Buccal branch of m3 hypoconulid lobe direction towards'
+		 [68] 'Mastoid exposure orientation'
+		 [69] 'Nasal shape'
+		 [70] 'Nasolacrimal contact'
+	;
+	STATELABELS
+		1
+		'general lophodonty with small or more confluent paraconule and metaconule'
+		'weak lophodonty with relatively large paraconule and metaconule'
+		'strong lophodonty without paraconule and metaconule'
+		'lophodonty with a large paraconule but reduced or lack of metaconule'
+		,
+		2
+		'parastyle'
+		'preparacrista, sometimes joining it'
+		'preparacrista, constantly joining it'
+		,
+		3
+		'distinctly more mesially'
+		'scarcely more mesially'
+		'paraconule reduced, situated at nearly the same buccolingual plane as the protocon'
+		,
+		4
+		'paraconule and part of preprotocrista'
+		'only the paraconule'
+		'facet 2A absent, with facet 2 and 3 nearly aligned'
+		,
+		5
+		'unnotched'
+		'notched'
+		,
+		6
+		'metaconid rudimentarily twinned'
+		'metaconid narrowly twinned'
+		'metaconid widely twinned'
+		'metaconid not twinned'
+		,
+		7
+		'absent'
+		'straight'
+		'bowed buccally'
+		,
+		8
+		'notched'
+		'shallowly indented, lophoid'
+		,
+		9
+		'a prominent cuspule'
+		'weak to lacking'
+		,
+		10
+		'on a line drawn between the metacone and hypocone'
+		'(or its position if subsumed by metaloph) distinctly mesial of a line drawn between the metacone and hypocone'
+		,
+		11
+		'connecting the hypoconid'
+		'connecting the middle of the hypoconid and entoconid (hypolophid)'
+		'small and appressed to the talonid'
+		'large and isolated'
+		,
+		12
+		'not joined to hypocone by crest'
+		'joined to hypocone by crest'
+		,
+		13
+		'large'
+		'size variable, some large, some small'
+		'small'
+		'absent'
+		,
+		14
+		'straight'
+		'slightly flexed buccally'
+		'sharply flexed buccally'
+		,
+		15
+		'lacking'
+		'small or variably developed'
+		'large'
+		,
+		16
+		'45'
+		'20'
+		'10'
+		'5'
+		,
+		17
+		'absent'
+		'present, buccal in position'
+		'present, lingual in position'
+		,
+		18
+		'nearer to metaconid than to protoconid'
+		'midway between protoconid and metaconid'
+		'nearer to protoconid than to metaconid'
+		,
+		19
+		'high'
+		'low'
+		,
+		20
+		'a prominent cuspule'
+		'weak to lacking'
+		,
+		21
+		'50'
+		'40'
+		'30'
+		'20'
+		'10'
+		,
+		22
+		'rounded'
+		'sharp or bulging'
+		,
+		23
+		'shallow'
+		'steep'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'as long as broad'
+		'broader than long'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'short'
+		'long'
+		,
+		28
+		'small'
+		'medium'
+		'large'
+		,
+		29
+		'smaller than M2'
+		'not smaller than M2'
+		,
+		30
+		'as close to hypoconid as this is to entoconid'
+		'more distant but closer to hypoconid than this is to protoconid'
+		'as far or further from hypoconid than this is from protoconid'
+		,
+		31
+		'simple terminal cusp'
+		'distal margin of post-talonid lobe'
+		'bearing a lobe with a circular basin'
+		'bearing a lobe with a cuspule'
+		,
+		32
+		'incomplete'
+		'complete'
+		,
+		33
+		'smaller'
+		'same size'
+		,
+		34
+		'trigon relatively narrow, protoloph weak, paraconule very small and poorly defined'
+		'trigon broader, protoloph stronger, paraconule much larger and better defined, but smaller than protocone'
+		,
+		35
+		'very small and poorly defined'
+		'much larger and better defined, but smaller than protoconid'
+		,
+		36
+		'weak and much lower than protoconid'
+		'strong and approaching height of protoconid'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'significantly anteriorly'
+		'close'
+		,
+		39
+		'convex'
+		'saddle-shaped'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'with no metaloph'
+		'with prehypocrista but without metacone fold'
+		'metacone fold some joined to metaconule, some not'
+		'consistently joined to metaconule forming complete metaloph'
+		'buccal end of metaloph (homologue of metacone fold) shifted mesially from metacone'
+		,
+		42
+		'without hypolophid'
+		'hypolophid complete, comprising equal buccal and lingual segments of former postcristid joining in middle at notch in front of hypoconulid'
+		'buccal segment lengthened at expense of lingual segment with lingual hypoconulid'
+		'equal buccal and lingual segments joined into strong unnotched loph, hypoconulid median'
+		'hypolophid notched but complete like state 1, some with lingual segment broken'
+		'hypolophid with lingual segment consistently broken'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'transverse'
+		'oblique'
+		,
+		45
+		'larger than or equal to'
+		'distal smaller than mesial'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'pointing essentially occlusally'
+		'recurved strongly distally'
+		,
+		48
+		'aligned with those of M1-2'
+		'projecting strongly buccally in some individuals'
+		'consistently projecting strongly buccally'
+		,
+		49
+		'vertically implanted'
+		'tilted lingually slightly'
+		'tilted lingually markedly'
+		,
+		50
+		'vertically implanted'
+		'tilted buccally slightly'
+		'tilted buccally markedly'
+		'tilted lingually'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'present, large'
+		'weak'
+		'absent'
+		,
+		53
+		'weak'
+		'strong, high on ectoloph'
+		,
+		54
+		'distal of a line between metacone and protocone'
+		'more mesial'
+		,
+		55
+		'absent'
+		'faint'
+		'strong'
+		,
+		56
+		'well separated as on P4'
+		'closer together'
+		'very close'
+		,
+		57
+		'as long as upper postcanine diastema'
+		'shorter'
+		'absent'
+		,
+		58
+		'as long as lower postcanine diastema'
+		'shorter'
+		'longer'
+		'absent'
+		,
+		59
+		'present'
+		'absent'
+		,
+		60
+		'convex'
+		'flat or slightly convex'
+		'with a crista'
+		,
+		61
+		'rounded (or concial)'
+		'mesiodistally pinched'
+		'generally flat with a crista'
+		,
+		62
+		'distinctly convex'
+		'slightly convex'
+		'nearly flat'
+		,
+		63
+		'midway between paracone and protocone'
+		'closer to protocone'
+		'closer to paracone'
+		,
+		64
+		'equally lingually placed or more lingually'
+		'slightly more buccally'
+		,
+		65
+		'absent'
+		'generally complete'
+		'restricted in the central valley'
+		,
+		66
+		'absent'
+		'present, distolingually placed and smaller'
+		'present, mesiolingually placed'
+		'present, distolingually placed and larger'
+		,
+		67
+		'buccal branch absent'
+		'hypoconid'
+		'the point closer to hypoconid than to entoconid'
+		'the midpoint of hypolophid'
+		'entoconid'
+		,
+		68
+		'occipital'
+		'lateral'
+		'absent'
+		,
+		69
+		'posteriorly narrow'
+		'posteriorly broad'
+		,
+		70
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Radinskya'		                            00000????0?1000????????011001???????????1?????00000000?????000000??110
+	'Phenacodus'		                           10001-10000002200000000000000000000000000000-0000000000000000000101000
+	'Cambaytherium'		                        110010001130000?1--1--000100120000000?100001-1--001(1,2)?00212100000030?1?
+	'Hallensia matthesi'		                   110011101101000?11113100110001001100011120100?000010001112000000220?10
+	'Hyracotherium leporinum'		              1201111011010111110111001111121011???11?25000?00000001201?100001123?11
+	'Cymbalophus'		                          02110111111120031211311?1111101011100???2100010001?10100?1100100121???
+	'Sifrhippus'		                           0211011011(0,1)120031111211?01111110110001112400000000110110?1?11101121???
+	'Cardiolophus'		                         021?012111211002121141101102103110100?114311010110(0,1)111110210001020221?
+	'Orientolophus'		                        021?0????1?1200?????????1?01????????????1???????10?????????000102?????
+	'Lambdotherium'		                        3100111111212223200101001102122110001?1112010100230101201-10222020411?
+	'Ectocion'		                             11001-10000002210100001010010000000000010000-0000000000000000120101???
+	'Karagalax'		                            021203111121(2,3)0020211411?0111113110010?112310-00000010110??110110203???
+	'Pachynolophus eulaliensis'		            021?01111121211?101111001100123111(0,1)001??12000100100101(0,1)01(1,3)1001011?3?1?
+	'Pliolophus quesnoyensis'		              021?011011(0,1)1200?1111211?0101121010100?111100010000010100?1100000121???
+	'Protomoropus'		                         32111210112110031111111?111210211???????33111102000211?????02101103???
+	'Homogalax wutuensis'		                  0211022011?120031211411?1?02?03110??????3311110?10011111???00110202???
+	'Lophiaspis'		                           32111211112130032111211?110210?11???????4311111212021112??1002112?????
+	'Paleomoropus'		                         32111????1?1300?????????11021???????????43????1211?????????002001?????
+	'Litolophus'		                           3211121111213002200111100112103111101?1143101112000201211-112201103?1?
+	'Eolophiodon'		                          321?03111121300?211131110112103110101???4301-10002021102--12021120?110
+	'Eomoropus'		                            32111211112132232001111?011210311010101143101112000211212-112201203210
+	'Heptodon'		                             22220321112130030211211111111031101100113310-00011011120231002-1103110
+	'Ghazijhippus'		                         1211111011?1000?111111101102101011??0???4??10?000001012011100001213?1?
+	'Erihippus tingae'		                     0211001011(0,1)120021211311?1?011010????????3400-10?00?????????11001011???
+	'Arenahippus'		                          121101???101200??????1100101101011100?11240001000011011011100000121???
+	'Propachynolophus gaudryi'		             12101211112101132001310?1102123111100???120101001001012013100100103???
+	'Chowliia'		                             0211022011211002121141101102103110000???4311010010011110?2100110(1,2)03???
+	'Cambaylophus'		                         021?0????1?1200?????????01011???????????3?????0000?????????001102?????
+	'Gandheralophus'		                       02220311112130010211411?11021031101?0???3300-10010021111?3100000102???
+	'Minchenletes'		                         22220321112130030211211?1?121???????????4301-100101101?????202-0??????
+	'Danjiangia lambdodon'		                 ??????1?1?2??????00?2?????????????00???????1??????????????1???????????
+	'Protomoropus? hengyangensis'		          ?????2(1,2)11??????(1,3)21113(0,1)1??????221???????????111???????????????????03???
+	'Pappamoropus'		                         ?????2101?2????21111101??????231??101????31100???????????21??????03???
+	'Danjiangia pingi'		                     3100121111212221200101101102122110000???120101102301010112102221204?1?
+	'Propalaeotherium sinense'		             31001211112122232001111?11021221????????1211010?23?????????02220203???
+	'Eotitanops'		                           300?111111212223200111101002023100000?111201-1002301012012102220004???
+	'Protorohippus venticolus'		             12011011110101121001210011011111111001111500?100101001201110000010111?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 70;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1529109147558; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6159842008929710832; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 34 30 34 31 34 35 40 36 37; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 471031524369319515; tell It; setDefaultOrder 0 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 2 63 64 65 66 67 68 69; attachments ; endTell; mqVersion 275; checksumv 0 3 3145024690 null getNumChars 70 numChars 70 getNumTaxa 37 numTaxa 37 short true bits 63 states 63 sumSquaresStatesOnly 22201.0 sumSquares 22201.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 197; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1372 464; setLocation 40 119; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #6159842008929710832 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #6159842008929710832; getWindow; tell It; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1175 397; setLocation 40 119; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #471031524369319515 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 145; endTell; setExplanationSize 70; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1175 357; setLocation 40 119; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 322; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1175 397; setLocation 40 119; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel on; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #471031524369319515 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; getTable; tell It; columnWidth 1 42; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1175 397; setLocation 40 119; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 70; 
+ENDBLOCK;

@@ -1,0 +1,375 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 03.53.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=48;
+    TAXLABELS
+    		'Hypothetical Ancestor'
+		'Podowrinella'
+		'Acernaspis quadrilineata'
+		'Acernaspis woodburnensis'
+		'Acernaspis sufferta'
+		'Acernaspis sororia'
+		'Acernaspis konoverensis'
+		'Acernaspis boltoni'
+		'Acernaspis rectifrons'
+		'Acernaspis incerta'
+		'Acernaspis pulcher'
+		'Acernaspis becsciensis'
+		'Acernaspis superciliexcelsis'
+		'Acernaspis mimica'
+		'Acernaspis orestes'
+		'Acernaspis elliptifrons'
+		'Acernaspis xynon'
+		'Acernaspis rubicundula'
+		'Acernaspis skidmorei'
+		'Acernaspis dispersa'
+		'Acernaspis salmoensis'
+		'Acernaspis cf. stokesii'
+		'Ananaspis sp. nov.'
+		'Ananaspis macdonaldi'
+		'Ananaspis nuda'
+		'Ananaspis amelangorum'
+		'Ananaspis fecunda'
+		'Ananaspis aspera'
+		'Ananaspis decora'
+		'Kainops guttulus'
+		'Kainops ekphymus'
+		'Kainops microps'
+		'Kainops veles'
+		'Kainops invius'
+		'Kainops raymondi'
+		'Paciphacops serratus'
+		'Paciphacops crossei'
+		'Paciphacops latigenalis'
+		'Paciphacops eldredgei'
+		'Paciphacops sp. nov'
+		'Paciphacops hudsonicus'
+		'Paciphacops logani'
+		'Paciphacops campbelli'
+		'Paciphacops birdsongensis'
+		'Paciphacops claviger'
+		'Viaphacops'
+		'Phacops rana'
+		'Phacops iowensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=32;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Size of Glabella'
+		 [2] 'Length of Occipital Ring'
+		 [3] 'Width of Occipital Ring'
+		 [4] 'Intercalating ring (Character B)'
+		 [5] 'Shape of L1'
+		 [6] 'Length of L2 relative to L3 (character C)'
+		 [7] 'Granulation on glabella'
+		 [8] 'Glabellar tuberculation (Character K)'
+		 [9] 'Occipital median node (Character L)'
+		 [10] 'Raised rims along S2 and S3'
+		 [11] 'Length of postocular area (Character F)'
+		 [12] 'Lateral border furrow (Character H)'
+		 [13] 'Inflation of palpebral area'
+		 [14] 'Axial furrow along L1'
+		 [15] 'Palpebral furrow (Character G)'
+		 [16] 'Genal angle (Character J)'
+		 [17] 'Border ridge'
+		 [18] 'Auxiliary muscle impressions'
+		 [19] 'Sculpture on palpebral area'
+		 [20] 'Sculpture on cephalic border'
+		 [21] 'Glabellar width [1 modified]'
+		 [22] 'Posterior incisions'
+		 [23] 'Sclera in eyes'
+		 [24] 'Vincular furrow medially'
+		 [25] 'Vincular Notches'
+		 [26] 'Width of pygidial axis'
+		 [27] 'Pseudoarticulating half ring in anterior furrow'
+		 [28] 'Interring furrows posteriorly'
+		 [29] 'Length of anterior five axial rings'
+		 [30] 'Number of Congruent Segments'
+		 [31] 'Depth of pleural furrows'
+		 [32] 'Interpleural furrows'
+	;
+	STATELABELS
+		1
+		'<51%'
+		'51.0-55.9%'
+		'56-60.9%'
+		'61-65.9%'
+		,
+		2
+		'short (</= 20%)'
+		'long (>20%)'
+		,
+		3
+		'<32%'
+		'32-33.9%'
+		'34-35.9%'
+		'36-37.9%'
+		'>/= 38%'
+		,
+		4
+		'small, subtriangular, transversely strongly vaulted'
+		'other'
+		'small, circumscribed by furrows, set anterior to L1.'
+		,
+		5
+		'L1 small'
+		'medium'
+		'large, distinct adaxial edge'
+		'large, indistinct adaxial edge'
+		,
+		6
+		'40-49%'
+		'50-59%'
+		'60-69%'
+		'70-79%'
+		'80-89%'
+		'90-99%'
+		'100-109%'
+		,
+		7
+		'granulation present on all convex surfaces'
+		'present on tubercles, reduced between,'
+		'absent between tubercles'
+		,
+		8
+		'tubercles absent'
+		'low, weak, very sparse tubercles'
+		'weak, sparse'
+		'distinct, medium density'
+		'distinct to coarse, dense, granulated tubercles'
+		'coarse or mosaic, non-granulated tubercles'
+		'very large, steep-sided tubercles'
+		,
+		9
+		'node absent'
+		'weak to distinct node'
+		'longer than diameter (spine)'
+		,
+		10
+		'rims absent'
+		'weak'
+		'distinct'
+		,
+		11
+		'less than half the length of posterior border'
+		'half to equal'
+		'longer than'
+		,
+		12
+		'absence or hint of furrow'
+		'narrow, weak'
+		'narrow, deep'
+		'wide, distinct'
+		'wide, shallow to effaced'
+		,
+		13
+		'palpebral area lower than palpebral lobe'
+		'about level'
+		'markedly higher'
+		,
+		14
+		'faint to absent'
+		'weak, thin'
+		'distinct'
+		,
+		15
+		'faint to absent'
+		'weak, thin'
+		'distinct'
+		'deep'
+		,
+		16
+		'drawn out, with acute tip or large spine'
+		'drawn out, with small spine'
+		'rounded angular, with distinct node'
+		'rounded, with or without hint of node'
+		,
+		17
+		'absent'
+		'weak ridge anteriorly'
+		'strong'
+		,
+		18
+		'clearly visible'
+		'absent or faintly present anteriorly only.'
+		,
+		19
+		'even surface'
+		'pitted'
+		'perforated appearance'
+		'smooth between tubercles'
+		,
+		20
+		'evenly granulated surface'
+		'granulation-free spots or depressions'
+		'pits or perforations'
+		,
+		21
+		'51-55.9%'
+		,
+		22
+		'absent'
+		'weak'
+		'distinct'
+		'strong'
+		,
+		23
+		'thin sclera'
+		'slightly thickened, dorsally only'
+		'considerably thickened dorsally, only weakly ventrally'
+		'entire surface thickened'
+		,
+		24
+		'anteriorly pointed'
+		'bevelled margin'
+		'wide, shallow furrow'
+		'distinct, deep furrow'
+		'wide, very deep furrow'
+		,
+		25
+		'absent'
+		'weak'
+		'distinct'
+		'very strong, near separate pits'
+		,
+		26
+		'27.0-29.9%'
+		'30.0-32.9%'
+		'33.0-35.9%'
+		'36.0-38.9%'
+		'39.0-41.9%'
+		'42.0%-44.9%'
+		,
+		27
+		'absent'
+		'widened furrow or hint of ring'
+		'distinct ring'
+		'strong ring, near level with axial ring in front, ornamented'
+		,
+		28
+		'furrows continuous'
+		'shallower medially'
+		'weak to absent medially'
+		,
+		29
+		'62.0-65.9%'
+		'66.0-69.9%'
+		'70.0-73.9%'
+		'>/=74.0%'
+		,
+		30
+		'three congruent segments'
+		'four'
+		'five or more'
+		,
+		31
+		'weak, thin pleural furrows'
+		'deep, thin'
+		'deep, steep-sided to medium wide'
+		'deep, wide'
+		,
+		32
+		'interpleural furrows barely visible'
+		'weak'
+		'distinct'
+		'deep'
+		
+	;
+	MATRIX
+	'Hypothetical Ancestor'		                 20010300000202330001??0002210200
+	'Podowrinella'		                          200103?0000202230?0???0002210100
+	'Acernaspis quadrilineata'		              00112500010000030001?10231201000
+	'Acernaspis woodburnensis'		              100104?0010002130????10?30??0?00
+	'Acernaspis sufferta'		                   000115000?00021300???302302?1101
+	'Acernaspis sororia'		                    1021?500010002120001?30232202100
+	'Acernaspis konoverensis'		               000115?00?0002120?????0231203000
+	'Acernaspis boltoni'		                    010113000100022100???30332223111
+	'Acernaspis rectifrons'		                 011114?00100022100?1??02322?3100
+	'Acernaspis incerta'		                    ?0?115?0?01002110?????0231102001
+	'Acernaspis pulcher'		                    1021?5?00?1002210????30??3?0111?
+	'Acernaspis becsciensis'		                101104?00?0002?30???????330?211?
+	'Acernaspis superciliexcelsis'		          101004000000?213000??30333022111
+	'Acernaspis mimica'		                     10000400??00121300???303330?211?
+	'Acernaspis orestes'		                    ?0?00400000012130001?30333022111
+	'Acernaspis elliptifrons'		               1?1115?01?10021?0?????02320?1100
+	'Acernaspis xynon'		                      000105?00?0002110?????0232?11101
+	'Acernaspis rubicundula'		                10110101020002130001?30232110000
+	'Acernaspis skidmorei'		                  ??0?1?????200213??????0232012?00
+	'Acernaspis dispersa'		                   ?0?115000?000213000???0330011100
+	'Acernaspis salmoensis'		                 ?0?105?0000?0213?10????2320??101
+	'Acernaspis cf. stokesii'		               2011121210021?130?00?00?322?3100
+	'Ananaspis sp. nov.'		                    3031241201221?220011??11??323111
+	'Ananaspis macdonaldi'		                  30311313120112220011??133421321?
+	'Ananaspis nuda'		                        20011412?0121222011???13?0211211
+	'Ananaspis amelangorum'		                 20111213101212220110?11333223012
+	'Ananaspis fecunda'		                     101112141012122?01????0111111223
+	'Ananaspis aspera'		                      2011131310222222?11??????1111223
+	'Ananaspis decora'		                      101112131012122201?1???231111123
+	'Kainops guttulus'		                      20212313101322231110?012222212?2
+	'Kainops ekphymus'		                      ?0?121140022222311????121?200223
+	'Kainops microps'		                       303120131022222311?1??1211201222
+	'Kainops veles'		                         303120131022222311?2??1212211222
+	'Kainops invius'		                        30312413111222231?1???1211222222
+	'Kainops raymondi'		                      202113131012222311?1?01313222222
+	'Paciphacops serratus'		                  302125?32?222222???????312221233
+	'Paciphacops crossei'		                   30211514?0122223?1???2?3122??2?3
+	'Paciphacops latigenalis'		               ???1251510222223?12??2331?221233
+	'Paciphacops eldredgei'		                 304124140012121311????333?321222
+	'Paciphacops sp. nov'		                   30412314001322231122?133?5323222
+	'Paciphacops hudsonicus'		                30312414101222230131??3334223222
+	'Paciphacops logani'		                    202124141013021111???223?3??2123
+	'Paciphacops campbelli'		                 30412414101322330131?23435223223
+	'Paciphacops birdsongensis'		             2031251410132233013???3??422??23
+	'Paciphacops claviger'		                  10011314200?122011???23432322233
+	'Viaphacops'		                            ?012102510??0?1021?2?23433?2?2?3
+	'Phacops rana'		                          21113?250014121321220?333??01230
+	'Phacops iowensis'		                      3032?02500?41222212202332?10??31
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Measured as maximum width of frontal lobe in percent of maximum cephalic width (identical to cranidial width in phacopids). Since the maximum width of the frontal lobe coincides with the position of the facial sutures, this character can be measured on cranidia as well as on cephala.^nOntogeny. The ratio changes only little during growth. In Acernaspis it appears to show an insignificant decrease or to be stable ( + a few percent) from inferred late meraspid^nstages. In Ananaspis there may be a similarly insignificant slight increase. In Devonian^nphacopids with wide frontal lobes this feature shows an increase in relative width during^nontogeny. In Calyptaulax there is an increase during the meraspid period, but from early^nholaspid stages the width changes little or not at all.^nOutgroup comparison. Podowrinella and some Calyptaulax may reach close to 60%, as does^nMorgatia. Other outgroups usually show low ratios.^nPolarity. An intermediate glabella is regarded as primitive (character state 2).';
+	TEXT CHARACTER=2 TEXT='Sagittal length from posterior margin of ring to the deepest part ofthe occipital furrow^nmeasured as percent of sagittal cranidial length. Note: this ratio is influenced by the^nsagittal orientation of the specimen, so that when measurements are made on^nillustrations of specimens figured in exterior view, smaller ratios will be recovered^ncompared to when true dorsal views (i.e. perpendicular to the upper limit of the eye) are^nused.^nOntogeny. Details of the known ontogenetic development for certain Acernaspis species^nwere given by Ramskold (1988). Th e relative length of the occipital ring is nearly^nconstant during ontogeny, though there may sometimes be a weak trend towards a^nrelative shortening of the ring. In Devonian phacopids no consistent changes can be^nseen, and this is also true for Calyptaulax.^nOutgroup comparison. The length of the occipital ring is less than 20"--,, of the sagittal^ncranidial length in all outgroups.^nPolariry. A short occipital ring is considered primitive (character state 0).^n';
+	TEXT CHARACTER=3 TEXT='Measured as distance between deepest parts of axial furrows along occipital ring.^nexpressed in percent of cephalic width (measured as in character 1).^nOntogeny. This character was discussed hy Ramskiild (1988) under character A. In^nSilurian taxa there appears to be a general trend during ontogeny towards a relati1.r^nwidening of the occipital ring. Meraspid specimens of Devonian phacopids have a much narrower occipital ring than adults. This is also the case in Calyptaulax.^nOutgroup comparison. Some Calyptaulax may approach 35% ,Podowrinella straitonensis just exceeds 30%, other outgroups have even narrower occipital rings.^nPolarity. A narrow occipital ring is regarded as primitive (character state 0).^n';
+	TEXT CHARACTER=4 TEXT='The shape of the intercalating ring varies considerably among the phacopid taxa^nunder study here, and it has not been possible to divide the nearly continuous range of variation into easily distinguished, discrete states. Only two extreme varieties are clearly set off from the remaining morphological spectrum. State 1 below therefore includes widely different forms.^nOntogeny. Late meraspid and early holaspid stages of both Silurian and Devonian taxa possess an intercalating ring broadly comparable in size and shape to the occipital ring^nand also to L2. During later ontogeny the ring undergoes a relative decrease in size, and its shape usually changes considerably.^nOutgroup comparison. All outgroups have a large intercalating ring.^nPolarity. Large intercalating ring is regarded as primitive (character state 1)^n';
+	TEXT CHARACTER=5 TEXT='The shape of Ll varies considerably among phacopid trilobites, and this feature is of much taxonomic use at the species level. It is difficult both to subdivide the variation into discrete character states, and to code the species unambiguously. Much of this difficulty arises from the fact that the amounts of coating and light during photography will influence the extent of L1 visible on photographs. This is particularly true for species with a small, depressed L1. Both the character state list below and the coding of many taxa is therefore somewhat arbitrary.^nOntogeny. In meraspides of Devonian phacopids L1 is large, near level with the occipital ring and L2, and poorly separated from the intercalating ring. During later ontogeny of Silurian and Devonian species there is a reduction in relative size of L1, and the lobe also becomes more depressed and usually becomes well separated from the intercalating ring by an exsagittal furrow.^nOutgroup comparison. Eomonorachines (sensu Ludvigsen and Chatterton, 1982) usually have a small, occasionally medium-sized L1. Other pterygometopids, as well as all other phacopaceans have a large Ll.^nPolarity. Small Ll is regarded as primitive (character state 0).^n';
+	TEXT CHARACTER=6 TEXT='The length of L2 is measured as the maximum distance between the posterior edge of L2 and S2, taken perpendicular to the width of L2. The length of L3 is the maximum distance between S2 and the proximal part of S3 taken perpendicular to a bisector between these furrows. There is usually some angular difference between these two measurements.^nOntogenv. In Silurian taxa L2 is relatively shorter in juveniles than in adults. This appears to he the case also in the few Devonian species where the ontogenetic development of S2 and S3 can be followed.^nOutgroup comparison. Podowrinella has an intermediate state (3). No detailed measurements can be made of L3 in the other outgroups due to the different course of S2 in these, so the ratio L2/L3 cannot be calculated. L2 is, however, large in most of these outgroups, the eomonorachine Tricopelta being the only notable exception.^nPolarity. The scant evidence indicates that an intermediate state (character state 3 J is primitive.^n';
+	TEXT CHARACTER=7 TEXT='Presence or absence of granulation has been repeatedly used for taxonomic purposes in phacopid studies (e.g. Campbell, 1967, 1977; Lesperance and Letendre, 1981), and the general trend during the Silurian and Devonian of a directional change in the granulation has been recognized consciously or unconsciously by many phacopid workers. Apart from variations in granule size on various parts of the exoskeleton, there is also a wide size range included in the unifying term "-''granulation"--. Taking for example the frontal lobe, many Acernaspis species, particularly early ones, have a barely perceptible granulation with individual granules only 20-25 micrometers across, while granules^non late Llandovery species and many Ananaspis are 40-50 micrometers in diameter. Many^nAcernaspis species have been described as "-''smooth"-- because of inadequate preservation, preparation, or study, whereas they are in fact granulated.^nOntogeny. Little is known of the development of granulation during the ontogeny.^nFrom the Acernaspis material described by Ramskold ( 1988) it appears that granulation is present at least as early as in early holaspid stages. The size of the granules remains fairly constant during later ontogeny, thus giving the surface a successively smoother appearance. In Calyptaulax granulation is present already in the protaspid stages.^nOutgroup comparison. All outgroups possess granulation, except a few, highly^nautapomorphic species such as Calyptaulax glabella, which are apparently smooth.^nPolarity. Presence of granulation regarded as primitive (character state 0).^n';
+	TEXT CHARACTER=8 TEXT='Presence of glabellar tubercles in adult phacopids is widespread, and their presence or absence has commonly been used to define genera. "-''Tubercle"-- is used here in a general sense, with no attempt to distinguish between the various types described by Miller (1976) or Stormer (1980). The distinction of these types is based on thin section studies, which are outside the scope of this paper. Tubercles are instead grouped into classes based on their height, distribution and surface sculpture. These classes grade into each other, and the coding for some species may be more or less arbitrary.^nOntogeny. In Acernaspis tubercles are present in juveniles, but are gradually reduced in prominence during ontogeny, and are lost in adults. The indifferent preservation of the available phacopid ontogenetic material precludes a more precise description of the development of the tubercles. The presence of paired glabellar tubercles in Acernaspis juveniles similar to those in meraspid Calyptaulax does, however, indicate that the development is similar in these taxa, i.e., in later ontogeny additional tuberculation is added to a basic pattern of symmetrically distributed tubercles.^nOutgroup comparison. A small number of eomonorachine species lack tuberculation. These include Podowrinella straitonensis (but not P. christiei) and Calyptaulax glabella. All other outgroups have a tuberculated glabella. In most of these the glabella carries a distinct, medium dense to dense tuberculation.^nPolaritv. Absence of tuberculation is regarded as primitive (character state 0).^n';
+	TEXT CHARACTER=9 TEXT='There is a continuous range of development of this feature, from an unelevated spot of slightly denser granulation to a backwardly curving spine.^nOntogenv. In Acernaspis a node is present in juveniles, but is usually lost in adults. An occipital node is also present in all other figured early stages of phacopids, but is commonly lost in later stages. In Calvptaulax a node is present in protaspides and^nmeraspides, but is subsequently lost in holaspides.^nOutgroup comparison. The presence of an occipital node is common, but irregularly distributed among the outgroups. Ramskold (1988) regarded the outgroup evidence as inconclusive, and gave no polarity preference. Podowrinella and Calvptaulax lack an occipital node.^nPolarity. Absence of node is here regarded as primitive (character state 0).^n';
+	TEXT CHARACTER=10 TEXT='The furrows may be circumscribed by elevated rims. These are usually expressed in a^ndenser granulation, though they sometimes form a raised height surrounding the margin^nof the furrows. They may or may not be visible on photographs, according to the^nphotographic technique applied, and the coding may be erroneous in some cases where^nphotographs were used.^nOntogeny. From the material of Ramskold (1988) it appears that these rims are absent^nin early stages, and start to develop only in near-adult, holaspid stages.^nOutgroup comparison. We are not aware of any species in the outgroups that possess rims^nalong the glabellar furrows.^nPolarity. Absence of rims is considered primitive (character state 0).';
+	TEXT CHARACTER=11 TEXT='The cheek between the eye and the posterior border furrow was termed the postocular^narea by Chlupac (1977). Its exsagittal length indicates the eye position, and is one ofthc^nmost variable features in phacopid trilobites. Its length is here compared to the exsagittal^nlength of the posterior border directly behind the postocular area. There is almost no^nvariation during ontogeny in the length of the posterior border relative to the size of the^ncephalon, and the ratio postocular area/posterior border can therefore be determined by^nthe position of the posterior margin of the eye.^nOntogeny. This is a feature that undergoes strong and uniformly directed change^nduring the ontogeny of phacopids as well as many other trilobites. The eyes originate in^nthe protaspide at the very margin of the cephalon, anteriorly near the glabella, and they^nthen migrate posteriorly during meraspid and holaspid stages, parallel to an increase in^neye size. This pattern is known both from Acernaspis and Devonian phacopid species, as^nwell as from outgroups (e.g. Calyptaulax).^nOutgroup comparison. Most outgroups have a long postocular area. The eomonorachines^nare an exception, commonly having a short postocular area.^nPolarity. Short postocular area is regarded as primitive (character state 0).';
+	TEXT CHARACTER=12 TEXT='Only the part of the furrow posterior to the facial suture is coded, since the furrow,^nwhen present, is either fading or indistinct anterior to this. It is not clear if the furrow in^nViaphacops and Phacops is entirely homologous with the border furrow in earlier^nphacopids.^nOntogeny. The furrow is present in juvenile Acernaspis specimens, but gets progressively^nshallower during ontogeny, and is eventually completely lost in most species. In^nAnanaspis and Devonian phacopids the furrow is retained also in adults. This is also the^ncase in many Calyptaulax.^nOutgroup comparison. Almost all outgroups possess distinct lateral border furrows.^nExceptions are non-tuberculate Calyptaulas species. Podowrinella possesses a distinct^nlateral border furrow.^nPolarity. Presence of a narrow and deep lateral border furrow is regarded as primitivt^n(character state 2).';
+	TEXT CHARACTER=13 TEXT='The part of the cheek bounded anterolaterally by the palpebral furrow and the axial^nfurrow, and merging posteriorly with the postocular area, was termed the palpebral area^nby Chlupac (1977). The height of this area in true frontal view (sensu Clarkson 1966)^ncompared to the height of the palpebral lobe is a good indication of the degree of^ninflation of the palpebral area.^nOntogeny. From the Acernaspis material described by Ramskold (1988) it seems that the^npalpebral area is slightly more inflated in juveniles than in adults. The preservation of^nthe small amount of pre-adult material of phacopid trilobites does not, however, permit^nany firm conclusions to be drawn.^nOutgroup comparison. All outgroups have a depressed palpebral area, with the exception^nof some autapomorphic Calyptaulax species (e.g. C. glabella).^nPolarity. A low palpebral area is regarded as primitive (character state 0).';
+	TEXT CHARACTER=14 TEXT='The depth of the axial furrow along Ll varies greatly, though the photographic^ntechnique used influences the depth impression on a photograph. The coding is therefore^nto some extent subjective.^nOntogeny. The available material does not permit any conclusions to be drawn.^nOutgroup comparison. This feature varies as much in the outgroups as within the^nPhacopidae. There is, however, a predominance of forms with a deep axial furrow^namong the outgroups.^nPolarity. Deep axial furrow is tentatively regarded as primitive (character state 2).';
+	TEXT CHARACTER=15 TEXT='The depth of the median one-third of the palpebral furrow is coded. As with other^nfurrows, the apparent depth (when coded from photographs) is influenced somewhat by^nthe photographic technique applied.^nOntogeny. In Acernaspis the furrow becomes shallower during ontogeny.^nOutgroup comparison. The palpebral furrow is deep in almost all outgroups, even in^nhighly effaced species such as Calyptaulax glabella. An exception is the dalmanitine^nCrozonaspis struvei, where the general effacement has also affected the palpebral furrow.^nPolarity. Deep palpebral furrow is regarded as primitive (character state 3).';
+	TEXT CHARACTER=16 TEXT='The genal angle in adult phacopids may be of any shape from smoothly rounded to^ncarrying a strong genal spine. There are no clearcut boundaries between the states^nbelow, and the choice between two neighboring states has sometimes been arbitrary.^nOntogeny. Juveniles of Silurian and Devonian taxa consistently possess genal spines.^nThese are usually lost in adults. This is the case also in Calyptaulax.^nOutgroup comparison. Most outgroups possess large genal spines in adults. Exceptions^nare some common orachines (Podowrinella, Calyptaulax). Many dalmanitids (e.g.^ndalmatinines, zeliszkellines, Morgatia) also lack genal spines in adults.^nPolarity. Absence of genal spines is regarded as primitive (character state 3).';
+	TEXT CHARACTER=17 TEXT='The lateral cephalic margin may possess a more or less distinct ridge running at its^nvery edge. In the earliest species showing this feature it is developed anteriorly only, and^nits coding is then dependent on specimen preservation and quality of illustration.^nOntogeny. Incomplete evidence from Devonian species indicates that this ridge^ndevelops late in ontogeny (see e.g. Chatterton, 1971).^nOutgroup comparison. Outgroups lack ridges of similar appearance.^nPolarity. Absence of ridge is regarded as primitive (character state 0).';
+	TEXT CHARACTER=18 TEXT='The distinctness of these on the exterior surface of the glabella is coded. This is to some^nextent dependent on the preservation of the specimens and the quality of illustrations,^nand some codings may be erroneous.^nOntogeny. The possible presence of auxiliary muscle impressions in juveniles cannot be^ndetermined since the coarse granulation will prevent their expression on the exterior^nsurface. Even in Acernaspis rubicundula, a species with strong impressions in adults, they^ncan be recognized first in specimens with a cranidial length of 2.7 mm.^nOutgroup comparison. Auxiliary muscle impressions are visible externally in many^nspecies of most outgroups. In strongly tuberculated species they may be absent or^ndifficult to observe, and in highly effaced species they are usually very weak or absent^n(Calyptaulax glabella, Morgatia hupei, Crozonaspis struvei). Auxiliary muscle impressions are^npresent in some adult Calyptaulax (e.g. C. annulata; see Shaw, 1968: pl. 12, fig. 6), and also^nin Podowrinella christiei (information available too late to be included in data matrix).^nPolarity. Presence of auxiliary muscle impressions is tentatively regarded as primitive^n(character state 0).';
+	TEXT CHARACTER=19 TEXT='The surface of the palpebral area (sensu Chlupac, 1977) carries a complex sculpture^nin many taxa, including pits or perforations. This can be clearly seen, and thus coded,^nonly from well preserved specimens or high quality photographs. It is not known if the^npits of most phacopids and the perforations of Phacops are homologous.^nOntogeny. Exoskeletal pits are present in juveniles of many or all phacopines (e.g.^nDalmanites (Ramskold, 1985), phacopids (Chatterton, 1971); Calyptaulax (Hu, 1971;^nShaw, 1968).^nOutgroup comparison. Pitting of the cheek is common in all phacopine groups. It is^napparently absent in comonorachines, although present in other pterygometopids^nExceptions are Calyptaulax annulata (Shaw, 1968; pl. 11, fig. 39) and Podowrinella christiei,^nboth of which have distinct pits (see note under polarity).^nPolarity. Absence of pitting is tentatively regarded as primitive (character state 0).^n(The contrary evidence from P. christiei became available too late for consideration here.)';
+	TEXT CHARACTER=20 TEXT='This is to some extent correlated with the sculpture on the palpebral area (character^n19). Small, commonly elongate, granulation-free spots may be homologous with the pits^non the palpebral area. Only the sculpture on the part of the lateral border close to the^nmargin is coded.^nOntogeny. The ontogeny of this feature is unknown in the Phacopidae. In Calyptaulax^nannulata the pits are only visible in the largest specimen figured by Shaw (1968), so it is^nprobable that this feature appears late in ontogeny in general.^nOutgroup comparison. Outgroups rarely possess pits or granulation-free spots in this^narea. Exceptions are some Calyptaulax, e.g. C. callirachis which has very small pits (or^nrather single granules missing) seen only at high magnification (Ludvigsen, 1979:^nfig. 24B; Chatterton and Ludvigsen, 1976: pl. 16, fig. 6), and C. annulata in which pits can^nbe seen at high magnification in well-preserved silicified material (Shaw, 1968). Since^nthese pits cannot be seen in other illustrations of equally well preserved, silicified^nspecimens of the latter species (Hu, 1971), apparently due to the lesser magnification^nused, it may well be that pits are present also in some other taxa, though not detectable^nfrom illustrations. Tiny pits appear to he present in Podowrinella christiei (Lane. 1988,^npl. 4, fig. 2b; information available too late for inclusion in data matrix).^nPolarity. Presence of granulation-free spots is tentatively regarded as primitive^n(character state 1).';
+	TEXT CHARACTER=22 TEXT='On the posterior edge, mainly of posterior thoracic segments, there may be a scalloped^nfacet or incision about halfway between the axial furrow and the anterior incision.^nOntogeny. The ontogeny of this feature is unknown.^nOutgroup comparison. Some species of Calyptaulax may possess weak facets in this position^n(Ludvigsen, 1979: fig. 24A), but they are not present in other outgroups with known^nthorax. The thorax of Podowrinella is unknown.^nPolarity. The evidence is inconclusive, and we here refrain from a polarity^ndetermination of this feature. It is polarized in the analyses on the basis ofdistributions of^nother characters.';
+	TEXT CHARACTER=23 TEXT='The presence of thickened sclera in the eyes of some phacopids is well known. There is,^nhowever, not a presence/absence situation, but rather a continuous range of^nintermediate states between the two extremes. A thickened sclera is, when partial,^nalways present from the upper margin of the visual surface and downwards to varying^nextents, and the transition from thickened to normal sclera is smooth and gradual.^nOntogeny. From Beckmann (1951) it is clear that in species with thin sclera, this is so^nalready from juvenile stages. No early ontogenetic stages ofspecies with thickened sclera^nhave been described, so the thickness of the sclera in juveniles of these forms is unknown.^nOutgroup comparison. Partial or complete thickening of the sclera is known in some^neomonorachines, e.g. Tricopelta, but a thin sclera is much more common. The sclera is^nthin in Podowrinella and Calyptaulax.^nPolarity. Thin sclera is regarded as primitive (character state 0).';
+	TEXT CHARACTER=24 TEXT='Due to different styles of enrollment, the depth and position of the vincular furrow^nmay vary widely. The furrow is difficult to recognize when it is situated on the very^nanteriormost cephalic margin, there giving the impression of a bevel of the margin. The^napparent depth is influenced by the photographic technique.^nOntogeny. Very little is known. In a juvenile Acernaspis specimen it is of similar depth to^nadults of that species (Ramskold, 1988: fig. 3A, 3B).^nOutgroup comparison. The medial part of the vincular furrow is absent, weak, or^ndifferently constructed in the outgroups (in some Calyptaulax and in Podowrinella^nanteriorly pointed-state 0).^nPolarity. An anteriorly pointed furrow is regarded as primitive (character state 0).';
+	TEXT CHARACTER=25 TEXT='Many members of the Phacopidae possess deep notches laterally in the vincular furrow,^neach notch receiving the tip of a thoracic segment during full enrollment. Outside the^nfamily, similar notches are found only in the Ordovician genus Morgatia. This was^nregarded by Henry (1980, 1984) as the critical evidence for placing Morgatia as the^nearliest member of the Phacopidae.^nOntogeny. The ontogeny of this feature is unknown.^nOutgroup comparison. With the exception of Morgatia, outgroups (including Podowrinella^nand Calyptaulax) lack vincular notches.^nPolarity. Absence of vincular notches is regarded as primitive (character state 0).';
+	TEXT CHARACTER=26 TEXT='Measured between bottoms of axial furrows along first axial ring, in percent of^npygidial width between anterolateralmost points of pleural areas (excluding^narticulating facets).^nOntogeny. From the limited material available (phacopids and Calyptaulax) it appears^nthat the pygidial axis becomes narrower during ontogeny.^nOutgroup comparison. Most pterygometopids have a relatively wide axis. Exceptions are^nPodowrinella and Calyptaulax. The axis in Morgatia is of medium width.^nPolarity. A medium wide axis is regarded as primitive (character state 2).';
+	TEXT CHARACTER=27 TEXT='This may be expressed as anything from a slightly widened (sagittal) furrow to a^nprominent ring similar in shape to, but smaller than, the proper articulating half ring.^nOntogeny. The ring is an indication of unreleased segments retained in the pygidium in^nthe holaspide. Its development during the holaspid stages is unknown.^nOutgroup comparison. A distinct pseudoarticulating half ring is present in Podowrinella^nand Calyptaulax, and a ring is present also in many other pterygometopids. Morgatia^npossesses a fairly distinct ring, as do many dalmanitids.^nPolarity. Presence of distinct ring is regarded as primitive (character state 2).';
+	TEXT CHARACTER=28 TEXT='The tendency for the interring furrows to become shallower medially reflects the^npresence of apodemal pits laterally in the furrows. These apodemes are present in the^nanterior part of the pygidium only, and in eomonorachines the transition from^napodeme-carrying to apodeme-free part of axis is abrupt (Ludvigsen and Chatterton,^n1982: fig. 4). Phacopids and some outgroups commonly have interring furrows that are^ndeeper medially also posteriorly in the pygidium, apparently indicating the presence of^nfunctional apodemes throughout the axis.^nOntogeny. The ontogeny of this feature is unknown.^nOutgroup comparison. Medially shallow or effaced furrows posteriorly in the pygidium is^na common feature in all outgroups, including Morgatia, Calyptaulax and Podowrinella^n(latter information available too late for inclusion in data matrix).^nPolarity. Presence of medially shallow interring furrows is regarded as primitive^n(character state 1).';
+	TEXT CHARACTER=29 TEXT='Measured as percent of length of axis in dorsal view. Some illustrations of pygidia are of^nexterior (rather than dorsal) views, which in specimens with strongly vaulted (sagittal)^naxial termination will yield smaller ratios than would dorsal views, and in those^ninstances we have attempted to adjust the ratios to figures relating to dorsal views. The^naxis is taken to start at the bottom of the furrow anterior to the first axial ring, and end^nwhere the down slope of the axial termination meets the postaxial pleural area.^nOntogeny. Throughout ontogeny there is an increase in the number of pygidial axial^nrings. In the holaspid stages this increase is small, and it ceases in adults. This change has^nthe effect of a decrease in the ratio anterior five axial rings/sagittal length of axis.^nOutgroup comparison. This feature varies enormously in the outgroups. Most^npterygometopids have numerous axial rings in the pygidium and low ratios. OnIy^nPodowrinella and some Calyptaulax have ratios over 60%. Dalmanitids show a range at^nleast between 45% and 75%, and in Morgatia it is about 80%.^nPolarity. A low ratio is regarded as primitive (character state 0).';
+	TEXT CHARACTER=30 TEXT='This term was defined by Temple and Tripp (1979), and is roughly the number of^naxial rings that have corresponding pleural ridges not displaced posteriorly more than^nhalf a ring.^nOntogeny. In meraspid stages each ring corresponds to a pleural ridge, since these will^nlater be released as individual thoracic segments. In holaspides the number of congruent^nsegments changes little during growth, though there may be a very slight decrease. This^ncannot, however, be verified with certainty from material or illustrations.^nOutgroup comparison. In most outgroups the number of congruent segments is high,^nbasically due to the large number of axial rings present. Exceptions to this occur, e.g.^nS"?ceptaspis, which has only three to four congruent segments in spite of having over 20^naxial rings. Calyptaulax glabella has nine or ten axial rings and four congruent segments.^nPodowrinella straitonensis has at least eight rings, while P. christiei has up to 14 rings. but^nboth have four congruent segments; Morgatia hupei has six to seven axial rings and two^ncongruent segments.^nPolarity. Five or more congruent segments is regarded as primitive (character state 2).';
+	TEXT CHARACTER=31 TEXT='There is considerable variation among phacopids in both depth of the pleural furrows^nand profile shape of the furrows.^nOntogeny. Species with shallow pleural furrows in adults show a decrease in depth^nduring ontogeny (Aceraspis).^nOutgroup comparison. Most outgroups possess deep pygidial pleural furrows. Most^nCalyptaulax and Podowinella possess weak, thin pleural furrows, though in P. christiei they^nare deep. In highly effaced species such as Calyptaulax glabella and Morgatia hupei,the^nfurrows are almost entirely lost.^nPolarity. Weak, thin pleural furrows are considered as primitive (character state 0).';
+	TEXT CHARACTER=32 TEXT='In many, but not all, taxa the depth of the interpleural furrows is related to the depth^nof the pleural furrows.^nOntogeny. The interpleural furrows get shallower during ontogeny in Acernaspis.^nOutgroup comparison. Many pterygometopids, particularly eomonorachines, have^nshallow or nearly effaced interpleural furrows, as does Morgatia. Most dalmanitids have^ndistinct interpleural furrows.^nPolarity. Barely visible interpleural furrows are regarded as primitive (character state 0).';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 32;
+      ENDBLOCK;
+      
