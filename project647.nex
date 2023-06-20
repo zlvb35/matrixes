@@ -1,0 +1,358 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-29 16.02.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+    		'Lisposoma josehermana'
+		'Hemiscorpius lepturus'
+		'Opisthacanthus validus'
+		'Nebo hierichonticus'
+		'Scorpio maurus mogadorensis'
+		'Heteroscorpion opisthacanthoides'
+		'Aops oncodactylus'
+		'Urodacus macrurus'
+		'Urodacus manicatus'
+		'Urodacus mckenziei'
+		'Urodacus megamastigus'
+		'Urodacus novaehollandiae'
+		'Urodacus planimanus'
+		'Urodacus varians'
+		'Urodacus yaschenkoi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=56;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Cheliceral movable finger, distal external and distal internal teeth'
+		 [2] 'Cheliceral movable finger, number of subdistal teeth'
+		 [3] 'Cheliceral fingers, secondary serrations'
+		 [4] 'Carapace, median notch in anterior margin'
+		 [5] 'Carapace, lateral ocelli, number of pairs'
+		 [6] 'Carapace, median longitudinal furrow'
+		 [7] 'Carapace, median ocular tubercle'
+		 [8] 'Carapace, posterior sutures'
+		 [9] 'Prosoma, mesosoma, metasoma and legs, nongranular surfaces'
+		 [10] 'Pedipalp chela fingers, terminal teeth interlocking when closed'
+		 [11] 'Pedipalp chela fingers, dentate margins'
+		 [12] 'Pedipalp chela fingers, number of rows of primary denticles'
+		 [13] 'Pedipalp chela movable finger, lobe (male)'
+		 [14] 'Pedipalp chela manus, dorsal secondary carina'
+		 [15] 'Pedipalp chela manus, ventroexternal carina'
+		 [16] 'Pedipalp chela manus, ventrointernal carina'
+		 [17] 'Pedipalp patella, anterior process'
+		 [18] 'Pedipalp patella, dorso-external carina'
+		 [19] 'Pedipalp chela, position trichobothrium it'
+		 [20] 'Pedipalp chela, position trichobothrium dsb'
+		 [21] 'Pedipalp chela, position trichobothrium db'
+		 [22] 'Pedipalp chela, position trichobothrium esb'
+		 [23] 'Pedipalp chela, external surface with accessory trichobothria'
+		 [24] 'Pedipalp chela, position trichobothrium Dt'
+		 [25] 'Pedipalp chela, position trichobothrium Db external or dorsal'
+		 [26] 'Pedipalp chela, number V trichobothria'
+		 [27] 'Pedipalp chela, position trichobothria V1â€“V3'
+		 [28] 'Pedipalp chela, position trichobothria V2-V4'
+		 [29] 'Pedipalp patella, number e trichobothria'
+		 [30] 'Pedipalp patella, number v trichobothria'
+		 [31] 'Legs I and II, basitarsi, retrolateral margins, setation'
+		 [32] 'Legs, telotarsi, ventrosubmedian setae type'
+		 [33] 'Legs IV, telotarsi, prolateral row of ventrosubmedian spiniform setae'
+		 [34] 'Legs, telotarsi, well-developed ventromedian row of setae'
+		 [35] 'Legs, telotarsi, laterodistal lobes'
+		 [36] 'Embryonic development'
+		 [37] 'Hemispermatophore, sclerotised mating plug'
+		 [38] 'Metasomal segments (male)'
+		 [39] 'Metasomal segments I-IV, dorsolateral carinae'
+		 [40] 'Metasomal segment V, dorsolateral carinae'
+		 [41] 'Metasomal segment I, median lateral carinae (male)'
+		 [42] 'Metasomal segment I, median lateral carinae (female)'
+		 [43] 'Metasomal segment V, median lateral carinae'
+		 [44] 'Metasomal segment V, ventrolateral carinae'
+		 [45] 'Metasomal segments I-IV, ventral carinae, presence'
+		 [46] 'Metasomal segments I-IV, ventral carinae'
+		 [47] 'Metasomal segment V, ventromedian carina'
+		 [48] 'Metasomal segment V, ventromedian carina distal portion'
+		 [49] 'Telson vesicle, shape (male)'
+		 [50] 'Telson vesicle, shape (male), lateral compression'
+		 [51] 'Telson vesicle, shape (female)'
+		 [52] 'Telson vesicle, anterodorsal lateral lobes'
+		 [53] 'Telson vesicle, surface macrosculpture'
+		 [54] 'Telson, venom glands'
+		 [55] 'Telson, aculeus'
+		 [56] 'Burrows constructed'
+	;
+	STATELABELS
+		1
+		'unequal, with distal external tooth considerably smaller than distal internal tooth, aligned longitudinally and not opposable'
+		'unequal, with distal external tooth noticeably smaller than distal internal tooth, and opposable, i.e. forming a bicusp'
+		'subequal, with distal external tooth only slightly smaller than distal internal tooth, and opposable, i.e. forming a bicusp'
+		,
+		2
+		'two'
+		'one'
+		'polymorphic'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'shallow'
+		'strongly excavated'
+		,
+		5
+		'three'
+		'two'
+		'none'
+		,
+		6
+		'broad, shallow, without suture'
+		'narrow, suturiform'
+		,
+		7
+		'raised'
+		'shallow'
+		'none'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'smooth'
+		'distinctly punctate'
+		,
+		10
+		'unevenly, with movable finger displaced to exterior, with notch near tip of fixed finger'
+		'evenly, movable finger not displaced to exterior'
+		,
+		11
+		'entire'
+		'markedly scalloped'
+		,
+		12
+		'single'
+		'double along entire length, but often fused basally'
+		'multiple (more than two), at least basally, sometimes becoming single or double distally'
+		,
+		13
+		'absent or at most weakly developed, close to base movable finger and lacking an obvious notch in fixed finger'
+		'well-developed, almost midway along movable finger (if dentate margin markedly scalloped, second lobe more strongly developed than other lobes on the movable finger), with a distinct notch in fixed finger, lobe rounded dorsally and lacking a sharp conical'
+		,
+		14
+		'obsolete'
+		'distinct'
+		,
+		15
+		'oblique to longitudinal axis of chela, distal edge disconnected from external movable finger condyle and directed toward (almost connecting) internal movable finger condyle'
+		'parallel to longitudinal axis of chela, distal edge disconnected from external movable finger condyle and directed toward a point between external and internal movable finger condyles, but closer to external condyle'
+		,
+		16
+		'equally developed as internomedian carina'
+		'more strongly developed than internomedian carina, which may be obsolete'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'distinct'
+		'obsolete'
+		,
+		19
+		'manus or base of fixed finger'
+		'midway (Hemiscorpius) to distal (Nebo) along fixed finger'
+		,
+		20
+		'below dbâ€“dst axis'
+		'in line with dbâ€“dst axis'
+		,
+		21
+		'dorsal surface'
+		'internal surface'
+		,
+		22
+		'manus, behind point of articulation between fixed and movable fingers and below ebâ€“estâ€“et axis'
+		'midway along fixed finger, in line with ebâ€“estâ€“et axis'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'manus, at basal end'
+		'manus, mid-length or slightly less than mid-length'
+		'manus, distal half, near base of fixed finger'
+		'proximal end of fixed finger'
+		,
+		25
+		'external surface'
+		'dorsal surface'
+		,
+		26
+		'4'
+		'6 or more'
+		,
+		27
+		'evenly spaced, distance V1â€“V2 similar to distance V2â€“V3'
+		'unevenly spaced, distance V1â€“V2 much less than distrance V2â€“V3'
+		,
+		28
+		'evenly spaced, distance V3-V4 similar to distance V2-V3'
+		'unevenly spaced, distance V3â€“V4 much less than distrance V2â€“V3'
+		,
+		29
+		'13'
+		'15 or more'
+		,
+		30
+		'single row of 3'
+		'single row of 4â€“10'
+		,
+		31
+		'no macrosetae'
+		'a row of 3 or more spiniform macrosetae'
+		'a comb-like row of 3 or more setiform macrosetae which may or may not be interspersed with slender spiniform macrosetae'
+		,
+		32
+		'stout, spiniform'
+		'slender, subspiniform'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'setiform'
+		'spiniform'
+		'absent'
+		,
+		35
+		'truncated, base of median dorsal lobe flush'
+		'rounded, notches at base of median dorsal lobe'
+		,
+		36
+		'apoikogenic'
+		'katoikogenic'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'similar to or slightly longer than female'
+		'much longer than female'
+		,
+		39
+		'present and distinct on at least some segments'
+		'absent or obsolete on all segments'
+		,
+		40
+		'present and distinct'
+		'absent or obsolete'
+		,
+		41
+		'present and distinct'
+		'absent or obsolete'
+		,
+		42
+		'present and distinct'
+		'absent or obsolete'
+		,
+		43
+		'present and distinct'
+		'absent or obsolete'
+		,
+		44
+		'present and distinct'
+		'absent or obsolete'
+		,
+		45
+		'absent on all segments'
+		'present and distinct on at least some segments'
+		,
+		46
+		'paired ventrosubmedian carinae'
+		'single ventromedian carina'
+		,
+		47
+		'present and distinct'
+		'absent or obsolete'
+		,
+		48
+		'straight'
+		'breaking up into numerous granules'
+		'bifurcating'
+		,
+		49
+		'unmodified'
+		'elongated, with pair of distal lobes'
+		'elongated, without pair of distal lobes'
+		'State 3'
+		,
+		50
+		'unmodified'
+		'laterally compressed'
+		,
+		51
+		'unmodified'
+		'laterally compressed'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'entirely smooth'
+		'longitudinal rows of granules on ventral and lateral surfaces'
+		'2 or more longitudinal rows of granules on all or part of ventral surface only'
+		,
+		54
+		'complex'
+		'simple'
+		,
+		55
+		'long, shallowly curved'
+		'very short, sharply curved'
+		,
+		56
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Lisposoma josehermana'		                     000000000000000000000000000000000000000000000-0000000000
+	'Hemiscorpius lepturus'		                     21020111100101111011110310110001010101000100110011011110
+	'Opisthacanthus validus'		                    21010111100110100001100100110000010100111110100001112110
+	'Nebo hierichonticus'		                       11020101011010110111110300100000011100000000100000001011
+	'Scorpio maurus mogadorensis'		               01010101001000100101110210100010021100001100100100011001
+	'Heteroscorpion opisthacanthoides'		          11021101100201111001010001--1100010101101110110001111100
+	'Aops oncodactylus'		                         1{0,1}0220200002?1110101011001--1101020???01?1110-1-??01100?
+	'Urodacus macrurus'		                         01021101010201110001011001--1110021110000000110200011001
+	'Urodacus manicatus'		                        01021101010201110001011001--1110021110000000110200010001
+	'Urodacus mckenziei'		                        01121101010201110001011001--1120021111000000110221111011
+	'Urodacus megamastigus'		                     01121101010001110001011001--1120021111001100110221111011
+	'Urodacus novaehollandiae'		                  01021101010201110001011001--1110021110000000110200011001
+	'Urodacus planimanus'		                       11021101010201110001011001--1110021111000000110200010001
+	'Urodacus varians'		                          01121101000001110001011001--1120121110001100110231110001
+	'Urodacus yaschenkoi'		                       01121101000001110101011001--1120021110000000110200011001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 56;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1492540012751; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6489344108371012749; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 165309584569660712; mqVersion 303; checksumv 0 3 2471511745 null getNumChars 56 numChars 56 getNumTaxa 15 numTaxa 15 short true bits 2305843009213693967 states 15 sumSquaresStatesOnly 2779.0 sumSquares -4.6116860184273879E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 127; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1218 811; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #165309584569660712 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1091 739; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 56; 
+ENDBLOCK;

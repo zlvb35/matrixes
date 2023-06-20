@@ -1,0 +1,419 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 17.06.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=52;
+    TAXLABELS
+    		'Sciadopitys verticillata'
+		'Pc abies'
+		'Cathaya argyrophylla'
+		'cedrus'
+		'Cryptomeria japonica'
+		'keteleeria'
+		'larix'
+		'Obirastrobus kokubunii'
+		'Obirastrobus nihongii'
+		'Pararaucaria patagonica'
+		'picea'
+		'Pinus belgica'
+		'Pinus nelsonii'
+		'Pinus ponderosa'
+		'Pityostrobus andraei'
+		'Pityostrobus argonnensis'
+		'Pityostrobus beardii'
+		'Pityostrobus bernissartensis'
+		'Pityostrobus californiensis'
+		'Pityostrobus cliffwoodensis'
+		'Pityostrobus corneti'
+		'Pityostrobus hallii'
+		'Pityostrobus hautrageanus'
+		'Pityostrobus hokodzensis'
+		'Pityostrobus hueberi'
+		'Pityostrobus jacksonii'
+		'Pityostrobus kayeii'
+		'Pityostrobus leckenbyi'
+		'Pityostrobus lynnii'
+		'Pityostrobus macrocephalus'
+		'Pityostrobus makahensis'
+		'Pityostrobus matsubarae'
+		'Pityostrobus mcmurrayensis'
+		'Pityostrobus milleri'
+		'Pityostrobus oblongus'
+		'Pityostrobus palmeri'
+		'Pityostrobus pubescens'
+		'Pityostrobus ramentosa'
+		'Pityostrobus shastaensis'
+		'Pityostrobus villerotensis'
+		'Pityostrobus virginiana'
+		'Pseudoaraucaria arnoldii'
+		'Pseudoaraucaria benstedi'
+		'Pseudoaraucaria gibbosa'
+		'Pseudoaraucaria heeri'
+		'Pseudoaraucaria loppineti'
+		'Pseudoaraucaria major'
+		'Pseudolarix amabilis'
+		'pseudotsuga'
+		'tsuga'
+		'Picea diettertiana'
+		'Picea burtonii sp. nov.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Pith sclerenchyma'
+		 [2] 'Pith resin canals'
+		 [3] 'Secondary xylem continuity'
+		 [4] 'Secondary xylem resin canals'
+		 [5] 'Secondary xylem growth increments'
+		 [6] 'Inner cortex sclerenchyma'
+		 [7] 'Sclerenchyma in outer cortex'
+		 [8] 'Cortical resin canal diameter'
+		 [9] 'Axis scale or bract base trichomes'
+		 [10] 'Bract and scale trace origin'
+		 [11] 'Scale trace derivation'
+		 [12] 'Scale trace shape'
+		 [13] 'Resin canals to cone scale complex arising from cortical canals'
+		 [14] 'Bract and ovuliferous scale separation'
+		 [15] 'Bract and ovuliferous scale manner of separation'
+		 [16] 'Bract length relative to ovuliferous scale'
+		 [17] 'Abaxial lobe of bract base or cone scale complex'
+		 [18] 'Bract apex shape'
+		 [19] 'Bract sclerenchyma'
+		 [20] 'Bract resin canals'
+		 [21] 'Bract resin canal number'
+		 [22] 'Bract trace'
+		 [23] 'Bract trace vascular ray'
+		 [24] 'Ovuliferous scale vascular bundles distal to seed'
+		 [25] 'Ovuliferous scale resin canals'
+		 [26] 'Resin canals abaxial to ovuliferous scales at scale base'
+		 [27] 'Resin canals adaxial to ovuliferous scales at scale base'
+		 [28] 'Resin canals to ovuliferous scales abaxial at level of seed body'
+		 [29] 'inc'
+		 [30] 'Resin canals to ovuliferous scales adaxial to vascular tissue at level of seed body'
+		 [31] 'Resin canals to ovuliferous scale distal to seed body including under wing and more distal sections abaxial'
+		 [32] 'Resin canals to ovuliferous scale distal to seed body including under wing and more distal sections between'
+		 [33] 'Resin canals to ovuliferous scale distal to seed body including under wing and more distal sections adaxial'
+		 [34] 'Sclerenchyma in ovuliferous scale abaxial to vascular tissue'
+		 [35] 'Sclerenchyma in ovuliferous scale between vascular tissue'
+		 [36] 'Sclerenchyma in ovuliferous scale. adaxial to vascular tissue'
+		 [37] 'Ovuliferous scale shape'
+		 [38] 'Ovuliferous scale base'
+		 [39] 'Ovuliferous scale apex'
+		 [40] 'Umbo'
+		 [41] 'Umbo position'
+		 [42] 'Interseminal ridge'
+		 [43] 'Interseminal ridge extension'
+		 [44] 'Scale at right angles to cone axis for length of seed body with sharply upturned distal portion'
+		 [45] 'Method of cone seed release'
+		 [46] 'Seed wings formed from ovuliferous scale tissue'
+		 [47] 'Seed wings formed from sarcotestal'
+		 [48] 'Resin vesicles or cavities in integument'
+		 [49] 'Ridged sclerotesta'
+		 [50] 'Enlarged parenchyma pad or cushion at chalazal end of seed'
+		 [51] 'Number of ovules per ovuliferous scale'
+		 [52] 'Seed body shape'
+		 [53] 'Vascular strand entering seed'
+		 [54] 'Seed wing attachment'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'forming a continuous cylinder or little dissected'
+		'in separate strands'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'one'
+		'two'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'uniform'
+		'dilated markedly near points of branching'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'separate'
+		'united'
+		,
+		11
+		'from two lateral strands'
+		'single abaxially concave strand'
+		,
+		12
+		'abaxially concave'
+		'becoming cylindrical after divergence'
+		,
+		13
+		'as a single branch'
+		'two origins'
+		'three separate origins'
+		'four separate origins'
+		'more than four separate origins'
+		,
+		14
+		'fused'
+		'separating'
+		,
+		15
+		'laterally first'
+		'medially first'
+		'all at once'
+		,
+		16
+		'shorter'
+		'equal'
+		'longer'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'simple'
+		'tridentate'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'two'
+		'more than two'
+		,
+		22
+		'entering bract'
+		'terminating before entering free part of bract'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'straight'
+		'abaxially concave'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'flabellate or broad at apex'
+		'round to rhomboid or broad in middle'
+		'tongue shaped'
+		'subcordate'
+		'deltate triangular'
+		,
+		38
+		'pedicillate'
+		'broad'
+		,
+		39
+		'thinning distally'
+		'thickening distally into an apophysis'
+		'thickening distally (has umbo)'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'dorsal'
+		'terminal'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'extending less than half of seed diameter'
+		'extending more than half of seed diameter'
+		'extending between and overarching'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'cone spreading'
+		'scale abscission from cone axis'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		'present (usu. on abaxial surface of seed, indepdnt of resin cavitie)'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'one'
+		'two'
+		'three or more'
+		,
+		52
+		'ovoid obovate'
+		'triangular cuneate oblong'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'deep cup'
+		'shallow cup'
+		'claws'
+		
+	;
+	MATRIX
+	'Sciadopitys verticillata'		              0010000010001101000110001010010110010000-0-0001000201-
+	'Pc abies'		                              101(0,1)011(0,1)(0,1)(0,1)10111(0,2)(0,1)(0,1)1100001010010111010000-0-11101001110
+	'Cathaya argyrophylla'		                  000000100010???01001010?111???1111011100-10001000010?1
+	'cedrus'		                                00101(0,1)10(0,1)01031000010-1001111001001110000-(0,1)011101001110
+	'Cryptomeria japonica'		                  1000011000??01010?0110?00--------1110000-0-0001000210-
+	'keteleeria'		                            00000011(0,1)011110(0,2)111101(0,1)11111011??1013000-1010101001110
+	'larix'		                                 100(0,1)0(0,1)101010111(0,2)(0,1)101(0,1)(0,1)(0,1)11010011111011100-1(0,1)00100001001
+	'Obirastrobus kokubunii'		                0011011100(0,1)03110000110001111111111010100-11001000010??
+	'Obirastrobus nihongii'		                 000101110(0,1)104110100110001111011111011?00-1100100001?1?
+	'Pararaucaria patagonica'		               10000?1-1010-1000000-00?0--------0110?10-0-1010000(0,1)?1?
+	'picea'		                                 (0,1)00(0,1)0(0,1)10(0,1)01011001001(0,1)0(0,1)0101101(0,1)111111100-1(0,1)00100001001
+	'Pinus belgica'		                         100100000110110000?100?111011011110021110100010000100?
+	'Pinus nelsonii'		                        0001100001101100100100?1110111111000211101200100001002
+	'Pinus ponderosa'		                       ?0010000011011?000110??1110111111111211101000100001002
+	'Pityostrobus andraei'		                  000?01?1001011?000????01110100111101211100-00100001002
+	'Pityostrobus argonnensis'		              10000110001010-000???1011101001111012?10-10001000010?2
+	'Pityostrobus beardii'		                  10100110101011000001100?110100111111??11?1000100101???
+	'Pityostrobus bernissartensis'		          110000000010110000?0-101110100101100210110-001000010?2
+	'Pityostrobus californiensis'		           1101011100101100000100101111111111010000-1100100001???
+	'Pityostrobus cliffwoodensis'		           000100100010???000?100001101111111001?00?1000100001???
+	'Pityostrobus corneti'		                  100001100011?100001101001111111111000000-0-00101001???
+	'Pityostrobus hallii'		                   0000001001101110000100001101101111111100-??00100001???
+	'Pityostrobus hautrageanus'		             100001100000???0000??101110110111100211110-001001010??
+	'Pityostrobus hokodzensis'		              10100110101011200001010?1101001111110000-1000100101???
+	'Pityostrobus hueberi'		                  10000100101111000010-1001101101011000100-100010000100?
+	'Pityostrobus jacksonii'		                000100000010?10000?11000110???11110021110100010??01???
+	'Pityostrobus kayeii'		                   1001000000001100000100011101001111012?1100-00100001???
+	'Pityostrobus leckenbyi'		                00000???011021000?0101001010011111000000-100010100101?
+	'Pityostrobus lynnii'		                   0001001101101110000??(0,1)0111010011110021110100010??01???
+	'Pityostrobus macrocephalus'		            10000110000?1??000?10100110???111101211??0-00100101??2
+	'Pityostrobus makahensis'		               10010011001011100001(0,1)0001101011111010000-1000101001???
+	'Pityostrobus matsubarae'		               10000110000011000001000?1111111111011000-10001000010??
+	'Pityostrobus mcmurrayensis'		            10100110001011001?01000?110101???001??00-10001000010??
+	'Pityostrobus milleri'		                  00110011101010-0??11010?11011011110101110100010??01???
+	'Pityostrobus oblongus'		                 10000111011021000?0100001011011111010?00-1000101001?1?
+	'Pityostrobus palmeri'		                  100111100(0,1)001100000101001101011101112?11?100010000100?
+	'Pityostrobus pubescens'		                001000001010110010010000110001?101110000-11001?0001???
+	'Pityostrobus ramentosa'		                000000111110?100000100001111011111012?00-110010??01???
+	'Pityostrobus shastaensis'		              10010110001011000001010?110???111101?????1000100001???
+	'Pityostrobus villerotensis'		            000000000110111000?100011101111111112100-10001000010??
+	'Pityostrobus virginiana'		               000?00001100?100000100011101001001010000-1000100001?0?
+	'Pseudoaraucaria arnoldii'		              001000110000110000011(0,1)001010011111100?011121010101111?
+	'Pseudoaraucaria benstedi'		              00100?1?0000?10000?1000?1??001???100?????1210101011???
+	'Pseudoaraucaria gibbosa'		               101001110000310000?1000011100111110110011121010001111?
+	'Pseudoaraucaria heeri'		                 0010001000001100001100001010011011010001112101010111??
+	'Pseudoaraucaria loppineti'		             001000100000110000010010101001???100??0111210100011110
+	'Pseudoaraucaria major'		                 001000100000110000010110101001111111?00111210101011???
+	'Pseudolarix amabilis'		                  101001101010?100001100?01111111110114000-1001101001010
+	'pseudotsuga'		                           10010(0,1)10(0,1)0101102010100(0,1)11010011111011100-1000100001001
+	'tsuga'		                                 10000(0,1)(0,1)0(0,1)010311(0,2)(0,1)0110000101001111101(0,1)000-1000101001010
+	'Picea diettertiana'		                    0001001000101100101100001011011011001100-100010000100?
+	'Picea burtonii sp. nov.'		               1000011000101100100100001011011111011100-1000100001?01
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 54;
+      ENDBLOCK;
+      

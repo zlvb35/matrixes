@@ -1,0 +1,840 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-25 13.06.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+    		'Ancestor'
+		'Captorhinidae'
+		'Araeoscelidia'
+		'Claudiosaurus'
+		'Younginiformes'
+		'Rhynchosauria'
+		'Trilophosaurus'
+		'Prolacertiformes'
+		'Choristodera'
+		'Archosauriformes'
+		'Kuehneosauridae'
+		'Rhynchocephalia'
+		'Squamata'
+		'Testudines'
+		'Placodus'
+		'Cyamodus'
+		'Corosaurus'
+		'Cymatosaurus'
+		'Augustasaurus'
+		'Pistosaurus'
+		'Plesiosaurus'
+		'Simosaurus'
+		'Germanosaurus'
+		'Nothosaurus'
+		'Lariosaurus'
+		'Wumengosaurus'
+		'Serpiano-Neustico'
+		'Anaro-Dactylo'
+		'Keichousaurus'
+		'Dianopachysaurus dingi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=137;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Bones in the dermatocranium'
+		 [2] 'Preorbital and postorbital region of skull'
+		 [3] 'Snout'
+		 [4] 'Distinct snout constriction in adult'
+		 [5] 'Premaxillae-MorphoBank 1'
+		 [6] 'Postnarial process of premaxilla'
+		 [7] 'External nares'
+		 [8] 'Nasal(s) - MorphoBank 1'
+		 [9] 'Nasal(s) - MorphoBank 2'
+		 [10] 'Nasal(s) - MorphoBank 3'
+		 [11] 'Lacrimal'
+		 [12] 'Dorsal exposure of prefrontal'
+		 [13] 'Prefrontal'
+		 [14] 'Frontal - MorphoBank 1'
+		 [15] 'Frontal(s) in adult'
+		 [16] 'Distinct posterolateral processes of frontal(s)'
+		 [17] 'Frontal - MorphoBank 2'
+		 [18] 'Postfrontal'
+		 [19] 'Jugal-MorphoBank 1'
+		 [20] 'Jugal-MorphoBank 2'
+		 [21] 'Jugal-MorphoBank 3'
+		 [22] 'Parietal(s) in adult'
+		 [23] 'Parietal skull table'
+		 [24] 'Pineal foramen'
+		 [25] 'Postparietals'
+		 [26] 'Tabulars'
+		 [27] 'Supratemporals'
+		 [28] 'Temporal region of skull'
+		 [29] 'Upper temporal fossa'
+		 [30] 'The anteromedial corner of the upper temporal fossa'
+		 [31] 'Lower temporal fossa'
+		 [32] 'Squamosal'
+		 [33] 'A box-like suspensorium of the squamosal'
+		 [34] 'Dstinct notch of squamosal to receive distal tip of paroccipital process'
+		 [35] 'Quadratojugal'
+		 [36] 'Anterior process of quadratojugal'
+		 [37] 'Quadrate'
+		 [38] 'Posterior margin of quadrate'
+		 [39] 'Lateral conch on quadrate'
+		 [40] 'Dorsal wing of epipterygoid'
+		 [41] 'Braincase'
+		 [42] 'Occipital crest'
+		 [43] 'Occiput'
+		 [44] 'Mandibular articulations'
+		 [45] 'Supraoccipital'
+		 [46] 'Contact between exoccipitals and the basioccipital condyle'
+		 [47] 'Basioccipital tubera'
+		 [48] 'Palate'
+		 [49] 'Premaxillae-MorphoBank 2'
+		 [50] 'Posterior palatine vacuities'
+		 [51] 'Pterygoids'
+		 [52] 'Pterygoid flanges'
+		 [53] 'Ectopterygoid'
+		 [54] 'Suborbital fenestra'
+		 [55] 'Internal carotid passage'
+		 [56] 'Splenial bone'
+		 [57] 'Distinct coronoid process of lower jaw'
+		 [58] 'Strongly projecting lateral ridge of surangular defining the insertion area for superficial adductor muscle fibers on the lateral surface of the lower jaw'
+		 [59] 'Mandibular symphysis'
+		 [60] 'Retroarticular process of lower jaw'
+		 [61] 'Trough on dorsal surface of retroarticular process'
+		 [62] 'Teeth'
+		 [63] 'Durophagous dentition, including much enlarged palatine tooth plates'
+		 [64] 'Number of premaxillary teeth'
+		 [65] 'Anterior (premaxillary and dentary) teeth'
+		 [66] 'Premaxillary and anterior dentary fangs'
+		 [67] 'One or two enlarged teeth on maxilla'
+		 [68] 'The maxillary tooth row'
+		 [69] 'Teeth on pterygoid flange'
+		 [70] 'Vertebrae-MorphoBank 1'
+		 [71] 'Vertebrae-MorhpoBank 2'
+		 [72] 'Vertebral centrum'
+		 [73] 'Subcentral foramina'
+		 [74] 'Zygosphene-zygantrum articulation'
+		 [75] 'Zygapophyseal pachyostosis'
+		 [76] 'Number of cervical vertebrae'
+		 [77] 'Cervical centra'
+		 [78] 'Parapophysis'
+		 [79] 'Cervical intercentra'
+		 [80] 'Distal articular surface on transverse processes of dorsal vertebrae'
+		 [81] 'Transverse processes of neural arches of the dorsal region'
+		 [82] 'Distal end of transverse processes of dorsal vertebrae'
+		 [83] 'Sutural facets receiving the pedicels of the neural arch on the dorsal surface of the centrum in the dorsal region'
+		 [84] 'Dorsal intercentra'
+		 [85] 'Anteroposterior trend of increasing inclination of pre- and postzygapophyses within the dorsal and sacral region'
+		 [86] 'A distinct free anterior process of cervical ribs'
+		 [87] 'Pachyostosis of dorsal ribs'
+		 [88] 'The number of sacral ribs'
+		 [89] 'Distinct expansion of distal head of sacral ribs'
+		 [90] 'Sacral (and caudal) ribs or transverse processes and their respective centrum'
+		 [91] 'Mineralized sternum'
+		 [92] 'Median gastral element'
+		 [93] 'The medial gastral rib element'
+		 [94] 'Cleithrum'
+		 [95] 'Clavicles-MorphoBank 1'
+		 [96] 'Clavicles-MorphoBank 2'
+		 [97] 'Anterolaterally expanded corners of clavicles'
+		 [98] 'Clavicle'
+		 [99] 'The relationship between clavicles and interclavicle'
+		 [100] 'Interclavicle'
+		 [101] 'Posterior process on (T-shaped) interclavicle'
+		 [102] 'Scapula'
+		 [103] 'The dorsal wing or process of the eosauropterygian scapula'
+		 [104] 'Supraglenoid buttress'
+		 [105] 'Number of coracoid ossifications'
+		 [106] 'Coracoid'
+		 [107] 'Coracoid foramen'
+		 [108] 'Pectoral fenestration'
+		 [109] 'Limbs'
+		 [110] 'Foot'
+		 [111] 'Humerus'
+		 [112] 'Deltopectoral crest'
+		 [113] 'Insertional crest for latissimus dorsi muscle'
+		 [114] 'Epicondyles of humerus'
+		 [115] 'Ectepicondylar groove'
+		 [116] 'Entepicondylar foramen'
+		 [117] 'Radius'
+		 [118] 'Distal end of ulna'
+		 [119] 'Total number of carpal ossifications'
+		 [120] 'Iliac blade'
+		 [121] 'Pubis'
+		 [122] 'Obturator foramen in adult'
+		 [123] 'Thyroid fenestra'
+		 [124] 'Acetabulum'
+		 [125] 'Femoral shaft'
+		 [126] 'Internal trochanter'
+		 [127] 'Intertrochanteric fossa'
+		 [128] 'Distal femoral condyles'
+		 [129] 'Anterior femoral condyle relative to posterior condyle'
+		 [130] 'Total number of tarsal ossifications'
+		 [131] 'Perforating artery'
+		 [132] 'The proximal concavity of astragalus'
+		 [133] 'Calcaneal tuber'
+		 [134] 'Distal tarsal 1'
+		 [135] 'Distal tarsal 5'
+		 [136] 'Metatarsal 5-MorphoBank 1'
+		 [137] 'Metatarsal 5-MorphoBank 2'
+	;
+	STATELABELS
+		1
+		'distinctly sculptured'
+		'relatively smooth'
+		,
+		2
+		'of subequal length'
+		'preorbital region distinctly longer'
+		'postorbital region distinctly longer'
+		,
+		3
+		'relatively short'
+		'elongated with broad anterior termination'
+		'elongated and tapering anteriorly'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'small'
+		'large, forming most of snout in front of external nares'
+		,
+		6
+		'absent'
+		'present, excluding maxilla from posterior margin of external naris'
+		,
+		7
+		'not retracted'
+		'retracted with a longitudinal diameter appraoching or exceeding half the longitudinal diameter of the orbit'
+		'retracted, narrow, and with a longitudinal diameter that is distinctly less than half the longitudinal diameter of the orbit'
+		,
+		8
+		'shorter than frontal(s)'
+		'longer than frontal(s)'
+		,
+		9
+		'not reduced'
+		'reduced'
+		'absent'
+		,
+		10
+		'meet in dorsomedial suture'
+		'fused'
+		'are seperated from one another by nasal processes of the premaxillae extending back to the frontal bone(s)'
+		,
+		11
+		'is present and enters the external naris'
+		'remains excluded from the external naris'
+		'absent'
+		,
+		12
+		'large'
+		'reduced'
+		,
+		13
+		'without slender anteromedial process'
+		'with slender anteromedial process entering between maxilla and premaxilla'
+		,
+		14
+		'forms the dorsal margin of the orbit'
+		'excludes from the dorsal margin of the orbit by a contact of prefrontal and postfrontal'
+		,
+		15
+		'paired'
+		'fused'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'widely separated from the upper temporal fossa'
+		'narrowly approaches the upper temporal fossa'
+		'enters the anteromedial margin of the upper temporal fossa'
+		,
+		18
+		'large and plate-like'
+		'with distinct lateral process overlapping the dorsal tip of the postorbital'
+		'with reduced lateral process and hence more of an elongate shape'
+		,
+		19
+		'extends anteriorly along the ventral margin of the orbit'
+		'is restricted to a position behind the orbit but enters the latter''s posterior margin'
+		'is restricted to a position behind the orbit without reaching the latter''s posterior margin'
+		,
+		20
+		'extends backwards no farther than to the middle of the cheek region'
+		'extends nearly to the posterior end of the skull'
+		,
+		21
+		'remains excluded from the upper temporal arch'
+		'enters the upper temporal arch'
+		,
+		22
+		'paired'
+		'fused in their posterior part only'
+		'fully fused'
+		,
+		23
+		'broad'
+		'weakly constricted'
+		'strongly constricted (at least posteriorly)'
+		'forming a sagittal crest'
+		,
+		24
+		'close to the middle of the skull table'
+		'weakly displaced posteriorly'
+		'strongly displaced posteriorly'
+		'displaced anteriorly'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'relatively high'
+		'strongly depressed'
+		,
+		29
+		'absent'
+		'present and subequal in size or slightly larger than the orbit'
+		'present and distinctly larger than orbit'
+		'present and distinctly smaller than orbit'
+		,
+		30
+		'is not'
+		'is partially'
+		'is fully floored by a descensus from the postorbital, which together with neighboring elements (postfrontal, parietal) separates it from orbit'
+		,
+		31
+		'absent'
+		'present and closed ventrally'
+		'present but open ventrally'
+		,
+		32
+		'descends to ventral margin of skull'
+		'remains broadly separated from ventral margin of skull'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'present'
+		'absent'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'covered by squamosal and quadratojugal in lateral view'
+		'exposed in lateral view'
+		,
+		38
+		'straight'
+		'concave'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'approximately as broad as its base'
+		'narrower than its base'
+		,
+		41
+		'located at posterior end'
+		'deeply recessed below parietal skull roof (or parietal sagittal crest)'
+		,
+		42
+		'absent'
+		'present but squamosals do not meet behind parietal'
+		'present and squamosals meet behind parietal'
+		,
+		43
+		'with paroccipital process forming the lower margin of the posttemporal fossa and extending laterally'
+		'paroccipital processes trending posteriorly'
+		'plate-like with no distinct paroccipital process and with strongly reduced posttemporal fossae'
+		,
+		44
+		'approximately at level with occipital condyle'
+		'displaced to a level distinctly behind occipital condyle'
+		'positioned anterior to the occipital condyle'
+		,
+		45
+		'exposed more or less vertically on occiput'
+		'exposed more or less horizontally at posterior end of parietal skull table'
+		'U-shaped'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'free'
+		'in complex relation to the pterygoid, as they extend ventrally'
+		'in complex relation to the pterygoid, as they extend laterally'
+		,
+		48
+		'kinetic'
+		'akinetic'
+		,
+		49
+		'enter internal naris'
+		'are excluded from internal naris'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'longer than palatines'
+		'shorter than palatines'
+		,
+		52
+		'well developed and transversely oriented'
+		'well developed and longitudinally oriented'
+		'strongly reduced'
+		,
+		53
+		'present'
+		'absent'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'enters basicranium'
+		'enters quadrate ramus of pterygoid'
+		,
+		56
+		'enters the mandibular symphysis'
+		'remains excluded therefrom'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'short'
+		'somewhat enforced'
+		'elongated and "scoop"-like'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'set in shallow or deep sockets'
+		'superficially attache to bone'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'four or more'
+		'three or less'
+		,
+		65
+		'upright or only sightly procumbent'
+		'strongly procumbent'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'present'
+		'absent'
+		,
+		68
+		'is restricted to a level in front of the posterior margin of the orbit'
+		'extends backwards to a level below the posterior corner of the orbit and/or the anterior corner of the upper temporal fossa'
+		'extends backwards to a level below the anterior one third to one half of the upper temporal fossa'
+		,
+		69
+		'present'
+		'absent'
+		,
+		70
+		'notochordal'
+		'non-notochordal'
+		,
+		71
+		'amphicoelous'
+		'platycoelous'
+		'or other'
+		,
+		72
+		'distinctly constricted in ventral view'
+		'with parallel lateral edges'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'less than 30'
+		'more than 30'
+		,
+		77
+		'rounded ventrally'
+		'keeled ventrally'
+		,
+		78
+		'does not shift backwards on centrum along the cervical vertebral column'
+		'does shift backwards on centrum along the cervical vertebral column'
+		,
+		79
+		'present'
+		'absent'
+		,
+		80
+		'oblong'
+		'evenly rounded'
+		,
+		81
+		'relatively short'
+		'distinctly elongated'
+		,
+		82
+		'not increasing in diameter'
+		'distinctly thickened'
+		,
+		83
+		'narrow'
+		'expanded into a cruciform or "butterfly-shaped" platform'
+		,
+		84
+		'present'
+		'absent'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'two'
+		'three'
+		'four or more'
+		,
+		89
+		'present'
+		'absent'
+		,
+		90
+		'sutured'
+		'fused'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'angulated'
+		'straight'
+		,
+		93
+		'always only has a single lateral process'
+		'may have a two-pronged lateral process'
+		,
+		94
+		'present'
+		'absent'
+		,
+		95
+		'broad medially'
+		'narrow medially'
+		,
+		96
+		'do not meet in front of the interclavicle'
+		'meet in an interdigitating anteromedial suture'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'applied to the anterior (lateral) surface of scapula'
+		'applied to the medial surface of scapula'
+		,
+		99
+		'in simple overlapping contact'
+		'anteromedioventral end of clavicle embraces lateral tip of interclavicle in a complex contact'
+		,
+		100
+		'rhomboidal'
+		'T-shaped'
+		,
+		101
+		'elongate'
+		'short'
+		'rudimentary or absent'
+		,
+		102
+		'represented by a broad blade of bone'
+		'with a constriction separating a ventral glenoidal portion from a posteriorly directed dorsal wing'
+		,
+		103
+		'tapers to a blunt tip'
+		'is ventrally expanded at its posterior end'
+		,
+		104
+		'present'
+		'absent'
+		,
+		105
+		'one'
+		'two'
+		,
+		106
+		'of rounded contours'
+		'slightly waisted'
+		'strongly waisted'
+		'with expanded medial symphysis and ridge-like thickening of the bone extending from glenoid facet posteriorly along lateral edge of the bone, coracoid foramen not enlarged'
+		'with expanded medial symphysis and ridge-like thickening of the bone extending from glenoid facet transversely through the bone, coracoid foramen much enlarged'
+		,
+		107
+		'enclosed by coracoid ossification'
+		'between coracoid and scapula'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'short and stout'
+		'long and slender'
+		,
+		110
+		'short and broad'
+		'long and slender'
+		,
+		111
+		'rather straight'
+		'"curved"'
+		,
+		112
+		'well developed'
+		'reduced'
+		'absent'
+		,
+		113
+		'prominent'
+		'reduced'
+		,
+		114
+		'prominent'
+		'reduced'
+		,
+		115
+		'open and notched anteriorly'
+		'open without anterior notch'
+		'closed'
+		'absent'
+		,
+		116
+		'present'
+		'absent'
+		,
+		117
+		'shorter than ulna'
+		'longer than ulna'
+		'approximately of the same length'
+		,
+		118
+		'not expanded'
+		'distinctly expanded'
+		,
+		119
+		'more than 3'
+		'3'
+		'2'
+		,
+		120
+		'well developed'
+		'reduced but projecting beyond level of posterior margin of acetabular portion of ilium'
+		'reduced and no longer projecting beyond posterior margin of acetabular portion of ilium'
+		'absent, i.e. reduced to simple dorsal stub'
+		,
+		121
+		'with convex ventral (medial) margin'
+		'with concave ventral (medial) margin'
+		,
+		122
+		'closed'
+		'open'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'oval'
+		'circular'
+		,
+		125
+		'stout and straight'
+		'slender and sigmoidally curved'
+		,
+		126
+		'well developed'
+		'reduced'
+		,
+		127
+		'deep'
+		'distinct but reduced'
+		'rudimentary or absent'
+		,
+		128
+		'prominent'
+		'not projecting markedly beyond shaft'
+		,
+		129
+		'larger and extending further distally'
+		'smaller/equisized and of subequal extent distally'
+		,
+		130
+		'four or more'
+		'three'
+		'two'
+		,
+		131
+		'passes between astragalus and calcaneum'
+		'between the distal heads of tibia and fibula proximal to the astragalus'
+		,
+		132
+		'absent'
+		'present'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'present'
+		'absent'
+		,
+		135
+		'present'
+		'absent'
+		,
+		136
+		'long and slender'
+		'distinctly shorter than the other metatarsals and with a broad base'
+		,
+		137
+		'straight'
+		'"hooked"'
+		
+	;
+	MATRIX
+	'Ancestor'		                        00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	'Captorhinidae'		                   0000000000000000?000000(0,2)010000000000000000000?0000001000000000000?0000000000000000?0000000000?000000?0?0100000000000000000000000000000000
+	'Araeoscelidia'		                   110000000000000101000000000030(0,1)00000000?000001000000010100000000000000000000100000?0000000100000000100?0100011000000000000000000000000000
+	'Claudiosaurus'		                   010000000010000101000000111030200001000?00000?00000201010?00000000100?000000100000?0010001?00110000100?1000001011110000000011011100000000
+	'Younginiformes'		                  1100000000100001010000000(0,1)0030100000110?000001000000010?100100000010000000001000000000000(0,1)100(0,1)10000(0,1)00?10000110000(0,2)0(0,1)00000011010100000010
+	'Rhynchosauria'		                   1000110000100000010101331110101100001101001000001000010010010000?01011000000100000?0(0,1)00000?00110000100?100(0,1)011000001000000011010101010111
+	'Trilophosaurus'		                  11001?0000?00100110?003311?0100?000?11000?120?000000010?10010000?01011(1,2)?0000100000?001000??0?110000100?100001100?001000000011010100010111
+	'Prolacertiformes'		                110011010010000(0,1)010(0,1)0(0,1)0(2,3)11(0,1)0302100(0,1)1110?0010010000000101(0,1)00100000010(0,1)1(0,2)0000010(0,1)000?(0,1)0100011001100000?0?1000011000001(1,2)00000(0,1)110101000(0,1)(0,1)11(0,1)
+	'Choristodera'		                    1200110100100000010000131110101100(0,1)0110?0111010?100001010001000000100110000010000011010100?0?110001100?10000110000(0,2)120000001101110?010111
+	'Archosauriformes'		                (0,1)(0,1)001101001000(0,1)(0,1)(0,1,2)1010(0,1)(0,2)(0,3)11(0,1)030110000110?0(0,1)(0,1)(0,1,2)010(0,1)(0,1)000(0,1)101(0,1)00100000010(0,1)1(0,1,2)0000010(0,1)0100(0,1)(0,1)10(0,2)0(0,1)100110000100?100(0,1)011000(0,1)010000000110(1,2)(0,1)10001(0,1)111
+	'Kuehneosauridae'		                 100000000010000101000002111010210011111?01000100?000?10?00010000001011000000101010?11?0001?0?????????1?100001?0000212000001110101??0?????
+	'Rhynchocephalia'		                 1000000000(1,2)000(0,1)(0,1)01(0,1)10(0,1)(0,2)(0,2)11(0,1)010(1,2)0000111(0,1)10(0,1)(0,1)00100000001011001010000101(0,1)0001001000000(0,1)000001100110000100?100001100002000000011101010100(0,1)111
+	'Squamata'		                        1(0,1,2)00000000(1,2)00(0,1)(0,1)001(0,1)00(0,1)(0,2)(0,2,3)11(0,1)01021001?11110(0,1)0(0,1,2)(0,1)(0,1)00(0,1)000010110010100001011(0,2)00(0,1)0010000001(0,1)0000110?1(0,1)00001(0,1)0?10000110000(0,2)10(0,1)0000111010101001111
+	'Testudines'		                      0(0,2)00000000100(0,1)00??00000311(0,1)0000100001100000(0,2)000(0,1)(0,1)0001101000(0,1)0?00????0(0,1)(0,2)0000010(0,1)0000100000000?100000100??001000000(0,1)(0,2)1000(1,2)0010000110100(0,1)111
+	'Placodus'		                        02111011002001(0,1)101001(0,2)00111020010000110100100111101100001021001110101000000010111001110100010110011110?1001100111001202100111011121001100
+	'Cyamodus'		                        021110100(0,1)20000(0,1)01001203111020010000010000110(0,1)011011100?1021001100101?0000?0101?10010101???1?1?0011?20?????10?1110??201?0111?????????????
+	'Corosaurus'		                      001010100020000111?000101110102001??1001011101?1?00000??1111000011011100010010100111110101001110111111110111001111002011011110111110011??
+	'Cymatosaurus'		                    0211101022200(0,1)01(1,2)1100(1,2)(2,3)011102120011?100?0(0,1)110??1100000110?2?00001101111001????100111??0??00001??????????0???0?000000?0??011110111????????
+	'Augustasaurus'		                   0020102?2220100121001033111022201?1?100012112111110000??01210000010211101?0111110111?10???00?10?011??10?03?10?121131211??????????????????
+	'Pistosaurus'		                     002010202220100121?01133111022201?1?10011211???1?00000???????000110111101100?1?0011??10???00?1???????11103??0?1?11312110????11???????????
+	'Plesiosaurus'		                    0000100?(1,2)22000000100103311102220101?100112112111110200??010100000011111010011011011101010000?101011??101041100(0,1)110312-02?111012110?001000
+	'Simosaurus'		                      02001000122000100100021111102020000110000021012100020011010100001012111001001010001111010000110111111101021100101111201210111121111101100
+	'Germanosaurus'		                   02111010022100011120?111111120200???100?00?????1?00??????????0001111????0?????????????????00?1??????????0????????????0???????????????????
+	'Nothosaurus'		                     021110100(0,2)2100110(1,2)(1,2)002(2,3)21111202000(0,1)11000012(0,1)1121100(0,2)0011012100001102111101(0,1)01010001101(0,1)11(0,1)0011(0,1)1111(0,1)21010211001(0,1)(0,1)1(0,1)0201210111121111101100
+	'Lariosaurus'		                     021110100(0,2)21001102(1,2)002211111(1,2)02000??100001201??1?00100??01210000110211110?10101000?101(0,1)210000101111??10102110011111020(0,1)3(0,1)1111121101101100
+	'Wumengosaurus'		                   0120102000?0000??1???2001110302?0???11??0??0????????????0??1?0000010?10?0?00?0?000???11100?0?1??11???1?10???0011?10010200?1?1??1121101100
+	'Serpiano-Neustico'		               110010000(0,2)2000(0,1)10(1,2)000000111030200001110100201??1000210??0001100000101101011010100011011110000101011(0,1)2101021100101(0,1)(0,1)0(1,2)0(1,2)3(0,1)(0,1)111121121101100
+	'Anaro-Dactylo'		                   1100100000200001010000001110302000??110100201??1000210??0001100000101101011010100011010110000101111??10102110?10100010130011?1?????0?????
+	'Keichousaurus'		                   1000100012200011010(0,1)0203110030210001100?002011?10002?0?0100110000000110101101?100011011(0,1)10000101111121010211001(0,1)(0,1)1111?0200111121111001100
+	'Dianopachysaurus dingi'		          120010000020001111000200111030200?0?100?00?0????????????00?1?0000000??????10????0????11110???10??1???101????00111110200201??1121121001100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        	TEXT CHARACTER=5 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n';
+	TEXT CHARACTER=8 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=9 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=10 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=14 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=15 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=17 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=19 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=20 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=21 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=49 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=70 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=71 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=95 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=96 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=136 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+	TEXT CHARACTER=137 TEXT='In original matrix this character name duplicates another, such duplicates are not allowed in MorphoBank (as a database) - thus it is tagged to distinguish it from its duplicate.  It is otherwise unchanged.^n^n';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 137;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1308764939466 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 3724927183935879020 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 5612726727389329674 ; checksumv 0 2 1549543527 null numChars 137 short true bits 31 states 31 sumSquaresStatesOnly 14598.0 NumFiles 1 NumMatrices 1 ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1149 662 ; setLocation 40 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #5612726727389329674 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1049 595 ; setLocation 40 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; showCharacters #5612726727389329674 #mesquite.lists.CharacterList.CharacterList ; tell It ; setData 0 ; getWindow ; tell It ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder ; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion ; newAssistant #mesquite.lists.CharListPartition.CharListPartition ; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1049 595 ; setLocation 40 22 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; endTell ; showWindow ; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel ; tell It ; togglePanel off ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 137 ;
+ENDBLOCK;

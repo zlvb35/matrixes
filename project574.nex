@@ -1,0 +1,666 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 15.42.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+    		'Clidastes propython'
+		'Kourisodon puntledgensis'
+		'Yaguarasaurus columbianus'
+		'Russellosaurus coheni'
+		'Tethysaurus nopcsai'
+		'Tylosaurus kansasensis'
+		'Tylosaurus proriger'
+		'Ectenosaurus clidastoides'
+		'Angolasaurus bocagei'
+		'Selmasaurus russelli'
+		'Selmasaurus johnsoni'
+		'Platecarpus planifrons'
+		'Platecarpus tympaniticus'
+		'Latoplatecarpus willistoni'
+		'Plioplatecarpus nichollsae'
+		'''Platecarpus somenensis'''
+		'Plioplatecarpus primaevus'
+		'Plioplatecarpus houzeaui'
+		'Plioplatecarpus marshi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=97;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Premaxilla predental rostrum'
+		 [2] 'Median dorsal ridge on premaxilla'
+		 [3] 'Premaxilla rostrum end in dorsal aspect'
+		 [4] 'Premaxillo-maxillary suture length'
+		 [5] 'Posterior terminus of premaxillo-maxillary suture'
+		 [6] 'Maxillary tooth count'
+		 [7] 'Prefrontal participation in forming posterolateral border of external naris (cf. Bell, 1997: character 38)'
+		 [8] 'Prefrontal supraorbital process (cf. Bell, 1997: character 29)'
+		 [9] 'Frontal width (Bell, 1997: character 10)'
+		 [10] 'Frontal narial emargination (cf. Bell, 1997: character 11)'
+		 [11] 'Frontal median dorsal eminence'
+		 [12] 'Frontal table in lateral view'
+		 [13] 'Frontal interorbital constriction'
+		 [14] 'Shape of frontal preorbital margins'
+		 [15] 'Frontal ventral separation ridge (cf. Bell, 1997: character 30)'
+		 [16] 'Frontal ala shape (Bell, 1997: character 13)'
+		 [17] 'Frontal ala posterior border'
+		 [18] 'Dorsal posteromedian border of frontal and parietal foramen contact'
+		 [19] 'Parietal table outline'
+		 [20] 'Parietal foramen relative size on dorsal surface'
+		 [21] 'Parietal foramen morphology in dorsal aspect'
+		 [22] 'Parietal foramen ventral opening (cf. Bell, 1997: character 25)'
+		 [23] 'Length of postorbital process of parietal'
+		 [24] 'Descensus processus parietalis posterior border'
+		 [25] 'Postorbitofrontal frontal-parietal wing dorsal surface'
+		 [26] 'Postorbitofrontal jugal process'
+		 [27] 'Postorbitofrontal squamosal process (cf. Bell, 1997: character 34)'
+		 [28] 'Jugal posteroventral process (cf. Bell, 1997: character 40)'
+		 [29] 'Jugal ascending ramus'
+		 [30] 'Jugal ascending ramus length'
+		 [31] 'Ectopterygoid process'
+		 [32] 'Ectopterygoid process orientation'
+		 [33] 'Anterior border of quadrate cephalic condyle'
+		 [34] 'Thickness of quadrate ala (cf. Bell, 1997: character 51)'
+		 [35] 'Quadrate ala anterior surface'
+		 [36] 'Suprastapedial process length (cf. Bell, 1997: character 44)'
+		 [37] 'Infrastapedial process'
+		 [38] 'Quadrate shaft posteroventral bulging'
+		 [39] 'Quadrate mandibular condyle outline'
+		 [40] 'Quadrate mandibular condyle main surface (cf. Bell, 1997: character 61)'
+		 [41] 'Quadrate stapedial pit morphology'
+		 [42] 'Quadrate ala posteroventral extension (cf. Bell, 1997: character 50)'
+		 [43] 'Quadrate dorsal median ridge (cf. Bell, 1997: character 58)'
+		 [44] 'Quadrate vertical median ridge'
+		 [45] 'Medial flange along vertical median ridge of quadrate'
+		 [46] 'Basisphenoid basipterygoid process shape (cf. Bell, 1997: character 64)'
+		 [47] 'Basal tubera'
+		 [48] 'Otosphenoidal crest on prootic'
+		 [49] 'Jugular and condylar (= hypoglossal) foramina'
+		 [50] 'Squamosal parietal process outline'
+		 [51] 'Anteroventral projection of squamosal quadrate process'
+		 [52] 'Squamosal quadrate process posterior notch'
+		 [53] 'Posterior edentulous ramus on dentary'
+		 [54] 'Dentary medial parapet height'
+		 [55] 'Anterior edentulous prow on dentary'
+		 [56] 'Dentary tooth count'
+		 [57] 'Splenial-angular articulation surface (cf. Bell, 1997: character 73)'
+		 [58] 'Coronoid posterodorsal process angle'
+		 [59] 'Coronoid posterodorsal process development'
+		 [60] 'Surangular lateral profile'
+		 [61] 'Anterior surangular foramen'
+		 [62] 'Portion of coronoid suture that occurs anterior to splenio-angular (= intramandibular) joint'
+		 [63] 'Retroarticular process ventral foramina (cf. Bell, 1997: character 82)'
+		 [64] 'Participation of articular in forming glenoid fossa'
+		 [65] 'Surangular-articular suture on glenoid surface'
+		 [66] 'Atlas neural arch (Bell, 1997: character 91)'
+		 [67] 'Zygapophyses'
+		 [68] 'Zygosphenes and zygantra in post-axis cervical vertebrae'
+		 [69] 'Vertebral condyle shape (Bell, 1997: character 101)'
+		 [70] 'Prepygal vertebrae number (cf. Bell, 1997: character 105)'
+		 [71] 'Pygal vertebrae count'
+		 [72] 'Caudal dorsal expansion (Bell, 1997: character 108)'
+		 [73] 'Haemal arch and spine complex'
+		 [74] 'Scapular neck constriction'
+		 [75] 'Scapular condylar surface length'
+		 [76] 'Length ratio between anteroventral border and posteroventral border of scapular blade'
+		 [77] 'Scapula and coracoid size (cf. Bell, 1997: character 113)'
+		 [78] 'Humerus length: (Bell, 1997: character 121)'
+		 [79] 'Surface of humeral head'
+		 [80] 'Shape of humeral head'
+		 [81] 'Humerus pectoral crest position (cf. Bell, 1997: character 125)'
+		 [82] 'Humerus pectoral crest thickness'
+		 [83] 'Humerus ectepicondyle (cf. Bell, 1997: character 127)'
+		 [84] 'Radiale'
+		 [85] 'Ulnare (cf. Bell, 1997: character 130)'
+		 [86] 'Distal carpal I'
+		 [87] 'Metacarpal I expansion (Bell, 1997: character 134)'
+		 [88] 'Number of phalanges in first manal digit'
+		 [89] 'Ischiadic tubercle size (Bell, 1997: character 139)'
+		 [90] 'Degree of marginal tooth root exposure'
+		 [91] 'Marginal tooth crown cross-section at base'
+		 [92] 'Marginal tooth surface (Bell, 1997: character 83)'
+		 [93] 'Premaxillary teeth'
+		 [94] 'Pterygoid tooth base (cf. Bell, 1997: character 42)'
+		 [95] 'Quadrate mid-shaft medial bending'
+		 [96] 'Scapular blade'
+		 [97] 'Basioccipital canal: (Bell and Polcyn, 2005: character 67)'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present, short and obtuse in lateral view'
+		'present, distinctly pointed in lateral view'
+		'present, large and rectangular in lateral view'
+		,
+		2
+		'absent'
+		'present, only on broad dentigerous portion'
+		'present, on both dentigerous portion and narrow internarial ramus'
+		,
+		3
+		'semicircular/broadly parabolic'
+		'sub-trapezoid'
+		'scalloped'
+		'''U''-shaped'
+		'conical/narrowly parabolic'
+		'''V''-shaped'
+		,
+		4
+		'short, suture posteriorly terminating anywhere between first and third maxillary teeth inclusive'
+		'long, suture posteriorly terminating anywhere above or posterior to the fourth maxillary tooth'
+		,
+		5
+		'confluent with anteriorly deepest portion of maxilla'
+		'precedes anteriorly deepest portion of maxilla'
+		,
+		6
+		'12'
+		'between 13 and 15'
+		'more than 15'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'process absent, or present as very small rounded knob'
+		'distinct to large, triangular or rounded, overhanging wing'
+		,
+		9
+		'element broad and short'
+		'long and narrow'
+		,
+		10
+		'frontal not embayed anteriorly on each side by posterior end of naris, lacking anterolateral process'
+		'narrow embayment present, resulting in forming closely spaced anterolateral processes'
+		'broad embayment present, resulting in widely separated anterolateral processes'
+		,
+		11
+		'absent or present as anteriorly confined weak bulge'
+		'long and acute crest moderately well developed'
+		'long and acute crest highly developed, accompanied by strong parasagittal excavations on both sides'
+		,
+		12
+		'straight'
+		'arched, as a result of sloping anterior to parietal foramen'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'converge anteriorly to form triangular anterior frontal outline'
+		'distinctly diverge immediately anterior to orbits but re-converge anteriorly'
+		'straight and remain sub-parallel with each other leading to widely separated anterolateral processes'
+		'sinusoidal in outline, ending in widely separated anterolateral processes'
+		,
+		15
+		'absent'
+		'present, preventing prefrontal from contacting postorbitofrontal posteriorly'
+		,
+		16
+		'sharply acuminate'
+		'more broadly pointed or rounded'
+		,
+		17
+		'posteromedially inclined'
+		'transversely oriented'
+		'anteromedially inclined'
+		,
+		18
+		'frontal does not participate in forming anterior border of parietal foramen, foramen well separated from frontal by at least one foramen length'
+		'frontal approaches or touches anterior extremity of parietal foramen but without or minimally forming indentation'
+		'frontal touches anterior extremity of parietal foramen and is distinctly indented to surround or directly border anterior-half of parietal foramen'
+		,
+		19
+		'nearly equilateral triangle'
+		'longer than wide, anterior border gently convex'
+		'longer than wide, anterior border bilobate'
+		'as wide as long and pentagonal'
+		'vaguely bell-shaped, with lateral borders posteriorly converging but without meeting'
+		'lateral borders remain semi-parallel with each other without meeting posteriorly'
+		'highly elongate with lateral borders slowly converging posteriorly but never meeting'
+		,
+		20
+		'small'
+		'intermediate'
+		'large'
+		,
+		21
+		'nearly circular'
+		'short oval with curved sides, with length:width ratio less than 1.5'
+		'elongate oval with curved sides, with length:width ratio greater than 1.5'
+		'elongate oval with straight sides, with length:width ratio greater than 1.5'
+		'teardrop-shaped with apex pointing anteriorly'
+		'broadly teardrop-shaped with apex pointing posteriorly'
+		,
+		22
+		'opening is level with main ventral surface'
+		'opening surrounded by rounded, elongate ridge'
+		,
+		23
+		'forms anteromedial border of supratemporal fenestra, visible in dorsal aspect'
+		'forms anteromedial border of supratemporal fenestra, concealed in dorsal aspect'
+		'forms entire anterior border of supratemporal fenestra with its broad, posteriorly sloping surface dorsally exposed'
+		'forms entire anterior border of supratemporal fenestra with its narrow dorsal plateau forming small portion of horizontal skull table posterior to frontal ala'
+		'same as (3), except process much more dorsally exposed, so much that parietal and frontal ala divide skull table corner sub-equally'
+		,
+		24
+		'originates anterior to parietal fossa'
+		'originates at level of parietal fossa and process posteriorly extends well beyond it'
+		,
+		25
+		'bears broad, single facet for receiving frontal ala'
+		'bears distinct anterior and posterior facets for frontal ala and parietal postorbital process, respectively'
+		,
+		26
+		'ventrally projecting with well-developed anteroventral projection'
+		'ventrally projecting with small anteroventral projection'
+		'ventrally projecting, short and cup shaped'
+		'ventrally projecting, clasping distal end of jugal in form of ''U'''
+		'laterally projecting, broadly rounded and wing-like'
+		,
+		27
+		'reaches end of supratemporal fenestra'
+		'does not reach end of supratemporal fenestra'
+		,
+		28
+		'absent'
+		'present forming rounded or obtuse corner'
+		'present forming acute, posteriorly projecting keel'
+		,
+		29
+		'distally ending in broad and concave articulation with postorbitofrontal'
+		'distally attenuating to end as slender rod'
+		,
+		30
+		'clearly less than 50% horizontal ramus length'
+		'approximately 50% horizontal ramus length'
+		'clearly more than 50% horizontal ramus length'
+		,
+		31
+		'long, comprising expanded distal articulation process with ectopterygoid and stalk-like proximal shaft'
+		'long, without or with little distal expansion'
+		'short, without distal expansion'
+		,
+		32
+		'projects anterolaterally from dentigerous body'
+		'projects laterally at right angle'
+		,
+		33
+		'excavated posteriorly'
+		'straight, forming right angle with long axis of suprastapedial process'
+		'straight or nearly straight, forming obtuse angle with long axis of suprastapedial process'
+		,
+		34
+		'thin'
+		'thick'
+		,
+		35
+		'concave'
+		'relatively planar'
+		'bulges anterolaterally'
+		,
+		36
+		'clearly longer than two-thirds quadrate height'
+		'about two-thirds quadrate height'
+		'clearly shorter than two-thirds quadrate height'
+		,
+		37
+		'absent'
+		'present, not contacting suprastapedial process'
+		'present, contacting but not fusing with suprastapedial process'
+		'present, distal end fusing with suprastapedial process'
+		'dorsally sends tongue-like lamina to fuse with and overlap suprastapedial process posterodistally'
+		,
+		38
+		'virtually absent, border straight'
+		'small with convex posterior border'
+		'moderate in size with straight posterior border'
+		'large with convex posterior border'
+		,
+		39
+		'transversely elongate saddle-shaped'
+		'transversely elongate, roughly spindle-shaped'
+		'transversely elongate, curved teardrop-shaped'
+		'transversely narrow triangle with its vertex pointing medially'
+		,
+		40
+		'concave'
+		'planar'
+		'convex'
+		,
+		41
+		'sub-reniform'
+		'elongate, slit-like'
+		'rectangular'
+		'sub-hexagon'
+		'narrow, keyhole-shaped'
+		'broad oval with straight lateral borders'
+		'broad oval with curved lateral borders'
+		'inverted teardrop-shaped'
+		,
+		42
+		'ascends posterodorsally at more than 60 degrees from horizontal'
+		'ascends posterodorsally about 45 degrees from horizontal'
+		'extends posteriorly around lateral rim of mandibular condyle with very subtle ascent towards posterior end'
+		'diminishes ventrally, forming low, roughened area on lateral face of mandibular condyle'
+		,
+		43
+		'relatively thin and elevated crest'
+		'low, broadly inflated dome'
+		,
+		44
+		'sharp, crest-like'
+		'broadly rounded'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'relatively narrow with articular surface facing mostly anterolaterally'
+		'somewhat thinner, more fan-shaped with posterior extension of articular surface causing more lateral orientation'
+		,
+		47
+		'short and low, laterally projecting and widely separated from each other'
+		'short, more ventrally projecting but remain widely separated'
+		'short, ventrally projecting, closely spaced but not inflated, with distinct ventral migration of pitted lateral surface'
+		'short, ventrally projecting, closely spaced and highly inflated, with clear ventral migration of pitted lateral surface'
+		'longitudinally elongate, projecting ventrolaterally at about 45 degrees from sagittal plane'
+		,
+		48
+		'absent'
+		'present, laterally covering seventh cranial nerve exit on prootic'
+		'present, laterally covering both seventh and ninth cranial nerve exits on prootic and opisthotic, respectively'
+		,
+		49
+		'externally separate on braincase'
+		'externally fused'
+		,
+		50
+		'very low'
+		'modest in development and roughly triangular'
+		'well developed and rectangular/parallelogram in outline'
+		,
+		51
+		'absent'
+		'short, less than half quadrate process length'
+		'highly elongate, greater than half quadrate process length'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'small, no more than 15% marginal border length present'
+		'large, about 20% marginal border length present'
+		,
+		54
+		'lower than lateral dentary wall'
+		'same height as lateral wall'
+		'deeper than lateral wall'
+		,
+		55
+		'absent'
+		'present, projection small and squared in lateral view'
+		'present, projection small and round in lateral view'
+		'present, projection broad and rectangular in lateral view'
+		,
+		56
+		'12 or fewer'
+		'between 13 and 15'
+		'more than 15'
+		,
+		57
+		'smooth, single vertical ridge-and-groove articulation surface'
+		'obliquely oriented numerous ridge-and-groove articulation surface'
+		'smooth articulation surface in outline of pear'
+		,
+		58
+		'acute'
+		'90 degrees'
+		'obtuse'
+		,
+		59
+		'well developed'
+		'moderate'
+		'significantly reduced'
+		,
+		60
+		'post-coronoid portion longer, deepening anteriorly with straight dorsal and ventral borders'
+		'post-coronoid portion longer, deepening anteriorly with slight dorsal curvature'
+		'post-coronoid portion longer, dorsal and ventral borders running sub-parallel with each other, curving dorsally'
+		'post-coronoid and coronoid portion sub-equal in length, with anteriorly diverging post-coronoid part preceded by attenuated coronoid region'
+		,
+		61
+		'short, less than one-third coronoid suture length'
+		'moderately long, greater than one-third but clearly less than half coronoid suture length'
+		'extremely long, approaching or exceeding half coronoid suture length'
+		,
+		62
+		'does not exist, coronoid suture terminating posterior to this joint'
+		'only 20% or less portion of suture extending beyond joint'
+		'greater than 20% and up to 30% extending beyond joint'
+		'greater than 30% extending beyond joint'
+		,
+		63
+		'no large foramina on ventral (or lateral) face'
+		'one to three large foramina present'
+		,
+		64
+		'clearly greater than 50%'
+		'50% or less than 50% total area'
+		,
+		65
+		'terminating anterior to posterior border'
+		'terminating at posterior border'
+		,
+		66
+		'notch present in anterior border'
+		'no notch in anterior border'
+		,
+		67
+		'present throughout prepygal vertebrae'
+		'absent posterior to fifth dorsal vertebra'
+		,
+		68
+		'well developed'
+		'incompletely developed/vestigial'
+		'completely absent'
+		,
+		69
+		'condyles of anteriormost trunk (= dorsal) vertebrae extremely dorsoventrally depressed'
+		'slightly depressed'
+		'essentially equidimensional'
+		,
+		70
+		'32 or fewer'
+		'39 or more'
+		,
+		71
+		'lower than 10'
+		'10 or more'
+		,
+		72
+		'neural spines of tail all uniformly shortened posteriorly'
+		'several spines dorsally elongated behind middle of tail'
+		,
+		73
+		'fused to caudal centra'
+		'articulates with haemapophyses'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'greater than 30% blade length'
+		'about 30% blade length'
+		'less than 30% blade length'
+		,
+		76
+		'1:2.5 or less'
+		'about 1:2'
+		'about 1:1.5'
+		'about 1:1'
+		,
+		77
+		'scapula smaller than coracoid'
+		'two elements sub-equal in size'
+		'scapula larger than coracoid'
+		,
+		78
+		'humerus distinctly elongate, about three or more times longer than distal width'
+		'greatly shortened, about 1.5 to two times longer than distal (antero-posterior) width'
+		'length and distal width virtually equal'
+		'distal width slightly greater than length'
+		,
+		79
+		'deltoid, pectoral, and postglenoid processes widely separated from head'
+		'processes not clearly separated from articular surface of head'
+		,
+		80
+		'relatively planar'
+		'conspicuously domed'
+		,
+		81
+		'anteroproximal corner of humerus'
+		'middle of proximal region of humerus'
+		,
+		82
+		'thin'
+		'thickened and enlarged, but proximal humeral surface antero-posteriorly longer than dorso-ventrally thick'
+		'thickened and inflated, making proximal humeral surface nearly as thick as long'
+		,
+		83
+		'short and bulbous'
+		'present as flange'
+		'present as tubular prominence'
+		,
+		84
+		'absent'
+		'present, radiale larger than intermedium/centrale'
+		'present, radiale smaller than intermedium/centrale'
+		,
+		85
+		'enters posteroventral margin of antebrachial foramen'
+		'excluded from foramen'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'spindle-shaped, elongate'
+		'broadly expanded'
+		,
+		88
+		'3-4'
+		'5'
+		'6'
+		'more than 6'
+		,
+		89
+		'elongate'
+		'short'
+		,
+		90
+		'little exposed, tooth root constituting less than 25% tooth height above dental margin'
+		'moderately exposed, tooth root constituting between 25% and 30% tooth height above dental margin'
+		'highly exposed, tooth root constituting nearly one-third tooth height exposed above dental margin and inflated'
+		,
+		91
+		'laterally highly compressed, ellipsoid'
+		'sub-circular'
+		,
+		92
+		'finely striate medially'
+		'not medially striate'
+		,
+		93
+		'not procumbent'
+		'procumbent, main long axis of teeth forming about 110 to 120 degree angle with dental margin of premaxilla'
+		,
+		94
+		'large, occupying nearly entire width of pterygoid body'
+		'small, occurring on narrow ridge along lateral margin of ventral pterygoid surface'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'elongate along axis perpendicular to condylar surface'
+		'elongate along axis parallel with condylar surface'
+		,
+		97
+		'no canal'
+		'a small pair separated by median septum'
+		'a large pair separated by median septum'
+		'a single bilobate canal'
+		
+	;
+	MATRIX
+	'Clidastes propython'		                 20510211101010110050012??4??????010(1,2)(1,2)011(3,4)10000?10???0122??03130000002??10????200002?1?????0?01010
+	'Kourisodon puntledgensis'		            ?051??110?101?1120500120?401??10?10110?10100000????0?12??00301????00210?01001200002-1-1??0010?010
+	'Yaguarasaurus columbianus'		           1000011?1000111120001?0??1110?0?0?111?01?100110?1000??0??00????????0?????????????????????0100?0?1
+	'Russellosaurus coheni'		               000002101000101010000000010200000101000003001101?000000200010?100????????????????????????010?10?1
+	'Tethysaurus nopcsai'		                 0000?210110010101000(0,3)00?0?120?0001?211017?0011?110?0?0020000???0??000???10000?????0??????00001001
+	'Tylosaurus kansasensis'		              323101000110100111504130?1?1????010210?12?000?4???000131?000?11000?11???????01??1????????010000?0
+	'Tylosaurus proriger'		                 3231010001101001?05011100101012001021021210001421?00013100001110010?10011100010110100001001000010
+	'Ectenosaurus clidastoides'		           (2,1)04102001010111100101?0??00200??00?24-?21000010??0?00112?000011?0?001????100?2?0??120100?0100101?
+	'Angolasaurus bocagei'		                ?????0??0?00101110100?0?0???????001211?141000??01????1???00002100??0????1????????????????010?10?2
+	'Selmasaurus russelli'		                ????????0?0010012062510003020???(0,2)0?(1,2)2(0,1)127000010??110?????????????1????????????????????????????1?3
+	'Selmasaurus johnsoni'		                10000?100000100100605100010?0??000?22012710001001110010000000?1111001????????????????????110011?1
+	'Platecarpus planifrons'		              000000100100111110201?100?020000001020124100010??1100100000001100?01?????00002?0??1?0?0??01001012
+	'Platecarpus tympaniticus'		            0010001001101001(0,1)131(1,4)0100002000010102(0,2)22511101111110010001100310010?10001100121010100000111011013
+	'Latoplatecarpus willistoni'		          0020101002201300123(2,1)1030?00100001010102251110?31111001000(1,2)10131111011???11001????????????210?1013
+	'Plioplatecarpus nichollsae'		          002010100220020112322030100????01010122251110?3??110??00?21????11101101?11001310111???0?1210?101?
+	'''Platecarpus somenensis'''		          0020101002201301123220301?0101(1,0)010101022?1110132?21001001(1,2)11231111?1????11001????????????21011013
+	'Plioplatecarpus primaevus'		           00201??0022113012242304112?0????202213325211013010110100122223111102101?11(1,2)(1,2)231112101002121??1013
+	'Plioplatecarpus houzeaui'		            ???010??0221130122423041?0001?212022133262110?101120?(1,0)??122213?11?121???11232????????????2(0,1)?11013
+	'Plioplatecarpus marshi'		              0120?1??022?02010????0?1????1?21202??3??6?11?1201???12002222?????112101?1123??11121??????2(0,1)01??13
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=6 TEXT='These states roughly correspond to low, intermediate, and high tooth count in mosasaurs, respectively.';
+	TEXT CHARACTER=9 TEXT='The maximum length to maximum width ratio of 1.5:1 or smaller characterizes the state (0), that of about 2:1 characterizes the state (1).^n';
+	TEXT CHARACTER=10 TEXT='In the state (2), the distance between two anterolateral processes is greater than 50% of interorbital distance. In Tylosaurus kansasensis, while appearing to possess broad anterior narial embayment of the frontal, the distance between the two processes is less than half the interorbital width and hence here scored for the state 1.';
+	TEXT CHARACTER=20 TEXT='In state (0), the maximum dimension of the foramen is typically 25% or less than the maximum parietal table width, while in state (1), it ranges between 25% and one-third the parietal table width. In state (2), the maximum (= longitudinal) dimension of foramen clearly exceeds one-third the maximum parietal table width.';
+	TEXT CHARACTER=21 TEXT='In states (2) and (3), the ratio is typically greater than 1.6.^n';
+	TEXT CHARACTER=23 TEXT='In state (3), the degree of dorsal exposure ranges from very thin to approximately half the longitudinal dimension of the adjacent frontal ala.';
+	TEXT CHARACTER=24 TEXT='Terminology from Bahl (1937:142).';
+	TEXT CHARACTER=25 TEXT='In state (0), a small, wedge-shaped concavity may exist at the posteromedial corner of the wing for receiving a short parietal postorbital process.';
+	TEXT CHARACTER=30 TEXT='Although not scored due to incomplete preservation of the specimens, the three post-middle Campanian species of Plioplatecarpus likely exhibit the ascending ramus length being clearly more than 50% horizontal ramus length (state [2]).';
+	TEXT CHARACTER=34 TEXT='This character based on Bell''s (1997) definition in general differentiates derived russellosaurines from mosasaurines.';
+	TEXT CHARACTER=37 TEXT='State (4) is unique to Ectenosaurus.';
+	TEXT CHARACTER=47 TEXT='In Plioplatecarpus primaevus, the tubera exhibit less inflation than in the other taxa scored for the state (3).';
+	TEXT CHARACTER=48 TEXT='Terminology from Bahl (1937) and Russell (1967), crista prootica of Rieppel and Zaher (2000).^n';
+	TEXT CHARACTER=51 TEXT='State (2) is unique to Plioplatecarpus houzeaui, based on IRSNB R36 reported by Lingham-Soliar (1994).';
+	TEXT CHARACTER=56 TEXT='As in the maxillary tooth count, these states roughly correspond to low, intermediate, and high dentary tooth count in mosasaurs, respectively.^n';
+	TEXT CHARACTER=59 TEXT='A very low coronoid profile results from state (2).^n';
+	TEXT CHARACTER=71 TEXT='In state (0), there are seldom nine pygal vertebrae.^n';
+	TEXT CHARACTER=84 TEXT='The preceding statements on absence/presence and size comparison of these carpal elements are based on large and presumably fully matured specimens of representative taxa, and thought to preclude any ontogenetic considerations.^n';
+	TEXT CHARACTER=86 TEXT='As above, the data come from large (mature) specimens.';
+	TEXT CHARACTER=88 TEXT='These values approximate the degree of hyperphalangy in mosasaurs.';
+	TEXT CHARACTER=90 TEXT='Measurements were taken using fully erupted teeth in a given individual specimen.^n';
+	TEXT CHARACTER=91 TEXT='In Plioplatecarpus marshi and P. houzeaui, both morphs seem to occur on the same individual or intraspecifically.^n';
+	TEXT CHARACTER=93 TEXT='These angles were measured along the long axis of the tooth base (i.e., exposed root portion) and basal portion of the crown, not the posteriorly recurved distal portion of the latter.^n';
+	TEXT CHARACTER=97 TEXT='Some specimens of cf. Platecarpus tympaniticus (e.g., YPM 4025; 40671) show that the canal is anteriorly separated by median septum while it is bilobate at its posterior exit on medullary floor. Therefore, the scoring of this character is based on morphology of the canal at its posterior exit when such a fact is known.^n';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 97;
+      ENDBLOCK;
+      BEGIN PAUP;
+outgroup Clidas_propython Kouriso_puntledgensis ; set root = outgroup outroot = monophyl maxtrees = 1000 ; bandb keep = 0 ; describetrees all/opt = acctran ; contree all/majrule = yes ;
+ENDBLOCK;

@@ -1,0 +1,1419 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 16.58.49 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=44;
+    TAXLABELS
+    		'Limulus'
+		'Carcinoscorpius'
+		'Androctonus'
+		'Belisarius'
+		'Siro'
+		'Parasiro'
+		'Stylocellus'
+		'StylocellusJP'
+		'Dalquestia'
+		'Odiellus'
+		'Phalangium'
+		'Opilio'
+		'Astrobunus'
+		'Nelima'
+		'Leiobunum'
+		'Hadrobunus'
+		'Caddo'
+		'Ischyropsalis'
+		'Hesperonemastoma'
+		'Ceratolasma'
+		'Sabacon'
+		'Taracus'
+		'Dicranolasma'
+		'Centetostoma'
+		'Ortholasma'
+		'Nemastoma'
+		'Nipponopsalis'
+		'Trogulus'
+		'Halitherses'
+		'Ameticos scolos'
+		'Macrogyion cronus'
+		'Equitius'
+		'Triaenobunus'
+		'Zuma'
+		'Oncopus'
+		'Gnomulus'
+		'Scotolemon'
+		'Maiorerus'
+		'Bishopella'
+		'Gnidia'
+		'Pachyloides'
+		'Hoplobunus'
+		'Solifugae'
+		'Pseudoscorpiones'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=253;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Median eyes'
+		 [2] 'Number of median eyes'
+		 [3] 'Type of median eyes'
+		 [4] 'Lateral eyes'
+		 [5] 'Lateral eye pairs'
+		 [6] 'Lateral eye rhabdomes'
+		 [7] 'Ocular tubercle'
+		 [8] 'Shape of the ocularium'
+		 [9] 'Ocularium'
+		 [10] 'Denticles of the ocularium'
+		 [11] 'Trident'
+		 [12] 'Pair of repugnatorial glands in the carapace'
+		 [13] 'Repugnatorial glands'
+		 [14] 'Ozophores'
+		 [15] 'Metapeltidial sensory cones'
+		 [16] 'Number of metapeltidial sensory cones'
+		 [17] 'Sternum'
+		 [18] 'Sternum division'
+		 [19] 'Labium (=tritosternum)'
+		 [20] 'Rostrum'
+		 [21] 'Fusion of head and thorax'
+		 [22] 'Cucullus'
+		 [23] 'Enlarged proboscis with terminal, inverted Y-shaped mouth'
+		 [24] 'Prosoma-opisthosoma coupling mechanism'
+		 [25] 'Prosomal stigmata'
+		 [26] 'Supracheliceral lamellae'
+		 [27] 'Poorly developed carapace pleural margin'
+		 [28] 'Anteroventrally directed mouth'
+		 [29] 'Carapace'
+		 [30] 'Opilionid cephalothorax'
+		 [31] 'Epipharyngeal sclerite'
+		 [32] 'Epipharyngeal sclerite projection'
+		 [33] 'Ventroposterior wall of pre-oral chamber'
+		 [34] 'Endosternum'
+		 [35] 'Fenestrate endosternite'
+		 [36] 'Pair of subcapitular, bilobate lateral lips flanking mouth ventrolaterally'
+		 [37] 'Movable gnathosoma/subcapitulum of the palpal coxae'
+		 [38] 'Three branched epistomal skeleton supporting the pharyngeal dilator muscles'
+		 [39] 'Subcapitular rutella'
+		 [40] 'Ovigers'
+		 [41] 'Chelifores/chelicerae'
+		 [42] 'Opilionid male cheliceral glands'
+		 [43] 'Diaphanous cheliceral teeth'
+		 [44] 'Chelicerae formed by'
+		 [45] 'Chelicerocarapacal articulation'
+		 [46] 'Cheliceral venom glands'
+		 [47] 'Cheliceral silk glands'
+		 [48] 'Cheliceral flagellae in males'
+		 [49] 'Plagula ventralis'
+		 [50] 'Cheliceral gland'
+		 [51] 'Spider chelicera'
+		 [52] 'Glandular palpal setae'
+		 [53] 'Dense distribution of palpal setae'
+		 [54] 'Tarsus reflexed on the mesal surface of the tibia'
+		 [55] 'Palpal tarsal claw'
+		 [56] 'Palpal tarsal claw prehensile'
+		 [57] 'Opilionid palpal tarsal claw'
+		 [58] 'Opilionid palpal tarsal claw sculpture'
+		 [59] 'Opilionid palps'
+		 [60] 'Tibia and tarsus of the palpi with two rows of long-spined tubercles ("grasping hand")'
+		 [61] 'Ratio between the tarsus and the tibia of opilionid palp'
+		 [62] 'Scorpionid palpal chelae'
+		 [63] 'Palpal coxae'
+		 [64] 'Palpal poison glands'
+		 [65] 'Coxal gland orifice on palps'
+		 [66] 'Adhesive palpal organ (terminal sucker)'
+		 [67] 'Copulatory organ on male palp'
+		 [68] 'Palpal chelae with the movable finger supplied with internal musculature'
+		 [69] 'Palpal apotele'
+		 [70] 'Leg II longer than adjacent legs and modified as a feeler'
+		 [71] 'Tarsal segments (tarsomeres) in walking legs'
+		 [72] 'Walking leg claws'
+		 [73] 'Claws from legs III and IV'
+		 [74] 'Opilionid tarsal process'
+		 [75] 'Coxapophysis II'
+		 [76] 'Coxapophysis III'
+		 [77] 'Coxapophysis IV'
+		 [78] 'Toothed gnathobases on coxae II-VI'
+		 [79] 'Coxae of walking legs'
+		 [80] 'Coxae'
+		 [81] 'Coxae IV'
+		 [82] 'Tracheal system with accessory stigmata in the tibia of the walking legs'
+		 [83] 'Adenostyle in male tarsus IV'
+		 [84] 'Leg I'
+		 [85] 'Coxotrochanteral joint'
+		 [86] 'Femur of legs III and IV divided'
+		 [87] 'Femoropatellar joint'
+		 [88] 'Tibial trichobothria with 2-2-1-1 distribution'
+		 [89] 'Coxal gland orifice, leg III'
+		 [90] 'Coxal gland orifice, leg I'
+		 [91] 'Trochanterofemoral joint of walking legs'
+		 [92] 'Patellotibial joint of walking legs'
+		 [93] 'Enlarged femur on leg IV'
+		 [94] 'Male copulatory organ on leg III'
+		 [95] 'Empodium'
+		 [96] 'Malleoli or racket organs'
+		 [97] 'Raptorial palps'
+		 [98] 'Cleaning organ on palpal tarsus'
+		 [99] 'Compression zone Y in patellotibial joint'
+		 [100] 'Tarsal organ'
+		 [101] 'Apotelic claw of leg I'
+		 [102] 'Telotarsus of legs II - IV with three tarsomeres'
+		 [103] 'Patella-tibia joint with auxiliary posterior articulation'
+		 [104] 'Sternocoxal articulation, leg I'
+		 [105] 'Coxae IV and sternite VII'
+		 [106] 'Coxa of walking leg IV with an invagination at the posteromedian corner'
+		 [107] 'Elastic arthrodial sclerites spanning the tibia-tarsus joints'
+		 [108] 'Laterally compressed podomeres'
+		 [109] 'Coxae grouped around sternum'
+		 [110] 'Exopod on last prosomal walking leg'
+		 [111] 'Abdominal sternite 9'
+		 [112] 'Abdominal tergite 9'
+		 [113] 'Male exocrine glands at the anal region'
+		 [114] 'Fusion of all opisthosomal tergites behind the opercular tergite into a thoracetron'
+		 [115] 'Abdominal tergites'
+		 [116] 'Lateral edge'
+		 [117] 'Single row of spines in the center of abdominal tergites'
+		 [118] 'Cuticular appendages (paired or unpaired) on the carapace and the first abdominal tergite, respectively, form a small "bridge"'
+		 [119] 'Saddle'
+		 [120] 'Pectines'
+		 [121] 'Stinging apparatus derived from the telson and bearing a sharp aculeus'
+		 [122] 'Opisthosomal repugnatorial glands'
+		 [123] 'Spinnerets'
+		 [124] 'Number of spinnerets'
+		 [125] 'Position of the spinnerets'
+		 [126] 'First opisthosomal segment'
+		 [127] 'Postgenital appendages'
+		 [128] 'Pygidium'
+		 [129] 'Pygidial flagellum'
+		 [130] 'Pygidial ommatoids'
+		 [131] 'Specialized pygidial flagellum in the male'
+		 [132] 'Lamellate respiratory organs'
+		 [133] 'Lamellate respiratory organs derived from posterior wall of opisthosomal limb buds'
+		 [134] 'Type of lamellate respiratory organs'
+		 [135] 'Position of lamelllate respiratory organs'
+		 [136] 'Lamellate respiratory organs comprised of'
+		 [137] 'Respiratory organ on genital segment'
+		 [138] 'Tracheal system'
+		 [139] 'Sternal stigmata on opisthosomal segments 3 and 4'
+		 [140] 'Intrasternite stigmata'
+		 [141] 'Opisthosoma greatly reduced, forming a slender tube emerging from between the posteriormost legs, with a terminal anus'
+		 [142] 'Opisthosomal silk glands'
+		 [143] 'Appendages of the first abdominal segment'
+		 [144] 'Five-segmented postabdomen'
+		 [145] 'Opisthosomal tergites divided longitudinally into median and lateral plates'
+		 [146] 'Fusion of opisthosomal tergites 2 and 3 into a diplotergite'
+		 [147] 'Styliform post-anal telson'
+		 [148] 'Opisthosomal pleural muscle'
+		 [149] 'Sternite of the first abdominal segment'
+		 [150] 'Third abdominal segment is a distinct sclerite ventrally'
+		 [151] 'Midgut caeca of prosoma'
+		 [152] 'Pairs of midgut diverticula'
+		 [153] 'Endodermal Malpighian tubules'
+		 [154] 'Postcerebral pharynx'
+		 [155] 'Perineural membrane enveloping arterial sinus'
+		 [156] 'Two pairs of ostia'
+		 [157] 'Pharynx with x-shaped lumen'
+		 [158] 'Gonads'
+		 [159] 'Palate plate'
+		 [160] 'Gonostome'
+		 [161] 'Genital operculum'
+		 [162] 'Genital operculum divided, incorporated into pedicel'
+		 [163] 'Genital operculum overlapping third opisthosomal sternite'
+		 [164] 'Gonopore on second opisthosomal segment'
+		 [165] 'Anteriorly located gonopore'
+		 [166] 'Small, bilobed genital operculum'
+		 [167] 'Penis (spermatopositor)'
+		 [168] 'Penis morphology'
+		 [169] 'Penis musculature'
+		 [170] 'Number of penis muscles'
+		 [171] 'Glans penis'
+		 [172] 'Ovipositor'
+		 [173] 'Ovipositor morphology'
+		 [174] 'Terminal sensory organs in the ovipositor organ'
+		 [175] 'Jointed ovipositor'
+		 [176] 'Ovipositor symmetry'
+		 [177] 'Number of apical lobes on ovipositor'
+		 [178] 'External morphology of ovipositor'
+		 [179] 'Inner sheath of ovipositor lined with cuticular hooks'
+		 [180] 'Vaginal glands in ovipositor'
+		 [181] 'Seminal receptacles in vaginal lumen of ovipositor'
+		 [182] 'Outer longitudinal muscles of ovipositor'
+		 [183] 'Outer circular muscles of ovipositor'
+		 [184] 'Inner longitudinal muscles of ovipositor'
+		 [185] 'Ovipositor laterally compressed, not dorso-ventrally flattened or circular in cross-section'
+		 [186] 'Hexapodal instar'
+		 [187] 'Prenymph and four postnymphal instars'
+		 [188] 'Female grasps male opisthosoma during mating'
+		 [189] 'Egg teeth on the dorsal side of the palpal coxae'
+		 [190] 'Embryonic number of opisthosomal segments'
+		 [191] 'Egg structure'
+		 [192] 'Embryological development'
+		 [193] 'Spermatozoa with a manchette of microtubules'
+		 [194] 'Acrosomal complex'
+		 [195] 'Spermatozoan axoneme'
+		 [196] 'Flagellate spermatozoa'
+		 [197] 'Pair of coaxial centrioles in acrosomal filament'
+		 [198] 'Microtubule arrangement in spermatozoan axoneme'
+		 [199] 'Acrosomal vesicle'
+		 [200] 'Implantation fossa'
+		 [201] 'Postcentriolar elongation of the nucleus'
+		 [202] 'Nuclear envelope that disappears at the end of spermiogenesis'
+		 [203] 'Persisting flagellar tunnel surrounding the axoneme'
+		 [204] 'Helical appearance of sperm head'
+		 [205] 'Vacuolated type of sperm'
+		 [206] 'Sperm aggregates'
+		 [207] 'Midpiece'
+		 [208] 'Gonoporal brood sac'
+		 [209] 'Slit sensillae'
+		 [210] 'Opisthosomal ganglia'
+		 [211] 'Lateral organ'
+		 [212] 'Pair of anteromedial sensory organs'
+		 [213] 'Trichobotria'
+		 [214] 'Trichobotria on the dorsal surface of the distal leg segments with a base consisting of a rounded dome covered by flattened plates'
+		 [215] 'Number of flattened plates covering the dome of the base of the trichobotria'
+		 [216] 'Number of neuromeres of the subesophageal ganglia'
+		 [217] 'Soil crypsis by glandular adhesion of particles'
+		 [218] 'Extraintestinal digestion'
+		 [219] 'Protection of the eggs with a secretion from abdominal glands'
+		 [220] 'Trochanterofemoral depressor muscle in walking legs'
+		 [221] 'Patellotibial extensor muscle'
+		 [222] 'Anterior transpatellar muscle'
+		 [223] 'Anterior transpatellar muscle, insertion on tibia'
+		 [224] 'Paired muscle arising from posterior margin of anterior carapacal doublure and inserting on carapace'
+		 [225] 'Anterior endosternal horn'
+		 [226] 'Lateral extrinsic precerebral pharyngeal muscle'
+		 [227] 'Ventral extrinsic precerebral pharyngeal muscle'
+		 [228] 'Tergopharyngeal muscle of precerebral pharynx'
+		 [229] 'Dorsal endosternal suspensor muscle of postoral somite V'
+		 [230] 'Lateral tergocheliceral muscle'
+		 [231] 'Palpal posteromedial tergocoxal muscle'
+		 [232] 'Palpal posteromedial endosternocoxal muscle'
+		 [233] 'Palpal apotele levator muscle'
+		 [234] 'Pedal anterior femur-patella muscle'
+		 [235] 'Pedal posterior femoropatella-tibia muscle'
+		 [236] 'Pedal patellotibia-tarsus muscle'
+		 [237] 'Intracoxal muscle'
+		 [238] 'Insertion process of anteromedial tergocoxal muscle'
+		 [239] 'Ventral endosternal suspensor muscles'
+		 [240] 'Opisthosomal pleural membrane'
+		 [241] 'Dorsal endosternal suspensor of fourth postoral segment with anterolateral carapacal insertion'
+		 [242] 'Musculi lateralis'
+		 [243] 'Femoropatellar flexor muscles, insertion'
+		 [244] 'Posterior transpatellar muscle'
+		 [245] 'Posterior transpatellar muscle, origin'
+		 [246] 'Anterior patellotibial muscle'
+		 [247] 'Anterior patellotibial muscle, insertion on tibia'
+		 [248] 'Posterior patellotibial muscle'
+		 [249] 'Claw depressor muscle, tibial head'
+		 [250] 'Claw depressor muscle, patellar head'
+		 [251] 'Claw depressor muscle, origin on posterior wall of patella'
+		 [252] 'Cheliceral tergo-deutomerite muscle'
+		 [253] 'Intercoxal endosternal suspensor muscles'
+	;
+	STATELABELS
+		1
+		'present'
+		'absent'
+		,
+		2
+		'two'
+		'four'
+		,
+		3
+		'retinulae with closed isolated rhabdomes'
+		'retina composed of a network of rhabdomeres as in the lateral eyes'
+		'sensory cells with an irregular arrangement of their rhabdomeres'
+		'inverse retina'
+		,
+		4
+		'present'
+		'absent'
+		,
+		5
+		'facetted'
+		'five pairs'
+		'three pairs'
+		'two pairs'
+		'one pair'
+		,
+		6
+		'star-shaped'
+		'quadratic network'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'rounded'
+		'anteriorly projecting, sometimes with bilobed hood equipment with marginal fringe of cuticular projections'
+		'with an erect medial spine'
+		,
+		9
+		'smooth'
+		'with two rows of denticles'
+		,
+		10
+		'small'
+		'well developed'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'on the side of the carapace, visible from above'
+		'below the side of the carapace, not visible from above'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'one'
+		'two'
+		'more than two'
+		,
+		17
+		'present'
+		'not apparent'
+		,
+		18
+		'undivided'
+		'with distinct sclerites'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'undivided'
+		'with transverse segmental furrows'
+		'divided'
+		,
+		30
+		'with differentiated propeltidium, mesopeltifium and metapeltidium'
+		'propeltidium and mesopeltidium fused'
+		,
+		31
+		'embedded in intercheliceral membrane'
+		'firm attachmment to epistome'
+		,
+		32
+		'small, without significant posterior projection'
+		'large, projecting posteriorly to anterior surface of brain'
+		,
+		33
+		'formed by ''sternite'' (tritosternum or labium)'
+		'formed by palpal coxae'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'three segments, the last two forming a chela'
+		'two segments, subchelate'
+		'two segments, chelate, articulating at a ventral or ventrolateral joint'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'paraxial'
+		'diaxial'
+		,
+		52
+		'absent or simple'
+		'plumose'
+		'clavate'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'not prehensile'
+		'prehensile'
+		,
+		57
+		'well developed'
+		'rudimentary'
+		,
+		58
+		'smooth'
+		'pectinate or toothed'
+		,
+		59
+		'thin'
+		'robust'
+		,
+		60
+		'absent'
+		'present'
+		'spines fused into a lateral flap'
+		,
+		61
+		'subequal'
+		'tarsus shorter than tibia'
+		'tarsus longer than tibia'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'free'
+		'fused medially'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'differentiated from tarsus'
+		'not differentiated from tarsus'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'all similar'
+		'III and IV differing from I and II'
+		,
+		73
+		'a single triramous or multiramous claw'
+		'two claws'
+		'one claw'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'all free'
+		'pair I and II free'
+		'all fused'
+		'pair I free'
+		,
+		80
+		'smooth'
+		'with a row of denticles at each side'
+		,
+		81
+		'normal'
+		'extraordinarily developed, surpassing the carapace, and forming a wide angle with the other coxae'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'unmodified, ambulatory'
+		'elongate, tactile'
+		,
+		85
+		'simple'
+		'complex'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'hinge'
+		'bicondylar'
+		'monocondylar'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'present'
+		'absent'
+		,
+		90
+		'present'
+		'absent'
+		,
+		91
+		'transverse bicondylar'
+		'dorsal hinge'
+		'vertical bicondylar'
+		,
+		92
+		'dorsal monocondylar'
+		'dorsal hinge'
+		'simple bicondylar'
+		'vertical bicondylar'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'raptorial'
+		'leg-like'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'differentiated from tarsus'
+		'not differentiated from tarsus'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'separate'
+		'fused'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'absent'
+		'present'
+		,
+		108
+		'femur and patella cylindrical'
+		'femur and patella laterally compressed'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'present'
+		'absent'
+		,
+		111
+		'present, well developed'
+		'very small or apparently absent'
+		,
+		112
+		'undivided'
+		'divided dorsally'
+		,
+		113
+		'absent'
+		'present'
+		,
+		114
+		'absent'
+		'present'
+		,
+		115
+		'not fused, or not forming a scutum'
+		'at least tergites 6  to 8 always free (scutum parvum)'
+		'fusion of tergites 1 to 8 (scutum magnum)'
+		'segment 6 fused to segments 1-5. others free'
+		,
+		116
+		'absent'
+		'present'
+		,
+		117
+		'absent'
+		'present'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'absent'
+		'present'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'eight'
+		'six or less'
+		,
+		125
+		'far forward on the abdomen, just behind the second lung plate and far from the anus'
+		'at the end of the abdomen, near the anus'
+		,
+		126
+		'broad'
+		'narrow'
+		,
+		127
+		'opercular and/or lamellar'
+		'poorly sclerotized or eversible'
+		'absent'
+		,
+		128
+		'absent'
+		'present'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present'
+		,
+		131
+		'absent'
+		'present'
+		,
+		132
+		'absent'
+		'present'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'exopod lamellar setae'
+		'book gills'
+		'book lungs'
+		,
+		135
+		'on all post-antennal exopods'
+		'on opisthosomal segments 3-7'
+		'on opisthsomal segments 4-7'
+		'on opisthosomal segments 2-3'
+		,
+		136
+		'horizontally oriented lamellae'
+		'vertically oriented lamellae'
+		,
+		137
+		'present'
+		'absent'
+		,
+		138
+		'absent'
+		'present'
+		,
+		139
+		'absent'
+		'present'
+		,
+		140
+		'absent'
+		'present'
+		,
+		141
+		'absent'
+		'present'
+		,
+		142
+		'absent'
+		'present'
+		,
+		143
+		'paired appendages absent in post-embryonic development'
+		'present'
+		,
+		144
+		'absent'
+		'present'
+		,
+		145
+		'absent'
+		'present'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'absent'
+		'present'
+		,
+		148
+		'forming continuous dorsoventral sheet'
+		'divided into three components'
+		,
+		149
+		'retained as a small, round sclerite on the pedicel, near the posterior pair of coxae'
+		'absent'
+		,
+		150
+		'present'
+		'absent'
+		,
+		151
+		'simple'
+		'branched'
+		,
+		152
+		'four'
+		'three'
+		,
+		153
+		'absent'
+		'present'
+		,
+		154
+		'absent or poorly developed'
+		'present'
+		,
+		155
+		'present'
+		'absent'
+		,
+		156
+		'absent'
+		'present'
+		,
+		157
+		'absent'
+		'present'
+		,
+		158
+		'reticulum of fine tubules'
+		'ladder type'
+		'saccular type'
+		,
+		159
+		'absent'
+		'present'
+		,
+		160
+		'open, with a rudimentary operculum'
+		'fully closed by a well-developed operculum'
+		,
+		161
+		'unjointed'
+		'with a suture (partially jointed)'
+		'jointed'
+		,
+		162
+		'absent'
+		'present'
+		,
+		163
+		'absent'
+		'present'
+		,
+		164
+		'absent'
+		'present'
+		,
+		165
+		'absent'
+		'present'
+		,
+		166
+		'absent'
+		'present'
+		,
+		167
+		'absent'
+		'present'
+		,
+		168
+		'(short) membranous and undivided'
+		'(long) chitinous and divided into shaft and glans'
+		,
+		169
+		'present'
+		'absent'
+		,
+		170
+		'three'
+		'two'
+		'one'
+		,
+		171
+		'symmetrical glans structures not interconnected that can be moved independently from each other'
+		'with lateral sclerites fused by an intermediate (median) plate'
+		,
+		172
+		'absent'
+		'present'
+		,
+		173
+		'segmented (jointed type)'
+		'unsegmented (unjointed type)'
+		,
+		174
+		'absent'
+		'present'
+		,
+		175
+		'only the apical ring split'
+		'two or three apical rings split'
+		,
+		176
+		'bilaterally symmetrical; with non-cruciform vagina'
+		'radially symmetrical with cruciform vagina'
+		,
+		177
+		'two'
+		'four'
+		,
+		178
+		'setae along shaft'
+		'few or no setae along shaft'
+		,
+		179
+		'absent'
+		'present'
+		,
+		180
+		'aciniform glands'
+		'aggregate glands'
+		'glands opening without ducts via vaginal pore fields'
+		'compact'
+		,
+		181
+		'simple blind sacs or diverticula'
+		'encased within structure protruding into vaginal lumen'
+		,
+		182
+		'with segmental pattern of insertion'
+		'without segmental pattern of insertion'
+		,
+		183
+		'absent'
+		'present'
+		,
+		184
+		'absent'
+		'present'
+		,
+		185
+		'absent'
+		'present'
+		,
+		186
+		'absent'
+		'present'
+		,
+		187
+		'absent'
+		'present'
+		,
+		188
+		'absent'
+		'present'
+		,
+		189
+		'present'
+		'absent'
+		,
+		190
+		'10'
+		'11'
+		'12'
+		'13'
+		,
+		191
+		'isolecithical or telolecithical'
+		'centrolecithical'
+		,
+		192
+		'with a growth zone giving rise to both the prosoma and opisthosoma'
+		'with a growth zone giving rise to the opisthosoma'
+		,
+		193
+		'absent'
+		'present'
+		,
+		194
+		'present'
+		'absent'
+		,
+		195
+		'present'
+		'absent'
+		,
+		196
+		'filiform'
+		'coiled'
+		,
+		197
+		'absent'
+		'present'
+		,
+		198
+		'9 + 2'
+		'9 + 3'
+		'9 + 0'
+		,
+		199
+		'filled with dense material'
+		'globular'
+		'acrosome almost reduced to the acrosomal vesicle'
+		,
+		200
+		'shallow, funnel shaped'
+		'deep'
+		,
+		201
+		'absent'
+		'present'
+		,
+		202
+		'absent'
+		'present'
+		,
+		203
+		'absent'
+		'present'
+		,
+		204
+		'absent'
+		'present'
+		'corkscrew shape'
+		,
+		205
+		'absent'
+		'present'
+		,
+		206
+		'absent'
+		'present'
+		,
+		207
+		'present'
+		'absent'
+		,
+		208
+		'absent'
+		'present'
+		,
+		209
+		'absent'
+		'present'
+		,
+		210
+		'free and remaining in the opisthosoma'
+		'free but restricted to the cephalothorax'
+		'all are incorporated with the subesophageal nerve mass'
+		,
+		211
+		'absent'
+		'present'
+		,
+		212
+		'absent'
+		'present'
+		,
+		213
+		'absent'
+		'present'
+		,
+		214
+		'absent'
+		'present'
+		,
+		215
+		'one'
+		'two'
+		,
+		216
+		'17'
+		'12'
+		,
+		217
+		'absent'
+		'present'
+		,
+		218
+		'absent'
+		'present'
+		,
+		219
+		'absent'
+		'present'
+		,
+		220
+		'present'
+		'absent'
+		,
+		221
+		'absent'
+		'present'
+		,
+		222
+		'present'
+		'absent'
+		,
+		223
+		'anterior'
+		'ventral'
+		,
+		224
+		'absent'
+		'present'
+		,
+		225
+		'terminating in muscular attachment to labrum'
+		'terminating in muscular attachment to palpal coxa'
+		,
+		226
+		'arising from anterior endosternal horns'
+		'arising from medial surface of palpal coxa'
+		,
+		227
+		'present'
+		'absent'
+		,
+		228
+		'present'
+		'absent'
+		,
+		229
+		'present'
+		'absent'
+		,
+		230
+		'one head'
+		'three heads'
+		,
+		231
+		'present'
+		'absent'
+		,
+		232
+		'originating on endosternite, inserting on coxa'
+		'originating and inserting on coxa'
+		,
+		233
+		'present'
+		'absent'
+		,
+		234
+		'inserting primarily on patellar margin'
+		'inserting primarily on patellar plagula'
+		,
+		235
+		'present'
+		'absent'
+		,
+		236
+		'present'
+		'absent'
+		,
+		237
+		'absent'
+		'present'
+		,
+		238
+		'weakly developed'
+		'large, well developed'
+		,
+		239
+		'attaching primarily to sternum'
+		'attaching primarily to coxa of appendage of anteriorly adjacent somite'
+		,
+		240
+		'without distinct longitudinal folds'
+		'with two or more distinct longitudinal folds'
+		,
+		241
+		'absent'
+		'present'
+		,
+		242
+		'absent'
+		'present'
+		,
+		243
+		'consisting of an anterior, median and posterior components that insert symmetrically on the ventral margin of the patella'
+		'the anterior and median components insert together on a sclerite that attaches to the anterior margin of the patella via ligaments, and the posterior component inserts broadly on the ventral margin of the patella itself'
+		,
+		244
+		'present'
+		'absent'
+		,
+		245
+		'dorsoposterior surface of femur and/or posterior surface of patella'
+		'distal process of femur'
+		,
+		246
+		'present'
+		'absent'
+		,
+		247
+		'anterior'
+		'ventral'
+		,
+		248
+		'present'
+		'absent'
+		,
+		249
+		'absent'
+		'present'
+		,
+		250
+		'absent'
+		'present'
+		,
+		251
+		'absent'
+		'present'
+		,
+		252
+		'absent'
+		'present'
+		,
+		253
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Limulus'		                    0020000---00--0-0000100000000-???1000?001000000000-00000-----0000000?000?-00010-0-?0000-01000000000?0-????0000--01?--000000--000---1111010000010?01???1-0010000--001000----0-------------000??00000010??01?000?000100--?-000000?????????????????0000000000?00
+	'Carcinoscorpius'		            0020000---00--0-0000100000000-???1000?001000000000-00000-----0000000?000?-00010-0-?0000-01000000000?0-????0000--01?--000000--000---1111010000010?01???1-0010000--001000----0-------------000??00000012??01?000?000100--?-000000?????????????????0000000000???
+	'Androctonus'		                0000100---00--0-0000100000111-???10001001000000000-00000-----1000000?0001-10002-0-00001001020000000000????1111--000--001100--000---1122110010001001???1-1010010--001010----0-------------0000300000012?00011010010001???0100101?????????????????0000101111011
+	'Belisarius'		                 1--1--0---00--0-0000100000111-???10001001000000000-00000-----1000000?0001-10002-0-00001001020000000000????1111--000--001100--000---1122110010001001???1-1010010--001010----0-------------00003000?001???00??01?010001???0100101?????????????????0000101111011
+	'Siro'		                       1--1--0---01010-1-00100000110-???10001001000000000-00000100000000000000020111010001000?-01230000000000????100-0010200000000--020---0-----100000-000???10000102000001101000-10100000100000000001100010200000001?01?000--?000001-?????????????????0001-000110??
+	'Parasiro'		                   1--1--0---01010-1-00100000110-???1000?001000000000-00000100000000000000020111010001000?-01230000000000????100-0000200000000--020---0-----100000-000???10000102000001101000-100000001000000000011???????????????01?000--?000001-?????????????????0001-000110??
+	'Stylocellus'		                1001--0---01010-0000100000110-???1000?001000000000-00000100000000000000020111030001000?-01230000000000????100-0000200000000--020---0-----100000-000???10000102000001101000-101000001000000000011???????????????01?000--?000001-?????????????????0001-000110??
+	'StylocellusJP'		              1001--0---01010-0000100000110-???1000?001000000000-00000100000000000000020111030001000?-01230000000000????100-0000200000000--020---0-----100000-000???10000102000001101000-101000001000000000011???????????????01?000--?000001-?????????????????0001-000110??
+	'Dalquestia'		                 0001--101001000-00001000001110???1000?001000000000-000000000200000000110201010000100001-01230000000000????100-1100101000000--020---0-----100000-000???1000010201?0011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Odiellus'		                   0001--101111000-00001000011110???1000?001000000000-000000000200000000110201010000100001-01230000000000????100-1100001010000--020---0-----100000-000???1000010201100110110201011000110000000000110?1---2?000000?01?000--?0000000?????????????????00001000110??
+	'Phalangium'		                 0001--101111000-00001000011110???1000?001000000000-000000000200000000110201000000100001-01230000000000????100-1100101010000--020---0-----100000-000???1000010201100110110201011000110000000000110?1---2?000000?012000--?0000000?????????????????00001000110??
+	'Opilio'		                     0001--101111000-00001000011110???1000?001000000000-000000000200000000110201000000100001-01230000000000????100-1100001010000--020---0-----100000-000???100001020110011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Astrobunus'		                 0001--101001000-00001000011110???1000?001000000000-000000100200000000110201010010100001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Nelima'		                     0001--101001000-00001000011110???1000?001000000000-000000100200000000110201010000100001-01230000000000????100-1100100010000--020---0-----100000-000???100001020110011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Leiobunum'		                  0001--101001000-00001000011110???10001001000000000-000000100200000000110201010010100001-01230000000000????100-1100100010000--020---0-----100000-000???1000010201100110110201011000110000000000110?1---2?000000?01?000--?00000000????????????????000010001101?
+	'Hadrobunus'		                 0001--101001000-00001000011110???1000?001000000000-000000100200000000110201010010100001-01230000000000????100-1100100010000--020---0-----100000-000???100001020110011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Caddo'		                      0001--100-01001100001000001110???1000?001000000000-100000010200000000110201000000000001-01230000000000????100-1100100000000--020---0-----100000-000???1000010201?0011011020101100011000000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Ischyropsalis'		              0001--100-01101200001000001111???1000?001110000000-0001---0010000000-110201000000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011020110-001011100000000110?1---0?000000?01?000--?0000000?????????????????00001000110??
+	'Hesperonemastoma'		           0001--100-01100-0000100000110-???1000?001010000000-1101---0010000000-110201000000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011020110-00101110000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Ceratolasma'		                0001--110-011011000010000?1111???1000?001110000000-0001---0000000000-110201110000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011020110-00101110000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Sabacon'		                    0001--100-01101100001000011111???1000?001110000000-1111---0010000000-110200000000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020100011011020110-00101110000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Taracus'		                    0001--100-01101000001000001111???1000?001010000000-1111---0010000000-110200000000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020100011011020110-00101110000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Dicranolasma'		               0001--110-01100-0000100001110-???1000?001110000000-2001---0010000000-110200000200000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011010110-00000101000000011???????????????01?000--?1000000?????????????????00001000110??
+	'Centetostoma'		               0001--100-01100-0000100001110-???1000?001110000000-0001---0010000000-11020???0000000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020110011011010110-00000101000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Ortholasma'		                 0001--110-01100-00001000011111???1000?001?10000000-2001---0010000000-110200000200000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020100011011010110-00000101000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Nemastoma'		                  0001--100-01100-0000100001110-???1000?001110000000-0001---0010000000-110200000210000001-01230000000000????100-1100100000000--020---0-----100000-000???100001020100011011010110-00000101000000011001---2?000000?012000--?0000000?????????????????00001000110??
+	'Nipponopsalis'		              0001--100-01100-00001000001111???1000?001110000000-2001---0010000000-110201000000000001-01230000000000????100-1100101000000--020---0-----100000-000???1000010201?0011011010110-00000101000000011???????????????01?000--?0000000?????????????????00001000110??
+	'Trogulus'		                   0001--110-01100-0000100000110-???1000?001010000000-0001---0020000000-110200000200000001-01230000000000????100-1100200000000--020---0-----100000-000???100001020110011011010110-000001010000000110?1---0?000000?011000--?1000000?????????????????00001000110??
+	'Halitherses'		                00?1--110-0??0?????010000?1111??????0?001??0?????0-2001---0010000000-110?0??????0?00?0??????000000?00??????0?-???03?0000000--020---?---?????000-000????????????1?001101????1????????????????????????????????????????0--?0????????????????????????????????????
+	'Ameticos scolos'		            ??????11?????0?????010000?1?11??????0??01??0?????0-??00---00?00??0???1???0??????0??0????????0??000?????????0?-???0?00??00?0--020---?---?????0?0-0?0????????????1??0?1????????????????????????????????????????????????????????????????????????????????????????
+	'Macrogyion cronus'		          ??????10?????0?????010000?1?1???????0??01?00?????0-??0000?00200??0??0?1??0??????0??0?0??????0??000?????????0?-???0?00??00?0--020---?---?????0?0-0?0????????????1??0?1???????????????????????????????????????????????????0????????????????????????????????????
+	'Equitius'		                   0001--120-01100-0000100000110-???1000?001000000000-000010011000000000111001100300000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-?01????0?00000011???????????????01?000--?0000000?????????????????00001000110??
+	'Triaenobunus'		               0001--120-01100-0000100000110-???1000?001000000000-000010011000000000111001100300000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-???????0?00000011???????????????01?000--?0000000?????????????????00001000110??
+	'Zuma'		                       0001--120-01100-0000100000110-???1000?001000000000-000010011000000000111001100300000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-???????0?00000011???????????????01?000--?0000000?????????????????00001000110??
+	'Oncopus'		                    0001--100-01100-0000100000110-???1000?001000000000-000010010200000000101101000300000001-01230000000000????100-0000210100000--020---0-----100000-000???1100010201200110111-1110-1010(0,2)010110000011???????????????01?000--?0000000?????????????????00001000110??
+	'Gnomulus'		                   0001--100-01100-0000100000110-???1000?001000000000-000010010200000000111101100300000001-01230000000000????100-0000210100000--020---0-----100000-000???1100010201200110111-1110-1010(0,2)010110000011???????????????01?000--?0000000?????????????????00001000110??
+	'Scotolemon'		                 0001--100-01100-0000100000110-???1000?001000000000-000010011000000000111101000300000001-01230000000000????100-0000110000000--020---0-----100000-000???1100010201200110111-0110-101020101000000111?1---1?000000?01?000--?0000000?????????????????00001000110??
+	'Maiorerus'		                  1--1--100-01100-0000100000110-???1000?001000000000-000010011000000000111101000300000001-01230000000000????100-0000110000000--020---0-----100000-000???1100010201200110111-0110-1010???01000000111?1---1?000000?01?000--?0000000?????????????????00001000110??
+	'Bishopella'		                 0001--100-01100-0000100000110-???1000?001000000000-000010011100000000111101100300000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-???????01000000111?1---1?000000?01?000--?0000000?????????????????00001000110??
+	'Gnidia'		                     0001--100-01100-0000100000110-???10001001000000000-000010012100000000111110000301000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-???????01000000111?1---1?000000?01?000--?0000000?????????????????00001000110?1
+	'Pachyloides'		                0001--100-01100-0000100000110-???1000?001000000000-000010011000000000111110000301000001-01230000000000????100-0000110000000--020---0-----100000-000???1100010201200110111-0110-101020101000000111?1---1?000000?012000--?0000000?????????????????00001000110??
+	'Hoplobunus'		                 1--1--100-01100-0000100000110-???1000?001000000000-000010011000000000111101000301000001-01230000000000????100-0000110000000--020---0-----100000-000???110001020120011011???110-???????01000000111?1---1?000000?01?000--?0000000?????????????????00001000110??
+	'Solifugae'		                  0010310---00--0-1-01100010112-???0000?001002100100-0001------0001100-0101-00000-0001012-11010011000010????100---000--000000--120---0-----110000-000???1-1000020--001000----0-------------0000111?01---??010001?010100--?0100001?????????????????0001-011110-?
+	'Pseudoscorpiones'		           1--0310---00--0-1-01100000111-???1010?001002101000-00000-----1010000?0001-00002-0000001001020010000000????000---000--000000--020---0-----110000-000???0-0000120--001000----0-------------0000201000110?00010000112001???0100101?????????????????000011-1110-?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 253;
+      ENDBLOCK;
+      

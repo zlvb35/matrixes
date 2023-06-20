@@ -1,0 +1,458 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 15.54.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+    		'Carollia subrufa'
+		'Platyrrhinus albericoi'
+		'Platyrrhinus aurarius'
+		'Platyrrhinus brachycephalus'
+		'Platyrrhinus chocoensis'
+		'Platyrrhinus dorsalis'
+		'Platyrrhinus ismaeli'
+		'Platyrrhinus helleri'
+		'Platyrrhinus infuscus'
+		'Platyrrhinus lineatus'
+		'Platyrrhinus masu'
+		'Platyrrhinus matapalensis'
+		'Platyrrhinus nigellus'
+		'Platyrrhinus recifinus'
+		'Platyrrhinus vittatus'
+		'Sturnira erythromos'
+		'Uroderma magnirostrum'
+		'Vampyrodes caraccioli'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=60;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Facial stripes'
+		 [2] 'Brightness of facial stripe'
+		 [3] 'Facial stripe coloration'
+		 [4] 'Basal protuberance where the genal vibrissae are implanted'
+		 [5] 'Number of vibrissae surrounding the margins of the noseleaf in a single array'
+		 [6] 'Number of vibrissae present on the upper lip ventral to the vibrissae that surround the margins of the noseleaf'
+		 [7] 'Number of submental vibrissae on each side of the chin'
+		 [8] 'Interramal vibrissae'
+		 [9] 'Inferior border of horseshoe'
+		 [10] 'Parallel folds located in the pinna'
+		 [11] 'Dorsal stripe'
+		 [12] 'Length of the dorsal fur'
+		 [13] 'Bands of contrast in the dorsal fur'
+		 [14] 'Bands of contrast in the ventral fur'
+		 [15] 'Hair on the dorsum of the feet'
+		 [16] 'Posterior edge of the uropatagium'
+		 [17] 'Distribution of the fringe of hair on the edge of the uropatagium'
+		 [18] 'Posterior border of the hard palate'
+		 [19] 'Postorbital process'
+		 [20] 'Paraoccipital process'
+		 [21] 'Apophysis in the paraoccipital process'
+		 [22] 'Fossa on the squamosal end of the zygomatic arch lateral to the the glenoid fossa'
+		 [23] 'Posterior clinoid processes'
+		 [24] 'Upper median incisors'
+		 [25] 'Lobulation of the upper lateral incisors'
+		 [26] 'Alignment of P3 in the toothrow'
+		 [27] 'Size of the P3 with regard to P4'
+		 [28] 'Stylar cusps on the posterior face of P4'
+		 [29] 'Sulcus on the posterior face of P4'
+		 [30] 'Sulcus on the anterior face of P4'
+		 [31] 'Fossa on the hypoconal basin of P4'
+		 [32] 'M1 Parastyle'
+		 [33] 'M1 Mesostyle'
+		 [34] 'Labial cingulum at the base of the M1 metacone'
+		 [35] 'Sulcus on the posterior face of the M1 paracone'
+		 [36] 'Lingual cingulum on the base of the M1 metacone'
+		 [37] 'Sulcus on the posterior face of the paracone not joined to the cingulum of the lingual face of the metacone on M1'
+		 [38] 'M1 metastyle'
+		 [39] 'M1 protocone'
+		 [40] 'M2 parastyle'
+		 [41] 'Labial cingulum of the M2 paracone'
+		 [42] 'Stylar cusp on the lingual face of the M2 paracone'
+		 [43] 'M2 metastyle'
+		 [44] 'Stylar cusp on the lingual face of the M2 metacone'
+		 [45] 'Lingual cingulum of the M2 metacone'
+		 [46] 'M2 hypoconal basin'
+		 [47] 'Two sulci on the lingual face of the main cone of p4'
+		 [48] 'Cones on the posterior face of p4 (one lingual and the other one labial)'
+		 [49] 'Labial and lingual cingulum of p4'
+		 [50] 'Stylid cusps on the anterior or antero lingual face of the main cone of p4'
+		 [51] 'Stylid cusp on the posterior face of the main cone of p4'
+		 [52] 'm1 paraconid'
+		 [53] 'm1 cingulum'
+		 [54] 'Stylid cusps on the anterior face of the m1 protoconid'
+		 [55] 'm1 metaconid'
+		 [56] 'm2 hypoconid'
+		 [57] 'Stylid cusp between the metaconid and protoconid on m2'
+		 [58] 'Cingula on m2'
+		 [59] 'Third and fifth metacarpal arrangement'
+		 [60] 'Insertion of the posterior edge of the plagiopatagium'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'dorsomedial and ventrolateral stripes obviously subequal'
+		'dorsomedial stripe more marked than the ventrolateral stripe'
+		,
+		3
+		'brilliant-white'
+		'dark'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'nine vibrissae present'
+		'eight vibrissae present'
+		'seven vibrissae present'
+		'six vibrissae present'
+		,
+		6
+		'one vibrissa present on each side of the face'
+		'two vibrissae present'
+		,
+		7
+		'absence of submental vibrissae'
+		'two submental vibrissae present'
+		'three submental vibrissae present'
+		'four submental vibrissae present'
+		'five submental vibrissae present'
+		,
+		8
+		'absence'
+		'one interrramal vibrissa present'
+		'two interramal vibrissae present'
+		,
+		9
+		'inferior border with no distinct boundary between horseshoe and lip'
+		'inferior border partially joined to the upper lip'
+		'inferior border completely free'
+		,
+		10
+		'absent'
+		'poorly marked but distinguishable'
+		'well marked'
+		,
+		11
+		'absent'
+		'indistinct'
+		'definite but narrow'
+		'brilliant-white and wide'
+		,
+		12
+		'Long, > 8 mm'
+		'medium, average, 6.30-7.50 mm'
+		'short, < 6.30 mm '
+		,
+		13
+		'Bicolored'
+		'tricolored'
+		'tetracolored'
+		,
+		14
+		'Unicolored'
+		'bicolored'
+		'tricolored'
+		'tetracolored'
+		,
+		15
+		'Sparse and short'
+		'intermediate in density and length'
+		'dense and long'
+		,
+		16
+		'"V" shaped'
+		'"U" shaped'
+		,
+		17
+		'Absent'
+		'usually hairy, occassionally sparsely'
+		'densely haired'
+		,
+		18
+		'"U" shaped'
+		'"V" shaped'
+		,
+		19
+		'Absent or poorly developed'
+		'moderately developed'
+		'well developed'
+		,
+		20
+		'Poorly developed, almost imperceptible'
+		'moderately developed'
+		'well developed'
+		,
+		21
+		'Present'
+		'absent'
+		,
+		22
+		'Absent or almost imperceptible'
+		'shallow'
+		'deep'
+		,
+		23
+		'Absent'
+		'present'
+		,
+		24
+		'In contact'
+		'without contact'
+		,
+		25
+		'Monolobed'
+		'bilobed'
+		,
+		26
+		'P3 aligned along the axis of the toothrow'
+		'P3 aligned transversally to the toothrow'
+		,
+		27
+		'P3 slightly smaller than P4'
+		'P3 about half size of P4'
+		,
+		28
+		'P4 lacking stylar cusps or with one stylar cusp present'
+		'two stylar cusps present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'Shallow'
+		'deep'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		'stylar cusp on the labial cingulum of the M1 metacone'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'lingual cingulum present at the base of the M1 metacone'
+		'stylar cusp on the lingual cingulum of the M1 metacone'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'Well developed, large'
+		'moderately developed'
+		'small and blunt'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'lingual cingulum of the M2 metacone restricted to the metacone'
+		'lingual cingulum of the M2 metacone continuous to the paracone'
+		,
+		46
+		'Developed'
+		'rudimentary or small'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'Two cones present'
+		'one cone present on either the labial or lingual face'
+		'no cones present'
+		,
+		49
+		'Both cingula absent'
+		'only one cingulum present, either the lingual or labial'
+		'both cingula present'
+		,
+		50
+		'absent'
+		'one stylid cusp present'
+		'two stylid cusps present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'Present'
+		'absent'
+		,
+		53
+		'absent'
+		'only the labial cingulum present'
+		'both labial and lingual cingula present'
+		,
+		54
+		'Absent'
+		'present'
+		,
+		55
+		'Well-developed'
+		'poorly developed'
+		'absent'
+		,
+		56
+		'Present'
+		'absent'
+		,
+		57
+		'Absent'
+		'present'
+		,
+		58
+		'Both cingula labial and lingual absent'
+		'labial cingulum present'
+		'both cingula present'
+		,
+		59
+		'Length of M III > M V'
+		'length of M III = M V'
+		'length of M III < M V'
+		,
+		60
+		'Onto the ankle region'
+		'onto the first metatarsal'
+		
+	;
+	MATRIX
+	'Carollia subrufa'		                     0--021020201120100211000000000000000-110000001020001001000(0,1)0
+	'Platyrrhinus albericoi'		               1100303(1,2)212011212(0,1)121010(0,1)11111101212011111011010200121111211
+	'Platyrrhinus aurarius'		                101030312220221121121210011111000212011110101010100121211221
+	'Platyrrhinus brachycephalus'		          1001214121(2,3)112(0,1)11(0,1)00101(0,1)(0,1)11111(0,1)1(0,1)11(1,2)0(0,1)01101010102211212112(0,1)1
+	'Platyrrhinus chocoensis'		              101020(2,3)1(1,2)22(1,2)11111(0,1)0(0,1)1(0,1)1001111100021(1,2)0(0,1)211(0,1)1020101001212102(1,2)1
+	'Platyrrhinus dorsalis'		                101030312120121(0,1)11011210011111(0,1)0021(1,2)0121(0,1)(0,1)1120102001212112(1,2)1
+	'Platyrrhinus ismaeli'		                 101030312120122121(0,1)11110(0,1)11111(0,1)0(0,1)2121121(0,1)11(0,1)1010200121111221
+	'Platyrrhinus helleri'		                 1001(1,2)(0,1)312(1,2)(2,3)1111(0,1)2(0,1)11101(0,1)01111101(0,1)1110(0,1)21101010102111212(0,1)1201
+	'Platyrrhinus infuscus'		                10103(0,1)32(1,2)(1,2)12120(0,1)1(0,1)12111(0,1)(0,1)1111111(0,1)21201111111(1,2)0102001210102(1,2)1
+	'Platyrrhinus lineatus'		                100120312131122120221010(0,1)111110(0,1)0(1,2)120111101(0,1)(1,2)010200121011221
+	'Platyrrhinus masu'		                    10103011(1,2)23112212(0,1)011(0,1)10111111(0,1)002120111(0,1)11(0,1)10102001212112(1,2)1
+	'Platyrrhinus matapalensis'		            1001203221211(0,1)0(0,1)2(0,1)00101(0,1)(0,1)11111(0,1)1(0,1)1110(0,1)111010(1,2)010201121211(2,1)01
+	'Platyrrhinus nigellus'		                10103(0,1)3122(2,3)0122(0,1)2(0,1)011(1,2)10011111(0,1)0(0,1)(1,2)1(1,2)011110(0,1)0(1,2)010200(0,1)21(1,2)11221
+	'Platyrrhinus recifinus'		               10012030213122212011111(0,1)011111110111011110102010200121210201
+	'Platyrrhinus vittatus'		                111030322230112(0,1)1(0,1)11101001111110021201(0,1)111111010210121111221
+	'Sturnira erythromos'		                  0--100200000232120010000(0,1)00000000000-01000000001100000000020
+	'Uroderma magnirostrum'		                100120302221110(0,1)00220001111110001011101000101111100110210201
+	'Vampyrodes caraccioli'		                10013031213102101(0,1)111010011110(0,1)01210-11110010110110110211121
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The facial stripes are present as two lines on each side of the face. The dorsomedial stripe begins at the posterolateral edge of the noseleaf, continues above the eye, and terminates close to the pinna. The ventrolateral stripe begins in the corner of the mouth and runs toward the tragus. The facial stripes are present in all the species of Platyrrhinus, Vampyrodes caraccioli, and Uroderma magnirostrum. In contrast the facial stripes are absent in Carollia subrufa and Sturnira erythromos. Owen (1987: character 4) uses the facial stripes as part of a multistate character that he termed "Pelage patterns." In this character Owen includes facial stripes, dorsal stripe, shoulders patches, and striping on the wing. I agree with Owen on his facial stripes scoring for the species used in the present analysis. Lim (1993: character 1) and Wetterer et al. (2000: character 6) include facial stripes in their phylogenetic analyses; character states and scoring used in this analysis coincide with theirs.';
+	TEXT CHARACTER=2 TEXT='In most Platyrrhinus species, both facial stripes have the same tonality, either dark or brilliant (e.g., P. aurarius, P helleri "Eastern," P. nigellus). In contrast, P. vittatus "Northern" and P. vittatus "Southern" have a more luminous dorsomedial stripe. Carollia subrufa and Sturnira erythromos were scored as "-," because they do not have facial stripes. This is the first use of this character in a phylogenetic analysis.';
+	TEXT CHARACTER=3 TEXT='The facial stripes are brilliant or white in P. brachycephalus, P. helleri "Eastern," P. helleri "Western," P. lineatus P. recifinus, P. vittatus "Southern," Vampyrodes caraccioli, and Uroderma magnirostrum. In contrast, they are dark in P. aurarius, P. chocoensis, P. dorsalis, P. dorsalis "Norte," P. dorsalis "Centro-Sur," P. infuscus, P. nigellus, and P. vittatus "Northern." Carollia subrufa and Sturnira erythromos were scored as "-" because they lack both facial stripes. This is the first use of this character in a phylogenetic analysis.';
+	TEXT CHARACTER=4 TEXT='The genal vibrissae are implanted in the cheek, ventral or/and posterior to the eye. The genal vibrissae are present in all the species of Platyrrhinus. These vibrissae are implanted in a basal protuberance in some Platyrrhinus (e.g., P. brachycephalus, P. helleri "Eastern," P. lineatus; Fig. 3A). In contrast, the genal vibrissae are implanted directly on the cheek in Carollia subrufa and some species of Platyrrhinus (e.g., P. aurarius, P. chocoensis; Fig. 3B-C). This character has not been used in previous studies.';
+	TEXT CHARACTER=5 TEXT='Some species of Platyrrhinus have seven vibrissae surrounding the margins of the noseleaf in a single array (e.g., P. brachycephalus, P. chocoensis, P. lineatus) (Fig. 3B). In contrast, six vibrissae are presented to each side of the noseleaf in some Platyrrhinus and Vampyrodes (e.g., P. aurarius, P. dorsalis; Fig. 3A). Platyrrhinus helleri "Eastern" presents intraspecific variation (seven and eight vibrissae present; Fig. 3B-C). Sturnira erythromos have nine vibrissae surrounding the margins of the noseleaf.';
+	TEXT CHARACTER=6 TEXT='In some species of Platyrrhinus (e.g., P. aurarius, P. chocoensis, P. dorsalis), Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes a single vibrissa is present on the upper lip, ventral to the vibrissae that surround the margins of the noseleaf (Fig. 3A). Only P. brachycephalus and Carollia subrufa have two vibrissae on the upper lip (Fig. 3B). Platyrrhinus helleri "Eastern," P. infuscus, and P. nigellus present intraspecific variation in this character (one vibrissa and two vibrissae present) (Fig. 3A-B). This character has not been used in any other study.';
+	TEXT CHARACTER=7 TEXT='The submental vibrissae are on the chin and lower lip, and are usually arranged in two notable parallel longitudinal rows (Pocock, 1914; Brown, 1971). Some Platyrrhinus (e.g., P. aurarius, P. lineatus, P. nigellus), Uroderma magnirostrum, and Vampyrodes (Fig. 4C, E) always have four submental vibrissae. Platyrrhinus dorsalis "Centro-Sur" has two submental vibrissae (Fig. 4B). Platyrrhinus brachycephalus present five submental vibrissae (Fig. 4D). Intraspecific variation was noted (three and four submental vibrissae) in P. chocoensis (Fig. 4A, C, E). Carollia subrufa lacks submental vibrissae. This character has not been used in previous studies.';
+	TEXT CHARACTER=8 TEXT='The interramal vibrissae form a median tuft on the gular region between the two rami of the lower jaws and well behind the mandibular symphysis (Pocock, 1914; Brown, 1971). Platyrrhinus recifinus, Sturnira erythromos, and Uroderma magnirostrum lack interramal vibrissae (Fig. 4A). An interramal vibrissa is present in some species of Platyrrhinus (e.g., P. brachycephalus, P. lineatus), and Vampyrodes (Fig. 4B-D). Two interramal vibrissae are present in P. infuscus, P. vittatus "Northern," P. helleri "Western," and Carollia subrufa (Fig. 4E). Intraspecific variation is found in P. vittatus "Southern" (one and two interramal vibrissae present; Fig. 4B-E). This character was used by Wetterer et al. (2000: character 13).';
+	TEXT CHARACTER=9 TEXT='The inferior border of the horseshoe is completely free of the upper lip in some Platyrrhinus (e.g., P. brachycephalus, P. lineatus), Uroderma magnirostrum, and Vampyrodes (Fig. 5C). Platyrrhinus chocoensis, P. dorsalis "Centro-Sur," and P. infuscus have intraspecific variation (inferior border completely free and partially joined; Fig. 5B-C). In Carollia subrufa and Sturnira erythromos, there is no distinct boundary between horseshoe and the upper lip (Fig. 5A). According to Wetterer et al. (2000: character 25), the inferior border is completely free in all the species of Platyrrhinus, however, I do not agree with that assessment.';
+	TEXT CHARACTER=10 TEXT='Sturnira erythromos lacks these folds (Fig. 3C). The folds in the pinna are not very well defined in some species of Platyrrhinus (e.g., P. dorsalis, P. lineatus, P. recifinus) and Vampyrodes (Fig. 3B). In contrast, P. aurarius, P. chocoensis, P. dorsalis "Centro-Sur," P. nigellus, P. vittatus "Northern," Carollia subrufa, and Uroderma magnirostrum have well marked pinna folds (Fig. 3A). Platyrrhinus helleri "Eastern" and P. infuscus present intraspecific variation, presenting both states (Fig. 3A-B). This is the first use of this character in a phylogenetic analysis.';
+	TEXT CHARACTER=11 TEXT='A dorsal midline stripe is absent in Carollia subrufa and Sturnira erythromos. A narrow dorsal stripe is presented in some species of Platyrrhinus (e.g., P. chocoensis, P. dorsalis) and Uroderma magnirostrum. Platyrrhinus lineatus, P. recifinus, P. vittatus "Northern," P. vittatus "Southern," and Vampyrodes have the dorsal stripe that is white and wide. In Platyrrhinus infuscus the dorsal stripe is thin and obscure. Platyrrhinus brachycephalus, P. helleri "Eastern," and P. nigellus all show intraspecific variation in this character, some individuals with a narrow dorsal stripe and others with white and wide stripes. Owen (1987: character 4) used the dorsal stripe as part of a complex multistate character termed "Pelage patterns," in which he included facial stripes, dorsal stripe, and shoulder patches. I agree with Owen (1987) on the scores for dorsal stripe in the species used in the present analysis. Wetterer et al. (2000: character 7) used the dorsal stripe as a character with three states: absent, present, and occassionally present.';
+	TEXT CHARACTER=12 TEXT='Dorsal fur is of average length in some species of Platyrrhinus (e.g., P. helleri "Eastern," P. recifinus), Carollia subrufa, Uroderma magnirostrum, and Vampyrodes. In Platyrrhinus aurarius, P. dorsalis, P. dorsalis "Norte," P. nigellus, P. vittatus "Northern," P. vittatus "Southern," and Sturnira erythromos, the dorsal fur is long. Platyrrhinus infuscus characteristically has short dorsal fur. Platyrrhinus chocoensis presents intraspecific variation, in which some individuals have short dorsal fur and while in others it is normal. This character was used by Marques-Aguiar (1994: character 3) in her study of the genus Artibeus.';
+	TEXT CHARACTER=13 TEXT='In most Platyrrhinus (e.g., P. brachycephalus, P. chocoensis, P. dorsalis), Carollia subrufa, and Uroderma magnirostrum, the dorsal fur is distinctly tricolored. In contrast, tetracolored dorsal fur is presented in P. aurarius, P. recifinus, and Sturnira erythromos. Vampyrodes has bicolored dorsal fur. Owen (1987: character 3) and Wetterer et al. (2000: character 5) scored S. erythromos as having tricolored dorsal fur; according to my observations it has tetracolored dorsal fur. Wetterer et al. (2000) scored all Platyrrhinus as having bicolored dorsal fur as did Owen (1987) with the exception of P. dorsalis which had tricolored dorsal fur. I agree with Owen"''s score for P. dorsalis, but do not agree with the scores of the other Platyrrhinus species. Instead, I observed interspecific variation in dorsal fur patterns among the species of Platyrrhinus. I agree with Owen (1987) and Wetterer et al. (2000) on the score of Vampyrodes.';
+	TEXT CHARACTER=14 TEXT='A tricolored ventral fur is present in some species of Platyrrhinus (e.g., P. brachycephalus, P. infuscus), Carollia subrufa, and Vampyrodes. In contrast, P. chocoensis, P helleri "Eastern," P. vittatus "Northern," P. vittatus "Southern," and Uroderma magnirostrum have a bicolored ventral fur. Platyrrhinus helleri "Western" presents intraspecific variation because some individuals present a bicolored ventral fur and others an unicolored ventral fur. Sturnira erythromos has tetracolored ventral fur. This character has not been used in any other study.^n';
+	TEXT CHARACTER=15 TEXT='Dense and long hair is present on the dorsal side of the feet in some Platyrrhinus (e.g., P. lineatus, P. vittatus "Southern") and Sturnira erythromos. In Platyrrhinus aurarius, P. chocoensis, P. dorsalis, P. helleri "Eastern," and Vampyrodes, the hair on the dorsal side of the feet is intermediate in density and length. Only P. infuscus, P. helleri "Western," and Uroderma magnirostrum have sparse and short hairs on the dorsal side of the feet. Platyrrhinus brachycephalus presents intraspecific variation in this character, some individuals with sparse hairs and others with an intermediate distribution of hair on the dorsal side of the feet. This character has not been used in any other study.';
+	TEXT CHARACTER=16 TEXT='The uropatagium is "U" shaped in some Platyrrhinus (e.g., P. brachycephalus, P. recifinus), Carollia subrufa, and Sturnira erythromos. In contrast, Vampyrodes has "V" shaped uropatagium. Platyrrhinus dorsalis, P. helleri "Eastern," P. helleri "Western," P. infuscus, P. nigellus, P. vittatus "Northern," and Uroderma magnirostrum have intraspecific variation. This character was evaluated only in alcohol-preserved specimens. This character has not been used in any other study.';
+	TEXT CHARACTER=17 TEXT='A densely haired uropatagium fringe is present in some Platyrrhinus (e.g., P. helleri "Eastern," P. nigellus), and Sturnira erythromos. In contrast, P. brachycephalus, P. chocoensis, P. dorsalis, P. infuscus, P. vittatus "Northern," and Vampyrodes have a regular or occassionally sparsely haired uropatagium fringe. Carollia subrufa and Uroderma magnirostrum lack this fringe of hair on the edge of the uropatagium. I agree with Lim (1993: character 13) and Wetterer et al. (2000: character 10) on the score of Platyrrhinus, Carollia, Sturnira, Uroderma, and Vampyrodes.';
+	TEXT CHARACTER=18 TEXT='A "U" shaped posterior border of the hard palate is present in some species of Platyrrhinus (e.g., P. lineatus, P. recifinus), Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum (Fig. 6A). In contrast, P. aurarius, P. dorsalis, and P. dorsalis "Norte" have a "V" shaped posterior border of the hard palate (Fig. 6B). Platyrrhinus brachycephalus, P. chocoensis, P. dorsalis "Centro-Sur," P. helleri "Eastern," P. helleri "Western," P. infuscus, P. nigellus, P. vittatus "Northern," P. vittatus "Southern," and Vampyrodes have intraspecific variation for this character, with some individuals possessing the "U" shaped posterior border of the hard palate and other individuals "V" shaped (Fig. 6A-B). Wetterer et al. (2000: character 45) used this character but they scored Platyrrhinus, Vampyrodes, Uroderma, and Sturnira as "-," because they considered that there was a continuous range of intra and interspecific variation among the shape of the posterior border, making it not an useful character. According to my observations, I found some species with intraspecific variation. Owen (1987: character 10) used this character and I do not agree with his scores of Vampyrodes; he indicated that Vampyrodes only has a "U" shaped posterior border of the hard palate, but I also found some individuals having a "V" shaped posterior border of the hard palate. Within Platyrrhinus, he did not find intraspecific variation, but according to my observations Platyrrhinus demonstrates intraspecific variation. Lim (1993: character 4) scored Platyrrhinus, Vampyrodes, and Sturnira as having a hard palate extended into interpterygoidal space, but he did not score the shape of the posterior border of the hard palate in these genera. This character was used by Marques-Aguiar (1994: character 21) and Owen (1991: character 23) in their studies of the systematics of the genus Artibeus and Dermanura, respectively.';
+	TEXT CHARACTER=19 TEXT='A poorly developed postorbital process is present in some species of Platyrrhinus (e.g., P. chocoensis, P. dorsalis) and Sturnira erythromos (Fig. 7A). In Platyrrhinus aurarius, P. helleri "Eastern," P. infuscus, P. recifinus, P. vittatus "Northern," P. vittatus "Southern," and Vampyrodes, the postorbital process is moderately developed (Fig. 7B). Platyrrhinus lineatus, Carollia subrufa, and Uroderma magnirostrum have a well developed postorbital process. In Platyrrhinus dorsalis "Norte," there is intraspecific variation, with individuals having a poorly developed or moderately developed postorbital process (Fig. 7A-B). This character was used by Marques-Aguiar (1994: character 15) in her study of the genus Artibeus.';
+	TEXT CHARACTER=20 TEXT='The paraoccipital process appears moderately developed, about half the size of the mastoid process, in some species of Platyrrhinus (e.g., P. helleri "Eastern," P. nigellus), Carollia subrufa, Sturnira erythromos, and Vampyrodes (Fig. 8B). In Platyrrhinus aurarius, P. infuscus, P. lineatus, P. vittatus "Southern," and Uroderma magnirostrum the paraoccipital process is well developed, almost the same size as the mastoid process (Fig. 8C-D). Platyrrhinus brachycephalus, and P. helleri "Western" have the paraoccipital process poorly developed, scarcely a third of the size of the mastoid process (Fig. 8A). Intraspecific variation is present in P. chocoensis, with the paraoccipital process poorly to moderately developed (Fig. 8A-B). I do not agree with Owen"''s (1987: character 12) score for P. brachycephalus, P. helleri, P. nigellus; he scored them as if they lacked a paraoccipital process. Owen (1987) also scored P. dorsalis and P. infuscus as having minimal development of the paraoccipital process, but according to personal observations P. dorsalis has a moderately developed process (Fig. 8B) and P. infuscus has a well developed paraoccipital process (Fig. 8C). This character has been used by Marques-Aguiar (1994: character 20), Straney (1980: character J-6), and Owen (1987: character 12) in their phylogenetic analyses of Artibeus, Phyllostominae, and Dermanura, respectively.';
+	TEXT CHARACTER=21 TEXT='All species of Platyrrhinus, Carollia subrufa, and Vampyrodes caraccioli lack an apophysis in the paraoccipital process (Fig. 8A-C). In contrast, Sturnira erythromos and Uroderma magnirostrum have an apophysis in the paraoccipital process (Fig. 8D). This character has not been used in any other study.';
+	TEXT CHARACTER=22 TEXT='This fossa is absent or almost imperceptible in some species of Platyrrhinus (e.g., P. helleri "Eastern," P. lineatus), Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes (Fig. 9A). Platyrrhinus dorsalis "Norte," P. infuscus, and P. recifinus have a shallow fossa (Fig. 9B). Platyrrhinus aurarius, and P. dorsalis have a deep fossa (Fig. 9C). Platyrrhinus chocoensis and P. dorsalis "Centro-Sur" present intraspecific variation, some individuals have the fossa on the squamosal end of the zygomatic arch absent or almost imperceptible and others have this fossa shallow. Platyrrhinus nigellus also demonstrate intraspecific variation, with a shallow or deep fossa. This character has not been used in any other study.';
+	TEXT CHARACTER=23 TEXT='This process is located on the posterior face of the sella turcica in the sphenoid bone (Stromsten, 1947). Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack these processes (Fig. 10A). In contrast, all the species of Platyrrhinus and Vampyrodes possess posterior clinoid processes (Fig. 10B).';
+	TEXT CHARACTER=24 TEXT='The upper median incisors are in contact in some species of Platyrrhinus (e.g., P. chocoensis, P. lineatus), Carollia subrufa, Sturnira erythromos, and Vampyrodes. In contrast, Uroderma magnirostrum has the upper median incisors not in contact. Platyrrhinus brachycephalus, P. helleri "Eastern," P. helleri "Western," P. infuscus, and P. recifinus have intraspecific variation.^n';
+	TEXT CHARACTER=25 TEXT='Monolobed upper lateral incisors are present in some species of Platyrrhinus (e.g., P. chocoensis, P. helleri "Eastern"), Carollia subrufa, and Vampyrodes. In contrast, P. dorsalis "Centro-Sur" and Uroderma magnirostrum have bilobed upper lateral incisors. Platyrrhinus brachycephalus, P. dorsalis "Norte," P. helleri "Western," P. infuscus, P. lineatus, P. vittatus "Southern," and Sturnira erythromos have intraspecific variation.';
+	TEXT CHARACTER=26 TEXT='Carollia subrufa and Sturnira erythromos have the P3 aligned along the axis of the toothrow (Fig. 11A). In contrast, all the species of Platyrrhinus, Uroderma magnirostrum, and Vampyrodes have the P3 aligned transversally to the toothrow (Fig. 11B). This character has not been used in any other study.';
+	TEXT CHARACTER=27 TEXT='All the species of Platyrrhinus, Uroderma magnirostrum, and Vampyrodes possess a P3 slightly bigger than half the size of P4. Carollia subrufa and Sturnira erythromos have a P3 almost the same size as P4. This character has not been used in any other study.';
+	TEXT CHARACTER=28 TEXT='All the species of Platyrrhinus, Uroderma magnirostrum, and Vampyrodes have two stylar cusps on the posterior face of P4 (Fig. 12). In contrast, Carollia subrufa and Sturnira erythromos do not possess two stylar cusps on P4, although occassionally they exhibit one stylar cusp. I agree with Lim (1993: character 6) in his scores of Platyrrhinus species. I do not agree with Wetterer et al. (2000: character 57) on their scores for Platyrrhinus, because they indicated that this genus only occassionally has the second stylar cusp. According to my observations all the individuals of Platyrrhinus always have two stylar cusps. They also stated that Lim (1993: character 6) did not report the presence of the second stylar cusp for Vampyrodes, when in fact he did report it.';
+	TEXT CHARACTER=29 TEXT='All the species of Platyrrhinus, Uroderma magnirostrum, and Vampyrodes have a sulcus on the posterior face of P4, starting near the accessory cusps and ending at the tip of P4. In contrast, Carollia subrufa and Sturnira erythromos lack this sulcus. This character has not been used in any previous study.';
+	TEXT CHARACTER=30 TEXT='All the species of Platyrrhinus have a sulcus on the anterior face of P4, starting near the cingulum and ending at the tip of P4. In contrast, Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes lack this sulcus on the anterior face of P4. This character has not been used in any previous study.';
+	TEXT CHARACTER=31 TEXT='The fossa of the hypoconal basin of P4 is deep in some species of Platyrrhinus (e.g., P. recifinus, P. vittatus "Southern"). In contrast, P. aurarius, P. chocoensis, P. helleri "Eastern," P. lineatus, Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum have a shallow fossa. Platyrrhinus brachycephalus, P. dorsalis, P. dorsalis "Norte," P. dorsalis "Centro-Sur," P. helleri "Western," P. nigellus, and Vampyrodes have intraspecific variation. This character has not been used by other researchers.';
+	TEXT CHARACTER=32 TEXT='The M1 parastyle is present in some species of Platyrrhinus (e.g., P. helleri "Eastern," P. recifinus). In contrast, other species of Playtrrhinus (e.g., P. aurarius, P. chocoensis), Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes lack the parastyle on M1. Platyrrhinus lineatus has intraspecific variation. Straney (1980: character: K 27) used this character in his phylogeny of the Phyllostominae.';
+	TEXT CHARACTER=33 TEXT='The mesostyle on M1 is absent in some species of Platyrrhinus (e.g., P. chocoensis, P. dorsalis), Carollia subrufa, and Sturnira erythromos. In contrast, P. vittatus "Southern," Uroderma magnirostrum, and Vampyrodes possess a mesostyle on M1. Platyrrhinus brachycephalus, P. helleri "Eastern," P. helleri "Western," P. infuscus, P. dorsalis "Norte," and P. nigellus have intraspecific variation.';
+	TEXT CHARACTER=34 TEXT='Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack the labial cingulum on the base of the M1 metacone. Platyrrhinus brachycephalus, P. helleri "Eastern," P. helleri "Western," P. recifinus, and Uroderma magnirostrum have the labial cingulum without a stylar cusp. In contrast, a stylar cusp on the labial cingulum of the M1 metacone is present in some species of Platyrrhinus (e.g., P. chocoensis, P. infuscus) and Vampyrodes. Platyrrhinus lineatus and P. nigellus have intraspecific variation, as some indivuals have a stylar cusp on the labial cingulum of the M1 metacone and others lack this stylar cusp. This character has not been used by other researchers.^n';
+	TEXT CHARACTER=35 TEXT='All the species of Platyrrhinus, Uroderma magnirostrum, and Vampyrodes have a sulcus on the posterior face of the M1 paracone. In contrast, Carollia subrufa and Sturnira erythromos lack this sulcus on M1.';
+	TEXT CHARACTER=36 TEXT='Carollia subrufa, Sturnira erythromos, and Vampyrodes lack the lingual cingulum on the M1 metacone. A stylar cusp is present on the cingulum of the lingual face of the M1 metacone in some species of Platyrrhinus (e.g., P. infuscus, P. lineatus). In contrast, P. helleri "Eastern," P. helleri "Western," P. recifinus, and Uroderma magnirostrum lack this stylar cusp. Platyrrhinus brachycephalus, P. chocoensis, P. dorsalis, and P. nigellus have intraspecific variation, some indivuals have a stylar cusp on the lingual cingulum of the M1 metacone and others lack this stylar cusp. This is the first use of this character in a phylogenetic analysis.^n';
+	TEXT CHARACTER=37 TEXT='The majority of the Platyrrhinus species (e.g., P. aurarius, P. brachycephalus, P. chocoensis) have this sulcus on the posterior face of the paracone joined to the cingulum of the lingual face of the metacone on M1 (Fig. 13A). In contrast, P. dorsalis "Norte" and Uroderma magnirostrum have the sulcus on the posterior face of the paracone not joined to the cingulum of the lingual face of the M1 metacone (Fig. 13B). Carollia subrufa, Sturnira erythromos, and Vampyrodes caraccioli were scored as "-" because they lack the cingulum on the lingual face of the M1 metacone. This character has not been used by other researchers.';
+	TEXT CHARACTER=38 TEXT='The metastyle on M1 is present in the majority of Platyrrhinus species (e.g., P. dorsalis, P. dorsalis "Norte"), Carollia subrufa, and Vampyrodes. In contrast, Sturnira erythromos and Uroderma magnirostrum lack the metastyle on M1. Platyrrhinus brachycephalus, P. chocoensis, P. helleri "Eastern," and P. helleri "Western" have intraspecific variation.';
+	TEXT CHARACTER=39 TEXT='A well developed M1 protocone is present in Platyrrhinus brachycephalus. In contrast, P. chocoensis, P. dorsalis, P. dorsalis "Norte," and P. helleri "Eastern" possess an M1 protocone that is small and blunt. Some species of Platyrrhinus (e.g., P. aurarius, P. infuscus), Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes have a moderately developed protocone on M1. Platyrrhinus vittatus "Northern" has intraspecific variation: some individuals have the protocone with a moderate development and others with a well developed protocone on M1. This character has not been used by other researchers.';
+	TEXT CHARACTER=40 TEXT='The parastyle on M2 is present in all Platyrrhinus species and Vampyrodes. In contrast, Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack a parastyle on M2. This character has not been used in any other study.';
+	TEXT CHARACTER=41 TEXT='The labial cingulum on the M2 paracone is present in some species of Platyrrhinus (e.g., P. brachycephalus, P. chocoensis) and Vampyrodes. In contrast, Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack the labial cingulum on the M2 paracone. Platyrrhinus dorsalis, P. dorsalis "Norte," and P. dorsalis "Centro-Sur" have intraspecific variation. This character has not been used in any other study.';
+	TEXT CHARACTER=42 TEXT='A stylar cusp on the lingual face of the M2 paracone is present in some species of Platyrrhinus (e.g., P. infuscus, P. vittatus "Southern"). In contrast, other species of Platyrrhinus (e.g., P. aurarius, P. brachycephalus), Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes lack this stylar cusp on the lingual face of the M2 paracone. Platyrrhinus chocoensis and P. dorsalis have intraspecific variation. This character has not been used in any other study.';
+	TEXT CHARACTER=43 TEXT='A metastyle on M2 is present in some species of Platyrrhinus (e.g., P. brachycephalus, P. chocoensis) and Uroderma magnirostrum. In contrast, P. vittatus "Southern," Carollia subrufa, Sturnira erythromos, and Vampyrodes lack a metastyle on M2. Platyrrhinus nigellus has intraspecific variation. This character has not been used in any other study.';
+	TEXT CHARACTER=44 TEXT='A stylar cusp on the lingual face of the M2 metacone is present in some species of Platyrrhinus (e.g., P. infuscus, P. vittatus "Southern") and Vampyrodes. In contrast, other species of Platyrrhinus (e.g., P. aurarius, P. chocoensis), Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack a stylar cusp on the lingual face of the M2 metacone. Platyrrhinus dorsalis "Norte," P. dorsalis "Centro-Sur," and P. lineatus have intraspecific variation. This character has not been used in any other study.';
+	TEXT CHARACTER=45 TEXT='Carollia subrufa, Sturnira erythromos, and Vampyrodes lack the lingual cingulum of the M2 metacone. The lingual cingulum of the M2 metacone is continuous to the paracone in Platyrrhinus chocoensis, P. dorsalis, and P. recifinus (Fig. 13A). In contrast, the lingual cingulum of the M2 metacone is restricted to the metacone in some species of Platyrrhinus (e.g., P. brachycephalus, P. vittatus "Southern") and Uroderma magnirostrum (Fig. 13B). Platyrrhinus helleri "Western," P. infuscus, P. lineatus, and P. nigellus have intraspecific variation in this character: some individuals have the lingual cingulum of the M2 metacone restricted to the metacone, whereas others have lingual cingulum of the M2 metacone continuous to the paracone. This character has not been used by other researchers.';
+	TEXT CHARACTER=46 TEXT='A developed hypoconal basin on M2 is present in all the species of Platyrrhinus and Sturnira erythromos. In contrast, in Carollia subrufa, Uroderma magnirostrum, and Vampyrodes the M2 hypoconal basin is rudimentary or small.';
+	TEXT CHARACTER=47 TEXT='Two sulci on the lingual face of the main cone of p4 are present in all the Platyrrhinus species, Uroderma magnirostrum, and Vampyrodes. These sulci originate at the base of the main cone and continue to the tip of the main cone. In contrast, Carollia subrufa and Sturnira erythromos lack these sulci on p4. This character has not been used in any other study.^n';
+	TEXT CHARACTER=48 TEXT='Two cones on the posterior face of p4 are present in all the species of Platyrrhinus and Vampyrodes. Sturnira erythromos and Uroderma magnirostrum have only one cone. Carollia subrufa lack both cones on the posterior face of p4. This character has not been used by other researchers.';
+	TEXT CHARACTER=49 TEXT='Both cingula on p4 are present in the majority of Platyrrhinus species (e.g., P. dorsalis, P. vittatus "Southern"). In Platyrrhinus aurarius, P. chocoensis, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes, only one cingulum is present on p4. Carollia subrufa lack cingula on p4. This character has not been used by other researchers.';
+	TEXT CHARACTER=50 TEXT='Two stylid cusps on the anterior face of the main cone of p4 are present in Platyrrhinus brachycephalus. In Platyrrhinus vittatus "Northern" and Vampyrodes, one and two stylid cusps respectively are present on the antero-lingual face. Platyrrhinus helleri "Eastern" has a single stylar cusp on the anterior face of p4. In contrast, other Platyrrhinus species (e.g., P. aurarius, P. chocoensis), Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack stylid cusps on the anterior face of the main cone of p4. This is the first use of this character in a phylogenetic study.';
+	TEXT CHARACTER=51 TEXT='One or two stylid cusps are present on the posterior face of the main cone of p4 in some species of Platyrrhinus (e.g., P. helleri "Eastern," P. helleri "Western"). In contrast, other species of Platyrrhinus (e.g., P. aurarius, P. chocoensis), Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes lack stylid cusps on the posterior face of the main cone of p4. This character has not been used by other researchers.';
+	TEXT CHARACTER=52 TEXT='Most Platyrrhinus species (e.g., P. aurarius, P. chocoensis), Carollia subrufa, Uroderma magnirostrum, and Vampyrodes lack a paraconid on m1. In contrast, Sturnira erythromos has a paraconid on m1. Platyrrhinus nigellus has intraspecific variation. Wetterer et al. (2000: character 68) used this character in their phylogeny of the Phyllostomidae, but I do not agree on their score for Platyrrhinus. They scored it as a polymorphism (with the paraconid occassionally present). However, my observations indicate that the majority of Platyrrhinus lack the paraconid on m1, as does Vampyrodes.';
+	TEXT CHARACTER=53 TEXT='Both cingula on m1 are present in all the species of Platyrrhinus. In contrast, Carollia subrufa and Sturnira erythromos lack both cingula on m1. Uroderma magnirostrum and Vampyrodes have only the labial cingulum. This character has not been used in any other study.';
+	TEXT CHARACTER=54 TEXT='A stylid cusp on the anterior face of the m1 protoconid is present in all species of Platyrrhinus. In contrast, Carollia subrufa, Sturnira erythromos, Uroderma magnirostrum, and Vampyrodes lack this stylid cusp on the anterior face of the m1 protoconid. This character has not been used in any other study.';
+	TEXT CHARACTER=55 TEXT='A well-developed m1 metaconid is present in Platyrrhinus infuscus, P. lineatus, and Sturnira erythromos. However, other species of Platyrrhinus (e.g., P. aurarius, P. recifinus), Uroderma magnirostrum, and Vampyrodes lack a metaconid on m1. Platyrrhinus dorsalis "Norte," P. vittatus "Northern," P. vittatus "Southern," and Carollia subrufa have a poorly developed m1 metaconid. Platyrrhinus nigellus has intraspecific variation, with some specimens lacking the m1 metaconid and others with it poorly developed. I do not agree with the score of present that Wetterer et al. (2000: character 69) assigned to Vampyrodes because according to my observations, Vampyrodes lacks a metaconid on m1.';
+	TEXT CHARACTER=56 TEXT='The m2 hypoconid is present in Carollia subrufa and Sturnira erythromos. In contrast, the majority of the species of Platyrrhinus (e.g., P. brachycephalus, P. nigellus), Uroderma magnirostrum, and Vampyrodes lack the hypoconid on m2. Platyrrhinus helleri "Eastern" has intraspecific variation. This character has not been used in other studies.';
+	TEXT CHARACTER=57 TEXT='A stylid cusp between the metaconid and protoconid on m2 is present in some species of Platyrrhinus (e.g., P. brachycephalus, P. vittatus "Southern") and Vampyrodes. In contrast, P. chocoensis, P. infuscus, P. recifinus, Carollia subrufa, Sturnira erythromos, and Uroderma magnirostrum lack this stylid cusp between the metaconid and protoconid on m2. This character has not been used in any other study.';
+	TEXT CHARACTER=58 TEXT='Both cingula on m2 are present in the majority of species of Platyrrhinus (e.g., P. brachycephalus, P. infuscus) and Uroderma magnirostrum. In contrast, Vampyrodes has only the labial cingulum, and Carollia subrufa and Sturnira erythromos lack both cingula on m2. Platyrrhinus helleri "Western" has intraspecific variation, with some individuals with both cingula and others with only the labial cingulum. This character has not been used by other researchers.';
+	TEXT CHARACTER=59 TEXT='Platyrrhinus aurarius, P. dorsalis "Norte," P. lineatus, P. nigellus, P. vittatus "Northern," Sturnira erythromos, and Vampyrodes have the third metacarpal shorter that the fifth metacarpal. In Platyrrhinus helleri "Eastern," P. helleri "Western," P. recifinus, and Uroderma magnirostrum, the third metacarpal is longer than the fifth metacarpal. The third metacarpal is subequal to the fifth in P. vittatus "Southern." Platyrrhinus chocoensis, P. dorsalis, P. dorsalis "Centro-Sur," and P. infuscus exhibit intraspecific variation: the third metacarpal can be subequal to or shorter than the fifth metacarpal. Platyrrhinus brachycephalus and Carollia subrufa also have intraspecific variation: the third metacarpal can be subequal to or longer than the fifth metacarpal. Wetterer et al. (2000: character 84) used this character in their phylogeny of the Phyllostomidae; they indicated that in all species of Platyrrhinus, the third metacarpal was subequal in length to the fifth metacarpal. Simmons (1996: character 8) used this character in her phylogeny of the genus Micronycteris.';
+	TEXT CHARACTER=60 TEXT='The posterior edge of the plagiopatagium inserts at the first metatarsal in all the species of Platyrrhinus (e.g., P. helleri "Eastern," P. recifinus), Uroderma magnirostrum, and Vampyrodes. The posterior edge of the plagiopatagium inserts at the ankle region in Carollia subrufa and Sturnira erythromos. Owen (1987: character 6) and Wetterer et al. (2000: character 84) used this character and I agree with the scores assigned to Platyrrhinus and the outgroup. Marques-Aguiar (1994: character 7) used this character in her phylogeny of the genus Artibeus as did Straney (1980: characters G 9-13) in his phylogeny of the subfamily Phyllostominae.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 60;
+      ENDBLOCK;
+      

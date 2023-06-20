@@ -1,0 +1,934 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 15.53.08 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=69;
+    TAXLABELS
+    		'Lepidonotus squamatus'
+		'Dodecaceria concharum'
+		'Dodecaceria sp.'
+		'Thelepus cincinnatus'
+		'Amphitritides harpa'
+		'Marenzelleria viridis'
+		'Polydora giardi'
+		'Augeneriella alata'
+		'Fabricinuda sp.'
+		'Manayunkia athalassia'
+		'Novofabria labrus'
+		'Amphicorina mobilis'
+		'Amphiglen terebro'
+		'Bispira crassicornis'
+		'Bispira manicata'
+		'Bispira porifera'
+		'Bispira serrata'
+		'Branchiomma nt'
+		'Branchiomma nsw'
+		'Branchiomma bairdi'
+		'Branchiomma nigromaculata'
+		'Calcisabella piloseta'
+		'Chone sp.'
+		'Dialychone perkinsi'
+		'Euchone limnicola'
+		'Euchone sp.'
+		'Fabrisabella vasculosa'
+		'Megalomma sp. A'
+		'Myxicola sp.'
+		'Notaulax nsw'
+		'Notaulax qld'
+		'Pseudopotamilla nt'
+		'Pseudopotamilla qld'
+		'Pseudopotamilla monoculata'
+		'Pseudopotamilla nsw'
+		'Eudistylia vancouveri'
+		'Schizobranchia insignis'
+		'Sabella spallanzanii'
+		'Sabella pavonina'
+		'Sabellastarte australiensis'
+		'Sabellastarte nt'
+		'Sabellastate vic'
+		'Sabellastarte indonesia'
+		'Stylomma palmatum'
+		'Myriochele sp.'
+		'Owenia qld'
+		'Owenia fusiformis'
+		'Crucigera zygophora'
+		'Ditrupa arietina'
+		'Hydroides sp.'
+		'Pomatoceros triqueter'
+		'Spirobranchus lima'
+		'Protolaeospira tricostalis'
+		'Protula paliata'
+		'Protula tubularia'
+		'Gunnarea capensis'
+		'Idanthyrsus australiensis'
+		'Idanthyrsus pennatus'
+		'Sabellaria alveolata'
+		'Lamellibrachia columna'
+		'Osedax frankpressi'
+		'Ridgeia piscesae'
+		'Riftia pachyptila'
+		'Sclerolinum brattstromi'
+		'Siboglinum fiordicum'
+		'Scoloplos armiger'
+		'Phylo norvegica'
+		'Flabelligera affinis'
+		'Diplocirrus glaucus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=135;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Prostomium'
+		 [2] 'Shape of prostomium'
+		 [3] 'Prostomial palps'
+		 [4] 'Prostomial palps, number'
+		 [5] 'Prostomial antennae'
+		 [6] 'Number and arrangements of prostomial antennae'
+		 [7] 'Prostomial eyes'
+		 [8] 'Radiolar lobes'
+		 [9] 'Lobes'
+		 [10] 'Number of radioles'
+		 [11] 'Branching radioles'
+		 [12] 'Palmate membrane'
+		 [13] 'Radiolar flanges'
+		 [14] 'Stylodes'
+		 [15] 'Radiolar skeleton axis cells'
+		 [16] 'Radiolar skeleton type'
+		 [17] 'Radiolar eyes'
+		 [18] 'Radiolar eyes arrangement'
+		 [19] 'Pinnules'
+		 [20] 'Branchial hearts'
+		 [21] 'Dorsal basal flanges'
+		 [22] 'Joint in dorsal basal flanges'
+		 [23] 'Ventral basal flanges'
+		 [24] 'Ventral radiolar appendages'
+		 [25] 'Ventral radiolar filamentous appendages'
+		 [26] 'Ventral radiolar filamentous appendages type'
+		 [27] 'Operculum'
+		 [28] 'Dorsal lips'
+		 [29] 'Dorsal radiolar appendages'
+		 [30] 'Radiolar appendage skeleton'
+		 [31] 'Dorsal pinnular appendages'
+		 [32] 'Ventral lips'
+		 [33] 'Ventral sacs'
+		 [34] 'Position of ventral sacs'
+		 [35] 'Parallel lamellae'
+		 [36] 'Nuchal organs'
+		 [37] 'Type of nuchal organs'
+		 [38] 'Persitomium'
+		 [39] 'Peristomial palps'
+		 [40] 'Number of persitomial palps'
+		 [41] 'Peristomial  palp pinnules'
+		 [42] 'Peristomial eyes'
+		 [43] 'Anterior peristomial ring collar'
+		 [44] 'Anterior peristomial ring'
+		 [45] 'Posterior peristomial ring collar'
+		 [46] 'Dorsal margin or posterior peristomial ring collar'
+		 [47] 'Ventral incision'
+		 [48] 'Tentacualr cirri'
+		 [49] 'Obturaculum'
+		 [50] 'Vestimentum'
+		 [51] 'Frenulum'
+		 [52] 'Trophosoma'
+		 [53] 'Epidermal papillae'
+		 [54] 'Body covering or tunic'
+		 [55] 'Anterior end'
+		 [56] 'Cephalic cage'
+		 [57] 'Glandular girdle on segment 2'
+		 [58] 'Thoracic membrane, anterior segments'
+		 [59] 'Ventral glandular areas'
+		 [60] 'Interamal eyespots'
+		 [61] 'Chaetal inversion'
+		 [62] 'Inverted faecal groove'
+		 [63] 'Parapodia'
+		 [64] 'Parapodia on same segment'
+		 [65] 'Dorsal cirri'
+		 [66] 'Ventral cirri'
+		 [67] 'Aciculae'
+		 [68] 'Compound chaetae'
+		 [69] 'Thoracic chaetal fascicles (notopodia)'
+		 [70] 'Thoracic neuropodia'
+		 [71] 'Notochaetae in first chaetiger'
+		 [72] 'neuro chaetae in first chaetiger'
+		 [73] 'Superior thoracic notochaetae'
+		 [74] 'Superior thoracic notochaetae shape'
+		 [75] 'Inferior thoracic chaetae'
+		 [76] 'Inferior thoracic notochaetae shape'
+		 [77] 'Anterior row (or group) of inferior thoracic notochaetae'
+		 [78] 'Thoracic uncini/hooks'
+		 [79] 'Arrangement of thoracic hooks/uncini'
+		 [80] 'Rostrum/Main fang'
+		 [81] 'Capitium presence'
+		 [82] 'Thoracic uncini teeth'
+		 [83] 'Rows of teeth on thoracic uncini'
+		 [84] 'Thoracic uncini wih rows on only one tooth above main fang'
+		 [85] 'Thoracic uncini breast'
+		 [86] 'Developemnet of thoracic uncini breast'
+		 [87] 'Thoracic uncini handle/manubrium'
+		 [88] 'Length handles/manubrium'
+		 [89] 'Companion chaetae'
+		 [90] 'Number of abdominal chaetigers'
+		 [91] 'Opisthosoma'
+		 [92] 'Abdominal neurochaetal tori'
+		 [93] 'Abdominal neurochaetal fascicles'
+		 [94] 'Superior row of abdominal neuropodial fascicles'
+		 [95] 'Inferior row of abdominal neurochaetal fascicles,'
+		 [96] 'Superior row of abdominal neurochaetal fascicles'
+		 [97] 'Inferior row of abdominal chaetae'
+		 [98] 'Uncini in abdominal neuropodia'
+		 [99] 'Arrangement of abdominal hooks/uncini'
+		 [100] 'Abdominal unicini main fang'
+		 [101] 'Capitium'
+		 [102] 'Abdominal uncini numer of rows'
+		 [103] 'Uncini breast'
+		 [104] 'Abdominal uncini breast'
+		 [105] 'Abdominal unini handle'
+		 [106] 'Length of uncini handles'
+		 [107] 'Anal depresion'
+		 [108] 'Pygidial shape'
+		 [109] 'Pygidial cirri'
+		 [110] 'Pygidial eyes'
+		 [111] 'Caudal region'
+		 [112] 'Mouth'
+		 [113] 'Jaws'
+		 [114] 'Dorsolateral folds'
+		 [115] 'Ocluded gut'
+		 [116] 'Gut'
+		 [117] 'Gular membrane'
+		 [118] 'Sexual mode'
+		 [119] 'Gamete distribution'
+		 [120] 'Brooding'
+		 [121] 'Brooding type'
+		 [122] 'Spermiogenesis'
+		 [123] 'Sperm packaging'
+		 [124] 'Larva'
+		 [125] 'Feeding larvae'
+		 [126] 'Lateral organs'
+		 [127] 'Segmental nephridia'
+		 [128] 'Nephridia'
+		 [129] 'Intraepidermal cord'
+		 [130] 'Branchiae'
+		 [131] 'Arrangement of branchiae'
+		 [132] 'Shape of branchiae'
+		 [133] 'Building organ'
+		 [134] 'Tube'
+		 [135] 'Tube material'
+	;
+	STATELABELS
+		1
+		'distinct'
+		'fused to peristomium'
+		'frontal edge fused to peristomium'
+		,
+		2
+		'lobed-ridge-shaped'
+		'limited to palps'
+		'conical'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'paired'
+		'multiple'
+		'crown with radioles'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'median'
+		'lateral'
+		'median and lateral'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'separated'
+		'fused dorsally'
+		,
+		9
+		'semicircular or slightly involuted'
+		'spiral'
+		,
+		10
+		'few (<3)'
+		'many (>3)'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent (or very reduced)'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'one or two'
+		'four'
+		'more than  four'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'ocelli'
+		'unpaired terminal compound eyes on inner peduncule'
+		'unpaired compound eyes on inner radiolar margin without peduncle'
+		'paired compound eyes'
+		'cluster of eyes in the base of dorsalmost radioles'
+		,
+		19
+		'alternating'
+		'paired'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'vascularised, unbranched'
+		'vescularised, branched'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'inside the branchial crown'
+		'outside the branchial crown'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'pits or grooves'
+		'two posterior proyections'
+		'caruncle'
+		,
+		38
+		'lips only'
+		'extended upper and lower lips'
+		'one ring'
+		'two rings'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'paired'
+		'single'
+		'multiple'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'low, even in heigh'
+		'wide ventral triangular lobe'
+		'narrow ventral triangular lobe'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'widelly separated'
+		'fused to the faecal groove'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'pesent as a continuous ridge'
+		'scattered plaques only'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'non retractile'
+		'retractile'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent or undiferenciated'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'similar rami'
+		'noto and neuropodia difering'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'transverse rows'
+		'longitudinal bundles'
+		'irregular bundles'
+		,
+		70
+		'short, truncate cylinders'
+		'lobe like'
+		'tori'
+		'chaetae from body wall'
+		'low ridges'
+		'conical'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'elongate, narrowly hooded'
+		'broadly hooded'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'broadly hooded'
+		'paleate'
+		'spine-like'
+		'narroly hooded'
+		'serrated ca`pillaries'
+		'hooks'
+		'camerate chaetae'
+		'capilarri barred chaetae'
+		,
+		77
+		'absent'
+		'bayonet'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'single rows'
+		'double rows'
+		'dense fields'
+		'form rings'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'equal size'
+		'unequal size'
+		,
+		83
+		'one to 5'
+		'more then 5(numerous)'
+		,
+		84
+		'absent (various teeth per row)'
+		'present (one tooth per row)'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'slightly developped'
+		'well developed'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'very long'
+		'medium length'
+		'short'
+		,
+		89
+		'absent'
+		'present (in all chaetigers)'
+		'present in some chaetigers'
+		,
+		90
+		'three'
+		'numerous'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'transverse ridges'
+		'conical lobes'
+		'low, circular elevations'
+		'strait from body wall'
+		'several lobes'
+		,
+		93
+		'transverse row(s)'
+		'spiralled'
+		'irregular bundles'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'elongated narrowlly hooded'
+		'paleate'
+		'spine-like'
+		'broadly hooded'
+		'capilaries'
+		'stout and spinous'
+		,
+		97
+		'elongate needlelike'
+		'elongate narrowly hooded'
+		'spinlike'
+		'broadly hooded'
+		'denticulated capillaries'
+		'flat-trumpet shaped'
+		'stourt and spinous'
+		'paleate'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'single rows'
+		'double rows'
+		'desnde fields'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'few (1-5)'
+		'numerous (>5)'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'small, poorly developed'
+		'well developed, expanded'
+		'narrow, swelling'
+		'proximal manubrium'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'short'
+		'medium'
+		'long'
+		,
+		107
+		'absent'
+		'present'
+		,
+		108
+		'papila'
+		'rim'
+		'biloved'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'absent'
+		'present'
+		,
+		112
+		'axial probioscis'
+		'simple tube'
+		'ventral buccal organ'
+		,
+		113
+		'absent'
+		'present'
+		,
+		114
+		'absent'
+		'present'
+		,
+		115
+		'absent'
+		'present'
+		,
+		116
+		'strait'
+		'looped'
+		,
+		117
+		'absent'
+		'present'
+		,
+		118
+		'gonochoric'
+		'hermafrodites'
+		,
+		119
+		'abdomen'
+		'thorax and abdomen'
+		'thorax'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'intratubular'
+		'extratubular jelly mass'
+		,
+		122
+		'tethreads'
+		'cyt with > 100'
+		'cyt with < 100'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'trocophora'
+		'mitraria'
+		,
+		125
+		'planctotrophic'
+		'lecitotrophic'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'several'
+		'single pair oprning into the first segment'
+		,
+		128
+		'protonephridia'
+		'metanephridia'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present'
+		,
+		131
+		'dorsal, along the body'
+		'Pairs on anterior segments'
+		'Anterior cluster'
+		,
+		132
+		'simple filaments'
+		'multiple filaments'
+		'laminate'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'absent'
+		'present'
+		,
+		135
+		'mucus'
+		'chitinous'
+		'calcareous'
+		
+	;
+	MATRIX
+	'Lepidonotus squamatus'		                0?10121---?------------------------1001000-----10000000000000011111005100-1400----------0104001-60--------001002100100?0-?00000100--00-
+	'Dodecaceria concharum'		                000-0-0----------------------------1021000-----00000000000000010000003110-1400----------01000114?1010-0-1200000201000010-?001001011000-
+	'Dodecaceria sp.'		                      000-0-0----------------------------1021000-----00000000000000010000003110-1400----------01000114?1010-0-1200000201000010-?001001011000-
+	'Thelepus cincinnatus'		                 20110-0----------------------------1010--0-----00000000000100011000002100-1301011100110-01010110310111111101000201011010-?0010-10111010
+	'Amphitritides harpa'		                  20110-1----------------------------1010--0-----00000000000100011000002100-1301011100110-01010110310111111101000201011010-?0010-10110010
+	'Marenzelleria viridis'		                000-0-1----------------------------1121000-----00000000000000011000001110-1301010---10100100001-1100001012011002010000010????1?10100011
+	'Polydora giardi'		                      000-101----------------------------1221000-----00000000000000011000001110-1301110---10100100001-1100001012011002010000010?0001?10100011
+	'Augeneriella alata'		                   11120-000000000-0-010-0011010-000-01030--1110--0000000000000111100000210101001011100101000000?101100111010000101000000210100101100--010
+	'Fabricinuda sp.'		                      11120-000000000-0-010-0010000-000-01030--1100--0000000000000111100000210101001011100101000000?101100111010000?01000000210100101100--010
+	'Manayunkia athalassia'		                11120-000000000-0-010-0010010-000-01030--1100--0000000000000111100000210101001011100101000000?101100111010000001000000210100101100--010
+	'Novofabria labrus'		                    11120-000000000-0-010-000-010-000-01030--1110--0000000000000111100000210101301011100101000000?101100111010000?01000000210100101100--010
+	'Amphicorina mobilis'		                  11120-01000110100-100-010-0110010-01030--1121110000000001000111100000210101311011100101001000110110111100-000101000000110000101100--010
+	'Amphiglen terebro'		                    11120-01010000100-000-100-0110000-01030--1100--00000000000101111000002101111010110001010110001133101111111000101000001010200101100--010
+	'Bispira crassicornis'		                 11120-1101011012130000000-0111?11111030--0121010000000000011111100001210101201011010111111011110210111111001000100000000-000101100--010
+	'Bispira manicata'		                     11120-110101101213000-000-0111011111030--012101000000000001111110000121010120101101011111101111021011111100100010000000??000101100--010
+	'Bispira porifera'		                     11120-01110110120-0010000-0111111111030--012101000000000001111110000121010120101101011111101111021011111100100010000000??000101100--010
+	'Bispira serrata'		                      11120-1101011012130010000-0111111111030--012101000000000001111110000121010120101110011111101111021011011100200010000000??000101100--010
+	'Branchiomma nt'		                       11120-110101011113000-000-0111111111030--0121010000000000011111100001210101201011000111201011110210110111002010100000?00-000101100--010
+	'Branchiomma nsw'		                      11120-110101011113000-000-0111111111030--0121010000000000011111100001210101201011000111201011110210110111002010100000?00-000101100--010
+	'Branchiomma bairdi'		                   11120-110101011113000-000-0111111111030--0121010000000000011111100001210101201011000111201011110210110111002010100000?00-000101100--010
+	'Branchiomma nigromaculata'		            11120-110101011113000-000-0111111111030--0121010000000000011111100001210101201011000111201011110210110111002010100000100-000101100--010
+	'Calcisabella piloseta'		                11120-01010010110-?00-010-01?-01??11030--0121010000000000010111100000210101301011110110-21000110010111110-02000100000????????01100--010
+	'Chone sp.'		                            11120-01010110110-100-010-01???10-01030--0121100000000001000111100000210101011011??01010010001101101101?0-0000010000001???00101100--010
+	'Dialychone perkinsi'		                  11120-01010110100-100-010-0110010-01030--0121100000000001000111100000210101011011100101001000110110110110-0000010000001???00101100--010
+	'Euchone limnicola'		                    11120-01010110100-100-010-0110110-01030--012111000000000100011110000021010101101101010100100011011011010101000010000001???00101100--010
+	'Euchone sp.'		                          11120-01010110100-100-010-0110110-01030--012111001000000100011110000021010101101101110100100011011011010101000010000001???00101100--010
+	'Fabrisabella vasculosa'		               11120-01010000100--00-010-010-011001030--0121110000000001010111100000210101101011110101001000110110111121000000100000?1???00?01100--010
+	'Megalomma sp. A'		                      11120-110100001212000-000-0110?11011030--0101110000000000010111100000210101001011010111111000113310111111101000100000000-000101100--010
+	'Myxicola sp.'		                         11120-01010110100-000-010-0110010-01030--0120--0000000001010111100002210101301011000101001022110010110110-000?0100000010-000101100--010
+	'Notaulax nsw'		                         11120-1101011011100010100-0111010-11030--010110000000000001011110000021011110101101011111100011071011111100?000100000000-000101100--010
+	'Notaulax qld'		                         11120-1101011011100010100-0111010-11030--010110000000000001011110000021011110101101011111100011071011111100?000100000000-000101100--010
+	'Pseudopotamilla nt'		                   11120-11010000121?0010100-0110111011030--0101110000000000010111100000210101101011010111111000113310111121002010100000000-?00101100--010
+	'Pseudopotamilla qld'		                  11120-11010000121?0010100-0110111011030--0101110000000000010111100000210101101011010111111000113310111121002010100000000-?00101100--010
+	'Pseudopotamilla monoculata'		           11120-11010000121?0010100-0110111011030--0101110000000000010111100000210101101011010111111000113310111121002010100000000-?00101100--010
+	'Pseudopotamilla nsw'		                  11120-11010000121?0010100-0110111011030--0101110000000000010111100000210101101011010111111000113310111121002010100000000-?00101100--010
+	'Eudistylia vancouveri'		                11120-111110001?1?1010?00-011?111011030--01010100000000000101111000002101?110101101011111100011331011111120?0?0100000000-0?0101100--010
+	'Schizobranchia insignis'		              11120-110110001?1?1010?00-011?111011030--01010100000000000101111000002101?110101101011111100011331011111120?0?0100000000-0?0101100--010
+	'Sabella spallanzanii'		                 11120-01110100110-000-000-0111011111030--0121010000000000011111100001210101201011010111111011110210111111001000100000100-000101100--010
+	'Sabella pavonina'		                     11120-01110100110-000-000-0111011111030--0121010000000000011111100001210101201011010111111011110210111111001000100000100-000101100--010
+	'Sabellastarte australiensis'		          11120-01110100120-0010000-0111011011030--0101110000000000011111100001210101201011010111101011110210111111101010100000100-000101100--010
+	'Sabellastarte nt'		                     11120-01110100120-0010000-0111011011030--0101110000000000011111100001210101201011010111101011110210111111101010100000100-000101100--010
+	'Sabellastate vic'		                     11120-01110100120-0010000-0111011011030--0101110000000000011111100001210101201011010111101011110210111111101010100000100-000101100--010
+	'Sabellastarte indonesia'		              11120-01110100120-0010000-0111011011030--0101110000000000011111100001210101201011010111101011110210111111101010100000100-000101100--010
+	'Stylomma palmatum'		                    11120-1101011012110011000-0110011011030--0121010000000000011111100001210101201011010111111011110210111111001000100000?0???00101100--010
+	'Myriochele sp.'		                       020-0-0---0------------------------1020--1?-?--00000000000000011000022100-14002010000-100103001-4120100-1202000?0100???????1000110--010
+	'Owenia qld'		                           0???0-0---0------------------------1020--1?-?--00000000000000011000022100-14002010000-100103001-4120100-1202000201000010-?01000110--010
+	'Owenia fusiformis'		                    0???0-0---0------------------------1020--1?-?--00000000000000011000022100-14002010000-100103001-4120100-1202000201000010-?01000110--010
+	'Crucigera zygophora'		                  11120-000100000-0-000-000-110-000-01030--01010000000000001001111000002100-1301011011110-0100001-510011100-0?000100000000-000001100--012
+	'Ditrupa arietina'		                     11120-000101000-0-000-000-110-100-01030--01010100000000001001111000002100-1301011011110-0100001-010011100-0?000100000000-000001100--012
+	'Hydroides sp.'		                        11120-001100000-0-000-000-110-100-01030--01010000000000001001111000002100-1301011011110-0100001-510011100-0?000100000000-000001100--012
+	'Pomatoceros triqueter'		                11120-000101000-0-000-000-110-000-01030--01010000000000001001111000002100-1301011011110-0100001-010011100-02000100000000-000001100--012
+	'Spirobranchus lima'		                   11120-101101000-14000-000-110-100-01030--01010000000000001001111000002100-1301011011110-0100001-010011100-0?000100000000-000001100--012
+	'Protolaeospira tricostalis'		           11120-000?0?000-0-?00-000-110-?00-01030--01010000000000001001111000002100-13?10110?1110-0100001-310011100-0?0001000000010??0101100--012
+	'Protula paliata'		                      11120-101101000-10000-000-010-000-01030--01010000000000001001111000002100-1301011010110-0100001-010011100-0?000100000000-000101100--012
+	'Protula tubularia'		                    11120-101101000-10000-000-010-000-01030--01010000000000001001111000002100-1301011010110-0100001-010011100-0?000100000000-000101100--012
+	'Gunnarea capensis'		                    000-0-0----------------------------1001000-----000000000?000?011010000110-1100----------0100001-?0--------01001100000000??0000010100110
+	'Idanthyrsus australiensis'		            000-0-0----------------------------1001000-----000000000?000?011010000110-1100----------0100001-?0--------01001100000000-00000010100110
+	'Idanthyrsus pennatus'		                 000-0-0----------------------------1001000-----000000000?000?011000000110-1100----------0100001-?0--------01001100000000-00000010100110
+	'Sabellaria alveolata'		                 000-0-1----------------------------1001000-----000000000?000?011010000100-1100----------0100001-?0--------01001100000000-00000010100110
+	'Lamellibrachia columna'		               210-0-0----------------------------0-?1210-----0111100001000000-0000--000-0-003010100-100103001-?1011?0-1200000100100020-?10100110--011
+	'Osedax frankpressi'		                   ?10-0-0----------------------------0-21210-----000100000?000000-0000--000-0-003010000-100?03001-?110100-1200000100100020-?1010??10--00-
+	'Ridgeia piscesae'		                     110-0-0----------------------------0-?1210-----0111100001000000-0000--000-0-003010100-100110001-?101110-1200000100100020-?10100110--011
+	'Riftia pachyptila'		                    110-0-0----------------------------0-?1210-----0111100001000000-0000--000-0-003010100-100113001-?111110-1200000100100020-?10100110--011
+	'Sclerolinum brattstromi'		              000-0-0----------------------------0-21000-----0001100001000000-0000--000-0-003010100-100113001-?1001?0-1200000100100020-?10100010--011
+	'Siboglinum fiordicum'		                 000-0-0----------------------------0-21110-----0001100001010000-000003000-15011010110-100110001-?110110-1200000100100020-?10100010--011
+	'Scoloplos armiger'		                    020-0-1----------------------------1020--0-----00000000000000010000004000-1600----------0100001-?0--------01100201000000-?00?101010-00-
+	'Phylo norvegica'		                      020-0-0----------------------------1020--0-----00000000000000010000004000-1600----------0100001-60--------011002010000011?001101010-00-
+	'Flabelligera affinis'		                 0?0-0-1----------------------------1001000-----00000111100000010000104110-1700----------0102001-40--------0000020101002???001111012200-
+	'Diplocirrus glaucus'		                  0?100-1----------------------------1000--0-----00000111100000010000004110-1700----------0102001-40--------000002010100????001111012200-
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Rouse & Fauchald 1997, Rousset et al 2004';
+	TEXT CHARACTER=2 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=4 TEXT='Rouse &Fauchald 1997, Rousset et al 2004';
+	TEXT CHARACTER=19 TEXT='See Tovar-Hernandez in press and Cochrane 2003';
+	TEXT CHARACTER=29 TEXT='Modified from Fitzhugh 2003)';
+	TEXT CHARACTER=38 TEXT='Rouse & Pleijel 2001, Rousset et al 2004';
+	TEXT CHARACTER=40 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=41 TEXT='Rousset et al 2004 (based on Rouse 2001 and Schulze 2003) for Siboglinids';
+	TEXT CHARACTER=50 TEXT='Rouse 2001, Rousset et al 2004';
+	TEXT CHARACTER=51 TEXT='Rouse 2001, Rousset et al 2004';
+	TEXT CHARACTER=65 TEXT='Rousset et al 2004 (there is a mistake in their matrix)';
+	TEXT CHARACTER=71 TEXT='Modified from Rousset et all 2004';
+	TEXT CHARACTER=79 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=80 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=81 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=82 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=89 TEXT='Rouse & Fitzhugh 1999, Rousset et al 2004';
+	TEXT CHARACTER=95 TEXT='Fitzhugh & Rouse 1999';
+	TEXT CHARACTER=96 TEXT='modified from Fitzhugh & Rouse 1999';
+	TEXT CHARACTER=97 TEXT='modified from Fitzhugh & Rouse 1999';
+	TEXT CHARACTER=98 TEXT='modified from fFitzhugh & Rouse 1999';
+	TEXT CHARACTER=112 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=116 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=117 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=118 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=119 TEXT='Blake & Arnofsky 1999';
+	TEXT CHARACTER=124 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=125 TEXT='Rousset et al 2004';
+	TEXT CHARACTER=127 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=130 TEXT='Rouset et al. 2004';
+	TEXT CHARACTER=133 TEXT='Rousset et al, 2004 (there is a mistake in this paper)';
+	TEXT CHARACTER=134 TEXT='Rousset et al. 2004';
+	TEXT CHARACTER=135 TEXT='Rousset et al. 2004';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 135;
+      ENDBLOCK;
+      BEGIN SETS;
+CHARSET crown = 9 10 12 13 14 15 18 19 21 23 24 ;
+ENDBLOCK;

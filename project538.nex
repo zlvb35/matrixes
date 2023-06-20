@@ -1,0 +1,163 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-26 22.33.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+    		'Leonodus'
+		'Antarctilamna'
+		'Phoebodus'
+		'Diplodoselache'
+		'Hagenoselache'
+		'Lebachacanthus'
+		'Orthacanthus'
+		'Plicatodus'
+		'Reginaselache'
+		'Triodus'
+		'Xenacanthus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'number of tooth cusps'
+		 [2] 'relative length of lateral vs median cusps'
+		 [3] 'cusp cutting edges (carinae)'
+		 [4] 'cusp cristae'
+		 [5] 'labial nutrient foramina'
+		 [6] 'coronal button'
+		 [7] 'outline of tooth base'
+		 [8] 'prominent basal tubercle'
+		 [9] 'nutrient foramina on basal surface'
+		 [10] 'enameloid layer on teeth'
+		 [11] 'composition of tooth cusps'
+		 [12] 'composition of tooth base'
+		 [13] 'composition of coronal button'
+		 [14] 'dorsal spine'
+		 [15] 'spine cross-section'
+		 [16] 'spine composition'
+		 [17] 'adult spine width/length ratio'
+		 [18] 'Meckel''s cartilage prearticular protuberance'
+		 [19] 'dermal denticles'
+	;
+	STATELABELS
+		1
+		'two'
+		'more than three'
+		'three'
+		,
+		2
+		'no median cusps'
+		'median cusp(s) <half height of lateral cusps'
+		'median cusps shorter but >half height of lateral cusps'
+		'median and lateral cusps equal height'
+		'median cusp higher than lateral cusps (cladodont)'
+		,
+		3
+		'absent'
+		'smooth'
+		'serrated'
+		,
+		4
+		'cristae straight'
+		'wavy vertically oriented cristae'
+		'absent'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'separated from cusps'
+		'close to/contiguous with cusps'
+		,
+		7
+		'subcircular or labiolingually elongate'
+		'mesiodistally elongate'
+		,
+		8
+		'absent'
+		'present, horseshoe shaped'
+		'present, circular with concave depression'
+		'present, circular without depression'
+		,
+		9
+		'large, 1 or 2'
+		'large, >2'
+		'small and few'
+		,
+		10
+		'present on upper half of cusp'
+		'present on whole cusp'
+		'absent'
+		,
+		11
+		'trabecular dentine basal core plus orthodentine'
+		'orthodentine'
+		'trabecular dentine'
+		,
+		12
+		'trabecular dentine'
+		'orthodentine'
+		,
+		13
+		'trabecular dentine dome with orthodentine cap'
+		'orthodentine'
+		'trabecular dentine'
+		,
+		14
+		'present, posterior to neurocranium'
+		'present, articulates with neurocranium'
+		,
+		15
+		'nodose ridged, triangular or laterally compressed'
+		'circular cross-section, double row of denticles ventrally (i.e. along trailing edge)'
+		'dorsoventrally compressed distally, lateral rows of denticles'
+		,
+		16
+		'trabecular dentine with orthodentine outer layer forming ridges'
+		'trabecular dentine, rough surface texture'
+		'trabecular dentine, smooth surface texture'
+		,
+		17
+		'robust, <1:12'
+		'slender, >1:12'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'polyodontode'
+		'monodontode'
+		
+	;
+	MATRIX
+	'Leonodus'		                0000100200000?000?0
+	'Antarctilamna'		           110(0,2)00102(1,2)00?000000
+	'Phoebodus'		               131(0,1)(0,1)0100(1,2)200?????0
+	'Diplodoselache'		          211(0,2)100222001011010
+	'Hagenoselache'		           22001(0,1)0212110?????1
+	'Lebachacanthus'		          21221?02?210?011011
+	'Orthacanthus'		            212210031210011211?
+	'Plicatodus'		              220110021211212211?
+	'Reginaselache'		           2101100102001?11?1?
+	'Triodus'		                 2200110202112122111
+	'Xenacanthus'		             221(0,2)110212(0,2)0212211?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 19;
+      ENDBLOCK;
+      

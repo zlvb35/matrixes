@@ -1,0 +1,315 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 17.06.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=42;
+    TAXLABELS
+    		'New taxon 1'
+		'Sciadopit'
+		'Ced deo'
+		'Psdlar am'
+		'Larix dec'
+		'Cathaya argyrophylla'
+		'Abiesfirm'
+		'Ketel'
+		'Pn thunbe'
+		'Pstsuga m'
+		'Tsuga mer'
+		'Apple'
+		'Pn arnold'
+		'Pc sitch'
+		'Pc abies'
+		'Pc asper'
+		'Pc crass'
+		'Pc korai'
+		'Pc koya'
+		'Pc meyeri'
+		'Pc obova'
+		'Pc gleh'
+		'Pc jezoe'
+		'Pc engel'
+		'Pc glau'
+		'Pc alcoq'
+		'Pc brach'
+		'Pc maxim'
+		'Pc purp'
+		'Pc orient'
+		'Pc schre'
+		'Pc smith'
+		'Pc brew'
+		'Pc chihua'
+		'Pc wils'
+		'Pc lik'
+		'Pc mex'
+		'Pc torano'
+		'Pc punge'
+		'Pc maria'
+		'Pc omo'
+		'Pc ruben'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=34;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'New character 1'
+		 [2] 'Ovuliferous scale apex'
+		 [3] 'Bract length'
+		 [4] 'Sclerenchyma in pith'
+		 [5] 'Resin canals in pith'
+		 [6] 'Secondary xylem of cone axis'
+		 [7] 'Resin canals in secondary xylem'
+		 [8] 'Number of growth increments in cone axis'
+		 [9] 'Sclerenchyma in inner cortex'
+		 [10] 'Sclerenchyma in outer cortex'
+		 [11] 'Cortical resin canals'
+		 [12] 'Trichomes on the cone axis, scale, or bract base'
+		 [13] 'Origin of bract and scale traces'
+		 [14] 'Scale trace derivation from vasc. cylinder'
+		 [15] 'Scale trace morphology in inner cortex'
+		 [16] 'Origin of resin canals to bract-scale complex from cortical canals'
+		 [17] 'Separation of bract and scale'
+		 [18] 'Abaxial lobe of bract base (or bract-scale complex)'
+		 [19] 'Sclerenchyma in bract'
+		 [20] 'Resin canals of bract and/or those accompanying bract trace.'
+		 [21] 'Bract trace.'
+		 [22] 'Vascular ray in bract trace.'
+		 [23] 'Resin canals to scale at scale base'
+		 [24] 'Resin canals of scale at level of seed body'
+		 [25] 'Resin canals of scale distal to seed body (incl. under wing)'
+		 [26] 'Sclerenchyma of ovuliferous scale'
+		 [27] 'Inerseminal ridge'
+		 [28] 'Scale at right angle to con axis with sharply upturned distal portion'
+		 [29] 'Seed release'
+		 [30] 'Seed wings'
+		 [31] 'Resin vesicles/cavities in seed integument'
+		 [32] 'Ridged sclerotesta'
+		 [33] 'Enlarged parenchyma pad at chalaal end of seed'
+		 [34] 'Ovules per scale'
+	;
+	STATELABELS
+		1
+		,
+		2
+		'thinning distally'
+		'thickening distally (has umbo)'
+		'thickening distally into an apophysis'
+		,
+		3
+		'shorter than scale'
+		'longer than scale'
+		'same length as scale'
+		,
+		4
+		'absent'
+		'present (fibers or sclereids; thick-walled parenchyma excluded)'
+		,
+		5
+		'absent'
+		'present (does not include resin canals assoc. with xylem)'
+		,
+		6
+		'forming a continuous cylinder (=little or moderately dissected)'
+		'in separate strands'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'one'
+		'two'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'uniform in diameter (or slightly dilating near branching points)'
+		'markedly dilated near branching points'
+		'absent'
+		,
+		12
+		'absent'
+		'present (incl. "glandular epidermis"'
+		,
+		13
+		'separate'
+		'united'
+		,
+		14
+		'clearly derived from two lateral strands'
+		'single abaxially concave strand'
+		,
+		15
+		'abaxially concave'
+		'becoming cylindrical after divergence'
+		,
+		16
+		'as a single branch'
+		'two origins'
+		'three separate origins'
+		'four separate origins'
+		'more than four separate origins'
+		'no resin canals'
+		,
+		17
+		'laterally first'
+		'medially first (=  medial pouch )'
+		'all at once'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'two'
+		'more than two'
+		,
+		21
+		'entering free part of bract'
+		'terminating prior to free part of bract'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'adaxial and abaxial to vascular tissue'
+		'absent'
+		,
+		24
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'both abaxial and adaxial to vascular tissue'
+		'abaxial, adaxial, and between vascular bundles'
+		'no resin canals'
+		'abaxial and between vascular bundles'
+		,
+		25
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'both abaxial and adaxial to vascular tissue'
+		'between vascular bundles'
+		'no resin canals'
+		'abaxial, adaxal, and between vascular bundles'
+		'abaxial to and between vascular bundles'
+		'adaxial to and between vascular bundles'
+		,
+		26
+		'both abaxial and adaxial to vascular tissue'
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'absent'
+		'abaxial, adaxial, and between vascular bundles'
+		'abaxial and between vascular bundles'
+		'adaxial and between vascular bundles'
+		,
+		27
+		'absent between seeds'
+		'extending less than half the height of seed.'
+		'extending more than half the height of seed.'
+		'extending between and overarching seeds.'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'by cone spreading'
+		'by abscisssion of scale from axis'
+		,
+		30
+		'absent'
+		'sarcotestal'
+		'formed from ovuliferous scale tissue'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		'present (usu. on abaxial surface of seed, indepdnt of resin cavitie)'
+		,
+		33
+		'absent'
+		'present (in addition to seed wing tissue, which is separate)'
+		,
+		34
+		'one'
+		'two'
+		'three or more'
+		
+	;
+	MATRIX
+	'New taxon 1'		                   ??????????????????????????????????
+	'Sciadopit'		                     ?020010000010001000200117200010002
+	'Ced deo'		                       ?0000101110101030010102004?1121001
+	'Psdlar am'		                     ?10101001101010?00100?235610121001
+	'Larix dec'		                     ?001001001010101100210115010020001
+	'Cathaya argyrophylla'		          ?00000000100010??101102?5010020001
+	'Abiesfirm'		                     ?01101?011?1?1011?1100117001121001
+	'Ketel'		                         ?000000001110111011110222011021001
+	'Pn thunbe'		                     ?10100100110110100110?005410020001
+	'Pstsuga m'		                     ?011001001000101000100115010020001
+	'Tsuga mer'		                     ?001000010000103101100115010021001
+	'Apple'		                         ?001000011000101010100125010020001
+	'Pn arnold'		                     ?100001001001101001100055410020001
+	'Pc sitch'		                      ?000000001000101010100125410020001
+	'Pc abies'		                      ?000000001000101010100125410020001
+	'Pc asper'		                      ?000001011000101010101125410020001
+	'Pc crass'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc korai'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc koya'		                       ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc meyeri'		                     ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc obova'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc gleh'		                       ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc jezoe'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc engel'		                      ?000000001000101010100125420020001
+	'Pc glau'		                       ?000000001000101010101127410020001
+	'Pc alcoq'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc brach'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc maxim'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc purp'		                       ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc orient'		                     ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc schre'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc smith'		                      ?00?0??0?10?0101010?0?12?4?0020001
+	'Pc brew'		                       ?001000011000101010101127410020001
+	'Pc chihua'		                     ?001001001000101010101125410020001
+	'Pc wils'		                       ?001000001000101010101127410020001
+	'Pc lik'		                        ?0000000110001010101011254?0020001
+	'Pc mex'		                        ?001001001000101010100127410020001
+	'Pc torano'		                     ?001000001000101010100125420020001
+	'Pc punge'		                      ?000001001000101010200125410020001
+	'Pc maria'		                      ?000001011000101010101125410020001
+	'Pc omo'		                        ?001001011000101010101125420020001
+	'Pc ruben'		                      ?000001001010101010101125420020001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 34;
+      ENDBLOCK;
+      

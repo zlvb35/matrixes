@@ -1,0 +1,586 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 16.37.34 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=41;
+    TAXLABELS
+    		'Scutigera coleoptrata'
+		'Lithobius forficatus'
+		'Mecistocephalus tahitiensis'
+		'Plutonium zwierleini'
+		'Theatops erythrocephalus'
+		'Theatops posticus'
+		'Cryptops australis'
+		'Cryptops hortensis'
+		'Cryptops spinipes'
+		'Paracryptops weberi'
+		'Kethops utahensis'
+		'Newportia divergens'
+		'Newportia longitarsis stechowi'
+		'Newportia monticola'
+		'Newportia stolli'
+		'Tidops collaris'
+		'Ectonocryptoides quadrimeropus'
+		'Scolopocryptops ferrugineus'
+		'Scolopocryptops spinicaudus'
+		'Dinocryptops miersii'
+		'Scolopendra canidens'
+		'Scolopendra cingulata'
+		'Scolopendra laeta'
+		'Scolopendra morsitans'
+		'Scolopendra oraniensis'
+		'Scolopendra pinguis'
+		'Cormocephalus aurantiipes'
+		'Cormocephalus hartmeyeri'
+		'Cormocephalus rubriceps'
+		'Akymnopellis chilensis'
+		'Arthrorhabdus formosus'
+		'Campylostigmus orientalis'
+		'Scolopendropsis bahiensis'
+		'Notiasemus glauerti'
+		'Asanada brevicornis'
+		'Asanada socotrana'
+		'Otostigmus astenus'
+		'Alipes crotalus'
+		'Ethmostigmus rubripes'
+		'Rhysida nuda'
+		'Edentistoma octosulcatus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=89;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Shape of head capsule'
+		 [2] 'Trochanter on second maxilla'
+		 [3] 'Coxosternite of maxillipede sclerotised in midline'
+		 [4] 'Maxillipede tarsungulum'
+		 [5] 'Position of spiracle'
+		 [6] 'Coxal organs'
+		 [7] 'Four laminae of mandible intersect at cruciform suture'
+		 [8] 'Dorsal brush on tarsus of second maxilla'
+		 [9] 'Tergite of maxillipede segment and first pedigerous segment'
+		 [10] 'Gonopods in female'
+		 [11] 'Hinge between articles of maxillipede telopodite'
+		 [12] 'Number of pedigerous post-maxillipede segments'
+		 [13] 'Segmental distribution of spiracles'
+		 [14] 'Atrium of spiracle covered by tripartite flap'
+		 [15] 'Spiracles with floor of atrium raised into humps'
+		 [16] 'Eyes'
+		 [17] 'Depigmented ocular patches'
+		 [18] 'Setation of basal antennal articles'
+		 [19] 'Antennal sensilla'
+		 [20] 'Basal plates at posterolateral corners of head plate'
+		 [21] 'Structure of claw of second maxillary telopodite'
+		 [22] 'Tooth plates of maxillipedes'
+		 [23] 'Trochanteroprefemoral process on maxillipede'
+		 [24] 'Median embayment in posterior margin of maxillipede coxosternite'
+		 [25] 'Position of poison calyx'
+		 [26] 'Form of posion calyx'
+		 [27] 'Pre- and metatergites'
+		 [28] 'Tergite margination'
+		 [29] 'Crescentic sulci on tergites'
+		 [30] 'Shape of ultimate tergite'
+		 [31] 'Median suture on ultimate tergite'
+		 [32] 'Line of skeletal thickening across sternites originating at coxa'
+		 [33] 'Complete paramedian sutures on sternum'
+		 [34] 'Endosternite'
+		 [35] 'Setae on locomotory legs'
+		 [36] 'Structure of tarsi of locomotory legs'
+		 [37] 'Tarsal spurs of locomotory legs'
+		 [38] 'Tibial spurs of locomotory legs'
+		 [39] 'Coxopleural process of ultimate leg'
+		 [40] 'Dorsomedial prefemoral process on ultimate leg'
+		 [41] 'Strongly thickened, pincer-shaped ultimate leg'
+		 [42] 'Armature of ventral side of prefemur of ultimate leg'
+		 [43] 'Saw teeth on ventral side of ultimate leg tibia and tarsus I'
+		 [44] 'Fan bristles expanded onto lamina dentifera of mandible'
+		 [45] 'Length of mandibular tooth row'
+		 [46] 'Medial labral part of epipharynyx'
+		 [47] 'Medial sclerotisation of labral part of epipharynx'
+		 [48] 'Differentiation of labral bristles'
+		 [49] 'Width of labral bristle field'
+		 [50] 'Node- or spine-like scales across proximal labral part of epipharynx'
+		 [51] 'Curvature of border between labral and clypeal parts of epipharynx'
+		 [52] 'Single row of bullet-shaped sensilla at proximal margin of field of branching spines at border between labral and clypeal part of epipharynx'
+		 [53] 'Sensillar field(s) on clypeal part of epipharynx'
+		 [54] 'Differentiation of a proximomedial cluster of button-shaped sensilla at edge of main sensilla cluster on clypeal part of epipharynx'
+		 [55] 'Elongate / figure-8 shaped group of two smooth scutes surrounding each sensillum on clypeal part of epipharynx'
+		 [56] 'Lid-like cover along distal edge of sensilla on clypeal part of epipharynx'
+		 [57] 'Paired lateral cluster of sensilla on clypeal part of epipharynx'
+		 [58] 'Elongate, distally branching spines with apices directed distomedially on clypeal part of epipharynx'
+		 [59] 'Extent of lateral longitudinal bands of scales on clypeal part of epipharynx'
+		 [60] 'Sensilla on Schlundplatte'
+		 [61] 'Bristles on lateral flap of hypopharynx'
+		 [62] 'Asymmetry of oviducts'
+		 [63] 'Ventral invagination in spermatophore'
+		 [64] 'Orientation of testicular vesicles'
+		 [65] 'Longitudinal median suture on anterior part of T1, bifurcating into two oblique sutures posteriorly'
+		 [66] 'Spinulation of coxopleural process'
+		 [67] 'Gizzard with plicate walls differentiated at posterior end of foregut'
+		 [68] 'Length of foregut'
+		 [69] 'Posteriorly directed spines along plicae of gizzard'
+		 [70] 'Arrangement of posteriorly directed spines on plicae'
+		 [71] 'Plicae covered by scales that each bear a single spine'
+		 [72] 'Posterior lobes in front of cardiac valve on gizzard'
+		 [73] 'Cardiac valve'
+		 [74] 'Posterior part of foregut organised as a sieve with stiff, anterior directed projections'
+		 [75] 'Anterior gizzard projections with pigmented base bearing spinose scales or spines, distal part translucent, tapering, bearing dense hairs'
+		 [76] 'Shape of main zone of sieve projections'
+		 [77] 'Longitudinally patterned bands of trichomes on basal half of sieve projections'
+		 [78] 'Distal half of sieve projections twisted, branching into large, irregularly curved spines that bear small subsidiary spines'
+		 [79] 'Sieve projections covered by multifurcating scales  that spirally encircle the projection, branching into slender, needle-like spines'
+		 [80] 'Antennal shape'
+		 [81] 'Longitudinal groove(s) along dorsal side of femur of ultimate leg'
+		 [82] 'Tarsomeres in tarsus 2 of ultimate leg'
+		 [83] 'Definition of tarsomeres in tarsus 2 of ultimate leg'
+		 [84] 'Ventral spinose processes on ultimate leg femur'
+		 [85] 'Pretarsal claw on ultimate leg'
+		 [86] 'W-shaped sutures on T1'
+		 [87] 'Longitudinal sutures on head plate'
+		 [88] 'Rows of small pineapple-shaped projections at anteriormost part of gizzard sieve lacking kinked tips, bearing short spines along most of their length and coarse spike-like spines at/near their tips'
+		 [89] 'Terminal part of large pineapple-shaped projections of gizzard'
+	;
+	STATELABELS
+		1
+		'domed'
+		'flattened'
+		,
+		2
+		'separated from prefemur'
+		'fused to prefemur with incomplete articulation'
+		,
+		3
+		'coxae separated medially'
+		'coxosternal plates meeting medially, hinge flexible'
+		'midline sclerotised, inflexible'
+		,
+		4
+		'separate tarsus and pretarsus'
+		'tarsus and pretarsus fused'
+		,
+		5
+		'dorsal'
+		'pleural'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'separate tergites'
+		'single tergite'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'absent (entire femur and tibia)'
+		'hinge between trochanteroprefemur and tibia'
+		'hinge between trochanteroprefemur and tarsungulum'
+		,
+		12
+		'15'
+		'21'
+		'23'
+		'47'
+		,
+		13
+		'on macrosegments, excluding segment 7'
+		'on macrosegments, including segment 7'
+		'on all trunk segments except maxillipede and ultimate pedigerous segment'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'humps absent'
+		'humps present'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'basal few articles bear numerous setae dorsally, with setae grading in density as short sensilla become more numerous on more distal articles'
+		'basal few articles glabrous or with few setae dorsally, with abrupt transition to more distal articles that have dense short sensilla'
+		,
+		19
+		'mostly normal trichoid sensilla'
+		'mostly collared sensilla'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'digitiform claw, without accessory spines'
+		'three thick, elongate spines with interspersed thin spines'
+		'robust median claw with pair of slender spines on each side'
+		'pectinate claw'
+		'hook-like claw with ventral flange'
+		'two curved processes, one above the other'
+		'claw lacking'
+		,
+		22
+		'plates absent'
+		'plates with strongly chitinized tooth margins'
+		'strongly chitinized anterior margin of coxosternite without plates'
+		'blunt, hyaline plate, bearing no tooth margin'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'not extending more deeply than into tibia'
+		'extending into distal part of trochanteroprefemur'
+		'extending half length of trochanteroprefemur'
+		'extending into distal part of trochanteroprefemur or to articulation with coxosternum'
+		'extending deeply into coxosternum'
+		,
+		26
+		'straight or arcuate'
+		'serpentine'
+		,
+		27
+		'pretergite incompletely defined'
+		'strong pretergite set off from metatergite by continuous, transverse suture'
+		,
+		28
+		'margins present on more than last tergite'
+		'restricted to last tergite only'
+		,
+		29
+		'absent on all tergites'
+		'present on most tergites'
+		,
+		30
+		'not substantially longer than penultimate tergite'
+		'nearly twice as long as penultimate tergite'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'strong, numerous'
+		'slender, sparse'
+		,
+		36
+		'divided into two articles'
+		'undivided, at least internally'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'spines and spinous processes absent, as on locomotory legs'
+		'spine(s) or spinose process(es) present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present, confined to dorsal part of mandible'
+		'covering entire surface of lamina dentifera'
+		,
+		45
+		'tooth row much more than half length of gnathal edge'
+		'tooth row less than half length of gnathal edge'
+		,
+		46
+		'large median tooth, extensive area between labral bristle bands'
+		'small median tooth, area between labral bristle bands a narrow strip'
+		,
+		47
+		'absent (paired lateral bars)'
+		'sclerotisation continuous from median tooth to border with clypeal part'
+		'sclerotisation confined to region immediately proximal to median tooth, discontinuous with border with clypeal part'
+		,
+		48
+		'narrow band of pectinate bristles laterally, wide band of simple bristles medially'
+		'band of short, simple bristles laterally and longer simple bristles medially'
+		'long, simple bristles across width of band'
+		,
+		49
+		'restricted medially on distal sclerotisation of submarginal armature'
+		'completely covering distal sclerotisation of submarginal armature'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'subtransverse or gently convex distally'
+		'strongly convex distally'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'medial cluster of sensilla proximally, near mouth opening'
+		'crescentic or ovate fields of sensilla laterally'
+		'large field of sensilla across medial clypeal part of epipharynx, separated from spine field by a substantial expanse that bears scattered pores'
+		'band of sensilla medially, immediately proximal to spine field'
+		'lenticular field of sensilla immediately proximal to spine field'
+		,
+		54
+		'absent (sensilla cluster uniform)'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'both groups positioned laterally, widely separated from each other'
+		'positioned medially, with each group closely approximating each other near midline'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'not confluent across midline'
+		'confluent across midline, developed proximomedially as polygonal scales'
+		,
+		60
+		'single grouping of sensilla, continuous across midline'
+		'paired lateral groupings of sensilla'
+		'sensilla absent'
+		,
+		61
+		'lateral flaps lacking tuft of bristles'
+		'discrete tuft of bristles on each lateral flap, median region devoid of bristles, spines or scales'
+		'bristles on each lateral flap confluent across midline, with identical bristles developed in median region'
+		'tuft of bristles on each lateral flap connected by band of scales or short spines across midline'
+		,
+		62
+		'left and right oviducts symmetrical'
+		'left oviduct rudimentary or absent'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'longitudinal, parallel to central deferens duct'
+		'oblique to deferens duct'
+		,
+		65
+		'longitudinal median suture and oblique sutures absent'
+		'longitudinal median suture and oblique sutures present'
+		,
+		66
+		'spine(s) confined to apex or with few dorsal spines markedly separated from apical cluster'
+		'spines scattered along length of long, slender process'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'not extending further than pedigerous trunk segment 2'
+		'extending to pedigerous trunk segment 5'
+		'extending to pedigerous trunk segments 10-16'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'single'
+		'grouped'
+		,
+		71
+		'scales with spines absent'
+		'spine-bearing scales present'
+		,
+		72
+		'absent'
+		'present as one to several rows'
+		,
+		73
+		'entirely enveloped by midgut'
+		'extended cardiac valve largely anterior to midgut'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'evenly curved'
+		'kinked near midlength, with distal part more strongly directed forwards'
+		,
+		77
+		'absent (hairs, if present, not patterned)'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'filiform, gently attenuate'
+		'strongly tapering distally'
+		,
+		81
+		'absent'
+		'single median groove'
+		'paired grooves'
+		,
+		82
+		'undivided tarsus 2'
+		'tarsus 2 with numerous tarsomeres'
+		,
+		83
+		'regular'
+		'irregular'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent, paramedian sutures, when present, either continuous to anterior transverse suture or terminating behind that suture'
+		'present, with paramedian sutures originating at the posterior apices of the W'
+		,
+		87
+		'absent'
+		'median unpaired'
+		'paired'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'projection evenly tapering, tip filamentous'
+		'projection bifid, with a short, conical tip emerging from the notch'
+		
+	;
+	MATRIX
+	'Scutigera coleoptrata'		                   000000000000-0000000600-000?0000000000000000?00000000-0000-0000-0-00----00-----001000?0--
+	'Lithobius forficatus'		                    11111100000000000000100000000000000000000000001000000-00-0-0100-0-00----00-----000-01?0--
+	'Mecistocephalus tahitiensis'		             112111000023200100000010101-0000000100000000-1?21??03-00-0--????0-00----00-----000-01?0--
+	'Plutonium zwierleini'		                    11211111112120111100?11040110110001111001000002201013-0010011??01-120-010100001000-01000-
+	'Theatops erythrocephalus'		                11211111112100011100511031110110001111101100002201013-00100?10?010120-010100001000-01000-
+	'Theatops posticus'		                       11211111112100011100511040110110001111001000002201013-0010011???1-120-010100001000-01000-
+	'Cryptops australis'		                      11211111111100010000420010111001010100000010001200014-0100121???0-120-010100110000-01000-
+	'Cryptops hortensis'		                      11211111112100010000420000111001010100000010001200014-01001211000-120-010100010000-01020-
+	'Cryptops spinipes'		                       11211111112100010000420010111001010100000010001200014-0100121???0-120-010110110000-010200
+	'Paracryptops weberi'		                     11211111112100010000430020111001010100000010001201014-010012????0-120-010100010000-01000-
+	'Kethops utahensis'		                       112111111122000100003200100100000101111000100012010?3-0010011???00120-010111100000-011000
+	'Newportia divergens'		                     11211111112210010000321120111000010111100100002200013-00100?1???00120-0101111000011100211
+	'Newportia longitarsis stechowi'		          112111111122100100003201201110000101011001000022000?3-0010011???00120-0101111000010100210
+	'Newportia monticola'		                     112111111122100100003201201110000101011001000022010?3-0010011?0000120-0101111000010101210
+	'Newportia stolli'		                        11211111112210010000320120111000010111100100002200013-0010011???00120-0101111000011100211
+	'Tidops collaris'		                         11211111112200010000330020111000010101100100002201003-00???21???00120-0101111000010101210
+	'Ectonocryptoides quadrimeropus'		          11211111112210010000320120111000010100100100002200013-00100?1???00120-010111100000-101010
+	'Scolopocryptops ferrugineus'		             11211111112200010110321130000000001111100101002201013-0010011?0000120-010111100000-010000
+	'Scolopocryptops spinicaudus'		             11211111112200010110321131000000001111100101002201013-0010011???00120-010111100000-010000
+	'Dinocryptops miersii'		                    11211111112210010110321131000000001111100101002201013-0010011???00120-010111100000-010000
+	'Scolopendra canidens'		                    1121111111210100010021103000001010101011010100111001211000003?1?0112111100-----000-0100--
+	'Scolopendra cingulata'		                   11211111112101000100211030000010101010110101001110012110000031100012111100-----000-0100--
+	'Scolopendra laeta'		                       1121111111210100010021103000001010101011010100111001201000003???0012111100-----000-0100--
+	'Scolopendra morsitans'		                   11211111112101000100211030000010101010110101001110012010000031100012111110-----000-0100--
+	'Scolopendra oraniensis'		                  1121111111210100010021103000001010101011010100111001211000003???0112111100-----000-0100--
+	'Scolopendra pinguis'		                     1121111111210100010021103000000000101011010100111001201000003???0012111110-----000-0100--
+	'Cormocephalus aurantiipes'		               11211111112101000101211130000010101000110101001110012010000031?00012111100-----000-0102--
+	'Cormocephalus hartmeyeri'		                1121111111210100010121113000000010100011010100111001201000003???0012111000-----000-0100--
+	'Cormocephalus rubriceps'		                 1121111111210100010121113000000010100011010100111001201000003???00121?1100-----000-0102--
+	'Akymnopellis chilensis'		                  1121111111210100010021103000000010100011010100111001201000003?100112101100-----000-0100--
+	'Arthrorhabdus formosus'		                  1121111111210100010021104000001010101011110100111001201000003???0012100100-----000-0100--
+	'Campylostigmus orientalis'		               11211111112101000101?1113000000010100011010211111001200000003???00?????????????000-0102??
+	'Scolopendropsis bahiensis'		               1121111111210100010121103001001010101001110100111001211000003???0-12101100-----000-0101--
+	'Notiasemus glauerti'		                     11211111112101000100211030010000101000100101001200014-0000002???0012111000-----000-0100--
+	'Asanada brevicornis'		                     11211011112101000100011040110000101000001001001210014-1000002???0-12100000-----110-0100--
+	'Asanada socotrana'		                       11211011112101000100011040110000101000001000001210014-1000002???0-12100000-----110-0100--
+	'Otostigmus astenus'		                      11211111112100100100211030000000001011100101001110111-1001002?1100120-1100-----000-0100--
+	'Alipes crotalus'		                         11211111112100100100211030000000001011100001001110111-1000002???00120-1100-----000-0100--
+	'Ethmostigmus rubripes'		                   11211111112110100100210030000000001011100101001110111-100100211100120-1100-----000-0100--
+	'Rhysida nuda'		                            11211111112110100100211030000000001011100101001110111-1000002?1100120-1100-----000-0100--
+	'Edentistoma octosulcatus'		                11211111112110100100021030000000001000101002111110011-1001002???00110-0000-----020-0100--
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 89;
+      ENDBLOCK;
+      

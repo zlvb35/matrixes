@@ -1,0 +1,259 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 17.07.24 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+    		'Limosa'
+		'Glareola'
+		'Stercorarius'
+		'Laricola'
+		'Anous'
+		'Larosterna'
+		'Sterna'
+		'Rynchops'
+		'Xema'
+		'Rhodostetia'
+		'Larus'
+		'Rissa'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=41;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Beak, rostrum maxillar very long, occupying at least one third of the length of the beak:'
+		 [2] 'Skull, os frontale, paired fossae glandulares nasales meeting at midline of skull'
+		 [3] 'Skull, os lacrimale very wide'
+		 [4] 'Skull, orbita, distinct second opening caudal of foramen nervi maxillomandibularis'
+		 [5] 'Skull, processus maxillopalatinus forming a deep concave trough'
+		 [6] 'Skull, maxillopalatine strut A'
+		 [7] 'Skull, maxillopalatine process'
+		 [8] 'Skull, processus suprameaticus'
+		 [9] 'Skull, functional processus basipterygoidei'
+		 [10] 'Skull, fossa temporalis well- marked'
+		 [11] 'Skull, processus laterales parasphenoidales well-developed and ventrally protruding'
+		 [12] 'Skull, fonticuli occipitales'
+		 [13] 'Mandible, strongly developed processus retroarticulares'
+		 [14] 'Mandible, well-developed fenestra caudalis'
+		 [15] 'Mandible, pars caudalis, fossa caudalis'
+		 [16] 'Caudal thoracic vertebrae'
+		 [17] 'Thoracic vertebrae pleurocoelous'
+		 [18] 'Coracoid, foramen nervi supracoracoidei'
+		 [19] 'Coracoid, extremitas sternalis strongly curved in distal (sternal) view, with medial portion of facies articularis sternalis greatly dorsoventrally widened'
+		 [20] 'Furcula, extremitas omalis with subovate facies articularis acrocoracoidea that extends over nearly entire width of scapus claviculae'
+		 [21] 'Furcula, facies articularis acrocoracoidea'
+		 [22] 'Sternum, margo caudalis'
+		 [23] 'Sternum, carina sterni ending distinctly before tip of trabecula intermedia'
+		 [24] 'Humerus, fossa pneumotricipitalis with pneumatic openings'
+		 [25] 'Humerus, transverse ridge at beginning of incisura capitis'
+		 [26] 'Humerus, well-developed second (dorsal) fossa pneumotricipitalis that undercuts caput humeri'
+		 [27] 'Humerus, impressio coracobrachialis very marked, dorsal margin of intumescentia humeri forming a sharp edge'
+		 [28] 'Humerus, crista deltopectoralis, caudal surface'
+		 [29] 'Humerus, fossa musculi brachialis'
+		 [30] 'Humerus, well marked tuberculum ventral to the tuberculum supracondylare dorsale, right next to the fossa m. brachialis'
+		 [31] 'Os carpi ulnare, osseous bridge across caudal end of tendinal furrow of crus longum'
+		 [32] 'Os carpi ulnare, marked tubercle at area of insertion of ligamentum humerocarpale'
+		 [33] 'Phalanx proximalis digiti majoris bifenestrated'
+		 [34] 'Pelvis, recessus caudalis fossae'
+		 [35] 'Femur, distal end, tuberculum musculi gastrocnemialis lateralis very marked'
+		 [36] 'Femur, distal end, crista supracondylaris medialis with distinct caudally projecting tubercle just proximal of condylus medialis'
+		 [37] 'Femur considerably longer than tarsometatarsus'
+		 [38] 'Tarsometatarsus, hypotarsus, tendon of musculus flexor digitorum longus enclosed in bony canal'
+		 [39] 'Three anterior feet fully webbed'
+		 [40] 'Claw of second toe strongly curved'
+		 [41] 'Young'
+	;
+	STATELABELS
+		1
+		'no'
+		'yes'
+		,
+		2
+		'no'
+		'yes'
+		,
+		3
+		'not as follows'
+		'very wide'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'yes'
+		'no'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'not as follows'
+		'fenestrated'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'no'
+		'yes'
+		,
+		11
+		'no'
+		'yes'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'absent'
+		'present but only moderately deep'
+		'present and well-marked'
+		,
+		16
+		'heterocoelous'
+		'opisthocoelous'
+		,
+		17
+		'no'
+		'yes'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'no'
+		'yes'
+		,
+		20
+		'no'
+		'yes'
+		,
+		21
+		'shallow'
+		'deep'
+		,
+		22
+		'with four incisions/fenestrae'
+		'with two incisions'
+		,
+		23
+		'no'
+		'yes'
+		,
+		24
+		'yes'
+		'no'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'no'
+		'yes'
+		,
+		28
+		'concave'
+		'convex'
+		,
+		29
+		'shallow'
+		'deep'
+		,
+		30
+		'yes'
+		'no'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'no'
+		'yes'
+		,
+		33
+		'no'
+		'yes'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'no'
+		'yes'
+		,
+		36
+		'no'
+		'yes'
+		,
+		37
+		'no'
+		'yes'
+		,
+		38
+		'no'
+		'yes'
+		,
+		39
+		'no'
+		'yes'
+		,
+		40
+		'no'
+		'yes'
+		,
+		41
+		'precocial or semi-precocial'
+		'altricial'
+		
+	;
+	MATRIX
+	'Limosa'		                0001110000011000110000011001010100000(0,0,1)000
+	'Glareola'		              00000010111001001010000101000100100000000
+	'Stercorarius'		          01000001100001010010011001100011111000111
+	'Laricola'		              100001001110?11110110??1011010??111000???
+	'Anous'		                 100(0,0,1)010011100111101110000110001?111001100
+	'Larosterna'		            10101110111001211011100100101111101010101
+	'Sterna'		                1010111011100021101110010010111110111(0,0,1)101
+	'Rynchops'		              10101110111000111011100000101110101100101
+	'Xema'		                  01001000111000111011100100101111111000101
+	'Rhodostetia'		           01001000111000111011100100101111111000101
+	'Larus'		                 01001(0,0,1)00111000111011100100101111111000101
+	'Rissa'		                 01001000111000111011100100101111111000101
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 41;
+      ENDBLOCK;
+      

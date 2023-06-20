@@ -1,0 +1,292 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 16.36.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+    		'Priapulus'
+		'Euperipatoides'
+		'Parastygarctus'
+		'Aysheaia'
+		'Megadictyon'
+		'Kerygmachela'
+		'Opabinia'
+		'Pambdelurion'
+		'Anomalocaris'
+		'Laggania'
+		'Hurdia victoria'
+		'Fuxianhuia'
+		'Leanchoilia'
+		'Martinssonia'
+		'Misszhouia'
+		'Olenoides'
+		'Weinbergina'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789AB";
+	CHARLABELS
+		 [1] 'Sclerotization of cuticle into hard, articulated tergal exoskeleton'
+		 [2] 'Number of segments in cephalon and body excluding terminal segment and/or telson'
+		 [3] 'Number of cephalic segments'
+		 [4] 'Mouth position'
+		 [5] 'Orientation of mouth'
+		 [6] 'Radially arranged circumoral structures (papillae, plates, lamellae)'
+		 [7] 'Circumoral structures plate-like, radially arranged, with teeth at inner margins of plates'
+		 [8] 'Structure of mouth part apparatus'
+		 [9] 'Inner rows of teeth within mouth part'
+		 [10] 'Eyes'
+		 [11] 'Eye structure'
+		 [12] 'Eye stalks'
+		 [13] 'Preoral forehead plate (hypostome)'
+		 [14] 'Arcuate anterior sclerite'
+		 [15] 'Weakly sclerotized dorsoanterior carapace(s)'
+		 [16] 'Serially repeated midgut glands'
+		 [17] 'Paired appendages'
+		 [18] 'Arthropodization of any appendage (pivot joints, sclerotized podomeres separated by soft arthrodial membrane)'
+		 [19] 'Form of anteriormost cephalic appendage'
+		 [20] 'Antennal structure'
+		 [21] 'Position of frontal appendage'
+		 [22] 'Frontal appendage structure'
+		 [23] 'Spinose great appendage style'
+		 [24] 'Nature of post-cephalic articulation'
+		 [25] 'Trunk annuli'
+		 [26] 'Trunk annulation'
+		 [27] 'Organization of trunk annulation'
+		 [28] 'Trunk walking legs'
+		 [29] 'Appendicules on lobopod limbs'
+		 [30] 'Number of endopod segments in sclerotized locomotory limbs'
+		 [31] 'Trunk exites/exopods'
+		 [32] 'Form of exite/exopod'
+		 [33] 'Exite with bipartite shaft and lamellar setae attached to margin of proximal lobes'
+		 [34] 'Exite and endopod fused'
+		 [35] 'Anteroposteriorly compressed protopodite with gnathobasic endites in postantennal/post-frontal appendages'
+		 [36] 'Lateral flaps (body extends laterally into imbricated, unsclerotized flaps)'
+		 [37] 'Strengthening rays on lateral flaps'
+		 [38] 'Longitudinal ("gill-like") wrinkling on distal part of flaps'
+		 [39] 'Definition of lateral flaps'
+		 [40] 'Posterior tapering of lateral lobes'
+		 [41] 'Dorsal bands of lanceolate blades'
+		 [42] 'Posterior tagma composed of three paired tail flaps'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'5'
+		'9'
+		'12'
+		'13'
+		'14'
+		'15'
+		'16'
+		'17'
+		'20'
+		'26'
+		'33'
+		,
+		3
+		'1'
+		'2'
+		'3'
+		'4'
+		'5'
+		'7'
+		,
+		4
+		'terminal'
+		'ventral'
+		,
+		5
+		'esophagus directed dorsoventrally'
+		'esophagus directed anteriorly (mouth directed posteriorly)'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'variable number of undifferentiated plates'
+		'32 plates with differentiation of four enlarged plates in a cross arrangement'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'ocellus-like or pigment spots'
+		'large, compound/ommatidial-type'
+		,
+		12
+		'sessile'
+		'stalked'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'reniform, submillimetric lamellar'
+		'radiating tubular diverticula'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'antennae or chelicerae'
+		'frontal appendage'
+		,
+		20
+		'short, relatively few articles, locomotory or feeding form'
+		'long, multiannulated sensorial flagellum'
+		,
+		21
+		'lateral'
+		'ventral'
+		,
+		22
+		'robust with at least one terminal spine and one joint, and fewer than 4 lateral spines'
+		'more than 4 spines developed along inner margin (not confined to tip)'
+		,
+		23
+		'unpaired annulated proboscis-like structure with branching tip'
+		'15 segments with a double row of short ventral spines'
+		'single row of elongated ventral spines with fewer than 15 articles'
+		'annulated lobopodous'
+		,
+		24
+		'overlapping pleurae not present'
+		'overlapping pleurae present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'homonomous'
+		'heteronomous'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'more than 7 segments, excluding the terminal claw'
+		'at most 5-7 segments, excluding the terminal claw'
+		,
+		31
+		'absent'
+		'trunk exites'
+		'trunk exopod'
+		,
+		32
+		'gill-like lanceolate blades in association with lateral lobes'
+		'paddle-like, with or without fringe of marginal setae'
+		'slender rod with lamellae and/or spines'
+		,
+		33
+		'absent (non-lamellipedian limbs)'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'poorly defined'
+		'prominent, well-defined'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Priapulus'		                0--0-10--0--00000-------010--------0----00
+	'Euperipatoides'		           08210100-1000000100?---001010-0---00----00
+	'Parastygarctus'		           0000-100-100000010-----010-1--0---00----00
+	'Aysheaia'		                 0300-10--0--0000101-013001011-0---00----00
+	'Megadictyon'		              020101100???0001101-113001111-0---00----0?
+	'Kerygmachela'		             0200-10--1?00001101-01300111?-10-001011000
+	'Opabinia'		                 0601110--1110001101-110010-?--10-??1001011
+	'Pambdelurion'		             020101100???0001101-113001011-10-00101100?
+	'Anomalocaris'		             0531011101111101111-111000-0--10---1101111
+	'Laggania'		                 0531011101111111111-112000-0--10---1101110
+	'Hurdia victoria'		          010101111111??1?111-112000-0--10---1100010
+	'Fuxianhuia'		               001110---1111101110010-110-1-0110100----00
+	'Leanchoilia'		              142110---110??01111-10-110-1-0110110----00
+	'Martinssonia'		             124110---0--100?1100---010-1-122--10----00
+	'Misszhouia'		               194110---0--11021101----10-1-1121110----00
+	'Olenoides'		                1(5,7)3110---11010001101---110-1-1121110----00
+	'Weinbergina'		              175110---110100?110----110-1-1120110----00
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 42;
+      ENDBLOCK;
+      

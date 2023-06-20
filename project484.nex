@@ -1,0 +1,342 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-25 12.30.14 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Cynognathus'
+		'Diademodon'
+		'Trirachodon'
+		'Langbergia modisei'
+		'Cricodon metabolus'
+		'Andescynodon'
+		'Massetognathus'
+		'Exaeretodon'
+		'Luangwa drysdalli'
+		'Scalenodon angustifrons'
+		'Mandagomphodon hirschsoni'
+		'Traversodon'
+		'Gomphodontosuchus'
+		'Pascualgnathus'
+		'Scalenodontoides'
+		'Menadon'
+		'Dadadon'
+		'Santacruzodon'
+		'Sinognathus gracilis'
+		'Beishanodon youngi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=50;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Number of upper incisors'
+		 [2] 'Incisor size:'
+		 [3] 'Diastema between upper incisors and canine:'
+		 [4] 'Upper canine size'
+		 [5] 'Lower canine size'
+		 [6] 'Position of paracanine fossae in relation to the upper canine'
+		 [7] 'Overall morphology of the upper postcanines in occlusal view:'
+		 [8] 'Shouldering in upper postcanines'
+		 [9] 'Inclination of the last upper postcanines in relation to the axis of the skull:'
+		 [10] 'Location of the transverse crest of upper postcanines'
+		 [11] 'Number of cusps in the transverse crest of the upper postcanines'
+		 [12] 'Central cusp of upper transverse crest'
+		 [13] 'Posterior cingulum on upper postcanines'
+		 [14] 'External cingulum on the anterior portion of the upper postcanines'
+		 [15] 'Anterolingual cusp in upper postcanines'
+		 [16] 'Number of cusps in the sectorial border (i.e., labial margin) of the upper postcanines'
+		 [17] 'Overall morphology of lower postcanines in occlusal view'
+		 [18] 'Position of the transverse crest in lower postcanines'
+		 [19] 'Number of cusps in the transverse crest of the lower postcanines'
+		 [20] 'Size of the anterior cusps in the lower postcanines'
+		 [21] 'Anterior cingulum in the lower postcanines'
+		 [22] 'Internarial bar'
+		 [23] 'Maxillary labial platform lateral to the post- canine series'
+		 [24] 'Parietal foramen in adults'
+		 [25] 'Zygomatic process of the jugal'
+		 [26] 'Posterior extension of the jugal above the squamosal in the zygoma'
+		 [27] 'Coronoid process of the mandible'
+		 [28] 'Dentary angle'
+		 [29] 'Snout'
+		 [30] 'Incisive foramen'
+		 [31] 'Ectopterygoid'
+		 [32] 'Maxilla in margin of the subtemporal fenestra'
+		 [33] 'Epipterygoid-quadrate contact'
+		 [34] 'Temporal fenestra'
+		 [35] 'Incisor cutting margins'
+		 [36] 'Canine serrations'
+		 [37] 'Axis of the posterior part of maxillary tooth row'
+		 [38] 'Postcanine tooth row in adults'
+		 [39] 'Posterior cingulum in the lower postcanines'
+		 [40] 'Anterior cingulum in the upper postcanines'
+		 [41] 'Deep occlusal basins in the postcanines'
+		 [42] 'Postcanine occlusion'
+		 [43] 'Shearing planes between the outer surface of the main cusp of the lower and the inner surface of the main cusps of the upper postcanines'
+		 [44] 'Incisor procumbency'
+		 [45] 'Extent of maxillary tooth row'
+		 [46] 'Posterior extent of secondary palate in rela- tion to the anterior border of orbit'
+		 [47] 'Intertemporal crest in dorsal view'
+		 [48] 'Major palatine foramen'
+		 [49] 'Extent contribution of palatine to secondary bony osseous palate'
+		 [50] 'Posterior border of secondary palate in relation to maxillary tooth row'
+	;
+	STATELABELS
+		1
+		'Four'
+		'Three'
+		,
+		2
+		'small'
+		'Large'
+		,
+		3
+		'Present'
+		'Absent'
+		,
+		4
+		'Large'
+		'Reduced'
+		,
+		5
+		'Large'
+		'Reduced'
+		,
+		6
+		'anteromedial'
+		'Medial'
+		'Posteromedial'
+		,
+		7
+		'sectorial'
+		'ovoid-elliptical'
+		'rectangular-trapezoidal'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent or small'
+		'oblique'
+		,
+		10
+		'central'
+		'anterior'
+		'posterior'
+		,
+		11
+		'Two'
+		'Three or more'
+		'New state'
+		,
+		12
+		'midway between buccal and lingual cusps'
+		'closer to lingual cusp'
+		'close to labial cusp'
+		,
+		13
+		'present'
+		'Absent'
+		'New state'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'more than two'
+		'two'
+		'one'
+		,
+		17
+		'sectorial'
+		'circular'
+		'ovoid-elliptical'
+		'quadrangular'
+		,
+		18
+		'central'
+		'anterior'
+		,
+		19
+		'two'
+		'three'
+		,
+		20
+		'labial lower than lingual'
+		'labial higher than lingual.'
+		,
+		21
+		'cuspules disposed on the entire margin'
+		'one or more cuspules located anterolabially'
+		'absent'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'slightly projected;'
+		'conspicuously projected'
+		'absent'
+		'UNKNOWN STATE'
+		,
+		26
+		'absent or with a small extension'
+		'well developed'
+		,
+		27
+		'covers the last postcanine in lateral view'
+		'does not cover last postcanine'
+		,
+		28
+		'not projecting posteriorly'
+		'weakly projecting'
+		'well projecting posteriorly'
+		,
+		29
+		'longer than temporal region'
+		'subequal'
+		'substantially shorter than tem- poral region'
+		,
+		30
+		'posteriorly closed by maxilla'
+		'completely enclosed by premaxilla'
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'excluded'
+		'included'
+		,
+		33
+		'present'
+		'squamosal interposed'
+		,
+		34
+		'widest posteriorly'
+		'same width throughout'
+		'widest in the middle'
+		,
+		35
+		'serrated'
+		'smoothly ridged'
+		'denticulated'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'directed toward the lateral rim of the subtemporal fenestra'
+		'directed toward the center of the fenestra'
+		'directed toward the medial rim of the fenestra'
+		,
+		38
+		'formed by sectorial'
+		'conical, gomphodont, and sec- torial'
+		'gomphodont and sectorial'
+		'gomphodont only'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'present'
+		'absent'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'essentially antorbital'
+		'extending substantially subor- bitally'
+		,
+		46
+		'significantly anterior to the anterior border'
+		'roughly at the same level as the anterior border'
+		,
+		47
+		'Extending to or close to posterior border of temporal fenestra'
+		'shortening anteriorly with ob- vious posterior bifurcation'
+		,
+		48
+		'at maxillary/ palatine suture'
+		'penetrating palatine'
+		,
+		49
+		'far less than one-third of the palate'
+		'more than one- third of the palate'
+		,
+		50
+		'close to midlevel of postcanine tooth row'
+		'close to posterior end of tooth row'
+		
+	;
+	MATRIX
+	'Cynognathus'		                        0000000?0????0?00????00000000000000000??00?0000000
+	'Diademodon'		                         00000010000?00?0100?000010(0,1)00000000001000100001001
+	'Trirachodon'		                        000000100(0,2)1(0,1)00?2201?001(0,1)10001000010012000110001000
+	'Langbergia modisei'		                 00000010001000?0201?000010101000011012000110100000
+	'Cricodon metabolus'		                 010000(0,1)0001100?0201?001??010?0?0??001200011000???0
+	'Andescynodon'		                       00000020010?10?13101101120?010???01123111100??????
+	'Massetognathus'		                     00111121(0,1)21110003100201120001110112123001100101100
+	'Exaeretodon'		                        11101221120?10103101211111020111111123111101111000
+	'Luangwa drysdalli'		                  000000100211010(0,1)3100101010010??0?100230011000?????
+	'Scalenodon angustifrons'		            000000100(0,2)11110231001010210?10?0?00023011100?11?0?
+	'Mandagomphodon hirschsoni'		          1111?020?21100113100101??????01???1123001100??????
+	'Traversodon'		                        0000002012110111310020101?0????0??1123?01100??????
+	'Gomphodontosuchus'		                  00111121120?10??3101201???0????0??1123111100??????
+	'Pascualgnathus'		                     10000010000?0?0231????1100001??0?01123?011001?????
+	'Scalenodontoides'		                   111??221?20?10?031012111?1021??1?21?23111100??????
+	'Menadon'		                            01111121120?1012310?201?21020??0??10231111011?????
+	'Dadadon'		                            000??02112111112?????01?3?????????1123?111001?????
+	'Santacruzodon'		                      000??021121110003101201?3?00??????21230011001?????
+	'Sinognathus gracilis'		               000000101010000?2?0??0111?000?????1??1???01?010??1
+	'Beishanodon youngi'		                 0?00001012120000?????0111?0???00001??1??00??011111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Number of upper incisors';
+	TEXT CHARACTER=16 TEXT='Number of cusps in the sectorial border (i.e., labial margin) of the upper postcanines';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 50;
+      ENDBLOCK;
+      

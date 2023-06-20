@@ -1,0 +1,304 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-26 23.26.39 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Weinbergina opitzi'
+		'Brachyopterus stubblefieldi'
+		'Parastylonurus ornatus'
+		'Stoermeropterus conicus'
+		'Stoermeropterus latus'
+		'Stoermeropterus nodosus'
+		'Vinetopterus struvei'
+		'Vinetopterus martini'
+		'Moselopterus ancylotelson'
+		'Moselopterus elongatus'
+		'Onychopterella augusti'
+		'Onychopterella kokomoensis'
+		'Dolichopterus macrocheirus'
+		'Eurypterus remipes'
+		'Hughmilleria socialis'
+		'Tylopterella boylei'
+		'Megalograptus ohioensis'
+		'Mixopterus kiaeri'
+		'Strobilopterus princetonii'
+		'Erieopterus microphthalmus'
+		'Rhenopterus diensti'
+		'Octoberaspis ushakovi'
+		'Loganamaraspis dunlopi'
+		'Diploaspis casteri'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Anterior margin of carapace'
+		 [2] 'Carapace genal facets'
+		 [3] 'Lateral eye shape'
+		 [4] 'Lateral eye position on carapace'
+		 [5] 'Lateral eyes associated with ophthalmic ridge'
+		 [6] 'Suture on ventral plates'
+		 [7] 'Transverse suture on ventral plates'
+		 [8] 'Morphology of spines prosomal appendages IIâ€“IV'
+		 [9] 'Mobility of spines on appendages IIâ€“IV'
+		 [10] 'Function of appendage V'
+		 [11] 'Prosomal appendage VI'
+		 [12] 'Shape of proximal podomere of appendage VI'
+		 [13] 'Anterior margin of coxa VI'
+		 [14] 'Shape of ear on coxa VI'
+		 [15] 'Length of podomeres VI-4 and VI-5'
+		 [16] 'Distal podomere margin of VI-6 modified'
+		 [17] 'VI-7 lateral margins'
+		 [18] 'Podomere 7a on appendage VI'
+		 [19] 'Width of posterior VI-7a'
+		 [20] 'Shape of posterior VI-7a'
+		 [21] 'VI-8 lateral margins'
+		 [22] 'Morphology of VI-8/VI-9 joint joint'
+		 [23] 'Length of VI-9 (as ratio of VI-8)'
+		 [24] 'Shape of podomere VI-9'
+		 [25] 'Podomere cuticular morphology'
+		 [26] 'Metastoma anterior'
+		 [27] 'Shape of posterior margin of metastoma'
+		 [28] 'Genital operculum morphology'
+		 [29] 'Morphology of type-A genital appendage'
+		 [30] 'Spatulae on type-A genital appendage'
+		 [31] 'Morphology of genital spatulae'
+		 [32] 'Moveable preabdominal spines'
+		 [33] 'Postabdominal epimera'
+		 [34] 'Preabdominal/postabdominal boundary'
+		 [35] 'Postabdomen'
+		 [36] 'Posterior margin of segments 7-9'
+		 [37] 'Posterior margin of segments 10-12'
+		 [38] 'Telson shape'
+		 [39] 'Telson base'
+		 [40] 'Telson margin'
+		 [41] 'Opisthosoma lateral division'
+		 [42] 'Primary dorsal ornamentation'
+		 [43] 'Row of node-like scales on dorsal opisthosomal segments'
+	;
+	STATELABELS
+		1
+		'unornamented'
+		'denticulate'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'crescentic'
+		'expanded'
+		,
+		4
+		'central'
+		'anterior'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'Eurypterus-type'
+		'Hughmilleria- orHallipterus-type'
+		'Megalograptus-type'
+		'Erieopterus-type'
+		,
+		7
+		'present'
+		'abselnt'
+		,
+		8
+		'reduced (length < width of podomere)'
+		'regular (width â‰ˆ width of podomere)'
+		'enlarged )(length > width of podomere)'
+		,
+		9
+		'fixed'
+		'moveable'
+		,
+		10
+		'solely walking or prey capture'
+		'adapted to aid in balance during swimming'
+		,
+		11
+		'walking leg'
+		'swimming leg'
+		,
+		12
+		'narrow (L/Wâ‰¥2.0)'
+		'expanded (L/W<2.0)'
+		,
+		13
+		'undifferentiated'
+		'expanded to form ear'
+		,
+		14
+		'triangular'
+		'rectangular/subquadrate'
+		,
+		15
+		'VI-5â‰¥VI-4'
+		'VI-4>VI-5'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'unornamented'
+		'serrated'
+		,
+		18
+		'absent'
+		'present on posterior of appendage'
+		'present on anterior of appendage'
+		,
+		19
+		'narrow (less than 50% of width of VI-7)'
+		'wide (more than 50%)'
+		,
+		20
+		'oval'
+		'triangular'
+		,
+		21
+		'unornamented'
+		'serrated'
+		,
+		22
+		'flush'
+		'VI-9 set into'
+		'VI-8'
+		,
+		23
+		'large (>50% of VI-8 length)'
+		'small (<22% of VI-8 length)'
+		'totally absent'
+		,
+		24
+		'spinose'
+		'triangular, pentagonal or oval'
+		,
+		25
+		'rounded'
+		'ridged'
+		,
+		26
+		'smooth or shallow notch'
+		'deeply notched'
+		,
+		27
+		'rounded'
+		'flattened or recurved'
+		'angular'
+		,
+		28
+		'consisting of three visible segments'
+		'consisting of two visible segments'
+		'unfused'
+		,
+		29
+		'furca fused'
+		'unfused'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'angular'
+		'rounded'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'between 7th and 8th segments'
+		'between 6th and 7th segments'
+		'between 4th and 5th segments'
+		,
+		35
+		'undifferentiated'
+		'narrowing from preabdomen'
+		,
+		36
+		'smooth'
+		'dentate'
+		,
+		37
+		'smooth'
+		'dentate'
+		,
+		38
+		'straight'
+		'curved'
+		'paddle-like'
+		,
+		39
+		'flattened'
+		'bulbous expansion'
+		,
+		40
+		'smooth'
+		'serrated'
+		,
+		41
+		'none'
+		'trilobed'
+		,
+		42
+		'scales'
+		'closely spaced pustules'
+		'none'
+		'coarse pustules'
+		,
+		43
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Weinbergina opitzi'		                   0000031110010-0000--00000--2---000000000010
+	'Brachyopterus stubblefieldi'		          00011?0000000-0000--000010?????0?0000000020
+	'Parastylonurus ornatus'		               0000100110000-0000--00000110010000100000000
+	'Stoermeropterus conicus'		              0000111000011000010000001100010100001010010
+	'Stoermeropterus latus'		                0000111?0?0???00010000001??0?11100001010000
+	'Stoermeropterus nodosus'		              00001???0????????????????10001110000?010011
+	'Vinetopterus struvei'		                 1000131000011000010000001000???0001110?0011
+	'Vinetopterus martini'		                 10?01310000???00010000001?0????0001110?0011
+	'Moselopterus ancylotelson'		            0000131100011000010000001000?10010111101011
+	'Moselopterus elongatus'		               0000131100011000010000001000???01011110101?
+	'Onychopterella augusti'		               00?01??11?111000010101000????0-001100010000
+	'Onychopterella kokomoensis'		           001013111011??00010101000000?0-001100010000
+	'Dolichopterus macrocheirus'		           0000101110111111110111010110010000100000000
+	'Eurypterus remipes'		                   011010111111111101111111000010-010100001000
+	'Hughmilleria socialis'		                001111111011111101110111011100-010100000000
+	'Tylopterella boylei'		                  00101??????????????????????????001100000000
+	'Megalograptus ohioensis'		              11111212111111110111012-000100-011100000100
+	'Mixopterus kiaeri'		                    01111?121011111101110111000100-010100100100
+	'Strobilopterus princetonii'		           00001??10?1111011101110101??010000100???010
+	'Erieopterus microphthalmus'		           010013110111111101110110001010-010100100000
+	'Rhenopterus diensti'		                  0000100000000-0000--0000100000-001100100000
+	'Octoberaspis ushakovi'		                00000????01?????02--002-002200-002100000030
+	'Loganamaraspis dunlopi'		               00???31???000-??????????002200-0121000??020
+	'Diploaspis casteri'		                   001101?00?1????002--002-0??2???002100201031
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 43;
+      ENDBLOCK;
+      

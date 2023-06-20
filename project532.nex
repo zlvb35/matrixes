@@ -1,0 +1,3789 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-26 22.20.35 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Hemidactylus brookii'
+		'Amber gecko'
+		'Narudasia festiva'
+		'Pseudogekko smaragdinus'
+		'Aristelliger lar'
+		'Chato para'
+		'Coleodactylus brachystoma'
+		'Euleptes europaea'
+		'Pseudogonatodes guianensi'
+		'Gonatodes albogularis'
+		'Lepidoblepharis xanthosti'
+		'Pristurus carteri'
+		'Quedenfeltya trachyblepha'
+		'Saurodactylus mauritanicu'
+		'Sphaerodactylus klauberi'
+		'Sphaerodactylus roosevelt'
+		'Teratoscincus scincus'
+		'Phyllodactylus whirshingi'
+		'Tarentola mauritanica'
+		'Thecadactylus rapicauda'
+		'Gymnodactylus geckoides'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=674;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'Maximun adult size (SVL) (A09-1)'
+		 [2] 'Head bulbous. (A09-3)'
+		 [3] 'Skull, overall shape New'
+		 [4] 'Skull, snout shape (NG-33 A09-4)'
+		 [5] 'Skull, supratemporal crest (Ga82-25)'
+		 [6] 'Skull, external nares vestibule shape in dorsal view New'
+		 [7] 'Skull, external nares, posterior elongation invading contact between prefrontal and nasals or such that they open extensively dorsally (E-2)'
+		 [8] 'Skull, interorbital septum (Ke-27)'
+		 [9] 'Skull, percentage of total length made up by antorbital snout (DBC-2)'
+		 [10] 'Skull, rostrum anterior to the bony external nares (C08-2)'
+		 [11] 'Skull, snout region in lateral view (A96-4)'
+		 [12] 'Dermal sculpturing (E-129)'
+		 [13] 'Dermal sculpturing, maxilla (CN06-5)'
+		 [14] 'Dermal sculpturing, nasal New'
+		 [15] 'Dermal sculpturing, parietal/frontal (E-129)'
+		 [16] 'Dermal sculpturing, postorbital, postfrontal, or postorbitofrontal New'
+		 [17] 'Dermal sculpturing, prefrontal (CN06-6)'
+		 [18] 'Palate, fenestra exochoanalis (L27)'
+		 [19] 'Palate, fenestra vomeronasalis externa (incisura Jacobsoni) (Agek)'
+		 [20] 'Palate, ifenestra exochoanalis New'
+		 [21] 'Palate, orientation of ectopterygoid  (CN06-68)'
+		 [22] 'Palate, premaxillary-vomer, fenestra (KL76-62 A09-22)'
+		 [23] 'Palate, premaxillary-vomer, fenestra New'
+		 [24] 'Suborbital fenestra shape New'
+		 [25] 'Interpterygoid vacuity, broadest point compared to the distance from basicranial joint to quadrate. (CN06-82)'
+		 [26] 'Interpterygoid vacuity, midline contact of palatines (CN06-81)'
+		 [27] 'Interpterygoid vacuity, midline contact of pteygoids (C08-122)'
+		 [28] 'Interpterygoid vacuity, midline contact of vomers (C06-22)'
+		 [29] 'Foramen magnum (A09-20)'
+		 [30] 'Premaxilla, fusion into a single element (LC00-1, Ba90-02)'
+		 [31] 'Premaxilla, anterior portion New'
+		 [32] 'Premaxilla, subnareal region (KL76-39)'
+		 [33] 'Premaxilla, rostrum anterior to the premaxillary teeth (DBC-4)'
+		 [34] 'Premaxilla-maxilla aperture (M70)'
+		 [35] 'Premaxilla, ascending nasal process (Gr-001)'
+		 [36] 'Premaxilla, contact with nasal (FE-1)'
+		 [37] 'Premaxilla, longitudinal canal New'
+		 [38] 'Premaxilla, ascending nasal process (KL76-38)'
+		 [39] 'Premaxilla, margins of posterior 1/3 of ascending nasal process (KL76-37)'
+		 [40] 'Premaxilla, mediolateral breadth of ascending nasal process (B97-4)'
+		 [41] 'Premaxilla, posterior edge of the ascending nasal process'
+		 [42] 'Premaxilla, posterior edge of the ASNP'
+		 [43] 'Premaxilla, contact with maxilla (KL95-1)'
+		 [44] 'Premaxilla, overlap contact with maxilla ventrally (A09-8)'
+		 [45] 'Premaxilla, external contact with the frontals (LC00-2)'
+		 [46] 'Premaxilla, incisive process (GN98-46)'
+		 [47] 'Premaxilla, incisive process contour shape New'
+		 [48] 'Premaxilla, premaxillary shelf (KL76-42)'
+		 [49] 'Premaxilla, posteromedial extreme of premaxillary shelf (KL76-43)'
+		 [50] 'Premaxilla, posteromedial margin of premaxillary shelf (KL76-41, A09-7)'
+		 [51] 'Maxilla, anterior premaxillary process of medial shelf (maxillary lappets) lying between vomers and premaxillae (Egek-12)'
+		 [52] 'Maxilla, anterior premaxillary process of medial shelf meet, excluding the premaxilla from the anterior margin of the fenestra exochoanalis. Contrary to the previous character, this one describes the contact of these two structures.  (FE-2 CN06-14 RG'
+		 [53] 'Maxilla, ventral surface of the maxillary medial shelf, adjacent to the base of the teeth (Gr-004)'
+		 [54] 'Maxilla, contact with vomer posterior to fenestra vomeronasalis externa (E-42)'
+		 [55] 'Maxilla, palatine flange (CN06-19)'
+		 [56] 'Maxilla, dorsal process (RZ-5)'
+		 [57] 'Maxilla, dorsal process New'
+		 [58] 'Maxilla, dorsal process overlap of prefrontal (C08-30)'
+		 [59] 'Maxilla, dorsal process contact with the frontal-prefrontal suture New'
+		 [60] 'Maxilla, dorsal process anterior inclination (CN06-17)'
+		 [61] 'Maxilla, dorsal process anterior border (A09-21)'
+		 [62] 'Maxilla, with depressed area anteromedially, behind the external nares (New)'
+		 [63] 'Maxilla, posteriomedial shelf (KL76-66)'
+		 [64] 'Maxilla, posterior extent of tooth row (E-27)'
+		 [65] 'Maxilla, posterolateral margin  (Gr-003 CN06-30 C06-14)'
+		 [66] 'Nasals, presence as discrete elements (DBC-12 KL76-44 E-3)'
+		 [67] 'Nasals, internasal contact (GN98-2)'
+		 [68] 'Nasal, shape New'
+		 [69] 'Nasal, length New'
+		 [70] 'Nasal, anterior portion (Gr-002 Ba90-03 A96-5)'
+		 [71] 'Nasal, anterior border (Gr-002 CN06-11)'
+		 [72] 'Nasal, contact with maxilla (KL76-45)'
+		 [73] 'Nasofrontal suture, articulated shape in dorsal view (CN06-12)'
+		 [74] 'Nasofrontal fontanelle (C08-23)'
+		 [75] 'Nasal capsule exposed in anterior wall, of orbit calcified (A09-9)'
+		 [76] 'Prefrontal, lower part visible in anterior view of skull (A09-10)'
+		 [77] 'Prefrontal, dorsal process (Gr-012 A09-11)'
+		 [78] 'Prefrontal, dorsal process New'
+		 [79] 'Prefrontal, dorsolateral tuberosity (Ga84)'
+		 [80] 'Prefrontal, orbitonasal flanges (pars frontalis) (Gr-011)'
+		 [81] 'Prefrontal, orbitonasal flanges (pars frontalis) contact (Gr-058)'
+		 [82] 'Prefrontal, posteriorly projecting dorsal process (KL76-47)'
+		 [83] 'Prefrontal, subpalpebral fossa (C06-11)'
+		 [84] 'Prefrontal, supraorbital ridge (DBC-13)'
+		 [85] 'Prefrontal, blocks contact between maxilla and nasal (C06-10)'
+		 [86] 'Prefrontal, contact with nasal (KL76-46)'
+		 [87] 'Prefrontal, contact with jugal (R80-24)'
+		 [88] 'Prefrontal, contact with ectopterygoid New'
+		 [89] 'Prefrontal, contact with postorbitofrontal  (KL76-50 E-5)'
+		 [90] 'Postorbital, contribution to the postorbital bar (E-17)'
+		 [91] 'Postorbital, posterior extent (E-83)'
+		 [92] 'Postorbital, tubercle (M96-7)'
+		 [93] 'Postorbitofrontal (E-14)'
+		 [94] 'Postorbitofrontal (A96-14)'
+		 [95] 'Postorbitofrontal, foramina (KL76-51)'
+		 [96] 'Postorbitofrontal lateral vertex in dorsal view New'
+		 [97] 'Postorbitofrontal, contact with coronoid New'
+		 [98] 'Postorbitofrontal, lateral process (Ba90-06)'
+		 [99] 'Postorbitofrontal, lateral process (KL76-52)'
+		 [100] 'Postorbitofrontal, posterior process (E-16)'
+		 [101] 'Postorbitofrontal, posterior process New'
+		 [102] 'Postfrontal (CN06-58)'
+		 [103] 'Postfrontal shape (C08-92)'
+		 [104] 'Postfrontal, contact with the parietal (E-15)'
+		 [105] 'Postfrontal/postorbital contact with the frontal/parietal, forking of medial surface (E-13)'
+		 [106] 'Postfrontal/postorbital, forking of medial surface (RZ-25)'
+		 [107] 'Lacrimal (E28-gek)'
+		 [108] 'Lacrimal, posterolateral flange (C08-42)'
+		 [109] 'Lacrimal foramen (RZ-10)'
+		 [110] 'Lacrimal foramen, size (FE-6)'
+		 [111] 'Lacrimal foramen, surrounded by (A96-18)'
+		 [112] 'Jugal (KL76-53 RZ-12)'
+		 [113] 'Jugal, shape (GN98-13)'
+		 [114] 'Jugal, size New'
+		 [115] 'Jugal posterior section in lateral view (Gr-008)'
+		 [116] 'Jugal, anterior and posterior sections (Gr-009)'
+		 [117] 'Jugal, anterior extension (LC00-18)'
+		 [118] 'Jugal, contact with lateral infraorbital process of prefrontal (Ba90-13)'
+		 [119] 'Jugal, contact with prefrontal New'
+		 [120] 'Jugal, contact with postorbitofrontal (E-32)'
+		 [121] 'Jugal, postorbital branch (Ga82-27)'
+		 [122] 'Jugal, postorbital process rugosities (GN98-17)'
+		 [123] 'Jugal, contact with squamosal (E18)'
+		 [124] 'Jugal, posteroventral process (GN98-14)'
+		 [125] 'Jugal, relationship to quadrate and squamosal in dorsal view New'
+		 [126] 'Frontal, fused dorsally in adults (E-6 A96-8)'
+		 [127] 'Frontal, shape as a unit (CN06-33)'
+		 [128] 'Frontal, length of the observable part of the bone, from the median process to the posterior edge compared to posterior width (Ba90-04)'
+		 [129] 'Frontal, midline dorsal keel (B97-12)'
+		 [130] 'Frontal, supraocular portion (Ba90-05 A09-16)'
+		 [131] 'Frontal, parietal tabs  (C99-9)'
+		 [132] 'Frontal, anterior constricted neck (DBC-19)'
+		 [133] 'Frontal, constriction between the orbits (E-7)'
+		 [134] 'Frontal, minimun width New'
+		 [135] 'Frontal, dorsoventral inflation (CRG-36)'
+		 [136] 'Frontal, lateral crests (A96-7)'
+		 [137] 'Frontal, anterolateral process (KL76-48)'
+		 [138] 'Frontal, anterolateral process compared to median process New'
+		 [139] 'Frontal, anterolateral process in dorsal view New'
+		 [140] 'Frontal, invaded by external nares (B97-11)'
+		 [141] 'Frontal, contact the maxilla (E-4)'
+		 [142] 'Frontal, contact with nasals New'
+		 [143] 'Frontal, contact with palatines (Ga82-82)'
+		 [144] 'Frontal, crista cranii anterior process New'
+		 [145] 'Frontal, sulbolfactory processes (E-10 A09-13)'
+		 [146] 'Frontal, sulbolfactory processes contact at midline (E-10)'
+		 [147] 'Frontal, contact between the medial pillar and lateral subolfactory processes (flanges) (Rs80)'
+		 [148] 'Frontal, medial pillar separating the olfactory tracts (Rs80)'
+		 [149] 'Frontal, participation in the orbitonasal foramen (C99-7)'
+		 [150] 'Frontal, posterolateral process (KL76-49)'
+		 [151] 'Frontoparietal fontanelle (C08-71)'
+		 [152] 'Frontoparietal suture position New'
+		 [153] 'Frontoparietal suture dorsal view (Ba90-09 EB98-131)'
+		 [154] 'Frontoparietal suture dorsal view New'
+		 [155] 'Palpebral ossifications  (E-36, A08-4)'
+		 [156] 'Parietal (KL76-54 E-21)'
+		 [157] 'Parietal, decensus parietalis (E-23 A09-17)'
+		 [158] 'Parietal, lateral flange New'
+		 [159] 'Parietal, lateral flange at the frontoparietal suture (C08-72)'
+		 [160] 'Parietal shape,main body, excluding the postparietal process (Ba90-08 A96-9)'
+		 [161] 'Parietal, frontal tabs (C99-17)'
+		 [162] 'Parietal, anterolateral corner (KL76-55)'
+		 [163] 'Parietal, anterolateral corner clasps the frontal (A96-10)'
+		 [164] 'Parietal, contact with supratemporal arch (C99-15)'
+		 [165] 'Parietal fossa, posterior margin (CN06-46)'
+		 [166] 'Parietal nuchal fossa (GN00)'
+		 [167] 'Parietal, contact with supraoccipital (TC00-37 A96-23)'
+		 [168] 'Parietal, posterior margin (KL76-57 A09-18)'
+		 [169] 'Parietal, posterior margin (KL76-56)'
+		 [170] 'Parietal, posterior margin (A96-11)'
+		 [171] 'Parietal, posterior margin associated with sagittal crest for spinalis capitis muscles (CN06-47)'
+		 [172] 'Parietal, distance from occipital condyle in dorsal view New'
+		 [173] 'Parietal, ventroposterior section of parietal (Gr-015)'
+		 [174] 'Parietal, median adductor crest expressed as a keel (FE-10)'
+		 [175] 'Parietal, mid-dorsal crest (Ba90-10)'
+		 [176] 'Parietal, origin of the jaw adductor musculature (E-54)'
+		 [177] 'Parietal, pineal foramen (E-26)'
+		 [178] 'Parietal, posterior margin (Gr-014 Ba90-07, CN06-50)'
+		 [179] 'Parietal, postparietal process (Gr-016)'
+		 [180] 'Parietal, postparietal process  length from the level of the parietal notch compared to the parietal anterior to that point (Ga82-30)'
+		 [181] 'Parietal, postparietal process, dorsal margin (GN98-33)'
+		 [182] 'Parietal, postparietal process contacting New'
+		 [183] 'Subparietal ossifications New'
+		 [184] 'Squamosal, shape (KL76-58 Ba90-11)'
+		 [185] 'Squamosal, posterior end (Gr-017)'
+		 [186] 'Squamosal New'
+		 [187] 'Squamosal, dorsal process (C99-25)'
+		 [188] 'Squamosal, contact with postorbitofrontal (or postorbital or postfrontal) (RZ-38)'
+		 [189] 'Squamosal (A96-13 RZ-40)'
+		 [190] 'Septomaxilla (Echam-12 RGM-08)'
+		 [191] 'Septomaxilla, contact with maxillary lingual shelf (RGM-08)'
+		 [192] 'Septomaxilla, contact with the osseus nasal cavity roof (FE-54)'
+		 [193] 'Septomaxilla, cupola jacobsoni /bony enclosure for the mushroom body. (RGM-08)'
+		 [194] 'Vomer, fusion (E-38)'
+		 [195] 'Vomer, shape (RZ-93)'
+		 [196] 'Vomer, articulation with the palatine (R84, A09-23)'
+		 [197] 'Vomer, palatine ridges (KL76-60)'
+		 [198] 'Vomer, posteriomedial margin (KL76-61)'
+		 [199] 'Vomer, posterolateral process KL76-64)'
+		 [200] 'Palatine, shape (GN98-51)'
+		 [201] 'Palatine, length relative to vomer (L98-98)'
+		 [202] 'Palatine, secondary palate formed around  choanal groove (KL95-3 RZ-101E-43)'
+		 [203] 'Palatine, anteromedial margin (Gr-007)'
+		 [204] 'Palatine, lateral margin New'
+		 [205] 'Palatine, posterolateral margin New'
+		 [206] 'Palatine, maxillary process (KL95-2)'
+		 [207] 'Palatine, medial expansion anteriorly (Ga82-84)'
+		 [208] 'Palatine, medial margin (Gr-006)'
+		 [209] 'Palatine, medial margin (KL76-65)'
+		 [210] 'Palatine, ventral, anterolateral projection (Gr-005)'
+		 [211] 'Pterygoid, lateral view New'
+		 [212] 'Pterygoid, position of the fossa columellae New'
+		 [213] 'Pterygoid, ventrolateral process (GN98-32)'
+		 [214] 'Pterygoid, contact with jugal (GN98-54)'
+		 [215] 'Pterygoid, contact with vomer (CN06-79)'
+		 [216] 'Pterygoid, facet for basipterygoid (KL76-73)'
+		 [217] 'Pterygoid, anterolateral process (KL76-71)'
+		 [218] 'Pterygoid, base of anteromedial process (KL76-72)'
+		 [219] 'Pterygoid, inmediately anterior to quadrate articulation (KL76-74)'
+		 [220] 'Ectopterygoid, lateral exposure posterior to the maxilla (MB54)'
+		 [221] 'Ectopterygoid, anterior portion (KL76-67)'
+		 [222] 'Ectopterygoid, contact with palatine anterior to suborbital fenestra (E-45)'
+		 [223] 'Ectopterygoid, contact with palatine posterior to the suborbital fenestra (C08-125)'
+		 [224] 'Epipterygoid (E-47)'
+		 [225] 'Epipterygoid, cross section (KL76-69)'
+		 [226] 'Epipterygoid, oseous tubercle directed posteriorly New'
+		 [227] 'Epipterygoid (KL76-68)'
+		 [228] 'Quadrate, suspension (RZ-49)'
+		 [229] 'Quadrate, position relative to fenestra ovalis New'
+		 [230] 'Quadrate, anterodorsal surface (Gr-018)'
+		 [231] 'Quadrate, profile of dorsal margin (KL76-78)'
+		 [232] 'Quadrate, thin lateral wall (KL76-76)'
+		 [233] 'Quadrate, lateral lip (Ba90-12)'
+		 [234] 'Quadrate, tympanic crest (RZ-51)'
+		 [235] 'Quadrate, infrastapedial arch (DBC-41,43)'
+		 [236] 'Quadrate, medial and lateral portions of quadrate condyle (Gr-019)'
+		 [237] 'Quadrate, pedicel portion (KL76-77)'
+		 [238] 'Quadrate, pterygoid lappet (E-37)'
+		 [239] 'Quadrate, suprastapedial process (DBC-39)'
+		 [240] 'Quadratojugal (C08-54)'
+		 [241] 'Stapes, shape (KL76-32)'
+		 [242] 'Stapes, shaft (TC00-60)'
+		 [243] 'Stapes, distal end (Gr-027)'
+		 [244] 'Stapes, position of stapedial artery (E-145)'
+		 [245] 'Stapes, stapedial foramen (A96-22)'
+		 [246] 'Stapes, internal (quadrate) process (E-141)'
+		 [247] 'Extracolumella, anterior elongation (Ke03-82)'
+		 [248] 'Extracolumellar tissue, calcification (LC00-65)'
+		 [249] 'Braincase, azygous orbitosphenoid (Ke03-105)'
+		 [250] 'Braincase, closure (Ke03-29)'
+		 [251] 'Braincase, anterior extension of crista prootica (E-52)'
+		 [252] 'Braincase, ventral sagital ridge on the sphenoid and basioccipital (could it be only in the sphenoid) (TC00-77)'
+		 [253] 'Braincase, foramen in the otooccipital-prootic suture New'
+		 [254] 'Braincase, fenestra between the sphenoid and the basioccipital New'
+		 [255] 'Braincase, spheno-occipital tubercle (NG-27)'
+		 [256] 'Braincase, fenestra ovalis location (NG-25)'
+		 [257] 'Braincase, occipital condyle (Egek-9)'
+		 [258] 'Braincase, occipital condyle New'
+		 [259] 'Parabasisphenoid, trabecula communis anterior end (KL76-70)'
+		 [260] 'Parabasisphenoid, trabeculae (KL76-81)'
+		 [261] 'Parabasisphenoid, trabeculae New'
+		 [262] 'Parabasisphenoid, basipterygoid process New'
+		 [263] 'Parabasisphenoid, basipterygoid process distal facets New'
+		 [264] 'Parabasisphenoid, anterior opening of the Vidian Canal (NG-18)'
+		 [265] 'Parabasisphenoid, relationship with the posterior opening of the Vidian canal (E-53)'
+		 [266] 'Parabasisphenoid, entocarotid fossa extends into the sphenoid New'
+		 [267] 'Parabasisphenoid, posterolateral flanges laterally overlaying basioccipital (B-B83)'
+		 [268] 'Basioccipital, ventral surface (Gr-026)'
+		 [269] 'Basioccipital, canal or groove for basilar artery (DBC-34)'
+		 [270] 'Basioccipital, crista tuberalis development (RZ-79)'
+		 [271] 'Basioccipital, sphenooccipital tubercle (NG-23)'
+		 [272] 'Basioccipital, sphenooccipital tubercle location (RZ-76)'
+		 [273] 'Basioccipital, sphenooccipital tubercle, capped by an  (KL76-83, R-07)'
+		 [274] 'Prootic, crista alaris size (Ke03-79)'
+		 [275] 'Prootic, crista alaris shape New'
+		 [276] 'Prootic, crista alaris location New'
+		 [277] 'Prootic, crista alaris contact with decensus parietalis process New'
+		 [278] 'Prootic, crista alaris contacts epipterygoid New'
+		 [279] 'Prootic, crista alaris contacts epipterygoid (New)'
+		 [280] 'Prootic, crista prootica (RZ-66 A96-20)'
+		 [281] 'Prootic, crista prootica New'
+		 [282] 'Prootic, crista prootica shape New'
+		 [283] 'Prootic, entocarotid fossa (GN98-30)'
+		 [284] 'Prootic, external facial foramen (NG-20)'
+		 [285] 'Prootic, horizontal semicircular canal bulge New'
+		 [286] 'Prootic, horizontal semicircular canal prominent and ridged, making a deep lateral hollow (A09-28)'
+		 [287] 'Prootic, orientation of horizontal semicircular with respect to the base of brain case (A09-29)'
+		 [288] 'Prootic, incisura prootica for the nerve V (KL76-80, CN06-91)'
+		 [289] 'Prootic, perforation of the crista prootica (CN06-91)'
+		 [290] 'Prootic, supratrigeminal process (E-50)'
+		 [291] 'Supraoccipital New'
+		 [292] 'Supraoccipital, processus ascendens tectum synoticum (Egek-11)'
+		 [293] 'Supraoccipital, posterior angle (A09-27)'
+		 [294] 'Supratemporal (Egek-10)'
+		 [295] 'Supratemporal, length relative to depth (Ga82-86 CN06-55)'
+		 [296] 'Otooccipital, paroccipital process (KL76-86)'
+		 [297] 'Otooccipital, paroccipital process shape New'
+		 [298] 'Otoocipital, closure of the occipital recess (RZ-70)'
+		 [299] 'Otooccipital, shape occipital recess (Gr-024)'
+		 [300] 'Otooccipital, ventral view of occipital recess (Ba90-14 CN06-98)'
+		 [301] 'Otooccipital, posterior border of occipital recess (Gr-025)'
+		 [302] 'Otooccipital, perilymphatic foramen and aperture medialis recessus scalae tympani (Gr-023)'
+		 [303] 'Otooccipital, subdivision of the aperture medialis recessus scalae tympani (R84)'
+		 [304] 'Otoocipital, hypoglossal foramen (L98-69)'
+		 [305] 'Otooccipital, lateral aperture of recessus scala tympani (KL76-85)'
+		 [306] 'Mandible, symphysis (RZ-110)'
+		 [307] 'Mandible, intramandibular septum (L98-116)'
+		 [308] 'Mandible, intramandibular septum ventral margin (M70)'
+		 [309] 'Mandible, anterior inferior dental (alveolar) foramen New'
+		 [310] 'Mandible, dentary participation in the anterior inferior dental (alveolar) foramen (E1964)'
+		 [311] 'Mandible, anterior mylohyoid foramen New'
+		 [312] 'Mandible, anterior inferior dental (alveolar) foramen and anterior mylohyoid foramen New'
+		 [313] 'Mandible, adductor fossa expansion (E-81)'
+		 [314] 'Mandible, adductor fossa orientation (RZ-137)'
+		 [315] 'Mandible, anterior surangular foramen (CN06-109)'
+		 [316] 'Mandible, posterior surangular foramen (New)'
+		 [317] 'Mandible, groove associated with anterior surangular foramen (CN06-111)'
+		 [318] 'Mandible, external border of the anterior surangular foramen (CN06-110)'
+		 [319] 'Mandible, fusion of articular, prearticular, surangular and angular (RZ-129)'
+		 [320] 'Mandible, mandibular glenoid (jaw joint) (DBC-54)'
+		 [321] 'Mandible, posterior mylohyoid foramen (CN06-112)'
+		 [322] 'Mandible, position of posterior mylohyoid foramen (FE-24)'
+		 [323] 'Dentary, subdental shelf (E-58, E59)'
+		 [324] 'Dentary, Meckel''s canal (E-55)'
+		 [325] 'Dentary, principle support (RZ-119)'
+		 [326] 'Dentary, shape of long axis (DBC-67)'
+		 [327] 'Dentary, anteroventral surface (Ga82-59)'
+		 [328] 'Dentary, posterior extent (EB98-213)'
+		 [329] 'Dentary, posterodorsal coronoid process(es) (RZ-113)'
+		 [330] 'Dentary, subcoronoid and angular processes (E-63)'
+		 [331] 'Dentary, angular and surangular processes (E-63)'
+		 [332] 'Dentary, angular process compared to surangular process (Ga82-41)'
+		 [333] 'Splenial (KL76-33 Ke124, A09-30)'
+		 [334] 'Splenial extent of anteromedial walling of Meckel''s canal (E-67, Greer 1985)'
+		 [335] 'Splenial, anterior margin (Gr-034)'
+		 [336] 'Splenial, contact with angular (Gr-033)'
+		 [337] 'Splenial, contact with coronoid New'
+		 [338] 'Splenial, overlap with postdentary bones  (RZ-121)'
+		 [339] 'Splenial, posterior extent (E-66)'
+		 [340] 'Coronoid , anterior end (E-70)'
+		 [341] 'Coronoid, height  (KL95-5)'
+		 [342] 'Coronoid, long and low anterior process (E-69)'
+		 [343] 'Coronoid, anterolingual process inserts into the dentary tube New'
+		 [344] 'Coronoid, anterolabial and anterolingual processes New'
+		 [345] 'Coronoid, anterolingual process (Gr-029)'
+		 [346] 'Coronoid, anterolingual process (Gr-030)'
+		 [347] 'Coronoid, anterolingual process forming the posterior border of anterior inferior alveolar foramen New'
+		 [348] 'Coronoid, anterolingual process separates dentary and splenial anteriorly. New'
+		 [349] 'Coronoid, anterior extent of labial flange (CN06-126)'
+		 [350] 'Coronoid, posterior overlap by surangular (E-71)'
+		 [351] 'Coronoid, posterior shelf (Gr-059)'
+		 [352] 'Coronoid, ventral margin (RZ-128)'
+		 [353] 'Surangular, contact with dentary (Ba90-16)'
+		 [354] 'Surangular, anterior border when disarticulated (E-61)'
+		 [355] 'Surangular, anterior extension into mental canal (Ga82-75)'
+		 [356] 'Surangular, anterodorsal buttress of coronoid (DBC-57)'
+		 [357] 'Surangular, posteromedial process in dorsal view (KL76-36)'
+		 [358] 'Angular (RZ-132)'
+		 [359] 'Prearticular, crest (E-73)'
+		 [360] 'Prearticular, crest with imbedded angular process (E-73)'
+		 [361] 'Articular, retroarticular process (KL76-35)'
+		 [362] 'Articular, retroarticular process with posterior broadening (E-78)'
+		 [363] 'Articular, medial offset of retroarticular process with lateral notch (E-77)'
+		 [364] 'Articular, orientation of the retroarticular process (E-75)'
+		 [365] 'Articular, presence of a deep fossa on the dorsal or dorsomedial surface of the retroarticular process (the retroarticular process pit)  (E-74)'
+		 [366] 'Articular, torsion of retroarticular process (GN98-70)'
+		 [367] 'Articular, tubercle on the lingual margin of the retroarticular process (E-76 GN00)'
+		 [368] 'Articular, foramen for the chorda tympani New'
+		 [369] 'Dentition, premaxillary teeth (including spaces aproximately a tooth in width) (KL76-30)'
+		 [370] 'Dentition, enlarged median premaxillary tooth more than half again the diameter of the other premaxillary teeth (Ke-114)'
+		 [371] 'Dentition, maxillary teeth (including spaces aproximately a tooth in width) (KL76-29 C08-224)'
+		 [372] 'Dentition, premaxillary teeth compared to maxillary teeth (RZ-156)'
+		 [373] 'Dentition, vomerine teeth (Ga88-22)'
+		 [374] 'Dentition, palatine teeth (E-82)'
+		 [375] 'Dentition, pterygoid teeth (E83)'
+		 [376] 'Dentition, parasphenoid teeth (Ga88-31)'
+		 [377] 'Dentition, dentary teeth (including spaces aproximately a tooth in width) (KL76-28)'
+		 [378] 'Dentition, tooth row in the jaw New'
+		 [379] 'Dentition, marginal tooth implantation (RZ-146)'
+		 [380] 'Dentition, replacement (E-85)'
+		 [381] 'Dentition, anterior marginal teeth (DBC-53)'
+		 [382] 'Dentition, expanded bases on marginal teeth (RZ-149)'
+		 [383] 'Dentition, chisel shaped posterior teeth (M70)'
+		 [384] 'Dentition, crown striations  (M70)'
+		 [385] 'Dentition, distal portions of teeth (Gr-037)'
+		 [386] 'Dentition, form of middle and posterior marginal teeth (Ga82-34)'
+		 [387] 'Dentition, plicidentine (E-86)'
+		 [388] 'Dentition, spacing (C06-33)'
+		 [389] 'Dentition, teeth size (Ba90-17)'
+		 [390] 'Dentition, tooth crown microstructure (SM87)'
+		 [391] 'Dentition, tooth crown shape (SM87)'
+		 [392] 'Eye, eyeball (Ke-10)'
+		 [393] 'Eye, scleral ossicles (Ke-12)'
+		 [394] 'Hyoid apparatus, basihyal New'
+		 [395] 'Medial projection of  hipohyal (hyoid cornu) New'
+		 [396] 'Hyoid apparatus, lateral projection of hipohyal (hyoid cornu) (KL95-7 A09-34)'
+		 [397] 'Hyoid apparatus, inner proximal ceratohyal process (Ba90-19)'
+		 [398] 'Hyoid apparatus, second ceratobranchial arch (E-91 Gr-039E-91 KL95-8 A09-35)'
+		 [399] 'Hyoid apparatus, orientation of second ceratobranchial arch (New)'
+		 [400] 'Hyoid apparatus, second epibranchials (E-90 A09-36)'
+		 [401] 'Hyoid apparatus, second epibranchials shape (Ba90-20)'
+		 [402] 'Clavicle, shape (RZ-196 Gr-043 Gr-042)'
+		 [403] 'Clavicle, angulation (E-116)'
+		 [404] 'Clavicle, medial section (A09-40)'
+		 [405] 'Clavicle, dorsal end projecting above dorsal margin of scapulocoracoid (Gr-041)'
+		 [406] 'Clavicle, dorsal end contacting the suprascapula New'
+		 [407] 'Clavicle, fenestrae (Ba90-42 KL95-13)'
+		 [408] 'Clavicle, fenestrae size (Ba90-43)'
+		 [409] 'Clavicle, articulation between them (KL76-7)'
+		 [410] 'Interclavicle (KL76-1 E-118)'
+		 [411] 'Interclavicle, shape New'
+		 [412] 'Interclavicle, size (A09-41)'
+		 [413] 'Interclavicle, anterior portion position to clavicles (Gr-044)'
+		 [414] 'Interclavicle, anterior process (E-120 Ba90-37, 38)'
+		 [415] 'Interclavicle, width/length ratio (A98-12)'
+		 [416] 'Interclavicle, posterior process (A98-11)'
+		 [417] 'Interclavicle, lateral arms  (E-119 A98-10)'
+		 [418] 'Interclavicle, lateral arms (A98-10)'
+		 [419] 'Interclavicle, lateral arms  (Ba90-40)'
+		 [420] 'Interclavicle, lateral arms contact with clavicle (Ba90-41)'
+		 [421] 'interclavicle, perforation (Ba90-36)'
+		 [422] 'Scapulocoracoid, scapular portion, expresed as the ratio between the distal end width of scapula and the length of the shaft from the scapulacoracoid foramen.  (Ba90-44, Gr-060)'
+		 [423] 'Scapulocoracoid, coracoid portion (KL76-5)'
+		 [424] 'Scapulocoracoid, scapula size relative to the coracoid  (DBC-95)'
+		 [425] 'Scapulocoracoid, scapulocoracoid emargination (fenestra) New'
+		 [426] 'Scapulocoracoid, scapular emargination (fenestra) closed by epicoracoid.  New'
+		 [427] 'Scapulocoracoid, scapulocoracoid emagination closed by scapular epicoracoid bar (E-111)'
+		 [428] 'Scapulocoracoid, coracoid, anterior (primary) emargination (E-112KL76-6)'
+		 [429] 'Scapulocoracoid, coracoid, posterior (secondary) emargination (E-113)'
+		 [430] 'Scapulocoracoid, supracoracoid foramen New'
+		 [431] 'Suprascapula New'
+		 [432] 'Epicoracoid cartilage, contact with suprascapula (E-114)'
+		 [433] 'Epicoracoids fusion (KL76-4)'
+		 [434] 'Sternum (Ke-146)'
+		 [435] 'Sternum, morphology (Ba90-34)'
+		 [436] 'Sternum, sternal fontanel (E-121)'
+		 [437] 'Sternum, ossification in adults (Ba90-35)'
+		 [438] 'Sternum, proximity to the lateral arms of the interclavicle (FE-33)'
+		 [439] 'Sternum, sternal ribs attachments (per side) (KL76-3 E-109)'
+		 [440] 'Xiphisternum, branching  (CN06-179, A09-39)'
+		 [441] 'Mesosternal extension (Ba90-31)'
+		 [442] 'Postxiphisternal inscriptional ribs modal number (Ba90-33)'
+		 [443] 'Postxiphisternal inscriptional ribs, length New'
+		 [444] 'Postxiphisternal inscriptional ribs (FE-40)'
+		 [445] 'Postxiphisternal inscriptional ribs number of chevrons (Ba90-32)'
+		 [446] 'Anterior presacral ribs, shape  (CN06-166)'
+		 [447] 'Anteroventral pseudotuberculum  (LC00-207)'
+		 [448] 'Expansion and flattening of the anterior presacral ribs (CN-166)'
+		 [449] 'Posterodorsal pseudotuberculum  (LC00-208)'
+		 [450] 'Zeugopodium (CN06-181)'
+		 [451] 'Humerus (KL76-1)'
+		 [452] 'Humerus, shape (DBC-104)'
+		 [453] 'Humerus, preaxial tuberosity New'
+		 [454] 'Humerus, deltopectoral crest  (DBC-107)'
+		 [455] 'Humerus, ectepicondyle New'
+		 [456] 'Humerus, ectepicondilar foramen (EB98-103)'
+		 [457] 'Humerus, medial surface of entepicondyle New'
+		 [458] 'Humerus, fossa between the capitulum and the trochlea New'
+		 [459] 'Radius, preaxial ridge  (DBC-113)'
+		 [460] 'Ulna, articulation with centrale (DBC-111)'
+		 [461] 'Carpus, intermedium (Egek-24)'
+		 [462] 'Manus, phalangeal formulae (Ba90-46)'
+		 [463] 'Pes, phalangeal formulae (Ba90-46)'
+		 [464] 'Manus, digits (Gr-047)'
+		 [465] 'Manus digits (KL-64)'
+		 [466] 'Manus, first metacarpal  (DBC-116)'
+		 [467] 'Manus, fourth phalangeal element in forth finger (KL95-11)'
+		 [468] 'Manus, metacarpals (Gr-048)'
+		 [469] 'Manus, metacarpals (Ba90-45)'
+		 [470] 'Manus, orientation of the fifth digit relative to the others  (DBC-119)'
+		 [471] 'Manus, ulnare (Gr-049)'
+		 [472] 'Manus, radiale New'
+		 [473] 'Paraphalangeal elements in pes and manus New'
+		 [474] 'Manus ans pes, terminal phalanges (ungual) (Greer)'
+		 [475] 'Proximal phalanges expanded posteriorly, T shaped New'
+		 [476] 'Pelvis (RZ-207)'
+		 [477] 'Ilium, anterior process (RZ-208)'
+		 [478] 'Ilium, distal 2/3 (KL76-9)'
+		 [479] 'Ilium, width (Gr-045)'
+		 [480] 'Ischium (KL76-11)'
+		 [481] 'Ischium, metischial processes  (Ba90-49)'
+		 [482] 'Ischio-pubic fenestra (KL76-10 Gr-046)'
+		 [483] 'Hypoischium, shape  (Ba90-50)'
+		 [484] 'Hypoischium, size (KL76-15 Ba90-51)'
+		 [485] 'Pubis, relative length of the symphysial portion, compared to the tubercular portion (E-124)'
+		 [486] 'Pubis,  distal shape  (DBC-125)'
+		 [487] 'Pubis, pectineal process (Ba90-48)'
+		 [488] 'Epipubic cartilage (Ba90-47)'
+		 [489] 'Obturator foramen New'
+		 [490] 'Ischium symphysis New'
+		 [491] 'Femur, distal condyles (DBC-132)'
+		 [492] 'Femur, intercondylar fossa New'
+		 [493] 'Femur, internal trochanter (KL76-12)'
+		 [494] 'Femur, shape  (DBC-130)'
+		 [495] 'Fibula New'
+		 [496] 'Tibia (KL76-13)'
+		 [497] 'Pes (CN06-186)'
+		 [498] 'Tarsus, cuboid and tibiofibulare  (KL76-14)'
+		 [499] 'Tarsus, tibiofibulare fused (astragalus and calcaneum) (L98-215)'
+		 [500] 'Proximal portion of metatarsal IV New'
+		 [501] 'Pes, metatarsals (Ba90-52)'
+		 [502] 'Pes, metatarsals orientation (Ba90-57)'
+		 [503] 'Pes, increasing order of metatarsal length (Ba90-53)'
+		 [504] 'Pes, metatarsals-phalanx ratio (Ba90-56)'
+		 [505] 'Pes, metatarsal-phalangeal and first interphalangeal joints  (Ba90-58)'
+		 [506] 'Pes, fifth metatarsal  (KL76-18)'
+		 [507] 'Pes, fifth metatarsal  (Ba90-54)'
+		 [508] 'Pes, medial and lateral plantar tubercles on metatarsal V (Rlanth R80L C06-44)'
+		 [509] 'Pes, digits orientation (Ba90-55)'
+		 [510] 'Pes, digit V almost opposabe to 1-4. (Ba90-55)'
+		 [511] 'metacarpals and metatarsals (KL76-15)'
+		 [512] 'Pes, third phalangeal series (KL76-16)'
+		 [513] 'Pes, forth phalangeal series (KL76-17)'
+		 [514] 'Pes, fourth phalangeal element in forth toe (KL95-12)'
+		 [515] 'Pes, tip of fourth toe (KL95-24)'
+		 [516] 'Sesamoid dorsal to the proximal  epiphysis of ulna New'
+		 [517] 'Number of sesamoids at the epiphysis proximal of radius  New'
+		 [518] 'Ulnar patella New'
+		 [519] 'Knee, patella sesamoid New'
+		 [520] 'Number of sesamois between the femur and the tibia (i.e. the tibial lunulae and the dorsal pre-axial tubiofemoral lunula) New'
+		 [521] 'Sesamoid between the femur and the fibula (i.e. parafibula) New'
+		 [522] 'Plantar sesamoids New'
+		 [523] 'Sesamoid dorsal to the metacarpal- carpal and metatarsal-tarsal articulations New'
+		 [524] 'Vertebrae, centrum morphology (KL87-1 Ba90-21))'
+		 [525] 'Vertebrae, neural spines (Ba90-22 GN98-78 Ke03-134)'
+		 [526] 'Vertebrae, obliqueness of condyles (E-92)'
+		 [527] 'Vertebrae, precondylar constriction (E-94)'
+		 [528] 'Vertebrae, rib (diapophysis) fused to centrum of sacral vertebra (KL76-20)'
+		 [529] 'Vertebrae, second intercentrum of cervical vertebrae with process directed anteriorly, ventrally or posteriorly (Gr-051)'
+		 [530] 'Vertebrae, zygosphene-zygantra (RZ-169)'
+		 [531] 'Presacral vertebrae, number (E-105, E-106, A09-37)'
+		 [532] 'Presacral vertebrae, centrum length of lumbar vertebrae (Gr-052)'
+		 [533] 'Presacral vertebrae, length of transverse processes (C08-238?)'
+		 [534] 'Presacral vertebrae, notching of synapophyses (C08-237?)'
+		 [535] 'Presacral vertebrae, ribs in the posterior-most trunk vertebrae (lumbar) (KL76-19)'
+		 [536] 'Presacral vertebrae, zygapophyses (A09-38)'
+		 [537] 'Cervical vertebrae (E-107 E-108)'
+		 [538] 'Cervical vertebrae, atlas dorsal margin (CN06-158)'
+		 [539] 'Cervical vertebrae, atlas dorsal margin (Gr-050)'
+		 [540] 'Cervical vertebrae, length of axis compared to atlas New'
+		 [541] 'Cervical vertebrae, atlas lateral process (CN06-159)'
+		 [542] 'Cervical vertebrae, atlas neural arch (KL95-6)'
+		 [543] 'Cervical vertebrae, hypapophyseal keel (EB98-149)'
+		 [544] 'Cervical vertebrae, intercentra (E-97)'
+		 [545] 'Cervical vertebrae, length relative to the dorsal vertebrae  (L97-103)'
+		 [546] 'Cervical vertebrae, number of ribless including atlas and axis (KL76-25)'
+		 [547] 'Thoraco-lumbar vertebrae, pachyostosis  (LC00-196)'
+		 [548] 'Thoraco-lumbar vertebrae, number of lumbar vertebrae (Ba90-23)'
+		 [549] 'Thoraco-lumbar vertebrae, dorsal profile of posterior end of neural spine of midbody vertebra (KL76-25)'
+		 [550] 'Thoraco-lumbar vertebrae, intercentra (EB98-86)'
+		 [551] 'Thoraco-lumbar vertebrae, lateral profile of dorsal margin of neural arch of midbody vertebra (KL76-24)'
+		 [552] 'Sacral vertebrae, distal fusion of transverse processes (Gr-061)'
+		 [553] 'Sacral vertebrae, functional  (DBC-72)'
+		 [554] 'Sacral vertebrae, number  (Gr-053)'
+		 [555] 'Sacral vertebrae, foramen in transverse process of second sacral  New'
+		 [556] 'Sacral vertebrae, Articular facet on transverse processes of sacral vertebrae (A09-43)'
+		 [557] 'Sacral vertebrae, pleurapophyses (Gr-054)'
+		 [558] 'Sacral vertebrae, forked transverse processes (lymphapophyses)  (LC00-209)'
+		 [559] 'Caudal vertebrae,  vertebrae number (Ba90-25)'
+		 [560] 'Caudal vertebrae,  centrum morphology  (Ba90-26)'
+		 [561] 'Caudal vertebrae, pygial vertebrae number (Holder-1960 A09-44)'
+		 [562] 'Caudal vertebrae, pygial vertebrae zygapophyses (A09-45)'
+		 [563] 'Caudal vertebrae, autotomy planes (E-103)'
+		 [564] 'Caudal vertebrae, autotomy planes (septum) (Ba90-28)'
+		 [565] 'Caudal vertebrae, autotomy planes (septum) (Ba90-29)'
+		 [566] 'Caudal vertebrae, autotomy planes (septum) (KL76-22)'
+		 [567] 'Caudal vertebrae, chevron bone articulation on post-sacral vertebra (KL76-21)'
+		 [568] 'Caudal vertebrae, chevrons position  (RZ-185)'
+		 [569] 'Caudal vertebrae, diapophyses of anterior-most caudal (KL76-23)'
+		 [570] 'Caudal vertebrae, dorsoventral height (including the neural spines and chevrons)  (CDBÑmosasauroid character 9)'
+		 [571] 'Caudal Vertebrae, neural spines (Gr-057)'
+		 [572] 'Caudal vertebrae, pedestals for chevrons  (RZ-183)'
+		 [573] 'Caudal vertebrae, transverse process (E-100-102)'
+		 [574] 'Caudal Vertebrae, transverse process in posterior-most caudal vertebrae (Gr-056)'
+		 [575] 'Caudal Vertebrae, vertebrae (Ba90-24)'
+		 [576] 'Caudal Vertebrae, vertebrae post-pygal pleurapophyses (Ba90-27)'
+		 [577] 'Caudal vertebrae, zygapophyses and transverse processes  (CDB5)'
+		 [578] 'Cloacal bones (Gr-062 E-125 Ba90-59 Kl-8)'
+		 [579] 'Cloacal bones, number per side in adult males (KL76-8)'
+		 [580] 'Integument, lateral fold in body  (MB54)'
+		 [581] 'Integument lateral body scutellation New'
+		 [582] 'Integument, dorsal body osteoderms  (E-127)'
+		 [583] 'Integument, ventral body osteoderms  (E-126)'
+		 [584] 'Integument, osteoderm thickening  (C06-48)'
+		 [585] 'Integument, dorsal body scales (A98-8 CN06-194 C08-311 Ba90-82 Ba90-78)'
+		 [586] 'Integument, elongated mid-dorsal scales with apices (E-146)'
+		 [587] 'Integument,  keeled scales on body  (C06-47)'
+		 [588] 'Integument,  keeled scales distribution New'
+		 [589] 'Integument, escutcheon generation glands (KL95-18)'
+		 [590] 'Integument, mid-dorsal scale row  (E-146)'
+		 [591] 'Integument, scale rows on original tails at the level of autotomy septa (Ba90-103)'
+		 [592] 'Integument, scales of rosettes (Ba90-83)'
+		 [593] 'Integument, Beta generation glands (KL95-19)'
+		 [594] 'Integument, cycloid scales (E-148)'
+		 [595] 'Integument, ventral compound osteoderms (E83)'
+		 [596] 'Integument, egg teeth (KL87-15)'
+		 [597] 'Integument, dorsal skin of the head (Ba90-01)'
+		 [598] 'Integument, dorsal portion of rostral scale (Gr-065)'
+		 [599] 'Integument, enlarged scales anterior to external nares (Gr-066)'
+		 [600] 'Integument, anterior loreal scales (Ba90-87)'
+		 [601] 'Integument, number of loreal scales New'
+		 [602] 'Integument, nostril contact with rostral scale (Ba90-79)'
+		 [603] 'Integument, posterior margin of rostral scale (Gr-064)'
+		 [604] 'Integument internasal scales (KL-64)'
+		 [605] 'Integument, labial scales (Ba90-85)'
+		 [606] 'Integument timpanic edge (KL-64)'
+		 [607] 'Integument, infralabial scales (anterior ones) (Ba90-86)'
+		 [608] 'Integument, first infralabials contact behind mental scale (Ba90-80)'
+		 [609] 'Integument, postmental scales  (Ba90-81)'
+		 [610] 'Integument, posterior-most fringe scales of upper and lower eyelid (Gr-067)'
+		 [611] 'Integument, small granular scales over upper eyelid (Gr-068)'
+		 [612] 'Integument, supraciliary plate (KL95-21)'
+		 [613] 'Integument, supraciliary spine  (Ba90-21 KL95-20)'
+		 [614] 'Integument postorbital head scutelation (A98-1)'
+		 [615] 'Integument, cephalic scale fusion (Ke03-5)'
+		 [616] 'Integument, cephalic scales M70'
+		 [617] 'Integument, contact between frontal and parietal scale  (M70)'
+		 [618] 'Integument, folds of loose skin around mandibular margins (Ba90-91)'
+		 [619] 'Integument, seromucus glands in inferior labial glands (Eanguim-16)'
+		 [620] 'Integument, grooves separating osteoderms on maxilla  (Y76-5)'
+		 [621] 'Integument, gular fold with distinctive midventral squamation  (FE-47)'
+		 [622] 'Integument, bony tubercles (C08-311)'
+		 [623] 'Integument, cloacal spurs (Gr-063)'
+		 [624] 'Integument, cloacal spurs (Ba90-94)'
+		 [625] 'Integument, scales of flattened cloacal spurs  (Ba90-95)'
+		 [626] 'Integument, preanal organs (KL-64E-144 Ba90-92)'
+		 [627] 'Integumen, preanal organs (Ba90-93)'
+		 [628] 'Integument, annular rings (dermal/epidermal) in the body squamation  (Ke-3)'
+		 [629] 'Integument, scale organ ornamentation  (FE-52H93)'
+		 [630] 'Integument, eye, movable eyelid (Ke-11)'
+		 [631] 'Integument, dorsal compound osteoderms (E83'
+		 [632] 'Integument dorsal scales of apendages (A98-6)'
+		 [633] 'Integument, loose skin on posterior face of hindlimb (Ba90-90)'
+		 [634] 'Integument, ventral palmar scales (Ba90-84)'
+		 [635] 'Integument, big tubercle at the base of hand (lateral side in ventral view). New'
+		 [636] 'Integument, dorsal palmar scales with distal edge New'
+		 [637] 'Integument, webbing between digits 2, 3, and 4 (Ba90-88)'
+		 [638] 'Integument, webbing between digits 4 and 5 (Ba90-89)'
+		 [639] 'Integument, distal-most superolateral scales in digit (KL95-23)'
+		 [640] 'Integument, apical plates of digit 1 (Ba90-75)'
+		 [641] 'Integument, scansorial pad (Ba90-73)'
+		 [642] 'Integument, scansorial plates (Ba90-74)'
+		 [643] 'Integument, ventral digital scalation (Ba90-71)'
+		 [644] 'Integument, digital lamellae scansorial setae (Ba90-72)'
+		 [645] 'Integument, claws (Ba90-76)'
+		 [646] 'Integument, claws morphology (Ba90-77)'
+		 [647] 'Integument ungual sheat for retractil claws (Vanzolini & Donoso Barros, 1966 KL95-22)'
+		 [648] 'Integument coloration New'
+		 [649] 'Integument coloration (Ba90-60)'
+		 [650] 'Integument coloration, juvenile-adult pattern (Ba90-62)'
+		 [651] 'Integument coloration, sexual dichromatism (U54)'
+		 [652] 'Integument coloration, dorsal color pattern of head and nape (Ba90-61)'
+		 [653] 'Integument coloration, ocelli in the dorsal surface of the body New'
+		 [654] 'Integument coloration, pigmentation in belly (KL-64)'
+		 [655] 'Integument coloration, parietal peritoneum (Ba90-65)'
+		 [656] 'Integument coloration, peritoneal pigmentation (Ba90-66)'
+		 [657] 'Integument coloration, mouth lining (Ba90-64)'
+		 [658] 'Integument coloration, tongue  (Ba90-63)'
+		 [659] 'Integument, dorsal scales of the tail (KL-64 Ba90-101 A98)'
+		 [660] 'Tail (Ba90-96)'
+		 [661] 'Tail,  regeneration (Ba90-98)'
+		 [662] 'Tail, cartilaginous rod of regenerated tail (Ba90-99)'
+		 [663] 'Tail, margins (Ba90-97)'
+		 [664] 'Tail, posterior end (Ba90-100)'
+		 [665] 'Tail, pygal region (Ba90-102)'
+		 [666] 'Tail, subcaudal lamellae (Ba90-105)'
+		 [667] 'Tail, ventral sulcus (Ba90-104)'
+		 [668] 'Tail, ventral scales New'
+		 [669] 'Clutch size (KL95-17)'
+		 [670] 'Reproductive mode (Ba90-106)'
+		 [671] 'Reproductive mode New'
+		 [672] 'Ear, aural opening  (Ba90-70)'
+		 [673] 'Ear, external ear opening (auricular depression or canal)  (Ke-13)'
+		 [674] 'Ear, external ear opening shape (Ba90-69)'
+	;
+	STATELABELS
+		1
+		'30-50 mm'
+		'over 50 mm'
+		'under 30 mm'
+		,
+		2
+		'No'
+		'yes'
+		,
+		3
+		'length and wide between the quadrates subequal'
+		'compressed longer than wide'
+		'dilated wider than long'
+		,
+		4
+		'tapering'
+		'blunt and rounded'
+		,
+		5
+		'absent'
+		'present strongly developed'
+		,
+		6
+		'oval shaped'
+		'irregular shaped'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'< 30%'
+		'= or >30%'
+		'> 45%'
+		'>50%'
+		,
+		10
+		'short absent'
+		'four tooth positions long or more'
+		,
+		11
+		'convex vaulted'
+		'flat'
+		,
+		12
+		'irregular'
+		'pitted'
+		'bumps/hornlets'
+		'dermal sculpturing absent'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present on frontal and parietal'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'with fenestra  vomeronasalis and internal choana continuous paleochoanate condition'
+		'with vomer overlapping but not contacting the dorsal surface of the lingual shelf of the maxilla incomplete neochoanate condition'
+		'with bony subdivision made by vomer contacting the  lingual shelf of the maxilla and separating the fenestra vomeronasalis and internal choana neochoanate condition'
+		,
+		19
+		'thin'
+		'closed'
+		,
+		20
+		'with distinct opening of the Jacobson organ (fenestra vomeronasalis)'
+		'these two structures combined in one only'
+		'absent'
+		,
+		21
+		'mostly mediolaterally'
+		'oriented anterolaterally (at more than 30 degrees from the perpendicular to the sagital for the skull'
+		,
+		22
+		'long and narrow or short and wide'
+		'long and wide'
+		'absent'
+		'fenestra surrounded by vomers only'
+		'absent maxillary lingual shelf in contact separating the vomer and the premaxilla'
+		,
+		23
+		'as an undivided space'
+		'totally or partially divided by anterior process of vomer'
+		'absent'
+		,
+		24
+		'oval or rounded almost chicken egg shaped'
+		'irregular almost D-shaped'
+		'oval elongated almost snake egg shaped or slit-like nearly absent'
+		'very small irregular shaped'
+		,
+		25
+		'2/5 or greater'
+		'1/3 or less'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'present invaded by interpterygoid vacuity'
+		'present contact for their length'
+		'present contact anteriorly and posteriorly'
+		'absent'
+		,
+		29
+		'Roughly oval broader than high'
+		'more or less round'
+		'higher than broad'
+		,
+		30
+		'absent paired premaxillae with clear or partial suture'
+		'present with no visible suture'
+		,
+		31
+		'narrow allowing the maxilla to be part of the tip of the snout'
+		'broad being exclusively the tip of the snout'
+		,
+		32
+		'toothed'
+		'toothless'
+		,
+		33
+		'absent'
+		'present conical and short (extending for about 1 tooth position'
+		'cylindrical and elongate (extending for about the length of two tooth positions)'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'narrow'
+		'wide'
+		,
+		36
+		'premaxilla(e) overlaps the nasal(s)'
+		'nasal(s) overlap the premaxilla(e)'
+		'premaxilla and nasals have a laminar contact'
+		'premaxilla(e) does not reach the nasal(s)'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'separates and/or overlaps and contacts the frontal'
+		'separates nasals throughout approximately 1/2 their length'
+		'approximately 1/4 their lenght'
+		'does not separate nasals and may project noticeably anteriorly beyond general profile of snout'
+		,
+		39
+		'do not obviously converge towards midline'
+		'gradually converge'
+		'abruptly converge'
+		,
+		40
+		'absent'
+		'broad widest plane'
+		'narrow narrowest plane'
+		'narrow at its base but spatulate posteriorly'
+		,
+		41
+		'does not reach the level of the posterior edge of nasal bones'
+		'reaches or surpass the posterior process of the nasals'
+		,
+		42
+		'obtuse'
+		'sharp pointed'
+		'bifurcated'
+		'transverse'
+		,
+		43
+		'narrow'
+		'broad'
+		,
+		44
+		'yes'
+		'no'
+		,
+		45
+		'absent'
+		'present'
+		'contact overlain by nasals'
+		,
+		46
+		'single'
+		'bipartite or bilobed'
+		'absent'
+		,
+		47
+		'absent'
+		'oval or rounded'
+		'arc shaped'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'indented or even in profile'
+		'projects posteriorly'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'maxillae not in contact'
+		'maxillae in contact strong'
+		'maxillae in contact briefly'
+		,
+		53
+		'relative flat'
+		'deeply troughed This character was reworded to be consistent with anatomical terms used'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'medial flaring absent'
+		'medially flared from the lateral border of the choana'
+		'present expanded posteriomedially beyond the posterolateral process of the maxilla'
+		,
+		56
+		'at or anterior to midpoint of maxilla'
+		'posterior to midpoint of maxilla'
+		'dorsal and ventral margins subparallel (TC00-29)'
+		'maxilla very short'
+		,
+		57
+		'obtuse'
+		'sharp pointed'
+		,
+		58
+		'only anteriorly does not include a suborbital component'
+		'extensive extends beyond lacrimal and/or lacrimal foramen'
+		'extensive overlap leaving just a small portion (crescent shaped) of prefrontal exposed'
+		'extensive the dorsal process of maxilla overlaps the majority of the prefrontal and the later  reaches or approaches the posterior border of the external naris'
+		,
+		59
+		'without separating the frontal and prefrontal anteriorly'
+		'separating the frontal and prefrontal'
+		,
+		60
+		'steeply inclined posterior border of the naris distinct from ventral border'
+		'weakly inclined posterior border of the naris not distinct from the ventral boder'
+		,
+		61
+		'Turning forwards medially'
+		'not turning forwards'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'tend to be round or only slighty uneven'
+		'with a conspicuous process projecting from it which in some species tends to separate palatine from ectopterygoid'
+		,
+		64
+		'beyond anterior 1/4 of orbit'
+		'terminates at anterior border of orbit'
+		,
+		65
+		'directed ventrolaterally contacting  jugal ventraly'
+		'directed laterally contacting jugal medially'
+		,
+		66
+		'paired unfused'
+		'fused to one another'
+		,
+		67
+		'extensive'
+		'less than 1/2'
+		'fully separated'
+		,
+		68
+		'square rectangular or paralleloram shaped'
+		'triangular'
+		'with anterolateral expansion'
+		,
+		69
+		'shorther than frontal'
+		'as long as frontal or even longer than it'
+		,
+		70
+		'thin and not expanded'
+		'greatly expanded'
+		'thin anteriorly and broad posteriorly'
+		,
+		71
+		'forming enterely the posterodorsal  border of the external naris'
+		'posterodorsal edge with maxillary participation'
+		,
+		72
+		'extensive to moderate'
+		'very slight absent'
+		,
+		73
+		'M-shaped'
+		'frontal forms an anterior wedge'
+		'transverse'
+		'W-shaped'
+		'V-shaped with nasals invading frontal suture'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'yes'
+		'no'
+		,
+		76
+		'No'
+		'yes'
+		,
+		77
+		'lies along lateral side of the margin of frontal'
+		'is recessed into the frontal'
+		'prefrontal lies enteryle below frontal'
+		'lies on top of th frontal'
+		,
+		78
+		'below the skull table'
+		'leveled or higher than skull table'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'separated'
+		'contacting each other'
+		,
+		81
+		'narrow'
+		'wide'
+		'separated'
+		,
+		82
+		'narrow and pointed'
+		'relatively wide and blunt'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present extends anteriorly to reach the naris'
+		'present contacts the premaxilla'
+		,
+		86
+		'absent'
+		'slight'
+		'extensive'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'( absent widely separated'
+		'present'
+		,
+		90
+		'1/2 or more'
+		'less than 1/2'
+		,
+		91
+		'less than 1/2 the length of the supratemporal fenestra'
+		'more than 1/2 the legth of the supratemporal fenestra'
+		'more than 3/4 the length of the supratemporal fenestra'
+		'extends posteriorly to contact the supratemporal'
+		'contacts the squamosal'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'postorbital and postfrontal as discrete elements'
+		'only one element present (fusion assumed)'
+		'absent'
+		,
+		94
+		'small with reduction of anterior and posterior processes'
+		'large without reduction of processes'
+		,
+		95
+		'present'
+		'absent'
+		,
+		96
+		'located anterior to the lateral end of the frontoparietal suture'
+		'at the level of the lateral end of the frontoparital suture'
+		'posterior to the lateral end of the frontoparietal suture'
+		'vertex not easy to locate lateral edge rounded'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'extends horizontally or only slightly downcurved'
+		'distinctly ventrally curved'
+		,
+		99
+		'large'
+		'small or absent'
+		,
+		100
+		'present equal in width to the anterior process'
+		'present 2 times wider'
+		'present 3 times wider'
+		'absent'
+		,
+		101
+		'finishing right above the crista alaris'
+		'finishing away from the level crista alaris'
+		'extending posteriorly beyond crista alaris'
+		,
+		102
+		'present'
+		'absent'
+		,
+		103
+		'anteroposteriorly elongate'
+		'irregularly shaped not elongate in mediolateral or anteroposterior planes'
+		'mediolaterally developed bar bordering the orbit and supratemporal fenestra'
+		,
+		104
+		'absent'
+		'present for less than 1/2 the parietal length'
+		'present for more than 1/2 the parietal length'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'present large and extending from more than 1/2 the distance to the external naris'
+		'present discrete and limited to the orbital margin'
+		'present on orbital margin but fused to the prefrontal'
+		'absent'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'single'
+		'double'
+		,
+		110
+		'small similar in size to palatine foramen'
+		'large approximately 2 times the smallest diameter of the palatine foramen or more'
+		,
+		111
+		'prefrontal jugal and lacrimal if present'
+		'prefrontal and maxilla'
+		'prefrontal maxilla and jugal'
+		,
+		112
+		'present'
+		'absent'
+		,
+		113
+		'angulated'
+		'little angulation'
+		'reduced to a small splint barely extending beyond the posterior margin of the maxilla'
+		'a splint of bone extending beyond the maxilla squeezed between the maxilla and the ectopterygoid sometimes fused to the latter'
+		'angulated complex and triradiated The state 3 was added to cover the variation of this element within the pygopodids'
+		,
+		114
+		'large with important participation on the completion of the orbit'
+		'small reduced to a splint of bone mostly ovelying the posterior process of the maxilla or beyond it'
+		'vestigial limited to the tip of the maxilla'
+		,
+		115
+		'not visible'
+		'visible'
+		,
+		116
+		'equal in width'
+		'wedge-shaped'
+		,
+		117
+		'no further than if forming the anterior border of the orbit'
+		'extends anteriorly beyond the margin of the orbit'
+		,
+		118
+		'extensive overlapping'
+		'narrow contact or excluded'
+		,
+		119
+		'below dorsal margin of lacrimal foramen'
+		'above the dorsal margin of lacrimal foramen'
+		,
+		120
+		'present'
+		'absent'
+		,
+		121
+		'without anterior or posterior flanges'
+		'dilated'
+		'absent'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'present'
+		'absent'
+		,
+		125
+		'aligned more to lateral edge of the squamosal or if absent to the post-parietal process'
+		'aligned more to the lateral edge of the quadrate'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'anterior and posterior borders subequal in width'
+		'rhomboid'
+		'concave lateral margins minimun width less than 3/5 posterior border width'
+		'tapering posteriorly'
+		,
+		128
+		'longer than wide'
+		'approximately as wide as long'
+		'wider than longer It is specified that is the observable part that is compared with the posterior width because in some forms the nasals overlapp the frontal obscuring the anterior portion of the bone'
+		,
+		129
+		'absent'
+		'low fairly inconspicuous'
+		'high thin (tall) and well developed'
+		,
+		130
+		'generally flat'
+		'deeply furrowed or concave'
+		,
+		131
+		'absent'
+		'present'
+		'present elaborated into dorsomedial extensions on top of parietal'
+		,
+		132
+		'absent'
+		'present'
+		,
+		133
+		'absent interorbital margin linear'
+		'present anterior portion of the frontal is hourglass shaped'
+		,
+		134
+		'at the constriction between the orbits'
+		'anteriorly'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'absent'
+		'present'
+		,
+		137
+		'dagger-shaped'
+		'short and rounded or absent'
+		,
+		138
+		'subequal'
+		'lateral processes longer than median process'
+		'median process longer than lateral processes'
+		,
+		139
+		'positioned behind the ascending nasal process of the premaxilla'
+		'anterior to it or at the same level'
+		,
+		140
+		'not invaded by posterior end of nares'
+		'distinct embayment present'
+		,
+		141
+		'absent'
+		'briefly'
+		'extensive The amount of contact is divided into briefly and extensive'
+		,
+		142
+		'laminar'
+		'overlapping'
+		,
+		143
+		'absent'
+		'present'
+		,
+		144
+		'absent'
+		'present'
+		,
+		145
+		'ventral downgrowths'
+		'partly surrounding the olfactory bulbs anteriorly'
+		'partly surrounding the olfactory bulbs posteriorly'
+		'completely fused ventrally forming a tubular structure'
+		'contact the parabasisphenoid (RZ-54)'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'absent'
+		'present'
+		,
+		148
+		'absent'
+		'present'
+		,
+		149
+		'absent prefrontals with large contributions'
+		'present prefrontals blocked from the orbitonasal fenestra'
+		,
+		150
+		'absent'
+		'present large and projecting along the lateral edge of parietal'
+		,
+		151
+		'absent'
+		'present'
+		,
+		152
+		'³ 66% skull length'
+		'between 50% and 66%'
+		'² 50%'
+		,
+		153
+		'U-shaped anteriorly arched'
+		'transverse'
+		'W-shaped'
+		'U-shaped posteriorly arched'
+		,
+		154
+		'frontoparietal suture adjacent to the point where the jugal abuts the postorbital-postfrontal'
+		'suture is posterior to the posterior process of jugal which is extensively reduced'
+		'the suture is at the level of the posterior process of jugal or right behind it'
+		,
+		155
+		'absent'
+		'present a single ossification articulating ith or located near the prefrontal'
+		'present multiple ossifications running down the lateral surface of the prefrontal (parafrontal bones) frontal and anterior portion of the postorbitofrontal sometimes not ossified but as a continuous mesenchymal tissue in the same positon It is not c'
+		,
+		156
+		'paired unfused'
+		'fused'
+		,
+		157
+		'weakly developed/absent'
+		'present as anteroposteriorly elongated crest'
+		'present anteroposteriorly narrow ventral projection'
+		'present hypertrophied closing the braincase'
+		,
+		158
+		'generally straight or slightly curved with even profile'
+		'with notable indentation posterior to frontoparietal suture'
+		,
+		159
+		'gently curved laterally tapering'
+		'with broad squared lateral tabs such that the postfrontal margin of the frontal is parallel with the postfrontal margin of the parietal'
+		,
+		160
+		'approximately as long as wide short and square'
+		'short and very wide'
+		'with tendency to elongate anteroposteriorly'
+		,
+		161
+		'absent'
+		'present within the contact or dorsally'
+		'present on ventral surface'
+		,
+		162
+		'projecting anteriorly or forming nearly right angle'
+		'corner markedly rounded rendering parietals U-shaped'
+		,
+		163
+		'present'
+		'absent'
+		,
+		164
+		'only at the anterior and posterior extremes'
+		'increased contact anteriorly and posteriorly'
+		'not supratemporal arch'
+		'not in contact'
+		,
+		165
+		'open crests extend posterolaterally'
+		'closed crests meet at midline'
+		'absent'
+		,
+		166
+		'absent'
+		'present'
+		'present and extending substantially onto the skull table'
+		,
+		167
+		'no bony contact (contact only via the processus ascendens tecti synotici)'
+		'bony contact present and extensive the supraoccipital becomes incorporated into the skull roof'
+		,
+		168
+		'overlap supraoccipital on midline no matter if exhibit a narrow space laterally'
+		'conspicuous space between parietals and supraocciptal'
+		'parietal extends beyond supraoccipital'
+		,
+		169
+		'relatively straight transverse'
+		'with posterior pointed or rounded projection'
+		'with posterior squared projection This character was reformated distinguishing  the shape of the posterior projection'
+		,
+		170
+		'convex vaulted'
+		'flat'
+		'concave'
+		,
+		171
+		'yes'
+		'no Reformated in gekkotans jaw adductor musculature doesn''t reach the posterior dorsal surface of the skull table the neck muscles (spinalis capitis) are the ones covering this surface'
+		,
+		172
+		'well spaced post-temporal fossae might be present'
+		'very close space between them almost obliterated'
+		,
+		173
+		'smooth'
+		'with depressed triangular region'
+		,
+		174
+		'absent flat parietal table extends to the posterior margin'
+		'present'
+		,
+		175
+		'absent'
+		'present'
+		,
+		176
+		'dorsally'
+		'ventrally'
+		,
+		177
+		'within parietal'
+		'within frontal'
+		'at frontoparietal suture'
+		'absent'
+		,
+		178
+		'emarginated'
+		'not emarginated complete roofing entire occipital region'
+		,
+		179
+		'present'
+		'absent'
+		,
+		180
+		'greater than 1/2'
+		'less than 1/2'
+		'absent'
+		,
+		181
+		'narrow bladelike'
+		'broad and flat'
+		,
+		182
+		'the squamosal'
+		'the dorsal tubercle of the paroccipital process'
+		'the supraoccipital and the otooccipital'
+		,
+		183
+		'absent'
+		'present'
+		,
+		184
+		'complex shape large and relatively broad posteriorly dilated into club-like knob sometimes an inward process encircles the  postparietal process ventrally'
+		'small slender and splint-like'
+		'vestigial'
+		'squamosal absent'
+		,
+		185
+		'lying on top of quadrate'
+		'not lying on top of quadrate'
+		,
+		186
+		'lying entirely along the postparietal process of parietal'
+		'extending further back the postparietal process'
+		'squamosal absent'
+		,
+		187
+		'present'
+		'absent'
+		,
+		188
+		'present'
+		'absent'
+		,
+		189
+		'present'
+		'absent'
+		,
+		190
+		'present poorly developed'
+		'present well developed'
+		'absent'
+		,
+		191
+		'absent'
+		'present'
+		,
+		192
+		'absent'
+		'present'
+		,
+		193
+		'absent'
+		'present'
+		,
+		194
+		'absent'
+		'present'
+		,
+		195
+		'plate-like (broad flat)'
+		'rod-like (narrow and sub-cylindrical)'
+		,
+		196
+		'relatively broad (subequal in breadth to the contact with the maxilla)'
+		'relatively narrow (about 1/2 the breadth of the contact with the maxilla) and movable'
+		,
+		197
+		'absent or very small'
+		'large'
+		,
+		198
+		'projects posteriorly occasionally only slighty so'
+		'gradually tapers anteriorly'
+		,
+		199
+		'small'
+		'large with  conspicuous wing-like projection'
+		'large with elongated proyection invading the choana'
+		,
+		200
+		'longer than wide'
+		'subequal in length and wide'
+		,
+		201
+		'subequal'
+		'only 2/3 the length'
+		'exceding substantially the length of the vomer'
+		,
+		202
+		'absent'
+		'present ventromedial fold partly hide the choanal groove'
+		'present ventromedial processes hide most of the dorsomedial processes'
+		'tubular with contact at midline'
+		,
+		203
+		'flat'
+		'rounded'
+		,
+		204
+		'smooth'
+		'with a small notch'
+		'with a small tubercle'
+		,
+		205
+		'rounded'
+		'straight'
+		'with posterior process'
+		,
+		206
+		'long'
+		'short or absent'
+		,
+		207
+		'absent'
+		'present'
+		,
+		208
+		'thin and blade-like'
+		'thick and robust'
+		,
+		209
+		'abruptly converge toward midline'
+		'parallel or gradually diverge posterolaterally from midline'
+		'rounded'
+		,
+		210
+		'overlapped by maxilla'
+		'not overlaped'
+		,
+		211
+		'curved downward behind the maxilla'
+		'straight behind the maxilla'
+		,
+		212
+		'below the horizontal imaginary line that continues the maxillary tooth row'
+		'at this imaginary line or above it'
+		,
+		213
+		'absent'
+		'present This character was modified because a process was not observed ventromedially in any of the specimens reviewed Instead a ventrolaterally process is found in some forms'
+		,
+		214
+		'absent'
+		'present'
+		,
+		215
+		'present'
+		'absent'
+		,
+		216
+		'large'
+		'small or absent'
+		,
+		217
+		'longer than anteromedial process'
+		'shorter than anteromedial process'
+		'subequal'
+		,
+		218
+		'wider than base of anteolateral process'
+		'narrower or aproximately equal in width'
+		,
+		219
+		'without facet for articulation with lower jaw'
+		'facet present'
+		,
+		220
+		'absent'
+		'present'
+		,
+		221
+		'very narrow and gradually tapers to point'
+		'relatively wide and relatively abruptly tapers to point'
+		'very wide throughout most of its length'
+		,
+		222
+		'absent'
+		'present closes suborbital fenestra'
+		,
+		223
+		'absent'
+		'present'
+		,
+		224
+		'present'
+		'absent'
+		,
+		225
+		'tends to be round'
+		'compressed or blade-like'
+		,
+		226
+		'absent'
+		'present'
+		,
+		227
+		'contacts both parietal and pterygoid'
+		'contacts both prootic and pterygoid'
+		'prootic and/or pterygoid contact absent epipterygoid may be absent'
+		,
+		228
+		'monimostylic'
+		'streptostylic'
+		'suspended mainly from the supratemporal'
+		'suspended mainly from the opisthotic'
+		'suspended mainly from the squamosal'
+		,
+		229
+		'anterior to it'
+		'posterior to it'
+		,
+		230
+		'convex'
+		'keeled'
+		,
+		231
+		'sloping posteroventrally'
+		'gently rounded or horizontal'
+		'indented'
+		,
+		232
+		'large forming deep and wide posterior depression'
+		'small forming a shallow and narrow depression'
+		'absent'
+		,
+		233
+		'narrow'
+		'expanded as a lateral flange'
+		,
+		234
+		'³ posterior crest'
+		'shorter than posterior crest'
+		'absent'
+		,
+		235
+		'absent'
+		'present'
+		,
+		236
+		'equal in size'
+		'lateral portion much larger'
+		,
+		237
+		'forms anterior or medial-most regions'
+		'forms a more posterior region'
+		,
+		238
+		'present'
+		'absent'
+		,
+		239
+		'absent'
+		'present'
+		,
+		240
+		'present'
+		'absent'
+		,
+		241
+		'both footplate and columella portions of stapes large'
+		'footplate large and columella reduced in size or absent'
+		'both footplate and columella absent or reduced to a small undifferenciated piece of bone'
+		,
+		242
+		'straight'
+		'angulated'
+		,
+		243
+		'expanded'
+		'not expanded'
+		,
+		244
+		'pierces stapes'
+		'anteriorly'
+		'posteriorly'
+		,
+		245
+		'absent'
+		'present'
+		,
+		246
+		'absent'
+		'present'
+		,
+		247
+		'absent'
+		'present'
+		,
+		248
+		'absent'
+		'present'
+		,
+		249
+		'absent'
+		'present'
+		,
+		250
+		'open'
+		'parietal downgrowths and anterior exensions of prootics'
+		'parietal downgrowths'
+		,
+		251
+		'terminates at inferior process'
+		'extends onto the basipterygoid process'
+		'crista prootica absent'
+		,
+		252
+		'absent'
+		'present'
+		,
+		253
+		'absent'
+		'present'
+		,
+		254
+		'absent'
+		'present'
+		,
+		255
+		'absent'
+		'present'
+		,
+		256
+		'above/slighty posterior to the spheno-occipital tubercle'
+		'anterior to the spheno-occipital tubercle'
+		,
+		257
+		'single unit made of basioccipital and exoccipitals ovoid or subovoid'
+		'bipartite constructed of exoccipitals'
+		'single unit made of basioccipital and exoccipitals U-shaped'
+		'formed only by the basioccipital'
+		,
+		258
+		'bulging out  extending out posterior edge of the skull convex'
+		'intermediate the rear edge of the skull straight'
+		'the occipital condyle not bulging out posterior edge concave'
+		,
+		259
+		'slender and round in cross section and in contact with anterior portion of frontal when ossified inter-orbital septum is present'
+		'expanded vertically contributes to partially ossified interorbital septum'
+		'expanded vertically contributes to well ossified interorbital septum and in contact with middle 1/3 of frontal'
+		,
+		260
+		'shorter than basipterygoid process'
+		'longer than basipterygoid process'
+		,
+		261
+		'unfused'
+		'fused'
+		,
+		262
+		'enlarged distally'
+		'anterior end not very different from the rest of the process'
+		,
+		263
+		'covered by expanded cartilaginous pad wider than the distal end of the basipterygoid process'
+		'cartilaginous pad not expanded same as the distal end of basipterygoid process'
+		'reduced two small cartilaginous structures at the anterior and posterior border of the basipterygoid process'
+		,
+		264
+		'ventral to dorsum sella'
+		'in the floor of the braincase dorsal to dorsum sella'
+		,
+		265
+		'houses it'
+		'shared with the prootic'
+		'within prootic'
+		'shared with parietal'
+		,
+		266
+		'as a continuous narrow groove in the sphenoid and prootic'
+		'a groove existing only in the prootic'
+		,
+		267
+		'absent'
+		'present'
+		'fusion of basioccipital to the parabasisphenoid'
+		,
+		268
+		'convex'
+		'nearly flat'
+		,
+		269
+		'absent'
+		'present'
+		,
+		270
+		'medially concave'
+		'medially flat inclusion of the paroccipital process more lateral than on the spheno-occipital tubercle'
+		,
+		271
+		'short and ventrally directed'
+		'elongated and posterolateral directed'
+		,
+		272
+		'posteriorly crista tuberalis nearly vertical'
+		'anteriorly crista tuberalis posterodorsally inclined'
+		'shifed medially and not adjacent to the occipital recess'
+		,
+		273
+		'present'
+		'absent'
+		,
+		274
+		'absent'
+		'present short and not extending further anteriorly than the inferior process of the prootic'
+		'present elongated and overhanging the inferior process of the prootic'
+		,
+		275
+		'absent'
+		'short and rounded'
+		'long and blunt square'
+		'long and pointed triangular'
+		'long and rounded'
+		,
+		276
+		'just below the skull table'
+		'well separated from skull table (more than the height of the crista alaris)'
+		,
+		277
+		'present'
+		'absent'
+		,
+		278
+		'ventrally'
+		'anteriorly'
+		'no contact sometimes epipterygoid absent'
+		,
+		279
+		'inmediately behind the postorbitofrontal or below it'
+		'far from the posterior end of the postorbitofrontal'
+		,
+		280
+		'well-developed lateral and ventral aspects'
+		'reduced ) narrow indistintinct and extending mostly laterally'
+		,
+		281
+		'without contacting the pterygoid'
+		'contacting the pterygoid'
+		,
+		282
+		'triangular-shaped process'
+		'rounded process'
+		'straight margin'
+		'nearly or totally absent'
+		'elongated'
+		,
+		283
+		'present as distinct fossa within the recessus vena jugularis'
+		'reduced/absent'
+		,
+		284
+		'single'
+		'double (presence of an external facialis canal)'
+		,
+		285
+		'does not extends into the crista alaris'
+		'extends into the crista alaris Reformated from character 21 of Grismer'
+		,
+		286
+		'No'
+		'yes'
+		,
+		287
+		'anteroventrally'
+		'parallel'
+		'posteroventrally'
+		,
+		288
+		'absent'
+		'present'
+		,
+		289
+		'absent'
+		'present'
+		,
+		290
+		'absent or faint ridge'
+		'distinct anterior process visible in lateral view'
+		'closes incisura prootica'
+		,
+		291
+		'small forming just a minor part of the dorsal surface of basicranium'
+		'large with two wings that extends laterally'
+		,
+		292
+		'present'
+		'absent'
+		,
+		293
+		'Sloping gently downwards and backwards to foramen magnum'
+		'more vertical'
+		,
+		294
+		'present'
+		'absent'
+		,
+		295
+		'less than 25 ttimes as long  as deep'
+		'more than 3 times as long as deep'
+		'supratemporal absent'
+		,
+		296
+		'large'
+		'small'
+		'very reduced'
+		,
+		297
+		'wider than taller'
+		'wide and tall subequal squarelike'
+		'taller than broader'
+		'indistinguishable'
+		,
+		298
+		'open'
+		'closed'
+		,
+		299
+		'oval and oriented anteroventrally'
+		'rounded'
+		'crescent-shaped'
+		,
+		300
+		'hidden by spheno-occipital tubercle in ventral view'
+		'partially visible spheno-occipital tubercle apophyses covers half of it'
+		'totally visible in ventral view This caracter was defined independently twice but the order was different Bauer defined this as a character of the basioccipital but is actually a character of the otooccipital An intermediate state was added in order'
+		,
+		301
+		'contributes to the it'
+		'does not contributes'
+		,
+		302
+		'separated'
+		'confluent'
+		,
+		303
+		'absent'
+		'present'
+		,
+		304
+		'separated from vagus foramen'
+		'both the hypoglosal and vagus nerves passing through internally subdivided canal or conpletely confluent'
+		,
+		305
+		'present'
+		'absent'
+		,
+		306
+		'present'
+		'absent'
+		,
+		307
+		'absent'
+		'present'
+		,
+		308
+		'absent'
+		'posteroventral margin sutured'
+		'posteroventral margin free'
+		,
+		309
+		'present between various bones (dentary splenial angular and/or surangular)'
+		'present small and perforating the splenial'
+		'present large very conspicuous perforating the splenial'
+		'absent'
+		,
+		310
+		'dentary does not contribute foramen present exclusively in the splenial'
+		'contributes to dorsal border'
+		'forms anterior dorsal and sometimes ventral border'
+		'discrete foramen absent The pesence of the foramen exclusively in the splenial was specified'
+		,
+		311
+		'present in the splenial'
+		'present between the splenial and the dentary'
+		'between the dentary and either the coronoid or the surangular'
+		'absent'
+		,
+		312
+		'separated'
+		'confluent'
+		,
+		313
+		'absent'
+		'present'
+		,
+		314
+		'medial margin of low and rounded'
+		'distinct vertical flange'
+		,
+		315
+		'present'
+		'absent'
+		,
+		316
+		'present'
+		'absent'
+		,
+		317
+		'absent'
+		'present'
+		,
+		318
+		'formed only by the surangular'
+		'margin with coronoid contribution'
+		'with dentary contribution'
+		'with coronoid and dentary contribution'
+		'anterior surangular foramen absent'
+		,
+		319
+		'absent'
+		'present'
+		,
+		320
+		'formed at least primarily by articular'
+		'formed equally by articular and surangular'
+		,
+		321
+		'present'
+		'absent'
+		,
+		322
+		'anterior to the coronoid apex'
+		'posterior to the coronoid apex'
+		,
+		323
+		'present'
+		'absent'
+		'present enlarged'
+		,
+		324
+		'open'
+		'partly closed'
+		'closed'
+		,
+		325
+		'coronoid surangular and prearticular'
+		'prearticular'
+		'surangular'
+		,
+		326
+		'ventrally convex'
+		'straight'
+		,
+		327
+		'narrow depth greater than width'
+		'broader than tall with splenal and Meckel''s canal slightly visible laterally'
+		,
+		328
+		'to the level of the posterior margin of the coronoid process (eminence)'
+		'extends to the midpoint of mandible between the coronoid eminence and the articular condyle'
+		,
+		329
+		'large and extensive'
+		'small (not approaching the dorsal terminus of the coronoid eminence or significantly overlapping)'
+		'absent'
+		,
+		330
+		'absent'
+		'present'
+		'intramandibular hinge'
+		'subcoronoid and angular processes of dentary form a single process'
+		,
+		331
+		'absent'
+		'present'
+		'intramandibular hinge'
+		,
+		332
+		'angular and surangular processes terminate at about the same posterior level'
+		'angular process terminates more anteriorly'
+		'angular process extends more posteriorly'
+		,
+		333
+		'present discrete'
+		'absent'
+		'present fused to postdentary bones'
+		'present and fused to the coronoid'
+		,
+		334
+		'extends for more than 2/3 of dentary'
+		'extends for less than 1/2 of the dentary'
+		,
+		335
+		'narrow and pointed'
+		'wide and flat'
+		,
+		336
+		'contacts ventral margin of angular for less than 1/2 ventral length of the angular'
+		'for more than 1/2 its length'
+		,
+		337
+		'overlaps the coronoid'
+		'laminar contact with coronoid'
+		'coronoid overlaps the splenial'
+		'splenial fused to coronoid'
+		,
+		338
+		'overlap no hinge with angular'
+		'abutting splenial receives angular'
+		'abutting angular receives splenial'
+		,
+		339
+		'extends posterior to the apex of the coronoid'
+		'terminates at or anterior to the coronoid apex'
+		,
+		340
+		'clasps the dentary'
+		'butts against dentary'
+		,
+		341
+		'tall exceeds the countour of mandible'
+		'short hardly elevated above outline'
+		,
+		342
+		'absent'
+		'present'
+		,
+		343
+		'absent'
+		'present'
+		,
+		344
+		'anterolabial and anterolingual processes subequal in length'
+		'anterolabial process longer than anterolingual process'
+		'anterolabial process shorter than anterolingual process'
+		,
+		345
+		'flat'
+		'keeled'
+		,
+		346
+		'higher than and not directed towards the anterior inferior alveolar foramen'
+		'low and directed towards the anterior inferior alveolar foramen'
+		,
+		347
+		'absent'
+		'present'
+		'present and extends anteriorly into the dentary tube'
+		,
+		348
+		'present'
+		'absent'
+		,
+		349
+		'absent'
+		'extends mostly labially does not overlap the posterior margin of the coronoid process of dentary in lateral view'
+		'extends beyond the posterior margin of the coronoid process of dentary in lateral view'
+		,
+		350
+		'absent'
+		'present'
+		,
+		351
+		'wide'
+		'narrow'
+		,
+		352
+		'flat or cancave'
+		'convex'
+		,
+		353
+		'at the same antero-posterior position as coronoid-dentary suture'
+		'posterior to coronoid-dentary suture'
+		'anterior to coronoid-dentary suture'
+		,
+		354
+		'tapering'
+		'expanded anterodorsally with vertical anterior margin'
+		,
+		355
+		'absent'
+		'present'
+		,
+		356
+		'absent'
+		'present'
+		,
+		357
+		'large and rounded'
+		'moderately large and pointed'
+		'absent'
+		,
+		358
+		'present'
+		'absent'
+		,
+		359
+		'absent'
+		'present'
+		,
+		360
+		'absent'
+		'present'
+		,
+		361
+		'long'
+		'very short and nearly absent'
+		,
+		362
+		'absent'
+		'present'
+		,
+		363
+		'absent'
+		'present'
+		,
+		364
+		'posteriorly directed'
+		'medially deflected'
+		'laterally deflected'
+		,
+		365
+		'present'
+		'absent'
+		,
+		366
+		'absent'
+		'present'
+		'present and strongly twisted'
+		,
+		367
+		'absent'
+		'present as a tubercle'
+		'present elaborated into a finger-like process'
+		,
+		368
+		'present'
+		'absent'
+		,
+		369
+		'13-12'
+		'11-10'
+		'9-8'
+		'7-6'
+		'5-4'
+		'3-2'
+		'1-0'
+		'more than 13'
+		,
+		370
+		'absent'
+		'present'
+		,
+		371
+		'0-4'
+		'5-9'
+		'10-14'
+		'15-19'
+		'20-24'
+		'25-29'
+		'30-34'
+		'35-39'
+		'40-44'
+		'45-49'
+		,
+		372
+		'similar'
+		'markedly smaller'
+		'absent'
+		,
+		373
+		'present'
+		'absent'
+		,
+		374
+		'present patches'
+		'absent'
+		'present single line'
+		,
+		375
+		'arranged in multiple rows or patches'
+		'in a single line'
+		'absent'
+		,
+		376
+		'present'
+		'absent'
+		,
+		377
+		'0-9'
+		'10-19'
+		'20-29'
+		'30-39'
+		'40-49'
+		'50-59'
+		'60-69'
+		'70-79'
+		'80-89'
+		,
+		378
+		'limited to the anterior half the jaw'
+		'extending to the posterior half of the jaw'
+		,
+		379
+		'labially pleurodont'
+		'acrodont'
+		'modified pleurodont'
+		'enclosed by interdental ridge'
+		'subacrodont'
+		,
+		380
+		'develop lingually large resorption pit'
+		'posterolingually resorption pit'
+		'posterolingually no resorption pit'
+		,
+		381
+		'generally perpendicular to the long axis of the jaw'
+		'procumbent'
+		,
+		382
+		'absent'
+		'present main shafts of teeth somewhat separated'
+		,
+		383
+		'absent'
+		'present'
+		'posterior teeth globodont'
+		,
+		384
+		'absent'
+		'present'
+		,
+		385
+		'not recurved'
+		'recurved'
+		,
+		386
+		'straight pointed'
+		'triangular'
+		'trenchant curved'
+		'incipient cusps on posterior teeth'
+		'teeth with multiple crowns'
+		'globidonte'
+		'squared dorsal margin'
+		'mediolaterally expanded with transverse cutting edges'
+		,
+		387
+		'absent'
+		'present'
+		,
+		388
+		'closely spaced'
+		'widely separated spaces between toothbases greater than 1/2 the width of a tooth shaft'
+		'tightly packed with tooth shafts contacting for most of their height ctenodont'
+		,
+		389
+		'moderate to small'
+		'extremely minute'
+		,
+		390
+		'serrated fan-shaped shoulders'
+		'cusps weakly developed or absent'
+		'two cusps separated by concave sulcus'
+		'four well developed cusps'
+		,
+		391
+		'blunt conical tips'
+		'rounded surfaces'
+		'somewhat rectangular ridges'
+		'rectangular planes possessing a series of parallel ridges'
+		,
+		392
+		'complete and exposed'
+		'reduced covered by a head scale'
+		'reduced not externally visible'
+		,
+		393
+		'present'
+		'absent'
+		,
+		394
+		'slender'
+		'shield like'
+		,
+		395
+		'absent'
+		'present'
+		,
+		396
+		'present'
+		'absent'
+		,
+		397
+		'absent'
+		'present'
+		,
+		398
+		'present incomplete'
+		'present complete'
+		'absent  This character treated in two ways was merged as a single multistate one'
+		,
+		399
+		'Parallel'
+		'diverging posteriorly'
+		'converging posteriorly'
+		,
+		400
+		'present'
+		'absent'
+		,
+		401
+		'short moderately to widely separated from second ceratobranchial'
+		'long and recurred nearly in contact with second ceratobranchial'
+		,
+		402
+		'rod-like'
+		'expanded proximally'
+		'absent Notch is treated in a separated character'
+		,
+		403
+		'straight without angulation'
+		'strongly curved/angled'
+		,
+		404
+		'More or less horizontal'
+		'rotated forwards'
+		,
+		405
+		'present'
+		'absent'
+		,
+		406
+		'present'
+		'absent'
+		,
+		407
+		'one'
+		'two or more'
+		'absent'
+		,
+		408
+		'small to moderate in size'
+		'very large'
+		,
+		409
+		'present in midline deep and usually with one fenestra'
+		'present in midline and emarginate posteriorly only part of shelf present'
+		'articulate in midline and rod-like in appareance'
+		'articulation absent and rod-like in appareance'
+		'clavicles absent'
+		,
+		410
+		'present'
+		'absent'
+		,
+		411
+		'cruciform or sword-like'
+		'anchor-like with curved lateral arms located at the most anterior position'
+		'with lateral arms directed anteriorly producing the appareance of a japanese ''Sai'' dagger with split anterior process'
+		'daggerlike with no lateral arms'
+		'rhomboid or arrow shaped Character 3 is seen in Lanthanotus borneensis'
+		,
+		412
+		'large'
+		'small'
+		,
+		413
+		'dorsal'
+		'ventral'
+		'posterior'
+		,
+		414
+		'absent'
+		'present single narrow and splint-like'
+		'present terminating in a broadened disk'
+		'present double'
+		,
+		415
+		'³1'
+		'<1'
+		,
+		416
+		'invades the sternon less than half its lenght'
+		'invades the sternon at half its length or more'
+		,
+		417
+		'present'
+		'absent The position of lateral arms (Estes et al processus lateralis of interclavicle) is variable and produces different shapes dealt in detail in the next character'
+		,
+		418
+		'straight'
+		'curved'
+		'indistinct'
+		,
+		419
+		'distinctly narrowed and elongated'
+		'broad and indistinct'
+		,
+		420
+		'absent'
+		'present'
+		,
+		421
+		'absent imperforated'
+		'present perforated'
+		,
+		422
+		'with a short and stout blade length less than three times the distal width'
+		'scapular blade elongate with narrow shaft  length more than three times the distal width'
+		,
+		423
+		'wide and emarginate medially rarely notched'
+		'moderately wide and not emarginated medially'
+		'narrow and not emarginated medially'
+		,
+		424
+		'scapula subequal to or larger than the coracoid'
+		'scapula smaller than the coracoid'
+		'scapula and coracoid absent'
+		,
+		425
+		'present totally enclosed in the scapulocoracoid'
+		'present emarginated anteriorly'
+		'absent'
+		,
+		426
+		'absent'
+		'present'
+		,
+		427
+		'absent'
+		'present'
+		,
+		428
+		'absent'
+		'present'
+		,
+		429
+		'absent'
+		'present'
+		,
+		430
+		'present'
+		'absent'
+		,
+		431
+		'expanded enormously'
+		'not expeanded enormously'
+		,
+		432
+		'present'
+		'absent'
+		,
+		433
+		'absent'
+		'present'
+		,
+		434
+		'present articulates with pectoral girdle'
+		'present reduced and does not articulate with the pectoral girdle'
+		'absent'
+		,
+		435
+		'long and broad'
+		'short and narrow'
+		,
+		436
+		'absent'
+		'present'
+		,
+		437
+		'ossified'
+		'cartilaginous'
+		,
+		438
+		'separated by more than 1/3 the posterior process of interclavicle'
+		'separated by 1/3 or less the length of the posterior process'
+		,
+		439
+		'5'
+		'4'
+		'3'
+		'2 or 1'
+		'sternum absent'
+		,
+		440
+		'more than one branching'
+		'one branching'
+		'unbranched'
+		,
+		441
+		'absent'
+		'present'
+		,
+		442
+		'5 or 6'
+		'3 or 4'
+		'7 or more'
+		,
+		443
+		'short not reaching the ventral region'
+		'long some of them reaching the ventral region'
+		,
+		444
+		'contacting the dorsal ribs not contacting at midline'
+		'contacting dorsal ribs one or more pairs confluent at midline'
+		'free dorsally confluent ventrally'
+		,
+		445
+		'generally absent or one'
+		'2 3 or four'
+		'5 6 or 7'
+		,
+		446
+		'without flattening near mid-shaft'
+		'with flattening near mid-shaft'
+		,
+		447
+		'absent'
+		'present'
+		,
+		448
+		'absent'
+		'present'
+		,
+		449
+		'absent'
+		'present'
+		,
+		450
+		'present'
+		'absent'
+		,
+		451
+		'present'
+		'absent'
+		,
+		452
+		'elongate subcylindrical distal ends at right angle to one another'
+		'flattened hourglass-shaped'
+		'flattenedÑwith square ends expanded but equal'
+		'flattened rhomboid distal end more expanded'
+		'humerus absent'
+		,
+		453
+		'rounded'
+		'square-like'
+		'reduced'
+		,
+		454
+		'single continuous projection'
+		'separate but joined by a lamina'
+		'separate not joined by a lamina'
+		,
+		455
+		'thin laminar'
+		'continuous consolidated with the bone shaft'
+		,
+		456
+		'foramen'
+		'groove'
+		'absent altogether'
+		,
+		457
+		'smooth'
+		'with notourious excavation'
+		,
+		458
+		'deep'
+		'shallow'
+		,
+		459
+		'absent'
+		'thin rounded lamina extending for more than one-half the anterior margin'
+		'present rounded and extending for less than one-half the anterior edge'
+		'present greatly expanded with a anteroproximal apex'
+		,
+		460
+		'absent'
+		'present no facet'
+		'present with a facet'
+		,
+		461
+		'present'
+		'absent'
+		,
+		462
+		'2-3-4-5-3'
+		'2-3-4-4-3'
+		'2-3-3-3-3'
+		'3-3-4-4-3'
+		'2-3-3-4-3'
+		'manus absent'
+		,
+		463
+		'2-3-4-5-4  2-3-4-4-4'
+		'2-3-3-3-3'
+		'3-3-4-4-4'
+		'3-3-4-5-3'
+		'2-3-3-4-3'
+		'pes absent'
+		,
+		464
+		'normal'
+		'semi-opposable'
+		,
+		465
+		'long and straight'
+		'long and angulated'
+		'short'
+		,
+		466
+		'similar in robustness to other metacarpals'
+		'robust more than 15 times wide as the other metacarpals'
+		'metacarpal V is the most robust'
+		,
+		467
+		'long'
+		'short'
+		'absent'
+		,
+		468
+		'short subequal to the phalanges'
+		'long duplicating the length of the phalanges'
+		'metacarpals shorter than phalanges'
+		,
+		469
+		'metacarpal V shortest with I and IV subequal'
+		'metacarpals IV and V subequal shortest'
+		'metacarpal I the shorthest'
+		'all metacarpal subequal'
+		,
+		470
+		'fifth digit not greatly divergent'
+		'at greater than 70 degrees from fourth digit'
+		,
+		471
+		'flat'
+		'with dorsal ridge'
+		,
+		472
+		'flat'
+		'with dorsal ridge'
+		,
+		473
+		'absent'
+		'present'
+		,
+		474
+		'simple'
+		'bifurcated'
+		,
+		475
+		'absent'
+		'present'
+		,
+		476
+		'illium ischium and pubis fused into a single ossification'
+		'strongly sutured'
+		'non-sutural contacts'
+		,
+		477
+		'present'
+		'absent'
+		,
+		478
+		'rod-like in profile'
+		'strongly blade-like'
+		,
+		479
+		'wide'
+		'constricted just dorsal to acetabulum'
+		'slender rod-like'
+		,
+		480
+		'wider than pubis'
+		'equal or narrower than pubis'
+		,
+		481
+		'narrowly separated from one another posteriorly'
+		'expanded posterolaterally widely separated from one another'
+		,
+		482
+		'large compresed anteroposteriorly'
+		'more elongated and heart-shaped'
+		'absent'
+		,
+		483
+		'slender and narrow'
+		'dagger-shaped'
+		'bifurcates caudally'
+		,
+		484
+		'long extending posteriorly almost to level of vent'
+		'short or absent'
+		,
+		485
+		'shorter than'
+		'subequal to slightly longer than'
+		'more than 1/2 again as long'
+		'staight not differenciable tubercular or symphiseal region'
+		,
+		486
+		'expanded and fanlike'
+		'slender'
+		,
+		487
+		'small and ventrally directed'
+		'large and domed'
+		'large flat and laminar'
+		'large and ventrally directed'
+		,
+		488
+		'small and wedge-shaped'
+		'greatly expanded anteriorly to form a broad thick pad'
+		,
+		489
+		'present'
+		'absent'
+		,
+		490
+		'produces a more or less straight posterior flange'
+		'posterior flange notably concave'
+		,
+		491
+		'separated'
+		'confluent'
+		,
+		492
+		'deep'
+		'shallow'
+		,
+		493
+		'strongly developed'
+		'weakly developed or absent'
+		,
+		494
+		'cylindrical with moderately expanded proximal and distal ends'
+		'flattened breadth of distal end more than one-quarter the boneÕs length'
+		'femur absent'
+		,
+		495
+		'present'
+		'absent'
+		,
+		496
+		'present'
+		'absent'
+		,
+		497
+		'present with digits and/or metatarsals'
+		'absent'
+		'tarsal element(s) only'
+		,
+		498
+		'present'
+		'absent'
+		,
+		499
+		'separate'
+		'fused'
+		'calcaneum unossified'
+		,
+		500
+		'not expanded'
+		'expanded'
+		,
+		501
+		'1 and 5 the shortest'
+		'4 and 5 the shortest'
+		,
+		502
+		'3 and 4 diverging'
+		'3 and 4 parallel'
+		,
+		503
+		'5-1-4-2-3'
+		'5-1-2-4-3'
+		'5-1-2-3-4'
+		'5-4-1-2-3'
+		'5-1-2 3 and 4 equal'
+		'5-4-1-2-3[state 5]'
+		,
+		504
+		'metatarsals 1-4 ² 150% length of the longest phalanx'
+		'approximately twice length of longest phalanx'
+		'longest phalanx subequal to metatarsals'
+		,
+		505
+		'with little or no inflection'
+		'strongly kinked'
+		,
+		506
+		'present'
+		'absent'
+		,
+		507
+		'slightly hooked'
+		'greatly hooked'
+		'State 2'
+		,
+		508
+		'even with one another or overlapping levels'
+		'lateral tubercle distally placed'
+		'lateral tubercle distally placed approaching condyle'
+		'greatly shortened metatarsals V precludes identification'
+		,
+		509
+		'I-IV splayed due to metatarsal position'
+		'I-IV almost parallel'
+		,
+		510
+		'present'
+		'absent'
+		,
+		511
+		'phalangeal element(s) and metatarsal present'
+		'phalangeal element(s) absent metatarsal present'
+		'both phalangeal and metatarsal elements absent'
+		,
+		512
+		'phalangeal element(s) and metatarsal present'
+		'phalangeal element(s) absent metatarsal present'
+		'both phalangeal and metatarsal elements absent'
+		,
+		513
+		'phalangeal element(s) and metatarsal present'
+		'phalangeal element(s) absent metatarsal present'
+		'both phalangeal and metatarsal elements absent'
+		,
+		514
+		'long'
+		'short'
+		'absent'
+		,
+		515
+		'straight'
+		'bent laterally'
+		,
+		516
+		'present'
+		'absent'
+		,
+		517
+		'1'
+		'2'
+		'3'
+		'State 3'
+		,
+		518
+		'present absent'
+		,
+		519
+		'present absent'
+		,
+		520
+		'1'
+		'2'
+		'State 2'
+		,
+		521
+		'present'
+		'absent'
+		,
+		522
+		'1'
+		'2'
+		'State 2'
+		,
+		523
+		'absent'
+		'present'
+		,
+		524
+		'amphiplatyan'
+		'amphicoelous'
+		'procoelous'
+		,
+		525
+		'shorth and broad less than half of total vertebral height'
+		'tall and narrow contributing to compressed appereance of animal'
+		,
+		526
+		'absent/weak posterior apex of condyle visible'
+		'moderate articulating condylar surface slightly visible in ventral view'
+		'strong articulating surface not visible in ventral view'
+		,
+		527
+		'absent'
+		'present weakly constricted'
+		'present strongly constricted to less than 80% of the maximum condylar diameter'
+		,
+		528
+		'present'
+		'absent'
+		,
+		529
+		'absent'
+		'present'
+		,
+		530
+		'absent'
+		'present zygosphene articular surface faces dorsally'
+		'present zygosphene articular surface face ventrolaterally'
+		,
+		531
+		'25 or fewer'
+		'26'
+		'27 or more'
+		,
+		532
+		'less than twice of width'
+		'greater than twice of width'
+		,
+		533
+		'short subequal or shorter than centrum'
+		'more than the length of the centrum'
+		,
+		534
+		'absent'
+		'present'
+		,
+		535
+		'absent'
+		'present'
+		,
+		536
+		'not reflexed medially'
+		'weakly reflexed in thoracic region'
+		'weakly reflexed in all presacral vertebrae'
+		'strongly reflexed in all presacral vertebrae'
+		,
+		537
+		'8'
+		'7 or fewer'
+		'9'
+		'10 or more'
+		,
+		538
+		'horizontal'
+		'posteroventrally inclined'
+		,
+		539
+		'wide'
+		'narrow'
+		,
+		540
+		'atlas and axis subequal'
+		'axis twice the length of the atlas or longer'
+		,
+		541
+		'well defined with some posterior overlap of the axis'
+		'small a hill-like projection'
+		'absent'
+		,
+		542
+		'paired'
+		'fused'
+		,
+		543
+		'absent'
+		'present'
+		,
+		544
+		'intervertebral'
+		'sutured to the posterior part of the preceding centrum'
+		'fused to posterior part of preceding centrum'
+		'fused to the succeeding centrum'
+		'absent'
+		,
+		545
+		'cervical vertebrae subequal to or shorter than the dorsal vertebrae'
+		'more elongate than the dorsal vertebrae'
+		,
+		546
+		'2'
+		'3'
+		,
+		547
+		'absent'
+		'present'
+		,
+		548
+		'2 or 3'
+		'1'
+		,
+		549
+		'knob-like or slightly notched posteriorly'
+		'conspicuosly expanded laterally and deeply notched'
+		,
+		550
+		'absent'
+		'present'
+		,
+		551
+		'inclined diagonally may be slightly curved'
+		'horizontal'
+		,
+		552
+		'present'
+		'absent'
+		,
+		553
+		'present'
+		'absent'
+		,
+		554
+		'2'
+		'3'
+		,
+		555
+		'absent'
+		'present'
+		,
+		556
+		'elongate'
+		'not so'
+		,
+		557
+		'present'
+		'absent'
+		,
+		558
+		'absent'
+		'present'
+		,
+		559
+		'30 or more caudal vertebrae'
+		'fewer than 30 caudal vertebrae'
+		,
+		560
+		'elongated or equal in length to trunk vertebrae'
+		'very short (sometimes shorter than wide)'
+		,
+		561
+		'4'
+		'3'
+		'2'
+		'1'
+		,
+		562
+		'no reflexed medially'
+		'weakly reflexed'
+		'strongly reflexed'
+		,
+		563
+		'present on transverse process(es)'
+		'present posterior to the transverse process(es)'
+		'absent'
+		'present anterior to transverse process'
+		,
+		564
+		'present in all post-pygal vertebrae'
+		'absent in some or all post-pygal vertebrae'
+		,
+		565
+		'absent from posterior half of the tail'
+		'not absent from posterior half of the tail'
+		,
+		566
+		'absent'
+		'present caudals  6th or 7th'
+		'present in caudal 5ht'
+		'present in 4th'
+		,
+		567
+		'2 3 4 and 5'
+		'only in one in which the bony arcade is continuous'
+		,
+		568
+		'at the posteroventral margin of the centrum'
+		'anterior to the posteroventral margin of the centrum'
+		'fused to vertebrae'
+		,
+		569
+		'large'
+		'small or absent'
+		,
+		570
+		'unexpanded'
+		'expanded creating a sculling organ (depth of proximal and mid caudal vertebrae including chevrons greater than 3 times length of centrum)'
+		,
+		571
+		'short'
+		'long'
+		,
+		572
+		'bulges'
+		'well-developed expressed as relatively deep and discrete pedestals'
+		,
+		573
+		'single'
+		'double diverging'
+		'double converging'
+		'absent'
+		,
+		574
+		'present'
+		'absent'
+		,
+		575
+		'caudal pleurapophyses decrease in size markedly distally'
+		'broadly expanded in all caudal vertebrae In this character pygal was replaced by caudal by definition the pygal vertebrae does not have pleurapophyses'
+		,
+		576
+		'present'
+		'absent'
+		,
+		577
+		'well developed zygapophyses extending more one-fourth the length of centrum'
+		'reduced creating greater flexibility of the trunk and tail'
+		,
+		578
+		'rod-like almost straight'
+		'bended almost 90 degrees'
+		'absent'
+		,
+		579
+		'1'
+		'2'
+		'State 2'
+		,
+		580
+		'absent'
+		'present'
+		,
+		581
+		'homogeneous small granular scales'
+		'covered by large keeled or heterogeneous with both granular and keeled scales'
+		'covered by leaf-like scales'
+		,
+		582
+		'absent'
+		'present'
+		,
+		583
+		'absent'
+		'present'
+		,
+		584
+		'absent osteoderms thin plates or non-calcified'
+		'present irregularly shaped'
+		'present polygonal mounds'
+		'absent osteoderms worm-like (vermiform)'
+		,
+		585
+		'homogeneous small granular scales'
+		'heterogeneous (both granular and imbricated leaf-like)'
+		'homogeneous imbricated leaf-like scales'
+		'heterogeneous with rosettes made of tubercular and granular surrounding scales'
+		,
+		586
+		'present'
+		'absent'
+		,
+		587
+		'absent'
+		'present'
+		,
+		588
+		'along the whole body'
+		'restricted to pelvic region'
+		,
+		589
+		'absent'
+		'present'
+		,
+		590
+		'differing from surrounding scales elongate with apices'
+		'similar to surrounding scales'
+		'a row of small and imbricated scales'
+		'a row of small and juxtaposed scales'
+		,
+		591
+		'undifferenciated'
+		'slightly smaller than neighboring rows'
+		,
+		592
+		'not spinose'
+		'spinose'
+		,
+		593
+		'present'
+		'absent'
+		,
+		594
+		'absent'
+		'present'
+		,
+		595
+		'absent'
+		'present'
+		,
+		596
+		'single'
+		'double'
+		'absent'
+		,
+		597
+		'free of the skull'
+		'co-ossified'
+		,
+		598
+		'complete'
+		'cleft'
+		,
+		599
+		'present'
+		'absent'
+		,
+		600
+		'only slightly smaller than posterior loreals'
+		'minute'
+		'larger than posterior loreals'
+		'anterior and posterior equal in size'
+		,
+		601
+		'1'
+		'2-4'
+		'5 or more'
+		,
+		602
+		'present'
+		'absent'
+		,
+		603
+		'straight to slightly V-shaped and not projecting beyond the external nares'
+		'V-shaped and projecting beyond the external nares'
+		,
+		604
+		'absent'
+		'present 1 or more'
+		,
+		605
+		'much larger than neighboring scales'
+		'only slightly larger than neighboring scales'
+		,
+		606
+		'smooth perfectly round edgy'
+		'jagged angular slit'
+		,
+		607
+		'broader than deep'
+		'deeper than broader'
+		'square'
+		,
+		608
+		'absent'
+		'present'
+		,
+		609
+		'enlarged anteriorly'
+		'subequal granular'
+		,
+		610
+		'flat and wide'
+		'elongated and conical'
+		,
+		611
+		'absent'
+		'present'
+		,
+		612
+		'absent'
+		'present'
+		,
+		613
+		'absent'
+		'present'
+		,
+		614
+		'granular'
+		'granular and keeled'
+		'leaf-like scales'
+		,
+		615
+		'absent'
+		'present'
+		,
+		616
+		'absent'
+		'small and irregularly shaped'
+		'enlarged plates'
+		,
+		617
+		'absent'
+		'present'
+		,
+		618
+		'absent'
+		'present'
+		,
+		619
+		'absent'
+		'present'
+		,
+		620
+		'absent'
+		'present'
+		,
+		621
+		'absent'
+		'present'
+		,
+		622
+		'absent'
+		'present as individual bony tubercles'
+		'large osteoderms covered with individual bony tubercles'
+		,
+		623
+		'double'
+		'single'
+		,
+		624
+		'few flattened against tail base'
+		'consisting of a cluster of six or more dorsolaterally directed scales'
+		,
+		625
+		'rounded one to five in number'
+		'pointed two or more in number'
+		,
+		626
+		'present'
+		'absent'
+		,
+		627
+		'extended into thighs'
+		'limited to preanal region'
+		,
+		628
+		'absent'
+		'present'
+		,
+		629
+		'absent'
+		'spinules'
+		'spikes'
+		,
+		630
+		'present'
+		'absent eyelids fused into a spectacle or brill'
+		,
+		631
+		'absent'
+		'present'
+		,
+		632
+		'smooth'
+		'keeled'
+		'leaf-like'
+		,
+		633
+		'absent'
+		'present'
+		,
+		634
+		'slightly smaller than scales of the lower limbs'
+		'sharply reduced in sie relative to limb scales'
+		,
+		635
+		'absent'
+		'present'
+		,
+		636
+		'smooth'
+		'serrated'
+		,
+		637
+		'absent'
+		'present'
+		,
+		638
+		'absent'
+		'present'
+		,
+		639
+		'separated by dorsal scale'
+		'in contact'
+		,
+		640
+		'single medial'
+		'cleft asymmetrical with larger medial portion'
+		,
+		641
+		'narrow'
+		'broadly dilated'
+		,
+		642
+		'single'
+		'divided'
+		,
+		643
+		'lamellate'
+		'spinose'
+		,
+		644
+		'absent'
+		'present'
+		,
+		645
+		'present in all digits'
+		'digit 1 clawless'
+		,
+		646
+		'deep at base moderately to strong decurved'
+		'slender at base straight or only slightly decurved'
+		,
+		647
+		'absent'
+		'present'
+		,
+		648
+		'criptic'
+		'aposematic'
+		,
+		649
+		'color pattern not primarily green'
+		'color pattern predominantly green fading to red or pink in preservative'
+		,
+		650
+		'similar or with dorso-lateral longitudinal markings'
+		'with parvavertebral rows of light spots'
+		,
+		651
+		'absent'
+		'present'
+		,
+		652
+		'unicolored or bearing a single band'
+		'with three dark bands'
+		'stippled'
+		'with light stripes'
+		,
+		653
+		'absent'
+		'present'
+		,
+		654
+		'absent'
+		'present'
+		,
+		655
+		'unpigmented'
+		'pigmented'
+		,
+		656
+		'scattered brown'
+		'dense jet black'
+		'unpigmented'
+		,
+		657
+		'pinkish unpigmented'
+		'distinctly pigmented blue black yellow orange'
+		,
+		658
+		'pinkish unpigmented'
+		'distinctly pigmented'
+		,
+		659
+		'granular or tubercular'
+		'spinose'
+		'leaf like overlapped and with ragged edges'
+		'square and imbricated like roofing tiles'
+		'smooth'
+		,
+		660
+		'elongate tapering'
+		'short pyramidal'
+		,
+		661
+		'similar in shape to original'
+		'short and bulbous'
+		,
+		662
+		'present cylindrical'
+		'absent amorphous'
+		,
+		663
+		'smooth'
+		'spinous'
+		'leaf-shaped with ragged flattened margins'
+		'tubercular'
+		,
+		664
+		'conical point'
+		'small knob'
+		,
+		665
+		'tapers into post-pygal region'
+		'abruptly decreases in diameter at pygal/post-pygal boundary'
+		'abruptly increases in diameter at pygal/post-pygal boundary'
+		,
+		666
+		'absent'
+		'present'
+		,
+		667
+		'absent'
+		'present'
+		,
+		668
+		'equal in size to dorsal caudal scales'
+		'twice the size of the dorsal scales'
+		'much wider similar to macrostomatan ventral scales'
+		,
+		669
+		'2 or more'
+		'only one'
+		,
+		670
+		'oviparous'
+		'ovoviviparous'
+		'parthenogenic The last stage was added in order to include the reproductive mode of some geckos such Lepidodactylus lugubris which are well know for their unisexual pupulations'
+		,
+		671
+		'individual nest'
+		'colonial nest'
+		,
+		672
+		'free of skin folds'
+		'partially occluded by flaps'
+		,
+		673
+		'present'
+		'absent'
+		,
+		674
+		'small oval'
+		'large vertically oriented'
+		
+	;
+	MATRIX
+	'Hemidactylus brookii'		               (0,1)1110101111010111100130200010100000002030010001000100000121000001000020010100000200000100---111300112---113-00202111010-2-011121010010111200110131-0000101002002001220101100?001300000010111010?1101002000020000110110101001110000130021000101010010101000000?0011001010000000110220000000000111121101-000110000000-10000000100001220101110-011100000002010110101100200-01120100006011213000000001000100001012-0-1100011100002000(0,1)00010010010001000010121200000000001000100000000000111010001111100121100011000000110111000010000001300000?2000010100001000?10120101010000001??0100??10000000??0110???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Amber gecko'		                        0??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????-??????????????????????????????????????????????????????????0?00?101110?????????????????????11???0??0????000?300120001010110?0?0?0?000000010?000?000200001011??1?00200011112????-11012?0100?--????000???0001?????1????????????????????????1???00??011201?0??????2??????????????????0???0?01111000100400100001001001011?0?10000001100000000000020?0?1??0??02?1100???0?0???000??213000???00000?????????????????????????20000?0100001010?11110101010000?01??01100010000100100?220?0?02?10?????0????????0??????????????1?????????0?????000001?10?101??0????1????20??????????????
+	'Narudasia festiva'		                  01110101111300000000142200010110000000230110020000110000101101011010101010001000200000100---111000111---113-0010211001--2-011121000010111200110031-0000101002002000221110100?00130000001011101001101000100101100210000101001010000130012000001010010101000000?0010001010002000010110010000000121121101-000120010000-2000000?011001220101110-211100000002010110100000200-0112010110401121200000000100010000100120111000111000011100010000100110010000(0,1)0121200010000001000000000000000001000001000110021110010000000110051000210000001300001?1000010000003000?101201001110001011?011?0?10000000??0122???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Pseudogekko smaragdinus'		            (0,1)111010?11100011110013010001?110001002110010001000100000020000001100020030?00000200001010---101000100---113-0020211001?-????11200000?0?11100010131?0000101001002001220100?01??0??00000010111010?10010001001010002101001010?10100001?00120?0?010?001?0010001?00??1000101?0?20??01011110000000011112?101-00?02001?000-2000??00000?1-??01?1110-01100???000?0001101?01???0???1000??0107?1?2?31???????0?00?0??0???????1101001002001100110010020010001000000221200000000001000010000000000201000001020002011100011000000110001000001????01000002?2?0001010000010??10100101010100?01?1?1?0??1?00??00????10???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Aristelliger lar'		                   (0,1)11101011100111110001002000001100000011101100010101000100000000010000200300?1000200002100---111101122---113-00202111010-2-011120010010?10000010131-0000001201102000222101100?0013000100101110101100111100002000021011010100000000013002100000101001010100000000012001010002000110240000000000111121101-00000?010000-02100001000001220100110-01010000?002010110100?00000-01100100206011213000000011000?000010110011111001100001000100000010?100010000?10000121000000000001000000000010010000010001100211?0010000000100111001210000001?00101?21-0010100003010?10010101010000?01??0320??10000100??01??00000010-?10-?00?11?3200101201-101001-10100---1?0010(0,2)1000000-100100100??011??01(1,2)000100002???001
+	'Chato para'		                         (0,1)01101110103000000011101?001011000100001101012-0101000100300100010200100-0001000200001000---111300110---113-0010221001--2-011120000010?10010110131-0000101000002000222101100?001300102011111010110011000221001102111001000010100001300120000010100101010000010001000?11001100001111110000000011???1101-230120010000-??1?000010?01-2201011?0?3?00301010120???00101000000-00100100103011212000000000000?1000????001111002-00000100021001001011000100000011020000000000201001000100201100010000101010-12130001100000011011100121000000120010012000010100000010?11110101010000101?0010010100001001001220200-2110?10-?00?01?2100100001-100001-00100---1?001021000000-0001001000?0001200200010000???????
+	'Coleodactylus brachystoma'		          (0,1)0110101010300000001100100010110001002220110002010100010121010010001010030000000200000100---111300110---113-00102110010-2-010021000010?10100210131-0000101000002000222101110?0013000000111110101110100100202010021110010000111000013001200010101101010100000000011000110000000010110100002000111121101-110120010000-0211000000?001220101130-310030101012012100101000100-0112010010401121300000000000111000000100111100(0,2)000400100021001001011000100000012020000000000201001000100201100??0000101011-12130011100000010011100111000000020010012000010100000010?11110101010000001?00100?0100001001001220200-210-?10-?00?01?2200100001-100001-00100---1?001021000000-000101100?120012012000100000???000
+	'Euleptes europaea'		                  01110001110010011000100100010110001002110110001010100010000000011000021030100000200002100---101100100---113-00202110010-2-010121010010?10100010131-0000101001002000220001100?001300000010111010?110100200000200011111010200101000013001100010101001010100000000010000000001000000111110000000121121101-110120010000-02000010--000?220101130-010010100002000110100?00000-00100100205011212000000000000?10001001001111000000?0110001?????0???100?100??011112000000000020?01000000020011010000011110001210000110000001100?1001?100000011000?0020?00101000001?0?10110100010000?01??0210???000??00????100000-010-?11-?00?0003210101000-100001-00100---1?001021000000?11010110?0?2001?000010002000???000
+	'Pseudogonatodes guianensi'		          (0,1)01100010103000000011101000101100010011100100--010100000100000000010010030001000200001000---111100120---113-0020211101--2-011120000010?10010210131-0000111000002000222101100?001300000011111010?110100100112010021110010000111000013000200000101001010100000000011000110001000011110100002000111121101-110120010000-0211000000?00122010113023-0030101012012100101000000-00100100006011213000000000001110000001?011110000003001001---01001011000100000-12020000000000201001000110201100000000101010-12130001100000011011100111000000110011112000010100000010?11110101010000001?0010010100001001001220000-010-?10-?00?01?2200100001-100001-00100---1?001021000000-0001011000120102012000100000???000
+	'Gonatodes albogularis'		              00110001010300000001100100010110001001210010001010100010120000011010010030100000200000100---111001022---113-00102111010-2-011121010010110100210131-000011100210200022200011000013000100111110101100100000110010021001010100111000013001200000101101010100000000010000000012000110111110002000121121111-110021010000-02110000030001220101130-310030101002011010101000100-01100100105011212000000000000110001010001111002-0000?100001001001011000100001011000000000000201001000000000100000000101111-12130001100000011000110111000000100010001000010100000000?10110101010000001??01?0??100000001?01220000-010-?10-?00?01?3200100100-101001-00100---1?0010(0,2)1100000-0001000000120111000000000002???000
+	'Lepidoblepharis xanthosti'		          00110001010300000001100100010110001001110110002010100010100000000011010030000000200000100---111001110---113-0010211001--2-010121000010?10110110131-0000111000002000222100110?0013000100111110101110100100101010021110010000111000013001200010101101010100000000011000010002000010110000002000121121101-110120010000-02110000000001220101130-310030101012012110101000200-00100100106011213000000000000110001011001(0,1)11002-004001001---00001001000100001-12020000000000201000000000200100010000101010-12130001000000011011100121000000100010002000010100000010?11110101010000001?00100101000010010012200000010-?10-?00?01?3200100000-101001-00100---1?0010(0,2)1000000-0001011000?20012012000100002???000
+	'Pristurus carteri'		                  ?011010111130000000?14211001111000000022011012?010110010121010001020000030011000200000000---111201000---113-0020210001--2-011121010010100110210010-00000010011000002211011?0100130001(1,2)01011101001001?0010000000021011010100100000013002?000001010010101000000000120010?0012000110000110100000111121101-110001010000-02210000100001220101130-310?20000002011010101?00200-0110010010501121200000000102010000???1101011?02-00???????????????0????0??010??120?100000000020100?000000000100??000010?101??2101011?000000110001001?0000000??00???02??00?0000002000100??0101???00000?000?00012??0???0????2200000010-?10-?00?1-112--100001-100001-10100??-??001001?000000000?000000?20101000000000000???100
+	'Quedenfeltya trachyblepha'		          (0,1)11101010000111110001002000001100000011101100020001000000000000110100210300?0100200001100---101100000---113-00102110010-2-011121000010?10000010131-0000011000002000221102110?001300000010111010?11010010000?1?0021011010100111000013001?000001010010101000001?0010001010000000100110100000000111121101-110000010000-02000000000001220101110-010?10100002010100101000100-01100100103011212000000000000100000001001110000100000100021000001001000100001-101000000000002000000000000000001100001010100021000011000000111111001110000001?00110?20000100000(0,1)100011011010001010010100021001100001001?01220000-010-?10-?00?11?0210101100-100001-00100---1?001001011000?000100000??2010?003000100001???000
+	'Saurodactylus mauritanicu'		          0?11000101130000010010010001111000000222011?0020101000001200??011010000010??000?2000000?0---101100100---113-0020210001--2-010121000010?1010001??31-0?0010100?0020112201011?1?00130000003-2?-110?1101?011001??1112111?01?200?0?000013001?00000101101?00100000??0011?010?0010000011110100000000??11211?1-120021010000-0211000?000001220100110-010?20000002011110100?00200-0110010010401121200000000000111000???11??111?????1???????????????0???0???0000?1112100000000020001?000000200100??000010?110??21?0011??00000110100001?1000000??00????2??00?010000000011???0101???00000?0?0?00??1??0???0????220000-010-?10-?00?0102210100000-100001-00100---1?001021000000?000101100??0000?002000100002???000
+	'Sphaerodactylus klauberi'		           00110001111300000000100100011110001001110010001010100010000000010010010030001000200000100---111101010---113-00202111010-2-011121000010?10110110131-0000101001002011222101110?00130010001111101011101001001100100211100100001110000130012000101011010101000000?0010000010002000010110100002000111121101-110120010000-0211000000000122010113123?0030101012012010101000000-0112010000401121200000000000111000????0?111000000000010000000100100100010000101100000000000020100100000000110001?0001010100121300010000000110111001210000001000100?2000010100001010?11110101010000001?0010000100001001001220200-2?10?10-?00?01?2100101001-101001-00100---1?001021000001-00010110001311?2012000100002???100
+	'Sphaerodactylus roosevelt'		          00110001111300000000101100011110001001110010011010100010100010010010001030001000200000100---111101010---113-00202110010-2-011121010010?10110110131-0000101002002000222101110?00130010001111101011101001001110100211100100001110000130022000101011010101000000?0011000010002000010110100002000111121101-110120010000-0211000000000122010113123?0030101012012010101000000-01120100004011212000000000001110001???0??????????????????????????0???????????????????????00??0?0??000?????????????????????????????????000?1?????????1?000????????????????0???0????????????????????????????0????????????????0200-2110?1?-?00?01?2100101001-101001-00100---1?021000000001-0001011000031001112000100002???100
+	'Teratoscincus scincus'		              (0,1)1110101000011111100101200011100000202110110001000101010000000000000020040100000200001000---111000100---113-0020211101--2-011021000010110100010131-0000111200002000221100110?00130011102111101011101000100121001210110101001100000130020000101010010101000001?001100100001010001011011000000???1121111-010121010000-1010000001001-220100110-010110000002000110101?00000-0110010020401121200000000000011000101100111000011040010002100100100100010000(0,1)010(0,1)210000000001010100000000011000000001010001021100011000000110121001010000101000000?2000010100003010?10110101000000001?102100020000100000122???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Phyllodactylus whirshingi'		          (0,1)0110101111010111000100200011100001002220110001010100000121000001000001030000000200000000---111100110---113-0010211101--2-011121000010?10000210131-00000110010020002201011?0?001300010010111010?110100000000010021111010200100000013002200000101001?001000001?0011000000000100110210010000000111121101-000110010000-00100000000001220101110-010000100002010110100000000-011001002060112131000000000001100010110001101001000001000000000010010001000000100210000000002000010000000000100110001001110021010011000000111131002000000001000101?1000010100001000?10110101010000101??01000?10000100100110???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Tarentola mauritanica'		              (0,1)1110101110011111100100200011110000001110110001000101000121010001000020010001000200000010---111000110---113-0020210001--2-011121000010?11-0011??31-00000110010020002211121?0?00130000(0,1)010011010?1101001010111001210110101000000000130021000001010010001000001?0011001000002000010230000100?00021121101-100010010000-021000000?001-220100110-010010100002000110101100000-011001001050112131000000100001100010000011101001000001110000000010011001000110110010000000001000010003300010301100001010100011010010000000111030000100000001300100?1000010100001010?00110101010000101?102100110000000000100???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Thecadactylus rapicauda'		            (0,1)1110001110011111000100100011110001202210110001000101010121001001000020030101100200000000---111301010---113-0020210001--2-011121000010?11-0001?131-00000010011020012211021?0?001300000010111010?110100100010000121011010100101000013002100010101001?001000001?0011001000002000010230000100000121121111-100010010000-1000000001001-220100110-010000100002000110001?00200-011001000090112151000000(0,1)000011000?012-?-1100001000021000000010010011001000000210210000000001000000000000000301110001011100011310010000000111031000200000001300000?1000010100001010?10110101010000001??02100110000000?00110???????????????0??????????????????????????0???????10????????????????0??????????????????????????
+	'Gymnodactylus geckoides'		            01110100000000101001000200010100000001110010001000101000121000001010020030?01000200000000---111300110---113-0010211001--2-010121000010110110210031-0000111002002000220011100?0013000000101110110100100200010000021001010100100000013002200010101001?00?00000100011?010?00000000102111001041001111(1,2)1101-100020010000-10100000110001220101110-010011100001000110101100200-01120100104011212000000000000?1000???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????101101???????????????????????????????????????????????????0??????????????????????????0???????10????????????????0??????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 674;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -903950052 ; FileSettings editor 0 0 1 1 ; Singles 100 ; Editor 0001100111111110010001001 0 24 Geneva 9 100 1 all ; EditorPosition 44 6 819 1371 ; TreeWindowPosition 46 6 835 1390 ; ListWindow Characters closed Geneva 9 50 10 273 1402 000 ; ListWindow Taxa closed Geneva 9 50 10 276 490 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 818 1380 ; StateNamesSymbols closed Geneva 9 10 50 30 192 776 ; WindowOrder Data ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 705 46 115 165 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011001 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 0100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 -3673 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;

@@ -1,0 +1,423 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-27 16.35.39 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+    		'scelidosaurus'
+		'huayangosaurus'
+		'gargoyleosaurus'
+		'gastonia'
+		'gobisaurus'
+		'shamosaurus'
+		'tsagantegia'
+		'talarurus'
+		'minmi'
+		'P grangeri'
+		'P mephistocephalus'
+		'tarchia'
+		'saichania'
+		'tianzhenosaurus'
+		'nodocephalosaurus'
+		'ankylosaurus'
+		'euoplocephalus'
+		'pawpawsaurus'
+		'silvisaurus'
+		'sauropelta'
+		'panoplosaurus'
+		'E longiceps'
+		'E rugosidens'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Maximum skull width relative to maximum skull length: less than (0); greater than (1).'
+		 [2] 'Highest point of skull roof: posterior to orbits (0); dorsal to orbits (1); anterior to orbits (2).'
+		 [3] 'Premaxillary palate wider than long: absent (0); present (1).'
+		 [4] 'Premaxillary teeth: present (0); absent (1).'
+		 [5] 'External nares facing anteriorly: absent (0); present (1).'
+		 [6] 'Accessory openings in the narial region: absent (0); present (1).'
+		 [7] 'Fused osteoderms present on premaxilla: absent (0); present (1).'
+		 [8] 'Anterior edge of premaxilla with broad ventrally concave notch in anterior view absent (0); present (1).'
+		 [9] 'Ventral margin of premaxilla in lateral view: flat (0); concave (1); convex, resulting in a sharp premaxillary beak (2).'
+		 [10] 'Continuous edge formed by the premaxillary beak and maxillary tooth rows: present (0); absent (1).'
+		 [11] 'Anteriormost maxillary teeth obscured in lateral view by processes of the premaxilla: absent (0); present (1).'
+		 [12] 'Maxillary tooth rows deeply inset from lateral edge of skull: absent (0); present (1).'
+		 [13] 'Maxillary tooth rows deeply concave laterally, outlining and hourglass shape: absent (0); present (1).'
+		 [14] 'Nasal septum dividing the respiratory passage into two separate bony canals: absent (0); present (1).'
+		 [15] 'Closure of antorbital fenestra: absent (0); present (1).'
+		 [16] 'Accessory antorbital ossification(s) completely separating orbit and antorbital cavity: absent (0); present (1).'
+		 [17] 'Median palatal keel composed of the vomer and pterygoid: absent or weakly developed (0); extending ventrally to the level of the maxillary tooth crowns (1).'
+		 [18] 'Extension of the vomerine septum: incomplete (0); extending to palatal shelves (1); extending to skull roof (2).'
+		 [19] 'Paired premaxillary, maxillary, and nasal sinuses: absent (0); present (1).'
+		 [20] 'Secondary palate: incomplete or absent (0); present and flat, reaching as far as the second or third maxillary tooth (1); present and composed of two palatal shelves, describing S-shaped respiratory route (2).'
+		 [21] 'Pterygoid foramen: absent (0); present (1).'
+		 [22] 'Space between palate and braincase (interpterygoid vacuity): open (0); closed (1).'
+		 [23] 'Dorsoventrally narrow pterygoids ramus of the quadrate: absent (0); present (1).'
+		 [24] 'Quadrate shaft angled strongly rostroventrally: absent (0); present (1).'
+		 [25] 'Quadrate excavated anteriorly: absent (0); present (1).'
+		 [26] 'Quadrate fused to paroccipital process: absent (0); present (1).'
+		 [27] 'Paroccipital process projecting posterolaterally: absent (0); present (1).'
+		 [28] 'Occiput rectangular and wider than high: absent (0); present (1).'
+		 [29] 'Hemispherical occipital condyle: absent (0); present (1).'
+		 [30] 'Occipital condyle formed exclusively by the basioccipital: absent (0); present (1).'
+		 [31] 'Occipital condyle set off from the ventral braincase by a distinct neck: absent (0); present (1).'
+		 [32] 'Occipital condyle angled ventrally from place of maxillary tooth rows: absent (0); present (1).'
+		 [33] 'Occipital condyle and paroccipital processes obscured in dorsal view by overhanging skull roof: absent (0); present (1).'
+		 [34] 'Closure of supratemporal fenestra: absent (0); present (1).'
+		 [35] 'Lateral temporal fenestra: open (0); closed (1).'
+		 [36] 'Obliteration of cranial sutures in adults, involving fusion and dermal sculpturing of the outer surfaces of most of the dermal skull roof: absent (0); present (1).'
+		 [37] 'Large subcircular dermal ossification covering most of the skull roof between the orbits: absent (0); present (1).'
+		 [38] 'Anteroposteriorly narrow dermal ossification along the posterior border of the skull roof: absent (0); present (1).'
+		 [39] 'Pair of large, subrectangular osteoderms at posterior edge of skull roof: absent (0); present (1).'
+		 [40] 'Raised, polyhedral dermal ossifications on skull roof: absent (0); present (1).'
+		 [41] 'Secondary dermal ossification, projecting ventrolaterally from the quadratojugal region: absent (0); present and rounded(1); present and wedge-shaped (2).'
+		 [42] 'Secondary dermal ossification, projecting posterolaterally from the squamosal region: absent (0); present as weakly developed pyramid(1); present as prominent, wedge-shaped or pyramidal structure (2); present as narrow, elongated spines (3).'
+		 [43] 'Median dermal ossification overlying dorsum of nasal region: absent (0); present (1).'
+		 [44] 'Two pairs of dermal ossifications bordering the external nares: absent (0); present (1).'
+		 [45] 'Tooth crown with cingulum: absent (0); present (1).'
+		 [46] 'Closure of external mandibular fenestra: absent (0); present (1).'
+		 [47] 'Coronoid process low and rounded, projecting only slightly dorsal to the level of the dentary tooth row: absent (0); present (1).'
+		 [48] 'Elongate osteoderm fused to the ventrolateral side of the mandible in adults: absent (0); present (1).'
+		 [49] 'Sinuous ventral margin of mandible, which parallels the sinuosity of the dorsal margin in lateral view: absent (0); present (1).'
+		 [50] 'Predentary ventral process short (relative to other thyreophorans): absent (0); present (1).'
+		 [51] 'Atlas and axis fused to form a syncervical: absent (0); present (1).'
+		 [52] 'One or more postaxial cervical centra in profile: anterior and posterior ends parallel and aligned (0); anterior and posterior ends parallel, anterior end dorsal to posterior end (1); anterior and posterior ends parallel, posterior end dorsal to anterior end (2).'
+		 [53] 'Fusion of dorsal ribs to centra: absent (0); present (1).'
+		 [54] 'Multiple parasagittal rows of osteoderms on dorsal surface of neck region: absent (0); present, fused together (1); present, fused to quarter/half ring (2).'
+		 [55] 'Multiple parasagittal rows of post cervical osteoderms: absent (0); present (1).'
+		 [56] 'Tail club: absent (0); present (1).'
+		 [57] 'Acrominon: absent (0); present, crest at anterior margin (1); present, bladelike flange perpendicular to long axis (2); present, knoblike process (3).'
+		 [58] 'Ventral border of coracoid in profile: rounded (0); straight (1).'
+		 [59] 'Length of deltopectoral crest relative to humerus: less than 50% (0); approximately equal to or greater than 50% (1).'
+		 [60] 'Distal margin of ilium: oriented vertically (0); forms a horizontal shelf dorsal to the acetabulum (1); partially encircles the acetabulum laterally (2).'
+		 [61] 'Acetabulum: open (0); closed (1).'
+		 [62] 'Shaft of ischium: little to no curvature (0); pronounced curvature (1).'
+		 [63] 'Pubis contribution to acetabulum: one-quarter or more (0); virtually excluded (1).'
+		 [64] 'Ossified tendons in region of tail: absent (0); present (1).'
+		 [65] 'Bilateral sternal element contact: not fused (0); fused (1).'
+		 [66] 'Synsacrum of co-ossified dorsal, sacral and caudal vertebrae: absent (0); present (1).'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		42
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 1'
+		'State 2'
+		,
+		53
+		'State 0'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'scelidosaurus'		               00?????????00?00???0??00??00?????0000000000000100?11?10000000000?0
+	'huayangosaurus'		              0000000000000?0?1???0?00?01010000000000000000000000??00000?01?00?0
+	'gargoyleosaurus'		             000000010001001?1000???1?1111?0101000000220101010????11???????????
+	'gastonia'		                    0110000111010?1?1??11??1??0100010101000011000????????21?2?1111???1
+	'gobisaurus'		                  010111010111011?1?12?01011110?1101110000110?0???????????????????01
+	'shamosaurus'		                 01010?0021110?1????1?????1110???111100001100?1110????21?211????1??
+	'tsagantegia'		                 01111?002111011?1????1?1?1010??11111000011001???????????????????01
+	'talarurus'		                   01?11???0?????11???????????????101110000210011?11??212112?12101111
+	'minmi'		                       11????????010?1????????0??010100011000002100110?0?????1???0??0?1?1
+	'P grangeri'		                  021111010111011011111010100111010111000021011111010212112012100000
+	'P mephistocephalus'		          02111100011101101111101010011101011100002301111101??1211??11???1?1
+	'tarchia'		                     11111?0021110?101112111010010100011100112300011101??0?112?121011??
+	'saichania'		                   111111102101011111121111?10101011111001123001111011212112?12101111
+	'tianzhenosaurus'		             1111100?21110?1?1????????00100011111001122111?????0?1?11???1?0???1
+	'nodocephalosaurus'		           ?1?1??1??1?10?111???????????110??1110001221???????????????????????
+	'ankylosaurus'		                1211001001110111111211110001010111110000221101110??11?111?1?10????
+	'euoplocephalus'		              121111000111011111121111010101011111000022011111010?12111112101?01
+	'pawpawsaurus'		                0000000000011?1010?01011111111110101010010100?????????????????????
+	'silvisaurus'		                 000000??10010?11?2?0?1111?11?1110111??0010??11??1??1011???????01?1
+	'sauropelta'		                  00?100????01??11?2?0?111111111110101110010?011011?0?0?10300111?1??
+	'panoplosaurus'		               0001000000011?11?2?1?111111111110111110010101111011??110300?11?101
+	'E longiceps'		                 000100?000011?11?2?1?1111111110101011000101011011?1??11??????????1
+	'E rugosidens'		                000100?000011?11?2?2?1111111110101011000101011011?11111??1???????1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+        [Character comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 66;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; timeSaved 1319218816627 ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 4100411416608063832 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 4903845881945849948 ; mqVersion 275 ; checksumv 0 3 3048455962 null getNumChars 66 numChars 66 getNumTaxa 23 numTaxa 23 short true bits 15 states 15 sumSquaresStatesOnly 4043.0 sumSquares 4043.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 ; mqVersion ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1916 1074 ; setLocation -8 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #4903845881945849948 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1816 1007 ; setLocation -8 0 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleAutoTaxonNames off ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleShowPaleGrid off ; toggleShowPaleCellColors off ; togglePaleInapplicable on ; toggleShowBoldCellText off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorByState.ColorByState ; tell It ; setStateLimit 9 ; toggleUniformMaximum on ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 66 ;
+ENDBLOCK;
