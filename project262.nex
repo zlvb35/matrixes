@@ -1,0 +1,765 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 17.09.19 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=61;
+    TAXLABELS
+    		'Dimorphodon macronyx'
+		'Campylognathoides liasicus'
+		'Rhamphorhynchus muensteri'
+		'Anurognathus ammoni'
+		'Gnathosaurus macrurus'
+		'Gnathosaurus subulatus'
+		'Plataleorhynchus streptophorodon'
+		'Huanhepterus quingyangensis'
+		'Elanodactylus prolatus'
+		'Kepodactylus insperatus'
+		'Mesadactylus ornithosphysos'
+		'Beipiaopterus chenianus'
+		'Boreopterus cuiae'
+		'Feilongus youngi'
+		'Eosipterus yangi'
+		'Pterodaustro guinazui'
+		'Ctenochasma elegans'
+		'Ctenochasma porocristata'
+		'Gegepterus changi'
+		'Cycnorhamphus suevicus'
+		'Gallodactylus canjuersensis'
+		'"Pterodactylus" longicollum'
+		'Pterodactylus kochi'
+		'Pterodactylus antiquus'
+		'Germanodactylus cristatus'
+		'Germanodactylus rhamphastinus'
+		'Haopterus gracilis'
+		'Anhanguera piscator'
+		'Anhanguera santanae'
+		'Anhanguera blittersdorffi'
+		'Liaoningopterus gui'
+		'Tropeognathus mesembrinus'
+		'Lonchodectes compressirostris'
+		'Liaoxipterus brachyognathus'
+		'Nurhachius ignaciobritoi'
+		'Istiodactylus latidens'
+		'Istiodactylus sinensis'
+		'Pteranodon longiceps'
+		'Pteranodon sternbergi'
+		'Nyctosaurus gracilis'
+		'Nyctosaurus bonneri'
+		'Tupuxuara longicristatus'
+		'Tupuxuara leonardii'
+		'Thalassodromeus sethi'
+		'Tapejara imperator'
+		'Tapejara navigans'
+		'Tapejara wellnhoferi'
+		'Huaxiapterus jii'
+		'Sinopterus dongi'
+		'Sinopterus gui'
+		'Eopteranodon lii'
+		'Noripterus complicidens'
+		'"Phobetor" parvus'
+		'Dsungaripterus weii'
+		'Eoazhdarcho liaoxiensis'
+		'Jidapterus edentus'
+		'Chaoyangopterus zhangi'
+		'Bakonydraco galaczi'
+		'Azhdarcho lancicollis'
+		'Zhejiangopterus linhaiensis'
+		'Quetzalcoatlus sp.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=111;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Skull length exclusive of cranial crests:'
+		 [2] 'Dorsal margin of skull shape:'
+		 [3] 'Rostrum shape:'
+		 [4] 'Rostrum length anterior to external nares:'
+		 [5] 'Anterior end of premaxillae/maxillae shape:'
+		 [6] 'Anterior tip of the rostrum with a dorsally reflected palatal surface:'
+		 [7] 'Nasoantorbital fenestra length:'
+		 [8] 'Posterior margin of the nasoantorbital fenestra shape:'
+		 [9] 'Orbit shape:'
+		 [10] 'Orbit position:'
+		 [11] 'Angle between lacrimal and postorbital and lacrimal processes of the jugal:'
+		 [12] 'Posteriorly-directed process on the jugal process of the lacrimal:'
+		 [13] 'Anteriorly-directed process on the postorbital process of the jugal:'
+		 [14] 'Suborbital vacuity:'
+		 [15] 'Premaxillary sagittal crest:'
+		 [16] 'Premaxillary sagittal crest shape:'
+		 [17] 'Elongate dorsal spine extending above premaxillary crest:'
+		 [18] 'Premaxillary sagittal crest position:'
+		 [19] 'Lateral expansion of the anterior tip of jaws:'
+		 [20] 'Posterior ventral expansion of the maxilla:'
+		 [21] 'Nasal process:'
+		 [22] 'Nasal process position:'
+		 [23] 'Free nasal process length:'
+		 [24] 'Nasal process orientation:'
+		 [25] 'Foramen on nasal process:'
+		 [26] 'Bony frontal crest:'
+		 [27] 'Bony frontal crest shape:'
+		 [28] 'Lacrimal process of jugal thickness:'
+		 [29] 'Lacrimal process of the jugal inclination:'
+		 [30] 'Bony parietal crest:'
+		 [31] 'Bony parietal crest shape:'
+		 [32] 'Posterior region of skull rounded with squamosal displaced ventrally:'
+		 [33] 'Squamosal position:'
+		 [34] 'Orientation of quadrate relative to the ventral margin of skull:'
+		 [35] 'Position of articulation between skull and mandible:'
+		 [36] 'Helical jaw joint:'
+		 [37] 'Supraoccipital shape:'
+		 [38] 'Distal ends of paroccipital processes:'
+		 [39] 'Palate with ridge and mandible with sulcus:'
+		 [40] 'Palatal ridge length:'
+		 [41] 'Palatal ridge shape:'
+		 [42] 'Interpterygoid opening size:'
+		 [43] 'Mandibular symphysis position:'
+		 [44] 'Bony mandibular symphysis length:'
+		 [45] 'Anterior tip of dentary shape:'
+		 [46] 'Dentary bony sagittal crest:'
+		 [47] 'Teeth:'
+		 [48] 'Tip of rostrum:'
+		 [49] 'Tip of mandible'
+		 [50] 'Posterior margin of the maxillary toothrow:'
+		 [51] 'Toothrow length:'
+		 [52] 'All teeth set sub-horizontally in jaws:'
+		 [53] 'Distance between successive teeth:'
+		 [54] 'Position of largest maxillary teeth:'
+		 [55] 'Variation in the size of anterior teeth with 5th and 6th smaller than 4th and 7th:'
+		 [56] 'Tooth shape:'
+		 [57] 'Tooth height:'
+		 [58] 'Strongly recurved teeth present:'
+		 [59] 'Inclination of teeth:'
+		 [60] 'Tooth number:'
+		 [61] 'Notarium:'
+		 [62] 'Atlas and axis:'
+		 [63] 'Postexapophyses on cervical vertebrae:'
+		 [64] 'Lateral pneumatic foramen on centrum of cervical vertebrae:'
+		 [65] 'Mid-cervical vertebrae length:'
+		 [66] 'Neural spines of mid-cervical vertebrae shape:'
+		 [67] 'Neural spines of mid-cervical vertebrae height:'
+		 [68] 'Number of posterior-cervical vertebrae:'
+		 [69] 'Neural spines of posterior-cervical vertebrae height:'
+		 [70] 'Length of the scapula relative to coracoid length:'
+		 [71] 'Proximal surface of scapula shape:'
+		 [72] 'Scapula shape:'
+		 [73] 'Scapula rotated outwards:'
+		 [74] 'Scapula articulates with notarium:'
+		 [75] 'Sternum shape:'
+		 [76] 'Coracoid contact surface with sternum:'
+		 [77] 'Coracoidal flange:'
+		 [78] 'Broad tubercle on ventroposterior margin of coracoid:'
+		 [79] 'Cristospine constricted behind coracoid facets:'
+		 [80] 'Cristopine shape:'
+		 [81] 'Length of humerus relative to metacarpal IV length:'
+		 [82] 'Length of humerus relative to femur length:'
+		 [83] 'Length of the ulna relative to the femur length:'
+		 [84] 'Ventral surface of proximal end of humerus:'
+		 [85] 'Dorsal surface of  proximal end of humerus:'
+		 [86] 'Position of deltopectoral crest on humerus:'
+		 [87] 'Deltopectoral crest of humerus shape:'
+		 [88] 'Medial (ulnar) crest of humerus:'
+		 [89] 'Medial (ulnar) crest of humerus shape:'
+		 [90] 'Humerus shaft shape:'
+		 [91] 'Midshaft of humerus tapered:'
+		 [92] 'Distal end of humerus:'
+		 [93] 'Distal end of humerus: 1'
+		 [94] 'Length of ulna relative to humerus length:'
+		 [95] 'Length of ulna relative to tibia length:'
+		 [96] 'Diameter of the radius relative to the ulna diameter:'
+		 [97] 'Distal syncarpal shape:'
+		 [98] 'Medial carpal shape:'
+		 [99] 'Pteroid length:'
+		 [100] 'Metacarpals I-III:'
+		 [101] 'Length of first wing phalanx relative to metacarpal IV length:'
+		 [102] 'Length of first wing phalanx relative to tibia length:'
+		 [103] 'Length of the second wing phalanx relative to the first phalanx length:'
+		 [104] 'Length of second wing phalanx relative to the ulna length:'
+		 [105] 'Length of the third wing phalanx relative to the first phalanx length:'
+		 [106] 'Cross-section of second and third wing phalanges:'
+		 [107] 'Ischiopubic plate:'
+		 [108] 'Strongly bowed femur:'
+		 [109] 'Angle of femur caput to shaft:'
+		 [110] 'Length of the femur relative to  metacarpal IV length:'
+		 [111] 'Length of metatarsal III relative to tibia length:'
+	;
+	STATELABELS
+		1
+		'between three and five times the height (3.00 < skull length/height < 5.00)'
+		'more than five times the height (skull length/height > 5.00)'
+		'less than three times the height (skull length/height < 3.00)'
+		,
+		2
+		'nearly straight'
+		'convex'
+		'concave'
+		,
+		3
+		'compressed laterally'
+		'compressed antero-posteriorly'
+		'depressed dorso-ventrally'
+		,
+		4
+		'less than 50% of the skull length exclusive of sagittal crests'
+		'extremely reduced'
+		'at least 50% of the skull length exclusive of sagittal crests'
+		,
+		5
+		'straight'
+		'upturned'
+		'downturned'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'less than 40% of the skull length'
+		'at least 40% of the skull length'
+		,
+		8
+		'nearly a straight angle'
+		'rounded and concave outline'
+		,
+		9
+		'subcircular'
+		'small and circular'
+		'piriform'
+		'at least one and a half times higher than wide'
+		,
+		10
+		'middle of the skull with the ventral margin of the orbit below the middle of the antorbital/nasoantorbital fenestra and the dorsal margin of the orbit above the dorsal margin of the antorbital/nasoantorbital fenestra'
+		'high in the skull with the ventral margin of the orbit the same level or above the middle of the antorbital/nasoantorbital fenestra'
+		'low in the skull with the entire orbit lower than the dorsal margin of the antorbital/nasoantorbital fenestra'
+		,
+		11
+		'distinct angle'
+		'infilled'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'striated with a nearly straight dorsal margin'
+		'round and blade-shaped'
+		'tall anteriorly, decreasing in height posteriorly'
+		'low anteriorly, increasing in height posteriorly'
+		'low with a humped antero-dorsal margin'
+		'low ridge'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'entire crest anterior to the nasoantorbital fenestra'
+		'crest starting anterior to and extending posterior to the anterior margin of the nasoantorbital fenestra'
+		'crest starting at the anterior margin of the nasoantorbital fenestra and extending backwards'
+		'crest starting near the anterior margin of the skull and extending over the occipital region'
+		'crest starting at the posterior half of the nasoantorbital fenestra'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'placed laterally'
+		'placed medially'
+		,
+		23
+		'long'
+		'short'
+		,
+		24
+		'directed antero-ventrally'
+		'directed ventrally'
+		'directed postero-ventrally'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'low and blunt'
+		'low and elongated'
+		'high and expanded'
+		,
+		28
+		'broad'
+		'thin'
+		,
+		29
+		'inclined anteriorly'
+		'subvertical'
+		'strongly inclined posteriorly'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'blunt'
+		'laterally compressed and posteriorly expanded, with a rounded posterior margin'
+		'constituting the base of the posterior portion of the cranial crest'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'above the base of the lacrimal process of the jugal'
+		'below or level with the base of the lacrimal process of the jugal'
+		,
+		34
+		'subvertical'
+		'inclined about 120Ëš posteriorly'
+		'inclined about 150Ëš posteriorly'
+		,
+		35
+		'posterior to the middle of the orbit'
+		'anterior to the middle of the orbit'
+		'under the middle of the orbit'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'does not extend backwards'
+		'extends backwards'
+		,
+		38
+		'not expanded'
+		'expanded'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'tapering anteriorly'
+		'confined posteriorly'
+		,
+		41
+		'discrete'
+		'strong'
+		,
+		42
+		'larger than subtemporal fenestra'
+		'smaller than subtemporal fenestra'
+		,
+		43
+		'at same level as rami'
+		'located well below rami'
+		'on a symphyseal shelf dorsal to ventral margin'
+		,
+		44
+		'less than 30% of the mandible length'
+		'at least 30% of the mandible length'
+		,
+		45
+		'straight'
+		'projected anteriorly'
+		'downturned'
+		'upturned'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'teeth present'
+		'teeth absent'
+		,
+		49
+		'teeth present'
+		'teeth absent'
+		,
+		50
+		'extends posterior to the anterior margin of naris/nasoantorbital fenestra'
+		'at or anterior to the anterior margin of the naris/nasoantorbital fenestra'
+		,
+		51
+		'more than or equal to one third of the skull length'
+		'less than one third of the skull length'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'most less than the diameters of the teeth'
+		'most more than the diameters of the teeth'
+		'most constant and subequal to the diameters of the teeth'
+		,
+		54
+		'middle of maxilla'
+		'located mesially'
+		'located distally'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'recurved and labio-lingually compressed'
+		'slender'
+		'sharp and conical'
+		'broad with oval base'
+		'lancet-shaped and labiolingually compressed'
+		'spike-shaped with wide, subcircular base'
+		,
+		57
+		'elongate teeth absent'
+		'elongate teeth present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'all teeth upright'
+		'anterior teeth procumbent'
+		'all teeth procumbent'
+		,
+		60
+		'less than 100'
+		'at least 100'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'unfused'
+		'fused'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'short (length/mid-width < 2.5)'
+		'elongate (2.5 < length/mid-width < 5)'
+		'extremely elongated (length/mid-width > 5)'
+		,
+		66
+		'blade-shaped'
+		'spike-shaped'
+		'ridge'
+		,
+		67
+		'tall'
+		'low'
+		'extremely reduced or absent'
+		,
+		68
+		'one'
+		'two'
+		,
+		69
+		'tall'
+		'low'
+		,
+		70
+		'scapula at least one and a half the coracoid length (sca/cor > 1.50)'
+		'scapula between one and one and a half times the coracoid length (1.00 < sca/cor < 1.50)'
+		'scapula at least 80% but less than the coracoid length (0.8 < sca/cor < 1.00)'
+		'scapula at most 80% of the coracoid length (sca/cor < 0.8)'
+		,
+		71
+		'elongated'
+		'sub-oval'
+		,
+		72
+		'elongated'
+		'stout with constricted shaft'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'semi-circular'
+		'rectangular'
+		'triangular'
+		,
+		76
+		'articulation surface flattened, lacking posterior expansion'
+		'articulation surface oval, with posterior expansion'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'shallow and elongated'
+		'deep and short'
+		,
+		81
+		'humerus at least two and a half times the metacarpal IV length (hu/McIV > 2.50)'
+		'humerus between one and a half and two and a half times the metacarpal IV length (1.50 < hu/McIV < 2.50)'
+		'humerus between 55% and up to one and a half times the metacarpal IV length (0.55 < hu/McIV < 1.50)'
+		'humerus at most 55% of the metacarpal IV length (hu/McIV < 0.55)'
+		,
+		82
+		'humerus at most 82% of the femur length (hu/fe < 0.82)'
+		'humerus between 82%  and 140% of the femur length (1.40 > hu/fe > 0.82)'
+		'humerus at least 140% of the femur length (hu/fe > 1.40)'
+		,
+		83
+		'ulna at most 160% the femur length (ul/fe < 1.60)'
+		'ulna more 160% the femur length (ul/fe > 1.60)'
+		,
+		84
+		'pneumatic foramen absent'
+		'pneumatic foramen present'
+		,
+		85
+		'pneumatic foramen absent'
+		'pneumatic foramen present'
+		,
+		86
+		'proximally placed'
+		'positioned farther down on humerus'
+		,
+		87
+		'broad with almost straight anterior margin'
+		'subrectangular, extending down the humerus shaft for greater than or equal to 30% of the humerus length'
+		'distally expanded and rounded'
+		'warped'
+		'elongate and rounded'
+		'elongate with straight proximal and distal margins'
+		'enlarged and hatchet-shaped'
+		,
+		88
+		'reduced'
+		'distinct'
+		,
+		89
+		'directed posteriorly'
+		'massive with a developed proximal ridge'
+		,
+		90
+		'straight'
+		'bowed'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'oval or D-shaped'
+		'subtriangular'
+		,
+		93
+		'pneumatic foramen absent'
+		'pneumatic foramen present'
+		,
+		94
+		'ulna less than one and a half times humerus length (ul/hu < 1.50)'
+		'ulna at least one and a half times humerus length (ul/hu > 1.50)'
+		,
+		95
+		'ulna at most the tibia length (ul/ti < 1.00)'
+		'ulna longer than the tibia length (ul/ti > 1.00)'
+		,
+		96
+		'radius more than half of the ulna diameter'
+		'radius at most half of the ulna diameter'
+		,
+		97
+		'fused in a rectangular unit'
+		'fused in a triangular unit'
+		,
+		98
+		'longer than wide'
+		'wider than long'
+		,
+		99
+		'shorter than half the length of the ulna'
+		'longer than half the length of the ulna'
+		,
+		100
+		'articulate with carpus'
+		'metacarpal III articulates with carpus, metacarpals I and II reduced'
+		'do not articulate with carpus'
+		,
+		101
+		'first phalanx at least twice the metacarpal IV length (f1dIV/McIV > 2.00)'
+		'first phalanx up to twice the metacarpal IV length (1.00 < f1dIV/McIV < 2.00)'
+		'first phalanx at most the metacarpal IV length (f1dIV/McIV < 1.00)'
+		,
+		102
+		'first phalanx less than one and a third the of the tibia length (f1dIV/ti < 1.33)'
+		'first phalanx at least one and a third the tibia length (f1dIV/ti > 1.33)'
+		,
+		103
+		'second phalanx at least the first phalanx length (f2dIV/f1dIV < 1.00)'
+		'second phalanx between 70% and the first phalanx length ( 0.70 < f2dIV/f1dIV <1.00)'
+		'second phalanx at most 70% of the first phalanx length (f2dIV/f1dIV > 0.70)'
+		,
+		104
+		'second phalanx less than the ulna length (f2dIV/ul < 1.00)'
+		'second phalanx at least the ulna length (f2dIV/ul > 1.00)'
+		,
+		105
+		'third phalanx at least the first phalanx length (f3dIV/f1dIV > 1.00)'
+		'third phalanx less than the first phalanx length (f3dIV/f1dIV < 1.00)'
+		,
+		106
+		'round to subtriangular'
+		'inverted T-shaped cross section'
+		,
+		107
+		'unexpanded'
+		'present'
+		'absent'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'at most 145Â°'
+		'greater than 145Â°'
+		,
+		110
+		'femur at least twice the metacarpal IV length (fe/mcIV > 2.00)'
+		'femur between one and a quarter and twice the metacarpal IV length (1.25 < fe/mcIV < 2.00)'
+		'femur between one half and up to one and a quarter the metacarpal IV length (0.50 < fe/mcIV < 1.25)'
+		'femur at most one half the metacarpal IV length (fe/mcIV < 0.50)'
+		,
+		111
+		'metatarsal III between one third and one half of the tibia length  (mtIII/ti > 0.33)'
+		'metatarsal III at most one third the tibia length  (mtIII/ti < 0.33)'
+		
+	;
+	MATRIX
+	'Dimorphodon macronyx'		                      010000-03000000---0000-000-000-0?00?00????0-00000000100000000?00000??1000-?00???11000000-1000000000000000?00010
+	'Campylognathoides liasicus'		                000000-00000000---0000-000-000-00000000--00-20001000100000000000000??100?-10000011100010-??00010?00001011?10010
+	'Rhamphorhynchus muensteri'		                 000000-00000000---0000-000-000-00120000--00110011000110110200000000001000-10000011100020-1000110??0001111010010
+	'Anurognathus ammoni'		                       011100-0??000?0---0000-100-01?????????????0-00000000110200000???0????1???-??????011??000-1000010??000100???0?00
+	'Gnathosaurus macrurus'		                     ??????????????????1???????????????????100?0?000?0??11?01??11??11222????????????????????????????????????????????
+	'Gnathosaurus subulatus'		                    10220000000000100110000000-010-1122?0010000?0000?10111011121???????????????????????????????????????????????????
+	'Plataleorhynchus streptophorodon'		          ?02?00????????????1???????????????????0--???0?000??10101??11???????????????????????????????????????????????????
+	'Huanhepterus quingyangensis'		               ?02?00????????10011???????????????????????0?000001?0110111110???22201??0??0??????10??04??1?0?1?????0???????01??
+	'Elanodactylus prolatus'		                    ????????????????????????????????????????????????????????????0?1?122011000-?000??2???1040-100?0?0?0101?0100?????
+	'Kepodactylus insperatus'		                   ??????????????????????????????????????????????????????????????01121??????????????1?01040-1000????????????0?0???
+	'Mesadactylus ornithosphysos'		               ??????????????????????????????????????????????????????????????01121??????????????(1,2)?00040-10?????????1?0????012?
+	'Beipiaopterus chenianus'		                   ????????????????????????????????????????????????????????????0???10101100?-?010??2210?04??100?000??0?01201??0?20
+	'Boreopterus cuiae'		                         1002000?000??00---00?????0-??0-??22?0?????0100000000110110110?00100?????????????210???????0??010??0?11111??0?21
+	'Feilongus youngi'		                          12020000?00000100000000000-01111?2?0000--?0100000110110111(0,1)0???????????????????????????????????????????????????
+	'Eosipterus yangi'		                          ??????????????????????????????????????????????????????????????????????0???????????1????????0??00???0101110?0?20
+	'Pterodaustro guinazui'		                     120210000000000---00000200-000-1122?000--?013000010001011001??1110101?000?0000012110004???00?0100???101110?0?20
+	'Ctenochasma elegans'		                       120200000000000---00(0,1)00200-010-1122?00????0100000101210110210?00101011000-0000??21000040-100?000??0?10111?10120
+	'Ctenochasma porocristata'		                  ?20?00?????00?100100??????????????????0--???0?00010121?11021???????????????????????????????????????????????????
+	'Gegepterus changi'		                         120210000001001000?0000200-000-1?22?0?0--?0?300??10011?11021?011101???????0?10?????????????????????(0,1)1?1??0?0???
+	'Cycnorhamphus suevicus'		                    120000000000000---00001?00-?1111122??00--?010000?110???111?0?0001010?1000-00000121000040-100?000???010111010121
+	'Gallodactylus canjuersensis'		               120000000000000---00001000-?111?1?2??0????0?00???????????????????????100???000???????????????????????0111?101?1
+	'"Pterodactylus" longicollum'		               120000000000000---00000?00-010-1122?0?0--??1000001001102001000001010?1000-??00??20000040-000?000???010(1,2)11?10121
+	'Pterodactylus kochi'		                       100000000000000---00000100-010-1122?000--?0100000100110200000000101011000-?000?021000040-10000(0,1)00?0010101010120
+	'Pterodactylus antiquus'		                    100000000000000---00000100-010-1122?000--?0100000100110200000000101011000-00000021000040-100?000000010101010120
+	'Germanodactylus cristatus'		                 00000000000000100200000100-010-1022?00????0100011000100200000?0?1??011000-?000??2100004??100?000????10111??0121
+	'Germanodactylus rhamphastinus'		             00000000000000100200000000-010-1022?0?????0?00000000100200000?0?101???000-?0????210??????100?000????10101?10121
+	'Haopterus gracilis'		                        0000000?00?00?0---0001110??????0?1??0??????100000000110200000?0?0??0?200?-0000002???0040-000?010????1?1110?????
+	'Anhanguera piscator'		                       10000101201100110010010011001100011100???1010100000011150110011101010311?-01001121101031001111111??1??1??020121
+	'Anhanguera santanae'		                       1000010120110011?0100100110011000111001001010?0000001115?1100111010103111-?100??211010310011???110?1111??02???1
+	'Anhanguera blittersdorffi'		                 100001012011001100101----10011000111001001010100000011150110???????????????????????????????????????????????????
+	'Liaoningopterus gui'		                       100?01?12(0,2)11001100?0???????01??00111??100?0?0?000?0011050110??110??????????????????????????????????????????????
+	'Tropeognathus mesembrinus'		                 100001012011001100101----10011000111001011010100000011050110???????????????????????????????????????????????????
+	'Lonchodectes compressirostris'		             ?00?0?????????0---0???????????????????100???000000?01105??(0,1)??????????????????????????????01????????????????????
+	'Liaoxipterus brachyognathus'		               ??2?0?????????????0???????????????????????000?000?100?0400?0???????????????????????????????????????????????????
+	'Nurhachius ignaciobritoi'		                  10000110?101?00---00???????11????11???????01000?0?10110400101?11010??2?1??0?0???2100?031001??111??011111???0?21
+	'Istiodactylus latidens'		                    102001101101110---001----??120??0210??0--?0000000110010400001?1?0?01?31111?00011?110?031001111?11?1???11??201??
+	'Istiodactylus sinensis'		                    102001101101110---001----0-120-002100?????000000001001040000?1???10??3?1????00??2???003??01??11??0?111111020?2?
+	'Pteranodon longiceps'		                      120210012010000---000111012011200111000--111001-------------111101010210111000103101003100110000101211111010131
+	'Pteranodon sternbergi'		                     12021?012010000---00?????1201120011?0?????110?1-------------?????????2??????????310??????0???00?????111110?013?
+	'Nyctosaurus gracilis'		                      12020001?000000---001----12010-00121000--121001-------------11100001020010000000310101610000?1101?1211111010031
+	'Nyctosaurus bonneri'		                       1?0?0001?0???00---00?????????0-0??2?00????21001-------------1?1?000??????0??????31???1610000?1?????2211?1?1??3?
+	'Tupuxuara longicristatus'		                  ??0??0?0??0???130?0???????????????????111?????1-------------???????????????????????????????????????2???????????
+	'Tupuxuara leonardii'		                       000000102200001303001----1111120011111111101001-------------1111000??100?1?001?1200100511??0?0000???1021?0?0021
+	'Thalassodromeus sethi'		                     00000010220000130300011101111120011111111?01001-------------???????????????????????????????????????????????????
+	'Tapejara imperator'		                        2100201?2200001211001----1111120011?1???????2?1-------------???????????????????????????????????????????????????
+	'Tapejara navigans'		                         2100201022000012110001010??11??0011?????????2?1-------------???????????????????????????????????????????????????
+	'Tapejara wellnhoferi'		                      210020102200001201001----11111200110110--101211-------------0?11000??100?-?001??200110511??0?0000?1?10???0?002?
+	'Huaxiapterus jii'		                          01002010??0???1101001----??11????2????0--?01211-------------0???0????????-1001??2001?0511000?000?111101110?0021
+	'Sinopterus dongi'		                          01002010220???110100010101111120?21?1?????01211-------------??1?000??1?01???0?012101?0511000?1000102101110?0?21
+	'Sinopterus gui'		                            01002010??0???110100???????11????21???????01211-------------??1?000??1?01??00?0??10??0511000?100??0??0????10??1
+	'Eopteranodon lii'		                          01002010??0???110-00???????11??????1??0--?012?1-------------??1?100??(1,2)?0??0?1???210??051?000?100??1?1?11101002?
+	'Noripterus complicidens'		                   ??0??0????????????????????????????????????0?000????01?030000??11000?????????0???3000105110000?000??0101??011021
+	'"Phobetor" parvus'		                         000000001100011001011----1101120011?11????010001100012030000??????????????????????????5?????????01?????????????
+	'Dsungaripterus weii'		                       000010001100011001011----11011200111110--101300110001203000011110001000011100?01300??05110?0?00001?0101110?1021
+	'Eoazhdarcho liaoxiensis'		                   ??0???????????????0???????????????????0--?11001-------------???0121??1?0????1???210??05??00??00???12101110?0?2?
+	'Jidapterus edentus'		                        020000????????0---00??????????????????0???11001-------------??10121??1?0??10???1210??????00??000??1110211??0?21
+	'Chaoyangopterus zhangi'		                    020?00????????0---00??????????????????????11001-------------??10121??100?????001300?00???000?000??1(1,2)10211010021
+	'Bakonydraco galaczi'		                       ??0???????????????0????????????????1??0--?01011-------------??10221????????????????????????????????????????????
+	'Azhdarcho lancicollis'		                     ??0?0?????????????0????????????????1??0--?????1-------------11102221?????1?????????1015??0?0?????????????1?????
+	'Zhejiangopterus linhaiensis'		               100000002210000---001----0-010-0111?1?????11001-------------11??222?0100??1?10?1300??15??000?(0,1)00??122020?110021
+	'Quetzalcoatlus sp.'		                        100?00002210001404001----??01????111??0--?01001-------------1110222101001100100130?101511000100001?2202011?00??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=65 TEXT='Ordered';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 111;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+Version 4.0 86 ; LastModified -1001349200 ; FileSettings editor 0 0 67 1 ; Singles 000 ; Editor 00011001111111100100010010 0 24 Geneva 9 168 1 all ; EditorPosition 138 4 403 1007 ; TreeWindowPosition 46 6 699 974 ; ListWindow Characters closed Geneva 9 50 25 273 621 000 ; ListWindow Taxa closed Geneva 9 50 25 481 331 1000000 ; ListWindow Trees closed Geneva 9 50 10 129 379 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 686 964 ; StateNamesSymbols closed Geneva 9 7 584 109 144 718 ; WindowOrder ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 646 851 115 165 ; TreeToolsPosition 584 9 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 1110 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 3 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 8 8 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Times_New_Roman 10 (italic ) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 178 65 0 0 -3122 614 492 35 534 35 534 367 24 35 1 1 1 1 0 2 -39 4 -40 0 3 2 3 4 10 20 0 2 0100110000000001010000000110000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111100110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN TREES;
+TRANSLATE 1 Dimorphodon_macronyx , 2 Campylognathoides_liasicus , 3 Rhamphorhynchus_muensteri , 4 Anurognathus_ammoni , 5 Gnathosaurus_macrurus , 6 Gnathosaurus_subulatus , 7 Plataleorhynchus_streptophorodon , 8 Huanhepterus_quingyangensis , 9 Elanodactylus_prolatus , 10 Kepodactylus_insperatus , 11 Mesadactylus_ornithosphysos , 12 Beipiaopterus_chenianus , 13 Boreopterus_cuiae , 14 Feilongus_youngi , 15 Eosipterus_yangi , 16 Pterodaustro_guinazui , 17 Ctenochasma_elegans , 18 Ctenochasma_porocristata , 19 Gegepterus_changi , 20 Cycnorhamphus_suevicus , 21 Gallodactylus_canjuersensis , 22 "Pterodactylus" longicollum , 23 Pterodactylus_kochi , 24 Pterodactylus_antiquus , 25 Germanodactylus_cristatus , 26 Germanodactylus_rhamphastinus , 27 Haopterus_gracilis , 28 Anhanguera_piscator , 29 Anhanguera_santanae , 30 Anhanguera_blittersdorffi , 31 Liaoningopterus_gui , 32 Tropeognathus_mesembrinus , 33 Lonchodectes_compressirostris , 34 Liaoxipterus_brachyognathus , 35 Nurhachius_ignaciobritoi , 36 Istiodactylus_latidens , 37 Istiodactylus_sinensis , 38 Pteranodon_longiceps , 39 Pteranodon_sternbergi , 40 Nyctosaurus_gracilis , 41 Nyctosaurus_bonneri , 42 Tupuxuara_longicristatus , 43 Tupuxuara_leonardii , 44 Thalassodromeus_sethi , 45 Tapejara_imperator , 46 Tapejara_navigans , 47 Tapejara_wellnhoferi , 48 Huaxiapterus_jii , 49 Sinopterus_dongi , 50 Sinopterus_gui , 51 Eopteranodon_lii , 52 Noripterus_complicidens , 53 "Phobetor" parvus , 54 Dsungaripterus_weii , 55 Eoazhdarcho_liaoxiensis , 56 Jidapterus_edentus , 57 Chaoyangopterus_zhangi , 58 Bakonydraco_galaczi , 59 Azhdarcho_lancicollis , 60 Zhejiangopterus_linhaiensis , 61 Quetzalcoatlus_sp. ; TREE * stored_1 = (4 , (((1 , 2) , 3) , (((((((((((((5 , 6) , 7) , 8) , 9) , 10) , 11) , 13) , ((18 , 17) , (16 , 15 , (19 , 12)))) , (14 , (20 , 21))) , 22) , (24 , 23)) , (25 , 26)) , (27 , ((((((((29 , 28) , 30) , 31 , 32) , 33) , ((34 , 36 , 37) , 35)) , (38 , 39)) , (40 , 41)) , ((((42 , 43 , 44) , ((((49 , 50) , 51) , 48) , (47 , (45 , 46)))) , (52 , 53 , 54)) , (((55 , 56) , 57) , (58 , (59 , 60 , 61))))))))) ; TREE stored_2 = (4 , (((1 , 2) , 3) , (((((((((((((5 , 6) , 7) , 8) , 9) , 10) , 11) , 13) , ((18 , 17) , (16 , (19 , 15 , 12)))) , (14 , (20 , 21))) , 22) , (24 , 23)) , (25 , 26)) , (27 , ((((((((29 , 28) , 30) , 31 , 32) , 33) , ((34 , 36 , 37) , 35)) , (38 , 39)) , (40 , 41)) , ((((42 , 43 , 44) , ((((49 , 50) , 51) , 48) , (47 , (45 , 46)))) , (52 , 53 , 54)) , (((55 , 56) , 57) , (58 , (59 , 60 , 61))))))))) ;
+ENDBLOCK;

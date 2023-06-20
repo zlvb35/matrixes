@@ -1,0 +1,335 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 16.30.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=63;
+    TAXLABELS
+    		'Ssan35'
+		'Shal97'
+		'Ccon80'
+		'Csor34'
+		'Ninc100'
+		'Tfil47'
+		'Triz126'
+		'Ndup213'
+		'Ndel19'
+		'Njos464'
+		'Nrec331'
+		'Ndid951'
+		'Ecat127'
+		'Efus126'
+		'Enit114'
+		'Pint120'
+		'Mmel25'
+		'Mmel87'
+		'Msim77'
+		'Mpri07'
+		'Mcap123'
+		'Ppow76'
+		'Ppes991'
+		'Pmam515'
+		'Pmam5111'
+		'Pmam5112'
+		'Pmam5113'
+		'Pmam5114'
+		'Pmam5115'
+		'Pmam5116'
+		'Pmam5117'
+		'Pmam5119'
+		'Pmam5121'
+		'Pmam5122'
+		'Pmam5124'
+		'MNHNVM22'
+		'MNHNVM24'
+		'Psp7018'
+		'Pmel593'
+		'Pmel594'
+		'Psp7019'
+		'Psp7020'
+		'Psp7021'
+		'Pflem141'
+		'Puber30'
+		'CP2343 3'
+		'Psp701'
+		'Psp702'
+		'Psp703'
+		'Psp707'
+		'Psp708'
+		'Psp709'
+		'Psp7014'
+		'Psp7016'
+		'Psp7017'
+		'Psp706'
+		'Psp7010'
+		'Psp7012'
+		'PspD1'
+		'PspD3'
+		'PspD4'
+		'PspD5'
+		'PspD6'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=28;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'Protoconch color'
+		 [2] 'No embryonal whorls'
+		 [3] 'Protoconch size'
+		 [4] 'Shell color'
+		 [5] 'Color pattern'
+		 [6] 'Shell shape'
+		 [7] 'Aperture height ratio'
+		 [8] 'suture'
+		 [9] 'Subsutural wrinkels'
+		 [10] 'Umbilicus'
+		 [11] 'Sulcus'
+		 [12] 'Funicle'
+		 [13] 'Umbilical callus'
+		 [14] 'Inner lip'
+		 [15] 'Operculum surface'
+		 [16] 'Operculum color'
+		 [17] 'Operculum size'
+		 [18] 'Shell solidity'
+		 [19] 'Shell texture'
+		 [20] 'Aperture size'
+		 [21] 'Aperture shape'
+		 [22] 'Parietal callus'
+		 [23] 'Parietal callus thickness'
+		 [24] 'Posterior apertual angle'
+		 [25] 'Parietal callus merge'
+		 [26] 'Parietal callus size'
+		 [27] 'Expanding whorls'
+		 [28] 'Egg mass additions'
+	;
+	STATELABELS
+		1
+		'white'
+		'black'
+		,
+		2
+		'missing'
+		'1.00'
+		'1.25'
+		'1.50'
+		'1.75'
+		'2.00'
+		'2.25'
+		'2.50'
+		'2.75'
+		'3.00'
+		,
+		3
+		'200-299 µm'
+		'300-399 µm'
+		'400-499 µm'
+		'500-599 µm'
+		'600-699 µm'
+		'700-799 µm'
+		'800-899 µm'
+		'900-1000 µm'
+		'> 1000 µm'
+		,
+		4
+		'uncolored'
+		'partly colored'
+		'colored'
+		,
+		5
+		'plain'
+		'pattern'
+		,
+		6
+		'globose (ratio 0.9-1.1)'
+		'high spired (ratio > 1.1)'
+		'depressed (ratio 0.6-1.1)'
+		'auriform (ratio < 0.6)'
+		,
+		7
+		'<40%'
+		'40-50%'
+		'50-60%'
+		'60-70%'
+		'70-80%'
+		'>80%'
+		,
+		8
+		'indistinct'
+		'impressed'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'open'
+		'partly open'
+		'closed'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'straight'
+		'elevated'
+		,
+		15
+		'calcareous'
+		'corneous'
+		,
+		16
+		'white'
+		'noney colored'
+		'black streak'
+		'black'
+		,
+		17
+		'as large as aperture'
+		'reduced'
+		'strongly reduced'
+		,
+		18
+		'massive'
+		'fragile'
+		,
+		19
+		'smooth'
+		'spriral grooves'
+		,
+		20
+		'small'
+		'enlarged'
+		,
+		21
+		'semiovate'
+		'ovate'
+		'elliptical'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'thin'
+		'thick'
+		,
+		24
+		'parietal callus not filling posterior apertual angle'
+		'parietal callus filling posterior apertual angle'
+		,
+		25
+		'not merged'
+		'merged with umbilical callus with transverse lobe'
+		'merged to the same extend'
+		,
+		26
+		'small'
+		'large'
+		,
+		27
+		'absent'
+		'expanding'
+		'extrem expanding'
+		,
+		28
+		'no sand collars'
+		'sand collar'
+		
+	;
+	MATRIX
+	'Ssan35'		            0??0135101000111211120000?11
+	'Shal97'		            1??0135101000111211120000?11
+	'Ccon80'		            0612011001001011000001112100
+	'Csor34'		            1642012(0,1)00001011000001112100
+	'Ninc100'		           05320240020?1111000111102110
+	'Tfil47'		            ???010311101100?000001001001
+	'Triz126'		           ???010311101100?000001102101
+	'Ndup213'		           13(2,3)202(3,4)(0,1)00011111000111102111
+	'Ndel19'		            05(1,2)202(3,4)100011111000111102111
+	'Njos464'		           046202(3,4)100011111000111101111
+	'Nrec331'		           1622023000011111000111102111
+	'Ndid951'		           153202(3,4)100011111000111102111
+	'Ecat127'		           0742003100001111000011002001
+	'Efus126'		           0?(2,3)2003100001011000001112001
+	'Enit114'		           0420103(0,1)01001011000001110001
+	'Pint120'		           0452103(0,1)00111011000001110001
+	'Mmel25'		            180011(3,4)0020?1112000111001001
+	'Mmel87'		            15001140010?1111111121001001
+	'Msim77'		            170011(3,4)0020?1112010111001001
+	'Mpri07'		            16(1,2)211(3,4)1020?1112000111001001
+	'Mcap123'		           172011(3,4)001001111011121001001
+	'Ppow76'		            0470122000111011000001112111
+	'Ppes991'		           04(4,5)0122000111011000001112111
+	'Pmam515'		           15(1,2)00110020?1011000001112101
+	'Pmam5111'		          15200110020?1011000001112101
+	'Pmam5112'		          15200110020?1011000001112101
+	'Pmam5113'		          15100110020?1011000001112101
+	'Pmam5114'		          15100110020?1011000001112101
+	'Pmam5115'		          15100110020?1011000001112101
+	'Pmam5116'		          15100110020?1011000001112101
+	'Pmam5117'		          15(1,2)00110020?1011000001112101
+	'Pmam5119'		          15200110020?1011000001112101
+	'Pmam5121'		          15(1,2)00110020?1011000001112101
+	'Pmam5122'		          15(1,2)00110010?1011000001112101
+	'Pmam5124'		          17000110020?1011000001112101
+	'MNHNVM22'		          16000110020?1011000001112101
+	'MNHNVM24'		          16000110020?1011000001112101
+	'Psp7018'		           16000110020?1011000001112101
+	'Pmel593'		           02(4,5)20110020?1011000001112101
+	'Pmel594'		           02(4,5)20110020?1011000001112101
+	'Psp7019'		           01410010020?1011000001112101
+	'Psp7020'		           02410010020?1011000001112101
+	'Psp7021'		           02410010020?1011000001112101
+	'Pflem141'		          02400110020?1012000001112101
+	'Puber30'		           1800011(0,1)010?1011000001112101
+	'CP2343 3'		          17320010000?1011000001112101
+	'Psp701'		            02(5,6)00110020?1011000001112101
+	'Psp702'		            02600110020?1011000001112101
+	'Psp703'		            02(4,5)00110020?1011000001112101
+	'Psp707'		            02400110020?1011000001112101
+	'Psp708'		            02(4,5)00110010?1011000001112101
+	'Psp709'		            02500110020?1011000001112101
+	'Psp7014'		           02600110010?1011000001112101
+	'Psp7016'		           02(5,6)00110010?1011000001112101
+	'Psp7017'		           02600110020?1011000001112101
+	'Psp706'		            02400110010?1011000001112101
+	'Psp7010'		           02400110020?1011000001112101
+	'Psp7012'		           02500110020?1011000001112101
+	'PspD1'		             02600110010?1013000001112101
+	'PspD3'		             02600110010?1013000001112101
+	'PspD4'		             02600110010?1013000001112101
+	'PspD5'		             02600110010?1013000001112101
+	'PspD6'		             02600110010?1013000001112101
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 28;
+      ENDBLOCK;
+      BEGIN ASSUMPTIONS;
+OPTIONS DEFTYPE = unord PolyTcount = MAXSTEPS ; TYPESET * UNTITLED = unord: 1 4-5 8-28 , ord: 2-3 6-7 ;
+ENDBLOCK;
+BEGIN MACCLADE;
+Version 4.0 87 ; LastModified -883914915 ; FileSettings editor 2 6 1 0 ; Singles 110 ; Editor 00011001111111100100010010 1 24 Geneva 9 84 1 all ; EditorPosition 44 43 803 851 ; TreeWindowPosition 46 6 855 1390 ; ListWindow Characters closed Geneva 9 89 169 513 362 000 ; ListWindow Taxa closed Geneva 9 371 23 273 278 100000000 ; ListWindow Trees closed Geneva 9 50 10 129 379 ; ListWindow TypeSets closed Geneva 9 50 10 129 277 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 129 181 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 818 1380 ; StateNamesSymbols open Geneva 9 10 128 956 192 325 ; WindowOrder Data States ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 00 ; EditorToolsPosition 703 1042 115 165 ; TreeToolsPosition 732 925 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 1100001 ; SummaryMode 1 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 5 001111001 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 1.0 1.0 1101 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 140 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 0 1 ; BarsOnBranchesDisplay 1 2 60000 10000 10000 10000 10000 60000 65000 65000 65000 10 1 0000111 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 40.00 2 2 4 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 83 115 13 45 116 148 13 45 149 181 13 45 182 214 13 45 1361 103 0 0 362 2184 2016 35 2118 35 2118 1152 24 35 3 4 1 1 0 5803 -39 4 -40 0 0 40 1 2 38 38 0 2 0100111000010001110100010100000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 1 100010101110011 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MRBAYES;
+outgroup Bprit ; delete Nheb27 Nster40 Nvit139 Ndil86 ; charset COI = 1-438 ; charset 16S = 439-853 ; charset 28S = 854-1203 ; charset 18S = 1204-1606 ; charset H3 = 1607-. ; partition ALL = 5: COI , 16S , 28S , 18S , H3 ; exclude 2-4383 1608-.3 ; set partition = ALL ; prset ratepr = variable statefreqpr = dirichlet(1 , 1 , 1 , 1) ; Lset applyto = (1 , 2 , 5) nst = 6 rates = invgamma ; Lset applyto = (3 , 4) nst = 2 rates = gamma ; unlink statefreq = (all) revmat = (all) pinvar = (all) shape = (all) ; mcmc ngen = 5000000 temp = 0.75 printfreq = 500 samplefreq = 500 nruns = 2 nchains = 2 savebrlens = yes ; sump burnin = 2000 ; sumt burnin = 3000 ;
+ENDBLOCK;
+BEGIN TREES;
+TRANSLATE 1 Ssan35 , 2 Shal97 , 3 Ccon80 , 4 Csor34 , 5 Ninc100 , 6 Tfil47 , 7 Triz126 , 8 Ndup213 , 9 Ndel19 , 10 Njos464 , 11 Nrec331 , 12 Ndid951 , 13 Ecat127 , 14 Efus126 , 15 Enit114 , 16 Pint120 , 17 Mmel25 , 18 Mmel87 , 19 Msim77 , 20 Mpri07 , 21 Mcap123 , 22 Ppow76 , 23 Ppes991 , 24 Pmam515 , 25 Pmam5111 , 26 Pmam5112 , 27 Pmam5113 , 28 Pmam5114 , 29 Pmam5115 , 30 Pmam5116 , 31 Pmam5117 , 32 Pmam5119 , 33 Pmam5121 , 34 Pmam5122 , 35 Pmam5124 , 36 MNHNVM22 , 37 MNHNVM24 , 38 Psp7018 , 39 Pmel593 , 40 Pmel594 , 41 Psp7019 , 42 Psp7020 , 43 Psp7021 , 44 Pflem141 , 45 Puber30 , 46 CP2343_3 , 47 Psp701 , 48 Psp702 , 49 Psp703 , 50 Psp707 , 51 Psp708 , 52 Psp709 , 53 Psp7014 , 54 Psp7016 , 55 Psp7017 , 56 Psp706 , 57 Psp7010 , 58 Psp7012 , 59 PspD1 , 60 PspD3 , 61 PspD4 , 62 PspD5 , 63 PspD6 ; TREE * UNTITLED = (63 , (62 , (61 , (60 , (59 , ((6 , 7) , ((3 , (4 , 5)) , (((1 , 2) , ((((8 , 9) , 11) , 12) , 10) , ((13 , 14) , 15 , 16)) , (((17 , 18 , (19 , 20)) , 21) , (((((((39 , 40 , 43) , 42) , 41) , (44 , ((56 , 57) , 58)) , (47 , 48 , 49 , (50 , 51) , 52 , 53 , 54 , 55)) , 22) , 23) , (((24 , ((25 , 26 , 27 , 28 , 30 , 31 , 34) , 29 , 32 , 33)) , ((36 , 37) , 38)) , 35) , 45 , 46)))))))))) ;
+ENDBLOCK;
