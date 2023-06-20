@@ -1,0 +1,827 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.29.24 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+    		'OUTGROUP dummy'
+		'Protungulatum donnae'
+		'Mithrandir gillianus'
+		'Didymictis spp.'
+		'Viverravus spp.'
+		'Cimolestes magnus'
+		'Arfia gingerichi'
+		'Arfia junnei'
+		'Arfia shoshoniensis and opisthotoma'
+		'Prototomus minimus'
+		'Prototomus deimos'
+		'Prototomus phobos'
+		'Prototomus secundarius'
+		'Gazinocyon whitiae'
+		'Prototomus martis'
+		'Pyrocyon strenuus'
+		'Pyrocyon dioctetus'
+		'Prolimnocyon haematus'
+		'Prolimnocyon atavus'
+		'Galecyon morloi'
+		'Galecyon peregrinus'
+		'Galecyon mordax'
+		'Galecyon chronius'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=144;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'p1 size'
+		 [2] 'p1 roots'
+		 [3] 'Diastema between p1 and p2'
+		 [4] 'Diastema between p2 and p3'
+		 [5] 'p3 proportions'
+		 [6] 'p3 talonid cusps'
+		 [7] 'p4 mesial cusp'
+		 [8] 'p4 protoconid height'
+		 [9] 'p4 protoconid cross-section'
+		 [10] 'p4 talonid height'
+		 [11] 'p4 talonid buccal cusps'
+		 [12] 'Lingual margin of p4 talonid'
+		 [13] 'p4 width'
+		 [14] 'Basal distention of m2 buccal enamel (modified from Sole 2013 C37)'
+		 [15] 'm2 buccal cingulid at mesial margin of crown'
+		 [16] 'm2 buccal cingulid'
+		 [17] 'Protoconid height on m1-2'
+		 [18] 'm2 paraconid and metaconid relative heights'
+		 [19] 'm2 paraconid orientation'
+		 [20] 'Length of paraconid portion of m2 paracristid'
+		 [21] 'm1-2 paraconid keel'
+		 [22] 'm2 metaconid position'
+		 [23] 'Width of m1 talonid'
+		 [24] 'm1-2 hypoconid size'
+		 [25] 'm1-2 entoconid size'
+		 [26] 'm1-2 entoconulid morphology'
+		 [27] 'm1-2 talonid basin depth'
+		 [28] 'm1-2 size'
+		 [29] 'm3 roots'
+		 [30] 'm3 trigonid height'
+		 [31] 'm3 morphology'
+		 [32] 'm3 size'
+		 [33] 'orientation of P3'
+		 [34] 'Protocone lobe on P3'
+		 [35] 'P4 buccal cingulum'
+		 [36] 'P4 parastyle'
+		 [37] 'P4 metastyle'
+		 [38] 'P4 protocone position'
+		 [39] 'P4 protocone size'
+		 [40] 'P4 preprotocrista'
+		 [41] 'P4 metastylar orientation'
+		 [42] 'M1 parastyle development'
+		 [43] 'M1 paracone and metacone'
+		 [44] 'M1 paracone and metacone size'
+		 [45] 'Separation of M1 metacone and metastyle'
+		 [46] 'Elongation of molar carnassial metastyles (M1 and M2 if applicable)'
+		 [47] 'Orientation of M1 metastyle'
+		 [48] 'Development of M1 conules'
+		 [49] 'Termination of M1 postmetaconule crista'
+		 [50] 'M1 protocone transverse width'
+		 [51] 'M1 protocone length'
+		 [52] 'M1 protocone height'
+		 [53] 'Elongation of M1 distal cingulum'
+		 [54] 'Central M2 width (excluding stylar regions)'
+		 [55] 'M2 stylocone'
+		 [56] 'Orientation of M2 parastylar lobe'
+		 [57] 'Distal portion of M2'
+		 [58] 'M3'
+		 [59] 'Enamel texture on cheek teeth'
+		 [60] '(Scapula) glenoid shape'
+		 [61] '(Scapula) distal deflection of anterior glenoid fossa'
+		 [62] '(Scapula) lateral projection on glenoid border'
+		 [63] '(Scapula) medial border of infraglenoid tubercle'
+		 [64] '(Humerus) greater tuberosity height'
+		 [65] '(Humerus) anteromedial projection of greater tuberosity'
+		 [66] '(Humerus) tubercle for pectoralis profundus'
+		 [67] '(Humerus) medial projection of lesser tuberosity'
+		 [68] '(Humerus) teres tubercle'
+		 [69] '(Humerus) distal terminus of deltopectoral crest'
+		 [70] '(Humerus) primary orientation of facet on lateral side of posterodistal humerus'
+		 [71] '(Humerus) projection of medial epicondyle'
+		 [72] '(Humerus) height of medial epicondyle'
+		 [73] '(Humerus) olecranon fossa shape'
+		 [74] '(Humerus) pit on posteromedial distal humerus for ulnar collateral ligament'
+		 [75] '(Humerus) radial fossa'
+		 [76] '(Humerus) capitulum width'
+		 [77] '(Humerus) capitular tail'
+		 [78] '(Humerus) projection of trochlea on distal humerus'
+		 [79] '(Radius) ulnar facet curvature'
+		 [80] '(Radius) trochlear facet on proximal radius'
+		 [81] '(Radius) medial transition between radial head and shaft'
+		 [82] '(Radius) brachioradialis crest'
+		 [83] '(Radius) crest on lateral surface of distal radius'
+		 [84] '(Radius) styloid process'
+		 [85] '(Ulna) length of olecranon process'
+		 [86] '(Ulna) medial deflection of olecranon process, relative to a line separating the trochlear facet from the radial and posterior humeral facets'
+		 [87] '(Ulna) shelf at posteroproximal corner of medial olecranon'
+		 [88] '(Ulna) shape and orientation of anconeal process'
+		 [89] '(Ulna) trochlear facet width'
+		 [90] '(Ulna) orientation of radial facet'
+		 [91] '(Ulna) shape of radial facet'
+		 [92] '(Ulna) position of strongest projection of anterolateral crest on ulnar shaft'
+		 [93] '(Ulna) surface for attachment of m. pronator quadratus'
+		 [94] '(Ulna) angulation of distal ulnar articular surfaces'
+		 [95] '(Ulna) distal radial facet'
+		 [96] '(Ulna) orientation of facet for triquetrum'
+		 [97] '(Pelvis) shape of rectus tubercle'
+		 [98] '(Pelvis) orientation of ventrolateral surface of iliac blade'
+		 [99] '(Femur) fovea for ligamentum teres'
+		 [100] '(Femur) posterolateral extension of femoral head'
+		 [101] '(Femur) height of greater trochanter'
+		 [102] '(Femur) posterior projection of lesser trochanter'
+		 [103] '(Femur) patellar groove'
+		 [104] '(Tibia) orientation of lateral condyle'
+		 [105] '(Tibia) tibial tuberosity orientation'
+		 [106] '(Tibia) angulation of distal tibia'
+		 [107] '(Tibia) crest forming posterior border of groove for flexor digitorum medialis'
+		 [108] '(Tibia) length of lateral portion of astragalar facet'
+		 [109] '(Tibia) check facet, anterior view'
+		 [110] '(Tibia) medial malleolar projection'
+		 [111] '(Tibia) orientation of distal malleolar facet'
+		 [112] '(Tibia) facet on the anterior surface of the medial malleolus for articulation with the cotylar fossa'
+		 [113] '(Astragalus) tibial facet shape'
+		 [114] '(Astragalus) width of posteromedial extension of tibial facet'
+		 [115] '(Astragalus) posterior extension of lateral margin of tibial facet'
+		 [116] '(Astragalus) proximomedial plantar tuberosity'
+		 [117] '(Astragalus) ectal facet shape'
+		 [118] '(Astragalus) lateral process formed by projection of ectal facet lateral to fibular facet'
+		 [119] '(Astragalus) medial extension of sustentacular facet'
+		 [120] '(Astragalus) lateral extension of sustentacular facet'
+		 [121] '(Astragalus) malleolar facet on dorsomedial surface of astragalar neck'
+		 [122] '(Astragalus) astragalar head orientation in distal view'
+		 [123] '(Calcaneus) orientation of endplate of calcaneal tuber'
+		 [124] '(Calcaneus) calcaneal tuber proportions'
+		 [125] '(Calcaneus) orientation of ectal facet'
+		 [126] '(Calcaneus) width of ectal facet'
+		 [127] '(Calcaneus) width of dorsal fibular facet'
+		 [128] '(Calcaneus) connection between sustentacular facet and distal sustentacular facet'
+		 [129] '(Calcaneus) position of peroneal tubercle'
+		 [130] '(Calcaneus) projection at midline of distal calcaneal body'
+		 [131] '(Calcaneus) plantar tubercle development'
+		 [132] '(Calcaneus) cuboid facet proportions'
+		 [133] '(Cuboid) proportions of cuboid calcaneal facet'
+		 [134] '(Cuboid) development of cuboid astragalar facet'
+		 [135] '(Cuboid) anterior surface of cuboid'
+		 [136] '(Cuboid) orientation of long plantar tubercle'
+		 [137] '(Cuboid) shape of ectocuneiform facet'
+		 [138] '(Cuboid) accessory ectocuneiform facet'
+		 [139] '(Cuboid) proportions of metatarsal facet'
+		 [140] 'Dummy character for outgroup topology1'
+		 [141] 'Dummy character for outgroup topology2'
+		 [142] 'Dummy character for outgroup topology3'
+		 [143] 'Dummy character for outgroup topology'
+		 [144] 'Dummy character for outgroup topology4'
+	;
+	STATELABELS
+		1
+		'large'
+		'small'
+		'absent'
+		,
+		2
+		'one'
+		'two'
+		,
+		3
+		'less than length of p2'
+		'greater than length of p2'
+		,
+		4
+		'absent'
+		'small'
+		,
+		5
+		'elongate and low, protoconid apex lower than p2'
+		'short and high, protoconid apex taller than p2'
+		'elonagte and low, prototonid apex taller than p2'
+		,
+		6
+		'hypoconid only'
+		'second cusp present distal to the hypoconid'
+		,
+		7
+		'absent or very weak'
+		'strong'
+		,
+		8
+		'tall: >= m1 protoconid'
+		'low: < m1 protoconid'
+		,
+		9
+		'circular'
+		'lenticular'
+		,
+		10
+		'tall'
+		'low'
+		,
+		11
+		'hypoconid only'
+		'second cusp present distal to hypoconid'
+		,
+		12
+		'no rim present'
+		'weak rim present'
+		'well-developed entocristid present'
+		,
+		13
+		'narrow (gracile)'
+		'broad (robust)'
+		,
+		14
+		'weak or absent'
+		'strong'
+		,
+		15
+		'weak & crestiform, restricted to paraconid mid-height'
+		'weak & denticulate (m2 only), restricted to paraconid mid-height'
+		'strong & shelflike, extends to base of paraconid'
+		,
+		16
+		'absent or restricted to hypoflexid'
+		'continuous around protoconid and/or hypoconid'
+		,
+		17
+		'much taller than metaconid & paraconid, trigonid >> talonid'
+		'slightly taller than metaconid & paraconid, trigonid > talonid'
+		,
+		18
+		'paraconid substantially lower than metaconid'
+		'paraconid moderately lower than metaconid'
+		'paraconid subequal to metaconid'
+		'paraconid taller than metaconid'
+		,
+		19
+		'slightly oblique, trigonid relatively closed'
+		'strongly oblique, trigonid relatively open'
+		,
+		20
+		'short'
+		'elongate'
+		,
+		21
+		'weak'
+		'strong'
+		,
+		22
+		'metaconid apex immediately lingual to protoconid apex'
+		'metaconid apex distolingual to protoconid apex'
+		,
+		23
+		'Substantially narrower than trigonid'
+		'Subequal to trigonid width'
+		,
+		24
+		'small, apex at distobuccal corner of crown, postcristid absent'
+		'enlarged, apex mesial to distobuccal corner, postcristid present'
+		,
+		25
+		'very small, much lower than hypoconulid, talonid semitrenchant'
+		'small, subequal to hypoconulid, low rim on lingual margin'
+		'enlarged, subequal to hypoconulid, well separated, distinct wall'
+		,
+		26
+		'absent or very small, becomes indictinct with light wear'
+		'forming a series of denticulations on lingual entocristid'
+		'mesially displaced and well-separated from remainder of entocristid'
+		,
+		27
+		'shallow, cusp relief low'
+		'deep, cusp relief substantial'
+		,
+		28
+		'm2 much larger than m1'
+		'size subequal'
+		,
+		29
+		'two'
+		'one'
+		,
+		30
+		'much taller than talonid, differential comparable to m1-2'
+		'low, height differential reduced compared to m1-2'
+		,
+		31
+		'comparable to m1-2 with minor distinctions'
+		'disjunct from m1-2, paraconid and paracristid greatly enlarged'
+		,
+		32
+		'larger than m1-2'
+		'subequal to m1-2'
+		'slightly reduced'
+		'strongly reduced'
+		,
+		33
+		'aligned with P4'
+		'set at an angle to P4'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'complete'
+		'incomplete mesially'
+		,
+		36
+		'weak or absent'
+		'forming a strong, conical cusp'
+		,
+		37
+		'long, subequal to length of paracone'
+		'short, much shorter than paracone'
+		,
+		38
+		'lingual to paracone'
+		'mesiolingual to paracone'
+		,
+		39
+		'prominent, extending as far lingually as M1 protocone'
+		'reduced, lingual extent less than on M1'
+		,
+		40
+		'continuous onto parastyle'
+		'ending at base of paracone'
+		,
+		41
+		'long axis inclined relative to long axis of paracone'
+		'long axis parallel to long axis of paracone'
+		,
+		42
+		'poorly developed, slight thickening at mesiobuccal corner'
+		'prominent, well-developed cusp and lobe mesial to paracone'
+		,
+		43
+		'separate almost to base'
+		'fused to midway from base'
+		,
+		44
+		'paracone much larger and taller than metacone'
+		'paracone slightly larger than metacone, heights subequal'
+		,
+		45
+		'linear crests separated by a carnassial notch'
+		'a single unbroken arcuate crest connects metacone & metastyle'
+		,
+		46
+		'short, much less than combined length of paracone & metacone'
+		'moderate, subequal to combined length of paracone & metacone'
+		'elongate, greater than combined length of paracone and metacone'
+		,
+		47
+		'subparallel to a line between paracone & metacone apices'
+		'sharply oblique to a line between paracone & metacone apices'
+		,
+		48
+		'paraconule larger and more elevated than metaconule'
+		'paraconule and metaconule subequal in size and height'
+		,
+		49
+		'joins metastylar crest at distolingual corner of crown'
+		'terminates beneath metastylar crest'
+		,
+		50
+		'short, apex of protocone close to apices of buccal cusps'
+		'elongate, apex well lingual to apices of buccal cusps'
+		,
+		51
+		'broad'
+		'compressed'
+		,
+		52
+		'much lower than buccal cusps'
+		'slightly lower than buccal cusps'
+		,
+		53
+		'distal cingulum terminates beneath, does not contact, metaconule'
+		'distal cingulum extends buccal to metaconule'
+		,
+		54
+		'subequal or slightly greater than M1 width'
+		'much greater than M1 width'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'oriented mesially or mesiobuccally'
+		'oriented buccally'
+		,
+		57
+		'well-developed, metastylar elongation comparable to M1'
+		'reduced, metacone much smaller than paracone, metastyle absent'
+		,
+		58
+		'slighlty smaller than M1-2'
+		'much reduced in size'
+		'absent'
+		,
+		59
+		'smooth'
+		'crenulate'
+		,
+		60
+		'ovoid, distinctly longer than wide'
+		'subcircular, length and width more similar'
+		,
+		61
+		'restricted to anterior 1/3 or less'
+		'exceeds 1/2 of glenoid anteroposterior length'
+		,
+		62
+		'at anterolateral corner of glenoid, close to supraglenoid tubercle'
+		'on lateral surface posterior to anterolateral corner, clearly separated from supraglenoid tubercle'
+		,
+		63
+		'forms a distinct ridge that defines a fossa on the posterior scapular neck'
+		'ridge absent, posteromedial scapular neck smoothly curved'
+		,
+		64
+		'lower than humeral head'
+		'even with humeral head'
+		'higher than humeral head'
+		,
+		65
+		'weak, greater tuberosity closely appressed to humeral head'
+		'strong, medial margin of tuberosity projects well anterior to humeral head'
+		,
+		66
+		'small and low, lateral wall of groove for biceps tendon poorly defined'
+		'enlarged, lateral wall of groove for biceps tendon sharply defined'
+		,
+		67
+		'strong, lesser tuberosity projects well medial to humeral head, particularly posteriorly'
+		'weak, lesser tuberosity appressed to humeral head'
+		,
+		68
+		'present as a definable crest or ridge on the medial side of the proximal humeral shaft'
+		'absent, no clear scar for teres major and latissimus dorsi present'
+		,
+		69
+		'distal portion of crest elevated and termination relatively abrupt, a clear inflection is present between crest and shaft in lateral view'
+		'crest tapers smoothly into shaft, no clear transition is present in lateral view'
+		,
+		70
+		'posterior, flush with remainder of posterodistal humerus'
+		'lateral, distinctly angled from remainder of posterodistal humerus'
+		,
+		71
+		'strong, medial epicondyle projects well medial to humeral shaft, entepicondylar bar forms an angle of 45 degrees or more with the long axis of the humerus'
+		'weaker, medial epicondyle more appressed to medial humeral shaft, angle between entepicondylar bar and long axis less than 45 degrees'
+		,
+		72
+		'low, proximodistal height approximately double anteroposterior depth'
+		'tall, anteroproximal margin more proximally extensive, height more than double depth'
+		,
+		73
+		'broad and shallow, margins poorly defined'
+		'narrow and deep, margins well defined'
+		,
+		74
+		'deep but lateral margin flush with olecranon fossa'
+		'deep and separated from olecranon fossa laterally by a ridge of bone'
+		'shallow and indistinct'
+		,
+		75
+		'shallow, margins poorly defined'
+		'deep, margins well-defined, particularly lateral margin'
+		,
+		76
+		'much broader than deep'
+		'moderately broader than deep'
+		,
+		77
+		'prominent'
+		'very weSubgenus'
+		,
+		78
+		'Weak, trochlea does not project strongly, angle between distal margins of trochlea and capitulum large'
+		'strong, trochlea projects well distal to capitulum, angle between distal margins of trochlea and capitulum reduced'
+		,
+		79
+		'rounded'
+		'flattened'
+		,
+		80
+		'very narrow or absent'
+		'State 1'
+		,
+		81
+		'smooth, with a curved transition'
+		'abrupt, with a sharp transition'
+		,
+		82
+		'forms a prominent, proximally extensive crest on anterior margin of distal radius'
+		'weak, restricted to near distal end of bone'
+		,
+		83
+		'weak, most of lateral surface occupied by anterior facet'
+		'strong, sharply divides lateral surface into subequal anterior and posterior facets'
+		,
+		84
+		'does not project significantly beyond remainder of distal radius'
+		'projects strongly beyond remainder of distal radius'
+		,
+		85
+		'short, only slightly longer than semilunar notch'
+		'longer, substantially longer than semilunar notch'
+		,
+		86
+		'substantial, ~30 degrees'
+		'small, ~10 degrees'
+		,
+		87
+		'weak, poorly differentiated from remainder of proximal border'
+		'well-developed and projecting strongly medially'
+		,
+		88
+		'wide and directed laterally'
+		'narrow and directed laterally'
+		'narrow and deflected proximolaterally'
+		,
+		89
+		'wide'
+		'narrow'
+		,
+		90
+		'anterolateral'
+		'more lateral than anterolateral'
+		,
+		91
+		'semicircular, posterolateral and anteromedial portions subequal in size, distal border weakly concave'
+		'comma-shaped, posterolateral portion much larger than anteromedial, distal border sharply concave'
+		,
+		92
+		'less than 1 semilunar notch length from distal edge of notch'
+		'more than 1 semilunar notch length from distal edge of notch'
+		,
+		93
+		'anteriorly oriented with a sharp distomedial border'
+		'anteromedially oriented, distomedial border indistinct'
+		,
+		94
+		'approximately 60 degrees to long axis of ulna'
+		'nearly perpendicular to long axis of ulna, approximately 80 degrees'
+		,
+		95
+		'extends onto lateral surface of distal ulna'
+		'restricted to anterior surface'
+		,
+		96
+		'distally and slightly medially'
+		'medially and slightly distally'
+		,
+		97
+		'rounded'
+		'ovoid, elongated anteroposteriorly'
+		,
+		98
+		'ventrolateral'
+		'more ventral than lateral'
+		,
+		99
+		'does not interrupt margin of articular surface of femoral head'
+		'interrupts margin'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'subequal to than femoral head'
+		'distinctly taller than femoral head'
+		,
+		102
+		'projects posteromedially and does not extend far posterior to femoral shaft'
+		'projects more posteriorly, well posterior to femoral shaft'
+		,
+		103
+		'shallow and wide, does not extend proximally beyond epiphysis'
+		'deeper and more narrow, extends onto diaphysis'
+		,
+		104
+		'proximal, posterior end is not significantly curved posteriorly'
+		'posteroproximal, posterior end curves posteriorly'
+		,
+		105
+		'anteroproximal'
+		'proximal, with only a small anterior component'
+		,
+		106
+		'aligned with shaft, posterior border of distal tibial shaft flat'
+		'curved posteriorly relative to shaft, posterior border of distal tibial shaft distinctly concave'
+		,
+		107
+		'at posteromedial corner of distal tibia, forms a sharp ridge in distal view'
+		'slightly anteriorly shifted, ridge poorly defined in distal view'
+		'strongly shifter anteriorly, posteromedial corner smoothly rounded in distal view'
+		,
+		108
+		'much less than medial portion'
+		'slightly less than medial portion'
+		,
+		109
+		'forms a prominent semicircle on the anterior surface of the distal tibia'
+		'reduced to a narrow strip at the far distal margin of the anterior surface'
+		,
+		110
+		'substantial, malleolus projects well distal to astragalar facet'
+		'small, only projects modestly beyond astragalar facet'
+		,
+		111
+		'distal'
+		'distolateral'
+		,
+		112
+		'prominent and anteriorly oriented'
+		'prominent and anterolaterally oriented'
+		'poorly defined'
+		,
+		113
+		'tibial facet wider than long'
+		'tibial facet length and width subequal'
+		'tibial facet longer than wide'
+		,
+		114
+		'narrow, less than half of total facet width'
+		'broad, greater than half of total facet width'
+		,
+		115
+		'absent, sharp corner at posteriomedial corner of tibial facet'
+		'present, extends medial to astragalar foramen'
+		,
+		116
+		'salient, medial margin of groove for flexor fibularis well defined'
+		'low, medial margin of groove for flexor fibularis poorly defined'
+		,
+		117
+		'broad, particularly posteriorly, sides converge anteriorly'
+		'narrow, not substantially broader anteriorly than posteriorly, sides subparallel'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'absent, sustentacular facet isolated from medial margin of astragalar neck by a gutter'
+		'present but narrow'
+		'present but broad'
+		,
+		120
+		'absent'
+		'present but offset from both the sustentacular facet and navicular facets'
+		'present and confluent with both the sustentacular and navicular facets'
+		,
+		121
+		'absent or indistinct'
+		'well-defined'
+		,
+		122
+		'transverse, long axis parallels a line between medial and lateral trochlear rims'
+		'oblique, long axis inclined relative to a line between medial and lateral trochlear rims, primary curvature remains more or less transverse'
+		'oblique, long axis inclined relative to a line between medial and lateral trochlear rims, primary curvature dorsoventral'
+		,
+		123
+		'flat or nearly flat'
+		'medial margin projects distinctly posterior to lateral margin'
+		,
+		124
+		'short and broad'
+		'longer and transversely compressed'
+		,
+		125
+		'long axis oriented ~30 degrees from long axis of calcaneal tuber'
+		'long axis oriented ~45 degrees from long axis of calcaneal tuber'
+		,
+		126
+		'relatively constant from posterior to anterior, posterior end slightly narrowed'
+		'posterior half much narrower than anterior half'
+		,
+		127
+		'broad'
+		'narrow'
+		,
+		128
+		'absent, facets isolated from one another'
+		'present, an articular bridge extends from the lateral margin of the sustentacular facet to the medial margin of the distal sustentacular facet'
+		,
+		129
+		'does not reach anterior margin of calcaneum'
+		'extends to anterior margin of calcaneum'
+		,
+		130
+		'strong, cuboid facet has a sharp dorsal corner in anterior view'
+		'weak, dorsal margin of cuboid facet more gently rounded in distal view'
+		,
+		131
+		'flattened and non-projecting, anterior end confluent with ventral margin of cuboid facet'
+		'bulbous and projecting, anterior end confluent with ventral margin of cuboid facet'
+		'bulbous and projecting, anterior end separated from ventral margin of cuboid facet by a pit'
+		,
+		132
+		'cuboid facet deeper than wide'
+		'dorsoventral and mediolateral dimensions subequal'
+		'cuboid facet wider than deep'
+		,
+		133
+		'approximately twice as wide (mediolateral) as deep (dorsoplantar)'
+		'width only approximately 1.5 times length'
+		,
+		134
+		'prominent and oriented proximomedially'
+		'small and oriented directly medially'
+		,
+		135
+		'strongly concave'
+		'weakly concave'
+		'flat or slightly convex'
+		,
+		136
+		'distoplantad'
+		'directly plantad'
+		,
+		137
+		'depth uniform from dorsal to plantar'
+		'plantar half shallower (proximodistal) than dorsal half'
+		,
+		138
+		'absent'
+		'present'
+		,
+		139
+		'width and depth subequal'
+		'much wider (mediolateral) than deep (dorsoplantar)'
+		,
+		140
+		'deactivated prior to calculation of tree statistics'
+		'weight=50'
+		,
+		141
+		'deactivated prior to calculation of tree statistics'
+		'weight=50'
+		,
+		142
+		'deactivated prior to calculation of tree statistics'
+		'weight=50'
+		,
+		143
+		'deactivated prior to calculation of tree statistics'
+		'weight=50'
+		,
+		144
+		'deactivated prior to calculation of tree statistics'
+		'weight=50'
+		
+	;
+	MATRIX
+	'OUTGROUP dummy'		                               ???????????????????????????????????????????????????????????--------------------------------------------------------------------------------00000
+	'Protungulatum donnae'		                         00001010010010001000011110110001??0110000100101101011010000??????????000010000??????????????????????????????????0001?002010000110122???????01010
+	'Mithrandir gillianus'		                         0001101000021000101001112011000101101000100110?1?001100000011???000?000001001?101?????????????????10111?1?0111???????00201000001002210100?101010
+	'Didymictis spp.'		                              0001211111110020(0,1)20001012011???31001010?0100?0?1?101(0,1)0??121111?21010111111110110011101000001011000001110??1010001011110212010000110211100?001101
+	'Viverravus spp.'		                              0000111110010020(0,1)100(0,1)0011001???3001101000100?0?0?1011000120????10?1??00011110100010001?2??010???0001011010011???1010000?01?????????????????01101
+	'Cimolestes magnus'		                            11001000000200200000000110110001?100100001000010?101?010000--------------------------------------------------------------------------------01100
+	'Arfia gingerichi'		                             ??????00110200201100001120?00010?001100010011001110???00001--------------------------------------------------------------------------------11100
+	'Arfia junnei'		                                 ?????????????0?11?00?01120?00010?00010001001101101011?????1--------------------------------------------------------------------------------11100
+	'Arfia shoshoniensis and opisthotoma'		          0000000011(0,1)2100(0,1)1100(0,1)(0,1)11201000101(0,1)0(0,1)100010011001(0,1)1011100001????211111111111111110111?002?011????11001?10111001001011100002(0,1)00100102(1,2)???????11100
+	'Prototomus minimus'		                           10(0,1)1??00111001200201100010?0000????1001001100110111?0?100?0--------------------------------------------------------------------------------11100
+	'Prototomus deimos'		                            1001??0?0?0101200?0110001?100001??????????????????????????0--------------------------------------------------------------------------------11100
+	'Prototomus phobos'		                            10(0,1)10000000101200201000010100001001010101?100110111100(0,1)0000????101101?????????????????????????????0?0110000?????100001??0000000?00011??0??011100
+	'Prototomus secundarius'		                       ???1??000(0,1)010120020100101010??????1(0,1)1010101001101111001(0,1)000--------------------------------------------------------------------------------11100
+	'Gazinocyon whitiae'		                           10110000010101200201001010100001001000(0,1)010100110?111001000000???????0110120101??????????????????11??????????????100001??02000?0?01?1101000?11100
+	'Prototomus martis'		                            100(0,1)00001000012002011000(0,1)(0,1)000001???0100?001002101111001000(0,1)--------------------------------------------------------------------------------11100
+	'Pyrocyon strenuus'		                            110(0,1)00(0,1)010(0,1)(0,1)0120021110001(0,1)000001?10(0,1)100000110210111100110010000110100?0?0000?0000???00?0(0,1)00???????11?1?00001000110?00?12001100110000100010011100
+	'Pyrocyon dioctetus'		                           11000000100101200211100010000001?????????????2????????11??1--------------------------------------------------------------------------------11100
+	'Prolimnocyon haematus'		                        100000(0,1)010(0,1)(0,1)0?000?0110001011010300001100?110011?011??011110--------------------------------------------------------------------------------11100
+	'Prolimnocyon atavus'		                          11000000100(0,1)010002(0,1)11000101(0,1)11030?00110001100210(0,1)11100111110101000000000000000000000010001??0000000100010101?001000000??1000000?0111011000011100
+	'Galecyon morloi'		                              ?????????????1000210100010??0002??11010?01100000000?0?????0--------------------------------------------------------------------------------11100
+	'Galecyon peregrinus'		                          0??(0,1)0001(0,1)01001(0,1)00310100010(0,1)10102??????????????????????????1--------------------------------------------------------------------------------11100
+	'Galecyon mordax'		                              (0,1)00001(0,1)1001101100?101(0,1)0010110102?????????110000000000?????11010??????0??1?110???????????????????01?01???????????????????????10100101???????11100
+	'Galecyon chronius'		                            (0,1)00011110011111003101(0,1)00120101021(0,1)11110101(0,1)00000000000001?1101?111111010121101??????000110001110??0????01011101221010121010010100101002101111100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 144;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1453916526250; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 5969892806172691448; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1310847741869422350; mqVersion 303; checksumv 0 3 1232566882 null getNumChars 144 numChars 144 getNumTaxa 23 numTaxa 23 short true bits 15 states 15 sumSquaresStatesOnly 5525.0 sumSquares 5525.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1366 650; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1310847741869422350 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 578; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 144; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "Galecyon PC combined matrix.nex"'; LINK Taxa = Taxa; TRANSLATE [0] 1 OG_Dummy, [1] 2 Protungulatum_donnae, [2] 3 Mithrandir_gillianus, [3] 4 Didymictis_spp., [4] 5 Viverravus_spp., [5] 6 Cimolestes_magnus, [6] 7 Arfia_gingerichi, [7] 8 Arfia_junnei, [8] 9 Arfia_shoshoniensis_and_opisthotoma, [9] 10 Prototomus_minimus, [10] 11 Prototomus_deimos, [11] 12 Prototomus_phobos, [12] 13 Prototomus_secundarius, [13] 14 Gazinocyon_whitiae, [14] 15 Prototomus_martis, [15] 16 Pyrocyon_strenuus, [16] 17 Pyrocyon_dioctetus, [17] 18 Prolimnocyon_haematus, [18] 19 Prolimnocyon_atavus, [19] 20 Galecyon_morloi, [20] 21 Galecyon_peregrinus, [21] 22 Galecyon_mordax, [22] 23 Galecyon_chronius; TREE t1 = (1,((6,((((20,(21,(22,23))),(((18,19),(15,(16,17))),(10,(11,(12,(13,14)))))),(8,(7,9))),(4,5))),(2,3))); 
+ENDBLOCK;

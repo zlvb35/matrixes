@@ -1,0 +1,190 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 02.11.02 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=8;
+    TAXLABELS
+    		'Macaca'
+		'Cercocebus'
+		'Lophocebus'
+		'Mandrillus'
+		'Papio'
+		'Theropithecus'
+		'Papionini UCMP 56693'
+		'Papionini UCMP 125898'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=24;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Deltoid Plane Width (M)'
+		 [2] 'Brachialis Flange Width (M)'
+		 [3] 'Supinator Crest Length (M)'
+		 [4] 'DIstal Articulation Breadth (M)'
+		 [5] 'Medial Trochlear Lip (M)'
+		 [6] 'Olecranon Fossa Width (M)'
+		 [7] 'Lateral Margin of Olecrnaon Fossa (M)'
+		 [8] 'Olecranon Fossa Depth (M)'
+		 [9] 'Olecranon Fossa Shape (M)'
+		 [10] 'Distal AP Depth (M)'
+		 [11] 'Medial Epicondyle Orientation (M)'
+		 [12] 'Geometric Mean (F)'
+		 [13] 'Deltoid Plane Width (F)'
+		 [14] 'Brachialis Flange Width (F)'
+		 [15] 'Supinator Crest Length (F)'
+		 [16] 'DIstal Articulation Breadth (F)'
+		 [17] 'Medial Trochlear Lip (F)'
+		 [18] 'Olecranon Fossa Width (F)'
+		 [19] 'Lateral Margin of Olecrnaon Fossa (F)'
+		 [20] 'Olecranon Fossa Depth (F)'
+		 [21] 'Olecranon Fossa Shape (F)'
+		 [22] 'Distal AP Depth (F)'
+		 [23] 'Medial Epicondyle Orientation (F)'
+		 [24] 'Geometric Mean'
+	;
+	STATELABELS
+		1
+		'Normal'
+		'Intermediate'
+		'Broad'
+		,
+		2
+		'Normal'
+		'Intermediate'
+		'Broad'
+		,
+		3
+		'Not Extended Proximally'
+		'Polymorphic'
+		'Extended Proximally'
+		,
+		4
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		,
+		5
+		'Normal'
+		'Polymorphic'
+		'Prominent'
+		,
+		6
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		,
+		7
+		'Normal'
+		'Prominent'
+		,
+		8
+		'Shallow'
+		'Intermediate'
+		'Deep'
+		,
+		9
+		'Rounded'
+		'Polymorphic'
+		'Triangular'
+		,
+		10
+		'Shallow'
+		'Intermediate'
+		'Deep'
+		,
+		11
+		'less than 45 degrees'
+		'45 - 60 degrees'
+		'greater than 60 degrees'
+		,
+		12
+		'Small'
+		'Large'
+		,
+		13
+		'Normal'
+		'Intermediate'
+		'Broad'
+		,
+		14
+		'Normal'
+		'Intermediate'
+		'Broad'
+		,
+		15
+		'Not Extended Proximally'
+		'Polymorphic'
+		'Extended Proximally'
+		,
+		16
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		,
+		17
+		'Normal'
+		'Polymorphic'
+		'Prominent'
+		,
+		18
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		,
+		19
+		'Normal'
+		'Prominent'
+		,
+		20
+		'Shallow'
+		'Intermediate'
+		'Deep'
+		,
+		21
+		'Rounded'
+		'Polymorphic'
+		'Triangular'
+		,
+		22
+		'Shallow'
+		'Intermediate'
+		'Deep'
+		,
+		23
+		'less than 45 degrees'
+		'45 - 60 degrees'
+		'greater than 60 degrees'
+		,
+		24
+		'Small'
+		'Large'
+		
+	;
+	MATRIX
+	'Macaca'		                         112100111010001100112110
+	'Cercocebus'		                     2121101111102?210?????10
+	'Lophocebus'		                     010202000010100202011010
+	'Mandrillus'		                     122110122021212000110021
+	'Papio'		                          000202000221000101010221
+	'Theropithecus'		                  0?0202000?210?010?002?21
+	'Papionini UCMP 56693'		           212020122221????????????
+	'Papionini UCMP 125898'		          ????????????220202000221
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 - 24;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1467344985809; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 145575627623165961; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4404151273003777100; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 25 9 22 10 11 12 13 14 15 16 17 18 20 10 23 19; attachments ; endTell; mqVersion 304; checksumv 0 3 1149029320 null getNumChars 24 numChars 24 getNumTaxa 8 numTaxa 8 short true bits 7 states 7 sumSquaresStatesOnly 937.0 sumSquares 937.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1284 695; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #145575627623165961 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #145575627623165961; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1184 623; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #145575627623165961 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.ManyTreesFromFile.ManyTreesFromFile; setAssignedID 1073.1433356416453.8079440594914347669; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1184 623; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientRight; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4404151273003777100 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1184 623; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 181; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1184 623; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4404151273003777100 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; rowNamesWidth 170; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1184 623; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 24; 
+ENDBLOCK;

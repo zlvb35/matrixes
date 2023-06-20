@@ -1,0 +1,429 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.44.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=6;
+    TAXLABELS
+    		'Cercocebus'
+		'Lophocebus'
+		'Macaca'
+		'Mandrillus'
+		'Papio'
+		'Theropithecus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Glabella-opisthocranion'
+		 [2] 'Bregma-basion'
+		 [3] 'Minimum frontal breadth'
+		 [4] 'Biporionic breadth'
+		 [5] 'Glabella-bregma'
+		 [6] 'Postglabellar sulcus-bregma'
+		 [7] 'Parietal sagittal chord'
+		 [8] 'Parietal lambdoid chord'
+		 [9] 'Lambda-inion'
+		 [10] 'Occipital sagittal length'
+		 [11] 'Foramen magnum max width'
+		 [12] 'Occipital condyle max length'
+		 [13] 'Lambda thickness of parietal'
+		 [14] 'Breadth between carotid apices'
+		 [15] 'Breadth between petrous apices'
+		 [16] 'Length of tympanic plate'
+		 [17] 'Superior facial height'
+		 [18] 'Alveolar height'
+		 [19] 'Superior facial breadth'
+		 [20] 'Bizygomatic breadth'
+		 [21] 'Bimaxillary breadth'
+		 [22] 'Anterior interorbital breadth'
+		 [23] 'Orbital height'
+		 [24] 'Min malar height'
+		 [25] 'Max nasal aperture width'
+		 [26] 'Nasal height'
+		 [27] 'Sagittal length of nasal bones'
+		 [28] 'Superior breadth of nasal bones'
+		 [29] 'Inferior breadth of nasal bones'
+		 [30] 'Zygomaxillare-porion'
+		 [31] 'Upper facial prognathism'
+		 [32] 'Lower facial prognathism'
+		 [33] 'Maxillo-alveolar length'
+		 [34] 'Maxillo-alveolar breadth'
+		 [35] 'Incisive canal-palatomaxillary suture'
+		 [36] 'Upper incisor alveolar length'
+		 [37] 'Palatal height at M1'
+		 [38] 'Upper premolar alveolar length'
+		 [39] 'Upper molar length'
+		 [40] 'Canine interalveolar distance'
+		 [41] 'Last premolar interalveolar distance'
+		 [42] 'Second molar interalveolar distance'
+		 [43] 'I1?mesiodistal crown diameter'
+		 [44] 'I1?labiolingual crown diameter'
+		 [45] 'C1?mesiodistal crown diameter'
+		 [46] 'C1?labiolingual crown diameter'
+		 [47] 'M3interalveolar distance'
+		 [48] 'Palate depth at incisive fossa'
+		 [49] 'P4/M1 index'
+		 [50] 'Symphyseal height'
+		 [51] 'Maximum symphyseal depth'
+		 [52] 'Corpus height at M1'
+		 [53] 'Corpus width at M1'
+		 [54] 'Corpus height at M3'
+		 [55] 'Corpus width at M3'
+		 [56] 'Lower premolar alveolar length'
+		 [57] 'Lower molar alveolar length'
+		 [58] 'P4?mesiodistal crown diameter'
+		 [59] 'P4?labiolingual crown diameter'
+		 [60] 'M1?mesiodistal crown diameter'
+		 [61] 'M1?labiolingual crown diameter'
+		 [62] 'M2?mesiodistal crown diameter'
+		 [63] 'M2?labiolingual crown diameter'
+		 [64] 'P4/M1?index'
+		 [65] 'Body Size'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		2
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		3
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		4
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		5
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		6
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		7
+		'State 0'
+		'State 2'
+		,
+		8
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		9
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		10
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		11
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		12
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		13
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		14
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		15
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		16
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		17
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		18
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		19
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		20
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		21
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		22
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		23
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		24
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		25
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		26
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		27
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		28
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		29
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		30
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		31
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		32
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		33
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		34
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		35
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		36
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		37
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		38
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		39
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		40
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		41
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		42
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		43
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		44
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		45
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		46
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		47
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		48
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		49
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		50
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		51
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		52
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		53
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		54
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		55
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		56
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		57
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		58
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		59
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		60
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		61
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		62
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		63
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		64
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		65
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Cercocebus'		             00010101220020102101110001112200010111021111120120212122012120220
+	'Lophocebus'		             22222222212202200022210110021210202210022222002000011200000000000
+	'Macaca'		                 11101020100010002112002112202222220120111000121212101020111111210
+	'Mandrillus'		             00200000211010110120012002210201102112111022220121201012121101121
+	'Papio'		                  11201022100002202120011122222010021120121222002000000000100111101
+	'Theropithecus'		          22022221002212020202220220002122210000200000211002222210220222201
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 65;
+      ENDBLOCK;
+      

@@ -1,0 +1,1295 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.27.41 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+    		'PROSAUROPODA'
+		'THEROPODA'
+		'Vulcanodon'
+		'Barapasaurus'
+		'Omeisaurus'
+		'Shunosaurus'
+		'Patagosaurus'
+		'Mamenchisaurus'
+		'Apatosaurus'
+		'Barosaurus'
+		'Brachiosaurus'
+		'Camarasaurus'
+		'Dicraeosaurus'
+		'Diplodocus'
+		'Haplocanthosaurus'
+		'Amargasaurus'
+		'Euhelopus'
+		'Jobaria'
+		'Malawisaurus'
+		'Nigersaurus'
+		'Rayososaurus'
+		'Rebbachisaurus'
+		'Alamosaurus'
+		'Nemegtosaurus'
+		'Neuquensaurus'
+		'Opisthocoelicaudia'
+		'Rapetosaurus'
+		'Saltasaurus'
+		'"Titanosaurus" colberti'
+		'"Mali taxon"'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=234;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'NARIAL DEPRESSION'
+		 [2] 'SNOUT STEPPED'
+		 [3] 'MAX BORDER ON NARIS LONG'
+		 [4] 'PREANTORBITAL F'
+		 [5] 'AMF & SNF NARROWLY SEP"D'
+		 [6] 'AOF>ORBIT'
+		 [7] 'ANTORBITAL FOSSA ABSENT'
+		 [8] 'NARES RETRACTED'
+		 [9] 'LARGE NARIS'
+		 [10] 'INFRAORBITAL REGION SHORTENED'
+		 [11] 'LACRIMAL ANTERIOR PROCESS ABSEN'
+		 [12] 'J-ECT CONTACT ABSENT'
+		 [13] 'J CONTR TO AOF'
+		 [14] 'PRF ENLARGED'
+		 [15] 'PRF HOOK'
+		 [16] 'PO BROAD TRANSVERSELY'
+		 [17] 'PO LACKS POSTERIOR PR.'
+		 [18] 'FRONTAL EXC FROM STFOSSA'
+		 [19] 'FRONTALS FUSED'
+		 [20] 'FRONTALS BROAD'
+		 [21] 'PARIETAL OCC PR DEEP'
+		 [22] 'PA EXCL FROM POSTT FEN'
+		 [23] 'POSTPARIETAL F.'
+		 [24] 'P SEPARATION'
+		 [25] 'STF ABSENT'
+		 [26] 'STF LONG AXIS TRANSVERSE'
+		 [27] 'STF< FMAGNUM'
+		 [28] 'SUPRATEMPORAL REGION SHORTENED'
+		 [29] 'SUPTRATEMPORAL FOSSA EXP LAT'
+		 [30] 'LTF EXTENDS BELOW ORBIT'
+		 [31] 'SQ-QJ CONTACT ABSENT'
+		 [32] 'QJ ANT RAMUS ELONGATE'
+		 [33] 'QUADRATE FOSS'
+		 [34] 'Q FOSSA DEEP'
+		 [35] 'Q FOSSA ORIENTED POST-LAT'
+		 [36] 'PT-BPT CONTACT (HOOK/ROCKER)'
+		 [37] 'PT HOOK POSITION'
+		 [38] 'PT, Q FLANGE REDUCED'
+		 [39] 'PT PAL RAMUS SHAPE'
+		 [40] 'PAL LATERAL RAMUS NARROW'
+		 [41] 'EPIPTERYGOID'
+		 [42] 'VOMER ARTICULATION'
+		 [43] 'SO < F.MAGNUM HEIGHT'
+		 [44] 'POP W/NONARTICULAR VENT PR'
+		 [45] 'DORSOLATERAL PROCESS OF PRO'
+		 [46] 'BPT LENGTH'
+		 [47] 'BPT SPREAD'
+		 [48] 'BASAL TUBERA-SHEETINLIKE'
+		 [49] 'BT NARROW'
+		 [50] 'BS DEPRESSION'
+		 [51] 'BS/BPT RECESS'
+		 [52] 'BS-Q CONTACT'
+		 [53] 'BPT ORIENTATION'
+		 [54] 'OCCIPUT FLAT'
+		 [55] 'D DEEPENS ANTERIORLY'
+		 [56] 'D WITH CHIN'
+		 [57] 'DENTARY SYMPH PERP TO RAMUS'
+		 [58] 'EMF CLOSED'
+		 [59] 'CORONOID'
+		 [60] 'SA RIDGE'
+		 [61] 'ADDUCTOR F MED WALL DEPTH'
+		 [62] 'SPL POST PR SEP ANG AND PRART'
+		 [63] 'SPL W/DISTINCT ANT&D PR"S'
+		 [64] 'CORONOID REDUCED'
+		 [65] 'TOOTH ROWS ARCHED'
+		 [66] 'TOOTH ROWS RESTICTED ANTERIORLY'
+		 [67] 'PRECISE OCCLUSION'
+		 [68] 'V SHAPED WEAR FACETS'
+		 [69] 'TOOTH CROWN OVERLAP'
+		 [70] 'SPATULATE CROWNS'
+		 [71] 'WRINKLED ENAMEL'
+		 [72] 'DENTICLES ABSENT'
+		 [73] 'DENTARY TOOTH COUNT'
+		 [74] 'REPLACEMENT TEETH/ALVEOLUS'
+		 [75] 'PROCUMBENT DENTITION'
+		 [76] 'LINGUAL CROWN GROOVES'
+		 [77] 'SPONGY BONE'
+		 [78] 'PRESAC PLEUROCOELS'
+		 [79] 'ATL IC ELONGATE'
+		 [80] '#CERVICALS'
+		 [81] 'CERVICAL LAMINAE RUD'
+		 [82] 'CERVICALS OPISTHOCOELOUS'
+		 [83] 'DIVIDED PLEUROCOELS'
+		 [84] 'ANT CV CENTRA H/W=1.25'
+		 [85] 'BIFID ANT CV NSP"S'
+		 [86] 'LONG CERVICALS'
+		 [87] 'MID CERV N. ARCHES DEEP'
+		 [88] 'MID/POST CV DIV CPRL'
+		 [89] 'BIFID POST CV/ANT DORSAL NSP"S'
+		 [90] 'POST CV/ANT D W/MEDIAN TUB'
+		 [91] '# DORSALS'
+		 [92] 'DORSAL N SP"S BROAD'
+		 [93] 'DORS NSP"S LONG'
+		 [94] 'ANTERIOR DORSALS OPISTHOCOELOUS'
+		 [95] 'ANT D DIV CPOL'
+		 [96] 'MID/P DV ACPL'
+		 [97] 'MID/P DV PRPL'
+		 [98] 'MID/P DV PCPL'
+		 [99] 'MID/P DV SPDL'
+		 [100] 'MID/P DV SPOL DIV'
+		 [101] 'SPDL + SPOL'
+		 [102] 'TRIANGULAR N SP ON DORSALS'
+		 [103] 'INFRDIAPOPHYSEAL PNPORE'
+		 [104] 'POSTERODORSALLY INCLINED N SP'
+		 [105] 'POST DV OPISTHOCOELOUS'
+		 [106] 'POST DV HYP-HYP'
+		 [107] 'PETAL D NSP"S'
+		 [108] 'SACRAL #'
+		 [109] 'SACRICOSTAL YOKE'
+		 [110] 'SV CONTR TO ACET'
+		 [111] 'S NSP"S LONG'
+		 [112] 'S RIBS ABOVE ILIUM'
+		 [113] 'SPONGY CA"S'
+		 [114] 'SHORT TAIL'
+		 [115] 'TR PR"S DISAPPEAR BY CA 15'
+		 [116] 'CA 1 BICONVEX'
+		 [117] 'CA 1 WITH COEL IN N ARCH'
+		 [118] 'PROCOELOUS ANT CA"S'
+		 [119] 'ANT CA C W/PLEUROCOEL'
+		 [120] 'CA LENTHENING POSTERIORLY'
+		 [121] 'ANT CA W/SPRL'
+		 [122] 'ANT CA W/SPRL+SPOL'
+		 [123] 'ANT CA W/ PRSL'
+		 [124] 'ANT CA W/ POSL'
+		 [125] 'ANT CA"S W/POSTSPINAL FOSSA'
+		 [126] 'ANT CA N SP BROAD'
+		 [127] 'ANT CA TR PR DEEP DV'
+		 [128] 'WINGLIKE CA TR PR"S'
+		 [129] 'ANT CA W/ DL"S'
+		 [130] 'ANT CA"S W/ DIVD ACDL'
+		 [131] 'ANT&MID CA CENTRA FLAT V & L'
+		 [132] 'ANT&MID CA CENTRA W/MED V HOLLO'
+		 [133] 'MID CA NSP OVER POST CENTRUM'
+		 [134] 'MID/POST CA"S PROCOELOUS'
+		 [135] 'POST CA BREADTH 2X HEIGHT'
+		 [136] 'BICONVEX DISTAL CA"S'
+		 [137] 'BICONVEX CA ELONGATE'
+		 [138] 'BICONVEX CA >30 IN SERIES'
+		 [139] 'CERV RIBS BELOW CENTRUM'
+		 [140] 'SHORT C RIBS'
+		 [141] 'PNEUMATIC D RIBS'
+		 [142] 'ANT D RIBS PLANKLIKE'
+		 [143] 'CHEVRONS W ANT POST PROJ"S'
+		 [144] 'FORKED CH DIST'
+		 [145] 'OPEN CA CHEVRONS'
+		 [146] 'CA CH"S W/DEEP HAEMAL CANAL'
+		 [147] 'CH DISPAPPEAR BY CA 30'
+		 [148] 'POST CA CHEVRONS UNFUSED'
+		 [149] 'QUADRUPEDAL'
+		 [150] 'ACROMION LARGE'
+		 [151] 'SCAP BLADE ANGLED REL TO GLENOI'
+		 [152] 'SCAP BLADE EXP"D'
+		 [153] 'SCAP GLENOID BEVELLED MEDIALL'
+		 [154] 'D-SHAPED SCAP BLADE SHAFT'
+		 [155] 'CORACOID DEEP'
+		 [156] 'CORACOID W SQ AV CORNER'
+		 [157] 'INFRAGLENOID LIP'
+		 [158] 'ST PL SHAPE'
+		 [159] 'HUM PR-LAT CORNER'
+		 [160] 'DELTOPECTORAL CREST REDUCED'
+		 [161] 'D-P CREST THICK TRANSVERSELY'
+		 [162] 'HUM MIDSH CIRCULAR XS'
+		 [163] 'HUM CONDYLES EXP ANT'
+		 [164] 'HUM CONDYLE DIVD'
+		 [165] 'ULNA (PROX) TRIRADIATE'
+		 [166] 'ULNAR PROX ASYMMETRICAL'
+		 [167] 'OLECRANON REDUCED'
+		 [168] 'UL L/PR BR STOUT'
+		 [169] 'RADIUS (DISTAL) SUBRECTANGULAR'
+		 [170] 'RAD DISTAL BR>MIDSHAFT BREADTH'
+		 [171] 'DISTAL RAD BEVELED PROX-LAT'
+		 [172] 'FORELIMB'
+		 [173] 'CARPAL #'
+		 [174] 'BLOCK SHAPED CARPALS'
+		 [175] 'DIGITIGRADE MANUS'
+		 [176] 'USHAPED MANUS'
+		 [177] 'MC 45% RAD'
+		 [178] 'MC I SUBEQUAL TO IV'
+		 [179] 'MC I DISTAL CONDYLE UNDIVIDED'
+		 [180] 'MC I DISTAL CONDYLE BEVELLED'
+		 [181] 'MANUAL FORM 22222 LOWER'
+		 [182] 'MANUAL PH I.1 WEDGE SHAPED'
+		 [183] 'MANUAL PH BROAD'
+		 [184] 'DIVERGENT PREAC BLADE'
+		 [185] 'ILIUM W/ISCHIAL PED REDUCED'
+		 [186] 'ILIAC BLADE SEMICIRCULAR'
+		 [187] 'ILIAC BLADE ORIENTATION'
+		 [188] 'SEMICIRCULAR PREAC PR'
+		 [189] 'PUBIS W AMBIENS'
+		 [190] 'PUBIC APRON CANTED'
+		 [191] 'PUBOSCHIAL CONTACT DEEP'
+		 [192] 'ISCHIUM LONGER THAN PUBIS'
+		 [193] 'ISCHIAL BL SHALLOW'
+		 [194] 'ISCHIUM FLATTENED DV'
+		 [195] 'ISCHIAL SHAFTS COPLANAR'
+		 [196] 'FOURTH TROCHANTER REDUCED'
+		 [197] 'LESSER TROCHANTER'
+		 [198] 'FEMORAL SHAFT ELLIPTICAL'
+		 [199] 'FEMUR BULGE'
+		 [200] 'FEM DIST CONDYLES ASYMMETRICAL'
+		 [201] 'FEM DIST CON BEVELLED'
+		 [202] 'FEM DIS CON EXPOSED ANT'
+		 [203] 'TIBIA PROX SUBCIRCULAR'
+		 [204] 'CNEMIAL CR PROJ"S LATERALLY'
+		 [205] 'TIB DIS BR 2X MIDSH BR'
+		 [206] 'TIB PV CORNER REDUCED'
+		 [207] 'FIB WITH BROAD TIBIAL SCAR'
+		 [208] 'FIBULAR LATERAL TROCH'
+		 [209] 'FIB DI CON EXP TR'
+		 [210] 'ASTRAGALUS WEDGE SHAPED'
+		 [211] 'ASTRAGALAR FOSSA/FORAMINA ABSEN'
+		 [212] 'ASTR ASC PR ROTATED'
+		 [213] 'ASTRAGALAR POST FOSSA DIVIDED'
+		 [214] 'ASTRAGALAR H=L'
+		 [215] 'CALCANEUM UNOSSIFIED'
+		 [216] 'DISTAL TARSALS 3&4 UNOSSIFIED'
+		 [217] 'PLANTIGRADE PES'
+		 [218] 'MT I PR CON BEVELLED'
+		 [219] 'MT I DIS CON BEVELLED'
+		 [220] 'MT I DIS POST LAT PROJ'
+		 [221] 'MT I SHAFT LARGE'
+		 [222] 'MT I & V SUBEQUAL TO I & IV (PR'
+		 [223] 'MT III/TIB 0.25'
+		 [224] 'MT III AND IV SMALLER THAN I II'
+		 [225] 'MT V 70% MT IV'
+		 [226] 'SHORT PEDAL PH"S'
+		 [227] 'PEDAL II-IV RUD PH"S'
+		 [228] 'PEDAL UNGUAL CONDLYE ASYMMETRIC'
+		 [229] 'PEDAL I UNGUAL LONG'
+		 [230] 'PEDAL I UNGUAL ENLARGED'
+		 [231] 'PEDAL I UNGUAL SICKLE SHAPED'
+		 [232] 'PEDAL II III SICKLE SHAPED UNGU'
+		 [233] 'PEDAL IV UNGUAL RUD'
+		 [234] 'OSTEODERMS'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 0'
+		'State 1'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		37
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		'State 0'
+		'State 1'
+		,
+		43
+		'State 0'
+		'State 1'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 0'
+		'State 1'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		,
+		53
+		'State 0'
+		'State 1'
+		,
+		54
+		'State 0'
+		'State 1'
+		,
+		55
+		'State 0'
+		'State 1'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		'State 1'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 0'
+		'State 1'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		65
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		69
+		'State 0'
+		'State 1'
+		,
+		70
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		'State 1'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		92
+		'State 0'
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 1'
+		,
+		95
+		'State 0'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 1'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 0'
+		'State 1'
+		,
+		100
+		'State 0'
+		'State 1'
+		,
+		101
+		'State 0'
+		'State 1'
+		,
+		102
+		'State 0'
+		'State 1'
+		,
+		103
+		'State 0'
+		'State 1'
+		,
+		104
+		'State 0'
+		'State 1'
+		,
+		105
+		'State 0'
+		'State 1'
+		,
+		106
+		'State 0'
+		'State 1'
+		,
+		107
+		'State 0'
+		'State 1'
+		,
+		108
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		109
+		'State 0'
+		'State 1'
+		,
+		110
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		111
+		'State 0'
+		'State 1'
+		,
+		112
+		'State 0'
+		'State 1'
+		,
+		113
+		'State 0'
+		'State 1'
+		,
+		114
+		'State 0'
+		'State 1'
+		,
+		115
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		116
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		117
+		'State 0'
+		'State 1'
+		,
+		118
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		119
+		'State 0'
+		'State 1'
+		,
+		120
+		'State 0'
+		'State 1'
+		,
+		121
+		'State 0'
+		'State 1'
+		,
+		122
+		'State 0'
+		'State 1'
+		,
+		123
+		'State 0'
+		'State 1'
+		,
+		124
+		'State 0'
+		'State 1'
+		,
+		125
+		'State 0'
+		'State 1'
+		,
+		126
+		'State 0'
+		'State 1'
+		,
+		127
+		'State 0'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 1'
+		,
+		129
+		'State 0'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 1'
+		,
+		131
+		'State 0'
+		'State 1'
+		,
+		132
+		'State 0'
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		135
+		'State 0'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 1'
+		,
+		137
+		'State 0'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 1'
+		,
+		139
+		'State 0'
+		'State 1'
+		,
+		140
+		'State 0'
+		'State 1'
+		,
+		141
+		'State 0'
+		'State 1'
+		,
+		142
+		'State 0'
+		'State 1'
+		,
+		143
+		'State 0'
+		'State 1'
+		,
+		144
+		'State 0'
+		'State 1'
+		,
+		145
+		'State 0'
+		'State 1'
+		,
+		146
+		'State 0'
+		'State 1'
+		,
+		147
+		'State 0'
+		'State 1'
+		,
+		148
+		'State 0'
+		'State 1'
+		,
+		149
+		'State 0'
+		'State 1'
+		,
+		150
+		'State 0'
+		'State 1'
+		,
+		151
+		'State 0'
+		'State 1'
+		,
+		152
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		153
+		'State 0'
+		'State 1'
+		,
+		154
+		'State 0'
+		'State 1'
+		,
+		155
+		'State 0'
+		'State 1'
+		,
+		156
+		'State 0'
+		'State 1'
+		,
+		157
+		'State 0'
+		'State 1'
+		,
+		158
+		'State 0'
+		'State 1'
+		,
+		159
+		'State 0'
+		'State 1'
+		,
+		160
+		'State 0'
+		'State 1'
+		,
+		161
+		'State 0'
+		'State 1'
+		,
+		162
+		'State 0'
+		'State 1'
+		,
+		163
+		'State 0'
+		'State 1'
+		,
+		164
+		'State 0'
+		'State 1'
+		,
+		165
+		'State 0'
+		'State 1'
+		,
+		166
+		'State 0'
+		'State 1'
+		,
+		167
+		'State 0'
+		'State 1'
+		,
+		168
+		'State 0'
+		'State 1'
+		,
+		169
+		'State 0'
+		'State 1'
+		,
+		170
+		'State 0'
+		'State 1'
+		,
+		171
+		'State 0'
+		'State 1'
+		,
+		172
+		'HINDLIMB'
+		'State 1'
+		,
+		173
+		'State 0'
+		'State 1'
+		,
+		174
+		'State 0'
+		'State 1'
+		,
+		175
+		'State 0'
+		'State 1'
+		,
+		176
+		'State 0'
+		'State 1'
+		,
+		177
+		'State 0'
+		'State 1'
+		,
+		178
+		'State 0'
+		'State 1'
+		,
+		179
+		'State 0'
+		'State 1'
+		,
+		180
+		'State 0'
+		'State 1'
+		,
+		181
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		182
+		'State 0'
+		'State 1'
+		,
+		183
+		'State 0'
+		'State 1'
+		,
+		184
+		'State 0'
+		'State 1'
+		,
+		185
+		'State 0'
+		'State 1'
+		,
+		186
+		'State 0'
+		'State 1'
+		,
+		187
+		'State 0'
+		'State 1'
+		,
+		188
+		'State 0'
+		'State 1'
+		,
+		189
+		'State 0'
+		'State 1'
+		,
+		190
+		'State 0'
+		'State 1'
+		,
+		191
+		'State 0'
+		'State 1'
+		,
+		192
+		'State 0'
+		'State 1'
+		,
+		193
+		'State 0'
+		'State 1'
+		,
+		194
+		'State 0'
+		'State 1'
+		,
+		195
+		'State 0'
+		'State 1'
+		,
+		196
+		'State 0'
+		'State 1'
+		,
+		197
+		'State 0'
+		'State 1'
+		,
+		198
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		199
+		'State 0'
+		'State 1'
+		,
+		200
+		'State 0'
+		'State 1'
+		,
+		201
+		'State 0'
+		'State 1'
+		,
+		202
+		'State 0'
+		'State 1'
+		,
+		203
+		'State 0'
+		'State 1'
+		,
+		204
+		'State 0'
+		'State 1'
+		,
+		205
+		'State 0'
+		'State 1'
+		,
+		206
+		'State 0'
+		'State 1'
+		,
+		207
+		'State 0'
+		'State 1'
+		,
+		208
+		'State 0'
+		'State 1'
+		,
+		209
+		'State 0'
+		'State 1'
+		,
+		210
+		'State 0'
+		'State 1'
+		,
+		211
+		'State 0'
+		'State 1'
+		,
+		212
+		'State 0'
+		'State 1'
+		,
+		213
+		'State 0'
+		'State 1'
+		,
+		214
+		'State 0'
+		'State 1'
+		,
+		215
+		'State 0'
+		'State 1'
+		,
+		216
+		'State 0'
+		'State 1'
+		,
+		217
+		'State 0'
+		'State 1'
+		,
+		218
+		'State 0'
+		'State 1'
+		,
+		219
+		'State 0'
+		'State 1'
+		,
+		220
+		'State 0'
+		'State 1'
+		,
+		221
+		'State 0'
+		'State 1'
+		,
+		222
+		'State 0'
+		'State 1'
+		,
+		223
+		'State 0'
+		'State 1'
+		,
+		224
+		'State 0'
+		'State 1'
+		,
+		225
+		'State 0'
+		'State 1'
+		,
+		226
+		'State 0'
+		'State 1'
+		,
+		227
+		'State 0'
+		'State 1'
+		,
+		228
+		'State 0'
+		'State 1'
+		,
+		229
+		'State 0'
+		'State 1'
+		,
+		230
+		'State 0'
+		'State 1'
+		,
+		231
+		'State 0'
+		'State 1'
+		,
+		232
+		'State 0'
+		'State 1'
+		,
+		233
+		'State 0'
+		'State 1'
+		,
+		234
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'PROSAUROPODA'		                     000000000000000000000000000000000??00000000000000000000000000000000?00000000000110?000000?1000000000000000000?00000000000000000000000000??00000?000000000000000001000?00000000000100000000000000000000000000000000000000000000000000000000
+	'THEROPODA'		                        000000000000000000000000000000000??00000000000000000000000000000000?00000000000010?000000?0000000000000000000?00000000000000000000000000??00000?000001000000000001100?0000000000000000000000000000000000000000000000000000??00000000000000
+	'Vulcanodon'		                       ????????????????0????????????????????????????????????????????????????????????0?????????????????????????????1????0??0?00???????100001????????????00??10?????????1010?11101001????0???????1???00010101010???000?00001000010?100100100?011000
+	'Barapasaurus'		                     ?????????????????????????????????????????????????????????????????????1?0????00??01???0100??10101101110100001100?0??0?00???????1000000000?????01?00?0110000000?0101011110100????????????01100010101011101000101111?1?10???010???????1??11?0
+	'Omeisaurus'		                       11100011011?000?01011000010111?11?0?1??11100?0?0?0?00110000?1???111011111?0001040111010?0?3101?11011100000021101?010000000000010000?000???100?11000011000?00000101011010100101000000111?110001010101?1000?01011??0101001111111111111111110
+	'Shunosaurus'		                      01100011011000000001??000001110110001001100000000?000110000?101?111011120?00000311?100100?210000?00000000?010?000010000000000010000?000???0?00111010100000000001010110101001010000011010110001010?01110100?101?10010?00111101110111?111110
+	'Patagosaurus'		                     1?100?11????????0????????????????????????1?????????????0????????1?10111???0001??011?00100??10101101??0100002??0??????00???????1???0?000???1?00??00??110?0?000?0101111110100?????????????1100010101011101000001??????????101011???????????0
+	'Mamenchisaurus'		                   ????????????????????????????????110???????????????????10000?10111?1?1111000011?401?101011031010?1?1?10?00002?????011010000000010000?000???10001100?01?????????01010111101001????????????1100????01011101001101?1101110?11?????1?11?1??1??0
+	'Apatosaurus'		                      00111112011?111?010111?101011111100020?1?0000100000011??????????221202121???011401101011115101111111100000021?110011000011110111110000011111001100101100110000010101101010011111000011111100110100011101001101110111101111111111?1111?1110
+	'Barosaurus'		                       ????????????????????????????????????????????????????????????????????????????01??011?111?11?101????111000000?????0?11011111110111111110011????01?00?01????????0??????????????????????????????11???????????????????????????????????????????0
+	'Brachiosaurus'		                    11110011111100010101100001011111110010111100000001100110011111121110011210001103011001100?31010111111100100211010?100000001100100000000???1011??10??110101000001010111101001111111111011110101110111111100110111111110011110111?11?1??11?0
+	'Camarasaurus'		                     1111001111110001010110010101110011011011110000000010011001111111111011121000010201101010103101011011110010021101001000000011011000000000??100?10101011010100000101011110100111111100111111000111011111010011011101111001111011111111111110
+	'Dicraeosaurus'		                    00?11?????0??00?01111111011111?????1?0??10001110101011110???????221202121?00011201101010113111110011100000121?1?0?11000010110111000000011?11001?00??110001000?0101011110???1???????????1110011010001110100110111011110??111111?11????11??0
+	'Diplodocus'		                       001111120111111101011101010111111000201110000100001011110101101?221202121110011401101111115101111111100000021111001101111111011111111001111100110010110001000001010111101001???????????11100110100011101011101?101111001111111111111?11110
+	'Haplocanthosaurus'		                ????????????????0???????????????????????????????0???????????????????????????01?3011000100?21010110111100000211010?10000000110010000000????1100??10??100001000??????????????????????????1110001010111110100???????????????????????????????0
+	'Amargasaurus'		                     ??????????1??00101111?1101111?????????????00111011?011??????????????????????001301??1010105111????1??0000?12??1????0?????????????????0???????0??????1??0?1????0101011010?001????????????1100???????1110?00???????????????????????????????0
+	'Euhelopus'		                        11100?11??1????10??????????????1100??0?111????????????10011?????1?101112101011?41111011011210101111?11011?03??01??????????????????????????1011??????110010000?110101???????????????????11101010101111111001101?10111?00?11101111?1??1111?0
+	'Jobaria'		                          11110011111100010101100001011101110?10?11?000??000?001000???????11101110000001?3011000100?310101111111000002110100100000001100100000000???10001?001011010100000101011110100101110000111111000101011111010011011101111001111011111????????0
+	'Malawisaurus'		                     11?????1??1???????????????????????????????????????????100???????1?1??11210?011??1100011?0??10101?01?1101110???????1??10?001110100001000???101?0?11??1?????00011101011000100???1??111????????????111?111?????11110???????1?????????????1??1
+	'Nigersaurus'		                      0011??1100???0011?001???1????1?1110???????0001?00??01110?100????22110212010101??0110001?0?????????????????????????????????????????????????1100???????1020?0???????????????????????????????????????????????????????????????????????????????
+	'Rayososaurus'		                     ?????????01??0011?00110?1???110?110??0????100101011011????????????1??212???101??011000100??1?10???1110000?1?????0010000000110110000000011?1?????1???11020?000101000111101001????????????11??01010111110?00?10??1?1???0??10001111?????????0
+	'Rebbachisaurus'		                   ?????????????????????????????????????????????????????????????????????????????1??????????0??11??111111000011?????????????????????????????????????????110201?????1?0??????????????????????????????011??????????????????????????????????????0
+	'Alamosaurus'		                      ????????????????????????????????????????????????????????????????????????????11??1100001?0??1010110101101110??????1231100001101100001010???????0?111111101111?11111101100111???1111112??????????0111??????????????????????????????????????0
+	'Nemegtosaurus'		                    01?1?011?10100010101010101010101111211111?11000100010110111??01?111?02121000??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Neuquensaurus'		                    ????????????????????????????????????????????????????????????????????????????11??010?001?0??101????1?1?0111031?0?1??3010?0011?110000101110???????????11101011111111101101111?????????????111101?011111211111111?1011101??1110?????1???????1
+	'Opisthocoelicaudia'		               ?????????????????????????????????????????????????????????????????????????????1?????????0104101011110110111031?0??1221200001101100001020100??110?1111110011111111111011011111??1111112??1111?0110111112111011111101110111111011111111011110
+	'Rapetosaurus'		                     0011?111?10?000?000101010101010?1112111???11?0100?110100111?????11110212100011??110?011?0??10101?01011011103?????????1??0???????00???1????1?????????1110??10011101101?00110?????1?1????11101011011111?1101???????????????????????????????1
+	'Saltasaurus'		                      ?????????????00??101?00101????????????????01000101???1??????????????????????11??011000110??10101?1101101110312011????10?00111110000101110?1?????11?011101011111111101101111????????????11111011011111211111111110????????????????????????1
+	'"Titanosaurus" colberti'		          ?????????????????????????????????????????????????????????????????????????????1??110000100??101011010100?1103120??????10?001101100001010???1??10?11?0101010????1101111101???????????????111110110111???????????????????????????????????????
+	'"Mali taxon"'		                     ????????????????????????????????????????????????????????????????????????????????????????????????????????????????0????11?0?????1?0?00?10??????????????????????????????????????????????????????????????????????????????????????????????????1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=20 CHARACTER=21 TEXT='missing';
+	TEXT TAXON=20 CHARACTER=22 TEXT='missing';
+	TEXT TAXON=20 CHARACTER=50 TEXT='missing';
+	TEXT TAXON=20 CHARACTER=51 TEXT='missing';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 234;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 75; LastModified -1165680269; FileSettings editor '1' '1' '3' '1'; Singles 110; Editor 000110011111111000100 '0' '24' Geneva '9' '100' '1' all; EditorPosition '40' '4' '723' '1011'; TreeWindowPosition '40' '2' '728' '1018'; ListWindow Characters closed Geneva '9' '50' '10' '265' '442' 00; ListWindow Taxa closed Geneva '9' '50' '10' '265' '278' 100; ListWindow Trees closed Geneva '9' '50' '25' '121' '379' ; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow NexusBlocks closed Geneva '9' '50' '10' '276' '490' ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Geneva '9' '10' '50' '30' '192' '220'; WindowOrder Data; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '605' '44' '115' '165'; TreeToolsPosition '607' '5' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Geneva '9' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '-1' '9' 11; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '-5536' '10000' '10000' '10000' '10000' '-5536' '-536' '-536' '-536' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '4' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' '45' '182' '214' '13' '45' '0' '0' '0' '0' '624' '432' '644' '35' '686' '35' '686' '276' '24' '35' '1' '1' '1' '1' '12' '0' '-20' '34' '-30' '25' '1' '2' '3' '8' '26' '26' '0' '2' 0100110111100000010100000110000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 0; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' 000001011100001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; E
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 PROSAUROPODA, 2 THEROPODA, 3 Vulcanodon, 4 Barapasaurus, 5 Omeisaurus, 6 Shunosaurus, 7 Patagosaurus, 8 Mamenchisaurus, 9 Apatosaurus, 10 Barosaurus, 11 Brachiosaurus, 12 Camarasaurus, 13 Dicraeosaurus, 14 Diplodocus, 15 Haplocanthosaurus, 16 Amargasaurus, 17 Euhelopus, 18 Jobaria, 19 Malawisaurus, 20 Nigersaurus, 21 Rayososaurus, 22 Rebbachisaurus, 23 Alamosaurus, 24 Nemegtosaurus, 25 Neuquensaurus, 26 Opisthocoelicaudia, 27 Rapetosaurus, 28 Saltasaurus, 29 '"T." colberti', 30 Mali_taxon ; TREE mpt = [&R] (2,(1,(3,(6,(4,(7,((5,8),(18,((((((14,10),9),(16,13)),(22,21)),15),(12,(11,(17,(19,(29,((26,23),(28,25)))))))))))))))); TREE 'Wilson (Upchurch topo)' = [&R] (2,(1,(3,(4,((6,(17,5,8)),(7,(15,(((((14,10),9),(16,13)),22),(12,(11,(19,(23,(26,28))))))))))))); TREE 'Wilson (Wilson topo)' = [&R] (2,(1,(3,(6,(4,(7,((5,8),((((((14,10),9),(16,13)),22),15),(12,(11,(17,(19,((26,23),28))))))))))))); TREE d = [&R] (2,(1,(3,(6,(4,(7,(((5,8),17),(18,((((((14,10),9),(16,13)),(22,21)),15),(12,(11,(19,(29,((26,23),(28,25))))))))))))))); TREE c = [&R] (2,(1,(3,(6,((5,8),(4,(7,(18,((((((14,10),9),(16,13)),(22,21)),15),(12,(11,(17,(19,(29,((26,23),(28,25)))))))))))))))); TREE c = [&R] (2,(1,(3,(6,(4,(7,((5,8),(18,((((((14,10),9),(16,13)),(22,21)),15),(12,(11,(17,(19,(29,(23,(26,(28,25))))))))))))))))); TREE x = [&R] (2,(1,(3,(6,(4,(7,((5,8),(18,(((((14,10),9),(16,13)),(22,21)),(15,(12,(11,(17,(19,(29,((26,23),(28,25))))))))))))))))); TREE x = [&R] (2,(1,(3,(6,(4,(7,((5,8),((((((14,10),9),(16,13)),(22,21)),15),(18,(12,(11,(17,(19,(29,((26,23),(28,25)))))))))))))))); TREE revisedmatrix = [&R] (2,(1,(3,(6,(4,(7,((5,8),(18,((((((14,10),9),(16,13)),(22,20,21)),15),(12,(11,(17,(19,((27,24),(29,((26,23),(28,25))))))))))))))))); TREE * UNTITLED = [&R] (2,(1,(3,(6,(4,(7,((5,8),(18,((((((14,10),9),(16,13)),(22,20,21)),15),(12,(11,(17,(19,((27,24),(29,((26,23),(28,25))))))))))))))))); E
+ENDBLOCK;

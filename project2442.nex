@@ -1,0 +1,1326 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 00.46.47 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=53;
+    TAXLABELS
+    		'Megaptera novaeangliae'
+		'Balaenoptera physalus'
+		'Balaenoptera musculus'
+		'Balaenoptera borealis'
+		'Balaenoptera edeni brydei'
+		'Balaenoptera bonaerensis'
+		'Balaenoptera acutorostrata'
+		'Eschrichtius robustus'
+		'Caperea marginata'
+		'Balaena mysticetus'
+		'Eubalaena'
+		'Aglaocetus patulus'
+		'Cetotherium rathkii'
+		'Cophocetus oregonensis'
+		'Diorocetus hiatus'
+		'Isanacetus laticephalus'
+		'Mixocetus elysius'
+		'Parietobalaena palmeri'
+		'Pelocetus calvertensis'
+		'Balaenoptera gastaldii'
+		'SDSNH 90517'
+		'Megaptera miocaena'
+		'Megaptera hubachi'
+		'Parabalaenoptera baulinen'
+		'Eomysticetus whitmorei'
+		'Tohoraata spp.'
+		'Micromysticetus'
+		'Yamatocetus canaliculatus'
+		'Tokarahia spp.'
+		'Waharoa ruwhenua'
+		'Fucaia buelli'
+		'Aetiocetus weltoni'
+		'Aetiocetus cotylalveus'
+		'Aetiocetus polydentatus'
+		'Fucaia goedertorum'
+		'Chonecetus sookensis'
+		'Llanocetus'
+		'Janjucetus hunderi'
+		'Mammalodon colliveri'
+		'ChM pv5720'
+		'CCNHM 108'
+		'Metasqualodon symmetricus'
+		'ZMT 62'
+		'Simocetus'
+		'Squalodon calvertensis'
+		'Agorophius'
+		'Waipatia'
+		'Physeter macrocephalus'
+		'Ziphiidae'
+		'Zygorhiza kochii'
+		'Basilosaurus'
+		'Dorudon'
+		'Georgiacetus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=206;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'Rostral Curvature D1'
+		 [2] 'Rostral Width D2'
+		 [3] 'Maxillary Slope D3'
+		 [4] 'Maxillary Margins D4'
+		 [5] 'Premaxillary Maxilla Suture D5'
+		 [6] 'Narial Fossa D6'
+		 [7] 'Nasal length D7'
+		 [8] 'Nasal Width D8'
+		 [9] 'Nasal Anterior Edge D9'
+		 [10] 'Nasal Posterior Margin D10'
+		 [11] 'Nasal dorsal side D11'
+		 [12] 'Posterior edge of premaxilla D14'
+		 [13] 'Posterior border of maxilla D15'
+		 [14] 'Descending process of maxilla D16'
+		 [15] 'Maxilla posterior extent D17'
+		 [16] 'Ascending process shape D18'
+		 [17] 'Lacrimal exposure D19'
+		 [18] 'Maxilla and parietal D20'
+		 [19] 'Postorbital process D21'
+		 [20] 'Frontal shape D22'
+		 [21] 'Frontal slopes D23'
+		 [22] 'Frontal exposure D24'
+		 [23] 'Parietal exposure D25'
+		 [24] 'Intertemporal region D26'
+		 [25] 'Occipital apex D27'
+		 [26] 'Occipital shield D28'
+		 [27] 'Occipital shield margins D29'
+		 [28] 'Zygomatic processes D30'
+		 [29] 'Squamosal fossa D31'
+		 [30] 'Squamosal cleft D32'
+		 [31] 'Glenoid fossa D33'
+		 [32] 'Foramen pseudo-ovale D35'
+		 [33] 'Palate shape D36'
+		 [34] 'Maxillary window D37'
+		 [35] 'Lateral nutrient foramina D38'
+		 [36] 'Palatines posterior extension D39'
+		 [37] 'Palatines anterior margin D40'
+		 [38] 'Vomer posterior position D41'
+		 [39] 'Basioccipital crests D42'
+		 [40] 'Paraoccipital process D43'
+		 [41] 'Tympanic medial margin D44'
+		 [42] 'Tympanic median furrow D45'
+		 [43] 'Endocranial elongation periotic D46'
+		 [44] 'Ventrolateral  tuberosity D47'
+		 [45] 'Tensor tympani fossa D48'
+		 [46] 'Promontorial groove D49'
+		 [47] 'Perilymphatic foramen position D51'
+		 [48] 'Facial nerve foramen shape D52'
+		 [49] 'Mandibular symphysis D53'
+		 [50] 'Palate foramina positions D54'
+		 [51] 'Mandibular neck D55'
+		 [52] 'Mandible ventromedial groove D56'
+		 [53] 'Mandibular transverse curvature D57'
+		 [54] 'Mandibular foramen size D58'
+		 [55] 'Mandibular condyle orientation  D58'
+		 [56] 'Coronoid process shape D60'
+		 [57] 'Teeth in adults D61'
+		 [58] 'Teeth heterodonty D62'
+		 [59] 'Cervical fusion D63'
+		 [60] 'Scapula acromion D64'
+		 [61] 'Scapula coracoid D65'
+		 [62] 'Humerus length D66'
+		 [63] 'Manus digits D67'
+		 [64] 'Dorsal fin D68'
+		 [65] 'Throat grooves D69'
+		 [66] 'Throat pouch D70'
+		 [67] 'Baleen D71'
+		 [68] 'Baleen thickness D72'
+		 [69] 'Baleen length D73'
+		 [70] 'Baleen fringe D74'
+		 [71] 'Tongue D75'
+		 [72] 'Rostral ridges D76'
+		 [73] 'Number of upper molars D77'
+		 [74] 'Antorbital notch D78'
+		 [75] 'Temporal crest on frontals D79'
+		 [76] 'Pterygoid process size D80'
+		 [77] 'Position coronoid process D81'
+		 [78] 'Postcoronoid elevation D82'
+		 [79] 'Mandibular condyle shape D83'
+		 [80] 'Mandibular angle direction D84'
+		 [81] 'Mandibular angle size D85'
+		 [82] 'Subcondylar furrow D86'
+		 [83] 'mandibular foramen position D87'
+		 [84] 'Mandible ventral margin D88'
+		 [85] 'Mandibular torsion D89'
+		 [86] 'Sternum D90'
+		 [87] 'Hyoid curvature D91'
+		 [88] 'Basihyal and thyrohyal fusion D92'
+		 [89] 'Hyoid anterior process D93'
+		 [90] 'Hyoid fossa D94'
+		 [91] 'Parietal frontal suture D95'
+		 [92] 'Vomer on palate'
+		 [93] 'Palatine notch D97'
+		 [94] 'Posterior sinus D98'
+		 [95] 'Molar roots D99 RWB updated'
+		 [96] 'Procumbent incisors D100'
+		 [97] 'Postcanine striations D101 RWB updated state 1'
+		 [98] 'Denticles on upper molars D102'
+		 [99] 'F24 Central denticle as compared to accessory denticles'
+		 [100] 'F10 Steep face on anterior edge of antorbital process of maxilla clearly separating it from rostral portion of maxilla'
+		 [101] 'F13 Exposure of premaxilla in palate'
+		 [102] 'F17 Number of teeth with alveoli completely enclosed in the maxilla'
+		 [103] 'F18 Large diastemata between posterior cheek teeth'
+		 [104] 'F20 Posterior cheek teeth'
+		 [105] 'F21 Upper cheek teeth ectocingulum'
+		 [106] 'F22 Upper cheek teeth entocingulum'
+		 [107] 'F25 Number of teeth in lower jaw'
+		 [108] 'F31 Shape of the supraorbital margin of the frontal in dorsal view'
+		 [109] 'F33 Preorbital process of the frontal'
+		 [110] 'F35 Anteriormost point on the posterior edge of the supraorbital process'
+		 [111] 'F38 Infraorbital foramina'
+		 [112] 'F40 Premaxillary foramina'
+		 [113] 'F45 Posteromedial edge of the ascending process of maxilla (viewed dorsally)'
+		 [114] 'F47 Dorsal profile of the premaxillae just anterior to the nasals, skull in lateral view'
+		 [115] 'F52 Lateral edges of nasals anterior to the level of the anterior edge of preorbital process of frontal'
+		 [116] 'F55 Dorsal profile of cranium posterior to the level of the orbit'
+		 [117] 'F56 Frontals'
+		 [118] 'F57 Supraoccipital'
+		 [119] 'F64 Maximum dorsoventral thickness of the zygomatic process of the squamosal'
+		 [120] 'F70 Occipital shield'
+		 [121] 'F72 Pterygoid sinus fossa'
+		 [122] 'F74 Tympanosquamosal recess'
+		 [123] 'F81 Length of anterior process of the periotic'
+		 [124] 'F83 Articulation of anterior process with squamosal'
+		 [125] 'F84 Shape of cross section through anterior process at midlength'
+		 [126] 'F86 Mallear fossa'
+		 [127] 'F87 Ventrolateral ridge of periotic'
+		 [128] 'F89 Angle between anterior process of periotic and anterior edge of pars cochlearis'
+		 [129] 'F90 Anteromedial corner of pars cochlearis'
+		 [130] 'F93 Fenestra rotunda'
+		 [131] 'F94 Caudal tympanic process of the periotic'
+		 [132] 'F95 Caudal tympanic process of the periotic in posteromedial view'
+		 [133] 'F99 Excavation of tegmen tympani at base of anterior process'
+		 [134] 'F100 Dorsal edge of tegmen tympani dorsolateral to internal acoustic meatus and anterior process'
+		 [135] 'F101 Dorsal edge of tegmen tympani lateral to endolymphatic foramen'
+		 [136] 'F103 Lateral wall of internal acoustic meatus'
+		 [137] 'F104 Vestibular foramen'
+		 [138] 'F106 Contact of periotic, not including anterior process, with skull'
+		 [139] 'F107 Articulation surfaces on posterior processes of ectotympanic and periotic'
+		 [140] 'F108 Facial nerve sulcus'
+		 [141] 'F109 Length of posterior process of periotic'
+		 [142] 'F110 Orientation of posterior process of periotic'
+		 [143] 'F111 Dorsal edge of posterior process, periotic in lateral or medial view'
+		 [144] 'F112 Mastoid exposure of posterior process of periotic on the outside of skull'
+		 [145] 'F113 Shape of ectotympanic bulla'
+		 [146] 'F114 Accessory ossicle or homologous region on lip of bulla'
+		 [147] 'F115 Ventral margin of sigmoid process'
+		 [148] 'Shape of ventromedial keel F119'
+		 [149] 'Mandible, height of ramus in lateral aspect'
+		 [150] 'Last upper tooth position F122'
+		 [151] 'Ventral surface of posterior processGS 242'
+		 [152] 'Bullar facet on posterior side GS 243'
+		 [153] 'Deltoid crest of humerus GS 294'
+		 [154] 'Deltoid crest position GS 295'
+		 [155] 'Distal humerus GS 296'
+		 [156] 'Length of maxilla on rostrum F2'
+		 [157] 'Orbit size'
+		 [158] 'Maxilla and Mandible, open alveolar groove'
+		 [159] 'Rostrum, proximal portion in lateral aspect'
+		 [160] 'Rostrum, shape'
+		 [161] 'Rostrum, embrasure pits on palate'
+		 [162] 'Nasals, dorsal profile of anterior tip'
+		 [163] 'Frontal, postorbital ridge'
+		 [164] 'Cranium, shape of temporal fossa'
+		 [165] 'Parietal, intertemporal constriction'
+		 [166] 'Parietal, orbitotemporal crest'
+		 [167] 'Braincase, frontoparietal suture'
+		 [168] 'Braincase, posterior apex of nuchal crest'
+		 [169] 'Occipital, paroccipital process'
+		 [170] 'Squamosal, supramastoid crest'
+		 [171] 'Squamosal, subtemporal crest'
+		 [172] 'Squamosal, secondary squamosal fossa'
+		 [173] 'Squamosal, squamosal prominence on supramastoid crest'
+		 [174] 'Squamosal, ventromedial fossa on zygomatic process'
+		 [175] 'Squamosal, longitudinal twisting of zygomatic process'
+		 [176] 'Basioccipital, width relative to basisphenoid'
+		 [177] 'Periotic, position of mallear fossa relative to lateral tuberosity'
+		 [178] 'Periotic, sharp transverse crest between stylomastoid and suprameatal fossae'
+		 [179] 'Tympanic bulla, inner posterior pedicle'
+		 [180] 'Atlas and Axis, ventral tubercle/hypophysis'
+		 [181] 'Atlas, base of transverse process'
+		 [182] 'Atlas, shape of neural canal'
+		 [183] 'Atlas, dorsoventral thickness of neural canal'
+		 [184] 'Atlas, neural arch in dorsal view'
+		 [185] 'Atlas, neural spine'
+		 [186] 'Axis, transverse foramen'
+		 [187] 'Axis, transverse width relative to atlas'
+		 [188] 'Axis, shape of neural canal'
+		 [189] 'Axis, anterior projection of neural spine'
+		 [190] 'Axis, lateral margin of pedicle'
+		 [191] 'Axis, ventral margin of body (excluding tubercle/hypophysis and transverse process)'
+		 [192] 'Axis, dorsoventral height of neural foramen'
+		 [193] 'C3-C6, size of lateral vertebral canals'
+		 [194] 'C4-C7, dimensions of neural canal'
+		 [195] 'C3-C7, shape of neural canal'
+		 [196] 'C7, position of transverse process'
+		 [197] 'C7, parapophysis'
+		 [198] 'Premaxilla Length'
+		 [199] 'Mandibular symphysis'
+		 [200] 'Premaxilla converge'
+		 [201] 'Postcanine carinae'
+		 [202] 'Postcanine serrations'
+		 [203] 'Postcanine protocone heel'
+		 [204] 'Reentrant groove on lower molars'
+		 [205] 'Petrosal, longitudinal ridge on ventral surface of pars cochlearis B165'
+		 [206] 'Orientation of basal mesial cusps'
+	;
+	STATELABELS
+		1
+		'Straight'
+		'Slight Arch'
+		'Moderate Arch'
+		'Strong Arch'
+		,
+		2
+		'Very narrow'
+		'Narrow'
+		'Broad'
+		'Very broad'
+		,
+		3
+		'Flat'
+		'Sloped'
+		'Steep'
+		'Vertical'
+		,
+		4
+		'Thick'
+		'Thin'
+		,
+		5
+		'Contact'
+		'Do not'
+		,
+		6
+		'Well anterior'
+		'Antorbital notch'
+		'Well posterior'
+		,
+		7
+		'Long'
+		'Moderate'
+		'Short'
+		,
+		8
+		'Slender'
+		'Broad'
+		'Very broad'
+		'Extremely broad'
+		,
+		9
+		'Posterior notch'
+		'Straight'
+		'Median prong'
+		,
+		10
+		'Frontals extend W shaped'
+		'Frontals extend finger shaped'
+		'Frontals extend U shaped'
+		'Straight'
+		'Nasals extend M shaped'
+		'Nasals extend U or V'
+		,
+		11
+		'Flat'
+		'Long'
+		'Anterior half only'
+		,
+		12
+		'Anterior to orbit'
+		'Anterior border of orbit'
+		'Posterior border of orbit'
+		'Tip of zygomatic'
+		'Temporal fossa'
+		,
+		13
+		'Anterior to orbit'
+		'Anterior border of orbit'
+		'Posterior border of orbit'
+		'Tip of zygomatic'
+		'Temporal fossa'
+		,
+		14
+		'Present'
+		'Infraorbital plate'
+		'Absent'
+		,
+		15
+		'Abuts front frontal'
+		'Overides anteromedial corner of max'
+		'Pocket between maxilla and frontal'
+		'Maxilla completely overides frontal'
+		,
+		16
+		'Wedge'
+		'Broad bar'
+		'Narrow bar'
+		'Absent'
+		'Extending to frontal edge'
+		,
+		17
+		'Lateral'
+		'Covered by frontal'
+		,
+		18
+		'Separate'
+		'Close'
+		'Short overlap'
+		'Long overlap'
+		'Overlying'
+		,
+		19
+		'Well separate'
+		'Abuts zygomatic process'
+		,
+		20
+		'Broad anteroposteriorly'
+		'Moderately broad'
+		'Narrow nateroposteriorly'
+		,
+		21
+		'no'
+		'gradually'
+		'abrupt'
+		,
+		22
+		'long'
+		'short'
+		'very short'
+		,
+		23
+		'lng'
+		'short'
+		'triangles'
+		'absent or occiput'
+		,
+		24
+		'parietal larger'
+		'subequal'
+		'frontal larger'
+		,
+		25
+		'posterior'
+		'temp fossa post half'
+		'temp fossa ant half'
+		'Reaches orbit'
+		'Anterior to orbit'
+		,
+		26
+		'rounded'
+		'pointed'
+		'blunt'
+		'broad with straight margins'
+		,
+		27
+		'convex'
+		'straight'
+		'concave'
+		,
+		28
+		'parallel'
+		'divergent'
+		,
+		29
+		'large'
+		'reduced'
+		,
+		30
+		'absent'
+		'present contacts pterygoid'
+		'present contacts alisphenoid'
+		'present, contacts parietal'
+		,
+		31
+		'elevated'
+		'depressed'
+		,
+		32
+		'squamosal only'
+		'squamosal and pterygoid'
+		'pterygoid only'
+		,
+		33
+		'no keel'
+		'median keel'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'extend to nares'
+		'slight overlap with pterygoids'
+		'long overlap with pterygoids'
+		,
+		37
+		'blunt'
+		'w shaped'
+		,
+		38
+		'anterior position'
+		'on basicranium'
+		,
+		39
+		'narrow'
+		'broad with keel'
+		'broad with projection'
+		'thick knob'
+		,
+		40
+		'posterior ro condyles'
+		'aligned with condyles'
+		'anterior to condyles'
+		,
+		41
+		'inflated dorsoventrally'
+		'flattened dorsoventrally'
+		,
+		42
+		'absent'
+		'notch'
+		'furrow'
+		'State 3'
+		,
+		43
+		'absent'
+		'porous bone extension'
+		'smooth bone extension'
+		,
+		44
+		'Absent'
+		'present and ridge'
+		'pointed ridge'
+		'swollen knob'
+		'hypertrophied'
+		,
+		45
+		'fossa'
+		'groove'
+		'absent'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'confluent with f rotunda'
+		'separate'
+		'widely separate'
+		,
+		48
+		'anterior fissure'
+		'oval'
+		'round'
+		,
+		49
+		'sutured'
+		'not sutured'
+		,
+		50
+		'groove absent, post foramina with sulci'
+		'groove, merged with foramina'
+		'groove, separate from foramina'
+		'groove and sulci absent on post foramina sulci'
+		,
+		51
+		'straight'
+		'reflexed'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'laterally concave'
+		'straight'
+		'slightly convex'
+		'very convex'
+		,
+		54
+		'large'
+		'small'
+		,
+		55
+		'posterior'
+		'dorsal'
+		'posterolateral'
+		,
+		56
+		'large and spatulate'
+		'deflected finger shaped'
+		'low crest'
+		'small knob and crest'
+		'rounded process and low crest'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'strong'
+		'moderate'
+		'weak'
+		'absent'
+		,
+		59
+		'absent'
+		'up to 6 fused'
+		'all fused'
+		,
+		60
+		'large'
+		'reduced or absent'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'longer or equal to radius'
+		'shorter than radius'
+		,
+		63
+		'five digits'
+		'four digits'
+		,
+		64
+		'present'
+		'hump only'
+		'absent'
+		,
+		65
+		'absent'
+		'throat only, 2 to 10'
+		'many, extend to midbody'
+		'many, extend to umbilicus'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'thin'
+		'thick'
+		,
+		69
+		'long'
+		'short'
+		,
+		70
+		'fine'
+		'coarse'
+		,
+		71
+		'muscular'
+		'mainly connective'
+		,
+		72
+		'absent'
+		'one median ridge'
+		'three ridges'
+		,
+		73
+		'two'
+		'three'
+		'four or more'
+		,
+		74
+		'open'
+		'acute or right angle'
+		,
+		75
+		'absent'
+		'slight'
+		'pronounced'
+		,
+		76
+		'small pterygoid and process'
+		'small pterygoid large process'
+		'large pterygoid but small process'
+		,
+		77
+		'near condyle'
+		'far from condyle'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'transversely wide'
+		'spherical'
+		'transversely compressed'
+		,
+		80
+		'posterior'
+		'posteroventral'
+		,
+		81
+		'Angle larger than condyle'
+		'Angle and condyle similar in size'
+		'angle half the size of condyle'
+		'angle severely reduced in size'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'anterior to coronoid process'
+		'in line with middle of coronoid process'
+		'in line with posterior edge of coronoid process'
+		'posterior to coronoid process'
+		,
+		84
+		'rounded in cross section'
+		'sharp and keel-like in cross section'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'Sternum large, composed of several bones and articulating with more than one rib'
+		'sternum small, composed of one bone and articulating with one rib'
+		,
+		87
+		'Strongly curved, straight length less than 75% of curved length'
+		'Slightly curved, straight length between 75?90% of curved length'
+		'Straight, straight length more than 90% of curved length'
+		,
+		88
+		'Absent or absent in younger individuals'
+		'present at all ontogenetic stages'
+		,
+		89
+		'absent'
+		'short and robust'
+		'long and slender'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'none'
+		'Lobate and separated from median rostral elements'
+		'Triangular and separated from median rostral elements'
+		'Lobate and overlapping median rostral elements'
+		,
+		92
+		'maxillae cover vomer ventrally for most of length'
+		'maxillae separate and exposing vomer on most of palate'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'poorly developed or absent'
+		'present'
+		,
+		95
+		'double-rooted with free roots'
+		'double-rooted with bilobate fused roots'
+		'single rooted'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'lingually and labially'
+		'on lingual surface only'
+		'absent'
+		,
+		98
+		'5 or more well developed cusps'
+		'3 or fewer, small and simple'
+		'denticles absent'
+		,
+		99
+		'Much larger'
+		'subequal'
+		,
+		100
+		'Absent'
+		'present'
+		,
+		101
+		'Present and extends well posterior to the anterior edge of the maxillae'
+		'limited in extent to position anterior to anterior edge of maxillae, or immediately posterior to it'
+		,
+		102
+		'None, 1, 2 or 3'
+		'7'
+		'8 to 9'
+		'10 to 11'
+		'15 to 17'
+		'21 to 23'
+		'26 to 29'
+		'32 to 39'
+		'50 to 60'
+		,
+		103
+		'Absent'
+		'present'
+		,
+		104
+		'High peg-shaped teeth, crown base is <37% the crown height'
+		'nearly an equilateral triangle, crown base is between 100 to 148% the crown height'
+		'wide low teeth, crown base is >180% the crown height'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'Present'
+		'absent'
+		,
+		107
+		'None'
+		'1'
+		'2'
+		'8 to 9'
+		'11'
+		'12'
+		'13 to 15'
+		'20 to 23'
+		'24 to 27'
+		'>28 teeth'
+		,
+		108
+		'Approximately straight or slightly concave, the lateral edge of the preorbital process of frontal is approximately in line wit'
+		'deeply notched, the lateral edge of the preorbital process of frontal is located well medial to the lateral edge of the postor'
+		,
+		109
+		'In dorsal view, the anterior edge of the preorbital process has a squared-off or slightly concave outline'
+		'has a rounded-off, anteriorly convex linguiform outline'
+		,
+		110
+		'The anteriormost point is at the lateral edge of the postorbital process'
+		'located laterally, between 70 and 74% of transverse distance from sagittal plane to the lateral edge of postorbital process'
+		'positioned approximately midway, located between 42 and 61% of that distance'
+		'medially positioned, located at a point <34% of that distance'
+		,
+		111
+		'single'
+		'two'
+		'three or more'
+		,
+		112
+		'Absent'
+		'present'
+		,
+		113
+		'Contacts the nasal or premaxilla'
+		'is separated from the posterolateral edge of the nasal or premaxilla by a triangular wedge of frontal'
+		,
+		114
+		'Concave, the premaxillae are abruptly depressed'
+		'straight or convex'
+		,
+		115
+		'converge anteriorly'
+		'are parallel'
+		'diverge anteriorly'
+		,
+		116
+		'In lateral view, the dorsal edge of the cranium ascends steeply towards posterior edge of skull, the dorsal profile of cranium'
+		'dorsal edge of the cranium is low to flat, the dorsal profile forming an angle of <10 degrees'
+		,
+		117
+		'Higher than nasals'
+		'same height as nasals'
+		,
+		118
+		'Higher than frontals and or nasals'
+		'at same level as frontals and or nasals'
+		,
+		119
+		'In lateral view, is within the posterior half of its length'
+		'is within the anterior half of its length'
+		,
+		120
+		'Smoothly convex or concave'
+		'bears distinct external occipital crest'
+		,
+		121
+		'Present, anterior edge approximately in line with anterior edge of foramen ovale'
+		'present and extended well anterior to foramen ovale'
+		'extended anterior to anterior edge of orbit'
+		,
+		122
+		'Absent'
+		'absent but a small rectangular fossa for sigmoid process of the tympanic present, its long axis is transverse, and it is locat'
+		'present and enlarged, forms a triangular fossa medial and anteromedial to postglenoid process'
+		'very large, forms large fossa that borders entire medial edge of glenoid fossa'
+		,
+		123
+		'Present but very short, length <36% of the length of pars cochlearis'
+		'short, length between 59 and 94% of the promontorial length'
+		'nearly the same length of pars cochlearis, length between 100 and 134% of the promontorial length'
+		'long, length between 141 and 174% of the promontorial length'
+		'very long, length >212% of the length of the pars cochlearis'
+		'State 5'
+		,
+		124
+		'Extensive, most of lateral side contacts squamosal'
+		'large centrally oriented ovoid region contacts squamosal, free around edges'
+		'contact is very small'
+		'contact is absent, articulates via ligaments'
+		,
+		125
+		'Highly elliptical, transverse diameter is <36% the dorsoventral diameter'
+		'ovoid, transverse diameter is between 51 and 78% of the dorsoventral diameter'
+		'approximately circular, transverse diameter between 85 and 134% of the dorsoventral diameter'
+		'bulbous, transverse diameter >141% of the dorsoventral diameter'
+		,
+		126
+		'Present'
+		'absent or poorly developed'
+		,
+		127
+		'Absent'
+		'present'
+		'present and expanded'
+		,
+		128
+		'Obtuse, pars cochlearis appears transversely compressed'
+		'nearly 90 degrees, pars cochlearis looks rectangular or semicircular in ventral view'
+		'acute, pars cochlearis looks globular'
+		,
+		129
+		'Angular'
+		'rounded'
+		,
+		130
+		'Oval'
+		'shaped like a teardrop with a fissure directed towards the perilymphatic foramen'
+		,
+		131
+		'Low, its ventral and posterior edges are joined by a smooth curve'
+		'prominent, its ventral and posterior edges form a right angle in medial view'
+		,
+		132
+		'Well separated from crista parotica, no division between stapedial muscle fossa and stylomastoid foramen'
+		'narrow separation or contact, clear separation of stapedial muscle fossa and stylomastoid foramen'
+		,
+		133
+		'Absent'
+		'present, fossa on dorsolateral side of tegmen tympani'
+		,
+		134
+		'Present and high, dorsoventral height >114% the width of pars cochelaris'
+		'present, height between 58 and 34% of promontorial width'
+		'low, height between 23 and 11%'
+		'forms a low ridge or is absent, height <4% of the width of pars cochlearis'
+		,
+		135
+		'Present and very high, dorsoventral height >112% of the width of pars cochlearis'
+		'high, height between 95 and 50% the promontorial width'
+		'low, height between 12 and 4%'
+		'faint ridge'
+		'absent'
+		,
+		136
+		'High, a wedge-shaped area of elevated bone occurs between dorsal edge of tegmen tympani and internal acoustic meatus, extendin'
+		'low, does not protrude noticeably from suprameatal fossa and surrounding bone'
+		,
+		137
+		'In common recess with the cochlear foramen, transverse septum separating the vestibular foramen from the internal facial foram'
+		'in common recess with cochlear foramen, transverse septum separating it from internal facial foramen is low, and aperture of i'
+		'separated by partitions of equal height from cochlear foramen and internal facial foramen'
+		'in common recess with internal facial foramen'
+		,
+		138
+		'Distal end of posterior process of periotic, lateral surface of posterior process of the periotic, and entire dorsal edge of t'
+		'same as state "0" except dorsal edge contacts from posterior end of posterior process of periotic to regionjust lateral to end'
+		'only dorsal and lateral sides of posterior process articulate with squamosal'
+		'periotic articulates with squamosal along hiatus epitympanicus and adjacent regions on the posterior process'
+		'periotic only articulates with skull via ligaments'
+		,
+		139
+		'Surfaces smooth'
+		'bear complementary longitudinal grooves and ridges'
+		'fused in adults'
+		,
+		140
+		'Long sulcus on posterior process of periotic or the compound periotic tympanic posterior process of most mysticetes'
+		'short, no sulcus posterior to stylomastoid notch'
+		,
+		141
+		'very short'
+		'short'
+		'long'
+		'very long'
+		'extreme'
+		,
+		142
+		'Forms an angle <130 degrees with the long axis of tegmen tympani'
+		'forms an angle between 135 and 165 degrees'
+		'directed nearly posteriorly, forms a 180 degree angle with tegmen tympani'
+		,
+		143
+		'Straight or convex ventrally'
+		'concave ventrally, helps to form the neck of posterior process of periotic'
+		,
+		144
+		'Exposed externally'
+		'not exposed, enclosed by the exoccipital and squamosal'
+		,
+		145
+		'Wide, width of bulla >65% of its long axis'
+		'narrow and long, width of bulla at sigmoid process is <64% the length of bulla along its long axis'
+		,
+		146
+		'Not fused to anterior process of periotic'
+		'fused to anterior process of periotic'
+		,
+		147
+		'Present'
+		'absent'
+		,
+		148
+		'nearly straight'
+		'bowed medially'
+		,
+		149
+		'ramus increases in height posteriorly'
+		'dorsoventrally constricted in middle, deeper anteriorly and posteriorly'
+		'dorsal and ventral margins parallel, or symphyseal region slightly deeper'
+		,
+		150
+		'at or posterior to the level of the antorbital notch'
+		'anterior to the antorbital notch'
+		,
+		151
+		'concave'
+		'flat'
+		'convex'
+		,
+		152
+		'Restricted to ventral surface'
+		'extends dorsally onto posteromedial face of posterior process'
+		,
+		153
+		'Present, forms greatest anteroposterior diameter along shaft'
+		'forms a knob-like tuberosity'
+		'tuberosity and crest absent'
+		,
+		154
+		'closer to proximal head of humerus'
+		'approximately centered, proximodistally, on shaft'
+		'closer to distal end of humerus'
+		,
+		155
+		'Forms one articulation surface that is semicircular in lateral view'
+		'two distinct facets that in lateral view form an obtuse angle'
+		,
+		156
+		'short rostrum'
+		'long'
+		'very long'
+		'State 3'
+		,
+		157
+		'small less than 25% bizyg width'
+		'large more than that'
+		,
+		158
+		'dentition present, not implanted in alveolar groove'
+		'alveolar groove developed (dentition absent or present)'
+		'dentition and alveolar groove absent'
+		,
+		159
+		'below SOS and frontal'
+		'at or above level of SOS and frontal'
+		,
+		160
+		'narrow, width at antorbital notches <80% of rostrum length'
+		'broad, width >80% of rostrum length'
+		,
+		161
+		'present'
+		'absent'
+		,
+		162
+		'flat'
+		'anterodorsally flaring'
+		,
+		163
+		'no well defined ridge, smoothly convex surface'
+		'present, forms well defined ridge posterior to optic canal'
+		,
+		164
+		'longer than wide, or roughly equidimensional'
+		'wider than long'
+		,
+		165
+		'high sagittal crest present'
+		'sagittal crest absent or present as low ridge'
+		,
+		166
+		'extends posteriorly onto parietal'
+		'on frontals only'
+		,
+		167
+		'transversely oriented'
+		'suture is strongly V or U-shaped, with sutures converging posteriorly and frontal penetrating between parietals'
+		,
+		168
+		'anterior to or at level of posteriormost point of occipital condyles'
+		'posterior to condyles'
+		,
+		169
+		'forms a vertical, plate-like process'
+		'anteroposteriorly swollen in ventral aspect'
+		'anteroposteriorly swollen with anteroventral pit for stylohyoid'
+		,
+		170
+		'present along length of zygomatic'
+		'extends past posterior margin of temporal fossa but not to tip of zygomatic'
+		'does not extend anterior to posterior margin of temporal fossa'
+		,
+		171
+		'well developed horizontal crest that is anterolaterally convex or bulges into temporal fossa'
+		'well developed anterolaterally concave horizontal crest'
+		'crest absent, squamosal is anteroventrally smooth and convex'
+		,
+		172
+		'absent'
+		'developed as a pit or trough lateral to squamosal fossa'
+		,
+		173
+		'absent'
+		'developed as large knob or tubercle'
+		'developed as a dorsally arched, narrow flange'
+		,
+		174
+		'fossa absent'
+		'ventral or ventromedial fossa present at apex'
+		'longitudinal groove for masseter insertion present on ventral surface of zygomatic base'
+		,
+		175
+		'absent'
+		'zygomatic process twisted so that lateral surface faces dorsolaterally'
+		,
+		176
+		'basisphenoid abruptly narrower than basiccipital, <2/3 basioccipital width'
+		'basisphenoid and basioccipital roughly equivalent, >2/3 basioccipital width'
+		,
+		177
+		'posterior to lateral tuberosity'
+		'medial to lateral tuberosity'
+		,
+		178
+		'absent'
+		'present'
+		'present as small semicircular ridge ventrally encircling small stylomastoid fossa, suprameatal fossa indistinct'
+		,
+		179
+		'present as thin flange'
+		'present on swollen tubercle'
+		,
+		180
+		'present'
+		'absent'
+		,
+		181
+		'greater than half height of articular surface, process has dorsal and ventral processes'
+		'less than or equal to half height of articular surface, rectangular or triangular, anteroposteriorly thin'
+		'greater than half height of articular surface, process is rectangular and anteroposteriorly thick'
+		,
+		182
+		'circular or rectangular, approximately as wide as high'
+		'circular or rectangular, transverse width approximately 2/3 of dorsoventral height'
+		'figure-8 shaped'
+		,
+		183
+		'large, neural canal constitutes more than 2/3 of dorsoventral height of arch and body'
+		'small, neural canal constitutes 2/3 or less of dorsoventral height of arch and body'
+		,
+		184
+		'arch anteroposteriorly shorter than body, retracted from anterior margin or from both anterior and posterior  margins'
+		'arch anteroposteriorly shorter than body, positioned anteriorly'
+		'arch equivalent to anteroposterior length of body'
+		,
+		185
+		'present and small, less than dorsoventral thickness of medial part of arch'
+		'present and tall, higher than dorsoventral thickness of medial part of arch'
+		'absent'
+		,
+		186
+		'present'
+		'absent'
+		,
+		187
+		'less than or equal to width of atlas'
+		'much wider than atlas'
+		,
+		188
+		'oval, rectangular, or triangular, flat ventral margin'
+		'dorsally convex ventral margin giving canal crescent-shape'
+		,
+		189
+		'present, extends far anterior to anterior articular surface'
+		'absent or reduced, does not extend anteriorly past articular surface'
+		,
+		190
+		'postzygapophysis extends dorsolaterally, visible as thickening of archin anterior view'
+		'postzygapophysis extends posteriorly, not visible in anterior view'
+		,
+		191
+		'straight or convex'
+		'ventrally concave'
+		,
+		192
+		'less than 2/3 height of anterior articular surface'
+		'greater than or equal to 2/3 height of anterior articular surface'
+		,
+		193
+		'small, less than dorsoventral thickness of ventral transverse process'
+		'large, much larger than dorsoventral thickness of ventral transverse process'
+		,
+		194
+		'approximately as transversely wide as dorsoventrally high'
+		'transversely wide, greater than twice the dorsoventral height'
+		,
+		195
+		'oval, rectangular, or triangular, flat ventral margin'
+		'dorsally convex ventral margin giving canal crescent-shape'
+		,
+		196
+		'ventral margin positioned within ventral 50% of body'
+		'ventral margin positioned within dorsal 50% of body or higher'
+		,
+		197
+		'present'
+		'absent'
+		,
+		198
+		'Greater than or equal to 30 perecent of rostrum'
+		'Less than 25 percent of rostrum'
+		,
+		199
+		'Long and reaches to p2 or equivalent'
+		'Short and ends before c or equivalent'
+		,
+		200
+		'Lateral margins mostly parallel'
+		'Lateral margins distinctly converge anteriorly'
+		,
+		201
+		'mesial and distal'
+		'distal only'
+		'none'
+		,
+		202
+		'ziphodont'
+		'false ziphodont'
+		'none'
+		,
+		203
+		'present'
+		'absent'
+		,
+		204
+		'present'
+		'absent'
+		,
+		205
+		'present'
+		'absent'
+		,
+		206
+		'mainly apical'
+		'mesial'
+		
+	;
+	MATRIX
+	'Megaptera novaeangliae'		              12011123211111210311222-33111101101101(1,2,3)100232012131031211?01111031111110-021111031310111103000????-110--------20----11-100(4,5)??12?000???????20(3,4)(0,1)00?0?12-??101202001011110001200001120111020000101010011111----1?
+	'Balaenoptera physalus'		               12011123232(1,2)11210311222-33(1,2)1110110110111002320(0,1)2101031211?00011031111110-021111031310111203000????-110-----0002001--11010?4?1121111113400?20(3,4)00011112-?010120200101111000120000112011??20010101010010111----1?
+	'Balaenoptera musculus'		               1301112313022121031122(1,2)-33211100101101(1,2,3)000232012101031211?00011031111111-021111031310111203000????-110--------------1-----------1----34-------------2-------02001011110001200001120112020010101010010111----1?
+	'Balaenoptera borealis'		               1111112213011121031122(1,2)-33201101101101(1,2,3)000232012101031211?00011021111011-021111031310111203000????-110--------------1-----------1----34-------------2-------0200101111000120000112011112001?111?10011111----1?
+	'Balaenoptera edeni brydei'		           12111123130111210311221-3320120(0,1)101101(1,2,3)1002320121010(2,3)1211?00011031111112-021111031310111203000????-110--------------1-----------1----34-------------2-------02001011110001200001120111020010111010011111----1?
+	'Balaenoptera bonaerensis'		            12111123130111210311223-3320110?101101(1,2,3)000232012101031211?00011021111111-021111031210111203000????-110--------------1-----------1----34-------------2-------02001011110001200001120112022010111110011111----1?
+	'Balaenoptera acutorostrata'		          12111123130111210311221-3320110(0,1)101101(1,2,3)000232012101031211?00011021111111-021111031310111203000????-110--------------1-----------1----34-------------2-------02001011110001200001120112020010101110011111----1?
+	'Eschrichtius robustus'		               21211112(1,2)52321120111211212201301101101(1,2,3)000232002131011131?00011110111100-021111001311121113000????-110--------20----11-00040112001010310??20311000112-??2-12-2001011110010200001121?1????01?10??1??10111----1?
+	'Caperea marginata'		                   211111222(3,5)2001030011123240100312111111(1,2,3)010101112110131121?20011010100000-020001010301?11000000????-110--------20----11-10050?1210100?341002141?0?0??2-??2-110200101111010?2000?00001110???001?1??0?1?111----1?
+	'Balaena mysticetus'		                  30(1,2)11021240001030012113240111011111211(1,2,3)110141122120131121?20000200100000-010101010301110110000????-110--------------1--1--------1-------------------2------202101011110000202000100?1??0?00?11??1???1111----1?
+	'Eubalaena'		                           30(1,2)110232200010300121132400110111112113110141122120131121?20000200100000-010101010301110110000????-110-----00220011-1101004?1120111101100?20(3,4)10011112-??2-120200101111000020200010011102000?11??10011111----1?
+	'Aglaocetus patulus'		                  13111011?3011103?011121-31000000101101(1,2,3)10?0111?210??????1?0?????????????-021??????????????0000????-110--------------1-----------1-------------------?------2-2001011110000202001010?12020???????110??1?1----1?
+	'Cetotherium rathkii'		                 ?1?111?????13110??11121-21100?0??01101(1,2,3)0????????10???0??1???????????????-021?1?????????????00?????-1----------------------------1-------------------2------2020?10111100002000011???????????????????????----1?
+	'Cophocetus oregonensis'		              13?11011?3011100?011121-21100000101101(1,2,3)0010??1101000(2,3)0211??0010?????????-02111212?200?????0000????-1----------------1-----------1-------------------2-------?2001011110100200001???1?????0?0??1??????1?-----1?
+	'Diorocetus hiatus'		                   (0,1)211102(0,1)1(0,1,3)011103?0111110211100001011013101011111100020211?000???????????-021112121100?????0000????-110-----00220012?100100301110100001210220(3,4)01001102-????12020010111100002020011001?????0?01101?0011111----1?
+	'Isanacetus laticephalus'		             12?1101113011100?011121-2110000(0,1)101101(1,2,3)1000111?01000????1?0?????????????-0(1,2)1?1????????????0?00????-110-----001200120100110(1,2)0(2,3)1200?010(0,1)(0,1)0??203110??1????????2020010?11?000??02?01???1?????0?0??0?110??1?1----1?
+	'Mixocetus elysius'		                   1201111123033110?211121-1010000?101101(1,2,3)0???-????10??????1?0?????????????-021?1????????????3000????----------------------------------------------------------0---1-------------------------------------------??
+	'Parietobalaena palmeri'		              12011011(1,2)3011103?011121-2110000(0,1)101101(1,2,3)100032110101030211?0?????????????-021112121200????00000????-1-0--------------1-----------1-------------------2-------02001011110000202001100112022110?001100??111----1?
+	'Pelocetus calvertensis'		              13011020?3011100?011121-21110000101101300003112?101030211?0101??????????-011112121200?21100000????-?10-----10110012?10000020?1201011???00120(3,4)0?011112-??11120200101111?1002020011?011011011010001?1011?1----1?
+	'Balaenoptera gastaldii'		              1201112203021111?111211-12211?0?101101(1,2,3)100??????1?10(2,3)1131?0??1???????????02?111001300?????3?00????-1----------------1-------------------------------2--------20?1011110010200001???1120??010?0111?0?????----??
+	'SDSNH 90517'		                         21211122(1,2)52111120111221-32111201101101(1,2,3)1002320021310(2,3)1(1,2)11?0001???????????0211110?1311121113000????-----------------------------------34-----------------------------------------------------------------??????
+	'Megaptera miocaena'		                  ???1?12213011120?211221-33210?0??????1(1,2,3)1002310121???????1????????????????02???????????????3???????-1----------------1-----------1----34-------------?-------0?0?10111100012000011?1???????????????????------1?
+	'Megaptera hubachi'		                   1??1112323211121?311221-33211201101101(1,2,3)1??23?0??1010(2,3)1211?000????????????021111021310??1103?00????-1-0--------------1-----------1----34-------------?-------020010111100012000001???12?2201?11??1??11?-1----1?
+	'Parabalaenoptera baulinen'		           12011110?3012111?311221-32110?0?101101(1,2,3)0????????1?10(2,3)1?11?0?????????????-02?1110?1310?????3???????-?10????-000?00?211?0?(0,1)???????????????????(3,4)0?0????2?????1202001011110001200001???1??0???1???1?0?????11----??
+	'Eomysticetus whitmorei'		              0101?000130211?3?00100001110000?10???131010111121?002020??0??0???????????01?10203?100?????0?00????-???-----0???001201011??22000010100111011112010-002-210012010011?0010012111111101??111?1?1??0?10100?1?????1?
+	'Tohoraata spp.'		                      ?????????????????0?10001(0,1)11?000???????310202111????0?00???????????????????1???2030????????0??0----????-----??2?????1?0????3?0000101002112?1121111000??20?????10???00110012110??110(0,1)12111?101?110111?????????1?
+	'Micromysticetus'		                     ??????????????????????0?1111000(0,1)??????31??011011??????????(0,1)????????????????????????????????????0???????-?????????????00?(1,2)111000010100111101111?1?0????21????-???-???010?2211111100???????1?00010????????????0?
+	'Yamatocetus canaliculatus'		           020100000301111(0,3)001100011(0,1)1100011011013102??????1(1,2)002000?-0000??????????-010100030100?11100001-----11?-----002(1,2)0012010110??????????????????????10?002-??011101001000010022111111??1021110101001001100111----??
+	'Tokarahia spp.'		                      0101?00003001????001000021110?0???1????1010211111?0020000?0010????????????1?1020301001????0??0?????????????0?3??01211001??110000111002112001111110002?20001201001000010012?1001?101(0,1)21(0,1)1010101101(0,1)(0,1)1(0,1)111????1?
+	'Waharoa ruwhenua'		                    0101000013011?1??00100001110000?1?1??131020211111?002000??0??0????????????1?1020301001????0??1??????1??????002??01111001?1110000101002112001211110002?2000?20100100001002211001110112(0,1)11?100?01111(0,1)01111????1?
+	'Fucaia buelli'		                       ?????0?0?0(0,2)11?10?0?00001110?000???????1202021120????????0000??????????????1????????????000(0,1,2)?????100????211?102??0?1000?1??2110001010121121110?010000???0????1?0????01??01??0????101020011101001101101???021?00
+	'Aetiocetus weltoni'		                  02010001(0,1)302211010100000??0000000010011101?2????10001000020?????????????1010000000100?????11112011010211??4103100020001?1121?00????????????????1000011-----211001110101010100011??1??????????????????1110211??
+	'Aetiocetus cotylalveus'		              020100010302111010100000000000000010011101????????001???020?????????????1010??????????????1111201101021001?102100020001101?????????????????0???10?00?1?????211001010100020100011???0?????1?0?0100?1??1?10211?0
+	'Aetiocetus polydentatus'		             0201000213021110101000000200000?00?0011101??????1?001000020?????????????20(0,1)0000000100?????1111201101031101500220001000111??????????????????????10?0?11-----2110?11101000201?0011???00011110100100(0,1)111?11??11??
+	'Fucaia goedertorum'		                  02010001(0,1)3021110100000010100000?001001120102102?100010000????????????????01?000000100?????21112????1?21???410210002100111121100011000(0,1)(0,1)??11?01?100001120010111001010111020100?100?10200??1010011??????11????0?
+	'Chonecetus sookensis'		                ???????????(0,1,2)(0,1,2)?(0,1,2)??0???00110000001?????112??02112????????????????????????????????????????0102??1?????????????????????1?010111110001000?????11?01?1?0????20---????????01?10200000100???????????????????????????0?
+	'Llanocetus'		                          12(0,1)1?000?(0,1,2)0(0,1)(0,1)100000?000?1100000(0,1)001???20?20???2???00(0,1)00000????????????????0????0???0?0????????0?0(0,1)11?11201(2,3,4,5,6,7,8,9)103??012000011(1,2)11??0110?????1?????0?10??000-----(2,3)--0-1-001-01-0--1-----------------------0-------?1
+	'Janjucetus hunderi'		                  02200001?301111000100001020000000000012201021?2???0000?001??????????????000000????(0,1)?0?????211011000111010141132011010001112110001001???????020?10?0000?????011011000111010000?001????????????????????11?021110
+	'Mammalodon colliveri'		                0201100013001?10?0?00001000?000?0?0???2201?(1,2)1122??00100001(0,1)?????????????100?0000001000?0??1???1?0??1?20???411120102100?11111100010100(1,2)(1,2)10???????00?000??--?0110110001010???0???01010?????1????0??????111??1110
+	'ChM pv5720'		                          012010(0,1)122221??(0,1,2)?0?100021111000?0?0?1?(1,2,3)0031110200-00000000--------------100?0?0?0?1-------00-?1020110202014001?0?00000?0001?100001001101(1,2)?11111100?00021???(1,2)00000100011020001000111??????????????????0?1011101
+	'CCNHM 108'		                           012010(0,1)10?23101??00000001100000(0,1)0?0???20030111200-000000000??????????????00?000??0100?????00?01?20?102010140012000100001002310000100110101112111(0,1)0000020???2000001000110200010001110?110?0?0?01010001(0,1)11021101
+	'Metasqualodon symmetricus'		           01(1,2)0?0??????????????????????????0?0?????????????????????00??????????????10????????????????????1?1(0,1)1?0(1,2)0101?????0?????????????????????????????????????0???????0?01????????????????????????????????????1?0021??1
+	'ZMT 62'		                              ????????????????????????????????????????????????????(0,1)0??0(0,1)?????????????????????????0??????????(0,1)?00????0(1,2)??(2,3,4,6,7,8,9)??????????????????????????????????????????????????0??????????????????????????????????????????02?1?1
+	'Simocetus'		                           012010(1,2)302023234001010020000100?0-0?010(0,1)??0110??0???10??00??????????????0102??????????????01?01?0(0,1)00111101400-2100011101131110021001?????(0,1)?0?001????01?0???2000000001000000000001????????????????????111021110
+	'Squalodon calvertensis'		              0110022?130?4234???001(2,3)-1000000?000??001??0111210?0000??00000???????????210?????00000?????000?1100000(3,4)0100(3,4)00-2100-11100122220001110034022010101?1?00110??11000010101000?0000?0010????????????????????00001110
+	'Agorophius'		                          01100123120(2,3)2234001000121000000?000??0000???????0???????000??????????????10?????0??00?????00001??0?0?(3,4)0???(3,4)0--2100-1110110???????????????????????????1??????000010001000?0?0000????0????1??0????????????0211?0
+	'Waipatia'		                            00(1,2)0122313044234041010120000000?0-0?0102020120200?00000000(0,1)??????????????10?000?00(0,1)???????01?1110100040110(6,7,8)0--2100-111001(2,3)112001100000011(2,3)011101000-01?0???2?100100010?000100000100?00000?????????????00021110
+	'Physeter macrocephalus'		              0100022322044234041002(2,3)-0000000?0000000102011?120?00000403100101100???00?102000000000000100001202?-0-(1,2,3)-?01(6,7)0--01-0--01-01323200111100310(1,2)210110110000-201112010010?11?0001100??010?0?20?2000?101?00??1012---10
+	'Ziphiidae'		                           0020022322044234041002(2,3)-0000000?0000000102011?210?00000403100100100???0021020000000000001000012022-0-5000170--01-0--11-02322200011110320?201210110000-1010120(0,2)0010111?00?0(0,2)00?0010???????????????????1002---10
+	'Zygorhiza kochii'		                    0130000000001000000000010000000000000002010000210?00000000000?0?????????00000000001000000000000010000102114002000001000011100001000000001?11210000?000100201000000000000000000000000000000000001????0000020000
+	'Basilosaurus'		                        0030000110001000?001000000000?0??????031?2000?210?0?000000??????????????000?00?0??????????0???001(0,1)000101??4002000000000111100001001?0000101?21?000??00-----10000000000000000000000100001000000100??0000002000?
+	'Dorudon'		                             003000010000100000000001000000010000?03(1,2)010010210-0000000000000?????????000000?0??1??000??01??0021000101114002000000000111?00001000?0000101?210000??00?00201-0000000010000000000000000000000000000000000020000
+	'Georgiacetus'		                        0030?001(0,1)30000000000000000200001000000020200002?0?001000000?????????????10000000?01???????01-00??1-0020110400200000000000010(1,2)0000011???0????(3,4)0?000?000?????1000000000011?01001010???????????????000??000020000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 - 3 6 - 8 12 - 13 18 20 - 25 27 32 36 40 42 44 47 - 48 53 58 - 59 72 - 73 75 81 83 87 97 - 98 102 104 107 110 - 111 115 121 - 123 125 127 - 128 134 137 - 138 141 - 142 151 154 156 169 - 170 201, unord: 4 - 5 9 - 11 14 - 17 19 26 28 - 31 33 - 35 37 - 39 41 43 45 - 46 49 - 52 54 - 57 60 - 71 74 76 - 80 82 84 - 86 88 - 96 99 - 101 103 105 - 106 108 - 109 112 - 114 116 - 120 124 126 129 - 133 135 - 136 139 - 140 143 - 150 152 - 153 155 157 - 168 171 - 200 202 - 206;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1465765772141; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 9209708753654612430; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5070678533148073138; mqVersion 304; checksumv 0 3 3706235711 null getNumChars 206 numChars 206 getNumTaxa 53 numTaxa 53 short true bits 1023 states 1023 sumSquaresStatesOnly 2345203.0 sumSquares 2345203.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1220 615; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5070678533148073138 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1120 543; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1120 543; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 206; 
+ENDBLOCK;

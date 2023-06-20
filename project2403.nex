@@ -1,0 +1,444 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.42.16 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=23;
+    TAXLABELS
+    		'Calophyllum'
+		'Caraipa'
+		'Clusiella'
+		'Haploclathra'
+		'Kayea'
+		'Kielmeyera'
+		'Mahurea'
+		'Marila grandiflora group'
+		'Marila tomentosa group'
+		'Mesua ferrea group'
+		'Mammea americana group'
+		'Mammea bongo group'
+		'Neotatea'
+		'Poeciloneuron indicum'
+		'Endodesmia calophylloides'
+		'Lebrunia bushaie'
+		'Cratoxylum sects. Cratoxylum and Tridesmos'
+		'Eliaea articulata'
+		'Harungana madagascariensis'
+		'Psorospermum cerasifolium group'
+		'Vismia cayennensis group'
+		'Hypericum sect. Myriandra'
+		'Mammea paramericana'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=66;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Phellogen initiation in stem'
+		 [2] 'Cortical sclereids in stem'
+		 [3] 'Functional terminal buds'
+		 [4] 'Terminal buds with scales'
+		 [5] 'Axillary buds immersed'
+		 [6] 'Branching from axils of leaves of current flush'
+		 [7] 'Leaf insertion'
+		 [8] 'Colleters present'
+		 [9] 'Stipuliform structures'
+		 [10] 'Secondary veins arising from the length of the midrib'
+		 [11] 'Intersecondary veins modified as resin canals'
+		 [12] 'Tertiary veins parallel and at right angles to secondary veins'
+		 [13] 'Shape of the exudate containing structures in the mesophyll'
+		 [14] 'Fibers in mesophyll of lamina'
+		 [15] 'Lamina with lignified margin'
+		 [16] 'Midrib structure'
+		 [17] 'Lateral bundles in leaf transcurrent'
+		 [18] 'Abaxial palisade tissue present'
+		 [19] 'Stomatal type'
+		 [20] 'Indumentum of unbranched unicellular hairs'
+		 [21] 'Indumentum of multicellular hairs'
+		 [22] 'Prenylated anthranoids'
+		 [23] 'Inflorescence or flower position'
+		 [24] 'Inflorescence type'
+		 [25] 'Terminal flowers on inflorescence present'
+		 [26] 'Bracteoles'
+		 [27] 'Sepal number'
+		 [28] 'Hairs on adaxial surface of petals'
+		 [29] 'Androecium arrangement'
+		 [30] 'Fasciclodia present in staminate or perfect flowers'
+		 [31] 'Filament attachment'
+		 [32] 'Anthers locellate'
+		 [33] 'Anther length'
+		 [34] 'Anthers with crateriform glands'
+		 [35] 'Anther thecae with porose dehiscence'
+		 [36] 'Pollen aperture number'
+		 [37] 'Carpel number'
+		 [38] 'Ovary septate'
+		 [39] 'Ovules per carpel'
+		 [40] 'Style length'
+		 [41] 'Stylar fusion'
+		 [42] 'Stigma type'
+		 [43] 'Stigma surface'
+		 [44] 'Fruit type'
+		 [45] 'Seeds winged'
+		 [46] 'Seeds with surface glands'
+		 [47] 'Seed coat complex'
+		 [48] 'Lignified exotegmen'
+		 [49] 'Ratio of cotyledon to hypocotyl plus radicle'
+		 [50] 'Cotyledons cordate at the base'
+		 [51] 'Germination type'
+		 [52] 'Dioecy'
+		 [53] 'Vessels exclusively solitary'
+		 [54] 'Vessel arrangement in transverse section'
+		 [55] 'Scalariform perforation plates'
+		 [56] 'Vessel-ray parenchyma pits '
+		 [57] 'Unilaterally compound vessel-ray parenchyma pits'
+		 [58] 'Tracheids'
+		 [59] 'Fiber pits on both radial and tangential walls'
+		 [60] 'Axial parenchyma apotracheal (diffuse/d-i-a)'
+		 [61] 'Axial parenchyma paratracheal'
+		 [62] 'Axial parenchyma banded'
+		 [63] 'Multiseriate rays'
+		 [64] 'Upright marginal ray cells'
+		 [65] 'Radial canals'
+		 [66] 'Included phloem'
+	;
+	STATELABELS
+		1
+		'superficial'
+		'deep seated'
+		,
+		2
+		'absent'
+		'present, thickening of cell wall even'
+		'present, thickening of cell wall  u-shaped'
+		,
+		3
+		'no'
+		'yes'
+		,
+		4
+		'no'
+		'yes'
+		'state 2'
+		,
+		5
+		'no'
+		'yes'
+		'state 2'
+		,
+		6
+		'no'
+		'yes'
+		,
+		7
+		'alternate'
+		'opposite or whorled'
+		,
+		8
+		'no'
+		'yes'
+		,
+		9
+		'none'
+		'round or peltate'
+		,
+		10
+		'no'
+		'yes'
+		,
+		11
+		'no'
+		'yes'
+		,
+		12
+		'no'
+		'yes'
+		,
+		13
+		'none'
+		'glands'
+		'canals'
+		,
+		14
+		'no'
+		'yes'
+		,
+		15
+		'no'
+		'yes'
+		,
+		16
+		'one layer of vascular tissue only'
+		'at least two layers, adaxial layer inverted with respect to the layer immediately below it'
+		'at least two layers, adaxial layer not inverted'
+		'at least two layers, adaxial layer with no clear arrangement'
+		,
+		17
+		'no'
+		'yes'
+		,
+		18
+		'no'
+		'yes'
+		,
+		19
+		'paracytic'
+		'anomocytic'
+		,
+		20
+		'no'
+		'yes'
+		,
+		21
+		'no'
+		'stellate'
+		'other than stellate'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'axillary'
+		'terminal'
+		,
+		24
+		'at least some internodes developed'
+		'fasciculate'
+		'flower single'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'absent'
+		'present normal'
+		'present but displaced one internode'
+		,
+		27
+		'five or multiples of five'
+		'four'
+		'two'
+		'three'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'not fasciculate'
+		'fasciculate'
+		,
+		30
+		'no'
+		'yes'
+		,
+		31
+		'dorsifixed'
+		'basifixed'
+		,
+		32
+		'no'
+		'yes'
+		,
+		33
+		'less than 6mm'
+		'greater than 6mm'
+		,
+		34
+		'no'
+		'yes'
+		,
+		35
+		'no'
+		'yes'
+		,
+		36
+		'three'
+		'at least four'
+		,
+		37
+		'more than five'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		,
+		38
+		'no'
+		'yes'
+		,
+		39
+		'two or more'
+		'one'
+		,
+		40
+		'absent or shorter than ovary'
+		'equal to or longer than ovary'
+		,
+		41
+		'free'
+		'fuzed'
+		,
+		42
+		'punctate'
+		'transversely expanded'
+		'linear'
+		,
+		43
+		'smooth'
+		'rounded papillate'
+		'pointed papillate'
+		,
+		44
+		'indehiscent'
+		'septicidal or septifragal dehiscence'
+		'loculicidal dehiscence'
+		,
+		45
+		'no'
+		'yes'
+		,
+		46
+		'no'
+		'yes'
+		,
+		47
+		'no'
+		'yes'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'less than 0.2'
+		'greater than 0.2 to less than 2'
+		'greater than 2'
+		,
+		50
+		'no'
+		'yes'
+		,
+		51
+		'epigeal'
+		'hypogeal'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'less than 80% of vessels'
+		'over 80% of vessels'
+		,
+		54
+		'none'
+		'diagonal or radial arrangement'
+		,
+		55
+		'absent'
+		'mixed'
+		,
+		56
+		'similar in size and shape to intervessel pits'
+		'enlarged with reduced borders'
+		'other'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'no'
+		'yes'
+		,
+		60
+		'no'
+		'yes'
+		,
+		61
+		'no'
+		'yes'
+		,
+		62
+		'no'
+		'yes'
+		,
+		63
+		'no'
+		'yes'
+		,
+		64
+		'no'
+		'yes'
+		,
+		65
+		'no'
+		'yes'
+		,
+		66
+		'no'
+		'yes'
+		
+	;
+	MATRIX
+	'Calophyllum'		                                         0?1(0,1)0010011-(0,2)010100020(0,1)0101000100000(2,3,4,5)01111000010201(0,1)1101110001(0,1)100
+	'Caraipa'		                                             0?(0,1)(0,1)0001010(0,1)10111000(0,2)0(0,1)0110000?00(0,1)0031(0,1)11101(0,1)01021?01101?1?0100(0,1)00
+	'Clusiella'		                                           001100111100(1,2)00100000?10110000100000(0,4,5)1001100010110?1??????????????
+	'Haploclathra'		                                        0?100011010(0,1)10111001201011000011000031(0,1)11101101021?0(0,1)(0,1)01?(0,1)?0100(0,1)00
+	'Kayea'		                                               01110011010(0,1)1011100000(0,1)01(0,1)1000(0,1)00000(3,4)001100100102?1010011110011100
+	'Kielmeyera'		                                          01110001010010(0,1)1100(0,1)(0,2)010110000(0,1)(0,1)0(0,1)00(2,3)101110110002100000(1,2)?(0,1)(0,1)0(0,1)1(0,1)(0,1)00
+	'Mahurea'		                                             001100010101101110010010110000100100(3,4)1011101100110?000(0,1)100?(0,1)001100
+	'Marila grandiflora group'		                            01100010010110111000(1,2)?100100(0,1)0100?10(3,4,5)10?1101000110?000110011001100
+	'Marila tomentosa group'		                              0?1000100101101(1,2)1000(0,1,2)?00010000100100(0,3,4,5)10?1101000110?0101?0011001100
+	'Mesua ferrea group'		                                  0?0-101?01001012100(0,1)00021-1000100000210111010010201011010100010100
+	'Mammea americana group'		                              011101110100(1,2)0121000000111200010000(0,1)21011100001020111(0,1)(0,1)10111001110
+	'Mammea bongo group'		                                  011101110100(1,2)11200000?01112000100(0,1)001101110(0,1)00102011100101111011?0
+	'Neotatea'		                                            00100000011-00(0,1)110010?111-000010100031011101100110?0(0,1)0(0,1)10001100000
+	'Poeciloneuron indicum'		                               0?1101110100101111010?101100001100102101000100102?(0,1)0100(0,1)0110101100
+	'Endodesmia calophylloides'		                           000-00111100100300010?101100101000001-11-000001020?0100(0,1)011??00101
+	'Lebrunia bushaie'		                                    010-0011110010?300010?001010101000001-11-000001020?010000110100001
+	'Cratoxylum sects. Cratoxylum and Tridesmos'		          10110010010010001000(0,2)0(0,1)0(0,1)1001100000031010(0,1)12100110?00(0,1)000(0,1)00101100
+	'Eliaea articulata'		                                   1011001001001000000000001100110000003101011(1,2)100110?01(0,1)01(0,1)111011100
+	'Harungana madagascariensis'		                          10100010010010011000111012011100000051(0,1)101000001?000110(0,1)1100(0,1)11100
+	'Psorospermum cerasifolium group'		                     100-00100100100010001?1012011100000051010100000110?011000110011100
+	'Vismia cayennensis group'		                            101(0,1)00100100100(0,1)100011101(1,2)0111000000510101000(0,1)0110001(0,1)0?01?0011100
+	'Hypericum sect. Myriandra'		                           ???00?100(0,1)?01000??10001011(0,1)000000000(2,3,4,5)?0(0,1)001100011??00(0,1)000(0,1)?0000000
+	'Mammea paramericana'		                                 ?????????????????????????????????????????222????????10010111001110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=17 TEXT='transcurrent bundles have bundle sheath tissue that reaches the epidermis on both surfaces';
+	TEXT CHARACTER=53 TEXT='80% or more of the vessels completely surrounded by other elements (fibers, parenchyma, tracheids) ';
+	TEXT CHARACTER=54 TEXT='Vessels arranged in a diagonal or radial pattern in transverse section ';
+	TEXT CHARACTER=55 TEXT='Some scalariform perforation plates present in addition to simple perforation plates ';
+	TEXT CHARACTER=56 TEXT='Vessel-ray pits may have reduced borders or exhibit other differences when compared to intervessel pits ';
+	TEXT CHARACTER=57 TEXT='Pitting in which one pit abuts two or more smaller pits in the adjacent cell ';
+	TEXT CHARACTER=58 TEXT='Imperforate cells with numerous distinctly bordered pits in their radial and tangential walls and different from fibers';
+	TEXT CHARACTER=59 TEXT='Fiber pits on tangential walls in addition to radial walls';
+	TEXT CHARACTER=60 TEXT='Axial parenchyma not associated with vessels (i.e. diffuse or diffuse-in-aggregates*). ';
+	TEXT CHARACTER=61 TEXT='Axial parenchyma associated with vessels (e.g. aliform) ';
+	TEXT CHARACTER=62 TEXT='Continuous bands of parenchyma in transverse section.';
+	TEXT CHARACTER=63 TEXT='Rays more than one cell wide in TLS present in addition to uniseriate rays.';
+	TEXT CHARACTER=64 TEXT='Row(s) of ray cells taller than wide at the bottoms and tops of rays as seen in RLS';
+	TEXT CHARACTER=65 TEXT='Horizontal canals running through rays';
+	TEXT CHARACTER=66 TEXT='Phloem appears in patches amidst the secondary xylem (a cambial variant)';
+
+      [Attribute comments]
+      	TEXT TAXON=15 CHARACTER=60 TEXT='scanty paratracheal parenchyma sometimes occurs, but we could not determine whether those cells are part of an apotracheal pattern or a paratracheal pattern throughout the stem';
+	TEXT TAXON=15 CHARACTER=61 TEXT='scanty paratracheal parenchyma sometimes occurs, but we could not determine whether those cells are part of an apotracheal pattern or a paratracheal pattern throughout the stem';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 66;
+      ENDBLOCK;
+      

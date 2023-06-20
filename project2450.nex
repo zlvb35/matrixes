@@ -1,0 +1,2204 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 01.19.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Gorilla gorilla'
+		'Pan troglodytes'
+		'Sahelanthropus tchadensis'
+		'Ardipithecus ramidus'
+		'Australopithecus anamensis'
+		'Australopithecus afarensis'
+		'Australopithecus africanus'
+		'Australopithecus garhi'
+		'Kenyanthropus platyops'
+		'Paranthropus robustus'
+		'Paranthropus boisei'
+		'Paranthropus aethiopicus'
+		'Australopithecus sediba'
+		'Homo habilis'
+		'Homo rudolfensis'
+		'Homo erectus (African)'
+		'Homo erectus (Asian)'
+		'Homo heidelbergensis'
+		'Homo neanderthalensis'
+		'Homo floresiensis'
+		'Homo sapiens'
+		'Homo antecessor'
+		'Homo erectus (Georgian)'
+		'Homo naledi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=391;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Cranial capacity'
+		 [2] 'Cerebellar morphology'
+		 [3] 'Cranial vault thickness'
+		 [4] 'Calvarial height to breadth'
+		 [5] 'Cranial vault index'
+		 [6] 'Height of calvaria relative to orbits'
+		 [7] 'Maximum cranial breadth'
+		 [8] 'Cranial contour in norma occipitalis'
+		 [9] 'Anterior calvarial contour in profile'
+		 [10] 'Posterior calvarial contour'
+		 [11] 'Parietal wall verticality'
+		 [12] 'Postbregmatic depression'
+		 [13] 'Parietal tuber'
+		 [14] 'Sagittal crest'
+		 [15] 'Sagittal keel'
+		 [16] 'Parietal overlap of occipital at asterion'
+		 [17] 'Upper facial breadth'
+		 [18] 'Outline of superior facial mask'
+		 [19] 'Lateral anterior facial contour'
+		 [20] 'Facial prognathism'
+		 [21] 'Facial hafting'
+		 [22] 'Anterior projection of zygomatic bone relative to piriform aperture (dishing)'
+		 [23] 'Bregmatic protuberance'
+		 [24] 'Precoronal depression'
+		 [25] 'Coronal reinforcement'
+		 [26] 'Frontal contour in norma verticalis'
+		 [27] 'Frontal eminence'
+		 [28] 'Glabellar depression'
+		 [29] 'Glabellar development'
+		 [30] 'Glabellar region forms as prominent block'
+		 [31] 'Supraglabellar tubercle'
+		 [32] 'Microdepression of glabella'
+		 [33] 'Metopic keel'
+		 [34] 'Lateral postorbital depression'
+		 [35] 'Frontotemporale tubercle'
+		 [36] 'Frontal trigone'
+		 [37] 'Supratrigonal depression'
+		 [38] 'Frontal sinus'
+		 [39] 'Supraorbital sulcus'
+		 [40] 'Supraorbital torus thickness'
+		 [41] 'Supraorbital thickness gradient'
+		 [42] 'Supraorbital torus development'
+		 [43] 'Supraorbital contour'
+		 [44] 'Superior orbital fissure shape'
+		 [45] 'Supraorbital corner shape'
+		 [46] 'Temporal crest on supraorbital torus'
+		 [47] 'Lacrimal fossae location'
+		 [48] 'Ethmolacrimal contact'
+		 [49] 'Interorbital breadth'
+		 [50] 'Orbital shape'
+		 [51] 'Inferior orbital margin position relative to nasal margin'
+		 [52] 'Inferior orbital margin rounded laterally'
+		 [53] 'Infraorbital foramen location'
+		 [54] 'Nasal keel'
+		 [55] 'Projection of nasal bones above frontomaxillary suture'
+		 [56] 'Eversion of superior nasal aperture margin'
+		 [57] 'Profile of nasal saddle and nasal roof'
+		 [58] 'Nasal cavity entrance'
+		 [59] 'Inferior width of projecting nasal bone'
+		 [60] 'Anterior nasal spine relative to nasal aperture'
+		 [61] 'Nasal margin crest/spine patterns'
+		 [62] 'Nasal aperture margin sharpness'
+		 [63] 'Subnasal projection'
+		 [64] 'Subnasal length'
+		 [65] 'Nasoalveolar clivus contour'
+		 [66] 'Intermaxillary furrowing'
+		 [67] 'Protrusion of incisor alveoli beyond bicanine line in basal view'
+		 [68] 'External palate breadth'
+		 [69] 'Palate shape'
+		 [70] 'Incisive canal development'
+		 [71] 'Palate thickness'
+		 [72] 'Incisive foramen position'
+		 [73] 'Anterior palate depth'
+		 [74] 'Palatine process orientation'
+		 [75] 'Canine jugum development'
+		 [76] 'Canine root orientation'
+		 [77] 'Anterior pillars'
+		 [78] 'Canine fossa, groove or fossula'
+		 [79] 'Maxillary trigone'
+		 [80] 'Maxillary sinus size'
+		 [81] 'Maxillary sinus division'
+		 [82] 'Infraorbital plate orientation'
+		 [83] 'Sulcus infraorbitalis'
+		 [84] 'Position of infraorbital foramen relative to orbit'
+		 [85] 'Patency of premaxillary suture in adults from frontal view'
+		 [86] 'Anterior zygomatic root position'
+		 [87] 'Zygomaticoalveolar crest'
+		 [88] 'Malar diagonal length'
+		 [89] 'Malar orientation'
+		 [90] 'Zygomatic insertion height'
+		 [91] 'Position of zygomatic foramina'
+		 [92] 'Zygomatic bone orientation'
+		 [93] 'Mediolateral thickness of zygomatic arch at root of frontal process'
+		 [94] 'Expansion of medial edge of frontal process of zygomatic bone'
+		 [95] 'Angular indentation of lateral orbital margin'
+		 [96] 'Masseter origin height'
+		 [97] 'Masseteric position relative to sellion'
+		 [98] 'Zygomatic temporal surface'
+		 [99] 'Zygomatic prominence development'
+		 [100] 'Zygomaticomaxillary steps to fossae present'
+		 [101] 'Position of zygomatic angle'
+		 [102] 'Lateral flaring of zygomatic arches'
+		 [103] 'Zygomatic arch alignment'
+		 [104] 'Zygomatic process root'
+		 [105] 'Lateral expansion of the root of zygomatic'
+		 [106] 'Postorbital constriction'
+		 [107] 'Temporal fossae size'
+		 [108] 'Supraglenoid gutter width'
+		 [109] 'Articular eminence position relative to occlusal plane'
+		 [110] 'Articular eminence summit'
+		 [111] 'Articular eminence form'
+		 [112] 'Posterior slope of articular tubercle'
+		 [113] 'Articular tubercle development'
+		 [114] 'Articular tubercle projection'
+		 [115] 'Articular tubercle and sub-temporal plane continuity'
+		 [116] 'Articular tubercle anteroposterior curvature'
+		 [117] 'Transverse concavity of articular tubercle'
+		 [118] 'Integration of entoglenoid formation with articular tubercle'
+		 [119] 'Ectoglenoid crest'
+		 [120] 'Width between the tympanic plate and entoglenoid process'
+		 [121] 'Entoglenoid process position relative to anterior zygomatic tubercle or ectoglenoid process'
+		 [122] 'Entoglenoid process projection'
+		 [123] 'Subarcuate fossa depth'
+		 [124] 'Preglenoid plane extent'
+		 [125] 'Sphenoid contribution to mandibular fossa'
+		 [126] 'Contribution of tympanic plate to mandibular fossa'
+		 [127] 'Orientation of anterior wall of TMJ'
+		 [128] 'Tubercle on anterior wall of TMJ'
+		 [129] 'Medial recess of mandibular fossa'
+		 [130] 'Mandibular fossa length'
+		 [131] 'Mandibular fossa depth'
+		 [132] 'Mandibular fossa overhang'
+		 [133] 'Convexity of posterior wall of mandibular fossa'
+		 [134] 'Mandibular fossa position'
+		 [135] 'Postglenoid process shape in norma frontalis'
+		 [136] 'Postglenoid and tympanic fusion'
+		 [137] 'Postglenoid process size'
+		 [138] 'Postglenoid process extent relative to the tympanic'
+		 [139] 'Vaginal process size'
+		 [140] 'Styloid process fusion'
+		 [141] 'Petrous apex ossified beyond spheno-occipital synchondrosis'
+		 [142] 'Petrous orientation'
+		 [143] 'Crista petrosa development'
+		 [144] 'Tympanic shape'
+		 [145] 'Tympanic trough'
+		 [146] 'Tympanic plate thickness'
+		 [147] 'Lateral tympanic extension'
+		 [148] 'Tegmen tympani'
+		 [149] 'Middle ear depth'
+		 [150] 'Axis of ear bones'
+		 [151] 'Area of inner ear'
+		 [152] 'Mediolateral position of external auditory meatus'
+		 [153] 'External auditory meatus size'
+		 [154] 'Tubercle behind external auditory meatus'
+		 [155] 'Orientation of the long axis of external auditory meatus'
+		 [156] 'Suprameatal spine'
+		 [157] 'Eustachian process of tympanic'
+		 [158] 'Mastoid fissure'
+		 [159] 'Squamotympanic fissure'
+		 [160] 'Squamotympanic fissure depth'
+		 [161] 'Maximum lateral projection of mastoid'
+		 [162] 'Mastoid process lateral inflation'
+		 [163] 'Mastoid process size'
+		 [164] 'Mastoid process orientation'
+		 [165] 'Mastoid tip position'
+		 [166] 'Mastoid face'
+		 [167] 'Supramastoid crest development'
+		 [168] 'Supramastoid crest and zygomatic process contact'
+		 [169] 'Supramastoid crest and lower temporal line continuity'
+		 [170] 'Supramastoid sulcus closes anteriorly'
+		 [171] 'Supramastoid sulcus width'
+		 [172] 'Tubercle above the supramastoid process'
+		 [173] 'Tubercle on supramastoid crest'
+		 [174] 'Mastoid crest projection'
+		 [175] 'Mastoid crest and upper temporal line contact'
+		 [176] 'Mastoid crest and supramastoid crest orientation'
+		 [177] 'Juxtamastoid eminence'
+		 [178] 'Digastric fossa depth'
+		 [179] 'Digastric fossa length'
+		 [180] 'Digastric fossa width'
+		 [181] 'Digastric fossa cross-section shape'
+		 [182] 'Digastric groove morphology'
+		 [183] 'Angular torus'
+		 [184] 'Pneumatization of temporal squama'
+		 [185] 'Temporal squama height'
+		 [186] 'Temporal squama shape'
+		 [187] 'Anterior contour of temporal squama'
+		 [188] 'Superior contour of temporal squama'
+		 [189] 'Posterior contour of temporal squama'
+		 [190] 'Squamosal suture overlap extensive, at least in males'
+		 [191] 'Anteromedial incursion of the superior temporal lines'
+		 [192] 'Position of temporal emphasis'
+		 [193] 'Temporal line projection'
+		 [194] 'Depression beneath the upper temporal line'
+		 [195] 'Position of temporal lines on parietal bones'
+		 [196] 'Depression between temporal lines'
+		 [197] 'Temporal band width in lateral view'
+		 [198] 'Temporal band projection'
+		 [199] 'Temporal line position'
+		 [200] 'Parietomastoid angle development'
+		 [201] 'Prelambdoidal depression'
+		 [202] 'Projection on lambdoid suture (processus asteriacus)'
+		 [203] 'Asterionic notch'
+		 [204] 'Upper occipital squama curvature'
+		 [205] 'Occipital squama shape'
+		 [206] 'Nuchal plane inclination'
+		 [207] 'Relative height of nuchal area'
+		 [208] 'Compound temporal nuchal crest in males'
+		 [209] 'Nuchal crest emphasis'
+		 [210] 'Occipital angulation'
+		 [211] 'Lower occipital squama shape'
+		 [212] 'Longus capitis insertion size'
+		 [213] 'Occipital torus development'
+		 [214] 'Expansion of occipital torus'
+		 [215] 'Occipital plane length'
+		 [216] 'Occipital supratoral sulcus'
+		 [217] 'Lateral occipital depression on occipital sulcus'
+		 [218] 'Occipital bun'
+		 [219] 'Depression above external occipital protuberance'
+		 [220] 'External occipital protuberance'
+		 [221] 'Tuberculum linearum on occipital'
+		 [222] 'External occipital crest'
+		 [223] 'Suprainiac fossa'
+		 [224] 'Walls of suprainiac fossa'
+		 [225] 'Retromastoid process'
+		 [226] 'Occipitomastoid crest'
+		 [227] 'Occipital torus and supramastoid crest contact'
+		 [228] 'Occipital torus to mastoid crest contact'
+		 [229] 'Occipital torus to upper temporal line contact'
+		 [230] 'Inion location'
+		 [231] 'Inion/endinion location'
+		 [232] 'Occipitomarginal sinus frequency'
+		 [233] 'Foramen magnum shape'
+		 [234] 'Foramen magnum position'
+		 [235] 'Foramen magnum inclination'
+		 [236] 'Cranial base breadth'
+		 [237] 'Basioccipital length'
+		 [238] 'Ethmo-sphenoid contact'
+		 [239] 'Cranial base flexion'
+		 [240] 'Posterior base shape'
+		 [241] 'Condylar canal'
+		 [242] 'Cerebellum position'
+		 [243] 'Anterior pole shape'
+		 [244] 'Enamel thickness'
+		 [245] 'Dental development rate'
+		 [246] 'Cingulum expression'
+		 [247] 'Sulcus obliqus development'
+		 [248] 'Fovea posterior development'
+		 [249] 'Incisal reduction'
+		 [250] 'Maxillary incisor heteromorphy'
+		 [251] 'Incisor procumbency'
+		 [252] 'Maxillary I2/C diastem'
+		 [253] 'Maxillary incisor-to postcanine ratio'
+		 [254] 'Lingual crenulations of maxillary I1'
+		 [255] 'Labial curvature of maxillary I1'
+		 [256] 'Shovel on maxillary I1'
+		 [257] 'Lingual median ridge on maxillary I1'
+		 [258] 'Lingual cervical prominence on maxillary I1'
+		 [259] 'Double shovel on maxillary I1'
+		 [260] 'Shovel shape in maxillary I2'
+		 [261] 'Lingual MMR and DMR on maxillary I2'
+		 [262] 'Canine robusticity'
+		 [263] 'Canine sexual dimorphism'
+		 [264] 'Mandibular deciduous canine shape'
+		 [265] 'Canine size reduction'
+		 [266] 'Extensive mesial groove on maxillary canine'
+		 [267] 'Lingual ridge development on maxillary canine'
+		 [268] 'Bushman canine on maxillary canine'
+		 [269] 'Distal accessory ridge development on maxillary canine'
+		 [270] 'Lingual shape of maxillary canine'
+		 [271] 'Shape of maxillary canine'
+		 [272] 'Cervical prominence on maxillary canine'
+		 [273] 'Shape of mandibular canine'
+		 [274] 'Lingual ridge development on mandibular canine'
+		 [275] 'Basal keel on mandibular canine'
+		 [276] 'Canine step'
+		 [277] 'Maxillary premolar molarization'
+		 [278] 'Buccal grooves on maxillary premolars'
+		 [279] 'P3 position'
+		 [280] 'Maxillary P3 cusp heteromorphy'
+		 [281] 'Maxillary P3 root number'
+		 [282] 'Maxillary P3 mesiobuccal line extent'
+		 [283] 'Mesiobuccal protrusion of P3 crown base'
+		 [284] 'Mandibular P3 root number'
+		 [285] 'Frequency of well developed metaconid on mandibular P3'
+		 [286] 'Mandibular P3 shape'
+		 [287] 'Lingual cusp on mandibular P4'
+		 [288] 'Mandibular P4 root number'
+		 [289] 'Mandibular P4 shape'
+		 [290] 'Postcanine crown area'
+		 [291] 'Size of M1 relative to M2'
+		 [292] 'Size of M1 relative to M3'
+		 [293] 'Size of M2 relative to M3'
+		 [294] 'Molar cingulum development'
+		 [295] 'Molar dentine horn height'
+		 [296] 'Maxillary molar morphology'
+		 [297] 'Protocristid groove prominence of mandibular molars'
+		 [298] 'Lingual marginal ridge development'
+		 [299] 'Positions of buccal and lingual cusps relative to crown margin'
+		 [300] 'Protoconid/metaconid more mesial cusp on molars'
+		 [301] 'Peak of enamel thickness between the roots of molars'
+		 [302] 'Maxillary M1 shape'
+		 [303] 'Cusp 5 on maxillary M1'
+		 [304] 'Enamel extension on maxillary M1'
+		 [305] 'Carabelli"s cusp on mandibular M1'
+		 [306] 'Anterior fovea on mandibular M1'
+		 [307] 'Cusp number on mandibular M1'
+		 [308] 'Protostylid on mandibular M1'
+		 [309] 'Cusp 7 on mandibular M1'
+		 [310] 'Root number on mandibular M1'
+		 [311] 'Mid-trigonid crest in mandibular M1 and/or M2'
+		 [312] 'Cusp 5 in mandibular M1 and/or M2'
+		 [313] 'Maxillary M2 shape'
+		 [314] 'Hypocone on maxillary M2'
+		 [315] 'Groove pattern on mandibular M2'
+		 [316] 'Cusp number on mandibular M2'
+		 [317] 'Root number on mandibular M2'
+		 [318] 'Maxillary M3 agenesis'
+		 [319] 'Torsomolar angle on mandibular M3'
+		 [320] 'Cervical prominences on molars'
+		 [321] 'Protocone size relative to paracone of deciduous m1, in occlusal view'
+		 [322] 'Deciduous mandibular m1 shape'
+		 [323] 'Talonid basin of deciduous m1'
+		 [324] 'Metaconid development on mandibular deciduous m1'
+		 [325] 'Deciduous m1 mesial crown profile'
+		 [326] 'Distal marginal ridge height of deciduous m2'
+		 [327] 'Distal trigonid crest on mandibular deciduous m2'
+		 [328] 'Crista obliqua of maxillary deciduous m2'
+		 [329] 'Mandibular symphysis robusticity'
+		 [330] 'Mandibular symphysis orientation'
+		 [331] 'Projection of mental protruberance'
+		 [332] 'Central keel'
+		 [333] 'Mandibular incurvation'
+		 [334] 'Subalveolar fossa'
+		 [335] 'Incisura submentalis'
+		 [336] 'Medial crest in digastric fossa'
+		 [337] 'Digastric fossa direction'
+		 [338] 'Lateral tubercle'
+		 [339] 'Inferior transverse torus development'
+		 [340] 'Post-incisive planum development'
+		 [341] 'Position of genioglossus insertion'
+		 [342] 'Position of geniohyoideus insertion'
+		 [343] 'Position of digastric insertion'
+		 [344] 'Fossae genioglossus definition'
+		 [345] 'Submandibular fossa depth'
+		 [346] 'Anterior marginal tubercle position'
+		 [347] 'Mental foramen opening direction'
+		 [348] 'Mental foramen position'
+		 [349] 'Mental foramen height'
+		 [350] 'Mental foramen number'
+		 [351] 'Hollowing above and behind mental foramen'
+		 [352] 'Torus marginalis superius development'
+		 [353] 'Torus marginalis inferius development'
+		 [354] 'Mandibular corpus depth along tooth row'
+		 [355] 'Mandibular cross-sectional area at M1'
+		 [356] 'Horizontal distance between TMJ and M2 or M3'
+		 [357] 'Mandibular extramolar sulcus width'
+		 [358] 'Retromolar space'
+		 [359] 'Retromolar area inclination'
+		 [360] 'Orientation of mandibular premolar row'
+		 [361] 'Separation of mandibular tooth rows'
+		 [362] 'Inferior alveolar margin orientation'
+		 [363] 'Sulcus intertoralis development'
+		 [364] 'Prominentia lateralis relief'
+		 [365] 'Prominentia lateralis position'
+		 [366] 'Ramus length'
+		 [367] 'Ramus root anterior position'
+		 [368] 'Ramus root vertical position'
+		 [369] 'Internal coronoid pillar orientation'
+		 [370] 'Crista ectocondyloidea development on the lateral face of the ramus'
+		 [371] 'Crista endocondyloidea relief on the medial face of the ramus'
+		 [372] 'Crista endocondyloidea orientation'
+		 [373] 'Position of the junction between the mandibular notch and the condyle articular surface'
+		 [374] 'Position of the deepest point of the mandibular notch'
+		 [375] 'Crest of the mandibular notch'
+		 [376] 'Planum triangulare size'
+		 [377] 'Planum triangulare depth'
+		 [378] 'Condyle height relative to the coronoid'
+		 [379] 'Lateral condylar tubercle development'
+		 [380] 'Fossa subcondylea depth'
+		 [381] 'Fossa subcondylea development'
+		 [382] 'Mandibular foramen shape'
+		 [383] 'Lingula mandibulae'
+		 [384] 'Mylohyoid line orientation'
+		 [385] 'Mylohyoid line position'
+		 [386] 'Mylohyoid groove orientation'
+		 [387] 'Bony bridge in mylohyoid groove'
+		 [388] 'Fossa masseterica depth'
+		 [389] 'Gonial profile'
+		 [390] 'Distinctiveness of angular process of mandible'
+		 [391] 'Pterygoid fossa depth'
+	;
+	STATELABELS
+		1
+		'Small'
+		'Intermediate'
+		'Medium'
+		'Large'
+		'Very large'
+		,
+		2
+		'Lateral flare with posterior protrusion'
+		'Tucked'
+		,
+		3
+		'Thin'
+		'Intermediate'
+		'Thick'
+		,
+		4
+		'Low'
+		'Very low'
+		'High'
+		,
+		5
+		'Long low cranium'
+		'Short high cranium'
+		,
+		6
+		'Low'
+		'Moderate'
+		'High'
+		,
+		7
+		'Close to cranial base'
+		'Cranial base biparietal similar'
+		'At biparietal'
+		,
+		8
+		'Low and broad'
+		'en bombe'
+		'en maison'
+		,
+		9
+		'Deviates from circle'
+		'Aligned with circle'
+		,
+		10
+		'Aligned with circle'
+		'Deviates from circle'
+		,
+		11
+		'Present'
+		'Absent'
+		,
+		12
+		'Absent'
+		'Present'
+		,
+		13
+		'Absent'
+		'Present'
+		,
+		14
+		'Present'
+		'Absent'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'Absent'
+		'Present'
+		,
+		17
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		'Extremely broad'
+		,
+		18
+		'Tapered'
+		'Squared'
+		,
+		19
+		'Bipartite'
+		'Straight'
+		,
+		20
+		'Prognathic'
+		'Mesognathic'
+		'Orthognathic'
+		,
+		21
+		'Low'
+		'High'
+		,
+		22
+		'Posterior'
+		'Intermediate'
+		'Anterior'
+		,
+		23
+		'Absent'
+		'Present'
+		,
+		24
+		'Absent'
+		'Precoronal plane present'
+		'Precoronal depression present'
+		,
+		25
+		'Absent'
+		'Present at upper part of squama'
+		'Present and continues laterally'
+		,
+		26
+		'Linear'
+		'Convex'
+		,
+		27
+		'Absent'
+		'Present'
+		,
+		28
+		'Absent'
+		'Present'
+		,
+		29
+		'Weak'
+		'Prominent'
+		,
+		30
+		'Not a block'
+		'Block'
+		,
+		31
+		'Absent'
+		'Present'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Absent'
+		'Present'
+		,
+		34
+		'Absent'
+		'Present'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Present'
+		'Absent'
+		,
+		37
+		'Absent'
+		'Present'
+		,
+		38
+		'Absent'
+		'Present'
+		,
+		39
+		'Present'
+		'Absent'
+		,
+		40
+		'Thick'
+		'Intermediate'
+		'Reduced'
+		,
+		41
+		'Medial to lateral'
+		'Lateral to medial'
+		,
+		42
+		'Torus'
+		'Intermediate'
+		'Weak'
+		,
+		43
+		'Less arched'
+		'Arched'
+		,
+		44
+		'Foramen'
+		'Comma shaped'
+		,
+		45
+		'Angled'
+		'Rounded'
+		,
+		46
+		'Superior'
+		'Posterior'
+		,
+		47
+		'Within orbit'
+		'Within infraorbital region'
+		,
+		48
+		'100'
+		'Variable'
+		,
+		49
+		'Narrow'
+		'Broad'
+		,
+		50
+		'Oval'
+		'Circular'
+		'Rectangular'
+		,
+		51
+		'Well above superior nasal margin'
+		'Close to superior nasal margin'
+		'Well below superior nasal margin'
+		,
+		52
+		'No'
+		'Yes'
+		,
+		53
+		'High'
+		'Low'
+		,
+		54
+		'Present'
+		'Absent'
+		,
+		55
+		'Tapered'
+		'Expanded'
+		'Not projected'
+		,
+		56
+		'None'
+		'Slight'
+		,
+		57
+		'Flat'
+		'Small curve'
+		'Well defined curve'
+		'Deep angled'
+		,
+		58
+		'Stepped'
+		'Smooth'
+		,
+		59
+		'Narrow'
+		'Wide'
+		'Not projecting'
+		,
+		60
+		'Absent'
+		'Anterior'
+		'Enlarged'
+		'Posterior'
+		,
+		61
+		'Lateral crest'
+		'Lateral turbinal and spinal crests'
+		'Fused spinal and turbinal crests and lateral crest'
+		'Fused lateral and spinal crests and turbinial crest'
+		'Fused lateral and spinal crests and partial fusion of spinal and turbinal'
+		'No crests'
+		,
+		62
+		'Sharp'
+		'Dull'
+		,
+		63
+		'Low'
+		'Intermediate'
+		'High'
+		,
+		64
+		'Short'
+		'Intermediate'
+		'Long'
+		,
+		65
+		'Convex'
+		'Straight'
+		'Concave'
+		,
+		66
+		'Furrowed'
+		'Flat'
+		'Ridged'
+		,
+		67
+		'Beyond bicanine line'
+		'Within bicanine line'
+		,
+		68
+		'Broad'
+		'Intermediate'
+		'Narrow'
+		,
+		69
+		'Longer than broad'
+		'Broader than long'
+		,
+		70
+		'Slight canal'
+		'Intermediate'
+		'Extensive canal'
+		,
+		71
+		'Thin'
+		'Thick'
+		,
+		72
+		'Canine'
+		'P3'
+		'P4'
+		,
+		73
+		'Shallow'
+		'Deep'
+		,
+		74
+		'Nearly horizontal'
+		'Steep posterior angle'
+		,
+		75
+		'Weak'
+		'Moderate'
+		'Marked'
+		,
+		76
+		'Inclined'
+		'Parallel'
+		,
+		77
+		'Absent'
+		'Present'
+		,
+		78
+		'Absent'
+		'Present'
+		,
+		79
+		'Absent'
+		'Present'
+		,
+		80
+		'Intermediate'
+		'Large'
+		,
+		81
+		'Posterior'
+		'Anterior'
+		,
+		82
+		'Sloped'
+		'Vertical'
+		'Lateral'
+		,
+		83
+		'Absent'
+		'Narrow'
+		'Wide'
+		,
+		84
+		'Foramen beneath middle third of orbital breadth'
+		'Foramen beneath medial third of orbital breadth'
+		,
+		85
+		'Patent'
+		'Obliterated'
+		'Trace'
+		,
+		86
+		'P3-P4'
+		'P4-M1'
+		'M1'
+		'M1-M2'
+		,
+		87
+		'Straight'
+		'Curved'
+		,
+		88
+		'Long'
+		'Intermediate'
+		'Short'
+		,
+		89
+		'Posteriorly inclined'
+		'Vertical'
+		'Anteriorly inclined'
+		,
+		90
+		'Low'
+		'High'
+		,
+		91
+		'At or below plane of orbital rim'
+		'Above plane of orbital rim'
+		,
+		92
+		'Frontal'
+		'Frontolateral'
+		'Lateral'
+		,
+		93
+		'Thin'
+		'Thick'
+		,
+		94
+		'Vertical'
+		'Laterally divergent'
+		,
+		95
+		'Indented'
+		'Curved'
+		,
+		96
+		'Low'
+		'High'
+		,
+		97
+		'Anterior'
+		'Posterior'
+		,
+		98
+		'Flat'
+		'Deeply excavated'
+		,
+		99
+		'Prominent'
+		'Slight'
+		,
+		100
+		'Absent'
+		'Present'
+		,
+		101
+		'Below orbit'
+		'At orbit'
+		'Above orbit'
+		,
+		102
+		'Marked'
+		'Slight'
+		,
+		103
+		'Sagittal'
+		'Deviant'
+		,
+		104
+		'Undivided'
+		'Divided'
+		,
+		105
+		'Above EAM'
+		'Above mandibular fossa'
+		'Slight'
+		,
+		106
+		'Marked'
+		'Moderate'
+		'Slight'
+		,
+		107
+		'Large'
+		'Intermediate'
+		'Small'
+		,
+		108
+		'Narrow'
+		'Wide'
+		,
+		109
+		'High above plane'
+		'Near plane'
+		,
+		110
+		'Posterior'
+		'Anterior'
+		,
+		111
+		'Single plane'
+		'Mediolateral twisted'
+		,
+		112
+		'Short'
+		'More pronounced'
+		'Steep'
+		,
+		113
+		'Not developed'
+		'Developed'
+		,
+		114
+		'Not or slightly projecting'
+		'Projecting'
+		,
+		115
+		'Continuous'
+		'Not continuous'
+		,
+		116
+		'Flat'
+		'Large rounded profile'
+		'Small rounded profile'
+		,
+		117
+		'Flat'
+		'Large rounded profile'
+		'Small rounded profile'
+		,
+		118
+		'Not integrated'
+		'Integrated'
+		,
+		119
+		'Absent'
+		'Present'
+		,
+		120
+		'Absent'
+		'Narrow'
+		'Wide'
+		,
+		121
+		'Same level'
+		'Posterior'
+		'Farther back'
+		,
+		122
+		'Projecting'
+		'Not projecting'
+		,
+		123
+		'Deep'
+		'Moderately deep to shallow'
+		'Very shallow to absent'
+		,
+		124
+		'Not stretched'
+		'Stretched'
+		,
+		125
+		'Absent'
+		'Present'
+		,
+		126
+		'None'
+		'Exclusive'
+		,
+		127
+		'Horizontal'
+		'Oblique'
+		'Vertical'
+		,
+		128
+		'Absent'
+		'Present'
+		,
+		129
+		'Absent'
+		'Present'
+		,
+		130
+		'Narrow'
+		'Wide'
+		,
+		131
+		'Shallow'
+		'Deep'
+		,
+		132
+		'<50%'
+		'>=50%'
+		,
+		133
+		'Flat or concave'
+		'Convex'
+		,
+		134
+		'Lateral'
+		'Medial'
+		'Flat'
+		,
+		135
+		'Rectangular'
+		'Round'
+		'Flat'
+		,
+		136
+		'Fused'
+		'Unfused'
+		,
+		137
+		'Large'
+		'Medium'
+		'Small'
+		,
+		138
+		'No overlap'
+		'Overlaps'
+		'Rudimentary or no postglenoid process'
+		,
+		139
+		'Small or absent'
+		'Moderate to large'
+		,
+		140
+		'Unfused'
+		'Fused'
+		,
+		141
+		'Not ossified'
+		'Ossified with projection'
+		,
+		142
+		'Sagittal'
+		'Intermediate'
+		'Coronal'
+		,
+		143
+		'Absent or weak'
+		'Moderate to strong'
+		,
+		144
+		'Tubular'
+		'Plate-like'
+		,
+		145
+		'Absent'
+		'Present'
+		,
+		146
+		'Thin'
+		'Thick'
+		,
+		147
+		'Medial to saddle'
+		'Lateral to saddle'
+		,
+		148
+		'Absent'
+		'Present'
+		,
+		149
+		'Shallow'
+		'Deep'
+		,
+		150
+		'Right angle or more'
+		'Acute angle'
+		,
+		151
+		'Low'
+		'Higher'
+		,
+		152
+		'Medial'
+		'Lateral'
+		,
+		153
+		'Small'
+		'Large'
+		,
+		154
+		'Absent'
+		'Present'
+		,
+		155
+		'Oblique'
+		'Vertical'
+		,
+		156
+		'Absent'
+		'Present'
+		,
+		157
+		'Present and prominent'
+		'Absent or slight'
+		,
+		158
+		'Absent'
+		'Present'
+		,
+		159
+		'Absent'
+		'Present'
+		,
+		160
+		'Shallow'
+		'Deep'
+		,
+		161
+		'High'
+		'Low'
+		,
+		162
+		'Not inflated'
+		'Inflated'
+		,
+		163
+		'Small'
+		'Large'
+		,
+		164
+		'Not medial'
+		'Medial'
+		,
+		165
+		'Anterior'
+		'Posterior'
+		,
+		166
+		'Single posterolateral'
+		'Discrete posterior and lateral'
+		'Single lateral'
+		,
+		167
+		'Weak'
+		'Marked'
+		,
+		168
+		'Not continuous'
+		'Continuous'
+		,
+		169
+		'Not continuous'
+		'Continuous'
+		,
+		170
+		'Absent'
+		'Present'
+		,
+		171
+		'Absent'
+		'Narrow'
+		'Wide'
+		,
+		172
+		'Absent'
+		'Present'
+		,
+		173
+		'Absent'
+		'Present'
+		,
+		174
+		'Weak'
+		'Strong'
+		,
+		175
+		'Not continuous'
+		'Continuous'
+		,
+		176
+		'Divergent anteriorly'
+		'Parallel'
+		,
+		177
+		'Absent'
+		'Present'
+		,
+		178
+		'Shallow'
+		'Deep'
+		,
+		179
+		'Short'
+		'Long'
+		,
+		180
+		'Narrow'
+		'Wide'
+		,
+		181
+		'Round'
+		'U-shaped'
+		'V-shaped'
+		,
+		182
+		'Bridged'
+		'Not bridged'
+		,
+		183
+		'Absent'
+		'Present'
+		,
+		184
+		'Extensive'
+		'Reduced'
+		,
+		185
+		'High'
+		'Low'
+		,
+		186
+		'Polygonal'
+		'Triangular'
+		,
+		187
+		'Rounded'
+		'Rectilinear'
+		,
+		188
+		'Rounded'
+		'Rectilinear'
+		,
+		189
+		'Flattened'
+		'Vertical'
+		,
+		190
+		'Not extensive'
+		'Extensive'
+		,
+		191
+		'Weak'
+		'Moderate'
+		'Strong'
+		,
+		192
+		'Posterior'
+		'Intermediate 1'
+		'Intermediate 2'
+		'Anterior'
+		,
+		193
+		'Slight'
+		'Marked projection'
+		,
+		194
+		'Absent'
+		'Present'
+		,
+		195
+		'Crest'
+		'Wide'
+		,
+		196
+		'Absent'
+		'Present'
+		,
+		197
+		'Narrow'
+		'Wide'
+		,
+		198
+		'Lines absent or weak'
+		'Lines visible but not protruding'
+		'Lines protruding'
+		,
+		199
+		'High'
+		'Low'
+		,
+		200
+		'Strong'
+		'Weak'
+		,
+		201
+		'Absent'
+		'Present'
+		,
+		202
+		'Absent'
+		'Present'
+		,
+		203
+		'Absent'
+		'Present'
+		,
+		204
+		'Flat or slightly concave'
+		'Convex'
+		,
+		205
+		'Pentagonal'
+		'Triangular'
+		,
+		206
+		'Steep'
+		'Intermediate'
+		'Weak'
+		,
+		207
+		'High'
+		'Low'
+		,
+		208
+		'Extensive'
+		'Partial'
+		'Absent'
+		,
+		209
+		'Lateral'
+		'Medial'
+		'Absent'
+		,
+		210
+		'<100'
+		'100 to 110'
+		'>110'
+		,
+		211
+		'Convex'
+		'Flat or slightly concave'
+		,
+		212
+		'Large'
+		'Small'
+		,
+		213
+		'Absent'
+		'Weak'
+		'Strong'
+		,
+		214
+		'Median'
+		'Transversal'
+		,
+		215
+		'Lengthened'
+		'Shortened'
+		,
+		216
+		'Absent'
+		'Present'
+		,
+		217
+		'Absent'
+		'Present'
+		,
+		218
+		'Absent'
+		'Present'
+		,
+		219
+		'Absent'
+		'Present'
+		,
+		220
+		'Absent'
+		'Present'
+		,
+		221
+		'Absent'
+		'Present'
+		,
+		222
+		'Absent'
+		'Present'
+		,
+		223
+		'Absent'
+		'Present'
+		,
+		224
+		'Convergent'
+		'Parallel'
+		'Divergent'
+		,
+		225
+		'Absent'
+		'Present'
+		,
+		226
+		'Absent'
+		'Present'
+		,
+		227
+		'Not continuous'
+		'Continuous'
+		,
+		228
+		'Not continuous'
+		'Continuous'
+		,
+		229
+		'Not continuous'
+		'Continuous'
+		,
+		230
+		'Below opisthocranion'
+		'At opisthocranion'
+		,
+		231
+		'Separate'
+		'Coincide'
+		,
+		232
+		'Low'
+		'Intermediate'
+		'High'
+		,
+		233
+		'Oval'
+		'Heart'
+		,
+		234
+		'Posterior'
+		'At line'
+		'Anterior'
+		,
+		235
+		'Posteriorly'
+		'Horizontal'
+		'Anteriorly'
+		,
+		236
+		'Narrow'
+		'Intermediate'
+		'Broad'
+		,
+		237
+		'Long'
+		'Intermediate'
+		'Short'
+		,
+		238
+		'Usually absent'
+		'Variable'
+		'Usually present'
+		'Present'
+		,
+		239
+		'Flat'
+		'Moderate'
+		'Flexed'
+		,
+		240
+		'Moderate'
+		'Squat'
+		'Elongate'
+		,
+		241
+		'Absent or infrequent'
+		'Frequently present'
+		,
+		242
+		'Not tucked'
+		'Tucked'
+		,
+		243
+		'Rounded'
+		'Beaked'
+		,
+		244
+		'Thin'
+		'Thick'
+		'Hyperthick'
+		,
+		245
+		'Delayed'
+		'Intermediate'
+		'Accelerated'
+		,
+		246
+		'Present'
+		'Absent'
+		,
+		247
+		'Weak to moderate'
+		'Strong'
+		,
+		248
+		'Absent or weak'
+		'Well developed'
+		,
+		249
+		'Not reduced'
+		'Moderate'
+		'Reduced'
+		,
+		250
+		'Dissimilar'
+		'Similar'
+		,
+		251
+		'Procumbent'
+		'Vertical'
+		,
+		252
+		'Present'
+		'Absent'
+		,
+		253
+		'Small'
+		'Moderate'
+		'Large'
+		,
+		254
+		'Absent'
+		'Marginal'
+		'Whole surface'
+		,
+		255
+		'Trace'
+		'Weak'
+		'Moderate'
+		'Pronounced'
+		,
+		256
+		'Absent'
+		'Faint'
+		'Trace'
+		,
+		257
+		'Moderate'
+		'Weak'
+		,
+		258
+		'Broad and uninflated'
+		'Narrow and inflated'
+		,
+		259
+		'Absent'
+		'Faint'
+		,
+		260
+		'Classic'
+		'Triangular'
+		'Absent'
+		,
+		261
+		'Yes'
+		'No'
+		,
+		262
+		'Slender'
+		'More robust'
+		,
+		263
+		'Hyper dimorphic'
+		'Strongly dimorphic'
+		'Moderately dimorphic'
+		'Monomorphic; small canines'
+		'Monomorphic; large canines'
+		,
+		264
+		'Apex central, mesial convexity low'
+		'Apex mesial, mesial convexity high'
+		,
+		265
+		'No'
+		'Somewhat'
+		'Very'
+		,
+		266
+		'Yes'
+		'No'
+		,
+		267
+		'Marked'
+		'Weak'
+		,
+		268
+		'Absent'
+		'Present'
+		,
+		269
+		'Absent'
+		'Faint'
+		'Weak'
+		,
+		270
+		'Asymmetric'
+		'More symmetric'
+		'Symmetric'
+		,
+		271
+		'Sharp, flared'
+		'Rounded, no cuspule'
+		,
+		272
+		'Narrow and uninflated'
+		'Broad and inflated'
+		,
+		273
+		'Asymmetrical'
+		'Symmetrical'
+		,
+		274
+		'Prominent'
+		'Weak'
+		,
+		275
+		'Present'
+		'Reduced'
+		'Absent'
+		,
+		276
+		'Absent'
+		'Present'
+		,
+		277
+		'None'
+		'Minor'
+		'Marked'
+		,
+		278
+		'Marked'
+		'Weak'
+		,
+		279
+		'Posterior'
+		'Posterolateral'
+		,
+		280
+		'Paracone much larger than protocone'
+		'Paracone larger than protocone'
+		'Paracone equals protocone'
+		,
+		281
+		'Two'
+		'>Two'
+		,
+		282
+		'Always'
+		'Frequent'
+		'Rare'
+		'Absent'
+		,
+		283
+		'Strong'
+		'Moderate'
+		'Weak or absent'
+		,
+		284
+		'One'
+		'Two'
+		,
+		285
+		'Absent'
+		'Infrequent'
+		'Frequent'
+		,
+		286
+		'Asymmetrical'
+		'Less asymmetrical, talonid reduced'
+		'Much less asymmetrical, talonid absent'
+		'Circular'
+		,
+		287
+		'Two, mesial cusp much larger'
+		'Two, mesial cusp larger'
+		'Two, cusps equal size'
+		'Two, distal cusp larger'
+		,
+		288
+		'One'
+		'Two'
+		,
+		289
+		'Asymmetrical, wide polygon'
+		'Asymmetrical, reduced polygon'
+		'Symmetrical'
+		,
+		290
+		'Small'
+		'Moderate'
+		'Large'
+		,
+		291
+		'>=1'
+		'<1'
+		,
+		292
+		'>=1'
+		'<1'
+		,
+		293
+		'>=1'
+		'<1'
+		,
+		294
+		'Reduced, incomplete'
+		'Fragmented or absent'
+		,
+		295
+		'HIgh'
+		'Low'
+		,
+		296
+		'Well developed cusps and cristae'
+		'Inflated cusps, limited cristae'
+		'Low cusps with enamel wrinkling'
+		'Flat, bunodont morphology'
+		,
+		297
+		'Prominent'
+		'Barely visible'
+		,
+		298
+		'Hardly appreciable'
+		'More prominent'
+		'Very prominent'
+		,
+		299
+		'BC and LC at margin'
+		'LC margin, BC slightly lingual'
+		'LC margin, BC moderately lingual'
+		'LC slightly buccal, BC moderately lingual'
+		'LC moderately buccal, BC strongly lingual'
+		,
+		300
+		'Equal'
+		'Protoconid'
+		,
+		301
+		'Thin'
+		'Thicker'
+		,
+		302
+		'Squared'
+		'Rhomboidal'
+		,
+		303
+		'Faint cuspule'
+		'Trace cuspule'
+		'Small cuspule'
+		,
+		304
+		'Absent'
+		'Faint'
+		,
+		305
+		'Lingual cingulum'
+		'Absent'
+		'Groove, small cusp'
+		'Pit, small cusp'
+		'Large depression, cusp'
+		,
+		306
+		'Faint'
+		'Weak'
+		'Moderate'
+		'Large'
+		,
+		307
+		'Five'
+		'Six'
+		,
+		308
+		'Absent'
+		'Absent-pit'
+		'Curved buccal groove'
+		'Curved mesial and distal grooves'
+		'Trace cusp'
+		'Small cusp'
+		,
+		309
+		'Absent'
+		'Faint'
+		'Small'
+		,
+		310
+		'Two'
+		,
+		311
+		'Absent'
+		'Present'
+		,
+		312
+		'Present'
+		'Absent'
+		,
+		313
+		'Broader than Long'
+		'Square'
+		,
+		314
+		'Small cusp'
+		'Large cusp'
+		'Very large cusp'
+		,
+		315
+		'Y'
+		'Some X'
+		'X'
+		,
+		316
+		'Four'
+		'Five'
+		'Six'
+		'Greater than 6'
+		,
+		317
+		'Less than 2'
+		'Two'
+		,
+		318
+		'Absent'
+		'Minimal'
+		,
+		319
+		'Absent'
+		'Minimal'
+		,
+		320
+		'Yes'
+		'No'
+		,
+		321
+		'Larger than paracone'
+		'Smaller than paracone'
+		,
+		322
+		'Buccolingually narrow'
+		'Buccolingually broad'
+		'Molarized'
+		,
+		323
+		'Open distally'
+		'Closed distally'
+		,
+		324
+		'Absent or poorly defined'
+		'Well defined'
+		,
+		325
+		'MMR absent, protoconid anterior, fovea open'
+		'MMR slight, protoconid anterior, fovea open'
+		'MMR thick, protoconid even with metaconid, fovea closed'
+		,
+		326
+		'Low'
+		'High'
+		,
+		327
+		'Does not reach protoconid apex'
+		'Reaches protoconid apex'
+		,
+		328
+		'Weak'
+		'Moderate'
+		'Strong'
+		,
+		329
+		'Gracile'
+		'Intermediate'
+		'Robust'
+		'Extremely robust'
+		,
+		330
+		'Receding'
+		'Vertical'
+		,
+		331
+		'Absent'
+		'Weakly projecting'
+		'Strongly projecting'
+		,
+		332
+		'Absent'
+		'Present'
+		,
+		333
+		'Absent'
+		'Present'
+		,
+		334
+		'Absent or slight'
+		'Moderate to prominent'
+		,
+		335
+		'Absent'
+		'Present'
+		,
+		336
+		'Absent'
+		'Present'
+		,
+		337
+		'Downward'
+		'Downward-backward'
+		'Backward'
+		,
+		338
+		'Absent'
+		'Present'
+		,
+		339
+		'Inferior torus stronger than superior torus'
+		'Both tori of similar development'
+		'Superior torus stronger than inferior torus'
+		'Both tori undeveloped'
+		,
+		340
+		'Prominent'
+		'Weak'
+		,
+		341
+		'Above inferior transverse torus'
+		'On inferior transverse torus'
+		,
+		342
+		'Basally on inferior transverse torus'
+		'Higher on inferior transverse torus'
+		'Above inferior transverse torus'
+		,
+		343
+		'Posterior to inferior transverse torus'
+		'Inferior transverse torus'
+		'Not on symphysis'
+		,
+		344
+		'Not defined, flat surface'
+		'Weak'
+		'Well defined'
+		,
+		345
+		'Shallow'
+		'Deep'
+		,
+		346
+		'Absent'
+		'Present'
+		,
+		347
+		'Anterior'
+		'Lateral'
+		'Posterior'
+		,
+		348
+		'P3-P4'
+		'P4-M1'
+		'M1'
+		,
+		349
+		'Very low'
+		'Low'
+		'Intermediate'
+		'High'
+		,
+		350
+		'Single'
+		'Multiple'
+		,
+		351
+		'Present'
+		'Absent'
+		,
+		352
+		'Weak/absent'
+		'Clearly visible'
+		,
+		353
+		'Weak/absent'
+		'Clearly visible'
+		,
+		354
+		'Shallow mesially'
+		'Constant'
+		'Deepens mesially'
+		,
+		355
+		'Small'
+		'Large'
+		,
+		356
+		'Long'
+		'Short'
+		,
+		357
+		'Broad'
+		'Narrow'
+		,
+		358
+		'Absent'
+		'Present'
+		,
+		359
+		'Horizontal'
+		'Inclined'
+		'Vertical'
+		,
+		360
+		'U shaped'
+		'Parabolic'
+		,
+		361
+		'Widely separated'
+		'Narrow separation'
+		,
+		362
+		'Steep'
+		'Slowly inclined'
+		'Parallel'
+		,
+		363
+		'Flat surface'
+		'Weak'
+		'Well defined'
+		,
+		364
+		'Flat surface'
+		'Weak'
+		'Strong'
+		,
+		365
+		'M1-M2'
+		'M2-M3'
+		'M3'
+		,
+		366
+		'Narrow'
+		'Large'
+		,
+		367
+		'Posterior'
+		'Intermediate'
+		'Anterior'
+		,
+		368
+		'High'
+		'Intermediate'
+		'Low'
+		,
+		369
+		'Vertical'
+		'Concave'
+		'Oblique'
+		,
+		370
+		'Weak/absent'
+		'Clearly defined'
+		,
+		371
+		'Weak/absent'
+		'Clearly defined'
+		,
+		372
+		'Oblique'
+		'Diagonal'
+		,
+		373
+		'Lateral'
+		'Medial'
+		,
+		374
+		'Centered'
+		'Condylar'
+		,
+		375
+		'Lateral edge of condyle'
+		'Less lateral'
+		'Less than a third of distance from medial end'
+		'Medial end'
+		,
+		376
+		'Weakly developed'
+		'Intermediate'
+		'Strongly developed'
+		,
+		377
+		'Flat'
+		'Shallow'
+		'Deep'
+		,
+		378
+		'Lower'
+		'Equal'
+		'Higher'
+		,
+		379
+		'No tubercle'
+		'Swelling under lateral lip'
+		'Laterally projected tubercle'
+		'Strongly projected tubercle'
+		,
+		380
+		'Flat'
+		'Shallow'
+		'Deep'
+		,
+		381
+		'Weakly developed'
+		'Intermediate'
+		'Strongly developed'
+		,
+		382
+		'Oval'
+		'Circular'
+		,
+		383
+		'Absent'
+		'Present'
+		,
+		384
+		'Parallel'
+		'Inclined'
+		'Diagonal'
+		,
+		385
+		'Low'
+		'Intermediate'
+		'High'
+		,
+		386
+		'Inclined'
+		'Diagonal'
+		,
+		387
+		'Absent'
+		'Present'
+		,
+		388
+		'Flat'
+		'Shallow'
+		'Deep'
+		,
+		389
+		'Not truncated'
+		'Truncated'
+		,
+		390
+		'Distinct with posterior projection'
+		'Not distinct'
+		,
+		391
+		'Shallow'
+		'Deep'
+		
+	;
+	MATRIX
+	'Gorilla gorilla'		                     0000?1??000100101??0000000001?00000?1100(0,1)0000001120(0,1)000?30???(0,1)0100010000002?01010120(0,1)300010100?010??010000010002100000000020?00001(0,1)?1011000?10000(0,1)0?10110001010?001100(0,1)?00200100(0,1)0(0,1)10?001(0,1)1100(1,2)0(0,1)0?0020010(0,1)010000?1021?00010(0,1)10?0(0,1)011??00001010010000??100?12130000?1110000000?0?001010200010?21?11100000200??00010210??1201100100000002100?00????20110??0(0,1)10?0??1(0,1)00??01?????00?????????????????????1?
+	'Pan troglodytes'		                     0000?1??000101101??000001(0,1)011?00100?010100100001111(0,1)0(0,1)0?30???(0,1)0100010000002?0101011012(0,1)1210100?010??0100(0,1)110100210(0,1)00000(0,1)02(0,1)?(0,1)00010?1011000?1(0,1)000(0,1)0?10100001010?00010001101(0,1)00000001??001(0,1)110010(0,1)0?0020010(0,1)010000?0021110010(0,1)10?1(0,1)111??00001020010000?00(0,1)1?121??00??1120000??0?0?0110101?0010??1?01111001100????????????0??????100000002100?00????20121??1000?0??1001??00?????00?????????????????????1?
+	'Sahelanthropus tchadensis'		           0????????????(0,1)??1??110??????1?????????10?00???0??11011????????201???????????010????0?0???1?1????1????????0??0?????????????????????0????10????(0,1)?0???????0????0????1?????????????????????0??????1??????????????(1,2)?0????????????????????????01?0???????0????0????????????03?1?????????1??????????????0???1?1??1?????????????1?????????????????????????????????0???????000??01??????????????????????????????
+	'Ardipithecus ramidus'		                ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????0????????????????0????????????0???????10????????0???????????????1?0???0?????????????????????????????????????????????????1?????????0???01????????????12?11?????????????1??1?0????0???1?0??2?????????????0?????????000?????????????????????0???0?????1??0???????????????????????????????
+	'Australopithecus anamensis'		          ?????????????????????????????????????????????????????????0??????0????10?0???01?1?????2???????????????????????????0????????????????0????????????0???????00??????????????????????????????0???????????????????????????????????????????????????????????1???01????????????12?11????????1????2??1?0????0???1?1??2?????????????0??????????11??220????????00??????1???0???0?1??01??????????????????????????????
+	'Australopithecus afarensis'		          0020?1??01000000?00(0,1)00???000?0??0??0?1110000000?0??00?1??010?012000?(0,1)101002?01010(0,1)?011(0,1)??10?01?00100(1,2)00001?0100??002????0021?00?100??0?1010??100110????01?11110?001?001??????1?11001??000?0000(1,2)01?0????00?1(0,1)?1100?1?0?1????011???11????201?21??1010100?01101211101000130110000000021000201(1,2)110110(1,2)1111?0??100010211100000112100001111002200?01????20?????1(0,1)01?0?11001??00?????11?????????????????????1?
+	'Australopithecus africanus'		          000202???001001010(0,1)(0,1)0(0,1)020(0,1)0(0,1)1(0,1)0010010111(0,1)110100?1120?0(0,1)000(0,1)1?(0,1)121(0,1)000101102?(0,1)1010020(0,1)102210(0,1)01011000100001100002101100021021?00011(0,1)?001(0,1)(0,1)10?1111010????01011010?001000(0,1)11?2110?000011?00101(0,1)101200(0,1)00201010102122210211111?0010?10000??101011?10000100?011(0,1)0111101000130110011000(0,1)2110021221201102111(0,1)01??301010420520000201100001111002200?00????20?????1(0,1)02?(0,1)?0100(0,1)??10?????11?????????????????????1?
+	'Australopithecus garhi'		              0???????????00????0000??????10?????0?11??00??????????????0???0120?0???0?0?2?010??????1?????????0?????????1????????????????????????????????????????????????????????????????????????????????????1???0????1???????????????????????????????????????????1????1?011????????1??110?????????10?2??2??????2????????1????????????????????????????????????????????????????????????0???????????????????????????????
+	'Kenyanthropus platyops'		              0????????????0?????101????????????????1??10???0??1?0?????0????2?1?1???0?1???0????????0???0?????00????????1????????????????????????(0,1)????????????0???????00????????????????????????1?0??????????(0,1)????????????????1???????????????????????00??????????1?????1???????????(0,1)??1??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+	'Paranthropus robustus'		               010??0??0?0100(0,1)0201112????0?11??0??0?1111011100?11111110?123?11220101211010?111110?01001210110110001(1,2)0010011000??1???????02?????1?(0,1)??0?02?1??211??1????11?100???11(0,1)?010??????1?01110??011??01023??0????10?00?2121?112??????111???10????202122?2?11122??0(1,2)0100122010?0131211002?1?120210203212?11?1111113??401?20421110??0202101002112112310?01????00?????1102?1?1(1,2)100??10?????11?????????????????????1?
+	'Paranthropus boisei'		                 0100?0??0101001(0,1)201112000100110000000110(0,1)0(0,1)1100?1110(0,1)11(0,1)?123?(0,1)1220100211(0,1)10?00(0,1)110?01000210(0,1)11110000201100010111110211020120?010111?001(0,1)(1,2)?1?1211?11????11000100?11101201011001110011??0(0,1)101(0,1)1123010002011000121(0,1)1?1121?100?0010?00011??212122?2111122??120100?11000?0131210??2?1?1202102?3212?11?2111113??400?21131300??0103?010?2112102310?(0,1)1????00?????1113?1?11100??10?????22?????????????????????1?
+	'Paranthropus aethiopicus'		            0000?0??010?0011101012????0?10??0??0??1110(0,1)1100?11111111?123?11220100211000?011??0??100020??11?1000020000001000??0???????0??????0?0??0?(0,1)1?0?1211??0????01?111???111?001??????1?0??????001??00121??0????00?10?2101?112??????001????1????011?21?01?0?2????1?100????????(0,1)??1??????????02?02??212??1?211111???40???????????????????0????2???(2,3)10?01?????0?????11(0,1)2?1??1100??10??????????????????????????????
+	'Australopithecus sediba'		             0?0??2????111?0??11100????1??1??0??1??01001?01?????00?21?011?10?120?0??11?2?010??1??210?????0011101011??12?0?????0???????0????????(0,1)??1????????????????????????????????0???????????????011??1??0???1?1?0????????2???????????????????????????????????1????1?101?11000?013?211001?0?12001010?212?31?21111?1??311?00410420???1011001????????110?11????01?????1102?0?0?01(0,1)??1???????????????????????????????
+	'Homo habilis'		                        11020(1,2)0?0001100011(0,1)100000(0,1)01(0,1)000(0,1)0011101(0,1)010100?112000211(0,1)(0,1)1?(0,1)(0,1)112001001(0,1)011(0,1)10111101(1,2)12110100101010110011101000000(0,1)1001(0,1,2)020?11011(0,1)01110(1,2)?(0,1)?121(0,1)(0,1)00????(0,1)1001110?0(0,1)(0,1)10?11(0,1)11(0,1)1001(0,1)1001?011(0,1)0(0,1)10(0,1)200(0,1)0010100(0,1)102112211(0,1)1011000(0,1)10?0(0,1)0100?00(1,2)112?220(0,1)01?0?01(0,1)(0,1)(0,1)1?111000113?11101101012011(0,1)21?2021200(1,2)0(0,1)1101??110000320220000101100101111002310?11????30?????1102?1?0101(0,1)??10?????11?????????????????????1?
+	'Homo rudolfensis'		                    21(0,1)??2??10001100211101?0010(0,1)(0,1)(0,1)000001011(0,1,2)(0,1)11?100?1120?121100??0(1,2)2111?1?01100100011(0,1)??111010?1?01000?0110011?0?000000020??10?1??(0,1)???(0,1)0?11(0,1)1????21(0,1)??0????0???1????00??0?110??10??????????1100(0,1)10020?1?(0,1)0010?0102122???(0,1)?0??000110???0????0???2?????(0,1)010??01?101111100?012?110011?1?12010121?2(0,1)2?21?(1,2)(0,1)111?1??110?00320220??0101100101???0??310?11????31?????1102?(0,1)?11(0,1)01??10?????11???????????????????????
+	'Homo erectus (African)'		              (1,2,3)1(0,1,2)20(1,2)0000(0,1)111(0,1)0211200000(0,1)01(0,1)000(0,1)111010(0,1,2)(0,1)011110?112001211(0,1)12(2,5)0(1,2)21200120(0,1)(0,1)0(0,2)10(0,1)0111?01(0,1,2)1111010010101011001(0,1,2)101002000(0,1)00(0,1)020?0011111(0,1)011102(1,2)1(0,1)?(1,2)1(0,1)0100???010001(0,1)11000102(0,1)0012(0,1)(0,1)(0,1)0(0,1)(0,1)(0,1)(0,1)(0,1)00(0,1)1(0,1)01(0,1)100210100(0,1,2)01000102122101(0,1)1(0,1)00(0,1)0(0,1)1102000(0,1)01?0(0,1)1222?22010110?0111021121000113021001111112001(0,1)21?202100000111?1??110010320120100101100101111?0?3100011100(1,3)1???200102011(0,1)1011011021200112????(0,1)302?2????00002010
+	'Homo erectus (Asian)'		                (2,3)?(0,1,2)201000001(0,1)11??1????1(0,1,2)(0,1,2)(0,1)(0,1)1(0,1)?0(0,1)(0,1)10?(0,1)?(0,1)(0,1)(0,1)0(0,1)111??11?1?0??30???0(1,2)?(0,1)20?1??1(0,1)0(0,1)10(0,1)0?11???11?1????0??10??11001(0,1,2)???00(0,1,2)001(0,1,2)2(0,1)1101?101(0,1,2)110(0,1)01110(1,2)01(0,1)?111010(0,1)???010(0,1)11(0,1)1(0,1)00(0,1)102(0,1)1(0,1)(0,1)(0,1,2)1(0,1)10(0,1)(0,1)(0,1)11101?(0,1)0(0,1)(0,1)10020(0,1)?0(0,1)(0,1,2)0?00(0,1)10212200?(1,2)1(0,1)(0,1)(0,1)(0,1)(0,1)0(0,1)1(0,1)(0,1,2)(0,1)(0,1)0(0,1)(0,1)100?1?2??22??0??0??1??01???10?11?30210??11111200102??2?20?0010111?1??10?0????????10???????1?1111????11001110000???1011021(0,1)(0,1)(0,1)?0?(0,1)011?2(0,1,2)1(0,1)0110(0,1)00(0,1)(0,1)?(0,1)1(0,1)2(0,1)(0,1,2)(0,1)(0,1)1100(0,1,2)0?0
+	'Homo heidelbergensis'		                (3,4)?(0,1,2)?(0,1)1(0,1)(0,1,2)??1011(0,1)???????(0,1)(0,1,2)01(0,1)(0,1)1?01(0,1)0(0,1)?(0,1)?(0,1)(0,1)011?11??11???1??11??(1,2,5)???020?1??11?0?00???(1,2)0??(1,2)1??????0???0???1??1(1,2)?????200(0,1)0(0,1,2)1(0,1)(0,1,2)01?0(0,1)11010(0,1)?(0,1)1(0,1)0(0,1)111?2110(0,1)?0???010(0,1)11(0,1)11?0(0,1)1??01(0,1)1(1,2)1(0,1)11(0,1)(0,1)(0,1)1110(0,1)?0000??0?(0,1)(0,1)?0(0,1)(0,1,2)0?00(0,1)1(0,1)?12?1(0,1)?(0,1)1(0,1)(0,1)0(0,1)0(0,1)1(0,1)(0,1)01(0,1)000(0,1)00?????????????1??1??01???10?11?3?211??11111200102??2022?0100111?1??1(0,1)?1????????11???????1????????110001110(0,1)(0,1)1???(1,2)112(1,2)(1,2)11(0,1)1?0?(0,1)(0,1)01?21(0,1,2)21??01(0,1)01(0,1)1211112(0,1)100102(0,1)?0
+	'Homo neanderthalensis'		               4?(0,1,2)?1121??1(0,1)(0,1)1(0,1)???????0(0,1,2)01001?00(0,1)1(0,1)?0?11001?11???1???????(0,1)??4???020?1???1?0?00???2???(2,3)???????0???0???1??12?????20010(0,1,2)11(0,2)1(0,1)?0(0,1)(0,1)00(0,1)10?01100?1(0,1)?211?0?0???01(0,1)(0,1)11(0,1)1(0,1)?01(0,1)??1(0,1)(0,1)1(1,2)1(0,1)(0,1)0(0,1)(0,1)(0,1)011(0,1)0?(0,1)00(0,1)??0?(0,1)1?0(0,1)01?(0,1)0(0,1)10?12??0?110(0,1)(0,1)(0,1)00001(0,1)0(0,1)000010?????????????1??1??01???10?11?3?211??11111200102??2022?0101(0,1)(0,1)1?1??1(0,1)?1????????11???????1????????11(0,1)0(0,1)1(0,1)1(0,1,2)(0,1)01???11(0,1)2(1,2)1(0,1)111?0?(0,1)101?2(0,1,2)(0,1,2)20??000011(1,2,3)1(0,1,2)0(2,3)(0,1,2)(0,1,2)(0,1)(0,1)2(0,1,2)0(0,1)0(0,1)?1
+	'Homo floresiensis'		                   ????????????0?0?????????????????1????????1?????????1?????0??????1??????2??????????2???1???????????????????????????11???11??1?11??1??????20??????10???????????10???????0?1??0?1?000???????0??????0???????1???????????1?0?????1????0?????????????????????????????????????????????????????????????1??????????????????????????????????????????0???????1???????????????0????????????????????????????????????
+	'Homo sapiens'		                        (3,4)10?12?2??1(0,1)(0,1)1(0,1)01??200(0,1)0(0,1)1(0,1)(0,1)(0,1)?01(0,1)01?011(1,2)02(0,1)110001(1,2)2(0,1)012?(0,1,2,3)1??(0,2,3)?20(0,1)20012001?0?0101?1001212110?00?010???1??12201??(0,1,2)00122(0,1)10(0,2)(0,1)2(0,1)11(0,1,2)00(0,1)1?(0,1)110211102110(0,1)?011101(0,1)(0,1)11(0,1)1(0,1)?011??01(0,1)12(0,1)(0,1)(0,1)(0,1)(0,1)111(0,1)10010000?00?(0,1)(0,1)?0(0,1)001(0,1)(0,1)(0,1)10212??01(0,1)(0,1)000(0,1)0(0,1)(0,1)10?(0,1)(0,1)0000010112232?11?1110021?011(0,1)110(0,1)211302111(1,2)111112(0,1)01020?2023(0,1)0200111010110?0(0,1)(0,1)(3,4)(0,1)0(0,1)(0,2)0010(0,1)(0,2)(0,1)(0,1)(0,1)1100111002112(0,1)1101(0,1,2)1(0,3)1021(0,1,2)(0,1)12(0,2)(1,2)010(0,1)101(0,1)(0,1)(1,2)10(0,1,2)(0,1,2)(0,1,2)(0,1,2)0??000000(0,2)(0,1,2)(0,1,2)(0,1,2)1(0,1,2)(0,1,2)(0,1)11(0,1,2)(0,1)0(0,1,2)(0,1)10
+	'Homo antecessor'		                     ??????????????0?????????????1?????????0??01??????????????1??2????????????????0???1???????????????????????2??????????????????1??????????????1??????????????????????0?????????????1????1?????0?????????????????????????????????????????????????????????0?????????????1??????????1?1????????????0??1????????????1????????10??????????????????0?0?1?00?1????0(0,1)?021?00???101??21101??001100?110?11?1101110?0
+	'Homo erectus (Georgian)'		             (1,2)?(0,1,2)?0100??011?(0,1)??1???????10(0,1)(0,1)???0?????(0,1)100(0,1)??1??11?1????20????1?(1,2)20?1??11?0100???12??(1,3)1?1????0???0???1??1(0,1)???????(0,1)(0,1)(0,1)???(1,2)10?110(0,1)?1(0,1)0(0,1)?1?0011??1?1(0,1)(0,1)?????01?(0,1)0101??0(0,1)???(0,1)?0??000?0(0,1)0?(0,1)??(0,1)?10?1??0?1???????(0,1)?0(0,1)??12?(1,2)(0,1)?(0,1,2)?(0,1)0?0?0110??00??1?0??????2??????0?????????????0??????????0?0?????0??????0?0011(0,1)(0,1)????????0????????10?????????????????11011(0,1)(0,1)00(0,2)1???1011011(0,1)(0,1)1?0?10(1,2)1?(0,2)(1,2)1(0,1)???1010???220?1211(0,1)(0,1)?????0
+	'Homo naledi'		                         (0,1)?0??2????111?1???????????1?????0?????01000?11??????????????????020?1??10?0?01???????0???????0???0??11??12???????0???????0??????0?(0,1)??1?02?0??201???????(0,1)0?010????10???1??????1?(0,1)11?0??1?1??0??0?????????1?01??12??1?1??????111???10????0????????????????2??01???10??1?3?211??1?1?1211102??212??(0,1)?01111?1??10???????????????????1?0111???11??11????01?????1203?0???0?0??1???????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 3 - 4 6 - 7 17 20 22 40 42 51 60 63 - 65 68 70 72 75 86 88 - 89 92 101 106 - 107 112 120 - 121 123 127 137 142 171 191 - 192 198 206 208 - 210 213 224 232 234 - 239 244 - 245 249 253 255 265 269 - 270 275 277 280 282 - 283 285 - 286 289 - 290 298 306 309 314 316 328 - 329 331 333 337 342 344 347 - 349 354 359 363 - 365 367 - 368 375 - 381 385 388, unord: 2 5 8 - 16 18 - 19 21 23 - 39 41 43 - 50 52 - 59 61 - 62 66 - 67 69 71 73 - 74 76 - 85 87 90 - 91 93 - 100 102 - 105 108 - 111 113 - 119 122 124 - 126 128 - 136 138 - 141 143 - 170 172 - 190 193 - 197 199 - 205 207 211 - 212 214 - 223 225 - 231 233 240 - 243 246 - 248 250 - 252 254 256 - 264 266 - 268 271 - 274 276 278 - 279 281 284 287 - 288 291 - 297 299 - 305 307 - 308 310 - 313 315 317 - 327 330 332 334 - 336 338 - 341 343 345 - 346 350 - 353 355 - 358 360 - 362 366 369 - 374 382 - 384 386 - 387 389 - 391;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1467310152637; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6351903210590291771; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8010122498854480065; mqVersion 304; checksumv 0 3 538460090 null getNumChars 391 numChars 391 getNumTaxa 24 numTaxa 24 short true bits 63 states 63 sumSquaresStatesOnly 36622.0 sumSquares 36622.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 105; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1223 624; setLocation 57 30; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #6351903210590291771 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #6351903210590291771; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1118 552; setLocation 57 30; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8010122498854480065 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1118 552; setLocation 57 30; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 221; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1118 552; setLocation 57 30; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 391; 
+ENDBLOCK;

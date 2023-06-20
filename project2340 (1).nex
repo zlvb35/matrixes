@@ -1,0 +1,362 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.22.28 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=40;
+    TAXLABELS
+    		'Acorus'
+		'Alisma'
+		'Alloschemone'
+		'Ambrosina'
+		'Amorphophallus'
+		'Anadendrum'
+		'Aquaephyllum'
+		'Arisaema'
+		'Arisarum'
+		'Arophyton'
+		'Butomus'
+		'Callopsis'
+		'Carlephyton'
+		'Cobbania corrugata'
+		'Cobbania hickeyi'
+		'Colocasia'
+		'Cyrtosperma'
+		'Gorgonidium'
+		'Gymnostachys'
+		'Hydrocharis'
+		'Lemna'
+		'Limnobiophyllum scutatum'
+		'Limnobium'
+		'Limnocharis'
+		'Ottelia'
+		'Philodendron'
+		'Pistia stratiotes'
+		'Peltandra'
+		'Pothos'
+		'Protarum'
+		'Sagittaria'
+		'Schismatoglottis'
+		'Spathicarpa'
+		'Spirodela'
+		'Stratiotes'
+		'Thalassia'
+		'Wolffia'
+		'Wolffiella'
+		'Zomicarpa'
+		'Zomicarpella'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789AB";
+	CHARLABELS
+		 [1] 'Habitat of growth'
+		 [2] 'Aquatic habit'
+		 [3] 'Phyllotaxy'
+		 [4] 'Stem'
+		 [5] 'Budding from pouch'
+		 [6] 'Vegetative reproduction by fragmentation'
+		 [7] 'Vegetative reproduction by stolons'
+		 [8] 'Stem stele'
+		 [9] 'prickles on stem or petiole'
+		 [10] 'Petiole'
+		 [11] 'Leaf'
+		 [12] 'Leaf (blade) shape'
+		 [13] 'Leaf division'
+		 [14] 'Leaf margin'
+		 [15] 'Auricle'
+		 [16] 'Major venation in leaf/frond'
+		 [17] 'Marginal vein'
+		 [18] 'Anastomosing veins/ reticulate'
+		 [19] 'Differentiataed conducting cells in leaf/frond venation'
+		 [20] 'Pubescence'
+		 [21] 'Roots'
+		 [22] 'Lateral roots'
+		 [23] 'Vessels in root'
+		 [24] 'Spathe'
+		 [25] 'Spadix/inflorescence with'
+		 [26] 'Flowers'
+		 [27] 'Perianth/perigonium'
+		 [28] 'Number of ovules per locule'
+		 [29] 'Placentation'
+		 [30] 'Ovule type'
+		 [31] 'Operculate seed'
+		 [32] 'Number of stamens'
+		 [33] 'Stamen connation'
+		 [34] 'Sporangia per anther'
+		 [35] 'Position of anther dehiscence'
+		 [36] 'Anther dehiscence'
+		 [37] 'Pollen shape'
+		 [38] 'Pollen aperture type'
+		 [39] 'Exine sculpturing'
+		 [40] 'Pollen wall ultrastructure'
+		 [41] 'Leaves with distinct abaxial pad or zone of aerenchyma'
+		 [42] 'Trumpet-shaped leaves with inflated aerenchylmatous petiole'
+		 [43] 'Leaf blade with apical notch'
+	;
+	STATELABELS
+		1
+		'not aquatic'
+		'freshwater or brackish'
+		'marine'
+		,
+		2
+		'helophytes'
+		'helophytes or amphibious'
+		'floating aquatics'
+		'submerged aquatics'
+		'rheophytes'
+		'amphibious'
+		,
+		3
+		'distichous'
+		'helical'
+		'subdistichous'
+		,
+		4
+		'with nodes and internodes'
+		'as centrum'
+		'apparently absent'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'actactostele'
+		'protostele or strand'
+		'absent'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'simple'
+		'compound'
+		,
+		12
+		'equitant'
+		'lnear to strap-shaped'
+		'sagittate or cordate (may be deeply lobed)'
+		'circular to reniform'
+		'ovate to linear'
+		'ovate to ovate-linear'
+		'globose/orbicular'
+		'globose'
+		'ovate to ovate-cuneate'
+		'pedatisect/radiatisect'
+		'linear to strap-shaped'
+		,
+		13
+		'not lobed'
+		'lobed'
+		,
+		14
+		'entire'
+		'not entire (serrate, dentate, crenate)'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'pinnate'
+		'not pinnate'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'present'
+		'absent'
+		,
+		20
+		'largely absent'
+		'as trichomes'
+		'as papillae'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'present'
+		'absent'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'numerous flowers'
+		'fewer than five flowers'
+		,
+		26
+		'bisexual'
+		'unisexual'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'six or more'
+		'five or less'
+		,
+		29
+		'axile or strongly intrusive placentae'
+		'apical'
+		'parietal, septa very reduced'
+		'basal, basal-parietal or basal-axile'
+		'basal and apical'
+		'laminar'
+		,
+		30
+		'anatropous and hemianatropous'
+		'amphitropous'
+		'orthotropous and hemiorthotropous'
+		'campylotropous'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'four to six'
+		'fewer than four or more than six'
+		,
+		33
+		'free'
+		'connate (and connate at base)'
+		,
+		34
+		'four'
+		'two'
+		'three'
+		,
+		35
+		'lateral'
+		'apical'
+		,
+		36
+		'by longitudinal slits'
+		'by oblique pore-like slits'
+		'by apical pores or apical slits'
+		'by single continuous slit'
+		,
+		37
+		'ellipsoid'
+		'boat-shaped'
+		'globose (spheroidal)'
+		,
+		38
+		'monosulcate'
+		'monoporate'
+		'zonate'
+		'inaperturate'
+		'ulcerate'
+		'polyaperturate'
+		'foraminate'
+		,
+		39
+		'foveolate-reticulate'
+		'spinose'
+		'striate'
+		'psilate'
+		'echinate'
+		,
+		40
+		'granular'
+		'alveolar'
+		'atectate'
+		'tectate/columellate'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Acorus'		                            1000001001000001110000010001020000000000000
+	'Alisma'		                            100000000003000101000001-(0,1)01330000002513000
+	'Alloschemone'		                      0-0000100000100000000000001131?00-11020-000
+	'Ambrosina'		                         0-100010000300000000000001101201000002(0,2)?000
+	'Amorphophallus'		                    0-1000(0,1)000170000000000000111300(0,1)001(0,2)031-000
+	'Anadendrum'		                        0-0000000003000000000000000130000000033-000
+	'Aquaephyllum'		                      ?????????00601101000????????????????????000
+	'Arisaema'		                          0-10001000140000000000000111120(0,1)1(0,1)(0,1)(0,2)1211000
+	'Arisarum'		                          0-1000000001000000000000011032010?0303(0,2)-000
+	'Arophyton'		                         0-1000000001000000000000011132011-12231-000
+	'Butomus'		                           10200010000300010-000001-000500100001003000
+	'Callopsis'		                         0-1000100001000000000000011130010012231-000
+	'Carlephyton'		                       0-10000000010000000000000101320(0,1)1-00231-000
+	'Cobbania corrugata'		                11100?0?000200010001000?????????????????111
+	'Cobbania hickeyi'		                  11100?0?000200000001000?????????????????111
+	'Colocasia'		                         (0,1)01000000001000000000000011012001012(0,1)2(1,2)?000
+	'Cyrtosperma'		                       101000101001000000000000000(0,1)100000000001000
+	'Gorgonidium'		                       0-10001000010000000000000111320(0,1)(0,1)?12030-000
+	'Gymnostachys'		                      0-00001001000101110000000001120000000001000
+	'Hydrocharis'		                       11100000000200010100001--100210010002311100
+	'Lemna'		                             11-21101-10300011102011011111(0,1,2)1100011110000
+	'Limnobiophyllum scutatum'		          1110010?01020001000100??11?????100??111(0,1)001
+	'Limnobium'		                         11100000000200010-000001-10?210110002311100
+	'Limnocharis'		                       111000000002000101000001-000330100002641000
+	'Ottelia'		                           11100010(0,1)10(1,3)0101?1000101-(0,1)00200100002341000
+	'Philodendron'		                      0-10001000(0,1)(1,3,7)(0,1)00000000000011(0,1)0(0,2)0(0,1)0012023?000
+	'Pistia stratiotes'		                 1110001000060001000100101110121110020221001
+	'Peltandra'		                         101000100001000000000000011132001112(0,2)31-000
+	'Pothos'		                            0-000010000300000000000000013000(0,1)-00000-000
+	'Protarum'		                          0-10001000170000000000000111320(0,1)1-12032-000
+	'Sagittaria'		                        101000000001000101000001-101230100002543000
+	'Schismatoglottis'		                  (0,1)3(0,1)00010000(1,3)00000-010000011(0,1)2001(0,1)-12033-000
+	'Spathicarpa'		                       0-100010000(1,3)10(0,1)0000000000111320(0,1)1-12033-000
+	'Spirodela'		                         11-11101-10200011102011011111(0,2)1100011110000
+	'Stratiotes'		                        101000101108010111000001-100200101002043000
+	'Thalassia'		                         221000010108010101000111-100500100002313000
+	'Wolffia'		                           11-21102-1050001111211?11111121101011110000
+	'Wolffiella'		                        11-21102-1030001111211?11111121101011110000
+	'Zomicarpa'		                         0-1000000001100(0,1)00000000011030010-12231-000
+	'Zomicarpella'		                      0-1000000001000(0,1)00000000011(0,1)30010012231-000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 43;
+      ENDBLOCK;
+      

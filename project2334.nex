@@ -1,0 +1,549 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-11 21.12.02 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+    		'M setosa granitica'
+		'M setosa metadenotricha'
+		'M setosa paludosa'
+		'M setosa nitens'
+		'M setosa rupigena'
+		'M melanocarpa'
+		'M setosa setosa'
+		'M setosa pseudomelas'
+		'M setosa urbana'
+		'M setosa urbica'
+		'M serpensetosa'
+		'M occidentalis novogaliciana'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=85;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789AB";
+	CHARLABELS
+		 [1] 'xylopodium'
+		 [2] 'habit'
+		 [3] 'stem, disposition'
+		 [4] 'Branching system'
+		 [5] 'filiform setae'
+		 [6] 'filiform setae, base, shape'
+		 [7] 'glandular setae'
+		 [8] 'prickles'
+		 [9] 'branch, prickles'
+		 [10] 'branch, trichomes'
+		 [11] 'branch, filiform setae'
+		 [12] 'branch, filiform setae orientation'
+		 [13] 'branch, glandular setae'
+		 [14] 'leaves, stipules, shape'
+		 [15] 'leaves, stipules, persitency'
+		 [16] 'leaves, stipules, abaxial face, trichomes'
+		 [17] 'leaves, stipules, abaxial face, filiform setae'
+		 [18] 'leaves, stipules, abaxial face, glandular setae'
+		 [19] 'leaves, stipules, margin, trichomes'
+		 [20] 'leaves, stipules, margin, filiform setae'
+		 [21] 'leaves, stipules, margin, glandular setae'
+		 [22] 'leaves, petiole, lenght relative to the pulvinus'
+		 [23] 'leaves, rachis, interpinnal projection'
+		 [24] 'leaves, rachis, lenght relative to the petiole'
+		 [25] 'leaves, rachis, prickles'
+		 [26] 'leaves, rachis, trichomes'
+		 [27] 'leaves, rachis, glandular setae'
+		 [28] 'leaves, medial rachilla, lenght relative to the rachis'
+		 [29] 'leaves, basal rachilla, lenght relative to the medial rachilla'
+		 [30] 'leaves, rachilla, paraphyllidia'
+		 [31] 'leaves, rachilla, glandular setae'
+		 [32] 'leaves, leaflets, secondadry veins promination in relation to primary veins'
+		 [33] 'leaves, leaflets, margin, filiform setae'
+		 [34] 'leaves, leaflets, margin, glandular setae'
+		 [35] 'leaves, leaflets, adaxial surface, trichomes'
+		 [36] 'leaves, leaflets, abaxial surface, trichomes'
+		 [37] 'inflorescence, exhibition'
+		 [38] 'inflorescence, associated leaf, development'
+		 [39] 'inflorescence, secondary arrangement'
+		 [40] 'inflorescence, peduncle lenght in relation to leaf stalk lenght of fully expanded leaf'
+		 [41] 'inflorescence, glomerule proportion of lenght to width'
+		 [42] 'inflorescence, masculine flowers at base'
+		 [43] 'floral bracts, shape'
+		 [44] 'floral bract, abaxial surface, veins promination'
+		 [45] 'floral bract, trichomes'
+		 [46] 'floral bract, glandular setae'
+		 [47] 'flower, calyx, lobes'
+		 [48] 'flower, calyx, lobes, plane projections'
+		 [49] 'flower, calyx, plane projections, location'
+		 [50] 'fusion'
+		 [51] 'flower, calyx, pedicel, filiform setae'
+		 [52] 'flower, calyx, rim, trichomes'
+		 [53] 'flower, calyx, rim, filiform setae'
+		 [54] 'flower, calyx, rim, glandular setae'
+		 [55] 'flower, calyx, tube apex, trichomes'
+		 [56] 'flower, calyx, tube apex, filiform setae'
+		 [57] 'flower, calyx, tube apex, glandular setae'
+		 [58] 'flower, corolla, shape'
+		 [59] 'flower, corolla, lobes, trichomes'
+		 [60] 'flower, corolla, lobes, filiform setae'
+		 [61] 'flower, corolla, lobes, glandular setae'
+		 [62] 'flower, corolla, lobes, indument coverage'
+		 [63] 'flower, corolla, lobes, veins, apex promination'
+		 [64] 'flower, ovary, thrichomes'
+		 [65] 'flower, ovary, filiform setae'
+		 [66] 'flower, ovary, glandular setae'
+		 [67] 'fruit, valves, segmentation'
+		 [68] 'fruit, articles, time of separation relative to dehiscence of valves and liberation of seeds'
+		 [69] 'fruit, valves, veins promination'
+		 [70] 'fruit, stipe, relative lenght to width'
+		 [71] 'fruit, shape'
+		 [72] 'fruit, base shape'
+		 [73] 'fruit, apex shape'
+		 [74] 'fruit, margin, ondulation'
+		 [75] 'fruit, valves, trichomes'
+		 [76] 'fruit, valves, filiform setae'
+		 [77] 'fruit, valves, glandular setae'
+		 [78] 'fruit, valves, prickles'
+		 [79] 'fruit, margin, trichomes'
+		 [80] 'fruit, margin, filiform setae'
+		 [81] 'fruit, margin, glandular setae'
+		 [82] 'fruit, margins, prickles'
+		 [83] 'fruit, indumentum, setae orientation'
+		 [84] 'fruit, indumentum, concenctric pattern of organization'
+		 [85] 'seed, position related do margins'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'shrub'
+		'subshrub'
+		'treelet'
+		,
+		3
+		'erect'
+		'prostrate'
+		'deflexed'
+		'humifuse'
+		,
+		4
+		'regular'
+		'pivotant'
+		'dicotomic'
+		'wandlike'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'tapering'
+		'bulbous'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'patent (or slightly inclined)'
+		'antrorse'
+		'retrorse'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'patent'
+		'incurved'
+		'forwardly appressed'
+		'retrorse'
+		'antrorse (but not appressed)'
+		'inclined'
+		,
+		13
+		'absent'
+		'present'
+		'clavate'
+		'capitate'
+		,
+		14
+		'lanceo-acuminate'
+		'linear'
+		'ovate-lanceolate'
+		'ovate'
+		'broadly-ovate-acuminate'
+		'narrowly triangular'
+		'triangular'
+		'broadly triangular'
+		'linear triangular'
+		'lanceolate'
+		'ovate acuminate'
+		,
+		15
+		'caducous'
+		'persistent'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'4:1 or more'
+		'1:1-2:1'
+		,
+		23
+		'absent'
+		'present'
+		'spiculate'
+		'laminar'
+		'glandular'
+		,
+		24
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		29
+		'1:2 or less'
+		'ca. 1:1'
+		'2:1 or more'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'not or less prominent'
+		'equally prominent'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'excerpt from foliage'
+		'nested in the foliage'
+		,
+		38
+		'do not develop'
+		'partially at anthesis, fully when in fruit'
+		'fully or almost so at anthesis'
+		'partially at anthesis, with a diminute leaf when in fruit'
+		,
+		39
+		'absent'
+		'frondose paniculate'
+		'bracteose paniculate'
+		,
+		40
+		'1:5 or less'
+		'1:2-1:3'
+		'ca. 1:1'
+		'ca. 2:1'
+		,
+		41
+		'ca. 1:1'
+		'ca. 2:1'
+		'ca. 3:2'
+		,
+		42
+		'present'
+		'absent'
+		,
+		43
+		'spatulate-acuminate'
+		'eliptic-rhombic'
+		'spatulate-elliptic'
+		'narrowly spatulate-acuminate'
+		'lanceolate'
+		'broadly spatulate-acuminate'
+		'linear'
+		'spatulate-rhombic'
+		'spatulate'
+		'oblong-acuminate'
+		,
+		44
+		'not prominent'
+		'prominent'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'fringed'
+		'very shallowly triangular'
+		'ovate'
+		'triangular'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		'State 2'
+		'ovate'
+		,
+		49
+		'troughout rim'
+		'present just in half or less of rim'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'infundibuliform'
+		'campanulate'
+		'narrowly infundibuliform'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'do not conceals surface'
+		'conceals suface'
+		,
+		63
+		'not prominent'
+		'prominent'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'integer'
+		'partially articulated'
+		'completely articulated'
+		,
+		68
+		'together'
+		'after'
+		,
+		69
+		'not prominent'
+		'prominent'
+		,
+		70
+		'less then 4x'
+		'5x or more'
+		,
+		71
+		'oblong'
+		'rounded'
+		'narrowly oblong'
+		'elliptic'
+		,
+		72
+		'cuneate'
+		'rounded'
+		'obtuse'
+		'attenuate'
+		,
+		73
+		'acute'
+		'rounded'
+		'obtuse'
+		'apiculate'
+		,
+		74
+		'no'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'patent'
+		'incurved'
+		'forwardly appressed'
+		'retrose'
+		'antrorse (not appressed)'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'paralel'
+		'perpendicular'
+		'inclined'
+		
+	;
+	MATRIX
+	'M setosa granitica'		                    00011(0,1)1(0,1)(0,2)(0,1)(0,1)(0,4)10000011103211100111110000?001010121010000000101010010211100(1,2)011(0,1)?11(0,1)?401
+	'M setosa metadenotricha'		               ?00?101(0,1)(0,1,2)1101(0,6)0111111022(0,1)110001011000100000?11(0,2)0--0(0,1)(0,1)0000011101011(0,2)(0,1)000(0,2)(1,2)0111?111?001
+	'M setosa paludosa'		                     0(0,2)00101111101(0,1,5,8)0(0,1)(0,1)(0,1)111(0,1)(0,2,4)2111(0,1)11101100?10(0,1)0(0,1)01(0,1)1(0,2)(0,1)000(0,1)(0,1)(0,1)0(0,1)(0,1)0(0,1)(0,1)(0,1)010112(0,1)(0,1)02(0,3)(0,2)0(0,1)11(0,1)111(0,1)00(0,2)
+	'M setosa nitens'		                       10011(0,1)100(0,1)14(0,1)00(0,1)0(0,1)(0,1)1(0,1)032011201(0,1)0(0,1)(0,1)00(0,1)110003?1121100(0,1)0(0,1)00(0,1)000(0,1)0011110?00020100?101??01
+	'M setosa rupigena'		                     ?00?1110-012010000010032-1(0,1)0011011111(0,1)?001311(0,1)010?00000000111000112??00(1,2)20101-101-001
+	'M melanocarpa'		                         ?0001010-110110100111032011001101111031(0,1)1000110(0,1)0(0,1)10100(0,1)0001(0,1)1?1112001233111101110002
+	'M setosa setosa'		                       0000101(0,1)(0,2)1101001111110320110111011(0,1)(0,1)(0,1)100(0,1)131110101000(0,1)0(0,1)00(0,1)(0,1)10111120000(1,2)(1,2)0111?111?002
+	'M setosa pseudomelas'		                  ?000101?(0,2)1101(5,8)01111110(2,3)2(0,1)110(0,1)11011110110003?1101010(0,1)01000011101000200(0,1)0000101?111??02
+	'M setosa urbana'		                       113?1010-110000(0,1)(0,1)0110?(2,3)101(0,1)011(0,1)0100001?001311101(0,1)?00000000111011112??00(1,2)1011(0,1)?11(0,1)?001
+	'M setosa urbica'		                       000?1010-110(0,1)001101100320(0,1)(0,1)011(0,1)0100001??(0,1)1311(0,1)01010(0,1)000000(0,1)110101021?0021011(0,1)?11(0,1)?00?
+	'M serpensetosa'		                        ?0(2,3)?1011(0,1)1101(0,5)(0,1)10(0,1)111022(0,1)11(0,1)01101(0,1)(0,1)10111003?11010?(0,1)01(0,1)00(0,1)01110101110?0(0,2)(0,1)(1,2)0101?111??0?
+	'M occidentalis novogaliciana'		          ?0??0-11110-1(1,2)0001101?321??0(0,1)1?10100?1???01???30-?0?(0,1)1???00(0,1)1????????????0???????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 85;
+      ENDBLOCK;
+      BEGIN LABELS;
+ CHARGROUPLABEL Branch COLOR = (RGB 1 0.85490196 0.26666667) ; CHARGROUPLABEL 'Leaves, stipules' COLOR = (RGB 0.88627451 1 0.43529412) ; CHARGROUPLABEL Leaves COLOR = (RGB 0.78039216 1 0.63529412) ; CHARGROUPLABEL 'Leaves, petiole' COLOR = (RGB 0.61960784 1 0.36862745) ; CHARGROUPLABEL 'Leaves, rachis' COLOR = (RGB 0.46666667 1 0.33333333) ; CHARGROUPLABEL 'Leaves, rachilla' COLOR = (RGB 0.45882353 1 0.10196078) ; CHARGROUPLABEL 'Leaves, leaflets' COLOR = (RGB 0.03529412 1 0.03529412) ; CHARGROUPLABEL Inflorescence COLOR = (RGB 0.65490196 0.56862745 1) ; CHARGROUPLABEL Flower COLOR = (RGB 0.89411765 0.46666667 1) ; CHARGROUPLABEL Fruit COLOR = (RGB 0.6 0.76078431 1) ; CHARGROUPLABEL Root COLOR = (RGB 1 0.33333333 0.33333333) ; CHARGROUPLABEL Indumentum COLOR = (RGB 1 0.73333333 0.66666667) ; CHARGROUPLABEL Habit COLOR = (RGB 1 0.6 0.6) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1425601952298; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7721618128367441491; tell It; setDefaultOrder 144 83 4 102 94 66 84 92 97 96 30 93; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4389840515968735988; tell It; setDefaultOrder 1 0 2 3 13 23 13 14 20 17 33 19 32 30 33 116 127 128 34 35 38 36 176 42 43 49 51 44 61 170 56 59 177 178 179 167 71 179 74 75 73 77 88 79 80 82 164 102 89 86 89 91 92 96 92 93 94 170 174 175 176 99 101 102 103 104 175 108 106 138 111 112 113 114 121 121 121 117 123 124 131 121 117 128 128; attachments ; endTell; mqVersion 302; checksumv 0 3 2157246901 null getNumChars 85 numChars 85 getNumTaxa 12 numTaxa 12 short true bits 2305843009213694335 states 383 sumSquaresStatesOnly 179764.0 sumSquares -4.7039197387959344E20 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false true 204; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 725; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #7721618128367441491 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #7721618128367441491; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; newAssistant #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 653; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4389840515968735988 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 210; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 653; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 215; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Yellow; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 453; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 653; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.Wand.Wand; tell It; toggleWholeMatrix off; toggleSingleCharacter on; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4389840515968735988 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; getTable; tell It; columnWidth 2 124; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 653; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; newAssistant #mesquite.basic.TextWindowMaker.TextWindowMaker; tell It; setText ; setTitle Note_2; getWindow; tell It; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 703; setLocation 4 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; hideWindow; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 85; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARPARTITION * UNTITLED = Root : 1, Habit : 2 - 4, Indumentum : 5 - 8, Branch : 9 - 13, 'Leaves, stipules' : 14 - 21, 'Leaves, petiole' : 22, 'Leaves, rachis' : 23 - 27, 'Leaves, rachilla' : 28 - 31, 'Leaves, leaflets' : 32 - 36, Inflorescence : 37 - 46, Flower : 47 - 66, Fruit : 67 - 85; 
+ENDBLOCK;

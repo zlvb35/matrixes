@@ -1,0 +1,148 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 01.14.42 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=13;
+    TAXLABELS
+    		'Aiolochroia crassa'
+		'Aplysina aerophoba'
+		'Aplysina cauliformis'
+		'Aplysina fistularis'
+		'Aplysina fulva'
+		'Aplysinella rhax'
+		'Ianthella basta'
+		'Pseudoceratina arabica'
+		'Smenospongia aurea'
+		'Verongula gigantea'
+		'Verongula reiswigi'
+		'Verongula rigida'
+		'Chondrilla nucula'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=13;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Growth form'
+		 [2] 'Surface texture'
+		 [3] 'Aerophobic'
+		 [4] 'Fiber skeleton'
+		 [5] 'Debris in mesohyl'
+		 [6] 'Fiber specialization'
+		 [7] 'Oscular arrangement'
+		 [8] 'Choanocyte chambers'
+		 [9] 'Spongocytes in fibers'
+		 [10] 'Collagen in mesohyl'
+		 [11] 'Fiber diameter'
+		 [12] 'Pith diameter'
+		 [13] 'Pith percentage'
+	;
+	STATELABELS
+		1
+		'mound'
+		'tubular'
+		'rope-like'
+		'turbinate'
+		'fan'
+		'encrusting'
+		'massive'
+		,
+		2
+		'smooth'
+		'finely conulose'
+		'conulose'
+		'ridged'
+		'honeycomb'
+		'pitted'
+		,
+		3
+		'yes'
+		'no'
+		,
+		4
+		'reticulated'
+		'dendritic'
+		'absent'
+		,
+		5
+		'yes'
+		'no'
+		,
+		6
+		'primary'
+		'primary/secondary'
+		'absent'
+		,
+		7
+		'single'
+		'row'
+		'staggered'
+		'apical'
+		'random'
+		,
+		8
+		'diplodal'
+		'eurypylous'
+		'aphodal'
+		,
+		9
+		'yes'
+		'no'
+		,
+		10
+		'heavy'
+		'light'
+		,
+		11
+		'A'
+		'B'
+		'CDE'
+		'F'
+		'G'
+		'H'
+		,
+		12
+		'A'
+		'B'
+		'C'
+		'D'
+		'E'
+		'F'
+		'G'
+		,
+		13
+		'A'
+		'B'
+		'C'
+		'D'
+		'E'
+		'F'
+		
+	;
+	MATRIX
+	'Aiolochroia crassa'		              0301103010103
+	'Aplysina aerophoba'		              0000103010542
+	'Aplysina cauliformis'		            2000101010055
+	'Aplysina fistularis'		             1000100010455
+	'Aplysina fulva'		                  2000102010355
+	'Aplysinella rhax'		                62011030100--
+	'Ianthella basta'		                 4100104100234
+	'Pseudoceratina arabica'		          2301004010260
+	'Smenospongia aurea'		              0410113011---
+	'Verongula gigantea'		              3500100010223
+	'Verongula reiswigi'		              1500104010211
+	'Verongula rigida'		                0500103010431
+	'Chondrilla nucula'		               5012124210---
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 13;
+      ENDBLOCK;
+      
