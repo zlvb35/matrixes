@@ -1,0 +1,459 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-22 17.27.01 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=40;
+    TAXLABELS
+    		'Rhinobatos'
+		'Raja'
+		'Heliobatis'
+		'Asterotrygon'
+		'Hexatrygon'
+		'Plesiobatis'
+		'Urolophus'
+		'Trygonoptera'
+		'Urobatis'
+		'Urotrygon'
+		'Paratrygon'
+		'Plesiotrygon'
+		'Potamotrygon'
+		'"Himantura"'
+		'Taeniura'
+		'Himantura'
+		'Hypolophites'
+		'Dasyatis'
+		'Pteroplatytrygon'
+		'Gymnura'
+		'Apocopodon'
+		'Igdabatis sigmodon'
+		'Brachyrhizodus'
+		'Myliobatis freminvillii'
+		'Myliobatis goodei'
+		'Myliobatis aguila'
+		'Myliobatis californicus'
+		'Myliobatis striatus'
+		'Myliobatis toliapicus'
+		'Myliobatis dixoni'
+		'Myliobatis wurnoensis'
+		'Weissobatis micklichi'
+		'Aetobatus narinari'
+		'Aetobatus arcuatus'
+		'Aetobatus irregularis'
+		'Rhinoptera quadriloba'
+		'Rhinoptera bonasus'
+		'Rhinoptera davisei'
+		'Mobula'
+		'Manta hamiltoni'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=65;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] '(01, CMG) Tubules of subpleural components of hyomandibular lateral line canals'
+		 [2] '(02, CMG) Subpleural components of the hyomandibular lateral line canals'
+		 [3] '(03, CMG) Suborbital components of infraorbital lateral line canals'
+		 [4] '(04, CMG) Scapular loops formed by scapular components of trunk lateral line canals'
+		 [5] '(05, CMG) Anterior process of neurocranium'
+		 [6] '(06, CMG) Preorbital process'
+		 [7] '(07, CMG) Preorbital canal for passage of superficial opthalmic nerve'
+		 [8] '(08, CMG) Foramen for the optic (II) nerve'
+		 [9] '(09, CMG) Postorbital process of neurocranium'
+		 [10] '(10, CMG) Extent of orbital region'
+		 [11] '(11, CMG) Postorbital process'
+		 [12] '(12, CMG) Ventrolateral expansion of nasal capsules'
+		 [13] '(13, CMG) Articulation between hyomandibula and Meckel''s cartilage'
+		 [14] '(14, CMG) Angular cartilages'
+		 [15] '(15, CMG) Secondary hyomandibular cartilages'
+		 [16] '(16, CMG) Symphysial fusion of upper and lower jaws'
+		 [17] '(17, CMG) Mandibular width at symphisis'
+		 [18] '(18, CMG) Lateral projections of lower jaws'
+		 [19] '(20, CMG) Basihyal cartilage'
+		 [20] '(21, CMG) Fusion of ventral pseudohyoid and first ceratobranchial'
+		 [21] '(22, CMG) Arrangement of posterior ceratobranchials'
+		 [22] '(23, CMG) Median projection of the basibranchial medial plate'
+		 [23] '(24, CMG) Articulation between fifth epi- and ceratobranchial elements to scapulocoracoid'
+		 [24] '(25, CMG) Lateral stay of synarcual'
+		 [25] '(26, CMG) Fossa on dorsal scapular region'
+		 [26] '(27, CMG) Contact between pro- and mesopterygium in the pectoral fin'
+		 [27] '(28, CMG) Distinct components of the mesopterygium'
+		 [28] '(29, CMG) Lateral expansion of radials in pectoral region'
+		 [29] '(30, CMG) External margin of mesopterygium'
+		 [30] '(31, CMG) Median prepelvic process'
+		 [31] '(32, CMG) Pelvic girdle shape'
+		 [32] '(33, CMG) Dorsal fin'
+		 [33] '(34, CMG) Cartilaginous rod in tail'
+		 [34] '(35, CMG) Caudal fin'
+		 [35] '(36, CMG) Adductor mandibulae complex'
+		 [36] '(37, CMG) Spiracularis muscle'
+		 [37] '(38, CMG) Depressor mandibularis muscle'
+		 [38] '(39, CMG) Coracohyoideus muscle'
+		 [39] '(40, CMG) Urea retention'
+		 [40] '(41, CMG) Rectal gland'
+		 [41] '(42, CMG) Spiracular tentacle'
+		 [42] '(43, CMG) Cephalic lobes'
+		 [43] '(44, CMG) Nasal curtain'
+		 [44] '(modified from 19, CMG) Tooth type in both upper and lower jaws'
+		 [45] '(modified from 19, CMG) Arrangement of teeth in both upper and lower jaws'
+		 [46] '(modified from 19, CMG) Tooth shape'
+		 [47] 'Lateral teeth'
+		 [48] 'Differentiation of median teeth from lateral teeth'
+		 [49] 'Differentiation among lateral teeth'
+		 [50] 'Relative amount of curvature in expanded lower teeth'
+		 [51] 'Upper tooth curvature'
+		 [52] 'Direction of tooth curvature'
+		 [53] 'Tooth association'
+		 [54] 'Tooth Interlocking mechanism'
+		 [55] 'Shape of interlocking tongue'
+		 [56] 'Crown height'
+		 [57] 'Occlusal surface'
+		 [58] 'Crown shape in anterior or posterior view'
+		 [59] 'Lateral margins'
+		 [60] 'Root type'
+		 [61] 'Number of roots'
+		 [62] 'Roots in basal view'
+		 [63] 'Distance between roots'
+		 [64] 'Inclination of roots'
+		 [65] 'Root groove position'
+	;
+	STATELABELS
+		1
+		'not branched at extremities'
+		'extremities dichotomously branched'
+		,
+		2
+		'posterior branch extends caudally more or less parallel to longitudinal body axis'
+		'posterior branch inflects towards midline to form a lateral hook'
+		'posterior branch inflects to continue anteriorly almost paralllel to anterior branch, forming a large indentation'
+		,
+		3
+		'projecting posteriorly lateral to mouth'
+		'projecting posteriorly lateral to mouth and anteriorly lateral to nasal openings'
+		'forming a complex weblike pattern on lateral aspects of the anteroventral disc region'
+		,
+		4
+		'absence of loops'
+		'presence of scapular loops'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'dorsally located'
+		'anteriorly located'
+		,
+		8
+		'moderately sized'
+		'very enlarged'
+		,
+		9
+		'infraorbital lateral line canal separates postorbital process from small, anterior triangular outgrowth (supraorbital process) of the supraorbital crest'
+		'postorbital process with small foramen for passage of infraorbital lateral line canal'
+		,
+		10
+		'orbital region of neurocranium long'
+		'shortened orbital region with more anteriorly placed supraorbital and postorbital process'
+		,
+		11
+		'without ventrolateral projection'
+		'continuing ventrolaterally to form a cylindrical projection'
+		,
+		12
+		'nasal capsules laterally expanded'
+		'nasal capsules ventrolaterally expanded'
+		,
+		13
+		'hyomandibulae directly attached to lower jaws'
+		'hyomandibulae articulating with lower jaws through strong, stout ligament (hyomandibular-Meckeclian ligament) at distal tip'
+		,
+		14
+		'absence of angular cartilages within hyomandibular-Meckelian ligament'
+		'presence of angular cartilages within ligament'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'antimeres separate at symphysis'
+		'both antimeres of jaws symphysially fushed'
+		,
+		17
+		'lower jaws slender at symphysis'
+		'lower jaws symphysially thickened'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'basihyal laterally elongated, fused to first hypobranchialis'
+		'basihyal a single element, but separate from first hypobranchials'
+		'basihyal separate from first hypobranchials but fragmented into more than one component'
+		'basihyal absent'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'separate from each other'
+		'ankylosis between forth and fifth ceratobranchials'
+		'fourth and fifth ceratobranchials fused to each other'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'close together'
+		'widely separated'
+		,
+		24
+		'originates ventral to spinal nerve foramina'
+		'originates dorsal to spinal nerve foramina'
+		'contacting synarchual both dorsally and ventrally to foramina'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'mesopterygium single element'
+		'fragmented'
+		'missing altogether'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'more or less straight, not fused to radials'
+		'undulated, not fused to radials'
+		'highly sinuous, appearing to be fused with articulating radial elements'
+		,
+		30
+		'absent or weakly developed'
+		'very elongated'
+		,
+		31
+		'not arched or only moderately so'
+		'greatly arched'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'present'
+		'reduced to tail-folds'
+		'absent'
+		,
+		35
+		'without posteromedial extension'
+		'posteromedial extension present'
+		,
+		36
+		'projecting ventrally to insert on either palatoquadrate, Meckel''s cartilage, and or hyomandibula'
+		'projecting ventrally and posteirorly beyond hyomandibulae and both sets of jaws to insert dorsal to coracomandibularis'
+		'projecting ventrally and posteirorly beyond hyomandibulae and both sets of jaws to insert ventral  to coracomandibularis'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'not connected at midline'
+		'connected at midline'
+		,
+		39
+		'urea retaind in blood'
+		'urea excreted in urine'
+		,
+		40
+		'present'
+		'reduced'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'single and continuous'
+		'single with an indentation'
+		'paired'
+		,
+		43
+		'not reaching mouth region'
+		'extending posteriorly as far as mouth opening'
+		,
+		44
+		'minute'
+		'broad teeth that are flattened with six recognizable sides'
+		,
+		45
+		'arranged in separate diagonal rows or ribbons'
+		'horizontal conveyor or pavement-like arrangement'
+		,
+		46
+		'square to rounded'
+		'hexagonal, six distinct sides'
+		'rectangular with posteriorly deflected lateral margins'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'median and lateral teeth are similar'
+		'median teeth relatively expanded'
+		,
+		49
+		'lateral teeth unexpanded'
+		'some lateral teeth expanded'
+		,
+		50
+		'straight and uncurved'
+		'moderately curved'
+		'strongly curved'
+		,
+		51
+		'uncurved'
+		'curved'
+		,
+		52
+		'concave'
+		'flat'
+		'convex'
+		,
+		53
+		'loosely interlocking'
+		'sometimes loosely interlocking or tightly interlocking'
+		'tightly interlocking'
+		,
+		54
+		'overlapping'
+		'tongue and groove'
+		'no direct contact'
+		,
+		55
+		'bulbous'
+		'short shelf'
+		'long shelf'
+		,
+		56
+		'high - crown height exceeds root depth on unworn teeth'
+		'low crown'
+		,
+		57
+		'cusped'
+		'smooth'
+		'depressed'
+		,
+		58
+		'straight'
+		'domed'
+		'deep'
+		,
+		59
+		'not pinched'
+		'pinched'
+		,
+		60
+		'holaulacorhizous'
+		'polyaulacorhizous'
+		,
+		61
+		'2 roots'
+		'3 to 4 roots'
+		'5 roots or greater'
+		,
+		62
+		'triangles'
+		'wide blocks'
+		'narrow blocks'
+		'fine edges'
+		,
+		63
+		'narrower than root laminae'
+		'broad, groove wider than root laminae'
+		,
+		64
+		'no inclination'
+		'offset and step-like'
+		'long and strongly inclined'
+		,
+		65
+		'regularly spaced between laminae'
+		'irregularly spaced between laminae'
+		
+	;
+	MATRIX
+	'Rhinobatos'		                       0000000000000000000000000000000000000000000000000---00?000000000?
+	'Raja'		                             0000000000000000000000000000000000000000000000000---00?000000000?
+	'Heliobatis'		                       ????00??000?1?0000??????0000000101???????0?000000---00?000000000?
+	'Asterotrygon'		                     ????00??000?1100001??1??0000000001???????0?000000---00?000000000?
+	'Hexatrygon'		                       00??000000000000001?010000000001000?0?00000000000---00?000000000?
+	'Plesiobatis'		                      0001000010011000001110020000000100000000001000000---00?000000000?
+	'Urolophus'		                        0001000110011010001111000000200(0,1)00000000001000000---00?000000000?
+	'Trygonoptera'		                     00010001000110000011110010002000000?0000001000000---00?000000000?
+	'Urobatis'		                         10010000000110000021110(0,1)1000000100000000101000000---00?000000000?
+	'Urotrygon'		                        1001000000011000003111001000000100000000101000000---00?000000000?
+	'Paratrygon'		                       0021000000011000002111000000010112000011001000000---00?000000000?
+	'Plesiotrygon'		                     0011000000011100002111010100010111020011001000000---00?000000000?
+	'Potamotrygon'		                     0011000000011100002111010100010111020011001000000---00?000000000?
+	'"Himantura"'		                      0001000000011100002111001000000112020000001000000---00?000000000?
+	'Taeniura'		                         0001000000011000002111001000000111010000001000000---00?000000000?
+	'Himantura'		                        01(0,1)1000000011000002111001000000112000000001000000---00?000000000?
+	'Hypolophites'		                     ???????????????????????????????????????????111000---20?010000000?
+	'Dasyatis'		                         01(0,1)10000000110000021110010(0,1)0000111000000001000000---00?0(1,2)0000010?
+	'Pteroplatytrygon'		                 0101000010011000002111001000000111000000001000000---00?000000000?
+	'Gymnura'		                          0101000001010000001111000011101102000000001000000---00?000000000?
+	'Apocopodon'		                       ???????????????????????????????????????????11101100101-0100101000
+	'Igdabatis sigmodon'		               ???????????????????????????????????????????1110111120100110101001
+	'Brachyrhizodus'		                   ???????????????????????????????????????????1110111?102-0100111001
+	'Myliobatis freminvillii'		          020100100111101?1131201010110000121011000111110100010110100122000
+	'Myliobatis goodei'		                020100100111101?1131201010110000121011000111110100010110100122000
+	'Myliobatis aguila'		                020100100111101?1131201010110000121011000111110100012110110122000
+	'Myliobatis californicus'		          020100100111101?1131201010110000121011000111110100012110120122100
+	'Myliobatis striatus'		              ???????????????????????????????????????????1110100012110120122010
+	'Myliobatis toliapicus'		            ???????????????????????????????????????????1110101022110120122010
+	'Myliobatis dixoni'		                ???????????????????????????????????????????1110101122110110122000
+	'Myliobatis wurnoensis'		            ???????????????????????????????????????????1110101122110111121001
+	'Weissobatis micklichi'		            ????0????1?1???????????????1000012???????1?11101011221101?0122000
+	'Aetobatus narinari'		               0201001011111011113120111?21?010121011000211121--2102121100123020
+	'Aetobatus arcuatus'		               ???????????????????????????????????????????1121--2102121120123020
+	'Aetobatus irregularis'		            ???????????????????????????????????????????1121--2001121100123020
+	'Rhinoptera quadriloba'		            02011110111110111131201?1?20?010121011000311110111120100100123110
+	'Rhinoptera bonasus'		               02011110111110111131201?1?20?010121011000311110111120100100123100
+	'Rhinoptera davisei'		               ???????????????????????????????????????????1110110020100200123110
+	'Mobula'		                           0201111011110011013120111?20?010121011000310110110?101?1(0,1)0012?00?
+	'Manta hamiltoni'		                  ???????????????????????????????????????????0110000?102?120012?00?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 65;
+      ENDBLOCK;
+      

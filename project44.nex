@@ -1,0 +1,366 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 16.39.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Stylocellus globosus'
+		'Suzukielus sauteri'
+		'Siro exilis'
+		'Paragovia sironoides'
+		'Ogovea cameroonensis'
+		'Troglosiro sp.'
+		'Stylocellus ramblae'
+		'Huitaca ventralis'
+		'Metagovea philipi'
+		'Karripurcellia peckorum'
+		'Chileogovea oedipus'
+		'Paramiopsalis ramulosus'
+		'Iberosiro distylos'
+		'Parasiro coiffaiti'
+		'Parasiro minor'
+		'Parasiro corsicus'
+		'Odontosiro lusitanicus'
+		'Cyphophthalmus duricorius'
+		'Cyphophthalmus serbicus'
+		'Siro rubens'
+		'Siro valleorum'
+		'Tranteeva paradoxa'
+		'Siro sonoma'
+		'Siro acaroides'
+		'Siro kamiakensis'
+		'Marwe coarctata'
+		'Metasiro americanus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Eyes'
+		 [2] 'Ozophore position'
+		 [3] 'Ozophore end'
+		 [4] 'Spiral ornamentation of the ozophore'
+		 [5] 'Widest part of cheliceral distal article'
+		 [6] 'Distal segment of chelicerae ornamented'
+		 [7] 'Dentition of the mobile digit of the chelicerae'
+		 [8] 'Basal article of chelicerae with dorsal crest'
+		 [9] 'Basal article of chelicerae with a ventral process'
+		 [10] 'Basal article of chelicerae with a second ventral process'
+		 [11] 'Palp trocanther with ventral process'
+		 [12] 'Ornamentation of second palp article'
+		 [13] 'Solea in tarsus I'
+		 [14] 'Leg II ornamentation'
+		 [15] 'Claw of leg I with modifications'
+		 [16] 'Claw of leg II with modifications'
+		 [17] 'Claw of leg II with special row of teeth forming a comb'
+		 [18] 'Claw of leg III with modifications'
+		 [19] 'Claw of leg IV with modifications'
+		 [20] 'Male tarsus IV'
+		 [21] 'Adenostyle'
+		 [22] 'Adenostyle in the most-basal region of the tarsus'
+		 [23] 'Ornamentation of tarsi III and IV'
+		 [24] 'Proximal end of coxae I meeting along the midline'
+		 [25] 'Second coxae'
+		 [26] 'Proximal end of male coxae III meeting along the midline'
+		 [27] 'Coxae II and III endites with processes running along their suture'
+		 [28] 'Sternum'
+		 [29] 'Gonostome of male in anterior position'
+		 [30] 'Shape of the gonostome'
+		 [31] 'Anterior projections of male coxae III endite'
+		 [32] 'Endites of coxae IV running adjacent to midline suture for a length longer than gonostome'
+		 [33] 'Spiracle shape'
+		 [34] 'Male sternal glands'
+		 [35] 'Sternal apophysis of male'
+		 [36] 'V-shape modification of sternites 6-8'
+		 [37] 'Sternite 8, 9, and tergite IX'
+		 [38] 'Relative position of sternite 9 and tergite IX'
+		 [39] 'Longitudinal carina in male anal plate'
+		 [40] 'Lack of ornamentation in midline of male anal plate'
+		 [41] 'Male abdominal exocrine glands (anal glands)'
+		 [42] 'Opening of male abdominal exocrine glands (anal glands)'
+		 [43] 'Posterior elongation of opisthosoma in female'
+		 [44] 'Ventral setae of penis'
+		 [45] 'Movable fingers of penis'
+		 [46] 'Ovipositor with sense organs'
+	;
+	STATELABELS
+		1
+		'present'
+		'absent'
+		,
+		2
+		'type 2'
+		'dorsal, facing 45 degrees'
+		'type 1'
+		,
+		3
+		'infolded'
+		'labial'
+		'plugged'
+		'terminal ozopore, with circular opening'
+		'disc-shaped'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'near articulation with mobile digit'
+		'near base'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'uniform'
+		'bilobed with smaller lobe distal'
+		'two types of dentition'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'present along ventral margin'
+		'absent'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'metatarsus ornamented and tarsus almost entirely ornamented'
+		'metatarsus ornamented and tarsus smooth'
+		'metatarsus partially ornamented and tarsus smooth'
+		'metatarsus and dorso-basal part of the tarsus ornamented'
+		'metatarsus and tarsus smooth'
+		'metatarsus smooth and tarsus partially ornamented'
+		'all segments smooth'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'entire'
+		'bisegmented'
+		,
+		21
+		'ending in a tuft of setae'
+		'triangular and heavily schlerotized'
+		'digitiform'
+		'lamelliform'
+		'plumose'
+		'fimbriate'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'ornamented'
+		'smooth'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'fused to coxae of leg III'
+		'free'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'semicircular-trapezoidal'
+		'sub-hexagonal'
+		,
+		31
+		'no projections'
+		'projections in gonostome wall'
+		'projections along coxae IV suture'
+		'projections adjacent to coxal pore'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'"C" shaped'
+		'circular'
+		'open circle'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'all free'
+		'all fused into corona analis'
+		'sternites 8 and 9 medially fused'
+		'sternites 8 and 9 completely fused, tergite IX free'
+		,
+		38
+		'stylocelloid type'
+		'pettalid type'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'present'
+		'absent'
+		,
+		42
+		'in tergite VIII'
+		'in tergite IX'
+		'in both tergites VIII and IX'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Stylocellus globosus'		               0000000000000000?00000000000000000000000000000
+	'Suzukielus sauteri'		                 1030010101000211111130101111001010000100020010
+	'Siro exilis'		                        1021010101010400?00030111001001010001?0100001?
+	'Paragovia sironoides'		               1021110011001001000021000010111?11001?101?0100
+	'Ogovea cameroonensis'		               1010110001001000?00010000010001111101?101?000?
+	'Troglosiro sp.'		                     1021101011001101000030111111001011001?101?0???
+	'Stylocellus ramblae'		                0000100010001000?010000000100000000000101?0???
+	'Huitaca ventralis'		                  1020111011001111000031100011111?11001?101??00?
+	'Metagovea philipi'		                  1020111011001101011031100011111?11001?101?0000
+	'Karripurcellia peckorum'		            1130112011000200?000301011110001200101101?0000
+	'Chileogovea oedipus'		                1130112011001300?1103000111100112000010101001?
+	'Paramiopsalis ramulosus'		            1020010101110400?00040110011001010002000000010
+	'Iberosiro distylos'		                 1020000101110500?000301100110020100020101?????
+	'Parasiro coiffaiti'		                 12200000010102011110301111010010100020101?0011
+	'Parasiro minor'		                     12200000010002010110301111010010100020101?0011
+	'Parasiro corsicus'		                  12200000010002110110301111010010100020101?0011
+	'Odontosiro lusitanicus'		             12??0000011000111110300?1???0?????001?101?0010
+	'Cyphophthalmus duricorius'		          1021000101000400?00030111111003010001?01000010
+	'Cyphophthalmus serbicus'		            1021000101000400?00030111111003010001?01000???
+	'Siro rubens'		                        1021010101000400?00030111111003010001?00001010
+	'Siro valleorum'		                     1021010101000400?00030111101001010001?00001?10
+	'Tranteeva paradoxa'		                 1020010101010400?00030111111003010001?01000010
+	'Siro sonoma'		                        1021010001010400?11030111001001010001?01000??0
+	'Siro acaroides'		                     1021010101010400?11030111101001010001?11000010
+	'Siro kamiakensis'		                   1021010101010400?00130111001001010001?0100000?
+	'Marwe coarctata'		                    1240010101010600?000301100?100001?001?101?0??0
+	'Metasiro americanus'		                1020111011000111010051101011011010003?11010000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=17 TEXT='material not examined';
+	TEXT TAXON=26 TEXT='male not examined Shear (1985)';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The presence of eyes in cyphophthalmids of the genus Stylocellus has been recently discussed elsewhere (Giribet et al. 2002; Shear 1980, 1993b). No polarity has been assumed.';
+	TEXT CHARACTER=2 TEXT='Juberthie (1970b) categorized three types of ozophores according to the position on the carapace, since it is commonly used for species descriptions. Type 3 shows a dorsal position, as exemplified by Speleosiro, while the other two types show a lateral position, with type 1 being completely lateral (Juberthie 1970b: figure 2a) and type 2 being slightly raised on the carapace (Juberthie 1970b: figure 2c). The position of the ozophore shows sexual dimorphism in certain species of the genus Parapurcellia, but not in the species here used.';
+	TEXT CHARACTER=5 TEXT='Cyphophthalmid chelicerae are a set of complex characters, perhaps displaying two extreme forms, a robust type found in many sironids, and a very special type, called attenuate type, where the distal cheliceral segment tapers, and the movable finger is extremely small. This condition is found in the members of the genus Neogovea, in Huitaca ventralis (Fig. 1), and Pettalus cimiciformis. However, the cheliceral type of "Neogovea" mexasca (Fig. 2) is not considered attenuate; it is an elongated type of chelicerae, but does not fit the description here used for the attenuate type. A similar condition is found in some stylocellid chelicera, that even tapering, they do not have a reduced mobile digit.';
+	TEXT CHARACTER=6 TEXT='The distal segment of the chelicerae is smooth in most cyphophthalmids, but it is completely or partially ornamented in Stylocellus (Fig. 3), Fangensis (Rambla 1994: Plate II, figure 1), and Miopsalis.';
+	TEXT CHARACTER=7 TEXT='The dentition of the mobile digit of the chelicerae is uniform in most cyphophthalmids, but there are two distinct types of dentition in members of the Pettalidae (Juberthie 1970b: figure 3) except in Parapurcellia.';
+	TEXT CHARACTER=8 TEXT='A dorsal crest  on the basal article of chelicerae is present in most cyphophthalmids (e.g. Figs. 1-3), but not in those of the genus Siro, or in Paramiopsalis.';
+	TEXT CHARACTER=9 TEXT='A ventral protuberance on the basal cheliceral article  is present in most cyphophthalmids (e.g. Figs. 1-3) but not in those lacking the dorsal crest, or in a few other sironids and pettalids.';
+	TEXT CHARACTER=10 TEXT='Most cyphophthalmids have a ventral process on the basal cheliceral segment (character 9; Figs. 2-3). Within the Stylocellidae, Fangensis and most members of the genus Stylocellus have a second ventral process , anterior to the typical ventral process and connected to the dorsal crest by an external keel (Fig. 3; see also Hansen & Sørensen 1904; Shear 1993b). This character is generally correlated with having the ornamentation of the distal segment near the base (but not in Fangensis), while Stylocellus silhavyi lacks this second cheliceral ventral process. From the two species of Miopsalis examined here only one has the second ventral process and it is unknown whether the type species of the genus has it or not.';
+	TEXT CHARACTER=11 TEXT='A ventral process in the palp trochanter (Juberthie 1970b: figure 11) is found in pettalids from Australia, New Zealand, and South Africa, but not in Chileogovea. A similar structure is found in Paramiopsalis ramulosus (Juberthie 1962: figure 10).';
+	TEXT CHARACTER=13 TEXT='A subapical modification in tarsus of leg I (Fig. 6) is found in most cyphophthalmid species. The absence of such a process in "Neogovea" mexasca has been confirmed with the SEM, but the absence of such a structure in the sironids needs further study using SEM.';
+	TEXT CHARACTER=14 TEXT='Juberthie (1970b) gave an account of different types of ornamentation in the legs I and II in several Temperophthalmi. Due to the observation of differences in ornamentation in legs I and II in certain cyphophthalmids, we prefer to restrict the definition of the character to the ornamentation of leg II, where the tarsus is not modified subapically as may occur with leg I.';
+	TEXT CHARACTER=20 TEXT='Tarsus of leg IV of males bears an adenostyle, and in Suzukielus sauteri and certain members of Pettalidae (Austropurcellia, Neopurcellia, Purcellia, Speleosiro, and Parapurcellia) is bisegmented (Juberthie 1970b: figure 5b).';
+	TEXT CHARACTER=21 TEXT='The adenostyle is generally lamelliform (Figs. 10-12), but in Stylocellidae, Metasiro (Shear 1980: figure 26) and all the species of Neogovea (except "Neogovea" mexasca: Fig. 11) the adenostyle terminates in a tuft of setae (Shear 1977, 1980). The adenostyle of Paramiopsalis ramulosus is plumose (Rambla & Fontarnau 1984: figure 5).';
+	TEXT CHARACTER=22 TEXT='The position of the adenostyle is highly variable, tending to be near the middle of the tarsus in members of the Stylocellidae. In members of the genera Metagovea (Fig. 10), Huitaca, Paragovia (Legg 1990: figure 15), and Metasiro (Shear 1980: figure 26) the adenostyle emerges from the most-basal portion of the tarsus. However, Paragovia sironoides (Fig. 12) does not have an adenostyle at the most-basal region of the tarsus.';
+	TEXT CHARACTER=25 TEXT='The coxa of leg II is free in members of the Sironidae and Pettalidae, while it is fused to coxa of leg III and IV in members of the Stylocellidae (including Fangensis and Miopsalis), Neogoveidae (Fig. 4) and Ogoveidae. The genus Troglosiro has free coxa II, as well as "Neogovea" mexasca (Shear 1977) (Fig. 5). In contrast, Paramiopsalis ramulosus has the coxa II fused to the coxa of legs III and IV (Juberthie 1962), as does Marwe coarctata.';
+	TEXT CHARACTER=29 TEXT='male first sternite protruding to form the gonostome wall, coxae IV not meeting in the midlineold: The coxae of leg IV generally meet in the midline in males (Fig. 13), but in certain species of the Ogoveidae and Neogoveidae, they form a tube-like structure for the penis, not meeting in the midline (Fig. 4).';
+	TEXT CHARACTER=32 TEXT='In most members of the Pettalidae, the male genital opening is very small, with the coxae IV meeting in the midline forming a solid anterior wall of the gonostome. In this case the gonostome is always shorter than the length of the coxae IV that run parallel in the midline (Fig. 14).';
+	TEXT CHARACTER=33 TEXT='Spiracle morphology has been overlooked in cyphophthalmid taxonomy, although it seems to be conserved at the familial level. Typical sironids, most neogoveids (including "Neogovea" mexasca: Fig. 15), Ogovea, Troglosiro and Marwe have circular spiracles. All pettalids, some neogoveids (Neogovea microphaga and two undescribed neogoveids from Trinidad and Venezuela), Metasiro and Suzukielus have spiracles that are an open circle (e.g. Chileogovea oedipus: Fig. 16). All the stylocellids (including Fangensis and Miopsalis) have spiracles shaped as a letter "C" (Fig. 17). Speleosiro argasiformis bears a special type of spiracles, resembling the open circular type of typical pettalids, but it is so open that resembles the "C" type of stylocellids. However, the direction of the aperture corresponds to that of the pettalids and not that of the stylocellids, and therefore we have coded Speleosiro as belonging to the open circle type.';
+	TEXT CHARACTER=34 TEXT='Sternal secretory glands have been described for Ogovea nasuta and Huitaca ventralis (Fig. 18), and have been used to suggest a sister group relationship for these two genera (Shear 1979, 1980). Similar structures of possible secretory function have been recently found in Metagovea philipi (Figs. 19, 20), two undescribed Metagovea species from Ecuador, and Paragovia sironoides (Figs. 21, 22). Juberthie (1979) reported a type of secretory structures for the genus Troglosiro similar to the ones found in the Neogoveidae, although according to Shear (1980) these structures have questionable homology with those of Ogovea and Huitaca as they do not fulfil the criterion of positional homology. Here we have chosen to code the sternal glands of Huitaca, Ogovea, Metagovea, Paragovia, and Troglosiro as homologous structures.We have examined the types and all the material reported in the literature of Brasilogovea microphaga (synonymized by Shear 1980), ?Gen. enigmaticus, and all the species of the genus Neogovea. "Neogovea" mexasca clearly lacks the sternal glands when studied with an SEM. Unfortunately, the male of ?Genus enigmaticus is unknown, and from the other species, all the known males except one specimen of N. immsi lack the sternal area after having been dissected to study the penis. The single complete male of N. immsi has the ventral area covered by a film of an unidentified substance that cannot be removed from the specimen. This substance seems to emerge from some ventral gland and a few pores seem to be apparent in the centre of the second sternite. However, this needs confirmation with fresh material of males of Neogovea, and we have chosen to code it as a ''?''. Therefore, with the exception of "Neogovea" mexasca, all members of Neogovea and related genera are coded as ''?'', although we believe that sternal organs may be found when fresh material is examined.';
+	TEXT CHARACTER=35 TEXT='A sternal apophysis in the ventral region is found in males of the genus Ogovea (e.g. Shear 1980: figure 27) but not in any other cyphophthalmids.';
+	TEXT CHARACTER=37 TEXT='The different degrees of fusion of sternites 8 and 9, and tergite IX have been extensively discussed in the literature (Juberthie 1970b; Shear 1980). All segments are free in the Stylocellidae and in most members of the Pettalidae, but not in Pettalus cimiciformis, where sternite 9 fuses to tergite IX, but sternite 8 remains free. Sternites 8 and 9 may show different degrees of fusion leaving tergite IX free as in at least some Parasiro (only fused in the midpart) or in Metasiro and Paramiopsalis (almost completely fused), but until more detailed study of these conditions is conducted using SEM, we prefer not to separate these two states. Ogovea, Troglosiro, Siro, Marwe, and the Neogoveidae all have a complete corona analis (all segments fused).';
+	TEXT CHARACTER=38 TEXT='In those Cyphophthalmi without a complete corona analis, the relative position of sternite 9 and tergite IX shows two typical configurations. A first configuration, here named "stylocellid type" is illustrated in Fig. 23, where both sclerites meet towards the midline of the anal plate, and sternite 8 does not contact tergite IX. This is found in all stylocellids and those sironids without a complete corona analis. In Suzukielus and the females of all the pettalids (the males may have modified anal regions), a "pettalid" type occurs (e.g. Fig. 24), where tergite IX covers laterally sternite 9, and clearly meets sternite 8.';
+	TEXT CHARACTER=41 TEXT='The presence of a special type of abdominal exocrine glands associated to the anal complex of males (Juberthie 1962, 1967) has been observed in several species of the families Sironidae and Pettalidae, and its function is probably for dispensing a pheromone (Shear 1980). Although the anal glands may be directly associated to some of the modifications of the anal plate and tergite IX, at least in the genus Fangensis, the anal glands do not entail other specific modifications. For this reason, we have coded this character independently. Anal glands have been specifically reported in Fangensis leclerci (Rambla 1994), Paramiopsalis ramulosus (Juberthie 1962), Siro rubens (Juberthie 1967), Suzukielus sauteri (Juberthie 1970a), and Austropurcellia scoparia (Juberthie 1988). Anal glands have also been observed in Chileogovea oedipus (Fig. 24), Metasiro americanus, Siro duricorius, Siro exilis, Neopurcellia florensis, Rakaia arcticosa, Purcellia illustrans, Speleosiro argasiformis, and in the new species of Fangensis from Thailand. However, the tufts of setae did not allow detailed examination of Pettalus cimiciformis or Parapurcellia silvicola, and have been coded as ''?''. The undescribed pettalid from Pemberton lacks anal glands.';
+	TEXT CHARACTER=44 TEXT='Ventral setae are found in the penis of most cyphophthalmid, and certain lineages show a tendency towards reduction of the number of setae. Ventral setae are absent in Paragovia sironoides (Legg 1990: figure 8), Neogovea immsi, and "Neogovea" mexasca (Shear 1980: figure 5).';
+	TEXT CHARACTER=46 TEXT='The ovipositor of Parasiro lacks the sense organs commonly found in the ovipositors of the Cyphophthalmi (Juberthie 1970b: figure 12).';
+
+      [Attribute comments]
+      	TEXT TAXON=2 CHARACTER=41 TEXT='Juberthie 1980';
+	TEXT TAXON=12 CHARACTER=41 TEXT='Juberthie 1962';
+	TEXT TAXON=20 CHARACTER=41 TEXT='Juberthie 1967';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 46;
+      ENDBLOCK;
+      
