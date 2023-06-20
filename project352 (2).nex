@@ -1,0 +1,384 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 17.58.42 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=59;
+    TAXLABELS
+    		'Addax nasomaculatus'
+		'Aepyceros melampus'
+		'Alcelaphus buselaphus'
+		'Ammodorcas clarkei'
+		'Antidorcas marsupialis'
+		'Antilope cervicapra'
+		'Boselaphus tragocamelus'
+		'Capra falconeri'
+		'Cephalophus rufilatus'
+		'Cephalophus silvicultor'
+		'Connochaetes taurinus'
+		'Damaliscus pygargus'
+		'Dorcatragus megalotis'
+		'Eudorcas rufifrons'
+		'Eudorcas thomsoni'
+		'Gazella bennettii'
+		'Gazella cuvieri'
+		'Gazella dorcas'
+		'Gazella gazella'
+		'Gazella leptoceros'
+		'Gazella marica'
+		'Gazella spekei'
+		'Gazella subgutturosa'
+		'Hippotragus niger'
+		'Kobus ellipsiprymnus'
+		'Kobus kob'
+		'Kobus leche'
+		'Kobus megaceros'
+		'Kobus vardoni'
+		'Litocranius walleri'
+		'Madoqua guentheri'
+		'Madoqua kirki'
+		'Madoqua saltiana'
+		'Nanger dama'
+		'Nanger granti'
+		'Nanger soemmerringi'
+		'Neotragus batesi'
+		'Neotragus moschatus'
+		'Neotragus pygmaeus'
+		'Oreotragus oreotragus'
+		'Oryx beisa'
+		'Ourebia ourebi'
+		'Pantholops hodgsoni'
+		'Pelea capreolus'
+		'Philantomba monticola'
+		'Procapra gutturosa'
+		'Procapra picticaudata'
+		'Procapra przewalskii'
+		'Raphicerus campestris'
+		'Raphicerus melanotis'
+		'Raphicerus sharpei'
+		'Redunca arundinum'
+		'Redunca fulvorufula'
+		'Redunca redunca'
+		'Rupicapra rupicapra'
+		'Saiga tatarica'
+		'Sylvicapra grimmia'
+		'Tetracerus quadricornis'
+		'Tragelaphus imberbis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'males'' social organization during mating season'
+		 [2] 'mating time'
+		 [3] 'male territories'
+		 [4] 'spacial behaviour'
+		 [5] 'females'' social organization'
+		 [6] 'males'' social organization outside the mating season'
+		 [7] 'dung piles'
+		 [8] 'ritualized urination-defecation'
+		 [9] 'urination-defecation series (female-male)'
+		 [10] 'scraping with forelegs associated with marking behaviour'
+		 [11] 'marking objects with preorbital gland (at least in males)'
+		 [12] 'horning bushes/ground (as fighting precursor or territorial advertisement)'
+		 [13] 'stabbing'
+		 [14] 'clash fighting'
+		 [15] 'wrestling / front pressing'
+		 [16] 'fight on knees'
+		 [17] 'air-cushion-fight'
+		 [18] 'social grooming between adults'
+		 [19] 'leg tap during precopulatory phase'
+		 [20] 'male marks female shoulders with preorbital gland secretion in precopulatory phase'
+		 [21] 'copulation posture'
+		 [22] 'copulation timing'
+		 [23] 'number of offspring (per breeding attempt)'
+		 [24] 'behaviour of young'
+		 [25] 'stotting'
+		 [26] 'standing on hind feet to reach vegetation'
+		 [27] 'adapted to arid environment'
+	;
+	STATELABELS
+		1
+		'monogamous or one male with up to three permanently associated females'
+		'permanent harem during mating season only'
+		'polygamous with changing mates'
+		'sequentially monogamous (one female after the other)'
+		,
+		2
+		'all year if food sources permit'
+		'strictly seasonal'
+		,
+		3
+		'during rut'
+		'all year'
+		'no territories'
+		,
+		4
+		'sedentary'
+		'migratory'
+		,
+		5
+		'solitary'
+		'herds with fluctuating members'
+		'stable herds'
+		,
+		6
+		'in bachelor herds'
+		'usually solitary'
+		'in mixed herds (with multiple males and females) after maturity'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent ore very rare'
+		'frequent'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'male rests body on female during copulation'
+		'male touches female lightly, clasping her with his forelegs'
+		'male hardly touches female'
+		,
+		22
+		'single copulation, spaced by at least 30 min'
+		'multiple copulations within short time'
+		,
+		23
+		'usually one calf'
+		'one or two calves'
+		'two or three calves'
+		,
+		24
+		'start following mother within a few days after birth'
+		'laying out for at least 2 weeks'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'occasionally'
+		'regularly feeding on hind feet'
+		,
+		27
+		'no, need water on a regular basis'
+		'yes, no permanent water access necessary'
+		
+	;
+	MATRIX
+	'Addax nasomaculatus'		              20212200-0-0?111001-1?01001
+	'Aepyceros melampus'		               200010110011011011001000000
+	'Alcelaphus buselaphus'		            20102000-101011100001101100
+	'Ammodorcas clarkei'		               21101111011?0110?1112001021
+	'Antidorcas marsupialis'		           200110110101101000102001111
+	'Antilope cervicapra'		              20001011011100100010200110?
+	'Boselaphus tragocamelus'		          20201(0,1)10-00011010000?011011
+	'Capra falconeri'		                  31211000-0-?0110001-1?10010
+	'Cephalophus rufilatus'		            0?100100-?1111000110??01000
+	'Cephalophus silvicultor'		          00100100-?11110001101?01000
+	'Connochaetes taurinus'		            21(0,1)(0,1)(2,1)000-111001100001100000
+	'Damaliscus pygargus'		              211?1010-11101011?001100100
+	'Dorcatragus megalotis'		            0010011111-0?1?0???-2?01??1
+	'Eudorcas rufifrons'		               20011011011???????102001??1
+	'Eudorcas thomsoni'		                200110110111010010102001101
+	'Gazella bennettii'		                ??????11?01???????10??01???
+	'Gazella cuvieri'		                  110?1011011???????10201?1??
+	'Gazella dorcas'		                   200110110101???0?0102001111
+	'Gazella gazella'		                  201010110111011010102001111
+	'Gazella leptoceros'		               2??1101101????????1020011?1
+	'Gazella marica'		                   21011011011101?0001020110?1
+	'Gazella spekei'		                   ????101101????????1020011??
+	'Gazella subgutturosa'		             2101100101110110001020111??
+	'Hippotragus niger'		                20102100-101111100101101000
+	'Kobus ellipsiprymnus'		             20101100---10110101-1001100
+	'Kobus kob'		                        20(0,1)(0,1)1000--01011000100001000
+	'Kobus leche'		                      2(0,1)(0,1)(0,1)1000---10110101-0001000
+	'Kobus megaceros'		                  2???1(0,2)00---?0110?01-0?01000
+	'Kobus vardoni'		                    20101000---??????01-0001000
+	'Litocranius walleri'		              201011010?1101100?112001121
+	'Madoqua guentheri'		                00100111111110001?102?01111
+	'Madoqua kirki'		                    001001111111100010102001111
+	'Madoqua saltiana'		                 00100111111110001?102001111
+	'Nanger dama'		                      2001101101????????102001111
+	'Nanger granti'		                    2001101101010010001020011?1
+	'Nanger soemmerringi'		              200110110101??????0020011??
+	'Neotragus batesi'		                 00100100-?1???????????0????
+	'Neotragus moschatus'		              00100111111110010110??01000
+	'Neotragus pygmaeus'		               0?10011???????????????01???
+	'Oreotragus oreotragus'		            00100110-01111000110?001001
+	'Oryx beisa'		                       20(0,2)12(1,2)00-0-01111001-1101001
+	'Ourebia ourebi'		                   001001111111?10000102?00111
+	'Pantholops hodgsoni'		              210110010?-?0110???-??0????
+	'Pelea capreolus'		                  21102101-0-10000101-1011101
+	'Philantomba monticola'		            00100100-011110001101101000
+	'Procapra gutturosa'		               110112????????????????101?1
+	'Procapra picticaudata'		            2100101101-?011000????0110?
+	'Procapra przewalskii'		             210010????-?011000?02000?0?
+	'Raphicerus campestris'		            00100111010?100000102?01101
+	'Raphicerus melanotis'		             0010011??????????0??2??10?1
+	'Raphicerus sharpei'		               0010011??????????0??2?????1
+	'Redunca arundinum'		                00100100-0-10110001-0001000
+	'Redunca fulvorufula'		              20101100-0-10110001-0001100
+	'Redunca redunca'		                  20100100-0-10110001-0001000
+	'Rupicapra rupicapra'		              21001100-0-?00000?0-0?000??
+	'Saiga tatarica'		                   11211000-0?0??????????10100
+	'Sylvicapra grimmia'		               00100100-011111101101101011
+	'Tetracerus quadricornis'		          00100110-010????????0?1???0
+	'Tragelaphus imberbis'		             20201100-0-?0010010-0?01000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=9 TEXT='Not much is known about the behaviour of this species, but several authors suggest that it is similar to the comparatively well-studied P.  monticola. I therefore score the cells according to the general description of duiker behaviour given in Estes (1992)';
+	TEXT TAXON=10 TEXT='Not much is known about the behaviour of this species, but several authors suggest that it is similar to the comparatively well-studied P.  monticola. I therefore score the cells according to the general description of duiker behaviour given in Estes (1992)';
+
+      [Attribute comments]
+      	TEXT TAXON=17 CHARACTER=1 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=21 CHARACTER=1 TEXT='same as G. subgutturosa, previously thought to be the same species';
+	TEXT TAXON=44 CHARACTER=1 TEXT='one male with permanent harem';
+	TEXT TAXON=54 CHARACTER=1 TEXT='male territory may include the homeranges of up to 4 females';
+	TEXT TAXON=24 CHARACTER=2 TEXT='not seasonal but often synchronized within a heard';
+	TEXT TAXON=17 CHARACTER=2 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=27 CHARACTER=2 TEXT='most females bread seasonally, but 1/4 ovulates outside of the peak';
+	TEXT TAXON=58 CHARACTER=2 TEXT='seasonal according to Prater (2005) and Walther (1988)';
+	TEXT TAXON=23 CHARACTER=3 TEXT='all year according to Kingswood et al.';
+	TEXT TAXON=17 CHARACTER=3 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=9 CHARACTER=3 TEXT='Estes, page 28';
+	TEXT TAXON=45 CHARACTER=3 TEXT='Estes, page 28';
+	TEXT TAXON=54 CHARACTER=3 TEXT='territorial system breaks down at high population densities, formation of a macro-herd (probably comparable to wildebeest, but structure and behaviour of such aggregations remain to be studied)';
+	TEXT TAXON=26 CHARACTER=3 TEXT='leks are common at high densities, at low or average density conventional territories are occupied all year';
+	TEXT TAXON=27 CHARACTER=3 TEXT='leks are common at high densities, some males hold territories all year';
+	TEXT TAXON=2 CHARACTER=4 TEXT='migratory according to kingdon';
+	TEXT TAXON=6 CHARACTER=4 TEXT='migrations are described nowhere';
+	TEXT TAXON=19 CHARACTER=4 TEXT='migratory according to Mendelssohn et al.';
+	TEXT TAXON=17 CHARACTER=4 TEXT='some migratory, some sedentary, according to www.ultimateungulate.com';
+	TEXT TAXON=11 CHARACTER=4 TEXT='depending on population and environment, both types can be observed within the same geographic area';
+	TEXT TAXON=3 CHARACTER=4 TEXT='depending on environment they can be migratory';
+	TEXT TAXON=55 CHARACTER=4 TEXT='shifts from high to lower altitudes in winter';
+	TEXT TAXON=9 CHARACTER=4 TEXT='Estes, page 28';
+	TEXT TAXON=45 CHARACTER=4 TEXT='Estes, page 28';
+	TEXT TAXON=30 CHARACTER=5 TEXT='often solitary, but associate with other females regularly';
+	TEXT TAXON=59 CHARACTER=5 TEXT='stable small groups (female with doughters) according to Nowak';
+	TEXT TAXON=19 CHARACTER=5 TEXT='very small groups, females often solitary';
+	TEXT TAXON=25 CHARACTER=5 TEXT='females move independently but their homeranges overlap and they can form loose herds with no rank order or leadership, no greeting or grooming. ';
+	TEXT TAXON=11 CHARACTER=5 TEXT='stable if sedentary, fluctuating during migration';
+	TEXT TAXON=9 CHARACTER=5 TEXT='Estes, page 28';
+	TEXT TAXON=45 CHARACTER=5 TEXT='Estes, page 28';
+	TEXT TAXON=52 CHARACTER=5 TEXT='groups may occur as temporary concentrations at water holes or post-burn flushes';
+	TEXT TAXON=19 CHARACTER=6 TEXT='males often solitary according to Habibi et al.';
+	TEXT TAXON=17 CHARACTER=6 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=3 CHARACTER=6 TEXT='mixed herds if migratory';
+	TEXT TAXON=55 CHARACTER=6 TEXT='young males in bachelor herds';
+	TEXT TAXON=9 CHARACTER=6 TEXT='Estes, page 28';
+	TEXT TAXON=45 CHARACTER=6 TEXT='Estes, page 28';
+	TEXT TAXON=28 CHARACTER=6 TEXT='www.ultimateungulate.org';
+	TEXT TAXON=7 CHARACTER=6 TEXT='old males solitary';
+	TEXT TAXON=30 CHARACTER=7 TEXT='present according to Walther, p. 319';
+	TEXT TAXON=46 CHARACTER=7 TEXT='reference?';
+	TEXT TAXON=56 CHARACTER=10 TEXT='reference?';
+	TEXT TAXON=2 CHARACTER=11 TEXT='absent according to Kingdon p.463';
+	TEXT TAXON=19 CHARACTER=11 TEXT='absent or at least very infrequent according to Habibi et al. and Walther (in: Grzimek''s EnzyklopÃ¤die der SÃ¤ugetiere)';
+	TEXT TAXON=9 CHARACTER=12 TEXT='Estes, page 29';
+	TEXT TAXON=10 CHARACTER=12 TEXT='Estes, page 29';
+	TEXT TAXON=5 CHARACTER=13 TEXT='not mentioned by Estes';
+	TEXT TAXON=41 CHARACTER=13 TEXT='probably only in subadults (sparring contest)';
+	TEXT TAXON=23 CHARACTER=14 TEXT='video on www.arkive.org';
+	TEXT TAXON=38 CHARACTER=14 TEXT='not mentioned in the detailed description of Kingdon';
+	TEXT TAXON=49 CHARACTER=14 TEXT='reference?';
+	TEXT TAXON=23 CHARACTER=15 TEXT='video on www.arkive.org';
+	TEXT TAXON=38 CHARACTER=15 TEXT='not mentioned in the detailed description of Kingdon';
+	TEXT TAXON=49 CHARACTER=15 TEXT='reference?';
+	TEXT TAXON=23 CHARACTER=16 TEXT='video on www.arkive.org';
+	TEXT TAXON=49 CHARACTER=16 TEXT='reference?';
+	TEXT TAXON=49 CHARACTER=17 TEXT='reference?';
+	TEXT TAXON=19 CHARACTER=17 TEXT='reference?';
+	TEXT TAXON=32 CHARACTER=18 TEXT='present according to Estes';
+	TEXT TAXON=31 CHARACTER=19 TEXT='reference?';
+	TEXT TAXON=36 CHARACTER=19 TEXT='present according to walther, p.286 in all gazelles';
+	TEXT TAXON=31 CHARACTER=20 TEXT='reference?';
+	TEXT TAXON=38 CHARACTER=20 TEXT='not mentioned in the detailed description of Kingdon';
+	TEXT TAXON=31 CHARACTER=21 TEXT='reference?';
+	TEXT TAXON=49 CHARACTER=21 TEXT='reference?';
+	TEXT TAXON=58 CHARACTER=21 TEXT='www.arkive.org';
+	TEXT TAXON=31 CHARACTER=22 TEXT='reference?';
+	TEXT TAXON=6 CHARACTER=23 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=20 CHARACTER=23 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=38 CHARACTER=23 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=42 CHARACTER=24 TEXT='lying out for 1 month according to Estes!';
+	TEXT TAXON=47 CHARACTER=24 TEXT='laying out for 2 weeks';
+	TEXT TAXON=23 CHARACTER=25 TEXT='absent according to Habibi et al.';
+	TEXT TAXON=49 CHARACTER=25 TEXT='reference?';
+	TEXT TAXON=2 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=6 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=15 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=53 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=56 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=59 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=25 CHARACTER=26 TEXT='never mentioned in the literature available to me';
+	TEXT TAXON=2 CHARACTER=27 TEXT='need water according to Kingdon p.463';
+	TEXT TAXON=13 CHARACTER=27 TEXT='www.ultimateungulate.com';
+	TEXT TAXON=23 CHARACTER=27 TEXT='Ostrowsky (konnte nicht verlinken zu Zitat)';
+	TEXT TAXON=3 CHARACTER=27 TEXT='can dig up roots and tubers or eats melons in the dry season if water is unavailable';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 27;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 424049546544605784 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 4706587388260186664 ; checksumv 0 2 3253107595 null ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1366 660 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #4706587388260186664 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1266 593 ; setLocation -8 -8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 29 ;
+ENDBLOCK;

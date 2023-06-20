@@ -1,0 +1,261 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 17.27.43 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=12;
+    TAXLABELS
+    		'Erythroxylaceae'
+		'Linaceae hugoniaceae'
+		'Ixonanthaceae'
+		'Caryocaraceae'
+		'Duckesia'
+		'Endopleura'
+		'Humiria'
+		'Humiriastrum'
+		'Hylocarpa'
+		'Sacoglottis'
+		'Schistostemon'
+		'Vantanea'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Ellagic acid'
+		 [2] 'Corolla aestivation'
+		 [3] 'Number of stamen circles'
+		 [4] 'Number of stamens'
+		 [5] 'Stamen concrescense'
+		 [6] 'Sterile stamens'
+		 [7] 'Trifurcate stamens'
+		 [8] 'Anthers thecae number'
+		 [9] 'Connective shape'
+		 [10] 'Anther surface'
+		 [11] 'Locus number per anther'
+		 [12] 'Nectariferous disk'
+		 [13] 'Number of stigmas'
+		 [14] 'Ovary position'
+		 [15] 'Number of traces in carpels'
+		 [16] 'Number of ovules locule'
+		 [17] 'Drupe size'
+		 [18] 'Endocarp surface'
+		 [19] 'Endocarp type'
+		 [20] 'Endocarp structure'
+		 [21] 'Locule or valve number'
+		 [22] 'Valve size of endocarp'
+		 [23] 'Valve from apex to base'
+		 [24] 'Valve conspicuous'
+		 [25] 'Relative rib-valve width '
+		 [26] 'Foramina'
+		 [27] 'Seed per locule'
+		 [28] 'Number of locule'
+		 [29] 'Resinous cavities'
+		 [30] 'Size of resinous cavities'
+		 [31] 'Wood vessel elements'
+		 [32] 'Pollen size'
+		 [33] 'Pollen shape'
+		 [34] 'Colpi length'
+		 [35] 'Colpi apex'
+		 [36] 'Columellar infratectum'
+		 [37] 'Polar area'
+		 [38] 'Colporate'
+		 [39] 'Sexine'
+		 [40] 'Nexine'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'imbricated or contorted'
+		'quincuncial or cochlear'
+		,
+		3
+		'one'
+		'two'
+		'three or four'
+		,
+		4
+		'20'
+		'20[state 1]'
+		'20 to 30'
+		'50'
+		,
+		5
+		'united'
+		'free'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'two'
+		'four'
+		,
+		9
+		'with appendix'
+		'without appendix'
+		,
+		10
+		'glabrous'
+		'pilose'
+		,
+		11
+		'bilocular'
+		'unilocular'
+		,
+		12
+		'extrastaminal'
+		'intrastaminal'
+		,
+		13
+		'two or more'
+		'one'
+		,
+		14
+		'superous'
+		'semi-inferous'
+		,
+		15
+		'three'
+		'five'
+		,
+		16
+		'one'
+		'two'
+		,
+		17
+		'1.6 cm'
+		'1.6 cm[state 1]'
+		,
+		18
+		'smooth'
+		'corrugated'
+		'bullate'
+		,
+		19
+		'not woody'
+		'woody'
+		,
+		20
+		'sharp ribs absent'
+		'sharp ribs present'
+		,
+		21
+		'range 3-5'
+		'5 only'
+		'more than 5'
+		,
+		22
+		'long'
+		'short'
+		,
+		23
+		'no'
+		'yes'
+		,
+		24
+		'yes'
+		'moderately'
+		'no'
+		,
+		25
+		'valves equal or narrower'
+		'valves wider'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'one'
+		'two'
+		,
+		28
+		'up to 5'
+		'more than 5'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'0.7 mm'
+		'up to 7 mm'
+		,
+		31
+		'simple'
+		'scalariform'
+		,
+		32
+		'medium small'
+		'large'
+		,
+		33
+		'prolate and or subprolate'
+		'oblate and or sub-oblate'
+		,
+		34
+		'long'
+		'short'
+		,
+		35
+		'acute'
+		'rounded'
+		,
+		36
+		'conspicuous'
+		'inconspicuous'
+		,
+		37
+		'small'
+		'large'
+		,
+		38
+		'three'
+		'two'
+		'four'
+		,
+		39
+		'microreticulate'
+		'other'
+		,
+		40
+		'disrupted curved'
+		'inconspicuous'
+		
+	;
+	MATRIX
+	'Erythroxylaceae'		               00000000000?00?000000????0000?000000?00?
+	'Linaceae hugoniaceae'		          00(0,1,2)00(0,1)0000000001(0,1)0000????0(0,1)10?(0,1)0(0,1)000?(0,2)0?
+	'Ixonanthaceae'		                 10001000000111?(0,1)00000????0(0,1)00?0010?0?0??
+	'Caryocaraceae'		                 ?(0,1)030101010000?001102????0010?0(0,1)00000(0,1,2)(0,1)?
+	'Duckesia'		                      1(0,1)(0,1)2011110111000011010000100101010000001
+	'Endopleura'		                    1(0,1)(0,1)20101101110100011110201000?1010000(0,2)01
+	'Humiria'		                       1101000011111001101020(0,1)001110?1011111(0,1,2)(0,1)1
+	'Humiriastrum'		                  1(0,1)010000101110100(0,1)10010(1,2)(0,1)101(0,1)010(0,1)0000(0,1,2)01
+	'Hylocarpa'		                     1(0,1)120100101110?00111100100000?1010??00??
+	'Sacoglottis'		                   1100000010111010021000121000111010000(0,1,2)01
+	'Schistostemon'		                 1(0,1)01011010111010021010121000111010000(0,2)01
+	'Vantanea'		                      10230000100110010(0,1)102(0,1)0000000?1(0,1)(0,1)0000(0,2)(0,1)0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 40;
+      ENDBLOCK;
+      

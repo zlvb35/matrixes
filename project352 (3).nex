@@ -1,0 +1,322 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 17.58.42 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=59;
+    TAXLABELS
+    		'Addax nasomaculatus'
+		'Aepyceros melampus'
+		'Alcelaphus buselaphus'
+		'Ammodorcas clarkei'
+		'Antilope cervicapra'
+		'Antidorcas marsupialis'
+		'Boselaphus tragocamelus'
+		'Capra falconeri'
+		'Cephalophus rufilatus'
+		'Cephalophus silvicultor'
+		'Connochaetes taurinus'
+		'Damaliscus pygargus'
+		'Dorcatragus megalotis'
+		'Eudorcas rufifrons'
+		'Eudorcas thomsoni'
+		'Gazella bennettii'
+		'Gazella cuvieri'
+		'Gazella dorcas'
+		'Gazella gazella'
+		'Gazella leptoceros'
+		'Gazella marica'
+		'Gazella spekei'
+		'Gazella subgutturosa'
+		'Hippotragus niger'
+		'Kobus ellipsiprymnus'
+		'Kobus kob'
+		'Kobus leche'
+		'Kobus megaceros'
+		'Kobus vardoni'
+		'Litocranius walleri'
+		'Madoqua guentheri'
+		'Madoqua kirki'
+		'Madoqua saltiana'
+		'Nanger dama'
+		'Nanger granti'
+		'Nanger soemmerringi'
+		'Neotragus batesi'
+		'Neotragus moschatus'
+		'Neotragus pygmaeus'
+		'Oreotragus oreotragus'
+		'Oryx beisa'
+		'Ourebia ourebi'
+		'Pantholops hodgsoni'
+		'Pelea capreolus'
+		'Philantomba monticola'
+		'Procapra gutturosa'
+		'Procapra picticaudata'
+		'Procapra przewalskii'
+		'Raphicerus campestris'
+		'Raphicerus melanotis'
+		'Raphicerus sharpei'
+		'Redunca arundinum'
+		'Redunca fulvorufula'
+		'Redunca redunca'
+		'Rupicapra rupicapra'
+		'Saiga tatarica'
+		'Sylvicapra grimmia'
+		'Tetracerus quadricornis'
+		'Tragelaphus imberbis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=19;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'mammae, number'
+		 [2] 'inguinal glands'
+		 [3] 'preorbital glands'
+		 [4] 'pedal glands (interdigital glands)'
+		 [5] 'carpal glands and knee tufts'
+		 [6] 'corneal glands'
+		 [7] 'subauricular glands'
+		 [8] 'preputial glands in males'
+		 [9] 'false hoof glands'
+		 [10] 'dorsal gland'
+		 [11] 'muffle'
+		 [12] 'tail, black tuft'
+		 [13] 'dark side band'
+		 [14] 'dark eye-muzzle-band'
+		 [15] 'white stripe over eye'
+		 [16] 'white vertical stripes'
+		 [17] 'white rump patch'
+		 [18] 'black thigh stripe'
+		 [19] 'black markings on the front of the forelegs'
+	;
+	STATELABELS
+		1
+		'four'
+		'two'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'simple'
+		'with skin fold'
+		'forehead glandular'
+		'slitlike'
+		,
+		4
+		'absent'
+		'present'
+		'vestigial'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'bare'
+		'hairy'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Addax nasomaculatus'		              0001000000100000000
+	'Aepyceros melampus'		               0030000010100110110
+	'Alcelaphus buselaphus'		            1011000000110000000
+	'Ammodorcas clarkei'		               0?20100000110110100
+	'Antilope cervicapra'		              ?121?00000111010100
+	'Antidorcas marsupialis'		           1021000001111110110
+	'Boselaphus tragocamelus'		          0011000010010000000
+	'Capra falconeri'		                  100?000000110000000
+	'Cephalophus rufilatus'		            0?41000000010000000
+	'Cephalophus silvicultor'		          0041000000000000000
+	'Connochaetes taurinus'		            1001000000110000000
+	'Damaliscus pygargus'		              1011000000110000100
+	'Dorcatragus megalotis'		            1001000000101000000
+	'Eudorcas rufifrons'		               1?21000000111110110
+	'Eudorcas thomsoni'		                1121100000111110110
+	'Gazella bennettii'		                1?21?00000111110100
+	'Gazella cuvieri'		                  1?21100000111110110
+	'Gazella dorcas'		                   1?21100000111110110
+	'Gazella gazella'		                  1121100000111110110
+	'Gazella leptoceros'		               1?21?00000111110110
+	'Gazella marica'		                   1121100000111110110
+	'Gazella spekei'		                   1?21100000111110110
+	'Gazella subgutturosa'		             1121100000111110110
+	'Hippotragus niger'		                0011000000010110100
+	'Kobus ellipsiprymnus'		             0000010000010000100
+	'Kobus kob'		                        0110000000000000001
+	'Kobus leche'		                      0000000000010000001
+	'Kobus megaceros'		                  0000000000010010000
+	'Kobus vardoni'		                    0002000000000000010
+	'Litocranius walleri'		              0021100000110110100
+	'Madoqua guentheri'		                0021000000100000000
+	'Madoqua kirki'		                    0021000000100000000
+	'Madoqua saltiana'		                 0021000000100000100
+	'Nanger dama'		                      1?21100000110010100
+	'Nanger granti'		                    1021100000111110110
+	'Nanger soemmerringi'		              1?21100000110110110
+	'Neotragus batesi'		                 0101000?00000000000
+	'Neotragus moschatus'		              0011000?00010000000
+	'Neotragus pygmaeus'		               0111000?00000000000
+	'Oreotragus oreotragus'		            0010000100000000000
+	'Oryx beisa'		                       0001000000111110000
+	'Ourebia ourebi'		                   0121101000010000100
+	'Pantholops hodgsoni'		              1101000000100000001
+	'Pelea capreolus'		                  0001000100000000000
+	'Philantomba monticola'		            0041000000000000000
+	'Procapra gutturosa'		               1120110100100000100
+	'Procapra picticaudata'		            1001010000110000100
+	'Procapra przewalskii'		             1001010000100000101
+	'Raphicerus campestris'		            0021000000000000100
+	'Raphicerus melanotis'		             0021000100000000?00
+	'Raphicerus sharpei'		               0021000100000000100
+	'Redunca arundinum'		                0102001000000000001
+	'Redunca fulvorufula'		              0102001000000000000
+	'Redunca redunca'		                  0102001000000000000
+	'Rupicapra rupicapra'		              0000010000110100000
+	'Saiga tatarica'		                   ?121100000100000000
+	'Sylvicapra grimmia'		               0141000000010000000
+	'Tetracerus quadricornis'		          0010000010000000001
+	'Tragelaphus imberbis'		             0100000010010001000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=9 TEXT='Not much is known about the behaviour of this species, but several authors suggest that it is similar to the comparatively well-studied P.  monticola. I therefore score the cells according to the general description of duiker behaviour given in Estes (1992)';
+	TEXT TAXON=10 TEXT='Not much is known about the behaviour of this species, but several authors suggest that it is similar to the comparatively well-studied P.  monticola. I therefore score the cells according to the general description of duiker behaviour given in Estes (1992)';
+
+      [Attribute comments]
+      	TEXT TAXON=43 CHARACTER=4 TEXT='absent according to Schaller et al.';
+	TEXT TAXON=11 CHARACTER=4 TEXT='only in forefeet';
+	TEXT TAXON=3 CHARACTER=4 TEXT='only in forefeet';
+	TEXT TAXON=29 CHARACTER=4 TEXT='hindfeet';
+	TEXT TAXON=18 CHARACTER=5 TEXT='photo on www.ultimateungulate.com';
+	TEXT TAXON=22 CHARACTER=5 TEXT='photo on www.ultimateungulate.com';
+	TEXT TAXON=34 CHARACTER=5 TEXT='photos on www.arkive.org';
+	TEXT TAXON=36 CHARACTER=5 TEXT='photo on www.ultimateungulate.com';
+	TEXT TAXON=19 CHARACTER=5 TEXT='photos on www.arkive.org';
+	TEXT TAXON=17 CHARACTER=5 TEXT='photos on www.arkive.org';
+	TEXT TAXON=58 CHARACTER=9 TEXT='hindfeet only';
+	TEXT TAXON=47 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=44 CHARACTER=11 TEXT='www.ultimateungulate.org';
+	TEXT TAXON=26 CHARACTER=11 TEXT='www.ultimateungulate.org';
+	TEXT TAXON=29 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=28 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=27 CHARACTER=11 TEXT='www.arkive.org';
+	TEXT TAXON=5 CHARACTER=12 TEXT='www.arkive.org';
+	TEXT TAXON=8 CHARACTER=12 TEXT='photos on arkive';
+	TEXT TAXON=23 CHARACTER=12 TEXT='www.arkive.org';
+	TEXT TAXON=46 CHARACTER=12 TEXT='www.arkive.org^nsometimes slightly brownish at tip';
+	TEXT TAXON=47 CHARACTER=12 TEXT='www.arkive.org';
+	TEXT TAXON=57 CHARACTER=12 TEXT='reference? estes sagt with tuft ';
+	TEXT TAXON=21 CHARACTER=12 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=12 TEXT='www.arkive.org';
+	TEXT TAXON=23 CHARACTER=13 TEXT='www.arkive.org^nabsent according to Habibi et al.';
+	TEXT TAXON=47 CHARACTER=13 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=13 TEXT='www.arkive.org';
+	TEXT TAXON=41 CHARACTER=13 TEXT='very narrow';
+	TEXT TAXON=55 CHARACTER=13 TEXT='www.arkive.org';
+	TEXT TAXON=23 CHARACTER=14 TEXT='www.arkive.org^nvery pale, more pronounced in females and young';
+	TEXT TAXON=30 CHARACTER=14 TEXT='absent according to Estes';
+	TEXT TAXON=47 CHARACTER=14 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=14 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=14 TEXT='www.arkive.org';
+	TEXT TAXON=23 CHARACTER=15 TEXT='www.arkive.org^nin females and young';
+	TEXT TAXON=42 CHARACTER=15 TEXT='present according to estes';
+	TEXT TAXON=47 CHARACTER=15 TEXT='www.arkive.org';
+	TEXT TAXON=19 CHARACTER=15 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=15 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=15 TEXT='www.arkive.org';
+	TEXT TAXON=28 CHARACTER=15 TEXT='only in adult males';
+	TEXT TAXON=5 CHARACTER=16 TEXT='www.arkive.org';
+	TEXT TAXON=23 CHARACTER=16 TEXT='www.arkive.org';
+	TEXT TAXON=47 CHARACTER=16 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=16 TEXT='www.arkive.org';
+	TEXT TAXON=5 CHARACTER=17 TEXT='www.arkive.org';
+	TEXT TAXON=23 CHARACTER=17 TEXT='www.arkive.org';
+	TEXT TAXON=47 CHARACTER=17 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=17 TEXT='www.arkive.org';
+	TEXT TAXON=1 CHARACTER=17 TEXT='the whole back-quarter of the animal is white, from the croup to the legs, so there is no conspicious rump patch';
+	TEXT TAXON=55 CHARACTER=17 TEXT='www.arkive.org';
+	TEXT TAXON=5 CHARACTER=18 TEXT='www.arkive.org';
+	TEXT TAXON=18 CHARACTER=18 TEXT='very pale';
+	TEXT TAXON=20 CHARACTER=18 TEXT='very pale';
+	TEXT TAXON=23 CHARACTER=18 TEXT='www.arkive.org^nstripe is extremely pale';
+	TEXT TAXON=36 CHARACTER=18 TEXT='pale';
+	TEXT TAXON=47 CHARACTER=18 TEXT='www.arkive.org';
+	TEXT TAXON=19 CHARACTER=18 TEXT='very pale';
+	TEXT TAXON=48 CHARACTER=18 TEXT='www.arkive.org';
+	TEXT TAXON=21 CHARACTER=18 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=18 TEXT='www.arkive.org';
+	TEXT TAXON=47 CHARACTER=19 TEXT='www.arkive.org';
+	TEXT TAXON=56 CHARACTER=19 TEXT='www.arkive.org';
+	TEXT TAXON=48 CHARACTER=19 TEXT='www.arkive.org';
+	TEXT TAXON=55 CHARACTER=19 TEXT='www.arkive.org';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 19;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+MESQUITESCRIPTVERSION 2 ; TITLE AUTO ; tell ProjectCoordinator ; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa ; tell It ; setID 0 2034178027821411812 ; endTell ; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters ; tell It ; setID 0 7641356945683253050 ; checksumv 0 2 1047845918 null ; endTell ; getWindow ; tell It ; suppress ; setResourcesState false false 100 ; setPopoutState 400 ; setExplanationSize 0 ; setAnnotationSize 0 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1261 464 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; endTell ; desuppress ; endTell ; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord ; tell It ; showDataWindow #7641356945683253050 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker ; tell It ; getWindow ; tell It ; setExplanationSize 30 ; setAnnotationSize 20 ; setFontIncAnnot 0 ; setFontIncExp 0 ; setSize 1161 397 ; setLocation 8 8 ; setFont SanSerif ; setFontSize 10 ; getToolPalette ; tell It ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; endTell ; setActive ; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam ; colorCells #mesquite.charMatrices.NoColor.NoColor ; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor ; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor ; colorText #mesquite.charMatrices.NoColor.NoColor ; setBackground White ; toggleShowNames on ; toggleShowTaxonNames on ; toggleTight off ; toggleThinRows off ; toggleShowChanges on ; toggleSeparateLines off ; toggleShowStates on ; toggleAutoWCharNames on ; toggleShowDefaultCharNames off ; toggleConstrainCW on ; toggleBirdsEye off ; toggleAllowAutosize on ; toggleColorsPanel off ; toggleDiagonal on ; setDiagonalHeight 80 ; toggleLinkedScrolling on ; toggleScrollLinkedTables off ; endTell ; showWindow ; getWindow ; tell It ; forceAutosize ; endTell ; getEmployee #mesquite.charMatrices.ColorCells.ColorCells ; tell It ; setColor Red ; removeColor off ; endTell ; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel ; tell It ; togglePanel off ; endTell ; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip ; tell It ; showStrip off ; endTell ; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector ; tell It ; autotabOff ; endTell ; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor ; tell It ; panelOpen true ; endTell ; endTell ; endTell ; endTell ;
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ProbModelSet * UNTITLED = Mk1 (est.) : 1 - 18 ;
+ENDBLOCK;

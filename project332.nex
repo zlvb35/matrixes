@@ -1,0 +1,752 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-24 17.55.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Crypturollus undulatus'
+		'Trogon massena'
+		'Leptosomus discolor'
+		'Eurypyga helias'
+		'Steatornis caripensis'
+		'Prefica nivea'
+		'Nyctibius greseus'
+		'Nyctibius grandis'
+		'Quercypodargus olsoni'
+		'Masillapodargus longipes'
+		'Eurofluvioviridavis robustipes'
+		'Fluvioviridavis PA 607'
+		'Fluvioviridavis SMNK.PAL.2368a+b'
+		'Fluvioviridavis combination'
+		'Podargus strigoides'
+		'Batrachostomus auritus'
+		'Caprimulgus carolinensis'
+		'Paraprefica kelleri'
+		'Aegotheles cristatus'
+		'Hemiprocne comata'
+		'Amazilia tzacatl'
+		'Aerodramus vanikorensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=107;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Ossified nasal septum:'
+		 [2] 'External naris, anterior portion, rim surrounding the naris:'
+		 [3] 'Beak, form:'
+		 [4] 'Beak, length and form:'
+		 [5] 'Rostrum, dense neurovascular pitting:'
+		 [6] 'Maxilla, posterior termination:'
+		 [7] 'Skull, distinct frontonasal hinge, i.e., posterior part of beak markedly set off from anterior part of cranium by a furrow:'
+		 [8] 'Lacrimal, ventral process:'
+		 [9] '"Horns" projecting posteriorly at front of orbit:'
+		 [10] 'Sclerotic ossicles:'
+		 [11] 'Ectethmoid:'
+		 [12] 'Vomer:'
+		 [13] 'Palatine, lateral portion:'
+		 [14] 'Palatine, strongly protruding posterolaterally directed processes (Mayr 2002: fig. 3):'
+		 [15] 'Palate, internal choana, framed by ventrally directed lamina:'
+		 [16] 'Internal choana, opening:'
+		 [17] 'Palatines:'
+		 [18] 'Palatine, anterior process long and slender  (Mayr 2002: fig. 3):'
+		 [19] 'Palatine and pterygoid:'
+		 [20] 'Postorbital process: '
+		 [21] 'Palatine, lateral portion:'
+		 [22] 'Pterygoid-basipterygoid contact:'
+		 [23] 'Paroccipital processes:'
+		 [24] 'Cone-like bony protrusion at posterior margin of the optic nerve foramen:'
+		 [25] 'Jugal bar and mandible rami, lateral view:'
+		 [26] 'Parietal area, temporal fossae:'
+		 [27] 'Quadrate, orbital process:'
+		 [28] 'Quadrate, proximal portion, lateral condyle separated from the medial condyle by a deep but narrow furrow: '
+		 [29] 'Quadrate, otic process, dorsal margin of posterior surface:'
+		 [30] 'Mandible, distal part of mandibular rami very narrow, thus the mandibular symphysis is very short (less than a third of maximum width of rami):'
+		 [31] 'Articulation between the quadrate and the mandible, incorporation of a locking mechanism by means of a laterally directed peg on the quadrate fitting into a medially open concavity of the articular portion of the mandible'
+		 [32] 'Mandible, posterior edge of the articular portion, in dorsal view:'
+		 [33] 'Mandibular rami, ventral margin, lateral view:'
+		 [34] 'Mandible, anterior portion of the symphysis:'
+		 [35] 'Mandibular rami, pronounced, monotonic curvature producing continuous lateral concavity:'
+		 [36] 'Mandible with intraramal joint and posterior half of mandibular rami greatly widened (mediolateral width greater than dorsoventral extension) and dorsoventrally flattened:'
+		 [37] 'Mandible, proximal end small, with stout medial process and medial cotyla forming a narrow sulcus:'
+		 [38] 'Atlas, opening for odontoid process:'
+		 [39] 'Axis, transverse foramina:'
+		 [40] 'Third cervical vertebra, osseous bridge from transverse process to the postzygapophysis:'
+		 [41] 'Fifth cervical vertebra, osseous bridge from costal process to midsection of the centrum:'
+		 [42] 'Thoracic vertebrae 1 and 2:'
+		 [43] 'Thoracic vertebrae 1 and 2, ventral tip of ventral process forming large horizontal plate:'
+		 [44] 'Pygostyle, , body perforated at posteroventral end (Mayr & Clarke 2003: fig. 6G):'
+		 [45] 'Number of praesacral vertebrae (all vertebrae anterior to synsacrum):'
+		 [46] 'Furcula, omal tip with distinct, laterally protruding acrocoracoid articular facet:'
+		 [47] 'Coracoid, articular surface for the scapula:'
+		 [48] 'Coracoid, supracoracoid nerve foramen:'
+		 [49] 'Coracoid, lateral process:'
+		 [50] 'Coracoid, small foramina ventral to acrocacoid process:'
+		 [51] 'Scapula, blade:'
+		 [52] 'Sternum, spina interna rostri:'
+		 [53] 'Sternum, farticular surface for the coracoid weakly saddle-shaped or convex:'
+		 [54] 'Sternum, spina externa forming a ridge that extends dorsoventrally over entire sternum rostrum:'
+		 [55] 'Sternum, number of notches/fenestrae:'
+		 [56] 'Sternum, perforations:'
+		 [57] 'Sternum:'
+		 [58] 'Humerus, proximal end, posterior prominence of ventral tubercle distinctly greater than that of head of the humerus:'
+		 [59] 'Humerus, proximal end, deltopectoral crest:'
+		 [60] 'Humerus, proximal portion, distal end of bicipital surface:'
+		 [61] 'Humerus, proximal end, transverse sulcus very deep, long and rectangular-shaped:'
+		 [62] 'Humerus, distal end, fossa for the m. brachialis deep and sharply delimited:'
+		 [63] 'Humerus, greatly abbreviated and stocky (ratio of length of bone: width of shaft in midsection less than 7.0):'
+		 [64] 'Humerus: tibiotarsus proportions:'
+		 [65] 'Humerus, distal end, ventral supracondylar tubercle:'
+		 [66] 'Ulna distinctly exceeding humerus in length:'
+		 [67] 'Radius, distal end with marked tubercle on ventral side of shaft, opposite to carpal tubercle of ulna:'
+		 [68] 'Carpometacarpus, intermetacarpal process:'
+		 [69] 'Carpometacarpus, projection of distal end of metacarpal III:'
+		 [70] 'Ulnare, length of crus longum versus crus breve length:'
+		 [71] 'Manual phalanx II-1, anterior face:'
+		 [72] 'Manual phalanx I-1 (=alulae), claw:'
+		 [73] 'Manual phalanx II-1, well-developed internus indicis process:'
+		 [74] 'Manual phalanx II-1, dorsal fossa:'
+		 [75] 'Manual phalanx II-2, distal end:'
+		 [76] 'Pelvis, ilioischidic foramen:'
+		 [77] 'Pelvis, posterior portion, juncture of the ilium and the ischium, posteriorly directed point:'
+		 [78] 'Pelvis wide in mediolateral direction, width across antitrochanters as much or more than length of synsacrum:'
+		 [79] 'Pelvis, well-developed preacetabular tubercle:'
+		 [80] 'Pelvis, terminal portion of the ischium slender, touching pubis at an angle of 45o - 90o, thus creating a very wide ischiopubic fenestra:'
+		 [81] 'Tibiotarsus, length:'
+		 [82] 'Tibiotarsus, distal end, supratendinal bridge:'
+		 [83] 'Tibiotarsus, distal end, tibial cartilage trochlea sulcus:'
+		 [84] 'Intertarsal sesamoid:'
+		 [85] 'Tarsometatarsus, length:'
+		 [86] 'Tarsometatarsus, hypotarsus passing into a well developed medial plantar crest; medial parahypotarsal fossa very marked and proximal part of the medial margin forming a sharp ridge:'
+		 [87] 'Tarsometatarsus, hypotarsus, tendons of musculus flexor digitorum longus and musculus flexor hallucis longus enclosed in bony canals:'
+		 [88] 'Tarsometatarsus, arcus extensorius (ossified retinaculum extensorium):'
+		 [89] 'Tarsometatarsus, canalis interosseus distalis:'
+		 [90] 'Tarsometatarsus,  midline plantar crest (=crista medianoplantaris):'
+		 [91] 'Tarsometatarsus, tubercle for m. tibialis cranialis insertion very prominent:'
+		 [92] 'Hallux, proximal phalanx with proximal end greatly widened:'
+		 [93] 'Third and fourth toe coalescent at least over length of basal phalanx of third toe:'
+		 [94] 'Second and third phalanx of fourth toe greatly abbreviated, measuring less than half the length of the fourth phalanx:'
+		 [95] 'Cerebellum with reduced anterior lobe, particularly small folia II and III, and relatively large posterior lobe:'
+		 [96] 'Caeca:'
+		 [97] 'Rictal bristles:'
+		 [98] 'Villi at the bases of the basal-most downy barbules of breast feathers:'
+		 [99] 'Wing:'
+		 [100] 'M. splenius capitis with cruciform origin:'
+		 [101] 'M. ambiens:'
+		 [102] 'M. iliofemoralis externus:'
+		 [103] 'M. flexor cruris lateralis, pars accessoria:'
+		 [104] 'M. caudofemoralis, pars pelvica:'
+		 [105] 'M. fibularis longus:'
+		 [106] 'M. popliteus:'
+		 [107] 'Vinculum between tendons of musculus flexor perforans et perforatus digiti III and musculus perforatus digiti III:'
+	;
+	STATELABELS
+		1
+		'absent '
+		'present and  largely/completely ossified'
+		,
+		2
+		'restricted to the external naris'
+		'extends anterolaterally onto the dorsal surface of the beak'
+		,
+		3
+		'narrow, dorsoventrally tall'
+		'dorsoventrally flattened'
+		,
+		4
+		'longer than rest of skull'
+		'shorter than rest of skull and very wide at its base, with narial openings large and reaching far into its tip'
+		'shorter than rest of skull and narrow at base'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'continuous with the jugal bar'
+		'extends laterally and posteriorly to the contact jugal bar (=angulus tomialis)'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'present and approaches jugal bar'
+		'absent'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'small, average size'
+		'greatly enlarged'
+		,
+		11
+		'no anterior or lateral expansion'
+		'greatly expanded anteriorly, plate-like, with dorsal margin largely fused with frontals'
+		'greatly expanded anterolaterally, inflated, with dorsal margin largely fused with frontals'
+		,
+		12
+		'not as follows'
+		'with truncate rostral and bifurcate posterior end (typical of the "''aegithognathous"'' palate)'
+		,
+		13
+		'unexpanded or poorly expanded'
+		'extremely anterolaterally expanded'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'ventral'
+		'posterior'
+		,
+		17
+		'remain separate anterior to the internal choana'
+		'fused anterior to the internal choana'
+		,
+		18
+		'no'
+		'yes'
+		,
+		19
+		'separate elements'
+		'fused'
+		,
+		20
+		'short'
+		'elongated, touching (or nearly touching) the jugal bar'
+		,
+		21
+		'flat'
+		'bears a fossa on the ventral surface that is anterior to the internal choana and is separated from its antimere from a midline lamina'
+		,
+		22
+		'present at the posterior portion of or along the midshaft of the pterygoid'
+		'present and restricted to the anterior portion of the pterygoid'
+		'absent'
+		,
+		23
+		'projected laterally and slightly ventrally'
+		'strongly ventrally protruding, pointed, and at or ventral to the level of the articular surface of the quadratomandibular joint'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'straight or nearly straight'
+		'strongly bowed, so that lateral margin of skull is convex'
+		,
+		26
+		'absent or far from the midline'
+		'meeting or almost meeting at midline of skull'
+		,
+		27
+		'anteriorly elongated'
+		'greatly reduced, short process'
+		'absent'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'smooth'
+		'with many small pneumatic foramina'
+		,
+		30
+		'no'
+		'yes'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'mediolaterally flat'
+		'rounded posteriorly'
+		,
+		33
+		'distinctly decurved'
+		'virtually straight'
+		'present, strongly recurved'
+		,
+		34
+		'distinctly pointed'
+		'nearly rounded'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'no'
+		'yes'
+		,
+		37
+		'no'
+		'yes'
+		,
+		38
+		'dorsally open incisura fossa'
+		'enclosed foramen'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'no'
+		'yes'
+		,
+		42
+		'ventral process absent or present and blade-like'
+		'"trifid" processus ventralis with 2 lateral projections on thoracic 1 and 2'
+		,
+		43
+		'no'
+		'yes'
+		,
+		44
+		'yes'
+		'no'
+		,
+		45
+		'19 or more'
+		'18'
+		'17'
+		,
+		46
+		'no'
+		'yes'
+		,
+		47
+		'cup-like'
+		'flat'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'short'
+		'long'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'generally curved'
+		'strait and distal tip is deflected'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'no'
+		'yes'
+		,
+		54
+		'no'
+		'yes'
+		,
+		55
+		'four notches/fenestrae'
+		'two notches/fenestrae'
+		'without notches/fenestrae'
+		,
+		56
+		'posteriorly open'
+		'posteriorly closed'
+		,
+		57
+		'lateral and intermediate trabeculae short and subequal'
+		'very long lateral trabeculae and short trabecula intermedia'
+		,
+		58
+		'no'
+		'yes'
+		,
+		59
+		'proximodistally elongated'
+		'proximodistally narrow, strongly protruding and tapering'
+		,
+		60
+		'indistinct and continuous with the shaft'
+		'distinct and extends ventral to the shaft'
+		,
+		61
+		'no'
+		'yes'
+		,
+		62
+		'no'
+		'yes'
+		,
+		63
+		'no'
+		'yes'
+		,
+		64
+		'tibiotarsus significantly longer'
+		'approximately equal in lenght'
+		'humerus significantly longer'
+		,
+		65
+		'low tubercle'
+		'elongated and narrow process'
+		,
+		66
+		'no'
+		'yes'
+		,
+		67
+		'no'
+		'yes'
+		,
+		68
+		'absent or small'
+		'well-developed, reaching metacarpal III'
+		'absent but tendon of musculus extensor carpi ulnaris inserts on the metacarpal III as it does in taxa with an intermetacarpal process'
+		,
+		69
+		'shorter than or subequal to metacarpal II'
+		'longer than metacarpal II'
+		,
+		70
+		'crus breve longer or about the same length'
+		'crus longum longer'
+		,
+		71
+		'narrow, rounded'
+		'dorsoventrally widened, giving phalanx a T-shaped cross section'
+		,
+		72
+		'present'
+		'absent or rudimentary in adulthood'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'single depression'
+		'divided into two depressions or fenestrae separated by a distinct oblique bulge'
+		,
+		75
+		'straight or slight posterior expansion'
+		'posterior expansion well developed'
+		,
+		76
+		'open'
+		'closed'
+		,
+		77
+		'present'
+		'absent'
+		,
+		78
+		'no'
+		'yes'
+		,
+		79
+		'present'
+		'absent'
+		,
+		80
+		'no'
+		'yes'
+		,
+		81
+		'distinctly longer than carpometacarpus'
+		'shorter or about equal length to the carpometacarpus'
+		,
+		82
+		'ossified'
+		'tendinous'
+		,
+		83
+		'no'
+		'yes'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'more than half as long as carpometacarpus'
+		'less than half as long as carpometacarpus'
+		,
+		86
+		'no'
+		'yes'
+		,
+		87
+		'no'
+		'yes'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'present'
+		'absent'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'no'
+		'yes'
+		,
+		92
+		'no'
+		'yes'
+		,
+		93
+		'no'
+		'yes'
+		,
+		94
+		'no'
+		'yes'
+		,
+		95
+		'no'
+		'yes'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'diastataxic'
+		'eutaxic'
+		,
+		100
+		'no'
+		'yes'
+		,
+		101
+		'present'
+		'absent'
+		,
+		102
+		'present'
+		'absent'
+		,
+		103
+		'present'
+		'absent'
+		,
+		104
+		'present'
+		'absent'
+		,
+		105
+		'present'
+		'absent'
+		,
+		106
+		'present'
+		'absent'
+		,
+		107
+		'present'
+		'absent'
+		
+	;
+	MATRIX
+	'Crypturollus undulatus'		                    000000?000000000001000000000100001000000000100111001001000000000000000?10000-000000000000?0000010?100000000
+	'Trogon massena'		                            1002011000000000000000000000100000000110000100110110000000000102010011110001011100000010110010?????????????
+	'Leptosomus discolor'		                       100000000?100000000101000000000000000??????1?10011000000010001020100001?11010010000?0010?11000?????????????
+	'Eurypyga helias'		                           00000000001000000000010001000000000000000001000010000010010011000100000?01010010000?0000000000?????????????
+	'Steatornis caripensis'		                     100211?1000000101000000001000?0000000001010100011000001000001102010011111001011011001000011001011?001101100
+	'Prefica nivea'		                             ????????????????????????01???0?0?0000???????????1?0?0?000?00?102?100011?01010???1???10?0??1000?????????????
+	'Nyctibius greseus'		                         001100010120110000?000111021010000011011110111011100000001001002010001011111101001011010000000?1???01101011
+	'Nyctibius grandis'		                         00110001012011000000001110210100000110111101?10111000000010011020100?10111111010?1011010000000?????01101011
+	'Quercypodargus olsoni'		                     ?????????????????????????????????????????????????????????????????????????????????00???1??1?????????????????
+	'Masillapodargus longipes'		                  ??101??101?-??1??00??20?0??0?0?111100????1????010?1?0?0000000101?1?0011?010?????0???0??????000?????????????
+	'Eurofluvioviridavis robustipes'		            ?0100??????????0000??2???????0?0?000???????0???0??0??????00???0??1?00?000101???0????1????0?000?????????????
+	'Fluvioviridavis PA 607'		                    1?101101000-001010000200011000?110100001????0??????????????????????????????10??0??0011???1?000?????????????
+	'Fluvioviridavis SMNK.PAL.2368a+b'		          ?1101?0100???????????????01??????0?????????1?0001?0???00??00?100?1000??0110100100?0?1??????000?????????????
+	'Fluvioviridavis combination'		               11101101000-001010000200011000?110100?01???100001?0???00??00?100?1000??0110100100?0011???1?000?????????????
+	'Podargus strigoides'		                       11101111110-0101100112000110001111100001110110111010000010000101010001110101001000000010110000011?001101001
+	'Batrachostomus auritus'		                    11101111110-01011001120001100011111000011101101110100000100001020100111?01010010000?0010110000011?001101011
+	'Caprimulgus carolinensis'		                  00110000002011000100001110210100000111010100111110100010010010020100010111010110000?00001000001110001101001
+	'Paraprefica kelleri'		                       001100??0???1100??00?0??102??1?000011?????????01??0???000?00100??1?001010?01?01001??10?0???0?0?????????????
+	'Aegotheles cristatus'		                      001100?1000101000100010000111?0000001010010111100100000100001000010001010101011100000000110100101?011101111
+	'Hemiprocne comata'		                         001100?1001101000100010000111?0000000010011111000110112101111111111001011111111101101?01101??1?00??111?????
+	'Amazilia tzacatl'		                          001000?1001100000100010000111?0000000111010111000000110-010000110001100110111111001000011110111001111111111
+	'Aerodramus vanikorensis'		                   001100?10?1101000100010000111?00000001100111110001001111011110101110010111110111001000011111011000111111111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='AMNH 6480';
+	TEXT TAXON=2 TEXT='USNM 612327, 612328';
+	TEXT TAXON=3 TEXT='USNM 291844';
+	TEXT TAXON=4 TEXT='USNM 614111';
+	TEXT TAXON=5 TEXT='USNM 560206^n^nUSNM 560152';
+	TEXT TAXON=6 TEXT='USNM 336278';
+	TEXT TAXON=7 TEXT='USNM 555945';
+	TEXT TAXON=8 TEXT='USNM 615095';
+	TEXT TAXON=10 TEXT='SMNK.PAL.1083 holotype^n^nSMF-ME 1415a+b^n^nSMNK.PAL.552a+b^n^nSMNK.PAL.557^n^nSMF-ME 3404a+b^n^nSMF-ME 3405a+b^n^nSMF-ME 3406';
+	TEXT TAXON=11 TEXT='SMF-ME 10783a + 10783b skull^n^nSMNK.PAL.3835 skeleton';
+	TEXT TAXON=13 TEXT='SMNK.PAL.2368a+b ';
+	TEXT TAXON=14 TEXT='SMNK.PAL.2368a+b and PA 607';
+	TEXT TAXON=15 TEXT='USNM 612707';
+	TEXT TAXON=16 TEXT='USNM 430279';
+	TEXT TAXON=17 TEXT='NCSM 18510';
+	TEXT TAXON=18 TEXT='SMF-ME 3376 holotype, SMF-ME 1635a+b, SMF-ME 1926, SMF-ME 2553, SMF-ME 3377a+b, SMNK.PAL.938, SMF-ME 3578, SMF-ME 3727a+b, SMF-ME 1760';
+	TEXT TAXON=19 TEXT='USNM 632141';
+	TEXT TAXON=21 TEXT='USNM 613414';
+	TEXT TAXON=22 TEXT='USNM 557188';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Mayr 2005: character 1^nMayr 2009: character 1';
+	TEXT CHARACTER=2 TEXT='New';
+	TEXT CHARACTER=3 TEXT='New';
+	TEXT CHARACTER=4 TEXT='Mayr 2005: character 2^nMayr 2009: character 2';
+	TEXT CHARACTER=5 TEXT='New';
+	TEXT CHARACTER=6 TEXT='modified from Livezey and Zusi 2006: Character 408';
+	TEXT CHARACTER=7 TEXT='Mayr 2003^nMayr and Clarke 2003: character 5';
+	TEXT CHARACTER=8 TEXT='modified from Mayr 2005: character 6^nMayr 2009: character 3';
+	TEXT CHARACTER=9 TEXT='similar to Livezey and Zusi 2006: Character 383';
+	TEXT CHARACTER=10 TEXT='New';
+	TEXT CHARACTER=11 TEXT='Modified from Mayr 2005: character 8^nMayr 2009: character 4';
+	TEXT CHARACTER=12 TEXT='Mayr 2005: character 9^nMayr 2009: character 5';
+	TEXT CHARACTER=13 TEXT='Mayr 2005: character 10^nMayr 2009: character 8';
+	TEXT CHARACTER=14 TEXT='Mayr 2005: character 11^nMayr 2009: character 7';
+	TEXT CHARACTER=15 TEXT='modified from Livezey and Zusi 2006: Character 442';
+	TEXT CHARACTER=16 TEXT='new';
+	TEXT CHARACTER=17 TEXT='new';
+	TEXT CHARACTER=18 TEXT='Mayr 2005: character 12^nMayr 2009: character 6';
+	TEXT CHARACTER=19 TEXT='Mayr 2005: character 14^nMayr 2009: character 9';
+	TEXT CHARACTER=20 TEXT='modified from Mayr 2005: character 13';
+	TEXT CHARACTER=21 TEXT='modified from Livezey and Zusi 2006: character 455 ';
+	TEXT CHARACTER=22 TEXT='modified^nMayr 2005: character 15^nMayr 2009: character 10';
+	TEXT CHARACTER=23 TEXT='Mayr 2005: character 16^nMayr 2009: character 11';
+	TEXT CHARACTER=24 TEXT='Mayr 2005: character 17^nMayr 2009: character 12';
+	TEXT CHARACTER=25 TEXT='Mayr 2005: character 18';
+	TEXT CHARACTER=26 TEXT='modified from Mayr 2005: character 19';
+	TEXT CHARACTER=27 TEXT='modified from Mayr 2005: character 20^nMayr 2009: character 13^nORDERED';
+	TEXT CHARACTER=28 TEXT='Mayr 2005: character 21^nMayr 2009: character 14';
+	TEXT CHARACTER=29 TEXT='modified from Mayr 2005: character 22^nMayr 2009: character 15';
+	TEXT CHARACTER=30 TEXT='Mayr 2005: character 24^nMayr 2009: character 16';
+	TEXT CHARACTER=31 TEXT='Livezey and Zusi 2006: Character 710';
+	TEXT CHARACTER=32 TEXT='New';
+	TEXT CHARACTER=33 TEXT='modified from Livezey and Zusi 2006: Character 673';
+	TEXT CHARACTER=34 TEXT='New';
+	TEXT CHARACTER=35 TEXT='Livezey and Zusi 2006: Character 658';
+	TEXT CHARACTER=36 TEXT='Mayr 2005: character 26^nMayr 2009: character 17';
+	TEXT CHARACTER=37 TEXT='Mayr 2005: character 27^nMayr 2009: character 18';
+	TEXT CHARACTER=38 TEXT='Mayr 2005: character 28^nMayr 2009: character 19';
+	TEXT CHARACTER=39 TEXT='Mayr 2005: character 29^nMayr 2009: character 20';
+	TEXT CHARACTER=40 TEXT='Mayr 2009: character 21';
+	TEXT CHARACTER=41 TEXT='Mayr 2009: character 22';
+	TEXT CHARACTER=42 TEXT='New';
+	TEXT CHARACTER=43 TEXT='Mayr 2009: character 23';
+	TEXT CHARACTER=44 TEXT='Mayr 2005: character 30';
+	TEXT CHARACTER=45 TEXT='Mayr 2005: character 32^nMayr 2009: character 24';
+	TEXT CHARACTER=46 TEXT='Mayr 2005: character 33^nMayr 2009: character 25';
+	TEXT CHARACTER=47 TEXT='Mayr 2005: character 34^nMayr 2009: character 26';
+	TEXT CHARACTER=48 TEXT='Mayr 2005: character 35^nMayr 2009: character 27';
+	TEXT CHARACTER=49 TEXT='Mary 2009: character 28';
+	TEXT CHARACTER=50 TEXT='New';
+	TEXT CHARACTER=51 TEXT='New';
+	TEXT CHARACTER=52 TEXT='Mayr 2005: character 39^n';
+	TEXT CHARACTER=53 TEXT='Mayr 2005: character 40^nMayr 2009: character 31';
+	TEXT CHARACTER=54 TEXT='Mayr 2009: character 29';
+	TEXT CHARACTER=55 TEXT='modified from Mayr 2005: character 41^nMayr 2009: character 32';
+	TEXT CHARACTER=56 TEXT='New^nTaxa not scored as (2) in previous character are scored as inapplicable';
+	TEXT CHARACTER=57 TEXT='New';
+	TEXT CHARACTER=58 TEXT='Mayr 2009: character 34';
+	TEXT CHARACTER=59 TEXT='modified from Mayr 2005';
+	TEXT CHARACTER=60 TEXT='New';
+	TEXT CHARACTER=61 TEXT='Mayr 2005: character 42^nMayr 2009: character 33';
+	TEXT CHARACTER=62 TEXT='Mayr 2005: character 43^nMayr 2009: character 36';
+	TEXT CHARACTER=63 TEXT='Mayr 2005: character 45^nMayr 2009: character 37';
+	TEXT CHARACTER=64 TEXT='New ORDERED';
+	TEXT CHARACTER=65 TEXT='Mayr 2009: character 35';
+	TEXT CHARACTER=66 TEXT='Mayr 2005: character 46^nMayr 2009: character 39';
+	TEXT CHARACTER=67 TEXT='Mayr 2009: character 38';
+	TEXT CHARACTER=68 TEXT='Mayr 2005: character 50';
+	TEXT CHARACTER=69 TEXT='Mayr 2005: character 51^nMayr 2009: character 40^n';
+	TEXT CHARACTER=70 TEXT='Mayr 2005: character 52^nMayr 2009: character 41';
+	TEXT CHARACTER=71 TEXT='New';
+	TEXT CHARACTER=72 TEXT='Mayr 2005: character 54^nMayr 2009: character 42';
+	TEXT CHARACTER=73 TEXT='Mayr 2005: character 56^nMayr 2009: character 44';
+	TEXT CHARACTER=74 TEXT='Mayr 2009: character 43';
+	TEXT CHARACTER=75 TEXT='New';
+	TEXT CHARACTER=76 TEXT='Mayr 2005: character 58^nMayr 2009: character 45';
+	TEXT CHARACTER=77 TEXT='New';
+	TEXT CHARACTER=78 TEXT='Mayr 2005: character 59^nMayr 2009: character 46';
+	TEXT CHARACTER=79 TEXT='Mayr 2005: character 62^nMayr 2009: character 47';
+	TEXT CHARACTER=80 TEXT='Mayr 2005: character 63';
+	TEXT CHARACTER=81 TEXT='Mayr 2005: character 65';
+	TEXT CHARACTER=82 TEXT='Mayr 2005: character 68^nMayr 2009: character 48';
+	TEXT CHARACTER=83 TEXT='Mayr 2009: character 49';
+	TEXT CHARACTER=84 TEXT='Mayr 2009: character 50';
+	TEXT CHARACTER=85 TEXT='modified from Mayr 2005: character 70^nMayr 2009: character 51';
+	TEXT CHARACTER=86 TEXT='Mayr 2005: character 71';
+	TEXT CHARACTER=87 TEXT='Mayr 2005: character 73^nMayr 2009: character 53';
+	TEXT CHARACTER=88 TEXT='Mayr 2005: character 74^nMayr 2009: character 54';
+	TEXT CHARACTER=89 TEXT='Mayr 2005: character 75^nMayr 2009: character 55';
+	TEXT CHARACTER=90 TEXT='New';
+	TEXT CHARACTER=91 TEXT='Mayr 2009: character 52';
+	TEXT CHARACTER=92 TEXT='Mayr 2005: character 78';
+	TEXT CHARACTER=93 TEXT='Mayr 2005: character 79';
+	TEXT CHARACTER=94 TEXT='Mayr 2005: character 80^nMayr 2009: character 56';
+	TEXT CHARACTER=95 TEXT='Mayr 2009: character 69';
+	TEXT CHARACTER=96 TEXT='Mayr 2009: character 68';
+	TEXT CHARACTER=97 TEXT='Mayr 2009: character 67';
+	TEXT CHARACTER=98 TEXT='Mayr 2005: character 98';
+	TEXT CHARACTER=99 TEXT='Mayr 2005: character 97^nMayr 2009: character 66';
+	TEXT CHARACTER=100 TEXT='Mayr 2005: character 82^nMayr 2009: character 57';
+	TEXT CHARACTER=101 TEXT='McKitrick 1991: character 29^nMayr 2005: character 83^nMayr 2009: character 58';
+	TEXT CHARACTER=102 TEXT='Mayr 2005: character 84^nMayr 2009: character 59';
+	TEXT CHARACTER=103 TEXT='Mayr 2005: character 86^nMayr 2009: character 60';
+	TEXT CHARACTER=104 TEXT='Mayr 2005: character 87^nMayr 2009: character 61';
+	TEXT CHARACTER=105 TEXT='Mayr 2005: character 88^nMayr 2009: character 62';
+	TEXT CHARACTER=106 TEXT='Mayr 2005: character 89^nMayr 2009: character 63';
+	TEXT CHARACTER=107 TEXT='Mayr 2005: character 90^nMayr 2009: character 64';
+
+      [Attribute comments]
+      	TEXT TAXON=17 CHARACTER=27 TEXT='It looks to be completely absent';
+	TEXT TAXON=9 CHARACTER=87 TEXT='In Quercypodargus,tendon of  m. flexor digitorum longus is in a complete canal and m flexor halluxis longus is in a deep but incompletely closed groove';
+	TEXT TAXON=9 CHARACTER=88 TEXT='looks absent in Quercypodargus but I am unsure if it is definitely absent or just not preserved from the figure/text';
+	TEXT TAXON=9 CHARACTER=90 TEXT='Scored from FIgure 2 of Maurer-Chauvire ';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 107;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -947629390 ; FileSettings editor 0 0 1 1 ; Singles 100 ; Editor 0001100111111110010001001 1 24 Geneva 9 194 1 all ; EditorPosition 44 6 1123 1849 ; TreeWindowPosition 46 6 1131 1870 ; ListWindow Characters closed Geneva 9 50 10 129 345 000 ; ListWindow Taxa closed Geneva 9 50 10 276 490 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 50 10 276 490 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 1118 1860 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder Data ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 1009 46 115 165 ; TreeToolsPosition 1016 9 126 138 ; TreeWindowProgram 10 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011011 ; TipLabel 1 ; TreeFont Geneva 12 (normal) ; TreeShape 1.0 1.0 1100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 -10033 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
