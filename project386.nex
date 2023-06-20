@@ -1,0 +1,169 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-25 02.08.46 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=10;
+    TAXLABELS
+    		'Archaeohyrax'
+		'Prohegetotherium'
+		'Prosotherium'
+		'Propachyrucos'
+		'Hegetotherium'
+		'Hemihegetotherium'
+		'Pachyrukhos'
+		'Paedotherium'
+		'Tremacyllus'
+		'Hemihegetotherium trilobus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=21;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Cementum (C17, DC2)'
+		 [2] 'I2-C/i3-C (C18, CB1, DC7-8)'
+		 [3] 'P1/p1 (C19, CB2, DC9)'
+		 [4] 'Relationship of canine and anterior premolars (DC19)'
+		 [5] 'I1 Relative size'
+		 [6] 'P2 Relative size (DC20)'
+		 [7] 'Molars with single deep lingual cleft (C12; CB6, DC10)'
+		 [8] 'Angle formed by ectoloph and posterior face of M1 (DC14)'
+		 [9] 'Relative size of M3 (CB 7)'
+		 [10] 'M3 shape (DC14)'
+		 [11] 'Pronounced notch on posterior face of M3 (DC16)'
+		 [12] 'Relative size of i1 (C20, CB10, modified by DC17)'
+		 [13] 'Flat lingual side of lower molars (C4-5, DC 25)'
+		 [14] 'm3 shape (C6, CB8, DC29)'
+		 [15] 'Size of incisive foramina'
+		 [16] 'Post-incisive depressions (CB 16)'
+		 [17] 'Postorbital processes'
+		 [18] 'Sagittal crest (CB 18)'
+		 [19] 'Mastoid bulla (CB 11)'
+		 [20] 'Configuration of tibia and fibula (unordered)'
+		 [21] 'Metapodial distal keel (CB20)'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		21
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Archaeohyrax'		                        0000000000000000000??
+	'Prohegetotherium'		                    0000000011(0,1)0000001010
+	'Prosotherium'		                        010010100101111012100
+	'Propachyrucos'		                       00001010010111?012100
+	'Hegetotherium'		                       00001101(0,1)110100001010
+	'Hemihegetotherium'		                   10011101120110?0??010
+	'Pachyrukhos'		                         011010011201111012120
+	'Paedotherium'		                        01101(0,1)0(1,2)0(1,2)01110012121
+	'Tremacyllus'		                         01101(0,1)021201111112121
+	'Hemihegetotherium trilobus'		          10011001(0,1)20(0,1)11000101?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 21;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+Version 4.0 84 ; LastModified -932851208 ; FileSettings editor 1 1 3 1 ; Singles 110 ; Editor 0001100111111110010001001 0 24 Geneva 9 100 1 all ; EditorPosition 46 6 771 1227 ; TreeWindowPosition 46 6 801 1230 ; ListWindow Characters open Geneva 9 286 261 401 515 000 ; ListWindow Taxa closed Geneva 9 108 121 225 278 100000 ; ListWindow Trees closed Geneva 9 50 10 276 490 ; ListWindow TypeSets closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ListWindow ExSets closed Geneva 9 50 10 276 490 ; ListWindow CharSets closed Geneva 9 70 45 129 181 ; ListWindow TaxSets closed Geneva 9 50 10 276 490 ; ListWindow CharPartitions closed Geneva 9 50 10 276 490 ; ListWindow CharPartNames closed Geneva 9 50 10 276 490 ; ListWindow WtSets closed Geneva 9 50 10 276 490 ; ChartWindowPosition 52 30 772 1220 ; StateNamesSymbols closed Geneva 9 10 50 30 148 220 ; WindowOrder ; OtherSymbols &/ 00 ?- ; Correlation 0 0 1000 0 0 10011010 ; Salmo 00000001 ; EditorFile 2 ; ExportHTML _ MOSS 100 110000 ; PrettyPrint 10 ; EditorToolsPosition 659 46 115 165 ; TreeToolsPosition 670 9 126 138 ; TreeWindowProgram 00 ; TreeWindow 0000 ; Continuous 0 3 1 ; Calculations 0000001 ; SummaryMode 0 0 0 ; Charts Geneva 9 (normal) 0010 ; NexusOptions 0 0 50 001011001 ; TipLabel 1 ; TreeFont Geneva 9 (normal) ; TreeShape 0.5 1.0 1100 ; TraceLabels 0101 ; ChartColors 0 0 65535 9 0 1 ; ChartBiggestSpot 1 ; ChartPercent 10 ; ChartBarWidth 10 1 ; ChartVerticalAxis 10101 ; ChartMinMax 0 ; TraceAllChangesDisplay 1 1 ; BarsOnBranchesDisplay 0 0 60000 10000 10000 10000 10000 60000 65000 65000 65000 6 1 0000101 ; ContinuousBranchLabels 0 ; AllStatesBranchLabels 1 ; IndexNotation 2 1 ; PrintTree 10.00 2 2 2 2 2 2 2 2 2 2 2 Geneva 9 (normal) Geneva 10 (normal) Geneva 9 (normal) Geneva 9 (normal) Geneva 9 (bold ) Geneva 9 (normal) Geneva 9 (normal) 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 32767 -1 -39 4 -40 0 1 2 1 8 0 0 0 2 1000111000000000000100000111000 ; MatchChar 00 . ; EntryInterpretation 01 ; ColorOptions 00 ; TreeTools 0 5 4 0 10 4 0 00100111111101110 ; EditorTools 0 0 0 1000 0 0 6 3 0 100000101110001 ; PairAlign 2 2 3 2 1 1 2 1 3 1010 ; BothTools 1 ;
+ENDBLOCK;
+BEGIN MACCLADESTART;
+Extended ;
+ENDBLOCK;
+BEGIN PAUP;
+outgroup Archaeohyrax ;
+ENDBLOCK;
+BEGIN TREES;
+TRANSLATE 1 Archaeohyrax , 2 Prohegetotherium , 3 Prosotherium , 4 Propachyrucos , 5 Hegetotherium , 6 Hemihegetotherium , 7 Pachyrukhos , 8 Paedotherium , 9 Tremacyllus , 10 QH ; TREE * UNTITLED = (1 , (2 , (5 , ((6 , 10) , ((3 , 4) , (7 , (8 , 9))))))) ;
+ENDBLOCK;

@@ -1,0 +1,522 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-05-25 02.10.10 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Promartes'
+		'Oligobunis'
+		'Megalictis'
+		'Zodiolestes'
+		'Pseudobassaris'
+		'Amphicyondon'
+		'Paragale'
+		'Plesictis'
+		'Potamotherium'
+		'Plesiogale'
+		'Bathygale'
+		'Mustelictis'
+		'Promephitis'
+		'Cephalogale'
+		'Amphicticeps'
+		'Hesperocyon'
+		'Trochictis'
+		'Kinometaxia'
+		'Ailurus fulgens'
+		'Gulo gulo'
+		'Lontra canadensis'
+		'Martes americana'
+		'Mephitis mephitis'
+		'Mustela frenata'
+		'Mydaus'
+		'Phoca vitulina'
+		'Potos flavus'
+		'Procyon lotor'
+		'Spilogale putorius'
+		'Taxidea taxus'
+		'Ursus arctos'
+		'Vulpes vulpes'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=80;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Anterior opening of palatine canal'
+		 [2] 'Posterior margin of secondary palate'
+		 [3] 'Sagittal partition of nasal cavity by vomer'
+		 [4] 'Infraorbital canal diameter'
+		 [5] 'Infraorbital canal orientation'
+		 [6] 'Position of sphenopalatine relative to posterior palatine foramina'
+		 [7] 'Posterior carotid foramen'
+		 [8] 'Position of stylomastoid foramen and articulation of tympanohyal with basicranium'
+		 [9] 'Posterior lacerate and jugular foramina '
+		 [10] 'Paroccipital process'
+		 [11] 'Lateral swelling of cranium dorsal to mastoid process'
+		 [12] 'Condyloid canal'
+		 [13] 'Osseous tentorium'
+		 [14] 'Size of palatine'
+		 [15] 'Posterior width of palate'
+		 [16] 'Lacrimal'
+		 [17] 'Alisphenoid canal'
+		 [18] 'Broadening of the basioccipital between auditory bullae'
+		 [19] 'Ectotympanic contributes to external auditory meatus'
+		 [20] 'Entotympanic septum'
+		 [21] 'Excavation in basioccipital accommodating inferior petrosal sinus'
+		 [22] 'Postorbital region'
+		 [23] 'Cranial Cresting'
+		 [24] 'Posterior carotid'
+		 [25] 'Posterior lacerate foramen'
+		 [26] 'Smallest width of auditory bulla between posterior lacerate and sylomastoid foramina'
+		 [27] 'Shape of infraorbital foramen'
+		 [28] 'Position of infraorbital foramen'
+		 [29] 'Hypoglossal foramen relative to groove between occipital condyle and paroccipital process'
+		 [30] 'Suprameatal fossa'
+		 [31] 'Inflation of auditory bull'
+		 [32] 'Ethmoid foramen'
+		 [33] 'Relative length of frontal and parietal midline'
+		 [34] 'Placement of the postglenoid foramen'
+		 [35] 'Shape of mastoid process '
+		 [36] 'P1'
+		 [37] 'p1'
+		 [38] 'P2'
+		 [39] 'p2'
+		 [40] 'P4 medial shelf'
+		 [41] 'P4 protocone'
+		 [42] 'P4 hypocone'
+		 [43] 'P4 shape'
+		 [44] 'p4 posterior accessory cusp'
+		 [45] 'M1 shape'
+		 [46] 'M1 postprotocrista'
+		 [47] 'M1 orientation of preprotocrista'
+		 [48] 'm1 metaconid'
+		 [49] 'm1 talonid length'
+		 [50] 'm1 talonid morphology'
+		 [51] 'm2'
+		 [52] 'Shape of incisor row'
+		 [53] 'P4 protocone'
+		 [54] 'm2 talonid'
+		 [55] 'M1 hypocone'
+		 [56] 'M2 hypocone'
+		 [57] 'Metaconules on upper molars'
+		 [58] 'm3 '
+		 [59] 'P4 carnassial notch'
+		 [60] 'M1 form'
+		 [61] 'M1 anterior/posterior cingula'
+		 [62] 'M2 buccal border'
+		 [63] 'M2'
+		 [64] 'm2 metaconid'
+		 [65] 'm2 entoconid/entoconulid'
+		 [66] 'M1 protocone height relative to metacone'
+		 [67] 'M1 parastyle projection labially further than metastyle'
+		 [68] 'M1 parastyle orientation'
+		 [69] 'P3 posterior accessory cusps'
+		 [70] 'M1 hypoconulid'
+		 [71] 'M2 hypoconulid heel'
+		 [72] 'Angular process of dentary'
+		 [73] 'External cingula of upper molars'
+		 [74] 'M1 metacone-metaconule crest'
+		 [75] 'I2-I3 diastema'
+		 [76] 'C-P1 diastema'
+		 [77] 'P1-P2 diastema'
+		 [78] 'Upper incisor heteromorphy'
+		 [79] 'Lower incisor heteromorphy'
+		 [80] 'Lower incisors'
+	;
+	STATELABELS
+		1
+		'At maxilla-palatine suture'
+		'Anterior to suture'
+		,
+		2
+		'Posterior to M1'
+		'Even with M1'
+		,
+		3
+		'Posterior edge anterior to posterior end of horizontal lamina of vomer'
+		'At or adjacent to horizontal lamina'
+		,
+		4
+		'Small'
+		'Large'
+		'Very Large'
+		,
+		5
+		'Anteriorly oriented'
+		'Anteroventrally oriented'
+		,
+		6
+		'In a distinct common fossa'
+		'No common fossa'
+		,
+		7
+		'Posterior to suture of basiocccipital/ basishenoid suture'
+		'Level or anterior to suture'
+		,
+		8
+		'Tympanohyal in a common fossa or immediately posteromedial to foramen'
+		'Separated by a bony bridge'
+		,
+		9
+		'"Fused" into single foramen'
+		'Separate with jugular posterolateral to posterior lacerate foramen'
+		,
+		10
+		'Moderately to strongly developed, projecting posteriorly'
+		'Weak or absent'
+		,
+		11
+		'Absent '
+		'Present'
+		,
+		12
+		'Present'
+		'Absent'
+		,
+		13
+		'Present'
+		'Absent'
+		,
+		14
+		'Midline length of palatine less than midline length of maxilla'
+		'Greater'
+		,
+		15
+		'Wider than width at canines'
+		'Subequal'
+		,
+		16
+		'Rostral flange reduced or absent'
+		'Orbital flange greatly reduced to area surrounding lacrimal foramen'
+		,
+		17
+		'Present'
+		'Absent'
+		,
+		18
+		'Absent'
+		'Present'
+		,
+		19
+		'No'
+		'Yes'
+		,
+		20
+		'Absent'
+		'Present'
+		,
+		21
+		'Small or indistinct'
+		'Large, excavation distinct'
+		'Excavation extremely deep'
+		,
+		22
+		'Not elongate in adults'
+		'Greatly elongate in adults'
+		,
+		23
+		'Dorsal cranial crests Y-shaped in adults'
+		'X-shaped to parallel parasagittal crests'
+		,
+		24
+		'Adjacent to fossa containing posterior lacerate foramen'
+		'Separated from fossa'
+		,
+		25
+		'Smaller than extrnal auditory meatus opeing'
+		'Enlarged, greater then meatus'
+		'State 2'
+		,
+		26
+		'Smaller than diameter of stylomastoid foramen'
+		'Greater than stylomastoid, with posterior margin of ectotmypanic in front of posterior border of fossa containing posterior lacerate foramen '
+		'Greater than stylomastoid, with posterior margin of ectotmypanic situated behind fossa'
+		,
+		27
+		'Elongate'
+		'Round'
+		,
+		28
+		'Above anterior edge of P4'
+		'Above mid-posterior portion of P4'
+		'Above P3'
+		,
+		29
+		'Inline with groove'
+		'Anterior to groove'
+		,
+		30
+		'Absent'
+		'Small'
+		'Large'
+		,
+		31
+		'Restricted to immediately medial to external meatus'
+		'Increased and expanded medially and posteriorly'
+		,
+		32
+		'Small'
+		'Large'
+		,
+		33
+		'Frontal less than parietal'
+		'Frontal and parietal subequal'
+		'Frontal much longer than parietal'
+		,
+		34
+		'Medial placement'
+		'More lateral, external near edge of skull'
+		,
+		35
+		'Forms a distinct process, extending further or subequal with the paroccipital process'
+		'Blunt and rounded, does not project significantly, more a mastoid swelling'
+		'Thin plate of bone, no process'
+		,
+		36
+		'2-rooted'
+		'1-rooted'
+		'Absent'
+		,
+		37
+		'2-rooted'
+		'1-rooted'
+		'Absent'
+		,
+		38
+		'Present'
+		'Absent'
+		,
+		39
+		'Present'
+		'Absent'
+		,
+		40
+		'Absent'
+		'Moderately developed'
+		'Extensive with posterior projection to end of metastylar blade'
+		,
+		41
+		'No distinct cusp'
+		'Distinct cusp'
+		,
+		42
+		'Absent'
+		'Present'
+		,
+		43
+		'Large, with length similar to M1 and metastyle developed'
+		'Much shorter than M1 with reduced metastyle'
+		,
+		44
+		'Present'
+		'Absent'
+		,
+		45
+		'Buccal anterioposterior length large percentage of transverse width, paracone/metacone well developed'
+		'Aneteroposteriorly smaller than transverse with reduced metacone/paracone'
+		,
+		46
+		'Present'
+		'Absent or minimally developed'
+		,
+		47
+		'Extends lingually to posterolingually from parastyle to protocone'
+		'Extends mostly posteriorly and is elongate and divided into cuspules'
+		,
+		48
+		'Large'
+		'Much smaller than other trigonid cusps'
+		'Absent'
+		,
+		49
+		'Less than trigonid'
+		'Subequal to trigonid'
+		,
+		50
+		'Lingual rim complete with hypoconid and shallow basin'
+		'Lingual rim absent with prominent hypoconid'
+		'No basin; hypoconid and entoconid well developed with a buccal cingulum'
+		'Strong lingual rim and basin, cusps poorly developed'
+		'Prominent basin and rim hypoconid and entoconid well developed'
+		'Basin rim complete with many accessory cuspules'
+		,
+		51
+		'Present'
+		'Absent'
+		,
+		52
+		'Straight'
+		'Parabolic'
+		,
+		53
+		'Medial or posterior to paracone'
+		'Anterior to paracone'
+		,
+		54
+		'Without elongate talonid or enlarged hypoconiuld'
+		'Elongate and enlarged hypoconulid present'
+		,
+		55
+		'Absent'
+		'Present'
+		'Hypocone formed by swelling of the cingulum ridge'
+		,
+		56
+		'Absent'
+		'Present'
+		,
+		57
+		'Un-enlarged'
+		'Enlarged'
+		,
+		58
+		'Present'
+		'Absent'
+		,
+		59
+		'Present '
+		'Absent'
+		,
+		60
+		'Lingual half shorter than buccal half, anterior and posterior margins not parallel'
+		'Lingual half shorter than buccal half, anterior and posterior margins parallel'
+		'Subequal lingual and buccal halves, separated by "waist"'
+		'Subequal lingual and buccal halves, no "waist" present'
+		'Buccal much shorter than lingual with non-parallel margins'
+		,
+		61
+		'Not continuous'
+		'Continuous around base of protocone'
+		,
+		62
+		'Situated behind buccal half of M1'
+		'Situated behind lingual hald of M1'
+		,
+		63
+		'3 rooted, smaller than P4'
+		'3 rooted subequal to P4'
+		'1 rooted'
+		'Absent'
+		,
+		64
+		'Present'
+		'Not differentiated'
+		,
+		65
+		'Poorly differentiated'
+		'Prominent cusps'
+		,
+		66
+		'Protocone shorter'
+		'Subequal'
+		,
+		67
+		'No'
+		'Yes'
+		,
+		68
+		'Buccally and anteriorly'
+		'Buccally'
+		'Absent'
+		,
+		69
+		'Present'
+		'Absent'
+		,
+		70
+		'Absent'
+		'Present'
+		,
+		71
+		'Absent'
+		'Present'
+		,
+		72
+		'At or below level of tooth row'
+		'Above tooth row'
+		,
+		73
+		'Present'
+		'Absent or very reduced'
+		,
+		74
+		'Absent'
+		'Present'
+		,
+		75
+		'Absent'
+		'Present'
+		,
+		76
+		'Absent'
+		'Present'
+		,
+		77
+		'Absent'
+		'Present'
+		,
+		78
+		'I3 > I1,I2'
+		'All subequal in size'
+		,
+		79
+		'i1 subequal in size to i2'
+		'i1 small and crowded'
+		,
+		80
+		'Vertical'
+		'Procumbent'
+		
+	;
+	MATRIX
+	'Promartes'		                   00-00-0--00--10-110000010200-01-001110001000110000011100000001300011100000000010
+	'Oligobunis'		                  -0-000--------0------0----00----10011000100-11110011100-010011300011100000000010
+	'Megalictis'		                  -000000-00010-0-1110000101001011000110001001111201001000010311310011100000000010
+	'Zodiolestes'		                 -1000----00-0-0--10--00---00-21-0-11100010011111000110000103113100111000000000--
+	'Pseudobassaris'		              00000-0--000-0000100-0000010100-10111000100001000001110-01001-?0100011010-0110--
+	'Amphicyondon'		                -0-00-0-0001-0--01-0-001-000101-0-0110011000000000000000000010?10000100000010-0-
+	'Paragale'		                    -0-0010--00---00111--0011110--10--0110001000100103000-0-01121-4--01010-001000---
+	'Plesictis'		                   -0-0010-0100---01110-01000021-10101-10001000---0000-00---10----00---1000--------
+	'Potamotherium'		               1001110-00000100111011001102100021011001000011000001000-0103113000100000010000-1
+	'Plesiogale'		                  000011----0--00011---00---0---002-022000100011020101000-01121-4--0101000010000--
+	'Bathygale'		                   -0000-0-000--00-111--0110110--001-011000100-010----11-0-0-001-4--010000000------
+	'Mustelictis'		                 ---00----00-0-0-0----0100002--1-1-01100000001100010-10010100-1?00010-001---11---
+	'Promephitis'		                 -1-00---00111-0-111--0010-01-11--0122000100001011000002000120-41101010000000-101
+	'Cephalogale'		                 --1000---000--11011--00---00-00--001100000000000000-0120000300?000001000000110--
+	'Amphicticeps'		                ---00----00---0001---000--10---0--01-00010000000010-000-010001?10010000-00-00---
+	'Hesperocyon'		                 00000---00000000000100000102111010111000000001010001100000001100001000000-1110-1
+	'Trochictis'		                  ---00---00000---1100--010200001---1110001000---0100-1----11---------10-0--------
+	'Kinometaxia'		                 -1000-0--00---0-11---0112202-----102-0----011-------------121-4--0101---10------
+	'Ailurus fulgens'		             000-0-11000-0101011010000110010010122001110000001500111111030010110211100-0--010
+	'Gulo gulo'		                   0000000000000100111000010210121010011000000111020000100-01021-410011100010000010
+	'Lontra canadensis'		           -0-2110100000100111001011000100020012002000001001300100-01121-410100110010000011
+	'Martes americana'		            000000000000010011100001021010101-211000000011010000100-01121-410011100010001010
+	'Mephitis mephitis'		           1110000000111100111000010011120011222001100100001401102-01130-4100111000110--111
+	'Mustela frenata'		             1000101001000100111000010100121011222000000111020100100-01121-4100111000100--010
+	'Mydaus'		                      10100101001011001110000100110-001-122001011100001501100-01130-4100021100000--111
+	'Phoca vitulina'		              1010010-0100000011101100111-1-1-2021100----0------10-----11---4--------0---11010
+	'Potos flavus'		                000-010-1000010011100001111112111022200110000---13001110111300?110021000100--000
+	'Procyon lotor'		               001-000-1000010011100001021012111001100111000-0014001110111300101002101100000000
+	'Spilogale putorius'		          1110000001111100111000010111-2001-222001000100001400102001120-4100101000110--111
+	'Taxidea taxus'		               0011001010000111111--0010200001010022002110011000200002-01141-4100111100100--011
+	'Ursus arctos'		                000-000-0001011101102000000100101002200111100--01500000100030000100210001-0--010
+	'Vulpes vulpes'		               011-0-1--00000000001000002001010102010000000000000011021000000000010000000011001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=4 TEXT='State 2 is effectively apomorphic for Lutrines.';
+	TEXT CHARACTER=25 TEXT='Kinometaxia was mis-scored in the JME paper as "2" (autapomorphic). I leave it here as "2," but it should be "1."';
+	TEXT CHARACTER=37 TEXT='Character State "0" does not appear in the taxa surveyed here. It is kept for general applicability to other carnivoran taxa.';
+	TEXT CHARACTER=60 TEXT='Character State "1" does not appear in any of the taxa in this study, but is preserved here as it is applicable to other taxa in the Carnivora.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 80;
+      ENDBLOCK;
+      
