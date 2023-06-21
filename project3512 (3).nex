@@ -1,0 +1,675 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.39.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=63;
+    TAXLABELS
+    		'Pillsburyaxius clevai'
+		'Eiconaxius agassizi'
+		'Heardaxius rogerbamberi'
+		'Thomassinia aimsae'
+		'ANACALLIAX argentinensis'
+		'ANACALLIAOPSIS agassizi'
+		'BATHYCALLIAX geomar'
+		'VULCANOCALLIAX arutyunovi'
+		'CALLIANOPSIS goniophthalma'
+		'PLEUROCALLIAX caecigena'
+		'PHAETONCALLIAX mauritana'
+		'NEOCALLIANOPSIS anovalis'
+		'PARACALLIAX bollorei'
+		'CTENOCHELES balssi'
+		'CTENOCHELOIDES attenboroughi'
+		'Boucheti'
+		'Almeidai'
+		'KIICTENOCHELOIDES nomurai'
+		'LAURENTGOURRETIA rhopalommata'
+		'DAWSONIUS latispina'
+		'Aff. latispina'
+		'PARAGOURRETIA phuketensis'
+		'Lahouensis'
+		'Laevidactyla'
+		'Coolibah'
+		'TUERKAYGOURRETIA galathea'
+		'HETEROGOURRETIA aungtonyae'
+		'Biffari'
+		'ULLZ-10134'
+		'PSEUDOGOURRETIA portsudanensis'
+		'GOURRETIA denticulata'
+		'IVORYGOURRETIA barracuda'
+		'PLANTESGOURRETIA nosybeensis'
+		'RUIYULIUGOURRETIA sinica'
+		'Zarenkovi'
+		'Laresi'
+		'Manihinae'
+		'ULLZ-9707'
+		'ANDAMANCALLIAX andamanica'
+		'PSEUDOCALLIAX tooradin'
+		'EUCALLIAX quadracuta'
+		'PARAGLYPTURUS calderus'
+		'Tonganus'
+		'CALLIAXINA punica'
+		'Sakaii'
+		'Novaebritanniae'
+		'Kensleyi'
+		'Bulimba'
+		'Xishaensis'
+		'EUCALLIAXIOPSIS cearaensis'
+		'Panglaoensis'
+		'Aff. panglaoensis'
+		'BAKERCALLIAX aequimana'
+		'Inaequimana'
+		'PNG-1153C'
+		'CALLIAXIOPSIS madagassa'
+		'HEARDCALLIAX jonesi'
+		'MANNINGCALLIAX mcilhennyi'
+		'CALLIAX lobata'
+		'Doerjesti'
+		'Tulearensis'
+		'FAMILY callichiridae'
+		'FAMILY callianassidae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=77;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789ABCDEFGHIJKLMNO";
+	CHARLABELS
+		 [1] 'carapace <shape LOWER>'
+		 [2] 'linea thalassinica <LOWER>'
+		 [3] 'suture between ocular lobe and'
+		 [4] 'anterior branchiostegal margin'
+		 [5] 'anterior branchiostegal lobe <'
+		 [6] 'anterior dorsal carapace <LOWE'
+		 [7] 'cardiac prominence <LOWER>'
+		 [8] 'rostrum <LOWER CALLICHIRIDAEl'
+		 [9] 'carapace, median carina <LOWER'
+		 [10] 'cardiac sulci <LOWER>'
+		 [11] 'sternite 7 and pereopod 5, cox'
+		 [12] 'carapace-pleon <interaction LO'
+		 [13] 'pleomere 1 tergite <transverse'
+		 [14] 'pleomere 1 anterior section <L'
+		 [15] 'pleomeres 1 and 2 together <le'
+		 [16] 'pleomere 1 <sternite LOWER>'
+		 [17] 'pleomere 6 <incisions, lateral'
+		 [18] 'eyestalk <shape LOWER CALLICHI'
+		 [19] 'eyestalk <lateral ridge LOWER>'
+		 [20] 'cornea <pigmentation LOWER CAL'
+		 [21] 'eyestalk distal lobes <LOWER C'
+		 [22] 'antennular peduncle articles 2'
+		 [23] 'antennular peduncle <relative'
+		 [24] 'antennal scaphocerite <LOWER C'
+		 [25] 'maxilla, scaphognathite <LOWER'
+		 [26] 'maxilliped 1 epipod <LOWER>'
+		 [27] 'maxilliped 3 ischium and merus'
+		 [28] 'maxilliped 3 ischium <LOWER>'
+		 [29] 'maxilliped 3 merus <spines LOW'
+		 [30] 'maxilliped 3 crista dentata <L'
+		 [31] 'maxilliped 3 palp <LOWER>'
+		 [32] 'maxilliped 3 propodus <shape L'
+		 [33] 'maxilliped 3 dactylus <shape L'
+		 [34] 'maxilliped 3 <exopod LOWER CAL'
+		 [35] 'maxilliped 3 exopod <LOWER CAL'
+		 [36] 'epipods <LOWER CALLICHIRIDAE C'
+		 [37] 'pereopods 1-4 <LOWER>'
+		 [38] '<chelipeds LOWER>'
+		 [39] 'male major cheliped merus <hoo'
+		 [40] 'male major cheliped merus <arm'
+		 [41] 'major cheliped carpus <LOWER>'
+		 [42] 'major cheliped carpus <basal>'
+		 [43] 'major cheliped propodus <Cteno'
+		 [44] 'minor cheliped merus lower mar'
+		 [45] 'minor cheliped propodus'
+		 [46] 'minor cheliped fingers <gape L'
+		 [47] 'minor cheliped fingers <LOWER>'
+		 [48] 'pereopods <3-5 shape, spinatio'
+		 [49] 'pereopod 3 propodus <shape CAL'
+		 [50] 'pereopod 3 propodus <gourretii'
+		 [51] 'pereopod 4 <LOWER CALLICHIRIDA'
+		 [52] 'pereopod 4 propodus <setae on'
+		 [53] 'pereopod 5 <LOWER>'
+		 [54] 'male pleopod 1 <articles LOWER'
+		 [55] 'male pleopod 1 <shape LOWER>'
+		 [56] 'male pleopod 1 <appendix inter'
+		 [57] 'male pleopod 2 <LOWER CALLIANA'
+		 [58] 'male pleopod 2 appendix intern'
+		 [59] 'male pleopod 2 appendix mascul'
+		 [60] 'male pleopod 2 appendix mascul - 2'
+		 [61] 'male pleopod 2 appendix mascul - 3'
+		 [62] 'male pleopod 2 appendices <LOW'
+		 [63] 'female pleopod 1 peduncle <LOW'
+		 [64] 'female pleopod 1 <LOWER>'
+		 [65] 'female pleopod 2 <CALLICHIRIDA'
+		 [66] 'female pleopod 2 <rami CALLICH'
+		 [67] 'female pleopod 2 appendix inte'
+		 [68] 'pleopods 3-5 <LOWER CALLICHIRI'
+		 [69] 'Pleopods 3-5 appendices intern'
+		 [70] 'uropodal endopod <shape CALLIC'
+		 [71] 'uropodal exopod <LOWER>'
+		 [72] 'uropodal exopod distal notch <'
+		 [73] 'uropodal exopod <dorsal plate'
+		 [74] 'telson <sides/shape CALLICHIRI'
+		 [75] 'telson lateral margin <spines'
+		 [76] 'telson posterior margin <CALLL'
+		 [77] 'telson <ridges CALLICHIRIDAE L'
+	;
+	STATELABELS
+		1
+		'cylindrical, without gastric c'
+		'more or less laterally flatten'
+		,
+		2
+		'extending length of carapace'
+		'very short'
+		'absent'
+		,
+		3
+		'horizontal in lateral view'
+		'oblique in lateral view'
+		,
+		4
+		'sinusoidal or semicircular'
+		'interupted by an oblique scler'
+		'with deep obtuse notch leading'
+		,
+		5
+		'simple, scarcely calcified, me'
+		'sclerotised, well produced ant'
+		'sclerotised, merging smoothly'
+		,
+		6
+		'smooth'
+		'with median ridge posterior to'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'broad, with lateral ridges run'
+		'spine-like'
+		'sharply triangular, produced t'
+		'blade-like, produced anteriorl'
+		'acute, produced, with dorsal r'
+		'obsolete or obtusely triangula'
+		'acute, anteriorly directed, as'
+		'acute, reaching middle of corn'
+		,
+		9
+		'strong on rostrum, weaker more'
+		'absent'
+		'present as ridge or row of spi'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'glabrous'
+		'densely setose'
+		,
+		12
+		'interacting by means of median'
+		'not interacting, carapace post'
+		,
+		13
+		'undivided or with weak transve'
+		'fused, divided into 2 sections'
+		'divided into 2 sections by uns'
+		'sections variously separated'
+		,
+		14
+		'without anterior section taper'
+		'with anterior section domed, t'
+		,
+		15
+		'half as long as pleomeres 35'
+		'long as pleomeres 35'
+		,
+		16
+		'without sternal plates'
+		'with pair of sternal plates an'
+		,
+		17
+		'without lateral projections'
+		'with lateral projections'
+		,
+		18
+		'cylindrical, with round termin'
+		'flattened and contiguous'
+		,
+		19
+		'without lateral longitudinal r'
+		'with lateral longitudinal ridg'
+		,
+		20
+		'well-defined, pigmented'
+		'with scattered reduced pigment'
+		,
+		21
+		'absent'
+		'rounded, largely contiguous'
+		'extremely elongate'
+		'acute, apices separate'
+		'obsolete, truncate'
+		'triangular, apices separate'
+		'obliquely truncated, apices di'
+		'contiguous, produced and taper'
+		,
+		22
+		'with 2 single similar rows of'
+		'similar, each about as long as'
+		'with lateral band (3-5 setae w'
+		'longer than wide, either artic'
+		'with single lateral row of 6-1'
+		,
+		23
+		'twice as long as antennal pedu'
+		'shorter than antennal peduncle'
+		'exceeding antennal peduncle by'
+		'longer than antennal peduncle'
+		'about as long or little longer'
+		'exceeded by all or most of ant'
+		,
+		24
+		'elongate, longer than wide, wi'
+		'small, discoid'
+		'vestigial'
+		,
+		25
+		'with long seta on posterior lo'
+		'without long seta on posterior'
+		,
+		26
+		'with acute distal (anterior) l'
+		'truncate, without distal (ante'
+		,
+		27
+		'narrow, more than twice as lon'
+		'broad, less than twice as long'
+		,
+		28
+		'linear or wider distally than'
+		'with strong proximal lobe on l'
+		,
+		29
+		'with 1 mesiodistal spine'
+		'with 2 or more mesiodistal spi'
+		'with mesial spine at midpoint'
+		,
+		30
+		'a prominent toothed ridge exte'
+		'weakly developed, with few wid'
+		'a row of numerous denticles'
+		'of few separate spines proxima'
+		'variable (absent to prominent'
+		'variable (absent to row of spi'
+		'of few proximal spines'
+		'absent'
+		,
+		31
+		'linear, propodus longer than w'
+		'expanded, propodus shorter tha'
+		,
+		32
+		'longer than wide, lower margin'
+		'about as wide as long'
+		,
+		33
+		'slender, digitiform, with seta'
+		'dilating, truncate, with dense'
+		,
+		34
+		'with exopod'
+		'without exopod'
+		,
+		35
+		'multiarticulate, reaching to a'
+		'vestigial'
+		,
+		36
+		'present on maxilliped 3 to per'
+		'absent from maxilliped 3 to pe'
+		,
+		37
+		'flattened, propodus of pereopo'
+		'cylindrical, propodus of pereo'
+		,
+		38
+		'major cheliped broad, minor ch'
+		'major chela of male with palm'
+		'both chelipeds with palms as l'
+		'major cheliped with barrel-sha'
+		'major cheliped broad, with sho'
+		'major cheliped broad, with tap'
+		,
+		39
+		'with spine or tooth or various'
+		'without prominent hook or spin'
+		,
+		40
+		'with sinuous lower margin, wid'
+		'with lower margin almost strai'
+		'with straight or weakly convex'
+		'with proximal perpendicular sp'
+		'with oblique spine about third'
+		'with blade dentate over lower'
+		'with convex tuberculate blade'
+		'with proximal tubercle bearing'
+		'with simple proximal hook on l'
+		'with prominent truncate hook a'
+		'lower margin convex or blade l'
+		'lower margin straight, irregul'
+		'with denticulate blade on lowe'
+		'with prominent proximal dentic'
+		'with row of sharp oblique spin'
+		'lower margin curved, with few'
+		'with oblique spine near midpoi'
+		'with 1-2 small proximal teeth'
+		'with proximal curved spine on'
+		'with 1-3 oblique similar short'
+		'with 2 or 3 proximal similar t'
+		'with serrate blade over lower'
+		'with proximal blunt denticulat'
+		'with 1 or 2 small teeth just b'
+		,
+		41
+		'upper margin apex rounded or s'
+		'upper margin with 2 distal sha'
+		,
+		42
+		'proximal and lower margins obl'
+		'proximal and lower margins con'
+		,
+		43
+		'swollen, with fine pectinate f'
+		'rectangular, fingers stout, fi'
+		'rectangular, fingers fine, fix'
+		,
+		44
+		'smooth'
+		'with spine at or near midpoint'
+		'with blade-like row of teeth'
+		'with row of spines'
+		'with proximal spine'
+		'with erect proximal spine (as'
+		'with 2-4 proximal short trunca'
+		,
+		45
+		'cylindrical, slightly swollen'
+		'tapering, about 3 times as lon'
+		,
+		46
+		'with wide gape, without tooth'
+		'with wide gape, with tooth at'
+		'closing along length'
+		,
+		47
+		'evenly tapering, straight, dac'
+		'evenly tapering, curved distal'
+		,
+		48
+		'3-5 with linear propodi, propo'
+		'3 with more or less expanded p'
+		,
+		49
+		'elongate-oval, tapering, witho'
+		'elongate-oval'
+		'subpentagonal, with strong bro'
+		'oval, lower margin slightly co'
+		'rectangular, lower margin deep'
+		'oval, lower margin convex, not'
+		'bean-shaped, lower margin conc'
+		'linear, without lobe on lower'
+		'linear, elongate'
+		,
+		50
+		'oval, little longer than wide,'
+		'linear, longer than wide, with'
+		'triangular, with straight uppe'
+		,
+		51
+		'simple, distally rounded on lo'
+		'subchelate, fixed finger short'
+		'minutely chelate, fixed finger'
+		,
+		52
+		'without elongate setae on uppe'
+		'with 2 elongate stiff setae di'
+		,
+		53
+		'simple'
+		'semichelate (fixed finger clos'
+		'chelate, finger closing comple'
+		'subchelate, fixed finger and d'
+		,
+		54
+		'of 2 articles'
+		'of 1 article'
+		'absent'
+		'slender with distomesial obliq'
+		,
+		55
+		'article 2 triangular, with lob'
+		'article 2 simple, tapering, wi'
+		'article 2 blade-like, apically'
+		'article 2 spoon-shaped'
+		'article 2 longer than article'
+		'article 1 with distal long set'
+		'linear, bent, with lobed apex'
+		'flagellate'
+		'article 2 curved, simply curvi'
+		'stout, article 1 setose, artic'
+		'article 2 with sharp distomesi'
+		'article 2 with lobed distomesi'
+		,
+		56
+		'with appendix interna (at leas'
+		'without appendix interna'
+		'separate fused elongate rods'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'absent'
+		'digitiform'
+		'free, articulating, distal on'
+		'absent or reduced to obsolete'
+		'apparent only as field of hook'
+		'minute'
+		,
+		59
+		'a distal or subdistal lobe som'
+		'a lobe fused with appendix int'
+		'not differentiated from endopo'
+		'a lobe fused to appendix inter'
+		'4 times as long as wide, attac'
+		,
+		60
+		'4 times as long as wide, attac'
+		'longer than wide, attached mes'
+		'1-1.5 times as long as wide, a'
+		,
+		61
+		'not reaching tip of endopod'
+		'reaching or exceeding tip of e'
+		,
+		62
+		'on midmesial margin, not overl'
+		'on distomesial margin, level w'
+		,
+		63
+		'curved, ramus attached distall'
+		'straight, produced beyond dist'
+		,
+		64
+		'with single narrow ramus'
+		'with broad expanded ramus'
+		,
+		65
+		'biramous'
+		'uniramous'
+		,
+		66
+		'rami both broad, endopod trian'
+		'rami elongate-oval, endopod ha'
+		'rami narrow, endopod about thi'
+		'endopod flattened, more or les'
+		'endopod flattened, with distal'
+		'rami styliform'
+		,
+		67
+		'present as lobe with terminal'
+		'visible as hooks only'
+		'absent'
+		,
+		68
+		'with linear peduncles not meet'
+		'peduncles squarish; endopods e'
+		'peduncles broader than long, m'
+		'peduncles barely contiguous, i'
+		'peduncles contiguous, inner ma'
+		,
+		69
+		'longer than broad, clearly eme'
+		'barely emerging from endopod m'
+		,
+		70
+		'ovate, almost symmetrical, ant'
+		'with straight or slightly conv'
+		'with convex anterior margin, a'
+		'strap-like, posterior margin c'
+		'triangular, anterior margin st'
+		'ovoid, usually longer than wid'
+		'asymmetrical, at least as wide'
+		'asymmetrical, straight or conc'
+		,
+		71
+		'with 2 articles'
+		'with single article'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'with elevated dorsal plate wit'
+		'without any indication of a do'
+		'with distal marginal setal row'
+		'with dorsal plate, indicated b'
+		'with distal setose margin divi'
+		,
+		74
+		'tapering from greatest width n'
+		'converging to about half basal'
+		'strongly diverging to beyond m'
+		'thickened, with constriction o'
+		'with convex lateral margins an'
+		'mostly parallel-sided, with ro'
+		'parallel-sided over anterior h'
+		'convex-sided, widest near midp'
+		'widest anteriorly, more or les'
+		'widest basally over anterior t'
+		'parallel-sided over most of le'
+		'converging to about half maxim'
+		,
+		75
+		'unarmed'
+		'with pair (or 2 pairs) of post'
+		'armed with teeth'
+		,
+		76
+		'straight or convex between tap'
+		'straight or with slight medial'
+		'trilobed, excavate each side o'
+		'with medial notch at end of lo'
+		'slightly excavate'
+		'broadly semicircular'
+		'concave between rounded poster'
+		'convex, with medial lobe'
+		,
+		77
+		'smooth dorsally'
+		'with transverse crest'
+		'with transverse row of robust'
+		
+	;
+	MATRIX
+	'Pillsburyaxius clevai'		                   12---000200001?000---0100000-0000001101-0023?2?0-?0012--01110?000100000000200
+	'Eiconaxius agassizi'		                     12---000000001?000---0100000-0000001101-0020?2?0-?0002--01110?000100001000200
+	'Heardaxius rogerbamberi'		                 00103005100100?0010011120000-2000010000F0020?2?11?00004101110?000001001005000
+	'Thomassinia aimsae'		                      00103005100101?0010011120000-70011-0000F0020?2?11?0032--012--?000001001000000
+	'ANACALLIAX argentinensis'		                00000015000100?0010011001000-70001-1000H0020?2?12??0?00101111?000202101020040
+	'ANACALLIAOPSIS agassizi'		                 00000015000100?0010011001000-70001-1000H0020?2?12??0200101111?000202101020040
+	'BATHYCALLIAX geomar'		                     00000015110110?0011011021001-2101010030B0023?2?11?002081012--?000??2001006000
+	'VULCANOCALLIAX arutyunovi'		               00000015100110?0011011021001-21011-0030H0025?2?11?002?--012--?000102001006000
+	'CALLIANOPSIS goniophthalma'		              00000014000110?01110110010010?1011-100020025?2?11??0200001110?000102001009000
+	'PLEUROCALLIAX caecigena'		                 00000014000110?01110110?100?-?1011-100020025?2?11?00??--???---000102?01009000
+	'PHAETONCALLIAX mauritana'		                00000014000110?0111011001001021011-100020025?2?11?00200001110?00010?001009000
+	'NEOCALLIANOPSIS anovalis'		                00000014000110?0111011001001021011-100020025?2?11?00?00001110?000??2001009000
+	'PARACALLIAX bollorei'		                    00100015000000?011101100100002000000000B0023?2?10?002?--???---010002001005000
+	'CTENOCHELES balssi'		                      0012001300010000011111001000000001-1040G000(0,1)02?10?00101101110?000101001106000
+	'CTENOCHELOIDES attenboroughi'		            0012001510010010010011001000210001-1040G000102?10?001?--???---000101001006000
+	'Boucheti'		                                0012001510010010010011001000210001-1040G000??2?10?00101101110?000101001006000
+	'Almeidai'		                                0012001510010010010011001000200001-1040G000102?10?001?--???---000101001006000
+	'KIICTENOCHELOIDES nomurai'		               0012000510010010010011001000000001-1050G002102?10?00101101110?00???1001006000
+	'LAURENTGOURRETIA rhopalommata'		           00000002100101?0010011001000100001-10??-???002?11?0010110112-0?????1001125000
+	'DAWSONIUS latispina'		                     00000012100101?0110011001000000001-10602003512?1120010C10112-0000101001006000
+	'Aff. latispina'		                          00000012100101?0110011001000000001-10602003512?1120010C10112-0000101001006000
+	'PARAGOURRETIA phuketensis'		               00000012100101?0010011001000000000010602003512111100?0??0112-0?????1001006000
+	'Lahouensis'		                              000000?5100101?001001100100000000001060200351211110010B00112-0000101001006000
+	'Laevidactyla'		                            00000012100101?00100110010000000000106020035121111001?--???---000101001126000
+	'Coolibah'		                                00000015100101?001001100100000000001060200351211110010B10112-0000101001126000
+	'TUERKAYGOURRETIA galathea'		               00000012100101?00100110?1000000000010602003512111100?0B10112-0?????1001126000
+	'HETEROGOURRETIA aungtonyae'		              00000002100101?001001100100000000001060200351211110012--0112-?0005?1001126000
+	'Biffari'		                                 00000015100101?01100110010000000000106020035121111001?--0112-0000101001126000
+	'ULLZ-10134'		                              00000012100101?0010011001000000000010?0?00???2?111001?--0112-0000101001126000
+	'PSEUDOGOURRETIA portsudanensis'		          00000015100101?00100110?1000000000010?0?00???2?1110010B101?--?0???????1??????
+	'GOURRETIA denticulata'		                   00000002100101?001001100100000000001050201251201100010B10112-1000101001006000
+	'IVORYGOURRETIA barracuda'		                00000005100101?001001100100000000001050201251201100010B10112-1000101001006000
+	'PLANTESGOURRETIA nosybeensis'		            00000002100101?0010011021000000000?1050201251201100010B10012--000101001006000
+	'RUIYULIUGOURRETIA sinica'		                00000002100101?001001102100000000001050201251201100010B10012--000121001006000
+	'Zarenkovi'		                               00000002100101?00100110010000000000105020125120110???0B1???---??????001006000
+	'Laresi'		                                  00000002100101?001001102100000000001050201251201100010B10112-10001?1001006000
+	'Manihinae'		                               00000002100101?00100110010000000000105020125120110001?--???---00???1001006000
+	'ULLZ-9707'		                               00000002100101?00100110?1000-00000010??-?????2??-0????--???---000101001006000
+	'ANDAMANCALLIAX andamanica'		               000000051001?0??0100110?1001-?111(0,1)?1000F0020?2?12???205101310?000102001018000
+	'PSEUDOCALLIAX tooradin'		                  00000005101110?0010011011001-2111001010F0020?0?11?0020A1012--?000122001018000
+	'EUCALLIAX quadracuta'		                    00000105100110?0010011011010-21111-1010F1020?2?12?01205105401?100122041017041
+	'PARAGLYPTURUS calderus'		                  00000005100110?0010011011001-2111001010F0020?2?12?01205001110?000102001018000
+	'Tonganus'		                                00000005100110?0010011011001-2111001010F0020?2?12?0?205001110?000102001018000
+	'CALLIAXINA punica'		                       00000005110110?1010011011010-2111001030F0026?2?12?01205001310?000102001018000
+	'Sakaii'		                                  00000005110110?1010011011010-2111001030F0026?2?12?01205001310?000102001018000
+	'Novaebritanniae'		                         00000005110110?1010011011010-2111001030F0026?2?12?01205101310?000102001018000
+	'Kensleyi'		                                00000005110110?1010011011010-2111011030F0026?2?12?01205101310?000102001018000
+	'Bulimba'		                                 00000005110110?1010011011010-2111011030F0026?2?12?01205101310?000102001018000
+	'Xishaensis'		                              000000?5110110??010011011010-2111001030F0026?2?12?012?--???---000102001018000
+	'EUCALLIAXIOPSIS cearaensis'		              000000051?0110??010011011010-21111-1010F0020?2?12?01205101311?000102?01017041
+	'Panglaoensis'		                            00000005110110?0010011011010-21111-1010F0020?2?12?01205101311?100122001017041
+	'Aff. panglaoensis'		                       00000005110110?0010011011010-21111-1010F0020?2?12?01205101311?100122001017041
+	'BAKERCALLIAX aequimana'		                  00000105110110?0010011011010-21111-1030F0020?2?12?01204101311?000122001017041
+	'Inaequimana'		                             00000105110110?1010011011010-21111-1010F0020?2?12?01205101311?000102001017041
+	'PNG-1153C'		                               00000005110110?0010011011010-21111-1010F0020?2?12?01205101311?000102001017041
+	'CALLIAXIOPSIS madagassa'		                 00000105110110?0010011011010-2111001010F0020?2?12?0020?101311?10??22001017041
+	'HEARDCALLIAX jonesi'		                     00000005110110?1010011011010-21111-1010F0020?2?12?01205101311??00102001017041
+	'MANNINGCALLIAX mcilhennyi'		               00000105110110?1010011011010-21111-1010F0020?2?12?01205101311?000102001017041
+	'CALLIAX lobata'		                          00000005100110?0010011011000-21111-1010F0020?1?11?00209100311-000122001018000
+	'Doerjesti'		                               00000015100110?0010011011000-21111-1010F0020?1?11?00209100311-000122001018000
+	'Tulearensis'		                             00000005100110?0010011011000-21111-1010F0020?1?11?00209???31?-000122001018000
+	'FAMILY callichiridae'		                    0011100(1,5)100130?00(0,1)00(0,1,2)1(0,1)(0,1,2)10(0,1)015(0,1)(0,1)0(0,1)11000(0,1,5,6,7,A,C,D,E)002(0,3,4)?2?1(2,5)?(0,1,2)02(0,1)210(0,2,3,4)(0,2)10-000(3,4)(0,1,2)(3,4)(0,1)(1,2,3)101(0,1,2,3,4,7,A)0(0,1,2,3,4,5,6)(0,2)
+	'FAMILY callianassidae'		                   0010300(5,6)1001(0,1)0?0010(0,1)(3,4,5,6,7)10211(0,1)004(0,1)001-100(0,1)(3,4,5,8,9,I,J,K,L)0021?2?1(3,4)?002(0,1,2)11(0,1)0?---000523(0,1)(5,6)1010(0,1)?0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 77;
+      ENDBLOCK;
+      BEGIN PAUP;
+ outgroup 1-4; cstatus full; set maxtrees=1000 increase=no; pset mstaxa=polymorph; hsearch addseq=random nchuck=3 chuckscore=1 nreps=100 randomize=trees; hsearch start=current nchuck=0 chuckscore=0; savetrees file=BASAL.tre; contree / majrule=yes treefile=BASALcon.tre; describetrees 1 / root=outgroup apolist=yes; gettrees file=BASAL.tre; reweight; cstatus full; hsearch addseq=random nchuck=3 chuckscore=1 nreps=100 randomize=trees; hsearch start=current nchuck=0 chuckscore=0; reweight; cstatus full; hsearch addseq=random nchuck=3 chuckscore=1 nreps=100 randomize=trees; hsearch start=current nchuck=0 chuckscore=0; savetrees file=BASALrw.tre; describetrees 1 / root=outgroup apolist=yes; contree / majrule=yes treefile=BASALcrw.tre; gettrees file=BASALcrw.tre; describetrees 2 / root=outgroup apolist=yes; savetrees file=BASALcrw.tre; log stop; 
+ENDBLOCK;

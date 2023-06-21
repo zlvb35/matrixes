@@ -1,0 +1,450 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 09.09.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=49;
+    TAXLABELS
+    		'Cunninghamia lanceolata'
+		'Taiwania cryptomerioides'
+		'Cupressus sempervirens'
+		'Cupressus sargentii'
+		'Xanthocyparis vietnamensis'
+		'Podocarpus latifolius'
+		'Podocarpus macrophyllus'
+		'Dacrycarpus dacrydioides'
+		'Sciadopitys verticillata'
+		'Araucaria araucana'
+		'Araucaria angustifolia'
+		'Araucaria bidwillii'
+		'Araucaria hunsteinii'
+		'Araucaria bernieri'
+		'Araucaria biramulata'
+		'Araucaria columnaris'
+		'Araucaria cunninghamii'
+		'Araucaria heterophylla'
+		'Araucaria humboldtensis'
+		'Araucaria laubenfelsii'
+		'Araucaria luxurians'
+		'Araucaria montana'
+		'Araucaria muelleri'
+		'Araucaria nemorosa'
+		'Araucaria rulei'
+		'Araucaria schmidii'
+		'Araucaria scopulorum'
+		'Araucaria subulata'
+		'Agathis robusta'
+		'Agathis australis'
+		'Agathis dammara'
+		'Agathis atropurpurea'
+		'Agathis borneensis'
+		'Agathis lanceolata'
+		'Agathis macrophylla'
+		'Agathis microstachya'
+		'Agathis montana'
+		'Agathis moorei'
+		'Agathis ovata'
+		'Araucaria famii'
+		'Wollemia nobilis'
+		'Araucaria mirabilis'
+		'Araucarites bindrabunensis'
+		'Araucaria sphaerocarpa'
+		'Araucaria nipponensis'
+		'Araucaria vulgaris'
+		'Araucaria brownii'
+		'Wairarapaia mildenhallii'
+		'Emwadea microcarpa'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Ovuliferous cone length'
+		 [2] 'Ovuliferous cone width'
+		 [3] 'Seed length'
+		 [4] 'Seed width'
+		 [5] 'Pollen cone length'
+		 [6] 'Pollen cone width'
+		 [7] 'Microsporangia number'
+		 [8] 'Mature leaf length'
+		 [9] 'Mature leaf width'
+		 [10] 'Maximum tree height'
+		 [11] 'Ovuliferous cone morphology'
+		 [12] 'Ovuliferous cone spreading at maturity'
+		 [13] 'Ovuliferous cone at maturity'
+		 [14] 'Number of ovuliferous complexes per cone'
+		 [15] 'OC phyllotaxis'
+		 [16] 'OC morphology'
+		 [17] 'OC spreading from the cone at maturity'
+		 [18] 'OC proximal scallop'
+		 [19] 'Bract/scale fusion at OC'
+		 [20] 'Bract/scale degree of fusion'
+		 [21] 'Bract/scale length'
+		 [22] 'OC lateral extensions'
+		 [23] 'OC lateral extension morphology'
+		 [24] 'OC vascularization at origin'
+		 [25] 'Bract similar to vegetative leaves'
+		 [26] 'number of seeds per OC'
+		 [27] 'Seed embedded in ovuliferous scale tissues'
+		 [28] 'Ovule orientation at maturity'
+		 [29] 'Seed abscission'
+		 [30] 'Integumentary seed wings'
+		 [31] 'Integumentary seed wing number'
+		 [32] 'Integumentary seed wing symmetry'
+		 [33] 'seed position on OC'
+		 [34] 'Epimatium'
+		 [35] 'Pollen cone disposition'
+		 [36] 'Pollen cone aggregation'
+		 [37] 'Pollen cone morphology'
+		 [38] 'Microsporophyll phllotaxy'
+		 [39] 'Pollen sacci'
+		 [40] 'Basal bracts on pollen cone'
+		 [41] 'Pollination drop'
+		 [42] 'Number of cotyledons'
+		 [43] 'Germination'
+		 [44] 'Seedling'
+		 [45] 'Phyllotaxis of mature leaves'
+		 [46] 'Mature leaves in transversal section'
+		 [47] 'Mature leaf apex'
+		 [48] 'Mature leaf apex curvature'
+		 [49] 'Mature leaf venation'
+		 [50] 'Midrib'
+		 [51] 'Mature leaf insertion'
+		 [52] 'Mature leaf margin'
+		 [53] 'Stomatal disposition on mature leaves'
+		 [54] 'Stomatal orientation on mature leaves'
+		 [55] 'Florin rings'
+		 [56] 'Cuticle surface'
+		 [57] 'Frequent number of subsidiary cells'
+		 [58] 'Habit'
+		 [59] 'Phyllotaxy of first-order branches'
+		 [60] 'Branching orders'
+		 [61] 'Last-order branch arrangement'
+		 [62] 'Chromosome number'
+		 [63] 'Bud scales'
+	;
+	STATELABELS
+		1
+		,
+		2
+		,
+		3
+		,
+		4
+		,
+		5
+		,
+		6
+		,
+		7
+		,
+		8
+		,
+		9
+		,
+		10
+		,
+		11
+		'spherical/globose'
+		'ellipsoidal/subglobose'
+		'cylindrical'
+		'irregular'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'mostly lignified (woody)'
+		'mostly coriaceous'
+		'mostly fleshy'
+		,
+		14
+		'1'
+		'2-10'
+		'11-20'
+		'more than 20'
+		,
+		15
+		'helical'
+		'decussate'
+		'whorled'
+		,
+		16
+		'peltate'
+		'non-peltate'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'totally fused'
+		'relictual scale tip'
+		'free scale up to one-third of OC length'
+		'free scale more than one-third of OC length'
+		,
+		21
+		'bract longer than scale'
+		'bract and scale mostly equal in length'
+		'scale longer than bract'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'woody'
+		'thin'
+		,
+		24
+		'independent trace for bract and scale'
+		'unique trace for bract and scale'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'1'
+		'2-4'
+		'5-10'
+		'more than 10'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'erect'
+		'recurved'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'1'
+		'2'
+		,
+		32
+		'assymetric'
+		'symmetric'
+		,
+		33
+		'adaxial'
+		'terminal'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'axillary'
+		'terminal'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'spherical/globose'
+		'ellipsoidal/subglobose'
+		'cylindrical'
+		,
+		38
+		'decussate'
+		'helical'
+		'whorled'
+		,
+		39
+		'nonsaccate'
+		'saccate'
+		,
+		40
+		'absent'
+		'as bud scales'
+		'highly modified from vegetative leaves'
+		'unmodified or slightly modified from vegetative leaves'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'2'
+		'more than 2'
+		'cotyledon tube'
+		,
+		43
+		'epigeal'
+		'cryptogeal'
+		,
+		44
+		'not fleshy'
+		'fleshy'
+		,
+		45
+		'helical'
+		'whorled'
+		'opposite to subopposite'
+		,
+		46
+		'rhomboidal to tetragonal'
+		'thin and broad'
+		,
+		47
+		'acute'
+		'obtuse'
+		'State 2'
+		,
+		48
+		'straight'
+		'curved'
+		,
+		49
+		'one vein'
+		'two veins'
+		'multiple veins'
+		,
+		50
+		'evident from external view'
+		'not evident from external view'
+		,
+		51
+		'sessile'
+		'reduced base'
+		'petiolate'
+		,
+		52
+		'entire'
+		'serrate'
+		'minutely denticulate'
+		,
+		53
+		'amphistomatic'
+		'hypostomatic'
+		,
+		54
+		'mostly parallel to leaf axis'
+		'mostly oblique to leaf axis'
+		'mostly perpendicular to leaf axis'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'relatively smooth'
+		'undulating'
+		,
+		57
+		'4-5'
+		'more than 5'
+		'fewer than 4'
+		,
+		58
+		'monoecious'
+		'dioecious'
+		,
+		59
+		'whorled to pseudowhorled'
+		'helical'
+		'irregular'
+		,
+		60
+		'2'
+		'3'
+		'4'
+		,
+		61
+		'mostly tridimensional'
+		'mostly pinnate'
+		,
+		62
+		'10'
+		'11'
+		'12'
+		'13'
+		'more than 13'
+		,
+		63
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Cunninghamia lanceolata'		             ----------11130100110111010111110001(1,2)10110000100000100101002011
+	'Taiwania cryptomerioides'		            -----?----111301001?01(0,1)10(0,1)011111000101011000(0,2)00(0,1)000000101012011
+	'Cupressus sempervirens'		              --------?-(0,1)00(1,2)10001010-10(2,3)0011110010(0,1)0001000200001020?011022011
+	'Cupressus sargentii'		                 -----?----(0,1)00110001010-10(2,3)0011110010(0,1)000110020(0,1)001000?001022011
+	'Xanthocyparis vietnamensis'		          ----------000110001010-10(0,1,2)0011110010(0,1)00010002000010(0,2)0?001002011
+	'Podocarpus latifolius'		               ---?--?---302111001320-0001110--110(0,1)21111001010000201000?111001
+	'Podocarpus macrophyllus'		             ------?---302111001320-0001110--110(0,1)2111100101000020101021210?1
+	'Dacrycarpus dacrydioides'		            ---?--?---302101001320-0001110--111(0,1)11111(0,1)01000100000010?122001
+	'Sciadopitys verticillata'		            ------?---(1,2)10300001321000(2,3)01111100(0,1)111001000(0,1)000000010111011001
+	'Araucaria araucana'		                  ----------100301101100-1001100--000(0,1)2102001101002-0000100101130
+	'Araucaria angustifolia'		              ----------100301101100-1001100--000(0,1)2102001101002-0000100101130
+	'Araucaria bidwillii'		                 ----------(0,1)0030110120100001100--00012102021101002-1000100101130
+	'Araucaria hunsteinii'		                ----------(0,1)0030110120111001100--00012102000001002-1000100101130
+	'Araucaria bernieri'		                  ----------(0,1)0030110120111001100--00102102010000010-0001100101130
+	'Araucaria biramulata'		                ----------(0,1)0030110120111001100--00102102010000012-0102100101130
+	'Araucaria columnaris'		                ----------(0,1)0030110120111001100--00102102010000012-0002100101130
+	'Araucaria cunninghamii'		              ----------(0,1)0030110120111001100--00102102010000012-0001100102130
+	'Araucaria heterophylla'		              ----------(0,1)0030110120111001100--00101102010000012-0101100101130
+	'Araucaria humboldtensis'		             ----------(0,1)0030110120111001100--00102102010000010-0001100101130
+	'Araucaria laubenfelsii'		              ----------(0,1)0030110120111001100--00102102010000012-0102100101130
+	'Araucaria luxurians'		                 ----------(0,1)0030110120111001100--00102102010000012-0101100101130
+	'Araucaria montana'		                   ----------(0,1)0030110120111001100--00102102010000012-0101100101130
+	'Araucaria muelleri'		                  ----------(0,1)0030110120111001100--00102102010000012-0002100101130
+	'Araucaria nemorosa'		                  ----------(0,1)0030110120111001100--00102102010000012-0002100101130
+	'Araucaria rulei'		                     ----------(0,1)0030110120111001100--00102102010000012-0101100101130
+	'Araucaria schmidii'		                  ------?---(0,1)0030110120111001100--0010210201000001?-000(0,2)100101130
+	'Araucaria scopulorum'		                ----------(0,1)0030110120111001100--00102102010000010-0001100101130
+	'Araucaria subulata'		                  ----------(0,1)0030110120111001100--00102102010000011-0001100101130
+	'Agathis robusta'		                     ----------(0,1)00301111011010001111000002103000021102-00(0,1)1010000031
+	'Agathis australis'		                   ------?---(0,1)00301111011010001111000002103000021(0,1)02-20(0,1)(0,1)010000031
+	'Agathis dammara'		                     ----------(0,1)00301111011010001111000002103000021(0,1)02-200(1,2)010000031
+	'Agathis atropurpurea'		                ----------(0,1)00301111011010001111000002103000021102-200(0,1,2)010000031
+	'Agathis borneensis'		                  ----------(0,1)0030111101101000111100000(1,2)103000021102-2002010000031
+	'Agathis lanceolata'		                  ------?---(0,1)0030111101101000111100000(1,2)103000021102-200(1,2)010000031
+	'Agathis macrophylla'		                 ------?---(0,1)00301111011010001111000002103000021(0,1)02-200(1,2)010000031
+	'Agathis microstachya'		                ----------(0,1)0030111101101000111100000(1,2)103000021102-2001010000031
+	'Agathis montana'		                     ------?---(0,1)00301111011010001111000002103000021102-2000010000031
+	'Agathis moorei'		                      ------?---(0,1)00301111011010001111000002103000021102-200(1,2)010000031
+	'Agathis ovata'		                       ------?---(0,1)00301111011010001111000001103000021102-200(1,2)010000031
+	'Araucaria famii'		                     ----??????10030100020111001100--00??????00?000012-0001100??????
+	'Wollemia nobilis'		                    ----------(0,1)003011110110100011111001021020000(0,2)1(0,1,2)02-1001100000030
+	'Araucaria mirabilis'		                 ----?????-(0,1)?0301001(2,3)0100001100--00??????00??00012-00??????????0
+	'Araucarites bindrabunensis'		          ----????????0301?0120100?01100--00??????0??????????????????????
+	'Araucaria sphaerocarpa'		              ----??????0?030100120100?01100--00??????00?????????????????????
+	'Araucaria nipponensis'		               ---????-??(0,1)?0301101101(0,1)(0,1)?01100--00??????00?????????????????????
+	'Araucaria vulgaris'		                  --?????--???0301001201(0,1)0?01100--00??????00?????????????????????
+	'Araucaria brownii'		                   ?---????????0301?0130100?01100--00??????0??????????????????????
+	'Wairarapaia mildenhallii'		            ----????????0301??10110??001111100??????00?????????????????????
+	'Emwadea microcarpa'		                  ----???--?1?0301??1011?10001111100???????0??000?2-0????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 63;
+      ENDBLOCK;
+      

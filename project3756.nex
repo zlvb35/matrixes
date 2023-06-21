@@ -1,0 +1,459 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 02.12.49 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=34;
+    TAXLABELS
+    		'Kayentachelys aprix'
+		'Pleurosternon bullockii'
+		'Glyptops plicatulus'
+		'Arundelemys dardeni'
+		'Hayemys latifrons'
+		'Neurankylus baueri'
+		'Neurankylus exemius'
+		'Neurankylus lithographicus'
+		'Neurankylus torrejonensis'
+		'Trinitichelys hiatti'
+		'Scabremys ornata'
+		'Thescelus insiliens'
+		'Baena arenosa'
+		'Baena affinis'
+		'Baena escavada'
+		'Baena hayi'
+		'Boremys grandis'
+		'Boremys pulchra'
+		'Chisternon undatum'
+		'Denazinemys nodosa'
+		'Eubaena cephalica'
+		'Eubaena hatcheri'
+		'Stygiochelys estesi'
+		'Cedrobaena brinkman'
+		'Cedrobaena putorius'
+		'Gammerabaena sonsalla'
+		'Goleremys mckennai'
+		'Palatobaena bairdi'
+		'Palatobaena cohen'
+		'Palatobaena gaffneyi'
+		'Plesiobaena antiqua'
+		'Turtle graveyard'
+		'Saxochelys gilberti'
+		'Arvinachelys goldeni'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=69;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'skull shape in dorsal view'
+		 [2] 'sculptured skull'
+		 [3] 'snout shape'
+		 [4] 'preorbital length'
+		 [5] 'orbit shape'
+		 [6] 'size of orbit'
+		 [7] 'maxillary hight below orbit'
+		 [8] 'orbit inset into maxilla'
+		 [9] 'orientation of orbit'
+		 [10] 'Cheek emargination'
+		 [11] 'upper temporal emargination'
+		 [12] 'size of tympanum'
+		 [13] 'Size of the external narial opening'
+		 [14] 'orientation of external nares'
+		 [15] 'lingual ridge'
+		 [16] 'Hooked premaxilla'
+		 [17] 'shape of triturating surface'
+		 [18] 'angle between maxillae'
+		 [19] 'intermaxillary arch/ tongue groove'
+		 [20] 'sulcus around external narial opening'
+		 [21] 'nasal size'
+		 [22] 'prefrontal exposure on skull roof'
+		 [23] 'frontal maxilla contact'
+		 [24] 'jugal contribution to orbit'
+		 [25] 'jugal thickening'
+		 [26] 'squamosal parietal contact'
+		 [27] 'Parietal width versus length'
+		 [28] 'posterior thickening of parietal'
+		 [29] 'so crest capped by rounded parietals'
+		 [30] 'supraoccipital exposure between parietals on skull roof'
+		 [31] 'PMX, praeplanum foramen'
+		 [32] 'foramen palatinum posterius'
+		 [33] 'midline contact of pterygoid'
+		 [34] 'pterygoid basioccipital contact'
+		 [35] 'contribution of opisthotic to stapedial foramen'
+		 [36] 'Hooked mandible'
+		 [37] 'splenial'
+		 [38] 'tubercle on posterolateral edge of dentary'
+		 [39] 'height of dentary'
+		 [40] 'carapace length'
+		 [41] 'shell sculpturing'
+		 [42] 'general fusion of the shell'
+		 [43] 'anteriorly scalloped shell'
+		 [44] 'scalloping of posterior rim of carapace'
+		 [45] 'costal fontanelles'
+		 [46] 'preneural'
+		 [47] 'neural 6 contacts'
+		 [48] 'number of suprapygals + pygals'
+		 [49] 'cervical scutes'
+		 [50] 'size of cervical, if only one present'
+		 [51] 'nuchal scute'
+		 [52] 'anterior supernumary pleural'
+		 [53] 'posterior supernumerary pleural'
+		 [54] 'supramarginal scales'
+		 [55] '1st vertebral scute'
+		 [56] 'vertebral III shape'
+		 [57] '5th vertebral forms postior edge of shell'
+		 [58] 'vertebral V'
+		 [59] 'epiplastral processes'
+		 [60] 'anterior plastral lobe'
+		 [61] 'plastral lobe dimensions'
+		 [62] 'gulars'
+		 [63] 'medial contact of extragulars'
+		 [64] 'sigmoidal extragula and humeral sulcus'
+		 [65] 'sigmoidal femoral/anal sulcus'
+		 [66] 'development of axillary buttress'
+		 [67] 'extent of inguinal buttress'
+		 [68] 'articular surfaces on cervical vertebrae'
+		 [69] 'distal caudals'
+	;
+	STATELABELS
+		1
+		'much wider than long'
+		'as wide as long'
+		'much longer than wide'
+		,
+		2
+		'absent (may have crenulations, but sculpturing not similar to that found on shell)'
+		'knobs (similar to that found on the shell, where known)'
+		,
+		3
+		'rectangular snout'
+		'pointed snout'
+		,
+		4
+		'short'
+		'long'
+		,
+		5
+		'circular'
+		'posterior notch (not perfect circle)'
+		,
+		6
+		'notably small'
+		'normal'
+		'notably large'
+		,
+		7
+		'notably gracile'
+		'normal'
+		'notably tall'
+		,
+		8
+		'no'
+		'yes'
+		,
+		9
+		'laterally'
+		'dorsally'
+		,
+		10
+		'no emargination'
+		'minor emargination'
+		'deep'
+		,
+		11
+		'absent'
+		'present, but shallow'
+		'deep'
+		,
+		12
+		'notably small'
+		'normal'
+		'notably large, relative to orbit'
+		,
+		13
+		'small, significantly smaller than the orbit'
+		'large, approximately the same size as the orbit'
+		,
+		14
+		'anteriorly'
+		'anterodorsally'
+		,
+		15
+		'complete'
+		'reduced, anteriorly only'
+		'absent'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'lingual and labial margins more or less parallel'
+		'lingual and labial margins diverge posteriorly, triturating surface greatly expanded posteriorly'
+		,
+		18
+		'acute angle'
+		'obtuse angle'
+		,
+		19
+		'broad'
+		'narrow'
+		,
+		20
+		'no'
+		'present'
+		,
+		21
+		'large'
+		'reduced'
+		'absent'
+		,
+		22
+		'large'
+		'reduced to absent'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'large'
+		'small'
+		'absent'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'present, upper temporal emargination shallow'
+		'absent, upper temporal emargination deep'
+		,
+		27
+		'maximum combined width of parietals less then their length'
+		'maximum combined width of parietals greater than their length'
+		,
+		28
+		'thins out posteriorly'
+		'does not thin out posteriorly'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'slight exposure'
+		'large exposure'
+		,
+		31
+		'located entirely within premaxillae'
+		'located within suture of premaxillae, vomer and/or maxillae'
+		,
+		32
+		'formed by pterygoid and palatine'
+		'formed entirely by palatine'
+		,
+		33
+		'large'
+		'small'
+		,
+		34
+		'poorly developed'
+		'well developed'
+		,
+		35
+		'excluded from stapedial foramen'
+		'enters stapedial foramen'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'large'
+		'reduced'
+		'absent'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'hight'
+		'low, jaw gracile'
+		,
+		40
+		'less than 50cm'
+		'greater than 50cm'
+		,
+		41
+		'smooth to slightly sculptured'
+		'distinct tubercles for sculpturing "glyptops like" sculpturing'
+		'knobby'
+		'long waves'
+		,
+		42
+		'no'
+		'yes'
+		,
+		43
+		'absent'
+		'present, apomorphy of Boremys'
+		,
+		44
+		'absent'
+		'present, but slight'
+		'distinct'
+		,
+		45
+		'absent'
+		'yes, fenestra present, even in individuals where sutures are fused'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'contacts costals 5 and 6'
+		'contacts costals 5, 6, and 7'
+		,
+		48
+		'three'
+		'two'
+		'one'
+		,
+		49
+		'undivided'
+		'divided (includes sometimes)'
+		,
+		50
+		'single cervical  wider than long'
+		'single cervical longer than wide'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'wide anteriorly and narrows posteriorly'
+		'wide posteriorly and narrows anteriorly'
+		,
+		56
+		'wider than long'
+		'length and width approximately equal'
+		'length greater than width'
+		,
+		57
+		'no'
+		'yes'
+		,
+		58
+		'vertebra V width = or > vertebral IV width'
+		'vertebral V width < vertebral IV width'
+		,
+		59
+		'present'
+		'absent'
+		,
+		60
+		'rectangular/trapezoidal'
+		'triangular'
+		,
+		61
+		'posterior lobe larger than anterior lobe'
+		'anterior lobe larger than posterior lobe'
+		,
+		62
+		'large, like extragulars'
+		'greatly reduced relative to extragulars'
+		'absent'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'clearly present'
+		,
+		66
+		'poorly developed with the buttress only weakly extending onto the costals'
+		'well developed with the buttress extending onto the costals (forming a distinct neck shield)'
+		,
+		67
+		'poorly developed with the buttress not extending onto the middle of the costals (ends on the distal portion of costal)'
+		'well developed withthe buttress reaching the costals'
+		,
+		68
+		'no, all are amphicoelous'
+		'yes, some vertebrae are proceolous or ophisthocoelous'
+		,
+		69
+		'same length as proximal caudals'
+		'significantly longer than proximal caudals'
+		
+	;
+	MATRIX
+	'Kayentachelys aprix'		                 100002000001000000000000000000-000000000000000-0000000100?0000000000?
+	'Pleurosternon bullockii'		             2110020001210120000000020000010??01????0100000000000000000?0100000?0?
+	'Glyptops plicatulus'		                 21100200012?01210000000200000?00?0?100101000000100000000000010000000?
+	'Arundelemys dardeni'		                 11(0,1)002000?2?0010000000020?0?0000011??????????????????????????????????
+	'Hayemys latifrons'		                   10?0??00012110?0?00000??010?0??1010??????????????????????????????????
+	'Neurankylus baueri'		                  ???????????????????????????????????????100010010010000000?1010000111?
+	'Neurankylus exemius'		                 ??????????2??????????0?????11???011????100010?100100000000100010011??
+	'Neurankylus lithographicus'		          ?0???????????????????0???????0??01(0,1)????1010?00????00000000100000011??
+	'Neurankylus torrejonensis'		           0000??????1??0?0?0??0001?0011???01?1?00101010???0100000?0?10?0(0,1)0?11??
+	'Trinitichelys hiatti'		                11(0,1)0020001210010000001?(1,2)0(0,1)0000?0011????0100?00??0000?000??100000?110?
+	'Scabremys ornata'		                    ???????????????????????????????????????021120???000000011010011(0,1)011??
+	'Thescelus insiliens'		                 ???????????????????????????????????????0110100?100000002001000101???0
+	'Baena arenosa'		                       10100110011??1101000????00?1???0?1?1?01001010???1-0100?210100011111??
+	'Baena affinis'		                       10??0???0?????1?1000?11??????????????0?0300100121-0100121010001011111
+	'Baena escavada'		                      ???????????????????????????????????????001020?????0(0,1)00?21010001(0,1)111??
+	'Baena hayi'		                          ????????????????????????????0??????????001020???1-01001010110111111??
+	'Boremys grandis'		                     ???????????????????????????????????????1201201??1-1111121??00011011??
+	'Boremys pulchra'		                     101100100?2?11?010?0111?010001??01001?10201201111-1111021011001(0,1)01101
+	'Chisternon undatum'		                  101012(0,1)00111?11010001110001101?1(0,1)10020110001011?1-11?012?010001(0,1)1111?
+	'Denazinemys nodosa'		                  101001000121111010100110000001?1010????0211200?21-11001210100010011??
+	'Eubaena cephalica'		                   101100200122111010101112010001100100111??????????????????????????????
+	'Eubaena hatcheri'		                    ???????????????????????????????????????0000200121-110010101000(0,1)0011??
+	'Stygiochelys estesi'		                 101012100121111010001111010001111110?11??????????????????????????????
+	'Cedrobaena brinkman'		                 1??001100222??1?100021110100011001000110010?00??0000000010110110?11??
+	'Cedrobaena putorius'		                 1??001110222??1?1000211101001010010?0????????????????????????????????
+	'Gammerabaena sonsalla'		               101001111?2?1110100011120???0??0010??????????????????????????????????
+	'Goleremys mckennai'		                  101001210122?1101000011001000?10010??????????????????????????????????
+	'Palatobaena bairdi'		                  00-0012111221120110111101101021001?0011??????????????????????????????
+	'Palatobaena cohen'		                   00-0012111221120110111111100011001000110010?10??0000001010110110111??
+	'Palatobaena gaffneyi'		                00-00121112211201101111111010210110??????????????????????????????????
+	'Plesiobaena antiqua'		                 101001100121111010001112010001101100011000001011000000011011011011111
+	'Turtle graveyard'		                    1011010001221110101011120100011001001(0,1)1001120(0,1)121-0100111011001011111
+	'Saxochelys gilberti'		                 1010121001211110100011120100011001001110100(1,2)01111-11001(1,2)1010001101111
+	'Arvinachelys goldeni'		                10000011012210101(0,1)?0000(0,1)0110001?1101?10001020???000000001?1(0,1)0110111??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 6 - 7 10 - 12 15 21 24 30 37 44 48 56 62, unord: 2 - 5 8 - 9 13 - 14 16 - 20 22 - 23 25 - 29 31 - 36 38 - 43 45 - 47 49 - 55 57 - 61 63 - 69;
+      ENDBLOCK;
+      

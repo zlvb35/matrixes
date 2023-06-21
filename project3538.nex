@@ -1,0 +1,987 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.14.27 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=99;
+    TAXLABELS
+    		'Charinus acaraje'
+		'Charinus africanus'
+		'Charinus aguayoi'
+		'Charinus alagoanus'
+		'Charinus apiaca'
+		'Charinus asturius'
+		'Charinus australianus'
+		'Charinus belizensis'
+		'Charinus bichuetteae'
+		'Charinus bonaldoi'
+		'Charinus brasilianus'
+		'Charinus brescoviti'
+		'Charinus carajas'
+		'Charinus caribensis'
+		'Charinus carineae'
+		'Charinus carioca'
+		'Charinus carvalhoi'
+		'Charinus cavernicolus'
+		'Charinus cearensis'
+		'Charinus cubensis'
+		'Charinus diamantinus'
+		'Charinus dominicanus'
+		'Charinus elegans'
+		'Charinus eleonorae'
+		'Charinus euclidesi'
+		'Charinus fagei'
+		'Charinus gertschi'
+		'Charinus goitaca'
+		'Charinus guayaquil'
+		'Charinus guto'
+		'Charinus imperialis'
+		'Charinus insularis'
+		'Charinus jibaossu'
+		'Charinus koepckei'
+		'Charinus loko'
+		'Charinus longipes'
+		'Charinus madagascariensis'
+		'Charinus magalhaesi'
+		'Charinus milloti'
+		'Charinus miskito'
+		'Charinus mocoa'
+		'Charinus monasticus'
+		'Charinus montanus'
+		'Charinus muchmorei'
+		'Charinus mysticus'
+		'Charinus neocaledonicus'
+		'Charinus orientalis'
+		'Charinus palikur'
+		'Charinus papuanus'
+		'Charinus pecki'
+		'Charinus perquerens'
+		'Charinus pescotti'
+		'Charinus potiguar'
+		'Charinus puri'
+		'Charinus reddelli'
+		'Charinus renneri'
+		'Charinus ruschii'
+		'Charinus sillami'
+		'Charinus sooretama'
+		'Charinus souzai'
+		'Charinus susuwa'
+		'Charinus taboa'
+		'Charinus troglobius'
+		'Charinus una'
+		'Charinus vulgaris'
+		'Sarax abbatei'
+		'Sarax batuensis'
+		'Sarax bengalensis'
+		'Sarax bilua'
+		'Sarax bispinosus'
+		'Sarax brachydactylus'
+		'Sarax cochinensis'
+		'Sarax dunni'
+		'Sarax gravelyi'
+		'Sarax huberi'
+		'Sarax indochinensis'
+		'Sarax ioanniticus'
+		'Sarax israelensis'
+		'Sarax javensis'
+		'Sarax lembeh'
+		'Sarax pakistanus'
+		'Sarax palau'
+		'Sarax rahmadii'
+		'Sarax rimosus'
+		'Sarax seychellarum'
+		'Sarax singaporae'
+		'Sarax socotranus'
+		'Sarax sp3 Bali'
+		'Sarax sp4 Sumbawa'
+		'Sarax sp5 Lombok'
+		'Sarax tiomanensis'
+		'Sarax willeyi'
+		'Sarax yayukae'
+		'Weygoldtia consonensis'
+		'Weygoldtia davidovi'
+		'Damon diadema'
+		'Mastigoproctus aff. giganteus'
+		'Phrynus longipes'
+		'Stenochrus sbordonii'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=138;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'Carapace, division of tegument'
+		 [2] 'Carapace, presence of setae on the frontal margin'
+		 [3] 'Carapace, setae on the frontal margin, placement of setae socket'
+		 [4] 'Carapace, number of setae or spine/setae on the frontal margin'
+		 [5] 'Carapace, median eyes presence'
+		 [6] 'Carapace, median eyes tubercle presence'
+		 [7] 'Carapace, presence of a pair of setae on or close to the median eyes tubercle'
+		 [8] 'Carapace, presence of three pairs of lateral eyes'
+		 [9] 'Carapace, presence of a curved crest between lateral eyes and lateral border of the carapace'
+		 [10] 'Carapace, distance from the crest to the lateral eyes'
+		 [11] 'Carapace, presence of straight crest in front of the lateral eyes, projected from the triad of eyes (ophtalmic ridge)'
+		 [12] 'Carapace, distance of lateral eyes to the lateral margin'
+		 [13] 'Carapace, presence of setae behind the triad of the lateral eyes'
+		 [14] 'Carapace, presence of setae on the side the triad of the lateral eyes'
+		 [15] 'Sternum, presence of tritosternum projected anteriorly'
+		 [16] 'Sternum, shape of midlle piece and posterior piece of sternum'
+		 [17] 'Basal segment of the chelicerae, number of rows of teeth'
+		 [18] 'Basal segment of the chelicerae, presence of tooth by the side of the bifid tooth (tooth 1)'
+		 [19] 'Basal segment of the chelicerae, size of tooth by the side of the bifid tooth'
+		 [20] 'Basal segment of the chelicerae, presence of another tooth in the row'
+		 [21] 'Basal segment of the chelicerae, number of teeth in the internal row'
+		 [22] 'Basal segment of the chelicerae, number of cusps on the distal tooth'
+		 [23] 'Basal segment of the chelicerae, size relation of the cusps of the bifid tooth'
+		 [24] 'Basal segment of the chelicerae, shape of the distal (upper) cusp of the the bifid tooth'
+		 [25] 'Basal segment of chelicerae, presence of clavate or fine and long setae on the mesal side'
+		 [26] 'Basal segment of the chelicerae, number of rows of clavate or fine and long setae on the mesal side'
+		 [27] 'Basal segment of the chelicerae, dorsal setae, size of setiferous tubercle'
+		 [28] 'Basal segment of the chelicerae, number of dorsal setae'
+		 [29] 'Basal segment of the chelicerae, frontal ectal border, presence of setae'
+		 [30] 'Basal segment of the chelicerae, frontal ectal border, number of setae'
+		 [31] 'Cheliceral claw, number of teeth'
+		 [32] 'Cheliceral claw, presence of row of setae in the ectal side'
+		 [33] 'Cheliceral claw, position of the row of setae in the ectal'
+		 [34] 'Cheliceral claw, presence of rows of setae between the ectal and mesal rows (on the dorsal of the claw)'
+		 [35] 'Abdomen, presence of ventral sac cover'
+		 [36] 'Female genital operculum, shape of the surface on the distal border'
+		 [37] 'Female genital operculum, shape of the distal border'
+		 [38] 'Female gonopod (dorsal view), size of the posterior border'
+		 [39] 'Female gonopod, shape'
+		 [40] 'Female gonopod, presence of claw-like projection'
+		 [41] 'Female gonopod, tegument of claw-like projection'
+		 [42] 'Female gonopod, tegument of claw-like projection, extent of sclerotization'
+		 [43] 'Female gonopod, shape of the central surface'
+		 [44] 'Female gonopod, presence of sclerotization in the base of the gonopod'
+		 [45] 'Male gonopod, presence of sclerotizations at the distal border of the fistula'
+		 [46] 'Male gonopod, presence of sclerotizations at the base of LoL1'
+		 [47] 'Spermatophore, position of sperm sac'
+		 [48] 'Spermatohpore, shape'
+		 [49] 'Tibia I, divided in pseudoarticles'
+		 [50] 'Tibia I, number of pseudoarticles'
+		 [51] 'Tarsus I, presence of leaf-like hairs on the articles'
+		 [52] 'Tarsus I, number of pseudoarticles'
+		 [53] 'Tarsus I, size of the first (the proximal) article'
+		 [54] 'Tarsus I, number of the article with a slit sense organ (article has a small elongation in its distal border)'
+		 [55] 'Tarsus I, shape of rod sensilla'
+		 [56] 'Tarsus I, position of setae on rod sensilla'
+		 [57] 'Fusion of pedipalp coxae ventrally forming posterior wall of pre-oral chamber'
+		 [58] 'Position of the dorsal articulation (hinge) trochanter-femur'
+		 [59] 'Pedipalp trochanter, presence of apophisis pointing backwards, clava-shape'
+		 [60] 'Pedipalp trochanter, presence of ventromedial apophisis pointing forward on pedipalp'
+		 [61] 'Pedipalp trochanter, shape of the ventromedian apophysis pointing forward'
+		 [62] 'Pedipalp trochanter, number of ventral spines (not considering the projection cited before, if it is a spine)'
+		 [63] 'Pedipalp trochanter, presence of dorsal spines'
+		 [64] 'Pedipalp femur, ventral, presence of a spine or conspicuous setiferous tubercle before or inner to spine one'
+		 [65] 'Pedipalp femur, ventral, shape of the projection before o inner to spine one'
+		 [66] 'Pedipalp femur, ventral, position of the spine/tubercle before spine one'
+		 [67] 'Pedipalp femur, ventral, presence of a small spine close to the articulation femur-trochanter'
+		 [68] 'Pedipalp femur, ventral, presence of a spine parallel to spine one (in addition to the aforementioned spine)'
+		 [69] 'Pedipalp femur, ventral, number of spines'
+		 [70] 'Pedipalp femur, ventral, presence of small spine between spines 1 and 2 in females (dorsal to the main row)'
+		 [71] 'Pedipalp femur, ventral, presence of small spine between spines 2 and 3 in males (dorsal to the main row)'
+		 [72] 'Pedipalp patella, ventral, number of spines'
+		 [73] 'Pedipalp patella, ventral, presence of a small spine between spine 1 and 2'
+		 [74] 'Pedipalp patella, ventral, presence of a small spine between spine 2 and 3'
+		 [75] 'Pedipalp patella, ventral, shape of projection between spine I and distal margin'
+		 [76] 'Pedipalp patella, ventral, size of setiferous tubercle between spine I and distal margin'
+		 [77] 'Pedipalp patella, ventral, number of spines between spine 1 and distal margin'
+		 [78] 'Pedipalp patella, ventral, size of the apical or largest (when more than one) spine between spine I and distal margin'
+		 [79] 'Pedipalp patella, ventral, shape of the apical or largest (when more than one) spine between spine I and distal margin'
+		 [80] 'Pedipalp tibia, ventral, number of spines'
+		 [81] 'Pedipalp tibia, ventral, (when one spine) position of the spine'
+		 [82] 'Pedipalp tibia, ventral, presence of setiferous tubercle with a long setae before distal spine'
+		 [83] 'Pedipalp tibia, ventral, presence of a row of long and thin setae close to distal border'
+		 [84] 'Pedipalp tibia, ventral, number of setae in the row close to distal border'
+		 [85] 'Pedipalp tarsus, ventral, presence of spine'
+		 [86] 'Pedipalp tarsus, ventral, presence of cleaning organ'
+		 [87] 'Pedipalp tarsus, ventral, number of setae in the ventral row of the cleaning organ'
+		 [88] 'Pedipalp tarsus, presence of a row of setae on the base of the cleaning organ'
+		 [89] 'Pedipalp tarsus, number of setae proximal to the cleaning organ'
+		 [90] 'Pedipalp coxae, position in relation to the carapace'
+		 [91] 'Pedipalp coxae, shape of sclerite'
+		 [92] 'Pedipalp coxae, position of sclerites'
+		 [93] 'Pedipalp coxae, dorsal, presence of a rounded or oval protuberance on the sclerotized region'
+		 [94] 'Pedipalp coxae, dorsal, number of setae on the frontal border of the rounded protuberance'
+		 [95] 'Pedipalp coxae, dorsal, position of the two proximal large setae/tubercle on the frontal border of the rounded protuberance'
+		 [96] 'Pedipalp coxae, dorsal, presence of setae in the rounded protuberance'
+		 [97] 'Pedipalp coxae, dorsal, number of setae in the rounded protuberance'
+		 [98] 'Pedipalp femur, dorsal, shape of the proximal series of spines/tubercles'
+		 [99] 'Pedipalp femur, dorsal, number of setiferous tubercle before spine 1 positioned in the same line as the main seires of spines'
+		 [100] 'Pedipalp femur, dorsal, proximal series, number of spines'
+		 [101] 'Pedipalp femur, dorsal, number of spines'
+		 [102] 'Pedipalp femur, dorsal, presence of a small spine parallel to spine 1 (inner to it)'
+		 [103] 'Pedipalp femur, dorsal, presence of a small spine between spines 1 and 2 in females'
+		 [104] 'Pedipalp femur, dorsal, presence of a small spine between spines 2 and 3 in females'
+		 [105] 'Pedipalp patella, dorsal, number of spines'
+		 [106] 'Pedipalp patella, dorsal, presence of long setiferous tubercle proximal to spine 3'
+		 [107] 'Pedipalp patella, dorsal, presence of long setiferous tubercle or spines between spine I and the distal margin'
+		 [108] 'Pedipalp patella, dorsal, shape of the projections between spine I and the distal margin'
+		 [109] 'Pedipalp patella, dorsal, number of spines between spine I and the distal margin'
+		 [110] 'Pedipalp patella, dorsal, size of the proximal spine between spine I and the distal margin'
+		 [111] 'Pedipalp patella, dorsal, number of long setiferous tubercle between spine I and the distal margin'
+		 [112] 'Pedipalp patella, dorsal, long setiferous tubercle between spine I and distal margin, size of the proximal tubercle'
+		 [113] 'Pedipalp tibia, number of dorsal spines'
+		 [114] 'Pedipalp tibia, size relation of dorsal spines (when two spines)'
+		 [115] 'Pedipalp tarsus, dorsal, presence of spine above the cleaning organ'
+		 [116] 'Pedipalp tarsus, dorsal, number of spines'
+		 [117] 'Pedipalp tarsus, dorsal, size of the distal spine (or of the single spine when only one is present)'
+		 [118] 'Pedipalp tarsus, dorsal, size relation of the two spines (or the two distal spines, when more than two) (the proximal in relation to the distal)'
+		 [119] 'Pedipalp tarsus, dorsal, presence of dorsal row of setae on cleaning organ'
+		 [120] 'Pedipalp, fusion of the tarsus and claw'
+		 [121] 'Basitibia IV, number of articles'
+		 [122] 'Basitibia IV, position of bt'
+		 [123] 'Basitibia IV, presence of a strongly sclerotized denticulated border in the distal apex of the article'
+		 [124] 'Basitibia IV, presence of a strongly sclerotized denticulated border projection in the middle region'
+		 [125] 'Distitibia IV, presence of trichobotria bc'
+		 [126] 'Distitibia IV, presence of trichobothrium nbf'
+		 [127] 'Distitibia IV, presence of trichobothrium series sbc'
+		 [128] 'Distitibia IV, position of the two most proximal trichobotria of the SF and SC in relation to each other'
+		 [129] 'Distitibia IV, position of the proximal trichobotria of the SF and SC'
+		 [130] 'Distitibia IV, number of trichobotria on SF'
+		 [131] 'Distitibia IV, number of trichobotria on SC'
+		 [132] 'Distitibia IV, presence of trichobotrium tm (the tip of the triad)'
+		 [133] 'Distitibia IV, presence of a marked division after all trichobotria'
+		 [134] 'Tarsomere IV, presence of empodial claw'
+		 [135] 'Tarsomere IV, presence of pulvillus'
+		 [136] 'Tarsomere IV, presence of oblique slit'
+		 [137] 'Tarsomere IV, presence of weakly sclerotized area of the second tarsal segment'
+		 [138] 'Tarsomere IV, size of the weakly sclerotized area of the second tarsal segment'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		,
+		2
+		'State 0'
+		'State 1'
+		,
+		3
+		'State 0'
+		'State 1'
+		,
+		4
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		5
+		'State 0'
+		'State 1'
+		,
+		6
+		'State 0'
+		'State 1'
+		,
+		7
+		'State 0'
+		'State 1'
+		,
+		8
+		'State 0'
+		'State 1'
+		,
+		9
+		'State 0'
+		'State 1'
+		,
+		10
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		11
+		'State 0'
+		'State 1'
+		,
+		12
+		'State 0'
+		'State 1'
+		,
+		13
+		'State 0'
+		'State 1'
+		,
+		14
+		'State 0'
+		'State 1'
+		,
+		15
+		'State 0'
+		'State 1'
+		,
+		16
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		17
+		'State 0'
+		'State 1'
+		,
+		18
+		'State 0'
+		'State 1'
+		,
+		19
+		'State 0'
+		'State 1'
+		,
+		20
+		'State 0'
+		'State 1'
+		,
+		21
+		'State 0'
+		'State 1'
+		'State 5'
+		,
+		22
+		'State 0'
+		'State 1'
+		,
+		23
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		24
+		'State 0'
+		'State 1'
+		,
+		25
+		'State 0'
+		'State 1'
+		,
+		26
+		'State 0'
+		'State 1'
+		,
+		27
+		'State 0'
+		'State 1'
+		,
+		28
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'State 0'
+		'State 1'
+		,
+		31
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		32
+		'State 0'
+		'State 1'
+		,
+		33
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		34
+		'State 0'
+		'State 1'
+		,
+		35
+		'State 0'
+		'State 1'
+		,
+		36
+		'State 0'
+		'State 1'
+		,
+		37
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		38
+		'State 0'
+		'State 1'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'State 0'
+		'State 1'
+		,
+		41
+		'State 0'
+		'State 1'
+		,
+		42
+		,
+		43
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		44
+		'State 0'
+		'State 1'
+		,
+		45
+		'State 0'
+		'State 1'
+		,
+		46
+		'State 0'
+		'State 1'
+		,
+		47
+		'State 0'
+		'State 1'
+		,
+		48
+		'State 0'
+		'State 1'
+		,
+		49
+		'State 0'
+		'State 1'
+		,
+		50
+		'State 1'
+		'State 2'
+		,
+		51
+		'State 0'
+		'State 1'
+		,
+		52
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 7'
+		,
+		53
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		54
+		'State 2'
+		'State 3'
+		'State 5'
+		,
+		55
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		56
+		'State 0'
+		'State 1'
+		,
+		57
+		'State 0'
+		'State 1'
+		,
+		58
+		'State 0'
+		'State 1'
+		,
+		59
+		'State 0'
+		,
+		60
+		'State 0'
+		'State 1'
+		,
+		61
+		'State 0'
+		'State 1'
+		,
+		62
+		'State 1'
+		'State 6'
+		'State 7'
+		,
+		63
+		'State 0'
+		'State 1'
+		,
+		64
+		'State 0'
+		'State 1'
+		,
+		65
+		'State 0'
+		'State 1'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		67
+		'State 0'
+		'State 1'
+		,
+		68
+		'State 0'
+		'State 1'
+		,
+		69
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		70
+		'State 0'
+		'State 1'
+		,
+		71
+		'State 0'
+		'State 1'
+		,
+		72
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'State 0'
+		'State 1'
+		'State 3'
+		,
+		81
+		'State 0'
+		'State 1'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		,
+		84
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		85
+		'State 0'
+		'State 1'
+		,
+		86
+		'State 0'
+		'State 1'
+		,
+		87
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		88
+		'State 0'
+		'State 1'
+		,
+		89
+		'State 0'
+		,
+		90
+		'State 0'
+		'State 1'
+		,
+		91
+		'State 0'
+		'State 1'
+		,
+		92
+		'State 1'
+		,
+		93
+		'State 0'
+		'State 1'
+		,
+		94
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		95
+		'State 0'
+		'State 1'
+		,
+		96
+		'State 0'
+		'State 1'
+		,
+		97
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 6'
+		,
+		98
+		'State 0'
+		'State 1'
+		,
+		99
+		'State 1'
+		'State 2'
+		,
+		100
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		101
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		102
+		'State 0'
+		'State 1'
+		,
+		103
+		'State 0'
+		'State 1'
+		,
+		104
+		'State 0'
+		'State 1'
+		,
+		105
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		106
+		'State 0'
+		'State 1'
+		,
+		107
+		'State 0'
+		'State 1'
+		,
+		108
+		'State 0'
+		'State 1'
+		,
+		109
+		'State 0'
+		'State 2'
+		,
+		110
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		111
+		'State 0'
+		'State 1'
+		,
+		112
+		'State 0'
+		'State 1'
+		,
+		113
+		'State 1'
+		'State 2'
+		,
+		114
+		'State 1'
+		,
+		115
+		'State 0'
+		'State 1'
+		,
+		116
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		117
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		118
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		119
+		'State 1'
+		,
+		120
+		'State 0'
+		'State 1'
+		,
+		121
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		122
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		123
+		'State 0'
+		'State 1'
+		,
+		124
+		'State 0'
+		'State 1'
+		,
+		125
+		'State 0'
+		'State 1'
+		,
+		126
+		'State 0'
+		'State 1'
+		,
+		127
+		'State 0'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 1'
+		'State 2'
+		,
+		129
+		'State 0'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 5'
+		'State 6'
+		,
+		131
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 5'
+		'State 6'
+		'State 7'
+		,
+		132
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 1'
+		,
+		135
+		'State 0'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 1'
+		,
+		137
+		'State 0'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Charinus acaraje'		                       01011111100?1010110011001003113130002000--11????110402??00011101110030020000---011110120-0111200-01-30002110--0011111110301110010221101010
+	'Charinus africanus'		                     010111110-0010101100110010021031200040010-210000110402??00011101000020010000---011110110-0111201001-20002110--0011112110311110010111101010
+	'Charinus aguayoi'		                       010110110-001011110011001002102110002000--0011??110312??00011101010020010-00---011100110-0111200-01-20002110--0011112310200010010111101010
+	'Charinus alagoanus'		                     0101111110001010110011001102103120002000--11????110412??00011101110020?20000---011100110-0111201(0,1)02-20003010--0011111210201110011001101011
+	'Charinus apiaca'		                        010211110-001010110011011003115100000000--11????110402??00011101110151?31100---011100110-0111(2,3)01(3,5)02-40015010--0011110010301110010221101011
+	'Charinus asturius'		                      010111110-00101000-011011003113100001000--1101??1104121000011101100031030000---011100110-0111400-01-40004010--0011110010301010010221101010
+	'Charinus australianus'		                  010111110-001011110011001003113130002000--01??00110403??00011101110031?20000---011100110-0111201101-30014010--0011111210300010010111101010
+	'Charinus belizensis'		                    010100110-0010101100112010021021300020010-0111??110422??00011101010020010-00---011100120-0111201101-20002010--0011112310200010010111101010
+	'Charinus bichuetteae'		                   01010011000010101100110010021030-0002000--0011??110302??00011101010020010-00---0111001(2,1)0-0111301101-10002010--0011112310100010011111101010
+	'Charinus bonaldoi'		                      010100110-0010101100110010021020-0000000--00????110302??00011101000020?10-00---011110120-0111301401-20002010--0011112310100010011111101010
+	'Charinus brasilianus'		                   010111110-001010110011011002103100002000--1111??110402??000111011100300(3,4)0000---011100110-0111(2,3)01001-(3,4)001(5,4)010--0011111(1,0)10301110010111101010
+	'Charinus brescoviti'		                    010111110-0010101100110010021021100020010-00????11030???00011101110030?10-00---011100110-0111301001-30002110--0011112110100010010111101011
+	'Charinus carajas'		                       01011111100010101110110010021130-0002000--0111??110402??00011101110030020000---011100110-0111201001-30003010--0011112310200010011111101010
+	'Charinus caribensis'		                    010100010-001011110011201002102110000000--0111??110312??00011101000020010-00---011110110-0111101002-20002110--0011112210100010011111101010
+	'Charinus carineae'		                      010111110-0010101100110110031151000??00?????00??110402??0001110110104?140000---011100110-0111401602-40??5010--0011120010301110010221101010
+	'Charinus carioca'		                       010111110-001010110011011102114100000000--1100??110402??00011101101031131100---011100110-0111301101-40014010--0011121010301110010221101010
+	'Charinus carvalhoi'		                     010100010-0010111100110010021020-0000000--10????110212??00011101000020?10000---011100110-0111101001-20002110--001111231011001001111110100-
+	'Charinus cavernicolus'		                  010111110-001011110011001003112110002000--001100110422??00011101100020010000---0111101(2,1)0-0111301102-30002110--0011112310320010011111101010
+	'Charinus cearensis'		                     0101101110001010110011001003114100002000--10????110402??00011101110030?30100---011110110-0111301(3,2)01-40014010--0011111210301110010221101010
+	'Charinus cubensis'		                      010110110-001011110011001002112110002000--00????110332??00011101010020?10-00---011100110-0111200-01-20002110--0011112310200010010111101010
+	'Charinus diamantinus'		                   0101111110001010110011001003104100002000--1111??110402??00011101100031020001---111130110-0111301202-30112110--0111121110301110010111101010
+	'Charinus dominicanus'		                   010100110-001011110011001002102130000000--0011??1103320000011101010020010-00---011100110-0111200-01-20002110--0011112310200010011111101010
+	'Charinus elegans'		                       010111110-001013110011001003113110002000--001100110402??00011101100020010000---011130110-0111201002-20002110--0011112310310010011111101010
+	'Charinus eleonorae'		                     0103101110001010110011011003115110002000--1011??110402??0001110111002112111-020011110110-0111301201-30002010--0011111010301110010221101010
+	'Charinus euclidesi'		                     010111110-001010110011011003114100002000--1000??110402??00011101110041130000---011100110-0111301002-40004010--0011121010301110010111101010
+	'Charinus fagei'		                         010111110-0010101100110010031141000?????????11??110?0???00011101010030120000---011100100-0111201101-30014010--0011112210301110011111101010
+	'Charinus gertschi'		                      010111110-001011110011001002103110002000--01????110402??00011101100040?40000---011100110-0111201001-50015010--0011111210211110010111101010
+	'Charinus goitaca'		                       010111110-001010110011011(0,1)0210(5,4)1(2,1,0)0002000--1111??110402??000111011(1,0)00400(3,4)0100---011100110-0111(3,0)01601-40005010--001112(1,0)(1,0)10301110010221101010
+	'Charinus guayaquil'		                     010110110-001011110011101002103120002000--00????110402??00011101000020?10-00---011100110-0111201001-20002110--0011112310200010021111101010
+	'Charinus guto'		                          010100110-0010101100110011021020-00020010-00????110302??00011101000020?10-00---011100110-0111201101-20002110--0011112310200010011111101010
+	'Charinus imperialis'		                    0101111110001010110011011003115130002000--11????1104020000011101110031?20000---011120110-0111301101-40014010--0011111110301110010221101011
+	'Charinus insularis'		                     010111110-0010111100110010031121200020010-01????110403??00011101110030?20000---011100110-011120(0,1)001-20004010--0011111110301010010111101010
+	'Charinus jibaossu'		                      010111110-001010110011011003114120002000--1100??110422??00011101110031020000---011110110-0111200-01-40003010--00111(1,2)1010301010010221101010
+	'Charinus koepckei'		                      010111110-0010111110110010031121100020010-0111??110402??00011101100030020000---011100110-0111300-01-20003010--0011112210300010010111101010
+	'Charinus loko'		                          010111110-001010110011001112112130004000--0111??110402??00011101100030020000---011100100-0111101402-20003010--0011122210311110011111101010
+	'Charinus longipes'		                      010111110-001010110011001003112110002000--00??0011040???00011101110020?10000---011110110-0111200-02-20002110--0011112310300010010111101010
+	'Charinus madagascariensis'		              010111110-00101011001100101310(5,4)110004000--1001??110432??00011101100031?40101---011100110-0111100-01-30114010--0011120010311110010111101011
+	'Charinus magalhaesi'		                    010100010-0010111100110010021020-0002000--10????110302??00011101000020?10-00---011100110-0111101201-20002110--001111231020001001111110100-
+	'Charinus milloti'		                       010111110-001010111011001003102100004000--0101??110302??00011101110031121101---011110110-01110-1501-30002110--0011121310321110001111101010
+	'Charinus miskito'		                       010111110-001011110011101003102100002000--0111??110302??00011101000020010-00---011100110-0111200-01-20002010--0011112310200010011111101010
+	'Charinus mocoa'		                         010000110-001011110011101002102130002000--01????1?0?????00011101010030?10-00---011110110-0111201101-20002010--0011112210100010011111101010
+	'Charinus monasticus'		                    010100110-001010110011001002102110002000--00????110302??00011101010020?10-00---011110120-0111301401-20002010--0011112310101110011111101010
+	'Charinus montanus'		                      010111110-001012110011011003113130002000--1100??120232??00011101100020030000---011100110-0111311002-30004010--0111111110310010010221101011
+	'Charinus muchmorei'		                     010100110-001011110011001002102130002000--0011??110302??00011101010020010-00---011100110-0111201001-20002110--0011112310200010010111101010
+	'Charinus mysticus'		                      0101111110001010110011011003112100002000--10????110402??00011101110031020000---011110110-0111301101-30014010--0011121110301110010221101010
+	'Charinus neocaledonicus'		                010111110-001011111011001003112130002000--0011001104(1,2)2??00011101100030010000---011130110-0111200-02-30002110--0011111110310010010111101010
+	'Charinus orientalis'		                    010111110-0010101110110010021120-0002000--01????110302??00011101110020?20000---011100110-01110-0-01-20003010--0011112310200010010111101010
+	'Charinus palikur'		                       010111110-001010111011001002103110000000--0001??110122??00011101110020020000---011100110-0111101001-20003010--001111131020001001011110100-
+	'Charinus papuanus'		                      010111110-001012110011001003112110000000--001100110432??0001110100003?010000---011100110-0111300-01-40??2110--0011112310310010010111101010
+	'Charinus pecki'		                         010111110-001011110011001004102110002000--0011??110412??00011101100030?10000---011110110-0111301101-30002110--0011111210320010010111101010
+	'Charinus perquerens'		                    010100010-0010101100110011021020-00020010-01????110302??00011101010030?10-00---011100110-0111101002-30002110--0011112310200010011111101010
+	'Charinus pescotti'		                      010111110-001013110011001003112110002000--001100110432??00011101000030010000---011100110-011130(0,1)001-30002110--0011111210320010010111101010
+	'Charinus potiguar'		                      0101111110001010110011011103115100002000--1111??110402??00011101110030010-00---011110110-0111301401-30002110--0011111310301110010221101010
+	'Charinus puri'		                          0101111110001010110011011003115100000000--11????110402??00011101111041?30000---011110110-0111301102-40014010--0011111010301110010221101010
+	'Charinus reddelli'		                      010100110-0010101100112010021021300020010-0111??110402??00011101010020010-00---011100120-0111201101-30002110--0011112310201010010111101010
+	'Charinus renneri'		                       010110111000101011001100100310410000?00?????11??110402??00011101100121120000---011110110-0111200-01-30003010--0011111110301110010221101010
+	'Charinus ruschii'		                       0101111110001010110011011103115100000000--11????110402??00011101100040?30000---011110120-0111301402-40015010--0011121010301110010221101010
+	'Charinus sillami'		                       010111110-001010110011001002102130002000--00????110312??00011101100020?10-00---011100110-0111101001-200-2110--0011111310201010010111101011
+	'Charinus sooretama'		                     010111110-001010111011011002103100000000--1111??110402??00011101100040030000---011100110-0111201001-30004010--0111121010300010010111101010
+	'Charinus souzai'		                        0101111110001010110011011102115130002000--11????110402??00011101110040?30000---011100110-0111301001-40015010--0011111010301010010111101010
+	'Charinus susuwa'		                        010110110-000010110011001003102100001?00--10????1???????00011101110020?2001-010011100110-0111111201-20113010--0011102-10300010010111101010
+	'Charinus taboa'		                         010111110-001010----1101--0---4---00200---111---1104--??0001110110003103110----0111001----111211011-40004000--00111100103---100101111010--
+	'Charinus troglobius'		                    010100111000101011001100100310413000?000--1011??11040???00011101010010010-1-000011120110-0111(2,1)01(3,5)01-10002110--0011112110301110010111101010
+	'Charinus una'		                           0101111110001010110011001002101110002000--1101??110412??00011101110030010-00---011110120-0111(2,1)00-01-20002110--0011111210301110010111101010
+	'Charinus vulgaris'		                      010100010-0010101100110011021020-00020010-01????110302??00011101000020?10-00---011100110-0111(2,1)01101-20002010--0011112310200010011111101010
+	'Sarax abbatei'		                          010111110-011110111011201003103100000100--101???1103????00011101110030?10000---011110110-0111101002-30002110--0011110010210010021221101010
+	'Sarax batuensis'		                        01011111120?0110110011001002112100112?00--20????110405??00011101110031?20100---011110110-0111210-02-30005010--1011112210311110010111101011
+	'Sarax bengalensis'		                      010111110-001110110011001002103100003100--2011??110312??00011101010030030000---011100110-0111400-01-30003010--0111112110201010021111101010
+	'Sarax bilua'		                            01011111120?0110110011001003112100100100--20????110402??00011101100030?10001---011110110-0111211002-30002110--0011102-10321010010111101010
+	'Sarax bispinosus'		                       0101111112010110111011001102102130112100--2011??110302??00011101000040020001---011100110-0111310-02-40004010--101111231021101001011110100-
+	'Sarax brachydactylus'		                   0101111112000110111011001102111100104?00--200100110503??00011101110030020(0,1)00---011110110-0111111002-40(0,1)14010--1011110010310(1,0)1001011110101(0,1)
+	'Sarax cochinensis'		                      0101111112010110111011001102101120102100--2000??11040???00011101100030?20000---011100110-0111210-01-20004010--1011102-102???100????11010??
+	'Sarax dunni'		                            01011111120?01111110110011021021301?????????????????????0001110111003?030000---011100110-0111210-02-40?0401101--11101-10321010000221101010
+	'Sarax gravelyi'		                         01011111120?0110111011001102101100112?00--20????110402??00011101110131?30100---011110110-0111210-02-3001401101--11112210311110010221101010
+	'Sarax huberi'		                           01011111120?0110111011001103111130104?00--2000??110402??00011101100030020000---011110100-0111210-02-3000401101--11111010321010000111101010
+	'Sarax indochinensis'		                    0101111112010110111011001002101100112100--2001??110402??00011101100030020000---011100110-0111210-02-30004010--0011110010301110010111101010
+	'Sarax ioanniticus'		                      010111110-011110110011101002104100002100--2010??110302??00011101010030020000---011100110-0111410-01-30014010--1011111210300010021111101011
+	'Sarax israelensis'		                      010111110-011110111011101002104100002100--20????110302??00011101000030?20000---011100100-0111411301-30004010--0011112310300010011111101010
+	'Sarax javensis'		                         01011111110?0110111011001102111100112?00--2001??110402??00011101100131?20000---011110110-0111210-02-3000501100--11101-10320110001221101010
+	'Sarax lembeh'		                           01011111120?0110110011001002102130112?00--20????110402??00011101100020?20000---011100110-0111210-01-(3,2)000(3,4)01100--11101-10320010000221101011
+	'Sarax pakistanus'		                       010111110-001110110011001002103120004100--2011??110302??00011101010020010001---011110110-0111301001-2000211101--1111221020101002111110100-
+	'Sarax palau'		                            01011111120?0110110011001102101130104?00--20????110402??00011101100020?10-00---011100110-0111210-01-200?2110--0011100-10321010010111101010
+	'Sarax rahmadii'		                         01011111120?0110111011001102102100112?00--2011??110402??00011101110131121100---011110110-0111410-02-3001401100--11112210320110001221101010
+	'Sarax rimosus'		                          0101111112000110111011001102101100112?00--20010011040211000111011100310(2,3)0000---011100110-0111(2,3)10-02-(3,2)0004010--101111001022111001011110100-
+	'Sarax seychellarum'		                     010111110-01111011001100100310410000200???--1000110302010001110111014014011-021011100110-0111410-01-31004010--0011111110301110001111101010
+	'Sarax singaporae'		                       0101111112000110111011001103101130100?00--20????110402??00011101100031?30000---011110110-0111310-02-4001401100--11111210211110000221101010
+	'Sarax socotranus'		                       010111110-0011101100110010021050-0004100--2011??110302??0001110101004?110000---011100110-0111300-02-30??211100--11112210100010021111101010
+	'Sarax sp3 Bali'		                         01011111110001101100110010021021001????0--??11??110402??0001110110003?120000---011110110-0111310-02-40??5010--0111110010310110000221101010
+	'Sarax sp4 Sumbawa'		                      01011111120?0110110011001002102100112?00--20????1?0?????00011101110030?20000---011100110-0111210-01-30003010--0011120010310010010221101010
+	'Sarax sp5 Lombok'		                       01011111120?0110111011001002101100112?00--20??00110402??00011101100030?20000---011110110-0111210-02-3000401100--11110010310010010221101010
+	'Sarax tiomanensis'		                      0101111112010110111011001103102100112100--2011??1104020100011101110141130100---011100110-0111310-02-40015010--1011120010321110010111101010
+	'Sarax willeyi'		                          0101111112010110110011001002101110102?00--2010??11040???00011101110030?20000---011110110-0111310-01-3000211101--11110010310110001111101010
+	'Sarax yayukae'		                          0101111112000110111011001103101100112100--2011??110402??0001110110014113111-100011110110-0111210-02-3001401100--11120010321110001221101010
+	'Weygoldtia consonensis'		                 0101111112111010111011011102113100104000--1111??110502110001110111013112111-020011100111001110-0-1-13000401100--11120010321110000551101010
+	'Weygoldtia davidovi'		                    01021111121110101100110011031131000??000--?011??110502110001110111003112111-011011100111001110-0-1-?30114010--0011110010321110000331101010
+	'Damon diadema'		                          011411110-0010121110010011141021(2,1)1002010--0010??1217022?0101061112015114111-031000100110-1110----1-04011500-----110---1111001111067100010-
+	'Mastigoproctus aff. giganteus'		          110411010-0010000---00--0-040-0130002010--00????0-000-??10010710--000-?0-------0100-10---10-0-------10001-0------------10-000--------1000-
+	'Phrynus longipes'		                       011411110-0010101111011011121121(2,1)00020??1?-1011112070?2?00010110--00500211111013-010011--11105-----23010401122--2-0---11210010010561000110
+	'Stenochrus sbordonii'		                   10--0--00-0-00000---50--10010-?0--0000-----0????0-001-??1000--0---00--------------0-00---00-0--------------------------00-000--------1000-
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 138;
+      ENDBLOCK;
+      

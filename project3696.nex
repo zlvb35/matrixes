@@ -1,0 +1,197 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 01.14.53 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Cedrus deodara'
+		'Sciadopitys verticillata'
+		'Cunninghamia lanceolata'
+		'Taiwania cryptomerioides'
+		'Athrotaxis laxifolia'
+		'Sequoiadendron giganteum'
+		'Sequoia sempervirens'
+		'Metasequoia glyptostroboides'
+		'Cryptomeria japonica'
+		'Glyptostrobus pensilis'
+		'Taxodium distichum'
+		'Thuja occidentalis'
+		'Platycladus orientalis'
+		'Austrocedrus chilensis'
+		'Elatides zhoui'
+		'Elatides williamsonii'
+		'Elatides harrisii'
+		'Sewardiodendron laxum'
+		'Cunninghamia taylorii'
+		'Austrohamia minuta'
+		'Cunninghamiostrobus goedertii'
+		'Hubbardiastrobus cunninghamioides'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=22;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Phyllotaxis of mature leaves/microsporophylls/bract-scale complexes'
+		 [2] 'Imbricate scale leaves'
+		 [3] 'Leaf bases on ultimate shoots twisted'
+		 [4] 'Leaves on ultimate shoots heteromorphic with facial and lateral leaves'
+		 [5] 'Leaf margins'
+		 [6] 'Stomatal distribution on leaves of the ultimate shoots'
+		 [7] 'Stomata with strongly developed Florin rings'
+		 [8] 'Subsidiary cell number'
+		 [9] 'Papillae on epidermal cells in stomatal band'
+		 [10] 'Pollen cone position'
+		 [11] 'Pollen cone aggregation'
+		 [12] 'Pollen sac number per microsporophyll'
+		 [13] 'Pollen grain distal pore (circular aperture)'
+		 [14] 'Average mature seed cone size (maximum length)'
+		 [15] 'Bract-scale complexes at maturity'
+		 [16] 'Bract-scale complex number per seed cone'
+		 [17] 'Mature bract-scale complex morphology'
+		 [18] 'Ovuliferous scale in mature seed cones'
+		 [19] 'Number of ovules associated with each bract-scale complex'
+		 [20] 'Seed orientation at maturity'
+		 [21] 'Seed position at maturity'
+		 [22] 'Seed wing position'
+	;
+	STATELABELS
+		1
+		'0 helical'
+		'1 decussate'
+		,
+		2
+		'0 absent'
+		'1 present'
+		,
+		3
+		'0 absent'
+		'1 commonly twisted to form multiple ranks of leaves'
+		'2 commonly twisted to form a single rank of leaves'
+		,
+		4
+		'0 absent'
+		'1 present'
+		,
+		5
+		'0 entire'
+		'1 toothed'
+		,
+		6
+		'0 amphistomatic'
+		'1 epistomatic/predominantly adaxial'
+		'2 hypostomatic/predominantly abaxial'
+		,
+		7
+		'0 absent'
+		'1 present'
+		,
+		8
+		'0 4–7'
+		'1 8–12'
+		,
+		9
+		'0 absent'
+		'1 present'
+		,
+		10
+		'0 lateral to subterminal'
+		'1 in terminal clusters'
+		,
+		11
+		'0 single'
+		'1 in cluster/pseudowhorl'
+		'2 in spikelike system'
+		,
+		12
+		'0 strictly two'
+		'1 two to three'
+		'2 four to nine'
+		,
+		13
+		'0 absent'
+		'1 present but lacking a distinct papilla'
+		'2 present and papillate'
+		,
+		14
+		'0 less than or equal to 2 cm'
+		'1 more than 2 cm to 3 cm'
+		'2 more than 3 cm'
+		,
+		15
+		'0 deciduous'
+		'1 persistent'
+		,
+		16
+		'0 one to 10'
+		'1 11 to 40'
+		'2 more than 40'
+		,
+		17
+		'0 foliate'
+		'1 peltate'
+		'2 valvate'
+		,
+		18
+		'0 forming most of the bract-scale complex'
+		'1 a small membranous structure'
+		'2 a robust protuberance between ovule and bract'
+		'3 not obviously visible, possibly absent'
+		,
+		19
+		'0 one to two'
+		'1 three'
+		'2 four to six'
+		'3 seven to 10'
+		,
+		20
+		'0 erect'
+		'1 inverted'
+		,
+		21
+		'0 on the bract-scale complex'
+		'1 axillary to bract-scale complex'
+		,
+		22
+		'0 wing absent'
+		'1 lateral flanges'
+		'2 distal'
+		'3 proximal'
+		
+	;
+	MATRIX
+	'Cedrus deodara'		                             0000000000000202000100
+	'Sciadopitys verticillata'		                   00000-011(0,1)100212103101
+	'Cunninghamia lanceolata'		                    0010120000111212011101
+	'Taiwania cryptomerioides'		                   0000000000112011030101
+	'Athrotaxis laxifolia'		                       0000000001001011130101
+	'Sequoiadendron giganteum'		                   0000000001012211133101
+	'Sequoia sempervirens'		                       0020020001012111133101
+	'Metasequoia glyptostroboides'		               1020020000212111133101
+	'Cryptomeria japonica'		                       0000000000022011122011
+	'Glyptostrobus pensilis'		                     0000000001022011120013
+	'Taxodium distichum'		                         0020000000222111120011
+	'Thuja occidentalis'		                         1101001011021010130011
+	'Platycladus orientalis'		                     1101001011021010130011
+	'Austrocedrus chilensis'		                     1101001011021010230012
+	'Elatides zhoui'		                             0000110000111112012101
+	'Elatides williamsonii'		                      0000020000111212012101
+	'Elatides harrisii'		                          000011000012101?01110?
+	'Sewardiodendron laxum'		                      0010020000111212012100
+	'Cunninghamia taylorii'		                      0000120?001??112011101
+	'Austrohamia minuta'		                         00100????01??01103010?
+	'Cunninghamiostrobus goedertii'		              001012000????21?01110?
+	'Hubbardiastrobus cunninghamioides'		          0000?????????012011101
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 22;
+      ENDBLOCK;
+      

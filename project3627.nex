@@ -1,0 +1,458 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 09.28.54 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Pachypleurosauria'
+		'Simosaurus'
+		'Germanosaurus'
+		'Nothosaurus winkelhorsti'
+		'Nothosaurus yangjuanensis'
+		'Nothosaurus marchicus'
+		'Nothosaurus mirabilis'
+		'Nothosaurus juvenilis'
+		'Nothosaurus giganteus'
+		'Nothosaurus zhangi'
+		'Nothosaurus tchernovi'
+		'Nothosaurus haasi'
+		'Nothosaurus youngi'
+		'Nothosaurus jagisteus'
+		'Nothosaurus edingerae'
+		'Lariosaurus hongguoensis'
+		'Lariosaurus buzzii'
+		'Lariosaurus calcagnii'
+		'Lariosaurus curionii'
+		'Lariosaurus balsami'
+		'Lariosaurus valceresii'
+		'Lariosaurus xingyiensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=74;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Ratio, condylobasal skull length divided by longitudinal diameter of upper temporal fossa'
+		 [2] 'Ratio of longitudinal diameter, upper temporal fossa to orbit'
+		 [3] 'Ratio, the distance from the snout to the anterior margin of the internal naris divided by the distance from the snout to the anterior margin of the external naris'
+		 [4] 'Ratio, distance from posterior margin of external naris to anterior margin of orbit divided by the width of the postorbital arch'
+		 [5] 'Snout'
+		 [6] 'Rostrum'
+		 [7] 'Premaxillae in adult'
+		 [8] 'Maxilla, depression at lateral margin of external naris and a foramen at its bottom for the exit of a lateral branch of the superior alveolar nerve'
+		 [9] 'Nasals in adult'
+		 [10] 'Nasals'
+		 [11] 'Nasal, anterolateral process lining the entire medial margin of external naris'
+		 [12] 'Nasal, length behind level of posterior margin of external naris more than twice of the maximal width'
+		 [13] 'Nasals - 2'
+		 [14] 'Nasal-prefrontal contact'
+		 [15] 'Pineal foramen'
+		 [16] 'Pineal foramen located within a deep trough'
+		 [17] 'Parietal extending beyond the anterior margin of upper temporal fossa'
+		 [18] 'Parietal skull table'
+		 [19] 'Parietal skull table, constriction in the posteriormost part'
+		 [20] 'Dorsal exposure of prefrontal'
+		 [21] 'Jugal'
+		 [22] 'Jugal2'
+		 [23] 'Jugal-squamosal contact'
+		 [24] 'Postfrontal, shape'
+		 [25] 'Postfrontal, distinct constriction behind the orbit'
+		 [26] 'Postfrontal'
+		 [27] 'Postorbital, forming the entire anterior margin of the upper temporal fossa'
+		 [28] 'Upper temporal fenestra, constriction of anterior corner'
+		 [29] 'Quadratojugal'
+		 [30] 'Pterygoid-ectopterygoid transverse flanges'
+		 [31] 'Occipital crest'
+		 [32] 'Supraoccipital, sagittal crest'
+		 [33] 'Mandibular articulations'
+		 [34] 'Mandible, constriction'
+		 [35] 'Mandibular symphysis'
+		 [36] 'Mandibular symphysis, anterior fusion in adult'
+		 [37] 'Splenial'
+		 [38] 'Splenial, posterior extension'
+		 [39] 'Retroarticular process'
+		 [40] 'Retroarticular process dorsal surface, foramen for the innervation of chorda tympani nerve'
+		 [41] 'Retroarticular process, trough on lateral surface for the insertion of the depressor mandibulae muscle/superficial pterygoideus muscle'
+		 [42] 'Retroarticular process, trough on medial surface for the insertion of posterior fibers of pterygoideus internus muscle'
+		 [43] 'Dentary fangs'
+		 [44] 'Premaxillary teeth'
+		 [45] 'Premaxillary fangs'
+		 [46] 'Number of small maxillary teeth anterior to the maxillary fangs'
+		 [47] 'Posterior extension of the maxillary tooth row'
+		 [48] 'Neural spines on dorsal vertebrae'
+		 [49] 'Elongation of neural spines in proximal tail region'
+		 [50] 'Zygapophyseal pachyostosis'
+		 [51] 'Pachyostosis of dorsal ribs'
+		 [52] 'The number of sacral ribs'
+		 [53] 'Medial gastral rib elements, lateral process'
+		 [54] 'Clavicles, medially'
+		 [55] 'Clavicles'
+		 [56] 'Clavicles, anterolaterally expanded corners'
+		 [57] 'Interclavicle'
+		 [58] 'Humerus, proximal width compared with the mid-shaft'
+		 [59] 'Humerus, preaxial margin of shaft in dorso-ventral view'
+		 [60] 'Humerus, insertional crest for latissimus dorsi muscle'
+		 [61] 'Humerus, ectepicondylar groove'
+		 [62] 'Humerus, entepicondylar foramen'
+		 [63] 'Radius, compared with ulna'
+		 [64] 'Ulna, mid-diaphysis'
+		 [65] 'Ulna, distinctly broadened proximal head'
+		 [66] 'Ulna, anterior margin'
+		 [67] 'Carpal ossifications, number'
+		 [68] 'Hyperphalangy in manus'
+		 [69] 'Ilium, iliac blade'
+		 [70] 'Pubis, ventral medial margin'
+		 [71] 'Pubis, obturator foramen in adult'
+		 [72] 'Femur, internal trochanter'
+		 [73] 'Femur, intertrochanteric fossa'
+		 [74] 'Total number of tarsal ossifications'
+	;
+	STATELABELS
+		1
+		'more than 3.8'
+		'3.0-3.4'
+		'less than 2.9'
+		,
+		2
+		'less than 1.2'
+		'1.4-1.8'
+		'1.9-2.2'
+		'2.4-3.0'
+		'more than 3.2'
+		,
+		3
+		'smaller than 1.2'
+		'larger than 1.3'
+		,
+		4
+		'more than 1.7'
+		'less than 1.5'
+		,
+		5
+		'unconstructed'
+		'constricted'
+		,
+		6
+		'short and rounded'
+		'long, slender and parallel-edged'
+		,
+		7
+		'paired'
+		'partly or fully fused'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'paired'
+		'fused'
+		,
+		10
+		'meeting each other'
+		'seperated from one another by nasal processes of the premaxillae extending back to the frontal bone(s)'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'large'
+		'small'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'close to the middle of the parietal skull table'
+		'displaced posteriorly'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'broad'
+		'weakly constricted'
+		'strongly constricted'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'large'
+		'reduced'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'entering orbit'
+		'excluded from posterior margin of orbit'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'elongated'
+		'triradiate'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'entering upper temporal fossa'
+		'excluded from upper temporal fossa'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'well developed'
+		'strongly reduced'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'reduced'
+		'well-developed'
+		'knob-like'
+		,
+		33
+		'approximately level with occipital condyle'
+		'displaced to a level distinctly behind occipital condyle'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'short'
+		'long'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'entering mandibular symphysis'
+		'excluded from mandibular symphysis'
+		,
+		38
+		'long'
+		'short'
+		,
+		39
+		'short'
+		'long'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'weak'
+		'strong'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present but less than five'
+		'five'
+		,
+		44
+		'more than five'
+		'five'
+		,
+		45
+		'absent'
+		'present but less than five'
+		'five or more'
+		,
+		46
+		'three or less'
+		'four'
+		'five or more'
+		,
+		47
+		'no more than sixty percent of the skull length'
+		'more than sixty-five percent of the skull length'
+		,
+		48
+		'low'
+		'tall'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'three'
+		'four'
+		'five'
+		,
+		53
+		'all single'
+		'may two-pronged'
+		,
+		54
+		'broad'
+		'narrow'
+		,
+		55
+		'do not meet in front of the interclavicle'
+		'meet in an interdigitating anteromedial suture'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'rhomboidal'
+		'T-shaped'
+		'triangular'
+		,
+		58
+		'greater'
+		'less'
+		,
+		59
+		'with straight angle'
+		'smoothly curved'
+		,
+		60
+		'reduced'
+		'prominent'
+		,
+		61
+		'open and notched anteriorly'
+		'open without anterior notch'
+		,
+		62
+		'present'
+		'absent'
+		,
+		63
+		'shorter'
+		'longer'
+		'approximately of the same length'
+		,
+		64
+		'slender'
+		'broadened'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'smoothly concave'
+		'with a tuberosity'
+		,
+		67
+		'more than three'
+		'three or less'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'present'
+		'absent'
+		,
+		70
+		'convex'
+		'concave'
+		,
+		71
+		'closed'
+		'open'
+		,
+		72
+		'well-developed'
+		'reduced'
+		,
+		73
+		'rudimentary or absent'
+		'distinct but reduced'
+		,
+		74
+		'four or more'
+		'three'
+		'two'
+		
+	;
+	MATRIX
+	'Pachypleurosauria'		                  000000?000010?00000000000000010?100000000000?00001000011100000100010?00100
+	'Simosaurus'		                         2210000001001?1011000001100001001000100121010-1000001011100011201010010100
+	'Germanosaurus'		                      2211101001011110011101111000??0????????????1???0???????????????0??????????
+	'Nothosaurus winkelhorsti'		           11?110111001010000010111011111120??????????1100???????????????????????????
+	'Nothosaurus yangjuanensis'		          2301100100000010121101011110?1120?????1021?1120010011001010100211101010001
+	'Nothosaurus marchicus'		              2301100100100110?2?1011?1???11110101??1????12200?1001????1010020?01??101?1
+	'Nothosaurus mirabilis'		              240111010011011012?10??0011111110111111???212?11?1???011100100?0?????1????
+	'Nothosaurus juvenilis'		              11?01101001100100101010100001?110??????????1?010???????????????01???011???
+	'Nothosaurus giganteus'		              2401100100110110110101??0?11101101?11?102121110001021101000110211?00010??1
+	'Nothosaurus zhangi'		                 ?????????????????????????????????101100??1?????0??0???????????????????????
+	'Nothosaurus tchernovi'		              230111000011001012111--00?11111?011?????2?21211111???????00110????????????
+	'Nothosaurus haasi'		                  020011000101111012111--1000011120??????????12011?????????11110?????????01?
+	'Nothosaurus youngi'		                 220010010001001102010101011110110000011111112000011?100020?0??21?10?100001
+	'Nothosaurus jagisteus'		              230111010011011012110101011010110111111?21112110??0?101110011000001??11???
+	'Nothosaurus edingerae'		              2300?000??100?111211???10011?11????????????1?0?0??????????????????????????
+	'Lariosaurus hongguoensis'		           12001000?01??11101010101011000110100011100?0200?????1??0?011?0210001?01102
+	'Lariosaurus buzzii'		                 00001011100101000101???10000111201001?11??11??00010?0100?0001111?0??10110?
+	'Lariosaurus calcagnii'		              0001000?000?001012100?000000111?00101?1???2????011020101011010210001111101
+	'Lariosaurus curionii'		               1100000?01110?10?211???001111110000?1?1?2?20?000011??0110110100111????????
+	'Lariosaurus balsami'		                1100100?010?0?10021?00100??0?11200001?1?2??????001?1001101101??1100110110?
+	'Lariosaurus valceresii'		             12?1100?000000101210??00000011100???1?1?1??02??001010????1000021110110?102
+	'Lariosaurus xingyiensis'		            22001001001000100210?1010111?012011010111121?000111201000100002111011??01?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 74;
+      ENDBLOCK;
+      

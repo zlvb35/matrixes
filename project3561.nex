@@ -1,0 +1,738 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.20.56 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=36;
+    TAXLABELS
+    		'Cimmerius'
+		'Diastylis'
+		'Hemilamprops'
+		'Eobodotria'
+		'Alticuma'
+		'Bacescuma'
+		'Bodotria'
+		'Coricuma'
+		'Cyclaspis'
+		'Cyclaspoides'
+		'Eocuma'
+		'Iphinoe'
+		'Austrocuma'
+		'Mossambicuma'
+		'Upselaspis'
+		'Zygosiphon'
+		'Apocuma'
+		'Cumopsis'
+		'Heterocuma'
+		'Hypocuma'
+		'Leptocuma'
+		'Mancocuma'
+		'Spilocuma'
+		'Pseudoleptocuma'
+		'Pseudosympodomma'
+		'Gephyrocuma'
+		'Zenocuma'
+		'Pomacuma'
+		'Gigacuma'
+		'Sympodomma'
+		'Speleocuma'
+		'Gaussicuma'
+		'Glyphocuma'
+		'Bathycuma'
+		'Vaunthompsonia'
+		'Picrocuma'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=110;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Carapace versus pleon length'
+		 [2] 'Carapace and pereon versus pleon length'
+		 [3] 'Carapace versus pereon length'
+		 [4] 'Carapace viewed from dorsal'
+		 [5] 'When carapace is laterally compressed anteriorly'
+		 [6] 'Carapace shape in dorsal view'
+		 [7] 'Median dorsal ridge on carapace'
+		 [8] 'Dorso-lateral ridges on carapace'
+		 [9] 'Lateral ridges on carapace'
+		 [10] 'Anterior transverse ridge on carapace'
+		 [11] 'Posterior transverse ridge on carapace'
+		 [12] 'Lateral horns on carapace'
+		 [13] 'Pseudorostral lappets'
+		 [14] 'When pseudorostral lobes extend beyond frontal lobe they'
+		 [15] 'Antennal notch'
+		 [16] 'Anterolateral corner of carapace'
+		 [17] 'Branchial siphons'
+		 [18] 'Frontal lobe size'
+		 [19] 'Frontal lobe shape'
+		 [20] 'Frontal lobe'
+		 [21] 'Ocular pigment'
+		 [22] 'Eye lenses'
+		 [23] 'Antenna 1 , basal article of the peduncle'
+		 [24] 'Antenna 1 , length of basal article of peduncle'
+		 [25] 'Antenna 1 , males with a group of aesthetasc on distal margin of peduncle'
+		 [26] 'Antenna 1 , main flagellum'
+		 [27] 'Antenna1 , when main flagellum has three or more articles'
+		 [28] 'Antenna 1 , number of aesthetascs in last article of main flagellum ( sometimes only males)'
+		 [29] 'Antenna 1 , number of aesthetascs on proximal article of main flagellum ( sometimes only males)'
+		 [30] 'Antenna 1 , accessory flagellum'
+		 [31] 'Antenna 1 , accessory flagellum'
+		 [32] 'Antenna 1 , brush of at least three setae on accessory flagellum'
+		 [33] 'Antenna 1 , aesthetasc on accessory flagellum'
+		 [34] 'Antenna 2 in males'
+		 [35] 'Antenna 2 in males , modifications for grasping'
+		 [36] 'Male antenna 2 , sensory setae on anterior margin of article 4'
+		 [37] 'Female antenna 2 , number of articles'
+		 [38] 'Maxilliped 3 , basis shape'
+		 [39] 'Maxilliped 3 , basis shape - 2'
+		 [40] 'Maxilliped 3 , extension of basis'
+		 [41] 'Maxilliped 3 , when basis has a dorsal extension'
+		 [42] 'Maxilliped 3 , ischium length relative to merus (without considering extensions)'
+		 [43] 'Maxilliped 3 , merus'
+		 [44] 'Maxilliped 3 , carpus shape'
+		 [45] 'Maxilliped 3 , length of carpus relative to propodus plus dactylus'
+		 [46] 'Maxilliped 3 , propodus shape'
+		 [47] 'Maxilliped 3 , brush setae on propodus'
+		 [48] 'Number of pereonites covered by carapace'
+		 [49] 'Visibility of first pereonite'
+		 [50] 'Pereonite 2 and 3'
+		 [51] 'Pereonite 2 , length'
+		 [52] 'Pereonite 2 , ventrolateral expansion'
+		 [53] 'Ventrolateral expansion of pereonite 2'
+		 [54] 'Pereonite 3 , ventrolateral expansion'
+		 [55] 'Pereonite 4 , ventrolateral expansion'
+		 [56] 'Pereopod 1 , basis-carpus expanded and ischium-merus rotated for opercularity'
+		 [57] 'Pereopod 1 , basis shape'
+		 [58] 'Pereopod 1 , row of setae on basis'
+		 [59] 'Pereopod 1 , extension on the basis'
+		 [60] 'Pereopod 1 , basis inner apical angle'
+		 [61] 'Pereopod 1 , ischium length'
+		 [62] 'Pereopod 1 , ischium shape'
+		 [63] 'Pereopod 1 , carpus shape'
+		 [64] 'Pereopod 1 , row of setae on carpus'
+		 [65] 'Pereopod 1 , length of carpus relative to basis'
+		 [66] 'Pereopod 1 , presence and number of setae on the propodus'
+		 [67] 'Pereopod 1 , length of basis relative to propodus'
+		 [68] 'Pereopod 1 , length of carpus relative to propodus'
+		 [69] 'Pereopod 1 , at least three terminal setae on dactylus'
+		 [70] 'Pereopod 2 , exopod in females'
+		 [71] 'Pereopod 2 , exopod in males'
+		 [72] 'Pereopod 2 , ischium'
+		 [73] 'Pereopod 2 , length of dactylus relative to propodus'
+		 [74] 'Pereopod 3 , exopod in females'
+		 [75] 'Pereopod 3 , exopod in males'
+		 [76] 'Pereopod 3 , number of articles'
+		 [77] 'Pereopod 3 , merus length'
+		 [78] 'Pereopod 3 , modification of articulation of carpus and propodus'
+		 [79] 'Pereopod 4 , exopod in females'
+		 [80] 'Pereopod 4 , exopod in males'
+		 [81] 'Pereopod 4 , number of articles'
+		 [82] 'Pereopod 5 , number of articles'
+		 [83] 'Articular pegs on pleon'
+		 [84] 'Size of pleonite 5 relative to pleonite 6'
+		 [85] 'Pleonite 6 , shape'
+		 [86] 'Length of pleonite 6 relative to peduncle of uropods'
+		 [87] 'Setae on posterior edge of pleonite 6'
+		 [88] 'Pleonite 6 , when setae present on posterior edge'
+		 [89] 'Pleonite 6'
+		 [90] 'Pleonite 6 , amount extended between uropods'
+		 [91] 'Pleonite 6 , amount extended between uropods - 2'
+		 [92] 'Pleonite 6 , when whole terminal end extended'
+		 [93] 'Pleonite 6 , width of the extension when only middle portion of terminal end extended'
+		 [94] 'Pleonite 6 , when only middle portion of terminal end extended'
+		 [95] 'Anal plates , extension beyond posterior margin of pleonite 6'
+		 [96] 'Anal plates , setae on posterior edge'
+		 [97] 'Number of articles of uropod endopod'
+		 [98] 'Length of articles of uropod endopod'
+		 [99] 'Length of articles of uropod exopod'
+		 [100] 'Uropods , length of peduncle relative to rami'
+		 [101] 'Uropods , length of rami with respect to each other'
+		 [102] 'Uropod , terminal setae on endopod'
+		 [103] 'Uropod , terminal setae on exopod'
+		 [104] 'Males , pleopods on pleonite 1'
+		 [105] 'Males , pleopods on pleonite 2'
+		 [106] 'Males , pleopods on pleonite 3'
+		 [107] 'Males , pleopods on pleonite 4'
+		 [108] 'Males , pleopods on pleonite 5'
+		 [109] 'Males , process on pleopodal endopod'
+		 [110] 'Telson'
+	;
+	STATELABELS
+		1
+		'equal'
+		'shorter'
+		'longer'
+		,
+		2
+		'equal'
+		'shorter'
+		' longer'
+		,
+		3
+		'equal'
+		'shorter'
+		'longer'
+		,
+		4
+		'laterally compressed anteriorly'
+		'laterally compressed posteriorly'
+		'laterally compressed in the medial portion'
+		'not compressed'
+		,
+		5
+		'oviform posteriorly'
+		'not oviform'
+		,
+		6
+		'longer than wide'
+		'wider than long'
+		'as wide as long'
+		,
+		7
+		'present'
+		'absent'
+		'as a dorsal serration'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'present'
+		'absent'
+		,
+		12
+		'present'
+		'absent'
+		,
+		13
+		'extend beyond frontal lobe'
+		'do not extend beyond the frontal lobe'
+		,
+		14
+		'meet in midline'
+		'extend towards midline but do not meet or partially meet leaving suture between them'
+		'widely separated'
+		,
+		15
+		'not distinct'
+		'depression'
+		'subacute incision'
+		'acute incision'
+		,
+		16
+		'bluntly rounded, poorly defined, obtuse angle greater than 90 degrees'
+		'subacute tooth'
+		'acute tooth'
+		,
+		17
+		'extend just beyond pseudorostrum'
+		'long, extending much beyond pseudorostrum'
+		,
+		18
+		'1 / 5 or less of carapace length'
+		'1 / 4 of carapace length'
+		'1 / 3 of carapace length'
+		'half of carapace length'
+		'more than half of carapace length'
+		,
+		19
+		'as wide as long'
+		'wider than long'
+		'longer than wide'
+		,
+		20
+		'anteriorly linguiform (extended)'
+		'somewhat extended'
+		'notched anteriorly'
+		'not extended'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'geniculated'
+		'arcuate'
+		'straight'
+		,
+		24
+		'longer than the other two articles together'
+		'same length than the other two articles together'
+		'shorter than the other two articles together'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'uniarticulated'
+		'bi-articulated'
+		'tri-articulated'
+		'with 4 articles'
+		'with 5 articles'
+		,
+		27
+		'third article longer than second'
+		'second and third articles same length'
+		'second article longer than third'
+		,
+		28
+		'three or more'
+		'two'
+		'one'
+		'none'
+		,
+		29
+		'three or more'
+		'two'
+		'none'
+		,
+		30
+		'not reduced'
+		'reduced'
+		'absent'
+		,
+		31
+		'uniarticulated'
+		'biarticulated'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'present'
+		'absent'
+		,
+		34
+		'not reaching the end of pereon'
+		'reaching to end of pereon'
+		'reaching approximately half length of pleon'
+		'reaching almost the end of pleon'
+		'reaching the end of pleon'
+		,
+		35
+		'on anterior margin'
+		'on posterior margin'
+		'absent'
+		,
+		36
+		'present'
+		'absent'
+		,
+		37
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		,
+		38
+		'geniculated'
+		'arcuate'
+		'straight'
+		,
+		39
+		'normal'
+		'very expanded (with opercular functions)'
+		,
+		40
+		'dorsally over ischium'
+		'ventrally over ischium'
+		'absent'
+		,
+		41
+		'extends beyond the articulation of the ischium and merus'
+		'slightly expanded dorsally'
+		,
+		42
+		'longer'
+		'equal'
+		'shorter'
+		,
+		43
+		'without dorsal extension'
+		'extended dorsally over carpus'
+		'laterally expanded'
+		,
+		44
+		'proximally widened'
+		'distally widened'
+		'oviform'
+		'not widened'
+		,
+		45
+		'longer'
+		'equal or shorter'
+		,
+		46
+		'distally widened'
+		'proximally widened'
+		'oviform'
+		'not widened'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'one'
+		'three'
+		,
+		49
+		'well exposed'
+		'visible only above lateral midline'
+		'not visible'
+		,
+		50
+		'fused'
+		'not fused'
+		,
+		51
+		'proportional to other pereonites'
+		'narrow (not wider than the third pereonite)'
+		'wide'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'not overriding other somites'
+		'overriding pereonite 1 and / or carapace'
+		'overriding pereonite 3'
+		'overriding pereonite 1 and/or carapace, and also pereonite 3'
+		,
+		54
+		'absent'
+		'overriding pereonite 2'
+		'overriding pereonite 4'
+		'overriding pereonites 2 and 4'
+		,
+		55
+		'absent'
+		'overriding pereonite 3'
+		'overriding pereonite 5'
+		'overriding pereonite 3 and 5'
+		,
+		56
+		'present'
+		'absent'
+		,
+		57
+		'geniculated'
+		'arcuate'
+		'straight'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'with dorso-distal extension on totally or partially covering the ischium'
+		'ventral opercular extension'
+		'ventral slight extension'
+		'absent'
+		,
+		60
+		'extended to form a subtriangular tooth-like process'
+		'extended to form a convex process'
+		'process absent'
+		,
+		61
+		'elongate'
+		'often longer than merus'
+		'normal size ( small)'
+		,
+		62
+		'modified as a rounded lobe with exterior concavity ( opercular)'
+		'not modified'
+		,
+		63
+		'oviform'
+		'not oviform'
+		,
+		64
+		'present'
+		'absent'
+		,
+		65
+		'shorter'
+		'equal'
+		,
+		66
+		'with a brush ( 3 or more) of long setae on the propodus ( setae longer than carpus)'
+		'at least three setae in a linear arrangement along propodus'
+		'setae absent'
+		,
+		67
+		'longer'
+		'equal'
+		,
+		68
+		'longer'
+		'equal'
+		'shorter'
+		,
+		69
+		'present'
+		'absent'
+		,
+		70
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		71
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		72
+		'present'
+		'absent'
+		,
+		73
+		'shorter'
+		'equal'
+		'longer'
+		,
+		74
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		75
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		76
+		'seven'
+		'six'
+		,
+		77
+		'normal ( much smaller than basis)'
+		'enlarged ( almost as large as basis)'
+		,
+		78
+		'normal, articulated at the distal end of the carpus'
+		'articulated on side wall of carpus'
+		,
+		79
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		80
+		'fully developed'
+		'reduced'
+		'absent'
+		,
+		81
+		'seven'
+		'six'
+		,
+		82
+		'seven'
+		'six'
+		,
+		83
+		'present'
+		'absent'
+		,
+		84
+		'longer'
+		'as long as or shorter'
+		,
+		85
+		'longer than wide'
+		'as wide as long'
+		'wider than long'
+		,
+		86
+		'longer'
+		'equal'
+		'shorter'
+		,
+		87
+		'present'
+		'absent'
+		,
+		88
+		'two setae close to midline'
+		'more than two setae at posterior end'
+		,
+		89
+		'not extended past the insertion of the uropods'
+		'extended past the insertion of the uropods'
+		,
+		90
+		'slightly extended'
+		'well extended'
+		'strongly extended'
+		,
+		91
+		'whole width of terminal end'
+		'middle portion of distal end'
+		,
+		92
+		'ends in a point'
+		'ends in a line'
+		'ends concave'
+		'ends in a rounded apex'
+		,
+		93
+		'wide'
+		'narrow'
+		,
+		94
+		'ends in a point'
+		'ends in a line'
+		'ends concave'
+		'ends rounded apex'
+		,
+		95
+		'present'
+		'absent'
+		,
+		96
+		'present'
+		'absent'
+		,
+		97
+		'one'
+		'two'
+		'three'
+		,
+		98
+		'articles approximately equal'
+		'proximal article longer'
+		'proximal article shorter'
+		,
+		99
+		'proximal article shorter'
+		'proximal article longer'
+		'articles approximately equal'
+		,
+		100
+		'much longer than rami ( more than 50% longer)'
+		'longer'
+		'equal'
+		'slightly shorter than exopods only'
+		'shorter'
+		,
+		101
+		'equal'
+		'endopod longer'
+		'endopod shorter'
+		,
+		102
+		'present'
+		'absent'
+		,
+		103
+		'present'
+		'absent'
+		,
+		104
+		'present'
+		'absent'
+		,
+		105
+		'present'
+		'reduced'
+		'absent'
+		,
+		106
+		'present'
+		'reduced'
+		'absent'
+		,
+		107
+		'present'
+		'absent'
+		,
+		108
+		'present'
+		'reduced'
+		'absent'
+		,
+		109
+		'well developed'
+		'reduced'
+		'absent'
+		,
+		110
+		'free'
+		'fused with pleonite 6 forming a pleotelson '
+		
+	;
+	MATRIX
+	'Cimmerius'		                 102(0,1)10111111001100111?1(1,2)11-(2,3)21011?214102-2111010010022211132111102001000200000110010221-------110-020000000000
+	'Diastylis'		                 102??011111100(0,1)000??101213012111142131001103131001100(1,2)(0,2)11032111102010000210000100010221-------112-000000021220
+	'Hemilamprops'		              101310010111000002101122?????????42?3202?2231310011100212032111102021000210000100010121?0?????0121221000010000
+	'Eobodotria'		                122??01111111?00032??0???????????42???10??????????????????????????????201?2100?20010?21?10??0?0110110000000101
+	'Alticuma'		                  1(0,2)0010(0,2)11(0,1)1100(1,2,3)(1,2)0(2,1)(0,2)(0,1)11(0,1)10(0,1)-(1,2)2101(0,1)42??(0,1)00011(1,3)1(0,3)10(0,1)00(0,1)(0,1,2)(0,1,2)(0,2,3)11(0,1)321111020(1,2)02202220002200(0,1)0021-111-03(0,1)1110000000000?1
+	'Bacescuma'		                 10201001011101(1,2)0010000(0,1)111-12101132?11000101111021(0,2)00001113(1,2)111102000220222000220010021-1000--010-0100000000?1
+	'Bodotria'		                  1(0,2,1)(0,2,1)(0,3)10(0,1)(0,1)(0,1)1110(0,1,2)(1,2,3)(0,1,2)0(2,3)(0,1,2)(0,1,3)00(0,1,2)(0,1)(0,1)(1,2)2(0,1,2)(0,1,2)101(0,1)4201(0,1)00(0,1)(0,1)(0,1)(1,2)(0,1)(0,2,3)10(0,1,2)1(0,2)(0,1)(0,1,1,2)(0,1,2,3)(0,1,2,3)1(1,2)(0,1)3(0,1,2)111(0,1)0(1,2)0(0,1)(0,1)22(0,1)222000220010(0,1)2(0,1)0(0,1)(0,1)(1,0)(0,3)0(1,3)(0,1)(0,1)(0,1)10(0,1)(0,2)0000000(0,1)1
+	'Coricuma'		                  101010211111?-210320?12212222101101?01000223131001(0,2)1-0011131111102000221222100221110121-10????1112022000021221
+	'Cyclaspis'		                 112(0,1,3,2)(0,1)0(0,1,2)(0,1)(0,1)(0,1)(0,1)10(0,1,2)(0,1,2,3)(0,1,2)0(0,2,3,1)(0,2)(0,1)(0,1)0(0,1,2)(0,1,2)1(0,1,2)2(0,1,2,3)2(1,2)(0,1)1(0,1)(3,4)20(0,1)(0,1,2)000(1,2)(1,2)(1,2,3)(0,1)(0,1,2,3)(0,1)0(0,1,2)1(0,1)(0,1)(0,1,1,2)(0,1,2,3)(0,2,3)1(1,2)(0,1)(2,3)(0,1,2)11110(0,1,2)0(0,1,2)(0,1)220(1,2)2200022(0,1)0(0,1)00(0,1,2)1-(0,1)(0,1)(1,0)(0,2,3)(0,1)(0,1,3)(0,1)10-0(0,1,2,3)(0,1,2)(0,1)(0,1)00000(1,2)1
+	'Cyclaspoides'		              1(0,1)2(0,3)(0,1)01(0,1)1(0,1)1100(1,2)(0,1,2)(0,1)10(1,3)1(0,1)(1,2)21(0,1,2)2(1,2)2101142??(0,1)000(1,2)131(2,3)11-----001(1,2)(0,1)3(1,2)1111020(1,2)(0,1)22(0,1)2220002200(0,1)(0,1)0(0,2)1-(0,1)103--(0,1)1(0,1)10(1,2,3,4)(0,2)000000001
+	'Eocuma'		                    112(0,1,3)(0,1)0(0,1)(0,1)(0,1)11(0,1)0(0,1)(0,1,2,3)(0,1,2)0(0,2,3,1,4)(0,1,2)(0,1,3)(0,1)(0,1)(1,2)(1,2)1(0,1,2)1(0,1,2)(1,2)(1,2)0(0,1)(0,1)420(0,1)(0,1,2)000(0,1,2)1(1,3)1(0,2,3)(0,1)0(0,1,2)1(0,1,2)(0,1)(0,1,2)(0,2)(0,1,2)1(1,2)(0,1)0(0,1,2)111(0,1)(0,1)(0,1,2)(0,1)(0,1)(0,1)2212220002200(0,1)0001-(0,1)0(1,0)(0,1,3)(0,1)(1,3)(0,1)10-040(0,1)(0,1)00000(0,1,2)1
+	'Iphinoe'		                   10(0,1)(0,1,3)10(0,1,2)(0,1)1(0,1)(0,1)100(1,2)(0,1,2)0(2,1)(0,2)(0,1,3)(0,1)(0,1)(1,2)21(0,1,2)?(0,1,2)(0,1,2)1(0,1)1(0,1)(2,4)20(0,1)(0,1,2)000(0,1,2)(0,1,2)(1,2,3)1(0,2,3)10(0,1,2)1(0,2)(0,1)(1,1)(0,2,3)(0,1,2,3)1(1,2)(0,1)32(0,1)111(0,1)(1,2)0(0,1)(0,1)2212220002200(0,1)0(0,1)(1,2)(0,1)0(0,1)(0,1)(1,0)(0,1,3)0(0,1,3)(0,1)(0,1)1(0,1,2)(0,2)(1,2,3)(0,1,2)0000(0,2)(0,1)(0,2)(0,1)1
+	'Austrocuma'		                12(2,1)01(0,1,2)(0,1)1(0,1)11100(1,2)(0,1)02(0,1)100(1,2)211-(1,2)210100001(0,1)0002(0,2)(1,2,3)1210(1,2)1(0,2)0(0,1,2)(0,2)(0,2)1(1,2)13(1,2)111(0,1)020(0,1)0221(1,2)22(0,1)0022(0,1)(0,1)10(1,2)21-(0,1)0(1,0)211(0,1)10-0(1,2)000000(0,1)201
+	'Mossambicuma'		              1120101(0,1)(0,1)111001(0,1)(0,1)(0,1)0311(1,2)201-(1,2)(1,2)10(0,1)122??000001(1,3)1310210(0,1)(0,2)(0,2)01(1,2)13(1,2)1111020(0,1)(0,1)221222000220010001-100(0,3)--(0,1)10-0400000000?1
+	'Upselaspis'		                1(0,1)23-011111100(0,1,2)(0,1)0(2,1)01111211-12100142??(0,1)000(1,2)131310210(0,1)2021103211110201022122200022?010121-111-02(0,1)1(0,1)00310000000?1
+	'Zygosiphon'		                1102-0011111(0,1)(0,1)(2,3)(1,2)1112002111-121011420000000131310010(0,1)022111311111020202202220002200(0,1)(0,1)021-111-0301110120000000?1
+	'Apocuma'		                   1(0,2)23-0(0,2)001(0,1)100(1,2)(0,1)(0,1)10(0,1)11(0,1)011-1210(0,1)142?2102-(1,2)23(0,1)3100100(1,2)(0,2)(2,3)11132111(0,1)0200(0,1)000210000200010(0,1)2(0,1)1101-0(0,1)(0,1)10-010000000021
+	'Cumopsis'		                  1(0,1)(0,2,1)(0,3)101(0,1)11110(0,1,2)(1,2)(0,1)0(2,3)0(1,3)0022(0,1)1-1210(0,1)142??(0,1,2)0(0,2)(0,1)(1,2)(0,1,2)31300(0,1,2)10(0,1)(1,1,2)(0,1,2,3)(0,2,3)111(2,3)211110(0,1,2)010111211000220010(0,1,2)21-(0,1)01-1(2,3)(0,1)111(0,1,2)(0,1)(0,2)0000000(0,1)1
+	'Heterocuma'		                1(0,1)(0,2,1)010(0,1)111110(0,1)(0,1,2,3)(0,1,2)0(2,3)20002(1,2)1(0,1)-1(0,1,2)101142??(0,1,2)000(0,1,2)(1,2)112(0,1)0(0,1)101-(1,2,3)(2,3)1(1,2)(0,1)(2,3)211010(0,2)0(0,1,2)0111211000220010021-0-----(0,1)11(0,1,2)(0,2)(1,2,3)2000000011
+	'Hypocuma'		                  112010(0,2)11111000001(0,1)311(1,2)(0,1)1(0,1,2)2121(0,1)11?204(0,1)02-21(2,3)1(2,3)1001(0,1)0(1,2)(1,2)(1,2,3)11132111102010000200000100010021-121-031111012??0000001
+	'Leptocuma'		                 11(0,1)(0,3)10(0,1)111110(1,2)(1,2)(0,1)0(0,2,3)(0,2)(0,1)(0,1)(0,1)(1,2)2(0,1)(1,2,3,4)(0,1,2)(1,3)(1,2)101132?2102-2(0,1,2)313(0,1)0(0,1,2)100(1,1)(0,1,3)(1,2,3)1(0,1,2)(0,1)3(1,2)11110(0,2)0(1,2)0000(0,1,2)00000110010(0,1)(1,2)1-(0,1)(0,1)(1,0)(0,3)(0,1)(0,3)(0,1)(0,1)1(0,1)0(1,2,3)(0,1,2)0000000?1
+	'Mancocuma'		                 12(0,1)(0,3)1011111100(0,1)00(2,1)(0,1)(0,3)(0,1)?(1,2)21(1,2)2(1,2,3)(1,2)10(0,1)11012100(0,1)2221(0,2)00(0,1)1001220203211000(0,1)00000(0,1)100001110010(0,1)21-100(0,3)--11110(1,2)(0,1)000021221
+	'Spilocuma'		                 1(0,2)001011111100(2,3)20(0,1)01002211-1(1,2)10(0,1)10013102-2(1,2)313100110(1,2)(0,2)(0,2)11032111(0,1)02000000200000110010?21-10????11110100012212-1
+	'Pseudoleptocuma'		           11(0,1)01011111100(1,2)10(2,3)21(0,1)???11-32101142?210012221(0,2)001100(1,1)(2,3)(2,3)11032111(0,1)0(0,1)010000100000100010021-1003--111101(0,2)000001201
+	'Pseudosympodomma'		          11(0,1)3-0(0,2)11(0,1)11?-(1,2)10(2,3)2000(1,2)(1,2)1(1,2)(1,2)121(0,1)(0,1)142?2(1,2)000(0,1)(1,2)(1,2)1(0,3)00(0,1)10(0,1)(0,1)(0,2,3)(2,3)1(1,2)(0,1)3211110(1,2)020000(1,2)220002200100(1,2)1-111-0(0,3)(0,1)(0,1)1(0,1)0(0,1,2)(0,2)000000001
+	'Gephyrocuma'		               (0,1,2)2201011111100(0,1)0020100(1,2)01(1,2)20210(0,1)1?2??211-2221(0,2)001100122011121000000(1,2)000021101011001(0,1)001-11(1,0)31311110400000000?1
+	'Zenocuma'		                  1003-001101101300300001111-321001?2??111-20010001100122011321000000200002000001?0010121-0-----011104100??????1
+	'Pomacuma'		                  1(0,1)(0,1)(0,3)10(0,1)1111100300200001(1,2)11-(0,1)2101142??(0,1)1(0,1)02201(0,2)0011(0,2)013201(0,1)021000000100002000001100100(0,1)1-11(1,0)(0,3)0311110400000000?1
+	'Gigacuma'		                  111(0,3)1011111101(1,2)(0,1)0000002(1,2)11-(1,3)(0,2)11014202(1,2)000(1,2)221000110(0,1)(0,1)(2,3)2110221111000200002220002200100(0,1)1-101-031112010000000021
+	'Sympodomma'		                11(0,2,1)(0,1)10(0,2)(0,1)0(0,1)(0,1)101(0,1,2)(0,1,2)022000(0,2)(1,2)1(1,2)21(0,2)1(0,1)(0,1)(0,1)42??(1,2)000(0,1)(1,2)(1,2)1(0,3)00(0,1,2)10(0,1)(0,1,1,2)(0,2,3)(0,2,3)1(1,2)(0,1)3211110(1,2)0200002000002200100(0,1)(0,1)11(0,1)(1,0)(0,1)0(1,3)(0,1)(0,1)1(0,1,2)0(0,1,2)(0,1,2)000000001
+	'Speleocuma'		                1(0,1)1010211111001(0,1)02?0001211-(1,2)2101102??102-22213100100(1,1)(1,2)21113211?1020?0000200000220010021-101-030011021000021221
+	'Gaussicuma'		                11(0,2)(0,3)10(0,2)(0,1)11110(0,2)(1,2)(1,2)0(2,3)0(0,1)11(1,2)(0,1,2)11-(1,2)21(0,1)11?2?110(0,2)0(1,2)(0,1,2)(2,3)1(0,3)10010(0,1)(0,1,1,2)(0,2,3)(0,2,3)1(1,2)(0,1)3211110201(0,1)00020000020001(0,1)00(0,1)1121-0(0,3)11110(0,1,2,3,4)(0,1)000000001
+	'Glyphocuma'		                11(0,2)010(0,2)(0,1)1111?-(1,2)(0,1)0(2,3,1)20(0,1)0(0,1)21(1,2)2(0,1,3)(0,2)11(0,1)1?2?2(1,2)000(0,1)(0,1,2)31(2,3)(0,1)0(0,1)1(0,2)0(1,1)(1,2)(2,3)1103211110(0,1,2)0(1,2)000(0,1)2(0,1)00002(0,1)0010021-110(2,3)--(0,1)11(0,1,2)0(0,1,2)(0,2)0000000?1
+	'Bathycuma'		                 1(0,1)(0,2)010(0,1,2)111(0,1)10(0,1)(1,2)(1,2)(0,1)(2,1)2(0,1,3)11(0,1,2)(1,2)1(0,1,2)(1,2)(1,3)21(0,1)(0,1)122?21000(0,1)2(1,3)1(0,3)10(0,1)10(0,1)(0,1,1)(0,1,2,3)(0,2,3)11(0,1)32111(0,1)0(1,2)0(1,2)(0,1)00020000020001(0,1)0(0,1,2)(0,1)11(0,1,2)1-0(0,3)(0,1)(0,1)1(0,1)0(1,2)(0,2)0000000?1
+	'Vaunthompsonia'		            11(0,1)010(0,2)(0,1)(0,1)1110(0,1,2)(0,1,2)(0,1,2)(0,1)(2,3,1)0(0,1)00(1,2)(1,2)1(0,1,2)2(1,2)210(0,1)1120(1,2)(1,2)0(0,2)12(0,1,2)(1,2,3)1310(0,1,2)1(0,2)(0,1)(1,1)(0,1,2,3)(2,3)1(1,2)(0,1)321111020(0,1,2)(0,1)00(0,1)2000002000100(0,1,2)(0,1)(0,1)1(0,1)(1,0)(0,3)0(0,1,3)(0,1)(0,1)11(0,1)(1,3,4)(1,2)0000000(0,1)1
+	'Picrocuma'		                 12(0,1)(0,3)(0,1)(0,2)01111100(0,1)0021100(1,2)(1,2)1(0,1)-3(0,1)10110012102-2030310(0,1)12(0,1)1(0,2)(0,2)1(0,1)13211110200000(0,1)200000220010(1,2)21-1003--110-0(1,2)00012210-1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 110;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1571781222470; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4607827020600980365; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7578892820693623676; tell It; setSelected 1; attachments ; endTell; mqVersion 303; checksumv 0 3 1367891269 null getNumChars 110 numChars 110 getNumTaxa 36 numTaxa 36 short true bits 31 states 31 sumSquaresStatesOnly 64920.0 sumSquares 64920.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 164; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1145 660; setLocation 327 1240; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7578892820693623676 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 109; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 981 588; setLocation 327 1240; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #7578892820693623676 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; rowNamesWidth 675; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 981 588; setLocation 327 1240; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 110; 
+ENDBLOCK;

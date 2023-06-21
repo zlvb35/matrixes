@@ -1,0 +1,395 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 01.15.45 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Boreosomus piveteaui'
+		'Birgeria groenlandica'
+		'Chondrosteus acipenseroides'
+		'Peipiaosteus pani'
+		'Polyodon spathula'
+		'Protopsephurus liui'
+		'Priscosturion longipinnis'
+		'Huso huso'
+		'Scaphirhynchus platorhynchus'
+		'Pseudoscaphirhynchus kauffmani'
+		'Pseudoscaphirhynchus hermanni'
+		'Acipenser brevirostrum'
+		'Acipenser stellatus'
+		'Acipenser ruthenus'
+		'Acipenser fulvescens'
+		'Acipenser oxyrinchus'
+		'Acipenser transmontanus'
+		'Acipenser baerii'
+		'Anchiacipenser acanthaspis'
+		'Engdahlichthys milviaegis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=62;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Well-developed anterior and posterior divisions of the fenestra longitudinalis'
+		 [2] 'Contact at midline between frontal bones'
+		 [3] 'Posterior extent of parietals'
+		 [4] 'Stellate bones'
+		 [5] 'Shape of jugal bone'
+		 [6] 'Postorbital bone'
+		 [7] 'anterior extent of horizontal arm of jugal bone'
+		 [8] 'Medial process of jugal'
+		 [9] 'Supraorbital bone'
+		 [10] 'Median extrascapular'
+		 [11] 'Rostral canal'
+		 [12] 'Dorsal rostral bone shape'
+		 [13] 'Spines on dermal skull bones'
+		 [14] 'Trunk, occipital, supraorbital lateral lines'
+		 [15] 'Posterior elongation of parasphenoid'
+		 [16] 'Ascending process of parasphenoid'
+		 [17] 'Median anterior process of the parasphenoid'
+		 [18] 'Ventral rostral bones'
+		 [19] 'Posteriormost ventral rostral bone'
+		 [20] 'Ventral surface of posteriormost ventral rostral bone'
+		 [21] 'Surface of ventral rostral bones'
+		 [22] 'Opercle'
+		 [23] 'Branchiostegals'
+		 [24] 'Branchiostegal number'
+		 [25] 'Posterior margin of the branchiostegals'
+		 [26] 'Dorsalmost branchiostegal pillar-like and laterally concave'
+		 [27] 'Anterior margin of subopercle'
+		 [28] 'Posterior margin of subopercle'
+		 [29] 'Palatal complex'
+		 [30] 'Palatoquadrates'
+		 [31] 'Quadratojugal'
+		 [32] 'Premaxillae and maxillae'
+		 [33] 'Ectopterygoid and dermopalatine'
+		 [34] 'Medial dermopalatine expansion'
+		 [35] 'Prearticular'
+		 [36] 'Posteroventral edge of hyomandibula'
+		 [37] 'Interhyal?posterior ceratohyal articulation'
+		 [38] 'Anterior shelf of hypobranchial'
+		 [39] 'Median posterior branchial cartilage'
+		 [40] 'Ossified basibranchials'
+		 [41] 'Gill rakers'
+		 [42] 'Dorsal head of hyomandibula'
+		 [43] '?Microctenoid? scales'
+		 [44] 'Anterior abdominal scales'
+		 [45] 'Continuous series of dorsal scutes extending from skull to dorsal fin'
+		 [46] 'Trunk lateral line'
+		 [47] 'Ventral scute series'
+		 [48] 'Ossified supraneurals'
+		 [49] 'Caudal cercus'
+		 [50] 'Caudal peduncle scutes'
+		 [51] 'Dorsal caudal fulcra'
+		 [52] 'Ventral caudal fulcrum'
+		 [53] 'Pectoral fin spine'
+		 [54] 'Supracleithrum reaching level of extrascapulars'
+		 [55] 'Medial laminar expansion of cleithrum and clavicle forming rear of branchial (opercular) chamber'
+		 [56] 'Cardiac shield'
+		 [57] 'Posterior cleithral notch'
+		 [58] 'Clavicle and cleithrum suture'
+		 [59] 'Supracleithral cartilage'
+		 [60] 'Round-based scales'
+		 [61] 'Clavicles'
+		 [62] 'Anterior junction of clavicles'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'ending anterior to posttemporals'
+		'extending posterior to posttemporals'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'distinct horizontal and vertical arms forming a ?reverse-L? shape'
+		'horizontal and vertical arms not distinct, forming a triangular shape'
+		,
+		6
+		'present'
+		'absent'
+		,
+		7
+		'does not reach nasal capsule'
+		'undercuts nasal capsule'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'absent'
+		'present without a descending process'
+		'present with a wedge-shaped descending process'
+		'present with a greatly expanded descending process'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'straight'
+		'curves'
+		,
+		12
+		'elongate and narrow'
+		'short and broad'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'meet in posttemporal'
+		'meet in lateral extrascapular'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'extends perpendicularly'
+		'extends anteriorly'
+		'extends posteriorly'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'paired'
+		'single'
+		,
+		20
+		'keeled'
+		'flat'
+		,
+		21
+		'smooth with only slight ornamentation'
+		'with a variable number of distinct prominences'
+		,
+		22
+		'larger than subopercle'
+		'smaller than subopercle'
+		'absent'
+		,
+		23
+		'elements grade smoothly in size and shape from dorsal to ventral'
+		'individual elements of distinctly different shapes'
+		,
+		24
+		'greater than seven'
+		'greater than one but fewer than seven'
+		'one'
+		,
+		25
+		'smooth'
+		'serrated'
+		,
+		26
+		'no'
+		'yes'
+		,
+		27
+		'rounded or lobate'
+		'with elongate anterior extension'
+		,
+		28
+		'smooth and rounded'
+		'serrate'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'without symphysis between pars autopalatina'
+		'with symphysis between pars autopalatina'
+		,
+		31
+		'bridging palatoquadrate and dermopalatine'
+		'not bridging palatoquadrate and dermopalatine'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'separate'
+		'fused'
+		,
+		34
+		'absent'
+		'slight medial broadening'
+		'greatly exaggerated medial broadening'
+		,
+		35
+		'broad'
+		'small and thin'
+		'absent'
+		,
+		36
+		'does not flare'
+		'flares'
+		,
+		37
+		'anteriorly positioned on interhyal'
+		'posteriorly positioned on interhyal'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'present'
+		'absent'
+		,
+		41
+		'with teeth'
+		'without teeth'
+		,
+		42
+		'oval in cross section'
+		'circular in cross section'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'present'
+		'absent'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'encased in normal interlocking scales'
+		'encased in slender tubes'
+		'encased in non-interlocking scales'
+		'encased in enlarged scutes'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'present throughout trunk'
+		'absent in subdorsal region and anterior caudal peduncle'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'lateral line, post-dorsal fin, post-anal fin'
+		'lateral line, paired dorsal, paired ventrolateral, paired ventromedial'
+		'lateral, paired dorsal, large scutes intercalated between lateral series and ventral midline but not organized in distinct series'
+		,
+		51
+		'one'
+		'more than one'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent or loose, not interdigitating'
+		'present, tight and interdigitating'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'not sutured'
+		'sutured'
+		,
+		62
+		'convex'
+		'straight line'
+		
+	;
+	MATRIX
+	'Boreosomus piveteaui'		                    01000001100?010200???0000000?0?000?0???0?000000??011001?00?0??
+	'Birgeria groenlandica'		                   01001?01100?011200???0000000?0?00000???0??010101?010001000?00?
+	'Chondrosteus acipenseroides'		             0100010101??011210???1000000?1010001???000010101?011101000?00?
+	'Peipiaosteus pani'		                       0000????000?011200???1011000?101002????11?010101?000001000?10?
+	'Polyodon spathula'		                       1111????0000011001000202100101?1?01000111011010000110000000110
+	'Protopsephurus liui'		                     1011????0100011011?001011001?101100????11?110101?011101000?00?
+	'Priscosturion longipinnis'		               0000????10?10112111102???110?101011????11001120??211111101?010
+	'Huso huso'		                               010000002110001111?0121111001101010101111001131101111111111111
+	'Scaphirhynchus platorhynchus'		            00000000311110111111021111101101112111011101131112111111111010
+	'Pseudoscaphirhynchus kauffmani'		          00000011211011111110021111101101022111111001131113111111111010
+	'Pseudoscaphirhynchus hermanni'		           00000011211011111110021111101101022111111001131103111111111010
+	'Acipenser brevirostrum'		                  00001000211100111110021111001101011111111001131101111111111110
+	'Acipenser stellatus'		                     00000011211011111110021111001101021111111001131101111111111110
+	'Acipenser ruthenus'		                      0?000000211000111110121111001101011111011001131101111111111110
+	'Acipenser fulvescens'		                    00001000211100111110021111001101011111111001131101111111111110
+	'Acipenser oxyrinchus'		                    01000000211100111110021111001101021111111001131101111111111110
+	'Acipenser transmontanus'		                 00000000211100111110021111001101021111111001131101111111111110
+	'Acipenser baerii'		                        00000000211000111110121111001101021111111001131101111111111110
+	'Anchiacipenser acanthaspis'		              0100001?21?100?1111??2110100?10101?????1??0?131?????11?111??0?
+	'Engdahlichthys milviaegis'		               0100000?21?10????1????????????????????????0113???1???1???1????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 62;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1588838027750; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8504434907310677431; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 262291242228130152; mqVersion 360; checksumv 0 3 265759051 null getNumChars 62 numChars 62 getNumTaxa 20 numTaxa 20 short true bits 15 states 15 sumSquaresStatesOnly 4516.0 sumSquares 4516.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 208; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 961; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #8504434907310677431 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.DefaultTrees.DefaultTrees; setAssignedID 958.1498590599924.3973083309897782044; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1712 889; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; setTaxonNameStyler #mesquite.trees.ColorTaxonByAssigned.ColorTaxonByAssigned; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1,(2,((4,(5,6)),(3,(19,(8,(14,(18,(((10,11),13),(17,16,((7,9),(12,15))))))))))));'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.ancstates.TraceCharOverTrees.TraceCharOverTrees; tell It; suppress ; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #262291242228130152; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 1; setTreeSource #mesquite.trees.DefaultTrees.DefaultTrees; setNumTrees 100; setDisplayMode #mesquite.ancstates.LabelStatesOnTree.LabelStatesOnTree; toggleShowLegend on; toggleShowNodeAbsent on; toggleShowEquivocal on; setMode Count_Trees_with_Uniquely_Best_States; setInitialOffsetX 913; setInitialOffsetY -363; setLegendWidth 142; setLegendHeight 196; desuppress ; endTell; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #262291242228130152; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 62; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 796; setInitialOffsetY -260; setLegendWidth 142; setLegendHeight 164; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow bootstrapFrequency; toggleShow posteriorProbability; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #262291242228130152 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 245; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1712 889; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1712 889; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar off; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 62; 
+ENDBLOCK;

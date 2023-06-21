@@ -1,0 +1,354 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 09.01.14 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Simpsonotus'
+		'Pleurostylodon'
+		'Colbertia'
+		'Notopithecus'
+		'Transpithecus'
+		'Guilielmoscottia'
+		'Antepithecus'
+		'Antofagastia'
+		'Johnbell'
+		'Ignigena'
+		'Punapithecus'
+		'Eopachyrucos'
+		'Santiagorothia'
+		'Proargyrohyrax'
+		'Cochilius'
+		'Plagiarthrus'
+		'Archaeophylus'
+		'Protypotherium'
+		'Interatherium'
+		'Miocochilius'
+		'Progaleopithecus'
+		'Federicoanaya'
+		'Brucemacfaddenia'
+		'Patriarchus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=52;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'I1 size'
+		 [2] 'I2-C shape'
+		 [3] 'C size'
+		 [4] 'I2-3 size'
+		 [5] 'I2-C exterior face'
+		 [6] 'P1 vertical anteroexternal ridge'
+		 [7] 'P3-4 parastyle/paracone inflection'
+		 [8] 'P3-4 fossettes'
+		 [9] 'P2-4 metacone ectoloph'
+		 [10] 'P3-4 dimensions'
+		 [11] 'P2-4 cingulum'
+		 [12] 'M1-3 paracone/parastyle inflection'
+		 [13] 'M1-2 fossettes'
+		 [14] 'Mesial inflection on M1-2 protoloph'
+		 [15] 'Lingual sulcus on M1-2'
+		 [16] 'Central fossa on M1-2'
+		 [17] 'M3 hypocone'
+		 [18] 'M1-3 metacone ectoloph'
+		 [19] 'M1-3 anterior cingulum'
+		 [20] 'M1-3 dimensions'
+		 [21] 'Crown height in posterior Ps and Ms'
+		 [22] 'i3 size'
+		 [23] 'i1-2 shape'
+		 [24] '*i1-i2'
+		 [25] '*i3-c'
+		 [26] '*i1-3 imbrication'
+		 [27] '*i1-3 implantation'
+		 [28] 'c size'
+		 [29] 'c-p1 diastema'
+		 [30] '*p1'
+		 [31] '*p1 -2'
+		 [32] 'p2-4 talonid development and relative size'
+		 [33] 'p3-4 crown morphology'
+		 [34] 'Relative size of m1-3 trigonid and talonid'
+		 [35] 'm1-3 crown morphology'
+		 [36] 'p3-4 molarization'
+		 [37] 'm1-3 trigonid shape'
+		 [38] 'm3 third lobe'
+		 [39] 'Role of jugal in zygoma'
+		 [40] 'Position of nasofrontal suture'
+		 [41] 'Nasofrontal suture shape'
+		 [42] 'Descending process on zygoma'
+		 [43] 'Dorsal-posterior maxillary process'
+		 [44] 'Rostrum length'
+		 [45] 'Angle of zygoma with face, at attachment site'
+		 [46] 'Muzzle shape and dental arcade'
+		 [47] 'Dorsal-posterior process on external premaxillary'
+		 [48] 'Palatine notch position'
+		 [49] 'Posterior bulla'
+		 [50] 'Glenoid fossa'
+		 [51] 'Postglenoid process and foramen'
+		 [52] 'Size, as estimated from molar dimensions'
+	;
+	STATELABELS
+		1
+		'subequal or larger than other anterior teeth'
+		'greatly enlarged'
+		,
+		2
+		'I2 laterally compressed, I3-C ovoid/conical'
+		'all laterally compressed'
+		,
+		3
+		'large, similar in size to I3'
+		'reduced'
+		,
+		4
+		'subequal'
+		'reduced, with I3 smaller than I2'
+		,
+		5
+		'convex or vague anterior swelling'
+		'distinct vertical anteroexternal ridge'
+		,
+		6
+		'no ridge'
+		'ridge present'
+		,
+		7
+		'shallow'
+		'deep'
+		,
+		8
+		'fossettes moderately to strongly persistent'
+		'labial fossettes disappear rapidly with wear'
+		,
+		9
+		'moderate to strong metacone ectoloph column'
+		'metacone ectoloph very low or almost flat'
+		,
+		10
+		'W > L or with mild anteroexternal expansion'
+		'L > W, rectangular shape'
+		,
+		11
+		'anterior cingulum low on crown, posterior about midway up crown'
+		'anterior cingulum absent, posterior high on crown, merging early in wear'
+		,
+		12
+		'distinct but shallow'
+		'absent or reduced'
+		,
+		13
+		'anteroexternal, posteroexternal and lingual fossettes present'
+		'fossettes of varying longevity'
+		'fossettes absent or very rapidly disappear with wear'
+		,
+		14
+		'weak or absent'
+		'well developed'
+		,
+		15
+		'well expressed although rapidly interrupted by an entoloph'
+		'well expressed and more persistent, although narrow'
+		'well developed, persistent, relatively wide and well expressed on the lingual wall'
+		'highly or completely persistent and very expressed on the lingual wall'
+		,
+		16
+		'well or moderately developed and oblique'
+		'faint or absent'
+		,
+		17
+		'absent or diminutive'
+		'developed'
+		,
+		18
+		'distinct'
+		'very low or flat'
+		,
+		19
+		'present and low on crown'
+		'absent'
+		,
+		20
+		'W > L or about equidimensional'
+		'L > W, rectangular shape'
+		,
+		21
+		'brachydont'
+		'hypsodont'
+		'hypselodont'
+		,
+		22
+		'i3 > i2'
+		'reduced'
+		,
+		23
+		'no groove'
+		'with a shallow lingual groove'
+		' i1-2 bifid labial and lingually'
+		,
+		24
+		'cylindric or slightly expanded mesiodistally'
+		'expanded mesiodistally'
+		,
+		25
+		'expanded mesiodistally, with distinct lingual groove'
+		'cylindric, with shallow lingual groove'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'non procumbent'
+		'procumbent'
+		,
+		28
+		'larger than i1-3'
+		'subequal to i1-3'
+		'smaller than i1-2 or missing'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'reduced or absent'
+		'no talonid differentiated'
+		'with talonid insinuated'
+		'with talonid differentiated'
+		,
+		31
+		'not imbricated'
+		'mesially imbricated by C'
+		'mesially and distally imbricated by c and pm2, respectively'
+		,
+		32
+		'p2 no talonid, p3 very small, p4 present but smaller than trigonid'
+		'p2-3 distinct talonids but small, p4 smaller or subequal to trigonid'
+		'p2-4 display reduced talonids'
+		'p2 subequal to larger, p3-4 larger talonids'
+		,
+		33
+		'narrow labial sulcus, more posteriorly oriented lingual sulcus'
+		'two lobes, well defined labial and lingual sulci opposite one another'
+		,
+		34
+		'm1 talonid subequal to or slightly smaller than trigonid, m2 talonid subequal to or slightly larger to trigonid, m3 talonid larger than trigonid'
+		'all talonids larger than trigonids'
+		,
+		35
+		'not bilobed, lingual sulcus broad and extends posteriorly'
+		'bilobed, persistent labial and lingual sulci directly opposite one another'
+		,
+		36
+		'p4 approaching molariform, p3 considerably smaller than the molars'
+		'p4 molariform, p3 enlarged but smaller than molars'
+		,
+		37
+		'anterior margin broad'
+		'anterior margin short, producing a triangular appearing lobe'
+		,
+		38
+		'small'
+		'larger with a distinct labial groove'
+		,
+		39
+		'included in orbit'
+		'excluded from orbit by maxilla'
+		,
+		40
+		'flush or posterior to anterior margin of orbit'
+		'well anterior to anterior margin of orbit'
+		,
+		41
+		'rounded, nasal projecting into frontal'
+		'nearly straight transversely'
+		'nasal trends posteriorly from the median'
+		'nasal trends posteriorly from the median but is jagged with small posteriorly projecting processes'
+		,
+		42
+		'none'
+		'small'
+		'large'
+		,
+		43
+		'dorsal process present but is not excluded from orbit rim'
+		'dorsal process present and is excluded from orbit margin by an anteriorly projecting sliver of frontal'
+		,
+		44
+		'rostrum short compared to anteroposterior length of skull, <35% of total cranium length'
+		'modest lengthening of rostrum, ≥35% of total cranium length'
+		,
+		45
+		'low angle (≤45º)'
+		'steep angle (>45º and <90º)'
+		'perpendicular (90º)'
+		,
+		46
+		'ventrally broader than dorsally, posterior broader than anterior, dental arcade forms a “triangle”'
+		'muzzle is narrower (ventral portion no broader than dorsal) and cheektooth rows are convex labially'
+		,
+		47
+		'present'
+		'absent'
+		,
+		48
+		'reaches mid to anterior M3 region'
+		'reaches posterior M3 region'
+		,
+		49
+		'adjacent to paraoccipital process'
+		'posterior bulla laps up onto paraoccipital process'
+		,
+		50
+		'shallow, wide mediolaterally'
+		'deeply excavated and narrow'
+		,
+		51
+		'broad process with uncompressed foramen'
+		'glenoid fossa encroaches medioposteriorly on bulla/meatus'
+		'process is sharper and narrower separating fossa from meatus'
+		'process severely compressed as is foramen'
+		,
+		52
+		'moderate to large (M1 AP and TR dimensions both ≥4 mm)'
+		'very small (M1 AP and TR dimensions both < 4 mm)'
+		
+	;
+	MATRIX
+	'Simpsonotus'		               000?00001000?00000000000?00000000000000000?000000000
+	'Pleurostylodon'		            00??00000000?00000000011?110000000000000000000000000
+	'Colbertia'		                 00000000?00000000000001????0020000000000000000?00000
+	'Notopithecus'		              0100000000000100000000100100022000000011110011100110
+	'Transpithecus'		             010000000010111010100?100?0????0000100???1?????????0
+	'Guilielmoscottia'		          ?????1000010101000100?????0????0000100?????????????0
+	'Antepithecus'		              0100000000001100000000??0?0002?0000000???1?????????0
+	'Antofagastia'		              ???????0?001101000000?????????????????1??1??1??????1
+	'Johnbell'		                  ?10?010010101021?0110010010002210000001????????????1
+	'Ignigena'		                  ??0?010010111121?0110??????????????????????????????1
+	'Punapithecus'		              ?????10100011(0,1)2110000??????????10001001??1??1??????1
+	'Eopachyrucos'		              ???????????11?3??1111???????0221001100?????????????0
+	'Santiagorothia'		            010011101011102011111010011002111011001131111?011110
+	'Proargyrohyrax'		            0100??10111(0,1)102011111??????????1101100???1??1??????0
+	'Cochilius'		                 11(0,1)0011111112031111120100111022311111011211121101120
+	'Plagiarthrus'		              110011111111203111112??0011002030011001??21121011??0
+	'Archaeophylus'		             ?10?1111111(0,1)203110112??????????1111110???1??21?????0
+	'Protypotherium'		            1100111110112031111120200110011211111111311111001110
+	'Interatherium'		             1111011101102031101121101111110311111111221021101120
+	'Miocochilius'		              110001111011203?111120110010120210111111211111111110
+	'Progaleopithecus'		          ??????1?011(0,1)20311011202001100221101111???1?????????0
+	'Federicoanaya'		             010011011(0,1)1(0,1)2?311111202001100111(0,1)01100113111111??1?0
+	'Brucemacfaddenia'		          11001111111(0,1)2?31111120??011?0111001100?????????????0
+	'Patriarchus'		               ?????????????????????0110011130?????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 52;
+      ENDBLOCK;
+      

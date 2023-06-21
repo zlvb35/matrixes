@@ -1,0 +1,645 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.51.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+    		'Triadobatrachus massinoti'
+		'Czatkobatrachus polonicus'
+		'Prosalirus bitis'
+		'Vieraella herbsti'
+		'Notobatrachus degiustoi'
+		'Ascaphus truei'
+		'Leiopelma hochstetteri'
+		'Alytes obstetricans'
+		'Barbourula busuangensis'
+		'Bombina orientalis'
+		'Discoglossus pictus'
+		'Eodiscoglossus santonjae'
+		'Liaobatrachus sanyanensis'
+		'Liaobatrachus beipiaoensis'
+		'Pipa pipa'
+		'Xenopus'
+		'Rhinophrynus dorsalis'
+		'Palaeobatrachus diluvianus'
+		'Neusibatrachus wilferti'
+		'Hyla'
+		'Limnodynastes peronii'
+		'Liaobatrachus macilentus'
+		'Pelodytes caucasicus'
+		'Pelodytes punctatus'
+		'Pelodytes ibericus'
+		'Megophrys nasuta'
+		'Elkobatrachus brocki'
+		'Prospea holoserisca'
+		'Spea multiplicata'
+		'Spea hammondii'
+		'Spea intermontana'
+		'Spea bombifrons'
+		'Scaphiopus hurterii'
+		'Scaphiopus holbrookii'
+		'Scaphiopus couchii'
+		'Macropelobates osborni'
+		'Eopelobates anthracinus'
+		'Pelobates decheni'
+		'Pelobates varaldii'
+		'Pelobates cultripes'
+		'Pelobates fuscus'
+		'Pelobates syriacus'
+		'Gobiates spinari'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=97;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Shape of the skull in dorsal aspect'
+		 [2] 'Sculpture on dermal skull roof'
+		 [3] 'Medial contact of nasals'
+		 [4] 'Anterolateral margin of nasal'
+		 [5] 'Distinct rostral process of nasal'
+		 [6] 'Extent of posterior divergence of nasals'
+		 [7] 'Ossification of septum nasi'
+		 [8] 'Fusion of frontal and parietal'
+		 [9] 'Fusion of two frontoparietal medially in adults'
+		 [10] 'Dorsal exposure of frontoparietal fontanelle'
+		 [11] 'Posterolateral process (margo prootica) of frontoparietal'
+		 [12] 'Supraorbital flange of frontoparietal'
+		 [13] 'Contact between frontoparietal and nasal'
+		 [14] 'Formation of prootic-occipital region'
+		 [15] 'Perilymphatic foraman'
+		 [16] 'Width of alary process of premaxilla'
+		 [17] 'Palatine process of premaxilla'
+		 [18] 'Premaxilla-maxilla articulation'
+		 [19] 'Posterior extent of maxilla'
+		 [20] 'Premaxilla-nasal articulation'
+		 [21] 'Prefrontal and anterior margin of the orbit'
+		 [22] 'Quadratojugal'
+		 [23] 'Shape of squamosal'
+		 [24] 'Squamosal-maxilla contact'
+		 [25] 'Expansion of otic ramus of squamosal in lateral view'
+		 [26] 'Medial articulation of squamosal'
+		 [27] 'Sphenethmoid'
+		 [28] 'Vomers'
+		 [29] 'Position of anterior process of vomer'
+		 [30] 'Postchoanal process of vomer'
+		 [31] 'Elongation of the postchoanal process of vomer'
+		 [32] 'Palatine'
+		 [33] 'Anterior terminus of cultriform process of parasphenoid'
+		 [34] 'Posterolateral alae of parasphenoid'
+		 [35] 'Posterolateral notch of parasphenoid alae'
+		 [36] 'Posteromedial process of parasphenoid'
+		 [37] 'Relationships of parasphenoid and sphenethmoid'
+		 [38] 'Medial ramus of pterygoid'
+		 [39] 'Ventral flange of the anterior ramus of the pterygoid'
+		 [40] 'Parahyoid bone'
+		 [41] 'Columella'
+		 [42] 'Mentomeckelian bone ossification'
+		 [43] 'Upper marginal teeth'
+		 [44] 'Lower marginal teeth'
+		 [45] 'Occipital foraman'
+		 [46] 'Number of presacral vertebrae'
+		 [47] 'Fusion of presacrals I and II'
+		 [48] 'Centrum of presacral vertebrae'
+		 [49] 'Neural arch of presacral vertebrae'
+		 [50] 'Morphology of atlantal cotyles'
+		 [51] 'Free ribs on presacral vertebrae'
+		 [52] 'Length of transverse process'
+		 [53] 'Transverse process of posterior presacral vertebrae'
+		 [54] 'Fusion of sacral ribs'
+		 [55] 'Dilation of sacral diapophysis'
+		 [56] 'Postsacral vertebrae'
+		 [57] 'Relative length of urostyle'
+		 [58] 'Sacral-urostyle articulation'
+		 [59] 'Transverse process on postsacral complex'
+		 [60] 'Dorsal Crest on urostyle'
+		 [61] 'Type of pectoral girdle'
+		 [62] 'Presence of prezonal element'
+		 [63] 'Posterior ends or epicoracoid cartilages'
+		 [64] 'Length of scapula'
+		 [65] 'Overall shape of scapula'
+		 [66] 'Leading edge of scapula'
+		 [67] 'Anterior overlap of clavicle on scapula'
+		 [68] 'Curvature of long axis of clavicle'
+		 [69] 'Sternal end of clavicle'
+		 [70] 'Medial end of coracoid'
+		 [71] 'Relative lengths of clavicle/coracoid'
+		 [72] 'Cleithrum'
+		 [73] 'Bony sternum stylus'
+		 [74] 'Condition of sternal plate'
+		 [75] 'Humeral condyle'
+		 [76] 'Ossification of humeral condyle'
+		 [77] 'Epipodial elements'
+		 [78] 'Free intermedium in carpus'
+		 [79] 'Fusion of distal carpal III and IV with postaxial centrale'
+		 [80] 'Length and orientation of ilium'
+		 [81] 'Dorsal acetabular expansion of ilium'
+		 [82] 'Dorsal tubercle of ilium'
+		 [83] 'Dorsal crest on body of ilium'
+		 [84] 'Ossification of pubis'
+		 [85] 'Hind limb proportions'
+		 [86] 'Epipubis'
+		 [87] 'Condition of ventral crest of femur (crista femoris)'
+		 [88] 'Fusion of proximal tarsals'
+		 [89] 'Number of tarsalia'
+		 [90] 'Prehallux'
+		 [91] 'Shape of prehallux'
+		 [92] 'Consolidation of Cranial Nerve V and VII'
+		 [93] 'Posture of manus'
+		 [94] 'Depressor mandibulae'
+		 [95] 'Condition of the depressor mandibulae muscle'
+		 [96] 'Separation of m.semitendinosus from m.sartorius'
+		 [97] 'Presence of accessory head of m.adductor magnus'
+	;
+	STATELABELS
+		1
+		'skull apparently wider than long'
+		'or roughly as long as wide, or longer'
+		,
+		2
+		'absent or only weakly present'
+		'or present, with a pitted pattern'
+		'or present, with a grooved pattern'
+		,
+		3
+		'contact present'
+		'or contact absent'
+		'or nasal fused medially'
+		,
+		4
+		'nasal with a concave anterolateral margin for embracing the narial opening'
+		'or nasal more circular, with essentially a straight anterolateral margin, not embracing the narial opening'
+		,
+		5
+		'present'
+		'or absent'
+		,
+		6
+		'divergence minimal, involving less than half the length of nasals'
+		'or divergence extensive, involving over half the length of nasals'
+		,
+		7
+		'septum nasi cartilaginous'
+		'or septum nasi bony posteriorly, extending about one-half the length of the nasals'
+		'or septum nasi bony along most of the length of the nasals'
+		,
+		8
+		'frontal and parietal remain separate'
+		'or fused to form frontoparietal'
+		,
+		9
+		'frontoparietal paired without fusion'
+		'or azygous frontoparieal present due to fusion'
+		,
+		10
+		'fontanelle not exposed'
+		'exposed 50% of its length or less'
+		'or exposed more than 50% of its length'
+		,
+		11
+		'well developed and wing-like'
+		'or poorly developed'
+		'or completely absent'
+		,
+		12
+		'absent'
+		'or present'
+		,
+		13
+		'contact present'
+		'contact absent'
+		,
+		14
+		'by prootic-exoccipital-opisthotic complex'
+		'by prootic-exoccipital without fusion'
+		'or by fused prootic-exoccipital'
+		,
+		15
+		'double foramina open on medial capsular wall'
+		'or double foramina present on posterior wall of otic capsule'
+		'only superior perelymphatic foramen present'
+		'or only inferior foramen present'
+		,
+		16
+		'thin, with one fouth or less width of premaxilla'
+		'one third or greater width of premaxilla'
+		,
+		17
+		'absent or barely present'
+		'or well developed'
+		,
+		18
+		'posterior process of premaxilla absent'
+		'or present'
+		,
+		19
+		'maxilla long, extending posteriorly for most of the length of the orbit'
+		'or maxilla relatively short, not extending posteriorly beyond half the length of orbit'
+		,
+		20
+		'articulation present'
+		'or articulation lost with separation of the two elements'
+		,
+		21
+		'prefrontal present, maxilla and nasal excluded from the anterior margin of the orbit'
+		'prefrontal lost with maxilla and nasal forming the anterior margin of the orbit'
+		'nasal forming most of the anterior margin of the orbit'
+		'or anterior ramus of pterygoid excluding maxilla from the anterior margin of the orbit'
+		,
+		22
+		'present'
+		'or absent'
+		,
+		23
+		'as a simple horizontal bar'
+		'or triradiate and T-shaped'
+		'or nontriradiate with loss of zygomatic ramus'
+		'or funnel shaped in fusion with tympanic annulus'
+		,
+		24
+		'absent'
+		'or contact present'
+		,
+		25
+		'not expanded'
+		'or otic ramus expanded and deep'
+		,
+		26
+		'squamosal medially in contact with dermal skull table'
+		'or squamosal not in contact with dermal skull table, but articulating with the crista prootica'
+		,
+		27
+		'bilaterally paired'
+		'or single'
+		,
+		28
+		'present, paired'
+		'or absent, or present, azygous'
+		'State 2'
+		,
+		29
+		'anterior process of vomer lying immediately behind premaxilla'
+		'or lying near premaxilla-maxilla articulation'
+		,
+		30
+		'absent'
+		'or present, forming wide angle (about 90-110°) with anterior portion of vomer'
+		'or present, forming narrow angle (about 45°) with anterior portion of vomer'
+		,
+		31
+		'not elongate'
+		'or elongate'
+		,
+		32
+		'present as discrete element'
+		'or absent'
+		,
+		33
+		'extending anteriorly to the level of the vomers'
+		'or not reaching the level of the vomers'
+		,
+		34
+		'anteroposterior width of alae equal or greater than one-third distance between lateral ends'
+		'or width narrower than one-third distance between lateral ends'
+		'or alae absent'
+		,
+		35
+		'present'
+		'or absent'
+		,
+		36
+		'absent, leaving the posterior border of parasphenoid straight or concave'
+		'or present'
+		,
+		37
+		'two elements separate'
+		'or at least partially fused'
+		,
+		38
+		'not contacting parasphenoid'
+		'or contacting parasphenoid'
+		'or medial ramus absent'
+		,
+		39
+		'absent'
+		'or present as a ventrally directed flange'
+		,
+		40
+		'present and single'
+		'or present and paired'
+		'or absent'
+		,
+		41
+		'well-ossified columella present'
+		'or absent'
+		'or present, but reduced in size'
+		,
+		42
+		'present'
+		'or absent'
+		,
+		43
+		'present'
+		'or absent'
+		,
+		44
+		'present'
+		'or absent'
+		,
+		45
+		'pathway for occipital vessels open on frontoparietal'
+		'or pathway for occipital vessels roofed by bone'
+		,
+		46
+		'14 or more'
+		'ten presacral vertebrae'
+		'normally nine presacral vertebrae'
+		'normally eight or few'
+		,
+		47
+		'fusion absent'
+		'or fusion present'
+		,
+		48
+		'vertebral centra amphicoelous or notochordal'
+		'or opisthocoelous'
+		'or procoelous'
+		,
+		49
+		'completely or weakly imbricated roofing of spinal canal'
+		'or not imbricated with spinal canal partially exposed'
+		,
+		50
+		'cotyles mostly ventral and narrowly separated by notochordal fossa'
+		'cup-like cotyles displaced laterally and widely separated from one another'
+		'cotyles confluent as a single articular surface'
+		,
+		51
+		'free ribs present on all presacral vertebrae'
+		'ribs present on presacral II-V or II-VI'
+		'or ribs restricted to presacrals II-IV'
+		'or present on presacrals II-IV till subadult stage'
+		'free ribs absent in both subadults and adults'
+		,
+		52
+		'transverse process of verbetra II longest, or of equal length of III and IV'
+		'or transverse process of vertebra III longest'
+		'or that of IV longest'
+		,
+		53
+		'more laterally than anterolaterally oriented'
+		'or essentially anterolaterally oriented'
+		,
+		54
+		'remain free from sacral vertebra'
+		'or fused to transverse process of sacrum'
+		,
+		55
+		'slender with little or no dilation'
+		'or moderately dilated and hatchet-shaped, with a convex lateral edge'
+		'or widely expanded as butterfly wing-shaped, with more or less a straight lateral edge'
+		,
+		56
+		'caudal vertebrae remain unfused'
+		'or urostyle present in association with discrete caudal between sacrum and urostyle'
+		'or all postsacral vertebrae uniformly modified into single urostyle'
+		,
+		57
+		'shorter than combined length of presacral vertebrae'
+		'or as long or longer than combined length of presacral vertebrate'
+		,
+		58
+		'cartilaginous joint'
+		'bicondylar'
+		'monocondylar'
+		'or simply fused'
+		,
+		59
+		'present'
+		'or fused to a bony web of sacral diapophysis'
+		'or absent'
+		,
+		60
+		'absent'
+		'present, extending to half-length of urostyle'
+		'present, extending to almost the full length of urostyle'
+		,
+		61
+		'arciferal, with the epicoracoid cartilages overlapping one another and the sternum attached to the pectoral arch'
+		'or firmisternal, with the epicoracoid fused to some degree along the midline'
+		,
+		62
+		'absent'
+		'or present as a cartilaginous plate'
+		'or present as a bony style'
+		,
+		63
+		'not expanded'
+		'or expanded to the level of lateral edge of the sternum'
+		,
+		64
+		'at least half-length of humerus'
+		'or less than half-length of humerus'
+		,
+		65
+		'short and stocky'
+		'or relatively long, about two to three times as long as it is wide'
+		,
+		66
+		'leading edge concave'
+		'or straight'
+		,
+		67
+		'overlap absent'
+		'or overlap present'
+		'or clavicle and pars acromialis of scapula fused'
+		,
+		68
+		'straight or only slightly bowed'
+		'or strongly bowed'
+		,
+		69
+		'narrower than the body of clavicle'
+		'or sternal end expanded and broader than the body of clavicle'
+		,
+		70
+		'medial end little or slightly expanded, narrower than distal end'
+		'or medial end of coracoid greatly expanded, wider than the distal end, and usually have an arched edge'
+		,
+		71
+		'clavicle approximately equal in length to coracoid'
+		'or clavicle much longer than coracoid'
+		,
+		72
+		'present and unforked'
+		'present and forked'
+		'or cleithrum fused to suprascapula'
+		,
+		73
+		'absent'
+		'or present'
+		,
+		74
+		'sternum absent'
+		'sternum forming elongate rod'
+		'sternum forming semicircle with concave anterior margin'
+		'or sternum forming thin, sickle shape'
+		,
+		75
+		'single condyle with small diameter less than 60% of distal width'
+		'or single condyle enlarged with diameter greater than 60% of distal width'
+		,
+		76
+		'condyle unossified'
+		'or condyle ossified'
+		,
+		77
+		'remaining as separate elements'
+		'or fused to form single element'
+		,
+		78
+		'present'
+		'or absent, by fusion with ulnare'
+		,
+		79
+		'absent, distal carpals III and IV free'
+		'or distal carpal IV fused with to postaxial centrale'
+		'or distal carpal III and IV both fused to postaxial centrale'
+		,
+		80
+		'short ilium essentially dorsally directed'
+		'or elongate shaft of ilium anteriorly directed'
+		,
+		81
+		'not extending to dorsal limit of ischium'
+		'or extending to dorsal limit of ischium'
+		,
+		82
+		'strongly developed as a distinct tubercle'
+		'or weakly developed as a low process'
+		'or essentially absent'
+		,
+		83
+		'absent'
+		'or present, dorsoventrally directed'
+		'or present, laterally directed'
+		,
+		84
+		'pubis remains cartilaginous'
+		'pubis ossified'
+		,
+		85
+		'similar or only slightly longer than front limb'
+		'or proportionally longer'
+		,
+		86
+		'absent'
+		'or present as a large plate'
+		'or present as a narrow stripe'
+		,
+		87
+		'absent or poorly developed'
+		'or present'
+		,
+		88
+		'fusion absent'
+		'or fused at proximal and distal ends'
+		'or completely fused to form a single bone'
+		,
+		89
+		'three or more free elements'
+		'or only two elements present'
+		,
+		90
+		'absent'
+		'or present as small hind foot element'
+		'or modified as bony spade'
+		,
+		91
+		'sub-oval'
+		'elongate, scaphoid-shaped'
+		'or cuneiformshaped'
+		,
+		92
+		'three separate foramina occur'
+		'or trigeminal and facial foramina separated by prefacial commissure'
+		'or commissure absent, nerva exit via single prootic foramen'
+		,
+		93
+		'medial inturning of first finger absent'
+		'or inturning of the first finger present'
+		,
+		94
+		'consisting of one head or two slightly divided parts witho origin from the dorsal fascia'
+		'consisting of two discrete bellies that are at least partially separated by the insertion of the cucullaris'
+		,
+		95
+		'it originates at least in part from the otic region, either from fascia or bone'
+		'or it originates only from the fascia over the suprascapula'
+		,
+		96
+		'm.sartorius not completely distinct, at least fused to m.semitendinosus to some degree'
+		'm.sartorius completely dinstinct from m.semitendinosus'
+		,
+		97
+		'abent'
+		'present'
+		
+	;
+	MATRIX
+	'Triadobatrachus massinoti'		           000??0?1000000????0?0?0000?????0?00000000?0??0?0000?00000000???000?00??0??000001000?0?000????????
+	'Czatkobatrachus polonicus'		           ???????????????????????????????????????????????0?0???10??????????1????????010??1?00??????????????
+	'Prosalirus bitis'		                    ???????1??00???11?????????1??????0?0????0??0???0?0???10(1,2)???0???1?0???1?????01??1?20?1??0?????????
+	'Vieraella herbsti'		                   1?0?01?1011001???001??1001101101?010?????00??1?00?(1,2)?0?0?0?0?0????0?001?0???01??1??0?1?0??????????
+	'Notobatrachus degiustoi'		             000000?101(1,2)?11001000111001?001010000?1?00000?2?0021?0101000(1,2)0??1000001?0??0010?1020?1??0?????????
+	'Ascaphus truei'		                      00111?010220?10?01?111100100?0?1011100001000?2001220010200000001011001?0020111010?00111101?000000
+	'Leiopelma hochstetteri'		              00111?010220?20?01?1111001001201011101001000?2001220010210000001000001?0030111010200111101?100000
+	'Alytes obstetricans'		                 00001?010210?21?10?1201001101201111100010000?30110200112?10?010101100001031111011200120101?1000?0
+	'Barbourula busuangensis'		             00000001001002100001201001101201111100100000?301002?0112?20?0001011?10?1031111010100100101?1000?0
+	'Bombina orientalis'		                  00000101021012101001301001101201111100001000030100200112?2000001011100?1031111010(0,1)00100101?1000?0
+	'Discoglossus pictus'		                 000000010(1,2)1012101001201101101201111100110000030100200112110?010101110001031111011210120101?1000?0
+	'Eodiscoglossus santonjae'		            000001?1001001??100?201001?0????????????0?00?3010?2?01(0,1)2110?0????1??00?1????11?102?01?01?1???????
+	'Liaobatrachus sanyanensis'		           000?0??10?20?2??100?201001101201????????0000?2010?2?0112110?0??1011??0?0???111?1?2??1?01?1??0????
+	'Liaobatrachus beipiaoensis'		          000?0??1?????2?0000??01101?0?????11?0?0?000??2020?2?01120?0????10??0010????110?1?2?01?01?0??0?0??
+	'Pipa pipa'		                           10011(0,1)(1,2)110210221011011300111???10211111201(0,1)1?31100321122132?1011001(0,1)010102?111010021100111?201000
+	'Xenopus'		                             (0,1)02100011020123101101130011(1,2)???102111012010103(0,1)102321122132?10110120100102?111010021110111?201000
+	'Rhinophrynus dorsalis'		               100000?11021?21?00111020011011?10210020011110301004?1102?12??001101?01?2001111011200100111?210010
+	'Palaeobatrachus diluvianus'		          10000??110?0?21?00102(0,1)10011?1??10210?0?00001?312023?0112?12????1?11??1?1??011(0,1)?1?2??1?0111???????
+	'Neusibatrachus wilferti'		             0??????11??0????1?0??0?????01??1021??0?00?0??31202(3,4)20102112?0???0111000?????1??1????1????????????
+	'Hyla'		                                (0,1)0011?010220?21?10?12010101011001111?1020?01?312024?0112112?(0,1)1011001010001?11121010?100111?210011
+	'Limnodynastes peronii'		               10010?0101?0?21?10?12010011011001111?1020101?312114(1,2)0102112?110110000101(0,1)1?11121021?1001(0,1)1?210011
+	'Liaobatrachus macilentus'		            00????0101?1???1010??0?????0????001?01?0000??2?1????0112?12?0???0111001????11??1????1??0????0????
+	'Pelodytes caucasicus'		                00111101001012?10001201001101201110100010001030200411122?2??01011001011?1??1111111001002?1?210100
+	'Pelodytes punctatus'		                 00100001022012?10001201001101201111100010001030201411122?2??01010101011?1??11?1111001002?1?210100
+	'Pelodytes ibericus'		                  00111001022012?10001201001101201111100010001030201411122?2??01010101011?1??11?1111001002?1?210100
+	'Megophrys nasuta'		                    00010?0100?1?2??10?120101010110111110?0200011302004101?2?(0,3)1?0201100?01?01??11101?1?0100111?21000?
+	'Elkobatrachus brocki'		                ?0?10??10210?2?010??2?????10?????1100?????01130?0?411112120?0??1101001?011?11??1???01?00?0??1????
+	'Prospea holoserisca'		                 10010??102111(1,2)???0012?100110???1?11?010???01?3020?(3,4)11122021?0??1??01001?01111?01?20?1??1?22?1????
+	'Spea multiplicata'		                   00010021021112??1011212001101211111101020001?3020041111203(1,2)001011001001101?1110112001001122?10100
+	'Spea hammondii'		                      00110?2102?112??10?121200110?211?1?1010?0001130200411112031001011001001?01?11?01?200100??22?10100
+	'Spea intermontana'		                   00010021012112??1011212001101211011101020001130200411112032001011001001?01?1110112001001122?10100
+	'Spea bombifrons'		                     00110121021112?01011212001101211111101020001130200411112031001011001001?01?1110112001001122?10100
+	'Scaphiopus hurterii'		                 02010021002102??1001211111101211111101020001130200411?120??001011001001?01?11?01?200100??21?10100
+	'Scaphiopus holbrookii'		               02010021001102??1001211111101211111101020001130200411112032001011001001?01?11?011200100??21?10100
+	'Scaphiopus couchii'		                  02010021001102??1011211111101211111101020001130200411112032001011001001?01?11?01?200100??21?10100
+	'Macropelobates osborni'		              010????1001112??????20111110?????1??0?0?0?01?3020?4?1122022?0??11????1?????11??112011?00?21?1????
+	'Eopelobates anthracinus'		             00010?21001102???00?20111110?10?111101020?0?13?20?4?1122022????1?00??1??1??11??102??1?000????????
+	'Pelobates decheni'		                   010000?1001102???00?201110??????????????????130?0?41?122022?0??1???????0???11??1?2?01??0?????????
+	'Pelobates varaldii'		                  01000?2110?102??10?120111010100111110?020001130200411122032001011001011?11?11?01?200100??21?10100
+	'Pelobates cultripes'		                 01000121100102?010012011101010011111010200011302004111220(2,3)20010110?1011011?1110112(0,1)01001?21?10100
+	'Pelobates fuscus'		                    01000?211011021?100120111(0,1)101001111101?22001130200411122032001011001011011?111011200100(0,1)121210100
+	'Pelobates syriacus'		                  01000?2110?102??10?1201110101001111101?22001130200411122032001011001011?11?11?011200100??21?10100
+	'Gobiates spinari'		                    02000021021011?0??0020111110?0?111?101???0??13000?2?1112110?0??111010???????1??1?0?01????0???????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 97;
+      ENDBLOCK;
+      

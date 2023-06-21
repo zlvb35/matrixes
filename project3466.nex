@@ -1,0 +1,1005 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.23.17 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Chrysemys picta'
+		'Chelonoidis carbonaria'
+		'Chelonoidis chilensis'
+		'Chelonoidis denticulata'
+		'Geochelone elegans'
+		'Testudo graeca'
+		'Chersine hermanni'
+		'Stigmochelys pardalis'
+		'Gopherus polyphemus'
+		'Astrochelys radiata'
+		'Centrochelys sulcata'
+		'Gigantochersina ammon'
+		'Titanochelon bacharidisi'
+		'Titanochelon bolivari'
+		'Cheirogaster maurini'
+		'Namibchersus namaquensis'
+		'Impregnochelys pachytestis'
+		'Titanochelon perpiniana'
+		'Pelorochelon soriana'
+		'Alatochelon myrteum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=170;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Shape of the fissura ethmoidalis'
+		 [2] 'Medial inflection of the inferior descending processes of the frontal'
+		 [3] 'Frontal participation to the orbital rim'
+		 [4] 'Medial length of the frontals'
+		 [5] 'Prefrontal pits'
+		 [6] 'Contact between jugal and pterygoid'
+		 [7] 'Contact between jugal and palatine'
+		 [8] 'Contact of the epipterygoid with the jugal'
+		 [9] 'Contact of the inferior process of the parietal with the medial process of the jugal'
+		 [10] 'Contact of the inferior process of the parietal with the maxilla'
+		 [11] 'Extent of quadratojugal'
+		 [12] 'Contribution of jugal to the rim of upper temporal emargination'
+		 [13] 'Contact between the quadratojugal and the articular facet of the quadrate'
+		 [14] 'Contact between the parietal and the quadrate, partially covering the prootic'
+		 [15] 'Shape of the prootic'
+		 [16] 'Contact between quadratojugal and maxilla'
+		 [17] 'Medial contact of the maxillae along the anterior margin of the jaw'
+		 [18] 'Height of the symphysis of the maxilla/premaxilla compared to the height of the fossa nasalis'
+		 [19] 'Size of the foramen orbito-nasale'
+		 [20] 'Contact between maxilla and vomer'
+		 [21] 'Size of the foramen palatinum posterius'
+		 [22] 'Position of the pterygoid relative to foramen palatinum posterius'
+		 [23] 'Epipterygoid participation in the trigeminal foramen'
+		 [24] 'Degree of upper temporal emargination'
+		 [25] 'Shape of the labial ridge at the contact of the premaxillae'
+		 [26] 'Premaxillary-maxillary pointed cusp'
+		 [27] 'Presence of a circular or elliptical premaxillary pit on the ventral part of the premaxillae'
+		 [28] 'Participation of palatine in the triturating surface of the upper jaw'
+		 [29] 'Participation of the vomer in the triturating surface of the upper jaw'
+		 [30] 'Median Maxillary Ridge'
+		 [31] 'Lingual ridge'
+		 [32] 'Commisural ridge along premaxilla-maxilla suture'
+		 [33] 'Median ridge or sulcus of the triturating surface of the upper jaw'
+		 [34] 'Lingual border of upper triturating surface joining in premaxillae and forming a well-developed ridge'
+		 [35] 'Extent of the Median maxillary ridge'
+		 [36] 'Tooth-like tubercles on the labial ridge'
+		 [37] 'Tooth-like tubercles on the median maxillary ridge'
+		 [38] 'Posterior maxillary process'
+		 [39] 'Vomerine foramen'
+		 [40] 'Length of the vomer'
+		 [41] 'Ridge of the vomer'
+		 [42] 'Vomer ridge flag'
+		 [43] 'Vomer shape'
+		 [44] 'Development of the foramen praepalatinum as a canal (canalis praepalatinum) that is concealed by a bony secondary palate in ventral view'
+		 [45] 'Foramen carotico-pharyngeale'
+		 [46] 'Contact between pterygoid and basioccipital'
+		 [47] 'Contact of the pterygoid with the articular facet of the quadrate'
+		 [48] 'Processus pteryoideus externus'
+		 [49] 'Closure and depth of the incisura columella auris'
+		 [50] 'Processus interfenestralis'
+		 [51] 'Basisphenoid shape'
+		 [52] 'Degree of expansion of the opisthotic in posterior view'
+		 [53] 'Position of the foramen jugulare posterius'
+		 [54] 'Extent of the squamosals'
+		 [55] 'Horizontal keels in crista supraoccipitalis'
+		 [56] 'Shape of crista supraoccipitalis'
+		 [57] 'Length of crista supraoccipitalis'
+		 [58] 'Angular contribution to the sulcus cartilaginis Meckelii'
+		 [59] 'Contact between surangular and dentary'
+		 [60] 'Height of the processus coronoideus'
+		 [61] 'Foramen dentofaciale majus'
+		 [62] 'Foramen nervi auriculotemporalis'
+		 [63] 'Foramen nervi auriculotemporalis shape'
+		 [64] 'Foramen alveolare inferius & Foramen intermandibularis medius'
+		 [65] 'Foramen alveolare inferius'
+		 [66] 'Foramen intermandibularis caudalis'
+		 [67] 'Prearticular bone'
+		 [68] 'Foramen intermandibularis oralis'
+		 [69] 'Angle of the dentary symphysis'
+		 [70] 'Posterior extension of the lower triturating surface behind the symphysis of the dentary'
+		 [71] 'Presence of dentary hook'
+		 [72] 'Shape of dentary hook'
+		 [73] 'Presence of dentary serration'
+		 [74] 'Dentary serration'
+		 [75] 'Carapace strongly tricarinate in adult'
+		 [76] 'Carapace of adult tectiform in cross-section with a strong posterior projection on the third vertebral scute'
+		 [77] 'Postero-lateral side of nuchal'
+		 [78] 'General shape of the nuchal'
+		 [79] 'Overlapping of the first pleural on the nuchal plate'
+		 [80] 'Posterior margin of first vertebral scute significantly narrower than its anterior margin'
+		 [81] 'Anterior half of the first vertebral scute much narrower than posterior half, especially in adults'
+		 [82] 'Nuchal Notch'
+		 [83] 'Anterior Protrusion of the Nuchal'
+		 [84] 'Number of neural plates'
+		 [85] 'Shape of the first neural'
+		 [86] 'Shape and orientation of the second neural'
+		 [87] 'Shape and orientation of the third neural'
+		 [88] 'Shape of the fourth neural'
+		 [89] 'Shape of the fifth neural'
+		 [90] 'Number of suprapygals'
+		 [91] 'Shape of the suprapygal bones'
+		 [92] 'Medial contact of the seventh and/or eighth costal bones'
+		 [93] 'Shape of costal rib'
+		 [94] 'Position of costal rib head'
+		 [95] 'Pygal shape'
+		 [96] 'Pygal notch'
+		 [97] 'Coincidence between the costo-peripheral suture and the pleuro-marginal sulcus'
+		 [98] 'Significant serration of the posterior peripherals'
+		 [99] 'Protrusions on the anterior peripherals, on the limit with the sulci between the marginal'
+		 [100] 'Cervical scute'
+		 [101] 'Shape of the cervical scute'
+		 [102] 'Length of the cervical scute'
+		 [103] 'Number of vertebral scutes'
+		 [104] 'Width of the vertebrals in respect with the pleurals'
+		 [105] 'Position of the anterior sulcus of the fourth vertebral scute'
+		 [106] 'Position of the posterior sulcus of the fourth vertebral scute'
+		 [107] 'Contact of the second marginals with the lateral margin of the nuchal'
+		 [108] 'Contact of the second marginal scute with the first vertebral scute'
+		 [109] 'Contact of the sixth marginal scute with the third pleural scute'
+		 [110] 'Significant contact of the tenth marginal scute with the fifth vertebral scute'
+		 [111] 'Overlapping of fifth vertebral on suprapygal'
+		 [112] 'Twelfth marginal scute'
+		 [113] 'Carapacial hinge'
+		 [114] 'shape of the posterior shell border'
+		 [115] 'Sutured contact between plastron and carapace'
+		 [116] 'Presence and development of anterior buttresses'
+		 [117] 'Presence and development of posterior buttresses'
+		 [118] 'Shape of the anterior lobe'
+		 [119] 'Well-developed gular protrusion, caused by constriction in the gularo-humeral sulcus'
+		 [120] 'Extensive overhanging lip of the epiplastra'
+		 [121] 'Shape of the dorsal lip of the epiplastra'
+		 [122] 'Contact between the gulars and the entoplastron'
+		 [123] 'Angle formed by gularo-humeral sulci'
+		 [124] 'Median length of humerals, compared to the median length of gulars'
+		 [125] 'Shape of the humero-pectoral sulcus medially'
+		 [126] 'Shape of the lateral parts of the humero-pectoral sulcus'
+		 [127] 'Position of the humero-pectoral sulcus relative to the entoplastron'
+		 [128] 'Medial length of pectorals'
+		 [129] 'Medially-directed pivoting process for plastral hinge developed on fifth peripheral bone'
+		 [130] 'Plastral hinge'
+		 [131] 'Contact between inguinal and femoral scutes'
+		 [132] 'Presence of axillary glands'
+		 [133] 'Presence of inguinal glands'
+		 [134] 'Presence of anterior musk duct foramina'
+		 [135] 'Presence of posterior musk duct foramina'
+		 [136] 'Shape of the femoro-anal sulcus'
+		 [137] 'Medial length of the anals'
+		 [138] 'Anal notch of the plastron'
+		 [139] 'Anal notch shape 1'
+		 [140] 'Anal Notch Shape 2'
+		 [141] 'Anal scutes fused'
+		 [142] 'Plastral scutes with vibrant, radiating color pattern'
+		 [143] 'Position of biconvex cervical vertebra'
+		 [144] 'Shape of cervical vertebra 2'
+		 [145] 'Dorsal process on cervical vertebra 3'
+		 [146] 'Postzygapophyses sloping anteriorly in cervical vert 5'
+		 [147] 'Ventral keel on cervical vertebra 7'
+		 [148] 'Dorsal process on cervical vertebra 8'
+		 [149] 'Ventral keel on cervical vertebra 8'
+		 [150] 'Shape of coracoid blade'
+		 [151] 'Latissimus dorsi scar'
+		 [152] 'Major trochanter of the humerus, in relation with the humeral head:'
+		 [153] 'Ventral Ischial tubercle in pelvis'
+		 [154] 'Angle between the femoral head and the diaphysis of the femur'
+		 [155] 'Trochanters of the femur'
+		 [156] 'Contact between radius and distal carpals'
+		 [157] 'medial and lateral centrale'
+		 [158] 'calcaneus and astragalus'
+		 [159] 'Number of manual claws'
+		 [160] 'Webbing between digits'
+		 [161] 'Digit 1 Ph Number Manus'
+		 [162] 'Digit 2 Ph Number Manus'
+		 [163] 'Digit 4 Ph Number Manus'
+		 [164] 'Digit 5 Ph Number Manus'
+		 [165] 'fifth phalanx in the pes'
+		 [166] 'Dermar armor on limbs'
+		 [167] 'Type of dermal armor'
+		 [168] 'Development of a suprascapula'
+		 [169] 'Development of an episcapula'
+		 [170] 'Sexual size dimorphism'
+	;
+	STATELABELS
+		1
+		'narrow or closed, keyhole-shaped'
+		'very wide'
+		,
+		2
+		'absent or very small'
+		'present, well-developed, medial contact present or almost present'
+		,
+		3
+		'present'
+		'absent'
+		,
+		4
+		'prefrontals equal or longer than frontals'
+		'frontals longer than prefrontals'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'present, medial process of jugal well-developed and touching the pterygoid'
+		'absent, medial process reduced'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'clearly absent'
+		'present, or almost present, epipterygoid forms a long lateral process that approaches the jugal'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'quadratojugal well developed, firmly attached to jugal'
+		'quadratojugal present, contact lost with jugal'
+		'quadratojugal so heavily reduced that it appears to be absent in many skeletal specimens'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present, quadratojugal sends a process ventrally along the rim of the cavum tympani and touches the lateral edge of the articular facet'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'short and wide'
+		'long and narrow, elongated'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'shorter than the height of fossa nasalis'
+		'shorter than the height of fossa nasalis, but with the development of a dorsal projection'
+		'high, taller than the height of fossa nasalis'
+		,
+		19
+		'small, less than 1/6 of orbit length'
+		'large, more than 1/6 of orbit length'
+		,
+		20
+		'present'
+		'absent, vomer separated from the maxilla by the premaxilla'
+		,
+		21
+		'large'
+		'small'
+		,
+		22
+		'pterygoid situated posterior to the f.p.p'
+		'pterygoid situated posterior to the f.p.p., but sends a process anterior and lateral to the f.p.p'
+		,
+		23
+		'absent'
+		'present, epipterygoid clearly separates the parietal and pterygoid in lateral view'
+		,
+		24
+		'pa/po=pa/fro'
+		'pa/fro=1.5 of pa/po'
+		'pa/fro=3 of pa/po'
+		,
+		25
+		'notched'
+		'straight'
+		'projects ventrally or central premaxillary cusp present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'both structures absent'
+		'median ridge present'
+		'median sulcus present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'restricted to maxilla'
+		'extends to the premaxilla'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'vomer short, not dividing the palatines'
+		'vomer dividing part of the palatines, not reaching or touching the anterior part the pterygoids'
+		'vomer diving part of the pterygoids, not reaching the basisphenoid'
+		'vomer dividing palat ines and pterygoids, reaching the basisphenoid'
+		,
+		41
+		'ventral ridge is present only on the anterior two-thirds of the vomer'
+		'ventral ridge is present also on the posterior third of the vomer'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'flat anterior portion of vomer, and roughly parallel sides, no ridge'
+		'fan-shaped anterior part of the vomer, usually the ridge extends to this point'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'large'
+		'reduced'
+		'absent'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'situated clearly posterior to F. P. P'
+		'situated at the same level with the F. P. P'
+		'situated clearly anterior to F. P. P'
+		,
+		49
+		'absent, incisura is open'
+		'present, incisura closed'
+		,
+		50
+		'visible in ventral view'
+		'not visible in ventral view'
+		,
+		51
+		'not V-shaped'
+		'V-shaped (postero-lateral processes present)'
+		,
+		52
+		'not expanded, fenestra postotica open'
+		'expanded, contacts basioccipital not the pterygoid'
+		'expanded, contacts pterygoid'
+		,
+		53
+		'in the exoccipital'
+		'in exoccipital/opisthotic suture'
+		,
+		54
+		'extending beyond condylus occipitalis'
+		'not extending'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'bended ventrally'
+		'straight'
+		'elevated dorsally'
+		,
+		57
+		'extending more than twice the length of the neck of condylus occipitalis (measured from the proximal limit the neck)'
+		'Extending less than twice the length'
+		,
+		58
+		'present, the angular contributes to the sulcus and is as long or longer than the prearticular'
+		'absent, the angular is shorter than the prearticular'
+		,
+		59
+		'simple contact'
+		'strongly interdigitated suture'
+		,
+		60
+		'as high as dentary'
+		'higher than the dentary'
+		'rising significantly above the dentary'
+		,
+		61
+		'small'
+		'large and situated within a large lateral fossa'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'large'
+		'small'
+		,
+		64
+		'separated'
+		'fused'
+		,
+		65
+		'coronoid involved'
+		'coronoid excluded'
+		,
+		66
+		'absent or very small'
+		'present'
+		,
+		67
+		'not extending beyond the coronoid in lingual view'
+		'extending beyond the coronoid'
+		,
+		68
+		'present'
+		'absent'
+		,
+		69
+		'<=60o'
+		'>60o'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'smooth'
+		'medial tooth present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'present in labial'
+		'present in both'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'straight'
+		'constricted transversely'
+		,
+		78
+		'markedly wider than long'
+		'slightly wider than long or as long as wide'
+		'markedly longer than wide'
+		,
+		79
+		'first pleural overlaps postero-lateral parts of the nuchal'
+		'first pleural touches, but it does not overlap the nuchal'
+		'first pleural is not in contact with the nuchal'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'nine'
+		'eight'
+		'seven or less'
+		,
+		85
+		'hexagonal, short sides positioned posteriorly'
+		'rectangular'
+		,
+		86
+		'hexagonal, short sides positioned anteriorly'
+		'hexagonal, short sides positioned posteriorly'
+		'rectangular'
+		'octagonal'
+		,
+		87
+		'hexagonal, short sides positioned anteriorly'
+		'hexagonal, short sides positioned posteriorly'
+		'rectangular'
+		'octagonal'
+		,
+		88
+		'rectangular'
+		'hexagonal, short sides positioned anteriorly'
+		'octagonal'
+		'hexagonal, short sides positioned posteriorly'
+		,
+		89
+		'hexagonal'
+		'rectangular'
+		'octagonal'
+		,
+		90
+		'two'
+		'one'
+		,
+		91
+		'two, the contact between the suprapygals is straight and perpendicular to the axial plane'
+		'two, first suprapygal embrasses the lenticular second one'
+		'one, suprapygals fused, constituting one trapeze'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'wide and flat'
+		'narrow and thin'
+		,
+		94
+		'deep in the costal'
+		'far from neural/costal suture'
+		'on or very near the neural/costal suture'
+		,
+		95
+		'quadrangular'
+		'hexagonal with small latero-anterior borders'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'absent or poorly developed'
+		'well developed'
+		,
+		100
+		'present'
+		'absent'
+		,
+		101
+		'longer than wide'
+		'wider than long'
+		,
+		102
+		'short, equal or less to the 25% of the nuchal length'
+		'long, longer than the 25% of the nuchal length'
+		,
+		103
+		'five'
+		'six or more'
+		,
+		104
+		'wide vertebrals, wider than the pleurals'
+		'wide vertebrals, almost equal to the pleurals'
+		'narrow vertebrals, narrower than the pleurals'
+		,
+		105
+		'sulcus lies on the fifth neural'
+		'sulcus lies on fourth neural, or on the suture between the fourth and fifth neural'
+		'sulcus lies on the sixth neural, or on the suture between the fifth and sixth neural'
+		,
+		106
+		'sulcus lies on the eighth neural, or on the homologue of the eighth neural, if the seventh is reduced'
+		'sulcus lies on the seventh neural, or on the suture between the seventh and eight neural'
+		'eighth neural absent, sulcus overlies costals that meet at the midline'
+		'lies on the ninth neural (or 1st suprapygal out of 3)'
+		,
+		107
+		'absent'
+		'present'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'the posterior sulcus of the fifth vertebral overlaps the anterior part of the pygal'
+		'the posterior sulcus of the fifth vertebral coincides with the suprapygal-pygal suture'
+		'the posterior sulcus of the fifth vertebral crosses the suprapygal transversely'
+		,
+		112
+		'divided'
+		'fused'
+		,
+		113
+		'absent'
+		'present'
+		,
+		114
+		'curved inwards'
+		'posterior border posteriorly flared'
+		,
+		115
+		'present, plastron and carapace are tightly connected by an osseous bridge'
+		'absent, plastron is attached to carapace by connective tissue'
+		,
+		116
+		'anterior buttresses absent'
+		'anterior buttresses present but small, and not in contact with the first costal bones'
+		'anterior buttresses long and thin and just barely in contact with the costal bones, if at all'
+		'anterior buttresses well developed and in clear contact with the first costal bones'
+		'anterior buttresses very large and in direct contact with the first dorsal rib'
+		,
+		117
+		'posterior buttresses absent'
+		'posterior buttresses present but small, and not in contact with the costal bones'
+		'posterior buttresses long and thin and just barely in contact with the costal bones, if at all'
+		'posterior buttresses well developed and in clear contact with costal bones V and VI'
+		'posterior buttresses well developed but only in clear contact with costal bone V'
+		,
+		118
+		'subrounded to straight'
+		'medially notched'
+		'trilobed'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'concave'
+		'relatively flat'
+		'clearly convex'
+		,
+		122
+		'not in contact'
+		'in contact with the anterior margin'
+		'covering the anterior area'
+		,
+		123
+		'more than 90o'
+		'between 90-60o'
+		'less than 60o'
+		,
+		124
+		'humerals equal or smaller than the gulars'
+		'humerals longer than the gulars'
+		,
+		125
+		'not perpendicular to the axial plane, rounded or forming a wide angle'
+		'perpendicular to the axial plane'
+		'wavy, i.e. medially convex anteriorly, laterally concave posteriorly'
+		,
+		126
+		'perpendicular to the axial plane, relatively straight throughout its width'
+		'perpendicular to the axial plane, with concave posteriorly lateral parts'
+		'perpendicular to the axial plane, with convex anteriorly lateral parts'
+		,
+		127
+		'posterior to the entoplastron'
+		'coinciding medially with the posterior suture of the entoplastron'
+		'crossing the entoplastron'
+		,
+		128
+		'long'
+		'short'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present, between hyoplastra and hypoplastra'
+		'present, between hypoplastra and xiphiplastra'
+		,
+		131
+		'absent'
+		'present'
+		,
+		132
+		'present'
+		'absent'
+		,
+		133
+		'present'
+		'absent'
+		,
+		134
+		'present'
+		'absent'
+		,
+		135
+		'present'
+		'absent'
+		,
+		136
+		'forms an acute angle with the axial plane'
+		'straight or slightly rounded, developed mainly perpendicular with the axial plane'
+		'omega shaped'
+		,
+		137
+		'shorter than the median length of femoral'
+		'equal or longer than the medial length of femoral'
+		,
+		138
+		'present'
+		'absent'
+		,
+		139
+		'deep'
+		'reduced'
+		,
+		140
+		'angular'
+		'rounded'
+		,
+		141
+		'absent'
+		'present'
+		,
+		142
+		'absent'
+		'present'
+		,
+		143
+		'fourth'
+		'third'
+		,
+		144
+		'longer than tall'
+		'short & tall'
+		,
+		145
+		'present'
+		'absent'
+		,
+		146
+		'present'
+		'absent'
+		,
+		147
+		'anteriorly placed'
+		'rounded symmetric'
+		'low'
+		,
+		148
+		'prominent'
+		'not prominent'
+		,
+		149
+		'all along the centrum'
+		'isolated in the middle'
+		,
+		150
+		'long and narrow'
+		'short and very wide'
+		,
+		151
+		'absent or reduced'
+		'present'
+		,
+		152
+		'short not extending beyond the humeral head'
+		'long, extending beyond the humeral head'
+		,
+		153
+		'not triagonal'
+		'triagonal in ventral view'
+		,
+		154
+		'relatively large'
+		'femoral head developed almost perpendicular to the diaphysis'
+		,
+		155
+		'not fused'
+		'fused'
+		,
+		156
+		'absent'
+		'present'
+		,
+		157
+		'not fused'
+		'fused'
+		,
+		158
+		'not fused'
+		'fused'
+		,
+		159
+		'five'
+		'four'
+		,
+		160
+		'present, well developed'
+		'absent, or at least strongly reduced'
+		,
+		161
+		'three'
+		'two'
+		'one'
+		'zero'
+		,
+		162
+		'three'
+		'two'
+		'one'
+		'zero'
+		,
+		163
+		'three'
+		'two'
+		'one'
+		'zero'
+		,
+		164
+		'three'
+		'two'
+		'one'
+		'zero'
+		,
+		165
+		'present, visible externally'
+		'not visible externally, vestigial present internally'
+		'completely absent'
+		,
+		166
+		'absent'
+		'present'
+		,
+		167
+		'thigh spurs'
+		'thigh plate'
+		'caudal buckler'
+		,
+		168
+		'absent'
+		'present'
+		,
+		169
+		'absent'
+		'present'
+		,
+		170
+		'absent'
+		'present, female much larger than male'
+		
+	;
+	MATRIX
+	'Chrysemys picta'		                     0000001100000000001000001(0,1)0001000000000100-0110000000000001100-1010000100-000200000110010000010000000100000(0,1)000000034000-21010000001111011--000000001000?1000100000000-00(0,1)
+	'Chelonoidis carbonaria'		              1101010000000010010(0,1)1102110001000000010211(0,1)0200(0,1)110201121111011101111011110001(1,2)00001(0,1)(1,3)(1,2)(2,3)(0,1)010120(0,1)1001--01000011(1,2)1000(1,2)(1,2)0(0,1)1(1,2)(0,2)111(0,1)01000111110(0,1)(0,1)000(0,1)01110110110100101111(1,2)10-000
+	'Chelonoidis chilensis'		               11(0,1)(0,1)010000000010010111?201000101000101021111200(0,1)1102010(1,2)(0,1)11101(0,1)101(0,1)01011100001(0,2)00001(0,1)(1,3)13(0,1)00012011001--0100001021000221(0,1)1(1,2)(0,1,2)111(0,1)010001111(0,1)000000(0,1)0?12011(0,1)111101(0,1)?1111120-00?
+	'Chelonoidis denticulata'		             110(0,1)010000000010010(0,1)11(0,1)2(0,1)1000100000(0,1)(0,1)(0,1)0211(0,1)0200(0,1)11020(0,1)12(0,1)1110111(0,1)(0,1)111011110001200001(0,1)(1,3)221010120010(0,1)1--010000(0,1)(0,1)(1,2)1000(1,2)(1,2)0(0,1)1(1,2)0111(0,1)0100(0,1)111110(0,1)(0,1)000(0,1)01010110110100101111(1,2)10-000
+	'Geochelone elegans'		                  11010?????00000?010?1??2??1??10?000111?311???0001?1??1121?????????????????00102000010122101012001001--01000010210002?1012011110100?????0000001(0,1)010100?????10???1(1,2)11(1,2)20-00?
+	'Testudo graeca'		                      11010100000001-00101110(1,2)21100100000101021110(1,2)100100(1,2)110211100(0,1)101110100-(0,1)0000110000213221(0,1)(0,1,2)012001010010100000(0,1)1100022(0,1)0122210-1102011112000000000020?1110010?101(1,2,3)(1,2)1(1,2)(1,2)0-000
+	'Chersine hermanni'		                   1100010???00001000011??2211001000001010211102(0,1)0(0,1)1(0,1)01110211100(0,1)10111100101000(0,1)111000213221120121010100102000001100002200122200-11000111101000000100101101001011012112(1,2)0-00?
+	'Stigmochelys pardalis'		               1101010000000000010(0,1)1102110001000001010211002001100001120110011111101001100000100(0,1)011322101012001011--0(1,2)00001021000220012(1,2)211101001????10000000??????111?010??01111(1,2)20-000
+	'Gopherus polyphemus'		                 110011000000000000?0110210100100110001011110(1,2)(0,1)001000000011011??00111100-100000200001132210001201100010010000102100022(1,2)1101110-000011111200000001002111100?11??01(1,2)11220-000
+	'Astrochelys radiata'		                 1101010000000000000111?210100101000101011111200011000001111101110100100-10000121000103221010120000000001000010210002201120111001000111110000001001100???0?10???1111(1,2)10-00?
+	'Centrochelys sulcata'		                1101010000000000010111?2211001010001110211(0,1)120001112011101100111011000011000(0,1)2(1,2)00101(0,1)(1,3)22101012011001--010000102100022111(0,1)021110100111111000000000020011111101101111(1,2)11000?
+	'Gigantochersina ammon'		               ??????????????????????????????????????????????????????????????????????????000010010(1,2)(0,1)(1,3)2(1,2)(0,1)010??001000010100001021000??011?22011(1,2)100?????100100?????????????????????????????
+	'Titanochelon bacharidisi'		            ?101??????0000??010????2010??100000001?(2,3)11???0??101(0,1)?0100???????????1?????000?(1,2)??00??????010??001001--????????21000330(0,1)1212111110001111100100????????1110110110?????110000
+	'Titanochelon bolivari'		               1101?10?0?000000010111?201000100000001021100?001111111120??0??????????????00011000011322101012001001--020000102100033(0,1,2)(0,1)1222111010001111(1,2)00100?????2??1110110(0,1)1??????10-00?
+	'Cheirogaster maurini'		                ??????????????????????????????????????????????????????????????????????????000220010?132100?0??000001--010?110??1000??11022010-00000????100000?????????????????????????????
+	'Namibchersus namaquensis'		            ??????????????????????????????????????????????????????????????????????????0001200001132210101200100001000?001?21000??00122211101?01????000100?????????00?11???????????????
+	'Impregnochelys pachytestis'		          ??????????????????????????????????????????????????????????????????????????00?????00???22101??200?0000??????????1?0???01122101001000????100100????????????11???????????????
+	'Titanochelon perpiniana'		             1????????????????(0,1)?????2110??10?00?????21?0??0??111??1?????0????????1?0-??00011??00????21????2?0?001--?????????100033001202111110001111100100??010???1110110????????10-00?
+	'Pelorochelon soriana'		                ??????????????????????????????????????????????????????????????????????????00012001010(0,2)010010??0000000002000000200?0341(0,1)00(0,1,2)(0,1)111000001111(0,1)00000?????????????????????????????
+	'Alatochelon myrteum'		                 ??????????????????????????????????????????????????????????????????????????001220010?1???????????1?01--????00??????03?01112211101???1111???????????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=156 TEXT='also from the drawings of Crumly 1984';
+
+      [Attribute comments]
+      	TEXT TAXON=2 CHARACTER=2 TEXT='All adult specimen did not show any contact; 3 adult sp. the processes were very close to each other; in 2 juveniles the contact was present';
+	TEXT TAXON=2 CHARACTER=3 TEXT='see notes on sexual dimorphism';
+	TEXT TAXON=2 CHARACTER=11 TEXT='Stable; in some juvenile specimens I was unable to score that.';
+	TEXT TAXON=2 CHARACTER=17 TEXT='cannot be observed in most because the ramphotheca is still attached';
+	TEXT TAXON=2 CHARACTER=18 TEXT='even present in juveniles';
+	TEXT TAXON=18 CHARACTER=18 TEXT='not 2 for sure';
+	TEXT TAXON=2 CHARACTER=20 TEXT='In 3 males and 1 female was absent; 3 specimens was not able to score';
+	TEXT TAXON=4 CHARACTER=23 TEXT='in some specimens the epi cannot be observed (fused?); in others it contributes to the foramen; in others not';
+	TEXT TAXON=2 CHARACTER=26 TEXT='observed on the ramphotheca in most specimens';
+	TEXT TAXON=13 CHARACTER=40 TEXT='not 0 and 1';
+	TEXT TAXON=2 CHARACTER=43 TEXT='50-50';
+	TEXT TAXON=11 CHARACTER=44 TEXT='check this';
+	TEXT TAXON=7 CHARACTER=46 TEXT='polymorphic: in hermanni (0) and boettgeri (1)';
+	TEXT TAXON=2 CHARACTER=48 TEXT='9 males and 4 females are posterior; all juveniles are posterior';
+	TEXT TAXON=2 CHARACTER=51 TEXT='in some specimens there is an anterior constriction of the bs';
+	TEXT TAXON=2 CHARACTER=52 TEXT='even in juveniles the op is expanded but the contact with the pt is only slightly occified';
+	TEXT TAXON=2 CHARACTER=62 TEXT='there is some variation on the one side of the mandible to the other (in some specimens)';
+	TEXT TAXON=6 CHARACTER=73 TEXT='intermediate';
+	TEXT TAXON=11 CHARACTER=77 TEXT='straight in MNHN ZA AC 1891-645, 1950-251, and 1980-4051 not in 1974-122';
+	TEXT TAXON=8 CHARACTER=82 TEXT='present in MNHN ZA AC 2010-2';
+	TEXT TAXON=20 CHARACTER=119 TEXT='as in the female of sulcata';
+	TEXT TAXON=11 CHARACTER=121 TEXT='flat in 1974-122, 1950-251, 1981-645';
+	TEXT TAXON=8 CHARACTER=122 TEXT='covering in MNHN 2010-2';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 10 12 - 17 19 - 23 25 - 32 34 - 39 41 - 44 49 - 51 53 - 59 61 - 77 80 - 83 85 - 92 94 - 103 106 - 110 112 - 115 118 - 120 124 - 126 128 - 164 166 - 170, ord: 11 18 24 33 40 45 - 48 52 60 78 - 79 84 93 104 - 105 111 116 - 117 121 - 123 127 165;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1555014074755; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6325648218467732986; tell It; setDefaultOrder 58 164 85 88 61 68 67 62 73 72 65 160 100 96 20 159 163 99 141 77; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7179400091897887815; mqVersion 320; checksumv 0 3 2256524363 null getNumChars 170 numChars 170 getNumTaxa 20 numTaxa 20 short true bits 31 states 31 sumSquaresStatesOnly 12253.0 sumSquares 12253.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1235 719; setLocation 45 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7179400091897887815 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 176; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1135 647; setLocation 45 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; colorColumnNames #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1135 647; setLocation 45 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #7179400091897887815 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1135 647; setLocation 45 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 170; 
+ENDBLOCK;

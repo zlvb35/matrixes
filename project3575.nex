@@ -1,0 +1,265 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.52.30 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Huaridelphis'
+		'MUSM603'
+		'Notocetus'
+		'Squalodelphis'
+		'Medocinia'
+		'USNM475596'
+		'Phocageneus'
+		'Platanista'
+		'MUSM1611'
+		'Zarchachis'
+		'Pomatodelphis'
+		'Eurhinodelphis'
+		'Xiphiacetus'
+		'Ziphiodelphis'
+		'Waipatia'
+		'Squalodon'
+		'Zygorhiza'
+		'Allodelphis'
+		'Zarhinocetus'
+		'Dilophodelphis'
+		'MFM18190'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=37;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Rostrum elongation'
+		 [2] 'Apex of the rostrum constituted by the only premaxillae on more than 10% of its total length and lacking alveoli'
+		 [3] 'Lateral rostral suture between premaxilla and maxilla deeply grooved'
+		 [4] 'Marked asymmetry of the premaxillae on the rostrum, at some distance anterior to the premaxillary foramina, with the right premaxilla distinctly narrower than the left in dorsal view'
+		 [5] 'Widening of the premaxillae at the rostrum base'
+		 [6] 'Dorsal opening of the mesorostral groove anterior to the rostrum base'
+		 [7] 'Deep, ‘V’-shaped, left antorbital notch, related to an anteriorly pointed antorbital process'
+		 [8] 'Elevated antorbital region, distinctly higher than the dorsal margin of the rostrum base in lateral view'
+		 [9] 'Distinct dorsal crest in the antorbital-supraorbital region'
+		 [10] 'Thickening of the antorbital process of the frontal'
+		 [11] 'Widening of the cranium'
+		 [12] 'Posterior infraorbital foramen(ina) along the vertex more medial than the lateral-most margin of the premaxilla in the cranium'
+		 [13] 'Deep fossa in the frontal on orbit roof, at the level of the frontal groove'
+		 [14] 'Vertex distinctly shifted to the left compared with the sagittal plane of the skull'
+		 [15] 'Transverse premaxillary crest on the vertex'
+		 [16] 'Ventral exposure of the palatine'
+		 [17] 'Hamular fossa of the pterygoid sinus'
+		 [18] 'Thickening of the zygomatic process of the squamosal'
+		 [19] 'Circle-shaped dorsal outline of the zygomatic process of the squamosal in lateral view'
+		 [20] 'Articular rim on the lateral surface of the periotic'
+		 [21] 'Pars cochlearis of the periotic square-shaped in ventral view'
+		 [22] 'Aperture of the cochlear aqueduct of the periotic'
+		 [23] 'Aperture of the cochlear aqueduct of the periotic - 2'
+		 [24] 'Transverse thickening of the anterior process of the periotic'
+		 [25] 'Internal auditory meatus of the periotic oval, with the dorsal opening for the facial canal lateral to the spiral cribriform tract'
+		 [26] 'Separate ossicle at the apex of the anterior process of the periotic'
+		 [27] 'Elongated anterior spine on the tympanic bulla, associated to a marked anterolateral convexity'
+		 [28] 'Ventral groove of the tympanic affecting the whole length of the bone, including the anterior spine'
+		 [29] 'Extent of the inner and outer posterior prominences of the tympanic'
+		 [30] 'Dorsal margin of the involucrum of the tympanic cut by a median indentation, in medial view'
+		 [31] 'Apical extension of the manubrium of the malleus'
+		 [32] 'Loss of double-rooted posterior teeth'
+		 [33] 'Retention of accessory denticles on posterior teeth'
+		 [34] 'Tooth count per upper or lower row'
+		 [35] 'Strong development of the dorsal transverse process of the atlas and extreme reduction of its ventral process'
+		 [36] 'Great reduction of coracoid process of the scapula'
+		 [37] 'Great reduction or loss of supraspinatus fossa, with acromion located on anterior edge of scapula'
+	;
+	STATELABELS
+		1
+		'short, ratio between rostrum length and condylobasal length <0.70'
+		'elongated, ratio >0.70'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'no'
+		'yes'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'narrow premaxillae, ratio between the width of the rostrum and the transverse width of the premaxillae at the antorbital notch <0.60'
+		'wide premaxillae, ratio between 0.60 and 0.75'
+		'extremely wide premaxillae nearly reaching the lateral margin of the rostrum, ratio >0.75'
+		,
+		6
+		'narrower than the premaxilla'
+		'wider than the premaxilla'
+		,
+		7
+		'no'
+		'yes'
+		,
+		8
+		'no'
+		'yes'
+		,
+		9
+		'no'
+		'yes'
+		,
+		10
+		'absent, ratio between the height of the antorbital process of the frontal, measured in lateral view perpendicular to the maxillary-frontal suture above the orbit, and the vertical distance from the lower margin of the occipital condyles to the vertex of t'
+		'present, ratio >0.30'
+		,
+		11
+		'cranium roughly as long as wide or longer than wide with ratio between cranium length (longitudinal, from occipital condyles to level of antorbital notches) and postorbital width >0.90'
+		'cranium distinctly shorter than wide with ratio <0.90'
+		,
+		12
+		'no'
+		'yes'
+		,
+		13
+		'no'
+		'yes'
+		,
+		14
+		'no'
+		'yes'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'palatine widely exposed anterior to the pterygoid'
+		'palatine only exposed laterally to the lateral lamina of the pterygoid'
+		'palatine completely covered by the pterygoid'
+		,
+		17
+		'small, not reaching anteriorly the level of the antorbital notch'
+		'wide, extending anteriorly on the palatal surface of the rostrum'
+		,
+		18
+		'absent, ratio between the maximum distance from the anteroventral margin of the zygomatic process to the posterodorsal margin, in lateral view, and the vertical distance from the lower margin of the occipital condyles to the vertex of the skull <0.35'
+		'present, ratio >0.35'
+		,
+		19
+		'no'
+		'yes'
+		,
+		20
+		'absent'
+		'present'
+		'present and hook-like'
+		,
+		21
+		'no'
+		'yes'
+		,
+		22
+		'small'
+		'very small'
+		'large and thin-edged'
+		,
+		23
+		'faces mediodorsally'
+		'faces dorsally'
+		,
+		24
+		'no'
+		'yes'
+		,
+		25
+		'no'
+		'yes'
+		,
+		26
+		'no'
+		'yes'
+		,
+		27
+		'no'
+		'yes'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'both prominences with approximately the same posterior extent'
+		'outer posterior prominence posteriorly longer than the inner posterior prominence'
+		'outer posterior prominence posteriorly shorter than the inner posterior prominence'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'no'
+		'yes'
+		,
+		32
+		'no'
+		'yes'
+		,
+		33
+		'yes'
+		'no'
+		,
+		34
+		'<25'
+		'>25'
+		,
+		35
+		'no'
+		'yes'
+		,
+		36
+		'no'
+		'yes'
+		,
+		37
+		'no'
+		'yes'
+		
+	;
+	MATRIX
+	'Huaridelphis'		            00011011001111011111121000???0?1011??
+	'MUSM603'		                 ??011011001??10?11111??0?0102001?????
+	'Notocetus'		               0001101100111101111112100011001100111
+	'Squalodelphis'		           00012111001?110?110112100011001100???
+	'Medocinia'		               ??012111011?1101110????????????1?????
+	'USNM475596'		              ??0???110111110?110????????????10????
+	'Phocageneus'		             ???????????????????11210001100110?1??
+	'Platanista'		              0011100110111102110201001110100111011
+	'MUSM1611'		                ???????????????????2010011???????????
+	'Zarchachis'		              10111001111111011102000100101001110??
+	'Pomatodelphis'		           10111001111111011102000100101001110??
+	'Eurhinodelphis'		          11101000001000100000000000001101?10??
+	'Xiphiacetus'		             11101001(0,1)010000000(0,1)00000000011?101000
+	'Ziphiodelphis'		           11101001001000100000000000001101010??
+	'Waipatia'		                00001000000000000000000000000000000??
+	'Squalodon'		               10000000000000000000000000000000000??
+	'Zygorhiza'		               0000000000000000000000000000000000000
+	'Allodelphis'		             101001000010?101100????????????1?1???
+	'Zarhinocetus'		            101001010010?100100?000000???0?1?1???
+	'Dilophodelphis'		          001010111011110?11111??10??????1?1???
+	'MFM18190'		                ???????????????????112100000201??????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=22 TEXT='(Muizon, 1987, modified; Bianucci et al., 2013)';
+	TEXT CHARACTER=23 TEXT='(Muizon, 1987, modified)';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 37;
+      ENDBLOCK;
+      

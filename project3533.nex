@@ -1,0 +1,538 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.12.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=42;
+    TAXLABELS
+    		'Astacidea'
+		'Platykotta'
+		'Blepharipoda'
+		'Galathea'
+		'Chirostylus'
+		'Callichimaera'
+		'Homolodromiidae'
+		'Goniodromitidae'
+		'Prosopidae'
+		'Tanidromitidae'
+		'Glaessneropsidae'
+		'Konidromitidae'
+		'Dromiidae'
+		'Dynomenidae'
+		'Sphaerodromiidae'
+		'Diaulacidae'
+		'Xandarocarcinidae'
+		'Basinotopidae'
+		'Homolidae'
+		'Latreilliidae'
+		'Poupiniidae'
+		'Mithracitidae'
+		'Etyidae'
+		'Feldmannidae'
+		'Dakoticancridae'
+		'Ibericancridae'
+		'Lyreididae'
+		'Raninidae'
+		'Camarocarcinidae'
+		'Cenomanocarcinidae'
+		'Necrocarcinidae'
+		'Orithopsidae'
+		'Palaeocorystidae'
+		'Cyclodorippidae'
+		'Cymonomidae'
+		'Phyllotymolinidae'
+		'Torynommidae'
+		'Componocancridae'
+		'Goniochelidae'
+		'Carcinidae'
+		'Corystidae'
+		'Varunidae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=85;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'carapace proportions'
+		 [2] 'anterolateral margins'
+		 [3] 'spines or teeth on anterolateral margins'
+		 [4] 'carapace with well differentiated anterolateral and posterolateral margins'
+		 [5] 'posterolateral margins'
+		 [6] 'spines on posterolateral margin'
+		 [7] 'posterior margin'
+		 [8] 'reentrants on posterior margin'
+		 [9] 'orbit'
+		 [10] 'augenrest presence'
+		 [11] 'augenrest, if present'
+		 [12] 'inner orbital angle'
+		 [13] 'upper orbital fissures'
+		 [14] 'number of orbital fissures, if present'
+		 [15] 'sub-hepatic swelling'
+		 [16] 'antennal groove'
+		 [17] 'cervical groove'
+		 [18] 'postcervical groove well-developed'
+		 [19] 'branchio-cardiac groove'
+		 [20] 'longitudinal ridge or tubercles on branchial region'
+		 [21] 'cervical or branchio-cardiac groove'
+		 [22] 'intestinal region'
+		 [23] 'lateral linae'
+		 [24] 'epistomal spine'
+		 [25] 'buccal cavern'
+		 [26] 'thoracic sternum'
+		 [27] 'sternites 1-3'
+		 [28] 'posterior sternites'
+		 [29] 'lateral position of posterior sternites'
+		 [30] 'episternites definition'
+		 [31] 'episternites 4-5'
+		 [32] 'suture 4-5'
+		 [33] 'suture 5-6'
+		 [34] 'suture 6-7 as seen externally on thoracic sternum'
+		 [35] 'sternite 4 with anteriorly protruded plate'
+		 [36] 'median line on sternite 8'
+		 [37] 'sterno-coxal depression'
+		 [38] 'sterno-pleonal depression in male'
+		 [39] 'sterno-pleonal cavity in male'
+		 [40] 'homolid press-button'
+		 [41] 'sella turcica'
+		 [42] 'spermatheca presence'
+		 [43] 'spermatheca, if present'
+		 [44] 'spermatheca position, if present'
+		 [45] 'aperture of spermatheca, if present'
+		 [46] 'pleon'
+		 [47] 'pleonal somites'
+		 [48] 'pleonal pleura'
+		 [49] 'articulating rings of pleon'
+		 [50] 'fusion of pleonal somites and telson in male'
+		 [51] 'pleonal locking presence'
+		 [52] 'pleonal locking, if present'
+		 [53] 'pleonal somite 6 with triangular lateral lobes'
+		 [54] 'socket on pleonal somite 6'
+		 [55] 'telson of male'
+		 [56] 'anterior end of telson, if folding present, between third maxillipeds'
+		 [57] 'conspicuous uropods remain'
+		 [58] 'if uropods remain present'
+		 [59] 'male gonopore position'
+		 [60] 'female gonopore position'
+		 [61] 'renal opening of 2nd antennal coxa with beak-like structure'
+		 [62] 'maxilliped 3 form'
+		 [63] 'maxilliped 3 much longer than wide'
+		 [64] 'maxillped 3 with two planes'
+		 [65] 'maxilliped 3 with crista dentata'
+		 [66] 'maxilliped 3 coxae'
+		 [67] 'palp of maxilliped 3 merus, position'
+		 [68] 'palp of maxilliped 3 merus'
+		 [69] 'pereopods 2-4 form'
+		 [70] 'pereopod 5 hidden in gill chamber'
+		 [71] 'coxa of all pereopods at same level'
+		 [72] 'if not all coxae of pereopods at same level'
+		 [73] 'pereopod 2'
+		 [74] 'pereopod 3'
+		 [75] 'pereopod 4'
+		 [76] 'pereopod 5'
+		 [77] 'pereopod size normal'
+		 [78] 'if not all pereopods normal'
+		 [79] 'coxae of pereopods'
+		 [80] 'male coxa p5, modification'
+		 [81] 'male coxa p5, penial tube'
+		 [82] 'pleopods of segments 3-5 in male'
+		 [83] 'male second pleopod with well-developed exopod'
+		 [84] 'external shape of eye facets'
+		 [85] 'linea anomalica'
+	;
+	STATELABELS
+		1
+		'elongate'
+		'as long as wide or wider'
+		,
+		2
+		'indistinct'
+		'distinct'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'rounded, not defined'
+		'defined'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'concave'
+		'straight to convex'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'not defined'
+		'defined'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'shallow'
+		'deep'
+		,
+		12
+		'not defined'
+		'defined'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'one'
+		'two'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'distinct'
+		'indistinct'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'distinct'
+		'indistinct'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'reaching ventral carapace'
+		'ending at anterolateral margin or before reaching it'
+		,
+		22
+		'narrow, limited by branchio-cardiac grooves'
+		'wide'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'wide'
+		'elongated, triangular'
+		,
+		26
+		'narrow'
+		'wide'
+		,
+		27
+		'indistinct ventrally'
+		'distinct ventrally'
+		,
+		28
+		'wide'
+		'narrow, reduced'
+		,
+		29
+		'not visible'
+		'visible'
+		,
+		30
+		'not clearly defined'
+		'clearly defined by grooves'
+		,
+		31
+		'process-like'
+		'wide'
+		,
+		32
+		'only lateral position'
+		'distinct axially'
+		,
+		33
+		'only lateral position'
+		'distinct axially'
+		,
+		34
+		'incomplete'
+		'complete'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'present'
+		'absent'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'paired'
+		'united'
+		,
+		44
+		'around level of pereopod 3 coxa'
+		'much anterior to pereopod 3 coxa'
+		,
+		45
+		'with margins not raised'
+		'raised'
+		,
+		46
+		'not folding'
+		'folding'
+		,
+		47
+		'visible dorsally'
+		'not visible'
+		,
+		48
+		'well developed'
+		'reduced'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'coxal spine'
+		'sternal lobe or double peg'
+		,
+		53
+		'present'
+		'absent'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'elongate, much longer than wide'
+		'about as long as wide or wider than long'
+		,
+		56
+		'present'
+		'absent'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'well developed uropods'
+		'uropodal plates'
+		,
+		59
+		'coxal'
+		'sternal'
+		,
+		60
+		'coxal'
+		'sternal'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'pediform'
+		'operculiform'
+		,
+		63
+		'present'
+		'absent'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'present'
+		'absent'
+		,
+		66
+		'large, touching each other'
+		'small, not touching each other'
+		,
+		67
+		'distal position'
+		'inner-mesial position'
+		,
+		68
+		'different plane'
+		'same level to merus'
+		,
+		69
+		'normal'
+		'wide, flattened'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'present'
+		'absent'
+		,
+		72
+		'only p5 dorsal'
+		'p4-p5 dorsal'
+		,
+		73
+		'chelate'
+		'simple'
+		,
+		74
+		'chelate'
+		'simple'
+		,
+		75
+		'simple'
+		'chelate'
+		,
+		76
+		'simple'
+		'chelate'
+		,
+		77
+		'present'
+		'absent'
+		,
+		78
+		'only p5 reduced'
+		'p4 and p5 reduced'
+		,
+		79
+		'elongate, large'
+		'short'
+		,
+		80
+		'not modified'
+		'modified'
+		,
+		81
+		'penial tube absent'
+		'penial tube present'
+		,
+		82
+		'present'
+		'absent'
+		,
+		83
+		'present'
+		'absent'
+		,
+		84
+		'square-ish'
+		'hexagonal'
+		,
+		85
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Astacidea'		                   0000000000-00-00000000000000-000000-100000---000000-000-100000000000000-00000-0000000
+	'Platykotta'		                  000000000??00-010100000??100???????01??0?????000?????????????00?????????1????????????
+	'Blepharipoda'		                0110000000-00-1101101-0000101-----00100000---100000-1011100000000000110-1100100000101
+	'Galathea'		                    0110000000-00-1101101-000110101---00100000---100000-1001100000000000010-1100100000101
+	'Chirostylus'		                 0110?00000-00-??01101-0?01101--???0?100000---100000-10111000?0000?00010-11??10000??01
+	'Callichimaera'		               0000100000-00-1101001?00?1100011110?1000?1100101100-1?010-???000010?10111100110??1?10
+	'Homolodromiidae'		             0000000101100-000000000000000000000001000100110000100011??001000000000111111110100100
+	'Goniodromitidae'		             (0,1)(0,1)(0,1)(0,1)000101100-0000000000?0???0000???010???????0?????????????????????????????????????0
+	'Prosopidae'		                  0000000101100-0000000000?????????????????????1?110??001?????????????????????????????0
+	'Tanidromitidae'		              0000000101000-0000000000??????????0?????????????????????????????????????????????????0
+	'Glaessneropsidae'		            0000000010-0110000000000????????????????????????????????????????????????????????????0
+	'Konidromitidae'		              0000000010-00-0000000000????????????????????????????????????????????????????????????0
+	'Dromiidae'		                   1111(0,1)00010-00-0(0,1)00000100000000000010010001011101101010(0,1)1(0,1)100111000000011111111001(0,1)100
+	'Dynomenidae'		                 1111100010-00-1100(0,1)0010000(0,1)000000000010001001101101(0,1)0001110011100(0,1)0000101101100100000
+	'Sphaerodromiidae'		            1111(0,1)00010-00-11(0,1)(0,1)(0,1)001000000000000100100010011011010001111001110000000111111110100000
+	'Diaulacidae'		                 1111100010-00-1101(0,1)001000010000000000100?100?10110??100?0-??????????001011??100?????0
+	'Xandarocarcinidae'		           1111100010-00-110110010000100?????0??100?????11110101?110-00?110?0??000-11??0-0?????0
+	'Basinotopidae'		               0111000010-00-00000001000000000000100100?10011001010000?11?0?10000??0?1111??110?????0
+	'Homolidae'		                   0000000101000-0001000111011000100101010101000101101011(0,1)0??000(0,1)00(0,1)10000101101100001100
+	'Latreilliidae'		               0000000000-00-000100010101100010010101010100010110101100??000000110000101101100001100
+	'Poupiniidae'		                 0000000001000-000100010101100010010101010100010110101100??0000000100001011000-0001100
+	'Mithracitidae'		               01000(0,1)(0,1)001000-000100010100100?????0?0101?????10110101100?????11001??0?1011??100?????0
+	'Etyidae'		                     1111000010-11(0,1)1101-001000010001110001100?1000101101110010-00?11011010?1111??1100????0
+	'Feldmannidae'		                1111001010-1(0,1)11111-0010(0,1)00100011100?1100?100010110111?010-00?11011010?11????1100???10
+	'Dakoticancridae'		             1101101010-00-1101(0,1)011000(0,1)10101110001(0,1)(0,1)0?1000101101110010-00?1101101001011??1010????0
+	'Ibericancridae'		              1101101010-01-11010011000010101110001100?1000101101110010-00?11011010?1111??1110????0
+	'Lyreididae'		                  01(0,1)0101010-0101111101100101100111101110001100101101111010-000101111110101100100001110
+	'Raninidae'		                   01(0,1)0101010-01111111011001011-0111101100001100(0,1)01100-10010-000101111110101100100001110
+	'Camarocarcinidae'		            1111110010-01111010111001010001110001100?????10???11?1????0??101111??010????10??????0
+	'Cenomanocarcinidae'		          1111110010-01111010111001010001110001100?1000101101111010-00?101111110101100100????10
+	'Necrocarcinidae'		             1111110010-01111010111001010001110001100?1000101101111010-00?101111??01011??100?????0
+	'Orithopsidae'		                1111100010-11111010111001010001110001100?????101101111010-00?????1???010????100?????0
+	'Palaeocorystidae'		            0111100010-01111(0,1)1(0,1)(0,1)(0,1)1001010001110001100?1000101101111010-00?10111111?1011001000????0
+	'Cyclodorippidae'		             11(0,1)(0,1)000010-(0,1)111101001100111010111100101001000101110-10010-000101111100111111111001110
+	'Cymonomidae'		                 10(0,1)(0,1)000000-00-1101001100111010111100101001000101110-10010-000101111100111111111001110
+	'Phyllotymolinidae'		           1111(0,1)00010-(0,1)111101001100011010111100101001000101100-10010-000101111100111111111001110
+	'Torynommidae'		                1000000010-00-01010001000010001110001100?????10110??10010-?0????11???01111??110?????0
+	'Componocancridae'		            1111100010-11111111011000(0,1)10101111001010?0---1011?0-1???0-?1??10?1???011????11??????0
+	'Goniochelidae'		               1111100010-11111010111000110?111110?101??0---101100-1?0?0-?1?1?011??001111??11??????0
+	'Carcinidae'		                  1111101010-1111111101100011011111001101010---111100-11010-0101101101000-11000-1001110
+	'Corystidae'		                  0111101010-1(0,1)111(0,1)1101100001011111101101010---111100-11110-0101101101000-11000-1001110
+	'Varunidae'		                   1111101010-00-1111101100011011111001101010---111100-11010-1101101101000-11000-1001110
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 85;
+      ENDBLOCK;
+      

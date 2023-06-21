@@ -1,0 +1,398 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 09.21.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Amentotaxus argotaenia'
+		'Amentotaxus formosana'
+		'Amentotaxus gladifolia'
+		'Prumnopitys amara'
+		'Prumnopitys anglica'
+		'Prumnopitys andina'
+		'Prumnopitys exigua'
+		'Prumnopitys ferruginea'
+		'Prumnopitys ferruginoides'
+		'Prumnopitys harmsiana'
+		'Prumnopitys ladei'
+		'Prumnopitys montana'
+		'Prumnopitys montana var meridensis'
+		'Prumnopitys standleyi'
+		'Prumnopitys taxifolia'
+		'Podocarpus dispermus'
+		'Podocarpus elatus'
+		'Podocarpus henckelii'
+		'Podocarpus latifolius'
+		'Podocarpus longifoliolatus'
+		'Podocarpus neriifolius'
+		'Podocarpus platyphyllus'
+		'Podocarpus salignus'
+		'Podocarpus smithii'
+		'Podocarpus travisiae'
+		'Podocarpus tzagajanicus'
+		'Sciadopitys verticillata'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=57;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Leaf arrangement'
+		 [2] 'Leaf fall'
+		 [3] 'Leaf maximum length mm'
+		 [4] 'Leaf maximum width mm'
+		 [5] 'Leaf symmetry'
+		 [6] 'Leaf curvature'
+		 [7] 'Leaf apex'
+		 [8] 'Petiole length mm'
+		 [9] 'Leaf vein number'
+		 [10] 'Midrib adaxial'
+		 [11] 'Midrib abaxial'
+		 [12] 'Abaxial leaf surface strongly white-waxy'
+		 [13] 'Adaxial epidermal cell shape'
+		 [14] 'Adaxial epidermal cell length μm'
+		 [15] 'Adaxial epidermal cell width μm'
+		 [16] 'Adaxial epidermal anticlinal walls beaded'
+		 [17] 'Adaxial epidermal anticlinal walls shape'
+		 [18] 'Abaxial epidermal cell shape'
+		 [19] 'Abaxial epidermal cell length μm'
+		 [20] 'Abaxial epidermal cell width μm'
+		 [21] 'Abaxial cell L/W ratio'
+		 [22] 'Abaxial stomate band epidermal cell length μm'
+		 [23] 'Abaxial stomate band epidermal cell width μm'
+		 [24] 'Abaxial epidermal anticlinal walls beaded'
+		 [25] 'Abaxial epidermal anticlinal walls buttressed'
+		 [26] 'Abaxial epidermal anticlinal walls shape'
+		 [27] 'Abaxial epidermal cell flanges'
+		 [28] 'Epidermal papillae'
+		 [29] 'Epidermal periclinal walls rugose'
+		 [30] 'Epidermal periclinal walls pitted'
+		 [31] 'Epidermal periclinal walls with globules'
+		 [32] 'Epidermal periclinal walls granular'
+		 [33] 'Epidermal periclinal wall sculpturing stronger abaxially'
+		 [34] 'Transverse mesophyll fibre ridges'
+		 [35] 'Adaxial stomatal band number'
+		 [36] 'Abaxial stomatal bands discontinuous'
+		 [37] 'Stomatal rows uniseriate'
+		 [38] 'Adaxial stomatal length μm'
+		 [39] 'Adaxial stomatal width μm'
+		 [40] 'Abaxial stomatal length μm'
+		 [41] 'Abaxial stomatal width μm'
+		 [42] 'Stomatal papillae'
+		 [43] 'Stomatal plug components'
+		 [44] 'Stomata amphicyclic'
+		 [45] 'Subsidiary cells radially elongated in a starlike pattern'
+		 [46] 'Two subsidiary cells'
+		 [47] 'Four subsidiary cells'
+		 [48] 'More than  subsidiary cells'
+		 [49] 'Polar cells'
+		 [50] 'Stomatal subsidiary cell papillae'
+		 [51] 'Stomatal subsidiary cell striations'
+		 [52] 'Stomatal subsidiary cell flanges'
+		 [53] 'Guard cell cuticular flanges'
+		 [54] 'Polar extensions'
+		 [55] 'Inter-guard/subsidiary cell flanges'
+		 [56] 'Florin ring groove'
+		 [57] 'Florin ring groove surface'
+	;
+	STATELABELS
+		1
+		'alternate helical'
+		'alternate two-ranked'
+		'opposite'
+		'pseudoverticillate'
+		,
+		2
+		'single'
+		'branchlets'
+		,
+		3
+		'larger than fifty'
+		'one to fifty'
+		,
+		4
+		'shorter than five'
+		'one to five'
+		,
+		5
+		'symmetrical'
+		'asymmetrical'
+		,
+		6
+		'straight'
+		'falcate'
+		,
+		7
+		'acute'
+		'mucronate'
+		'bluntly truncate'
+		,
+		8
+		'shorter than three'
+		'one to three'
+		'absent'
+		,
+		9
+		'more than one vein per leaf'
+		'one vein per leaf'
+		,
+		10
+		'plane'
+		'grooved'
+		'raised'
+		,
+		11
+		'plane'
+		'grooved'
+		'raised'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'isodiametric'
+		'irregular'
+		'rectangular'
+		,
+		14
+		'one to forty'
+		'forty one to eighty'
+		'more than eighty'
+		,
+		15
+		'one to twenty'
+		'twenty to forty'
+		'more than forty'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'straight to curved'
+		'sinuous'
+		'State 2'
+		,
+		18
+		'isodiametric'
+		'irregular'
+		'rectangular'
+		,
+		19
+		'one to forty'
+		'forty one to eighty'
+		'more than eighty'
+		'State 3'
+		,
+		20
+		'one to twenty'
+		'twenty one to forty'
+		'more than forty'
+		,
+		21
+		'less than two/one'
+		'two/one to five/one'
+		'larger than five/one'
+		,
+		22
+		'absent'
+		'one to twenty'
+		'twenty one to forty'
+		'larger than forty'
+		,
+		23
+		'absent'
+		'one to twenty'
+		'twenty one to forty'
+		'larger than forty'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'straight to curved'
+		'sinuous'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'single per side'
+		'less than one per side'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'one to forty'
+		'larger than forty'
+		,
+		39
+		'absent'
+		'one to thirty five'
+		'larger than thirty five'
+		,
+		40
+		'one to forty'
+		'larger than forty'
+		,
+		41
+		'one to thirty five'
+		'larger than thirty five'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'solid layers'
+		'rods'
+		'globular'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'occur'
+		'common'
+		,
+		47
+		'occur'
+		'common'
+		,
+		48
+		'occur'
+		'common'
+		'always'
+		,
+		49
+		'usually absent'
+		'usually present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		'State 2'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'thin'
+		'wide'
+		,
+		54
+		'short, thick'
+		'ribbonlike'
+		'State 2'
+		,
+		55
+		'slightly rolled'
+		'prominently rolled'
+		'State 2'
+		,
+		56
+		'absent'
+		'slight'
+		'prominent'
+		,
+		57
+		'smooth'
+		'striated'
+		'State 2'
+		
+	;
+	MATRIX
+	'Amentotaxus argotaenia'		                      20(0,1)000001201111001220220000100000100100111?01011010000000
+	'Amentotaxus formosana'		                       200000001201111001220220000100000100100111?01011010000000
+	'Amentotaxus gladifolia'		                      200000001201111001220220000100000100100110?01011010000000
+	'Prumnopitys amara'		                           000000001120222022311110001001010001000100110111001102200
+	'Prumnopitys anglica'		                         ?00001021120220(0,1)0231111(0,1)001011000001000111?10001010000021
+	'Prumnopitys andina'		                          001100111020210022301100011011000001000110110210001112211
+	'Prumnopitys exigua'		                          111110011120210022301000011011000001000100110010100111110
+	'Prumnopitys ferruginea'		                      111111111200200022211110111000000001000110110011001102221
+	'Prumnopitys ferruginoides'		                   011111011000111001311110001000010001000110110010101101121
+	'Prumnopitys harmsiana'		                       011111111200210012301100011011100001022110(1,2)10111001112121
+	'Prumnopitys ladei'		                           111111011200100011201000011001000001000000110211001112212
+	'Prumnopitys montana'		                         111110111120211021311110011011010001011100110011101112221
+	'Prumnopitys montana var meridensis'		          111110111120200002301000001001001001000110110210001102111
+	'Prumnopitys standleyi'		                       111110111120210000301000001001010001000000110211002112220
+	'Prumnopitys taxifolia'		                       00111111120020002220100001100101000102110011011100(1,2)112110
+	'Podocarpus dispermus'		                        000000101200211112212110010000011001000100010111101112110
+	'Podocarpus elatus'		                           0000000012002(0,1)(0,1)102(0,1)02101010000000020100000?10012100000021
+	'Podocarpus henckelii'		                        000000001200211102(1,2)(1,2)(1,2)(1,2)(1,2)1010000000020100000?10012100000021
+	'Podocarpus latifolius'		                       000000001200(1,2)1(1,2)102(1,2)12(1,2)(1,2)1010000000020000000210012100000021
+	'Podocarpus longifoliolatus'		                  000000001200(1,2)1(1,2)00(1,2)(1,2)(1,2)(0,1)220010000000020000000?10012100000021
+	'Podocarpus neriifolius'		                      00000000120021(0,1)102011111010000000020100000?10012100000021
+	'Podocarpus platyphyllus'		                     ?000001?1??02(0,1)0(0,1)02(0,1)0110(0,1)0000000000?(0,1)100000?10012100000021
+	'Podocarpus salignus'		                         0000000012002(1,2)(1,2)1122(1,2)2210010000000020000000?10012100000021
+	'Podocarpus smithii'		                          0000000012002(0,1)(0,1)102(0,1)02101010000000020100000?10012100000021
+	'Podocarpus travisiae'		                        ?00000001??02(1,2)0112(2,3)02201011000000020100000?10012100000021
+	'Podocarpus tzagajanicus'		                     0000000?1020211012111110010100000020000000?10012100000021
+	'Sciadopitys verticillata'		                    3001002000000(0,1)(0,1)002(1,2)(0,1)1100000100000010100001?00011000100000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 57;
+      ENDBLOCK;
+      

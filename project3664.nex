@@ -1,0 +1,247 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 01.04.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Selaginella'
+		'Isoetes'
+		'Austrolycopodium'
+		'Dendrolycopodium'
+		'Diphasiastrum'
+		'Diphasium'
+		'Huperzia'
+		'Lateristachys'
+		'Lycopodiastrum'
+		'Lycopodiella'
+		'Lycopodium'
+		'Palhinhaea'
+		'Phlegmariurus'
+		'Phylloglossum'
+		'Pseudodiphasium'
+		'Pseudolycopodiella'
+		'Pseudolycopodium'
+		'Spinulum'
+		'Lycopodicaulis oellgaardii'
+		'Paurodendron stellatum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=26;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Reproductive mode'
+		 [2] 'Spore distal surface sculpture'
+		 [3] 'Spore outline in polar view'
+		 [4] 'Gametophyte paraphyses'
+		 [5] 'Gametophyte growth habit'
+		 [6] 'Gametophyte morphology'
+		 [7] 'Ligule'
+		 [8] 'Shoot stele type'
+		 [9] 'Root emergence type'
+		 [10] 'Relative diameter of shoot stele'
+		 [11] 'Mucilage canals in sporophyll base'
+		 [12] 'Sporangium epidermis cell wall lignification'
+		 [13] 'Sporangium epidermis wall cell shape'
+		 [14] 'Shoot branching type'
+		 [15] 'Sporophyll attachment position'
+		 [16] 'Sporophyll persistence'
+		 [17] 'Presence of gemmae'
+		 [18] 'Isophylly/anisophylly'
+		 [19] 'Growth habit'
+		 [20] 'Aerenchyma in stems'
+		 [21] 'Microphyll symmetry'
+		 [22] 'Shoot elongation'
+		 [23] 'Tree-like branching'
+		 [24] 'Phyllotaxy'
+		 [25] 'Microphyll pubescence'
+		 [26] 'Microphyll apex'
+	;
+	STATELABELS
+		1
+		'plants homosporous, with a unimodal distribution of spore sizes, sporangia all of the same type'
+		'plants heterosporous, with a bimodal distribution of spore sizes, sporangia of two types (megasporangia and microsporangia)'
+		,
+		2
+		'distal spore surface sculpture foveolate-fossulate '
+		'distal spore surface sculpture scabrate '
+		'distal spore surface sculpture rugate '
+		'distal spore surface sculpture bacculate '
+		'distal spore surface sculpture reticulate'
+		,
+		3
+		'spore margins convex to straight and corners acute to rounded '
+		'spore margins concave and corners truncate'
+		,
+		4
+		'paraphyses present '
+		'paraphyses absent '
+		,
+		5
+		'gametophyte wholly subterranean'
+		'gametophyte wholly surficial'
+		'gametophyte initially wholly subterranean, becoming partially surficial'
+		'gametophytes endosporic'
+		,
+		6
+		'Cylindrical or conic'
+		'Disc-shaped'
+		'Endosporic, spherical'
+		'Branched'
+		,
+		7
+		'ligule absent'
+		'ligule present'
+		,
+		8
+		'actinostelic protostele'
+		'plectostelic protostele'
+		'siphonostele'
+		'Selaginellaean type suspended protostele'
+		'Isoetalean type protostele'
+		,
+		9
+		'roots adventitious, with corticular emergence'
+		'roots adventitious, without corticular emergence'
+		'roots emerging from rhizophore'
+		'roots emerging from rhizomorph'
+		,
+		10
+		'stele occupying > 1/3 total stem diameter'
+		'stele occupying < 1/3 total stem diameter'
+		,
+		11
+		'mucilage canal in sporophyll base absent'
+		'mucilage canal in sporophyll base present'
+		,
+		12
+		'sporangium epidermal cells with walls thick and lignified '
+		'sporangium epidermal cells with walls thin and non-lignified'
+		,
+		13
+		'sporangial cell walls sinuate'
+		'sporangial cell walls non-sinuate'
+		,
+		14
+		'shoots unbranched'
+		'shoots dichotomic-isotomously branched'
+		'shoots dichotomic-anisotomously branched'
+		,
+		15
+		'sporophylls basally attached'
+		'sporophylls subpeltate/peltate'
+		,
+		16
+		'sporophylls persistent, green following dehiscence of sporangia'
+		'sporophylls deciduous, senescing following dehiscence of sporangia'
+		,
+		17
+		'gemmae present'
+		'gemmae absent'
+		,
+		18
+		'Plants isophyllous'
+		'Plants anisophyllous '
+		,
+		19
+		'aquatic'
+		'terrestrial'
+		'epiphytic'
+		,
+		20
+		'aerenchyma/air canals present'
+		'aerenchyma/air canals absent'
+		,
+		21
+		'Microphylls dorsiventrally flattened from proximal to distal end of the leaf lamina'
+		'Microphylls dorsiventrally flattened near the proximal end but becoming terete near the middle length of the leaf lamina'
+		'Microphylls terete along its entire leaf lamina'
+		,
+		22
+		'lycophylls borne on an elongate shoot (space visible between alternating lycophyll sub-whorls'
+		'lycophylls borne on reduced shoot appearing tufted (no space visible between sub-whorls of lycophylls).'
+		,
+		23
+		'Plants lacking tree-like branching'
+		'Plants with tree-like branching'
+		,
+		24
+		'leaves arranged in a subwhorl'
+		'leaves (sub-)opposite, decussate'
+		'leaves alternate, spirally arranged, in 3-5 ranks'
+		'leaves alternate, spirally arranged, in 6-8 ranks'
+		'leaves alternate, spirally arranged, in 9-11 ranks'
+		'leaves alternate, spirally arranged, in > 11 ranks'
+		,
+		25
+		'microphylls glabrous'
+		'microphylls pubescent'
+		,
+		26
+		'microphyll apices rounded to acute, without an apical projection'
+		'microphyll apices acute to acuminate, spinulose'
+		'microphyll apices acute, with long, scariose, hairlike projection'
+		
+	;
+	MATRIX
+	'Selaginella'		                         1??13213210112(0,1)01(0,1)1000020(0,1)
+	'Isoetes'		                             1??132143101100010(0,1)0110000
+	'Austrolycopodium'		                    04010001100102111011100400
+	'Dendrolycopodium'		                    04010101101102111011101300
+	'Diphasiastrum'		                       04010001101102111111001(1,2)00
+	'Diphasium'		                           04010001101102111111000200
+	'Huperzia'		                            00100000010001000011000(3,4)00
+	'Lateristachys'		                       02011301101112111011000200
+	'Lycopodiastrum'		                      01010?01101102111011000200
+	'Lycopodiella'		                        02011301101112111010000(4,5)00
+	'Lycopodium'		                          04010101101102111011000402
+	'Palhinhaea'		                          02011301101112111011001(3,4)10
+	'Phlegmariurus'		                       00000(0,3)000100010010(1,2)1000(1,3,5)00
+	'Phylloglossum'		                       00002102010000011011210000
+	'Pseudodiphasium'		                     04010?01100102111111000300
+	'Pseudolycopodiella'		                  02011301101112111(0,1)10(0,1)00(2,3,4)00
+	'Pseudolycopodium'		                    03010101101102111011001300
+	'Spinulum'		                            04010101101102111011100301
+	'Lycopodicaulis oellgaardii'		          0?????0110???2???011100300
+	'Paurodendron stellatum'		              1??1??1030???2???011100200
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The presence of a homosporous reproductive mode/life cycle is a synapomorphy of the Lycopodiaceae, and heterospory is a synapomorphy of Isoetaceae+Selaginellaceae. This character is determined by the distribution of spore size and the presence or absence of mega- and microsporangia. This character has two discrete and qualitative states, defined as follows:';
+	TEXT CHARACTER=2 TEXT='We do not consider the spores of Selaginella and Isoetes homologous to the spores of Lycopodiaceae. Five types of surface sculpture have been reported in the Lycopodiaceae. Foveolate-fossulate spores are reported for Huperzia, Phylloglossum, and Phlegmariurus. Rugulate spores are reported for Lycopodiella, Palhinhaea, Pseudolycopodiella, and Lateristachys. Reticulate spores occur in most species subfamily Lycopodioideae, but there are some exceptions: bacculate spores are reported for Pseudolycopodium densum and scabrate spores are known in for a Lycopodiastrum casuarinoides. This character is qualitative with five discrete states defined as follows sensu Wilce (1972):';
+	TEXT CHARACTER=3 TEXT='We do not consider the spores of Selaginella and Isoetes homologous to the spores of Lycopodiaceae. Two polar-view spore-outline shapes have been reported in the Lycopodiaceae: spores with straight to convex lateral margins and acute to rounded corners have been reported for members of subfamilies Lycopodielloideae and Lycopodioideae, as well as in Phylloglossum and Phlegmariurus. Spores with concave lateral margins and truncate corners has been reported for Huperzia. This character is qualitative and discrete with two states defined as follows: ';
+	TEXT CHARACTER=4 TEXT='The presence or absence of paraphyses among the gametangia on the dorsal surface cap of the gametophyte has been considered an important character that distinguishes members of subfamily Huperzioideae from members of the subfamilies Lycopodioideae and Lycopodielloideae. This character is discrete and qualitative with two states defined as follows: ';
+	TEXT CHARACTER=5 TEXT='The growth habit of gametophytes differs among members of the Lycopodiaceae. Members of subfamily Lycopodioideae and genera Phlegmariurus and Huperzia (subfamily Huperzioideae) are subterranean for the entirety of their life cycle, whereas members of subfamily Lycopodielloideae are surficial for the entirety of their life cycle. Phylloglossum exhibits an intermediate growth habit: it germinates underground but becomes partially surficial for a portion of its life cycle. This character is discrete and qualitative, with four states defined as:';
+	TEXT CHARACTER=6 TEXT='Gametophyte morphology varies considerably across extant lycophytes. Selaginellaceae and Isoetaceae have spherical gametophytes that are endosporic. Within Lycopodiaceae, all gametophytes are non-spherical and exosporic; morphology varies considerably across and within subfamilies. Members of subfamily Huperzioideae generally have cylindric or conic gametophytes, though branched gametophytes occur in some Phlegmariurus and the gametophyte of Phylloglossum is disc-shaped. Gametophytes of subfamily Lycopodielloideae are branched, whereas gametophytes of subfamily Lycopodioideae are either disc-shaped or cylindrical/conic. This character is discrete and qualitative, with four character states.';
+	TEXT CHARACTER=7 TEXT='The presence or absence of a ligule on the adaxial leaf surface separates the Lycopodiaceae from Isoetaceae+Selaginellaceae. Lycopodiaceae lack a ligule, whereas both Isoetaceae and Lycopodiaceae possess a ligule. This character is discrete and qualitative, with two states defined as:^n^n';
+	TEXT CHARACTER=8 TEXT='Actinostelic: in this type of protostele, the vascular tissues (mainly xylem) are arranged in a lobed central xylem pole (star-shaped).^nPlectostelic: in this type of protostele, the vascular tissues (mainly xylem) are arranged in numerous xylem poles more or less parallel to each other (plate-like shaped).^nSiphonostele: in this type of stele, the xylem core presents a parenchymatous pith.^nSelaginellaean protostele: in this type of protostele, the xylem is present in the center and surrounded by phloem on all sides. The stele remains suspended in the core by trabeculae (endodermis).^nIsoetalean protostele: in this type of protostele, the vascular bundles are embedded in a very thin-walled parenchymatic tissue. ';
+	TEXT CHARACTER=9 TEXT='The roots of lycophytes emerge in four principal ways. Roots of members of the Selaginellaceae emerge from a specialized structure called a rhizophore. Roots of Isoetaceae emerge from a specialized structure called a rhizomorph. Roots of members of Lycopodiaceae subfamily Huperzioideae have roots that pass through cortex of the stem and emerge at the stem base; members of subfamilies Lycopodioideae and Lycopodielloideae have roots that are non-corticular. This character is qualitative and discrete, with four character states, defined as: ';
+	TEXT CHARACTER=10 TEXT='Two distinct stele sizes are reported for members of the Lycopodiaceae. Members of subfamily Huperzioideae have steles that are very small in relation to the diameter of the stem as a whole, generally 1/20-1/4 the total stem diameter. Members of subfamilies Lycopodioideae and Lycopodielloideae are relatively larger, occupying 1/3-1/2 of the total stem diameter. The diameter of shoot stele was measured in the middle length of the stem. This character is discrete, with two quantitative states, as follows: ';
+	TEXT CHARACTER=11 TEXT='The presence of mucilage canals in the base of sporophylls varies across the Lycopodiaceae. These canals are absent in members of subfamily Huperzioideae and the genera Austrolycopodium and Pseudodiphasium in subfamily Lycopodioideae. They are present in members of subfamily Lycopodielloideae and the remaining genera of subfamily Lycopodioideae. The character is discrete and qualitative, with two states defined as follows: ';
+	TEXT CHARACTER=12 TEXT='The thickness and lignification of cell walls in the sporangium epidermis was investigated by Ollgaard (1975) who considered there were two major types of cell walls, with thick and lignified cell walls present in members of subfamily Huperzioideae and thin non-lignified cell walls present in subfamilies Lycopodioideae and Lycopodielloideae This character was scored sensu Ollgaard (1975) and Ollgaard (1987) with two qualitative states as follows: ';
+	TEXT CHARACTER=13 TEXT='The shape of the cell walls in the sporangium epidermis was investigated by Ollgaard (1975). Members of subfamily Lycopodielloideae have cells with side walls that are straight, whereas members of subfamilies Huperzioideae and Lycopodioideae have cells with sinuate side walls. This character was scored sensu Ollgaard (1975) and Ollgaard (1987) with two discrete qualitative states as follows: ';
+	TEXT CHARACTER=14 TEXT='Shoot dichotomic branching type varies across the Lycopodiaceae and has been treated as a key character in defining major clades. Members of subfamilies Lycopodioideae and Lycopodielloideae display anisotomous branching, where one branch axis is dominant, with smaller subsidiary branches. Within subfamily Huperzioideae, Phlegmariurus and Huperzia display isotomous branching, where branching axes are equal in size and dominance. Selaginella species have anisotomous branching. Isoetes and Phylloglossum are generally unbranched. This character is discrete and qualitative, with three states, defined as follows: ';
+	TEXT CHARACTER=15 TEXT='The position of sporophyll attachment has been used to define clades within the Lycopodiaceae (Ollgaard 1987; Wagner and Beitel 1992). Members of subfamily Huperzioideae have basally attached sporophylls, whereas members of subfamilies Lycopodioideae and Lycopodielloideae have sporophylls that are subpeltate (peltate in Austrolycopodium). This character is discrete and qualitative, with two states, defined as follows:';
+	TEXT CHARACTER=16 TEXT='The deciduousness vs. persistence of sporophylls following maturation and dehiscence of sporangia have previously been considered a synapomorphy for subfamilies Lycopodielloideae and Lycopodioideae by Ollgaard (1987). Members of subfamily Huperzioideae have persistent sporophylls. This character is discrete and qualitative, with two states, defined as follows: ';
+	TEXT CHARACTER=17 TEXT='The presence of specialized short shoots that abscise and form new plants is a synapomorphy for the genus Huperzia; this structure is not found in any other known lycophyte. This character is discrete and qualitative, with two states, defined as follows: ';
+	TEXT CHARACTER=18 TEXT='In some lycophyte genera, there is conspicuous differentiation among leaves in different phyllotactic positions (i.e., leaves in certain ranks are morphologically distinct from those in other ranks). Anisophylly is found in most Selaginella, most Diphasiastrum, most Pseudolycopodiella, Diphasium, and Pseudodiphasium. The remaining genera are isophyllous. Although the extent and arrangement of leaf differentiation in anisophyllous genera vary, we consider this character to be discrete and qualitative, with two states, defined as follows:';
+	TEXT CHARACTER=19 TEXT='Lycophytes display a diversity of growth habits, with species growing terrestrially, aquatically, and epiphytically. Taxa were scored by the habit they most frequently occupy. This character is discrete and qualitative, with three character states, defined as follows: ';
+	TEXT CHARACTER=20 TEXT='Aerenchyma or analogous air canals are found in the stems of some species, notably Lycopodiella, Pseudolycopodiella, Selaginella, and Isoetes. This character state is discrete and qualitative, and has two character states, defined as follows: ';
+	TEXT CHARACTER=21 TEXT='In some genera, the microphyll symmetry changes along its axis (proximally to distally), with leaves that are dorsiventrally flattened at the proximal end to terete near the middle length. This character is discrete and qualitative, with four states, defined as follows: ';
+	TEXT CHARACTER=22 TEXT='Shoot elongation: Lycopodiopsids generally have shoots with sub-whorls of ranked lycophylls spaced along an elongate stem. Two exceptions have been reported, all members of the family Isoetaceae and the monospecific Phylloglossum in the Lycopodiaceae, both of which have clustered lycophylls on a short shoot. This shoot form has been traditionally interpreted as reduced (Bower, 1885; Huang and Chengzhong, 2010; Kenrick and Crane, 1997; Wikström and Kenrick, 1997). This discrete and qualitative character was defined as follows:';
+	TEXT CHARACTER=23 TEXT='Some Lycopodiaceae possess vertical shoots with lateral branching that gives a tree-like aspect. This is present in the genera Palhinhaea, Dendrolycopodium, Diphasiastrum, and Pseudolycopodium. This character is defined as discrete and qualitative, with two states, as follows: ';
+	TEXT CHARACTER=24 TEXT='Microphyll arrangement varies conspicuously across lycophyte lineages. In some taxa, the stem axis is shortened so conspicuously that although leaves are arranged in a spiral, they are essentially in a sub-whorl. In others, leaves range from being decussate (Diphasiastrum) to being alternate in a regular spiral phyllotactic series ranging from 3 to ~12 ranks. This character is measured in the middle part of the stem. This character is discrete and quantitative, with 6 states: ';
+	TEXT CHARACTER=25 TEXT='Some lycophytes possess minute, often unicellular hairs on their microphylls. The position and morphology of these hairs vary; we define the character as being discrete and qualitative, with two states: ';
+	TEXT CHARACTER=26 TEXT='Microphyll apex shape varies across lycophytes and can be used to define some clades. Some Selaginellaceae and Lycopodiaceae possess either spinulose microphyll apices or hairlike projections at the apices of their microphylls. We score this character as discrete and qualitative, with three states: ';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 26;
+      ENDBLOCK;
+      

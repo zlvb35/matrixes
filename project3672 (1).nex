@@ -1,0 +1,337 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 01.08.27 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=11;
+    TAXLABELS
+    		'Lissomus spp.'
+		'Cussolenis mutabilis'
+		'Pterotarsus bimaculatus'
+		'Balgus rugosus'
+		'Balgus obconicus'
+		'Balgus eschscholtzi'
+		'Balgus schnusei'
+		'Balgus tuberculosus'
+		'Balgus eganensis'
+		'Balgus humilis'
+		'Balgus albofasciatus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=54;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Subantenal groove on the head'
+		 [2] 'Antennomeres VI–X, in male'
+		 [3] 'Exposure of the larger portion of the labrum in relation to clypeus'
+		 [4] 'Prosternal chin-piece'
+		 [5] 'Pronotal tubercles'
+		 [6] 'Exposure degree of lateral thoracic sclerites'
+		 [7] 'Tibial dorsal depression where the tarsus fits, and tibia shape'
+		 [8] 'Number of apical spurs on protibia'
+		 [9] 'Body vestiture'
+		 [10] 'Apical tooth on parameres'
+		 [11] 'Length of the apical region of the median lobe in relation to the length of the basal region of the phallobasis'
+		 [12] 'Sclerotization of ovipositor'
+		 [13] 'Ratio between the length and width of VIII female sternite'
+		 [14] 'Sclerotization of bursa copulatrix'
+		 [15] 'Shape of prosternal process, in ventral view'
+		 [16] 'Head'
+		 [17] 'Eye shape in lateral view'
+		 [18] 'Color of antennal rami'
+		 [19] 'Antennal rami and their setae in males'
+		 [20] 'Longitudinal median anterior depression of the head'
+		 [21] 'Extension of longitudinal median anterior depression of the head'
+		 [22] 'Depth of longitudinal median anterior depression of the head'
+		 [23] 'Projection of prosternal chin-piece'
+		 [24] 'Localization of antennal pocket'
+		 [25] 'Pronotal tubercles - 2'
+		 [26] 'Anterior pronotal tubercle'
+		 [27] 'Posterolateral rounded pronotal tubercle'
+		 [28] 'Short and oblique carina on posterior angle of pronotum'
+		 [29] 'Pronotal median longitudinal groove'
+		 [30] 'Extension of pronotal median longitudinal groove'
+		 [31] 'Extension of antennal pocket'
+		 [32] 'Depth of antennal pocket next to the basal region of the prosternal process'
+		 [33] 'Elytral tubercles'
+		 [34] 'Surface of the scutellum'
+		 [35] 'Distance between mesocoxal cavities'
+		 [36] 'Coloration of the apical third of the elytra'
+		 [37] 'Large black band on the basal two third of elytra'
+		 [38] 'Number of longitudinal nervures on basal elytra'
+		 [39] 'Format of ventrite 5'
+		 [40] 'Longitudinal median carina of ventrite 5'
+		 [41] 'Number of longitudinal teeth on the longitudinal median carina of ventrite 5'
+		 [42] 'Ventrite 5 apex format'
+		 [43] 'Body vestiture density'
+		 [44] 'Ratio of the prothorax’ height in relation to the elytra’s and mesothorax’ height'
+		 [45] 'Body shape'
+		 [46] 'Paramere setae'
+		 [47] 'Density of paramere setae'
+		 [48] 'Constriction on approximately half the length of the paramere'
+		 [49] 'Paramere apex format'
+		 [50] 'Ratio between the length of the phallobasis in relation to the length of paramere'
+		 [51] 'Concavity of the phallobasis, in dorsal view'
+		 [52] 'Ratio of the length of the baculum in relation to the lenght of the coxite'
+		 [53] 'Degree of separation between the baculum'
+		 [54] 'Coxite setae in ventral side'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'serrate'
+		'flabellate'
+		,
+		3
+		'exposed'
+		'hidden under the clypeus (apex is occasionally visible)'
+		,
+		4
+		'inconspicuous, little distinct'
+		'conspicuous and very distinct'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'hidden under the elytra'
+		'partially visible'
+		,
+		7
+		'absent and tibia not expanded and flattened dorsoventrally'
+		'present and tibia strongly expanded and flattened dorsoventrally'
+		,
+		8
+		'two'
+		'zero'
+		,
+		9
+		'equally distributed'
+		'forming patterns on the elytra as well as on the pronotum'
+		,
+		10
+		'present'
+		'absent'
+		,
+		11
+		'almost the same lenght'
+		'apical region of the median lobe at least twice as long as the basal region of phallobasis'
+		,
+		12
+		'partly weakly sclerotized'
+		'entirely sclerotized'
+		,
+		13
+		'about as wide as long'
+		'much longer than wide'
+		,
+		14
+		'weakly sclerotized, with one or more small sclerites'
+		'strongly sclerotized, with one or more large sclerotization regions'
+		,
+		15
+		'high, bifid'
+		'uniformly curved, following procoxa, with short apex, not bifid'
+		,
+		16
+		'prognathous'
+		'hipognathous'
+		,
+		17
+		'spherical surface, dorsal margin not sinuous'
+		'corrugated surface, dorsal margin sinuous'
+		,
+		18
+		'black'
+		'yellow'
+		'brown, yellow at the apex'
+		,
+		19
+		'the same size as in the female'
+		'significantly longer in males than in females'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'not extend to the vertex, which is replaced by a thin line'
+		'continues posteriorly on a longitudinal groove on the vertex, not V-shaped'
+		'continues posteriorly on a longitudinal groove on the vertex, V-shaped'
+		,
+		22
+		'very deep and conspicuous'
+		'weak and inconspicuous'
+		,
+		23
+		'slightly oblique'
+		'clearly oblique'
+		,
+		24
+		'located mesally in relation to the hypomeron, following only apical portion of the length of notosternal suture'
+		'located mesally in relation to hypomeron, following all the length of notosternal suture'
+		,
+		25
+		'weakly developed, diffuse margins'
+		'well developed, protruding, well defined margins'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'with no bioluminescent organ'
+		'with bioluminescent organ'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'incomplete, extends at most to the basal half'
+		'complete, extends from base to the apex or even closer to the apex'
+		,
+		31
+		'does not extend to the basal region of prosternal process'
+		'extends to the basal region of prosternal process'
+		,
+		32
+		'shallow'
+		'very deep'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'not carinate'
+		'carinate'
+		,
+		35
+		'greater than half of the diameter of mesocoxal cavity, but smaller than the total diameter of the mesocoxal cavity'
+		'greater than the diameter of mesocoxal cavity'
+		,
+		36
+		'dark brown to black'
+		'light brown to yellow (specimens with all black cuticle was coded as “0”)'
+		'light brown to yellow (specimens with all black cuticle were coded as “?”)'
+		,
+		37
+		'absent'
+		'present (specimens with all black cuticle were coded as “1”)'
+		'present (specimens with all black cuticle were coded as “?”)'
+		,
+		38
+		'zero'
+		'four'
+		'five'
+		,
+		39
+		'triangular'
+		'pentagonal'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'zero'
+		'one'
+		'two'
+		'three'
+		'four'
+		'five'
+		,
+		42
+		'acuminate'
+		'truncate and without curved apex'
+		'abruptly truncate and curved at apex'
+		,
+		43
+		'dorsal and ventral region covered with few setae, short, sparse'
+		'dorsal and ventral region covered with pubescence, moderately dense on head and pronotum, sparse on elytra'
+		'Dorsal and ventral region of the head and pronotum covered with moderately dense pubescence, most densely covered on elytral bands'
+		'Body entirely covered with pubescence, very dense'
+		,
+		44
+		'approximately the same'
+		'prothorax’ height clearly shorter than the elytra’s and mesothorax’ height'
+		,
+		45
+		'flattened dorsoventrally'
+		'subcylindrical'
+		'cylindrical'
+		'obconical'
+		,
+		46
+		'present'
+		'absent'
+		,
+		47
+		'six or more setae'
+		'at most three setae'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'acuminate'
+		'rounded'
+		,
+		50
+		'phallobasis around 2.5–3 times as long as the paramere'
+		'phallobasis approximately 1.5–2 times as long as paramere'
+		'phallobasis approximately as long as paramere'
+		,
+		51
+		'limited to the base of the phallobasis'
+		'expanded from the base to the apex, reaching the limit of the parameres'
+		,
+		52
+		'baculum approximately 4–5.5 times as long as the coxite'
+		'baculum approximately 6–6.5 times as long as coxite'
+		,
+		53
+		'separated by approximately the width of the baculum itself'
+		'separated by approximately two times the width of the baculum itself'
+		'separated by approximately three times the width of the baculum itself'
+		,
+		54
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Lissomus spp.'		                    10110001001100000000??00?0?00?0?00101000?0000000020000
+	'Cussolenis mutabilis'		             01000010000001110000??10?0?0100?00001000?0001000020000
+	'Pterotarsus bimaculatus'		          01000011011110110100??11?0?0101000001201(3,4)11010000?0???
+	'Balgus rugosus'		                   010010111111101101111111010011110000020111302000000100
+	'Balgus obconicus'		                 0100101111111011021110111100111010011210?0113000000???
+	'Balgus eschscholtzi'		              01001011111110110111111100?0111101000001(3,4)1201000121110
+	'Balgus schnusei'		                  010011111111101112111011111011101001000101011000010021
+	'Balgus tuberculosus'		              01001011111110110(1,2)1110111100111111000201(2,3)2101000011000
+	'Balgus eganensis'		                 010010111111101101111011110011101100020121111000000???
+	'Balgus humilis'		                   0100101111111011021120111100111011011201(1,3,4,5)1111010010000
+	'Balgus albofasciatus'		             0100101111111011011101110101111000000101(3,4)12011?1001100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 54;
+      ENDBLOCK;
+      

@@ -1,0 +1,889 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 07.26.24 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Papio'
+		'Colobus'
+		'Hylobates'
+		'Pongo pygmaeus'
+		'Gorilla gorilla'
+		'Pan troglodytes'
+		'Sahelanthropus tchadensis'
+		'Ardipithecus ramidus'
+		'Australopithecus anamensis'
+		'Australopithecus afarensis'
+		'Kenyanthropus platyops'
+		'Australopithecus garhi'
+		'Australopithecus africanus'
+		'Paranthropus aethiopicus'
+		'Paranthropus robustus (other sites)'
+		'Paranthropus robustus (drimolen)'
+		'Paranthropus boisei'
+		'Homo habilis'
+		'Homo rudolfensis'
+		'Homo ergaster'
+		'Homo sapiens'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=109;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'SG1. Projection of nasal bones above frontomaxillary suture'
+		 [2] 'SG2. Inferior orbital margin rounded'
+		 [3] 'SG3. Infraorbital foramen location'
+		 [4] 'SG4. Anterior Pillars'
+		 [5] 'SG5. Nasoalveolar clivus contour in coronal plane'
+		 [6] 'SG6. Protrusion of incisor alveoli beyond bicanine line basal view'
+		 [7] 'SG7. Nasal cavity entrance'
+		 [8] 'SG8. Palate thickness'
+		 [9] 'SG9. Height of the masseter origin'
+		 [10] 'SG10. M L thickness of zygomatic arch at root of frontal process'
+		 [11] 'SG11. Anterior projection of zygomatic bone relative to piriform aperture dishing'
+		 [12] 'SG12. Anterior palatal depth'
+		 [13] 'SG13. Index of palate protrusion anterior to sellion facial prognathism'
+		 [14] 'SG14. Masseteric position relative to sellion'
+		 [15] 'SG15. Maxillary trigon'
+		 [16] 'SG16. Cranial capacity'
+		 [17] 'SG17. Cerebellar morphology'
+		 [18] 'SG18. O M sinus present in high frequency'
+		 [19] 'SG19. Anteromedial incursion of the superior temporal lines, at least in presumptive males'
+		 [20] 'SG20. Sagittal crest present at least in presumptive males'
+		 [21] 'SG21. Compound T N crest at least in presumptive males'
+		 [22] 'SG22. Asterionic notch'
+		 [23] 'SG23. Parietal overlap of occipital at asterion at least in males'
+		 [24] 'SG24. Squamosal suture overlap extensive at least in males'
+		 [25] 'SG25. Lateral inflation of mastoid process relative to supramastoid crest'
+		 [26] 'SG27. Pneumatization of temporal squama'
+		 [27] 'SG28. Facial hafting'
+		 [28] 'SG29. Supraglenoid gutter width'
+		 [29] 'SG30. External cranial base flexion'
+		 [30] 'SG31. Horizontal distance between TMJ and upper M2 M3'
+		 [31] 'SG32. Relative depth of mandibular fossa'
+		 [32] 'SG33. Postglenoid process size'
+		 [33] 'SG34. Configuration of tympanic'
+		 [34] 'SG35. Medio lateral position of external auditory meatus'
+		 [35] 'SG36. Vaginal process'
+		 [36] 'SG37. Eustachian process of tympanic'
+		 [37] 'SG38. Petrous orientation'
+		 [38] 'SG39. Heart shaped foramen magnum'
+		 [39] 'SG40. Inclination nuchal plane'
+		 [40] 'SG41. Position of foramen magnum relative to bi tympanic line'
+		 [41] 'SG42. Inclination of foramen magnum'
+		 [42] 'SG43. Origin of digastric muscle'
+		 [43] 'SG44. Mandibular cross sectional area at M1'
+		 [44] 'SG45. Orientation of mandibular symphysis'
+		 [45] 'SG46. Direction of mental foramen opening'
+		 [46] 'SG47. Hollowing above and behind mental foramen'
+		 [47] 'SG48. Width of mandibular extramolar sulcus'
+		 [48] 'SG49. Mandibular deciduous canine shape'
+		 [49] 'SG50. Incisal Reduction'
+		 [50] 'SG51. Canines reduced'
+		 [51] 'SG52. Prominence of median lingual ridge of mandibular canine'
+		 [52] 'SG53. Premolar crown area'
+		 [53] 'SG54. Molar crown area'
+		 [54] 'SG56. Distal marginal ridge of upper dM2'
+		 [55] 'SG57. Positions of buccal and lingual cusps relative to crown margin states as for mandibular teeth reverse for maxillary teeth'
+		 [56] 'SG58. Frequency of well developed lower P3 metaconid'
+		 [57] 'SG59. Relative enamel thickness'
+		 [58] 'SG60. Dental development rate'
+		 [59] 'SG61. Mesiobuccal protrusion of P3 crown base'
+		 [60] 'SG62 (=CW86). Orientation of mandibular premolar row dental arcade shape'
+		 [61] 'SG63. Parietal Tuber'
+		 [62] 'SG64. Parietomastoid angle'
+		 [63] 'SG65. External auditory meatus size'
+		 [64] 'SG66. Separation of mandibular tooth rows'
+		 [65] 'SG67. Configuration of the superior orbital fissure'
+		 [66] 'SG68. Size of Longus capitis insertion'
+		 [67] 'SG69. Height of articular eminence above occlusal plane'
+		 [68] 'SG70 (=CW 38). Extensive mesial groove on upper canine'
+		 [69] 'MSG 1. Supraorbital Hollowing'
+		 [70] 'CW1. Depth of subarcuate fossa'
+		 [71] 'CW2. Orientation and length of the post incisive planum'
+		 [72] 'CW3. Distinctiveness of angular process of mandible'
+		 [73] 'CW17. Presence absence of frontal sinus'
+		 [74] 'CW19. Position of infraorbital foramen relative to orbit'
+		 [75] 'CW20. Orientation of zygomatic bone'
+		 [76] 'CW22. Glabellar prominence relative to sella'
+		 [77] 'CW25. Supraorbital Expression'
+		 [78] 'CW26. Supraorbital contour'
+		 [79] 'CW32. Position of zygomatic foramina'
+		 [80] 'CW35. Patency of premaxillary suture in adults from frontal view'
+		 [81] 'CW36. Petrous apex ossified beyond spheno occipital synchondrosis'
+		 [82] 'CW40. Upper I2 similar in shape to upper I1'
+		 [83] 'CW41. Robustucity of canines'
+		 [84] 'CW42. Basal keel of lower canine'
+		 [85] 'CW43. Basal area of paracone of P3'
+		 [86] 'CW46. Metaconid of lower dp3'
+		 [87] 'CW48. Talonid basin of lower dp3'
+		 [88] 'CW50. Distal trigonid crest on lower dp4'
+		 [89] 'CW52. Protocone of upper dp3 in occlusal view'
+		 [90] 'CW54. Crista obliqua of upper dp4'
+		 [91] 'CW59. Insertion of genioglossus'
+		 [92] 'CW60. Insertion of geniohyoideus'
+		 [93] 'CW61. Insertion of digastric'
+		 [94] 'CW64. Condylar canal'
+		 [95] 'CW76. Fovea posterior'
+		 [96] 'CW78. Mandibular corpus depth along tooth row'
+		 [97] 'CW89. Upper I1 lingual crenulations'
+		 [98] 'KRJ 6. Relative height of vertex'
+		 [99] 'KRJ 11. Midfacial prognathism'
+		 [100] 'KRJ 13. Position zygomatic angle'
+		 [101] 'KRJ 25. Interorbital width'
+		 [102] 'KRJ 34. Anterior pole shape'
+		 [103] 'KRJ 36. Supraorbital corner'
+		 [104] 'KRJ 58. Nuchal plane form'
+		 [105] 'KRJ 66. Zygomatic frontal process lateral margin'
+		 [106] 'Martin 1 Zygomaticomaxillary Step'
+		 [107] 'Martin 2 Mesial Marginal Ridge (MMR) Expression on Lower DM1'
+		 [108] 'Martin 3 Position of Protoconid Relative to Metaconid on Lower DM1'
+		 [109] 'Martin 4 Closure of the Anterior Fovea of the Lower DM1'
+	;
+	STATELABELS
+		1
+		'Project tapered'
+		'Project expanded'
+		'Not Projected'
+		'Variable'
+		,
+		2
+		'No'
+		'Variable'
+		'Yes'
+		,
+		3
+		'High'
+		'Variable'
+		'Low'
+		,
+		4
+		'Absent'
+		'Variable'
+		'Present'
+		,
+		5
+		'Convex'
+		'Straight'
+		'Concave gutter'
+		,
+		6
+		'Yes'
+		'No'
+		,
+		7
+		'Stepped overlap'
+		'Smooth overlap'
+		'Smooth no overlap'
+		'Stepped no overlap'
+		'Variable stepped with or without overlap'
+		,
+		8
+		'Thin'
+		'Thick'
+		,
+		9
+		'Low'
+		'Variable'
+		'High'
+		,
+		10
+		'Thin'
+		'Thick'
+		,
+		11
+		'Posterior'
+		'Variable Posterior Intermediate'
+		'Intermediate'
+		'Variable Intermediate Anterior'
+		'Anterior dished'
+		,
+		12
+		'Shallow'
+		'Variable'
+		'Deep'
+		,
+		13
+		'Hyper prognathic'
+		'Prognathic'
+		'Variable prog. mesog'
+		'Mesognathic'
+		'Orthognathic'
+		,
+		14
+		'At or posterior'
+		'Variable'
+		'At or anterior'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'Small'
+		'Intermediate'
+		'Large'
+		'Very Large'
+		,
+		17
+		'Lateral flare posterior protrusion'
+		'Tucked'
+		,
+		18
+		'No'
+		'Intermediate'
+		'Yes'
+		,
+		19
+		'Weak'
+		'Variable from Moderate to Weak'
+		'Moderate'
+		'Strong'
+		,
+		20
+		'Yes'
+		'No'
+		,
+		21
+		'Extensive'
+		'Variable'
+		'Partial'
+		'Absent'
+		,
+		22
+		'Present'
+		'Variable'
+		'Absent'
+		,
+		23
+		'No'
+		'Yes'
+		,
+		24
+		'Not extensive'
+		'Extensive'
+		,
+		25
+		'Not inflated'
+		'Variable'
+		'Inflated'
+		,
+		26
+		'Extensive'
+		'Variable'
+		'Reduced'
+		,
+		27
+		'Low'
+		'High'
+		,
+		28
+		'Narrow'
+		'Variable'
+		'Wide'
+		,
+		29
+		'Retroflexed'
+		'Flat'
+		'Moderate'
+		'Flexed'
+		,
+		30
+		'Long'
+		'Short'
+		,
+		31
+		'Shallow'
+		'Variable between shallow and intermediate'
+		'Intermediate'
+		'Deep'
+		,
+		32
+		'Large'
+		'Mid sized'
+		'Variable mid. small'
+		'Small'
+		,
+		33
+		'Tubular or weak crest'
+		'Variable'
+		'Crest with vertical plate'
+		'Crest with inclined plate'
+		,
+		34
+		'Medial'
+		'Variable'
+		'Lateral'
+		,
+		35
+		'Small or absent'
+		'Variable'
+		'Moderate to large'
+		,
+		36
+		'Present and prominent'
+		'Variable'
+		'Absent or slight'
+		,
+		37
+		'Sagittal'
+		'Intermediate'
+		'Coronal'
+		,
+		38
+		'Absent'
+		'Variable'
+		'Present'
+		,
+		39
+		'Extremely steep'
+		'Steeply inclined'
+		'Intermediate'
+		'Variable'
+		'Weakly inclined'
+		,
+		40
+		'Well posterior'
+		'At bi tympanic line'
+		'Variable at or anterior'
+		'Well anterior'
+		,
+		41
+		'Strongly inclined posterior'
+		'Roughly horizontal'
+		'Strongly inclined anterior'
+		,
+		42
+		'Broad shallow fossa'
+		'Deep narrow notch'
+		,
+		43
+		'Small'
+		'Variable'
+		'Large'
+		,
+		44
+		'Receding'
+		'Intermediate Variable'
+		'Vertical'
+		,
+		45
+		'Anterior'
+		'Variable'
+		'Lateral'
+		'Posterior'
+		,
+		46
+		'Present'
+		'Variable'
+		'Absent'
+		,
+		47
+		'Narrow'
+		'Variable'
+		'Wide'
+		,
+		48
+		'Apex central mesial convexity low'
+		'Apex mesial mesial convexity high'
+		,
+		49
+		'No'
+		'Moderate'
+		'Yes'
+		,
+		50
+		'No'
+		'Somewhat'
+		'Very'
+		,
+		51
+		'Prominent'
+		'Variable'
+		'Weak'
+		,
+		52
+		'Smallest'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'Largest'
+		,
+		53
+		'Smallest'
+		'State 1'
+		'State 2'
+		'Largest'
+		,
+		54
+		'Low'
+		'Variable'
+		'High'
+		,
+		55
+		'Buccal and lingual cusps approximate crown margin'
+		'Lingual cusps approximate margin buccal cusps slightly lingual to margin'
+		'Lingual cusps approximate margin buccal cusps moderately lingual to margin'
+		'Lingual cusps slightly buccal to margin buccal cusps moderately lingual to margin'
+		'Lingual cusps moderately buccal to margin buccal cusps strongly lingual to margin'
+		,
+		56
+		'Absent'
+		'Infrequent'
+		'Frequent'
+		,
+		57
+		'Thin'
+		'Variable'
+		'Thick'
+		'Hyperthick'
+		,
+		58
+		'Delayed'
+		'Intermediate'
+		'Accelerated'
+		,
+		59
+		'Strong'
+		'Moderate'
+		'Variable'
+		'Weak to absent'
+		,
+		60
+		'Parasagittal'
+		'Oblique'
+		,
+		61
+		'Absent'
+		'Present'
+		,
+		62
+		'Strong'
+		'Weak'
+		,
+		63
+		'Small'
+		'Large'
+		,
+		64
+		'Widely Separated'
+		'Narrow Separation'
+		,
+		65
+		'Foramen'
+		'Comma shaped'
+		,
+		66
+		'Large'
+		'Small'
+		,
+		67
+		'High above plane'
+		'Near the plane'
+		,
+		68
+		'Yes'
+		'No'
+		,
+		69
+		'Absent'
+		'Variable Absent to restricted midline'
+		'Restricted midline delimited depression'
+		'Restricted lateral depression'
+		'Supratoral sulcus that extends from midline laterally beyond medial third of orbit'
+		,
+		70
+		'Deep'
+		'Moderately deep to shallow'
+		'Very shallow to absent'
+		,
+		71
+		'Long weakly inclined'
+		'Intermediate'
+		'Short steeply inclined'
+		,
+		72
+		'Distinct with posterior projection'
+		'Not Distinct'
+		,
+		73
+		'Absent'
+		'Present'
+		,
+		74
+		'Foramen beneath middle third of orbital breadth'
+		'Foramen beneath medial third of orbital breadth'
+		,
+		75
+		'Frontal'
+		'Variable'
+		'Fronto lateral'
+		'Lateral'
+		,
+		76
+		'Strong projects anterior to sella'
+		'Intermediate at the level of sella'
+		'Weak recessed behind sella'
+		,
+		77
+		'Weak'
+		'Intermediate'
+		'Torus like'
+		,
+		78
+		'Arched'
+		'Variable'
+		'Less arched'
+		,
+		79
+		'At or below plane of orbital rim'
+		'Above plane of orbital rim'
+		,
+		80
+		'Patent'
+		'Variable'
+		'Obliterated'
+		,
+		81
+		'Not ossified'
+		'Ossified with projection'
+		,
+		82
+		'Dissimilar'
+		'Variable'
+		'Similar'
+		,
+		83
+		'Slender'
+		'More robust'
+		,
+		84
+		'Present'
+		'Reduced'
+		'Absent'
+		,
+		85
+		'Paracone much larger than protocone'
+		'Paracone larger than protocone'
+		'Paracone equals protocone'
+		,
+		86
+		'Absent or poorly defined'
+		'Well defined'
+		,
+		87
+		'Open distally'
+		'Closed distally'
+		,
+		88
+		'Does not reach protoconid apex'
+		'Reaches protoconid apex'
+		,
+		89
+		'Larger than paracone'
+		'Smaller than paracone'
+		,
+		90
+		'Weak'
+		'Moderate'
+		'Strong'
+		,
+		91
+		'Above inferior transverse torus'
+		'On inferior transverse torus'
+		,
+		92
+		'Basally on inferior transverse torus'
+		'Higher on inferior transverse torus'
+		'Above inferior transverse torus'
+		,
+		93
+		'Posterior to inferior transverse torus'
+		'Inferior transverse torus'
+		'Variable'
+		'Not on sympysis'
+		,
+		94
+		'Absent or infrequent'
+		'Frequently present'
+		,
+		95
+		'Absent or weak'
+		'Well developed'
+		,
+		96
+		'Shallow mesially'
+		'Constant'
+		'Variable'
+		'Deepens mesially'
+		,
+		97
+		'Absent'
+		'Marginal'
+		'Whole Surface'
+		,
+		98
+		'Low'
+		'Variable'
+		'Intermediate'
+		'High'
+		,
+		99
+		'High'
+		'Intermediate'
+		'Low'
+		,
+		100
+		'Below orbit'
+		'At or below'
+		'At orbit'
+		'At or above'
+		'Above'
+		,
+		101
+		'broad'
+		'narrow'
+		,
+		102
+		'rounded'
+		'beaked'
+		,
+		103
+		'Rounded'
+		'Variable'
+		'Squared with weak or absent tubercle'
+		'Squared with prominent tubercle'
+		,
+		104
+		'transversely convex'
+		'variable'
+		'flat'
+		,
+		105
+		'Vertical'
+		'Slightly divergent'
+		'Strongly divergent'
+		,
+		106
+		'Absent'
+		'Variable'
+		'Present'
+		,
+		107
+		'MMR Absent'
+		'MMR Slight'
+		'MMR Thick'
+		,
+		108
+		'Protoconid Mesial to Metaconid'
+		'Variable'
+		'Protoconid even with Metaconid'
+		,
+		109
+		'Open'
+		'Variable'
+		'Closed'
+		
+	;
+	MATRIX
+	'Papio'		                                        00000030000000000?200200001230000200001300002001000000100?000001001040010001220010000011100000130000110200000
+	'Colobus'		                                      20000030000010000?212200020010000021001000001021100000100?000100011000010122121010000011100000100000110200000
+	'Hylobates'		                                    20000030000010000?3122000200100100000010000010212000000000000100001001100131100110000001010100030000010200000
+	'Pongo pygmaeus'		                               3000001000020200003000000002000000000000000010200002100010000000000022110002001110101001111030012200110000000
+	'Gorilla gorilla'		                              0100000000001000002000000002102002000010001010200003200000000001000042011020220110102000021101111000013110000
+	'Pan troglodytes'		                              0000000000001000002100000000100000000010000000000000000000000000001042111020200212111000021211011111013000000
+	'Sahelanthropus tchadensis'		                    ?020??????0?3000??2?0????0???0000??000411?0?0?2?01?10?1?0??0???1??0?2????02022????01????????????2?000?3200???
+	'Ardipithecus ramidus'		                         000000?0000?10000?2?2??00000?00300001??11100000?11000?200010?000?111?21?1020??1??111101???01110110021?0?00000
+	'Australopithecus anamensis'		                   ?000010020211200??3000?00000100100????4??000100?11?11?202?100?01???1??0?110022????1121???2?20?0??2010?30?0100
+	'Australopithecus afarensis'		                   10000040000112000220000000002000000210311001101011011011202000100?11221110??2202?2122110020120011012103120100
+	'Kenyanthropus platyops'		                       ?0?011000?2232?0?0202?????0???2?00???0???????????1??0???2?????0?????????????1???????????????????????0????????
+	'Australopithecus garhi'		                       ???00000??001?00??20??????0?????????????????????21?42?1?2?3?0??????12??????022????1?2????????????????????0???
+	'Australopithecus africanus'		                   3011100020112100012032000000202120001041000111101112203220310110000112111010110112122110020110011212002210100
+	'Paranthropus aethiopicus'		                     1220211121401210003000112012100120022241??22222?11?43?423?310010110?2?1????022??1???2?????011??1??0401?222222
+	'Paranthropus robustus (other sites)'		          12222111214032101230?20?2212302322202043112222212223224232310110?101221110202002?0122110020?31021022013212222
+	'Paranthropus robustus (drimolen)'		             112221111130121010302??12011?03312201043?12231202223214232310110000122111020200210122110020?3?0310140?0210211
+	'Paranthropus boisei'		                          1010211121413200123012112112303232222243102222212225324232310110110122111010210210122110?2011111?023010220222
+	'Homo habilis'		                                 20011010000130011010210012003122211220421102221?112110122?31111001114211102020021112211002???001?012002100102
+	'Homo rudolfensis'		                             20?011000?223?02100132000200?021?0??2?4???11211?112210(1,3)2203111?0???13?10??2010?2??1?2?????011?021222000200???
+	'Homo ergaster'		                                20001010000240021?01320002003113202221412102220012210?1221311110?1114?11?0202002?21221?0??0010011021002000100
+	'Homo sapiens'		                                 2000002000024003110132000200313320222041110232002220001221311110111102211020000202122110020211011322002000100
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Description from Strait et al., (1997): ^n"Hominids vary in the pattern by which the nasal bones project above the frontomaxillary suture (Olson, 1985; Eckhardt, 1987; Walker & Leakey, 1988). Four states are recognized: (0) nasal bones extend superior to the frontomaxillary suture by means of a narrow projection (i.e., the nasal bones taper above the suture line); (1) nasal bones project above the frontomaxillary suture, widening laterally as they pass the suture line; (2) nasal bones do not project above the frontomaxillary suture; and (3) variable. The final state is observed in A. africanus. The nasals project and are expanded in Taung but they project and are superiorly tapered in Stw 505 and Sts 5. Whereas Olson (1985) suggested that the nasal bones do not project in Sts 5, Broom & Robinson (1950) have noted that they do in fact project above the suture. Pan and Gorilla are coded as having nasals that project and taper. Although Eckhardt (1987) observed morphological variants in 8% of ape crania, the dominant pattern in both genera is state 0. Our own observations confirm this. This character is treated as unordered because there seems to be an equal probability of deriving each state from any other. ^nThis character combines S&M 1 (nasion approaches glabella) and S&M 2 (location of greatest width of nasal bones). When nasion approaches glabella, the nasal bones project, but it is necessary to combine S&M 1 and S&M 2 because it is uncertain whether projecting nasal bones are homologous when the manner in which they project differs (i.e., tapered vs. expanded). Furthermore, the frontomaxillary suture is a better reference point than glabella for assessing nasal bone projection because nasion may approach glabella because of either the superior movement of nasion or the inferior migration of glabella (Clarke, 1977)."';
+	TEXT CHARACTER=2 TEXT='Description from Strait et al., (1997): ^n"Olson (1985) describes the morphology of the inferior margin of the orbit as being either rounded laterally or not rounded. Rounded lateral margins are present in A. aethiopicus and A. robustus. They are also present in a large proportion of male G. gorilla, and thus this species is coded as being variable. This character is equivalent to S&M 3."^n^nModifications by Martin et al.^n^nDNH155 exhibits clear evidence of rounding at the inferolateral margin of the orbit, associated with a swelling on the zygomatic just below the orbital margin. DNH7 lacks such obvious swelling (it has a very subtle swelling) and the margin itself is somewhat obscured by fracturing but rounding is not obviously present in comparison to other specimens that are scored as having rounding (eg OH5 and KNM-ER 406). Mongle et al 2019 did not score this character in DNH7.';
+	TEXT CHARACTER=3 TEXT='Description from Strait et al. (1997): ^n"This character is equivalent to S&M 4. However, the character is here quantified as a ratio of the distances between orbitale and the foramen, and orbitale and the root of the zygoma. A high foramen has a value of 0.5 (within the lower half). State assignments produced by this ratio corespond to those of S&M 4 except with respect to A. africanus. This is because Sts 52a possesses a low foramen whereas the foramina in all other A. africanus specimens are high. Accordingly, A. africanus is here coded as being variable. Although Skelton & McHenry (1992) noted that Sts 52a has a low foramen, they coded the species as "high". "^n^nModifications made by Strait and Grine (2004): ^n"KGA 10-525 has a high infraorbital foramen (Suwa et al., 1997), whereas all other P. boisei crania have an infraorbital foramen that pierces the lower half of the chord measured between orbitale and the root of the zygoma. Thus, this species is considered variable.^n^nModifications by Martin et al.^n^nThe foramen of DNH155 is clearly in the lower half of the zygoma. This is especially clear on the left side. On the right side there are multiple formania which complicate this assessment. The foramen in DNH7 is just in the bottom half of the zygoma. Mongle et al characteristed the position in DNH7 as being low and we do not disagree.^n';
+	TEXT CHARACTER=4 TEXT='Description from Strait et al. (1997): ^n"This character is equivalent to S&M 6, but state assignments here differ considerably from theirs. Skelton & McHenry (1992) followed Rak (1983) in accepting that pillars in A. boisei (and, by extension, A. aethiopicus) had been "obscured by infilling". This state assignment is based on a functional interpretation of australopithecine facial evolution (Rak, 1983), rather than upon strict observation. Consequently, pillars are considered to be absent in A. boisei and A. aethiopicus. Furthermore, pillars are variable in A. africanus rather than present (contra S&M 6) because they are absent in Sts 52a but present in all other relevant specimens. Finally, contrary to S&M 6, pillars are considered to be variable in H. habilis (present in Stw 53, OH 62, KNM-ER 1805; absent in KNM-ER 1813, SK 847), and absent in H. rudolfensis (KNM-ER 1470)."^n^n^nModifications made by Strait and Grine (2004): ^n"Keyser (2000: table 2) described the Drimolen skull as lacking anterior pillars. However, in the text of the paper, he (Keyser, 2000: 189) stated that "Weakly developed anterior pillars are barely visible." Moreover, he noted that the margins of the nasal aperture are rounded. Thus, we interpret this specimen as having anterior pillars, albeit ones that are weak."^n^n^nModifications by Martin et al.^n^nAnterior pillars are present in DNH155 and DNH7. Mongle had previously scored the pillars as being present in DNH7.^n';
+	TEXT CHARACTER=5 TEXT='Description from Strait et al. (1997): ^n"This character is equivalent to S&M 12. Rak (1983) describes three forms of the nasoalveolar clivus: convex, straight, and concave (=nasoalveolar "gutter"). In our definition, "straight" includes both slight concavity and slight convexity. Skelton & McHenry (1992) considered the clivus of A. aethiopicus (KNM-WT 17000) to be more concave than that in A. robustus and A. boisei. All three of these species are coded here as being concave. Furthermore (contra S&M 12), H. habilis possesses a straight clivus."^n^n^nModifications by Martin et al.^n^nThe nasoalveolar clivus is guttered and concave in coronal section in both DNH155 and DNH7. Mongle et al also considered DNH7 to have this character state. ';
+	TEXT CHARACTER=6 TEXT='Description from Strait et al. (1997): ^n"When the nasoalveolar contour protrudes, the incisors are anterior to the canines, and when there is no protrusion, the incisors are in the same coronal plane as the canines. Skelton & McHenry (1992) stated that Stw 73 lacks protrusion, and thus coded A. africanus as variable. We disagree with this assessment, and consider protrusion to be present in this and all other A. africanus specimens." ^n^nModifications by Martin et al.^n^nThe degree to which the incisors in DNH155 and DNH7 project beyond the bicanine line is compatible with variation in other taxa that has previously been considered to be non-protruding. Thus, we score p. robustus from Drimolen as ''No''. ';
+	TEXT CHARACTER=7 TEXT='Description from Strait et al. (1997): ^n"This character seems to be equivalent to S&M 10 ("distinct subnasal and intranasal components of nasoalveolar clivus"). McCollum et al. (1993) described differences in the form of the entrance to the nasal cavity in fossil hominids. A stepped entrance (state 0) is one in which there is a drop posterior to the nasoalveolar clivus. A smooth entrance is one in which the clivus grades into the nasal floor. However, a smooth entrance can be formed in two (presumably non-homologous) ways. In H. sapiens, the smooth entrance is formed by flexions in the clivus and hard palate, which do not overlap (state 3). In other hominid species that exhibit a smooth entrance, the clivus and palate ovelap considerably (state 2). State assignments follow McCollum et al. (1993: p. 97, Table 7), who differ from Skelton & McHenry (1992) regarding A. africanus, A. robustus, and A. boisei. McCollum et al. (1993) also differ from Walker et al. (1986), who characterized A. africanus as being intermediate. Furthermore, McCollum et al. (1993) characterized KNM-ER 1805 as having a smooth nasal cavity entrance, whereas Skelton and McHenry (1992) stated that it is stepped. According to McCollum et al. (1993), H. habilis is variable (state 1; smooth in Stw 53, OH 62, KNM-ER 1805; stepped in KNM-ER 1813, OH 24, SK 847)."^n^nModifications made by Strait and Grine (2004): ^n"This character refers to both the contour of the nasal cavity entrance and the degree to which the nasoalveolar clivus and palatine processes overlap. Strait et al. (1997) obtained their states for this character from McCollum et al. (1993). McCollum subsequently updated her characterizations of certain early hominid specimens (McCollum, 2000), and morphological groupings proposed by her are largely adopted here. Note that McCollum (2000) also recognized a distinction between Pan and Gorilla regarding the magnitude of vertical relief between the premaxilla and maxillary palatine processes. This distinction is not recognized here because of the possibility that the difference is a scaling phenomenon."^n^nModification by Mongle, Strait, and Grine: ^nSG7 (Nasal cavity entrance) is now coded as variable (4) for Au. afarensis based on figure 5.22 in Kimbel et al. (2004) which depicts AL 442-1 as stepped with no overlap. We also note that Haile-Selassie et al. (2015) describe 442-1 as stepped with no overlap. This state was previously stepped with overlap (0). This is a new state for SG7. ^n^nModifications by Martin et al.^n^nAlthough the midline is not perfectly preserved in DNH155 or DNH7 there is enough of the nasal floor preserved to make clear that there would have been extensive overlap between the clivus and palate and that the nasal cavity entrance would have been smooth.';
+	TEXT CHARACTER=8 TEXT='Description from Strait et al. (1997): ^n"McCollum et al. (1993: Tables 4 and 5) recorded palatal thickness posterior to the incisive fossa for a variety of extant and extinct hominoids. A palate thicker than 7 mm is found only in "robust" australopithecines. All other hominids have a thin palate (';
+	TEXT CHARACTER=9 TEXT='Description from Strait et al. (1997): ^n"Kimbel et al. (1984) measured this character as an index of zygomaticoalveolar height relative to orbitoalveolar height. With the exception of OH 5, all specimens of A. africanus, A. robustus and A. boisei had index values in excess of 56.4. All specimens of A. afarensis, H. habilis, H. rudolfensis and H. sapiens fall below 56.6. All Pan specimens were found to fall below 60, as did all but one Gorilla specimen (Kimbel, pers. comm.). Excluding the single Gorilla outlier, the range for that species is 42.2-58.5. Thus, two states are recognized with slightly overlapping ranges: state 0, a high masseter origin, with an index value in excess of 56, and state 1, a low origin, with an index value below 60. OH 5 has an index value of 47.9. Kimbel et al. (1984: footnote to Table 5) attribute this to its extraordinary facial height, and thus still consider A. boisei to have a high masseter origin.^nThis character is redundant with S&M 15 (zygomaticoalveolar crest weakly arched in frontal view). This feature was first described by Rak (1983), but Kimbel et al. (1984: p. 349) poined out that the form of the crest is a necessary correlate of masseter height, and they (1984: p. 375) recognized these features as a single character."^n^nModification by Mongle, Strait, and Grine: ^n^n"Following examination of the DNH 7 cranium, we revise two character states for Paranthropus robustus. Although the height of the masseter origin (SG 9) had been coded before as high (state 2) for P. robustus, the masseter origin is low in DNH 7. Therefore, P. robustus is now coded as exhibiting state 1 (variable) in this character. The anterior projection of the zygomatic bone relative to the piriform aperture (SG 11; "-''dishing"--) in DNH 7 also requires a change to the state coded by Strait and Grine (2004). While P. robustus was considered dished in prior analyses (previously state 3), we now regard DNH 7 to exhibit more intermediate zygomatic morphology. As such, P. robustus is coded as a new variable state (state 3, variable intermediate-anterior; anterior/dished now becomes state 4)."^n^n(Modifications by Martin et al.) With the removal on DNH7 from P. robustus (Swartkrans + Kromdraai), the character state for that taxon reverts to "high" as in Strait et al. 1997 and Strait & Grine 2004. DNH155 exhibits a high masseter origin with a relatively straight zygomatico alveolar crest, whereas DNH7 has a low masseter origin and an arched crest. Thus, P. robustus (Drimolen) is scored as being variable. ';
+	TEXT CHARACTER=10 TEXT='Description from Strait et al. (1997): ^n"Two states are recognized: (0) thin, with a thickness of less than 8 mm; and (1) thick (>8 mm). Zygomatic thickness does not simply reflect body size, because the zygomae are thin in both male and female Gorilla.^nThis character replaces S&M 13 ("robusticity of zygomatic bone"). Robusticity is usually measured as an index of breadth to height, but this did not reveal any clear taxonomic groupings among fossil hominids or African apes."^n^nModifications by Martin et al.^n^nThe arch is thick in both DNH7 and DNH155 so P. robustus (Drimolen) is coded as ''thick''. ';
+	TEXT CHARACTER=11 TEXT='Description from Strait et al. (1997): ^n"This character describes the "dishing" of the face and is equivalent to S&M 16, although they did not indicate the point of reference for their characterizations. By using the piriform aperture as a reference, three distinct morphologies are recognized: the infra-orbial plate of the zygoma is posterior to the aperture (state 0), the zygoma is at the level of the aperture (state 2), and the zygoma is anterior to the aperture. State 3 is equivalent to having a dished face. A. africanus is variable (state 1) because Sts 71 exhibits the intermediate morphology (state 2), whereas all other specimens of that species have posteriorly positioned zygomatics."^n^nModifications by Mongle, Strait, and Grine: ^n"Following examination of the DNH 7 cranium, we revise two character states for Paranthropus robustus. Although the height of the masseter origin (SG 9) had been coded before as high (state 2) for P. robustus, the masseter origin is low in DNH 7. Therefore, P. robustus is now coded as exhibiting state 1 (variable) in this character. The anterior projection of the zygomatic bone relative to the piriform aperture (SG 11; "-''dishing"--) in DNH 7 also requires a change to the state coded by Strait and Grine (2004). While P. robustus was considered dished in prior analyses (previously state 3), we now regard DNH 7 to exhibit more intermediate zygomatic morphology. As such, P. robustus is coded as a new variable state (state 3, variable intermediate-anterior; anterior/dished now becomes state 4^n^nModifications by Martin et al. ^n^n^nMongle et al coded P. robustus as being variable in this trait because DNH7 exhibited the intermediate condition. DNH7 has now been transferred to P. robustus (Drimolen) and therefore P. robustus (Swartkrans + Kromdraai) reverts back to having the anterior dished character state. DNH155 exhibits an anteriorly placed zygomatic and therefore P. robustus (Drimolen) is variable (intermediate-anterior) in this trait. ^n';
+	TEXT CHARACTER=12 TEXT='Description from Strait et al. (1997): ^n"This character is equivalent to S&M 43. Two morphologies are recognized: shallow, in which the palate grades posteriorly from the base of the incisors as a flat surface or in which there is a slight depression anterior to the incisive foramen (state 0), and deep (i.e., shelved), in which the palate rises sharply vertically before turning posteriorly at the incisive foramen (state 2). H. habilis is variable (state 1; shallow in KNM-ER 1813 and OH 24; deep in OH 62, Stw 53, SK 847). S&M 43 considered both of these taxa to be deep. A preponderance of humans have deep palates (DeVilliers, 1968)."^n^n^nModifications made by Strait and Grine (2004): ^nThe palates of KGA 10-525 and KGA 10-506 are shallow anteriorly (Suwa et al., 1997), whereas all other P. boisei crania possess an anteriorly deep palate. Thus, this species is considered variable."^n^nModifications by Martin et al. ^n^nDNH7 and DNH155 exhibit palates that are shallow anteriorly. ';
+	TEXT CHARACTER=13 TEXT='Description from Strait et al. (1997): ^n"Rak (1983) used this measurement to describe the proportion of the palate that is found anterior to sellion. It is essentially a measure of facial prognathism. Based on Rak (1983: Table 3), Kimbel & White (1988: p. 185), and measurements by the authors, three morphologies are recognized: prognathic (index >57; state 0), mesognathic (index between 57 and 30; state 2), and orthognathic (index ';
+	TEXT CHARACTER=14 TEXT='Description from Strait et al. (1997): ^n"Rak''s (1983, 1988) index of masseteric position describes the anterior migration of the masseter muscle. An index value of 100 indicates that the masseteric tubercle is in the same coronal plane as sellion. Two states are recognized: (0) the tubercle is at or posterior to sellion (index values less than or equal to 105), and (1) it is at or anterior to sellion (index values less than or equal to 95). The ranges of these two states overlap partially.^nThis character is not redundant with character 11 (anterior projection of zygomatic), since the former describes the placement of a muscle attachment whereas the latter describes a bony structure. However, S&M 45 ("index of overlap") and S&M 47 ("index of palate protrusion anterior to masseter") are measurements developed by Rak (1983) that incorporate the same information presented in this character and character 13 (index of palate protrusion). Consequently, S&M 45 and 47 are not used."^n^n^nModification by Mongle, Strait, and Grine: ^n (Masseteric position relative to sellion) is now coded as variable (1) for Au. africanus based on: Sts 5 is slightly anterior (at), Sts 71 is well anterior, and Sts 52 is posterior. This was previously coded as "-?at or posterior"-? (0).  States for this character have changed because we now employ an index (>95/';
+	TEXT CHARACTER=15 TEXT='Description from Strait et al. (1997): ^n"According to Rak (1983: pp. 32-33), this is a gutter-like triangular depression in the infraorbital region. He identified it in A. robustus, and it is also present in KNM-WT 17000."^n^nModifications made by Strait and Grine (2004): ^n"Unlike other P. boisei crania, KGA 10-525 possesses a maxillary trigon (Suwa et al., 1997). Paranthropus boisei is therefore considered variable in this feature."^n^nModifications by Martin et al. ^n^nStrait and Grine (1997) considered a maxillary trigon and a zygomatico-maxillary step to be redundant and thus those two characters were conflated in their analysis. DNH155 and DNH7 exhibit maxillary trigons but do not possess a zygomatico-maxillary step. Accordingly, we modify SG15 to represent only the maxillary trigon and this character is present in P. robustus (Drimolen). We add a new character (see below) for zygomatico-maxillary step. Additionally Suwa et al do not describe specimen KGA 10-525 as having a maxillary trigon. Accordingly the variable state present in P. boisei is omitted. That taxon reverts to the ''absent'' state and the character codes change such that only present and absent are options. ';
+	TEXT CHARACTER=16 TEXT='Description from Strait et al. (1997): ^n"The cube root of cranial capacity was used so as to counteract the exponential growth of this volume in relation to the linear dimensions of the braincase. However, equivalent groupings were found using the volumetric measurement, and this is presented here because readers are more familiar with the manner in which this measurement is distributed in hominids. Five states are recognized (data from Aiello & Dean, 1990; Tobias, 1991; Brown et al., 1993), some of which overlap considerably: (0) below 500 cm3, (1) approximately 500 cm3, (2) 509-680 cm3, (3) 750-875 cm3, (4) approximately 1400 cm3. State 0 includes P. troglodytes, G. gorilla, A. afarensis and A. aethiopicus. Although some gorillas may exceed 500 cm3, their body sizes are also much greater, and thus their brains are relatively quite small. State 1 includes A. africanus, A. robustus, and A. boisei. Stw 505 has considerably extended the range of A. africanus (Clarke, pers. comm.). State 2 includes H. habilis. Although the range of H. habilis overlaps considerably with those of australopithecines, the smallest H. habilis cranial capacity (KNM-ER 1813: 509 cm3) is still much larger than the smallest representatives of the australopithecine species. Holloway (1973) estimated the cranial capacity of Sts 19 to be 436 cm3, but reconstructions that include the calotte Sts 58 indicate cranial capacities between 530 and 570 cm3 (Broom & Robinson, 1948; Tobias, 1975). State 3 includes H. rudolfensis and H. ergaster. State 4 includes H. sapiens. In general, S&M 65 recognized finer distinctions between taxa than are recognized here."^n^n^nModifications made by Strait and Grine (2004): ^n"The state assignments of several early hominid taxa have been revised from Strait et al. (1997). Recent discoveries have made clear that the australopith species overlap extensively with re- spect to brain size. Regarding Pr. afarensis, A.L. 444-2 has an estimated capacity of 500 cc (Holloway and Yuan, 2004), which increases the range of this species. With reference to P. boisei, we include here Holloway''""?s (1988) rough estimate of 395 cc for KNM-WT 17400, which is notably smaller than the values for other P. boisei specimens. The range for this species sample has been extended also by Suwa et al. (1997), who provided an estimate of 545 cc for KGA 10-525. We have excluded KNM-ER 3733 from the H. ergaster sample because its published estimate is a minimum value, and we have utilized the "age corrected" value of 909 cc provided for KNM-WT 15000 (Begun and Walker, 1993). Although not formally considered here, the specimens from Dmanisi that are likely to be conspecific with the African H. ergaster sample suggest that the range in brain size in this species extends below the size observed in the Nariokotome specimen. The ranges of the non-Homo samples overlap extensively, and they overlap with the ranges for the African ape samples. Because there is no clear distinction among these various species, they are all provided with the same character state."^n^nModifications by Martin et al^n^nDespite the fact that cranial capacity in DNH155 is on the low end of the range for P. robustus, and despite the fact that DNH 7''s cranial capacity is likely to be the same size or smaller than in DNH155, the conservative character states used by Strait and Grine 2004 would make P. robustus (Drimolen) "small". ^n^n^n';
+	TEXT CHARACTER=17 TEXT='Description from Strait et al. (1997): ^n"Holloway (1988) stated that in Homo, A. boisei and A. robustus, the cerebellum is tucked underneath the cerebrum. In most other hominids, the cerebellum flares laterally and protrudes posteriorly. Holloway did not discuss A. afarensis, but our observations suggest that it too flares laterally with posterior protrusion. This character is equivalent to S&M 66."^n^n^nModifications by Martin et al^n^nDNH7, DNH22, DNH34, and DNH155 exhibit a vertically inclined posterior surface of the petrous indicating that the cerebellar morphology is "tucked". ';
+	TEXT CHARACTER=18 TEXT='Description from Strait et al. (1997): ^n"Although Kimbel (1984) argued that this character is sufficiently variable in humans to preclude its use in phylogenetic studies, it nonetheless appears to discriminate between hominid taxa. An O-M sinus is present either uni- or bilaterally in high frequency (state 2) in A. afarensis, A. boisei, and A. robustus (Falk, 1986, 1988, 1990). It is absent or found in low frequency (state 0) in African apes (Kimbel, 1984), H. habilis (Tobias, 1991), H. rudolfensis (Kimbel, 1984; Tobias, 1991). It is absent in the juvenile A. aethiopicus L. 338 y-6 (Rak & Howell, 1978; Walker & Leakey, 1988), and while Walker et al. (1986) inferred that it is present in KNM-WT 17000 because of a reduced transverse sinus, Holloway (1988) has disputed this. An O-M sinus is present in 25% of A. africanus specimens. It is absent in MLD 37/38 (Conroy et al., 1990), MLD 1, Sts 5, Sts 26, TM 1511, and Sts 71 (Kimbel, 1984), and present in Taung (Tobias & Falk, 1988) and one Stw specimen (Kimbel, pers. comm.). Between 8 and 46% of modern humans exhibit and O-M sinus (Kimbel, 1984). Accordingly, A. africanus and Homo sapiens are coded as having an intermediate frequency (state 1)."^n^n^nModifications by Martin et al^nAn occipital marginal sinus is absent on DNH 155 which preserves the requisite morphology on fragments of the occipital. Moreover, DNH 7, DNH 155, and DNH 152 exhibit transverse and / or sigmoid sinuses bilaterally.^n';
+	TEXT CHARACTER=19 TEXT='Description from Strait et al. (1997): ^n"This character, as defined by Kimbel (1988; see also Clarke, 1977; Rak, 1983), describes the course of the superior temporal line between frontomalaretemporale and the point of maximum inflection on the line as it turns from being medially directed to posteriorly directed. Incursion is best seen in superior view. Incursion is strong in the "robust" australopithecines, where the temporal line penetrates far medially and is parallel to the orbital margin. Incursion is weak in H. ergaster, H. rudolfensis and H. sapiens, where the line barely penetrates medially and is strongly oblique to the orbital margin. H. habilis is variable, because incursion is weak in OH 24 and KNM-ER 1813, but moderate in SK 847 and Stw 53. Data for A. afarensis comes from KNM-ER 2602 and the Belohdeli frontal (Kimbel, 1988; Asfaw, 1987).^nIncursion is related to, but not entirely redundant with the presence/absence of a sagittal crest (character 20). For example, both G. gorilla and "robust" australopithecines have a sagittal crest, but these taxa differ in their degree of incursion. However, S&M 69 ("supraorbital tori in form of costa supraorbitalis") and S&M 70 ("temporal lines converge anterior to bregma") are redundant with this character. With respect to S&M 69, Clarke (1977) describes the supraorbital tori of Pongo, A. boisei and A. robustus as "rib-like" because they are flattened superiorly and have a sharp posterior margin. He notes, however, that the development of the rib is related to postorbital constriction (character 26) and the incursion of the temporal lines, both of which are used here. S&M 70 ("temporal lines converge anterior to bregma") is also redundant with incursion and the presence/absence of a sagittal crest."^n^nModifications by Martin et al^n^nAnteromedial incursion is strong in DNH 155, but moderate in DNH7, but this trait is likely to be influenced by sexual dimorphism and thus we have changed the definition such that it refers to the condition in presumptive males. ';
+	TEXT CHARACTER=20 TEXT='Description from Strait et al. (1997): ^n"A sagittal crest is present in KNM-ER 1805 and Stw 505 (Clarke, pers. comm.). Consequently, a sagittal crest is present in all hominid species except H. rudolfensis, H. ergaster and H. sapiens. S&M 71 recognized that a crest is present in KNM-ER 1805, but coded Homo as lacking this feature."^n^nModifications by Martin et al^n^nA sagittal crest is present in DNH155 and DNH152, (though not in DNH7) and the former two specimens represent presumptive males from Drimolen. Thus we consider P. robustus (Drimolen) to exhibit character state ''yes''. ';
+	TEXT CHARACTER=21 TEXT='Description from Strait et al. (1997): ^n"Following Kimbel (1988), three states are recognized: (0) an extensive crest extending almost the entire distance between inion and the lateral margin of the supramastoid crest, (1) a partial crest confined to the lateral third of the bi-asterioric breadth, and (2) a crest is absent. A. robustus is coded as missing data for this character. Although Robinson (1958) reported that crests were absent in SK 48, SK 49 and SK 83, the nuchal region is missing in SK 48 and SK 83, and SK 49 is not a definitive male. Even though crests are absent in SK 47, this specimen is a juvenile, and may not be ontogenetically old enough to exhibit a crest. The H. habilis state assignment is based on KNM-ER 1805.^nS&M 72 ("size of posterior relative to anterior part of temporalis muscle") is rejected because it represents an interpretation of morphology rather than an observation, and because that interpretation is based on patterns of cranial cresting, which have already been accepted as characters in this analysis. Thus, S&M 72 is redundant with this character and character 20 (presence of sagittal crest). For instance, a sagittal crest combined with a partial temporal nuchal crest would indicate a large anterior temporalis."^n^nModifications by Martin et al^n^nThe superior nuchal line is relatively indistinct in DNH152 but a small portion of temporal nuchal crest is present laterally. It is evident that the compound temporal nuchal crest is partial in this specimen. DNH 155 does not preserve the relevant morphology but the superior temporal lines diverge posteriorly indicating that there would have been a bare area and a compound temporal nuchal crest would not have been extensive. ^n^n^n^nModifications made by Strait and Grine (2004): ^n"It appears that KGA 10-525 possesses an extensive temporonuchal (TN) crest that runs nearly from inion to the lateral margin of the supramastoid crest (Suwa et al., 1997: fig. 2). An extensive crest is lacking in other presumptive male P. boisei crania. Paranthropus boisei is therefore recognized as being variable in this character."';
+	TEXT CHARACTER=22 TEXT='Description from Strait et al. (1997): ^n"Kimbel & Rak (1985) note that an asterionic notch is present in apes, A. afarensis and KNM-ER 1805. H. habilis is correspondingly coded as being variable. Skelton & McHenry (1992) noted the condition of KNM-ER 1805, but considered a notch to be absent in Homo. Walker et al. (1986) and Kimbel et al. (1988) state that a notch is probably present in KNM-WT 17000. Although a notch is absent in L. 338 y-6, a putative juvenile A. aethiopicus, Kimbel & Rak (1985) note that the character is absent in juvenile apes. All other taxa lack an asterionic notch."';
+	TEXT CHARACTER=23 TEXT='Description from Strait et al. (1997): ^n"Kimbel & Rak (1985) describe a morphology present in male A. boisei in which the external tables of the temporal, parietal and occipital bones overlap in a complex "sandwich" pattern at asterion. This pattern is also present in KNM-WT 17000 (Kimbel et al., 1988), and incipiently in L. 338 y-6. S&M 73 describes this character as "temporoparietal overlap of occipital". The name is shortened here to "parietal overlap of occipital" because the relationship between the temporal and parietal bones is subsumed within character 24 (squamosal suture overlap extensive). Thus, this character refers only to the flange of parietal bone that extends posteroinferiorly over the occipital."';
+	TEXT CHARACTER=24 TEXT='Description from Strait et al. (1997): ^n"This character refers in particular to the superior and posterosuperior aspects of the squamosal suture. Rak (1978; see also 1983; Kimbel & Rak, 1985) noted that the squamosal suture of A. boisei is extensive, tapered with a bevel (sutura limbosa), and possesses numerous inter- digitations. L.338y-6 also has an extensive squamosal suture (Rak & Howell, 1978). KNM-WT 17000 has an extensive suture, though there is disagreement concerning its morphology. Rak & Kimbel (1991, 1993) consider the specimen to have a unique posterolateral extension of the suture, which is disputed by Walker et al. (1993). We follow the latter in the interpretation of KNM-WT 17000. Squamosal suture morphology is poorly preserved in adult A. robustus, so that species cannot be characterized. All other species lack an extensive suture."^n^nModifications by Martin et al^n^nDNH7, DNH155, and DNH152 both exhibit significant overlap of the squamosal suture. Though DNH7 is a putative female, the overlap is also extensive which potentially indicates that this is not a sexually dimorphic trait. ';
+	TEXT CHARACTER=25 TEXT='Description from Strait et al. (1997): ^n"Olson (1981) stated that this character discriminates between Paranthropus (including A. afarensis) and Homo (including A. africanus). Two morphologies are recognized here: the mastoid is not inflated (i.e., it extends up to but not beyond the supramastoid crest; state 0), and the mastoid is inflated lateral to the supramastoid crest (state 2). H. habilis is variable (state 1), since the mastoids in KNM-ER 1805 are lateral to the crests, and those in Stw 53 and KNM-ER 1813 are level with the crests. Skelton & McHenry (1992) stated that mastoids in Homo are uninflated (S&M 77). Furthermore, A. africanus is here considered uninflated whereas they referred to this species as being variable. The mastoid of Sts 5 is medial to its crest, while those of Sts 71 and MLD 37/38 are level with their crests. Contra Olson (1981), A. afarensis is considered to lack an inflated mastoid."^n^n^nModifications by Martin et al^n^nThe mastoid is laterally inflated in DNH152 and DNH7. ';
+	TEXT CHARACTER=26 TEXT='Description from Strait et al. (1997): ^n"Two states are recognized based on Sherwood (1994). Extensive pneumatization is observed when pneumatic tracts extend to the squamosal suture, thereby thickening the squamous temporal. Sherwood describes this as a squamous antrum. Pneumatization is not extensive when the antrum is absent. A squamous antrum is present in apes, A. afarensis, A. aethiopicus and A. africanus. Sherwood (1994) states that an antrum is absent in A. boisei, but Walker & Leakey (1988) observed extensive pneumatization in KNM-WT 17400. Consequently, A. boisei is considered variable. S&M 76 considered A. africanus to be weakly pneumatized."^n^nModifications made by Strait and Grine (2004): ^n"Strait et al. (1997: 70) noted that "facial hafting and the incursion of the temporal lines (character 19) are related to the presence or absence of a frontal trigon," and that "therefore the latter is not considered an independent character." Consequently, the frontal trigon is not employed here. Asfaw et al. (1999b:1211) noted that a frontal trigon is present in A. garhi, and claimed that by omitting this character, we (Strait and Grine 1999) served to strengthen our "preferred conclusion of "robust australopithecine monophyly." However, because the three species of Paranthropus exhibit a frontal trigon, the exclusion of this feature could not possibly have strengthened the case for Paranthropus monophyly."^n^nModifications by Martin et al^n^nPneumatization is extensive in DNH7 and is inferred to be also in DNH 152.';
+	TEXT CHARACTER=27 TEXT='Description from Strait et al. (1997): ^n"This character, as described by Tobias (1967) and Howell (1978), expresses the position of the face relative to the neurocranium. The face is hafted high (state 1) in A. robustus, A. boisei and A. aethiopicus. The face is low (state 0) in all other species. Facial hafting and the incursion of the temporal lines (character 19) are related to the presence or absence of a frontal trigon (Rak, 1983), and therefore the latter is not considered an independent character."^n^nModifications by Martin et al^n^nThe face is hafted high in DNH 155 and is difficult to assess in DNH7 due to plastic deformation. ';
+	TEXT CHARACTER=28 TEXT='Description from Strait et al. (1997): ^n"Data from Wood (1991) were supplemented by our own measurements. Wood (1991) refers to this character as temporal gutter width. A wide gutter is one that is broader than 25 mm, while a narrow gutter is less than 25 mm. KNM-ER 1470 is inferred to have had a narrow gutter."^n^nModifications by Martin et al^n^nDNH155 exhibits a supraglenoid gutter whereas DNH7 is narrow. KNM-ER 732, a putative P. boisei female exhibits a wide gutter. The trait is therefore not obviously reflective of sexual dimorphism in every species. Accordingly we create a new ''variable'' character state.^n';
+	TEXT CHARACTER=29 TEXT='Description from Strait et al. (1997): ^n"Flexion is characterized as the angle between Frankfurt Horizontal and the basion-hormion chord (i.e., the inclination of the basioccipital and basisphenoid measured externally). Flexion is traditionally measured internally, but an external measurement allows the inclusion of many more specimens. The states in S&M 55 are accepted here except for A. afarensis, because the relevant morphology is preserved only in an infant (AL 333-105). Furthermore, contra S&M 55, the morphology of P. robustus is probably better expressed in SK 47 than in SK 48. Although SK 47 is a juvenile, it is much older ontogenetically than AL 333-105. KNM-WT 15000 has a flexed base to judge from the descriptions and figures in Walker & Leakey (1993). The bases of other H. ergaser specimens (KNM-ER 3733, KNM-ER 3883) appear flat, but may have been partially distorted."';
+	TEXT CHARACTER=30 TEXT='Description from Strait et al. (1997): ^n"This character replaces S&M 56 (distance between M3 and the TMJ). By measuring to the distal margin of M2, it is possible to include KNM-ER 1470. Furthermore, this measurement approximates the load arm of molar bite force during mastication (Grine et al., 1993). Two states are recognized: (0) long (> 58 mm), and (1) short (< 58 mm). There is slight overlap between taxa across the 58 mm boundary. Regardless, the principal point is that the distance is long in A. boisei and A. robustus, contrary to S&M 56. As reconstructed by Grine et al. (1996), KNM-ER 1470 is on the boundary between long and short, but is considered long because other reconstructions (e.g., Bromage, 1993) would suggest a considerably greater distance.^nThis character was also measured as a ratio of the distance between the TMJ and M2/M3 relative to bi-foramen ovale breadth, and comparable results were obtained."^n^nModifications by Martin et al^n^nThis distance is clearly long in DNH155.';
+	TEXT CHARACTER=31 TEXT='Description from Strait et al. (1997): ^n"This character was measured as an index of depth perpendicular to Frankfurt Horizontal (depth from the base of the articular eminence to the apex of the fossa, divided by the breadth of the eminence from the articular tubercle to the entoglenoid process). Three states are recognized: shallow (25%), and intermediate (15-25%). The state assignments of S&M 57 represent the conventional wisdom concerning this character. In contrast, A. robustus, H. habilis and H. rudolfensis are here assigned to the intermediate category. H. ergaster is variable, because the fossa of KNM-ER 3883 is of intermediate depth while those of KNM-ER 3773 and KNM-WT 15000 are shallow. These taxa are usually all considered to have deep fossae, but index values do not support such state assignments. Furthermore, of all the species examined, only H. sapiens and A. boisei possess an articular eminence whose posterior face is so steeply inclined as to be nearly vertical. This undoubtedly accounts for the fact that they have larger index values than any other species. Wood (1993) states that H. habilis has a deeper fossa than H. rudolfensis, but we characterize both as intermediate. The discrepancy between our state assignments and those of others may rest in the fact that our measurement is one of relative depth. The fossae of A. robustus and early Homo may be as absolutely deep as in H. sapiens, but only those of A. boisei are relatively as deep. The fossae of A. boisei are absolutely the deepest and widest of any hominid."^n^nModifications by Martin et al^n^nModifications by Martin et al^n^nDNH155 exhibits a deep mandibular fossa (26.5%). Though the measurement cannot be taken directly in DNH7 due to breakage though it is qualitatively deep in this specimen. ^n';
+	TEXT CHARACTER=32 TEXT='Description from Strait et al. (1997): ^n"Size and position are sometimes considered separate characters (e.g., Kimbel & Rak, 1993; Tobias, 1991), but size probably influences the spatial relationship between the process and the tympanic plate. This character differs from S&M 58 in that they do not consider size. Three morphologies are recognized: a large process that is well anterior and not fused to the tympanic (state 0), a medium-size process that is variably fused or unfused (state1), and a small process that is fused to the tympanic (state 3). Presumably, it is not possible for a small process to be unfused and anteriorly placed, or for a large process to be fused, as these states have not been observed. The position of a process of intermediate size is not constrained. For example, the processes of MLD 37/38 and Sts 5 are intermediate in size and anteriorly placed, while that of Sts 71 is the same size, but fused to the tympanic. H. habilis is variable (state 2) because Sts 19 has a process of intermediate size (it is also fused) while all other specimens of that species have small processes."^n^nModifications made by Strait and Grine (2004): ^n"Strait et al. (1997) suggested that size probably influences the spatial relationship between the postglenoid process and the tympanic plate. Prior to the description of KGA 10-525 (Suwa et al., 1997), P. boisei was recognized as exhibiting a small process that merges with the tympanic (character state 3 of Strait et al. [1997]). In the Konso specimen, however, the process appears to be unfused. P. boisei is therefore considered variable in this feature."^n^nModifications by Martin et al^n^nThe postglenoid process is small and fused to the tympanic in DNH7, DNH152, and DNH155. ^n';
+	TEXT CHARACTER=33 TEXT='Description from Strait et al. (1997): ^n"This character combines two features, the shape of the tympanic canal and the orientation of the anterior tympanic plate (S&M 59, 60). The two characters are redundant because a tubular tympanic will always have a horizontal plate, and a vertical plate cannot exist without a crest (the crista petrosa of Weidenreich, 1943). Although it is possible to have an inclined plate and a crest (e.g., A. boisei), such a plate is presumably not homologous to the horizontal plate of a tubular tympanic. Three states are recognized: (0) tubular tympanic, (1) crista petrosa with a vertically inclined plate, and (2) crista petrosa with a posteroinferiorly inclined plate where the crest is nearly apposed to the mastoid process. We differ from Wood et al. (1994), who state that all hominids except A. afarensis have a vertically inclined plate. This character is treated as unordered because there seems to be an equal probability of deriving each state from any other."^n^nModifications by Martin et al^n^nDNH7 and DNH152 exhibit a weak crest and the tympanic tubular. DNH155 and DNH22 exhibit a strong crest and a vertical plate. We have thus added a new character state ''variable'' to accommodate this taxon. ';
+	TEXT CHARACTER=34 TEXT='Description from Strait et al. (1997): ^n"This character describes the M-L position of the inferolateral tip of the tympanic relative to porion. There are two morphologies: the edge of the tympanic is medial to porion, which results in a suprameatal roof (state 0), and the edge of the tympanic approximates porion without a suprameatal roof (state 2). The meatus is laterally positioned in A. boisei, A. robustus and Gorilla (Grine & Strait, 1993; Clarke, 1977). H. habilis is variable (state 1) because the meatus is lateral in KNM-ER 1805, medial in Sts 19 and (presumably) SK 847, and nearly lateral in Stw 53. H. rudolfensis is inferred to have had a medial meatus based on the presence of small fragments of the tympanic of KNM-ER 1470. KNM-BC 1, a putative early Homo specimen, has a laterally placed meatus (Grine & Strait, 1993)."^n^nModifications by Martin et al^n^nDNH155 and DNH7 exhibit a laterally positioned external auditory meatus. ';
+	TEXT CHARACTER=35 TEXT='Description from Strait et al. (1997): ^n"Two morphologies are recognized: absent to small (state 0), and moderate to large (state 2). Although the process is said to be absent in apes (Kimbel & Rak, 1993; Clarke, 1977), small processes have been observed in some P. troglodytes and G. gorilla specimens (Strait, pers. obs.). H. habilis is variable (state 1) because the process is moderate in Sts 19, and small in Stw 53, KNM-ER 1813, KNM-ER 1805, and SK 847. KNM-BC 1 has a large process."^n^nModifications by Martin et al^n^nThe vaginal process is moderate to large in DNH155 and DNH22. This trait is difficult to assess in DNH7 and DNH152. ';
+	TEXT CHARACTER=36 TEXT='Description from Strait et al. (1997): ^n"Broom & Robinson (1950) and Clarke (1977) noted that a strong process is present in A. africanus. Aiello & Dean (1990) add that is is also present in A. robustus and apes. Kimbel & Rak (1993) state that it is absent in apes. Our observations are consistent with those of Aiello & Dean (1990). Two states are recognized: (0) prominent, and (1) absent or only slightly developed."^n^nModifications by Martin et al^n^nThe eustachian process is present and prominent in DNH7, broken in DNH155 but is likely to have been prominent as well. ^n';
+	TEXT CHARACTER=37 TEXT='Description from Strait et al. (1997): ^n"Dean & Wood (1981, 1982) and Dean (1986, 1988a) note that A. boisei, A. robustus and Homo share coronally oriented petrous bones, while the petrous orientation of all other taxa is more sagittal. Walker et al. (1986) state that KNM-WT 17000 has coronally oriented petrous bones, but S&M 61 disagreed, stating that the condition in KNM-WT 17000 is sagittal. Measure- ments recorded by us on original specimens and casts resulted in the recognition of three states: (0) coronally oriented petrous bones (i.e., angled at less than 50  to the bitympanic line), (2) sagittally orientated bones (greater than 60 ), and (1) intermediate (between 60  and 50 ). With respect to KNM-WT 17000, we concur with Walker et al. (1986). A. africanus is considered intermediate. Although Dean & Wood (1982) stated that petrous orientation in A. africanus is sagittal, they qualified this by confirming that it is less sagittal than apes. Kimbel (pers. comm.) states that A. afarensis has an intermediate petrous orientation."^n^nModifications by Martin et al^n^nThe boundaries between character states defined by Strait and Grine 1997 are arguably to rigid and some overlap between character states should be allowed. Petrous orientation in DNH155 is 62 degrees and is 57 degrees in DNH7. This is more sagittal than in any other Paranthropus and these values are similar to those observed in A. afarensis (Kimbel et al 2004). Thus P. robustus (Drimolen) is coded as being intermediate. ';
+	TEXT CHARACTER=38 TEXT='Description from Strait et al. (1997): ^n"Tobias (1967) noted that A. boisei has a heart shaped foramen that is flattened and widest anteriorly. This condition is best seen in KNM-ER 406, which possesses a tubercle on its anterior border that accentuates the heart shape. Walker et al. (1986) observed a flattened anterior border in KNM-WT 17000. This character is equivalent to S&M 62. However, H. ergaster is considered variable because KNM-WT 15000 has a heart shaped foramen with a distinct anterior tubercle, while KNM-ER 3733 and KNM-ER 3883 have an oval foramen."^n^nModifications by Martin et al^n^nThe anterior margin of the foramen magnum is preserved in a disarticulated fragment of DNH 155 and it exhibits a rounded morphology thus a heart shaped foramen is absent. ';
+	TEXT CHARACTER=39 TEXT='Description from Strait et al. (1997): ^n"Kimbel et al. (1984) measured this character as an angle between the inion-opisthion chord and Frankfurt Horizontal. Their measurements were supplemented with our own. Three states are recognized, namely steeply inclined (angle >60 ), intermediate (60-45), and weakly inclined (angle ';
+	TEXT CHARACTER=40 TEXT='Description from Strait et al. (1997): ^n"Dean & Wood (1981, 1982; see also Wood, 1991; Wood et al., 1994) define this character as the position of basion relative to a line connecting the most inferiolateral points on the tympanics. Three states are recognized: (0) basion is well posterior to the line, (1) basion approximates the line, (2) basion is well anterior to the line. H. habilis is variable (basion is anterior in KNM-ER 1805, while it approximates the line in Sts 19, KNM-ER 1813, and Stw 53). Unlike Dean & Wood (1982), we refrain from assigning states to SK 847 and KNM-ER 1470 because basion is missing."^n^nModifications by Martin et al^n^nThough the basi-occipital (preserving basion) cannot be directly articulated with the rest of the crania in DNH155, the relevant fragment can be positioned with enough acuity as to be confident that basion would have been located anterior to the by-tympanic line. It is not possible to assess this trait in DNH7 as the relevant morphology is missing, though that which is preserved would not incompatible with an anteriorly located basion.';
+	TEXT CHARACTER=41 TEXT='Description from Strait et al. (1997): ^n"This character is measured as the angle between the basion-opisthion chord and Frankfurt Horizontal. Measurements by us are comparable to those recorded by Wood (1991), but differ somewhat from those of Kimbel et al. (1984). All three data sets, however, group species into similar clusters. The foramen magnum is strongly inclined posteriorly (state 0) if it faces backwards at an angle of greater than 17.5 . It is strongly inclined anteriorly (state 2) if it faces forward at an angle of greater than 13. An intermediate inclination (state 1) approximates the horizontal plane. Basion is missing in A. afarensis specimens that can be reliably oriented in Frankfurt Horizontal, so a state was not assigned to that species. Similarly, states could not be assigned to H. rudolfensis and A. aethiopicus. H. ergaster is coded as having state 2 based on the reconstruction of KNM-WT 15000 presented in Walker & Leakey (1993; A. Walker, pers. comm.); the cranial bases of KNM-ER 3733 and KNM-ER 3883 are distorted."^n^nModifications by Martin et al^n^nThough the margins of the foramen magnum are preserved by three separate pieces of the DNH155 cranium, these pieces cannot be positioned with enough confidence to reliably assess this trait. ';
+	TEXT CHARACTER=42 TEXT='Description from Strait et al. (1997): ^n"When the cranium is viewed in norma occipitalis, the digastric origin may be seen to take the form of either a broad, shallow fossa (state 0) or a deep, restricted furrow (state 1). Kimbel et al. (1985) demonstrated that Olson''s (1981, 1985) characterization of the AL 333-45 cranium was mistaken, and that this specimen has an ape-like, shallow fossa. The AL 444-2 cranium also exhibits a broad, shallow fossa (Kimbel, pers. comm.). MLD 37/38 exhibits a fossa that appears to be deep and narrow (Olson, 1978, 1981). However, Kimbel et al. (1985: pp. 128-129) assert that the morphology of this specimen is not homologous to that of modern humans; rather it is comparable to that of African apes. Thus A. africanus is coded as having state 0. Olson (1978) observed that SK 47 has a deep, narrow fossa, so this state is present in A. robustus. Although Olson (1978) posited the presence of a broad, shallow fossa in TM 1517, the circum-mastoid region of this specimen is very poorly preserved, and its condition cannot be ascertained. A. boisei has a broad, shallow fossa, as represented by OH 5, KNM-ER 406, KNM-ER 407 and KNM-ER 23000 (Brown et al., 1993)."^n^nDNH7 and DNH152 preserve a deep narrow notch. ';
+	TEXT CHARACTER=43 TEXT='Description from Strait et al. (1997): ^n"This was calculated as the geometric mean of the area of the corpus at M1. Area was calculated as an ellipse {area=[pi(height/2)(breadth/2)]}. The square root of this value was used so as to counter-act the exponential growth of mandibular corpus area in relation to the linear dimensions of the mandible. Our measurements supplemented those of Wood (1991). Although there is slight overlap between taxa, two states are discernible: (0) small corpus area (area 25.5). H. rudolfensis specimens are evenly distributed across the range of this species, but that range straddles the boundary between large and small area. Thus, this species is coded as being variable (small: KNM-ER 1482, KNM-ER 1801, UR 501; large: KNM-ER 819, KNM-ER 1483, KNM-ER 1802). In light of the demonstrable similarities between the UR 501 and KNM-ER 1802 specimens (Bromage et al., 1995), it is worth noting that they are similar in size, falling just on either side of the boundary. Gorilla is variable as well."^n^nModifications by Martin et al. ^n^nThis calculation cannot be made for DNH7 due to damage along the base of the corpus precluding an accurate measure of corpus height, but qualitatively corpus area is large.^n^nThis calculation can be made for DNH 8 and returns a value of 27.5 which is equivalent to the ''large'' state. ^n';
+	TEXT CHARACTER=44 TEXT='Description from Strait et al. (1997): ^n"S&M 49 characterize the orientation of the mandibular symphysis as ranging through six states from "very receding" to "vertical". Our assignments are more conservative in that only three states are recognized, (0) receding, (1) intermediate and (2) vertical. Contra S&M 49, the symphysis in A. aethiopicus is considered to be vertical."^n^nModifications by Martin et al.^n^nDNH7 and DNH8 exhibit a vertically oriented mandibular symphysis. ';
+	TEXT CHARACTER=45 TEXT='Description from Strait et al. (1997): ^n"S&M 51 characterize the direction of the mental foramen opening as being either anterior or lateral. In addition, the foramen in H. sapiens generally faces posteriorly, although a lateral foramen may be present in 10% of individuals (DeVilliers, 1968). This character is considered unordered. The direction of the foramen opening is variable in A. afarensis (lateral in AL 333w-60, LH 4, AL 400-1a; anterior in AL 288-1, AL 333w-12), A. africanus (lateral in MLD 40, Sts 52b; anterior in Sts 36, MLD 2) and G. gorilla."^n^nModifications by Martin et al.^n^nThe foramen magnum opens posteriorly in DNH7 and DNH8, with this being especially clear for DNH8. ^n';
+	TEXT CHARACTER=46 TEXT='Description from Strait et al. (1997): ^n"Early hominid taxa differ with respect to the contour of the lateral face of the mandibular corpus above and behind the mental foramen (White et al., 1981). Hollowing can be expanded inferiorly to encompass the mental foramen, it can be reduced so that it is restricted to the superior aspect of the corpus, or it may be absent. Three states are recognized: present inferiorly (state 0), variably reduced or absent (state1), and absent (state 2). H. rudolfensis exhibits state 1 because superior hollowing is present in UR 501 and KNM-ER 1802 but absent in KNM-ER 1483. A. africanus is also variable, with superior hollowing present in Sts 52b, but absent from Sts 36 and MLD 40. S&M 52 recognized a distinction between A. afarensis and the great apes."^n^nModifications by Martin et al.^n^nDNH7 clearly exhibits hollowing above the mental foramen and is thus considered to represent the ''present'' state. While there is subtle hollowing above the mental foramen on the right corpus of DNH8, and no hollowing on the left side, this degree of hollowing in other specimens has previously been considered to represent the ''absent'' state. Thus we consider P. robustus (Drimolen) to be ''variable''. ';
+	TEXT CHARACTER=47 TEXT='Description from Strait et al. (1997): ^n"S&M 53 recognized two states, viz. narrow and wide. Measurements of the width of the extramolar sulcus suggest that a boundary between narrow and wide may be discerned at about 6.5 mm. This boundary is approximate because the measurement is based on landmarks that are difficult to define precisely. A. africanus is variable (MLD 40 is wide; Sts 36, Sts 52b and MLD 22 are narrow), as is H. habilis (SK 15 is wide; SK 45, OH 7 and OH 13 are narrow)."^n^nModifications by Martin et al.^n^nDNH7 can not be directly measured, though the extra molar sulcus is qualitatively wide. ^nDNH8 preserves the anterior portion of the sulcus and the measurement in this region is 10mm. Given this is unlikely to represent the widest point of the sulcus, we thus consider this specimen to have a ''wide'' extra molar sulcus. ';
+	TEXT CHARACTER=48 TEXT='Description from Strait et al. (1997): ^n"Shape refers to the mesiodistal disposition of the apex, the height of mesial crown convexity, and the height of the mesial end of the lingual cingulum (Grine, 1985). Two states are recognized: (0) a centrally disposed apex with the convexity near the cervix (i.e., a low convexity), and (1) a mesially positioned apex with the convexity closer to the tip (a high convexity). Data are missing for A. aethiopicus, H. habilis and H. rudolfensis.^nThis character replaces S&M 18 (deciduous canine shape). They described this feature as being either tall and narrow, or low, wide and blunt. Because these definitions reflect size as well as shape, the character is redundant with our character 51 (canines reduced)."^n^n^nModifications by Martin et al. ^n^n^nDNH44 exhibits a centrally placed apex with a low mesial convexity. DNH49 is broken such that it is difficult to assess the relative apex position and thus we have discounted it from this analysis.';
+	TEXT CHARACTER=49 TEXT='Description from Strait et al. (1997): ^n"This character represents the summed MD means of the I1 and I2. Data for Koobi Fora specimens are from Wood (1991), for Olduvai Gorge specimens are from Tobias (1991), for H. sapiens are from Jacobson (1982), for A. afarensis are from White et al. (1981), and for southern African fossils are from Grine (pers. obs.). Three states are recognized. State 0 (largest) includes Pan (20.9) and Gorilla (22.4). State 1 includes H. ergaster (19.7), A. afarensis (18.3), A. africanus (18.1) and H. habilis (18.0). State 2 (smallest) includes A. boisei (16.0), H. sapiens (16.0) and A. robustus (15.6). With reference to H. rudolfensis, only a single I1 is known (KNM-ER 1590; MD=12.3). This is the largest early hominid central incisor known in the species considered here. In addition, the chord length of the incisor alveolus (prosthion-distal margin of I2) of KNM-ER 1470 (ca. 18.0) is greater than that of specimens of A. afarensis, A. africanus and H. habilis and is less than that of H. ergaster, all of which are assigned state 1. Therefore, H. rudolfensis is reasonably assigned state 1. Similarly, although no maxillary incisor has been attributed to A. aethiopicus, the alveolar chord of KNM-WT 17000 (ca. 20.0) falls within the range of state 1 taxa, and is 33% longer than that of OH 5, which possesses the largest incisors of any A. boisei specimen. Thus, A. aethiopicus is assigned state 1.^nThis trait replaces S&M 8, 19 and 20. S&M 19 ("I1 incisal edge length") is descriptively similar, but we prefer to expand the character to included all incisors as a whole, since this allows the inclusion of more specimens, particularly through the measurement of the incisor alveoli. Incisor size is related to S&M 20 ("position of I2 roots relative to the lateral margins of the piriform aperture"), because the position of the root is dependent on the size of the I1 and I2 crowns, and upon pyriform aperture breadth, which itself is known to vary among early hominid taxa (cf., A. afarensis and A. boisei). This feature is, itself, related to S&M 8 ("upper canine jugae independent of margin of nasal aperture"), because if the I2 is positioned beneath the margin of the pyriform aperture, then the canine jugum cannot be."^n^n^nModifications by Martin et al. ^n^n^nThere are 12 mandibular and maxillary incisors in the Drimolen collection which can be used in this calculation (DNH47, DNH84, DNH7, DNH77, DNH93, DNH108, DNH149, DNH155, DNH25, DNH41, DNH8, and DNH107). The summed MD means of the I1 and I2 are 10.4 for mandibular I1 and I2 and 13.8 for maxillary I1 and I2. ';
+	TEXT CHARACTER=50 TEXT='Description from Strait et al. (1997): ^n"This trait relates to both maxillary and mandibular canines. Reduction is calibrated relative to Pan and Gorilla, which do not have reduced canines. Walker et al. (1986) reported that KNM-WT 17000 has small canines, an assessment that was presumably based on the size of the canine alveoli. Although canine crowns are missing in other A. aethiopicus specimens, canine roots in some specimens (e.g., Omo 18-1967-18) likewise appear small.^nSkelton & McHenry (1992) include seven characters that redundantly describe canine size. S&M 7 ("upper canine juga and prominence") reflects the size of the upper canine root and S&M 21 ("projection of upper canine") is redundant with size because large canines project whereas small canines do not. Likewise, S&M 22 ("upper canine labial crown profile") reflects size because large canines are asymmetrical while small ones are symmetrical. Similarly, mesial and distal contact facets (S&M 23), diastemata (S&M 27), a long and steep mesial occlusal edge (S&M 24) and a long distal edge are associated only with large canines. These seven traits were, therefore, subsumed under our canine size character (51)."^n^n^nModifications made by Strait and Grine (2004): ^n"This character represents a change from the character employed by Strait et al. (1997) in that it now includes canine root dimensions. The data from all early hominid specimens for which both the crown and root modules can be determined reveals a very close correlation between these two values (maxillary r2 = 0.86; mandibular r2 = 0.90). Note that all of the extant non-human primates included here exhibit canines that are either absolutely or relatively larger than those of early hominids."';
+	TEXT CHARACTER=51 TEXT='Description from Strait et al. (1997): ^n"Like S&M 25, this feature is characterized as being either prominent or weak. S&M 25 stated that the ridge is prominent in SK 23 and KNM-ER 3230, and thus coded A. robustus and A. boisei as being variable. We disagree, and consider all specimens of these species to have a weak ridge. However, A. africanus is variable, because Sts 50 and Stw 21 have a strong ridge, whereas that of Sts 51 is weak."^n^nModifications by Martin et al.^n^nDNH90, DNH79a, and DNH79b exhibit a weak ridge. ';
+	TEXT CHARACTER=52 TEXT='Description from Strait et al. (1997): ^n"This character and the following (54, molar crown area) replace S&M 28 ("postcanine tooth area"). Their single character has been divided because premolars and molars do not necessarily change (either increase or decrease) in size at the same rate in all species, as revealed not only by values for individual specimens that possesss both premolars and all three molars, but also by species values determined from crown area means.^nPremolar crown area was determined for specimens with associated upper P3 and P4 or lower P3 and P4. Crown areas of either the upper or lower teeth were added to provide a single value for each specimen, and the square root of the summed area value was used in order to obviate the effect of exponential enlargement of area with a linear increase in MD and BL dimensions.^nThis character is a composite of maxillary and mandibular crowns area distributions. While maxillary and mandibular ranges may differ, there is consistancy in the trends that they established. The character states are determined by the degree of overlap and disjunction among the observed ranges, especially those for maxillary teeth.^nMensurational data are from Mahler (1973) for Pan and Gorilla, Jacobson (1982) for H. sapiens, Tobias (1991) for Olduvai Gorge specimens of H. habilis, Johanson et al. (1982), White (1977, 1980), Kimbel et al. (1994) and White et al. (1993) for the Hadar, Laetoli and Maka specimens of A. afarensis, and Grine (pers. obs.) for all other specimens. With regard to P. aethiopicus, only a single upper premolar of disputed allocation is known (Suwa, 1989; Grine et al., 1991), but the mandibular premolars of KNM-WT 16005 and L. 860-2 are intermediate in size between those of P. robustus and P. boisei."';
+	TEXT CHARACTER=53 TEXT='Description from Strait et al. (1997): ^n"This value was calculated for specimens with associated upper M1-M3, and/or lower M1-M3, where the crown areas of the three teeth could be summed to a single value. The square root of the summed area value was employed in order to preclude the effect of exponential area enlargement with the linear increase of MD and BL dimensions.^nThe character is a composite of maxillary and mandibular crown area distributions, which are similar, but not identical. Although the ranges may differ, there is overall consistancy in their trends. Character states are determined by the degree of overlap and disjunction among the observed ranges, especially for maxillary teeth. Mensurational data are taken from the same sources as for character 53.^nAlthough there is no associated M1-M3 for any H. rudolfensis specimen, the M1 and M2 of KNM-ER 1590, and the M1s and M2s of KNM-ER 1820 and UR 501 are comparatively large (especially compared to H. habilis homologues). In addition, Wood (1992) has noted that H. rudolfensis specimens do not exhibit M3 reduction, in comparison to H. habilis specimens. Thus, we are reasonably confident in our assignment of a character state to H. rudolfensis as being equivalent to A. africanus and P. robustus, and larger than H. habilis.^nA. aethiopicus is accepted as having large molar teeth. Although there is no complete crown associated with KNM-WT 17000, it has very large tooth roots (cf. OH 5), and while there is no M3 that has been definitely attributed to A. aethiopicus, the roots and alveoli of Omo 57.4-1968-41 indicate the presence of three large molars. This, together with the KNM-WT 16005 crowns provide for a reasonably confident assignment of overall molar crown size."^n';
+	TEXT CHARACTER=54 TEXT='Description from Strait et al. (1997): ^n"This character is taken from Grine (1985). Two states are recognized: (0) the distal marginal ridge is high at its buccal end, being confluent with the metacone near its apex; and (1) the ridge is buccally low and narrow, attaining confluence with the metacone near its base. Data are not available for H. ergaster or A. aethiopicus because no dm2 is definitively attributable to either species.^n^nModifications by Martin et al.^nNOTE: Strait and Grine 1997 and Strait et al 2004 mislabelled this character to refer to the mandibular rather than maxillary DM2. Mongle et al 2019 corrected this error. ^n^nThe Drimolen sample is variable with respect to distal marginal ridge height.';
+	TEXT CHARACTER=55 TEXT='Description from Strait et al. (1997): ^n"This character replaces S&M 31, which alludes simply to the separation of the cusps of the P4. The condition exhibited by the P4 applies equally to the P3, the lower premolars, and the upper and lower molars. This character reflects the postion of the cusp tips being nearer the crown margin in occlusal view, or closer to the crown center (Clarke, 1977; Tobias, 1991; Grine & Strait, 1994). Three states are recognized: (0) apices widely separated and approximate the outer crown margins, (2) apices are close together, and (1) a condition intermediate between the first two. S&M 41 ("degree of lower molar cusp swelling") is related to the disposition of the cusp tips, because when apcies are close together, the cusps appear swollen."^n^nModifications made by Strait and Grine (2004): This character describes the positions of the buccal and lingual cusp tips relative to the crown base, whereas Strait et al. (1997) referred simply to the degree to which the apices approximate one another. The states are described for mandibular teeth; maxillary crowns are reversed with regard to buccal and lingual. The following states are recognized: (0) = cusp tips widely separated; buccal cusps approximate the edge of the buccal crown margin; lingual cusps approximate the edge of the lingual crown margin. The buccal and lingual crown faces are nearly vertical. (1) = cusp tips widely separated; lingual cusps approximate lingual crown margin, which is nearly vertical; buccal cusps tips placed slightly lingual to buccal crown margin, which is slightly to moderately bulbous. (2) = cusp tips separated; lingual cusps approximate lingual crown margin; buccal cusp tips placed moderately lingual to buccal crown margin. (3) = cusp tips moderately separated; lingual cusp tips placed slightly to moderately buccal to lingual crown margin, which is slightly bulbous; buccal cusps placed moderately lingual to the buccal crown margin, which is moderately bulbous. (4) = cusp tips approximate one another; lingual cusps placed moderately buccal to lingual crown margin, which has a bulbous face; buccal cusps placed moderately lingual to buccal crown margin, which has a bulbous face."';
+	TEXT CHARACTER=56 TEXT='Description from Strait et al. (1997): ^n"This feature is a slight alteration of S&M 32. Their characterization of this character, and therefore the character state distributions that they recognized are altered. We refer to the frequency of a well-developed P3 metaconid within each species sample. Three states are recognized, being (0) metaconid absent, (1) metaconid infrequent, and (2) metaconid frequent.^nIn addition to S&M 32, Skelton & McHenry (1992) employed four other characters that reflect P3 metaconid development. S&M 33 ("P3 talonid height") is clearly related to the size of the metaconid, and indeed, the codes that they provide for these "two" features (S&M 32 and 33) have exactly the same distributions. S&M 34 ("robust" features of P3) is not a single character, but a compilation of several components, which are related to the overall size of the crown, the size of the metaconid, and talonid development. This morphology has been accommodated in the present study by characters 53 and 58. S&M 35 ("crown shape index of P3") is related to metaconid development, because a large metaconid will result in lingual expansion of the crown and, therefore, an increased BL diameter. Also, because the P3s in Pan, Gorilla, and A. afarensis are set at an angle to the tooth row, their MD and BL diameters are not strictly comparable with those recorded for the premolars of other species (White et al., 1981). Finally, S&M 35 is little more than a metrical statement of S&M 36 ("P3 occlusal outline shape")."';
+	TEXT CHARACTER=57 TEXT='Description from Strait et al. (1997): ^n"Metrical data derive from Beynon & Wood (1987), and Grine (unpubl.) for A. boisei, Beynon & Wood (1986, 1987) and Bromage et al. (1994) for H. rudolfensis, Beynon & Wood (1986) and Grine (unpubl.) for H. habilis, Grine & Martin (1988) for A. africanus, Grine & Martin (1988) for A. aethiopicus, Grine & Martin (1988) for A. robustus, and Grine & Martin (1988) and Grine (unpubl.) for Pan, Gorilla and H. sapiens.^nThree categories of relative enamel thickness are recognized. These are (0) thin, (1) thick, and (2) hyperthick. There is no metrical data available for A. afarensis. Although White et al. (1994) distinguish Ardipithecus ramidus from A. afarensis on tooth enamel thickness, Wood (1991) makes reference to KNM-ER 5431 as having "absolutely and relatively thin" enamel on the fractured P4. The attribution of KNM-ER 5431 is open to dispute, but it may be referrable to A. afarensis. Thus, the state assignment of A. afarensis (thick) is based on the observation by Leakey et al. (1995) that enamel in A. anamensis is of comparable thickness to that in A. afarensis, and that it is relatively thicker than that of A. ramidus. Metrical data derive from Beynon & Wood (1987), and Grine (unpubl.) for A. boisei, Beynon & Wood (1986, 1987) and Bromage et al. (1994) for H. rudolfensis, Beynon & Wood (1986) and Grine (unpubl.) for H. habilis, Grine & Martin (1988) for A. africanus, Grine & Martin (1988) for A. aethiopicus, Grine & Martin (1988) for A. robustus, and Grine & Martin (1988) and Grine (unpubl.) for Pan, Gorilla and H. sapiens.^nThree categories of relative enamel thickness are recognized. These are (0) thin, (1) thick, and (2) hyperthick. There is no metrical data available for A. afarensis. Although White et al. (1994) distinguish Ardipithecus ramidus from A. afarensis on tooth enamel thickness, Wood (1991) makes reference to KNM-ER 5431 as having "absolutely and relatively thin" enamel on the fractured P4. The attribution of KNM-ER 5431 is open to dispute, but it may be referrable to A. afarensis. Thus, the state assignment of A. afarensis (thick) is based on the observation by Leakey et al. (1995) that enamel in A. anamensis is of comparable thickness to that in A. afarensis, and that it is relatively thicker than that of A. ramidus."^n^nModifications by Martin et al.^n^nSkinner et al 2015 measured relative enamel thickness in DNH60 indicating that P. robustus (Drimolen) has hyperthick enamel. ';
+	TEXT CHARACTER=58 TEXT='Description from Strait et al. (1997): ^n"Dean (1985, 1987, 1988b) and Smith (1986, 1994) have described differences in the calcification and eruption patterns of the permanent teeth in extant hominoids and fossil hominids. The results of their independent investigations are in broad agreement with regard to general patterns of development in that A. afarensis and A. africanus are observed to display a pattern consistent with that exhibited by Pan and Gorilla. This pattern (state 0) entails delayed maturation of the permanent incisors, premolars and especially the canines relative to the development of the M1. Humans display a condition (state 1) in which there is greater concordance of developmental timing among these teeth. Although Smith (1986) expressed some doubt as to the pattern that best described KNM-ER 820 and KNM-ER 1507 (attributed here to H. ergaster), Dean (1987, 1988b) and later Smith (1994) considered their incisor and molar patterns to be comparable to those of modern humans. Dean (1988b; Dean et al., 1993) and Smith (1986, 1994) are in agreement that A. robustus and A. boisei display a pattern of dental development in which their incisors, canines and premolars are developmen- tally advanced relative to the M1 by human standards (state 2). According to Smith (1988, 1994), KNM-ER 1590, attributed here to H. rudolfensis, exhibits the primitive ape-like pattern (state 0). Data are unavailable for A. aethiopicus and for H. habilis. The specific attribution of the early Homo juvenile mandible Omo 222-2744 is uncertain, as is that (SKX 21204) from Swartkrans Member 1 "Lower Bank" (Grine, 1993); in neither case has the specimen been examined in relation to this question."^n^nModifications by Martin et al.^n^nDevelopmental data provided by Smith et al 2015 demonstrates that Drimolen robustus australopiths are developing in the same pattern as that seen within the robust austrlopith sample from Swartkrans and Kromdraai. ';
+	TEXT CHARACTER=59 TEXT='Description from Strait and Grine 2004: ^n"This feature relates to both the upper and lower P3. Together with P3 metaconid development, it relates to the overall asymmetry of the crown. In the study by Strait et al. (1997), the P3 occlusal outline was omitted as a character because it was judged to be a poor discriminator of hominid species. While the occlusal outline per se displays considerable intraspecific variability, the degree of asymmetry of the crown base appears to differentiate certain taxa (White et al., 1994; Leakey et al., 1995). That is, the tuberculum premolare may be developed, resulting in a mesiobuccal protrusion of the crown base. This may result in an asymmetrical crown profile. The degree of symmetry, then, is scored as the mesiobuccal protrusion of the crown base being strong (state 0), moderate (state 1), variable (state 2), or weak to absent (state 3). Unlike the development of the transverse ridge, and the development and mesial enclosure of the fovea anterior, the development of the mesiobuccal flange (= tuberculum premolare) of the P3 is not related directly to the size and disposition of the metaconid.^nBecause the degree of mesiobuccal protrusion of the P3 crown base serves to differentiate taxa, it has been added to the phylogenetic character matrix. In their description of Australopithecus garhi, Asfaw et al. (1999a: table 1) referred to the "UP3 occlusal outline" and the "UP3 mesiobuccal line extension" as separate features. We consider these features to be related, as the mesiobuccal line extension refers to the cervical convexity of the tuberculum premolare, and the occlusal outline is affected by its development. In their initial analysis of the characters iterated by Asfaw et al. (1999a), as pertaining to A. garhi, Strait and Grine (1999) conflated them and simply referred to the character as number 61 and employed the name "UP3 occlusal outline" because it was used by Asfaw et al. (1999a) and is commonly employed, even though the specific feature of interest pertains to the mesiobuccal protrusion of the crown base (=tuberculum premolare). This choice of name led McCollum (1999b) to criticize Strait and Grine (1999) for apparently including a character that had been previously excluded (Strait et al., 1997). We clarify here that the manner in which the character was assessed differed in the two studies. To avoid further confusion, we refer here to the development of the tuberculum premolare as the mesiobuccal protrusion of the crown base.^nIn the diagnosis of Ar. ramidus, White et al. (1994: 306) stated that compared to other hominids, the "P3 [is] more strongly asymmetrical.. with posterolingually divided transverse crest." In addition, they noted (1994: 308) the "P3 is markedly more apelike than any A. afarensis homologue in its high protoconid with extensive buccal face and steep, distolingually directed transverse crest." White et al. (1994: 308) commented further that "the strong mesiobuccal protrusion of ARA-VP-6/ 1 crown base is also outside the known A. afarensis range,"but they noted that another specimen (ARA-VP-1/128) has a "weaker mesiobuccal protrusion of the crown base," which is similar to Pr. afarensis homologues. Ardipithecus ramidus is thus scored as being intermediate between Pan and Pr. afarensis in the asymmetry of its lower P3 crown.^nIn the description of A. anamensis, Leakey et al. (1995: 565) observed that it can be differentiated from Pr. afarensis on the basis that its "[lower] third premolar is very asymmetrical with a blunt, centrally positioned main cusp," and because its P3 has an "extensive sloping" buccal surface. This species is, therefore, scored as being intermediate between Pan and Pr. afarensis in the asymmetry of its P3 crown.^nIn their diagnosis of A. garhi, Asfaw et al. (1999a: table 1) noted that the upper P3 has a "more oval" occlusal outline, a derived state shared with Homo and A. africanus. They also observed that the "mesiobuccal line extension" is lacking.^nPraeanthropus afarensis is scored as variable in this feature on the basis of Leonard and Hegmon''s (1987) data and on observations of casts of all of the available (i.e., published) premolars. For example, LH 4 has a moderate degree of mesiobuccal protrusion of its lower P3, whereas A.L. 333w-60 exhibits weak mesiobuccal protrusion; the A.L. 266- 1 P3 is intermediate between these two extremes."';
+	TEXT CHARACTER=60 TEXT='Description from Strait and Grine 2004: ^n"Two states are recognized: (State 0) P3-P4 MD axis is parasagittal, and thus in line with the straight molar rows that are also in, or approximate to, the sagittal plane. A parasagittal pre- molar row is equivalent to a U-shaped arcade. (State 1) P3-P4 MD axis is obliquely inclined to the sagittal plane. The premolars may be angled to the molars, providing a parabolic arcade, or the entire postcanine tooth row may be divergent, providing a V-shaped arcade. Australopithecus anamensis has been described as having tooth rows that are parallel and close together (Leakey et al., 1995), and White et al. (1981: 457) described Pr. afarensis as having "tooth rows typically straight..resembles apes." These taxa were therefore assigned state 0. Note differences with Strait and Grine (1999), in which dental arcade shape included upper and lower jaws. In retrospect, mandibles are more diagnostic, and thus this character is missing in A. garhi."';
+	TEXT CHARACTER=61 TEXT='Description from Strait and Grine 2004: ^n"Asfaw et al. (1999a) referred to this feature as a synapomorphy of the genus Homo. According to them, it is absent in Pr. afarensis, A. garhi, A. africanus, and all three species of Paranthropus. It is also absent in Pan and Gorilla, and present in modern humans."^n^nModifications by Martin et al.^n^nA parietal tuber is absent in DNH7, DNH155, and DNH152.^n';
+	TEXT CHARACTER=63 TEXT='Description from Strait and Grine 2004: ^n"Leakey et al. (1995) noted that the external auditory meatus of A. anamensis is small, re- sembling that of extant apes, and they cite a personal communication from T.D. White indicating that the meatus in Ar. ramidus is also small. More recently, Leakey et al. (2001) described the meatus of KNM-WT 40000 as being small as well. All other early hominid species preserving this feature have a large meatus."^n^n^nModifications by Martin et al.^nDNH7, DNH155, DNH22 and DNH152 preserve large external auditory meatuses. ^n';
+	TEXT CHARACTER=64 TEXT='Description from Strait and Grine 2004: ^n"Leakey et al. (1995) described the mandible of A. anamensis as having extremely narrow tooth rows. In this regard, A. anamensis resembles Gorilla and Papio. Brunet et al. (2002) described S. tchadensis as also having a narrow dental arcade. All other hominid species examined here that preserve the relevant morphology have widely separated tooth rows."^n^nModifications by Martin et al.^n^nThe tooth rows in DNH7 and DNH8 are widely separated. ';
+	TEXT CHARACTER=65 TEXT='Description from Strait and Grine 2004: ^n"This feature was described by Rak et al. (1996). A "comma-shaped" superior orbital fissure is present in humans, whereas a superior orbital foramen is present in the African apes. The character states recognized by Rak et al. (1996) are accepted here."^n^nModifications by Martin et al.^n^nDNH155 exhibits a foramen shaped superior orbital fissure. ';
+	TEXT CHARACTER=66 TEXT='Description from Strait and Grine 2004: ^n"This feature is described by Dean (1985) and also by Aiello and Dean (1990: 235e236), who noted that specimens of Paranthropus contrast with those of Australopithecus in having "a wider nasopharynx" and in lacking "the prominent muscle markings present in [this] region" (p. 236). Dean (1985: 48) noted that Australopithecus africanus (i.e., Sts 5, MLD 37/38) "appears to retain the long anteroposterior insertion of the longus capitis muscles seen in the great apes, "and that "prevertebral muscles in gracile australopithecines are still relatively large and apelike, markedly more so than in the "robust" australopithecines. "According to Aiello and Dean (1990: 235e236), "the combination of characters found in apes and A. africanus crania differs from those typical of crania attributed to Paranthropus or early or modern Homo."^nWe measured the sizes of the depressions for the insertion of longus capitis where they were discernible, noted the degree of development of the muscle markings, and the orientation of the depression. Our measurements (on casts) differ from those recorded by Dean (1985), who measured the original specimens, in that our dimensions are somewhat smaller. Nevertheless, both sets of measurements indicate that two fairly clearly defined states are recognizable: large depressions (state 0) are approximately 10 mm X 12 mm according to our measurements. These are also associated with prominent ridges, and the depressions have an anteroposterior orientation. Small depressions (state 1) are approximately 7 mm X 8 mm according to our measurements. These are associated with slightly raised ridges, and the depression has no distinct orientation, being generally more circular than elongate. In some specimens the ridges are so slight that a distinct fossa cannot be discerned (e.g., SK 48)."^n^nModifications by Martin et al^n^nThe longus capitis insertion on the basioccipital of DNH155 is large, anterioposteriorly oriented, and deeply excavated into the external surface of the basioccipital, forming prominent ridges along the margin of the origin. In this regard the morphology is radically different from that of SKW18 and SK48. ^n';
+	TEXT CHARACTER=67 TEXT='Description from Strait and Grine 2004: ^n"Strait (1998, 2001) measured this feature as the perpendicular distance between the articular eminence and the occlusal plane, divided by a geometric mean of four other basicranial measure- ments (bi-entoglenoid breadth, bi-carotid breadth, foramen magnum length, and basioccipital length). The character is thus a size-corrected measure of functional mandibular ramus height. Strait (1998) measured this variable in the extant primate species considered here, and in H. ergaster, H. habilis, P. robustus, P. aethiopicus, P. boisei, and A. africanus. A ratio less than 1.0 indicates that the TMJ is near the occlusal plane, and a ratio greater than 1.0 indicates that it is high above the plane."^n^nModification by Mongle, Strait, and Grine:^nSG69 (Height of articular eminence above occlusal plane) is now coded as variable (1) for Au. africanus based on updated measurements for Sts 5 (high) and Sts 71 (low). This was previously coded as (0) High above plane. This adds a new state for SG69.^n^nModifications by Martin et al.^n^nThough we cannot measure directly as per Strait and Grine 2004, it is evident that the ramus would have been qualitatively high in DNH7 and DNH155.';
+	TEXT CHARACTER=68 TEXT='Description from Strait and Grine 2004: ^n"Senut et al. (2001) noted that Orrorin tugenensis exhibits a primitive feature that is absent from all other known hominid species, namely the presence of a mesial groove on the upper canine that extends to the crown apex. Such a groove is present in all non-hominid primates examined here, and is absent in all hominid species preserving the upper canine crown. In Ar. ramidus, the groove is marked, but does not extend to the crown apex (White et al., 1994), and thus this species is coded as the other hominids. This character cannot be assessed in S. tchadensis because the canine crown on the holotype specimen is cracked, and the apex is worn."';
+	TEXT CHARACTER=69 TEXT='Previously, Strait and Grine (2004) considered this to be redundant with characters SG 28 (position of the face relative to the neurocranium, "facial hafting") and CW 25 (supraorbital expression). However, we now recognize more subtle distinctions in the morphology of this region which do not covary with facial hafting or supraorbital expression in hominin taxa. Supraorbital hollowing can be restricted to a midline delimited depression, restricted to a lateral depression (defined relative to the middle third of the orbit, as observed in KNM-ER 1470), or fully developed as a supratoral sulcus. Five states are recognized: (0) Absent, (1) Variable, being either absent or present as a restricted midline delimited depression, (2) Restricted midline delimited depression, (3) Restricted lateral depression, (4) Supratoral sulcus that extends from midline laterally beyond medial third of the orbit. Australopithecus africanus is characterized as variable, with hollowing present but limited to the midline in STW 505, but completely absent in STS 5 and STS 71. Paranthropus aethiopicus, P. boisei, and P. robustus exhibit state 2 in this character because we do not distinguish between a slight depression and a frontal trigon in the characterization of a midline delimited depression. Homo habilis is characterized as exhibiting a supratoral sulcus (state 4). While the depression is more slight in H. habilis than the deep, trough-like morphology of the supratoral sulcus observed in H. ergaster, the depression is fully continuous from the midline to the lateral third of the orbit in KNM-ER 1813, OH 24, and OH 16. ^n^nModifications by Martin et al.^n^nThere us a restricted midline delimited depression in DNH7.';
+	TEXT CHARACTER=70 TEXT='The fossa is very shallow to absent in DNH7, DNH155, and DNH 152. ';
+	TEXT CHARACTER=71 TEXT='The length and inclination in DNH7 and DNH8 is intermediate. ';
+	TEXT CHARACTER=72 TEXT='Modifications by Martin et al.^n^nThe angular process is not distinct in DNH7.';
+	TEXT CHARACTER=73 TEXT='The frontal sinus is present in DNH155 and DNH7. ';
+	TEXT CHARACTER=88 TEXT='Modifications by Martin et al.^n^nWe revise the character state in P. robustus (Swartkrans + Kromdraai) to ''does not reach protoconid apex''. ';
+	TEXT CHARACTER=98 TEXT='Described by Kimbel et al. (2004) as the height of Frankfurt horizontal divided by the length of the vault. Measurements for this character are given in Kimbel et al. (2004: Table 3.5).';
+	TEXT CHARACTER=99 TEXT='Angle between sellion and nasospinale. Based primarily on data from Kimbel (2004: Table 3.12) and corroborated by our own measurements. This is not redundant with SG 13, which instead refers to lower facial prognathism ';
+	TEXT CHARACTER=100 TEXT='Kimbel et al. (2004) define this character as the position of the zygomatic angle relative to the orbit. Our states differ slightly from those used by Kimbel et al (2004) by including additional states which allow for "at or below" and "at or above".';
+	TEXT CHARACTER=101 TEXT='Kimbel et al. (2004) define this character as the interorbital breadth divided by orbital breadth. We use measurements provided by Kimbel et al. (2004: Table 3.19) with 50% as the cut-off for the state "narrow".';
+	TEXT CHARACTER=102 TEXT='Described by Kimbel et al. (2004) to capture the anterior morphology of the brain. We differ from Kimbel et al. (2004) only in the assessment of anterior pole morphology in Pan and Gorilla on the basis of descriptions reported by Dean et al. (2000)';
+	TEXT CHARACTER=103 TEXT='Kimbel et al. (2004) distinguish the lateral morphology of the supraorbital region as being either squared (with a medial to lateral gradient in vertical thickness) or rounded. We have modified the states from Kimbel et al. (2004) to combine this character with K37. We also add a variable state for DNH 7.';
+	TEXT CHARACTER=104 TEXT='Kimbel et al. (2004) distinguish among hominin taxa as having either transversely convex or flat nuchal plane forms. We have adopted this character with no modifications. ';
+	TEXT CHARACTER=105 TEXT='Kimbel et al. (2004) describe the relative position of the lateral margin of the frontal process of the zygomatic bone as either vertical (0), slightly divergent (1), or strongly divergent (2). We have adopted this character with no modification to their original description. ';
+	TEXT CHARACTER=106 TEXT='Martin et al. ^n^nThe states for all taxa for all taxa (except for P. robustus Drimolen) are equivalent to those of SG15 because Strait and Grine (1997) had considered this trait to be equivalent to the maxillary trigon. DNH7 and DNH155 demonstrate that these traits are independent and the zygomaticomaxillary step is absent in theses specimens. ^n^n';
+	TEXT CHARACTER=107 TEXT='This trait as well as characters M3 and M4 replace SG55 (DM1 Mesial Crown Profile). Strait and Grine (1997) considered three traits to covary such that they were conflated into a single character. Those traits were the disposition of the mesial marginal ridge (MMR), the position of the protoconid relative to the metaconid, and whether the anterior fovea was open or closed. These traits do, indeed, covary in most extant primates and early hominins considered by Strait and Grine (1997). However, the lower DM1 sample from Drimolen demonstrates convincingly that these characters vary independently. Corroborating evidence for this can be found in the character state for Homo habilis recognised by Mongle et al 2019. ^n^nFollowing Strait and Grine 1997, the mesial marginal ridge is considered to be absent (state 0), slight (state 1), or thick (state 2). The mesial marginal ridge is thick in Drimolen lower DM1s.^n^n';
+	TEXT CHARACTER=108 TEXT='As described for character M2, this is one of three characters replacing SG55. ^n^nThe protoconid position is variable in the Drimolen lower DM1 sample. ^n';
+	TEXT CHARACTER=109 TEXT='As described for character M2, this is one of three characters replacing SG55. ^n^nLower DM1 specimens from Drimolen vary with respect to whether the anterior fovea is open or closed.   ^n';
+
+      [Attribute comments]
+      	TEXT TAXON=8 CHARACTER=1 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=2 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=3 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=4 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=5 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=6 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=10 CHARACTER=7 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Based on the midsagittal sections through the hard palate and nasoalveolar clivus provided by Kimbel et al. (2004: Figure 5.22), A.L. 442-1 is stepped without overlap, whereas the other six specimens in the Hadar hypodigm exhibit a stepped configuration with considerable overlap of the clivus and palate. Thus, whereas Au. afarensis had been coded before as exhibiting state 0 (stepped with overlap) in this character, it is now coded as being variable (a new state = 4)."';
+	TEXT TAXON=8 CHARACTER=7 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=8 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=15 CHARACTER=9 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Following examination of the DNH 7 cranium, we revise two character states for Paranthropus robustus. Although the height of the masseter origin (SG 9) had been coded before as high (state 2) for P. robustus, the masseter origin is low in DNH 7. Therefore, P. robustus is now coded as exhibiting state 1 (variable) in this character. The anterior projection of the zygomatic bone relative to the piriform aperture (SG 11; “dishing”) in DNH 7 also requires a change to the state coded by Strait and Grine (2004). While P. robustus was considered dished in prior analyses (previously state 3), we now regard DNH 7 to exhibit more intermediate zygomatic morphology. As such, P. robustus is coded as a new variable state (state 3, variable intermediate-anterior; anterior/dished now becomes state 4)."^n';
+	TEXT TAXON=12 CHARACTER=9 TEXT='Modification by Mongle, Strait, and Grine:^n^n"Strait and Grine’s (2004) original assessment of Au. garhi was based on published descriptions and photographs of the BOU-VP-12/130 cranial remains (Asfaw et al., 2009). Here we report slight revisions to this assessment based on our own observations on a high-quality cast of the specimen. The height of the masseter origin (SG 9) was previously coded as low (state 0) for Au. garhi. However, based upon preserved morphology, we have determined that this character cannot be evaluated in a manner that is comparable to the other species in the analysis. As such, we now consider this missing information (state “?”)."';
+	TEXT TAXON=8 CHARACTER=9 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=10 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=11 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=10 CHARACTER=12 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Anterior palate depth (SG 12) is now coded as variable (state 1) in Au. afarensis. Whereas this character was previously coded as shallow (state 0) based on the A.L. 200-1a palate, the three new specimens (A.L. 444-2, A.L. 822-1, and A.L. 417-1d) all display a deep anterior palate. In addition, the inclination of the nuchal plane (SG 40) is also coded as variable with the description by Kimbel et al. (2004) of A.L. 444-2 in relation to the condition shown by the previously available specimen, A.L. 333-45. "^n';
+	TEXT TAXON=7 CHARACTER=12 TEXT='Palate depth characterization provided by Guy et al. (2005: Table 1-n) suggests an anteriorly shallow palate. However, based on images of the digital reconstruction of TM 266-01-60-1 (Zollikofer et al., 2004), we feel that this cannot be adequately assessed based on preserved morphology. We therefore continue to regard this character as missing data in Sahelanthropus.';
+	TEXT TAXON=13 CHARACTER=12 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Strait and Grine (2004) coded Au. africanus as having an anteriorly deep palate (SG 12, state 2). However, we now note a distinction between the anteriorly deep, steeply inclined palate of STS 52 and the comparatively shallow palate of STW 252. Thus, whereas Au. africanus had previously been coded before as exhibiting state 2 (deep), it is now characterized as variable (state 1). We have also updated our evaluation of the masseteric position relative to sellion (SG 14) which entails an alteration of the character state for Au. africanus. While Au. africanus was previously coded as ‘at or posterior’ (index value > 95,  as in STS 52; state 0), index values (< 105) indicate that the state in STS 5 is slightly anterior, while the masseteric tubercle in STS 71 is well anterior to sellion. This results in SG 14 now being recoded as variable (state 1) for Au. africanus."';
+	TEXT TAXON=7 CHARACTER=13 TEXT='Our previous characterization of Sahelanthropus as mesognathic remains in agreement with Guy et al.’s (2005, Table 1-c) reported values for index of palate protrusion';
+	TEXT TAXON=8 CHARACTER=13 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=14 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=15 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=16 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=17 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=19 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=7 CHARACTER=20 TEXT='Although Brunet et al. (2001) describe the presence and comparative morphology  of the sagittal crest in Sahelanthropus at length, Guy et al. (2005: Table 1-q) characterize the sagittal crest as absent in Sahelanthropus. Given this inconsistency, in combination with the damage clearly visible in the posterior aspects of the sagittal plane in the digital reconstruction of the specimen (Zollikofer et al., 2004), we now regard this character as missing data (state ?). This represents a change from the state employed by Strait and Grine (2004), which followed Brunet et al.’s (2001) description of the character in coding SG 20 as Present (state 0).';
+	TEXT TAXON=8 CHARACTER=21 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=25 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=27 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=28 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=10 CHARACTER=29 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Based on A.L. 444-2, Au. afarensis is now coded as exhibiting state 2 (moderate) for SG 30"';
+	TEXT TAXON=8 CHARACTER=32 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nThis assessment was based on ARA-VP-1/500, which presents a small and unfused postglenoid process. This has necessitated the revision of states for this character. Previously, it was presumed that small postglenoid processes had to be fused. However, we now recognize that fusion is independent of size. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.^n^n^n';
+	TEXT TAXON=8 CHARACTER=34 TEXT='The relative position of the external auditory meatus (SG 35) was previously characterized as lateral (state 1) in Ar. ramidus based upon basal-view photographs of ARA-VP-1/500 (White et al., 1994). However, examination of the composite basicranial reconstruction (ARA-VP-1/500 and ARA-VP-6/500, (Suwa et al., 2009a)) in a comparative context alongside Pan and other hominins indicates that the external auditory meatus is relatively medial in Ar. ramidus, comparing most favorably with the condition in Pan. Therefore, we now code Ar. ramidus as state 0 (medial) for SG 35. ';
+	TEXT TAXON=8 CHARACTER=35 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=36 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=7 CHARACTER=37 TEXT='Guy et al., (2005, Table 1-z) provide a value for petrous orientation in Sahelanthropus which places it within the sagittal category for our characterization. Remains the same as previous assessment';
+	TEXT TAXON=8 CHARACTER=37 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=7 CHARACTER=39 TEXT='Inclination of the nuchal plane changed from intermediate (2) to weakly inclined (4) on the basis of the 36 degree angle between inion-opisthion and FH provided by Guy et al. (2005: Table 1-t) for Sahelanthropus (state cut off 45 degrees, as described by Strait et al., 1997)';
+	TEXT TAXON=10 CHARACTER=41 TEXT='Modification by Mongle, Strait, and Grine^n^n"Based on A.L. 444-2, Au. afarensis is now coded as exhibiting ... state 1 (roughly horizontal) for SG 42."';
+	TEXT TAXON=7 CHARACTER=41 TEXT='Inclination of the foramen magnum changed from missing (state 1) to roughly horizontal (state x) based on Figure 4 in Zollikofer et al., (2005)';
+	TEXT TAXON=8 CHARACTER=41 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=43 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=10 CHARACTER=44 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"although SG 45 (inclination of the mandibular symphysis) is still coded as intermediate (state 1) in Au. afarensis, we have expanded this state to allow for more variation in light of the expanded hypodigm, with A.L. 198-1 among the more inclined and A.L. 417-1 and A.L. 444-2 among the more vertical within the sample (W.H. Kimbel, pers. comm.)."';
+	TEXT TAXON=19 CHARACTER=44 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"KNM-ER 60000 possesses a receding symphysis (charter SG 45), which results in the addition of a new state (variable = 2) for H. rudolfensis, which was previously coded as vertical based on KNM-ER 1802 and UR 501. The KNM-ER 1482 mandible attributed to H. rudolfensis also exhibits a receding symphysis."';
+	TEXT TAXON=8 CHARACTER=44 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=10 CHARACTER=47 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"Strait and Grine (2004) characterized the extramolar sulcus (SG 48) as narrow (state 0) in Au. afarensis. However, examination of the Maka mandibles (MAK-VP-1/2 & MAK-VP-1/12) reveals that these specimens exhibit a wide extramolar sulcus. This observation is consistent with White et al. (2000), who reported an extramolar sulcus width of approximately 13mm for these mandibles.  While these specimens were noted as part of the Au. afarensis hypodigm by Strait and Grine (2004), this information was not accounted for in the characterization of the extramolar sulcus.  In light of this, we now code Au. afarensis as variable (state 1) for this character."';
+	TEXT TAXON=19 CHARACTER=47 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"The code for SG 48 (width of the extramolar sulcus) has been altered to variable (state 1) for H. rudolfensis because it is wide on KNM-ER 60000 and KNM-ER 1482, whereas it was coded previously as narrow based on KNM-ER 1802 and UR 501."';
+	TEXT TAXON=12 CHARACTER=49 TEXT='Modification by Mongle, Strait, and Grine:^n^n"The present study also differs from Strait and Grine (2004) in the characterization of incisal reduction in Au. garhi. Previously, this was recorded as not reduced (state 0). We revise this assessment based upon comparisons with Au. afarensis (such as A.L. 200-1a), which show a distinct difference in the size of the incisors relative to the rest of the dentition. Therefore, Au. garhi is now coded as having reduced incisors (state 2)."';
+	TEXT TAXON=8 CHARACTER=51 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=52 TEXT='This represents a change from the Strait and Grine (2004) matrix in the characterization of Ar. ramidus. ^n^nThe premolar crown area (SG 53) of Ar. ramidus was previously characterized as state 1 (with state 0=smallest, state 5=largest). However, the distribution of measurements now reported for the expanded sample of Ar. ramidus premolars is notably smaller that of other early hominins, including Au. anamensis (Suwa et al., 2009b). This suggests that, within our system of categorization for this character, the premolar size of Ar. ramidus is more similar to the state observed in Pan (smallest, state 0). Therefore, we change the characterization of Ar. ramidus premolar size from state 1 to state 0 (smallest) for SG 53.^n^nLower premolars: sqrt((7.9*9.5)+(10.1*7.5))=12.3^nUpper premolars: sqrt((7.7*11.7)+(7.7*11.6))=13.4';
+	TEXT TAXON=19 CHARACTER=53 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"the molar crown area (SG 54) of KNM-ER 60000 is smaller than that of UR 501, falling within the H. habilis range. Thus, H. rudolfensis is now coded as size category state 1 for SG 54."';
+	TEXT TAXON=19 CHARACTER=55 TEXT='Modification by Mongle, Strait, and Grine: ^n^n" the cusps on the KNM-ER 62000 molars resemble the condition in Australopithecus africanus (where the lingual cusps are moderately buccal of the lingual margin and the buccal cusps are only slightly lingual of the crown margin) rather than that which had been coded for H. rudolfensis on the basis of KNM-ER 1590. As such, character SG 57 becomes polymorphic in H. rudolfensis, where this species is coded as exhibiting both state 1 and state 3. It was treated as polymorphic rather than variable, because it is unclear where such variability would be placed in the morphological progression."';
+	TEXT TAXON=8 CHARACTER=58 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on root fusion status in Suwa et al., 2009 Figure S27. While Suwa et al. recognize finer distinctions of developmental rate between Ar. ramidus and Pan, Ar. ramidus fits well within the "delayed" category of our more broadly defined character states. ^n^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n';
+	TEXT TAXON=7 CHARACTER=60 TEXT='Dental arcade shape was previously characterized as parasagittal (state 0) and remains in agreement with Guy et al.’s (2005) reported index of palate shape (2005, Table 1-o)';
+	TEXT TAXON=12 CHARACTER=62 TEXT='Modification by Mongle, Strait, and Grine: ^n ^n"We now amend the character state for parietomastoid angle in this taxon to missing information (state “?”). This was previously scored as weak (state 1) based on published descriptions, however, the lack of a mastoid process prohibits any confident determination of this character."';
+	TEXT TAXON=8 CHARACTER=62 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. In particular, we scored this character based on the reconstruction of ARA-VP-5/600.^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=64 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=66 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. While the insertion in ARA-VP-1/500 and 6/500 is a shallow, very elongate oval (aligning Ar. ramidus with the ape shape), the absolute size of this insertion (9mmx6mm) is quite small. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=67 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=70 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=71 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=19 CHARACTER=72 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"The KNM-ER 60000 mandible possesses a very distinct angular process that project posteriorly, which adds new information for H. rudolfensis for character CW 3 (state = 0)."';
+	TEXT TAXON=8 CHARACTER=73 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=74 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=75 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=76 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=79 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=19 CHARACTER=80 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"The premaxillary suture is clearly obliterated in KNM-ER 62000, and it is also fused in OH 65. Thus, H. rudolfensis is now coded as exhibiting state 2 for character CW 35."';
+	TEXT TAXON=8 CHARACTER=82 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nWe code this as variable in Ar. ramidus because the incisors are similar in shape in ARA-VP-1/300, but dissimilar in shape in both 1/1818 and 6/500.^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=84 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=87 TEXT='Strait and Grine (2004) previously characterized the talonid basin of the lower dm1 as distally open (CW 48, state 0) based on illustrations of ARA-VP-1/129 (White et al., 1994, Fig. 2). Closer examination of the dental casts reveals that the talonid basin of the dm1 is closed in Ar. ramidus. We now amend the previous assessment to state 1 (closed) for CW 48. ';
+	TEXT TAXON=8 CHARACTER=91 TEXT='This character was not previously coded for fossil taxa by Strait and Grine (2004). Assessment based on ARA-VP-1/401.';
+	TEXT TAXON=8 CHARACTER=92 TEXT='This character was not previously coded for fossil taxa by Strait and Grine (2004). Assessment based on ARA-VP-1/401.';
+	TEXT TAXON=8 CHARACTER=93 TEXT='This character was not previously coded for fossil taxa by Strait and Grine (2004). Assessment based on ARA-VP-1/401.';
+	TEXT TAXON=8 CHARACTER=94 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. The presence of a condylar canal was assessed on ARA-VP-1/500.^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=19 CHARACTER=96 TEXT='Modification by Mongle, Strait, and Grine: ^n^n"The KNM-ER 60000 corpus is mesially deep, which entails character CW 78 being recoded as variable (state 2) for H. rudolfensis."';
+	TEXT TAXON=8 CHARACTER=96 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. This morphology was observed on ARA-VP-1/401 as well as 6/500.^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=8 CHARACTER=97 TEXT='Previously missing information in Strait and Grine (2004). This character state has been revised based on the expanded Ar. ramidus fossil hypodigm published by Suwa, White, and colleagues in 2009. ^n^nSuwa, G., Asfaw, B., Kono, R.T., Kubo, D., Lovejoy, C.O., White, T.D., 2009a. The Ardipithecus ramidus skull and its implications for hominid origins. Science. 326, 68e1–68e7.^n^nSuwa, G., Kono, R.T., Simpson, S.W., Asfaw, B., Lovejoy, C.O., White, T.D., 2009b. Paleobiological implications of the Ardipithecus ramidus dentition. Science. 326, 94–99.^n^nWhite, T.D., Asfaw, B., Beyene, Y., Haile-Selassie, Y., Lovejoy, C.O., Suwa, G., WoldeGabriel, G., 2009. Ardipithecus ramidus and the paleobiology of early hominids. Science. 326, 75–86.';
+	TEXT TAXON=11 CHARACTER=101 TEXT='For the assessment of this new character, we agree with the assessment reported by Guy et al. (2005) and characterize Sahelanthropus as displaying a broad (state 0) interorbital breadth (2005, Table 1-h)';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 7 33 45 58 69 93 101 - 104, ord: 2 - 6 8 - 32 34 - 44 46 - 57 59 - 68 70 - 92 94 - 100 105 - 109;
+      ENDBLOCK;
+      

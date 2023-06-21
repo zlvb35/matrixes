@@ -1,0 +1,133 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-13 02.10.41 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=9;
+    TAXLABELS
+    		'Azollopsis subg Azollopsis'
+		'Azolla schopfii'
+		'Azolla nilotica'
+		'Azolla pinnata'
+		'Azolla macrophylla'
+		'Azolla caroliniana'
+		'Azolla mexicana'
+		'Azolla rubra'
+		'Azolla filiculoides'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=16;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Branching pattern'
+		 [2] 'Habit at maturity'
+		 [3] 'Stem vasculature'
+		 [4] 'Occurrence of lacunae in stem cortex'
+		 [5] 'Stem indumentum'
+		 [6] 'Dorsal leaf lobe venation'
+		 [7] 'Leaf trichome type'
+		 [8] 'Occurrence of central chlorophyllous zone with stomata on ventral leaf lobe'
+		 [9] 'Root arrangement'
+		 [10] 'Root hair arrangement'
+		 [11] 'Grouping of sporocarps'
+		 [12] 'Number of floats per megaspore apparatus'
+		 [13] 'Separation of floats into three sectors'
+		 [14] 'Occurrence of megaspore collar'
+		 [15] 'Occurrence ofmegaspore infrafilosum'
+		 [16] 'Massula trichome shape'
+	;
+	STATELABELS
+		1
+		'isotomous dichotomous'
+		'anisotomous dichotomous'
+		'elongate alternate'
+		'sub-pinnate'
+		,
+		2
+		'sub-erect'
+		'planar'
+		,
+		3
+		'protostele'
+		'siphonostele'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'glabrous'
+		'pubescent'
+		,
+		6
+		'lacking midrib'
+		'with prominent midrib'
+		,
+		7
+		'unicellular (basally contiguous with epidermis)'
+		'bicellular (upper cell superficially positioned on lower cell contiguous with epidermis)'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'solitary'
+		'in fascicles'
+		,
+		10
+		'in oblique partial whorls'
+		'irregular or in pairs'
+		,
+		11
+		'in pairs'
+		'in fours (tetrads)'
+		,
+		12
+		'three'
+		'nine'
+		'24'
+		'more than 32'
+		,
+		13
+		'occurring'
+		'not occurring'
+		,
+		14
+		'more or less absent'
+		'small collar present'
+		'large collar present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'simple'
+		'glochidiate (single-barbed)'
+		'multibarbed'
+		
+	;
+	MATRIX
+	'Azollopsis subg Azollopsis'		          ???????????310-2
+	'Azolla schopfii'		                     20??11?01??21000
+	'Azolla nilotica'		                     2011101011110100
+	'Azolla pinnata'		                      3100101100010100
+	'Azolla macrophylla'		                  1100001100000211
+	'Azolla caroliniana'		                  0100001100000211
+	'Azolla mexicana'		                     0100001100000211
+	'Azolla rubra'		                        0100000100000211
+	'Azolla filiculoides'		                 1110000100000211
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 11 13 15 - 16, ord: 12 14;
+      ENDBLOCK;
+      

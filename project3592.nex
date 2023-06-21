@@ -1,0 +1,637 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-12 08.56.16 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=41;
+    TAXLABELS
+    		'Quedius molochinus (Quediina)'
+		'Platyprosopus elongatus (Platyprosopini)'
+		'Achenium humile (Lathrobiina)'
+		'Domene scabricollis (Lathrobiina)'
+		'Lathrobium brunnipes (Lathrobiina)'
+		'Lathrobium fulvipenne (Lathrobiina)'
+		'Lobrathium grande (Lathrobiina)'
+		'Lobrathium reitteri (Lathrobiina)'
+		'Pseudolathra pulchella (Lathrobiina)'
+		'Tetartopeus rufonitidus (Lathrobiina)'
+		'Micrillus distortus (Lathrobiina)'
+		'Micrillus irakensis (Lathrobiina)'
+		'Micrillus testaceus (Lathrobiina)'
+		'Scymbalium anale (Lathrobiina)'
+		'Scymbalium laetum (Lathrobiina)'
+		'Scymbalium lathrobioides (Lathrobiina)'
+		'Scymbalium minutissimum (Lathrobiina)'
+		'Scymbalium simplarium (Lathrobiina)'
+		'Scymbalium sparsicolle (Lathrobiina)'
+		'Scymbalium usagarae (Lathrobiina)'
+		'Micrillus fossil (Lathrobiina)'
+		'Scymbalium fossil (Lathrobiina)'
+		'Dysanabatium jacobsoni (Lathrobiina)'
+		'Phanophilus comptus (Lathrobiina)'
+		'Notobium (lathrobiina)'
+		'Astenus californicus (Astenina)'
+		'Nazeris pallidipes (Astenina)'
+		'Dibelonetes sp. (Stilicopsina)'
+		'Achenomorphus corticinus (Medonina)'
+		'Medon apicalis (Medonina)'
+		'Sunius melanocephalus (Medonina)'
+		'Echiaster sp (Echiasterina)'
+		'Rugilus angularis (Stilicina)'
+		'Scopaeus minutus (Scopaeina)'
+		'Pinophilus sp. (Pinophilini)'
+		'Procirrus lefebvrei (Pinophilini)'
+		'Homaeotarsus bicolor (Cryptobiina)'
+		'Ochthephilum fracticorne (Cryptobiina)'
+		'Hyperomma mandibulare (Dicaxina)'
+		'Leptobium gracile (Dolicaonina)'
+		'Paederus littorarius (Paederina)'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=99;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Antennae, form'
+		 [2] 'Antennae, insertion, base of antennomere 1, concealment'
+		 [3] 'Antennae, concealed base of antennomere 1, degree of concealment'
+		 [4] 'Antennae, antennomere 3, tomentose pubescence, presence'
+		 [5] 'Antennae, antennomere 4, tomentose pubescence, presence'
+		 [6] 'Antennae, antennomeres 9 and 10, shape'
+		 [7] 'Antennae, antennomere 11, shape'
+		 [8] 'Antennae, setation'
+		 [9] 'Eyes, setae between ommatidia, presence'
+		 [10] 'Head, labrum, shape'
+		 [11] 'Head, labrum, depth of emargination'
+		 [12] 'Head, labrum, apical pair of teeth, presence'
+		 [13] 'Head, labrum, lateral pairs of teeth, presence'
+		 [14] 'Head, labrum, a single median tooth, presence'
+		 [15] 'Head, labrum, apical membrane, presence'
+		 [16] 'Head, labrum, setae on the margin of sclerotized (not membranous) area, presence'
+		 [17] 'Head, labrum, ventral side, setation, presence'
+		 [18] 'Head, labrum, attachment to frons (frontoclypeus)'
+		 [19] 'Head, membrane between labrum and frons (frontoclypeus), apical margin'
+		 [20] 'Head, mandibles, shape'
+		 [21] 'Head, mandibular prostheca, presence'
+		 [22] 'Head, maxillary palpomeres 3 and 4, length'
+		 [23] 'Head, maxillary palpomeres 3 and 4, width'
+		 [24] 'Head, maxillary palpomere 4, shape'
+		 [25] 'Head, maxillary palpomere 4, setation'
+		 [26] 'Head, labial palpomere 3, development'
+		 [27] 'Head, frons, punctation'
+		 [28] 'Head, integument'
+		 [29] 'Head, ventral basal ridge, development'
+		 [30] 'Head, postgenal ridge, presence'
+		 [31] 'Head, nuchal ridge, presence'
+		 [32] 'Head, gular sutures, shape'
+		 [33] 'Head, gular sutures, with respect to each other'
+		 [34] 'Head, separate gular suture, extension'
+		 [35] 'Head, gular sutures, development at base of gula'
+		 [36] 'Neck, postoccipital suture vs gula'
+		 [37] 'Neck, width'
+		 [38] 'Head capsule, from apical margin of frons to neck constriction, vs pronotum, length'
+		 [39] 'Pronotum, length'
+		 [40] 'Pronotum, widest at'
+		 [41] 'Pronotum, front angles (in dorsal view)'
+		 [42] 'Pronotum, anterior margin, shape'
+		 [43] 'Pronotum, punctation'
+		 [44] 'Pronotum, superior marginal line of pronotal hypomeron, development'
+		 [45] 'Prothorax, front angles of pronotum vs prosternum (in ventral view)'
+		 [46] 'Pronotum, hypomeron, development'
+		 [47] 'Pronotum, true (not translucent) postcoxal process of hypomeron, development'
+		 [48] 'Prosternum, prosternal carina [prosternal suture sensu Blackwelder 1936] (separating basisternum from furcasternum), presence'
+		 [49] 'Prosternum, basisternum, transversal carina, presence'
+		 [50] 'Prosternum, basisternum, surface'
+		 [51] 'Prosternum, furcasternum, sharp longitudinal carina, presence'
+		 [52] 'Prosternum, furcasternum, transversal carina, presence'
+		 [53] 'Prosternum, furcasternum, relative extension basad'
+		 [54] 'Prosternum, furcasternum, lateral extension'
+		 [55] 'Mesospiracular peritremes, development'
+		 [56] 'Mesothorasic membrane (area under anterior coxae), degree of sclerotisation'
+		 [57] 'Mesosternum, prepectus, clear triangular sclerotisation in the middle, presence'
+		 [58] 'Mesosternum, sterno-pleural sutures, shape'
+		 [59] 'Mesosternum, sterno-pleural sutures, basal end'
+		 [60] 'Mesosternum, basisternum, longitudinal carina, presence'
+		 [61] 'Mesosternum, furcasternum, longitudinal intercoxal carina, presence'
+		 [62] 'Mesosternum, transversal carina between sterno-pleural sutures, presence'
+		 [63] 'Mesosternum, transversal carina between sterno-pleural sutures, shape'
+		 [64] 'Mesosternum, lateral ridges near (apicad from) prepectus, presence and/or number'
+		 [65] 'Mesosternum, connection to metasternum'
+		 [66] 'Mesosternum, ridge below coxal rests, presence'
+		 [67] 'Mesothorax, scutellum, ridge(s), presence'
+		 [68] 'Mesothorax, elytra, epipleuron, marginal ridge, presence'
+		 [69] 'Mesothorax, epipleuron, additional ridge (in addition to marginal ridge), presence'
+		 [70] 'Profemorae, middle part ventrally, projection, presence'
+		 [71] 'Protibiae, inner side with protibial combs, shape'
+		 [72] 'Protibiae, pale spines on inner surface, arrangement'
+		 [73] 'Protibiae, protibial combs, number'
+		 [74] 'Protibiae, protibial combs, position'
+		 [75] 'Protarsi, adhesive spatulate setae underneath, presence'
+		 [76] 'Protarsi, tarsomeres 1-4, width compared to meso- and metatarsi'
+		 [77] 'Protarsi, tarsomere 4, shape'
+		 [78] 'Mesotibiae, outer edge, thorns, presence'
+		 [79] 'Mesotibiae, outer side, long bristles, presence'
+		 [80] 'Mesotarsi, tarsomeres 1 and 2, length'
+		 [81] 'Metatibiae, apical ctenidium, presence'
+		 [82] 'Metatibiae, apical ctenidium, location'
+		 [83] 'Metatarsi, tarsomeres 1 and 2, length'
+		 [84] 'Metatarsi, tarsomeres 1 and 5, length'
+		 [85] 'Metarsi, tarsomeres 4 and 5, length'
+		 [86] 'Metatarsi, tarsomere 5 vs tarsomeres 2-4, length'
+		 [87] 'Hind wings, venation, MP3 vein, presence'
+		 [88] 'Hind wings, venation, veins MP4 and CuA, development'
+		 [89] 'Intersegmental membrane, pattern'
+		 [90] 'Abdominal tergal sclerites IX, shape'
+		 [91] 'Abdominal sternite III, keel between metacoxae, presence'
+		 [92] 'Abdominal sternite IV, antero-median gland, presence'
+		 [93] 'Male, tergum IX, development'
+		 [94] 'Male, tergum X, development'
+		 [95] 'Male, aedeagus, paired parameres, presence'
+		 [96] 'Male, aedeagus, paired parameres, development'
+		 [97] 'Female, tergum IX, development'
+		 [98] 'Female, sternum IX, development'
+		 [99] 'Female, tergum X, development'
+	;
+	STATELABELS
+		1
+		'non-geniculate'
+		'geniculate'
+		,
+		2
+		'concealed (fully or partially) under "frontal shelf"'
+		'not concealed'
+		,
+		3
+		'complete'
+		'partial'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'elognated, filiform, thin'
+		'elongated, increasing in width towards apex of antenommere'
+		'wider than long'
+		,
+		7
+		'symmetrical'
+		'asymmetrical'
+		,
+		8
+		'without long setae extending perpendicular to the antennal axis'
+		'with long setae extending perpendicular to the antennal axis'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'apical margin entire'
+		'apically with median notch developed to different extent, but apical margin does not form two lobes'
+		'clearly divided into two lobes (sometimes with apical pair of teeth between lobes)'
+		,
+		11
+		'shallow, basally not reaching membrane connecting labrum with frons (frontoclypeus)'
+		'deep, basally extended through membrane connecting labrum with frons (frontoclypeus)'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'with distinct membrane between frons and base of labrum'
+		'without distinct membrane between frons and base of labrum'
+		,
+		19
+		'straight'
+		'emarginate'
+		,
+		20
+		'stout'
+		'thin'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'palpomere 3 equal to or shorter than 4'
+		'palpomere 3 longer than 4'
+		,
+		23
+		'palpomere 3 almost equal or equal to 4'
+		'palpomere 3 twice as wide as 4'
+		'palpomere 3 narrower than 4'
+		,
+		24
+		'fusiform'
+		'conical'
+		'nipple-like, elongate'
+		'small, acicular'
+		'truncate, short'
+		'securiform'
+		,
+		25
+		'glabrous or at most slightly setose'
+		'heavily setose'
+		,
+		26
+		'normal, not acicular'
+		'very thin, acicular'
+		,
+		27
+		'sparser than on the rest of head'
+		'as on the rest of head'
+		,
+		28
+		'smooth'
+		'with microscuplture'
+		,
+		29
+		'underdeveloped or absent'
+		'fully developed'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'straight'
+		'curved'
+		,
+		33
+		'separate all the way'
+		'fused'
+		,
+		34
+		'parallel to each other'
+		'not parallel to each other'
+		,
+		35
+		'continue through neck to posterior margin of head'
+		'become indistinct (fade) not reaching posterior margin of head'
+		,
+		36
+		'postoccipital suture do not cross gular sutures, not distinct at base of gula'
+		'postoccipital suture crosses gular sutures and continues through base of gula'
+		,
+		37
+		'very narrow, equal or less than 1/5 of head width'
+		'narrow, equal or less than 1/3 of head width'
+		'regular, equal or less than 1/2 of head width'
+		'wide, more than 1/2 of head width'
+		,
+		38
+		'head shorter or as long as pronotum'
+		'head longer than pronotum'
+		,
+		39
+		'wider than long, or quadrate'
+		'longer than wide'
+		,
+		40
+		'base'
+		'apex or anterior to its middle'
+		'middle'
+		'same width everywhere'
+		,
+		41
+		'not producing over anterior margin of pronotum'
+		'producing over anterior margin of pronotum'
+		,
+		42
+		'normal, not produced in a neck-like way'
+		'produced in a neck-like way'
+		,
+		43
+		'irregular'
+		'with distinct rows of punctures along midline'
+		,
+		44
+		'marginal line fully developed, not deflexed under anterior angle of pronotum'
+		'marginal line fully developed, deflexed under anterior angle of pronotum'
+		'marginal line short, not extending to anterior edge of pronotum, or absent'
+		,
+		45
+		'front angles not produced beyond the meeting point of prosternum and pronotum'
+		'front angles produced beyond the meeting point of prosternum and pronotum'
+		,
+		46
+		'not inflexed'
+		'inflexed'
+		,
+		47
+		'well developed'
+		'absent'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'relatively smooth, not wrinkled or punctate'
+		'wrinkled'
+		'punctate'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'less extended - its pointy edge does not reach the level of the tip of postcoxal process'
+		'more extended - its pointy edge reaches the level of the tip of postcoxal process'
+		,
+		54
+		'not expanded under anterior coxae'
+		'expanded under anterior coxae'
+		,
+		55
+		'distinct'
+		'reduced'
+		,
+		56
+		'soft, without stronger sclerotized areas'
+		'with stronger sclerotized areas embedding spiracles'
+		'with fully sclerotized areas embedding spiracles'
+		'hidden behind furcasternum'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'curved, converging towards each other in their basal (closer to prepecturs) half'
+		'curved, running parallel to each other in their basal (closer to prepecus) half'
+		'straight, running transversly along entire extension'
+		,
+		59
+		'ending at prepectus'
+		'ending before (not reaching) prepectus'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'straight or interrupted in the middle'
+		'pointed apicad (towards abdomen)'
+		'pointed or curved basad (towards prothorax)'
+		,
+		64
+		'absent'
+		'present, single'
+		'present, double'
+		,
+		65
+		'mesosternum clearly separated from metasternum by a membrane'
+		'mesosternum separated from metasternum by suture, no membrane'
+		'mesosternum completely fused to metasternum'
+		,
+		66
+		'present'
+		'absent'
+		,
+		67
+		'with only one (posterior) scutellar ridge'
+		'with both anterior and posterior scutellar ridges'
+		'without any ridges'
+		,
+		68
+		'present'
+		'absent'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present as blunt, small projection'
+		'present as sharp, big projection'
+		,
+		71
+		'without projection to match the projection on profemorae'
+		'with projection in the area of the protibial combs'
+		,
+		72
+		'not arranged into distinct transverse or oblique protibial combs (except a single row near tibial apex)'
+		'arranged into several to many transverse or oblique protibial combs'
+		,
+		73
+		'a few (not more than 6)'
+		'many (10 or more)'
+		,
+		74
+		'long, extending along the length of the tibia'
+		'short, extending only transverse to the length of the tibia'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'not widened'
+		'notably widened'
+		'extremely widened'
+		,
+		77
+		'simple'
+		'bilobed'
+		,
+		78
+		'present'
+		'absent'
+		,
+		79
+		'present'
+		'absent'
+		,
+		80
+		'tarsomere 1 equal to or longer than 2'
+		'tarsomere 1 shorter than 2'
+		,
+		81
+		'present'
+		'absent'
+		,
+		82
+		'on both sides (anterior and posterior) of tibia'
+		'only on one side (posterior) of tibia'
+		,
+		83
+		'tarsomere 1 equal to or longer than 2'
+		'tarsomere 1 shorter than 2'
+		,
+		84
+		'tarsomere 1 shorter than 5'
+		'tarsomere 1 equal to or longer than 5'
+		,
+		85
+		'tarsomere 4 equal to or shorter than 5'
+		'tarsomere 4 longer than 5'
+		,
+		86
+		'tarsomere 5 equal to 2-4 combined'
+		'tarsomere 5 shorter than 2-4 combined'
+		,
+		87
+		'present'
+		'absent'
+		,
+		88
+		'completely separate'
+		'largely or completely fused'
+		,
+		89
+		'regular, rectangular, brick-wall'
+		'different than brick-wall'
+		,
+		90
+		'produced into flat, apically obtuse to sharp, sometimes with spine-like process'
+		'produced into inflated, apically sharp process'
+		'produced into inflated, apically obtuse or rounded process'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'absent'
+		'present (one median gland)'
+		,
+		93
+		'divided into two plates'
+		'single plate'
+		,
+		94
+		'present as clear distinct sclerite'
+		'present as somewhat reduced sclerite'
+		'absent'
+		,
+		95
+		'present'
+		'absent'
+		,
+		96
+		'long, fully developed'
+		'short, reduced'
+		,
+		97
+		'divided into two plates'
+		'single plate'
+		,
+		98
+		'consisting of two pairs of gonocoxites'
+		'consisting of one pair of gonocoxites'
+		'as a single sclerite not divided into gonocoxites'
+		,
+		99
+		'present as clear distinct sclerite'
+		'present as somewhat reduced sclerite'
+		'absent'
+		
+	;
+	MATRIX
+	'Quedius molochinus (Quediina)'		                     01-0111100-000100000000000011111010030001000111010100000020000-000110000--1100101-0001011200001-000
+	'Platyprosopus elongatus (Platyprosopini)'		          01-01010010000100000000000100001010030111000111000000000020010-011010000--1210001-0101--00000000000
+	'Achenium humile (Lathrobiina)'		                     00111001021000000000011100110010001120110001000000010000001000-200110211011101010010000001001001100
+	'Domene scabricollis (Lathrobiina)'		                 00111101020000000000011100100010001110110001000001010000011101120000121101110110001000--0110101-???
+	'Lathrobium brunnipes (Lathrobiina)'		                00111101020000000000011100111010001120130001000000010000011101120010011101110101001000--0110111-100
+	'Lathrobium fulvipenne (Lathrobiina)'		               00111101020000000000011100111010001120130001000000010000011101120010011101110101001000--0110111-000
+	'Lobrathium grande (Lathrobiina)'		                   00111001020000000000011100110011011120110001000001010000011101120010121101111101001000000110101-000
+	'Lobrathium reitteri (Lathrobiina)'		                 00111101020000000000011100101010001120110001000001010000011101120010121101110101001000--0110??1?100
+	'Pseudolathra pulchella (Lathrobiina)'		              00101101020001000000011100011011011120120011000000010000011001120010110111111100000000010110101-010
+	'Tetartopeus rufonitidus (Lathrobiina)'		             00111101021000000000011100110010011110110001000000010000011101120010021111110101001000--0110101-000
+	'Micrillus distortus (Lathrobiina)'		                 00111101021000000000010100010011011130110001000001010001100001211010010111100010000101000110??1-010
+	'Micrillus irakensis (Lathrobiina)'		                 00111101020000000000010100010011010130110001000000010001001000-11010010111100010000101000110001-010
+	'Micrillus testaceus (Lathrobiina)'		                 00101101020000000000010100010011010130110001000001010001000001210010010111100010000101000110??11010
+	'Scymbalium anale (Lathrobiina)'		                    001010010210001010100101000010010101301110010000010100011001010100100101111100100001010001101001110
+	'Scymbalium laetum (Lathrobiina)'		                   001011010210001010100101000110010101301300010000010100011000010110100101111000100001010001100000???
+	'Scymbalium lathrobioides (Lathrobiina)'		            00101101020000000000010100010010010130110001000000010001000000-11010010111100010000101??0110????010
+	'Scymbalium minutissimum (Lathrobiina)'		             00111101020000000000010100010011011130110001000000010001001000-11110010101100010000101??0110????010
+	'Scymbalium simplarium (Lathrobiina)'		               00101101021000101010010100011001010130130001000000010001100001010010010111100010000101000110????010
+	'Scymbalium sparsicolle (Lathrobiina)'		              00101101021000101000010100011001010130130001000001010001100101011010010111100010000101000110????010
+	'Scymbalium usagarae (Lathrobiina)'		                 0011100102100000000001010?010010011130110001000000010001100101011010010111100010000101000110????010
+	'Micrillus fossil (Lathrobiina)'		                    001110010??????????0?1010??1101001?13011000100000?0?????????????1??0010???110010000101??011????????
+	'Scymbalium fossil (Lathrobiina)'		                   00101101020100???000?1010?01??0001??3013000000000?0?00??????????1?10?10???110010000101??011??????10
+	'Dysanabatium jacobsoni (Lathrobiina)'		              00111101010000000000011100101011011130120001000000010000011101120020000111111100000001110010101-???
+	'Phanophilus comptus (Lathrobiina)'		                 00101101010000000000011100011011011120110001000000010000010001220010010111111110000001000110101-??0
+	'Notobium (lathrobiina)'		                            001011010100000000000101000110110111201100010000010100000101012200101101111110100010010000101000???
+	'Astenus californicus (Astenina)'		                   001111100101000111-11113011010101-1111110001000012001113011001022100010101101110010111--0010101-110
+	'Nazeris pallidipes (Astenina)'		                     000111100101100111-11113011010101-1111110001000002001113011001222000010101101110010111--0010101-110
+	'Dibelonetes sp. (Stilicopsina)'		                    000111100101110110011113011010101-1111110101000011001113011001222020010101101110010111110010??1-112
+	'Achenomorphus corticinus (Medonina)'		               00111101110001010000011300101010011120010101000011011000011001020010010100110110010101000010111-011
+	'Medon apicalis (Medonina)'		                         00100201110100001000011301101011011120010001000001011000011101220010000100110110010101110010111-011
+	'Sunius melanocephalus (Medonina)'		                  00100201110100001000011301001011011120110001000001011000011001220010000100110110010101--0010101-000
+	'Echiaster sp (Echiasterina)'		                       001002001101100110011113011010101-1101120102000112001113011001220111010100000110010101110010121-???
+	'Rugilus angularis (Stilicina)'		                     001002011101000000001113011010101-1000010101000001011000011001210101000101100110010101110010101-010
+	'Scopaeus minutus (Scopaeina)'		                      00111100110110011000011301101011011100110102000001001000011001220110010111000110010001110010??1-???
+	'Pinophilus sp. (Pinophilini)'		                      000110010100000011-0002510110001010020011000100001000002001101210021010111120110000101000010121-???
+	'Procirrus lefebvrei (Pinophilini)'		                 000000000101100111-1002500100001010010110002000102000002001000-1202101011102011000000100001012001?2
+	'Homaeotarsus bicolor (Cryptobiina)'		                10111101010000101010010200010001010030120011000001000000000101211010110111000010000101000111101-???
+	'Ochthephilum fracticorne (Cryptobiina)'		            10111101010100001000011200001011010030120011000001000000000001210010010111000010000101110111101-110
+	'Hyperomma mandibulare (Dicaxina)'		                  00111101010000100000010200001011011030120001000001000001011001210010110111100010000101--01110001???
+	'Leptobium gracile (Dolicaonina)'		                   001001010101000000000104100000110100301210010000010000011110012200100101011100100001011101111000???
+	'Paederus littorarius (Paederina)'		                  0010010101000010101001041000001101002011001200000000100001100121211000010111111001010101011100000?0
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 99;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1574260569359; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1205796951549982498; tell It; setDefaultOrder 58 0 3 2 8 9 50 6 1 5 12 13 34 56 15 17 18 18 19 21 24 56 4 60 25 54 28 46 35 32 58 37 56 48 84 83 97 94 68 47 49; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5602862622187924672; tell It; setDefaultOrder 462 1 11 4 11 6 11 16 20 471 69 56 57 58 61 64 92 68 70 425 91 413 415 159 193 39 100 37 46 124 24 28 30 44 33 50 139 111 165 143 144 145 152 157 159 176 177 162 163 165 177 180 166 160 76 77 164 193 122 134 123 124 125 126 168 100 231 239 173 201 195 228 110 111 229 345 213 172 198 214 116 118 210 190 176 179 410 406 402 232 310 343 249 252 256 137 250 251 253; attachments ; endTell; mqVersion 350; checksumv 0 3 3530149347 null getNumChars 99 numChars 99 getNumTaxa 41 numTaxa 41 short true bits 63 states 63 sumSquaresStatesOnly 15034.0 sumSquares 15034.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false true 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 2560 1321; setLocation 1976 7; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5602862622187924672 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 459; endTell; setExplanationSize 90; setAnnotationSize 80; setFontIncAnnot 12; setFontIncExp 14; setSize 2560 1129; setLocation 1976 7; setFont SanSerif; setFontSize 14; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Yellow; removeColor off; endTell; colorColumnNames #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Yellow; removeColor off; endTell; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines on; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 111; toggleLinkedScrolling on; toggleScrollLinkedTables off; getInfoPanel; tell It; btspOpen false; apOpen false; fpOpen false; endTell; toggleInfoPanel on; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip on; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip on; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showDatasList #mesquite.lists.DatasetList.DatasetList; tell It; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa; newAssistant #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars; newAssistant #mesquite.lists.DatasetsListClass.DatasetsListClass; newAssistant #mesquite.lists.MatrixListVisible.MatrixListVisible; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2560 1249; setLocation 1976 7; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; endTell; showCharacters #5602862622187924672 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 2560 1249; setLocation 1976 7; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.arrow; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 99; 
+ENDBLOCK;
