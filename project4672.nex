@@ -1,0 +1,212 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-16 07.57.16 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Kulbeckia'
+		'Phenacodus'
+		'Meniscotherium'
+		'Hyopsodus'
+		'Pleuraspidotherium'
+		'Arctocyon'
+		'Orycteropus'
+		'Megalohyrax'
+		'Procavia'
+		'Arsinoitherium'
+		'Phosphatherium'
+		'Numidotherium'
+		'Moeritherium'
+		'Elephantoidea'
+		'Chambi sirenian'
+		'Prorastomus'
+		'Eosiren'
+		'Eotheroides'
+		'Protosirenidae n.gen. n.sp.'
+		'Protosiren'
+		'Dugong'
+		'Trichechus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=27;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Morphology of the bulla (Benoit et al., 2012)'
+		 [2] 'Morphology of the external auditory meatus (Court, 1990)'
+		 [3] 'Pachysteosclerosis of the pars petrosa and the tegmen tympani'
+		 [4] 'Merging of the fenestra cochlea and the canaliculus cochleae (Court , 1990)'
+		 [5] 'Shape of the fenestra vestibuli'
+		 [6] 'Stylomastoid foramen'
+		 [7] 'Hiatus fallopi'
+		 [8] 'Transpromontorial sulcus'
+		 [9] 'Stapedial sulcus or evidence for a stapedial artery'
+		 [10] 'Stapedial muscle fossa'
+		 [11] 'Shape of the tegmen tympani'
+		 [12] 'Tegmen process'
+		 [13] 'Epitympanic recess'
+		 [14] 'Commissura suprafacialis (Sagne, 2001)'
+		 [15] 'Pseudotympanic foramen'
+		 [16] 'Epitympanic wing'
+		 [17] 'Mastoid apophysis (Novacek and Wyss, 1986)'
+		 [18] 'Processus fonticulus'
+		 [19] 'Pachyosteosclerosis of the mastoid apophysis'
+		 [20] 'Crista falciformis'
+		 [21] 'Subarcuate fossa'
+		 [22] 'Shape of the cochlear spiral'
+		 [23] 'Volume of the cochlear canal with respect to that of the bony vestibule'
+		 [24] 'Secondary common crus'
+		 [25] 'Semicircular canals size'
+		 [26] 'Radius of the lateral canal'
+		 [27] 'Shape of the cross-section of the anterior and posterior semicircular canal'
+	;
+	STATELABELS
+		1
+		'ring-like ectotympanic'
+		'ossified ectotympanic bulla'
+		'ossified petrosal bulla'
+		,
+		2
+		'ventrally opened'
+		'enclosed within the squamosal'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'oval, stapedial ratio nearly equaling or exceeding 1.7'
+		'rounded, stapedial ratio equaling or being inferior to 1.6'
+		,
+		6
+		'opened ventrally, forms a simple notch on the petrosal'
+		'ventrally bridged by the caudal tympanic process and the tympanohyal process, forms a distinct foramen on the petrosal'
+		,
+		7
+		'absent, with a fallopian notch instead'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'distinctly round or oval fossa on the ventral aspect of the petrosal'
+		'unclear boundaries of the fossa'
+		,
+		11
+		'undifferenciated'
+		'reniform'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'small'
+		'large and deeply excavating the epitympanic recess'
+		,
+		14
+		'thick'
+		'thin or absent'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'develloped'
+		'reduced or absent'
+		'squared mastoid apophysis'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent, the mastoid being filled with cancellous cells'
+		'present'
+		,
+		20
+		'thin'
+		'thick, widely separating the acoustic foramina'
+		,
+		21
+		'absent or reduced'
+		'Deep'
+		,
+		22
+		'planispiral, cochlear aspect ratio not exceeding 0.65'
+		'conical, cochlear aspect ratio nearly equals or exceeds 0.70'
+		,
+		23
+		'smaller'
+		'as large or larger'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'unequal'
+		'roughly similar'
+		,
+		26
+		'the lateral canal is smaller than the anterior and/or the posterior canal'
+		'the lateral canal is larger than the anterior and the posterior canal'
+		,
+		27
+		'flatened'
+		'circular'
+		
+	;
+	MATRIX
+	'Kulbeckia'		                            ?0?00010100000010-001001001
+	'Phenacodus'		                           ?0?0?111100000000-0????????
+	'Meniscotherium'		                       ?0?00011100000000-0????????
+	'Hyopsodus'		                            ?0001011100000000-001101001
+	'Pleuraspidotherium'		                   ?0?00111100000010-0111?????
+	'Arctocyon'		                            ?0?00111100000000-011??1???
+	'Orycteropus'		                          00001111100000010-011011001
+	'Megalohyrax'		                          (1,2)0?????0????????1-?????????
+	'Procavia'		                             20000110000000011-000100000
+	'Arsinoitherium'		                       ?(0,1)011000000100101-000000000
+	'Phosphatherium'		                       ?0?0?110000000001-?00??????
+	'Numidotherium'		                        110000010?0100101-0000?10??
+	'Moeritherium'		                         ?10110?00?01???01-0001?????
+	'Elephantoidea'		                        1101(0,1)010000100(0,1)11-000000000
+	'Chambi sirenian'		                      ??1?0010001000001-00?111111
+	'Prorastomus'		                          001010000011001020100010111
+	'Eosiren'		                              00?1?0000?1010?121?10??????
+	'Eotheroides'		                          00?1?0?001101??120?10??????
+	'Protosirenidae n.gen. n.sp.'		          ???1?0000?10?1-120?10??????
+	'Protosiren'		                           00?1?000011011-12(0,1)?10??????
+	'Dugong'		                               0011?00001101011201100?0101
+	'Trichechus'		                           00111000011011-120110010111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 27;
+      ENDBLOCK;
+      BEGIN PAUP;
+ OUTGROUP Kulbeckia ; SET CRITERION = PARSIMONY; HSEARCH NREPS=1000 ADDSEQ=RANDOM; [jackknife pctdelete=50 nreps=500 conlevel=50 treefile=[the elected name4] keepall=yes cutoffpct=50 grpfreq=yes /start=stepwise addseq=random nreps=1000 savereps=yes nchuck=2 chuckscore=5 dstatus=none; set root=outgroup;] [bootstrap nreps=100;] CONTREE/MAJRULE = YES ; savetrees file=Chambi.tre format=nexus; contre all/treefile=Chambicontree.tre; PSET MSTAXA = POLYMORPH; 
+ENDBLOCK;

@@ -1,0 +1,602 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-16 07.51.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=41;
+    TAXLABELS
+    		'Didolodus multicuspis'
+		'Adiantoides leali'
+		'Protolipterna ellipsodontoides'
+		'Anisolambda'
+		'Protheosodon coniferus'
+		'Lambdaconus suinus'
+		'Lambdaconus lacerum'
+		'Prolicaphrium specillatum'
+		'Mesolicaphrium sanalfonensis'
+		'Paramacrauchenia scamnata'
+		'Tetramerorhinus lucarius'
+		'Tetramerorhinus cingulatum'
+		'Tetramerorhinus mixtum'
+		'Tetramerorhinus prosistens'
+		'Thoatherium minusculum'
+		'Diadiaphorus majusculus'
+		'Anisolophus australis'
+		'Anisolophus floweri'
+		'Anisolophus minusculus'
+		'Picturotherium migueli'
+		'Villarroelia totoyoi'
+		'Brachytherium cuspidatum'
+		'Neobrachytherium ameghinoi'
+		'Neobrachytherium intermedium'
+		'Neobrachytherium morenoi'
+		'Neobrachytherium ullumense'
+		'Thoatheriopsis mendocensis'
+		'Proterotherium cervioides'
+		'Epitherium laternarium'
+		'Diplasiotherium robustum'
+		'Eoauchenia primitiva'
+		'Neolicaphrium recens'
+		'Megadolodus molariformis'
+		'Neodolodus colombianus'
+		'Diplasiotherium pampa'
+		'Paranisolambda prodromus'
+		'Olisanophus riorosarioensis'
+		'Olisanophus akilachuta'
+		'Tetramerorhinus fleaglei'
+		'Promylophis cifelii'
+		'Uruguayodon alius'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=92;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Distance from anterior edge of orbit to tip of rostrum/distance from anterior edge of orbit to posterior edge of cranium'
+		 [2] 'Dorsoventral height of rostrum (measured perpendicular to plane of tooth row) at distal border of P1/M1 mesiodistal length.'
+		 [3] 'Dorsoventral height of orbit/M1 mesiodistal length.'
+		 [4] 'Width of palate between right and left M1/M1 mesiodistal length.'
+		 [5] 'Mandibular height (measured perpendicular to ventral edge of mandible) at posterior edge of m1/m1 length.'
+		 [6] 'Mandibular height (measured perpendicular to ventral edge of mandible) at distal edge of m3/height at distal edge of p2.'
+		 [7] 'Length of upper incisor?P1 diastema/M1 mesiodistal length.'
+		 [8] 'Mesiodistal length of m1 (mm).'
+		 [9] 'Orbit'
+		 [10] 'Anterior edge of orbit directly over'
+		 [11] 'Posterior edge of infraorbital foramen directly dorsal of'
+		 [12] 'Lateral edges of premaxillae'
+		 [13] 'Posteriormost point of symphysis at level of'
+		 [14] 'Number of upper incisors'
+		 [15] 'Upper incisor(s)'
+		 [16] 'Number of lower incisors'
+		 [17] 'External (distal-most) lower incisor relative to other incisors'
+		 [18] 'Upper canine'
+		 [19] 'Diastema between P1 and next-most mesial tooth'
+		 [20] 'Lower canine'
+		 [21] 'Diastema between c and p1'
+		 [22] 'Cheek teeth'
+		 [23] 'P2 protocone'
+		 [24] 'P3 paracone and metacone'
+		 [25] 'P3 mesiolingual cingulum'
+		 [26] 'P3 hypocone'
+		 [27] 'P3 paraconule'
+		 [28] 'P3 metaconule'
+		 [29] 'P3 parastyle'
+		 [30] 'P3 mesostyle'
+		 [31] 'P4 mesiolingual cingulum'
+		 [32] 'P4 hypocone'
+		 [33] 'P4 paratyle'
+		 [34] 'P4 mesostyle'
+		 [35] 'P4 metastyle'
+		 [36] 'P4 metaconule'
+		 [37] 'M1/P4 linguolabial width'
+		 [38] 'M1-2 metaconule 1:'
+		 [39] 'M1-2 hypocone'
+		 [40] 'M1-2 paracone and metacone ''folds'' (ridges between labial styles)'
+		 [41] 'M1-2 paracone and metacone concavities'
+		 [42] 'M1-2 metaconule 2:'
+		 [43] 'M1-2 metaconule 3:'
+		 [44] 'M1-2 parastyle and mesostyle'
+		 [45] 'Relative development of styles in M1?2'
+		 [46] 'Relative development of styles in M3'
+		 [47] 'M1?2 protocone and hypocone'
+		 [48] 'M1?2 labial cingula'
+		 [49] 'M3 labial cingulum'
+		 [50] 'M1 mesiolingual cingulum'
+		 [51] 'M2 mesiolingual cingulum'
+		 [52] 'M3 mesiolingual cingulum'
+		 [53] 'M1 metaconule position'
+		 [54] 'M2 metaconule position'
+		 [55] 'M1 metacone'
+		 [56] 'M2 metacone'
+		 [57] 'M2/M3 coronal area'
+		 [58] 'M3 hypocone'
+		 [59] 'M3 metastyle'
+		 [60] 'M3 distal cingulum'
+		 [61] 'M3 metaconule'
+		 [62] 'Ratio of p2/p1 mesiodistal length'
+		 [63] 'p1-2 implantation'
+		 [64] 'p2 metaconid'
+		 [65] 'p3 labial cingulid'
+		 [66] 'p3 talonid basin'
+		 [67] 'p3 trigonid basin'
+		 [68] 'p3 hypoconid'
+		 [69] 'p3 hypconulid'
+		 [70] 'p3 paraconid and metaconid'
+		 [71] 'p3 entoconid'
+		 [72] 'p4 entoconid'
+		 [73] 'p4 labial cingulid'
+		 [74] 'p4 trigonid basin'
+		 [75] 'p4 hypoconid'
+		 [76] 'm2/m1 mesiodistal length'
+		 [77] 'Position of paraconid on m1-2'
+		 [78] 'Paralophid on m1-2'
+		 [79] 'Entoconid on m1-2'
+		 [80] 'm1-3 cristids obliquae'
+		 [81] 'm1-2 labial cingulids'
+		 [82] 'm3 labial cingulid'
+		 [83] 'm1-2 lingual cingulids'
+		 [84] 'm3 lingual cingulid'
+		 [85] 'Hypsodonty index'
+		 [86] 'm3 paraconid'
+		 [87] 'm3 entoconid'
+		 [88] 'm1-2 hypoconulid position'
+		 [89] 'm3 hypoconulid position'
+		 [90] 'm3 paralophid'
+		 [91] 'm3 metaconid'
+		 [92] 'Manus/pes'
+	;
+	STATELABELS
+		1
+		,
+		2
+		,
+		3
+		,
+		4
+		,
+		5
+		,
+		6
+		,
+		7
+		,
+		8
+		,
+		9
+		'Open'
+		'Closed'
+		,
+		10
+		'P4'
+		'M1'
+		'M2'
+		,
+		11
+		'P4'
+		'P3'
+		,
+		12
+		'convergent'
+		'parallel'
+		,
+		13
+		'p3'
+		'p2'
+		'p1'
+		,
+		14
+		'three'
+		'one'
+		,
+		15
+		'small and incisiform'
+		'hypertrophied and tusk-like'
+		,
+		16
+		'three'
+		'two'
+		,
+		17
+		'subequal'
+		'significantly larger than internal (mesial) incisor(s)'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'incisiform'
+		'tusk-like'
+		'absent'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'bunodont'
+		'bunoselenodont'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'incipient on each other'
+		'broadly spaced'
+		'state undefined by author'
+		,
+		25
+		'not connected to protocone and not forming basin'
+		'connected to protocone forming basin'
+		'extends past protocone'
+		'absent'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'not connected to protocone and not forming basin'
+		'connected to protocone forming basin'
+		'extends past protocone'
+		'absent'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'oined to protocone by crest'
+		'joined to hypocone by crest'
+		'absent'
+		'isolated'
+		,
+		37
+		'subequal (ratio < or = 1.15)'
+		'M1 wider (> 1.15)'
+		,
+		38
+		'cuspate'
+		'absent'
+		'forming labiolingual crest'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'strong'
+		'absent'
+		'weak'
+		,
+		41
+		'both weak'
+		'paracone concavity well-developed'
+		'both well-developed'
+		,
+		42
+		'more mesial than hypocone'
+		'at same level as hypocone'
+		'absent'
+		,
+		43
+		'joined to protocone'
+		'joined to hypocone'
+		'joined to crest uniting hypo- and protocone'
+		'joined to metacone'
+		'isolated'
+		'absent'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'mesostyle more developed'
+		'neither developed'
+		'parastyle more developed'
+		'equally developed'
+		,
+		46
+		'either style developed'
+		'mesostyle more developed'
+		'equally developed'
+		'parastyle more developed'
+		,
+		47
+		'not directly connected'
+		'connected by weak crest containing small sulcus'
+		'connected by complete crest'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'not connected to protocone and not forming basin'
+		'connected to protocone'
+		'reaches lingual sulcus'
+		,
+		51
+		'not connected to protocone and not forming basin'
+		'connected to protocone'
+		'reaches lingual sulcus'
+		,
+		52
+		'not connected to protocone and not forming basin'
+		'connected to protocone'
+		'reaches lingual sulcus'
+		,
+		53
+		'closer to hypocone'
+		'equidistant'
+		'closer to protocone'
+		,
+		54
+		'closer to hypocone'
+		'equidistant'
+		'closer to protocone'
+		,
+		55
+		'directly distal of protocone'
+		'positioned more labially than protocone'
+		,
+		56
+		'directly distal of protocone'
+		'positioned more labially than protocone'
+		,
+		57
+		'larger (> or = 1.15)'
+		'subequal in size (< 1.15)'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'connected to protocone by crest'
+		'absent'
+		'not connected to protocone'
+		,
+		62
+		'p2/p1 < or = 1.25'
+		'p2/p1 > or = 1.45'
+		'1.25 < p2/p1 < 1.45'
+		,
+		63
+		'no diastema'
+		'diastema between teeth'
+		'imbricated'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		'state undefined by author'
+		,
+		66
+		'absent'
+		'simple crest'
+		'crescentic loph'
+		,
+		67
+		'mesiodistally longer than talonid basin'
+		'same length as talonid basin'
+		'state undefined by author'
+		,
+		68
+		'absent'
+		'lingual of protoconid'
+		'directly distal of protoconid'
+		'labial of protoconid'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent or weak'
+		'well-developed'
+		,
+		72
+		'absent or weak'
+		'well-developed'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'mesiodistally longer than talonid basin'
+		'same length as talonid basin'
+		'state undefined by author'
+		,
+		75
+		'lingual of protoconid'
+		'directly distal of protoconid'
+		'labial of protoconid'
+		,
+		76
+		'subequal (ratio is < or = 1.15)'
+		'm2 larger (> 1.15)'
+		,
+		77
+		'directly lingual of protoconid'
+		'mesial of protoconid'
+		'absent'
+		,
+		78
+		'absent'
+		'terminates near midline'
+		'developed and reaching lingual edge of tooth'
+		,
+		79
+		'as large as hypoconulid'
+		'larger than hypoconulid'
+		'smaller than hypoconulid'
+		'absent'
+		,
+		80
+		'connected to metaconid'
+		'connected to metalophid'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'HI < 0.85)'
+		'0.85 < HI < 1.00'
+		'HI > 1.00'
+		,
+		86
+		'present'
+		'absent'
+		,
+		87
+		'isolated'
+		'connected to hypolophid'
+		'connected by crest to hypoconulid'
+		'connected by crest to hypolophulid'
+		'absent'
+		,
+		88
+		'not on lingual border of tooth'
+		'on lingual border of tooth'
+		,
+		89
+		'not on lingual border of tooth'
+		'on lingual border of tooth'
+		,
+		90
+		'absent'
+		'terminates near midline'
+		'reaches lingual edge of tooth'
+		,
+		91
+		'conical'
+		'mesiodistally extended'
+		,
+		92
+		'Functionally tridactyl'
+		'functionally or truly monodactyl, as shown by reduced second and/or fourth metapodials'
+		
+	;
+	MATRIX
+	'Didolodus multicuspis'		                   ????--?-?00?0????00??0000000000000000000000000000000000000000?0000?000000000000000000000000?
+	'Adiantoides leali'		                       ????-??-01?000000000011?00??100?101?0?10???12?0??00????????0??0111000010000011?00011?10??00?
+	'Protolipterna ellipsodontoides'		          ????????????0??????110?????????00001?000?00011100001110011000?0000?000000?100001000001000000
+	'Anisolambda'		                             ???????-?????????????1?1001111001110?0001041322110000000?110????????????0??002000000?000020?
+	'Protheosodon coniferus'		                  ???????-02?????00??001111011101010100?012?113?100?11?0?011?00110121201011120111?111110000110
+	'Lambdaconus suinus'		                      ????-??-????2??10??011?1????1100111(0,2)0(0,1)000(1,2)(1,5)132211011000011001??????????10120210010002020020?
+	'Lambdaconus lacerum'		                     ????-??-?????1???11??1?11(0,1)11111(0,1)111000100011332011110000?1?12??1121201110120210000001100010?
+	'Prolicaphrium specillatum'		               ?-----?-?1?10?111110111120111120111300022041331111(0,1)111(0,1)00100212002020101012021(0,2)011111130011?
+	'Mesolicaphrium sanalfonensis'		            ???????-????1??????011?1101111?11110?002200103?00111?200?1102??1?21301010120211011110100010?
+	'Paramacrauchenia scamnata'		               ???????-????1????????111?01110?01110?00020213321100??011?0101??102120111010121?00000?120020?
+	'Tetramerorhinus lucarius'		                --------1011111111101111211(0,1)1121111(1,3)0001204132000111110001(0,1)021(0,2)102030111112012001011203101(0,1)1
+	'Tetramerorhinus cingulatum'		              --------1111111111101111211011(1,2)1111300012041320000(0,1)111000110200102030111112012(0,2)0(0,1)11120(2,3)0020?
+	'Tetramerorhinus mixtum'		                  ?-------10?1111?1110?111(1,2)11111111113000120413200011111000110210002030100(0,1)12012001(0,1)1120200201
+	'Tetramerorhinus prosistens'		              ????-??-?????1111????1?1?010112111101001204(0,1)32000000220001102???020301011120110011112020010?
+	'Thoatherium minusculum'		                  --------1101(0,1)111(0,1)110111111101111111202012031332000(0,1)11111010011010203011111211230111120411201
+	'Diadiaphorus majusculus'		                 -???--?-111111111110(0,1)11121101121111(2,3)020120313300022(1,2)1100011021(0,2)10203011111201230111120411201
+	'Anisolophus australis'		                   -----?--101?(0,1)11111101111101111101113000220413310011112000(0,1)002200020301001120210011111120010?
+	'Anisolophus floweri'		                     ????--?-????11111110?1?11011111011100002204132(0,1)001110000011022000203010101202100111111000111
+	'Anisolophus minusculus'		                  ????--?-???????1111011111???111?111?0??????1???00011????11002?000203010101202100(0,1)0(0,1)12100011?
+	'Picturotherium migueli'		                  ???????-?????????????11101111101111000022021321001110000?1102??????????????0210000110130010?
+	'Villarroelia totoyoi'		                    ???????-??????????10111111111111111000022041330000112200?110200102030101?1?021?0??1?21000111
+	'Brachytherium cuspidatum'		                ????--?-????1????????111111?11?11110?0012001330110011100111022210203011111201(1,2)201111212(0,1)110?
+	'Neobrachytherium ameghinoi'		              ????-??-?????????????1???????????????1012??132211000??00?1100??????????011202120111121(0,2)1010?
+	'Neobrachytherium intermedium'		            ?--????-1101111??110111101101101111100012021332(0,1)1000000101002?2?0203????11202200(0,1)11121211201
+	'Neobrachytherium morenoi'		                ???????-1?????1??11??1????????01111?01012??13?20?00???00???????102031111112?12000?1????0????
+	'Neobrachytherium ullumense'		              ????????1????????????111????11?1111?00012??133?01000???1?0101??????????1?0??21?01111?021110?
+	'Thoatheriopsis mendocensis'		              ?????????????????????11121101121?????0012001330110001100?1102???????????????????????????????
+	'Proterotherium cervioides'		               ?????????????????????1????????211110100020012?21100?1100????????????????????????????????????
+	'Epitherium laternarium'		                  -???-?--?1?1?11??11??1110???110?111?00012?2133101011?00000101???0203?1???12112200111?02102??
+	'Diplasiotherium robustum'		                ???????-???????11??0?1?????????????????????????????????????????10213?1110121?1?01111?10?111?
+	'Eoauchenia primitiva'		                    ?---????111??11??11??1113?1?113?111?0201203133201????0?10010???????????????????????????????1
+	'Neolicaphrium recens'		                    ????-?--???1?11??11??111??1?11?1111?10012011332111110000?0102???02030111112112101000?021120?
+	'Megadolodus molariformis'		                ???????-??????0?00?1?0?1001100000003000000401?11?0000000?0?0???00212???101102001000001200001
+	'Neodolodus colombianus'		                  ???????-?????11??11??1110011101010130000004101100111000010102???02???10110202111111111000101
+	'Diplasiotherium pampa'		                   ???????-?????????????1??????????????????????????????????????????02130101012?111011112001110?
+	'Paranisolambda prodromus'		                ???????-?????????????1???????????????002204133(0,1)00?00?1?0?1102???????????????02000000?000010?
+	'Olisanophus riorosarioensis'		             ????--?-????1????????1?1111???1????0?00220012?00?1121100?1?00?0?02?3???11120210011002130010?
+	'Olisanophus akilachuta'		                  ???????-?????????????1?11?0??????????002200133000?11?2?0?(0,1)100??????????101202100000?2?000???
+	'Tetramerorhinus fleaglei'		                ?????????????????????112(1,2)01111111113000220413200000?1100?1102???12030111112?110111??2120010?
+	'Promylophis cifelii'		                     ???????-?????????????1???????????????10202513?00?11???00????????????????????2100000000000101
+	'Uruguayodon alius'		                       ????--?-????0????????1??????????????????????????????????????2211202?1??112112?01111?0??112??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 92;
+      ENDBLOCK;
+      

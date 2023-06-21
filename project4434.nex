@@ -1,0 +1,973 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 05.05.43 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=110;
+    TAXLABELS
+    		'Pseudopucrolia mutica'
+		'Quindina bella'
+		'Syncranaus cribrum'
+		'Chacoikeontus clavifemur'
+		'Incasarcus dianae'
+		'Prostygnus vestitus'
+		'Yania flavolimbata'
+		'Cynorta lithoclasica'
+		'Cynorta quibijana'
+		'Cynortoides cubana cubana'
+		'Cynortoides v-album'
+		'Vonones octotuberculatus'
+		'Vonones planus'
+		'Holovonones compressus'
+		'Vonones ornatus'
+		'Vonones sayi'
+		'Libitioides albolineata'
+		'Arucillus armasi'
+		'Trinimontius darlingtoni'
+		'Erginulus clavotibialis'
+		'Meterginus basalis'
+		'Poecilaemula signata'
+		'Paragryne quadrimaculata'
+		'Metagryne ferruginea'
+		'Metagryne albireticulata'
+		'Peruvicynorta oxapampa'
+		'Acantholibitia pustulosa'
+		'Gryne pluriarcuata'
+		'Fortalezius excellens'
+		'Bodunius biocellatus'
+		'Metalibitia paraguayensis'
+		'Ferkeria vestita'
+		'Platygyndes titicaca'
+		'Paecilaemella festae'
+		'Paecilaemella multimaculata'
+		'Protus ornatus'
+		'Flirtea picta'
+		'Flirtea valida'
+		'Acritas bilineatus'
+		'Vononoides unimaculatus'
+		'Chusgonobius weyrauchi'
+		'Vononella maculata'
+		'Eucynortella cryptogramma'
+		'Cynortopyga pauper'
+		'Vononana peruviana'
+		'Guaporeius patellaris'
+		'Guaporeius sanctissimus'
+		'Taito adrik'
+		'Taito juruensis'
+		'Taito spaceinvaders'
+		'Taito honda'
+		'Rhauculus insignitus'
+		'Rhaucoides ornatus'
+		'Rhaucoides riveti'
+		'Eucynorta virescens'
+		'Rhaucus vulneratus'
+		'Rhaucus robustus'
+		'Eulibitia scalaris'
+		'Eulibitia h-inscriptum'
+		'Ambatoiella vigilans'
+		'Oligovonones brunneus'
+		'Libitia cordata'
+		'Libitia bipunctata'
+		'Neocynorta marmorata'
+		'Neocynorta venezuelensis'
+		'Cynorta conspersa'
+		'Gryne pustulata'
+		'Cosmetus varius'
+		'Cosmetus delicatus'
+		'Cosmetus arietinus'
+		'Metavononoides barbacenensis'
+		'Metavononoides guttulosus'
+		'Metavononoides orientalis'
+		'Paecilaema albisectum'
+		'Paecilaema u-flavum'
+		'Paecilaema melanacanthum'
+		'Paecilaema lyra'
+		'Paecilaema muticum'
+		'Paecilaema ornatissimum'
+		'Paecilaema preciosum'
+		'Paecilaema renneri'
+		'Kayania compressicoxa'
+		'Kayania bicolumnata'
+		'Marronia elegans'
+		'Sibambea waorani sp. nov.'
+		'Sibambea rotunda'
+		'Discosomaticus cinctus'
+		'Protus distinctus'
+		'Protus bolivari'
+		'Protus insolens'
+		'Paraprotus speciosus'
+		'Protus marllusi sp. nov.'
+		'Paraprotus quadripunctatus'
+		'Paraprotus atroluteus'
+		'Paraprotus albithorax'
+		'Gryne marginalis'
+		'Gryne leprosa'
+		'Gryne coccinelloides'
+		'Gryne orensis'
+		'Gryne dimorpha'
+		'Roquettea andina'
+		'Roquettea singularis'
+		'Roquettea jalapensis'
+		'Roquettea carajas'
+		'Roquettea peba'
+		'Roquettea scrotalis'
+		'Roquettea taurina'
+		'Roquettea bubalina'
+		'Roquettea troguloides'
+		'Roquettea decioi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=130;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'DS, lenght (mm)'
+		 [2] 'DS, outline shape, type  (Kury & Medrano, 2016)'
+		 [3] 'DS, outline shape, constrictions C1 (Kury & Medrano, 2016)'
+		 [4] 'Dorsal scutum, lateral border in posterior view'
+		 [5] 'DS, shape in lateral view'
+		 [6] 'DS, anterior border of carapace, width (revisar todo)'
+		 [7] 'DS, abdomen, posterior border'
+		 [8] 'DS, tegument'
+		 [9] 'DS, coloration, ocularium'
+		 [10] 'DS, coloration'
+		 [11] 'DS, coloration, blots, number of shades (Kury & Medrano, 2018)'
+		 [12] 'DS, coloration, blots, reticulated pattern'
+		 [13] 'DS, coloration, blots, reticulated pattern, shape'
+		 [14] 'DS, coloration, color blots on scutum, backbone as a continuous line (not dots)'
+		 [15] 'DS, coloration, color blots on scutum, v-part of chevron'
+		 [16] 'DS, coloration, blots, ears of chevron (Kury & Medrano, 2018)'
+		 [17] 'DS, coloration, color blots on scutum, omega stripe'
+		 [18] 'DS, coloration, blots, equuleus (also called easel, Kury & Barros, 2014)'
+		 [19] 'DS, coloration, blots, numerous minuscule yellow-white dots covering denselly the DS'
+		 [20] 'DS, coloration, blots, large yellow-white blots in relief  (Cynorta)'
+		 [21] 'DS, coloration, blots, yellow-white granulation on small granules in mesotergum (solid punctulation, Kury & Medrano, 2018)'
+		 [22] 'DS, coloration, blots, horseshoe (Kury & Medrano, 2018)'
+		 [23] 'DS, blots, lyra, with complete fenestrae and diaphanous body'
+		 [24] 'DS, lyra, branches'
+		 [25] 'DS, blots, lyra, fenestra magna, posterior border'
+		 [26] 'DS,blots, lyra, Inner filling'
+		 [27] 'DS,blots, lyra, outline of fenestra magna'
+		 [28] 'DS,blots, lyra, pairs of lateral fenestrae'
+		 [29] 'DS, coloration, lyra, vertebral round blots (Paecilaema)'
+		 [30] 'DS, coloration, color blots on scutum, paired dots on anterior carapace (Paecilaema)'
+		 [31] 'DS, coloration, rib of mesotergal groove I'
+		 [32] 'DS, coloration, blots, complete white ring in anterior and lateral margins'
+		 [33] 'DS, coloration, blots, anterior margin of carapace (crown)'
+		 [34] 'DS, coloration, anterior part of carapace (crown), shape'
+		 [35] 'DS, coloration, blots, ring, laterals in abdominal scutum'
+		 [36] 'DS, coloration, blots, ring, laterals, shape'
+		 [37] 'DS, coloration, blots, area V, isolated posterior stripe'
+		 [38] 'Leg IV, femur, width'
+		 [39] 'Inter-ocular distance, proportion to carapace (in females)'
+		 [40] 'Ocularium, shape'
+		 [41] 'Ocularium, protuberances, shape'
+		 [42] 'Carapace, posterior part, shape (Roquettea)'
+		 [43] 'Carapace, guards of protoglyphs, shape'
+		 [44] 'Abdominal scutum, mesotergal area I, armature'
+		 [45] 'Abdominal scutum, mesotergal area I, paired armature, built'
+		 [46] 'Abdominal scutum, mesotergal area I, white buttons in the middle of the area'
+		 [47] 'Abdominal scutum, mesotergal area II, armature'
+		 [48] 'Abdominal scutum, mesotergal area III, armature'
+		 [49] 'Abdominal scutum, area III, armature, shape  (in females if sexual dimorphism is present)'
+		 [50] 'Abdominal scutum, area III, paramedian spines, size (in female if sexual dimorphism is present)'
+		 [51] 'Abdominal scutum, area III, paramedian spines or tubercles, fusion'
+		 [52] 'Abdominal scutum, area III, spines, dimorphism'
+		 [53] 'Abdominal scutum, area III, armature, color pattern'
+		 [54] 'Abdominal scutum, area III, armature, location'
+		 [55] 'Abdominal scutum, mesotergal area IV, armature'
+		 [56] 'Abdominal scutum, area IV, armature, height'
+		 [57] 'Abdominal scutum, area IV, armature, fussion'
+		 [58] 'Abdominal scutum, area V (posterior margin), protruding paramedian armature'
+		 [59] 'Abdominal scutum, areas I to III, combined high ornamentation'
+		 [60] 'Areas I and-or III, armature, texture'
+		 [61] 'Free tergite I, yellow coloration'
+		 [62] 'Anal opercle, armature'
+		 [63] 'Chelicerae, sexual dimorphism'
+		 [64] 'Chelicera, sexual dimorphism, type'
+		 [65] 'Chelicerae, hand, fixed finger, pectination'
+		 [66] 'Chelicera, hand, movable finger, distal teeth'
+		 [67] 'Chelicerae, hand, movable finger, basal triangular spine'
+		 [68] 'Pedipalp, general shape'
+		 [69] 'Pedipalp, tarsus, shape'
+		 [70] 'Pedipalp, tarsus, lenght, proportion with tibia'
+		 [71] 'Pedipalpus, tibia, prolateral margin'
+		 [72] 'Pedipalp, tibia, wider side'
+		 [73] 'Leg I, tarsomeres, Ta counts'
+		 [74] 'Leg II, tarsomeres, BaTa counts'
+		 [75] 'Leg III, tarsomeres, Ta counts'
+		 [76] 'Leg IV, tarsomeres, Ta counts'
+		 [77] 'Leg IV, coxa of male, prolateral distal armature'
+		 [78] 'Leg IV, coxa and trochanter, orientation'
+		 [79] 'Leg IV, coxa, prodorsal basal armature'
+		 [80] 'Leg IV, coxa, basal articulation (with scutum), thickening'
+		 [81] 'Leg IV, coxa, visibility in dorsal view'
+		 [82] 'Leg IV, coxa, coloration'
+		 [83] 'Leg IV, coxa, white areas, shape'
+		 [84] 'Leg IV, coxa, lenght proportion to DS in dorsal view'
+		 [85] 'Leg IV, coxa, outline of lateral border in dorsal view'
+		 [86] 'Leg IV, lenght dimorphism'
+		 [87] 'Leg IV, femur, length, proportion  femur IV vs DS lenght'
+		 [88] 'Leg IV, femur, shape'
+		 [89] 'Leg IV, femur, general dorsal armature'
+		 [90] 'Leg IV, Fe, male, dorso-basal patellar spur'
+		 [91] 'Leg IV, femur, ventro-basal armature'
+		 [92] 'Leg IV, femur, Pro-ventral armature in distal third'
+		 [93] 'Leg IV, femur, distal prolateral set of long hooks forming a comb'
+		 [94] 'Leg IV, femur, curvature (in dorsal view)'
+		 [95] 'Leg IV, metatarsus, dimorphism'
+		 [96] 'Legs III-IV, tarsal claws, pectination in inner side'
+		 [97] 'Legs III-IV, tarsal claws, pectination in outter also in outer side'
+		 [98] 'Legs I-III, trochanters, retrolateral spine (Taito)'
+		 [99] 'Legs III-IV, tarsi, thickness'
+		 [100] 'Penis, VP, MS A1 position'
+		 [101] 'Penis, VP, MS A, number'
+		 [102] 'Penis, VP, MS A1, length'
+		 [103] 'Penis, VP, MS C3, presence'
+		 [104] 'Penis, VP, MS Cs, orientation'
+		 [105] 'Penis, VP, MS Cs, shape'
+		 [106] 'Penis, VP, MS D1, size and stoutness'
+		 [107] 'Penis, VP, MS D2, position'
+		 [108] 'Penis, VP, MS D2, size'
+		 [109] 'Penis, VP, MS B, number'
+		 [110] 'Penis, VP, MS SN, supranumerary, grouped but not aligned with MS C (Roquettea)'
+		 [111] 'Penis, VP, basic shape'
+		 [112] 'Penis, VP, distal border, concavity'
+		 [113] 'Penis, VP, latero-distal corners, width (synap Roquettea)'
+		 [114] 'Penis, glans, dorsal process'
+		 [115] 'Dorsal process of glans, shape'
+		 [116] 'Penis, VP, length'
+		 [117] 'Penis, glans, insertion to truncus vs VP'
+		 [118] 'Penis, VP, ventral surface, texture'
+		 [119] 'VP, microsetae, lateral patches of cteniform T4, inner-outer expansion'
+		 [120] 'VP, microsetae, lateral patches of cteniform T4, proximal-distal expansion'
+		 [121] 'Penis, VP, basal section including truncus, texture'
+		 [122] 'Penis, VP, midfield of microsetae T1, T2, T3 or T5'
+		 [123] 'Penis, stylus, tip, dorsal peak'
+		 [124] 'Penis, stylus, wattle, presence'
+		 [125] 'Penis, stylus, wattle, extension in ventral part'
+		 [126] 'Penis, stylus, wattle (when complete), shape'
+		 [127] 'Penis, stylus, wattle, distal part, width'
+		 [128] 'Penis, stylus, stylar barbs'
+		 [129] 'Penis, stylus, wattle, stylar barbs, disposition in ventral part'
+		 [130] 'Penis, stylus, wattle, stylar barbs, disposition in dorsal part'
+	;
+	STATELABELS
+		1
+		'Small, <3'
+		'Medium, 4-6'
+		'Large >6'
+		,
+		2
+		'Alpha'
+		'Beta'
+		'Lambda'
+		'Delta'
+		'Epsilon'
+		'gamma'
+		'beta elongate'
+		,
+		3
+		'Not marked (Sibambea)'
+		'Poorly marked (Paecilaema)'
+		'Well marked (Ambatoiella)'
+		,
+		4
+		'following the general body curvature'
+		'clearly marked by a deep groove and raised breaking the outline of scutum'
+		,
+		5
+		'Flat (carapace and abdomen), slight constrictions'
+		'Constriction of scutal groove well marked, carapace quasi flat, abdomen convex (Cynorta)'
+		'Lenticular, strongly convex in lateral view, zero constrictions'
+		,
+		6
+		'Narrow, three times maximum abdomen width (Acantholibitia)'
+		'Wide, aprox. 2.5 times maximum abdomen width (Taito)'
+		'Very wide, less two times maximum abdomen width (Meterginus)'
+		,
+		7
+		'Without coda'
+		'Small coda, 1/3 of mid-bulge lenght'
+		'Large coda, almost as large as mid-bulge'
+		,
+		8
+		'Coarsely granulated'
+		'Smooth or covered with minute granules'
+		,
+		9
+		'Concolorous with background'
+		'Darker than background'
+		,
+		10
+		'Uniformly brown, when different colors appear they are faint and not serose layers'
+		'Some type of yellow/white waxy secretion blots'
+		,
+		11
+		'One (solid)'
+		'Two (solid and translucent)'
+		,
+		12
+		'Absent'
+		'Present, blots criss-crossing around granules'
+		,
+		13
+		'Invading the mesotergum'
+		'Only marginal, not invading mesotergum'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'Absent'
+		'Present'
+		,
+		17
+		'Absent'
+		'Present'
+		,
+		18
+		'Absent'
+		'Present'
+		,
+		19
+		'Absent'
+		'Present'
+		,
+		20
+		'Absent'
+		'Present'
+		,
+		21
+		'Absent'
+		'Present'
+		,
+		22
+		'Absent'
+		'Present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'not reaching carapace at all'
+		'reaching only back corners of cpx'
+		'stretching all the way to frontal border of scutum'
+		,
+		25
+		'rounded'
+		'pointing backwards'
+		'flat, straight'
+		,
+		26
+		'isolated round blots'
+		'diaphanous body'
+		'solid'
+		'mixed, diaphanous, void and meandering blots'
+		,
+		27
+		'formed by small dots'
+		'formed by very large dots'
+		'as a continuous line'
+		,
+		28
+		'absent'
+		'present, anterior and posterior'
+		,
+		29
+		'absent'
+		'small'
+		'very large'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'absent'
+		'Present'
+		,
+		34
+		'Entire'
+		'Fragmented'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Arch only'
+		'Wide stripe'
+		'Arch, widely penetrating mesotergum'
+		'Fragmented stripe'
+		,
+		37
+		'Absent'
+		'Present'
+		,
+		38
+		'Very thin (ca. 9 times thinner than Scutal Area V)'
+		'Medium (ca. 6.5 times thinner than Scutal Area V)'
+		'Thick (ca. 5 times thinner than Scutal Area V)'
+		,
+		39
+		'Narrow (<1/4 of carapace width)'
+		'Wide (1/3 of carapace width)'
+		'Very wide (1/2 of carapace width)'
+		,
+		40
+		'Low, with median concavity'
+		'High, dome-shaped'
+		'High, incrassate'
+		,
+		41
+		'Protuberances just near eyes, keeping median depression'
+		'Protuberances forming a single large structure'
+		,
+		42
+		'Standard, lower than ocularium'
+		'Incrassate, as high as ocularium'
+		,
+		43
+		'Reduced to a rounded lobe (Rhaucus)'
+		'Triangular (Eulibitia)'
+		'Square (Libitia)'
+		'Bifurcate or multifurcate (Metalibitia)'
+		,
+		44
+		'Without armature'
+		'Paramedian armature'
+		,
+		45
+		'Small tubercules or spines'
+		'Large spines or tubercles'
+		,
+		46
+		'Absent'
+		'Present'
+		,
+		47
+		'Without armature'
+		'Paramedian armature'
+		,
+		48
+		'Absent'
+		'Present'
+		,
+		49
+		'Spines'
+		'paramedian acuminated high armature (longer than wide)'
+		'Tubercules'
+		'paramedian acuminated thick tubercles (wider than long)'
+		'Buttons'
+		'small rounded tubercles'
+		'Pseudo-columns'
+		'thick rounded and long spines'
+		,
+		50
+		'Low spines, one third of the height of DS in lateral view'
+		'High spines, as high as DS in lateral view'
+		,
+		51
+		'Separated'
+		'Fused'
+		,
+		52
+		'Same shape (or almost) in both sexes'
+		'Inflated and rounded in males'
+		'Columns in males'
+		,
+		53
+		'concolorous with scutum or slightly darker'
+		'white-painted buttons'
+		,
+		54
+		'Normal position'
+		'Displaced forwards, almost in the middle of mesotergum'
+		,
+		55
+		'Absent'
+		'Paramedian armature'
+		,
+		56
+		'low tubercles'
+		'high tubercles'
+		,
+		57
+		'Separated'
+		'Fussed'
+		,
+		58
+		'Absent'
+		'Present'
+		,
+		59
+		'With normal ornamentation (without fusion between armatures of different areas)'
+		'A single structure as a column with two or four immensely inflated globoid or pear-shaped structures'
+		,
+		60
+		'Glossy'
+		'Matte'
+		,
+		61
+		'uncolored'
+		'Entirely colored'
+		'Paramedian granules colored'
+		'Dots equally spaced'
+		'Irregular coloration, not including granules'
+		,
+		62
+		'Granulated, all granules of same size'
+		'Pointed tubercles, one pair larger'
+		'Blunt protuberance'
+		,
+		63
+		'Absent or imperceptible, basichelicerite and-or hand monomorphic'
+		'Present, basichelicerite and-or hand incrassate in males'
+		,
+		64
+		'Cheliceral hand of male immensely inflated, projected dorsally, covering frontal part of the scutum in frontal view, basichelicerite much larger'
+		'Cheliceral hand of male immensely inflated, but not projected dorsally, basichelicerite much larger'
+		'Cheliceral hand of male moderately swollen, basichelicerite thicker than in female'
+		,
+		65
+		'Absent, smooth'
+		'Serrated'
+		'Well-marked teeth'
+		'Keel'
+		,
+		66
+		'Absent'
+		'Present'
+		,
+		67
+		'Absent'
+		'Present'
+		,
+		68
+		'Cylindrical'
+		'Femur compressed and tibia spoon-shaped, applied over the chelicerae'
+		,
+		69
+		'Cylindrical-ovoid'
+		'Trapezoid elongate'
+		'Flatened laterally'
+		,
+		70
+		'Markedly shorter than tibia'
+		'Almost as long as tibia'
+		,
+		71
+		'Without prominent flap'
+		'With remarkable flap along inner side'
+		,
+		72
+		'Apical, Roquettea-like'
+		'in 3/4 lenght-Cynorta-like'
+		'in the middle lenght, Rhaucus-like'
+		,
+		73
+		'four'
+		'five'
+		'six'
+		'seven'
+		'8 to 9'
+		'10 or more'
+		,
+		74
+		'three'
+		'four'
+		'five'
+		'six or more'
+		,
+		75
+		'five to six'
+		'seven to eight'
+		'nine to ten'
+		'11 to 13'
+		,
+		76
+		'five to eight'
+		'nine to 13'
+		'more than 13'
+		,
+		77
+		'Unarmed or mostly reduced'
+		'Well marked apophyse'
+		,
+		78
+		'Oblique'
+		'Cx IV of male entirely parallel to main body axis, so that Fe IV lies straight, while in females Cx is oblique and Fe in slanted'
+		,
+		79
+		'None'
+		'Groin warts'
+		,
+		80
+		'Without any thickening'
+		'Basal thickening'
+		,
+		81
+		'Entirely visible'
+		'Partially covered by DS (scutum outline touches or surpasses Cx outline)'
+		'Entirely covered by DS (only posterior margin apparent)'
+		,
+		82
+		'Uniform brown'
+		'White/yellow spots'
+		,
+		83
+		'Broad white patches all along its length'
+		'Isolated white tubercles all over'
+		'Small dots without relief'
+		,
+		84
+		'Short , 0,3x DS (Libitia-like)'
+		'Medium, 0,5x DS (Metavononoides-like)'
+		'Long, 0,8x DS (Platygyndes-like)'
+		,
+		85
+		'Convex'
+		'Concave'
+		'Convex proximally and concave distally (C. compressicoxa)'
+		,
+		86
+		'Almost same lenght in both sexes, tibia short'
+		'Femur and tibia longer in males,tibia almost of same size of femur'
+		'Femur enlarged and compressed in males'
+		,
+		87
+		'Very short, less than 1x DS'
+		'Short, 1.5x DS'
+		'Long, 2x DS or more'
+		,
+		88
+		'Same thickness in all lenght'
+		'Distally inflated'
+		'Enlarged basally'
+		,
+		89
+		'Mainly scattered tiny granules'
+		'Entirely tuberculated'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'Absent'
+		'Spines'
+		,
+		92
+		'Absent'
+		'A comb a low independent tubercles increasing in size distally'
+		'A comb of tubercles sometimes fused in the base or forming a widening'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'Straight or substraight'
+		'Curved'
+		'curved in distal third'
+		,
+		95
+		'Cylindrical, long in both sexes'
+		'Short, prysmatic in males'
+		,
+		96
+		'Absent (smooth)'
+		'Present (pectinate)'
+		,
+		97
+		'Simple, just internal row'
+		'Double, inner and external rows'
+		,
+		98
+		'Absent'
+		'Present, either in I, II, III or in I, II'
+		'present only in Tr III (Prostygnus)'
+		,
+		99
+		'Normal size'
+		'Very incrassate'
+		,
+		100
+		'extremely basal in VP (immediately distal to podium), contained in basal quarter of VP'
+		'contained in second proximal quarter of VP (from mid-length to proximal)'
+		,
+		101
+		'Extremely reduced, not detectable'
+		'One pair'
+		'Two pairs'
+		,
+		102
+		'Short, or very short, reduced'
+		'Long, as long as D1 or C'
+		,
+		103
+		'Absent'
+		'Present'
+		,
+		104
+		'pointing basally'
+		'pointing distally'
+		,
+		105
+		'Curved, flattened'
+		'Straight or sub-straight, cilindrical'
+		'Very short, straight'
+		,
+		106
+		'Small and thin'
+		'Long and stout, almost as a MS C'
+		,
+		107
+		'lateral, in the distal half'
+		'lateral, in the proximal half'
+		,
+		108
+		'Reduced, clearly smaller than MS D1'
+		'Almost as long as MS D1 or Cs'
+		,
+		109
+		'A single pair'
+		'Two pairs'
+		,
+		110
+		'Absent'
+		'Present'
+		,
+		111
+		'Rectangular, lateral margins sub-paralel (Protus-like)'
+		'T-shape, distal border wider than basal, membranous region of MS C concave (Rhaucus-like)'
+		'Inverted trapezium, basal portion of VP wider than distal portion (Gryne leprosa-like)'
+		'pyriform (Prostygnus-like)'
+		,
+		112
+		'Shallow'
+		'Deep'
+		'Convex'
+		'entire, without concavity'
+		,
+		113
+		'Inflated, wider than rest of the VP'
+		'As wide as rest of ventral plate'
+		,
+		114
+		'Absent'
+		'Present'
+		,
+		115
+		'Rounded, thumb-like'
+		'Very short, dome'
+		'Slender and accuminate'
+		'Short and cylindrical'
+		,
+		116
+		'Short, approx. 1.5 times VP width'
+		'Long, lenght two times of VP width'
+		,
+		117
+		'Podium undefined, glans arising straight from truncus'
+		'Podium well-defined, glans rests on table'
+		,
+		118
+		'Entirely glabrous'
+		'Some type of microsetae present'
+		,
+		119
+		'restricted to outer area, closest to the rim'
+		'well expanding medially, towards the center of VP (as in Rhaucus vulneratus)'
+		'lateral patches indistinct, extremely reduced'
+		'expanded medially, but T4 gradually replaced by simpler microsetae T1 (Guaporeius)'
+		,
+		120
+		'restricted to corners of VP'
+		'expanding proximally to occupy the whole length of VP'
+		'lateral patches indistinct, extremely reduced'
+		,
+		121
+		'Microsetae not invading truncus'
+		'Microsetae gently invading the truncus'
+		'Microsetae clearly invading truncus'
+		,
+		122
+		'absent, VP middle section glabrous'
+		'midfield present'
+		,
+		123
+		'Absent'
+		'Present'
+		,
+		124
+		'Absent'
+		'Present'
+		,
+		125
+		'Going to the base of stylus (complete)'
+		'From the middle to tip of stylus (as Sibambea)'
+		'Restricted to distal part (as Rhaucoides)'
+		'Almost absent (as Roquettea)'
+		,
+		126
+		'Triangular, wider in the middle (as in Vonones)'
+		'Rectangular, same width in all extension (as in Bodunius biocellatus)'
+		'Triangular, wider in the apice (as in Libitia)'
+		,
+		127
+		'Very small, < 1/3 VP width'
+		'Medium, < 1/2 VP width.'
+		'Large, > 1/2 VP width'
+		,
+		128
+		'Absent'
+		'Present'
+		,
+		129
+		'Not reaching the ventral margin of stylus+wattle'
+		'Reaching the ventral margin of stylus, forming ventral peak'
+		,
+		130
+		'Not reaching the dorsal margin of stylus'
+		'Reaching the dorsal margin of stylus'
+		
+	;
+	MATRIX
+	'Pseudopucrolia mutica'		                 1020101100-0-0000000000-----00000-0-0210-00100012---000--001-00-???0010-2?00100000-0001010000000-001110000---00010-011000100---011
+	'Quindina bella'		                        011?11110100-0000000000-----00000-0-0010-00100010100000--001000-???0010-2311000020-0001000000000-001111100---01010-011220000---0--
+	'Syncranaus cribrum'		                    111011110100-0000000000-----00000-0-0010-00100010100000--001400-???0010-2?11000020-0001010000000-0?12111100?-00010-111000110---0--
+	'Chacoikeontus clavifemur'		              1120121100------0000000-----00000-0-0210-00100010100000--001-010???0010-4?21000000-2001010000000-0011110100?000010-010---000---011
+	'Incasarcus dianae'		                     1020121100------0000000-----00000-0-021?-00100010100000--001-010???0010-4?(2,3)1000000-1002010100000-0001110100??00010-011000100---011
+	'Prostygnus vestitus'		                   10201221010100000000000-----00000-0-0211-000-0010100000--0014012???0010-2?10100000-000101?000000-201201110---0331100111120112-20--
+	'Yania flavolimbata'		                    102012210100-0000000000-----00000-0-0211-000-000-----00--001-010???0010-2?00100000-0001010000100-001201110---0331100111120112-20--
+	'Cynorta lithoclasica'		                  111011110100-1101000000-----00000-0-0110-010-0010100001100010012???1100?2?21001000-100110?020200-0?010010110?01011001?????01001100
+	'Cynorta quibijana'		                     111011110100-1101000000-----00000-0-0110-01100010100001100010012???1100?2?11001000-100110?020000-0?110010110?01011001?????01001???
+	'Cynortoides cubana cubana'		             111011110100-1101000000-----00000-0-0110-01100010100001100010012???1100?2?11001000-1001100020000-0?110010110?01011001?????01001???
+	'Cynortoides v-album'		                   111011110100-1101000000-----00100-0-0110-01100010100001100010012???1100?2?1(0,1)001000-1001100020000-0?110010110?01011001101000?001100
+	'Vonones octotuberculatus'		              1020?11100-0-0000000000-----00000-0-0210-0?1001100000011000100?????1100?1322001020-1001100010100-0????????????????????????????????
+	'Vonones planus'		                        1020011100-0-0000000000-----00000-0-0210-01100110000001100010012???1100?1322001020-1001100010100-00110010010?010110011010011001101
+	'Holovonones compressus'		                102?01210100-00000000?0-----00000-0-0210-01100112---1010000130120001??0?1?0100?020-102020???0?00-0?1100100?000101100110100010000--
+	'Vonones ornatus'		                       022110110100-1101000000-----00100-0-0100-01100010100000--001000-???110011?1(0,1)110020-1001000000000-0011001011000101100110110011-1101
+	'Vonones sayi'		                          022110110100-0101000000-----00000-0-0100-0110001200000100001000-???110011?00110020-2000000000000-001100101?0?0101100110110011-1101
+	'Libitioides albolineata'		               022110110100-1101000000-----00100-0-0100-0110001200000100001000-???110011?00110020-2000000000000-001100101?000101100110110011-1101
+	'Arucillus armasi'		                      102002210100-1101000000-----00100-0-0210-010-000------11100-0?12???11?121?(0,1)0001000-0000010000100-0?1100001?0?01011?011010011001101
+	'Trinimontius darlingtoni'		              111012110100-0011000000-----00000-0-0210-01100012---0011100100110011101?2321101020-1000010110000-0?110010100?01011?0110100010010--
+	'Erginulus clavotibialis'		               222?0111010110010000000-----00000-130210-0?0-000------1100014011201110122?10101020-100000?010100-001210121?00010112010----011-00--
+	'Meterginus basalis'		                    211012110100-1111000000-----00?00-0-0210-00100010100000--00140113?1110123321000010-1001010100000-00?210101?01010110011??2001001101
+	'Poecilaemula signata'		                  1110?211011110010000000-----00000-110110-00100012---000--0010011???110123321000000-1102000000000-001200100?0?010110011??10011-1101
+	'Paragryne quadrimaculata'		              111011110100-0000000000-----00000-0-0110-01100010000000--001000-???110012310001010-1001100010001?00???????????????????????????????
+	'Metagryne ferruginea'		                  111011110100-0011000000-----00000-0-0110-01100010000000--001000-???110012321000010-1001100010001?00???????????????????????????????
+	'Metagryne albireticulata'		              11111010010100010000000-----00000-0-0?10-01101010100000--00140?????110012?1100001111001000000001?00???????????????????????????????
+	'Peruvicynorta oxapampa'		                111111110100-0000000000-----00000-0-0?10-01101010100000--001000-???110012?210010111100100000000??00???????????????????????????????
+	'Acantholibitia pustulosa'		              022100100100-0000000100-----00000-0-0100-0110011000000110101000-???110011?0000?010-100100000000??00???????????????????????????????
+	'Gryne pluriarcuata'		                    022100100100-0001000100-----00000-0-0100-0110001000000110001000-2?0110013?10000010-100100000000100010-010010?010110011012001010100
+	'Fortalezius excellens'		                 022?00100100-0000000100-----00000-0-0100-0110001000000110001300-2?01?0012?00000010-1001000000001?00???????????????????????????????
+	'Bodunius biocellatus'		                  022100100100-0000000100-----00000-0-0100-0110001000000110001300-2?0110011?00001010-10010000000010000110101?00010110111221-01010100
+	'Metalibitia paraguayensis'		             1221001100------0-0---0-----00000-0-0201-03100112---00110001000-2?0111011000100020-2001010000100-001200120?0101110-010----00---0--
+	'Ferkeria vestita'		                      122100010100-0000000000-----00000-0-0201-03100111-0000100101000-???111011?00100000-2001010110100-001110101??1010111011010000---0--
+	'Platygyndes titicaca'		                  122?001100------0-0---0-----00000-0-0201-030-000------0--00-000-???111011?00100000-2000010000100-00111010110?01011101?????01?-00--
+	'Paecilaemella festae'		                  241001110100-0000000000-----00000-0-0110-010-000------0--00-30?????110013?(2,3)1000000-010200000?0?0-00???????????????????????????????
+	'Paecilaemella multimaculata'		           241?01110100-01000000?0-----00000-0-0110-010-000------0--00-???????110012?110?00?11010200000?0?0-00???????????????????????????????
+	'Protus ornatus'		                        241?02110100-0110000000-----00000-0-1110-000-000------0--00-0010???110014331000000-010200000000??00???????????????????????????????
+	'Flirtea picta'		                         141011110100-1110000000-----00000-0-1110-01100010100000--001000-???110013?10000000-1102000000000-0012101011000101101112200010010--
+	'Flirtea valida'		                        1110111101?0-01?0000000-----00000-0-0110-01100010100000--001400-2?0110012?11000000-1102000000000-001110101100010110111????010010--
+	'Acritas bilineatus'		                    121101110100-0000000000-----00000-0-1110-010-000------0--00-020-2?0110012?10111010-2?01000000000-0011101011000101100110120010010--
+	'Vononoides unimaculatus'		               162101110100-0000100000-----00000-0-0110-01100010000000--001000-???11???2?10111010-2001000000000-1011101011000101100113120011-10--
+	'Chusgonobius weyrauchi'		                162101100100-0000100000-----00000-0-011?-0110011000???100101000-???110012?10?110?0-20?1000001200-00???????????????????????????????
+	'Vononella maculata'		                    ?62101110100-0000100000-----00000-0-0110-01100?1??0?000--?010?0-???11???2?1?1110?0-2001000000000-10???????????????????????????????
+	'Eucynortella cryptogramma'		             ?62101110100-0000100000-----00000-0-0110-01??0????0??00--?01000-???1????2?101110?0-2001000001000-101?1000???001011?011311001??????
+	'Cynortopyga pauper'		                    ?62101110100-0000100000-----00000-0-1110-010-0????0?000--?01020-???1?0??2?10110000-2?01000001000-0001100010?001011?011012001??????
+	'Vononana peruviana'		                    162101110?-0-0000?00000-----00000-0-011?-01??0????????0--???0?0-???1????1?00?110?0-20?1001001000-000110?011?00?2????110110????????
+	'Guaporeius patellaris'		                 162101110100-0000100000-----00000-0-1110-01100010000000--???000-???1?0??2?100110?0-20??001000000-000210101?00010110011312001001100
+	'Guaporeius sanctissimus'		               162101110100-0000100000-----00000-0-1110-01100010000000--???000-???1?0??????011010-20??001000000-000210?01?0001????0113120?100????
+	'Taito adrik'		                           261101110100-0000100000-----00000-0-1110-0110000----0-0--0--000-???110012?11010000-2001001001000-100100101100010?100113120010010--
+	'Taito juruensis'		                       161101110100-0000100000-----00000-0-1110-01100010000000--001020-???110012?10111010-2001000000000-100110001?000101100113120010010--
+	'Taito spaceinvaders'		                   161101110100-0000100000-----00000-0-1110-01100010000000--001020-???110012?11111010-2001000001100-1011100011000101100113120010010--
+	'Taito honda'		                           161101110100-0000100000-----00000-0-1110-01100010000000--001000-???110012?10111010-2001000000100-100110101?000101100113100010010--
+	'Rhauculus insignitus'		                  202012100100-0110000000-----00000-0-0210-00100110100001100010010???110120200000000-1001010110000-001110101?0001011?0110110013-00--
+	'Rhaucoides ornatus'		                    111012210100-0010000000-----00000-0-1210-00100110100001100010010211110121?11000000-1001010010000-0011101010000101100110110012-1110
+	'Rhaucoides riveti'		                     111012210100-0010000000-----00000-0-1210-001001101000011000100102?1110121?11000000-1001010010000-001110101?000101100110110012-1110
+	'Eucynorta virescens'		                   111012110100-0010000000-----00000-0-1210-00100110100001100010010211110121?21000000-1001010010000-001110101?000101100110110012-1110
+	'Rhaucus vulneratus'		                    202012200100-0000000000-----00100-0-0220-00100111-00000--0010010111110122?21001000-0000010010100-001210101100010113011111001001100
+	'Rhaucus robustus'		                      202012200100-0010000000-----00000-0-1220-00100111-00000--0010010111110122?21001000-0000010010100-001210101100010113011111001001100
+	'Eulibitia scalaris'		                    122100110100-0000000000-----00100-0-1210-01100012---000--101000-210110012?(0,1)0001000-1001010000100-001210101010010110011010001001100
+	'Eulibitia h-inscriptum'		                122100110100-0000000000-----00100-0-1210-01100012---000--101000-210110012?00001000-1001010000100-001210101010010110011010001001100
+	'Ambatoiella vigilans'		                  102?01210100-0000000000-----00000-0-0210-010-000------0--00-000-0?0110011?00001000-0000010110100-001210100100010110011011001001110
+	'Oligovonones brunneus'		                 102?01210100-0000000000-----00000-0-0210-010-000------0--00-000-2111?0?103??001000-0000010000100-00121010110?01011001?????010010--
+	'Libitia cordata'		                       102001210100-0000000000-----00000-0-0210-020-000------0--00-000-210110011?00000000-0000010000100-0112101011000101100110-00010220--
+	'Libitia bipunctata'		                    102001210100-0000000000-----00000-0-0210-020-000------0--00-000-210110011?00000000-0000010000100-0112111011000101100110-00010220--
+	'Neocynorta marmorata'		                  11101111010100111000000-----00000-0-0110-01100010100000--001400-201110012?(1,2)1000000-1001000000000-0012101001100101100110110010010--
+	'Neocynorta venezuelensis'		              11101111010100111000000-----00000-0-0110-01100011-00000--001000-???110012?(1,2)1000000-1001000000000-0012101011100101110110110010010--
+	'Cynorta conspersa'		                     111011110100-0000001000-----00000-0-0010-01100010100000--001-012??011001231(0,1)000020-1002000000000-001201101100010110011311001?010--
+	'Gryne pustulata'		                       111011110100-0000001000-----00000-0-0010-01100010100000--00130?????110013???000020-100200000000??00???????????????????????????????
+	'Cosmetus varius'		                       111010010110-0110000-00-----0000100-0000-010-0010-10000--001200-2??11001533200002101002000000000-00???????????????????????????????
+	'Cosmetus delicatus'		                    111010010110-0110000101203012000100-0000-010-0010-10000--001200-2?0110013???000020-1002000000000-001110111000002110110???0013-00--
+	'Cosmetus arietinus'		                    111010010110-0100000100--1--2-000-0-0000-010-0010-10000--001200-???110012???000020-100200000000??000?001001000101100110000010010--
+	'Metavononoides barbacenensis'		          111010110100-01000001101102010000-0-0000-01100010100000--001200-210110012?00000010-1001000000000-001100100100010110011??10010010--
+	'Metavononoides guttulosus'		             111010110100-00000001102102010000-0-0000-01100010100000--001200-210110012?10000010-1001000000000-001100100100010110011??10010010--
+	'Metavononoides orientalis'		             111010110100-01000001001--0011000-0-0000-01100010100000--001200-???110012300000010-1001000000000-00???????????????????????????????
+	'Paecilaema albisectum'		                 111010110110-00000001011120110000-0-0000-010-0010100000--001?00-210110013?11000010-1002000000000-0011001001000101100110110010010--
+	'Paecilaema u-flavum'		                   111010110110-00000001111120111000-0-0000-010-0010100000--001210-210110013?11000010-1002000000000-0011001001000101100110000010010--
+	'Paecilaema melanacanthum'		              111010110110-01000001011120111000-0-0000-010-0010100000--001210-210110013?11000010-1002000000000-00110010010001011001?????010010--
+	'Paecilaema lyra'		                       111010110110-00000001111110111000-0-0000-010-0010100000--001210-???11001????000010-1002000000000-00???????????????????????????????
+	'Paecilaema muticum'		                    111010110110-00000000111132111000-0-0000-010-000------0--001?00-21011001????000010-1002000000000-00???????????????????????????????
+	'Paecilaema ornatissimum'		               111010110110-00000001012121121000-0-0000-010-0010100000--001200-210110013?11000010-1002000000000-00???????????????????????????????
+	'Paecilaema preciosum'		                  111010110110-01000000011112111000-0-0000-010-0010100000--001?00-210110013?11000010-1002000000000-00???????????????????????????????
+	'Paecilaema renneri'		                    111010110110-01000001011110111000-0-0000-010-0010100000--001200-210110012?11000010-1002000000000-00110010000001011001?????010010--
+	'Kayania compressicoxa'		                 111??1010100-0000000000-----0000100-0?10-0110101310?000--001100-???110012?11000101012?200000?00??00???????????????????????????????
+	'Kayania bicolumnata'		                   1110210101?0-0000000000-----00000-100?10-01101013102000--001100-???110012?32000101012?2000000001?00????????????01?????????????????
+	'Marronia elegans'		                      1300210100-0-00000000-0-----00000-0-0010-01100010100000--00100?????110012?21000020-1002000000001?0????????????????????????????????
+	'Sibambea waorani sp. nov.'		             130021010100-0000000000-----000110120010-010-000------0--00-100-0?0110012?1?000120-10020000000011001110101110010110011??00011-1110
+	'Sibambea rotunda'		                      130021010100-0000000000-----000110120010-010-000------0--00-100-0?0110012?210001211100200000000110011101011100101100110000011-1110
+	'Discosomaticus cinctus'		                130021010100-0000000000-----000110100010-01100012---000--001100-2?0110012?22000120-10020000000011001110101110010110011??00011-1110
+	'Protus distinctus'		                     111021010100-0000000000-----0000100-0010-01101112---100--001000-???110012?21000121010020000000011001110101?1001011001?????011-1110
+	'Protus bolivari'		                       111021010100-0000000000-----0000110-0010-01101012---100--001300-2?0110012?1100012101002000000001100?110101?0?010112011??00011-1110
+	'Protus insolens'		                       111021010100-0000000000-----00000-0-0010-01101012---100--001000-???110013?21000020-10020000000011001110111100002112111??20010010--
+	'Paraprotus speciosus'		                  111021010100-0000000000-----00000-110010-01101012---100--001000-2?0110013?31000021210020000000011001110111100002112111??20012-10--
+	'Protus marllusi sp. nov.'		              111021010100-0000000000-----0000110-0010-01101012---100--001300-2?011001????00002121002000000001?001110101100002112111??20012-10--
+	'Paraprotus quadripunctatus'		            111021010100-0000000000-----00000-0-0?10-01101012---100--001000-???110013?(2,3)10000?111002000000001100???????????????????????????????
+	'Paraprotus atroluteus'		                 111021011?00-0000000000-----00000-0-0010-01100012---000--001000-???110013?32000020-1002000000001?00???????????????????????????????
+	'Paraprotus albithorax'		                 111021011100-0000000000-----0000100-0?10-01100012---000--001000-???110013?(2,3)1000020-1002000000001?00???????????????????????????????
+	'Gryne marginalis'		                      11101111010110000000000-----00000-130010-01100010100000--001400-2?0110014?(2,3)1000020-1012000000011100121110100000211?111??00010110--
+	'Gryne leprosa'		                         11101110010100010000000-----00000-0-0010-01100010100000--001400-??0110013?21000020-10120000000111001211101100020110011??10010110--
+	'Gryne coccinelloides'		                  11101110010100010000000-----00000-0-0010-01100010100000--001400-??0110013???000020-10?20000000?1?00???????????????????????????????
+	'Gryne orensis'		                         11101110010100010000000-----00000-0-0010-01100010100000--001400-2?0110013?(1,2)(0,1)000020-101200000001110012111011000201100110?10010110--
+	'Gryne dimorpha'		                        11101111010110010000000-----00000-0-0010-01100010000000--001400-??0110014?1(0,1)000020-1012000000011100121110110002011?011??10010110--
+	'Roquettea andina'		                      111011110100-0000010000-----00000-0-0010-0110001010?000--0?0300-???1?00?4?21000020-10?20000000???00???????????????????????????????
+	'Roquettea singularis'		                  111011110100-0000010000-----00000-0-0010-01110010101010--010300-2?0120004?21000020-10020000000011001210111000100010100000-113-00--
+	'Roquettea jalapensis'		                  111011110100-0000010000-----00000-0-0010-01100010100000--000300-2?0120004?21000020-10020000000011001211111100100010110??0-113-00--
+	'Roquettea carajas'		                     111011110100-0000010000-----00000-0-0010-01110010101000--000300-2?0120004?21000020-10020000000011001210111000100010100??0-113-00--
+	'Roquettea peba'		                        111011110100-0000010000-----00000-0-0012001100010101000--000300-2?0120004?21000020-10020000000011001211111000100010100??0-113-00--
+	'Roquettea scrotalis'		                   111011110100-0000010000-----00000-0-0010-011-0-1?1?1010--010300-2?0120004?21000020-10020000000011001211111000100010100??0-113-00--
+	'Roquettea taurina'		                     111011110100-0000010000-----00000-0-0012001100010101000--000300-2?0120004?21000020-10020000000011000211111000100010110??0-113-00--
+	'Roquettea bubalina'		                    111011110100-0000010000-----00000-0-0012111110010101000--000300-2?0120004?21000020-10020000000011001211111000100010100000-113-00--
+	'Roquettea troguloides'		                 111011110100-0000010000-----00000-0-0012111110010101000--000300-2?0120004?21000020-10020000000011001211111000100010100000-113-00--
+	'Roquettea decioi'		                      1110-1110100-0000010000-----00000-0-0010-01110010101010--000300-2?0120004?21000020-1002000000001100???????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 3 7 39 73 81 84, unord: 2 4 - 6 8 - 38 40 - 72 74 - 80 82 - 83 85 - 130;
+      ENDBLOCK;
+      

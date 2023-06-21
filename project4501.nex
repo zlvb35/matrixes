@@ -1,0 +1,378 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 08.09.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Leptostrophia'
+		'Brachyprion'
+		'Castellaroina'
+		'Chynistrophia'
+		'Eocymostrophia'
+		'Eomegastrophia'
+		'Eostropheodonta'
+		'Erinostrophia'
+		'Gamphalosia'
+		'Gibberostrophia'
+		'Mesoleptostrophia'
+		'Nervostrophia'
+		'Nervostrophiella'
+		'Palaeoleptostrophia'
+		'Protoleptostrophia'
+		'Protomegastrophia'
+		'Pseudoleptostrophia'
+		'Rotundostrophia'
+		'Timanostrophia'
+		'Tuvaechonetes'
+		'Tuvaestrophia'
+		'Velostrophia'
+		'Viodostrophia'
+		'Rafinesquina'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Shape of the lateral process lobes'
+		 [2] 'Direction the lateral Lobes of the cardinal process point'
+		 [3] 'Spatial relationship between cardianl process lobe and the socket ridge'
+		 [4] 'Spatial relationship between cardianl process lobe and hinge line'
+		 [5] 'The relative size of cardianl process lobe and the socket ridge'
+		 [6] 'Curvature of the socket ridge'
+		 [7] 'Dorsal Subperipheral Rim'
+		 [8] 'Muscle bounding pustles/tubercles'
+		 [9] 'Transmuscle ridges'
+		 [10] 'Angle of the transmuscle ridge from the midline'
+		 [11] 'Fusion of the transmuscle ridge to the cardinalia'
+		 [12] 'Dorsal posterior muscle bounding ridges originating from the distal end of the socket ridge, curving inwards towards the center of the shell'
+		 [13] 'Relief of dorsal posterior muscle bounding ridges'
+		 [14] 'Continuity of the muscle bounding ridges'
+		 [15] 'Crural Median Ridge'
+		 [16] 'Bifurcation of the median ridge at the center of the valve into two septae'
+		 [17] 'Extent of the median ridge'
+		 [18] 'Dorsal median septum'
+		 [19] 'Fusion of the dorsal median septum and the crural median ridge'
+		 [20] 'Denculation on hingeline'
+		 [21] 'Ventral muscle field shape'
+		 [22] 'Ventral muslce field extension'
+		 [23] 'Prominent radiating ridges through the ventral muscle field'
+		 [24] 'Adductor and diductor muscles'
+		 [25] 'Ventral muscel field bounding ridges'
+		 [26] 'Structure of the ventral muscle bounding ridge'
+		 [27] 'An inward curve on the anterior part of the muscle field'
+		 [28] 'Ventral muscle field dividing ridge'
+		 [29] 'Ventral subperipheral rim'
+		 [30] 'Teeth'
+		 [31] 'Denticular plate'
+		 [32] 'Dental Plates'
+		 [33] 'Composition of nothorydial plates'
+		 [34] 'Vavle profile'
+		 [35] 'Geniculation of the valves'
+		 [36] 'Valve expressing geniculation'
+		 [37] 'Concentric ornamentation of the external shell (Rugation)'
+		 [38] 'Extent of concentric ornamentation of the external shell (Rugation)'
+		 [39] 'Vental sulcus on external shell'
+		 [40] 'Dorsal fold on external shell'
+		 [41] 'Extention of the shell hinge line outwards, forming dogeared protrusions'
+		 [42] 'Radial ornamentation'
+	;
+	STATELABELS
+		1
+		'slender'
+		'columnar'
+		'tabular'
+		,
+		2
+		'ventral'
+		'posterior'
+		'anterior'
+		,
+		3
+		'slender cardianl process lobe forms an Angle (<90¡ã) with Socket Ridge'
+		'cardianl process lobe lies on Socket Ridge'
+		,
+		4
+		'cardianl process lobe is mostly or completely within the hinge line'
+		'cardianl process lobe is on the hinge line'
+		'cardianl process lobe is mostly or completely outside the hinge line'
+		,
+		5
+		'the length of socket ridge is less than the length of two cardianl process lobe'
+		'the length of socket ridge is greater than the length of two cardianl process lobe'
+		,
+		6
+		'straight'
+		'curved'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent or weak'
+		'medium'
+		'coarse'
+		'very coarse'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'narrow (roughly 20 degree)'
+		'wide (roughly 40 degrees)'
+		,
+		11
+		'imperfect, resulting in the ridge slowly effacing as it approaches the cardinalia'
+		'perfect, ridge runs directly into the cardinalia forming an anderidia'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'weakly raised above surrounding shell'
+		'highly vaulated'
+		,
+		14
+		'connect to the median ridge or a transmuslce ridge forming enclosed muscle pits'
+		'do not completely connect and instead only form a partial boundary of the muscle scar'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'reduced to a small nub restricted to the posterior'
+		'extends prominantly to approximately 1/4 the length of the valve'
+		,
+		18
+		'absent or strongly effaced'
+		'present'
+		,
+		19
+		'expressed as separate structures'
+		'partially fused to give the appearance of a single ridge that is gently effaced medially'
+		,
+		20
+		'absent'
+		'small number'
+		'nearly 1/3'
+		'nearly 1/2'
+		'nearly 2/3'
+		'nearly entirely'
+		,
+		21
+		'suboval (far longer than wide, forming rounded often subrectangular shapes)'
+		'wedge shapes (subtriangular fan that dramatically expands outwards from the anterior)'
+		'there are hardly any signs of muscle field'
+		,
+		22
+		'restricted to the posterior-posteriomedial section of the valve'
+		'extend to nearly the middle of the valve'
+		'extend across the valve, approaching the edges of the valve'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'muscle scars poorly distinguished or fused together in the muscle field'
+		'both can be identified'
+		,
+		25
+		'absent'
+		'weak'
+		'medium'
+		'strong'
+		,
+		26
+		'thin ridge covering lateral sections of the muscle scars'
+		'a thick, elevated structure that surrounds or nearly surrounds the entire muscle scars'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'weakly defined or effaced'
+		'strongly defined'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'ventral plates dramatically larger than dorsal'
+		'dorsal dramatically larger than ventral'
+		'plates roughly equal in size'
+		,
+		34
+		'biconvex'
+		'concavo-convex to plano-convex'
+		'convexo-concave to convexo-plane'
+		'resupinate'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'dorsal'
+		'ventral'
+		'both'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'restricted to the posterior portion of the valve'
+		'the entire valve'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'costae and costellae roughly similar in size (equal)'
+		'costae large and bound sectors of fine costellae (unequal)'
+		
+	;
+	MATRIX
+	'Leptostrophia'		                00000013100111101115121130010000010-0-0000
+	'Brachyprion'		                  020100010--0--0--0-110000-000010010-0-0000
+	'Castellaroina'		                000000010--0--0--0-3100010010011010-0-0001
+	'Chynistrophia'		                000000010--1101010-5100130110000210-0-0010
+	'Eocymostrophia'		               00000002100101111111101120010010010-110011
+	'Eomegastrophia'		               000000000--0--1010-0200010000011210-0-0001
+	'Eostropheodonta'		              000000000--0--1010-020000-000001210-0-0001
+	'Erinostrophia'		                101010001001001111122000100000100111110010
+	'Gamphalosia'		                  ???????3???????????5100130010000030-100001
+	'Gibberostrophia'		              101100020--1101010-4100130110000010-0-0010
+	'Mesoleptostrophia'		            101210010--110101114121130110000?10-0-0000
+	'Nervostrophia'		                ???????3???????????5121130110000010-0-0001
+	'Nervostrophiella'		             10-0--030--110101115121130110000010-0-0001
+	'Palaeoleptostrophia'		          000000010--0--1010-020000-000010210-0-0001
+	'Protoleptostrophia'		           00-0--030--1101010-5100020010000210-0-0001
+	'Protomegastrophia'		            000000000--100111112100120110010010-0-0011
+	'Pseudoleptostrophia'		          000000020--101100115121130010000030-0-0000
+	'Rotundostrophia'		              000000130--1101010-510002000100021120-0001
+	'Timanostrophia'		               10-0--030--110111115121130110000010-0-0001
+	'Tuvaechonetes'		                01-2---0101100101113100030000?00010-0-0010
+	'Tuvaestrophia'		                01-2---20--1110--0-?100030000?00000-0-1110
+	'Velostrophia'		                 000000010--1101010-4100020010000110-0-0010
+	'Viodostrophia'		                000000010--1110--0-0100020000010210-0-0001
+	'Rafinesquina'		                 221100101001001010-011000-000100110-0-0001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=2 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=3 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=4 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=5 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=6 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=7 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=8 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=9 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=10 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=11 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=12 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=13 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=14 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=15 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=16 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=17 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=18 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=19 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=20 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=21 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=22 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=23 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT TAXON=24 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=2 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=3 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=4 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=5 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=6 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=7 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=8 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=9 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=10 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=11 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=12 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=13 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=14 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=15 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=16 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=17 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=18 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=19 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=20 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=21 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=22 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=23 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=24 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=25 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=26 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=27 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=28 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=29 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=30 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=31 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=32 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=33 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=34 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=35 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=36 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=37 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=38 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=39 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=40 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=41 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+	TEXT CHARACTER=42 TEXT='The total of 42 discrete characters for 23 genera are unweighted and unordered in the phylogenetic analysis.';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 42;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1657543292764; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 622510691685096029; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8412010329442503971; mqVersion 304; checksumv 0 3 2835277358 null getNumChars 42 numChars 42 getNumTaxa 24 numTaxa 24 short true bits 63 states 63 sumSquaresStatesOnly 13502.0 sumSquares 13502.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1149 817; setLocation 456 366; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #622510691685096029 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.ManyTreesFromFile.ManyTreesFromFile; tell It; setFilePath order.tre remain ; toggleReread on; toggleLive on; endTell; setAssignedID 1170.1657508524761.889269190121370732; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1049 745; setLocation 456 366; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; setActive; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(((((((((((1,17),(11,((12,19),13))),(9,(15,18))),(4,10)),22),(20,21)),(8,(16,5))),3),23),((6,7),14)),2,24);'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName on; showWindow; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #8412010329442503971; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 20; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 4; setInitialOffsetY -228; setLegendWidth 142; setLegendHeight 228; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8412010329442503971 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1049 745; setLocation 456 366; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #8412010329442503971 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1049 745; setLocation 456 366; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharModels.ManageCharModels; tell It; showModels #mesquite.lists.ModelsList.ModelsList; tell It; getWindow; tell It; newAssistant #mesquite.lists.ModelsListType.ModelsListType; newAssistant #mesquite.lists.ModelsListParadigm.ModelsListParadigm; newAssistant #mesquite.lists.ModelsListWhole.ModelsListWhole; newAssistant #mesquite.lists.ModelsListDatatype.ModelsListDatatype; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1049 745; setLocation 456 366; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = 'Matrix in file "formes clear.nex"') = 'Mk1 (est.)': 1 - 42; 
+ENDBLOCK;

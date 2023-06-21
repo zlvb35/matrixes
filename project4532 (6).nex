@@ -1,0 +1,800 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 08.33.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=33;
+    TAXLABELS
+    		'Bryozoa'
+		'Brachiopoda'
+		'Phoronida'
+		'Annelida'
+		'Sipuncula'
+		'Mollusca'
+		'Wiwaxia'
+		'Odontogriphus'
+		'Canadia'
+		'Entoprocta'
+		'Platyhelminthes'
+		'Gastrotricha'
+		'Gnathostumulida'
+		'Micrognathozoa'
+		'Inquicus fellatus'
+		'Amiskwia'
+		'Flacisaggita'
+		'Spadella'
+		'Eukrohnia'
+		'Protosagitta'
+		'Ankalodous'
+		'Capinatator'
+		'Adineta'
+		'Branchionus'
+		'Nemertea'
+		'Onychophora'
+		'Arthropoda'
+		'Tardigrada'
+		'Nematoda'
+		'Nematomorpha'
+		'Priapulida'
+		'Kinorhyncha'
+		'Loricifera'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=138;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234567";
+	CHARLABELS
+		 [1] 'cilia-microvilli arrangement in protonephridia'
+		 [2] 'Collar complex 1'
+		 [3] 'Multicellularity with extracellular matrix 2'
+		 [4] 'Septate junctions (SJs) 3'
+		 [5] 'Tight junctions (TJs) 4'
+		 [6] 'Gap junctions (GJs) 5'
+		 [7] 'Adherens junctions (AJs) 6'
+		 [8] 'Hemidesmosomes 7'
+		 [9] 'Epithelia 8'
+		 [10] 'Basal laminae 9'
+		 [11] 'Collagen 10'
+		 [12] 'Nerve cells 11'
+		 [13] 'Acetylcholine used as a neurotransmitter 12'
+		 [14] 'Diffuse nervous system 13'
+		 [15] 'Epidermis with pulsatite bodies 14'
+		 [16] 'ciliated epidermis 15'
+		 [17] 'multiciliate epridermal cells 16'
+		 [18] 'ciliation restricted anteriorly 17'
+		 [19] 'corona ciliata'
+		 [20] 'ventral locomotory cilia 19'
+		 [21] 'ventral surface modified into foot 20'
+		 [22] 'Xenacoelomorph cilia 21'
+		 [23] 'Striated ciliary rootlets 22'
+		 [24] 'Diploblasts built of two germ layers 23'
+		 [25] 'Triploblasts built of three germ layers 24'
+		 [26] 'Spiral or radial cleavage 25'
+		 [27] 'apical cross 26'
+		 [28] '4d mesentoblast 27'
+		 [29] 'Colloblasts 28'
+		 [30] 'Coelenteron (gastrovascular cavity) 29'
+		 [31] 'Cnidae 30'
+		 [32] 'Structure of mitochondrial DNA 31'
+		 [33] 'Actinopharynx 32'
+		 [34] 'Siphonoglyph (sulcus) 33'
+		 [35] 'Planulae 34'
+		 [36] 'Polyp stage 35'
+		 [37] 'Medusoid stage 36'
+		 [38] 'Through-gut 37'
+		 [39] 'U-shaped gut 38'
+		 [40] 'Dorsal anus or anal pore 39'
+		 [41] 'Mouth 40'
+		 [42] 'body divided with distinct inflated head and neck region 42'
+		 [43] 'bipartite gut with cuticular pharynx 43'
+		 [44] 'Nephridia 44'
+		 [45] 'Fate of blastopore 45'
+		 [46] 'annelid type cuticle 46'
+		 [47] 'Body cuticle with chitin 47'
+		 [48] 'Body cuticle with ?-chitin 48'
+		 [49] 'Body cuticle molted 49'
+		 [50] 'lorica 50'
+		 [51] 'lobopods or segmented limbs 51'
+		 [52] 'limb type 52'
+		 [53] 'anteriorly facing last pair of limbs 53'
+		 [54] 'Slime papillae 54'
+		 [55] 'Telescoping mouth cone with protrudable stylets 55'
+		 [56] 'Respiration via metameric tracheae and spiracles 56'
+		 [57] 'Mixocoel (haemocoel) surrounded by segmented mesoderm 57'
+		 [58] 'Teloblastic segmentation 58'
+		 [59] 'Longitudinal ventral nerve cord(s) 59'
+		 [60] 'paired vnc 60'
+		 [61] 'circumoral nerve ring 61'
+		 [62] 'Stomatogastric ganglion(s) directly connected to the brain'
+		 [63] 'stomatogastric ganglion with ciliated receptors'
+		 [64] 'Major ventral nerve plexus in trunk 63'
+		 [65] 'Circum-pharyngeal, collar-shaped brain with anterior rings of perikary 64'
+		 [66] 'Introvert with scalid rings 65'
+		 [67] 'Flosculi 66'
+		 [68] 'Trochophores 68'
+		 [69] 'apical organ 70'
+		 [70] 'Apical organ with muscles extending to the hyposphere 71'
+		 [71] 'Segmental metanephridia sacculus 72'
+		 [72] 'chaetae 73'
+		 [73] 'chaetae in bundles 74'
+		 [74] 'mineralised chaetae 75'
+		 [75] 'serially repeated chaetal bundles 76'
+		 [76] 'Parapodia with dorsal and ventral branches terminated by ? 77'
+		 [77] 'radula 78'
+		 [78] 'Radula tooth rows 79'
+		 [79] 'sceletal elements in the anterior digestive tract 80'
+		 [80] 'basal plate'
+		 [81] 'pharyngeal sceleton composed of rod-shaped elements'
+		 [82] 'grasping spines 82'
+		 [83] 'teeth 83'
+		 [84] 'anterior teeth 84'
+		 [85] 'posterior teeth 85'
+		 [86] 'internal jaws'
+		 [87] 'jaws with symphysis'
+		 [88] 'Ctenidia 89'
+		 [89] 'Mantle cavity 90'
+		 [90] 'Eversible proboscis surrounded by rhynchocoel 91'
+		 [91] 'tripartite body plan with septum 93'
+		 [92] 'trunk fins 94'
+		 [93] 'anterior lateral fins 95'
+		 [94] 'caudal fin 96'
+		 [95] 'fins supported by rays 97'
+		 [96] 'Phragms 98'
+		 [97] 'phragms in trunk 99'
+		 [98] 'phragms in tail 100'
+		 [99] 'head hood 106'
+		 [100] 'AP axis 107'
+		 [101] 'dorsoventral axis 108'
+		 [102] 'coelom 111'
+		 [103] 'Coelom formation 112'
+		 [104] 'serially repeated paired coelomic cavities 113'
+		 [105] 'Trimeric coelom 114'
+		 [106] 'Pharyngeal slits 115'
+		 [107] 'Endostyle (or homologues) 116'
+		 [108] 'Notochord 117'
+		 [109] 'Stomochord 118'
+		 [110] 'Haemal system with axial complex 119'
+		 [111] 'Calcareous endoskeleton composed of separate ossicles 120'
+		 [112] 'Tornaria type larva 121'
+		 [113] 'Longitudinal dorsal nerve cord 122'
+		 [114] 'Zig zag myomeres 123'
+		 [115] 'Endothelium that lines the inner wall of blood vessels 124'
+		 [116] 'Neural crest 125'
+		 [117] 'Neurogenic placodes 126'
+		 [118] 'Body symmetry 127'
+		 [119] 'Mesoglea 128'
+		 [120] 'Cydippid larvae 129'
+		 [121] 'Ciliary rosettes 130'
+		 [122] 'Lophophore 131'
+		 [123] 'Hox/ParaHox genes 132'
+		 [124] 'ftz 133'
+		 [125] 'Ubx/abd-A 134'
+		 [126] 'AbdB 135'
+		 [127] 'lox5 136'
+		 [128] 'duplication of UbdA into lox4 and lox2 137'
+		 [129] 'Post2 138'
+		 [130] 'MedPost 140'
+		 [131] 'rotifer corona'
+		 [132] 'terminal cells of protonephridia'
+		 [133] 'cellularity of the nephridium collecting canal'
+		 [134] 'shape of nephridial canal'
+		 [135] 'Intracellular lamellar cuticule'
+		 [136] 'Epidermis structure'
+		 [137] 'Female organs with germovitellarium'
+		 [138] 'Retrocerebral organ'
+	;
+	STATELABELS
+		1
+		'each cilium with single wreath of microvilli'
+		'all cilia surrounded by common wreath of microvilli'
+		'irregular'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'radial'
+		'spiral'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'circular'
+		'linear'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'ventral'
+		'terminal'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'protonephridia'
+		'metanephridia'
+		'transition from proto to metanephridia'
+		'absent'
+		,
+		45
+		'protostomy'
+		'deuterostomy'
+		'amphistomy'
+		'unique'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'lobopods'
+		'arthrodized limbs'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent'
+		'present'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent'
+		'present'
+		,
+		71
+		'absent'
+		'present'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'chaetae'
+		'/ absent present,'
+		'78'
+		'Radula'
+		'/'
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'few rows'
+		'many rows'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'schizocoely'
+		'enterocoely'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'absent'
+		'present'
+		,
+		108
+		'absent'
+		'present'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'absent'
+		'present'
+		,
+		112
+		'absent'
+		'present'
+		,
+		113
+		'absent'
+		'present'
+		,
+		114
+		'absent'
+		'present'
+		,
+		115
+		'absent'
+		'present'
+		,
+		116
+		'absent'
+		'present'
+		,
+		117
+		'absent'
+		'present'
+		,
+		118
+		'radial'
+		'bilateral'
+		'biradial'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'absent'
+		'present'
+		,
+		121
+		'absent'
+		'present'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'absent'
+		'present'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'absent'
+		'present'
+		'state not defined by author'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'absent'
+		'present'
+		,
+		128
+		'absent'
+		'present'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'absent'
+		'present'
+		,
+		131
+		'absent'
+		'present'
+		,
+		132
+		'monociliated'
+		'biciliated'
+		'multiciliated (irregular)'
+		'multiciliated (flame)'
+		,
+		133
+		'unicellular'
+		'multicellular'
+		'syncytial'
+		,
+		134
+		'straight'
+		'branching'
+		,
+		135
+		'absent'
+		'present'
+		,
+		136
+		'cellular'
+		'syncytial'
+		,
+		137
+		'absent'
+		'present'
+		,
+		138
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Bryozoa'		                    -01101111111100111000010100?0000000001110003000-000--000000-00-000001-00-0-0--0--------00000-0-0--01110010000000000001000110?010100---0000
+	'Brachiopoda'		                -0110111111110010100001010-0000000000(0,1)100001200-000--000001100-000001-0110(0,1)0--0--------01000-0-0--01110110000000000001000110?010100-100000
+	'Phoronida'		                  20110111111110010000001010-00000000001110002000-000--000001100-000001-00---0--0--------00000-0-0--0111001000000000000100011????01?00110000
+	'Annelida'		                   20110111111110011000001011110000000001000002210-000--000011110-0000111011011--0--------00000-0-0--0111010000000000000100001020111000100000
+	'Sipuncula'		                  -0110111111110011100001011110000000001110001?10-000--000?01010-000011100---0--0--------00000-0-0--0111010000000000000100001???????0-100000
+	'Mollusca'		                   2011011111111001100110101111000000000100000220(0,1)0000--0000011110?0001100(0,1)1(0,1)001110000--0011000-0-0--0111000000000000000100001020111002100000
+	'Wiwaxia'		                    ????????????????????1????????0???????100000???0-?00--00??0???????0?????110101010?00--0-?10?0-0-???011????0????0??????1???0????????0???????
+	'Odontogriphus'		              ????????????????????1????????0???????100000???0-?00--00??0???????0?????????01010?00--0-11000-0-???011????0????0??????1???0????????0???????
+	'Canadia'		                    ???????????????????0?????????0???????100000???0-?00--000?11110-000?????11011--0-------?10000-0-???011????0????0?0????1???0????????0???????
+	'Entoprocta'		                 20110111111110011?0110101111000000000110?0000010000--000-00-00-000011100---0--0-------?00000-0-0--0110---000000000000100001????11?02??0000
+	'Platyhelminthes'		            10110111111110011001001011110000000000--0000300-000--000-01100-000001-00---0--0-------?00000-0-0--0110---00000000000010000102010100311-000
+	'Gastrotricha'		               0011011111111001100100101--00000000001001?10?00-000--000-01100-000000-00---0--0-------?00000-0-0--0110---000000000000100001???????00000000
+	'Gnathostumulida'		            001101111111100100010010111?0000000000--0(0,1)00?00-000--000-011111000000-00---00-11100--1100000-0-0--0110---000000000000100001???????0000-000
+	'Micrognathozoa'		             001?????1?11?001100100?01???0000000000--0100?00-000--000-0111?100000??00---00-10100--1100000-0-0--0110---00000000000010000????????00111001
+	'Inquicus fellatus'		          ????????????????????0????????0??0????10??1????????0--?0??0???????0?????0--?00-10?00--10?0?00-0-???011????0????0??0???1???0????????0???????
+	'Amiskwia'		                   ????????????????????0????????0??0????10?010???????0--?0??0???????0?????0---00-10?00--1000?01010???111????0????0??0???1???0????????0???????
+	'Flacisaggita'		               -011011111111001011000101--00000000001000101100-000--0000011110100000-00---00-10011110-000111110--111100100000000000010000102000010-100000
+	'Spadella'		                   -011011111111001011000101--00000000001000101100-000--0000011110100000-00---00-10011110-00011011110111100100000000000010000102000010-100000
+	'Eukrohnia'		                  -011011111111001011000101--00000000001000101100-000--0000011110100000-00---00-10011010-000111111101111001000000000000100001??0????0-100000
+	'Protosagitta'		               ?????????????????????????????0???????100?1????????0?-?0??0?????????????0---?0-10?11??0-???????????111?????????0??0???1???0????????0???????
+	'Ankalodous'		                 ?????????????????????????????????????????1??????????????????????????????????0-10?10??0-???????????111?????????0??????1???0????????0???????
+	'Capinatator'		                ?????????????????????????????0???????10??1????????0--?0??0???????0?????0---00-10?10??0-???????????111?????????0??0???1???0????????0???????
+	'Adineta'		                    1011011111111001110000101--00000000001?10000??0-000--0000011011000000-00---00-10100--1100000-0-0--0110---000000000000100001020000113211111
+	'Branchionus'		                1011011111111001110000101--00000000001?10000??0-000--0000011011000000-00---00-10100--1100000-0-0--0110---000000000000100001020000113211111
+	'Nemertea'		                   20110111111110011001001011010000000001000000000-000--000001100-0000?1?00---0--0--------00100-0-0--011100-00000000000010000102011100211-000
+	'Onychophora'		                -011011111111000----00101--00000000001001001201110100101111110-000000-10---00-10000--1000000-0-0--011100-00000000000010000112100000-100000
+	'Arthropoda'		                 -011011111111000----00101--0000000000100100120111011000(0,1)111110-000000-10---00-10000--0-00000-0-0--011100-00000000000010000112100000-100000
+	'Tardigrada'		                 -011011111111000----00101--000000000010010030011101010101?1100-000000-00---00-10000--0-00000-0-0--011100-000000000000100001???????0---0000
+	'Nematoda'		                   -011011111111000----00101--000000000010010032010100--000-01000-011000-00---00-10000--0-00000-0-0--0110---000000000000100001???????0---0000
+	'Nematomorpha'		               -011011111111000----00101--000000000010010031010100--000-01000-001000-00---00-10000--0-00000-0-0--0110---000000000000100001???????0---0000
+	'Priapulida'		                 2011011111111000----00101--000000000010010001011110--000-01000-011100-00---00-10000--0-00000-0-0--0110---000000000000100001121000000110000
+	'Kinorhyncha'		                1011011111111000----00101--00000000001001000??10100--000-?1000-011100-00---00-10000--0-00000-0-0--0110---000000000000100001???????01100000
+	'Loricifera'		                 0011011111111000----00101--00000000001001000??10110--000-01100-011100-00---00-10000--0-00000-0-0--0110---000000000000100001???????00100000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 138;
+      ENDBLOCK;
+      

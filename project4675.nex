@@ -1,0 +1,714 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-16 07.58.20 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=48;
+    TAXLABELS
+    		'Proganochelys quenstedti'
+		'Kayentachelys aprix'
+		'*Eileanchelys waldmani'
+		'*Sichuanchelys palatodentata'
+		'*Mongolochelys efremovi'
+		'*Chubutemys copelloi'
+		'*Peligrochelys walshae'
+		'Dinochelys whitei'
+		'Glyptops ornatus'
+		'Uluops uluops'
+		'Pleurosternon bullockii'
+		'Pleurosternon moncayensis'
+		'Dorsetochelys typocardium'
+		'Riodevemys inumbragigas'
+		'Toremys cassiopeia'
+		'Helochelydra nopcsai'
+		'Naomichelys speciosa'
+		'Aragochersis lignitesta'
+		'Kallokibotion bajazidi'
+		'Compsemys victa'
+		'Berruchelus russelli'
+		'Peltochelys duchastelli'
+		'Selenemys lusitanica'
+		'*Trinitichelys hiatti'
+		'*Arundelemys dardeni'
+		'*Lakotemys australodakotensis'
+		'Arvinachelys goldeni'
+		'Neurankylus exemius'
+		'Neurankylus torrejonensis'
+		'Hayemys latifrons'
+		'Plesiobaena antiqua'
+		'Peckemys brinkman'
+		'Cedrobaena putorius'
+		'*Goleremys mckennai'
+		'Boremys pulchra'
+		'Boremys grandis'
+		'Eubaena cephalica'
+		'Palatobaena cohen'
+		'Palatobaena bairdi'
+		'Palatobaena gaffneyi'
+		'*Palatobaena knellerorum'
+		'Stygiochelys estesi'
+		'*Saxochelys gilberti'
+		'Baena arenosa'
+		'Chisternon undatum'
+		'Gammerabaena sonsalla'
+		'Denazinemys nodosa'
+		'Scabremys ornata'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=105;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'skull shape in dorsal view'
+		 [2] 'preorbital length'
+		 [3] 'orbit shape'
+		 [4] 'size of orbit'
+		 [5] 'lingual ridge'
+		 [6] 'shape of triturating surface'
+		 [7] 'intermaxillary arch/ tongue groove'
+		 [8] 'palatine contribution to triturating surface'
+		 [9] 'interorbital width'
+		 [10] 'swollen maxillae'
+		 [11] 'nasal size'
+		 [12] 'frontal contribution to external nares'
+		 [13] 'prefrontal exposure on skull roof'
+		 [14] 'postorbital contribution of frontal'
+		 [15] 'frontal contribution to orbits'
+		 [16] 'frontal maxilla contact'
+		 [17] 'jugal contribution to orbit'
+		 [18] 'ventral extension of the jugal'
+		 [19] 'posterodorsal extension of quadratojugal'
+		 [20] 'squamosal parietal contact'
+		 [21] 'posteromedial margin of parietals'
+		 [22] 'posterior thinning of parietals towards temporal margins'
+		 [23] 'praepalatine foramen'
+		 [24] 'foramen palatinum posterius'
+		 [25] 'midline contact of pterygoid'
+		 [26] 'posterior process of the pterygoid'
+		 [27] 'epipterygoid'
+		 [28] 'contribution of opisthotic to stapedial foramen'
+		 [29] 'splenial'
+		 [30] 'tubercle on posterolateral edge of dentary'
+		 [31] 'shape of the dentary/surangular contact'
+		 [32] 'scalloping of posterior margin of carapace'
+		 [33] 'contribution of 5th vertebral to posterior margin of carapace'
+		 [34] 'costal fontanelles in skeletally mature individuals'
+		 [35] 'preneural'
+		 [36] 'supernumerary posterior peripherals'
+		 [37] 'mesoplastron'
+		 [38] 'cervical scutes'
+		 [39] 'vertebral length versus width'
+		 [40] 'nuchal scute'
+		 [41] 'prepleural scute'
+		 [42] 'postpleural scute'
+		 [43] 'supramarginal scutes'
+		 [44] 'placement of anterior margin of marginal I'
+		 [45] 'epiplastral processes'
+		 [46] 'gulars'
+		 [47] 'medial contact of extragulars'
+		 [48] 'placement of anal scutes'
+		 [49] 'xiphiplastron-hypoplastron suture'
+		 [50] 'pygal notch'
+		 [51] 'anteriorly scalloped shell'
+		 [52] 'sulcus around external narial opening'
+		 [53] 'external pterygoid process'
+		 [54] 'angle between maxillae'
+		 [55] 'thickening of jugal'
+		 [56] 'vertical indentation on maxilla anterior to orbit'
+		 [57] 'horizontal tubercles on basiocciptal'
+		 [58] 'length between orbit and cheek emargination'
+		 [59] 'shape of frontal/parietal suture'
+		 [60] 'size of mandibular condyle'
+		 [61] 'supraoccipital exposure on skull roof'
+		 [62] 'orbit inset into maxilla'
+		 [63] 'parietal width versus length'
+		 [64] 'interpterygoid vacuity'
+		 [65] 'cheek emargination'
+		 [66] 'hooked premaxilla'
+		 [67] 'nasal/frontal suture shape'
+		 [68] 'nasal/premaxilla relationship'
+		 [69] 'hooked mandible'
+		 [70] 'labial ridge on mandible'
+		 [71] 'snout shape'
+		 [72] 'size of tympanum'
+		 [73] 'size of the external narial opening'
+		 [74] 'distal caudals'
+		 [75] 'presence of free cervical ribs'
+		 [76] 'articular surfaces on cervical vertebrae'
+		 [77] 'sculptured skull'
+		 [78] 'shell sculpturing'
+		 [79] 'shape of vertebral III'
+		 [80] 'nuchal contribution to anterior margin of shell'
+		 [81] 'xiphiplastral notch'
+		 [82] 'distinct thickening of plastron medial to inguinal buttresses'
+		 [83] 'distinct thickening of plastron medial to axillary buttresses'
+		 [84] 'contact of axillary buttress with costals'
+		 [85] 'extent of inguinal buttress'
+		 [86] 'number of suprapygals'
+		 [87] 'suprapygal size'
+		 [88] 'neural V'
+		 [89] 'neural VI contacts'
+		 [90] 'peripheral I contact with costal I'
+		 [91] 'relative width of suprapygals'
+		 [92] 'lateral margins of nuchal'
+		 [93] 'entoplastral dimensions'
+		 [94] 'midline sulcus'
+		 [95] 'depth of upper temporal emargination relative to incisura columella auris'
+		 [96] 'basipterygoid processes'
+		 [97] 'anterior tubercula'
+		 [98] 'prootic in trigeminal foramen'
+		 [99] 'enclosure of internal carotid artery in bone'
+		 [100] 'lateral canal of carotid system'
+		 [101] 'occipital condyle'
+		 [102] 'entoplastral scute'
+		 [103] 'V-shaped anterior peripherals'
+		 [104] 'supernumerary anterior peripherals'
+		 [105] 'superficial enclosure of cavum tympani by squamosal/quadrate contact'
+	;
+	STATELABELS
+		1
+		'wedge shaped (triangular)'
+		'elongate (at least twice as long as wide)'
+		'round'
+		,
+		2
+		'short'
+		'long'
+		,
+		3
+		'circular'
+		'with posterodorsal notch'
+		,
+		4
+		'orbit larger than maxillary height'
+		'orbit smaller than maxillary height'
+		,
+		5
+		'complete'
+		'reduced, only developed anteriorly'
+		'absent'
+		,
+		6
+		'lingual and labial margins more or less parallel'
+		'lingual and labial margins diverge posteriorly, triturating surface greatly expanded posteriorly'
+		,
+		7
+		'broad'
+		'narrow'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'wide (70-100% of skull width)'
+		'moderate (35-65% of skull width)'
+		'narrow (0-30% of skull width)'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'larger, more than 10% of surface of interorbital skull roof'
+		'small to absent, less than 10% of surface of interorbital skull roof'
+		,
+		12
+		'absent'
+		'present, between nasals and maxillae'
+		'present, between nasals, along midline'
+		,
+		13
+		'large'
+		'reduced'
+		'absent'
+		,
+		14
+		'part of frontals occupies space posterior to the orbits'
+		'frontals restricted to the interorbital space'
+		,
+		15
+		'absent'
+		'present, small'
+		'present, large'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'large'
+		'small'
+		'absent'
+		,
+		18
+		'present, the jugal extends ventrally deep below the level of the orbit and may reach the ventral margin of the maxilla'
+		'absent, the jugal does not form a ventral process'
+		,
+		19
+		'quadratojugal extends over tympanum'
+		'quadratojugal does not crest tympanum'
+		,
+		20
+		'present'
+		'absent'
+		,
+		21
+		'parietals jointly form a rounded margin'
+		'parietals jointly form a pointed margin'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'located entirely within premaxillae'
+		'located within suture of premaxillae, vomer, and/or maxillae'
+		,
+		24
+		'formed by pterygoid and palatine'
+		'formed entirely by palatine'
+		,
+		25
+		'point contact, less than 10% of the anteroposterior length of pterygoid'
+		'small, 10 to 40% of pterygoid length'
+		'40 to 70% of pterygoid length'
+		'more than 70% of pterygoid length'
+		,
+		26
+		'absent, prootic exposed ventrally'
+		'short, prootic not exposed ventrally, no contact with the basioccipital'
+		'moderately long, point contact with basioccipital'
+		'elongate, extensive contact with basioccipital'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'large'
+		'reduced'
+		'absent'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'Z-shaped'
+		'straight'
+		,
+		32
+		'absent'
+		'present but minor'
+		'present and distinct'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present (more than 12 pairs present, additional ones inserted posteriorly)'
+		,
+		37
+		'mesoplastra present and with midline contact'
+		'mesoplastra present but lacking midline contact'
+		'mesoplastra absent'
+		,
+		38
+		'absent'
+		'present, single'
+		'present, two or more'
+		,
+		39
+		'width significantly greater than length'
+		'length and width approximately equal'
+		'length greater than width'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'great majority located over nuchal'
+		'evenly spans nuchal/peripheral suture'
+		'majority located over peripheral I'
+		,
+		45
+		'present'
+		'absent'
+		,
+		46
+		'smaller than extragulars'
+		'as large as extragulars'
+		'much larger than extragulars'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'restricted to xiphiplastra'
+		'lap onto hypoplastra as well'
+		,
+		49
+		'straight'
+		'z-shaped'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'present'
+		'greatly reduced'
+		,
+		54
+		'acute angle'
+		'obtuse angle'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'50-100% of orbit diameter'
+		'more than 100% of orbit diameter'
+		'less than 50% of orbit diameter'
+		,
+		59
+		'slightly curved to straight'
+		'strongly curved'
+		,
+		60
+		'small'
+		'large'
+		,
+		61
+		'absent'
+		'present, but minor'
+		'present and large'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'maximum combined width of parietals less then their length'
+		'maximum combined width of parietals greater than their length'
+		,
+		64
+		'present'
+		'absent'
+		,
+		65
+		'absent or minor'
+		'present, reaching at least the ventral margin of the orbit'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'straight'
+		'anteriorly convex'
+		,
+		68
+		'nasals extend as far anteriorly as premaxilla'
+		'nasals do not extend as far anteriorly as premaxilla'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'present'
+		'absent'
+		,
+		71
+		'rectangular snout'
+		'pointed snout'
+		,
+		72
+		'smaller than diameter of orbit'
+		'larger than diameter of orbit'
+		,
+		73
+		'small, much smaller than orbit'
+		'large, approximately the same size as orbit'
+		,
+		74
+		'same length as proximal caudals'
+		'significantly longer than proximal caudals'
+		,
+		75
+		'present'
+		'absent'
+		,
+		76
+		'absent, all vertebrae amphicoelous'
+		'present, some vertebrae proceolous or ophisthocoelous'
+		,
+		77
+		'absent or minor'
+		'present and distinct'
+		,
+		78
+		'smooth to minor'
+		'distinct tubercles and crenulations'
+		'raised tubercles that easily break'
+		,
+		79
+		'as wide anteriorly as posteriorly'
+		'narrower anteriorly than posteriorly'
+		,
+		80
+		'present'
+		'absent'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'absent or minor'
+		'present and extensive'
+		,
+		85
+		'absent or minor'
+		'present and extensive'
+		,
+		86
+		'one'
+		'two'
+		'three'
+		,
+		87
+		'large'
+		'small'
+		,
+		88
+		'wider than long'
+		'longer than wide'
+		,
+		89
+		'contacts costals V and VI'
+		'contacts costals V, VI, and VII'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'suprapygal I much narrower than suprapygal II'
+		'suprapygals have about the same width'
+		,
+		92
+		'margins parallel'
+		'margins anteriorly convergent'
+		,
+		93
+		'longer than broad'
+		'about equal'
+		'broader than long'
+		,
+		94
+		'straight'
+		'deeply sinuous'
+		,
+		95
+		'absent to shallow, does not reach level of incisura in lateral view'
+		'moderate, reaches beyond level  incisura in lateral view, but not deeper than anterior margin of tympanus'
+		'deep, beyond level of cavum tympani in lateral view'
+		,
+		96
+		'present, large'
+		'present, reduced'
+		'absent'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'present'
+		'absent'
+		,
+		99
+		'internal carotid artery not enclosed in bone, foramen distalis nervi vidiani ventrally exposed'
+		'internal carotid artery canal anteriorly ossified, foramen distalis nervi vidiani ventrally exposed'
+		'internal carotid artery canal fully encased in bone, the foramen distalis nervi vidiani is not exposed ventrally'
+		,
+		100
+		'present'
+		'absent'
+		,
+		101
+		'formed by basioccipital and exoccipital'
+		'formed by basioccipital alone'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present (more than 12 pairs present, four associated with costal I)'
+		,
+		105
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Proganochelys quenstedti'		               00000000000000000000-000-000000000000100??1100000000000000000010000000000000000?00000????????0?0000?000-0
+	'Kayentachelys aprix'		                    00000000(0,1)0000010?0?0-000-000001000000100000100000000000000000010001010000000000000000??001010000000?00000
+	'*Eileanchelys waldmani'		                 0000??0?101000100000??1??0?0?0?000?0010000020?00?000?000100010??001?????0???11000?????010??10001000?10000
+	'*Sichuanchelys palatodentata'		           10002000?00000000010-?101???0?10000001000001?2000000000000100001000?001(0,1)????00000????????1?10000000000000
+	'*Mongolochelys efremovi'		                10000000001000000000-0?0110?001001?01100000100000000000000001011000000100???00000????1010(0,1)0100011?00?0000
+	'*Chubutemys copelloi'		                   0000200010?0000000?0???1100??????1002?000001??????000000000?10?100??????0?????00?00?0?0101?10?000?00?000?
+	'*Peligrochelys walshae'		                 ????10???0?0000?00???????????????????1?0??????????0???0?0?00????00??00???0??0??0???????????1????1?0???0?0
+	'Dinochelys whitei'		                      ?000?0?0?0?00010???0?????????0?0000001000001?10100000000?00??00101?110???00?10000?00010??11110???????0?0?
+	'Glyptops ornatus'		                       10002001?0?00?102?000100020000000000011000010100000000000000?001011110100?00110001000101011110?1?00?10000
+	'Uluops uluops'		                          0000100110000010010000?11200???????????????????????00000010020111?1???010???1?????????????????0111001???0
+	'Pleurosternon bullockii'		                1000200?10000010210001000(1,2)00???000(0,1)0000000010(0,1)0000000000?10010011011??000?0011001?0001010101(1,2)0111101?0000
+	'Pleurosternon moncayensis'		              ??????????????????01?????200????????????????0?0?????0???0??0??01????????????11?????????????????1110110??0
+	'Dorsetochelys typocardium'		              10002001?00000101?0001?0220????0000001100001?10000000000000020011011???1????11000????1010111200?1???10000
+	'Riodevemys inumbragigas'		                ???????????????????????????????0000011000001?100000??????????????????????????1000??0?101010121???????0?0?
+	'Toremys cassiopeia'		                     ???????????????????????????????0000000?00001?100000??????????????????????????1001??0?10?010120???????000?
+	'Helochelydra nopcsai'		                   1?0021-010?000202100-0?032000000?0??0????????????0?010?0000120010001011(0,1)10??12???0000???????0?0?10???11?0
+	'Naomichelys speciosa'		                   110(0,1)????00000?202(0,1)00-0???1??000000000?0010011?000000?00000?1100?0010?1111??11200000002010101000?10??11100
+	'Aragochersis lignitesta'		                ??0???????????2????????????????00000010000011100000??0?000???0??0????1?????11200000002010101100?1????1100
+	'Kallokibotion bajazidi'		                 01000?0?100000100010-01?230??01000001000000211000000?00000?000110001?01(0,1)0??0010100011?0100?11001000010011
+	'Compsemys victa'		                        01001001000000000010?0?023?0???00000001000021200000000000000?0010100??100???010111011100000121?200???0011
+	'Berruchelus russelli'		                   ???????????????????????????????0000000?000021200000??????????????????????????1?11??1110?0001(1,2)1???????00??
+	'Peltochelys duchastelli'		                ???????????????????????????????000102?100002?100000??????????????????????????1010??1?101001121???????000?
+	'Selenemys lusitanica'		                   ???????????????????????????????00000000000021100000??????????????????????????1010??1??01000121???????0?0?
+	'*Trinitichelys hiatti'		                  10001001101000102000110023?0?????00?01000?0110000?000000000010111000??000??01110?1011??1????10220?0110??0
+	'*Arundelemys dardeni'		                   000010010000001020????00230(0,1)???????????????????????00000000??0?11010??000???1??????????????????200011???0
+	'*Lakotemys australodakotensis'		          1000?0?010100020200011?11300???000?00?1???0?11000?000000000010111?1????0?????10?011111010?1?10220100?0000
+	'Arvinachelys goldeni'		                   010011010000000?21011?1113?1?1?210???100000??011110000001200?011100010011?????0?1??11??11???10220????0??0
+	'Neurankylus exemius'		                    0??0??0??0000?10???001??1(2,3)?1?0?100000110000111000000000010100001?000100?1111001001011101110110(1,2)201??00000
+	'Neurankylus torrejonensis'		              000?????000000101??0???0?3???0?100???110000?110???00?0????00?001?0001001????00??0??11????????0??0????0???
+	'Hayemys latifrons'		                      00????0??0000?012?0111?113?0???????????????????????000000000?0011000??011???0???0?????????????120???????0
+	'Plesiobaena antiqua'		                    0000110110(0,1)(0,2)101120011110130001011101011000001011110000000000100110010111111100000111100111-00022010100000
+	'Peckemys brinkman'		                      00000101(0,1)01?1(0,1)111(0,1)01001023100111??0101000001101??10000001200100?????????????????01111????????0220?010??00
+	'Cedrobaena putorius'		                    0000111111??11111(0,1)01111(0,1)2?1001?????????????????????000000001010???????????????????????????????220???0??00
+	'*Goleremys mckennai'		                    0000111?100020211001??10?3?????????????????????????01000?000?0?11001??11??????????????????????2?0???????0
+	'Boremys pulchra'		                        0?00?11??0?01?11??0111?0??101?021011021111111110111000000000100110010111110002000111101111-0002??1???000?
+	'Boremys grandis'		                        ???????????????????????????????21011022111111110111??????????????????????????20001111011?1?000???????000?
+	'Eubaena cephalica'		                      01011110110010(0,1)1200111101310???????????????????????00000011010011001??111???0000??????????????220021????0
+	'Palatobaena cohen'		                      20002101111220111(0,1)01111013100111110?0110000010?11?0111101111(1,2)101101101?11???000001111????1??10220101?0000
+	'Palatobaena bairdi'		                     2000210111122011000100101310011????????????????????1111001112101101101?11???0?????????????????220???????0
+	'Palatobaena gaffneyi'		                   2001210101122111100100100310???????????????????????11110011121011011???11???0?????????????????120???????0
+	'*Palatobaena knellerorum'		               20002100111210210001001013?0???????????????????????11110010121011011???11???0?????????????????220???????0
+	'Stygiochelys estesi'		                    0010110011112111100111010311?????????2211?0??01???00000001001001100101111???00000111111???????(1,2)20??1???00
+	'*Saxochelys gilberti'		                   0010110011102(0,1)212001110(0,1)1310210(1,2)101002(1,2)1100(0,1)101011000000000010111001011001??010001111011(0,1)1-0(0,1)022001110000
+	'Baena arenosa'		                          00101100(0,1)01?21110(0,1)100000131120011001122010011011110000000000001110?101111???000001111??111-000020021?0000
+	'Chisternon undatum'		                     00101100111121110(0,1)1010010311200110110221100110110100000000101011100101111111000001111??1?1-000020????0000
+	'Gammerabaena sonsalla'		                  0000110011(0,1)110(0,1)120?????01?10???????????????????????00001?11??1?11001??1?1???0??????????????????201???????
+	'Denazinemys nodosa'		                     ???????????????????????????????210?1022110011110?11??????????????????????????20001111????1-000???????000?
+	'Scabremys ornata'		                       ???????????????????????????????110?1011000011010?10??????????????????????????20001111????????0???????000?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=1 CHARACTER=9 TEXT=' 1 based on fig. 22 of Gaffney (1990)';
+	TEXT TAXON=2 CHARACTER=9 TEXT=' 0,69 based on fig. 10 in Gaffney and Jenkins (2010)';
+	TEXT TAXON=3 CHARACTER=9 TEXT=' 0.36 based on the skull in fig. 5a in Anquetin (2010)';
+	TEXT TAXON=5 CHARACTER=9 TEXT=' 0.84, by reference to figure 17.28 in Sukhanov (2000)';
+	TEXT TAXON=6 CHARACTER=9 TEXT=' 0.62 by reference to fig. 3 in Sterli et al. (2015)';
+	TEXT TAXON=9 CHARACTER=9 TEXT=' 1.28, fig. 12, Gaffney 1979';
+	TEXT TAXON=10 CHARACTER=9 TEXT=' 0.65 by reference to Fig. 1 in Rollot et al. (2021)';
+	TEXT TAXON=11 CHARACTER=9 TEXT=' 0.5 (left side) and 0.57 (right side), fig. 2, Evers et al., 2020';
+	TEXT TAXON=13 CHARACTER=9 TEXT=' 2.05, by reference to holotype of delairii';
+	TEXT TAXON=16 CHARACTER=9 TEXT=' 0.63 by reference to Fig. 4 in Joyce et al. (2011)';
+	TEXT TAXON=17 CHARACTER=9 TEXT=' 0.81, Fig. 2 in Joyce et al. (2014)';
+	TEXT TAXON=19 CHARACTER=9 TEXT=' 0.56, fig. 2 in Martin-Jimenez et al. (2021)';
+	TEXT TAXON=20 CHARACTER=9 TEXT=' 1, fig. 1 Lyson and Joyce (2011)';
+	TEXT TAXON=24 CHARACTER=9 TEXT=' 0.58, Fig. 2 in Rollot et al. (this paper)';
+	TEXT TAXON=25 CHARACTER=9 TEXT=' 0.93, fig. 1 in Evers et al. (2021)';
+	TEXT TAXON=26 CHARACTER=9 TEXT=' 0.51, fig. 2, Rollot et al. (in press)';
+	TEXT TAXON=27 CHARACTER=9 TEXT=' 0.83 based on UMNH VP 21151 (Fig. 2 in Lively, 2015); 0,79 based on UMNH VP 21300 (Fig. 3 in Lively, 2015)';
+	TEXT TAXON=28 CHARACTER=9 TEXT=' 2.29, fig. 2, Lyson et al. (2016)';
+	TEXT TAXON=31 CHARACTER=9 TEXT=' 0.59, fig. 2, Brinkman (2003)';
+	TEXT TAXON=32 CHARACTER=9 TEXT=' 0.59 (Fig. 4), 0.72 (Fig. 5), Lyson and Joyce (2009)';
+	TEXT TAXON=33 CHARACTER=9 TEXT=' 0.46 (Fig. 1), 0.37 (Fig. 2), Lyson and Joyce (2009)';
+	TEXT TAXON=34 CHARACTER=9 TEXT=' 0.63, fig. 1, Hutchison (2004)';
+	TEXT TAXON=37 CHARACTER=9 TEXT=' 0.46, fig. 1, Rollot et al. (2018)';
+	TEXT TAXON=38 CHARACTER=9 TEXT=' 0.55, fig. 2, Lyson et al. (2021)';
+	TEXT TAXON=39 CHARACTER=9 TEXT=' 0.57, fig. 2, Lyson et al. (2021)';
+	TEXT TAXON=40 CHARACTER=9 TEXT=' 0.72, fig. 2, Lyson et al. (2021)';
+	TEXT TAXON=41 CHARACTER=9 TEXT=' 0.42, fig. 3, Lyson et al. (2021)';
+	TEXT TAXON=42 CHARACTER=9 TEXT=' 0.46 (fig. 20 from Gaffney, 1972)';
+	TEXT TAXON=43 CHARACTER=9 TEXT=' 0.5 (fig. 2 from Lyson et al., 2019); 0.66 (fig. 3 from Lyson et al., 2019); 0.58 (fig. 4 from Lyson et al., 2019)';
+	TEXT TAXON=44 CHARACTER=9 TEXT=' 0.57 (fig. 26 from Gaffney, 1972); 0.69 (picture of UCM 102270)';
+	TEXT TAXON=45 CHARACTER=9 TEXT=' 0.61 (fig. 34 from Gaffney, 1972)';
+	TEXT TAXON=46 CHARACTER=9 TEXT=' 0.55 (fig. 1 from Lyson & Joyce, 2010; taken from the left side)';
+	TEXT TAXON=9 CHARACTER=16 TEXT=' fig. 12';
+	TEXT TAXON=3 CHARACTER=28 TEXT=' change from ?->0 by SWE';
+	TEXT TAXON=3 CHARACTER=57 TEXT=' chnaged from 0->1 by SWE, double checked by Walter as well';
+	TEXT TAXON=3 CHARACTER=97 TEXT=' changed from ?->0 by SWE';
+	TEXT TAXON=3 CHARACTER=98 TEXT=' changed from ?->0 by SWE';
+	TEXT TAXON=3 CHARACTER=99 TEXT=' chnaged from ?->0 by SWE';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 4 6 - 8 10 - 12 14 16 18 - 24 27 - 28 30 - 31 33 - 36 40 - 43 45 47 - 57 59 - 60 62 - 77 79 - 85 87 - 92 94 97 - 98 100 - 105, ord: 5 9 13 15 17 25 - 26 29 32 37 - 39 44 46 58 61 78 86 93 95 - 96 99;
+      ENDBLOCK;
+      

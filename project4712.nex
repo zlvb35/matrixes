@@ -1,0 +1,671 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-16 08.20.22 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Cyonosaurus longiceps'
+		'Aelurognthus trigiceps'
+		'Lycosuchus vanderrieti'
+		'Glanosuchus macrops'
+		'Olivierosuchus parringtoni'
+		'Moschorhinus kitchingi'
+		'Hofmeyria atavus'
+		'Theriognathus microps'
+		'Regisaurus jacobi'
+		'Bauria cynops'
+		'Procynosuchus delaharpeae'
+		'Dvinia prima'
+		'Vetusodon elikhulu'
+		'Cynosaurus suppostus'
+		'Galesaurus planiceps'
+		'Progalesaurus lootsbergensis'
+		'Thrinaxodon liorhinus'
+		'Nanictosaurus kitchingi'
+		'Platycraniellus elegans'
+		'Cynognathus crateronotus'
+		'Diademodon tetragonus'
+		'Lumkuia fuzzi'
+		'Charassognathus gracilis'
+		'Abdalodon diastematicus'
+		'Abdaldodon muchingaensis'
+		'Bolotridon frerensis'
+		'Nythosaurus larvatus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=110;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Snout in relation to the temporal regionSnout in relation to the temporal regionSnout in relation to the temporal regionSnout in relation to the temporal region'
+		 [2] 'Septomaxilla facial process'
+		 [3] 'Contact between the nasal and lacrimal'
+		 [4] 'Incisive foramen'
+		 [5] 'Contact between vomer and maxilla in the palate'
+		 [6] 'Osseous secondary palate'
+		 [7] 'Ectopterygoid'
+		 [8] 'Palatal teeth'
+		 [9] 'Interpterygoid vacuity in adults'
+		 [10] 'Boss/crest anterior to interpterygoid vacuity'
+		 [11] 'Suborbital vacuity in palate'
+		 [12] 'Frontal in orbital margin'
+		 [13] 'Frontal?epipterygoid contact'
+		 [14] 'Parietal foramen'
+		 [15] 'Postfrontal'
+		 [16] 'Postorbital bar'
+		 [17] 'Parietal region'
+		 [18] 'Temporal region transverse width'
+		 [19] 'Zygomatic arch dorsoventral height'
+		 [20] 'Infraorbital process'
+		 [21] 'Inferior margin of the jugal in the zygoma'
+		 [22] 'Posterior extension of the squamosal dorsal to the squamosal sulcus'
+		 [23] 'Occipital crests'
+		 [24] 'Posttemporal fossa large axis in relation to the diameter of the foramen magnum'
+		 [25] 'Paroccipital process in the base of the posttemporal fossa'
+		 [26] 'Tuberculum spheno-occipital (?basal tubera? of some authors)'
+		 [27] 'Pterygoid quadrate ramus'
+		 [28] 'Epipterygoid ascending process'
+		 [29] 'Lateral flange of the prootic'
+		 [30] 'Pterygo-paraoccipital foramen'
+		 [31] 'Quadrate notch in the squamosal'
+		 [32] 'Stapes'
+		 [33] 'Jugular foramen'
+		 [34] 'Mastoid and quadrate processes of the paroccipital process'
+		 [35] 'Occipital condyle'
+		 [36] 'Mandibular symphysis'
+		 [37] 'Angular region of dentary position relative to postorbital bar'
+		 [38] 'Longitudinal depression in the lateral side of the dentary'
+		 [39] 'Location of the coronoid process in the temporal fossa'
+		 [40] 'Mandibular fenestra open on external surface of the lower jaw between dentary and angular'
+		 [41] 'Reflected lamina of the angular'
+		 [42] 'Masseteric fossa in the dentary'
+		 [43] 'Position of the dentary/surangular dorsal contact'
+		 [44] 'Surangular?squamosal contact'
+		 [45] 'Upper incisors'
+		 [46] 'Lower incisors'
+		 [47] 'Incisor cutting margins'
+		 [48] 'Upper incisor?canine diastema'
+		 [49] 'Precanine maxillary teeth'
+		 [50] 'Lower canine'
+		 [51] 'Canine serrations'
+		 [52] 'Upper postcanine row posterior extent'
+		 [53] 'Upper postcanine morphology'
+		 [54] 'Postcanine occlusion absence/presence'
+		 [55] 'Lingual cingulum in lower postcanines'
+		 [56] 'Posterior postcanines with strongly curved main cusp'
+		 [57] 'Marked diastema or step between maxillary canine and postcanines'
+		 [58] 'Dorsoventral maxillary depression posterior to canine root'
+		 [59] 'Dentary symphysis morphology'
+		 [60] 'Contact between postorbital and squamosal'
+		 [61] 'Maxilla participation on anterior margin of subtemporal fenestra'
+		 [62] 'Carotid artery foramina in basisphenoid'
+		 [63] 'Parasphenoid ala'
+		 [64] 'Quadrate rami of epipterygoid'
+		 [65] 'Paroccipital process'
+		 [66] 'Prootic and opisthotic'
+		 [67] 'Lateral crest of dentary'
+		 [68] 'Base of coronoid process extension in lateral view'
+		 [69] 'Craniomandibular articulation'
+		 [70] 'Trigeminal exit'
+		 [71] 'Latero-posterior exposure of squamosal on zygoma'
+		 [72] 'V-shape notch separating lambdoidal crest from zygoma'
+		 [73] 'Axis of posterior part of maxillary tooth row'
+		 [74] 'Expanded costal plates on ribs'
+		 [75] 'Lumbar costal plates with ridge overlapping preceding rib'
+		 [76] 'Scapula infraspinous fossa with outturned anterior and posterior borders'
+		 [77] 'Acromion process'
+		 [78] 'Procoracoid in glenoid'
+		 [79] 'Humerus ectepicondylar foramen'
+		 [80] 'Manual digit III phalanx number'
+		 [81] 'Manual digit IV phalanx number'
+		 [82] 'Length of anterior process of ilium anterior to acetabulum (relative to diameter of acetabulum)'
+		 [83] 'Length of posterior process of ilium posterior to acetabulum: (relative to diameter of acetabulum)'
+		 [84] 'Dorsal profile of ilium'
+		 [85] 'Total length of pubis relative to acetabulum diameter'
+		 [86] 'Parabasisphenoid ventromedian keel'
+		 [87] 'Interclavicle'
+		 [88] 'Ossified sternum'
+		 [89] 'Intercrista breadth'
+		 [90] 'Vomer interchoana process'
+		 [91] 'Stapes dorsal process'
+		 [92] 'Iliac blade with anterior process and notch'
+		 [93] 'Femur with prominent trochanter minor and internal trochanter'
+		 [94] 'Incisor texture'
+		 [95] 'Distal carpals IV and V'
+		 [96] 'Orbitosphenoid ossification'
+		 [97] 'Orbitosphenoid anteroposterior length'
+		 [98] 'Articulation of the orbitosphenoids to the skull roofing elements'
+		 [99] 'Interorbital septum (?presphenoid?) keel bony contributions'
+		 [100] 'Diastema between lower canine and postcanines'
+		 [101] 'Postcanine row medially inset'
+		 [102] 'Splenial obscured completely by dentary in lateral view'
+		 [103] 'Anterodorsal process of prootic with extensive epipterygoid contact'
+		 [104] 'Paroccipital process anteroposterior depth'
+		 [105] 'Unossified gap present between prootic anterodorsal process and parietal/interparietal'
+		 [106] 'Zygomatic arch greatest width'
+		 [107] 'Stapedial foramen'
+		 [108] 'Squamosal medial process contacting prootic'
+		 [109] 'Vomer anterior vault'
+		 [110] 'Atlas-axis fusion'
+	;
+	STATELABELS
+		1
+		'longer'
+		'subequal'
+		'shorter'
+		,
+		2
+		'long'
+		'short'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent/open, fissure-like'
+		'present/enclosed as foramen'
+		,
+		5
+		'absent'
+		'present'
+		'maxilla covers vomer'
+		,
+		6
+		'absent'
+		'maxillo-palatine extensions present, but do not contact medially'
+		'complete, without contribution of the palatine'
+		'complete, with contribution of the palatine'
+		,
+		7
+		'contacts maxilla'
+		'does not contact maxilla'
+		'absent'
+		,
+		8
+		'on the pterygoid and palatine'
+		'on the transverse process of the pterygoid'
+		'on the pterygoid boss'
+		'absent'
+		,
+		9
+		'present'
+		'highly reduced or absent'
+		,
+		10
+		'reduced or absent'
+		'well developed'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'included'
+		'excluded'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'complete narrow'
+		'incomplete'
+		'complete wide'
+		,
+		17
+		'at the same level as the skull profile'
+		'high'
+		,
+		18
+		'widest in the middle of the zygoma'
+		'or widest more posteriorly'
+		,
+		19
+		'slender'
+		'moderately deep'
+		'very deep'
+		,
+		20
+		'absent'
+		'suborbital angulation between maxilla and jugal present'
+		'descendant process of the jugal present'
+		,
+		21
+		'poorly developed longitudinally'
+		'well developed longitudinally almost reaching the posterior end of the zygoma'
+		,
+		22
+		'absent'
+		'incipient'
+		'well developed'
+		,
+		23
+		'non-confluent anteromedially'
+		'confluent'
+		,
+		24
+		'of the same size or slightly smaller'
+		'notably smaller'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'present'
+		'absent or highly reduced'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'rodlike'
+		'moderately expanded'
+		'greatly expanded'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'perforated'
+		'unperforated'
+		,
+		33
+		'faces posteriorly'
+		'ventrally'
+		,
+		34
+		'undifferentiated'
+		'differentiated'
+		,
+		35
+		'single'
+		'double'
+		,
+		36
+		'unfused'
+		'fused'
+		,
+		37
+		'anterior to the postorbital bar'
+		'at the same level or posterior'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'lateral'
+		'in the middle'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'corrugated plate'
+		'smooth plate with slight'
+		'hook-like laminae'
+		'thin projection'
+		,
+		42
+		'absent'
+		'fossa high on coronoid process'
+		'fossa extends to the angle of dentary'
+		,
+		43
+		'closer to postorbital bar'
+		'midway'
+		'closer to jaw joint'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'more than four'
+		'four'
+		,
+		46
+		'four'
+		'three'
+		,
+		47
+		'serrated'
+		'smoothly ridged'
+		,
+		48
+		'present'
+		'absent'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'large'
+		'reduced'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'anterior to the orbit'
+		'below the orbit'
+		,
+		53
+		'conical simple'
+		'sectorial'
+		'transversely wide'
+		'sectorial with lingual cingulum'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'low, gently sloping, does not form distinct ?chin?'
+		'tall, steeply-sloped, forms distinct ?chin?'
+		,
+		60
+		'present'
+		'absent'
+		,
+		61
+		'excluded'
+		'included'
+		,
+		62
+		'present'
+		'absent'
+		,
+		63
+		'long and borders fenestra ovalis'
+		'slightly reduced and excluded from fenestra ovalis'
+		,
+		64
+		'absent'
+		'present but do not contact quadrate'
+		'present and contact quadrate'
+		,
+		65
+		'does not contact quadrate'
+		'contacts quadrate'
+		'crista parotica contacts quadrate'
+		,
+		66
+		'separated'
+		'fused to form petrosal'
+		,
+		67
+		'absent'
+		'incipient'
+		'well developed'
+		,
+		68
+		'relatively narrow'
+		'moderately expanded anteroposteriorly'
+		'very expanded anteroposteriorly'
+		,
+		69
+		'quadrate ? articular'
+		'main quadrate ? articular, secondary surangular ? squamosal'
+		,
+		70
+		'between prootic incisure and epipterygoid'
+		'via fenestra between epipterygoid and prootic'
+		'), via two foramina'
+		,
+		71
+		'without or with incipient depression'
+		'with deep squamosal sulcus'
+		,
+		72
+		'absent'
+		'incipient'
+		'deep'
+		,
+		73
+		'directed lateral to subtemporal fossa'
+		'directed toward centre of fossa'
+		'directed toward medial rim of fossa and curved'
+		'directed toward medial rim of fossa and parallel'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'present'
+		'barely present or absent'
+		,
+		79
+		'present'
+		'absent'
+		,
+		80
+		'four'
+		'three'
+		,
+		81
+		'five'
+		'four'
+		'three'
+		,
+		82
+		'less than 1.0'
+		'1.0-1.5'
+		'greater than 1.5'
+		,
+		83
+		'between 0.5 and 1.0'
+		'greater than 1.0'
+		')less than 0.5'
+		,
+		84
+		'strongly convex'
+		'flat to concave'
+		,
+		85
+		'greater than 1.5'
+		'between 1.5 and 1.0'
+		'less than 1.0'
+		,
+		86
+		'prominent, anteroposteriorly long'
+		'reduced to narrow process'
+		'absent'
+		,
+		87
+		'elongated, strap-like element'
+		'short, shield-shaped'
+		,
+		88
+		'absent'
+		'present'
+		,
+		89
+		'shortest between maxillae'
+		'between palatine processes'
+		,
+		90
+		'narrow, parallel-sided'
+		'widens anteriorly'
+		,
+		91
+		'present'
+		'reduced or absent'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'smooth'
+		'fluted or faceted'
+		,
+		95
+		'separate'
+		'fused'
+		,
+		96
+		'present and well ossified'
+		'absent/unossified'
+		'state not defined by author'
+		,
+		97
+		'elongated'
+		'reduced/absent'
+		,
+		98
+		'sutural connection present'
+		'loose, not articulated'
+		,
+		99
+		'exists as a separate median ossification'
+		'absent/unossified'
+		'continuous with the paired orbitosphenoids as asingle Y-shaped element'
+		,
+		100
+		'short to absent'
+		'present and long, up to the length of two to three tooth positions'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'no, visible along ventral portion of mandible'
+		'yes, splenial is obscured from lateral view'
+		,
+		103
+		'contact limited'
+		'present, contact extensive'
+		,
+		104
+		'anteroposteriorly narrow'
+		'anteroposteriorly expanded'
+		,
+		105
+		'present'
+		'mostly closed by sutural union of these elements'
+		,
+		106
+		'at middle'
+		'or at back of arch, forming a triangular dorsal skull profile'
+		,
+		107
+		'present'
+		'absent'
+		,
+		108
+		'absent'
+		'contact present and enclosing the pterygo-paroccipital foramen'
+		,
+		109
+		'present'
+		'absent'
+		,
+		110
+		'Atlas centrum separate'
+		'fused or partially fused to axis to form a ?dens-like? structure'
+		
+	;
+	MATRIX
+	'Cyonosaurus longiceps'		                 00000000000000000(0,1)000000000000000000000000?000000000000000100011100000000????????????0??000??0?00000000000000?
+	'Aelurognthus trigiceps'		                0000000000010000001000000000??0??000000000000000000000000010?01??0000?000????????????0??00???0?????0000000000?
+	'Lycosuchus vanderrieti'		                00000001001000000100?010000100?101000100000001010000000000011?01?00000001?????0??????0??011?10?????0010001100?
+	'Glanosuchus macrops'		                   00000102011000000100?010000111110100010000000100000000000001?001??0000??00000?11210000000111101????00100011110
+	'Olivierosuchus parringtoni'		            0000010301100010010010100001111?0100010100100010101000000011?00110000000000001112????01101??111001000100011110
+	'Moschorhinus kitchingi'		                00000103011000100100?0100001111101000101000000111?1000000011?001100?00000000011??1000011011110?????0010001111?
+	'Hofmeyria atavus'		                      00000102011000(0,1)001000010000111110100000100000011101000000001??0?1?0000000????????????0??011?11?000?0010001111?
+	'Theriognathus microps'		                 0000110(2,3)01(0,1)0001001000010000211110100000100000?11001??????001000110000000?00001112100001101111110000??10001111?
+	'Regisaurus jacobi'		                     0000110201100110010000100001111?010?????????0??00??000?0000110011000000000?001???100?01101?111??????010001111?
+	'Bauria cynops'		                         000022030110011101000010000????10100010100101110011021100001(0,1)00010000000100001????00?0??011?11?000?0110001111?
+	'Procynosuchus delaharpeae'		             00100113000110101000111101021110101010111100001110(0,1)03010000100010?010100000100???10011001000000011000011100001
+	'Dvinia prima'		                          201001030001?01010001010010?11101010101??1000010101121100001000101011100100?00???10011??1000???????00?0000?00?
+	'Vetusodon elikhulu'		                    21100103100110100010111111021110101010101(1,2)(1,2)01?100?1010??00110001001201000????????????2??100??0?(0,2)11000111?0000?
+	'Cynosaurus suppostus'		                  (1,2)11001031001101000101?11(0,1)102111?1010101??0001?100?1(0,1)10?000110?0(1,2)0?1201010????????????2??10???0?21110011110?00?
+	'Galesaurus planiceps'		                  011001131?011010001(0,1)1(1,2)11110211101010101110101110001(0,1)100100010001012201000101000011102200100000?211100111100001
+	'Progalesaurus lootsbergensis'		          011?01?31?01101000111111110211101010101??01?111000101001?0010?0??11201000????????????2??100??0?????0011110000?
+	'Thrinaxodon liorhinus'		                 011123131?011010001011111102111010101010221011100010301000010001001201000101000011102200?0000002111001111000?1
+	'Nanictosaurus kitchingi'		               0???23?3?001?01000101?1111021?101010101??2101110001(0,1)10100001????1?120?000?????????????????0?????????0?????????
+	'Platycraniellus elegans'		               111123?3100110100011111111?2111?1010101022??1??100?010?00001100?101201000????????????????0??????????0?1110000?
+	'Cynognathus crateronotus'		              011123131?0110121122121001121110101110103221110000011001001001120?22111001111001211022???00000?????00111110001
+	'Diademodon tetragonus'		                 (1,2)11123231?01101211221210011211101011101022211110001121011011011200221(1,2)1211111001211122???00000?21111111111000?
+	'Lumkuia fuzzi'		                         211123231101?11000101111111211101011101022211110001110010011101101121101000111???????2???00??0?21010011110?00?
+	'Charassognathus gracilis'		              1?1????????1?0100?00?01????2??1???1010?11?0011100011???01111???????101000????????????????????0?????001???0????
+	'Abdalodon diastematicus'		               10?????3??01?010?000??????0???1????0101??1??11100011???01111???????10?000????????????????????0?????111???0????
+	'Abdaldodon muchingaensis'		              10100103000?0??????0?0100102111?1?1010?11100?110001130?0111??0010?0101??0??01????????10010?????11?11110000?00?
+	'Bolotridon frerensis'		                  ?11????31001??10???0???????????????110???2??111000111010000?0?????1?????0????????????????0???0?????001????????
+	'Nythosaurus larvatus'		                  ????0113100??0??????????110211?0101?1?1????????????131000???0???11??01???????????????2??100????2111?0?11??0???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 110;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1669197779646; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7807376749695899716; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 13 14 33 16 17 18 19 20 21 22 23 24 10 11 12 25 26; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7371157251831219798; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 63 68 70 71 74 131 135 139 140 143 146 147 148 152 77 78 79 80 83 85 87 88 117 118 119 120 122 123 124 89 90 91 92 93 94 95 96 99 100 101 97 98 102 103 104 105 106 107 108 109 110; attachments ; endTell; mqVersion 331; checksumv 0 3 2574239077 null getNumChars 110 numChars 110 getNumTaxa 27 numTaxa 27 short true bits 15 states 15 sumSquaresStatesOnly 8635.0 sumSquares 8635.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 930; setLocation 535 242; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7371157251831219798 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 858; setLocation 535 242; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 375; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 858; setLocation 535 242; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #7371157251831219798 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 858; setLocation 535 242; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 110; 
+ENDBLOCK;

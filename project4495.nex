@@ -1,0 +1,405 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 07.46.32 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Bradypus'
+		'Nematherium'
+		'Glossotherium'
+		'Catonyx'
+		'Hapalops'
+		'Megalonyx'
+		'Eucholoeops'
+		'Planops'
+		'Eremotherium laurillardi'
+		'Megatherium americanum'
+		'Mionothropus'
+		'Nothotherium'
+		'Nothrotheriops'
+		'Thalassocnus antiquus'
+		'Thalassocnus natans'
+		'Thalassocnus littoralis'
+		'Thalassocnus carolomartini'
+		'Thalassocnus yaucensis'
+		'Analcimorphus'
+		'Schismotherium'
+		'Pelecydon'
+		'Thalassocnus sp. JUY-P-0180'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=61;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Humerus ratio of greatest proximodistal length'
+		 [2] 'Humerus brachiocephalicus crest'
+		 [3] 'Humerus medial epicondyle'
+		 [4] 'Humerus entepicondylar foramen'
+		 [5] 'Radius development of pronator ridge on proximal quarter of diaphysis'
+		 [6] 'Radius bicipital tuberosity orientation'
+		 [7] 'Radius shape of extensor carpi radialis groove in lateral view'
+		 [8] 'Radius extension of laterodistal process'
+		 [9] 'Scaphoid laterodistal corner in dorsal view'
+		 [10] 'Lunar general proportions ratio of mediolateral'
+		 [11] 'Lunar distal extension of facet for radius on dorsal side'
+		 [12] 'Lunar contact with unciform'
+		 [13] 'Cuneiform proximal articular facet'
+		 [14] 'Cuneiform mediodistal extension in dorsal view'
+		 [15] 'Cuneiform facet for Mc V'
+		 [16] 'Magnum contact with Mc II'
+		 [17] 'Metacarpals II  III  and IV  facets of contact with adjacent metacarpals'
+		 [18] 'Trapezium?Mc I complex reduction, ratio of proximodistal length to dorsopalmar depth'
+		 [19] 'Manus  digit I  number of phalanges'
+		 [20] 'Mc II proximodistal length to dorsopalmar depth ratio'
+		 [21] 'Manus  digit II  ungual phalanx  shape of crosssection of ungual process'
+		 [22] 'Manus  digit III  proximal and intermediate phalanges'
+		 [23] 'Manus  digit IV  ungual phalanx in dorsal view'
+		 [24] 'Manus  digit V  ungual'
+		 [25] 'Pelvis  acetabulum  pubic cornu'
+		 [26] 'Femur general proportions'
+		 [27] 'Femur fovea capitis position on the articular surface'
+		 [28] 'Femur third trochanter'
+		 [29] 'Femur distal articular surfaces'
+		 [30] 'Femur deep notch for medial cruciate ligament'
+		 [31] 'Femur medial trochlear ridge'
+		 [32] 'Patella general shape in anterior view'
+		 [33] 'Tibia proximodistal length compared to that of femur'
+		 [34] 'Tibia proximal epiphysis location of anterior border of lateral facet'
+		 [35] 'Astragalo separation of distinct odontoid process'
+		 [36] 'Astragalo angle formed by discoid and odontoid facets in distal view'
+		 [37] 'Astragalo orientation of navicular process'
+		 [38] 'Astragalo position of process for navicular in distal view'
+		 [39] 'Astragalo distance between ectal facet and lateral trochlea in fibular view'
+		 [40] 'Calcaneo  tuber calcis, distal development of proximal processes'
+		 [41] 'Calcaneo sustentacular facet and cuboid surface'
+		 [42] 'Calcaneo oblique crest on plantar side'
+		 [43] 'Mt I and digit I size'
+		 [44] 'Pes  digit III  proximal and intermediate phalanges'
+		 [45] 'Mt IV ratio of proximodistal length to mediolateral width'
+		 [46] 'Mt IV  facets for cuboid and Mt III'
+		 [47] 'Mt V angle formed by facets for cuboid and Mt IV'
+		 [48] 'Mt V orientation of articular facets for the cuboid and Mt IV'
+		 [49] 'Mt Vlateral processlateral process'
+		 [50] 'Metatarsals  position relative to one another when pes is articulated'
+		 [51] 'Number of thoracic vertebrae'
+		 [52] 'Caudal inclination of spinous process  angle between its cranial edge and a dorsoventral axis'
+		 [53] 'Haemal arches shape of most cranial elements'
+		 [54] 'Rib compactness for a given section, the ratio of surface occupied by bone to the whole sectional area'
+		 [55] 'Ratio of maximum visible length of premaxilla to maximum length of skull'
+		 [56] 'Premaxillae  anterior processes widened at their anterior tip'
+		 [57] 'Angulation formed by the narial opening in lateral view'
+		 [58] 'Attachment of base of jugal to skull'
+		 [59] 'Posterior margin of pterygoids thickened and expanded mediolaterally'
+		 [60] 'Shape of anterior margin of mandibular symphysis in dorsal view'
+		 [61] 'Internal trough of spout of mandible'
+	;
+	STATELABELS
+		1
+		'high greater than 4'
+		'intermediate between 3 and 4'
+		'low lower than 3'
+		,
+		2
+		'absent or weakly developed'
+		'well developed'
+		,
+		3
+		'angular and positioned proximally'
+		'rounded and positioned distally'
+		,
+		4
+		'present'
+		'absent'
+		,
+		5
+		'absent'
+		'weak'
+		'intermediate'
+		'strong'
+		,
+		6
+		'projecting mainly posteriorly'
+		'projecting mainly medially'
+		,
+		7
+		'strongly asymmetrical anteroposteriorly not elongated anteroposteriorly and deep proximally'
+		'weakly asymmetrical anteroposteriorly weakly elongated anteroposteriorly and deep proximally'
+		'symmetrical anteroposteriorly strongly elongated anteroposteriorly and shallow proximally'
+		,
+		8
+		'weak proximal to level of styloid process'
+		'strong almost at the level or reaching level of styloid process'
+		,
+		9
+		'not elongated'
+		'elongated'
+		,
+		10
+		'longer than wide ratio less than 1'
+		'wider than long ratio greater than  1'
+		,
+		11
+		'reaches distal edge of the bone'
+		'reaches only the midlength of the bone'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'well developed mediolaterally'
+		'reduced laterally or absent'
+		,
+		14
+		'weak'
+		'strong mediodistal process tapering distally'
+		,
+		15
+		'absent and no fossa in situ'
+		'present'
+		'absent and fossa in situ'
+		,
+		16
+		'absent or minute'
+		'well developed thanks to the proximolateral process of Mc II that overlaps Mc III proximally'
+		,
+		17
+		'weakly extended distally'
+		'well extended distally'
+		,
+		18
+		'weak shaft well developed ratio greater than 3'
+		'intermediate shaft almost absent 2 less than ratio greater than  3'
+		'whole complex vestigial ratio around 1 or below'
+		,
+		19
+		'two'
+		'one'
+		'none'
+		,
+		20
+		'Mc II elongate'
+		'Mc II intermediate'
+		'Mc II stout'
+		,
+		21
+		'triangular'
+		'semicircular'
+		'dorsopalmarly flattened'
+		,
+		22
+		'free'
+		'coossified'
+		,
+		23
+		'rectilinear'
+		'curved medially'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'as elevated as ischiatic cornu'
+		'below level of ischiatic cornu'
+		,
+		26
+		'mediolaterally wide'
+		'mediolaterally narrow'
+		,
+		27
+		'entirely included within it'
+		'partly excluded from it'
+		,
+		28
+		'isolated close to midshaft'
+		'joins only the greater trochanter'
+		'joins both the greater trochanter and the lateral condyle'
+		'joins lateral epicondyle only'
+		,
+		29
+		'patellar trochlea and both condylar surfaces confluent'
+		'patellar trochlea isolated or only abuts the condylar surfaces'
+		'patellar trochlea confluent with the lateral condylar surface only'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'radio greater than  0,25'
+		'radio less than 0,25'
+		,
+		32
+		'roughly quadrangular'
+		'teardrop shape'
+		,
+		33
+		'short  roughly 70?80% of femur or lower'
+		'long roughly 90% of femur'
+		,
+		34
+		'posterior to medial facet'
+		'level with medial facet'
+		,
+		35
+		'poor'
+		'intermediate'
+		'strong'
+		,
+		36
+		'highly obtuse'
+		'roughly at right angles to one another'
+		,
+		37
+		'faces laterodistally  navicular facet visible in fibular view'
+		'faces directly distad navicular facet not visible in fibular view'
+		'faces mediodistally navicular facet not visible in fibular view'
+		,
+		38
+		'median at the level of the junction of the odontoid and discoid facets'
+		'medial  at the level of the odontoid process'
+		,
+		39
+		'long'
+		'short'
+		,
+		40
+		'weak'
+		'strong'
+		,
+		41
+		'separated'
+		'widely confluent'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'metacarpal and digit strong'
+		'intermediate'
+		'metacarpal and digit weak'
+		,
+		44
+		'free'
+		'coossified'
+		,
+		45
+		'Mt IV elongate'
+		'intermediate'
+		'Mt IV short'
+		,
+		46
+		'isolated or barely in contact'
+		'broadly contiguous'
+		,
+		47
+		'roughly right angled'
+		'obtuse'
+		'almost flat'
+		,
+		48
+		'medial'
+		'mediodorsal'
+		,
+		49
+		'well developed laterally'
+		'weak or absent'
+		,
+		50
+		'metatarsals arrayed mediolaterally'
+		'stacked partly dorsoventrally'
+		'full dorsoventral stacking'
+		,
+		51
+		'18 or more'
+		'fewer than 18'
+		,
+		52
+		'weak'
+		'intermediate'
+		'strong'
+		,
+		53
+		'Y  shaped'
+		'X  shaped'
+		,
+		54
+		'below 0.8'
+		'between 0.8 and 0.9'
+		'above 0.9'
+		,
+		55
+		'low premaxilla short'
+		'intermediate'
+		'high premaxilla elongate'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'lateral narial margin forms either right or obtuse angle with dorsal edge of premaxilla'
+		'lateral edge of the narial opening forms a smooth continuous sigmoid curvature with dorsal edge of premaxilla'
+		,
+		58
+		'dorsal to second molariform M2 or more anterior'
+		'dorsal to M3'
+		,
+		59
+		'absent'
+		'weak'
+		'strong'
+		,
+		60
+		'tapered and narrow'
+		'transversely expanded and spatulate'
+		,
+		61
+		'reaches anterior edge of spout'
+		'does not reach anterior edge of spout'
+		
+	;
+	MATRIX
+	'Bradypus'		                             001100-00011000-1221010101--?010110-21100021-----0?--?00-0000
+	'Nematherium'		                          100000?0??????????????????????????1????0?????????????????????
+	'Glossotherium'		                        1101000011110000-2021001?012000000211101-120211011100?000101-
+	'Catonyx'		                              1001000000110000000210-100120000002121001121201001?0??0001?00
+	'Hapalops'		                             000000-00000000?0-0?00000000001000100010001020000000?00000000
+	'Megalonyx'		                            100000-01?1000100?0?0001?0001010000-0000000?20100000??00-0000
+	'Eucholoeops'		                          000000???????????101?0???0?01?1?0???????????100000????00?0?00
+	'Planops'		                              00100101????????????1???0000010?0020111010???????????????00??
+	'Eremotherium laurillardi'		             101101-11011100--22--111?01220-??12111111021??20111???0000000
+	'Megatherium americanum'		               201101-10011100112212101001220-0012111111021212011100?2100000
+	'Mionothropus'		                         0?000100001011000-001001?000100???????????????????????00000??
+	'Nothotherium'		                         000001-010110000000010010000101000100110001110100210100000000
+	'Nothrotheriops'		                       000001-010110000000110010003100000100110001110100211100000000
+	'Thalassocnus antiquus'		                101001?1000100011110111111110001?1211111102?011111?1?01101001
+	'Thalassocnus natans'		                  11101101010100011?111111?111001111211111102101111111011101001
+	'Thalassocnus littoralis'		              1110211101110011111111111111011111211111102111111112022111111
+	'Thalassocnus carolomartini'		           11103121011101111111111111110111112111111021111111?2?22111211
+	'Thalassocnus yaucensis'		               111031210?11012111121011?1110111?110111110?1211111120?2110211
+	'Analcimorphus'		                        ?????????????????????????000??1?000???????002?0000???????00??
+	'Schismotherium'		                       ??00????????000???0??0?0??-????????????00????????????????0?00
+	'Pelecydon'		                            0000???????????????????????00?1?00?????0???02?0010???????0?00
+	'Thalassocnus sp. JUY-P-0180'		          ????1101001100211212111??????????????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 61;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1656000923800; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 2815596906422861464; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2299944958361667111; mqVersion 300; checksumv 0 3 99309430 null getNumChars 61 numChars 61 getNumTaxa 22 numTaxa 22 short true bits 15 states 15 sumSquaresStatesOnly 3340.0 sumSquares 3340.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1366 650; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2299944958361667111 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 578; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 296; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1266 578; setLocation -8 -8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 61; 
+ENDBLOCK;

@@ -1,0 +1,651 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 07.03.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=44;
+    TAXLABELS
+    		'Angistorhinus grandis'
+		'Angistorhinus talainti'
+		'Coburgosuchus goeckeli'
+		'Ebrachosuchus neukami'
+		'Leptosuchus crosbiensis'
+		'Leptosuchus studeri'
+		'Machaeroprosopus andersoni'
+		'Machaeroprosopus buceros'
+		'Machaeroprosopus jablonskiae'
+		'Machaeroprosopus lottorum'
+		'Machaeroprosopus mccauleyi'
+		'Machaeroprosopus pristinus'
+		'Mystriosuchus planirostris'
+		'Mystriosuchus westphali'
+		'Nicrosaurus kapffi'
+		'Nicrosaurus meyeri'
+		'Paleorhinus sawini'
+		'Parasuchus angustifrons'
+		'Parasuchus bransoni'
+		'Parasuchus hislopi'
+		'Phytosaurus doughtyi'
+		'Pravusuchus hortus'
+		'Protome batalaria'
+		'Redondasaurus bermani'
+		'Redondasaurus gregorii'
+		'Rutiodon carolinensis'
+		'Smilosuchus adamanensis'
+		'Smilosuchus gregorii'
+		'Smilosuchus lithodendrorum'
+		'Wannia scurriensis'
+		'MB.R. 2747'
+		'TMM 31100 1332'
+		'Mystriosuchus steinbergeri'
+		'NMMNHS p31094'
+		'NMMNHS p4256'
+		'PEFO 34852'
+		'USNM v 17098'
+		'Euparkeria capensis'
+		'Machaeroprosopus zunii'
+		'NMMNHS p4781'
+		'Paleorhinus parvus'
+		'USNM v 21376'
+		'Diandongosuchus fuyuanensis'
+		'Mystriosuchus alleroq'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=95;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Anterior end of premaxillae'
+		 [2] 'Interpremaxillary fossa'
+		 [3] 'Alveolar ridges'
+		 [4] 'Ventral alveolar bulge between premaxilla and maxilla'
+		 [5] 'Alveolar rim of maxilla'
+		 [6] 'Premaxillary crest'
+		 [7] 'Rostral crest'
+		 [8] 'Transverse width of the rostrum between the antorbital fenestrae in dorsal view'
+		 [9] 'Suture between maxilla and premaxilla and nasal'
+		 [10] 'Posterior portion of maxilla lateral outline in dorsal view'
+		 [11] 'Ratio of rostral to narial plus post narial length'
+		 [12] 'Narial openings'
+		 [13] 'Narial openings b'
+		 [14] 'Position of nares'
+		 [15] 'Anterior extent of septomaxillae'
+		 [16] 'Narial outlets'
+		 [17] 'Dorsal rim of nares'
+		 [18] 'Narial wing'
+		 [19] 'Interorbital nasal area lateral view'
+		 [20] 'Interorbital nasal area cross section'
+		 [21] 'Infranasal recess'
+		 [22] 'Antorbital fossa'
+		 [23] 'Discrete row of anteroposteriorly extending nodes on the lateral surface of the jugal'
+		 [24] 'Jugal and antorbital fenestra'
+		 [25] 'Length of antorbital fenestra'
+		 [26] 'Broad median depression on dorsal surface of frontals near border with nasals'
+		 [27] 'Posterolateral margins of nares'
+		 [28] 'Pre orbital depression'
+		 [29] 'Depression and flange in postorbital bar'
+		 [30] 'Jugal and orbit'
+		 [31] 'Medial margins of orbits'
+		 [32] 'Deep sculpture of the skull roof'
+		 [33] 'Sutural articulation of squamosal and postorbital in dorsal view'
+		 [34] 'Most anterior extent of infratemporalfenestra'
+		 [35] 'Pre infratemporal shelf'
+		 [36] 'Lateral ridge from po sq bar'
+		 [37] 'Lateral ridge of postorbital squamosal bar continues as ridge onto posterior process of squamosal'
+		 [38] 'Length of posterior process of squamosal in relation to postorbital length'
+		 [39] 'Posterior process of squamosal'
+		 [40] 'Terminal knob'
+		 [41] 'Dorsal edge of squamosal'
+		 [42] 'Dorsal edge of squamosal b'
+		 [43] 'Length of free postorbital squamosal bar'
+		 [44] 'Medial extent of squamosal'
+		 [45] 'Cross section of posterior half of postorbito squamosal bar'
+		 [46] 'Ventral margin of squamosal'
+		 [47] 'Subsidiary opisthotic process of squamosal'
+		 [48] 'Extent of squamosal fossa'
+		 [49] 'Orientation of supratemporal fenestrae'
+		 [50] 'Mediolateral expansion of posterior process of squamosal'
+		 [51] 'Face of medial rim of squamosal along supratemporal fenestra and posterior process'
+		 [52] 'Extent of squaring of the squamosal rim'
+		 [53] 'Ridge around anterior and or medial edge of supratemporal fenestra'
+		 [54] 'Width of squamosal'
+		 [55] 'Outline of medial rim of squamosal along supratemporal fenestra and posterior process'
+		 [56] 'Path of parietal/squamosal bars'
+		 [57] 'Visibility of supratemporal fenestrae in dorsal view'
+		 [58] 'Parietal/squamosal bars'
+		 [59] 'Dorsal edge of parietAL/squamosal bar'
+		 [60] 'Parietal ledge ratio of width to length'
+		 [61] 'Medial half of parieto squamosal bar lateral wall of supraoccipital shelf'
+		 [62] 'Lobate extension on the vertical rim of the squamosal processes of the parietal'
+		 [63] 'Depth and shape of supraoccipital shelf'
+		 [64] 'Top of parieto supraoccipital complex formed by squamosal processes of parietals'
+		 [65] 'Parietal prongs'
+		 [66] 'Posttemporal fenestra'
+		 [67] 'Lateral border of posttemporal fenestra'
+		 [68] 'Shape of quadratojugal'
+		 [69] 'Anterior border of parabasisphenoid contribution to basitubera'
+		 [70] 'Morphology of basioccipital between tubera'
+		 [71] 'Lateral extent of basitubera compared to basipterygoid processes in ventral view'
+		 [72] 'Length of interpterygoid vacuity'
+		 [73] 'Suborbital foramen'
+		 [74] 'Anterior extent of palatine'
+		 [75] 'Palatal ridge'
+		 [76] 'Medial edge of palatine below posterior part of palatal vault'
+		 [77] 'Dorsal surface of surangular'
+		 [78] 'Shape of retroarticular process in lateral view'
+		 [79] 'Snout dorsal surface cross sectional shape'
+		 [80] 'Anterior separation of the septomaxillae'
+		 [81] 'Shape of antorbital fenestra'
+		 [82] 'Lateral surface of maxilla and jugal ventral/posteroventral to AOF'
+		 [83] 'Lateral surface of main body of jugal'
+		 [84] 'Anterior extension of the sub temporal shelf'
+		 [85] 'Dorsal extension of sub temporal shelf'
+		 [86] 'Jugal foramen in anteroventral corner of the infra-temporal fenestra'
+		 [87] 'Relative robusticity of the jugal'
+		 [88] 'Proximal section of postorbital descending process where posterior border of orbit meets skull roof'
+		 [89] 'Infra-temporal fenestra diagonal aspect ratio'
+		 [90] 'Additional ridge on lateral surface of posterior process of squamosal below ridge or rugosity from po sq bar'
+		 [91] 'Posterior border of quadrate in lateral view'
+		 [92] 'Internarial septum'
+		 [93] 'Triangular projection ventral to articular condyle'
+		 [94] 'Relative length of mandibular symphysis'
+		 [95] 'Degree heterodonty'
+	;
+	STATELABELS
+		1
+		'In anteroposterior plane of posterior rostrum'
+		'Downturned'
+		,
+		2
+		'Absent'
+		'Present, broad and rounded'
+		'Present, narrow slit'
+		,
+		3
+		'Continuously visible in lateral view'
+		'Inconsistently visible, or entirely hidden in lateral view'
+		,
+		4
+		'Absent'
+		'Present'
+		,
+		5
+		'Horizontal or subconvex'
+		'Strongly ventrally convex'
+		,
+		6
+		'Absent'
+		'Present, rounded'
+		'Present, sharp'
+		,
+		7
+		'Absent'
+		'Narial crest a relatively abrupt rise to the nares interrupting a straight profile from rostrum to orbit'
+		'A straight steep slope from the nares to the premaxilla'
+		'Extends horizontally level from the nares for the majority of the crest with a terminal anterior slope'
+		'Extends horizontally level from nares for less than half the rostral length then descends and becomes tubular'
+		,
+		8
+		'Less than or equal to 1.20'
+		'1.21 to 1.59'
+		'Greater than or equal to 1.60'
+		,
+		9
+		'Slopes anteroventrally'
+		'Dorsally convex lobe'
+		,
+		10
+		'Straight/subconcave'
+		'Convex'
+		,
+		11
+		'Less than or equal to 1.50'
+		'1.51 to 1.99'
+		'Greater than or equal to 2.00'
+		,
+		12
+		'Dorsally or anterodorsally'
+		'Anterior section opens forward, posterior upward'
+		,
+		13
+		'Directed laterally'
+		'Directed dorsally'
+		,
+		14
+		'Terminal'
+		'Non-terminal, posterior rim of nares in front of anterior rim of antorbital fenestra'
+		'Non-terminal, posterior rim of nares behind anterior rim of antorbital fenestra'
+		,
+		15
+		'Anterior to anterior tip of nasal'
+		'Posterior to or at level with anterior tip of nasal'
+		,
+		16
+		'Absent'
+		'Present'
+		,
+		17
+		'At or below level of skull roof'
+		'Above level of skull roof'
+		,
+		18
+		'Present'
+		'Absent, narial opening closed anteriorly'
+		,
+		19
+		'Flat from orbit to nares'
+		'Posterior border of nares and anterior border of orbits dip down into a concavity'
+		,
+		20
+		'Flat and broad'
+		'Dorsally curved in cross section'
+		,
+		21
+		'Absent'
+		'Present'
+		,
+		22
+		'Present lacrimal jugal and maxillary fossae touching'
+		'Present but reduced lacrimal jugal and maxillary fossae in contact dorsally but not ventrally'
+		'Present but reduced lacrimal jugal and maxillary fossae not touching'
+		'Absent'
+		,
+		23
+		'Absent'
+		'Present'
+		,
+		24
+		'Excluded from antorbital fenestra'
+		'Contributing to antorbital fenestra'
+		,
+		25
+		'Less than 1.9 times naris length'
+		'Greater than or equal to 1.9 times naris length'
+		,
+		26
+		'Absent'
+		'Present'
+		,
+		27
+		'Relatively low without ornamentation or derived features'
+		'Swollen and rugose creating a distinct narial rim'
+		'Distinctly raised in lateral view forming a sharp triangular peak well above the surrounding skull roof'
+		,
+		28
+		'Absent'
+		'Present'
+		,
+		29
+		'Absent'
+		'Small elongate depression posterior rim of postorbital may create a small flange behind orbit'
+		'Strong elongate depression posterior rim of postorbital bar forms a distinct flange merging with po/sq bar'
+		,
+		30
+		'Excluded from orbit'
+		'Contributing to orbit'
+		,
+		31
+		'Flat with skull roof'
+		'Raised into orbital ridges'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Slot like, posterior process of po fits into slot in sq'
+		'Diagonal, sq forms anteromedial portion of po/sq bar and po forms posterolateral portion'
+		'Approximately transverse'
+		,
+		34
+		'Beneath the posterior corner of the orbit'
+		'Extended anteriorly, reaches below the middle or anterior half of the orbit'
+		'Anteroventral corner distinctly in front of anterior rim of orbit'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Absent'
+		'Continues posteriorly onto squamosal as a horizontal ridge forming a shelf overhanging the infratemporal fenestra'
+		'Bifurcates into two small ridges on lateral surface of squamosal'
+		,
+		37
+		'Absent'
+		'Present'
+		,
+		38
+		'Absent or extremely short, posterior edge of squamosal does not extend or barely extends posteriorly beyond the distal end of the paroccipital process of the opisthotic'
+		'Less than 3.60'
+		'3.60 to 4.99'
+		'Greater than, or equal to 5.00'
+		,
+		39
+		'Greatly dorsoventrally expanded'
+		'Moderately dorsoventrally expanded'
+		'Terminal knob'
+		,
+		40
+		'Terminal knob raised distally above po/sq bar'
+		'Terminal knob in plane of po/sq bar'
+		,
+		41
+		'Straight and narrow, no medial expansion'
+		'Expanded medially'
+		,
+		42
+		'Mediolaterally flat'
+		'Ventral depression between medial and lateral edges of the dorsal edge of the squamosal'
+		,
+		43
+		'Less than 2.90'
+		'2.90 to 3.39'
+		'Greater than or equal to 3.40'
+		,
+		44
+		'To mid length of parieto squamosal bar'
+		'Enters base of supraoccipital shelf wedged between parietal and supraoccipital'
+		,
+		45
+		'Low, dorsoventrally compressed'
+		'High, triangular'
+		,
+		46
+		'Gently sloping anteroventrally from posterior edge of posterior process to opisthotic process'
+		'Distinct horizontal ventral edge between posterior edge of posterior process and opisthotic process'
+		,
+		47
+		'Absent'
+		'Present'
+		,
+		48
+		'Extends to posterior edge of sq'
+		'Does not reach posterior edge of sq'
+		,
+		49
+		'Dorsally expressed parietal squamosal bar at level with skull roof'
+		'Partially depressed parietal process of squamosal below level of skull roof'
+		'Fully depressed posterior process of parietal and entire parietal squamosal bar below level of skull roof'
+		,
+		50
+		'Tip of squamosal tapers strongly posteriorly'
+		'Tip of squamosal tapers with a smooth lateral deflection distally'
+		'State 2 - MB.R.2747?'
+		,
+		51
+		'Entire rim rounded or sharp'
+		'Rim entirely or in part squared'
+		,
+		52
+		'Squared in posterior section'
+		'Entire rim squared'
+		,
+		53
+		'Absent'
+		'Present, medial only'
+		'Present, anterior and medial'
+		,
+		54
+		'Less than or equal to 3.80'
+		'Greater than 3.80'
+		,
+		55
+		'Sinuous'
+		'Angular'
+		'Straight'
+		'Curved'
+		,
+		56
+		'Trending straight posteriorly to attachment on squamosals'
+		'Curved medially convex before attaching on squamosals'
+		,
+		57
+		'Visible, STF completely open dorsally'
+		'Mostly visible, posterolateral portions of STF covered in dorsal view'
+		'Mostly covered dorsally, at most only anteromedial corners or medial slit of STF visible in dorsal view'
+		'Lamella merges with parietal, STF obliterated in dorsal view'
+		,
+		58
+		'Slender, narrower than the width of po/sq bars'
+		'Wide, approximately the same mediolateral width as po/sq bars'
+		,
+		59
+		'Horizontal'
+		'Gently sloping'
+		'Steeply sloping'
+		'Either entirely, or in parts vertical'
+		,
+		60
+		'Less than 1.30'
+		'1.30 to 2.10'
+		'Greater than 2.10'
+		,
+		61
+		'High and thin'
+		'Low, continuously thin'
+		'Low, basally thickened'
+		,
+		62
+		'Absent'
+		'Present'
+		,
+		63
+		'Shallow, longitudinal axis of shelf vertical'
+		'Deep, axis of shelf straight and horizontal'
+		'Deep axis of shelf with steep slope anteriorly and terminal horizontal deflection of shelf'
+		,
+		64
+		'Angular, inverted V shape'
+		'Rounded, inverted U shape'
+		'Rectangular'
+		,
+		65
+		'Absent'
+		'Present'
+		,
+		66
+		'Moderately wide and tall'
+		'Moderately wide and compressed'
+		'Extremely reduced in width and height to a slit'
+		,
+		67
+		'Formed by contact of the parietal process of the squamosal and the paroccipital process of the opisthotic'
+		'Formed laterally only by the paroccipital process'
+		'Formed laterally and slightly ventrally by process of squamosal that extends onto paroccipital process'
+		,
+		68
+		'L shaped, anterior suture trends anteroventrally'
+		'Subtriangular'
+		'L shaped, anterior suture trends anterodorsally'
+		,
+		69
+		'Basitubera separated widely'
+		'Basitubera separated narrowly with a ridge along their anterior border'
+		'Basitubera connected tubera form a sharp ridge along their anterior border'
+		,
+		70
+		'Concave depression'
+		'Anteroposteriorly oriented ridge on the midline'
+		,
+		71
+		'Lateral extent of basitubera even with lateral extent of basipterygoid processes'
+		'Lateral extent of basitubera more laterally expanded compared to basipterygoid processes'
+		,
+		72
+		'Long, more than 50 per cent of length of palatal vault'
+		'Tiny oval indentation at posterior rim of conjoined pterygoids'
+		,
+		73
+		'Elongated, wide'
+		'Elongated, slit-like'
+		'Reduced to a single oval fenestra or subdivided into two or more small openings'
+		,
+		74
+		'Tip located behind the posterior rim of choana'
+		'Tip extends forward beyond the posterior rim of choana'
+		'Tip extends forward beyond the anterior rim of choana'
+		,
+		75
+		'Low, rounded longitudinal elevation'
+		'Prominent, sharp ventrally to ventromedially directed crest'
+		,
+		76
+		'Sloping or vertical'
+		'Horizontal flange may restrict the opening of the palatal vault significantly'
+		,
+		77
+		'Gently convex'
+		'Gently concave rising to apex just posterior to dentary contact'
+		,
+		78
+		'Distally sharply pointed or curved into a posterodorsally oriented hook'
+		'Distally rounded or blunt'
+		,
+		79
+		'Rounded, dorsal surface of snout is curved from side to side'
+		'Triangular, sides of the snout are straight and slope up to the midline'
+		,
+		80
+		'Septomaxillae separate posterior to level with the anterior narial border'
+		'Septomaxillae separate distinctly anterior of the anterior narial border'
+		,
+		81
+		'Ellipsoid'
+		'Approximately a geometric ?stadium? shape'
+		'Approximately triangular'
+		'Approximately triangular - point posteriormost'
+		,
+		82
+		'Flat/laterally convex'
+		'Concavity running along the length of the element'
+		,
+		83
+		'Generally flat, element forms one dorsolaterally facing plane between its ventral and dorsal extremities'
+		'Anteroposteriorly directed ridge running from below AOF towards ventral border of subTF splits jugal into a dorsolaterally facing facet and a laterally facing facet'
+		'Anteroposterior ridge running along the centre of the jugal posterior process'
+		'Anteroposterior ridge running toward ventral border of jugal posterior process'
+		,
+		84
+		'Anteriormost border of shelf is posterior to the posteriormost border of the antorbital fenestra'
+		'Anteriormost border of shelf terminates anterior of the posteriormost corner of the antorbital fenestra'
+		,
+		85
+		'Merges dorsally into lateral surface of jugal'
+		'Continues dorsally contributing to the posterior edge of the postorbital descending process'
+		,
+		86
+		'Visible only in medial view, not visible in lateral view'
+		'Visible in lateral view'
+		,
+		87
+		'Less than 7.30 (Robust)'
+		'7.30-8.40 (Moderate)'
+		'Greater than 8.40 (Slender)'
+		,
+		88
+		'Flares anteroposteriorly creating a wide triangular connection'
+		'Posterior border of orbit remains thin until it reaches skull roof'
+		,
+		89
+		'Less than or equal to 2.30'
+		'Greater than 2.30'
+		,
+		90
+		'Absent'
+		'Present'
+		,
+		91
+		'Straight anterodorsal line for majority of element'
+		'Ventral section of border is anteroposteriorly concave'
+		,
+		92
+		'Restricted to between, or extends slightly anterior of the external nares'
+		'Extends anterior of the nares by approximately the narial length'
+		,
+		93
+		'Anterior border is straight, trending posteroventrally'
+		'Ventral half of anterior border possesses an anteriorly projecting process'
+		,
+		94
+		'Less than 1.00 (Short)'
+		'Greater than or equal to 1.00 (Long)'
+		,
+		95
+		'Homodont'
+		'Bipartite upper dentition'
+		'Tripartite upper dentition'
+		
+	;
+	MATRIX
+	'Angistorhinus grandis'		                 11001010??1112?1101101?1000???10?10?????0??0????0???2??10100??0?01?11??????0??0120?????????1?01
+	'Angistorhinus talainti'		                ?100101000?0121100110101000121100100021?01(1,2)0110?0111211101000?1?00012011?201??01200??0010001??1
+	'Coburgosuchus goeckeli'		                ????1?????????????01???????00?1021?0031?1021?100210?1030201000100021??????????????????00010????
+	'Ebrachosuchus neukami'		                 1??0000200201111010?020?010121100101?0??0020??0?000?20100001001?0?0210101100??00013??0201??0??1
+	'Leptosuchus crosbiensis'		               1100(0,1)(0,1)4?1?(1,2)012?001(0,1)10301100(0,1)1110010002(0,1)?(0,1)(0,1)(1,2)(0,1)?101(1,2)00?(1,2)1?0101?(0,2)01?00?12??11?0010(0,1)?10(0,3)??0(0,1,2)(0,1)0(0,1)001?2
+	'Leptosuchus studeri'		                   11001142111012000101?2011000111001000?1?002?110011??2120101????00001??????????11100??0000?00???
+	'Machaeroprosopus andersoni'		            111100421?1012?001100??10001?110????????????????20????????2120111??121?12201??1120????????00???
+	'Machaeroprosopus buceros'		              1100(0,1)0421?1012?0(0,1)1100201000010(0,1)02(1,2)11(0,1)(1,2)2010(0,1,2)1011120(0,1)110?02022201(1,2)?02121?12211??11(1,2)000(0,1)0100100??1
+	'Machaeroprosopus jablonskiae'		          ????????????1?????10?????000??102???0???100????020??00??2?22?0111???21?????????????????0???????
+	'Machaeroprosopus lottorum'		             110000111010121111100201000(0,1)1010(0,2)211(0,1)3201001111(0,1)201(0,1)00002032201(1,2)102120112211??(0,1)120001?001100???
+	'Machaeroprosopus mccauleyi'		            1111102(1,2)1?(1,2)012?001(0,1)0030110001010211(0,1)(0,1)(2,3)(1,2)110(0,1,2)1?(0,1)(0,1)120(0,1)010?020222011(0,1)02120?1?2011??1(1,2)0(0,3)(0,1)1(0,1)(1,2)00(0,1)00102
+	'Machaeroprosopus pristinus'		            (0,1)10000(0,1)(0,1)1?2012?(0,1)(0,1)1(0,1)00(1,2,3)01(0,1)00(0,1)(0,1)010211(0,1)(0,1)12(0,1)10(0,1,2)1?1(0,1)120(0,1)(0,1)1(0,1)?0202(1,2)20(0,1)11(0,1)(0,2)12(0,1)?12211100120001(0,1)101100101
+	'Mystriosuchus planirostris'		            1?00001(0,1)0021121(0,1)00110201(0,1)00(0,1)01110110?0??10011?(0,1)02?1110001030102102(0,2)1201122101001200101210?10111
+	'Mystriosuchus westphali'		               1200(0,1)202002(0,1)121(0,1)00110(2,3)01(0,1)0010011211(0,1)?0??100?1?(0,1)02?1110001030(0,1)1(0,2)10201?0?1221???01200101210?10??1
+	'Nicrosaurus kapffi'		                    11(0,1)01032(0,1)110121001011(2,3)0(0,1)1000011001(0,1)0021?102(0,1)010020??003020210020012110011210??11100010001100??2
+	'Nicrosaurus meyeri'		                    1100000(1,2)0(0,1)10121(0,1)01011(2,3)0(0,1)1000(0,1)11001(0,1)0031?100?0100200?003020???0(1,2)0?0212011(1,2)2(0,1)01001(0,1)0001000(0,1)?00??1
+	'Paleorhinus sawini'		                    110010000?0011?1010?030?10000110?001?0??0120??0?0?1121?10001001?02?1??????????0?000??001?000???
+	'Parasuchus angustifrons'		               0100000(0,1)010011110(0,1)0?0(0,1)1001(0,1)(0,1)(0,2)110000(1,2)?0??01(1,2)(0,1)??0?0?0?(1,2)110000100(0,1)?0001001(0,1)0100??00011??00(0,1)0?10???
+	'Parasuchus bransoni'		                   (0,1)10000000?(0,1)011?1001?0(1,2)1?(0,1)1(0,2)(0,1)(0,1,2)110(0,1)001?0??01(1,2)0??0?01(0,1)121?00000001?0(0,1)01100?0100000000(0,1)??00(0,1)0000???
+	'Parasuchus hislopi'		                    01?0000000001111000?0110011(0,1)111000(0,1)2?0??012?1?0?01??211000000?1??00110???????000011??0010010??1
+	'Phytosaurus doughtyi'		                  ????????????12??0?10?(0,1,2)???0001?100101120?1021?1?1(1,2)?0?21?0101?001??001?????????????????000010????
+	'Pravusuchus hortus'		                    110(0,1)00221?1012?001011?011000001011(0,1)(0,1)01(0,1,2)?10(1,2)??1(0,1)(0,1)100?21?01010001??00120???2??????(1,2)00??0100(0,1)00???
+	'Protome batalaria'		                     1100?01?0??01??0?1???????00?1?101????20?100??100?00?10?01011201?10??21????????01?????????1?0?1?
+	'Redondasaurus bermani'		                 1101002?1?0012??0?000?01?0011?10?11?131?1001??10201121?030322?011?012?????1????1203111200000??2
+	'Redondasaurus gregorii'		                110(0,1)002?1??012??0??00301000(0,1)(1,2)?102111(0,1)31?1001?11(0,1)2011(0,2)0?0303220(0,1)1110121????1???0120(0,3)(0,1)11201000?02
+	'Rutiodon carolinensis'		                 110000101?2012?(0,1)0(0,1)11(0,1)10100(0,1)1111(0,1)1100020?000??1??(0,1)0??21?000(0,1)00?0?00?120??2210?101(0,2)00??011?0?1??1
+	'Smilosuchus adamanensis'		               1100100?1??012?001100(2,3)0?1000(0,1)?101100030?102??000100?21?01011001?0021(1,2)0??1?001001100??000?000?0?
+	'Smilosuchus gregorii'		                  1111102(1,2)1?1012?0011(0,1)03011000(0,1)?(0,1)01100030?1021?(0,1)1(0,1)200?21?0101100(0,1)?00212??112001(0,1)?1(1,2)0(0,3)??000000000?
+	'Smilosuchus lithodendrorum'		            111(0,1)102?1?1012?001010?01100(0,1)??1021(0,1)0?31?10(0,1)??10(0,1)??0?21?000?0????0?012???????10?110(0,3)?1000010010?
+	'Wannia scurriensis'		                    ????0?0?0??011?100??01010?0????0??0000????????0?0??????0?00?001?000?00?00100??00002????????0???
+	'MB.R. 2747'		                            110000??????12??0?00??01?00???102?1?????10???????2????1?103?1?0?????20????????0??0010??????????
+	'TMM 31100 1332'		                        11000010??2112?11011010?00011110?1000?0?012??1??001121?10100?00??10121????00??0?200??0?1?0?1???
+	'Mystriosuchus steinbergeri'		            ?2000?1?0??112?100010101?00?0?1?2110?0???0????002??????0?0????????2?????1?????01200???2000?0?0?
+	'NMMNHS p31094'		                         ????1??21??012?001000?01000??0102211031?100??010200?00?03?32??011??1?????211???1200011201000???
+	'NMMNHS p4256'		                          1111002?1?0012?00110?30100001010?101?31?1001?00120??10?020??2????0?1????????10?1203011200000?0?
+	'PEFO 34852'		                            111010211?2012?001010?0?1001??102100021?101??101????21??1010??1?00?120????????11(1,2)00??0000100???
+	'USNM v 17098'		                          1111104???1012?001?0020?10001?10?1?0020?100??010(1,2)???21?????????????120??221110?1?00??0?0?0?01??
+	'Euparkeria capensis'		                   000000?00?0?00??0?0?000110000100000002??0020??0?00???1?00001000?00000?0000000???30????010?00??0
+	'Machaeroprosopus zunii'		                ????????????????0?00??0??0000?102110010?10???011?00?2????????????????0???????????????0?0?0?????
+	'NMMNHS p4781'		                          ??????????????????????0????1?????100??0?00??????0?0????1010???????????????????????0??001?00????
+	'Paleorhinus parvus'		                    1??0000?0??011?1????0????????????????????????????????????????????????????????000???????????0??1
+	'USNM v 21376'		                          1100001?1??112?1101101???001??10??????0????????00???????010????????111????????01?0????????01???
+	'Diandongosuchus fuyuanensis'		           0??000010?0001?0010?000000010110?00??0??012?01???01??1010000?0??0???????????01??011??001??1????
+	'Mystriosuchus alleroq'		                 1200000???????????????01????(0,1)??????????????????????????????????????2????????110??00??1?1??????2
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=8 TEXT='ORDERED';
+	TEXT CHARACTER=11 TEXT='ORDERED';
+	TEXT CHARACTER=22 TEXT='ORDERED';
+	TEXT CHARACTER=25 TEXT='ORDERED';
+	TEXT CHARACTER=38 TEXT='ORDERED';
+	TEXT CHARACTER=49 TEXT='ORDERED';
+	TEXT CHARACTER=50 TEXT='In Jones and Butler (2018) the state 2 was not explained in the character list. However, it was coded for the specimen MB.R.2747 (non-Mystriosuchus mystriosuchini)^n^nWe encourage to see Jones and Butler (2018) and Butler et al. (2019) to proper understand this issue';
+	TEXT CHARACTER=54 TEXT='ORDERED';
+	TEXT CHARACTER=59 TEXT='ORDERED';
+	TEXT CHARACTER=60 TEXT='ORDERED';
+	TEXT CHARACTER=87 TEXT='ORDERED';
+	TEXT CHARACTER=89 TEXT='ORDERED';
+	TEXT CHARACTER=95 TEXT='Adapted from Hungerbühler (2002) character 5^n^n^n^nSee main article "Material and methods"';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 95;
+      ENDBLOCK;
+      

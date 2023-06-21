@@ -1,0 +1,239 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 08.38.41 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=26;
+    TAXLABELS
+    		'Kayentachelys'
+		'Bashuchelys youngi'
+		'Bzigongensis'
+		'Chuannanchelys dashanpuensis'
+		'Protoxinjiangchelys salis'
+		'Baenoides cf.'
+		'Xinjiangchelys latimarginalis'
+		'Tienfuchelys chungkingensis'
+		'Tienfuchelys tzuyangensis'
+		'Xinjiangchelys junggarensis_merged'
+		'Tianshanensis'
+		'Annemys levensis'
+		'Annemys latiens'
+		'Pzigongensis'
+		'Annemys sp'
+		'Xinjiangchelys wusu'
+		'Brodiechelys brodiei'
+		'Brodiechelys royoi'
+		'Xinjiangchelys radiplicatoides'
+		'Xinjiangchelys chowi'
+		'Xinjiangchelys qiguensis'
+		'Phunoichelys'
+		'Kalasinemys'
+		'Shartegemys'
+		'Yanduchelys cf'
+		'Larachelus morla'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Anterior neurals'
+		 [2] 'Midline contact of costals 7 and/or 8'
+		 [3] 'vertebral 1'
+		 [4] 'Width/length ratio of vertebral 3'
+		 [5] 'Vertebrals 2 and 3 narrower than vertebral 1'
+		 [6] 'Position of sulcus between vertebrals 3 and 4'
+		 [7] 'Sulcus between vertebrals 3 and 4'
+		 [8] 'Vertebral 4 wider than vertebrals 1-3'
+		 [9] 'Vertebral 5 narrower than vertebral 1'
+		 [10] 'Vertebral 5 overlaps peripheral 10'
+		 [11] 'Plastron/carapace connection'
+		 [12] 'Epiplastra with long midline contact'
+		 [13] 'Posterolateral process of epiplastron'
+		 [14] 'Entoplastron'
+		 [15] 'Mesoplastra'
+		 [16] 'Overlapping of entoplastron by intergulars'
+		 [17] 'Position of middle part of the humeropectoral sulcus'
+		 [18] 'Pectoral significantly longer than abdominal (more than two times)'
+		 [19] 'Anals overlap on or touch hypoplastra'
+		 [20] 'Omega-shaped projection of anals'
+		 [21] 'Number of inframarginals'
+		 [22] 'Gular and intergular projections'
+		 [23] 'Shape of entoplastron'
+		 [24] 'Midline sulcus'
+		 [25] 'Number of neurals'
+		 [26] 'Number of suprapygals'
+		 [27] 'Vertebral 2 is the widest'
+		 [28] 'Marginals 12 extend on to suprapygal'
+		 [29] 'Cervical vertebrae short'
+		 [30] 'Intertrabecular fossa'
+		 [31] 'Vertebral 1 extends onto peripherals 2'
+	;
+	STATELABELS
+		1
+		'6>4'
+		'4<6'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'wider than nuchal or as wide as nuchal'
+		'narrower than nuchal'
+		,
+		4
+		'more than 1.7'
+		'less than 1.7'
+		,
+		5
+		'no'
+		'yes'
+		,
+		6
+		'on neural 6'
+		'on neural 5'
+		,
+		7
+		'V-shaped'
+		'straight'
+		,
+		8
+		'no'
+		'state not defined by author'
+		,
+		9
+		'yes'
+		'no'
+		,
+		10
+		'yes'
+		'no'
+		,
+		11
+		'sutural'
+		'ligamentous'
+		,
+		12
+		'no'
+		'yes'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'With strong projection completely separating epiplastra'
+		'With strong projection which partially separates epiplastra'
+		'without strong anterior projection'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'strong'
+		'weak or absent'
+		,
+		17
+		'anterior to the base of the lobe'
+		'about the base of the lobe'
+		,
+		18
+		'yes'
+		'no'
+		,
+		19
+		'no'
+		'yes'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'four pairs'
+		'three pairs'
+		,
+		22
+		'present'
+		'absent'
+		,
+		23
+		'leaf-shaped with serrated posterolateral margins'
+		'diamond-shaped'
+		'oval'
+		,
+		24
+		'straight'
+		'sinuous'
+		,
+		25
+		'more than 8'
+		'8'
+		'7'
+		,
+		26
+		'2'
+		'3'
+		'state not defined by author'
+		,
+		27
+		'no'
+		'yes'
+		,
+		28
+		'no'
+		'yes'
+		,
+		29
+		'no'
+		'state not defined by author'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'state not defined by author'
+		
+	;
+	MATRIX
+	'Kayentachelys'		                               0000001001000000010001000?0??00
+	'Bashuchelys youngi'		                          0?010??1??(0,1)0010000110000??0????
+	'Bzigongensis'		                                (0,1)0?100(0,1)110000100001100001000??0
+	'Chuannanchelys dashanpuensis'		                000000100?011201001101101?0???0
+	'Protoxinjiangchelys salis'		                   1?0000100?01121100110110??0???0
+	'Baenoides cf.'		                               (0,1)0(0,1)10000100112111111011(0,1)??0???0
+	'Xinjiangchelys latimarginalis'		               (0,1)001011010011211111101211001??0
+	'Tienfuchelys chungkingensis'		                 ??110?101?01121111001110??0???0
+	'Tienfuchelys tzuyangensis'		                   00110(0,1)(0,1)01?01121111111111100???0
+	'Xinjiangchelys junggarensis_merged'		          0(0,1)010(0,1)(0,1)0(0,1)11112111111012(0,1)10011?0
+	'Tianshanensis'		                               11000110?11112111111012110010?0
+	'Annemys levensis'		                            1101100001111211111101211101?10
+	'Annemys latiens'		                             010110001111121111110?21(1,2)(0,1)01?10
+	'Pzigongensis'		                                10110(0,1)101001121111(0,1)(0,1)11201101??0
+	'Annemys sp'		                                  (0,1)(0,1)011(0,1)(0,1)00011121111(0,1)(0,1)01(1,2)(0,1)(1,2)(0,1)011(0,1)(0,0)
+	'Xinjiangchelys wusu'		                         (0,1)(0,1)01(0,1)11011111211111101201001110
+	'Brodiechelys brodiei'		                        110101100101121(0,1)011101(1,2)(0,1)1010??0
+	'Brodiechelys royoi'		                          110101000?011210011101111?10??0
+	'Xinjiangchelys radiplicatoides'		              00(0,1)111101?111211111101111001?00
+	'Xinjiangchelys chowi'		                        (0,1)10011100?1???1?????????10000?0
+	'Xinjiangchelys qiguensis'		                    ?000111000111211110001111?000?0
+	'Phunoichelys'		                                ?0010110??01121?0010?11?1?0???0
+	'Kalasinemys'		                                 0?110?????1?12111111??2???0??10
+	'Shartegemys'		                                 11000110011112111100?1201?00??0
+	'Yanduchelys cf'		                              ?0?10000??0???1?11110??0??0???0
+	'Larachelus morla'		                            ?1?1?000?11112100110011?22?1???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 31;
+      ENDBLOCK;
+      

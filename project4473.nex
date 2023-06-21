@@ -1,0 +1,562 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 07.43.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=37;
+    TAXLABELS
+    		'Trachinocephalus myops'
+		'Apateodus spp.'
+		'Apateopholis spp.'
+		'Apuliadercetis spp.'
+		'Aspidopleurus spp.'
+		'Atolvorator longipectoralis'
+		'Benthesikyme spp.'
+		'Brazilodercetis longirostris'
+		'Candelarhynchus padillai'
+		'Caudadercetis bannikovi'
+		'Cimolichthys spp.'
+		'Cyranichthys ornatissimus'
+		'Dercetis spp.'
+		'Dercetoides venator'
+		'Enchodus spp.'
+		'Eurypholis spp.'
+		'Halec spp.'
+		'Hastichthys gracilis'
+		'Hastichthys totonacus'
+		'Hemisaurida hakelensis'
+		'Ichthyotringa spp.'
+		'Nardodercetis vanderwallei'
+		'Nardorex zorzini'
+		'Ophidercetis italiensis'
+		'Pelargorhynchus dercetiformis'
+		'Palaeolycus dreginensis'
+		'Parenchodus longipterygius'
+		'Rharbichthys ferox'
+		'Rhynchodercetis spp.'
+		'Saurorhamphus judeaensis'
+		'Serrilepis spp.'
+		'Phylactocephalus microlepis'
+		'Unicachichthys multidentata'
+		'Vegrandichthys coitecus'
+		'Veridagon avendanoi'
+		'Yarbrudichthys striatus'
+		'Spinascutichthys pankowskiae gen. et sp. nov.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=87;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Body length'
+		 [2] 'Head heigh'
+		 [3] 'Snout length'
+		 [4] 'Dermal pattern on skull roof'
+		 [5] 'Vomerine teeth'
+		 [6] 'Number of teeth on dermopalatine'
+		 [7] 'Dermopalatine length'
+		 [8] 'Antorbital'
+		 [9] 'Nasal'
+		 [10] 'Anterior extremity of mesethmoid'
+		 [11] 'Posterior extremity of mesethmoid'
+		 [12] 'Autosphenotic spine'
+		 [13] 'Suture between frontals'
+		 [14] 'Posterior border of frontal'
+		 [15] 'Shape of the post-orbital border'
+		 [16] 'Parietal length'
+		 [17] 'Supraorbital sensory canal in the skull roof'
+		 [18] 'Supraoccipital bone'
+		 [19] 'Supraoccipital crest'
+		 [20] 'Supraoccipital with two well-delimited regions'
+		 [21] 'Extension of pterotic'
+		 [22] 'Dilatator fossa'
+		 [23] 'Exposition of the post-temporal fossa'
+		 [24] 'Orbitosphenoid'
+		 [25] 'Basisphenoid'
+		 [26] 'Supraorbital'
+		 [27] 'Lachrymal shape'
+		 [28] 'Position of the mandibular suspensorium'
+		 [29] 'Ectopterygoid'
+		 [30] 'Endopterygoid'
+		 [31] 'Placement of articular facet for the hyomandibula'
+		 [32] 'Number of articular facet for the hyomandibula'
+		 [33] 'Premaxilla'
+		 [34] 'Posterior extension of the premaxilla'
+		 [35] 'Dermal pattern on premaxilla'
+		 [36] 'Fenestra in the premaxilla'
+		 [37] 'Ascending process of the premaxilla'
+		 [38] 'Maxilla'
+		 [39] 'Placement of the maxilla'
+		 [40] 'Teeth on upper jaw'
+		 [41] 'Supramaxilla'
+		 [42] 'Mandible length'
+		 [43] 'Teeth on mandible'
+		 [44] 'Teeth size on upper jaw'
+		 [45] 'Teeth size on mandible'
+		 [46] 'Rows of teeth on upper jaw'
+		 [47] 'Rows of teeth on mandible'
+		 [48] 'Anteroventral prongs on dentary'
+		 [49] 'Mandibular sensory canal'
+		 [50] 'Mandibular dermal pattern'
+		 [51] 'Flange on anguloarticular'
+		 [52] 'Quadrate-mandibular articulation'
+		 [53] 'Articular facet for the quadrate'
+		 [54] 'Retroarticular process'
+		 [55] 'Ornamentation in the infraorbital bones'
+		 [56] 'Preopercle'
+		 [57] 'Preopercular dermal pattern'
+		 [58] 'Posteroventral spine in the preopercle'
+		 [59] 'Dimension of the opercle'
+		 [60] 'Opercle crest'
+		 [61] 'Spine on posterior border of the opercle'
+		 [62] 'Opercular and subopercular dermal pattern'
+		 [63] 'Interopercle'
+		 [64] 'Mesocoracoid'
+		 [65] 'Scapula and coracoid'
+		 [66] 'Supraneurals'
+		 [67] 'Total number of vertebrae'
+		 [68] 'Number of caudal vertebrae'
+		 [69] 'Ribs'
+		 [70] 'Transverse processes'
+		 [71] 'Neural spines'
+		 [72] 'Neural spines bifid in the abdominal region'
+		 [73] 'Distribution of epipleurals'
+		 [74] 'Distribution of epineurals'
+		 [75] 'Position of the pectoral fin'
+		 [76] 'Orientation of the pectoral fin base'
+		 [77] 'Origin of the pelvic fin'
+		 [78] 'Dorsal fin length'
+		 [79] 'Shape of the first proximal pterygiophore of the dorsal fin'
+		 [80] 'Anal fin length'
+		 [81] 'Anal fin edge'
+		 [82] 'Fusion of hypurals'
+		 [83] 'Contact between hypurals 2-3'
+		 [84] 'Body scales'
+		 [85] 'Flank scutes'
+		 [86] 'Number of rows of scutes on flanks'
+		 [87] 'Middorsal scutes'
+	;
+	STATELABELS
+		1
+		'slightly elongate [less than or equal to 1:10]'
+		'elongate [from 1:11 to 1:15]'
+		'very elongate [higher than 1:15]'
+		,
+		2
+		'deep'
+		'low'
+		,
+		3
+		'short'
+		'long'
+		,
+		4
+		'smooth'
+		'only tubercles'
+		'only ridges'
+		'tubercles + ridges'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'two or more'
+		'none'
+		'single'
+		,
+		7
+		'twice or more times longer than its tooth'
+		'equal-sized or shorter than its tooth'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'present'
+		'absent'
+		,
+		10
+		'acute'
+		'bifid'
+		,
+		11
+		'bifid'
+		'acute'
+		'straight'
+		,
+		12
+		'straight'
+		'posteriorly curved'
+		,
+		13
+		'slightly sinuous'
+		'markedly sinuous'
+		,
+		14
+		'behind the autosphenotic spine'
+		'at the level of the autosphenotic spine'
+		,
+		15
+		'concave'
+		'convex'
+		,
+		16
+		'long [length equal or larger than its height]'
+		'short [higher than long]'
+		,
+		17
+		'covered'
+		'exposed'
+		,
+		18
+		'not separating parietals'
+		'separating parietals'
+		,
+		19
+		'present'
+		'absent'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'not projecting backwards beyond the level of occiput'
+		'projecting beyond the occiput'
+		,
+		22
+		'unroofed'
+		'roofed'
+		,
+		23
+		'roofed'
+		'unroofed'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'subtriangular'
+		'suboval'
+		'trapezoidal'
+		'rod-shaped'
+		,
+		28
+		'inclined'
+		'vertical'
+		,
+		29
+		'toothless'
+		'toothed'
+		,
+		30
+		'toothless'
+		'toothed'
+		,
+		31
+		'posteroventral'
+		'ventral'
+		,
+		32
+		'one facet'
+		'two facets'
+		,
+		33
+		'toothed'
+		'toothless'
+		,
+		34
+		'reaching the orbit'
+		'not reaching the orbit'
+		,
+		35
+		'smooth'
+		'ornamented'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'toothless'
+		'toothed'
+		,
+		39
+		'over the premaxilla'
+		'behind the premaxilla'
+		,
+		40
+		'only straight'
+		'absent'
+		'curved + straight'
+		'only curved'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'equal to the snout'
+		'shorter than the snout'
+		,
+		43
+		'only straight'
+		'only curved'
+		'curved + straight'
+		,
+		44
+		'absent or with same height'
+		'with different height'
+		,
+		45
+		'different height'
+		'equal height'
+		,
+		46
+		'single'
+		'two or more'
+		,
+		47
+		'single'
+		'two or more'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'enclosed by bone'
+		'partially open'
+		'open'
+		,
+		50
+		'smooth'
+		'ornamented'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'exposed'
+		'hidden'
+		,
+		53
+		'shallow'
+		'deep'
+		,
+		54
+		'present'
+		'absent'
+		,
+		55
+		'smooth'
+		'ornamented'
+		,
+		56
+		'L-shaped'
+		'triangular'
+		'crescent-shaped'
+		'rod-shaped'
+		'pipe-shaped'
+		,
+		57
+		'smooth'
+		'ornamented'
+		,
+		58
+		'absent or reduced'
+		'well-developed'
+		,
+		59
+		'deeper than long'
+		'longer than deep'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'absent'
+		'present'
+		,
+		62
+		'smooth'
+		'ornamented'
+		,
+		63
+		'present'
+		'absent'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'individualized'
+		'co-ossified'
+		,
+		66
+		'present'
+		'absent'
+		,
+		67
+		'more than 50'
+		'equal or minus than 50'
+		,
+		68
+		'more than 20'
+		'equal or minus than 20'
+		,
+		69
+		'extending to the pelvic fin origin'
+		'surpassing the pelvic fin origin'
+		,
+		70
+		'one pair'
+		'two pairs'
+		,
+		71
+		'well-developed [their length surpassing the length of vertebral centrum]'
+		'very reduced [their length equal or less than half of the length of vertebral centrum]'
+		,
+		72
+		'present'
+		'absent'
+		,
+		73
+		'extending to more than a half of the body'
+		'up to half of the body'
+		,
+		74
+		'extending to more than a half of the body'
+		'up to half of the body'
+		,
+		75
+		'high [last fin-ray placed at the level of the ventral border of the opercle or a little above]'
+		'low [last fin-ray placed below]'
+		,
+		76
+		'vertical'
+		'horizontal'
+		'inclined'
+		,
+		77
+		'anterior to dorsal fin'
+		'opposite or posterior to the dorsal fin'
+		,
+		78
+		'short [lesser than 20 rays]'
+		'long [more than 20 rays]'
+		,
+		79
+		'different from the remnants'
+		'all equal in shape'
+		,
+		80
+		'short [up to 15 rays]'
+		'long [more than 15 rays]'
+		,
+		81
+		'not serrated'
+		'serrated'
+		,
+		82
+		'free'
+		'fused'
+		,
+		83
+		'free'
+		'with convoluted suture'
+		,
+		84
+		'present'
+		'absent'
+		,
+		85
+		'absent'
+		'triangular'
+		'cordiform'
+		'tripartite'
+		'rectangular'
+		,
+		86
+		'absent'
+		'single'
+		'two or more'
+		,
+		87
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Trachinocephalus myops'		                                 000300000011000000000100000100010?0001?200210110000000020000000000001100000100000000000
+	'Apateodus spp.'		                                         ?000000??010100000001000?0??1110010000000020000020001003000100010?????????????0????????
+	'Apateopholis spp.'		                                      0011?00??0?00001?1?000111??011000100010000001000201001?11101011100100001101110000?01000
+	'Apuliadercetis spp.'		                                    2110100??000011000001?0?013100100100111200010000200000110010000?00001111001210000101310
+	'Aspidopleurus spp.'		                                     0003100??01000011000000111?11011000001100011111000000??11001001?10101001111210000000000
+	'Atolvorator longipectoralis'		                            00000??0???110001100101000201100010?0100100000102000100100000010010110010011000??001000
+	'Benthesikyme spp.'		                                      2?10?00??01?0000?0101?0??1??11??010001130??1?0???0??????????????????1??100????0?01?13?0
+	'Brazilodercetis longirostris'		                           ?112?00?0010000000001?1??130001011000112011110000000000400100000?????111???????????132?
+	'Candelarhynchus padillai'		                               ?110???01?1??1?0000001000?-1??001110011001001??0201001020010000?0???1010??0210?????1000
+	'Caudadercetis bannikovi'		                                2110?00??00???0001??1?1????1?0100?00???2?0210000200000?10?0000??0?001111?0001?011111000
+	'Cimolichthys spp.'		                                      0002100?100000010000010110?111010010000010200010210001?10001011??000?0010?1?10?0?101220
+	'Cyranichthys ornatissimus'		                              1112?????010000000001?0??1??????0100?0100??100?????????1001000?0?????01?????11?????1120
+	'Dercetis spp.'		                                          2111000??110000000001?0??12111?00100111200111010201001?1000000000?001011000011000101320
+	'Dercetoides venator'		                                    2111????1000?1010100101??1?000100100?11300101010210000?30000010010001111000010000111310
+	'Enchodus spp.'		                                          0003?2????????0????00??????11?10?????00010010?1110?010?11001011000111?0100121??100?1001
+	'Eurypholis spp.'		                                        0001121?101000011100000111211011001111100020000001011?111101111000111001000000000001111
+	'Halec spp.'		                                             0001000?101000010100001??0?11111001001021011001001000??11001010100111001001010000000000
+	'Hastichthys gracilis'		                                   2110?0010001001100001?00?111111011100110010010102010000100100000?000111100?010010111310
+	'Hastichthys totonacus'		                                  211000010001001100001?0001111??01110011001001010001000?10010000?0000111100001000011131?
+	'Hemisaurida hakelensis'		                                 0000000?1?10?10????000???1?011110000010310111000200001?20100000000111001001210000001000
+	'Ichthyotringa spp.'		                                     11100001?0?00010?0000?000??111?001000100?0200010?01001?10001000100111001001000000000000
+	'Nardodercetis vanderwallei'		                             2110000??00?000101?00????1?000?01100?100010010002000000???1?00?00000111100110??00011310
+	'Nardorex zorzini'		                                       ?00210011110001000010?01?1311???00001013000000001010000001100010001?100000100001???1000
+	'Ophidercetis italiensis'		                                2110?21?0010000000001?0??12111?00100111200210010100000030000000000001?11000201010??1120
+	'Pelargorhynchus dercetiformis'		                          1113?????000000101101?1??1?11???0010011000201000?1?00??1?000?010??0??011??1?11?0???0220
+	'Palaeolycus dreginensis'		                                1002?21?1??0?10??1??1?1????110??00010010?0010010111010??10010110?0001?01001200010??1001
+	'Parenchodus longipterygius'		                             0003?2?1?010110111001010?1?011?10010100300210011211010111001011011100100101011010101001
+	'Rharbichthys ferox'		                                     0002?21?0010?000?1100?0????1?1100100110000210000001010010000010000110?00001210001001410
+	'Rhynchodercetis spp.'		                                   2110000?0001001101001?1??1?010101100011001001000000001?1000000000000111?000211000111310
+	'Saurorhamphus judeaensis'		                               1111?00?1010000111001?0111211?100011?01300000010011111111101111000101001000200010000111
+	'Serrilepis spp.'		                                        00030000?010100100001?11100111?00110?10310101010?11010111001011110111001001010100100000
+	'Phylactocephalus microlepis'		                            000100001000000????0011????11?010010010210111000210000?11001010000111001111010000000000
+	'Unicachichthys multidentata'		                            0003100?????0???1?1?0????1?11???001?10121001001121?010?11101011??0111?00001210000101001
+	'Vegrandichthys coitecus'		                                0111?01??0?0000101???1?????0?0100011001000010010011010?11001?11??0????0???0200?????1111
+	'Veridagon avendanoi'		                                    0002?0??0?????00???????????1?0??00?1001310210001011010?11001?11??0101?00101200010101211
+	'Yarbrudichthys striatus'		                                00110101???0000????01010???000?10100?1?000000000?11010?1111?001100100?01001211100101000
+	'Spinascutichthys pankowskiae gen. et sp. nov.'		          111001?11?2100?101100101110110101100001300100001001001020111101?1?10?0????00001101?1?11
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 87;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1655841786845; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1821367037170551920; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 3279947156290980023; mqVersion 310; checksumv 0 3 3409149105 null getNumChars 87 numChars 87 getNumTaxa 37 numTaxa 37 short true bits 31 states 31 sumSquaresStatesOnly 9321.0 sumSquares 9321.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1317 658; setLocation 203 144; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #1821367037170551920 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #1821367037170551920; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1217 586; setLocation 203 144; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #3279947156290980023 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 142; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1217 586; setLocation 203 144; setFont SanSerif; setFontSize 14; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Dark Gray; removeColor on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; getInfoPanel; tell It; btspOpen true; apOpen true; fpOpen true; endTell; toggleInfoPanel on; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #3279947156290980023 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1217 586; setLocation 203 144; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel on; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 87; 
+ENDBLOCK;
