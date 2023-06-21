@@ -1,0 +1,215 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 01.53.42 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=4;
+    TAXLABELS
+    		'Artifcial embryo'
+		'Alioramus altai'
+		'Alioramus remotus'
+		'Qianzhousaurus sinensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=35;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'max, promax fen'
+		 [2] 'max, acc pn fen'
+		 [3] 'max, subcut surf'
+		 [4] 'max, interfen strut'
+		 [5] 'max, tooth count'
+		 [6] 'max, alveolus shape'
+		 [7] 'na, ltrl frntl pr'
+		 [8] 'na, mdln rgsties'
+		 [9] 'na, cdl intrnsl str'
+		 [10] 'la, horn size'
+		 [11] 'la, horn, infltn'
+		 [12] 'ju, ltrl crnl pr'
+		 [13] 'ju, po js'
+		 [14] 'po bar'
+		 [15] 'po, form'
+		 [16] 'po, crnl pr, form'
+		 [17] 'po, posterior pr'
+		 [18] 'po, posterior pr, lngth'
+		 [19] 'po, ventral rms, pr'
+		 [20] 'po, vntrl rms, ornttn'
+		 [21] 'po, sbclr pr, prsnc'
+		 [22] 'sq, vntrl pr pt'
+		 [23] 'sq, drsl pr pr'
+		 [24] 'sq, angle'
+		 [25] 'sq, ltf dpth'
+		 [26] 'sq, pstrr pr, form'
+		 [27] 'dn, vntrl mrgn'
+		 [28] 'dn, subcut surf'
+		 [29] 'dn, symph, txtr'
+		 [30] 'dn, tooth count'
+		 [31] 'dn, alveoli, shape'
+		 [32] 'pra, shape'
+		 [33] 'spl, pstrr ntch'
+		 [34] 'spl, amf, form'
+		 [35] 'spl, amf, pstn'
+	;
+	STATELABELS
+		1
+		'not close'
+		'close'
+		,
+		2
+		'shallow'
+		'recess'
+		,
+		3
+		'smooth'
+		'coarse'
+		,
+		4
+		'flat'
+		'fossa'
+		,
+		5
+		'18'
+		'16'
+		'15'
+		,
+		6
+		'eight'
+		'cartouche'
+		,
+		7
+		'short'
+		'long'
+		,
+		8
+		'small'
+		'large'
+		'tall cusps'
+		,
+		9
+		'long'
+		'short'
+		,
+		10
+		'small'
+		'large'
+		,
+		11
+		'not inflated'
+		'inflated'
+		,
+		12
+		'small'
+		'massive'
+		,
+		13
+		'shallow notch'
+		'interlocking'
+		,
+		14
+		'short'
+		'long'
+		,
+		15
+		'gracile'
+		'stout'
+		,
+		16
+		'subtle'
+		'large'
+		,
+		17
+		'curved'
+		'straight'
+		,
+		18
+		'long'
+		'short'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'ventral'
+		'anteroventral'
+		,
+		21
+		'absent'
+		,
+		22
+		'concealed'
+		'exposed'
+		,
+		23
+		'prominent'
+		'gracile'
+		,
+		24
+		'wide'
+		'narrow'
+		,
+		25
+		'subtle'
+		'deep'
+		,
+		26
+		'small'
+		'large'
+		,
+		27
+		'straight'
+		'sinuous'
+		,
+		28
+		'smooth'
+		'coarse'
+		,
+		29
+		'smooth'
+		'coarse'
+		,
+		30
+		'20'
+		'18'
+		,
+		31
+		'eight'
+		'cartouche'
+		,
+		32
+		'long shallow'
+		'short curved'
+		,
+		33
+		'small acute'
+		'large obtuse'
+		,
+		34
+		'shallow'
+		'deep'
+		,
+		35
+		'close'
+		'dorsal'
+		
+	;
+	MATRIX
+	'Artifcial embryo'		                 00000000000000000000000000000000000
+	'Alioramus altai'		                  00000000000000000000000000000000000
+	'Alioramus remotus'		                ????1??2??????000?1?0111??0??1?????
+	'Qianzhousaurus sinensis'		          11112111111111111111011101111111111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 35;
+      ENDBLOCK;
+      BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 35; 
+ENDBLOCK;

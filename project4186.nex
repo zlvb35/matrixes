@@ -1,0 +1,325 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 01.07.16 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=48;
+    TAXLABELS
+    		'Abies'
+		'Cathaya'
+		'Cedrus'
+		'Larix'
+		'Keteleeria'
+		'Picea'
+		'Pinus'
+		'Pseudolarix'
+		'Pseudotsuga'
+		'Tsuga'
+		'Pseudoaraucaria arnoldii'
+		'Pseudoaraucaria benstedii'
+		'Pseudoaraucaria gibbosa'
+		'Pseudoaraucaria heeri'
+		'Pseudoaraucaria loppinetti'
+		'Pseudoaraucaria major'
+		'Obirastrobus kokubunii'
+		'Obirastrobus nihongii'
+		'Pityostrobus andraei'
+		'Pityostrobus argonnensis'
+		'Pityostrobus beardii'
+		'Pityostrobus bommeri'
+		'Pityostrobus californiensis'
+		'Pityostrobus cliffwoodensis'
+		'Pityostrobus corneti'
+		'Pityostrobus hallii'
+		'Pityostrobus hautrageanus'
+		'Pityostrobus hokodzensis'
+		'Pityostrobus hueberi'
+		'Pityostrobus jacksonii'
+		'Pityostrobus kayeii'
+		'Pityostrobus leckenbyi'
+		'Pityostrobus lynnii'
+		'Pityostrobus macrocephalus'
+		'Pityostrobus makahensis'
+		'Pityostrobus mcmurryensis'
+		'Pityostrobus matsubarae'
+		'Pityostrobus milleri'
+		'Pityostrobus oblongus'
+		'Pityostrobus palmeri'
+		'Pityostrobus pubescens'
+		'Pityostrobus ramentosa'
+		'Pityostrobus shastaensis'
+		'Pityostrobus villerotensis'
+		'Pityostrobus virginiana'
+		'Cryptomeria'
+		'Pararaucaria'
+		'Sciadopitys'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=33;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Ovuliferous scale apex'
+		 [2] 'Bract length'
+		 [3] 'Sclerenchyma in pith'
+		 [4] 'Resin canals in pith'
+		 [5] 'Secondary xylem of cone axis'
+		 [6] 'Resin canals in secondary xylem'
+		 [7] 'Number of growth increments in secondary xylem of cone axis'
+		 [8] 'Sclerenchyma in inner cortex'
+		 [9] 'Sclerenchyma in outer cortex'
+		 [10] 'Cortical resin canals'
+		 [11] 'Trichomes on the cone axis, scale, or bract base'
+		 [12] 'Bract and scale traces'
+		 [13] 'Scale trace'
+		 [14] 'Scale trace - 2'
+		 [15] 'Resin canals to cone-scale complex arising from cortical canals'
+		 [16] 'Bract/ovuliferous scale separation'
+		 [17] 'Abaxial lobe of bract base (or cone-scale complex)'
+		 [18] 'Sclerenchyma in bract'
+		 [19] 'Resin canals in bract (or accompanying bract trace)'
+		 [20] 'Bract trace'
+		 [21] 'Vascular ray in bract trace'
+		 [22] 'Resin canals to ovuliferous scale at scale base'
+		 [23] 'Resin canals to ovuliferous scale at level of seed body (not under seed wing)'
+		 [24] 'Resin canals to ovuliferous scale distal to seed body (includes under wing and more distal sections)'
+		 [25] 'Sclerenchyma in ovuliferous scale'
+		 [26] 'Interseminal ridge'
+		 [27] 'Scale at right angles to cone axis for length of seed body with sharply upturned distal portion'
+		 [28] 'Method of cone seed release'
+		 [29] 'Seed wings'
+		 [30] 'Resin vesicles/cavities in integument (seed coat)'
+		 [31] 'Ridged sclerotesta'
+		 [32] 'Enlarged parenchyma pad or cushion at chalazal end of seed'
+		 [33] 'Number of ovules/ovuliferous scale'
+	;
+	STATELABELS
+		1
+		'thinning distally'
+		'thickening distally (or has umbo)'
+		,
+		2
+		'bract shorter than ovuliferous scale'
+		'bract longer than ovuliferous scale'
+		'bract and ovuliferous scales equal in length'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'forming a continuous cylinder (or little dissected)'
+		'in separate strands'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'one'
+		'two'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'uniform in diameter'
+		'dilated markedly near points of branching'
+		'absent'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'separate at origin'
+		'united at origin'
+		,
+		13
+		'clearly derived from two lateral strands'
+		'derived as single abaxially concave strand'
+		,
+		14
+		'abaxially concave'
+		'becoming cylindrical after divergence'
+		,
+		15
+		'as a single branch'
+		'two origins'
+		'three separate origins'
+		'four separate origins'
+		'more than four separate origins'
+		'no resin canals'
+		,
+		16
+		'separates laterally first'
+		'separates medially first'
+		'separates all at once'
+		'do not separate'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'two'
+		'more than two'
+		,
+		20
+		'entering bract'
+		'terminating before entering free part of bract'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'both adaxial and abaxial to vascular tissue'
+		'resin canals absent'
+		,
+		23
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'both adaxial and abaxial to vascular tissue'
+		'abaxial and adaxial and between vascular bundles'
+		'no resin canals'
+		'abaxial and between vascular bundles'
+		,
+		24
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'both abaxial and adaxial to vascular tissue'
+		'between vascular bundles'
+		'no resin canals'
+		'abaxial and adaxial and between vascular bundles'
+		'abaxial and between vascular bundles'
+		'adaxial and between vascular bundles'
+		,
+		25
+		'both abaxial and adaxial to vascular tissue'
+		'abaxial to vascular tissue'
+		'adaxial to vascular tissue'
+		'absent'
+		'abaxial and adaxial and between vascular bundles'
+		'abaxial and between vascular bundles'
+		'adaxial and between vascular bundles'
+		,
+		26
+		'absent between seeds'
+		'extending less than half of seed diameter'
+		'extending more than half of seed diameter'
+		'extending between and overarching seeds'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'cone spreading'
+		'scale abscission from cone axis'
+		,
+		29
+		'absent'
+		'sarcotestal wing(s)'
+		'wing formed from ovuliferous scale tissue'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'one'
+		'two'
+		'three or mroe'
+		
+	;
+	MATRIX
+	'Abies'		                                0(0,1)101(0,1)011(0,1)(0,1)(0,1)1011(0,1)1100117001121001
+	'Cathaya'		                              00000000100010??101102?5010020001
+	'Cedrus'		                               0000101(0,1)10(0,1)01030010102004(0,1)1121001
+	'Larix'		                                0(0,1)100(0,1)0(0,1)10101011(0,1)0(1,2)(0,1)(0,1)1150(1,2)0020001
+	'Keteleeria'		                           0000000011(0,1)011101111(0,1)222011021001
+	'Picea'		                                00(0,1)0(0,1)(0,1)0(0,1)10(0,1)0101010(1,2)0(0,1)12(5,7)4(1,2)0020001
+	'Pinus'		                                10(0,1)001(0,1)(0,1)1(0,1)0110100(0,1)10(0,1)0(0,3)5410020001
+	'Pseudolarix'		                          10101001101010?00100?235610121001
+	'Pseudotsuga'		                          0110010(0,1)10(0,1)010100010(0,1)115010020001
+	'Tsuga'		                                0(0,1)10000(0,1)(0,1)0(0,1)01031(0,1)1100115010021001
+	'Pseudoaraucaria arnoldii'		             0000100011000010002(0,1)0115531021011
+	'Pseudoaraucaria benstedii'		            ?000100?1?0000?00?100?1?131021011
+	'Pseudoaraucaria gibbosa'		              10101001110000300?100215031020011
+	'Pseudoaraucaria heeri'		                100010001000001001100112031021011
+	'Pseudoaraucaria loppinetti'		           10001000100000100010111?131020011
+	'Pseudoaraucaria major'		                100010001000001000111115431021011
+	'Obirastrobus kokubunii'		               000011011100(0,1)03100200235020020001
+	'Obirastrobus nihongii'		                00000100110(0,1)104110200225020020001
+	'Pityostrobus andraei'		                 10000?01?100101?0???0005000020001
+	'Pityostrobus argonnensis'		             10100001100010130??10005010020001
+	'Pityostrobus beardii'		                 101010011010101000100005410020101
+	'Pityostrobus bommeri'		                 00110000000010100?010002100020001
+	'Pityostrobus californiensis'		          001101011100101000101235020020001
+	'Pityostrobus cliffwoodensis'		          ?0000100100010??0?100035110020001
+	'Pityostrobus corneti'		                 00100001100011?001110235100021001
+	'Pityostrobus hallii'		                  0000000010011011001000554?0020001
+	'Pityostrobus hautrageanus'		            10100001100000??00?10055100020101
+	'Pityostrobus hokodzensis'		             001010011010101200110005410020101
+	'Pityostrobus hueberi'		                 101000010010111001010052110020001
+	'Pityostrobus jacksonii'		               10000100000010?00?2000?511002??01
+	'Pityostrobus kayeii'		                  101001000000001000100005000020001
+	'Pityostrobus leckenbyi'		               0000000???01102000110115(1,3)10021001
+	'Pityostrobus lynnii'		                  100001001101101100?(0,1)000511002??01
+	'Pityostrobus macrocephalus'		           1010000110000?1?0?1100?5000020101
+	'Pityostrobus makahensis'		              001001001100101100(1,2)00025010021001
+	'Pityostrobus mcmurryensis'		            00101000000010101010002?210020001
+	'Pityostrobus matsubarae'		              001000011000001000100235010020001
+	'Pityostrobus milleri'		                 1000110011101013?111005501002??01
+	'Pityostrobus oblongus'		                001000011101102000100125010021001
+	'Pityostrobus palmeri'		                 10100111100(0,1)001000110026410020001
+	'Pityostrobus pubescens'		               000010000010101010100013420020001
+	'Pityostrobus ramentosa'		               00000000111110?00010022502002??01
+	'Pityostrobus shastaensis'		             ?010010110001010001100?5010020001
+	'Pityostrobus villerotensis'		           00000000000110110?100035410020001
+	'Pityostrobus virginiana'		              00000?00001100?000100000010020001
+	'Cryptomeria'		                          021000011000??000020?344400010002
+	'Pararaucaria'		                         1010000?121010500000034460102000(0,1)
+	'Sciadopitys'		                          020010000010001000200117200010002
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 33;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1635803756816; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 2983400205947699512; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4674243746663499647; mqVersion 351; checksumv 0 3 1437834028 null getNumChars 33 numChars 33 getNumTaxa 48 numTaxa 48 short true bits 255 states 255 sumSquaresStatesOnly 38249.0 sumSquares 38249.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1 errorReportedDuringRun; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 54; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1280 671; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4674243746663499647 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 599; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 599; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 33; 
+ENDBLOCK;

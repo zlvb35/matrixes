@@ -1,0 +1,414 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 03.36.07 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=27;
+    TAXLABELS
+    		'Ctenocystis utahensis'
+		'Gyrocystis platessa'
+		'Gyrocystis testudiformis'
+		'Gyrocystis cruzae'
+		'Gyrocystis badulesiensis'
+		'Gyrocystis erecta'
+		'Progyrocystis disjuncta'
+		'Protocinctus mansillaensis'
+		'Elliptocinctus barrandei'
+		'Elliptocinctus vizcainoi'
+		'Sucocystis theronensis'
+		'Sucocystis bretoni'
+		'Lignanicystis barriosensis'
+		'Undatacinctus undata'
+		'Sucocystis acrofera'
+		'Undatacinctus quadricornuta'
+		'Undatacinctus melendezi'
+		'Asturicystis jaekeli'
+		'Sotocinctus ubaghsi'
+		'Trochocystites bohemicus'
+		'Trochocystoides parvus'
+		'Ludwigicinctus truncatus'
+		'Graciacystis ambigua'
+		'Asturicystis havliceki'
+		'Nelegerocystis ivantzovi'
+		'Rozanovicystis triangularis'
+		'Davidocinctus pembrokensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=60;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Symmetry of body'
+		 [2] 'Theca Shape'
+		 [3] 'Anterior margin shape'
+		 [4] 'Stele Cross-sectional shape immediately below theca'
+		 [5] 'Length of stele in proportion to body'
+		 [6] 'Mesosphenoid plates on dorsal surface'
+		 [7] 'Mesosphenoidal plates on dorsal surface'
+		 [8] 'Mesosphenoidal plates on ventral surface'
+		 [9] 'Posterior marginal plate arrangement'
+		 [10] 'Number of marginal plates between M0 and the posteriorclosure of the ring'
+		 [11] 'Number of marginal plates between M0 and the posteriorclosure of the ring - 2'
+		 [12] 'Anterior margin of plate M0'
+		 [13] 'Shape of marginal plates forming lateral part of cinctus'
+		 [14] 'Interior dorsal edge of marginal plates'
+		 [15] 'Plate M2r exsert from ring'
+		 [16] 'Plate M4 hatchet-shaped'
+		 [17] 'Protuberance on the dorsal part of plate M2l'
+		 [18] 'Protuberance on the dorsal part of plate M3l'
+		 [19] 'Protuberance on the dorsal part of plate M3r'
+		 [20] 'Protuberance on the dorsal part of plate M4r'
+		 [21] 'Protuberance on the ventral part of plate M5l'
+		 [22] 'Protuberance on the ventral part of plate M4l'
+		 [23] 'Protuberance on the ventral part of plate M3l'
+		 [24] 'Protuberance on the ventral part of plate M2l'
+		 [25] 'Protuberance on the ventral part of plate M1l'
+		 [26] 'Protuberance on the ventral part of plate M0'
+		 [27] 'Protuberance on the ventral part of plate M1r'
+		 [28] 'Protuberance on the ventral part of plate M2r'
+		 [29] 'Protuberance on the ventral part of plate M3r'
+		 [30] 'Protuberance on the ventral part of plate'
+		 [31] 'Protuberance on the ventral part of plate M5r'
+		 [32] 'Shape of plate M2'
+		 [33] 'Marginal plates 1l and 1r with strong dorsal projections'
+		 [34] 'Marginal plates 1l and 1r with thin, plate-like dorsal flan'
+		 [35] 'Projections from marginal plates M1l and M1r'
+		 [36] 'Suropercular facet on plates M1l and M1r'
+		 [37] 'Number of plates forming dorsal margin of operculum'
+		 [38] 'Central plate of lintel with protuberance or spine'
+		 [39] 'Sutural epispires on dorsal surface'
+		 [40] 'Dorsal surface'
+		 [41] 'Ventral plated surface composition'
+		 [42] 'Ventral plates distinctly larger than dorsal plates'
+		 [43] 'Ventral swellings developed on anterior infracentral plates'
+		 [44] 'Very large, differentiated ventral infracentrals in anterior  region'
+		 [45] 'Dorsal tegmen swollen centrally'
+		 [46] 'Plate M3l food groove'
+		 [47] 'Plate M2l food groove'
+		 [48] 'Plate M1l food groove on plate'
+		 [49] 'Plate M0 food groove on plate'
+		 [50] 'Plate M1r food groove on plate'
+		 [51] 'Plate M2r food groove on plate'
+		 [52] 'Plate M3r food groove on plate'
+		 [53] 'Plate M4r food groove on plate'
+		 [54] 'Upper and lower rim of food groove with distinct pits'
+		 [55] 'Position of food groove as it passes around anterior of cinctus'
+		 [56] 'Path of left food groove as it crosses plate M0'
+		 [57] 'Construction of plated membranes covering food groove'
+		 [58] 'Relative lengths of left- and right-hand food grooves'
+		 [59] 'Marginal ossicles ventral shape'
+		 [60] 'Marginal ossicles dorsal shape'
+	;
+	STATELABELS
+		1
+		'Slightly asymmetric'
+		'Moderate asymmetric'
+		'Strongly asymmetric'
+		,
+		2
+		'wide as long'
+		'ovate'
+		'tapers toward appendage'
+		'wider than long'
+		,
+		3
+		'Rounded'
+		'Straight'
+		,
+		4
+		'ovate'
+		'longenze shaped'
+		,
+		5
+		'greater than half the length of the cinctus'
+		'less than half the length of the cinctus'
+		,
+		6
+		'absent proximally '
+		'present proximally'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		' a few scattered plates about mid-length'
+		'present throughout forming a near continuous series '
+		,
+		9
+		'marginal plates abut forming a continuous circlet '
+		'marginal plates separated at posterior extremity by intercalated plates extending in from the ventral plated membrane'
+		'left and right marginal plates separated by one infracentral plate '
+		,
+		10
+		'five'
+		'six'
+		'seven'
+		,
+		11
+		'four'
+		'five'
+		'more than five'
+		,
+		12
+		'vertical or rounded '
+		'projecting as a strong flange'
+		,
+		13
+		'wedge-shaped with lateral flange '
+		'without lateral flange '
+		'rounded in external section'
+		,
+		14
+		'smooth'
+		'corrugated'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'small node'
+		'large projecting spike'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'small node'
+		'large projecting spike'
+		,
+		21
+		'absent'
+		,
+		22
+		'absent'
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		23
+		'absent '
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		24
+		'absent present forming an isolated mound present '
+		'present forming an isolated mound present '
+		'forming part of a continuous ridge with contiguous plates'
+		,
+		25
+		'absent '
+		'present forming an isolated mound present '
+		'forming part of a continuous ridge with contiguous plates'
+		,
+		26
+		'absent'
+		'present forming an isolated mound'
+		'forming part of a continuous ridge with contiguous plates'
+		,
+		27
+		'absent'
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		28
+		'absent '
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		29
+		'absent'
+		'present forming an isolated mound'
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		30
+		'absent '
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		31
+		'absent '
+		'present forming an isolated mound '
+		'present forming part of a continuous ridge with contiguous plates'
+		,
+		32
+		'uniform; trapezoidal'
+		'distinctly angled'
+		,
+		33
+		'absent'
+		'present and small'
+		'present and large or peg like'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'vertically oriented'
+		'directed toward anterior'
+		,
+		36
+		'rudimentary or absent'
+		'forming an obvious flat triangular zone '
+		,
+		37
+		'six or seven'
+		'five'
+		'three or four'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present as arc on left-hand side'
+		'present scattered on right-hand side'
+		,
+		40
+		'uniform ornament and plating'
+		'with distinct anterior and marginal zones differentiated in plate shape and ornament'
+		,
+		41
+		'only a few very large plates'
+		'between 40 to 75 plates'
+		'a large number of small, uniform plates '
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'extends onto plate but does not cross'
+		'extends across entire plate'
+		,
+		47
+		'absent'
+		'extends onto plate but does not cross'
+		'extends across entire plate'
+		,
+		48
+		'absent'
+		'extends to plate but does not cross'
+		'extends across entire plate'
+		,
+		49
+		'absent '
+		'extends to plate but does not cross'
+		'extends across entire plate'
+		,
+		50
+		'absent'
+		'extends to plate but does not cross '
+		'extends across entire plate'
+		,
+		51
+		'absent'
+		'extends to plate but does not cross'
+		'extends across entire plate'
+		,
+		52
+		'absent'
+		'extends to plate but does not cross'
+		'extends across entire plate'
+		,
+		53
+		'absent'
+		'extends across '
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'below ambitus and facing downwards'
+		'at ambitus and facing forwards'
+		,
+		56
+		'distinctly curved ventrally'
+		'more or less straight'
+		,
+		57
+		'upper and lower sheets of multiple small elements'
+		'an upper and lower biseries of plates'
+		,
+		58
+		'symmetric left and right food grooves extending the same number of marginal plates away from the mouth'
+		'asymmetric with left hand food groove extending no more than one plate further than the right hand food groove'
+		'asymmetric with left hand food groove extended by two or more plates further than the right hand food groove '
+		'asymmetric with right-hand food groove completely absent'
+		,
+		59
+		'smooth and flat ventrally'
+		'distinct ventral swellings on some plates'
+		,
+		60
+		'smoothly rounded dorsally'
+		'distinct node or spike on some plates'
+		
+	;
+	MATRIX
+	'Ctenocystis utahensis'		                011???000?0?????0000?000000000????????0020?00????????????000
+	'Gyrocystis platessa'		                  1101110100(0,1)100000000?0000000000010012020110000001200001?1300
+	'Gyrocystis testudiformis'		             00011111000100000000?0000100000010012020101110001200001?1310
+	'Gyrocystis cruzae'		                    1001?10?000100000000??000100000010012???0?00?0001200001??310
+	'Gyrocystis badulesiensis'		             11011102000110000000?01101011000201120?0010000001200001?1310
+	'Gyrocystis erecta'		                    110??????00110000000???????????0201120??????00001200001??3?0
+	'Progyrocystis disjuncta'		              010?????100100000000?0000000000001001000200000001200001?0300
+	'Protocinctus mansillaensis'		           010111??200010000000?0022200000000?120??2000?0?122000011?310
+	'Elliptocinctus barrandei'		             (0,1)(0,1)0111010(1,2)(0,1,2)000000000022201022200201120?01100000122100011?210
+	'Elliptocinctus vizcainoi'		             0100?0??0100?1000000?0220102??00201120?001000001221?001??210
+	'Sucocystis theronensis'		               130111011(0,1)(0,1,2)010000000022201022200100121??0100000122000011?310
+	'Sucocystis bretoni'		                   13011??111(0,1)010000000002201022200100120??0100000122000111?310
+	'Lignanicystis barriosensis'		           13110112011000010000022201022201101120112000000122100000?210
+	'Undatacinctus undata'		                 100?????010010001111?0220102220000?1????0?00?00122100010?211
+	'Sucocystis acrofera'		                  230?????010010000000?02201022200100120??01000001222100110110
+	'Undatacinctus quadricornuta'		          100?????010010000202?0222222220000?120??0100000122100001?211
+	'Undatacinctus melendezi'		              130?????010010001111?0220102220000?120??0100?0012210001??211
+	'Asturicystis jaekeli'		                 121111?2000010000000?0000000000000?100??20000012222210110100
+	'Sotocinctus ubaghsi'		                  100?01??0(0,1)0010000000?0000000000000?0000020000012222100110200
+	'Trochocystites bohemicus'		             1(0,3)(0,1)111010(1,2)(0,1)02000000002220002220000?110112000012222221111?210
+	'Trochocystoides parvus'		               1000?000000010000000?0022002200000?1????20000122222210110210
+	'Ludwigicinctus truncatus'		             101?????010010100000?0222222222000?12???000000012200001??210
+	'Graciacystis ambigua'		                 00(0,1)1011200(0,1)000000000000022200000100000102000001022100010????
+	'Asturicystis havliceki'		               011011??001010000000002220222200100120?010000012221000111210
+	'Nelegerocystis ivantzovi'		             ????????????????????????????????????????????????????????????
+	'Rozanovicystis triangularis'		          ????????????????????????????????????????????????????????????
+	'Davidocinctus pembrokensis'		           ????????????????????????????????????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 60;
+      ENDBLOCK;
+      

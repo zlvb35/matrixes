@@ -1,0 +1,806 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 01.52.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Euparkeria capensis'
+		'Diandongosuchus fuyuanensis'
+		'Wannia scurriensis'
+		'Parasuchus hislopi'
+		'Parasuchus bransoni'
+		'Parasuchus angustifrons'
+		'Ebrachosuchus neukami'
+		'Brachysuchus megalodon'
+		'Angistorhinus grandis'
+		'Rutiodon carolinensis'
+		'Protome batalaria'
+		'Pravusuchus hortus'
+		'Leptosuchus crosbiensis'
+		'Smilosuchus adamanensis'
+		'Smilosuchus gregorii'
+		'Machaeroprosopus jablonskiae'
+		'Machaeroprosopus lottorum'
+		'Machaeroporsopus mccauleyi'
+		'Mystriosuchus westphali'
+		'Mystriosuchus planirostris'
+		'Volcanosuchus statisticae'
+		'Colossosuchus techniensis'
+		'isir276'
+		'isir271'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=106;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Length of snout (pre-orbital length/orbital plus postorbital length)'
+		 [2] 'Shape of skull in posterior view'
+		 [3] 'Transverse width of the rostrum between the antorbital fenestrae in dorsal view'
+		 [4] 'Narial openings'
+		 [5] 'Nares elevated on a dorsal prominence'
+		 [6] 'Dorsal rim of nares in lateral view'
+		 [7] 'Internarial septum'
+		 [8] 'Posterolateral margins of nares swollen and rugose, creating a distinct narial rim'
+		 [9] 'Inter-narial septum'
+		 [10] 'Postero-medial margin of nares'
+		 [11] 'Position of nares with respect to the antorbital fenestra in dorsal view'
+		 [12] 'Position of nares on the snout'
+		 [13] 'Overlap of the external naris by the antorbital fenestra in lateral view'
+		 [14] 'Interorbital-nasal area'
+		 [15] 'Length of antorbital fenestra'
+		 [16] 'Extent of the antorbital fossa'
+		 [17] 'Ventral margin of antorbital fenestra'
+		 [18] 'Medial margins of orbits'
+		 [19] 'Position of ventral margin of orbit'
+		 [20] 'Preorbital depression'
+		 [21] 'Parietal-squamosal bar with respect to skull roof'
+		 [22] 'Visibility of supratemporal fenestrae in dorsal view'
+		 [23] 'Anterior extent of infratemporal fenestra'
+		 [24] 'Size of quadrate foramen relative to size of the quadrate'
+		 [25] 'Ventral margin of infratemporal fenestra'
+		 [26] 'Squamosal forming posterior margin of infratemporal fenestra'
+		 [27] 'Orientation of quadrate foramen'
+		 [28] 'Shape of quadrate foramen'
+		 [29] 'Suborbital fenestra'
+		 [30] 'Shape of suborbital fenestra'
+		 [31] 'Shape of the subtemporal fenestra (stfL / stfW)'
+		 [32] 'Rostral crest'
+		 [33] 'Anterior premaxillary end'
+		 [34] 'Premaxillary crest'
+		 [35] 'Premaxilla'
+		 [36] 'Dorsal surface of premaxilla bearing thread-like ornamentation'
+		 [37] 'Inter-premaxillary fossa'
+		 [38] 'Alveolar ridges'
+		 [39] 'Morphology of alveolar ridges on premaxilla'
+		 [40] 'Suture between maxilla, and premaxilla and nasal'
+		 [41] 'Lateral surface of the maxilla'
+		 [42] 'Alveolar rim of maxilla'
+		 [43] 'Lateral extent of maxilla in ventral view'
+		 [44] 'Angle of ascending maxillary process with the vertical plane (?)'
+		 [45] 'Angle of descending maxillary process with the vertical plane (?)'
+		 [46] 'Position of maxilla-jugal suture in lateral view'
+		 [47] 'Anterior extent of septomaxilla'
+		 [48] 'Anterior separation of the septomaxillae'
+		 [49] 'Lateral extent of septomaxilla'
+		 [50] 'Ornamentation on dorsal surface of septomaxilla'
+		 [51] 'Surface of nasals surrounding the external nares'
+		 [52] 'Ornamentation on nasal'
+		 [53] 'Nasofrontal suture'
+		 [54] 'Dorsal surface of the frontal'
+		 [55] 'Broad median depression on dorsal surface of frontals, near border with nasals'
+		 [56] 'Sutural articulation of squamosal with postorbital in dorsal view'
+		 [57] 'Lateral ridge from postorbital-squamosal bar'
+		 [58] 'Width of postorbital-squamosal bar relative to its length (Wpo-sq / Lpo-sq), measured in dorsal view'
+		 [59] 'Cross-section of posterior half of postorbital-squamosal bar'
+		 [60] 'Length of posterior process of squamosal'
+		 [61] 'Morphology of the posterior process of the squamosal in lateral view'
+		 [62] 'Dorsal edge of the squamosal'
+		 [63] 'Dorsal edge of the squamosal - 2'
+		 [64] 'Ventral margin of squamosal'
+		 [65] 'Lateral flange of the squamosal'
+		 [66] 'Medial extent of squamosal'
+		 [67] 'Dorsal edge of parietal-squamosal bar'
+		 [68] 'Depression of parietal-squamosal bar'
+		 [69] 'Path of parietal-squamosal bars'
+		 [70] 'Parietal-squamosal bars'
+		 [71] 'Angle of separation of the parietal prongs / squamosal processes of the parietal'
+		 [72] 'Ridge on lateral surface of jugal'
+		 [73] 'Ornamentation on the lateral surface of the jugal'
+		 [74] 'Morphology of jugal in lateral view'
+		 [75] 'Subsidiary opisthotic process of the squamosal'
+		 [76] 'Shape of quadratojugal'
+		 [77] 'Shape of distal end of paroccipital process'
+		 [78] 'Lateral border of the posttemporal fenestra'
+		 [79] 'Exoccipital and supraoccipital shelf'
+		 [80] 'Supraoccipital'
+		 [81] 'Anterior border of parabasisphenoid contribution to the basitubera'
+		 [82] 'Morphology of basioccipital between tubera'
+		 [83] 'Lateral extent of basitubera compared to lateral extent of basipterygoid processes in ventral view'
+		 [84] 'Medial edge of palatine below posterior part of palatal vault'
+		 [85] 'Anterior extent of the palatine'
+		 [86] 'Lateral ridge of postorbital-squamosal bar continues onto the posterior process of squamosal'
+		 [87] 'Mediolateral expansion of posterior process of squamosal'
+		 [88] 'Outline of medial rim of squamosal along supratemporal fenestra and posterior process'
+		 [89] 'Depth and shape of supraoccipital shelf'
+		 [90] 'Post-temporal fenestra'
+		 [91] 'Shape of retroarticular process in lateral view'
+		 [92] 'Relative length of mandibular symphysis with respect to the length of the post-symphyseal region, measured in the anteroposterior direction'
+		 [93] 'Shape of external mandibular fenestra (emfL: emfH)'
+		 [94] 'Degree of heterodonty'
+		 [95] 'Degree of curvature of posterior margin of proximal humeral head in ventral view'
+		 [96] 'Degree of flaring of proximal humeral head in dorsal view'
+		 [97] 'Lateral margin of ulna in anterior view'
+		 [98] 'Concavity of anterior margin of proximal femoral head'
+		 [99] 'Vertebral laminae'
+		 [100] 'Number of sacral vertebrae'
+		 [101] 'Orientation of postacetabular process of the ilium in lateral view'
+		 [102] 'Degree of concavity of anterior margin of ilium in lateral view'
+		 [103] 'Paramedian osteoderms'
+		 [104] 'Dorsal skull margin in lateral view from anterior orbital margin to posterior end of the posterior squamosal process along the postorbital-squamosal bar'
+		 [105] 'Position of supratemporal fenestra'
+		 [106] 'Dorsal margin of skull in occipital view'
+	;
+	STATELABELS
+		1
+		'short, < 1'
+		'moderate, 1−3'
+		'long, 3−3.5'
+		'very long, exceeds 3.5'
+		,
+		2
+		'box-like, where width across squamosals approximately equals the width across ventral edge of quadrates'
+		'trapezoidal, width across squamosal less than width across the ventral edge of quadrate'
+		,
+		3
+		'narrow or subequal to interorbital area'
+		'≥ 1.5 times the interorbital area'
+		,
+		4
+		'directed laterally'
+		'directed dorsally/ anterodorsally'
+		'anterior section opens forward, posterior upward'
+		,
+		5
+		'absent'
+		'present along the posterior narial margin'
+		'present along the anterior and posterior narial margin'
+		,
+		6
+		'at or below level of skull roof'
+		'above level of skull roof'
+		,
+		7
+		'above the level of the lateral borders of the narial rim'
+		'below or at the level of the narial rim'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'composed of equal proportions of the nasal and premaxilla'
+		'composed of more than 50% by premaxilla'
+		'composed of equal proportions of nasal and septomaxilla'
+		'composed of more than 50% by the septomaxilla'
+		,
+		10
+		'fused along mid-line'
+		'unfused along mid-line'
+		,
+		11
+		'terminal'
+		'non-terminal, posterior rim of nares in front of anterior rim of antorbital fenestra'
+		'non-terminal, posterior rim of nares behind anterior rim of antorbital fenestra'
+		,
+		12
+		'terminal'
+		'non-terminal, nares placed anteriorly on the snout'
+		'non-terminal, nares placed posteriorly on the snout'
+		,
+		13
+		'no overlap'
+		'overlaps <50% of the external naris'
+		'overlaps ≥50% of the external naris'
+		,
+		14
+		'flat'
+		'concave'
+		,
+		15
+		'Less than 1.9 times naris length'
+		'greater than or equal to 1.9 times naris length'
+		,
+		16
+		'present along both the anterior and posterior margins of the antorbital fenestra'
+		'present either along the anterior or posterior margin'
+		'absent along both the anterior and posterior borders of the antorbital fenestra'
+		,
+		17
+		'excludes jugal'
+		'includes jugal'
+		,
+		18
+		'flat with skull roof'
+		'raised into orbital ridges'
+		,
+		19
+		'ventral to dorsal margin of antorbital fenestra'
+		'dorsal to dorsal margin of antorbital fenestra'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'at the same level'
+		'parietal process of squamosal below the level of skull roof'
+		'entire parietal-squamosal bar below the level of skull roof'
+		,
+		22
+		'visible and open in dorsal view'
+		'partially visible'
+		'mostly covered/completely closed dorsally, at most only anteromedial corners of supratemporal fenestrae visible in dorsal view'
+		,
+		23
+		'posterior to or beneath the posterior corner of the orbit'
+		'extended anteriorly, reaches below the middle or anterior half of the orbit'
+		,
+		24
+		'large'
+		'significantly reduced'
+		,
+		25
+		'shared by jugal-quadratojugal'
+		'formed exclusively by the jugal'
+		,
+		26
+		'≤ 50%'
+		'> 50%'
+		,
+		27
+		'facing posteriorly'
+		'facing posterolaterally'
+		,
+		28
+		'dorsally-ventrally elongated'
+		'roughly circular'
+		'crescent shaped'
+		,
+		29
+		'large'
+		'moderately reduced'
+		'greatly reduced'
+		,
+		30
+		'roughly triangular'
+		'elongate and elliptical'
+		'boomerang or reniform'
+		'circular'
+		,
+		31
+		'narrow and highly elongate, ≥ 2'
+		'wide and less elongated, < 2'
+		,
+		32
+		'absent, rostrum low, broad and flat'
+		'absent, rostrum low, slender and essentially tube-like for entire length'
+		'present'
+		,
+		33
+		'in anteroposterior plane of posterior rostrum'
+		'downturned'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'dorsoventrally taller than mediolaterally wide for the majority of the element'
+		'dorsoventrally shorter and mediolaterally wide for majority of the element'
+		'approximately the same height as width and tube-like'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present, broad and rounded'
+		'present, narrow slit'
+		,
+		38
+		'visible in lateral view'
+		'not visible in lateral view'
+		,
+		39
+		'absent'
+		'sharp'
+		'rounded'
+		,
+		40
+		'slopes anteroventrally'
+		'slopes posteroventrally'
+		'dorsally convex lobe'
+		,
+		41
+		'devoid of ornamentation'
+		'sculpturing/foramina present'
+		'teardrop/thread-like ornamentation present'
+		,
+		42
+		'horizontal'
+		'ventrally strongly convex'
+		,
+		43
+		'alveolar rim laterally convex or straight'
+		'laterally distinctly concave'
+		,
+		44
+		'< 55°'
+		'55° ≤ α < 70°'
+		'70° ≤ α < 85°'
+		'≥ 85°'
+		,
+		45
+		'≥ 130°'
+		'130° > β ≥ 115°'
+		'115° > β ≥ 100°'
+		'100° > β ≥ 85°'
+		'< 85°'
+		,
+		46
+		'posterior to antorbital fenestra'
+		'ventral to antorbital fenestra'
+		,
+		47
+		'anterior to anterior tip of nasal'
+		'posterior to or at level with anterior tip of nasal'
+		,
+		48
+		'separate posterior to level with the anterior narial border'
+		'separate distinctly anterior of the anterior narial border'
+		,
+		49
+		'restricted to anterior rim of naris'
+		'contributes to the lateral rim of naris'
+		,
+		50
+		'absent'
+		'present, weakly roughened'
+		'present, antero-posteriorly oriented grooves'
+		'present irregular sculpturing'
+		,
+		51
+		'not inflated'
+		'inflated, only along the lateral or posterior margin of the nares'
+		'inflated, along both the lateral and posterior margin of the nares'
+		,
+		52
+		'absent'
+		'comprising ridges and grooves along with pits'
+		'teardrop shaped'
+		'coarse, antero-posteriorly compressed band-like ornamentation'
+		,
+		53
+		'inter-digitating'
+		'non-interdigitating'
+		,
+		54
+		'smooth, unornamented'
+		'ornamented in the form of rugosity and pits'
+		'teardrop shaped ornamentation'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'slot-like, posterior process of postorbital fits into slot in squamosal'
+		'diagonal, squamosal forms anteromedial portion of postorbital-squamosal bar and postorbital forms posterolateral portion'
+		'approximately transverse'
+		,
+		57
+		'forms a shelf overhanging the infratemporal fenestra'
+		'does not overhang as a shelf '
+		'continues posteriorly from strong ridge on lateral edge of postorbital-squamosal bar as two separate raised ridges on lateral surface of squamosal'
+		'bifurcates into two small ridges on lateral surface of squamosal'
+		,
+		58
+		'≥ 6'
+		'> 6 –≥ 4'
+		'< 4'
+		,
+		59
+		'low, dorsoventrally compressed'
+		'high, triangular'
+		,
+		60
+		'absent or extremely short, posterior edge of squamosal does not extend or barely extends posteriorly beyond the distal end of the paroccipital process of the opisthotic'
+		'moderate, posterior process of squamosal extends posteriorly beyond opisthotic process of squamosal'
+		'long, posterior process of squamosal extends posteriorly far beyond opisthotic process of squamosal'
+		,
+		61
+		'dorsoventrally compressed'
+		'dorsoventrally expanded'
+		'greatly dorsoventrally expanded, rounded posteriorly'
+		,
+		62
+		'straight and narrow, no medial expansion'
+		'expanded medially'
+		,
+		63
+		'mediolaterally flat'
+		'ventral depression between medial and lateral edges of the dorsal edge of the squamosal'
+		,
+		64
+		'gently sloping anteroventrally from posterior edge of posterior process to opisthotic process'
+		'distinct horizontal ventral edge between posterior edge of posterior process and opisthotic process'
+		'sloping posteroventrally from the posterior end of the posterior process to the opisthotic process'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'up to mid-length of the parietal-squamosal bar'
+		'enters base of supraoccipital shelf wedged between parietal and supraoccipital'
+		'enters rim of supraoccipital shelf dorsal to parietal'
+		,
+		67
+		'horizontal'
+		'gently sloping ventrally'
+		'steeply sloping ventrally'
+		'either entirely or in parts vertical'
+		,
+		68
+		'absent'
+		'moderate, bar depressed for 15±25% of absolute skull height'
+		'strong, bar depressed for > 25% of absolute skull height'
+		,
+		69
+		'trending straight posteriorly for attachment on the squamosals'
+		'curved, medially convex before attaching on the squamosals'
+		,
+		70
+		'slender, narrower than or the same mediolateral width of postorbital-squamosal bars'
+		'wide, approximately the same mediolateral width of postorbital-squamosal bars'
+		,
+		71
+		'< 90°'
+		'90°−99°'
+		'≥ 100°'
+		,
+		72
+		'absent'
+		'present, unornamented'
+		'present, ornamented with tubercles'
+		,
+		73
+		'absent'
+		'discrete row of anteroposteriorly extending nodes'
+		'randomly oriented rugosity'
+		'radiating fine thread-like ridges'
+		,
+		74
+		'flat'
+		'subdivided into dorsolaterally facing and laterally facing facets'
+		'a centrally-positioned anteroposteriorly extending ridge'
+		'ridge running towards ventral border of jugal'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'L-shaped'
+		'subtriangular'
+		,
+		77
+		'straight, distal edge is dorsoventrally oriented'
+		'angled, distal edge trends ventrolaterally'
+		'rounded, distal edge is curved rather than straight'
+		'pointed'
+		,
+		78
+		'formed by the contact of the parietal process of the squamosal and the paroccipital process of the opisthotic'
+		'formed laterally only by the paroccipital process'
+		'formed laterally and slightly ventrally by process of squamosal that extends onto the paroccipital process'
+		,
+		79
+		'anteroposteriorly short'
+		'broad, overhangs foramen magnum and occipital condyle'
+		,
+		80
+		'enters posttemporal fenestra'
+		'excluded from posttemporal fenestra'
+		,
+		81
+		'basitubera separated widely'
+		'basitubera separated narrowly, with a ridge along their anterior border'
+		'basitubera connected, tubera form a sharp ridge along their anterior border'
+		,
+		82
+		'concave depression'
+		'anteroposteriorly oriented ridge on the midline'
+		,
+		83
+		'lateral extent of basitubera even with lateral extent of basipterygoid processes'
+		'lateral extent of basitubera more laterally expanded compared to basipterygoid processes'
+		,
+		84
+		'sloping or vertical'
+		'horizontal flange may restrict the opening of the palatal vault significantly'
+		,
+		85
+		'tip extends anteriorly beyond the posterior rim of choana'
+		'tip extends anteriorly beyond the anterior rim of choana'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'tip of squamosal tapers strongly posteriorly'
+		'tip of squamosal tapers with a smooth lateral deflection distally'
+		,
+		88
+		'sinuous'
+		'angular'
+		'straight'
+		'curved'
+		,
+		89
+		'shallow, longitudinal axis of shelf vertical'
+		'deep, axis of shelf straight and horizontal'
+		'deep, axis of shelf with steep slope anteriorly and terminal horizontal deflection of shelf'
+		,
+		90
+		'moderately wide and tall'
+		'moderately wide and compressed'
+		'extremely reduced in width and height to a slit'
+		,
+		91
+		'distally sharply pointed or curved into a posterodorsally oriented hook'
+		'distally rounded or blunt'
+		,
+		92
+		'less than 1.00, short'
+		'greater than or equal to 1.00, long'
+		,
+		93
+		'short, emfL:emfH < 4'
+		'moderately elongated, 4 ≤ emfL:emfH < 6'
+		'greatly elongated, emfL: emfH ≥ 6'
+		,
+		94
+		'homodont'
+		'bipartite upper dentition'
+		'tripartite upper dentition'
+		,
+		95
+		'degree of curvature ≥ 160º'
+		'160º < degree of curvature ≥ 130º'
+		'degree of curvature < 130º'
+		,
+		96
+		'flaring < 50º'
+		'flaring ≥ 50º'
+		,
+		97
+		'sigmoidal'
+		'straight'
+		'convex'
+		,
+		98
+		'gently concave'
+		'strongly concave'
+		,
+		99
+		'absent'
+		'present'
+		,
+		100
+		'two'
+		'three'
+		,
+		101
+		'directed posteriorly or downturned'
+		'directed posterodorsally'
+		,
+		102
+		'degree of concavity ≥ 100º'
+		'100º > degree of concavity ≥ 50º'
+		'degree of concavity < 50º'
+		,
+		103
+		'elliptical/leaf shaped with longitudinal keel along the length of the osteoderm'
+		'roughly circular with a posteriorly placed boss'
+		'roughly circular with a centrally placed boss'
+		,
+		104
+		'straight/nearly straight or convex'
+		'sigmoidal'
+		'z-shaped'
+		,
+		105
+		'dorsally facing'
+		'dorsolaterally facing'
+		,
+		106
+		'horizontal or nearly horizontal'
+		'distinctly convex'
+		'sigmoidal'
+		
+	;
+	MATRIX
+	'Euparkeria capensis'		                   0000000000000?1?000000??0000000?00000000000000???0000000?000000?00000000000000000?00000?00??00000000000000
+	'Diandongosuchus fuyuanensis'		           1110000010110?000101000?01?????00010???110?020????01011?10?0?01?0?00000101?1????0?????00??1?1021000?0?0000
+	'Wannia scurriensis'		                    ???11?1110120?110???00?0??0011?????01?10101110100111???00??0001?00000?11020?0?0?000000??10??????????????00
+	'Parasuchus hislopi'		                    2001000120120100110100010001??0100202020000121?0??01011031?0001?00000?001001120110100?11100111210100111000
+	'Parasuchus bransoni'		                   200100000?1201010101000011112111?02010?0101110100001011030?0001?0??000001001000?10000?1?100??1??????0??000
+	'Parasuchus angustifrons'		               ??01000121120100011100000001121????0?020011221100201011031?0001?000000111101200010100??110?????????????000
+	'Ebrachosuchus neukami'		                 3?1100002012010001010010010111011020??20101131100201?1000100001?000000212300000010100?0111???1?????????001
+	'Brachysuchus megalodon'		                11012?102?222?01101?001011??1101102010?2111241110221110010?11010010011200001220120101011010021??????01?100
+	'Angistorhinus grandis'		                 1011211021222101101?00100101?11110201022001031110221110010?01010?1001100000122012?101???01?011????10011100
+	'Rutiodon carolinensis'		                 20112010??222101111?101????????1102?10??00?12??1??1??11?1??12000??1?00100001???????0100?001??111111012?10?
+	'Protome batalaria'		                     ?1?120??20?2?1???1??1??????????11000102?0??????1?000?10111?22100????00????0?????21??1?0?10?12???????????0?
+	'Pravusuchus hortus'		                    11?1?0?02?2220120110111?10????121000102201?1110?1311?10111?22101????0000001111??211?100?10???2?????????10?
+	'Leptosuchus crosbiensis'		               1111?0?02?22?01??1?1100????????2100?10???1????0???????0001?22001??1?00???0012??????0?00?100?22???1??0??00?
+	'Smilosuchus adamanensis'		               1111???02?22211?01??111??0??2??2100?10???1???1110???1?0111?12100??1?00???001?0??2110000?1000?2????11112?0?
+	'Smilosuchus gregorii'		                  1111011020222112?110111?????2??2100?11?2111231010??1??0111?121000?11002020011???2??0100?100012211110112101
+	'Machaeroprosopus jablonskiae'		          ??11?0?0?0?2?1???1??22??????????????????0???????????110??2?101010???00??????0??0211??00?1??????????????000
+	'Machaeroprosopus lottorum'		             1111211030222?0211112211001223?1102021201002311103110102?2?2210?103100?0201122112011110010?????????????102
+	'Machaeroporsopus mccauleyi'		            1011211?20222012011022110???2?02100021?2?1021101021111?222021100011200?00311121?2?11110?10?022?????????00?
+	'Mystriosuchus westphali'		               2011201020222012011121100112???21120212011022111002101020110010?1132002000110010????1??022???1?????????002
+	'Mystriosuchus planirostris'		            3?1120103?2220121?11211001?????11020?12010131111002111?2?11?01??1?3200200011?01????01??02201211021000?0102
+	'Volcanosuchus statisticae'		             ?1012010312211011111??101112120???211010201221000322120????????????????232?1???????01????????1????????????
+	'Colossosuchus techniensis'		             ?112000100222101?1111010?001???21110112?20112?0013?30111011010120111102???012210101??111220012112111111211
+	'isir276'		                               ?111000?0?2221??011110101101??00?010102?0010?1????1?01013110101201111020?0012210201??11122???1?????????211
+	'isir271'		                               311100000?22210201111010?111??0010101020101031????130111011011120111002000?1201?001?111122???1?????????211
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=1 TEXT='Euparkeria capensis is used as an outgroup taxon in the present analysis.';
+	TEXT TAXON=2 TEXT='Taxon^n^nDiadongosuchus fuyuanensis (Stocker et al., 2017; Jones and Butler, 2018) - known from the Middle Triassic deposits of China and was previously identified as a basal poposaurid (Li et al., 2012). However, recent morphological and phylogenetic analysis identified it as the basal most member of Phytosauria based on presence of a squamosal ridge bordering the supratemporal fossa and an anteriorly directed femoral head (Stocker et al., 2017).^n^n';
+	TEXT TAXON=3 TEXT='Wannia scurriensis - previously referred to as ''Paleorhinus'' scurriensis (Langston, 1949), was recovered as the least derived taxon within Parasuchidae (Sotcker, 2012a). It was recovered from the Dockum Gourp of Texas, USA and characterized by apomorphies such as widely separated basitubera, expanded pterygoid-quadrate wing with a shelf along the posteroventral border and septomaxilla restricted from forming the inter-narial septum.';
+	TEXT TAXON=4 TEXT='Parasuchus hislopi (Lydekker. 1885) - know from two articulated specimens excavated from the lower Maleri Formation of India. The taxon is characterised by the presence of jugal nodes, frontal depressions, a low narial morphology and absence of paired depressions on the nasal (Chatterjee 1978; Kammerer et al., 2016).';
+	TEXT TAXON=5 TEXT='Parasuchus bransoni (Williston, 1904) - The North American taxon is the basal most taxon among Parasuchus-grade phytosaurs and characterised by an elevation along the posterior margin of the nares, which approximates a triangle in lateral view, jugal nodes and paired frontal depressions  (Kammerer et al., 2016).';
+	TEXT TAXON=6 TEXT='Parasuchus angustifrons (Kuhn, 1936) - known from the Blasensandstein Formation of Germany, and was previously referred to as Franchosuchus angustifrons. The taxon was reassigned to the genus Parasuchus based on the depression on the frontal, multiple nodes on the jugal and a bifurcated ridge on the squamosal (Butler et al., 2014; Kammerer et al., 2016; Jones and Butler, 2018). This taxon is distinguished from all other Parasuchus-grade phytosaurs based on presence of paired depression on the nasals.';
+	TEXT TAXON=7 TEXT='Ebrachosuchus neukami - known from the Blasensandstein Formation of Germany. The taxon, represented by a complete skull and is typified by a flange on the postorbital and jugal, which continues posteriorly on the postorbital-squamosal bar, a significantly longer preorbital length compared to the orbit plus postorbital length, and longer than dorsoventrally tall infratemporal fenestra (Butler et al., 2014). ';
+	TEXT TAXON=8 TEXT='Brachysuchus megalodon - known from the Dockum Group of Texas is a Mystriosuchunae phytosaur characterised by nostrils raised on a dorsal prominence, expansion of the premaxilla near the premaxilla-maxilla suture, anterior margin of choana formed by the premaxilla (Case, 1929, 1930).';
+	TEXT TAXON=9 TEXT='Angistorhinus grandis - an early-branching Mystriosuchinae taxon known from the Popo Agie Formation is diagnosed by broad and oval supratemporal fenestra, posterior margin of the parietal and the supratemporal fenestra enclosing a U-shaped emargination, subtriangular/parallelogram-shaped infratemporal fenestra and ventral maxillary margin devoid of lateral flaring (Mehl, 1913, 1915; Jones and Butler, 2018).';
+	TEXT TAXON=10 TEXT='Rutiodon carolinensis (Emmons, 1856) - known only from the Newark Supergroup of the USA (Stocker and Butler, 2013) is characterised by partially depressed supratemporal fenestra, nostrils elevated on a dorsal prominence and sub-circular cross-section of the premaxillary rostrum (Stocker, 2010). The taxon, however, is problematic as the holotype material, comprising multiple isolated teeth, and cranial and postcranial elements were found to be non-diagnostic (Stocker and Butler, 2013). Furthermore, features such as a short and dorsoventrally expanded posterior process of squamosal which is posteriorly rounded, was considered diagnostic of the taxon, but has also been observed in the leptosuchomorph phytosaurs (Stocker, 2012b; Stocker and Butler, 2013).';
+	TEXT TAXON=11 TEXT='Protome batalaria - from the Chinle Formation of the USA is diagnosed by a foramen magnum ventrally positioned with respect to the posterior extension of the exoccipital, the basitubera comprising a flat ventral surface, and the external mandibular fenestra bordered anteriorly by a fossa (Stocker, 2012b). Though the taxon was previously placed outside Leptosuchomorpha (Stocker, 2012b; Kammerer et al., 2016), recently it has been nested within the clade (Jones and Butler, 2018).';
+	TEXT TAXON=12 TEXT='Pravusuchus hortus - The leptosuchomorph taxon is known from the Chinle Formation of Arizona (Stocker, 2010), and defined by the autapomorphic feature where the lateral narial margin is partially formed by the septomaxillae (Stocker, 2010). Other diagnostic features included a broad interpremaxillary fossa, absence of antorbital fossa, an elongated and dorsoventrally high posterior squamosal process, and a partially depressed supratemporal fenestra.';
+	TEXT TAXON=13 TEXT='Leptosuchus crosbiensis - this leptosuchomorph phytosaur is identified by a slender skull, partial rostral crest extending from the nostrils to the anterior-most extent of the maxilla and anteriorly crested premaxilla, and completely dorsally visible supratemporal fenestrae, which are bound anterolaterally by slender dorsal squamosal edges, (Case, 1922; Jones and Butler, 2018). ';
+	TEXT TAXON=14 TEXT='Smilosuchus adamanensis - A leptosuchomorph taxon of the genus Smilosuchus, is characterised by a vertical, moderately elongated posterior squamosal process and absence of a rostral or narial crest (Case, 1930; Long and Murry, 1995; Jones and Butler, 2018). Additionally, Griffin et al. (2017) reported dorsosacral vertebrae in Smilosuchus adamanensis thereby showcasing the presence of more than two sacral vertebrae in the phytosaurs.';
+	TEXT TAXON=15 TEXT='Smilosuchus gregorii - known from the Chinle Formation of Arizona, can be identified based on the enlarged posterior premaxillary teeth resulting in the expansion of the premaxilla, a complete rostral crest and dorsoventrally high posterior squamosal process (Case, 1930; Jones and Butler, 2018). ';
+	TEXT TAXON=16 TEXT='Machaeroprosopus jablonskiae - This taxon belongs to the latest diverging clade, Mystriosuchini and is known from the Sonsela Member, Chinle Formation, Arizona (Parker and Irmis, 2006; Kammerer et al., 2016). the autapomorphic character of this phytosaur is the presence of a sloping edge of the postorbito-squamosal bar along its anteromedial margin which bears a supratemporal fossa. ';
+	TEXT TAXON=17 TEXT='Machaeroprosopus lottorum - a Mystriosuchini phytosaur known from multiple cranial specimens collected from the Upper Cooper Canyon Formation of Dockum Group (Hungerbühler et al., 2013). The species is defined by features such as, broad and flattened rugose lateral margin of external nares, complete closure of the supratemporal fenestrae and presence of semi-circular depression of the skull table and broad medial lamellae of palatine which nearly conceal the posterior part of the palatal vault in ventral view (Hungerbühler et al., 2013). ';
+	TEXT TAXON=18 TEXT='Machaeroporsopus mccauleyi -  reported from the Chinle Formation of Arizona (Ballew, 1989; Hunt et al., 2006; Jones and Butler, 2018), is typified by the presence of a crest along the entire length of the rostrum, triangular posterior process of squamosal, flaring of lateral margins of the skull at 60º, and pre-infratemporal shelf does not extend beneath the antorbital fenenstra (Hunt et al., 2006; Jones and Butler, 2018). ';
+	TEXT TAXON=19 TEXT='Mystriosuchus westphali - this German taxon is characterised by a premaxillary crest at the mid-length of the elenemt, proötic-squamosal contact and presence of orbitosphenoid (Hungerbühler and Hunt, 2000; Hungerbühler, 2002). ';
+	TEXT TAXON=20 TEXT='Mystriosuchus planirostris (Meyer, 1963) - is characterized by a ratio of preorbital to orbit and postorbital region of the skull around 4.1:1, internarial septum articulating at right angles to the premaxillae, poorly demarcated antorbital fossa, anterior part of external nares directed anteriorly whereas posterior portion oriented dorsally,  supratemporal fenestra bordered by a raised anterior margin which extends along the medial margin of the squamosal and depression of the parietal-squamosal bar greater than 30% of the skull height (Hunt and Lucas, 1989; Hungerbühler, 2002; Butler et al., 2019).';
+	TEXT TAXON=21 TEXT='Volcanosuchus statisticae - a Mystriosuchinae taxon known from the Tiki Formation of India is characterised by a partial overlap of the nostrils by the antorbital fenestra (';
+	TEXT TAXON=22 TEXT='Colossosuchus techniensis - described in the current study is known from several well-preserved cranial and postcranial elements from the Upper Triassic Tiki Formation of India. The taxon is characterised by closely spaced mediolateral band-like ornamentation on dorsal surface of the nasal, dorsolaterally oriented supratemporal fenestra, ventrolaterally inclined postorbito-squamosal bars depressed below the skull table, dorsally convex parietal-squamosal bar which descends ventrolaterally below the skull roof. ';
+	TEXT TAXON=23 TEXT='Undescribed phytosaur specimen from the Pranhita-Godavari Basin of India forms a distinct clade with Colossosuchus. ';
+	TEXT TAXON=24 TEXT='Undescribed phytosaur specimen from the Pranhita-Godavari Basin of India forms a distinct clade with Colossosuchus. ';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 1.	Length of snout (pre-orbital length/orbital plus postorbital length): short, < 1 (0); moderate, 1−3 (1); long, 3−3.5 (2); very long, exceeds 3.5 (3) [H1, S14, K14, D1]^n';
+	TEXT CHARACTER=2 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^n^n^n Character 2. Shape of skull in posterior view: box-like, where width across squamosals approximately equals the width across ventral edge of quadrates (0); trapezoidal, width across squamosal less than width across the ventral edge of quadrate (1) [S38, K38, D2]^n^n';
+	TEXT CHARACTER=3 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 3.	Transverse width of the rostrum between the antorbital fenestrae in dorsal view: narrow or subequal to interorbital area (0); ≥ 1.5 times the interorbital area (1) [K46, D3]^n';
+	TEXT CHARACTER=4 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 4.	Narial openings: directed laterally (0); directed dorsally/ anterodorsally (1); anterior section opens forward, posterior upward (2) [Modified after S1, K1, J12, D4]^n^nThis character was modified to include the variation in narial morphology, where in some taxa such as Angistorhinus and Colossosuchus, the anterior portion of the nares open forward and the posterior portion upwards.^n^n';
+	TEXT CHARACTER=5 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 5.	Nares elevated on a dorsal prominence: absent (0); present along the posterior narial margin (1); present along the anterior and posterior narial margin (2) [D5]^n ^n';
+	TEXT CHARACTER=6 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 6. Dorsal rim of nares in lateral view: at or below level of skull roof (0); above level of skull roof (1) [H9, S20, K20, J17, D6]';
+	TEXT CHARACTER=7 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 7. Internarial septum: above the level of the lateral borders of the narial rim (0), below or at the level of the narial rim (1) [D7] ^n^n';
+	TEXT CHARACTER=8 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 8. Posterolateral margins of nares swollen and rugose, creating a distinct ?narial rim?: absent (0); present (1) [K48, D8]^n^n';
+	TEXT CHARACTER=9 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 9. Inter-narial septum: composed of equal proportions of the nasal and premaxilla (0); composed of more than 50% by premaxilla (1); composed of equal proportions of nasal and ?septomaxilla? (2); composed of more than 50% by the septomaxilla (3) [S15, K15, D9]^n^n';
+	TEXT CHARACTER=10 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 10. Postero-medial margin of nares: fused along mid-line (0); unfused along mid-line (1) [D10]^n^n';
+	TEXT CHARACTER=11 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 11. Position of nares with respect to the antorbital fenestra in dorsal view: terminal (0); non-terminal, posterior rim of nares in front of anterior rim of antorbital fenestra (1); non-terminal, posterior rim of nares behind anterior rim of antorbital fenestra (2) [H10, S2, K2, J14, D11]';
+	TEXT CHARACTER=12 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 12. Position of nares on the snout: terminal (0); non-terminal, nares placed anteriorly on the snout (1); non-terminal, nares placed posteriorly on the snout (2) [D12]^n^n';
+	TEXT CHARACTER=13 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 13. Overlap of the external naris by the antorbital fenestra in lateral view: no overlap (0); overlaps ';
+	TEXT CHARACTER=14 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 14. Interorbital-nasal area: flat (0); concave (1) [H14, S21, K21, D14]^n^n';
+	TEXT CHARACTER=15 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 15. Length of antorbital fenestra: Less than 1.9 times naris length (0); greater than or equal to 1.9 times naris length (1) [J25]^n^n';
+	TEXT CHARACTER=16 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 16. Extent of the antorbital fossa: present along both the anterior and posterior margins of the antorbital fenestra (0); present either along the anterior or posterior margin (1); absent along both the anterior and posterior borders of the antorbital fenestra (2) [D16]^n^n';
+	TEXT CHARACTER=17 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 17. Ventral margin of antorbital fenestra: excludes jugal (0); includes jugal (1) [D17]^n^n';
+	TEXT CHARACTER=18 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 18. Medial margins of orbits: flat with skull roof (0); raised into orbital ridges (1) [S6, K6, J31, D18]^n^n';
+	TEXT CHARACTER=19 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 19. Position of ventral margin of orbit: ventral to dorsal margin of antorbital fenestra (0); dorsal to dorsal margin of antorbital fenestra (1) [D19]^n^n';
+	TEXT CHARACTER=20 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 20. Preorbital depression: absent (0); present (1) [H15, D20] ^n^n';
+	TEXT CHARACTER=21 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 21. Parietal-squamosal bar with respect to skull roof: at the same level (0); parietal process of squamosal below the level of skull roof (1); entire parietal-squamosal bar below the level of skull roof (2) [S32, K32, J49, D21] ^n^n';
+	TEXT CHARACTER=22 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 22. Visibility of supratemporal fenestrae in dorsal view: visible and open in dorsal view (0); partially visible (1); mostly covered/completely closed dorsally, at most only anteromedial corners of supratemporal fenestrae visible in dorsal view (2) [S33, K33, J57, D22]';
+	TEXT CHARACTER=23 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 23. Anterior extent of infratemporal fenestra: posterior to or beneath the posterior corner of the orbit (0); extended anteriorly, reaches below the middle or anterior half of the orbit (1) [D23]';
+	TEXT CHARACTER=24 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 24. Size of quadrate foramen relative to size of the quadrate: large (0); significantly reduced (1) [H42, D24]';
+	TEXT CHARACTER=25 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 25. Ventral margin of infratemporal fenestra: shared by jugal-quadratojugal (0); formed exclusively by the jugal (1) [D25]^n^nIn most of the early-branching phytosaur taxa, the jugal and quadratojugal form the ventral margin of the infratemporal fenestra (coded as ?0?). The latter feature is also seen in some of the later-branching phytosaurs such as Brachysuchus, Volcanosuchus, ISIR276, and Pravusuchus (coded as ?1?).^n^n';
+	TEXT CHARACTER=26 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 26. Squamosal forming posterior margin of infratemporal fenestra: ≤ 50% (0); > 50% (1) [D26]^n';
+	TEXT CHARACTER=27 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 27. Orientation of quadrate foramen: facing posteriorly (0); facing posterolaterally (1) [D27]^n^n';
+	TEXT CHARACTER=28 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 28. Shape of quadrate foramen: dorsally-ventrally elongated (0); roughly circular (1); crescent shaped (2) [D28]^n^n';
+	TEXT CHARACTER=29 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 29. Suborbital fenestra: large (0); moderately reduced (1); greatly reduced (2) [D29]^n^n';
+	TEXT CHARACTER=30 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^n^n^nCharacter 30. Shape of suborbital fenestra: roughly triangular (0); elongate and elliptical (1); boomerang or reniform (2); circular (3) [D30]^n^n';
+	TEXT CHARACTER=31 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 31. Shape of the subtemporal fenestra (stfL / stfW): narrow and highly elongate [≥ 2] (0); wide and less elongated [< 2] (1) [D31]^n';
+	TEXT CHARACTER=32 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 32. Rostral crest: absent, rostrum low, broad and flat (0); absent, rostrum low, slender, and essentially ?tube-like? for entire length (1); present (2) [D32]^n^n';
+	TEXT CHARACTER=33 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 33. Anterior premaxillary end: in anteroposterior plane of posterior rostrum (0); downturned (1) [S7, K7, J1, D33]^n^n';
+	TEXT CHARACTER=34 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 34. Premaxillary crest: absent (0); present (1) [H48, S16, K16, D34]^n^n';
+	TEXT CHARACTER=35 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 35. Premaxilla: dorsoventrally taller than mediolaterally wide for the majority of the element (0); dorsoventrally shorter and mediolaterally wide for majority of the element (1); approximately the same height as width and tube-like (2) [D35]^n^n';
+	TEXT CHARACTER=36 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 36. Dorsal surface of premaxilla bearing thread-like ornamentation: absent (0); present (1) [D36]^n^nThread-like ornamentation on the premaxilla is observed only in Volcanosuchus, whereas in all other taxa such ornamentation is absent. ^n^n';
+	TEXT CHARACTER=37 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 37. Inter-premaxillary fossa: absent (0); present, broad and rounded (1); present, narrow slit (2) [H43, S8, K8, J2, D37]^n^n';
+	TEXT CHARACTER=38 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 38. Alveolar ridges (= palatal ridges of Case and White 1934): visible in lateral view (0); not visible in lateral view (1) [S9, K9, D38]^n^n';
+	TEXT CHARACTER=39 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 39. Morphology of alveolar ridges on premaxilla: absent (0); sharp (1); rounded (2) [D39]^n^n';
+	TEXT CHARACTER=40 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 40. Suture between maxilla, and premaxilla and nasal: slopes anteroventrally (0); slopes posteroventrally (1); dorsally convex lobe (2) [D40]^n^n';
+	TEXT CHARACTER=41 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 41. Lateral surface of the maxilla: devoid of ornamentation (0); sculpturing/ foramina present (1); teardrop/thread-like ornamentation present (2) [D41]^n^n';
+	TEXT CHARACTER=42 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 42. Alveolar rim of maxilla: horizontal (0); ventrally strongly convex (1) [H3, S10, K10, J5, D42]';
+	TEXT CHARACTER=43 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 43. Lateral extent of maxilla in ventral view: alveolar rim laterally convex or straight (0); laterally distinctly concave (1) [H4, J10, D43] ^n^n';
+	TEXT CHARACTER=44 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 44. Angle of ascending maxillary process with the vertical plane (?): < 55° (0); 55° ≤ α < 70° (1); 70° ≤ α < 85° (2); ≥ 85° (3) [D44]^n';
+	TEXT CHARACTER=45 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 45. Angle of descending maxillary process with the vertical plane (?): ≥ 130° (0); 130° > β ≥ 115° (1); 115° > β ≥ 100° (2); 100° > β ≥ 85° (3); < 85° (4) [D45]^n';
+	TEXT CHARACTER=46 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 46. Position of maxilla-jugal suture in lateral view: posterior to antorbital fenestra (0); ventral to antorbital fenestra (1) [D46] ^n^n';
+	TEXT CHARACTER=47 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 47. Anterior extent of septomaxilla: anterior to anterior tip of nasal (0); posterior to or at level with anterior tip of nasal (1) [H6, S12, K12, J15, D47]^n^n';
+	TEXT CHARACTER=48 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 48. Anterior separation of the septomaxillae: separate posterior to level with the anterior narial border (0); separate distinctly anterior of the anterior narial border (1) [J80, D48]^n^n';
+	TEXT CHARACTER=49 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 49. Lateral extent of septomaxilla: restricted to anterior rim of naris (0); contributes to the lateral rim of naris (1) [H7, S13, K13, D49]^n^n';
+	TEXT CHARACTER=50 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 50. Ornamentation on dorsal surface of septomaxilla: absent (0); present, weakly roughened (1); present, antero-posteriorly oriented grooves (2); present irregular sculpturing (3) [D50] ^n^n';
+	TEXT CHARACTER=51 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 51. Surface of nasals surrounding the external nares: not inflated (0); inflated, only along the lateral or posterior margin of the nares (1); inflated, along both the lateral and posterior margin of the nares (2) [D51]^n^n';
+	TEXT CHARACTER=52 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 52. Ornamentation on nasal: absent (0); comprising ridges and grooves along with pits (1); teardrop shaped (2); coarse, antero-posteriorly compressed band-like ornamentation (3) [D52]^n^n';
+	TEXT CHARACTER=53 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 53. Nasofrontal suture: inter-digitating (0); non-interdigitating (1) [D53]^n^n';
+	TEXT CHARACTER=54 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^n54.	Dorsal surface of the frontal: Smooth, unornamented (0); ornamented in the form of rugosity and pits (1); teardrop shaped ornamentation (2) [D54]^n^n';
+	TEXT CHARACTER=55 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 55. Broad median depression on dorsal surface of frontals, near border with nasals: absent (0); present (1) [K47, J26, D55] ^n^n';
+	TEXT CHARACTER=56 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n56.	Sutural articulation of squamosal with postorbital in dorsal view: slot-like, posterior process of postorbital fits into slot in squamosal (0); diagonal, squamosal forms anteromedial portion of postorbital-squamosal bar and postorbital forms posterolateral portion (1); approximately transverse (2) [S22, K22, J33, D56]^n ';
+	TEXT CHARACTER=57 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 57. Lateral ridge from postorbital-squamosal bar: forms a shelf overhanging the infratemporal fenestra (0); does not overhang as a shelf (1); continues posteriorly from strong ridge on lateral edge of postorbital-squamosal bar as two separate raised ridges on lateral surface of squamosal (2); bifurcates into two small ridges on lateral surface of squamosal (3) [S23, K23, D57]^n';
+	TEXT CHARACTER=58 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 58. Width of postorbital-squamosal bar relative to its length (Wpo-sq / Lpo-sq), measured in dorsal view: ≥ 6 (0); > 6 –≥ 4 (1); < 4 (2).^nEuparkeria shows a high ratio (? 6) of Wpo-sq / Lpo-sq (coded as ?0?), whereas it is reduced in parasuchids and ranges between > 6 –≥ 4 (coded as ''1''). In Mystriosuchini taxa this ratio shows further reduction to < 4 (coded as ''2'').^n';
+	TEXT CHARACTER=59 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 59. Cross-section of posterior half of postorbital-squamosal bar: low, dorsoventrally compressed (0); high, triangular (1) [H22, J45, D59]^n^n';
+	TEXT CHARACTER=60 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 60. Length of posterior process of squamosal: absent or extremely short, posterior edge of squamosal does not extend or barely extends posteriorly beyond the distal end of the paroccipital process of the opisthotic (0); moderate, posterior process of squamosal extends posteriorly beyond opisthotic process of squamosal (1); long, posterior process of squamosal extends posteriorly far beyond opisthotic process of squamosal (2) [H31, S24, K24, D60]^n^n';
+	TEXT CHARACTER=61 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 61. Morphology of the posterior process of the squamosal in lateral view: dorsoventrally compressed (0); dorsoventrally expanded (1); greatly dorsoventrally expanded, rounded posteriorly (2) [H32, S25, K25, D61]^n^n';
+	TEXT CHARACTER=62 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 62. Dorsal edge of the squamosal: straight and narrow, no medial expansion (0); expanded medially (1) [H33, S26, K26, J41, D62]^n^n';
+	TEXT CHARACTER=63 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 63. Dorsal edge of the squamosal: mediolaterally flat (0); ventral depression between medial and lateral edges of the dorsal edge of the squamosal (1) [S27, K27, J42, D63]^n^n';
+	TEXT CHARACTER=64 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 64. Ventral margin of squamosal: gently sloping anteroventrally from posterior edge of posterior process to opisthotic process (0); distinct horizontal ventral edge between posterior edge of posterior process and opisthotic process (1); sloping posteroventrally from the posterior end of the posterior process to the opisthotic process (2) [Modified after S28, K28, J46, D64]^n^nModifications were introduced adequately cove the variation in morphology, as taxa such as Colossosuchus show a posteroventrally directed ventral surface of the squamosal.^n^n';
+	TEXT CHARACTER=65 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 65. Lateral flange of the squamosal: absent (0); present (1) [H34, D65]^n^n';
+	TEXT CHARACTER=66 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 66. Medial extent of squamosal: up to mid-length of the parietal-squamosal bar (0); enters base of supraoccipital shelf wedged between parietal and supraoccipital (1); enters rim of supraoccipital shelf dorsal to parietal (2) [H30, D66] ^n^n';
+	TEXT CHARACTER=67 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 67. Dorsal edge of parietal-squamosal bar: horizontal (0); gently sloping ventrally (1); steeply sloping ventrally (2); either entirely or in parts vertical (3) [H26, J59, D67]^n';
+	TEXT CHARACTER=68 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 68. Depression of parietal-squamosal bar: absent, (0); moderate, bar depressed for 15±25% of absolute skull height (1); strong, bar depressed for > 25% of absolute skull height (2) [H23, D68]^n^n';
+	TEXT CHARACTER=69 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 69. Path of parietal-squamosal bars: trending straight posteriorly for attachment on the squamosals (0); curved, medially convex before attaching on the squamosals (1) [S34, K34, J56, D69]^n^n';
+	TEXT CHARACTER=70 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 70. Parietal-squamosal bars: slender, narrower than or the same mediolateral width of postorbital-squamosal bars (0); wide, approximately the same mediolateral width of postorbital-squamosal bars (1) [S35, K35, J58, D70]^n^n';
+	TEXT CHARACTER=71 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 71. Angle of separation of the parietal prongs / squamosal processes of the parietal: < 90° (0); 90°−99° (1); ≥ 100° (2) [D71]^n';
+	TEXT CHARACTER=72 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 72. Ridge on lateral surface of jugal: absent (0); present, unornamented (1); present, ornamented with tubercles (2) [D73]^n^n';
+	TEXT CHARACTER=73 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 73. Ornamentation on the lateral surface of the jugal: absent (0); discrete row of anteroposteriorly extending nodes (1); randomly oriented rugosity (2); radiating fine thread-like ridges (3) [Combined after K44, J23, D72, D73].^nThe characters of (K44, J23, D72) and D73 were combined as these focused on the nature of ornamentation of the lateral surface of the jugal. ^n';
+	TEXT CHARACTER=74 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 74. Morphology of jugal in lateral view: flat (0); subdivided into dorsolaterally facing and laterally facing facets (1); a centrally-positioned anteroposteriorly extending ridge (2); ridge running towards ventral border of jugal (3) [J83, D75]^n^n';
+	TEXT CHARACTER=75 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 75. Subsidiary opisthotic process of the squamosal: absent (0); present (1) [H35, S29, K29, J47, D76]^n^n';
+	TEXT CHARACTER=76 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 76. Shape of quadratojugal: L-shaped (0); subtriangular (1) [S31, K31, J68, D77]^n^n';
+	TEXT CHARACTER=77 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 77. Shape of distal end of paroccipital process: straight, distal edge is dorsoventrally oriented (0); angled, distal edge trends ventrolaterally (1); rounded, distal edge is curved rather than straight (2); pointed (3) [S36, K36, D78]^n^n';
+	TEXT CHARACTER=78 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 78. Lateral border of the posttemporal fenestra: formed by the contact of the parietal process of the squamosal and the paroccipital process of the opisthotic (0); formed laterally only by the paroccipital process (1); formed laterally and slightly ventrally by process of squamosal that extends onto the paroccipital process (2) [H38, S37, K37, J67, D79]^n^n';
+	TEXT CHARACTER=79 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 79. Exoccipital and supraoccipital shelf: anteroposteriorly short (0); broad, overhangs foramen magnum and occipital condyle (1) [H39, D80]^n^n';
+	TEXT CHARACTER=80 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 80.	Supraoccipital: enters posttemporal fenestra (0); excluded from posttemporal fenestra (1) [H40, D81]^n^n';
+	TEXT CHARACTER=81 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 81. Anterior border of parabasisphenoid contribution to the basitubera: basitubera separated widely (0); basitubera separated narrowly, with a ridge along their anterior border (1); basitubera connected, tubera form a sharp ridge along their anterior border (2) [S39, K39, J69, D82]^n^n';
+	TEXT CHARACTER=82 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 82. Morphology of basioccipital between tubera: concave depression (0); anteroposteriorly oriented ridge on the midline (1) [S40, K40, J70, D83]^n^n';
+	TEXT CHARACTER=83 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 83. Lateral extent of basitubera compared to lateral extent of basipterygoid processes in ventral view: lateral extent of basitubera even with lateral extent of basipterygoid processes (0); lateral extent of basitubera more laterally expanded compared to basipterygoid processes (1) [S41, K41, J71, D84]^n^n';
+	TEXT CHARACTER=84 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 84. Medial edge of palatine below posterior part of palatal vault: sloping or vertical (0); horizontal flange may restrict the opening of the palatal vault significantly (1) [J76, D85]^n^n';
+	TEXT CHARACTER=85 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 85. Anterior extent of the palatine: tip extends anteriorly beyond the posterior rim of choana (0); tip extends anteriorly beyond the anterior rim of choana (1) [D86]^n^n';
+	TEXT CHARACTER=86 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^nCharacter 86. Lateral ridge of postorbital-squamosal bar continues onto the posterior process of squamosal: absent (0); present (1) [J37]^n';
+	TEXT CHARACTER=87 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 87. Mediolateral expansion of posterior process of squamosal: tip of squamosal tapers strongly posteriorly (0); tip of squamosal tapers with a smooth lateral deflection distally (1) [J50]^n^n';
+	TEXT CHARACTER=88 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 88. Outline of medial rim of squamosal along supratemporal fenestra and posterior process: sinuous (0); angular (1); straight (2); curved (3) [J55]^n^n';
+	TEXT CHARACTER=89 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 89. Depth and shape of supraoccipital shelf: shallow, longitudinal axis of shelf vertical (0); deep, axis of shelf straight and horizontal (1); deep, axis of shelf with steep slope anteriorly and terminal horizontal deflection of shelf (2) [H36, J63]^n^n';
+	TEXT CHARACTER=90 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 90. Post-temporal fenestra: moderately wide and tall (0); moderately wide and compressed (1); extremely reduced in width and height to a slit (2) [H41, J66]^n^n';
+	TEXT CHARACTER=91 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 91. Shape of retroarticular process in lateral view: distally sharply pointed or curved into a posterodorsally oriented hook (0); distally rounded or blunt (1) [J78]^n^n';
+	TEXT CHARACTER=92 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 92. Relative length of mandibular symphysis with respect to the length of the post-symphyseal region, measured in the anteroposterior direction: less than 1.00 (Short) (0); greater than or equal to 1.00 (Long) (1) [J94]^n^n';
+	TEXT CHARACTER=93 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 93. Shape of external mandibular fenestra (emfL: emfH) = short, emfL:emfH < 4 (0); moderately elongated, 4 ≤ emfL:emfH < 6 (1); greatly elongated, emfL: emfH ≥ 6 (2)^nIn Euparkeria the emf is short, whereas, in early-diverging phytosaur taxa such as Diandongosuchus and Parasuchus hislopi it is moderately elongated. In more derived forms such as Brachysuchus, Protome, and Leptosuchus, the emf is greatly elongated. ^n';
+	TEXT CHARACTER=94 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 94. Degree of heterodonty: homodont (0); bipartite upper dentition (1); tripartite upper dentition (2) [H5, S11, K11].^n^n';
+	TEXT CHARACTER=95 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 95. Degree of curvature of posterior margin of proximal humeral head in ventral view: degree of curvature ≥ 160º (0); 160º < degree of curvature ≥ 130º (1); degree of curvature < 130º (2).^nThe degree is curvature is >160º in Euparkeria (coded as ''0'') and reduces to below 130º in early-diverging phytosaurs such as Parasuchus hislopi (coded as ''2''). In the more derived taxa, Rutiodon and Colossosuchus, it ranges between 160º–130º (coded as ''1'').^n';
+	TEXT CHARACTER=96 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 96. Degree of flaring of proximal humeral head in dorsal view: flaring < 50º (0); flaring ≥ 50º.^nIn Euparkeria the flaring of the proximal humeral head is less than 50º (coded as ?0?), whereas in phytosaurs the degree of flaring is largely greater than 50º (coded as ?1?). ^n';
+	TEXT CHARACTER=97 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 97. Lateral margin of ulna in anterior view: sigmoidal (0); straight (1); convex (2).^n^nNon-Mystriosuchinae phytosaurs are characterised by a sigmoidal ulnal margin (coded as ?0?), whereas in derived forms such as Rutiodon and Smilosuchus gregorii the lateral ulnar margin is straight (coded as ?1?). In Colossosuchus and Mystriosuchus planirostris the margin is convex (coded as ?2?).^n^n';
+	TEXT CHARACTER=98 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 98. Concavity of anterior margin of proximal femoral head: gently concave (0); strongly concave (1).^n^nIn non-parasuchid phytosaurs such as Diandongosuchus, the proximal femoral head has a gently concave anterior margin, whereas the parasuchids are characterised by a stronger concavity.^n^n';
+	TEXT CHARACTER=99 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 99. Vertebral laminae: absent (0); present (1).^n^nNon-Mystriosuchinae phytosaurs are devoid of vertebral laminae (coded as ?0?) and present exclusively in Mystriosuchinae phytosaurs such as Angistorhinus and Colossosuchus (coded as ?1?).^n^n';
+	TEXT CHARACTER=100 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 100.	Number of sacral vertebrae: two (0); three (1) [Modified after SL370].^n^nThis character was modified by reducing the number of character states as more than three sacral vertebrae are not known from any phytosaur taxa.^n^n';
+	TEXT CHARACTER=101 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^n^n^nCharacter 101. Orientation of postacetabular process of the ilium in lateral view: directed posteriorly or downturned (0) directed posterodorsally (1) [Modified after SL464].^n^nThis character was modified to include the variation in the orientation of the postacetabular process, where in some taxa it is downturned.^n^n';
+	TEXT CHARACTER=102 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 102. Degree of concavity of anterior margin of ilium in lateral view: degree of concavity ≥ 100º (0); 100º > degree of concavity ≥ 50º (1); degree of concavity < 50º.^nIn Euparkeria the concavity of the anterior iliac margin is greater than 100 (coded as ''0''). Among the parasuchid phytosaurs, it largely ranges between 100º?50º (coded as ''1''), although it is lower than 50º in Rutiodon (coded as ''2'').^n';
+	TEXT CHARACTER=103 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 103. Paramedian osteoderms: elliptical/leaf shaped with longitudinal keel along the length of the osteoderm (0); roughly circular with a posteriorly placed boss (1) roughly circular with a centrally placed boss (2).^nIn Diandongosuchus the osteoderms are elliptical/leaf shaped (coded as ''0''). The parasuchids such as Parasuchus hislopi and Colossosuchus techniensis have a circular osteoderm with a posteriorly placed boss (coded as ''1''). In the more derived leptosuchomorphs, such as S. adamanensis and S. gregorii, the circular osteoderms have a centrally placed boss (coded as ''2'')^n';
+	TEXT CHARACTER=104 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 104. Dorsal skull margin in lateral view from anterior orbital margin to posterior end of the posterior squamosal process along the postorbital-squamosal bar: straight/nearly straight / convex (0); sigmoidal (1); z-shaped (2).^nEarly-diverging phytosaurs are characterised by a straight dorsal skull margin between the orbit and the posterior squamosal process (coded as ''0''), which becomes sigmoidal in the derived Mystriosuchinae forms such as Angistorhinus and Pravusuchus (coded as ''1''). In Colossosuchus and the undescribed Indian forms (ISIR271 and ISIR276), the skull margin is z-shaped (coded as ''2'').^n';
+	TEXT CHARACTER=105 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 105. Position of supratemporal fenestra: dorsally facing (0), dorsolaterally facing (1).^nAll non-Mystriosuchinae phytosaurs are characterised by undepressed and dorsally facing supratemporal fenestra, including Mystriosuchinae forms such as Angistorhinus and Brachysuchus (coded as ''0''). The derived leptosuchomorph phytosaurs comprises dorsally facing by depressed supratemporal fenestra (coded as ''1''). In Colossosuchus, ISIR271 and ISIR276, however, the supratemporal fenestra is depressed but dorsolaterally oriented (coded as ''2'')^n ';
+	TEXT CHARACTER=106 TEXT='Characters used in the phylogenetic analysis. A brief explanation follows the new characters used, whereas for the characters already used in previous literature, its citation follows the last character state of each. The citations are abbreviated as follows: H, Hungerbühler (2002); S, Stocker (2010); K, Kammerer et al. (2016); SL, Stocker et al. (2017); J, Jones & Butler (2018a); D, Datta et al. (2021a), whereas the numerals indicate the character number of each citation.^n^nCharacter 106. Dorsal margin of skull in occipital view: horizontal/ nearly horizontal (0); distinctly convex (1); sigmoidal (2).^nIn early-diverging parasuchids the dorsal cranial margin is horizontal in occipital view (coded as ‘0’), whereas in more derived taxa, such as Ebrachosuchus and Colossosuchus, it is convex (coded as ‘1’). The more derived Mystriosuchini phytosaurs mostly have a sigmoidal cranial margin (coded as ‘2’).^n';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 106;
+      ENDBLOCK;
+      

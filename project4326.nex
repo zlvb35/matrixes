@@ -1,0 +1,377 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 03.24.01 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Trichogenes longipinnis'
+		'Ituglanis boitata'
+		'Trichomycterus nigricans'
+		'Scleronema minutum'
+		'Homodiaetus anisitsi'
+		'Stauroglanis gouldingi'
+		'Pygidianops amphioxus'
+		'Microcambeva filamentosa'
+		'Microcambeva ribeirae'
+		'Microcambeva bendego'
+		'Microcambeva barbata'
+		'Microcambeva watu'
+		'Microcambeva jucuensis'
+		'Microcambeva mucuriensis'
+		'Microcambeva draco'
+		'Listrura tetraradiata'
+		'Listrura nematoptetyx'
+		'Listrura macacuensis'
+		'Listrura sp. 2'
+		'Listrura macaensis'
+		'Listrura costai'
+		'Listrura picinguabae'
+		'Listrura camposi'
+		'Listrura sp. 1'
+		'Listrura depinnai'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=57;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Mesethmoid, main axis, area posterior to cornu basis, abrupt lateral widening'
+		 [2] 'Mesethmoid, cornu, shape'
+		 [3] 'Lateral ethmoid, lateral margin, surface'
+		 [4] 'Vomer, lateral constriction'
+		 [5] 'Vomer, posterior process'
+		 [6] 'Premaxilla, postero-medial region, dorsal surface, small projection'
+		 [7] 'Premaxilla, lateral extremity, distinctive process'
+		 [8] 'Maxilla, length relative to distance between mesethmoid cornua'
+		 [9] 'Autopalatine, general shape'
+		 [10] 'Autopalatine, posterior region, length relative to autopalatine length'
+		 [11] 'Autopalatine, postero-lateral process, posterior portion, expansion'
+		 [12] 'Autopalatine, postero-lateral tip, narrow and flat ossification postero-medially directed'
+		 [13] 'Autopalatine, postero-medial margin, latero-dorsally directed process'
+		 [14] 'Autopalatine, anterior cartilage head, anterior margin, ossification'
+		 [15] 'Autopalatine, osseous portion, anterior margin, shape'
+		 [16] 'Antorbital, shape'
+		 [17] 'Supraorbital, development'
+		 [18] 'Metapterygoid, development'
+		 [19] 'Hyomandibula, dorsal margin, area just anterior to cartilage articulating hyomandibula and neurocranium, prominent expansion'
+		 [20] 'Quadrate, dorsal process, posterior margin, laminar extension'
+		 [21] 'Opercle, odontode patch, width relative to length of cartilage articulating hyomandibula and neurocranium'
+		 [22] 'Opercle, dorsal surface, area just anterior to odontode patch'
+		 [23] 'Interopercle, area between dorsal process and odontode patch, shape'
+		 [24] 'Interopercle, odontode patch, length relative to width of opercular odontode patch'
+		 [25] 'Interopercle, lateral surface, projection'
+		 [26] 'Neurocranium, roof, dorsal surface; aperture'
+		 [27] 'Neurocranium, antero-frontal, lateral constriction'
+		 [28] 'Neurocranium, frontal, anterior extent relative to autopalatine structures'
+		 [29] 'Neurocranium, anterior supraorbital canal (between pores s1–s3)'
+		 [30] 'Neurocranium, posterior supraorbital canal (between pores s3–po1)'
+		 [31] 'Neurocranium, supraorbital pore s6'
+		 [32] 'Ceratobranchial 4, sub-proximal region, process'
+		 [33] 'Hypobranchial 3, ossification'
+		 [34] 'Parurohyal, lateral process, shape'
+		 [35] 'Ribs, number'
+		 [36] 'Trunk, pigmentation'
+		 [37] 'Trunk, shape'
+		 [38] 'Trunk, precaudal vertebrae, neural spines, anterior process'
+		 [39] 'Trunk, dorsal surface, pre-dorsal region, adipose fold'
+		 [40] 'Caudal peduncle, procurrent caudal-fin rays, anterior extent'
+		 [41] 'Caudal skeleton, dorsal and ventral hypural plates, fusion'
+		 [42] 'Caudal skeleton, lower hypurals, shape'
+		 [43] 'Caudal fin, general morphology'
+		 [44] 'Caudal fin, principal caudal-fin rays, number'
+		 [45] 'Pectoral girdle, main components (cleithrum and proximal radials), development'
+		 [46] 'Pectoral fin, rays, development'
+		 [47] 'Pectoral fin, first ray, length relative to subsequent rays'
+		 [48] 'Pectoral fin, first ray, tip, filament, length relative to pectoral fin length'
+		 [49] 'Pectoral fin, minor proximal radial, ossification'
+		 [50] 'Pelvic fin, medial interspace'
+		 [51] 'Pelvic fin'
+		 [52] 'Dorsal fin'
+		 [53] 'Anal fin, origin, position relative to principal dorsal-fin rays'
+		 [54] 'Nasal barbel, development'
+		 [55] 'Eye, position in head'
+		 [56] 'Eye, size expressed as percentage of head length'
+		 [57] 'Head, ventral surface, branchiostegal region, paired barbel-like short projection'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'narrow and cylindrical'
+		'broad and flat'
+		,
+		3
+		'smooth, without projections'
+		'with flattened, subtriangular projection'
+		'with pronounced subcylindrical process'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'equal or slightly longer'
+		'about one time and half'
+		'about twice or slightly more'
+		,
+		9
+		'slender, with well-developed postero-lateral process'
+		'broad, postero-lateral process absent'
+		,
+		10
+		'short, about half length or slightly less'
+		'long, about two thirds'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'slightly curved to about straight'
+		'strongly sinuous'
+		,
+		16
+		'rod-shaped'
+		'comma-shaped'
+		,
+		17
+		'well-developed'
+		'rudimentary'
+		,
+		18
+		'well-developed'
+		'rudimentary'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'smaller'
+		'larger'
+		,
+		22
+		'straight to slightly concave'
+		'with prominent concavity'
+		,
+		23
+		'not constricted'
+		'strongly constricted'
+		,
+		24
+		'equal or smaller'
+		'about twice larger'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'with open fontanel'
+		'roof solid, without apertures'
+		,
+		27
+		'gradual and weak'
+		'abrupt and strong'
+		,
+		28
+		'posterior to articular facet for lateral ethmoid'
+		'near postero-medial tip overlapping vomer'
+		'about mid-length between postero-medial tip and limit between osseus portion and anterior cartilage'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'present'
+		'absent'
+		,
+		31
+		'paired'
+		'single, median'
+		,
+		32
+		'present'
+		'absent'
+		,
+		33
+		'with well-developed anterior ossification'
+		'ossification rudimentary, usually absent'
+		,
+		34
+		'short and broad'
+		'long and narrow'
+		,
+		35
+		'six or more'
+		'four or fewer (taken from Costa and Bockmann [6])'
+		,
+		36
+		'well pigmented, making body wall opaque'
+		'hyaline, with a few scattered chromatophores'
+		,
+		37
+		'fusiform'
+		'eel-like'
+		,
+		38
+		'present'
+		'absent'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'limited to area close to caudal fin'
+		'anteriorly extending to near dorsal and anal fins'
+		,
+		41
+		'unfused, separated by broad gap'
+		'partially fused, at least with posterior gap separating plates'
+		'fused, often resting small antero-middle notch'
+		,
+		42
+		'subtrapezoidal'
+		'subrectangular as a result of an anteroventral expansion'
+		,
+		43
+		'subtruncate'
+		'rounded, almost indistinct between caudal peduncle procurrent rays'
+		'bilobed'
+		,
+		44
+		'17'
+		'13'
+		'11 or 12'
+		,
+		45
+		'robust and thick'
+		'narrow and thin'
+		,
+		46
+		'first and remaining rays well developed'
+		'first rays developed, followed by one to three rudimentary rays'
+		'single barbel-like rayed'
+		,
+		47
+		'slightly longer'
+		'shorter'
+		,
+		48
+		'short, 20% or less'
+		'long, about 70-80%'
+		,
+		49
+		'cartilaginous'
+		'ossified'
+		,
+		50
+		'in close proximity'
+		'broader than pelvic-fin base'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'posteriorly placed, in vertical through or posterior to them'
+		'anteriorly placed, in vertical anterior to them'
+		,
+		54
+		'well-developed, reaching between opercular odontode patch and pectoral fin base'
+		'rudimentary, barely reaching posterior nostril'
+		,
+		55
+		'anterior'
+		'posterior'
+		,
+		56
+		'medium sized (about 12-16%)'
+		'hypertrophied (about 18-22%)'
+		'minute (about 7-10%)'
+		,
+		57
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Trichogenes longipinnis'		           0000000000000000000000010000000010000000001000000000?0000
+	'Ituglanis boitata'		                 000000000000000000001001010000000000000000010000000000000
+	'Trichomycterus nigricans'		          000000000000000000000001000000000000000000010000000000000
+	'Scleronema minutum'		                000000010000000000001000001000?00000000000010010010001000
+	'Homodiaetus anisitsi'		              0?00000000000000?1000000000010?01111000000010000000001000
+	'Stauroglanis gouldingi'		            000001010000010001000000001010000111000000010000000000100
+	'Pygidianops amphioxus'		             ??00000100000000?100000?01001??001111010????0???0?11?0??0
+	'Microcambeva filamentosa'		          00010101000000100110110010001011011100100011000100000????
+	'Microcambeva ribeirae'		             000101020100000001001100101010110111000001110010110001111
+	'Microcambeva bendego'		              000101020100000001001100101010110111000001110010110001111
+	'Microcambeva barbata'		              000101120000011001001000100010010111000001110000110000111
+	'Microcambeva watu'		                 000101120010011001001000?000100101110?0001110000110000111
+	'Microcambeva jucuensis'		            000101120010011001001000100010010111000001110000110000111
+	'Microcambeva mucuriensis'		          000101120010011001001000100010010111000001110000110000111
+	'Microcambeva draco'		                000101120010011001001000100010010111000001110000110000111
+	'Listrura tetraradiata'		             100111001001101111000011110111?011101101202110000?1000020
+	'Listrura nematoptetyx'		             102111001001001111010010110211?011101101202212000?1010020
+	'Listrura macacuensis'		              102111001001001111010010110211?011101101202212(0,1)?0?1010020
+	'Listrura sp. 2'		                    ???????????????????????????2?????????????????2????11?????
+	'Listrura macaensis'		                102111001001001111010010110211?0111011012022120?0?1010020
+	'Listrura costai'		                   102111001001001111010010110211?0111011012022120?0?1010020
+	'Listrura picinguabae'		              112111001001001111010010110211?0111011012022120?0?1010020
+	'Listrura camposi'		                  101111001001001111000010110111?0111011011022110?0?1000020
+	'Listrura sp. 1'		                    101111001001001111000010110111?0111011011022110?0?1000020
+	'Listrura depinnai'		                 101111001001001111000010110111?0111011011022110?0?11?0020
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=42 TEXT='In taxa with the character state 1, the ventral lobe of the caudal fin is slightly expanded posteriorly and there is a reduced number (4–7) of ventral procurrent caudal-fin rays, apomorphic conditions here considered as possibly interdependent, thus not analysed separately.';
+	TEXT CHARACTER=47 TEXT='the taxa having a relatively short and robust first pectoral-fin ray (character state 1), also have a hypertrophied major proximal radial, considered to be dependent conditions of a single event.';
+	TEXT CHARACTER=50 TEXT='?: taxa without pelvic fin';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 57;
+      ENDBLOCK;
+      

@@ -1,0 +1,367 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.24.11 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=19;
+    TAXLABELS
+    		'Tinodon bellus'
+		'Spalacotherium tricuspidens'
+		'Paurodon valens'
+		'Henkelotherium guimarotae'
+		'Drescheratherium acutum'
+		'Anthracolestes sergei'
+		'Amblotherium pusillum'
+		'Amblotherium gracile'
+		'Achyrodon nanus'
+		'Phascolestes mustelulus'
+		'Laolestes eminens'
+		'Dryolestes priscus'
+		'Dryolestes leiriensis'
+		'Krebsotherium lusitanicum'
+		'Guimarotodus inflatus'
+		'Crusafontia cuencana'
+		'Hercynodon germanicus'
+		'Beckumia tenera'
+		'Balve mandible'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=48;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Lower canine, distal cusp or short labial cingulid'
+		 [2] 'Lower canine, lingual cingulid'
+		 [3] 'Lower canine, number of roots'
+		 [4] 'Ultimate upper premolar'
+		 [5] 'Ultimate upper premolar, cingulum'
+		 [6] 'Lower premolars, number'
+		 [7] 'Lower premolars, relative size'
+		 [8] 'Lower premolars, anterior accessory cusp'
+		 [9] 'Lower premolars, lingual cingulid'
+		 [10] 'Ultimate lower premolar, size relative to first molar'
+		 [11] 'Ultimate lower premolar, W/L ratio'
+		 [12] 'Ultimate lower premolar, mesial edge'
+		 [13] 'Ultimate lower premolar, distinct distal cingulid cusp d'
+		 [14] 'Ultimate lower premolar cusp c (between main cusp a and cingulid cusp d)'
+		 [15] 'Upper molars, number'
+		 [16] 'Upper molar shape (calculated on widest molar in series when possible)'
+		 [17] 'Upper molars, labial cingulum'
+		 [18] 'Upper molars, ectoflexus'
+		 [19] 'Upper molars, cusp B'
+		 [20] 'Upper molars, preparacrista recurved distally towards large centrtal stylocone'
+		 [21] 'Upper molars, stylocone, size relative to metacone (or paracone, if metacone absent)'
+		 [22] 'Upper molars, median cusp'
+		 [23] 'Upper molars, median crest between stylocone and paracone'
+		 [24] 'Upper molars, crest between stylocone and metacone'
+		 [25] 'Upper molars, metacone'
+		 [26] 'Upper molars, lingual cingulum'
+		 [27] 'Upper molars, number of roots'
+		 [28] 'Lower molars, number'
+		 [29] 'Lower molars, unilateral hypsodonty'
+		 [30] 'Lower molars, length to width ratio (L/W)'
+		 [31] 'Lower molars, metaconid to protoconid height'
+		 [32] 'Lower molars, paracristid and protocristid, lowest point'
+		 [33] 'Lower molars, protocristid orientation'
+		 [34] 'Lower molars, paraconid, direction'
+		 [35] 'Lower molars, paraconid, size relative to metaconid'
+		 [36] 'Lower molars, metaconid'
+		 [37] 'Lower molars, talonid'
+		 [38] 'Lower molars, lingual cingulid'
+		 [39] 'Lower molars, labial cingulid'
+		 [40] 'Lower molars, extensive wear in hypoflexid (facet 3)'
+		 [41] 'Lower molars, roots'
+		 [42] 'Anterior end of dentary upturned dorsally so the incisors placed above the level of molars'
+		 [43] 'Height of mandibular ramus between canine and last molariform'
+		 [44] 'Dentary, height of labial alveolar border relative to the lingual border'
+		 [45] 'Coronoid process'
+		 [46] 'Angle of coronoid process to toothrow'
+		 [47] 'Pterygoid crest'
+		 [48] 'Angular process'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'one'
+		'two'
+		,
+		4
+		'similar in length or shorter and narrower than M1'
+		'robust, about twice longer and similar in width with M1'
+		,
+		5
+		'complete around the crown'
+		'only labial cingulum'
+		'no cingulum'
+		,
+		6
+		'three or less'
+		'four'
+		,
+		7
+		'gradual increase in size posteriorly'
+		'p2 smaller than p1 and p3'
+		'p1-2 similar in size and distinctly smaller than p3-4'
+		,
+		8
+		'present'
+		'absent'
+		,
+		9
+		'continuous'
+		'incomplete or absent'
+		,
+		10
+		'lower or subequal'
+		'taller'
+		,
+		11
+		'0.50 or less'
+		'between 0.51 and 0.70'
+		'0.71 or greater'
+		,
+		12
+		'straight'
+		'convex'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'three or less'
+		'five'
+		'six'
+		'seven or eight'
+		,
+		16
+		'as long as wide, or longer (L/W > 0.99)'
+		'wider than long (0.75 < L/W < 0.99)'
+		'much wider than long (L/W < 0.75)'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'present'
+		'absent'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'smaller'
+		'subequal or larger'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'large, with convex mesial side'
+		'small, crest-like or absent'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'two'
+		'three'
+		,
+		28
+		'five or less'
+		'six-seven'
+		'eight-nine'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'more than 1.1'
+		'1.1 or less'
+		,
+		31
+		'less than 40%'
+		'more than 40%'
+		,
+		32
+		'approximately at the same level'
+		'distinctly higher on protocristid'
+		,
+		33
+		'oblique'
+		'transverse'
+		,
+		34
+		'almost vertical, parallel to protoconid'
+		'mesiodorsally directed, deviated from protoconid'
+		,
+		35
+		'subequal'
+		'about twice shorter'
+		,
+		36
+		'pointed'
+		'blunt, or chisel-like, or bifid'
+		,
+		37
+		'absent or cingulid cusp d'
+		'heel-like'
+		'shelf-like'
+		,
+		38
+		'present'
+		'absent'
+		,
+		39
+		'absent or incomplete'
+		'complete'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'equal'
+		'distal root much smaller and lingually placed'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'sub-uniform'
+		'becomes higher posteriorly'
+		,
+		44
+		'at least 80%'
+		'less than 80%'
+		,
+		45
+		'anteroposteriorly broad'
+		'narrow, separated from condylar process by deep mandibular notch'
+		,
+		46
+		'135-115 grad'
+		'95-115 grad'
+		,
+		47
+		'present, reaching dentary condyle'
+		'present, extending to base of angular process'
+		'absent'
+		,
+		48
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Tinodon bellus'		                       0010?000100000?00?000000000000000000000000000100
+	'Spalacotherium tricuspidens'		          0?10000000?0002100000000000110000000001000000000
+	'Paurodon valens'		                      000??001011101?10010000001100001110011010000?011
+	'Henkelotherium guimarotae'		            ???011?101?10111001000000111??11110011?10?1?0011
+	'Drescheratherium acutum'		              ???01?????????1100100000011?????????????????????
+	'Anthracolestes sergei'		                ??1???0?????????????????????1011011021011001?0??
+	'Amblotherium pusillum'		                1?01?10101?101?2?0101100?11211111110211110111011
+	'Amblotherium gracile'		                 1?1??1?1011101?200101100011211111110211110111011
+	'Achyrodon nanus'		                      1?11211111?1013210101?0011121?11111121011011?111
+	'Phascolestes mustelulus'		              00012121111111321010110011121?111111210111110111
+	'Laolestes eminens'		                    11110111011101321(0,1)111110011211111111210110110011
+	'Dryolestes priscus'		                   ???1?1?101210132111111010112111111112101101100?1
+	'Dryolestes leiriensis'		                111101110121013211111101011211111111210110110011
+	'Krebsotherium lusitanicum'		            111111110111013211111110011211111111210110110011
+	'Guimarotodus inflatus'		                111??111012101?????????????211111111210110110?11
+	'Crusafontia cuencana'		                 101??121111111?210101100111211111110211111110111
+	'Hercynodon germanicus'		                ???????????????210101100111?1?111110?1111???????
+	'Beckumia tenera'		                      ???????????????211101100011?1?11111??11?1???????
+	'Balve mandible'		                       ??1??11????????????????????211???1???1??10110111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=3 TEXT='Rougier et al., 2007: char. 4';
+	TEXT CHARACTER=6 TEXT='Rougier et al. 2007: char. 5 modified; Wible et al., 2009: char. 29 modified; Rougier et al. 2011: 38 mod.';
+	TEXT CHARACTER=8 TEXT='Rougier et al. 2011: 43 modified';
+	TEXT CHARACTER=9 TEXT='Rougier et al. 2011: 49 modified';
+	TEXT CHARACTER=10 TEXT='Rougier et al. 2007: 8 modified; Rougier et al. 2011: 47 modified';
+	TEXT CHARACTER=11 TEXT='Rogier et al. 2011: 46 modified';
+	TEXT CHARACTER=12 TEXT='Rougier et al. 2011: 42 modified';
+	TEXT CHARACTER=13 TEXT='Rogier et al. 2011: 45 modified';
+	TEXT CHARACTER=14 TEXT='Rougier et al. 2007: 9 modified; Rogier et al. 2011: 50 modified';
+	TEXT CHARACTER=15 TEXT='Rougier et al., 1998: char. 4 modified; Wible et al., 2009: char. 61 modified; Rougier et al., 2011: 127 modified';
+	TEXT CHARACTER=16 TEXT='Rougier et al., 1998: char. 15; Wible et al., 2009: char. 64';
+	TEXT CHARACTER=17 TEXT='new';
+	TEXT CHARACTER=18 TEXT='Rougier et al., 2011: 129 modified';
+	TEXT CHARACTER=20 TEXT='Martin, 1999: char. 5 modified; Rougier et al., 2011: 122 modified';
+	TEXT CHARACTER=21 TEXT='Martin, 1999: char. 8 modified; Rougier et al. 2011: 123 modified';
+	TEXT CHARACTER=23 TEXT='Simpson, 1929; Martin, 1999: 15 modified; Rougier et al, 2011: 102 modified';
+	TEXT CHARACTER=24 TEXT='Martin, 1999: char. 10';
+	TEXT CHARACTER=26 TEXT='Rougier et al. 2012: 141 modified';
+	TEXT CHARACTER=27 TEXT='Rougier et al. 2001: 141 modified; Rougier et al. 2011: 141 modified';
+	TEXT CHARACTER=28 TEXT='Rougier et al., 1998: char. 4 modified; Wible et al., 2009: char. 61 modified; Rougier et al., 2011; 127 modified';
+	TEXT CHARACTER=29 TEXT='Rougier et al. 2011: 107 modified';
+	TEXT CHARACTER=30 TEXT='Rougier et al. 2011: 104 modified';
+	TEXT CHARACTER=31 TEXT='Rougier et al. (2011: 58).';
+	TEXT CHARACTER=33 TEXT='Wible et al., 2009: char. 113; Rougier et al. 2011: 116';
+	TEXT CHARACTER=34 TEXT='Rougier et al., 2011: 78 modified';
+	TEXT CHARACTER=35 TEXT='Martin, 1999: char. 19 modified; Wible et al., 2009: char. 107 modified; Rougier et al., 2011: 59 modified';
+	TEXT CHARACTER=36 TEXT='Martin, 1999: char. 11 modified; Rougier et al., 2011: 117 modified';
+	TEXT CHARACTER=37 TEXT='Rougier et al. 2011: 83 modified';
+	TEXT CHARACTER=39 TEXT='Li & Luo, 2006: char. 7 modified;  Sweetman, 2008: char. 7 modified; Ji et al., 2009: char. 13';
+	TEXT CHARACTER=40 TEXT='Rougier et al., 2011: 112 modified';
+	TEXT CHARACTER=41 TEXT='Simpson, 1928, 1929; Prothero, 1981; Martin, 1999: char. 1; Rougier et al. 2011: 132 modified';
+	TEXT CHARACTER=43 TEXT='Rougier et al. 2007: char. 41';
+	TEXT CHARACTER=44 TEXT='Simpson, 1929; Prothero, 1981; Martin, 1999: char. 3 modified';
+	TEXT CHARACTER=45 TEXT='Rougier et al. 2007: char. 43 modified; Ji et al., 2009: char. 38 modified';
+	TEXT CHARACTER=46 TEXT='Kielan-Jaworowska et al., 2004: char. 25 modified; Rougier et al. 2011: 26 mod.';
+	TEXT CHARACTER=48 TEXT='Rougier et al. 2011: 8 mod.';
+
+      [Attribute comments]
+      	TEXT TAXON=1 CHARACTER=46 TEXT='90-100 grad: Luo et al., 2002: char. 25';
+	TEXT TAXON=2 CHARACTER=46 TEXT='120 grad';
+	TEXT TAXON=3 CHARACTER=46 TEXT='135 grad';
+	TEXT TAXON=4 CHARACTER=46 TEXT='115 grad: Luo et al., 2002: char. 25';
+	TEXT TAXON=10 CHARACTER=46 TEXT='110 grad';
+	TEXT TAXON=11 CHARACTER=46 TEXT='110 grad';
+	TEXT TAXON=14 CHARACTER=46 TEXT='120 grad';
+	TEXT TAXON=16 CHARACTER=46 TEXT='92 grad';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 48;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1621587119693; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3788486623888412075; tell It; setDefaultOrder 2 3 14 15 16 23 10 9 11 12 6 4 5 7 8 13 22 17 18; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 7703863147109622019; tell It; setDefaultOrder 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 29 22 23 24 19 25 26 27 31 20 33 34 35 38 40 41 43 44 45 47 49 50 52 53 55 59 60 63 64 66 67; attachments ; endTell; mqVersion 361; checksumv 0 3 1136917578 null getNumChars 48 numChars 48 getNumTaxa 19 numTaxa 19 short true bits 15 states 15 sumSquaresStatesOnly 2966.0 sumSquares 2966.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 961; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #7703863147109622019 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 889; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 889; setLocation -8 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 48; 
+ENDBLOCK;

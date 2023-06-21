@@ -1,0 +1,607 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 02.40.39 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=29;
+    TAXLABELS
+    		'Monachus monachus'
+		'Enaliarctos emlongi'
+		'Pteronarctos goedertae'
+		'Callorhinus ursinus'
+		'Desmatophoca oregonensis'
+		'Allodesmus gracilis'
+		'Erignathus barbatus'
+		'Prototaria primigenia'
+		'Proneotherium repenningi'
+		'Neotherium mirum'
+		'Kamtschatarctos sinelnikovae'
+		'Pseudotaria muramotoi'
+		'Archaeodobenus akamatsui'
+		'Pelagiarctos spp.'
+		'Nanodobenus arandai'
+		'Titanotaria orangensis'
+		'Imagotaria downsi'
+		'Pontolis barroni sp. nov.'
+		'Pontolis kohnoi sp. nov.'
+		'Cf. pontolis magnus'
+		'Osodobenus eodon gen. et sp. nov.'
+		'Gomphotaria pugnax'
+		'Dusignathus seftoni'
+		'Dusignathus santacruzensis'
+		'Aivukus cedrosensis'
+		'Protodobenus japonicus'
+		'Ontocetus emmonsi'
+		'Valenictus chulavistensis'
+		'Odobenus rosmarus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=91;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Rostral process of premaxilla'
+		 [2] 'anterior narial opening'
+		 [3] 'Ascending process of premaxilla along nasal'
+		 [4] 'Nasal posterior end'
+		 [5] 'Incisive foramen'
+		 [6] 'Infraorbital foramen'
+		 [7] 'Ventral tuberosity of zygomatic root'
+		 [8] 'Anteroventral process of jugal'
+		 [9] 'Palate'
+		 [10] 'Palatal margin of maxilla'
+		 [11] 'Palatine'
+		 [12] 'Hamular process of pterygoid'
+		 [13] 'Pterygoid strut'
+		 [14] 'Fossa muscularis on orbital wall'
+		 [15] 'Antorbital process'
+		 [16] 'Supraorbital process'
+		 [17] 'Interorbital bar'
+		 [18] 'Postorbital process of Jugal'
+		 [19] 'Zygomatic process of squamosal'
+		 [20] 'Orbital vacuity'
+		 [21] 'Optic foramen and orbitosphenoid'
+		 [22] 'Internal auditory meatus'
+		 [23] 'Epitympanic recess'
+		 [24] 'Anterior opening of carotid canal'
+		 [25] 'Squamosal fossa on external auditory meatus'
+		 [26] 'Glenoid fossa'
+		 [27] 'Tranverse ridge on squamosal'
+		 [28] 'Pseudosylvian sulcus'
+		 [29] 'Bony tentorium'
+		 [30] 'Basioccipital'
+		 [31] 'Posterior lacerate foramen'
+		 [32] 'Lambdoidal crest'
+		 [33] 'Mastoid process'
+		 [34] 'Paroccipital process'
+		 [35] 'Mandible: fusion of mandibular symphysis'
+		 [36] 'Mandible: length of mandibular symphysis'
+		 [37] 'Mandible: genial tuberosity'
+		 [38] 'Mandible: anterior portion of symphyseal region'
+		 [39] 'Mandible: horizontal ramus'
+		 [40] 'Mandible: mandibular furrow'
+		 [41] 'Mandible: edentulous mandibular terminus'
+		 [42] 'Mandible: posteroventral terminus of mandibular symphysis'
+		 [43] 'Mandible: depth of horizontal ramus'
+		 [44] 'Mandible: mandibular arch'
+		 [45] 'Mandible: ventral border'
+		 [46] 'Mandible: enlarged digastric insertion'
+		 [47] 'Mandible: mandibular condyle'
+		 [48] 'Mandible: mandibular foramen'
+		 [49] 'Mandible: medial shelf of angular process'
+		 [50] 'Mandible: base of coronoid process'
+		 [51] 'Upper Incisors, number'
+		 [52] 'Upper I3 proportions'
+		 [53] 'Lower incisors: number'
+		 [54] 'Lower Incisors: relative size'
+		 [55] 'Upper Canine'
+		 [56] 'Lower canines: size compared to upper canines'
+		 [57] 'Lower canine: posterior crista'
+		 [58] 'Lower canines: longitudinal fluting'
+		 [59] 'Lower canines: root'
+		 [60] 'Lower canines: orientation'
+		 [61] 'Lower premolars'
+		 [62] 'Postcanines: tooth enamel'
+		 [63] 'Postcanines: crowns'
+		 [64] 'Postcanines: root lobes'
+		 [65] 'Lower postcanines: tooth row length'
+		 [66] 'Lower postcanines: paraconid cusps'
+		 [67] 'Lower postcanines: lingual cingula'
+		 [68] 'Lower premolars: hypoconid cusps'
+		 [69] 'Lower postcanines: talonid basin'
+		 [70] 'Lower postcanines: metaconid'
+		 [71] 'Upper P1-2, cingulum'
+		 [72] 'Lower P2: rooting'
+		 [73] 'Lower P3-4: rooting'
+		 [74] 'Upper P3, roots'
+		 [75] 'Upper P4, protocone shelf'
+		 [76] 'Upper P4, roots'
+		 [77] 'Upper M1, roots'
+		 [78] 'Lower M1'
+		 [79] 'Lower M1: rooting'
+		 [80] 'Upper M2, roots'
+		 [81] 'Lower M2'
+		 [82] 'Postcanine tooth wear'
+		 [83] 'Humerus, deltoid tubercle'
+		 [84] 'Humerus, diameter of distal trochlea'
+		 [85] 'Radius, distal end'
+		 [86] 'Metacarpal I, insertion of pollicle extensor'
+		 [87] 'Scapholunar'
+		 [88] 'Astragalus, calcaneal process'
+		 [89] 'Calcaneum, calcaneal tuber'
+		 [90] 'Entocuneiform/mesocuneiform articulation'
+		 [91] 'Spinous process, axis'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'large, thin margin and rounded'
+		'large, thick margin and dorsoventrally elliptical'
+		'large, thick margin with prenarial shelf'
+		,
+		3
+		'overlap with nasal long, no contact of nasal and maxilla'
+		'short, no contact of ascending process and frontal'
+		'very short'
+		,
+		4
+		'converging'
+		'parallel with broad V-shaped frontal/maxillary suture'
+		'parallel with tranversely straight frontal/maxillary suture'
+		'diverging'
+		'penetrating to frontal'
+		,
+		5
+		'distinct pair'
+		'foramina coalesced, trilobed pits'
+		'single pit or reduced'
+		,
+		6
+		'small'
+		'large'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'moderate'
+		'long, reaching M1 alveolus'
+		'absent'
+		,
+		9
+		'flat'
+		'arched tranversely'
+		'arched tranversely and longitudinally'
+		,
+		10
+		'slightly divergent'
+		'nearly parallel'
+		'posteriorly very wide'
+		,
+		11
+		'small'
+		'long and posterlaterally expanded'
+		'"telescoped, underlying alisphenoid"'
+		,
+		12
+		'small and narrow'
+		'large and broad'
+		,
+		13
+		'slender'
+		'dorsoventrally thin and laterally projected'
+		'dorsoventrally thick and laterally broad'
+		'laterally thin and broad'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'small ridge on frontal'
+		'prominent on frontal and maxilla'
+		'prominent only on maxilla'
+		'absent'
+		,
+		16
+		'small bump'
+		'absent'
+		'large and shelf-like'
+		,
+		17
+		'moderate in width, broader than intertemporal region'
+		'narrow, parallel-sided'
+		'very broad and short'
+		'transversely narrow anteriorly, widening posteriorly'
+		,
+		18
+		'small'
+		'dorsally projected'
+		,
+		19
+		'long and slender'
+		'short and slender'
+		'dorsoventrally broad'
+		'exaggerated'
+		,
+		20
+		'absent'
+		'present, anteriorly positioned'
+		'present, posteriorly positioned'
+		,
+		21
+		'plate-like'
+		'funnel-shaped'
+		,
+		22
+		'rounded'
+		'bilobed'
+		'canals for nerves VII and VIII separated'
+		,
+		23
+		'small'
+		'large'
+		'very large'
+		,
+		24
+		'proportionate'
+		'retracted'
+		,
+		25
+		'present'
+		'reduced'
+		,
+		26
+		'deep'
+		'shallow'
+		'laterally shortened'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'present, deep'
+		'reduced or absent'
+		,
+		29
+		'far from petrosal'
+		'appressed to petrosal'
+		'reduced'
+		,
+		30
+		'narrow and parallel-sided'
+		'broad and pentagonal'
+		,
+		31
+		'rounded'
+		'tranversely expanded'
+		'fissure'
+		,
+		32
+		'crestlike, posterodorsally projected'
+		'flattened, anterodorsally projected'
+		,
+		33
+		'small'
+		'large'
+		'very large as widest part of skull'
+		'pachyostotic'
+		,
+		34
+		'small and separated from mastoid process'
+		'enlarged posteriorly but still separated from mastoid process'
+		'moderately sized and joined with mastoid process by continous ridge'
+		'flattened and plate-like'
+		,
+		35
+		'Absent'
+		'Present'
+		,
+		36
+		'Less than 50% of length of horizontal ramus'
+		'Greater than 50% of length of horizontal ramus'
+		,
+		37
+		'Absent or indistinct'
+		'Present; developed as small tubercle or process on anterior portion of ramus in lateral view'
+		'Present and well developed; extends well below ventral margin of ramus in lateral view'
+		,
+		38
+		'Smooth, compact bone'
+		'Rugose, vascular bone'
+		,
+		39
+		'horizontal'
+		'upturned'
+		,
+		40
+		'absent'
+		'anterodorsal end of mandibles have a longitudinal furrow anteriorly'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'Same level or anterior to p1 or p2'
+		'Posterior to the level of p2'
+		,
+		43
+		'deepest part of horizontal ramus posterior to mandibular symphysis'
+		'deepest part of horizontal ramus at posteroventral terminus of symphysis'
+		,
+		44
+		'Nearly parallel'
+		'Sharply divergent'
+		,
+		45
+		'Straight'
+		'Sinuous'
+		,
+		46
+		'Absent'
+		'Present'
+		,
+		47
+		'At or slightly above level of tooth row'
+		'Elevated above tooth row'
+		,
+		48
+		'Directed anteroventrally'
+		'Directed anterodorsally'
+		,
+		49
+		'Does not form medial shelf'
+		'Forms small medial shelf'
+		,
+		50
+		'Narrow (Less than 42% of mandible length)'
+		'broad (greater than or equal to 42% of mandible length)'
+		,
+		51
+		'three'
+		'two'
+		'one'
+		'upper incisors absent'
+		,
+		52
+		'long and slender'
+		'moderate'
+		'premolariform'
+		'absent'
+		,
+		53
+		'two'
+		'one'
+		'incisors absent'
+		,
+		54
+		'Lower incisors of equal size, form transverse arcade'
+		'Lateral incisors greater in size than medial incisors, medial incisor placed posteromedial to lateral incisor'
+		,
+		55
+		'Proportionate'
+		'tusk-like'
+		'tusk-like with globular osteodentin'
+		,
+		56
+		'Nearly equal (100-80%) and caniniform'
+		'Reduced (75-20%) and premolariform'
+		'Lower canine absent'
+		,
+		57
+		'present'
+		'absent'
+		,
+		58
+		'Absent'
+		'Present'
+		,
+		59
+		'Oval or circular in cross section'
+		'Bilobate in cross section or prominent longitudinal labial sulcus'
+		,
+		60
+		'Not procumbent and vertically oriented'
+		'Procumbent'
+		,
+		61
+		'P1-4 Present'
+		'P1-3 present, P4 Absent'
+		'Premolars absent'
+		,
+		62
+		'Well developed'
+		'Thin or patchy'
+		'Cementum only'
+		,
+		63
+		'Laterally compressed'
+		'Bulbous'
+		,
+		64
+		'Root lobes of postcanine teeth of equal or narrower width than crowns'
+		'Root lobes of postcanine teeth inflated and wider than crowns'
+		,
+		65
+		'Long (length of tooth row greater than 40% of the mandible length)'
+		'Short (length of tooth row less than or equal to 40% of the mandible length)'
+		,
+		66
+		'Present and well developed'
+		'Absent or reduced'
+		,
+		67
+		'Present and smooth'
+		'Present and rough or crenulated'
+		,
+		68
+		'Present'
+		'Absent'
+		,
+		69
+		'Absent'
+		'Slight concavity or small shelf'
+		,
+		70
+		'Present'
+		'Reduced'
+		'Absent'
+		,
+		71
+		'well developed with cuspules'
+		'distinct but small'
+		'weak and bulbous'
+		'P1-P2 absent'
+		,
+		72
+		'Double or bilobate'
+		'Single'
+		,
+		73
+		'Double'
+		'Single'
+		,
+		74
+		'double rooted'
+		'single and bilobed'
+		'single and cylindrical'
+		'P3 absent'
+		,
+		75
+		'anteromedially placed'
+		'posteromedially placed with small cuspules'
+		'reduced or absent'
+		,
+		76
+		'triple rooted'
+		'double rooted'
+		'single rooted'
+		'P4 absent'
+		,
+		77
+		'triple rooted'
+		'double rooted'
+		'single rooted'
+		'M1 absent'
+		,
+		78
+		'Present'
+		'Absent'
+		,
+		79
+		'Double rooted'
+		'Single rooted'
+		,
+		80
+		'double rooted'
+		'single rooted'
+		'M2 absent'
+		,
+		81
+		'Present'
+		'Absent'
+		,
+		82
+		'Absent'
+		'Minor wear on anterior and posterior cusps or apical wear'
+		'Large wear facets on anterior and posterior edges'
+		'Heavily worn and polished'
+		,
+		83
+		'on pectoral crest'
+		'on lateral edge of crest'
+		'off crest'
+		,
+		84
+		'medial lip same or smaller diameter as distal capitulum'
+		'medial lip diameter greater than distal capitulum'
+		,
+		85
+		'unexpanded'
+		'expanded with small radial process'
+		'expanded with large radial process'
+		,
+		86
+		'pit'
+		'smooth'
+		'rugosity'
+		,
+		87
+		'no pit for magnum'
+		'well-formed pit'
+		,
+		88
+		'absent'
+		'present'
+		'elongated'
+		,
+		89
+		'straight'
+		'medially prominent'
+		,
+		90
+		'abutting'
+		'overlapping'
+		,
+		91
+		'axe-like'
+		'blade-like'
+		'sinuous'
+		
+	;
+	MATRIX
+	'Monachus monachus'		                          002400020200312111310220020120103000000000100100011100000000000010100010002110021100110200?
+	'Enaliarctos emlongi'		                        1000000000000000000001000000000000000000000000000001000000000000000000100000100100????????0
+	'Pteronarctos goedertae'		                     100000100000000000000?0000000000020010000000000000010000000000001000001000111001000???????0
+	'Callorhinus ursinus'		                        1003000001000122000100001001000002000000001000011?01000000000000110102111122201110001100000
+	'Desmatophoca oregonensis'		                   00241001{0,1}2101130112001210000000001001000001001001000010000000010100001000021{1,2}0010000???????
+	'Allodesmus gracilis'		                        02241001{0,1}21011301120012101010{0,1}100100100001101101000001000000001111010221122220110100110111{0,1}
+	'Erignathus barbatus'		                        10240012020031211130022002012020300010000{0,1}000110000100000000000010000010002110021{1,3}001102000
+	'Prototaria primigenia'		                      1100001000002010000101100010100002????????????????01??0???????0???????0??0110??1???????????
+	'Proneotherium repenningi'		                   110000100000211000110??00000?00002000000001000001001000000000000100000000011000101?????111?
+	'Neotherium mirum'		                           11100010001021111011011000001000030010000010000010010000001000001000110000110000010120111??
+	'Kamtschatarctos sinelnikovae'		               ?????0??0?102???101??????0????????00100?0010000?10??????????0000100011?00???000001?????????
+	'Pseudotaria muramotoi'		                      ??100010101021101??101100001100003?????????????????1??0??????????????????0?11??0??????????0
+	'Archaeodobenus akamatsui'		                   1???001?10102????01??1?0000111?003011000001100011001010000000011101?010000111000010???????1
+	'Pelagiarctos spp.'		                          ??????????????????????????????????(0,1)12100001000??????01?000100010?01011?00????00?01?????????
+	'Nanodobenus arandai'		                        ??????????????????????????????????002000011010????????????1?0010?0000??00????00?01??????1??
+	'Titanotaria orangensis'		                     1111?0101010211110110??00001?10013002000001010001000??0000100010101?110000?1100001012011112
+	'Imagotaria downsi'		                          111?0(0,1)001010211110{0,1}1011001011100130020000010100110(0,1)1010000100010101(0,1)0200{0,1}(0,1)1(1,2)(1,2)00(0,1){0,1}10120111??
+	'Pontolis barroni sp. nov.'		                  11110000101?211110{0,1}10??00101?10013002(0,1)000010(0,1)(0,1)0010(0,1){0,1}(0,1)(0,1)0000100110(0,1)00011000(0,1)1110000101?01111?
+	'Pontolis kohnoi sp. nov.'		                   111100001010011010110??00101?1001300210000100100100?01?0?0100110100???0001?1200002012011??2
+	'Cf. pontolis magnus'		                        111100001010(0,2)11110{0,1}1011001011100130021000(0,1)1011100101(0,1)10010(0,1)0011(0,1)11001200(0,1)11(1,2)10000201?01111?
+	'Osodobenus eodon gen. et sp. nov.'		          1111010020102111101101?00101?10013002?0000101100100001(0,1)0001000100(0,1)101(1,2)(0,2)11212201(1,2)11?????????
+	'Gomphotaria pugnax'		                         11110000101??11120110???0101?1?00?0111000110000010102?10110101111?0???211222201113012011110
+	'Dusignathus seftoni'		                        111111101010?11121110?1001011?00131121000{0,1}11110010{0,1}11?10110101111?????21122220111?012??11??
+	'Dusignathus santacruzensis'		                 ??????????????????1???1?010?1??01?0120000111110010?101(0,1)0100101111101022112???01?120110?????
+	'Aivukus cedrosensis'		                        1122011010???111211??11011011???130???00?01000????12??00??000110??????21122220121301221????
+	'Protodobenus japonicus'		                     1122?1??202121?12????????101?1????01000000110010100101211000011011010221122221?211?????????
+	'Ontocetus emmonsi'		                          112111102021211121121110110111012301211011110010101201211000021011010221122221?2111122111??
+	'Valenictus chulavistensis'		                  112201102021211121121?101101?101231111111?11001000332?22????2?????????3??3?331?21?212211111
+	'Odobenus rosmarus'		                          11222110202121112112111011011101231111011011001111222?211000121011010221122331?213212211111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 91;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1592098498450; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6996734092248408000; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 17 14 15 19 16 18 20 21 22 23 24 25 26 27 28; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6039914565160769387; mqVersion 275; checksumv 0 3 1286999691 null getNumChars 91 numChars 91 getNumTaxa 29 numTaxa 29 short true bits 2305843009213693983 states 31 sumSquaresStatesOnly 11000.0 sumSquares -7.83986623132656E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 104; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 768; setLocation -118 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6039914565160769387 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1336 701; setLocation -118 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 91; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARSET Characters_to_order = 5 9 11 33 37 51 - 53 55 - 56 61 - 62 70 - 71 74 76 - 77 80 82 - 83; 
+ENDBLOCK;

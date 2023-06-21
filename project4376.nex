@@ -1,0 +1,224 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.16.50 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=17;
+    TAXLABELS
+    		'Atrichadenotecnum quadripunctatum'
+		'Ptyctini sp.'
+		'Loensia variegata'
+		'Trichadenotecnum circularoides'
+		'Trichadenotecnum corniculum'
+		'Trichadenotecnum furcalingum'
+		'Trichadenotecnum falx'
+		'Trichadenotecnum fuscipenne'
+		'Trichadenotecnum castum'
+		'Trichadenotecnum alexanderae'
+		'Trichadenotecnum yamatomajus'
+		'Trichadenotecnum nothoapertum'
+		'Trichadenotecnum mixtum'
+		'Trichadenotecnum latebrachium'
+		'Trichadenotecnum taiwan'
+		'Trichadenotecnum incognitum'
+		'Trichadenotecnum album'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=31;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'male eye'
+		 [2] 'six marginal spots'
+		 [3] 'oposit spots'
+		 [4] 'proximal band'
+		 [5] 'spots in cell a'
+		 [6] 'forewing dense/sparse'
+		 [7] 'male eighth sternite'
+		 [8] 'male 8th+hyp'
+		 [9] 'clunial arm'
+		 [10] 'epiproct lobe broadly expanded'
+		 [11] 'epiproct lobe with process'
+		 [12] 'epiproct corn like'
+		 [13] 'paraproctal basal process'
+		 [14] 'paraproctal corn-like process'
+		 [15] 'paraproctal distal process'
+		 [16] 'hypandrial median tongue p/a'
+		 [17] 'hypandrial median tongue movable?'
+		 [18] 'lateral corner of hypandrium'
+		 [19] 'hypandrial left process'
+		 [20] 'hypandrial left distal lobe'
+		 [21] 'hypandrial right process'
+		 [22] 'hypandrial right arm'
+		 [23] 'paramere present'
+		 [24] 'paramere width'
+		 [25] 'phallosome-anteriorly'
+		 [26] 'phallosome-posteriorly'
+		 [27] 'anterior margin of phallosome sclerotize/weak'
+		 [28] 'median sclerotized band of subgenital plate'
+		 [29] 'vv of gonapophyses'
+		 [30] 'ev lobe'
+		 [31] 'gonopore plate one/two'
+	;
+	STATELABELS
+		1
+		'large'
+		'small'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'running from base of pterostigma to distal end of cell cup'
+		'running from base of pterostigma to distal 1/3 of cell cup'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'sparsely covered with spots'
+		'densely covered with spots'
+		,
+		7
+		'single sclerite '
+		'two sclerites'
+		,
+		8
+		'seperated'
+		'fused'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'not broadly expanded'
+		'broadly expanded'
+		,
+		11
+		'without process'
+		'with processes covered by papillae or denticles'
+		,
+		12
+		'almost flattened'
+		'greatly swelling and forming conical epiproct'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'directed posteriorly'
+		'directed upward'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'unmovable'
+		'moveable'
+		,
+		18
+		'not denticulated'
+		'denticulated'
+		,
+		19
+		'absent or less developed'
+		'well developed'
+		,
+		20
+		'absent or less developed'
+		'well developed'
+		,
+		21
+		'absent or less developed'
+		'well developed, cornlike'
+		'well developed, lamellate'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'narrow, much narrower than long'
+		'broad, as wide as long or even wider'
+		,
+		25
+		'rounded'
+		'pointed'
+		,
+		26
+		'narrowing posteriorly'
+		'broadened posteriorly'
+		,
+		27
+		'rounded'
+		'pointed'
+		,
+		28
+		'without median sclerotized band'
+		'with median sclerotized band'
+		,
+		29
+		'long'
+		'short'
+		,
+		30
+		'well developed'
+		'less developed'
+		,
+		31
+		'single plate'
+		'clearly divided into two regions'
+		
+	;
+	MATRIX
+	'Atrichadenotecnum quadripunctatum'		          0000000000000000?000000?0000000
+	'Ptyctini sp.'		                               00000000000000010000000?0000000
+	'Loensia variegata'		                          0000000000000000?000000?0000000
+	'Trichadenotecnum circularoides'		             011110????????????????????00110
+	'Trichadenotecnum corniculum'		                0111110001000100?000000?0000000
+	'Trichadenotecnum furcalingum'		               01111111101010011000000?1000110
+	'Trichadenotecnum falx'		                      01111111101010011000000?1000110
+	'Trichadenotecnum fuscipenne'		                011111????????????????????00110
+	'Trichadenotecnum castum'		                    111110????????????????????00001
+	'Trichadenotecnum alexanderae'		               11111010110000011000000?1000001
+	'Trichadenotecnum yamatomajus'		               01111010100100010011200?1110000
+	'Trichadenotecnum nothoapertum'		              01111010100100000001200?1110100
+	'Trichadenotecnum mixtum'		                    0111100011000011100101101101000
+	'Trichadenotecnum latebrachium'		              0111100011000011110101101101000
+	'Trichadenotecnum taiwan'		                    0111110011000011110101101101000
+	'Trichadenotecnum incognitum'		                1111100011000011101111111100000
+	'Trichadenotecnum album'		                     1111100011000011101111111100000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 31;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 84; LastModified -1159391287; FileSettings editor '1' '1' '1' '0'; Singles 010; Editor 0001100111111110010001001 '1' '16' Geneva '9' '100' '1' all; EditorPosition '44' '6' '483' '931'; TreeWindowPosition '44' '633' '297' '348'; ListWindow Characters closed Geneva '9' '44' '25' '561' '464' 000; ListWindow Taxa closed Geneva '9' '50' '10' '337' '278' 100000; ListWindow Trees closed Geneva '9' '50' '10' '276' '490' ; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharSets closed Geneva '9' '50' '10' '129' '181' ; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490' ; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490' ; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490' ; ChartWindowPosition '52' '30' '686' '964'; StateNamesSymbols closed Geneva '9' '10' '50' '30' '148' '220'; WindowOrder Data; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; EditorToolsPosition '627' '806' '115' '165'; TreeToolsPosition '421' '815' '126' '138'; TreeWindowProgram 00; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0010001; SummaryMode '1' '0' 0; Charts Geneva '9' (normal) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Geneva '9' (normal); TreeShape 1.0 1.0 1101; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '0' 1; BarsOnBranchesDisplay '1' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0100101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; E
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Atrichadenotecnum, 2 Gen._sp., 3 Loensia, 4 T._circularoides, 5 T._corniculum, 6 T._furcalingum, 7 T._falx, 8 T._fuscipenne, 9 T._castum, 10 T._alexanderae, 11 T._yamatomajus, 12 T._nothoapertum, 13 T._mixtum, 14 T._latebrachium, 15 T._taiwan, 16 T._incognitum, 17 T._album ; TREE * UNTITLED = [&R] (((((((((16,17),(13,(15,14))),(12,11)),(9,10)),(8,(4,(6,7)))),5),3),2),1); E
+ENDBLOCK;

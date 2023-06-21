@@ -1,0 +1,90 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.53.08 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+    		'Cordaites (and early conifers)'
+		'Trichopitys'
+		'Karkenia'
+		'Toretzia'
+		'Umaltolepis'
+		'Yimaia'
+		'Ginkgo'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=9;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'Axillary ovulate shoots single'
+		 [2] 'Dwarf shoots'
+		 [3] 'Ovule flesh with resin bodies'
+		 [4] 'Ovules few and large'
+		 [5] 'Outer cuticle of integument thin'
+		 [6] 'Nucellus largely fused with integument'
+		 [7] 'Leaf entire'
+		 [8] 'Collar'
+		 [9] 'Bracts greatly reduced Umaltolepis'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Cordaites (and early conifers)'		          000(0,1)00(0,1)0(0,1)
+	'Trichopitys'		                             10?0?0000
+	'Karkenia'		                                111010(0,1)00
+	'Toretzia'		                                111101100
+	'Umaltolepis'		                             111101101
+	'Yimaia'		                                  111101000
+	'Ginkgo'		                                  111101010
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 9;
+      ENDBLOCK;
+      BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 9; 
+ENDBLOCK;

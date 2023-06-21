@@ -1,0 +1,312 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.13.21 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Olenus gibbosus'
+		'Parabolina frequens argentina'
+		'Bienvillia tetragonalis'
+		'Bienvillia rectifrons'
+		'Bienvillia parchaensis'
+		'Parabolinella triarthra'
+		'Parabolinella bolbifrons'
+		'Parabolinella limitis'
+		'Parabolinella jiangnanensis'
+		'Parabolinella contracta'
+		'Parabolinella hunanensis'
+		'Parabolinella variabilis'
+		'Parabolinella tumifrons'
+		'Parabolinella lata'
+		'Parabolinella prolata'
+		'Parabolinella coelatifrons'
+		'Parabolinella triarthroides'
+		'Parabolinella argentinensis'
+		'Parabolinella sp. nov. 1'
+		'Parabolinella sp. nov. 2'
+		'Parabolinella new sp.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Anterior margin of cranidium, medially'
+		 [2] 'Length of cephalon (sag.) as proportion of maximun'
+		 [3] 'Condition of anterior branch of facial suture, measured as the angle formed by this and sagittal axis'
+		 [4] 'Positions of palpebral lobes'
+		 [5] 'Degree of convexity of anterior cephalic border, in dorsal view'
+		 [6] 'Anterior border furrow'
+		 [7] 'Shape of anterior termination of glabella'
+		 [8] 'Length of glabella (sag., excluding occipital ring) as proportion of length of cephalon (sag.)'
+		 [9] 'Shape of glabella'
+		 [10] 'Number of visible pairs of lateral glabellar furrows'
+		 [11] 'Condition of preoccipital furrow (S1)'
+		 [12] 'Shape of S1 furrow'
+		 [13] 'Shape of S2 furrow'
+		 [14] 'Length of S2 furrow'
+		 [15] 'Condition of S3 furrow'
+		 [16] 'Length of occipital ring (sag., from midpoint of S0) as a proportion of the length of the glabella (sag., excluding occipital ring)'
+		 [17] 'Length of preglabellar field (sag.) as proportion of length of preglabellar area (sag.)'
+		 [18] 'Length of preglabellar field (sag.) as propotion of length of occipital ring (sag.)'
+		 [19] 'Elevation of preglabellar field'
+		 [20] 'Preglabellar field'
+		 [21] 'Width of fixed cheek posterior to eyes (trans.) as proportion of width of occipital ring (trans.)'
+		 [22] 'Length of posterior cephalic border as proportion of length of occipital ring'
+		 [23] 'Posterior branch of facial suture'
+		 [24] 'Occipital ring'
+		 [25] 'Width of glabella (trans.) at base as proportion of length of glabella (sag. excluding occipital ring)'
+		 [26] 'Width of thoracic axis (trans.) compared to width of whole segment (tr., excluding pleural spines) on anterior segments'
+		 [27] 'Number of segments (excluding terminal piece) in pygidial axis'
+		 [28] 'Length of pygidium (sag.) as proportion of maximun width of pygidium (trans.)'
+		 [29] 'Eye ridges'
+		 [30] 'Direction of eye ridges'
+		 [31] 'Number of thoracic segments'
+		 [32] 'Width of interocular cheeks as proportion of width of glabella at eye line'
+		 [33] 'Length of palpebral lobe as proportion of the length of glabella'
+		 [34] 'Occipital node'
+		 [35] 'Medial portion of posterior margin of pygidium'
+		 [36] 'Course of posterior margin of fixed cheeks'
+		 [37] 'Course of occipital furrow medially (S0)'
+		 [38] 'Posterior border furrow of cranidium'
+		 [39] 'Length of genal spines'
+		 [40] 'Definition of posterior margin of pygidial axis'
+	;
+	STATELABELS
+		1
+		'transverse'
+		'markedly concave forward'
+		,
+		2
+		'short [0.3-0.49)'
+		'half as long as wide or longer (?0.5)'
+		,
+		3
+		'convergent (a?5º)'
+		'subparallel (10º>a>5 º)'
+		'moderately 
+divergent (30º>a>10º)'
+		'very divergent (? 30º)'
+		,
+		4
+		'at S2'
+		'anterior to S2'
+		'posterior to S2'
+		,
+		5
+		'strongly convex'
+		'weakly convex'
+		,
+		6
+		'without pits'
+		'with pits'
+		,
+		7
+		'medially 
+concave'
+		'rounded'
+		,
+		8
+		'short
+[0.5-0.6]'
+		'long (>0.6)'
+		,
+		9
+		'tapers forward'
+		'approximately
+parallel-sided'
+		'expands anteriorly'
+		,
+		10
+		'4'
+		'3'
+		'2'
+		,
+		11
+		'simple'
+		'adaxially bifurcate'
+		,
+		12
+		'straight or simply curved'
+		'sigmoid'
+		,
+		13
+		'straight'
+		'sinous'
+		,
+		14
+		'equal to S1'
+		'shorter than S1'
+		,
+		15
+		'furrows'
+		'slits very short'
+		'faint depressions'
+		,
+		16
+		'long (> 0.25)'
+		'short (? 0.25)'
+		,
+		17
+		'preglabellar field
+occupies a small part of preglabellar area (? 0.7)'
+		'preglabellar field occupies a higher proportion of
+preglabellar area (> 0.7)'
+		,
+		18
+		'short [0-0.8)'
+		'moderately long [0.8-1.5)'
+		'long [1.5-3)'
+		'very long (?3)'
+		,
+		19
+		'confluent with
+ cheeks'
+		'raised to form preglabellar boss'
+		,
+		20
+		'smooth'
+		'striated'
+		'crossed by furrows'
+		,
+		21
+		'wide
+(>0,85)'
+		'moderately wide [0.6-0.85]'
+		'narrow (<0.6)'
+		,
+		22
+		'very short (<0.4)'
+		'short
+[0.4-0.7]'
+		'long (>0,7)'
+		,
+		23
+		'straight or slightly
+sinuous'
+		'very sinuous'
+		,
+		24
+		'simple'
+		'trisegmented'
+		,
+		25
+		'approximately  equals [0.9-1.1]'
+		'longer than width (<0.9)'
+		'wider than long (>1.1)'
+		,
+		26
+		'very narrow (< 1/3)'
+		'narrow (=1/3)'
+		'wide (>1/3)'
+		,
+		27
+		'more or equal to four'
+		'three'
+		'two'
+		'one'
+		,
+		28
+		'long (> 0.4)'
+		'short  [0.4-0.2]'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'eye-ridges run transversely'
+		'eye-ridges run backwards and outwards obliquely'
+		,
+		31
+		'less than or equal to 15'
+		'between 16 and 20'
+		'21 or more'
+		,
+		32
+		'wide (>0.45)'
+		'moderately wide
+[0.45-0.3)'
+		'narrow [0.3-0.2)'
+		'very narrow (? 0.2)'
+		,
+		33
+		'median (>0.35)'
+		'small [0.35-0.2]'
+		'tiny (<0.2)'
+		,
+		34
+		'conspicuous'
+		'barely visible'
+		'absent'
+		,
+		35
+		'curved, convex'
+		'subangular, convex'
+		'transverse'
+		'concave'
+		,
+		36
+		'transverse'
+		'curved back distally'
+		'curved forward'
+		,
+		37
+		'transverse'
+		'convex forward'
+		,
+		38
+		'deep, ends near
+the genal angle'
+		'distally faint'
+		,
+		39
+		'short'
+		'long'
+		'absent'
+		,
+		40
+		'well defined'
+		'poorly defined'
+		
+	;
+	MATRIX
+	'Olenus gibbosus'		                        0010000001000000010001000000000002100000
+	'Parabolina frequens argentina'		          00120011010001000000121012001100?1200010
+	'Bienvillia tetragonalis'		                1?120000(1,2)20000-100002101021?000310001010
+	'Bienvillia rectifrons'		                  1?0210111100002100002100002111?010001--1
+	'Bienvillia parchaensis'		                 11120001220000?10000200002211?0111021000
+	'Parabolinella triarthra'		                1011110120110101120011010131002210001011
+	'Parabolinella bolbifrons'		               1130?100111001111310011?00????1111?1011?
+	'Parabolinella limitis'		                  1120111110111001110012110???01?210?0000?
+	'Parabolinella jiangnanensis'		            1122001111110010110110110011000110010110
+	'Parabolinella contracta'		                10120011111111010101000100??002120?1100?
+	'Parabolinella hunanensis'		               ??01101?011100111201001111??00?020?100??
+	'Parabolinella variabilis'		               1?(1,2)0011101101010010112110?3000?120210010
+	'Parabolinella tumifrons'		                1?0011110210(0,1)120010112010???1??110?1101?
+	'Parabolinella lata'		                     1?(1,2)0010?12?110-11000021?2???01?110?100??
+	'Parabolinella prolata'		                  1?100011021001-0010021(0,1)10?211??210?0101?
+	'Parabolinella coelatifrons'		             0010111101110020110101011021000210101110
+	'Parabolinella triarthroides'		            1?1001(0,1)1110001211100110100??101210?010??
+	'Parabolinella argentinensis'		            1030010010110001120102110131002110311010
+	'Parabolinella sp. nov. 1'		               1?200101001100001101121101??01?210?11???
+	'Parabolinella sp. nov. 2'		               1130010011110101121102110131012210?000??
+	'Parabolinella new sp.'		                  1?22110010110010110111000???01?111?110??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 40;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1660573617567; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 104204351985659473; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1786734027532489972; mqVersion 370; checksumv 0 3 4064181937 null getNumChars 40 numChars 40 getNumTaxa 21 numTaxa 21 short true bits 15 states 15 sumSquaresStatesOnly 3451.0 sumSquares 3451.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 54; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 811; setLocation 0 25; setFont SanSerif; setFontSize 12; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1786734027532489972 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 176; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1386 739; setLocation 0 25; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 302; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1386 739; setLocation 0 25; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 40; 
+ENDBLOCK;

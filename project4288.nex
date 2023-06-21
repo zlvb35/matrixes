@@ -1,0 +1,266 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 02.32.55 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=14;
+    TAXLABELS
+    		'Proailurus lemanensis'
+		'Promegantereon ogygia'
+		'Paramachaerodus orientalis'
+		'Paramachaerodus maxixmiliani'
+		'Rhizosmilodon fiteae'
+		'Smilodon gracilus'
+		'Smilodon fatalis'
+		'Smilodon populator'
+		'Megantereon cultridens'
+		'Megantereon hesperus'
+		'Machairodus aphanistus'
+		'Homotherium serum'
+		'Amphimachairodus coloradensis'
+		'Taiwan specimen'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=37;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] '1. Nasal bones shape. Several species of derived Machairodontinae show wide, rectangular shaped nasal bones.'
+		 [2] '2. Exaggerated serrations'
+		 [3] '3. Upper canine crow. The lateral flattening of the upper canines is a derived character of Machairodontinae, but it shows different degree within the different lineages.'
+		 [4] '4. Upper canine crenulations/serrations. This character is present in the most recent Machairodontinae, but also in other, more primitive species, and absent in relatively derived forms.'
+		 [5] '5. Upper and lower canines size. The enlargement of the upper canines in the Machairodontinae is linked to a reduction in the size of the lower canines ? also can be implied from the presence of a lower flange on dentary.'
+		 [6] '6. Lower canine'
+		 [7] '7. Upper incisors arcade. Other character present in the more derived Machairodontinae is the development of a procumbent incisor arcade, probably related to the specialized hunting technique of these animals.'
+		 [8] '8. Lower incisor size'
+		 [9] '9. P1 or P2. Generally reduced in Felidae, with P1 and or P2 being present in the more primitive forms.'
+		 [10] '10. Orientation of P3 and P4.'
+		 [11] '11. Anterior cusp of P3.'
+		 [12] '12. P3, disto-lingual basal expansion of crown. The reduction of this basal expansion produces a more trenchant P3, a derived character observed in different lineages of Machairodontinae.'
+		 [13] '13. P3, mesio-distal elongation of crown. The primitive morphology of the P3 shows a relatively short and high crown; this morphology derives in different lineages of Machairodontinae, producing an elongated and relatively low P3.'
+		 [14] '14. Relative size P4-P3. The presence of a relatively large P4 is a derived trait observed in the most recent Machairodontinae. For this character we calculated an index between P4 and P3 length.'
+		 [15] '15. P4 protocone. The protocone of P4 is placed near the mesial border of parastyle in primitive felids.'
+		 [16] '16. P4 protocone'
+		 [17] '17. P4 ectostyle. The presence of an ectostyle in P4 is a derived character present in some very derived Machairodontinae.'
+		 [18] '18. P4 parastyle. The parastyle of P4 is small in primitive species of Machairodontinae and most of the Felinae.'
+		 [19] '19. M1 crown. This tooth is very reduced in Felidae when comparing to other pieces. This reduction is even more extreme in some derived Machairodontinae.'
+		 [20] '20. Mandibular symphysis outline. The verticalisation of the mandibular symphysis is observed in the more derived species of Machairodontinae, but some primitive species retain a primitive, curved outline.'
+		 [21] '21. Mandibular flange. The development of a mandibular flange is observed in derived Machairodontinae, but some species only show the verticalisation of the mandibular symphysis.'
+		 [22] '22. p2. This tooth is generally absent in Machairodontinae, but it is still present in the more primitive forms'
+		 [23] '23. p3 anterior cuspid.'
+		 [24] '24. p3 distal cuspid.'
+		 [25] '25. p3'
+		 [26] '26. p4 anterior and distal cuspid. The presence of a well-developed mesial cuspid on p4 is a derived character for Felidae.'
+		 [27] '27. Relative position of p3 and p4. The alignment of p3 and p4 is a primitive character for Felidae.'
+		 [28] '28. Alignment of m1 and p4.'
+		 [29] '29. m1 talonid. The talonid in m1 is present, although reduced, in most of the primitive forms of Machairodontinae, and it is lost in the most derived species.'
+		 [30] '30. Height of coronoid process. This process is reduced in advanced forms of Machairodonts.'
+		 [31] '31. Robustness of m1'
+		 [32] '32. p4'
+		 [33] '33. m1 parastylid development'
+		 [34] '34. m1 width'
+		 [35] '35. m1 paraconid length.'
+		 [36] '36. p3 posterior ?lean?'
+		 [37] '37. p4 posterior ?lean?'
+	;
+	STATELABELS
+		1
+		'State 0 sub-rectangular, relatively narrow'
+		'State 1 somewhat rectangular, relatively wide'
+		'State 2 greatly elongate nasals (nearly parallel)'
+		,
+		2
+		'State 0 absent, or only present on canines '
+		'State 1 occur on virtually all teeth'
+		,
+		3
+		'State 0 moderately flattened'
+		'State 1 markedly flattened'
+		,
+		4
+		'State 0 lacking'
+		'State 1 minor crenulations '
+		'State 2 clear serration, but small'
+		'State 3 large and very coarse'
+		,
+		5
+		'State 0 similarly sized'
+		'State 1 upper canines larger that the lower canines (2-3 times longer)'
+		'State 2 upper canines exaggerated = significantly larger than lower canines (more than 5 times the length)'
+		,
+		6
+		'State 0 large'
+		'State 1 reduced in size, incisiform'
+		,
+		7
+		'State 0 non-procumbent arcade'
+		'State 1 procumbent arcade'
+		'State 2 exaggerated procumbent arcade'
+		,
+		8
+		'State 0 significantly smaller than canine'
+		'State 1 large and caniniform (similar in size to the canine)'
+		,
+		9
+		'State 0 either present'
+		'State 1 both absent'
+		,
+		10
+		'State 0 aligned'
+		'State 1 not aligned'
+		,
+		11
+		'State 0 absent'
+		'State 1 present'
+		,
+		12
+		'State 0 present'
+		'State 1 absent'
+		,
+		13
+		'State 0 absent'
+		'State 1 present'
+		,
+		14
+		'State 0 similar in size'
+		'State 1 P3 reduced, but still blade like'
+		'State 2 P3 significantly smaller'
+		,
+		15
+		'State 0 protocone of P4 placed at the level of the mesial border of the parastyle'
+		'State 1 protocone of P4 placed distally to the parastyle'
+		,
+		16
+		'State 0 still well developed and prominent'
+		'State 1 reduced in size increasing the shearing ability of the blade'
+		,
+		17
+		'State 0 absent'
+		'State 1 present'
+		,
+		18
+		'State 0 smaller/similarly sized than the protocone'
+		'State 1 clearly larger than the protocone'
+		,
+		19
+		'State 0 bucco-lingually elongated'
+		'State 1 rounded'
+		,
+		20
+		'State 0 gently curved'
+		'State 1 straight, but not completely verticalized'
+		'State 2 nearly completely verticalized'
+		,
+		21
+		'State 0 absent'
+		'State 1 present, but small'
+		'State 2 present, but exaggerated'
+		,
+		22
+		'State 0 present'
+		'State 1 absent'
+		,
+		23
+		'State 0 present, small'
+		'State 1 enlarged to prominent cusp'
+		'State 2 absent'
+		,
+		24
+		'State 0 present, small'
+		'State 1 enlarged to prominent cusp'
+		'State 2 absent'
+		,
+		25
+		'State 0 remains simple'
+		'State 1 elongate, blade like often nearly as long as p4'
+		'State 2 generally reduced (1/2 length or less)'
+		'State 3 very small and peg-like or lost'
+		,
+		26
+		'State 0 small, minor accessory cusps'
+		'State 1 well-developed and more prominent'
+		,
+		27
+		'State 0 aligned'
+		'State 1 not aligned'
+		,
+		28
+		'State 0 fairly straight'
+		'State 1 off set, taken in combination with p3-p4 making strongly curved arcade in some taxa'
+		,
+		29
+		'State 0 always present with well-developed cusp (metaconid)'
+		'State 1 reduced to nearly absent, but hint of talonid'
+		'State 2 absent'
+		,
+		30
+		'State 0 remains tall as in many extant felids'
+		'State 1 reduced, but still nearly as tall as ramus is deep'
+		'State 2 significantly reduced'
+		,
+		31
+		'State 0 blade like, yet not elongate'
+		'State 1 very thin and elongate'
+		'State 2 short and robust'
+		,
+		32
+		'State 0 short, but somewhat blade like'
+		'State 1 very elongate, very blade like'
+		'State 2 somewhat blade like, but with distal widening of the tooth'
+		'State 3 relatively long, but wide and robust'
+		,
+		33
+		'State 0 lacking'
+		'State 1 varies from minor accessory cusp, to fully formed cusp with valley separating it from paraconid'
+		,
+		34
+		'State 0 paraconid and protoconid roughly same width on either side of notch'
+		'State 1 widest point of tooth well anterior to notch in paraconid with protoconid significantly tapering back'
+		,
+		35
+		'State 0 significantly shorter than protoconid'
+		'State 1 becoming elongate, nearly equal in length'
+		,
+		36
+		'State 0 virtually nonexistent'
+		'State 1 slight'
+		'State 2 extreme'
+		,
+		37
+		'State 0 virtually nonexistent'
+		'State 1 slight'
+		'State 2 extreme'
+		
+	;
+	MATRIX
+	'Proailurus lemanensis'		                  ?000000000000000000000000000000000000
+	'Promegantereon ogygia'		                  0010100000000010010200200010010200010
+	'Paramachaerodus orientalis'		             10121011110101101111112000101?0000010
+	'Paramachaerodus maxixmiliani'		           1012101110?01110111??1???0?01?02000?0
+	'Rhizosmilodon fiteae'		                   ?0111000?1?????????2112020111?2201022
+	'Smilodon gracilus'		                      1011211111111110111211202111122301022
+	'Smilodon fatalis'		                       10122121111102111112112231111223110?2
+	'Smilodon populator'		                     10122121111102111112112231111223110?2
+	'Megantereon cultridens'		                 10132111110001100102212021112222?1022
+	'Megantereon hesperus'		                   ??1?20?0???????????221??2?112?2??10??
+	'Machairodus aphanistus'		                 2113112110111110010111111100011200100
+	'Homotherium serum'		                      2113112110010211011111202100121100111
+	'Amphimachairodus coloradensis'		          2113112110111110110111111100121100111
+	'Taiwan specimen'		                        ?????????????????????????1??2???0?1?1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 37;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1656043804847; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6971272708045598718; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 699060370903308343; mqVersion 361; checksumv 0 3 2046495597 null getNumChars 37 numChars 37 getNumTaxa 14 numTaxa 14 short true bits 15 states 15 sumSquaresStatesOnly 2705.0 sumSquares 2705.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1920 940; setLocation -9 -9; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #699060370903308343 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 868; setLocation -9 -9; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #699060370903308343 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; rowNamesWidth 780; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1820 868; setLocation -9 -9; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 37; 
+ENDBLOCK;

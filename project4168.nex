@@ -1,0 +1,372 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 00.19.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=43;
+    TAXLABELS
+    		'Allosminthus ernos'
+		'Bohlinosminthus parvulus'
+		'Heosminthus teredens'
+		'Heosminthus primiveris'
+		'Heosminthus borrae'
+		'Heosminthus nomogenesis'
+		'Heosminthus chimidae'
+		'Heterosminthus firmus'
+		'Heterosminthus erbajevae'
+		'Onjosminthus baindi'
+		'Parasminthus debruijni'
+		'Shamosminthus sodovis'
+		'Sinosminthus inapertus'
+		'Plesiosminthus olzi'
+		'Plesiosminthus clivosus'
+		'Plesiosminthus barsboldi'
+		'Plesiosminthus asiaticus'
+		'Plesiosminthus vegrandis'
+		'Schaubeumys grangeri'
+		'Schaubeumys sabrae'
+		'Plesiosminthus admyarion'
+		'Plesiosminthus meridionalis'
+		'Plesiosminthus schaubi'
+		'Plesiosminthus myarion'
+		'Plesiosminthus winistoerferi'
+		'Plesiosminthus conjunctus'
+		'Plesiosminthus moralesi'
+		'Megasminthus gladiofex'
+		'Megasminthus tiheni'
+		'Macrognathomys gemmacollis'
+		'Macrognathomys bartlett'
+		'Sicista primus'
+		'Sicista gaotege'
+		'Sicista wangi'
+		'Sicista praeloriger'
+		'Sicista bagajevi'
+		'Sicista bilike'
+		'Sicista betulina'
+		'Sicista concolor'
+		'Sicista subtilis'
+		'Litodonomys minimus'
+		'Litodonomys lajeensis'
+		'Omoiosicista fui'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=46;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'longitudinalgroove'
+		 [2] 'shapeendosinus'
+		 [3] 'endosinus'
+		 [4] 'posteroloph'
+		 [5] 'enamellakeM1'
+		 [6] 'Anteroloph'
+		 [7] 'Anterocone'
+		 [8] 'protolophI'
+		 [9] 'ProtolophII'
+		 [10] 'middlefossette'
+		 [11] 'mesolophlocation'
+		 [12] 'endostyle'
+		 [13] 'metaloph'
+		 [14] 'metacone'
+		 [15] 'protolophII'
+		 [16] 'posteriorconcavity'
+		 [17] 'anteroconid'
+		 [18] 'protoconiddirection'
+		 [19] 'anteriorectolophidconnection'
+		 [20] 'ectostylid'
+		 [21] 'mesolophid m1'
+		 [22] 'entoconidarmextension'
+		 [23] 'posterolophidhypoconidlongitudinalridge'
+		 [24] 'hypoconulid'
+		 [25] 'accessoryspur'
+		 [26] 'metaconidlocation'
+		 [27] 'metaconidconnection'
+		 [28] 'protoconidposteriorarm'
+		 [29] 'entoconidarmextensionm2'
+		 [30] 'entoconidconnection'
+		 [31] 'mesolophid m2'
+		 [32] 'posteriorarmprotoconidmesolophid'
+		 [33] 'entoconidarmextensionm3'
+		 [34] 'M1 roots'
+		 [35] 'M2 roots'
+		 [36] 'm posterolophid'
+		 [37] 'M paraconespur'
+		 [38] 'M Mesoloph'
+		 [39] 'm2 anteriorspur'
+		 [40] 'M2 metaloph'
+		 [41] 'Labial'
+		 [42] 'M1 posteroloph'
+		 [43] 'M3 mesoloph'
+		 [44] 'M2 Outline'
+		 [45] 'm1 mesolophidextension'
+		 [46] 'P4 connectionbetween'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'symmetrical'
+		'anteriorly oblique'
+		,
+		3
+		'closed'
+		'open to the anterior fossette'
+		,
+		4
+		'continuous with the hypocone'
+		'discontinuous'
+		,
+		5
+		'absent'
+		'one or two'
+		'three or more'
+		,
+		6
+		'absent or weak'
+		'short, incomplete'
+		'long, complete'
+		,
+		7
+		'absent'
+		'present as a swollen part of the anteroloph'
+		'distinct from the anteroloph'
+		,
+		8
+		'located on the labial side of the anterior arm of the protocone'
+		'connecting to the anterocone or, if the anterocone is absent, located on the lingual side of the anterior arm of the protocone'
+		'absent'
+		,
+		9
+		'absent'
+		'connecting to the center of the protocone (=protoloph)'
+		'attaching to the posterior arm of the protocone'
+		'connecting to the mesocone'
+		,
+		10
+		'open'
+		'closed by a strong longitudinal ridge'
+		,
+		11
+		'closer to the hypocone'
+		'at the middle of the endoloph'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'straight, connecting to the center of the metacone'
+		'curved, connecting to the posterolabial corner of the metacone'
+		'metaloph II'
+		,
+		14
+		'rounded or less compressed'
+		'anteroposteriorly compressed, forming a loph with the metaloph'
+		,
+		15
+		'absent'
+		'if present, incomplete'
+		'completely present, connecting to the posterior arm of the protocone'
+		'completely present, connecting to the mesocone'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'isolated from the metaconid and protoconid'
+		'located on the base of the metaconid'
+		'connecting to the metalophid'
+		'double anteroconid'
+		'connected to the protoconid'
+		,
+		18
+		'posterolabially'
+		'transversely'
+		,
+		19
+		'protoconid'
+		'absent or no connection'
+		'metalophid'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent or short'
+		'present as pseudomesolophid'
+		'long, weaker and lower than the ecotolophid'
+		'long, as high as the ectolophid'
+		,
+		22
+		'transversely or anterolabially'
+		'posterolabially'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present, extending from the hypoconulid'
+		'present, extending from the hypoconid'
+		,
+		26
+		'protoconid'
+		'anterior arm of protoconid'
+		'anteroconid'
+		,
+		27
+		'anterior arm of the protoconid'
+		'anteroconid'
+		'protoconid'
+		,
+		28
+		'complete, connecting to the metaconid or incomplete, extending to the base of posterior wall of the metaconid'
+		'connecting to the mesostylid (=pseudomesolophid)'
+		'connecting to the mesolophid'
+		'absent'
+		,
+		29
+		'transversely or anterolabially'
+		'posterolabially'
+		,
+		30
+		'anterior arm of the hypoconid'
+		'hypoconid'
+		,
+		31
+		'absent or weak'
+		'short'
+		'long'
+		,
+		32
+		'either one present'
+		'both present'
+		'both absent'
+		,
+		33
+		'transversely or anterolabially'
+		'posterolabially'
+		'absent'
+		,
+		34
+		'three'
+		'four'
+		,
+		35
+		'three'
+		'four'
+		,
+		36
+		'notcontinuous to top of entoconid'
+		'continuous to top of entoconid'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'short'
+		'medium'
+		'long'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'hypocone'
+		'anterior arm of hypocone'
+		,
+		41
+		'LingualCusps'
+		'opposite'
+		'alternate'
+		,
+		42
+		'not reaching the metacone'
+		'reaching the metacone'
+		,
+		43
+		'short'
+		'long'
+		,
+		44
+		'square'
+		'rectangular'
+		,
+		45
+		'from the mesoconid'
+		'from the point of the inflexion in the orientation of the ectolophid'
+		,
+		46
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Allosminthus ernos'		                    000000000000000000000{0,1}0{0,1}00000000{0,2}0000{0,1}000000?0
+	'Bohlinosminthus parvulus'		              0100021220100100000{0,1}3001001{1,2,3}00{0,2}10{0,1}{0,1}00201000000
+	'Heosminthus teredens'		                  01000212201001{1,2}0100{0,1}300{0,1}00{0,2}0002000000201001001
+	'Heosminthus primiveris'		                01000102201001{0,1,2}0000030010000002000000{1,2}1100100?
+	'Heosminthus borrae'		                    0100020220100120100{0,1}30010003002000000{1,2}01001000
+	'Heosminthus nomogenesis'		               010001{0,1}220100120000?30010010002??0000{1,2}0{0,1}00000?
+	'Heosminthus chimidae'		                  0{0,1}00021{1,2}20100120000{0,1}30010010002{0,1}00000{1,2}01001000
+	'Heterosminthus firmus'		                 010001122010212010202001011{1,2}00000111020110111?
+	'Heterosminthus erbajevae'		              ?100021{1,2}2010{0,2}12010{0,2}12001011000000??{0,1}0201101111
+	'Onjosminthus baindi'		                   010002122110{0,1}020000{0,1}30010013002200{0,1}11200001000
+	'Parasminthus debruijni'		                010002022010002100010001010{0,1}00{0,1,2}{0,1}011102010111?0
+	'Shamosminthus sodovis'		                 0100{0,1}2122{0,1}102101000{0,1}0001001300{0,1}02{0,1}{0,1}01{1,2}010011??
+	'Sinosminthus inapertus'		                000002{0,2}02000202000003001121100110001121000100?
+	'Plesiosminthus olzi'		                   11{0,1}0011220100020000{0,1}3{0,1}0{0,1}0112002{0,1}0001020101100?
+	'Plesiosminthus clivosus'		               110002122010011000003000000{0,3}{0,1}020{0,1}0?0020?01?000
+	'Plesiosminthus barsboldi'		              1100021220100120{0,1}00030010010002110010201{0,1}1?000
+	'Plesiosminthus asiaticus'		              110002222010002000{0,1}030010000002000{0,1}10201011000
+	'Plesiosminthus vegrandis'		              ?100021220100120000{0,1}3{0,1}0{0,1}00021020{0,1}??1020{0,1}00?000
+	'Schaubeumys grangeri'		                  11000212{2,3}01011200010300100110000{0,1}0010201011000
+	'Schaubeumys sabrae'		                    1100022230101100101030010013002000?0020?01??0?
+	'Plesiosminthus admyarion'		              ?1010{1,2}12{1,2}011010030013001{0,2}00300200??10201011{0,1}0{0,1}
+	'Plesiosminthus meridionalis'		           ?10101122011{0,2}1201001{0,3}001000300120??1020100?00?
+	'Plesiosminthus schaubi'		                11010212201100{0,2}010003001000300220??0020100?000
+	'Plesiosminthus myarion'		                ?10102122010012000003001000000200??10201011{0,1}0?
+	'Plesiosminthus winistoerferi'		          110002122010012000{0,1}0310010111021{0,1}001021101100?
+	'Plesiosminthus conjunctus'		             110102122010012000{0,1}03000000000200??1020101100?
+	'Plesiosminthus moralesi'		               ?10{0,1}02022011010000{0,1}03001000300{1,2}00??{0,1}120100110?
+	'Megasminthus gladiofex'		                ?11002223010103000213001000300200??10200011000
+	'Megasminthus tiheni'		                   ?11102223010103000213001001300200??10{0,1,2}00011000
+	'Macrognathomys gemmacollis'		            ?000{0,1}{1,2}222?1001??2120{2,3}0102003112010?0020?01??01
+	'Macrognathomys bartlett'		               ?00011221?100101212{0,1}211022231120100012??01??01
+	'Sicista primus'		                        00000122101001114120311022{0,2}1112{0,1}2001{0,1}{0,2}0001?101
+	'Sicista gaotege'		                       0000112211{0,1}0010121201110{0,2}22{1,3}1120100112??0????1
+	'Sicista wangi'		                         000001210110010121212110{0,2}2231120200102??0???01
+	'Sicista praeloriger'		                   000010210110010121202110{0,2}?{0,2}31120200110??0???01
+	'Sicista bagajevi'		                      00002121011001112120211002231120100112??0???01
+	'Sicista bilike'		                        00001121010101114120211022{0,2}31120{1,2}00112??0???01
+	'Sicista betulina'		                      000020210100011121202110{0,2}2{0,2}11100200112??0???01
+	'Sicista concolor'		                      00001122111001212120211022{0,2}31120100112??0???01
+	'Sicista subtilis'		                      00000122111001012120211002231122200102??0???01
+	'Litodonomys minimus'		                   ?1010202201{0,1}00??0000300000?3000201?0020?00??0?
+	'Litodonomys lajeensis'		                 ?101021220100000000{0,1}3000000300{0,1}20110020101000?
+	'Omoiosicista fui'		                      ?00001122010{0,1,2}021402{0,1}20?10201002????1020{0,1}00?001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 46;
+      ENDBLOCK;
+      BEGIN PAUP;
+ Pset mstaxa = polymorph; Assume exSet=InfOnly; outgroup 1 / only; ctype ord : 5 6 31 38; set criterion = parsimony opt = deltran; hsearch nreps = 1000 addseq = random hold = 10 swap = tbr; contree / strict = yes majrule = yes; describe 1 / apolist = yes; Saveassum file = assumptionsfile121621; savetrees file = treessp121621.tre; log file = analysisdatasp121621.txt; pscores 1 / ci = yes ri = yes rc = yes hi = yes; contree all/strict=yes treefile=Consensus.tre; 
+ENDBLOCK;

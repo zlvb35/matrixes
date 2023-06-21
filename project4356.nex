@@ -1,0 +1,295 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 03.55.47 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=18;
+    TAXLABELS
+    		'Lophostemon'
+		'Stockwellia'
+		'Eucalyptopsis'
+		'Allosyncarpia'
+		'Arillastrum'
+		'Angophora costata'
+		'Angophora floribunda'
+		'Angophora hispida'
+		'Corymbia sub Corymbia'
+		'Corymbia sect Naviculares'
+		'Corymbia sect Abbreviatae'
+		'Eucalyptus deglupta'
+		'Eucalyptus camaldulensis'
+		'Eucalyptus pleurocarpa'
+		'Eucalyptus erythrocorys'
+		'Eucalyptus cloeziana'
+		'Eucalyptus sub Eucalyptus'
+		'Patagonian fossils'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Vessel aggregation'
+		 [2] 'Paratracheal vertical parenchyma'
+		 [3] 'Crystalliferous strands in the vertical parenchyma'
+		 [4] 'Stem oil ducts'
+		 [5] 'Adult leaves phyllotaxy'
+		 [6] 'Adult leaves intramarginal vein'
+		 [7] 'Angophoroid trichomes'
+		 [8] 'Emergent oil glands'
+		 [9] 'Oil glands number of cap cells'
+		 [10] 'Oil gland cap cells'
+		 [11] 'Oil glands radiating trichomes'
+		 [12] 'Inflorescence phyllotaxy'
+		 [13] 'Inflorescence branching'
+		 [14] 'Inflorescence bracts (recaulescence in inflorescence)'
+		 [15] 'Number of flowers per umbellaster'
+		 [16] 'Flowers in umbellaster'
+		 [17] 'Anthopodium (e.g. pedicel)'
+		 [18] 'Arillastrum type trichomes on inflorescence or floral parts'
+		 [19] 'Floral sclereids at anthesis'
+		 [20] 'Hypanthium abscission'
+		 [21] 'Perianth mery'
+		 [22] 'Calyx'
+		 [23] 'Calyx (free or opercular)'
+		 [24] 'Corolla morphology'
+		 [25] 'Corolla'
+		 [26] 'Corolla (free or opercular)'
+		 [27] 'Petals with keel-limb structure (staminophore or homologue)'
+		 [28] 'Petal limb morphology at anthesis'
+		 [29] 'Petal limb or staminophore development'
+		 [30] 'Carpel number'
+		 [31] 'Style tip engaged in pit in corolla before anthesis'
+		 [32] 'Stigma papillae'
+		 [33] 'Ovule arrangement'
+		 [34] 'Ovules'
+		 [35] 'Fruit valves'
+		 [36] 'Disc in fruit'
+		 [37] 'Number of seeds in fruit'
+		 [38] 'Seeds at maturity'
+		 [39] 'Well-organized crystalliferous layer in the testa'
+		 [40] 'Outer integument of the ovule or seed'
+		 [41] 'Mature seed cracking of the seed coat'
+		 [42] 'Mature seed raphe'
+		 [43] 'Cotyledons'
+	;
+	STATELABELS
+		1
+		'mostly solitary'
+		'mostly grouped'
+		,
+		2
+		'neither confluent or banded (scanty)'
+		'either confluent or banded'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present large oil ducts in pith'
+		'present small oil ducts in pith and cortex'
+		,
+		5
+		'consitently opposite (opposite decussate)'
+		'at least partially alternate or spiral (opposte disjunct)'
+		'whorled'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present incipient condition or conspicuously elongated'
+		,
+		9
+		'predominantly four per gland'
+		'predominantly two per gland'
+		,
+		10
+		'without micropapillae'
+		'with micropapillae'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'indefinite (disperse or flexible)'
+		'opposite'
+		,
+		13
+		'panicles only'
+		'panicles plus thrysoides metabotryoides etc'
+		'thrysoides botryoides etc sometimes monads'
+		'monads predominating'
+		,
+		14
+		'partially or completely fused to the infloresence axis'
+		'free from the inflorescence axes'
+		,
+		15
+		'3'
+		'5-7'
+		'>7'
+		,
+		16
+		'free'
+		'fused'
+		,
+		17
+		'present (anthopodium elongated)'
+		'absent flowers sessile (anthopodium not elongated)'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent (may develop in fruit)'
+		'present'
+		,
+		20
+		'absent hypanthium persistent'
+		'circumscissile'
+		,
+		21
+		'5(-6)'
+		'not fixed 4-5'
+		'fixed 4'
+		,
+		22
+		'sepals free'
+		'sepals connate forming an operculum'
+		,
+		23
+		'persistant often to fruiting stage'
+		'shed at anthesis with corolla'
+		'caducous'
+		,
+		24
+		'well developed petals free or corolla opercular'
+		'petals highly reduced corolla rudimentary'
+		,
+		25
+		'petals free but may adhere to calyx'
+		'petals coherent (margins discernable)'
+		'petals connate (margins usually not discernable)'
+		,
+		26
+		'persistent'
+		'lost at anthesis'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'petal limbs (stamens not epipetalous)'
+		'staminophore (stamens epipetalous)'
+		,
+		29
+		'beginning as separate buttresses'
+		'continous circumfloral ring throughout development'
+		,
+		30
+		'1-2'
+		'3'
+		'4'
+		'5'
+		'6'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'long (greater than 60 microns)'
+		'short (less than 60 microns)'
+		,
+		33
+		'not in distinct rows'
+		'in two to ten vertical rows'
+		,
+		34
+		'anatropous'
+		'hemitropous'
+		'campylotropous'
+		,
+		35
+		'enclosed'
+		'level to exserted'
+		,
+		36
+		'descending'
+		'level'
+		'ascending'
+		,
+		37
+		'greater than 1 per locule'
+		'1 per locule'
+		'less than 1 per locule'
+		,
+		38
+		'bitegmic with the inner clearly developed and suberized'
+		'unitegmic or bitegmic with the inner unsuberized'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'2 cells thick'
+		'4 cells thick'
+		'6 to 8 cells thick'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'entire'
+		'emarginate'
+		
+	;
+	MATRIX
+	'Lophostemon'		                        00021000??00201000?000(0,2)0000--10?00110?00??0
+	'Stockwellia'		                        1000100???00110111?11001000--00?011?(1,2)?????1
+	'Eucalyptopsis'		                      11001000??0011(0,1)(0,1)11?12001000--00??11?(1,2)?1????
+	'Allosyncarpia'		                      ????210?0?00100111010000000--0000??-2??????
+	'Arillastrum'		                        01010000?00021(0,1)011102000000--000020?(1,2)112??0
+	'Angophora costata'		                  111(0,1)0111010121(0,1)00000000000100(1,2)000100(0,1)111100
+	'Angophora floribunda'		               111(0,1)0111010121(0,1)00000000000100(1,2)0001001111100
+	'Angophora hispida'		                  11100(0,1)11010121(0,1)00000000000100(1,2)00010(0,1)1111100
+	'Corymbia sub Corymbia'		              11111(0,1)010101111000001110(0,1,2)1100(1,2,3)000100(0,1)111000
+	'Corymbia sect Naviculares'		          111111010101111000?0112021100(0,1,2)110100?111100
+	'Corymbia sect Abbreviatae'		          11111(0,1)0101(0,1)111(0,1)000?01120211001110100?111000
+	'Eucalyptus deglupta'		                001(0,1)100(0,1)100111(0,1)00010212021111(1,2)00111(0,1,2)0110011
+	'Eucalyptus camaldulensis'		           0010110(0,1)100111(1,2)00010212021111(1,2,3)0111120110011
+	'Eucalyptus pleurocarpa'		             00111101101111000010200021110(1,2)011100(0,1)011001
+	'Eucalyptus erythrocorys'		            00111101101111000010200021110(1,2)00110(1,2)?011001
+	'Eucalyptus cloeziana'		               001011011011111000?0202021111(1,2)01101(0,1,2)?001011
+	'Eucalyptus sub Eucalyptus'		          00101101101111(1,2)0(0,1)0102--021111(1,2,3)0(0,1)10(0,1)(0,1,2)000101(0,1)
+	'Patagonian fossils'		                 ????11?1???1??(0,1)00??0??201111?(3,4)????1(1,2)???????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 43;
+      ENDBLOCK;
+      

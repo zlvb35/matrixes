@@ -1,0 +1,552 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.52.07 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=28;
+    TAXLABELS
+    		'Benthosuchus'
+		'Watsonisuchus'
+		'Rhineceps'
+		'Australerpeton'
+		'Peltobatrachus'
+		'Xenobrachyops'
+		'Bothriceps'
+		'Keratobrachyops'
+		'Lapillopsis'
+		'Trematosaurus'
+		'Lydekkerina'
+		'Luzocephalus'
+		'Chomatobatrachus'
+		'Laidleria'
+		'Uruyiella'
+		'Rhytidosteus'
+		'Boreopelta'
+		'Deltasaurus'
+		'Arcadia'
+		'Peltostega'
+		'Pneumatostega'
+		'Derwentia'
+		'Nanolania'
+		'Sangaia'
+		'Mahavisaurus'
+		'Indobrachyops'
+		'Trucheosaurus'
+		'Rewana'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=87;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Skull table character 1'
+		 [2] 'Skull table character 2'
+		 [3] 'Skull table character 3'
+		 [4] 'Skull table character 4'
+		 [5] 'Skull table character 5'
+		 [6] 'Skull table character 6'
+		 [7] 'Skull table character 7'
+		 [8] 'Skull table character 8'
+		 [9] 'Skull table character 9'
+		 [10] 'Skull table character 10'
+		 [11] 'Skull table character 11'
+		 [12] 'Skull table character 12'
+		 [13] 'Skull table character 13'
+		 [14] 'Skull table character 14'
+		 [15] 'Skull table character 15'
+		 [16] 'Skull table character 16'
+		 [17] 'Skull table character 17'
+		 [18] 'Skull table character 18'
+		 [19] 'Skull table character 19'
+		 [20] 'Skull table character 20'
+		 [21] 'Skull table character 21'
+		 [22] 'Skull table character 22'
+		 [23] 'Skull table character 23'
+		 [24] 'Skull table character 24'
+		 [25] 'Skull table character 25'
+		 [26] 'Skull table character 26'
+		 [27] 'Skull table character 27'
+		 [28] 'Skull table character 28'
+		 [29] 'Skull table character 29'
+		 [30] 'Skull table character 30'
+		 [31] 'Skull table character 31'
+		 [32] 'Skull table character 32'
+		 [33] 'Occiput character 33'
+		 [34] 'Occiput character 34'
+		 [35] 'Occiput character 35'
+		 [36] 'Occiput character 36'
+		 [37] 'Occiput character 37'
+		 [38] 'Occiput character 38'
+		 [39] 'Occiput character 39'
+		 [40] 'Occiput character 40'
+		 [41] 'Occiput character 41'
+		 [42] 'Occiput character 42'
+		 [43] 'Occiput character 43'
+		 [44] 'Occiput character 44'
+		 [45] 'Occiput character 45'
+		 [46] 'Occiput character 46'
+		 [47] 'Occiput character 47'
+		 [48] 'Occiput character 48'
+		 [49] 'Palate character 49'
+		 [50] 'Palate character 50'
+		 [51] 'Palate character 51'
+		 [52] 'Palate character 52'
+		 [53] 'Palate character 53'
+		 [54] 'Palate character 54'
+		 [55] 'Palate character 55'
+		 [56] 'Palate character 56'
+		 [57] 'Palate character 57'
+		 [58] 'Palate character 58'
+		 [59] 'Palate character 59'
+		 [60] 'Palate character 60'
+		 [61] 'Palate character 61'
+		 [62] 'Palate character 62'
+		 [63] 'Palate character 63'
+		 [64] 'Palate character 64'
+		 [65] 'Palate character 65'
+		 [66] 'Palate character 66'
+		 [67] 'Palate character 67'
+		 [68] 'Palate character 68'
+		 [69] 'Palate character 69'
+		 [70] 'Palate character 70'
+		 [71] 'Palate character 71'
+		 [72] 'Palate character 72'
+		 [73] 'Palate character 73'
+		 [74] 'Palate character 74'
+		 [75] 'Palate character 75'
+		 [76] 'Mandible character 76'
+		 [77] 'Mandible character 77'
+		 [78] 'Mandible character 78'
+		 [79] 'Mandible character 79'
+		 [80] 'Mandible character 80'
+		 [81] 'Mandible character 81'
+		 [82] 'Mandible character 82'
+		 [83] 'Mandible character 83'
+		 [84] 'Mandible character 84'
+		 [85] 'Mandible character 85'
+		 [86] 'Mandible character 86'
+		 [87] 'Mandible character 87'
+	;
+	STATELABELS
+		1
+		'Orbits located about halfway along the skull length'
+		'orbits located in front of the midlength of the skull'
+		'orbits located behind midlength of the skull'
+		,
+		2
+		'Interorbital distance less than 50% of the width of the skull atmidorbital level'
+		'interorbital distance greater than 50% of the width of the skull at midor- bital level (1)'
+		,
+		3
+		'Skull margins straight, or slightly concave'
+		'slightly convex'
+		,
+		4
+		'Sculpture of the dorsal skull roof forms a normal ridge-grooved pattern without pustules or nodules on the junctions'
+		'spider-web pattern with pustules or nodules on the junctions of crests and ridges (Cosgriff & Zawiskie 1979)'
+		'only pustules are present'
+		,
+		5
+		'Nares not close to skull midline (distance between nares twice width of one naris; or greater)'
+		'nares close to skull midline (distance between nares approximates width of one naris)'
+		,
+		6
+		'Nares rounded'
+		'narrow and elongated'
+		,
+		7
+		'Presence of snout formed by an anterior expansion of the premaxilla present'
+		'Presence of snout formed by an anterior expansion of the premaxilla absent'
+		,
+		8
+		'Snoutmargins continually converging towards the tip'
+		'tip of snout expanded so that the snout margins run parallel, or are concave before the tip'
+		,
+		9
+		'Sensory sulci well developed (e.g. deeply incised)'
+		'present but poorly developed (e.g. shallow)'
+		'deeply incised between orbit and nostril only'
+		'sensory sulci absent'
+		,
+		10
+		'Infraorbital sulcus straight or gently curved'
+		'infra-orbital sulcus with a step-like flexure between the orbit and the naris'
+		'flexure Z shaped'
+		,
+		11
+		'Supraorbital sensory sulcus widely separated from infraorbital sulcus'
+		'runs closely parallel to infraorbital sulcus between naris and orbit'
+		,
+		12
+		'Lacrimal bone present'
+		'absent'
+		,
+		13
+		'Contact between premaxilla and nasal anterior to the nares'
+		'at level of the nares'
+		'posterior to the nares'
+		,
+		14
+		'Jugal extends anterior to orbital margin'
+		'anterior end of jugal about level with or posterior to anterior orbital margin'
+		,
+		15
+		'Maxilla in the orbital margin'
+		'maxilla not in the orbital margin'
+		,
+		16
+		'Prefrontal and jugal not in contact'
+		'prefrontal and jugal form a suture'
+		,
+		17
+		'Parietalfrontal contact anterior to the posterior orbitalmargin'
+		'at the level of the posterior orbital margin'
+		'behind the posterior orbital margin'
+		,
+		18
+		'Pre- and post-frontals form a suture'
+		'pre- and post-frontals fail to contact so that the frontal contributes to the orbital margin'
+		,
+		19
+		'Postparietal pair less than four times wider, trans- versely than anteroposteriorly long'
+		'greater than four times wider than long'
+		,
+		20
+		'Postorbital elongated'
+		'postorbital quadrangular or rounded but not anteroposteriorly elongated'
+		,
+		21
+		'Straight or concave posterior squamosal margin in dorsal view'
+		'convex and overhanging squamosal margin (falciform crest)'
+		,
+		22
+		'Maxilla and nasal not in contact'
+		'maxilla and nasal forming a suture'
+		,
+		23
+		'Maxilla and quadratojugal forma suture'
+		'maxilla and quadratojugal do not contact at all'
+		,
+		24
+		'Tabulars are well developed rectangular to triangular bones'
+		'tabulars reduced to thin slivers lying against the posterior margin of the skull roof'
+		,
+		25
+		'Tabular horn not supported from underneath'
+		'tabular horn supported'
+		,
+		26
+		'Tabular horns end in the same level or anterior to the posterolateral corners of the skull roof'
+		'tabular horns extend posteriorly to the posterolateral corners of the skull roof'
+		,
+		27
+		'Tabular horns composed exclusively of the tabular'
+		'squamosal participates on the tabular horns'
+		,
+		28
+		'Tabular hornwithout a thin ventrally projecting crest of bone'
+		'ventrally projected crest of bone present in tabular horn'
+		,
+		29
+		'Otic notch deep'
+		'otic notch is a wide shallow embayment'
+		'otic notch absent'
+		,
+		30
+		'Squamosal and tabular separated by the supratemporal'
+		'squamosal-tabular suture present on the dorsal skull roof'
+		,
+		31
+		'Post quadratojugal process of the skull roof absent'
+		'Post quadratojugal process of the skull roof present'
+		,
+		32
+		'Post postparietal process of the skull roof absent'
+		'Post postparietal process of the skull roof present'
+		,
+		33
+		'Exoccipital condyles not projected beyond the posterior margin of the skull table'
+		'exoccipital condyles projectedwell beyond the posterior margin of the skull table'
+		,
+		34
+		'Quadrate condyles behind the occipital condyles'
+		'in the same transverse line as the occipital condyles'
+		'anterior to the occipital condyles'
+		,
+		35
+		'Bilobed occipital condylewith reduced basioccipital contribution'
+		'double occipital condyles with no basioccipital contribution'
+		,
+		36
+		'Exoccipital condyls elliptical, facing posteromedially'
+		'more rounded, facing posteriorly, held on short stalk'
+		,
+		37
+		'Squamosal-quadratojugal trough absent'
+		'present'
+		,
+		38
+		'Quadratojugal forms a simple corner with the quadrate in occipital view'
+		'a sulcus present on the quadratojugal; lateral to the quadrate condyles; so that the quadratojugal forms an overhang in occip- ital view (1)'
+		,
+		39
+		'Ascending ramus of the pterygoid contacts the squamosal'
+		'ascending ramus does not contact the squamosal; creating an upper palatoquadrate fissur'
+		,
+		40
+		'Ascending ramus of the pterygoid thickened by an ascending column positioned towards its medial edge'
+		'column absent'
+		,
+		41
+		'Ascending ramus of the pterygoid forms a continuous curve with the posterior edge of the quadrate ramus'
+		'ascending ramus of the pterygoid arises from the dorsal surface as a shallow; uncurved lamina'
+		'ascending ramus of the pterygoid arises from the dorsal surface as a gently concave lamina which is also curved posteriorly in vertical section'
+		'ascending ramus of the pterygoid arises from the dorsal surface as a gently concave lamina'
+		,
+		42
+		'Foramen passing though the stapes'
+		'stapedial foramen absent'
+		,
+		43
+		'Posterior face of quadrate ramus of the pterygoid without an oblique ridge'
+		'a low rounded oblique ridge present'
+		'oblique ridge is a large sharp edged crest'
+		,
+		44
+		'Occipital face of the quadrate without a dorsal process'
+		'quadrate with a dorsal process'
+		,
+		45
+		'Paraquadrate foramen present on occipital portion of quadratojugal'
+		'present on posteroventrolateral ornamented portion of quadratojugal'
+		'absent'
+		,
+		46
+		'Post temporal fenestramarkedlywider than deep'
+		'about as wide as deep as or deeper than wide'
+		'post temporal fenestrae reduced to small foramina or entirely closed'
+		,
+		47
+		'Pterygoid quadrate ramus evenly curved from the horizontal to the vertical plane throughout its length'
+		'horizontally oriented proximally and vertically oriented distally so it appears twisted'
+		,
+		48
+		'Quadrate ramus of the pterygoid level with palate'
+		'quadrate ramus slightly downturned'
+		'quadrate ramus strongly downturned'
+		,
+		49
+		'Choana round or oval'
+		'slit-like'
+		,
+		50
+		'Anterior palatal fossa not perforated'
+		'anterior palatal fossa perforated to form an anterior palatal vacuity'
+		,
+		51
+		'Single anterior palatal fossa'
+		'anterior palatal fossae paired divided by a median ridge'
+		,
+		52
+		'Posterior margin of palate curved'
+		'almost straight'
+		,
+		53
+		'Quadrate condyles double and markedly screw- shaped with the medial condyle extended anteriorly'
+		'quadrate condyle double and triangular, the apex of the triangle lateral'
+		'quadrate condyle double with two parts subequal in size'
+		,
+		54
+		'Maxilla forming most of the lateral border of choanae'
+		'lateral processes of vomer and palatine approach one another so as to reduce the maxillary contribution'
+		'vomer-palatine suture lateral to the choanae excludes maxilla entirely'
+		,
+		55
+		'Palatine ramus of the pterygoid meets palatine on the lateral margin of interpterygoid vacuity'
+		'pterygoid retracted so ectopterygoid is exposed in the interpterygoid vacuity and contributes to strut between interpterygoid and subtemporal vacuities'
+		'pterygoid markedly retracted so ectopterygoid makes a large contribution to strut between interpterygoid and subtemporal vacuities (2)'
+		,
+		56
+		'Palatine ramus of the pterygoid bears a posterolateral flang'
+		'flange absent'
+		,
+		57
+		'Lateral margin of the pterygoid; bordering the subtemporal vacuity concave'
+		'lateral margin of the pterygoid straight in ventral view'
+		,
+		58
+		'Posterior edge of the ectopterygoid contributes to the anterior margin of the subtemporal fossa'
+		'posterior end of the ectopterygoid separated from the subtemporal fossa by an alar process of the jugal'
+		,
+		59
+		'Width of interpterygoid vacuity pair less than 90% of the length'
+		'width of pair greater than 90% of the length'
+		,
+		60
+		'Width of the cultriform process of the parasphenoid at its midpoint less than 10% of the length of the process (using the anterior and posterior ends of the interpterygoid vacuities as the length of the cultri- form process)'
+		'width of cultriform process more than 10% of its length'
+		,
+		61
+		'Ventral surface of the cultriformprocess narrow and rounded'
+		'gently convex'
+		'flat ventral surface and unexpanded anteriorly'
+		'flat and expanded anteriorly between the vomers'
+		'ventral surface of the cultriform process flat with a median keel'
+		,
+		62
+		'Vomerine depression or foramen just anterior to cultriform process of the parasphenoid absent'
+		'present'
+		'present as a vacuity'
+		,
+		63
+		'Posteromedial corner of the palatine simple; not extending posterior to the most anterior ectoptery- goid tooth'
+		'elongate posteromedial process of the palatine extending posterior to the most anterior ectopterygoid tooth'
+		,
+		64
+		'Ectopterygoid with enlarged tusks at its anterior end'
+		'ectopterygoid tusks absent'
+		,
+		65
+		'Ectopterygoid with only one or two teeth'
+		'ectopterygoid with a tooth row of more than three teeth'
+		,
+		66
+		'Absence of a tooth row behind the palatine tusks'
+		'four to six palatine teeth'
+		'more than seven palatine teeth'
+		,
+		67
+		'Medial margin of the choana without teeth'
+		'medial margin of the choana with a row of teeth'
+		,
+		68
+		'Vomers without a rowof teeth between the vomerine fangs'
+		'a straight tooth row running transversely between the vomerine fangs'
+		'transverse vomerine tooth row V shaped'
+		,
+		69
+		'Vomers with a field of denticles'
+		'vomers without a field of denticles'
+		,
+		70
+		'Posterior end of the ventral surface of the parasphenoid plate without sharp rimmed depressions'
+		'rounded widely separated depressions (pockets) at the posterior end of the ventral surface of the parasphenoid plate with sharp anterior rims (muscu- lar crests)'
+		'depressions transversely widened so that themuscular crests approach each other forming transverse ridges'
+		,
+		71
+		'Exoccipital and pterygoid not in contact or contact not visible ventrally'
+		'exoccipital-pterygoid suture visible in ventral view'
+		,
+		72
+		'Round patch of denticles on the parasphenoid at the base of the cultriform process'
+		'parasphenoid denticle field enlarged to a transverse belt extend- ing between the pterygoid-parasphenoid articula- tions'
+		'parasphenoid denticles absent'
+		'parasphenoid and cultriform process with denticle fiel'
+		,
+		73
+		'Parasphenoid plate subrectangular without lateral wings'
+		'parasphenoid plate expanded transversely creating lateral wings'
+		,
+		74
+		'Pterygoids without ornament'
+		'ventral surface of the pterygoids with ornament'
+		,
+		75
+		'Pterygoids without denticles'
+		'pterygoids with denticles'
+		,
+		76
+		'No extension of the mandible behind the glenoid fossa'
+		'postglenoid area (PGA) on the mandible'
+		,
+		77
+		'No arcadian groove at the posterior end of the mandible'
+		'arcadian groove present'
+		,
+		78
+		'Prearticular extending anteriorly, at least as far as the level of the midpoint of the middle coronoid (0);'
+		'prearticular not extending anterior to the level of the suture of the middle and posterior coronoids'
+		,
+		79
+		'Posterior meckelian foramen bordered by the prearticular, postsplenial and the angular'
+		'posterior meckelian foramen bordered by the prearticular and postsplenial exclusively'
+		,
+		80
+		'Parasymphysial teeth (includes parasymphysial tusks) behind the marginal tooth row'
+		'parasymphysial teeth absent'
+		,
+		81
+		'All three coronoids with field of small denticles'
+		'field of denticles restricted to the posterior coronoid'
+		'coronoids without any denticle field'
+		,
+		82
+		'Prearticular not extending posterior to the level of the glenoid'
+		'prearticular extending posterior to the glenoid, covering themedial face of the articular'
+		,
+		83
+		'Mandibular sulcus shallow or absent at its posterior end'
+		'mandibular sulcus deeply incised at its posterior end'
+		,
+		84
+		'Postglenoid process (if present) on the posterior end of the mandible no longer than the arcadian process'
+		'postglenoid process much longer than the arca- dian process'
+		,
+		85
+		'Chordatympanic foramen located on the suture between the articular and the prearticular'
+		'chordatympanic foramen located on the prearticular alone'
+		'chordatympanic foramen absent'
+		,
+		86
+		'Mandible without a hamate process'
+		'tall hamate process projecting dorsally immediately in front of the anteromedial corner of the glenoid of the mandible'
+		,
+		87
+		'Coronoid bones without teeth other than denticles'
+		'posterior coronoid with a row of teeth'
+		'all coronoids with a continuous tooth row'
+		
+	;
+	MATRIX
+	'Benthosuchus'		              200001010210101110011110110001000010000-0020000101011001010000111212120101111100201-001
+	'Watsonisuchus'		             20000?1-1??0?011010111?0??0001000010000-0021000101?1000101000011121212020011?100201-011
+	'Rhineceps'		                 2000011-2000101110011110100100000000000-002000000000000001002000121101010010-000001-000
+	'Australerpeton'		            2000110110?00011100111?0100100000000000-0?2010000110010100001011121011020010-??0201-012
+	'Peltobatrachus'		            0012????3--?????10010??0?00010100000100-0?100001???00??00?100????????10301111????00000?
+	'Xenobrachyops'		             1110101-0111?100201001?1-0--2100111110013?01010201002121?111210000001002000101?0210-201
+	'Bothriceps'		                1010001-???10111000101?0000011001111101???0?210201012?111?1120???????00201010????10-10?
+	'Keratobrachyops'		           1010101-000111112011010001001100121110012?010002010121111?1121001000100201010110100-?00
+	'Lapillopsis'		               0011011-3--01011010101000100010101111010?010010101010010011000010000110201111?112001102
+	'Trematosaurus'		             2100110100101011201001100100010011111000111000000111101101001011111010010011010??0?-?02
+	'Lydekkerina'		               0010001-11?0101100010-00010001010110100-0011?000011010010110000111010101011111000010012
+	'Luzocephalus'		              200100000000001110010110?00001000010101-0?110000010001?10?0000???1111000011????????????
+	'Chomatobatrachus'		          000000001110201100110010?00001001110101-1?000000011011110000000012121202010????????????
+	'Laidleria'		                 200110000011111101010111-0--211011111111010102100??021?00?1130??1200000?0101?????00-???
+	'Uruyiella'		                 1?01????1???????2??00?11----210?00??01?00?1????0???0??0001????0112???????11????????????
+	'Rhytidosteus'		              21010101?0110100?0???1?????????????0????????????1?????????????????????1????11????01????
+	'Boreopelta'		                ?1?1??????????????000???0???11?0?11?1?110?0??011???0??1101?????01????00?110????????????
+	'Deltasaurus'		               ?101001-0011111110010110000011?0011?10101?0??1110101?20100112?01000000031011?00?000?010
+	'Arcadia'		                   11110?1-000111112001011000001101001010101?0?0011????11??001?2?01121?????101111000010010
+	'Peltostega'		                01?10???????????1?000??00000110011111?101?0?1011???01??10???????1????002100????????????
+	'Pneumatostega'		             ?101??1-1001?01120?0?1????????????????????0???????????????????????????????1??10?0?????0
+	'Derwentia'		                 111?001-10011??02001011000001100111010100?002000010101?1001120????11?003101????????????
+	'Nanolania'		                 010?011-1??11111000101?001001101121110101?002210???0??110111?????????202010????????????
+	'Sangaia'		                   01110?1-2010?0112000011000101111011110013?0?0010???01???01???????????002101????????????
+	'Mahavisaurus'		              01110?1-00?1????00010??0001011?0??????????0????????????????????????????????11?100010?10
+	'Indobrachyops'		             01110?1-0000??1010?100?0????1100011?1?????0???11???11??10?1????????????31?1????????????
+	'Trucheosaurus'		             1101001-???11111101001?1----2110???????????????????????????????????????????????????????
+	'Rewana'		                    1111??1-??????????????????????0????0?0?01?0???1??10?11110?11220112110?????1????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 9 11 - 87, ord: 10;
+      ENDBLOCK;
+      BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 87; 
+ENDBLOCK;

@@ -1,0 +1,145 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 03.38.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=47;
+    TAXLABELS
+    		'Anadara notabilis'
+		'Bathymodiolus mauritanicus'
+		'Bathymodiolus thermophilus'
+		'Benthomodiolus geikotsucola'
+		'Benthomodiolus lignocola'
+		'Brachidontes darwinianus'
+		'Brachidontes exustus'
+		'Brachidontes rodriguezii'
+		'Chione elevata'
+		'Dacrydium sp'
+		'Geukensia demissa'
+		'Glycymeris glycymeris'
+		'Gregariella coarctata'
+		'Idas washingtonia'
+		'Ischadium recurvum'
+		'Leiosolenus curtus'
+		'Lima lima'
+		'Lithophaga antillarum'
+		'Lithophaga lithophaga'
+		'Lithophaga nigra'
+		'Macoma balthica'
+		'Malleus albus'
+		'Margaritifera margaritifera'
+		'Modiolus auriculatus'
+		'Modiolus modiolus'
+		'Modiolus philippinarum'
+		'Modiolus rumphii'
+		'Musculista senhousia'
+		'Musculus discors'
+		'Musculus niger'
+		'Mytilus californianus'
+		'Mytilus edulis'
+		'Mytilus galloprovincialis'
+		'Mytilus trossulus'
+		'Neotrigonia lamarckii'
+		'Nuculana minuta'
+		'Nucula sulcata'
+		'Ostrea edulis'
+		'Pecten maximus'
+		'Perna perna'
+		'Perna viridis'
+		'Perumytilus purpuratus'
+		'Pinctada margaritifera'
+		'Pinna carnea'
+		'Septifer bifurcatus'
+		'Septifer virgatus'
+		'Xenostrobus securis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=4;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Posterior lobules on the inner mantle fold'
+		 [2] 'Exhalant siphon length relative to width'
+		 [3] 'Mode of life, position relative to substrate'
+		 [4] 'Mode of life, position relative to substrate (binary)'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'similar or shorter'
+		'longer'
+		,
+		3
+		'epifaunal'
+		'semi-infaunal'
+		'infaunal'
+		'boring into hard substrate'
+		,
+		4
+		'epifaunal'
+		'semi-infaunal/infaunal/borer'
+		
+	;
+	MATRIX
+	'Anadara notabilis'		                    0000
+	'Bathymodiolus mauritanicus'		           0000
+	'Bathymodiolus thermophilus'		           0000
+	'Benthomodiolus geikotsucola'		          0000
+	'Benthomodiolus lignocola'		             0000
+	'Brachidontes darwinianus'		             1000
+	'Brachidontes exustus'		                 1000
+	'Brachidontes rodriguezii'		             0000
+	'Chione elevata'		                       0121
+	'Dacrydium sp'		                         0021
+	'Geukensia demissa'		                    0111
+	'Glycymeris glycymeris'		                0000
+	'Gregariella coarctata'		                0131
+	'Idas washingtonia'		                    0000
+	'Ischadium recurvum'		                   0000
+	'Leiosolenus curtus'		                   0131
+	'Lima lima'		                            0000
+	'Lithophaga antillarum'		                0131
+	'Lithophaga lithophaga'		                0131
+	'Lithophaga nigra'		                     0131
+	'Macoma balthica'		                      0121
+	'Malleus albus'		                        0000
+	'Margaritifera margaritifera'		          0111
+	'Modiolus auriculatus'		                 0000
+	'Modiolus modiolus'		                    0000
+	'Modiolus philippinarum'		               0011
+	'Modiolus rumphii'		                     0011
+	'Musculista senhousia'		                 0121
+	'Musculus discors'		                     0121
+	'Musculus niger'		                       0121
+	'Mytilus californianus'		                1000
+	'Mytilus edulis'		                       1000
+	'Mytilus galloprovincialis'		            1000
+	'Mytilus trossulus'		                    1000
+	'Neotrigonia lamarckii'		                0021
+	'Nuculana minuta'		                      0121
+	'Nucula sulcata'		                       0021
+	'Ostrea edulis'		                        0000
+	'Pecten maximus'		                       0000
+	'Perna perna'		                          1000
+	'Perna viridis'		                        0000
+	'Perumytilus purpuratus'		               1000
+	'Pinctada margaritifera'		               0000
+	'Pinna carnea'		                         0011
+	'Septifer bifurcatus'		                  1000
+	'Septifer virgatus'		                    1000
+	'Xenostrobus securis'		                  1000
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 4;
+      ENDBLOCK;
+      

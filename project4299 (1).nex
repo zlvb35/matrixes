@@ -1,0 +1,245 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 02.36.35 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=15;
+    TAXLABELS
+    		'Hypothetical ancestor'
+		'Anoualerpeton priscum'
+		'Anoualerpeton unicum'
+		'Celtedens ibericus'
+		'Albanerpeton arthridion'
+		'Albanerpeton gracile'
+		'Albanerpeton galaktion'
+		'Albanerpeton cifellii'
+		'Albanerpeton nexuosum'
+		'Albanerpeton inexpectatum'
+		'Albanerpeton pannonicum'
+		'Paskapoo species'
+		'Wesserpeton evansae'
+		'Una species'
+		'Shirerpeton isajii'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=34;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Build of premaxilla'
+		 [2] 'Ratio of height of premaxillary pars dorsalis versus width across suprapalatal pit'
+		 [3] 'Inter-premaxillary contact'
+		 [4] 'Premaxillary-nasal contact'
+		 [5] 'Boss on premaxilla'
+		 [6] 'Relative size of premaxillary boss, if present'
+		 [7] 'Distribution of labial ornament on large premaxillae'
+		 [8] 'Pattern of premaxillary labial ornament'
+		 [9] 'Vertical position of suprapalatal pit on pars dorsalis'
+		 [10] 'Size of suprapalatal pit relative to lingual surface area of pars dorsalis'
+		 [11] 'Outline of suprapalatal pit'
+		 [12] 'Form of dorsal process on lingual edge of maxillary process'
+		 [13] 'Form of vomerine process on premaxilla'
+		 [14] 'Diameter of palatal foramen in premaxilla relative to diameter of base of medial teeth on bone'
+		 [15] 'Length of premaxillary lateral process on maxilla relative to height of process at base'
+		 [16] 'Dorsally projecting process on dentary immediately behind tooth row'
+		 [17] 'Labial ornament on large maxilla and dentary'
+		 [18] 'Labial or lingual profile of occlusal margin of maxilla and den tary'
+		 [19] 'Size heterodonty of teeth on maxilla and dentary'
+		 [20] 'Position of anterior end of maxillary tooth row relative to point of maximum indentation along leading edge of nasal process'
+		 [21] 'Dorsal or ventral outline of fused frontals'
+		 [22] 'Ratio of midline length of fused frontals versus width across posterior edge of bone , between lateral edges of ventrolateral crests , in large specimens'
+		 [23] 'Proportions of internasal process on fused frontals'
+		 [24] 'Form of ventrolateral crest on large , fused frontals'
+		 [25] 'Estimated maximum snout?pelvic length'
+		 [26] 'Direction faced by suprapalatal pit in pars dorsalis of premaxilla'
+		 [27] 'Path followed by canal through pars palatinum in premaxilla , between dorsal and ventral openings of palatal foramen'
+		 [28] 'Position in frontals of anterior end of orbital margin relative to anteroposterior midpoint of frontals'
+		 [29] 'Dorsal or ventral outline of internasal process on frontals'
+		 [30] 'Suprapalatal pit variably divided'
+		 [31] 'Flattened ventromedian keel extending along posterior two thirds of fused frontals'
+		 [32] 'Postorbital wing of parietal length'
+		 [33] 'Sculpture extent on postorbital wing of parietal'
+		 [34] 'Posterior process of parietal'
+	;
+	STATELABELS
+		1
+		'gracile'
+		'robust'
+		,
+		2
+		'"high", ratio greater than about 1.55 '
+		'"low", ratio less than about 1.55'
+		,
+		3
+		'sutured medially (i.e., paired)'
+		'fused medially in some individuals'
+		,
+		4
+		'premaxillary pars dorsalis minimally overlaps and abuts against or weakly sutured with anterior end of nasal'
+		'premaxillary pars dorsalis minimally overlaps and strongly sutured with anterior end of nasal'
+		'anterior end of nasal fits into lingual facet on premaxillary pars dorsalis and braced ventrolaterally by expanded dorsal end of lateral internal strut'
+		,
+		5
+		'present'
+		'absent'
+		,
+		6
+		'covers about dorsal one-quarter to one-third of pars dorsalis'
+		'covers about dor sal one-half of pars dorsalis'
+		'unused'
+		'inapplicable'
+		,
+		7
+		'restricted to dorsal part of pars dorsalis'
+		'covers entire face of pars dorsalis'
+		,
+		8
+		'discontinuous, anastomosing ridges and irregular pits'
+		'continuous ridges defining polygonal pits'
+		'pustulate'
+		,
+		9
+		'"high", with ventral edge of pit well above dorsal face of pars palatinum'
+		'"low", with ventral edge of pit just above or, more typically, continuous with dorsal face of pars palatinum'
+		,
+		10
+		'"small", about 1%'
+		'"moderate", about 4-15%'
+		'"large", about 20-25%'
+		,
+		11
+		'oval'
+		'triangular or slit-like'
+		,
+		12
+		'low, isolated ridge'
+		'high flange, continuous labially with base of lateral internal strut'
+		,
+		13
+		'prominent'
+		'weak'
+		,
+		14
+		'"small", foramen diameter <= tooth diameter'
+		'"large", foramen diameter > about one and one-third tooth diameter'
+		,
+		15
+		'"long", length > height'
+		'"short", length <= height'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'essentially straight'
+		'strongly convex or angular, with apex adjacent to tallest teeth'
+		,
+		19
+		'weakly heterodont anteriorly'
+		'strongly heterodont anteriorly'
+		,
+		20
+		'anterior to'
+		'approximately in line'
+		,
+		21
+		'approximately rectangular- or bell-shaped'
+		'approximately triangular'
+		,
+		22
+		'"long", ratio more than about 1.2'
+		'"moderate", ratio between about 1.2 and 1.1'
+		'"short", ratio equal to or less than about 1.0.'
+		,
+		23
+		'"short", length <= width'
+		'"long", length > width'
+		,
+		24
+		'narrow and convex ventrally to bevelled ventrolaterally in transverse view'
+		'narrow and triangular in transverse view, with ventral face flat to shallowly concave'
+		'wide and triangular in tranverse view, with ventral face deeply concave'
+		,
+		25
+		'"large", > about 50 mm'
+		'"small", < about 45 mm'
+		,
+		26
+		'laterolingually'
+		'lingually'
+		,
+		27
+		'dorso-laterally-ventromedially'
+		'vertically'
+		,
+		28
+		'in front of'
+		'in line with or behind'
+		,
+		29
+		'tapered anteriorly'
+		'bulbous'
+		,
+		30
+		'undivided'
+		'divided in about one-third or more of specimens'
+		,
+		31
+		'absent'
+		'present'
+		,
+		32
+		'equal or longer than width of frontoparietal suture'
+		'shorter than width of frontoparietal suture'
+		,
+		33
+		'sculpture extends on to wing'
+		'wing unsculptured'
+		,
+		34
+		'single'
+		'double'
+		
+	;
+	MATRIX
+	'Hypothetical ancestor'		              000000000000000000000000000000000?
+	'Anoualerpeton priscum'		              0?0?0?0?0000000001100011000?000?0?
+	'Anoualerpeton unicum'		               010000000000?00??11000000000000???
+	'Celtedens ibericus'		                 00000?0?000????0000?000001?0100000
+	'Albanerpeton arthridion'		            00000000000000?0000011001111000???
+	'Albanerpeton gracile'		               0000000011100000000111000111000???
+	'Albanerpeton galaktion'		             000000001210010?000011010111000???
+	'Albanerpeton cifellii'		              00020000111000???????????11?0?????
+	'Albanerpeton nexuosum'		              1111010?11010010011011110111001???
+	'Albanerpeton inexpectatum'		          1111131111000011100112120111010110
+	'Albanerpeton pannonicum'		            1111000011000010000112121111011??0
+	'Paskapoo species'		                   111113101100101000011?101111010???
+	'Wesserpeton evansae'		                0(0,1)010000(0,1)(0,1)00?000000(0,1)100011(0,1)101010?
+	'Una species'		                        000?000?000?????????100001?00?0???
+	'Shirerpeton isajii'		                 ??????????????00?1101(0,1)111??10?1011
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=6 TEXT='minor differences from matrix and supporting data approved by author';
+	TEXT CHARACTER=22 TEXT='(Sh = 1.21 - so coded as 0 and 1)';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 34;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1656615159403; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 8716602533752318414; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2431556580397405655; mqVersion 370; checksumv 0 3 3353282520 null getNumChars 34 numChars 34 getNumTaxa 15 numTaxa 15 short true bits 775 states 775 sumSquaresStatesOnly 328639.0 sumSquares 328639.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2431556580397405655 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.arrow; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleReduceCellBorders off; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleColorOnlyTaxonNames off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showDatasList #mesquite.lists.DatasetList.DatasetList; tell It; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DatasetsListTaxa.DatasetsListTaxa; newAssistant #mesquite.lists.DatasetsListNumChars.DatasetsListNumChars; newAssistant #mesquite.lists.DatasetsListClass.DatasetsListClass; newAssistant #mesquite.lists.MatrixListVisible.MatrixListVisible; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 600 392; setLocation 8 25; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 34; 
+ENDBLOCK;

@@ -1,0 +1,489 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 04.54.31 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=24;
+    TAXLABELS
+    		'Calyptaulax callirachis'
+		'Calyptaulax glabella'
+		'Acernapsis orestes'
+		'Ananaspis fecunda'
+		'R c hamlagdadianus'
+		'Ch fhoseri'
+		'Ch auspex'
+		'Austerops menchikoffi'
+		'Austerops speculator'
+		'Austerops punctatus'
+		'Austerops kermiti'
+		'Austerops salamandar'
+		'Austerops legrandi'
+		'Austerops sp B'
+		'Austerops salamandaroides'
+		'Austerops spd'
+		'Austerops couvinensis'
+		'Austerops hottonensis'
+		'Boeckops stelcki'
+		'Morocops granulops'
+		'Phacops latifrons'
+		'Phacops araw'
+		'Pedinopariops vagabundus'
+		'Paciphacops logani'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=63;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Cephalon–length/width ratio'
+		 [2] 'Glabella?ratio of width at L1/maximum width of frontal lobe'
+		 [3] 'Glabella–width'
+		 [4] 'Glabella sculpture?sculpture on composite lobe'
+		 [5] 'Glabella sculpture?definition of tubercles on composite lobe'
+		 [6] 'Glabella sculpture?density/distribution of tuberculation or granulation on composite lobe'
+		 [7] 'Axial furrow?divergence'
+		 [8] 'Axial furrow–shape'
+		 [9] 'Axial furrow–depth adjacent to L1'
+		 [10] 'Axial furrow–depth between S1 and front of palpebral furrow'
+		 [11] 'L1–sagittal length'
+		 [12] 'L1–shape and definition of lateral node*'
+		 [13] 'L1–width (tr) of median portion relative to total width'
+		 [14] 'Occipital ring–width (tr)'
+		 [15] 'Occipital ring–lateral lobes/nodes'
+		 [16] 'S1–medial continuity'
+		 [17] 'S1–adaxial curvature (toward axis)'
+		 [18] 'S2 and S3'
+		 [19] 'L2–length relative to L3'
+		 [20] 'Postero-lateral border furrow–at the angle'
+		 [21] 'Anterolateral border–shape'
+		 [22] 'Anterolateral angle of glabella–shape'
+		 [23] 'Postocular genal field?length (exsag)'
+		 [24] 'Palpebral furrow–depth'
+		 [25] 'Palpebral lobe–sculpture'
+		 [26] 'Glabella–transverse sculptural elements on anterior face of composite lobe'
+		 [27] 'Anterior border–length and orientation'
+		 [28] 'Preglabellar furrow–depth medially'
+		 [29] 'Palpebral area/palpebral lobe–relative height'
+		 [30] 'Glabella–steepness/overhang of anterior face'
+		 [31] 'L1–inflation of median portion'
+		 [32] 'Lateral border–sculpture'
+		 [33] 'Lateral border–marginulation'
+		 [34] 'Lateral border furrow–depth behind posterior branch of facial suture'
+		 [35] 'Genal angle–shape'
+		 [36] 'Eye–number of vertical lens files'
+		 [37] 'Eye–maximum number of lenses per vertical file'
+		 [38] 'Eye–interlensar sclera'
+		 [39] 'Eye - row of accessory lenses'
+		 [40] 'Subocular librigenal field'
+		 [41] 'Postocular genal field–inflation'
+		 [42] 'Subocular pad'
+		 [43] 'Vincular furrow–depth'
+		 [44] 'Vincular furrow?course'
+		 [45] 'Cephalic doublure?shape of posteromedian band'
+		 [46] 'Cephalic doublure/ventral portion of anterior border–sculpture'
+		 [47] 'Cephalic doublure/posterior band–sculpture'
+		 [48] 'Thorax–shape'
+		 [49] 'Pygidium–length/width ratio'
+		 [50] 'Pygidium–posterior outline'
+		 [51] 'Pygidium–position of maximum width'
+		 [52] 'Pygidial axis–width'
+		 [53] 'Pygidial axis–length (sag)'
+		 [54] 'Pygidial axis–posterior closure'
+		 [55] 'Pygidial axis–prominence'
+		 [56] 'Pygidial axis–taper'
+		 [57] 'Pygidium–pseudo-articulating half rings'
+		 [58] 'Pygidium–number of axial rings'
+		 [59] 'Pygidium–number of pleural furrows'
+		 [60] 'Pygidium–depth of pleural furrows'
+		 [61] 'Pygidium–depth of interpleural furrows'
+		 [62] 'Pygidium–sculpture'
+		 [63] 'Pygidial axis–height of tip'
+	;
+	STATELABELS
+		1
+		'narrow 60%–66%'
+		'very narrow > 66%'
+		'very wide < 54%'
+		'wide 54%–59%'
+		,
+		2
+		'base wide, 50%?60%'
+		'base very wide, > 60%'
+		'base narrow <50%'
+		,
+		3
+		'< 51%'
+		'51%–55%'
+		'61%–65%'
+		'56%–60%'
+		'66%–70%'
+		'71%–75%'
+		,
+		4
+		'tubercles with superimposed and interspersed granules'
+		'granules only'
+		'fine tubercles, homogeneous or heterogeneous size, coarsest elements less than diameter of lenses in eye'
+		'medium-sized tubercles lacking superimposed granules, coarsest elements about equal in diameter to lenses in eye'
+		'coarse tubercles lacking granules, coarsest elements larger in diameter than lenses in eye'
+		,
+		5
+		'tubercles distinct'
+		'tubercles weak/subdued'
+		'absent'
+		'tubercles conical or spinose'
+		'tubercles pustular/dome-like'
+		,
+		6
+		'dense on entire composite lobe'
+		'dense on front of composite lobe, sparse or absent elsewhere'
+		'moderately dense on entire composite lobe'
+		,
+		7
+		'moderate, 60?70°'
+		'low, <60°'
+		'high, >70°'
+		,
+		8
+		'strongly sigmoidal, deflected adaxially at front of eye (ie, outer end of S3)'
+		'linear'
+		'slightly sigmoidal, deflected adaxially at front of eye angle'
+		'angle with anterior portion less divergent but not exsagittal'
+		,
+		9
+		'deep'
+		'shallow'
+		'very deep'
+		,
+		10
+		'deep'
+		'very deep'
+		'shallow'
+		,
+		11
+		'significantly shorter (sag) than occipital ring but more than half its length'
+		'half length (sag) of occipital ring or less'
+		'as long (sag) or almost as long as occipital ring'
+		,
+		12
+		'subcircular, inflated, separated from median part of L1 by strong exsagittal furrow'
+		'subcircular, separated from median part of L1 by weak exsagittal furrow'
+		'subquadrate, not strongly inflated, separated from median part of L1 by weak exsagittal furrow'
+		'subquadrate, not differentiated from median part of L1 by independent inflation or exsagittal furrow'
+		'subquadrate (about as wide as long), not strongly inflated, separated from median part of L1 by strong exsagittal furrow'
+		'transverse (wider than long), separated from median part of L1 by strong exsagittal furrow'
+		,
+		13
+		'very wide, > 65%'
+		'wide, 55%–65%'
+		'narrow, 45%–54.9%'
+		,
+		14
+		'<32% (=wide)'
+		'36'
+		'38%'
+		'32'
+		'34%'
+		'>38% (=short)'
+		'34'
+		'36%'
+		,
+		15
+		'weak to distinctly inflated, moderately defined'
+		'strongly defined, furrow runs halfway across occipital ring'
+		'lobes absent or very poorly defined'
+		,
+		16
+		'discontinuous or effaced'
+		'continuous'
+		,
+		17
+		'curved more strongly forwards adaxially than occipital furrow'
+		'subparallel to occipital furrow'
+		'transverse or curved convex backwards'
+		,
+		18
+		'present, relatively well-developed'
+		'present but poorly defined or indicated by break in sculpture'
+		'absent'
+		,
+		19
+		'70%'
+		'60%–69%'
+		'50%–59%'
+		'40%-49%'
+		'absent'
+		,
+		20
+		'distinct and continuous'
+		'almost effaced and discontinuous'
+		,
+		21
+		'curved with apex'
+		'evenly curved in outline'
+		,
+		22
+		'broadly rounded'
+		'subangular'
+		'‘drawn out’, alate'
+		,
+		23
+		'less than half length of posterior border'
+		'half to equal length of posterior border'
+		'longer than posterior border, or eye absent'
+		,
+		24
+		'deep'
+		'weak or very weak'
+		'distinct'
+		,
+		25
+		'granules/tubercles only'
+		'smooth/small granules only'
+		'pits'
+		,
+		26
+		'absent (ie, granulation or tuberculation unmodified in shape)'
+		'scale-like granules/tubercles or very short ridges'
+		'relatively long terrace ridges'
+		,
+		27
+		'rather wide, flattened (sag, exsag), sloping gently forwards to sharply reflexed outer margin'
+		'short or relatively short, flattened and sloping posteroventrally'
+		'very short (sag, exsag), ridge-like, projecting slightly forwards'
+		'wide or very wide, convex (sag, exsag), sloping posteroventrally'
+		,
+		28
+		'shallow-distinct'
+		'deep'
+		,
+		29
+		'palpebral area lower than palpebral lobe'
+		'palpebral area higher than palpebral lobe'
+		'both regions about level'
+		,
+		30
+		'not overhanging (sloping upwards and backwards)'
+		'frontal face of glabella vertical or with slight overhang'
+		'strong overhang'
+		,
+		31
+		'slightly inflated'
+		'inflated'
+		'depressed or not inflated'
+		,
+		32
+		'granules'
+		'prominent coarse granules/fine tubercles, rather uniform size'
+		'granules or tubercles weak or absent, intervening pits'
+		'scaly granules or short ridges'
+		'smooth'
+		'prominent coarse granules/fine tubercles, heterogeneous size'
+		'anastomosing terrace ridges (more extensive than just in marginal zone) with pits'
+		,
+		33
+		'absent'
+		'present but extending backwards only to about opposite midlength of eye'
+		'present, extending virtually to genal angle'
+		,
+		34
+		'shallow and narrow'
+		'effaced or almost effaced'
+		'moderately deep to deep, narrow, sharply impressed'
+		'moderately deep to deep, rather broad'
+		'shallow and wide'
+		,
+		35
+		'rounded with or without weak node'
+		'elongated, without spine'
+		'rounded with distinct node'
+		'with acute tip and small spine'
+		,
+		36
+		'(20?) 21 (22-23?)'
+		'18'
+		'19'
+		'14 to 16'
+		'25'
+		,
+		37
+		'6'
+		'7'
+		'5'
+		'9'
+		'8'
+		'4'
+		,
+		38
+		'thin'
+		'slightly thickened, dorsally only'
+		'considerably thickened dorsally, weakly ventrally'
+		'entire surface thickened'
+		,
+		39
+		'present'
+		'absent'
+		,
+		40
+		'very narrow and concave at front of eye, wide and concave at back of eye (subocular inflation and lateral border furrow separately distinguishable'
+		'absent at front of eye, very narrow towards back'
+		'narrow or relatively narrow at front of eye, moderately narrow and concave towards back of eye (ie, appearance of expanded furrow)'
+		'relatively wide at front of eye, wide towards back of eye'
+		,
+		41
+		'not swollen'
+		'swollen'
+		,
+		42
+		'absent'
+		'weak'
+		'strong'
+		,
+		43
+		'vincular furrow absent or almost'
+		'deep'
+		'shallow'
+		,
+		44
+		'median portion markedly subangular in outline'
+		'broadly and evenly curved'
+		'median portion subangular in outline'
+		'absent'
+		,
+		45
+		'hypostomal suture convex forwards medially'
+		'doublure long (sag), hypostomal suture transverse medially'
+		'doublure long (sag.), hypostomal suture convex backwards medially'
+		,
+		46
+		'granules only'
+		'short scaly ridges medially and pits'
+		'anastomosing terrace ridges'
+		,
+		47
+		'granules only'
+		'anastomosing terrace ridges'
+		'granules or scaly granules medially, grading laterally into short ridges'
+		'short scaly ridges medially'
+		,
+		48
+		'strongly tapered, last segment < 80% of first one (total length)'
+		'slightly tapered, last segment > 80% of first one'
+		,
+		49
+		'very long, > 60%'
+		'40%–49%'
+		'rather long, 50%–60%'
+		,
+		50
+		'subangular medially'
+		'broadly rounded'
+		'almost transverse medially'
+		,
+		51
+		'in front of midlength (sag)'
+		'behind midlength'
+		'at about midlength'
+		,
+		52
+		'31'
+		'35%'
+		'25'
+		'30%'
+		'36'
+		'40%'
+		,
+		53
+		'short, 78%–83%'
+		'long, 84%–89%'
+		'exceptionally short, < 78%'
+		'exceptionally long, >89%'
+		,
+		54
+		'complete distinct or almost'
+		'incomplete'
+		,
+		55
+		'strongly convex'
+		'gently convex'
+		'subtriangular in cross section'
+		,
+		56
+		'moderately to strongly tapered (> 20°)'
+		'subparallel-sided to weakly tapered (< 20°)'
+		,
+		57
+		'present, indicated by distinct embayment in posterior edge of rings and/or by sculpture on pseudo-articulating half ring'
+		'absent, or very weakly suggested only by expanded inter-ring furrows'
+		,
+		58
+		'7 to 11 well-defined rings, relatively numerous'
+		'4 to 6 well-defined rings, relatively few'
+		,
+		59
+		'7 to 11 pleural furrows, numerous'
+		'3 to 6 pleural furrows, few'
+		,
+		60
+		'deep, thin'
+		'weak, thin'
+		'deep, steep-sided to moderately-wide'
+		'deep, wide, usually with semi-circular profiles'
+		,
+		61
+		'weak to distinct/moderately impressed'
+		'absent to very weak'
+		,
+		62
+		'tubercles developed on pleural ribs and axis'
+		'granules'
+		'tubercles restricted to axis'
+		'granules and tubercles absent (smooth)'
+		'granules and pits'
+		'pits only'
+		'tubercles moderately to strongly developed on pleural ribs, border and axis'
+		,
+		63
+		'projecting'
+		'merging with postaxial region'
+		'declining, decreasing but well-defined'
+		
+	;
+	MATRIX
+	'Calyptaulax callirachis'		            000000000000000000000000000000000000(0,1)0000000000?000000000000000
+	'Calyptaulax glabella'		               111(0,1)(1,2)?10100011000000?00110?0100??10?????0???????000021000010111
+	'Acernapsis orestes'		                 20112011211012000001100210(0,2)(0,1)20000113100200111000212200101010110
+	'Ananaspis fecunda'		                  20100001002012110010111200202110020210021021100?1(1,2)0110011002010
+	'R c hamlagdadianus'		                 1042000100141410011011220(0,1)3012(0,1)02024311200031021210021101100111
+	'Ch fhoseri'		                         30320101(0,1)01212211111101(1,2)212(0,1)11(0,1)2210102120021112021211011001(0,1)142
+	'Ch auspex'		                          3022010(1,2)100221201130101(1,2)112(0,1)11001003111100211??021(1,2)110110111142
+	'Austerops menchikoffi'		              002201020001122(0,1)01201211202021021101011100111110211100100010102
+	'Austerops speculator'		               002201020001112(0,1)01?012012(1,2)21210311014111001111102111001000101?(1,2)
+	'Austerops punctatus'		                002201020001(0,1)10001201201212121(0,1)211014112011112112120(0,1)0100010102
+	'Austerops kermiti'		                  10321110122212200(1,2)2012012220210311013111002112112(1,2)(1,2)01110011112(1,2)
+	'Austerops salamandar'		               002211101002122001201201212021031101111100111210221001100110121
+	'Austerops legrandi'		                 112121031212232002401001112011(0,2)41101(0,1)111001111302(1,2)1010101111132
+	'Austerops sp B'		                     3032010100011221012?10011(0,1)2011141101(0,1)11200(1,2)111(1,3)????????????????
+	'Austerops salamandaroides'		          1032111210021120012(0,1)120111(1,2)0210011011111001111??222110100111122
+	'Austerops spd'		                      002201011003122?1??0100??0?011110203011100?????????????????????
+	'Austerops couvinensis'		              003201021002122(0,1)0120120(1,2)10(1,2)(0,1)110321014111001201(1,3)022111?1000101(1,2)2
+	'Austerops hottonensis'		              00221102000214200120120120?(0,1)210??103121100?????021(0,2)00110?010151
+	'Boeckops stelcki'		                   105202022000031001201102202(0,1)21(0,1)31221111201112111221200100012162
+	'Morocops granulops'		                 302330222000140101201112002(0,1)11(0,1)52202221201111110221011100012161
+	'Phacops latifrons'		                  023440002100112100201200222120160313(2,5)3121211221????????????????
+	'Phacops araw'		                       002440212100212001?0110221112102240153130111221021(0,2)021101003161
+	'Pedinopariops vagabundus'		           201440010020100101101110212021122411131301111211210131110002162
+	'Paciphacops logani'		                 303030012115241111001112?02101(0,1)?1331020311111?0?210210100012012
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 63;
+      ENDBLOCK;
+      BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 63; 
+ENDBLOCK;

@@ -1,0 +1,242 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 00.52.36 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=22;
+    TAXLABELS
+    		'Dipteris conjugata'
+		'Diplopterygium bancroftii'
+		'Gleichenella pectinata'
+		'Matonia pectinata'
+		'Leptopteris hymenophylloides'
+		'Leptopteris wilkesiana'
+		'Leptopteris fraseri'
+		'Osmundastrum cinnamomeum'
+		'Osmunda vachellii'
+		'Osmunda regalis'
+		'Osmunda lancea'
+		'Osmunda javanica'
+		'Osmunda japonica'
+		'Osmunda claytoniana'
+		'Osmunda banksiifolia'
+		'Todea barbara'
+		'Todea papuana'
+		'Todea amissa'
+		'Todites cacereii'
+		'Todites lobatus'
+		'Todites princeps'
+		'Todites denticulatus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=29;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Articulation of pinnae'
+		 [2] 'Division of frond rachis'
+		 [3] 'Frond dissection'
+		 [4] 'Frond dimorphism'
+		 [5] 'Dromy'
+		 [6] 'Laminar trichomes'
+		 [7] 'Laminar scales'
+		 [8] 'Distribution of sporangia on frond'
+		 [9] 'Morphology of the ultimate segments (whether pinnae, pinnules, or divisions of pinnules) on fertile frond'
+		 [10] 'Distribution of fertile pinnae on frond'
+		 [11] 'Distribution of sporangia on pinnae'
+		 [12] 'Attachment of sori/sporangia on fertile frond'
+		 [13] 'Aggregation of clusters of sporangia on fertile portions of the frond'
+		 [14] 'Differentiation of basalmost pinnules'
+		 [15] 'Number of vein orders in ultimate frond segments'
+		 [16] 'Venation reticulate'
+		 [17] 'Lateral (secondary) vein branching pattern within the ultimate frond segments (pinnae, pinnules, or divisions of pinnules)'
+		 [18] 'Margin of ultimate frond segment'
+		 [19] 'Apex shape of ultimate frond segment'
+		 [20] 'Base shape of ultimate frond segment'
+		 [21] 'Pinnule attachment angle to pinna costa (once pinnate fronds) or ultimate segment attachment to pinnule costule (tripinnate fronds)'
+		 [22] 'Annulus position'
+		 [23] 'Sorus outline'
+		 [24] 'Orientation of sporangial dehiscence'
+		 [25] 'Paraphyses'
+		 [26] 'Rachis adaxially grooved'
+		 [27] 'Sori'
+		 [28] 'Indusia'
+		 [29] 'Annulus span on sporangium'
+	;
+	STATELABELS
+		1
+		'Absent'
+		'Present'
+		,
+		2
+		'Pseudodichotomous'
+		'Anisotomous to
+pinnate'
+		'Dichotomous'
+		,
+		3
+		'Pinnate'
+		'Pinnate pinnatisect'
+		'Bipinnate to tripinnate'
+		,
+		4
+		'Fertile and sterile fronds dimorphic'
+		'Fertile and sterile fronds monomorphic'
+		'Fertile and sterile fronds hemidimorphic'
+		,
+		5
+		'Anadromous'
+		'Catadromous'
+		,
+		6
+		'Absent'
+		'Present'
+		,
+		7
+		'Absent'
+		'Present'
+		,
+		8
+		'Fronds partially fertile'
+		'Fronds completely fertile'
+		,
+		9
+		'Reduced'
+		'Monomorphic'
+		'Laminar but distinct'
+		,
+		10
+		'Exclusively distributed on the apical portion of the frond'
+		'Medial to
+basal'
+		,
+		11
+		'At least some fertile pinnae incompletely covered with sporangia'
+		'Fertile 
+pinnae completely covered in sporangia (on the abaxial surface only for
+laminar pinnae)'
+		,
+		12
+		'Marginal'
+		'Abaxial'
+		,
+		13
+		'Sporangia densely packed, seemingly acrostichoid'
+		'Sporangia scattered along veins; may form small clusters scattered along the veins'
+		'Sporangia aggregated in discrete clusters'
+		,
+		14
+		'Basalmost
+ pinnules not distinct'
+		'Basalmost pinnules distinct'
+		,
+		15
+		'One'
+		'Two'
+		,
+		16
+		'Absent'
+		'Present'
+		,
+		17
+		'Bifurcating: veins dichotomize once'
+		'Dichotomizing more than once between the midrib and the margin of the lamina'
+		'Simple: secondary veins that do not divide'
+		,
+		18
+		'Entire'
+		'Toothed'
+		'Crenulate'
+		,
+		19
+		'Cuneate'
+		'Rounded'
+		'Mucronate/retuse'
+		,
+		20
+		'Lobed'
+		'Rounded to decurrent'
+		'Fully adnate'
+		,
+		21
+		'Pinnules/ultimate segments attached consistently at the same angle'
+		'Angle of pinnule/ultimate segment attachment decreasing apically'
+		,
+		22
+		'Basal: in close proximity to sporangial stalk'
+		'Equatorial: approaching a 90 ° angle respect to the stalk'
+		'Distal: reaching an apical position on the sporangium'
+		,
+		23
+		'Round'
+		'Elongate'
+		,
+		24
+		'Apical'
+		'Lateral'
+		,
+		25
+		'Absent'
+		'Present'
+		,
+		26
+		'Rachis not grooved'
+		'Rachis with a medial ridge flanked by a pair of grooves'
+		'Rachis with three ridges'
+		'Rachis with a single central
+groove'
+		,
+		27
+		'Absent, sporangia not organized into discrete sori'
+		'Sori present'
+		,
+		28
+		'Indusia absent'
+		'Indusia present'
+		,
+		29
+		'Longitudinal bow'
+		'Restricted, lateral patch'
+		
+	;
+	MATRIX
+	'Dipteris conjugata'		                    02-101011-112-011102-20112100
+	'Diplopterygium bancroftii'		             00-111101-1120100012020010100
+	'Gleichenella pectinata'		                00-111101-1121101022020000100
+	'Matonia pectinata'		                     0?-1100?1-?120?11??2020102110
+	'Leptopteris hymenophylloides'		          0121110011011110221010-00?001
+	'Leptopteris wilkesiana'		                0121110011011110211010-001001
+	'Leptopteris fraseri'		                   0121110011011110211010-001001
+	'Osmundastrum cinnamomeum'		              111011010-1-2010011201-001001
+	'Osmunda vachellii'		                     11021100011-2010100101-00?001
+	'Osmunda regalis'		                       11221100001-2010110001-00?001
+	'Osmunda lancea'		                        112011000-1-2010110101-00?001
+	'Osmunda javanica'		                      11021100011-2010110101-001001
+	'Osmunda japonica'		                      112011000-1-2010110001-00?001
+	'Osmunda claytoniana'		                   11121100011-2010000201-002001
+	'Osmunda banksiifolia'		                  11021100011-2010110101-00?001
+	'Todea barbara'		                         0111110021010010010211-001001
+	'Todea papuana'		                         0111110021010010010211-001001
+	'Todea amissa'		                          0???1???2?010?10010211-0?1001
+	'Todites cacereii'		                      11211???2??10010(0,2)01201-0?3001
+	'Todites lobatus'		                       112?1???2??10?102011?1-0??001
+	'Todites princeps'		                      11210???1??10?1020?010-???00?
+	'Todites denticulatus'		                  11211???2??10110(0,2)1021?-??20??
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=5 CHARACTER=18 TEXT='In the matrix provided by the author as supplementary material, this taxon was scored with state 3 (not defined). The main author of the paper clarified that the intended scoring for this taxon and character was state 2.';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 29;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1635827452893; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6872757700789330961; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 2530652310908416072; mqVersion 351; checksumv 0 3 1435990827 null getNumChars 29 numChars 29 getNumTaxa 22 numTaxa 22 short true bits 15 states 15 sumSquaresStatesOnly 127.0 sumSquares 127.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 54; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1280 673; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #2530652310908416072 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 601; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 601; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 29; 
+ENDBLOCK;
