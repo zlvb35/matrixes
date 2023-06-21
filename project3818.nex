@@ -1,0 +1,1708 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 19.31.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=49;
+    TAXLABELS
+    		'Youngolepis'
+		'Diabolepis'
+		'Powichthys'
+		'Porolepis'
+		'Glyptolepis'
+		'Tungsenia'
+		'Kenichthys'
+		'Gooloogongia'
+		'Sauripterus'
+		'Barameda'
+		'Screbinodus'
+		'Rhizodus'
+		'Strepsodus'
+		'Gyroptychius'
+		'Osteolepis'
+		'Gogonasus'
+		'Medoevia'
+		'Askerichthys heintziorum'
+		'Palatinichthys laticeps'
+		'Sengoerichthys ottoman'
+		'Cladarosymblema narrienense'
+		'Megalichthys'
+		'Megalichthys hibberti'
+		'Megalichthys laticeps'
+		'Megalichthys mullisoni'
+		'Mahalalepis resima'
+		'Ectosteorhachis nitidus'
+		'Beelarongia'
+		'Canowindra'
+		'Koharalepis'
+		'Marsdenichthys'
+		'Spodichthys'
+		'Tristichopterus'
+		'Eusthenopteron'
+		'Jarvikina'
+		'Platycephalichthys'
+		'Cabonnichthys'
+		'Mandageria'
+		'Eusthenodon'
+		'Hongyu'
+		'Bruehnopteron murphyi'
+		'Tinirau clackae'
+		'Panderichthys'
+		'Elpistostege'
+		'Tiktaalik'
+		'Ventastega curonica'
+		'Acanthostega'
+		'Ichthyostega'
+		'Tulerpeton curtum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=206;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Position of orbits'
+		 [2] 'Proportion of skull roof lying anterior to middle of orbits'
+		 [3] 'Facial lamina of premaxilla'
+		 [4] 'Facial lamina of premaxilla'
+		 [5] 'Orientation of anterior tectal and lateral rostral relative to external nostril'
+		 [6] 'Postrostral'
+		 [7] 'Number of nasals'
+		 [8] 'Position of anterior nostril'
+		 [9] 'Dermintermedial processus'
+		 [10] 'Position of posterior nostril'
+		 [11] 'Number of supraorbitals'
+		 [12] 'Posterior or posteriormost supraorbital (postfrontal) extends anterior of orbit'
+		 [13] 'Relative size of anterior supraorbital and posterior supraorbital'
+		 [14] 'Shape of posterior supraorbital'
+		 [15] 'Contact between parietal and supraorbital'
+		 [16] 'Intertemporal'
+		 [17] 'Contact between posterior supraorbital and intertemporal'
+		 [18] 'Number of tectals'
+		 [19] 'Paired frontal bones'
+		 [20] 'Width of ethmoid relative to length from snout tip to posterior margin of parietals'
+		 [21] 'Pineal foramen'
+		 [22] 'Shape of pineal series'
+		 [23] 'Location of pineal foramen/eminence'
+		 [24] 'Parietals surround pineal foramen/eminence'
+		 [25] 'Dermal intracranial joint'
+		 [26] 'Postparietals narrow to a point posteriorly'
+		 [27] 'Proportions of postparietal shield'
+		 [28] 'Spiracle notch'
+		 [29] 'Extratemporal'
+		 [30] 'Contact between extratemporal and supratemporal'
+		 [31] 'Extrascapulars'
+		 [32] 'Anterior margin of median extrascapular'
+		 [33] 'Median extrascapular overlap'
+		 [34] 'Internasal pits'
+		 [35] 'Tectum orbitale'
+		 [36] 'Large mesial opening and several small dorsolateral openings in postnasal wall'
+		 [37] 'Position of exit of pituitary vein'
+		 [38] 'Descending process of sphenoid (with its posterior extremity lacking periostegeal lining)'
+		 [39] 'Endoskeletal intracranial joint'
+		 [40] 'Proportion of neurocranium'
+		 [41] 'Dorsal element of hyoid arch'
+		 [42] 'Relative positions of hyomandibular facets'
+		 [43] 'Vestibular fontanelle'
+		 [44] 'Anterior margin of vestibular fontanelle anterior to posterior margin of basicranial fenestra'
+		 [45] 'Basicranial fenestra'
+		 [46] 'Posttemporal fossae'
+		 [47] 'Extent of crista parotica'
+		 [48] 'Otical process (an outgrowth from the lateral wall of the braincase penetrated by the branches of the r. oticus lateralis)'
+		 [49] 'Foramina (similar to infradentary foramina) on cheek bones'
+		 [50] 'Postorbital'
+		 [51] 'Jugal extends anterior to middle of orbit'
+		 [52] 'Relationship of jugal to orbit'
+		 [53] 'Lacrimal excluded from orbit'
+		 [54] 'Contact between posterior supraorbital and lacrimal'
+		 [55] 'Jugal-quadratojugal contact'
+		 [56] 'Number of cheek bones bearing preopercular canal posterior to jugal'
+		 [57] 'Bone bearing both quadratojugal pit-line and preopercular canal'
+		 [58] 'Bar-like preopercular'
+		 [59] 'Subsquamosals'
+		 [60] 'Preoperculosubmandibular'
+		 [61] 'Vomer proportions'
+		 [62] 'Anteromedial process of vomer'
+		 [63] 'Posterior process of vomers'
+		 [64] 'Articulation of vomers'
+		 [65] 'Parasphenoid'
+		 [66] 'Denticulated field of parasphenoid'
+		 [67] 'Relationship of vomer to parasphenoid'
+		 [68] 'Shape of parasphenoid'
+		 [69] 'Lateral sides of parasphenoid'
+		 [70] 'Posterior carotid opening in parasphenoid'
+		 [71] 'Articulation of pterygoids'
+		 [72] 'Proportions of entopterygoid'
+		 [73] 'Number of fang pairs on ectopterygoid'
+		 [74] 'Palatal fangs mesial to marginal tooth row'
+		 [75] 'Subterminal mouth'
+		 [76] 'Enlarged anterior tooth on premaxilla'
+		 [77] 'Posterodorsal process of maxilla'
+		 [78] 'Meckelian ossification'
+		 [79] 'Coronoids labiolingually flattened'
+		 [80] 'Protrusion of lower jaw in front of skull'
+		 [81] 'Anteroventral lower jaw profile'
+		 [82] 'Large ventromesially directed flange of symphysial region of mandible'
+		 [83] 'Dermal ornament on each infradentary'
+		 [84] 'Infradentary foramina'
+		 [85] 'Dentary fang pair'
+		 [86] 'Teeth of dentary'
+		 [87] 'Accessory row of small teeth on dentary'
+		 [88] 'Splenial'
+		 [89] 'Suture between splenial and anterior coronoid'
+		 [90] 'Mesial lamina of splenial'
+		 [91] 'Angular and prearticular'
+		 [92] 'Parasymphysial tooth whorl'
+		 [93] 'Adsymphysial dental plate'
+		 [94] 'Adsymphysial dental plate'
+		 [95] 'Tooth row on adsymphysial plate'
+		 [96] 'Mesial parasymphysial foramen'
+		 [97] 'Fangs of coronoids (sensu stricto)'
+		 [98] 'Marginal denticle band on coronoids'
+		 [99] 'Coronoid proportions'
+		 [100] 'Number of fang pairs on posteriormost coronoid'
+		 [101] 'Anterior end of prearticular'
+		 [102] 'Longitudinal dorsal ridge on prearticular'
+		 [103] 'Anterior mandibular (precoronoid) fossa'
+		 [104] 'Retroarticular process'
+		 [105] 'Foramen in hyomandibular'
+		 [106] 'Opercular process of hyomandibula'
+		 [107] 'Distal portion of hyomandibula'
+		 [108] 'Contact between hyomandibula and palatoquadrate'
+		 [109] 'Position of distal exit of hyomandilar canal or sulcus on anterolateral face of hyomandibula'
+		 [110] '''Urohyal'' morphology'
+		 [111] 'Shape of anterior basibranchial'
+		 [112] 'Sublingual rod'
+		 [113] 'Opercular'
+		 [114] 'Number of branchiostegal rays per side'
+		 [115] 'Size of median gular'
+		 [116] 'Course of ethmoid commissure'
+		 [117] 'Direction of anterior pit-line on parietal shield'
+		 [118] 'Middle and posterior pit-lines on postparietal'
+		 [119] 'Course of supraorbital canal'
+		 [120] 'Posterior end of supraorbital canal'
+		 [121] 'Contact between otic and supraorbital canals'
+		 [122] 'Otic (postotic) canal'
+		 [123] 'Otic (postotic) canal enters postparietals'
+		 [124] 'Supracleithrum and postemporal'
+		 [125] 'Curvature of dermal shoulder girdle'
+		 [126] 'Cleithral ornamentation'
+		 [127] 'Contact margin for clavicle on cleithrum'
+		 [128] 'Ventral or lower lamina of cleithrum'
+		 [129] 'Overlap relations of cleithrum and clavicle'
+		 [130] 'Depressed posterior flange on cleithrum'
+		 [131] 'Narrow waist on cleithrum'
+		 [132] 'Ventral lamina of cleithrum much broader than dorsal lamina'
+		 [133] 'Clavicle ascending process'
+		 [134] 'Interclavicle size'
+		 [135] 'Scapulocoracoid and cleithrum attachment'
+		 [136] 'Scapular process of scapulocoracoid'
+		 [137] 'Subscapular fossa'
+		 [138] 'Coracoid plate'
+		 [139] 'Pectoral fin radials'
+		 [140] 'Shape of ectepicondyle'
+		 [141] 'Entepicondyle size'
+		 [142] 'Body of humerus'
+		 [143] 'Caput humeri'
+		 [144] 'Area proximal to radial facet'
+		 [145] 'Shape of entepicondyle'
+		 [146] 'Discrete pectoral process on ventral ridge of humerus'
+		 [147] 'Postaxial process on ulnare'
+		 [148] 'Pectoral fin radials'
+		 [149] 'Radial length'
+		 [150] 'Shape of radius'
+		 [151] 'Termination of radius'
+		 [152] 'Digits'
+		 [153] 'Dorsal and anal fins'
+		 [154] 'Caudal fin'
+		 [155] 'Epichordal radials in caudal fin'
+		 [156] 'Well-ossified ribs'
+		 [157] 'Expanded ribs'
+		 [158] 'Imbricate ribs'
+		 [159] 'Sacrum'
+		 [160] 'Intercenta fused to solid ring'
+		 [161] 'Ossified supraoccipital plug for the attachment of the supraneural ligament'
+		 [162] 'Scales'
+		 [163] 'Median boss on round scale'
+		 [164] 'Long basal segments of lepidotrichia in pectoral fin'
+		 [165] 'Basal scutes on fins'
+		 [166] 'Pore-canal network'
+		 [167] 'Enamel lining of pore canals'
+		 [168] 'Rostral tubuli'
+		 [169] 'Plicidentine'
+		 [170] 'Postspiracular'
+		 [171] 'Posterior carotid opening in parasphenoid'
+		 [172] 'Interclavicle ornamentation'
+		 [173] 'Choana'
+		 [174] 'Anocleithrum'
+		 [175] 'Archipterygial pectoral fins'
+		 [176] 'Submandibulars'
+		 [177] 'Gular'
+		 [178] 'Contact between postorbital and lacrimal'
+		 [179] 'Contact between postfrontal and supratemporal'
+		 [180] 'Transverse joint at the level of the ulnare, intermedium and radius'
+		 [181] 'Branched radials (A4) distal to the ulnare'
+		 [182] 'Olecranon process on ulna'
+		 [183] 'Radial facet'
+		 [184] 'Ulnar facet'
+		 [185] 'Glenoid position'
+		 [186] 'Glenoid orientation'
+		 [187] 'Premaxillary tooth proportions'
+		 [188] 'Anocleithrum'
+		 [189] 'Glenoid proportions'
+		 [190] 'Interclavicle shape'
+		 [191] 'Deltoid and supinator process on humerus'
+		 [192] 'Anterior termination of ventral ridge'
+		 [193] 'Radius and ulna'
+		 [194] 'Lepidotrichia in paired appendages'
+		 [195] 'Ribs, trunk'
+		 [196] 'Ribs, trunk'
+		 [197] 'Supraneural spines'
+		 [198] 'Number of transverse flexion (distal to ulnare) '
+		 [199] 'Number radials articulating on ulnare'
+		 [200] 'Number of digits'
+		 [201] 'Radiale'
+		 [202] 'Tabular horn'
+		 [203] 'Long medioventral process of premaxilla'
+		 [204] 'Relative size of anterior tectal and lateral rostral'
+		 [205] 'Size of bones forming the external nares'
+		 [206] 'Anterolateral process of supratemporal'
+	;
+	STATELABELS
+		1
+		'lateral and widely separated'
+		'dorsal and close together'
+		,
+		2
+		'<50%'
+		'>=50%'
+		,
+		3
+		'rises vertically (deep snout)'
+		'bends posteriorly (flattened snout)'
+		,
+		4
+		'height less than 50% of length of premaxilla'
+		'more than 50% of length of premaxilla'
+		,
+		5
+		'dorsal-ventral'
+		'posterior-anterior'
+		,
+		6
+		'absent'
+		'postrostral mosaic of small variable bones'
+		'large median postrostral, with or without accessory bones'
+		,
+		7
+		'more than two'
+		'two'
+		'one'
+		,
+		8
+		'facial'
+		'edge of mouth (or marginal)'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'external, far from jaw margin'
+		'external, close to jaw margin'
+		'palatal'
+		,
+		11
+		'one'
+		'more than one'
+		,
+		12
+		'yes'
+		'no'
+		,
+		13
+		'similar'
+		'prefrontal much bigger'
+		,
+		14
+		'posterior process shorter than orbital margin'
+		'posterior process much longer than orbital margin'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'one'
+		'two or more'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'more than 80%'
+		'70-79%'
+		'50-69%'
+		'less than 50%'
+		,
+		21
+		'present'
+		'absent'
+		,
+		22
+		'round or oval'
+		'kite-shaped with distinct posterior corner'
+		,
+		23
+		'level with, or anterior to posterior margin of orbits'
+		'posterior to orbits'
+		,
+		24
+		'yes'
+		'no'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'no'
+		'yes'
+		,
+		27
+		'maximum width of postparietal shield <3 skull width at level of anterior end of postparietal'
+		'maximum width of postparietal shield >=3 skull width at level of anterior end of postparietal'
+		,
+		28
+		'small hole or narrow slit'
+		'wide notch between skull roof and cheek'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'long'
+		'very short'
+		,
+		33
+		'median extrascapular overlapped by lateral extrascapulars'
+		'median extrascapular overlapping lateral extrascapulars'
+		,
+		34
+		'undifferentiated or anterior palatal fossa'
+		'shallow paired pits with strong midline ridge'
+		'deep pear-shaped pits'
+		,
+		35
+		'narrow'
+		'extensive'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'in front of basipterygoid process'
+		'dorsal  to vertical portion of basipterygoid process'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'ethmosphenoid shorter or equal in length to otoccipital'
+		'ethmosphenoid longer than otoccipital'
+		,
+		41
+		'hyomandibula articulating with lateral commissure'
+		'stapes inserted into fenestra ovalis'
+		,
+		42
+		'ventral anterior to dorsal'
+		'dorsal directly above ventral'
+		'dorsal anterior to ventral'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'no'
+		'yes'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'does not reach posterior margin of tabular'
+		'reaches posterior margin of tabular'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'contributes to orbital margin'
+		'excluded from orbital margin'
+		,
+		51
+		'no'
+		'yes'
+		,
+		52
+		'contributes to orbital margin'
+		'excluded from orbital margin'
+		,
+		53
+		'no'
+		'yes'
+		,
+		54
+		'absent'
+		'present'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'one'
+		'two'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'absent'
+		'present'
+		,
+		61
+		'not much broader than long'
+		'much broader than long'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent'
+		'short'
+		'long'
+		,
+		64
+		'vomers not articulating with each other'
+		'vomers articulating with each other'
+		,
+		65
+		'protruding forward in ethmoid region of endocranium'
+		'behind ethmoid region'
+		,
+		66
+		'without spiracular groove'
+		'with spiracular groove'
+		,
+		67
+		'no contact or simple abutment'
+		'dorsal-ventral overlap anteriorly'
+		'side to side overlap between posterior processes of vomers and lateral sides of parasphenoid'
+		,
+		68
+		'broad, splint-shaped'
+		'slender, splint-shaped'
+		,
+		69
+		'parallel or slightly diverging anteriorly'
+		'converging anteriorly'
+		,
+		70
+		'present'
+		'absent'
+		,
+		71
+		'pterygoids not articulating with each other'
+		'pterygoids articulating with each other'
+		,
+		72
+		'anterior end level with processus ascendens'
+		'anterior end considerably anterior to processus ascendens'
+		,
+		73
+		'two'
+		'one'
+		'none'
+		,
+		74
+		'yes'
+		'no'
+		,
+		75
+		'absent'
+		'present'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'present'
+		'very weak or absent'
+		,
+		78
+		'strong, complete from articular to symphysial region'
+		'incomplete'
+		'absent'
+		,
+		79
+		'no'
+		'yes'
+		,
+		80
+		'absent'
+		'present'
+		,
+		81
+		'rounded'
+		'squared off'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'even'
+		'separate "starburst" on each bone'
+		,
+		84
+		'always present'
+		'variable'
+		'always absent'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'reaching anterior end of dentary'
+		'not reaching anterior end'
+		,
+		87
+		'present'
+		'absent'
+		,
+		88
+		'not sutured to prearticular'
+		'sutured to prearticular'
+		,
+		89
+		'absent'
+		'present'
+		,
+		90
+		'absent'
+		'present'
+		,
+		91
+		'separated by ventral exposure of Meckelian bone'
+		'in contact'
+		,
+		92
+		'present'
+		'absent'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'long with posterior corner, sutured to anterior coronoid, denticulated or with tooth row'
+		'short, rounded, not sutured to anterior coronoid, denticulated'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'absent'
+		'present'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'broad band, at least posteriorly'
+		'narrow band with 2-4 denticle rows'
+		'single tooth row  or absent'
+		,
+		99
+		'posterior coronoid same length as middle coronoid, or shorter'
+		'posterior coronoid significantly longer than middle coronoid'
+		,
+		100
+		'two'
+		'one'
+		'none'
+		,
+		101
+		'not forked'
+		'forked'
+		,
+		102
+		'absent'
+		'present'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'present'
+		'absent'
+		,
+		107
+		'developed'
+		'reduced'
+		'absent'
+		,
+		108
+		'present'
+		'absent'
+		,
+		109
+		'at a level of mid-shaft or obvious curvature'
+		'within promixal portion'
+		,
+		110
+		'dorsoventrally compressed and rod-like, may bifurcate posteriorly'
+		'vertical plate'
+		,
+		111
+		'rounded'
+		'rectangular, longer than wide'
+		,
+		112
+		'absent'
+		'present'
+		,
+		113
+		'present'
+		'absent'
+		,
+		114
+		'ten or more'
+		'two to seven'
+		,
+		115
+		'small'
+		'large'
+		,
+		116
+		'canal penetrating the body of the premaxilla'
+		'sutural course'
+		,
+		117
+		'antero-posterior, reaching or almost reaching parietal-postparietal border'
+		'essential transverse, anterior or almost anterior to pineal foramen/eminence'
+		,
+		118
+		'posteriorly situated'
+		'mesially situated'
+		,
+		119
+		'straight'
+		'lyre-shaped'
+		,
+		120
+		'in postparietal'
+		'in parietal'
+		'in intertemporal'
+		,
+		121
+		'not in contact'
+		'in contact'
+		,
+		122
+		'runs through skull roof'
+		'follows edge of skull roof'
+		,
+		123
+		'no'
+		'yes'
+		,
+		124
+		'present'
+		'absent'
+		,
+		125
+		'smoothly curving chain'
+		'tall caudally inclined cleithrum'
+		,
+		126
+		'present'
+		'absent'
+		,
+		127
+		'straight or faintly convex'
+		'strongly concave'
+		,
+		128
+		'extensive without or with little scapulocoracoid lateral exposure'
+		'reduced, with large scapulocoracoid lateral exposure'
+		,
+		129
+		'normal'
+		'rhizodontid condition'
+		,
+		130
+		'absent'
+		'poorly developed'
+		'well developed'
+		,
+		131
+		'no'
+		'yes'
+		,
+		132
+		'no'
+		'yes'
+		,
+		133
+		'clavicle has rod-like ascending process'
+		'clavicle lacks rod-like ascending process'
+		,
+		134
+		'small'
+		'large'
+		,
+		135
+		'triradiate scapulocoracoid lying flush against internal surface of cleithrum, not separated by foramina'
+		'single large foramen piercing C-shaped scapulocoracoid close to contact face for cleithrum'
+		'scapulocoracoid attaching to cleithrum via three buttresses'
+		'scapulocoracoid attaching to cleithrum along its anterodorsal margin'
+		,
+		136
+		'small'
+		'large, dorsally projecting'
+		,
+		137
+		'absent'
+		'present'
+		,
+		138
+		'absent'
+		'present and extends ventromedially'
+		,
+		139
+		'only preaxial and terminal'
+		'preaxial and postaxial radials in distal part of fin, only preaxials in proximal part'
+		'symmetrical array of preaxial and postaxial radials'
+		,
+		140
+		'rounded'
+		'elongate parallel-sided ridge'
+		,
+		141
+		'entepicondyle narrow relative to humerus shaft length'
+		'entepicondyle as broad as or broader than humerus is long'
+		,
+		142
+		'cylindrical'
+		'flattened rectangular'
+		,
+		143
+		'flat to convex'
+		'ball with neck'
+		,
+		144
+		'short, cylindrical leading edge, with no muscle scars'
+		'enlarged, sharp leading edge, with areas for muscle attachments'
+		,
+		145
+		'narrow, finger-like'
+		'broad rectangular plate'
+		,
+		146
+		'absent'
+		'present'
+		,
+		147
+		'present'
+		'absent'
+		,
+		148
+		'jointed'
+		'unjointed'
+		,
+		149
+		'longer than humerus'
+		'equal to or shorter than humerus'
+		,
+		150
+		'bladelike'
+		'subcylindrical'
+		,
+		151
+		'radius and intermedium terminate at different levels'
+		'radius and intermedium terminate at same level'
+		,
+		152
+		'absent'
+		'present'
+		,
+		153
+		'present'
+		'absent'
+		,
+		154
+		'heterocercal'
+		'triphycercal'
+		'diphycercal'
+		,
+		155
+		'absent'
+		'present'
+		,
+		156
+		'absent'
+		'present'
+		,
+		157
+		'absent'
+		'present'
+		,
+		158
+		'absent'
+		'present'
+		,
+		159
+		'absent'
+		'present'
+		,
+		160
+		'no'
+		'yes'
+		,
+		161
+		'present'
+		'absent'
+		,
+		162
+		'rhombic'
+		'intermediate between rhombic and round'
+		'round'
+		,
+		163
+		'present'
+		'absent'
+		,
+		164
+		'no'
+		'yes'
+		,
+		165
+		'absent'
+		'present'
+		,
+		166
+		'absent'
+		'present'
+		,
+		167
+		'absent'
+		'present'
+		,
+		168
+		'absent'
+		'present'
+		,
+		169
+		'absent'
+		'simple or generalized polyplocodont'
+		'labyrinthodont'
+		'dendrodont'
+		,
+		170
+		'absent'
+		'present'
+		,
+		171
+		'large'
+		'small'
+		,
+		172
+		'unornamented'
+		'ornamented'
+		,
+		173
+		'absent'
+		'present'
+		,
+		174
+		'exposed'
+		'subdermal'
+		,
+		175
+		'no'
+		'yes'
+		,
+		176
+		'present'
+		'absent'
+		,
+		177
+		'present'
+		'absent'
+		,
+		178
+		'absent'
+		'present'
+		,
+		179
+		'no'
+		'yes'
+		,
+		180
+		'absent'
+		'present'
+		,
+		181
+		'absent'
+		'present'
+		,
+		182
+		'absent'
+		'present'
+		,
+		183
+		'faces distally'
+		'has some ventrally directed component'
+		,
+		184
+		'faces distally'
+		'has some ventrally directed component'
+		,
+		185
+		'elevated from plane formed by clavicles'
+		'offset ventrally to lie at same level as clavicular plane'
+		,
+		186
+		'posterior orientation'
+		'lateral component to glenoid orientation'
+		,
+		187
+		'all approximately same size'
+		'enlarged anterior tooth'
+		'posteriormost teeth at least twice height of anteriormost teeth'
+		,
+		188
+		'oblong with distinct anterior overlap area'
+		'drop-shaped with no anterior overlap area'
+		'absent'
+		,
+		189
+		'height/width ratio 60% or greater'
+		'height/width ratio 40-50%'
+		,
+		190
+		'ovoid'
+		'kite-shape'
+		'kite-shape with posterior stalk'
+		,
+		191
+		'absent'
+		'present'
+		,
+		192
+		'adjacent to the caput humeri'
+		'offset distally toward the proximodistal mid-region of anterior margin of humerus'
+		,
+		193
+		'radius much longer than ulna'
+		'approximately equal length'
+		,
+		194
+		'present'
+		'absent'
+		,
+		195
+		'no longer than diameter of intercentrum'
+		'longer'
+		,
+		196
+		'all cylindrical'
+		'some or all bear flanges from posterior margin which narrow distally'
+		'some or all flare distally'
+		,
+		197
+		'present'
+		'absent'
+		,
+		198
+		'1-2 rows'
+		'3 rows'
+		'4 rows'
+		'5-6 rows'
+		,
+		199
+		'0-2 radials'
+		'3-4 radials'
+		'5 radials'
+		,
+		200
+		'five or less'
+		'more than five'
+		,
+		201
+		'absent'
+		'small (approximately one fith the length of the radius)'
+		'large (approximately half the length of the radius)'
+		,
+		202
+		'absent'
+		'present'
+		,
+		203
+		'absent'
+		'present'
+		,
+		204
+		'Lateral rostral much larger than anterior tectal'
+		'Lateral rostral and anterior tectal equidimensional'
+		'Lateral rostral smaller than anterior tectal'
+		,
+		205
+		'Anterior tectal and lateral rostral similar in size to the posterior tectal'
+		'Anterior tectal and lateral rostral much smaller than the posterior tectal'
+		,
+		206
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Youngolepis'		                          0000??0011?????0??001-0?00001000?1101101001-0011100000-0100000000100000?1000000001-0000000000--010010000????????00010011010?00000000??0000??????????????????????10-??111100?0???????????000??????????????00--?
+	'Diabolepis'		                           0000??0102???0100?001-010000??0??010?001???????0????????????000001000?0???00?0-000-200?0-0010--0---?0000???????????1?011010????0?????????????????????????????????????1110???0?????????????0??????????????00--0
+	'Powichthys'		                           0000?1000001-01001000011000010001211111100101011????00????11000011000000??00100001-101?000000--010010000????????00010011000?00000000??0000???????????????????????0-??111101?0?????????????0??????????????00--0
+	'Porolepis'		                            0000?10000110011-1001-111010100012011011001?1?100000000100110000110000001?00100001-201?000000--012010010100000??00000111101000000000??0000?????????????00????????0-?0110301?0?1000-???????00?????0?????-?00--0
+	'Glyptolepis'		                          0000?1000001-011-1001-0110101000120110100???1110000000010011000011000000100010000101010000000--0120100101000000000-?01111010000000000?000020?10?00?0?-?000000000021100-0301?011000---???0000??0??0000---000--0
+	'Tungsenia'		                            00?????011????????000-0?1?00?????11000100?1011?01?0??????????00000000???????000001-20000?001100012010010??????????01??1?10???0???????????????????????????????????0-??1?01???1?????????????????????????????0???
+	'Kenichthys'		                           00000??011110000?0000-011000100000101010????1???100000-01000000000011?0?1?00000001-200000001100010010010????????0?010012100??000?000??0000???????????????????????0-?110010??1????0????????0??????????????00101
+	'Gooloogongia'		                         000101(0,1)0?211000000000000110011010?????10????????000000010000??????????????001??11?02101?00?110001???????????????0?0?00???00010?0?00????????????????0???000??000??20100-??0??110??000?000???0????00???01-?0010?
+	'Sauripterus'		                          ????????????????????????????????????????????????????????????????????????????????????????????????????????????????0????????????0?01011??000010??0?0010000??????????20100-??????10?????1???????????00???11?2?????
+	'Barameda'		                             00010120?21100000000010011001101-?????100???????000000010???00010?011?001001121110001010000110001??????1001?-???0?000012100?100012010?000010(0,1)01000100100????00?0?201?0-?10??1?0?00000000001??-1000???01-?0011?
+	'Screbinodus'		                          00010??0?2??????????0???110?0-010????????????????010??1???0?0?0??????????00112?10?021010???11?0???????0?????????0?0??01?101?00101111010??01????????????0?????????201?0???0?011?0000?????001??0???0?????-?0?10?
+	'Rhizodus'		                             ??01??????????????????????????????????????????????????????????0?????????1??1?21?10021?10???1111?1201?00110100????????????01??110121100000010000?00101100?????????????0?????0??0?0??0?0??001??0??00????0-??????
+	'Strepsodus'		                           00010??0????????????????110???0?0???????????????????????????????????????1??1?21?1?021??????1111?1201??0?????????0?0??0???01??01012110?000010101?00101??00210??01?20100?0????11??0???0???011????????????-0?????
+	'Gyroptychius'		                         00000?0012???0000000000010001000000??01002101?0000000001010001010001110?100000?000-200???0?1100?1?0100?0????????011?101210000010?000??????0????????????002?????0?0-011?010-????0010???????00?????0001??-?00??1
+	'Osteolepis'		                           00000{1,2}001211000000010000100010000?00?01001??1100000000010100????00?1110???0000?000-200?000?1100?11????1?10000???0100001210000000000000????0????????????000?00000?0-0110010-0???0000???????00?0???0--1??-?00000
+	'Gogonasus'		                            000002001211000000010-001101100000000010011011000000000101001001001111001001000000-10000000110001101001110000101010000121000000000001-2000000100000101100010000010-0110010--10000000101010101-1000--?00-000000
+	'Medoevia'		                             00000??0121100000?000-00100010000000001001101?000000000?0?000101001111001001000000-20001000110001101001110000101010?00??100000000000102000?0100000?????0???????0?0-011?010-0???000????0?00100010???????-??0???
+	'Askerichthys heintziorum'		             000?12?0?21?000???001---100??????1???010????1?1?0????????1???1??100111?????1?(0,1)0?0???100???111(0,1)0?11?10?11????????0?0?10???????0?0000????????????????0????02?????1?0-?1?????????000?????????1??????0????????1??1
+	'Palatinichthys laticeps'		              00??1210??11100010001---10001001?????????????????0000001?100??????????????0????0?0??????????????????????????????0?0???121000?1??0?0?10?????????????????00????????0-??????0?0?0?000?????????0?0???0?????-?0??10
+	'Sengoerichthys ottoman'		               00?????1?2????????0?1---100??????1????10??????????????????????????????????0?0?0?00??10?????1100?1101001?????????????0????????0???000?????????????????????????????????1??????1???0?????????????????????????1??1
+	'Cladarosymblema narrienense'		          000012001211000000001---1000100001000010010-11000000000101001101000111000001000000-21001000110001101001110000011010000121000000000001020000????????0???????????000-0110010101000000?????001010??00??1????01111
+	'Megalichthys'		                         000012001211000000001---1000100000000010010-11?00000000???001101000111001001000000-21001000110001?010011????????0?000012100000000000102000001000000101?0000?0001?0-011?010-01000000000000010??1000--100-0?1011
+	'Megalichthys hibberti'		                00001(1,2)001211000??0001---10000-0100000010010-11?00010000??1001111000111001001000010-210010001100012010011????????0100001?1000000000001?2000001000000101?000000001?0-0110010-?100000?000000010??1000--100-0010?1
+	'Megalichthys laticeps'		                00?????0???????00?001---10001-00??????????????????????????????????????????0?0??00??????????????????????1????????0?0?0010100?????????????????????????????00?????1?0-0110?????????0??????????????????????-?0???1
+	'Megalichthys mullisoni'		               ?0001200??1?0000010010--1000??0??101??10??0-1?0?10????0?0?0?11010?011?0?1001010000-2100100010-0012010011???0????010?00?2?00?00000000?????0?0?00??1???????????????0-0?1??1??????00?????????1??????0???????01??1
+	'Mahalalepis resima'		                   010?1??0?211000001?0????1?????????100?1?????????????????????011110011?????01????????????????????????????????????????????????????????????????????????????????????????????????1?????????????0???????????????1???
+	'Ectosteorhachis nitidus'		              00001200?2???00000001---100?10000000?010010-1?00?0000001010011011001110???01000000-210?100?110001?0100??10000???0??0?012100???????????20000????????????????????100-??1?0?0-??????0????????1??????0???????0111?
+	'Beelarongia'		                          0000?200?2???0?0??000000101010010??????00???????010000010100??????????????0?0?????-?????????????????????????????0????012100??00000001?0000?010100????????????????0-011?0?0????????-???????????1??0???????????0
+	'Canowindra'		                           0000?200????????00000010101010010??????0????????010100010100??????????????0????00002????????????????????????????0???00???00000000000????????????????????00???????20000-0?0???0???0-????????0?????0???????0????
+	'Koharalepis'		                          00000200?200--000?010110101010010?0???11????????010000010100????0?101?01100?0?0000-210?????1100?1101???1????????010?00121000?0?0?????????????????????????????????0-011?010??1??000-??????????????0????????0??0
+	'Marsdenichthys'		                       00000200?211000000010000100010000?????10????????00000001010001110?011?0?00000?0000020001?0?1110?120????0????????010000?2100000000000?0?????????????0???00????????10010-0?0?0?0?0000??????????????0?????-?0?110
+	'Spodichthys'		                          0000?2?0?2???0000?02000010001000?000?01000111110?0?0????????002100?11?0110000000000200010001110012010010???????????00012100?00100000??2000?????????????????????0120??0-010?????00????????????????????????????0
+	'Tristichopterus'		                      00000200?2???0000?020-00100?0-000?????1000111?1?00000?0???0000?1??211?0110000??0000200?1000111001201???0????????01???????00?00100000??????00?0??0?01010001010??0?20010-?11???00000000000??00????00??100-00????
+	'Eusthenopteron'		                       00000200121100000003000010000-0000000011001111100000000111000021002111010000000000020001000111001210001010000111010010121000001000000020000010000001010001010000020010-011-0100000000000000000100000000-000201
+	'Jarvikina'		                            00000200?211010000020-10100???000000?01100??1?1000000001010000210021110???00?0000002000100011100121000101?????????001012100?????????????????????????????????????020??0-01?-???????????????0????????????????200
+	'Platycephalichthys'		                   00000200121101000002????100??0???00???11????????010101010100002100211?01??011000000210010001110012100010???????????0??12100??010?000?????????????????????????????????0-01????????????????01???????????????0200
+	'Cabonnichthys'		                        00000200?21101000002011010000-00000??011????????01000001010000210021110?00011?00000210?1?001110??2100???????????01??10???00000100000??200000?00?00010100021??????20010-011-?1?0000001000??10??1000???00-000?00
+	'Mandageria'		                           00000200?21101001003011010000-0100???01102111?10010101010?0000210021110100011000000210?1?0?1110??21?0????000?11101??10???00000100000??200000?00?0??1?1?00211???0020000-011-?1?0001-01000??10??1?00???00-0?010-
+	'Eusthenodon'		                          00000200?21101001003011010000-00000???11????????010101010100002100211?01??011?????0210?1?0?1110??2100??0????????01??10???00?????????0???????????????????0????????200?0-?11?????000????????10?????0???????0021?
+	'Hongyu'		                               ??01????????????????????100011????????1?0???????1??????????????????????????0??????0???????1????????????110201????????0???00?100100000?0000?????????????0???0???1?211?0-??0??????0?????????0??????0?????-??????
+	'Bruehnopteron murphyi'		                00000210?210000000030-0010?00-00?0????11?????????0000001110000210021110???1101000?02100????1????12100010????????01?01?02100?00100000??20?0???????????????????????????0-0?1-?1??0000???????1??????????????00210
+	'Tinirau clackae'		                      0000???0?21101000?030-1010000-000?0???11????1????0?000????0???21002111011000100000021000000?????12110??0???0????0??0???2100??0?10000??????00????0?01?0000?110000?2?0?0-?11-?1?000?0000?0?00?1???0000?00-000200
+	'Panderichthys'		                        101001111210000000130-1000010-000000?0110110110000(0,1)(0,1)0011010000110021110110101000000210010011110012120010002111??0110?0021000100100001010?10101010011100012?11000?0-100-020-010000(0,1)000000111010100011?00-000210
+	'Elpistostege'		                         11100111?2101001-0130-1000010-1--?0???110?1?????001000110100001100?11?011010100000021011?0?111??1212??10??2??10?0--0--0??0?0100100001121?111010?0?100001(0,1)21110?0?0-100-020?110000(0,1)0110?01120111000(0,1)10220110110
+	'Tiktaalik'		                            11100??1?2111001-0130-1000010-1--0???01101111?0?001(0,1)(0,1)011010?001100211101101010000002101100?1110012121?100121110?1?1?--0????0100100001121?11101010010101?1??111???0-100-020-?10000(0,1)1110101100?01000?1?11?000??0
+	'Ventastega curonica'		                  11100021?2111000001-0-1-0--10-1--?????????1??1??001010110100????0?????11100011?000021111111110111211?100???????????0--?????111??000??13????????????????????????????-???????110???00???????21?1???????????0?--0
+	'Acanthostega'		                         11100021?2111001-0120-1000010-1--00??0011?1-0100001010110100010110011?112100111000121011110110110212010011211??01--0??02?00111010000013111-1010111?011?11211101000--00-020?11?01100??10011211111011213?1?10--0
+	'Ichthyostega'		                         11100021?2111001-0120-1000010-1--00??0011?1-00?0001010110100000110011?112100101000121011111110110212010011211???1--0?002??0111010000013111-1010111?0111112111110?21-00-020?11?01100??11101221211111113???00--0
+	'Tulerpeton curtum'		                    ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????1????013???-1010111101111???1?????21-?????????00????1?1?????1??1?111??3011?????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=6 TEXT='Coding validate by RC based on Lu et al. (2019).';
+	TEXT TAXON=9 TEXT='Coding validated by RC based on Jeffery (2017)';
+	TEXT TAXON=11 TEXT='Coded by RC based on Jeffery (2012) and Andrews (1985)';
+	TEXT TAXON=12 TEXT='Coding validated by RC based on Jeffery (2017)';
+	TEXT TAXON=13 TEXT='Coding validated by RC based on Jeffery (2017)';
+	TEXT TAXON=14 TEXT='Coding validated by RC based on Jarvik (1948, 1985), Andrews & Westoll (1970) and specimen';
+	TEXT TAXON=18 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem (2016). ^n';
+	TEXT TAXON=20 TEXT='; based on Janvier et al. (2007) and personnal observation of original material (R.C.)';
+	TEXT TAXON=23 TEXT='Based on Gross (1956), Thomson (1964), Jarvik (1966), Andrews & Westoll (1970; used for the pectoral girdle and fins), Borgen & Nakrem (2016); coded by R.C.';
+	TEXT TAXON=24 TEXT='Based on Traquair (1884), Gross (1956) and Bjerring (1972); coded by RC';
+	TEXT TAXON=25 TEXT='Based on Downs & Deaschler (2020); coded by RC';
+	TEXT TAXON=27 TEXT='Based on Romer (1937), Thomson & Rackoff (1974)';
+	TEXT TAXON=42 TEXT='Coded by RC based on Swartz (2012) and original specimens. Tinirau has not been divided as two species (Bruehnopteron murphyi and Tinirau clackae) as recognized by Schultze & Reed (2012).';
+	TEXT TAXON=46 TEXT='Coded by RC based on Ahlberg et al. (1994, 2008) and Chen et al. (2018)';
+
+        [Character comments]
+        	TEXT CHARACTER=19 TEXT='Frontals are paired dermal skull roofing bones meeting medially anterior to the parietals (Schultze & Arsenault, 1985).';
+	TEXT CHARACTER=22 TEXT='Numerous taxa in Zhu et al. (2017) were coded for this character, while they did not have a pineal series (or plate). The recoding takes into account solely those taxa that have pineal plates. The taxa having a pineal opening (char 21) but not plates are coded as "-".';
+	TEXT CHARACTER=27 TEXT='maximum width of postparietal shield versus skull width at level of anterior end of postparietal';
+	TEXT CHARACTER=29 TEXT='Zhu et al. (2017) created apomorphic state 2 in which the extratemporal separates the lateral extrascapular from the squamosal, suggesting homology between the extratemporal and the postspiracular. We divided character 29 of Zhu et al. (2017) into two characters (29 and 170) because the homology between the extratemporal and spiracular is dubious.';
+	TEXT CHARACTER=42 TEXT='Character states have been ordered to form a 0-1-2 morphocline.';
+	TEXT CHARACTER=70 TEXT='Character 70 of Zhu et al. (2017) has been divided into two binary characters (char. 70 and 171).';
+	TEXT CHARACTER=73 TEXT='The character states have been reordered to form a morphocline.';
+	TEXT CHARACTER=100 TEXT='Character states have been reordered to form a morphocline.';
+	TEXT CHARACTER=134 TEXT='This character (Zhu et al. 2017, char 134) has been divided into two characters: size (char 134) and ornamentation (char 172).';
+	TEXT CHARACTER=162 TEXT='Character states have been reordered to form a morphocline.';
+	TEXT CHARACTER=170 TEXT='This character is part of character 29 by Zhu et al. (2017). We divided this character because we do not agree with the assumption that the extratemporal is homologous with the postspiracular.';
+	TEXT CHARACTER=171 TEXT='This character is linked with character 70 (Zhu et al. 2017).';
+	TEXT CHARACTER=172 TEXT='This character corresponds in part of character 134 of Zhu et al. (2017).';
+	TEXT CHARACTER=180 TEXT='As in Swartz (2010) and Acanthostega and Ichthyostega';
+	TEXT CHARACTER=203 TEXT='A feature only seen in megalichthyinid tetrapodomorphans where the premaxilla has a long extended medioventral process on the ventral face, exposed in palatal view sometimes with fangs present.';
+	TEXT CHARACTER=206 TEXT='The anterolateral margin of the supratemporal presents an anterolateral process showing a complex articular structure for the parietal and the intertemporal (Janvier et al., 2007). Bjerring (1972) suggested that the anterolateral process of the supratemporal (his "frontodermosphenotic process of the intertemporal") is characteristic of the Megalichthyidae. However, an anterolateral process on the supratemporal is also present in Eusthenopteron foordi; Bjerring (1972) refers to this process as the "area of intertemporal overlapped by dermosphenotic".';
+
+      [Attribute comments]
+      	TEXT TAXON=18 CHARACTER=1 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=1 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=11 CHARACTER=2 TEXT='Based on Jeffery''s (2017, fig 21) reconstitution of the skull of Screbinodus, the proportion of the skull roof lying anterior to the middle of the orbits is unambigously less than 50%.';
+	TEXT TAXON=18 CHARACTER=2 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=2 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=26 CHARACTER=2 TEXT='As measured form material is about 50% (JL)';
+	TEXT TAXON=18 CHARACTER=3 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=26 CHARACTER=4 TEXT='Fused with skull roof so cannot be accurately measured (JL)';
+	TEXT TAXON=30 CHARACTER=5 TEXT='As shown by Long et al. (2019, Fig 7).';
+	TEXT TAXON=28 CHARACTER=5 TEXT='This is not clear from the material described by Long (1987), so coded as ?.';
+	TEXT TAXON=19 CHARACTER=5 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=14 CHARACTER=6 TEXT='Gyroptychius is coded as "?" since the snout is covered by cosmine obliterating the individual bones.';
+	TEXT TAXON=42 CHARACTER=6 TEXT='Swartz (2012, char. 86; Figure S3) coded Tinirau as having a median postrostral. However, the only specimen (UCMP 118283) interpreted to share this condition is attributed to Bruehnopteron. Furthermore, it is unclear if a large median postrostral is present in this specimen (Schultze & Reed, 2012).';
+	TEXT TAXON=18 CHARACTER=6 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=6 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=26 CHARACTER=6 TEXT='Due to cosmine cover this is not defined (JL)';
+	TEXT TAXON=25 CHARACTER=6 TEXT='Downs & Daeschler (2020, fig. 3) described a great deal of variation in the configuration of the postrostrals in terms of shape, size and numbers.';
+	TEXT TAXON=43 CHARACTER=7 TEXT='There 3-4 nasals per side in the two specimens of Panderichthys illustrated and drawn by Vorobyeva & Schultze (1991, fig. 4-5).';
+	TEXT TAXON=8 CHARACTER=7 TEXT='Daerschler et al. (2006, char. 35) and Swartz et al. (2012, char. 83) coded Gooloogongia as havin "one or two nasals". On the other hand, Zhu et al. (2017, char. 7) coded Gooloogongia as having more than one nasal. However, Johanson & Ahlberg (1998, fig. 2f) illustrated the right side of the snout with two nasals and the left side with three nasals. Thus, we are coding Gooloogongia as polymorphic.';
+	TEXT TAXON=45 CHARACTER=7 TEXT='The recognition of individual bones anterior to the frontals in Tiktaalik is unclear since most elements seem to be fused. Therefore, we are coding this character as "?" as Daeschler et al. (2006, char. 35) and Swartz (2012, char. 83), but in contrast to Zhu et al. (2017, char. 7) that coded for the presence of many nasals.';
+	TEXT TAXON=19 CHARACTER=7 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=20 CHARACTER=8 TEXT='Janvier et al. (2007, p. 256) mentionned that the position of the anterior nostril is clearly lateral and close to the oral margin. They also mentioned that the position of the anterior nostril of Sengoerichthys closely ressembles that of Cladarosymblema, incontrast to Megalichthys and Ectosteorhachis. Nevertheless, the condition of the anterior naris of Sengoerichthys is coded as marginal, whereas the condition of Cladarosymblema is coded as facial.';
+	TEXT TAXON=18 CHARACTER=8 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=8 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=3 CHARACTER=9 TEXT='Dermintermedius process is absent in Powichthys. Clement & janvier (2004) noted a processs on the lacrimal (iLa.pr, Fig. 3) but this is not homologous to  the dermintermedius process which is a separate lamina coming off the tectal bone surrounding the naris (jarvik 1942).';
+	TEXT TAXON=30 CHARACTER=10 TEXT='Long et al (2019,  fig 9B) shows possible choana in CT image.';
+	TEXT TAXON=2 CHARACTER=10 TEXT='In contrast to Jeffery (2017) which coded this character as the posterior nostril located ''near the jaw'', Zhu et al. (2017) coded the position to be palatal as shown by Chang & Yu (1984, fig. 2).';
+	TEXT TAXON=18 CHARACTER=10 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=11 TEXT='Long et al (2019,  Fig. 10) shows one supraorbital.';
+	TEXT TAXON=18 CHARACTER=11 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=11 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=30 CHARACTER=12 TEXT='Long et al. (2019,  Fig. 10) show one supraorbital extending anterior to orbit.';
+	TEXT TAXON=19 CHARACTER=12 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=18 CHARACTER=13 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=13 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=28 CHARACTER=14 TEXT='Long (1987, Pl.91-1) and text-fig 5. show the posterior supraorbital has a very small process.';
+	TEXT TAXON=18 CHARACTER=14 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=14 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=46 CHARACTER=15 TEXT='We considered that there is a contact between the supraorbital (postfrontal) and the parietal in Ventastega, although the parietal is fused with the postparietal.';
+	TEXT TAXON=18 CHARACTER=15 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=15 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=45 CHARACTER=16 TEXT='Although Swartz (2012) and Zhu et al. (2017) code Tiktaalik as "?", we are coding Tiktaalik as lacking an intertemporal as suggested by Daeschler et al. (2006).';
+	TEXT TAXON=19 CHARACTER=16 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=28 CHARACTER=17 TEXT='Not known from Long (1987) so coded as ?.';
+	TEXT TAXON=19 CHARACTER=17 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=29 CHARACTER=18 TEXT='Long et al. (2019), one tectal seems to be present.';
+	TEXT TAXON=19 CHARACTER=18 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=18 CHARACTER=19 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=19 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=18 CHARACTER=20 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig14';
+	TEXT TAXON=19 CHARACTER=20 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=11 CHARACTER=21 TEXT='Jeffery (2012) tentatively interpreted the presence of a pineal opening in Screbinodus based on the presence of a notch on the median margin of the right parietal of SME 4714; we agree with this interpretation.';
+	TEXT TAXON=18 CHARACTER=21 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=21 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=29 CHARACTER=22 TEXT='Long 1985 figures and describes a small pinprick-like pineal opening (p91 column 2, last line)';
+	TEXT TAXON=31 CHARACTER=22 TEXT='From Long 1985 p8, Fig 4B (second specimen has pineal well-preserved)^nJohn';
+	TEXT TAXON=32 CHARACTER=22 TEXT='Clear from Jarvik 1985 figs 29A, C  it has a small rounded pineal opening^nJohn Long';
+	TEXT TAXON=44 CHARACTER=25 TEXT='Clack et al. (2012) coded Elpistostege has having a dermal intracranial joint; however, the fusion of elements as well as the digitated sutures show that there is no dermal joint on the skull roof.';
+	TEXT TAXON=18 CHARACTER=25 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=25 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=16 CHARACTER=26 TEXT='Long 2006 shows the postparietal ending in an angle (point)  rather than levelled off-also see Long et al 1997 figs 2C and5D . Clearly the reconstructions are not as accurate,';
+	TEXT TAXON=18 CHARACTER=26 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=26 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=6 CHARACTER=27 TEXT='The coding of Tungsenia is based on Lu et al. (2019, fig. 1-2).';
+	TEXT TAXON=18 CHARACTER=27 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=27 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=28 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=41 CHARACTER=29 TEXT='Schultze & Reed (2012) identified a displaced element as an extratemporal. They mentioned that this bone "fits into the space between squamosal and opercle, a position as in †Eusthenopteron, bordering medially the tabular and extrascapula of the lateral skull roof." We would rather identify this element as a postspiracular. The lateral margin of the tabular [see Schultze & Reed (2012, fig. 3)] does not suggest the presence of a dermal element abutting along its margin.';
+	TEXT TAXON=19 CHARACTER=29 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=23 CHARACTER=29 TEXT='Cloutier et al. (2020, char. 29) coded for the presence of an extratemporal in Megalichthys. However, none of the descriptions and illustrations of the skull roof of M. hibberti (Andrews & Westoll, 1970, text-fig. 2; Borgen & Nakrem, 2016) show an extratemporal.';
+	TEXT TAXON=24 CHARACTER=29 TEXT='Bjerring (1972) described the articular surface of the tabular (his "supratemporal") to infer the presence of extratemporal in M. laticeps.';
+	TEXT TAXON=33 CHARACTER=30 TEXT='Because the extratemporal and the postspiracular were considered to be homologous by Zhu et al. (2017), they coded for the absence of contact between the extratemporal and supratemporal. Considering our redefinition of character 29 (limited to the presence of the extratemporal), character 30 is coded as inapplicable rather than the absence of contact.';
+	TEXT TAXON=38 CHARACTER=30 TEXT='Because the extratemporal and the postspiracular were considered to be homologous by Zhu et al. (2017), they coded for the absence of contact between the extratemporal and supratemporal. Considering our redefinition of character 29 (limited to the presence of the extratemporal), character 30 is coded as inapplicable rather than the absence of contact.';
+	TEXT TAXON=37 CHARACTER=30 TEXT='Because the extratemporal and the postspiracular were considered to be homologous by Zhu et al. (2017), they coded for the absence of contact between the extratemporal and supratemporal. Considering our redefinition of character 29 (limited to the presence of the extratemporal), character 30 is coded as inapplicable rather than the absence of contact.';
+	TEXT TAXON=39 CHARACTER=30 TEXT='Because the extratemporal and the postspiracular were considered to be homologous by Zhu et al. (2017), they coded for the absence of contact between the extratemporal and supratemporal. Considering our redefinition of character 29 (limited to the presence of the extratemporal), character 30 is coded as inapplicable rather than the absence of contact.';
+	TEXT TAXON=34 CHARACTER=30 TEXT='Because the extratemporal and the postspiracular were considered to be homologous by Zhu et al. (2017), they coded for the absence of contact between the extratemporal and supratemporal. Considering our redefinition of character 29 (limited to the presence of the extratemporal), character 30 is coded as inapplicable rather than the absence of contact.';
+	TEXT TAXON=19 CHARACTER=30 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=31 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 - fig5';
+	TEXT TAXON=19 CHARACTER=32 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig5';
+	TEXT TAXON=23 CHARACTER=32 TEXT='Cloutier et al. (2020, char. 32) coded the condition of the anterior margin of the median extrascapular of Megalichthys as being long. However, Andrews & Westoll (1970, text-fig. 2a) illustrated a short anterior margin for the median extrascapular of M. hibberti.';
+	TEXT TAXON=10 CHARACTER=33 TEXT='Jeffery (2012, char. 20) coded Barameda with the median extrascapular overlapped by the lateral extrascapulars. We do see an overlap area on the specimen of the skull (Long 1989) and have re-examined the cast of the skull; it is code as “–“ because we interpret the condition of the extrascapulars only as an abutment and not an overlap.';
+	TEXT TAXON=13 CHARACTER=33 TEXT='Strepsodus is coded based on the coding of Jeffery (2012, data matrix character 20).';
+	TEXT TAXON=11 CHARACTER=33 TEXT='Jeffery (2012) described and illustrated (fig. 10) the overlap relationship among the extrascapulars for Screbinodus.';
+	TEXT TAXON=42 CHARACTER=33 TEXT='Swartz (2012) coded the condition of Tinirau as unknown. Reexamination of the holotype suggests that the median extrascapular is overlapped by the lateral extrascapulars. The overlapped condition is also clear on the right side of the extrascapular series of specimen UCMP 190999.';
+	TEXT TAXON=21 CHARACTER=34 TEXT='The specimens clearly show differentiated shallow pits (eg Fox et al 1995 fig. 21) so we code this as state 1, not 0 as previously coded.';
+	TEXT TAXON=18 CHARACTER=34 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=30 CHARACTER=35 TEXT='Long et al (2019, Fig 8B) shows thickness of braincase at orbits.';
+	TEXT TAXON=18 CHARACTER=36 TEXT='Not sure - check Borgen & Nakrem 2016 fig20';
+	TEXT TAXON=42 CHARACTER=38 TEXT='Swartz (2012) coded for the absence of the descending process of the sphenoid. However, the state of preservation of specimen UMC 190999 does not allow for a clear observation.';
+	TEXT TAXON=18 CHARACTER=38 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=39 TEXT='Long et al (2019, Fig 8B) shows braincase with intracranial joint present.';
+	TEXT TAXON=18 CHARACTER=39 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=6 CHARACTER=40 TEXT='The coding of Tungsenia is based on Lu et al. (2019).';
+	TEXT TAXON=18 CHARACTER=40 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=10 CHARACTER=41 TEXT='Holland et al 2007 (JVP 27, 2: 295-315)  figure the Hyomandibula of Barameda Fig 7C showing it is typical for other rhizodontids and not developed as a ''''stapes''';
+	TEXT TAXON=28 CHARACTER=41 TEXT='Long et al (2019, Fig 8A) shows braincase with hyomandibular attached.';
+	TEXT TAXON=6 CHARACTER=41 TEXT='Although the facets of hyomandibular articulations are not well-shown on the specimen (Lu et al. 2019), they are present.';
+	TEXT TAXON=6 CHARACTER=43 TEXT='Based on Lu et al. (2019, fig 1B, 2B), a large vestibular fontanelle is present on the lateral braincase wall of Tungsenia at the same level with the ventral arcual plate.';
+	TEXT TAXON=6 CHARACTER=44 TEXT='Based on Lu et al. (2019, fig. 1B, 2B), the anterior margin of the vestibular fontanelle is located posterior to the posterior margin of the basicranial fenestra.';
+	TEXT TAXON=6 CHARACTER=45 TEXT='The basicranial fenestra is coded as present based on Lu et al. (2019).';
+	TEXT TAXON=18 CHARACTER=45 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=6 CHARACTER=46 TEXT='The posttemporal fossa is present but poorly developed in Tungsenia (Lu et al. 2019).';
+	TEXT TAXON=18 CHARACTER=47 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig15D';
+	TEXT TAXON=6 CHARACTER=48 TEXT='The coding is based on Lu et al. (2019).';
+	TEXT TAXON=18 CHARACTER=49 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 (but only maxilla and preOp known so perhaps should be tentative coding)';
+	TEXT TAXON=11 CHARACTER=50 TEXT='In contrast to Zhu et al. (2017), the postorbital is forming the posterior margin of the orbit of Screbinodus (Jeffery, 2012).';
+	TEXT TAXON=45 CHARACTER=50 TEXT='Zhu et al. (2017) coded Tiktaalik as "?", however, the postorbital clearly forms the posterior margin of the orbit (Deaschler et al. 2006).';
+	TEXT TAXON=19 CHARACTER=50 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig4';
+	TEXT TAXON=43 CHARACTER=51 TEXT='Zhu et al. (2017) coded the jugal of Panderichthys as not extending anterior to middle of orbit. Of the two specimens (PIN 3547/18 and PIN 3547/26) of Panderichthys illustrated by Vorobyeva & Schultze (1991, fig. 4-5), the anterior extent of the jugal varies between individuals and bilaterally. We are coding character 51 as polymorphic.';
+	TEXT TAXON=11 CHARACTER=51 TEXT='In contrast to Zhu et al. (2017) coding, the jugal extends anteriorly to the middle of the orbit, reaching almost the anterior level of the orbit of Screbinodus (Jeffery, 2012).';
+	TEXT TAXON=42 CHARACTER=51 TEXT='Swartz (2012, char. 95) coded for the jugal not extending anteriorly to mid-orbit. However, a re-examination of the cheek condition of specimen UCMP 118605 of Tinirau does not show clearly the limit of the orbit, furthermore it is unclear if the line interpreted as the suture between the lacrimal and jugal might be a fracture.';
+	TEXT TAXON=19 CHARACTER=51 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=23 CHARACTER=51 TEXT='Cloutier et al. (2020, char. 51) coded the condition of the jugal of Megalichthys as not extending anteriorly to the middle of the orbit. However, the jugal is shown to extend anteriorly to the orbit in M. hibberti (Borgen & Nakrem, 2016, fig. 52c).';
+	TEXT TAXON=43 CHARACTER=52 TEXT='Of the two specimens of Panderichthys illustrated by Vorobyeva & Schultze (1991, fig. 4-5), specimen PIN 3547/18 has the jugal forming part of the orbit on both sides, whereas in specimen PIN 3547/26, the jugal is excluded from the orbit on the left side. We are still coding character 52 as the jugal forming part of the orbit.';
+	TEXT TAXON=45 CHARACTER=52 TEXT='Zhu et al. (2017, char. 52) coded Tiktaalik as having the lacrimal contributing to the orbital margin. However, on the holotype (NUFC 108) the condition is polymorphic since the jugal contributes to the orbital margin on the left side, whereas the jugal is excluded from the orbit on the right side because of the contact between the postorbital and the lacrimal (Daeschler et al., 2006, fig. 3).';
+	TEXT TAXON=29 CHARACTER=52 TEXT='Long (1985 Recs Aust. Museum 37) shows the jugal did not contribute to the orbital margin (Long 1985, fig. 2).';
+	TEXT TAXON=19 CHARACTER=52 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=45 CHARACTER=53 TEXT='The condition of the lacrimal varies bilaterally on the holotype of Tiktaalik (Daeschler et al. 2006).';
+	TEXT TAXON=19 CHARACTER=53 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=54 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=55 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=56 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 (inferred in fig7)';
+	TEXT TAXON=34 CHARACTER=57 TEXT='Based on new observations, Schultze & Reed (2012, fig. 10A) illustrated Eusthenopteron with a quadratojugal bearing both the quadratojugal pitline and the preopercular canal.';
+	TEXT TAXON=18 CHARACTER=58 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig22';
+	TEXT TAXON=19 CHARACTER=58 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=59 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=45 CHARACTER=60 TEXT='Zhu et al. (2017, char. 60) and Daeschler et al. (2006, char. 46) coded for the absence of the preoperculosubmandibular. However, in their description Daeschler et al. (2006, p. 761) wrote that "the status of the preoperculosubmandibular is indeterminate." Thus we are coding the condition of the preoperculosubmandibular of Tiktaalik as "?".';
+	TEXT TAXON=19 CHARACTER=60 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=33 CHARACTER=61 TEXT='Swartz (2012) coded the condition of Tristichopterus as unknown, while Zhu et al. (2017) reported the plesiomorphic condition.';
+	TEXT TAXON=10 CHARACTER=61 TEXT='Swartz (2012) coded the vomer proportions of Barameda as "?".';
+	TEXT TAXON=7 CHARACTER=61 TEXT='Swartz (2012) coded the condition of Kenichthys as unknown, however we agree with the coding provided by Zhu et al. (2017).';
+	TEXT TAXON=46 CHARACTER=61 TEXT='Chen et al. (2018) coded the vomer of Ventastega as being not much broader than long. However, we coded this character as "?" because of the partial condition of the vomer (Ahlberg et al., 1994, fig. 10b).';
+	TEXT TAXON=42 CHARACTER=61 TEXT='Swartz (2012, char. 57) coded Tinirau as having a vomer not much broader than long. This coding was most likely based on specimen UCMP 117884 which shows completely the vomers. However, this specimen has been reassigned to Bruehnopteron (Schultze & Reed, 2012). Therefore, the condition of the vomers has to be based on specimen UCMP 190999, for which the anterior margin of the vomers are poorly preserved. Although the condition seems to correspond to a vomer not much broader than long, we are coding Tinirau as "?" because of the incompleteness of the vomers.';
+	TEXT TAXON=16 CHARACTER=61 TEXT='Swartz (2012) coded the vomer proportions of Gogonasus to be plesiomorphic. However, vomers are very broad on Gogonasus (1.64 times as broad as long), quite similar in shape and proportion to those of Clarydosymbleama which is code d as 2, so this follows suite.';
+	TEXT TAXON=3 CHARACTER=61 TEXT='Zhu et al. (2017) the codition of the vomer proportion of Powichthys to be unknown, while Swartz (2012) coded for a vomer not much broader than long. The illustration of the vomer of Powichthys in Clément & Janvier (2004, fig 8) supports this condition.';
+	TEXT TAXON=11 CHARACTER=63 TEXT='The coding for the vomer of Screbinodus is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=12 CHARACTER=63 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the coding for the vomer of Rhizodus is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=31 CHARACTER=63 TEXT='As shown in Holland et al (2010 Fig 4).';
+	TEXT TAXON=23 CHARACTER=63 TEXT='Cloutier et al. (2020, char. 63) coded Megalichthys as lacking a posterior process of the vomer. However, the posterior process of the vomer of M. hibberti is present and short (Jarvik, 1966, fig. 17).';
+	TEXT TAXON=31 CHARACTER=64 TEXT='As shown in Holland et al (2010 Fig 4).';
+	TEXT TAXON=30 CHARACTER=65 TEXT='Long et al (2019, Fig 8B) shows shape of parasphenoid in CT imagery as normal for basal stem tetrapods.';
+	TEXT TAXON=31 CHARACTER=65 TEXT='As shown in Holland et al (2010 Fig 4).';
+	TEXT TAXON=18 CHARACTER=65 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=18 CHARACTER=66 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=67 TEXT='Long et al (2019, Fig 8B) shows shape of parasphenoid in CT imagery as normal for basal stem tetrapods.';
+	TEXT TAXON=46 CHARACTER=67 TEXT='Chen et al. (2018, char. 19) coded for a condition in which the vomers were not separated for more than half their length. We are coding Ventastega as "?" because only one disarticulated partial vomers is known (Ahlberg et al. 1994) not providing enough information on the medial condition of this element.';
+	TEXT TAXON=18 CHARACTER=67 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=30 CHARACTER=68 TEXT='As shown in Holland et al (2010 Fig 4).';
+	TEXT TAXON=16 CHARACTER=68 TEXT='Medoevia is coded as slender-splint shaped as for Gogonasus -exactly the same shape  but extending further anteriorly,  so coding here changed to 1.';
+	TEXT TAXON=18 CHARACTER=68 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=30 CHARACTER=69 TEXT='As shown in Holland et al (2010 Fig 4) converges anteriorly.';
+	TEXT TAXON=18 CHARACTER=69 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=45 CHARACTER=70 TEXT='Zhu et al. (2017) coded this character as "?". The posterior carotid opening of Tiktaalik does not pierce the parasphenoid (Down et al. 2008, fig. 3).';
+	TEXT TAXON=18 CHARACTER=70 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=33 CHARACTER=72 TEXT='Swartz (2012) coded Tristichopterus as "?", while Zhu et al. (2017) coded the proportions of the entopterygoid in which the anterior end is considerable anterior to the processus ascendens.';
+	TEXT TAXON=36 CHARACTER=72 TEXT='Swartz (2012) coded Platycephalichthys as "?", while Zhu et al. (2017) coded as "1".';
+	TEXT TAXON=21 CHARACTER=72 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=11 CHARACTER=74 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Andrews (1985) and Jeffery (2012).';
+	TEXT TAXON=30 CHARACTER=74 TEXT='From unpublished CT data by Dingo neutron beam.';
+	TEXT TAXON=21 CHARACTER=74 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=11 CHARACTER=75 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Andrews (1985) and Jeffery (2012).';
+	TEXT TAXON=45 CHARACTER=75 TEXT='Zhu et al. (2017) and Swartz (2012) coded Tiktaalik as not having a subterminal mouth, while Deaschler et al. (2006) coded for a subterminal mouth as well as mentioned that Panderichthys, Elpistostege and Tiktaalik have such condition.';
+	TEXT TAXON=19 CHARACTER=75 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=17 CHARACTER=76 TEXT='Zhu et al. (2017, char. 17) and Johanson & Ahlberg (2001, char. 27) coded for the absence of the enlarged anterior premaxillairy tooth, in contrast to Swartz (2012, char. 53). Lebedev (1995, p. 296) mentioned that the medial tooth pair is slightly bigger than the others in Medoevia.';
+	TEXT TAXON=36 CHARACTER=76 TEXT='Zhu et al. (2017, char. 76) coded for the absence of enlarged anterior tooth on the premaxilla, whereas Swartz (2012, char. 53) coded for the presence of such enlarged teeth. Vorobyeva (1977, fig. 44) illustrated a specimen of Platycephalichthys bischoffi showing enlarged anterior teeth on the premaxilla.';
+	TEXT TAXON=42 CHARACTER=76 TEXT='Swartz (2012, char. 53) reported that the premaxillary teeth of Tinirau are all of similar size based on specimen UCMP 117884; although the anterior teeth are larger than the remianing ones. Specimen UCMP 117884 has been reassigned to Bruehnopteron (Schultze & Reed, 2012) leaving no specimen of Tinirau showing properly the premaxillary teeth. Thus, Tinirau is coded as "?".';
+	TEXT TAXON=31 CHARACTER=76 TEXT='As shown in Holland et al (2010 Fig 2) no enlarged teeth on premaxilla.';
+	TEXT TAXON=16 CHARACTER=76 TEXT='Long et al 1997 Fig 9A, D clearly and unambiguously shows the enlarged first tooth of the premaxillary';
+	TEXT TAXON=18 CHARACTER=76 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=10 CHARACTER=77 TEXT='Maxilla is figured on Holland et al 2007- although incomplete it appears weak to poorly developed.';
+	TEXT TAXON=18 CHARACTER=77 TEXT='posterodorsal region is convex, but no process (AMC)';
+	TEXT TAXON=10 CHARACTER=78 TEXT='Lower jaw is well known in  Barameda-no meckelian ossification present on any of the material (eg Long 1989,JVP,  Fig 7A, B).';
+	TEXT TAXON=11 CHARACTER=78 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Andrews (1985) and Jeffery (2012).';
+	TEXT TAXON=18 CHARACTER=78 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig29 (M.b exists at both ends of jaw, but might be incomplete along mid region)';
+	TEXT TAXON=44 CHARACTER=79 TEXT='Zhu et al. (2017) coded this character on the coronoids condition; however, this was unknown in previous specimen.';
+	TEXT TAXON=30 CHARACTER=79 TEXT='Long et al 2019 Fig 9A shows coronoids.';
+	TEXT TAXON=18 CHARACTER=79 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=11 CHARACTER=80 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Andrews (1985) and Jeffery (2012).';
+	TEXT TAXON=31 CHARACTER=80 TEXT='Based on Holland et al. (2010), there is no indication of lower jaw protrusion in Marsdenichthys.';
+	TEXT TAXON=19 CHARACTER=80 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=11 CHARACTER=81 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Andrews (1985) and Jeffery (2012).';
+	TEXT TAXON=31 CHARACTER=81 TEXT='In contrast to Swartz (2012), the condition of the rounded anteroventral lower jaw profile has been illustrated by Holland et al. (2010)';
+	TEXT TAXON=18 CHARACTER=81 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig27';
+	TEXT TAXON=19 CHARACTER=82 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=11 CHARACTER=85 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Jeffery (2012).';
+	TEXT TAXON=14 CHARACTER=85 TEXT='None of the specimens of Gyroptychius illustrated by Jarvik (1948) shows a dentary with fang pair.';
+	TEXT TAXON=30 CHARACTER=85 TEXT='Long et al 2019 Fig 9Bshows dentary fangs.';
+	TEXT TAXON=18 CHARACTER=85 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=11 CHARACTER=86 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Jeffery (2012).';
+	TEXT TAXON=30 CHARACTER=86 TEXT='Long et al 2019 Fig 9A, B, shows dentary teeth.';
+	TEXT TAXON=18 CHARACTER=86 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=18 CHARACTER=87 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=31 CHARACTER=88 TEXT='Based on Holland et al. (2010, fig. 4A, B), the splenial seems to articulate with the prearticular.';
+	TEXT TAXON=18 CHARACTER=91 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig29 (some meckelian bone between them but mostly contact)';
+	TEXT TAXON=30 CHARACTER=92 TEXT='Long et al 2019 Fig 9A, B, shows dentary without parsymphysial tooth whorl present.';
+	TEXT TAXON=18 CHARACTER=92 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=93 TEXT='Long et al 2019 Fig 9A shows dentary without parasymphysial plate area present.';
+	TEXT TAXON=20 CHARACTER=93 TEXT='The adsymphysial dental plate is refered to as the parasymphysial plate by Janvier et al. (2007, p. 253).';
+	TEXT TAXON=18 CHARACTER=93 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=94 TEXT='Long et al 2019 Fig 9A shows dentary without parasymphysial plate area present.';
+	TEXT TAXON=18 CHARACTER=94 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28B (there is a gap btwn adsymphyseal tooth plate on one specimen, not on another - see text pg 52)';
+	TEXT TAXON=30 CHARACTER=95 TEXT='Long et al 2019 Fig 9A shows dentary without parasymphysial plate area present.';
+	TEXT TAXON=18 CHARACTER=95 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=14 CHARACTER=97 TEXT='Jarvik (1948, plate 35, fig. 9) figured a lower jaw of Gyroptychius milleri in internal view showing coronoid fangs.';
+	TEXT TAXON=30 CHARACTER=97 TEXT='Long et al (2019) show coronoid fangs present (Fig 9A, B).';
+	TEXT TAXON=18 CHARACTER=97 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=10 CHARACTER=98 TEXT='Holland et al 2007 (JVP)  show a radiograph of the coronoid bones in Barameda decipiens, showing the row of large marginal teeth present with the large pair of fangs. NO evidence exists of denticle bands associated withy the coronoids, so this character is here scored as --.';
+	TEXT TAXON=30 CHARACTER=98 TEXT='Long et al (2019) show coronoid details  with small rows of teeth behind fangs.(Fig 9A).';
+	TEXT TAXON=18 CHARACTER=98 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=30 CHARACTER=99 TEXT='Long et al (2019) show coronoid details (Fig 9A).';
+	TEXT TAXON=44 CHARACTER=101 TEXT='The condition of the anterior end of the prearticular of Elpistostege is coded as "?." Although there is no obvious anterior forked end, the CT-scan rendering is not obvious enough to assign the condition as unforked.';
+	TEXT TAXON=10 CHARACTER=101 TEXT='Not known for this taxon.';
+	TEXT TAXON=43 CHARACTER=101 TEXT='Zhu et al. (2017) coded the anterior end of the prearticular of Panderichthys as forked. However, figure 1C of Ahlberg & Clack (1998) does not show a forked ending nor does the lower jaw of Panderichthys from the museum in Berlin. Thus we are coding the condition of the anterior end of the prearticular as "0".';
+	TEXT TAXON=18 CHARACTER=101 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=10 CHARACTER=102 TEXT='Not known for this taxon.';
+	TEXT TAXON=18 CHARACTER=103 TEXT='"Adsymphyseal fossa"? Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=30 CHARACTER=104 TEXT='In Young et al 1992.';
+	TEXT TAXON=18 CHARACTER=104 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=10 CHARACTER=105 TEXT='The Hyomandibula is figured by Holland et al 2007 Fig. 7C (substantiated by direct comparsion with other rhizodontid hyomandibulae figured in Brazeau & Jeffrey 2007) and there is no evidence for a canal present in Barameda so it is here coded as absent.';
+	TEXT TAXON=43 CHARACTER=106 TEXT='Simoes & Pierce (2021, char. 106) changed the coding provided by Cloutier et al. (2020) where Panderichthys was coded has having an opercular process of the hyomandibula. Simoes & Pierce (2021) refered to Brazeau & Ahlberg (2006) to justify the absence of the opercular process. However, Brazeau & Ahlberg (2006, p. 320) described the opercular facet of Panderichthys and that the hyomandibula terminates at the opercular process rather than having the juncture at mid hyomandibular shaft as in other osteichthyans.';
+	TEXT TAXON=10 CHARACTER=108 TEXT='Not known for Barameda.';
+	TEXT TAXON=21 CHARACTER=110 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=21 CHARACTER=111 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=21 CHARACTER=112 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=45 CHARACTER=113 TEXT='Character 113 is coded as absent by Zhu et al. (2017) because the opercular was said to be absent in Tiktaalik by Deaschler et al. (2006). However, there is no direct evidence that this element is absent it might have fallen as the distal segmented parts of the lepidotrichia which are also mentioned to be absent.';
+	TEXT TAXON=46 CHARACTER=113 TEXT='Chen et al. (2018) coded for the absence of an opercular in Ventastega. It is likely that the opercular is absent in Ventastega, however, we are coding this character as "?" because the described material is disarticulated and partial, thus we have no strict evidence that this element is absent.';
+	TEXT TAXON=18 CHARACTER=113 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig35';
+	TEXT TAXON=19 CHARACTER=113 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig2';
+	TEXT TAXON=33 CHARACTER=114 TEXT='The condition of the branchiostegal rays of Tristichopterus is visible on specimen AMF 143859.';
+	TEXT TAXON=41 CHARACTER=114 TEXT='The element identified by Schultze & Reed (2012, fig. 2) as the posteriomost submandibular is identified herein as a branchiostegal ray.';
+	TEXT TAXON=44 CHARACTER=115 TEXT='Character 115 was coded as "one" in Zhu et al. (2017) based on the interpretation of the median gular by Schultze & Arsenault (1985).';
+	TEXT TAXON=10 CHARACTER=115 TEXT='Long 1989 (JVP) clearly states p. 8 column 2, that there is room for one small median gular as indicated by shape of lateral gulars, also gap for median gular on lateral gular shown in Long 1989 Fig. 4G, so here coded as 1 present.';
+	TEXT TAXON=11 CHARACTER=115 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition is based on Jeffery (2012, p. 493).';
+	TEXT TAXON=18 CHARACTER=115 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig32';
+	TEXT TAXON=19 CHARACTER=115 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=42 CHARACTER=117 TEXT='Swartz (2012, fig. 3Ai-ii, S3) illustrated an anterior pit-line essentially transverse located anteriorly to the pineal opening of Tinirau. This coding was based on specimen UCMP 117884 and 118283, both of which have been reassigned to Bruehnopteron (Schultze & Reed, 2012). Specimens UCMP 118605 and 190099 do not show the condition of the anterior pit-lines. Thus, Tinirau is coded as "?".';
+	TEXT TAXON=18 CHARACTER=117 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig14 (short, arched pitlines, situated in middle of bone - although B&N call these bones "Frontals")';
+	TEXT TAXON=13 CHARACTER=118 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the postparietal is based on Jeffery (2012, fig. 8E, F).';
+	TEXT TAXON=11 CHARACTER=118 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the postparietal is based on Jeffery (2012, fig. 8A, B).';
+	TEXT TAXON=18 CHARACTER=118 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig15 (although B&N call these bones "parietals")';
+	TEXT TAXON=11 CHARACTER=119 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the postparietal is based on Jeffery (2012, fig. 21B).';
+	TEXT TAXON=19 CHARACTER=119 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig7';
+	TEXT TAXON=31 CHARACTER=120 TEXT='As shown by Long 1985 and  Holland et al 2010.';
+	TEXT TAXON=19 CHARACTER=120 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig7';
+	TEXT TAXON=11 CHARACTER=121 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the postparietal is based on Jeffery (2012, fig. 21B).';
+	TEXT TAXON=31 CHARACTER=121 TEXT='As shown by Long 1985 and  Holland et al 2010.';
+	TEXT TAXON=19 CHARACTER=121 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig7';
+	TEXT TAXON=6 CHARACTER=122 TEXT='The coding for the otic canal of Tungsenia is based on Lu et al. (2019).';
+	TEXT TAXON=19 CHARACTER=122 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=19 CHARACTER=123 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig7';
+	TEXT TAXON=19 CHARACTER=124 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012 fig6';
+	TEXT TAXON=10 CHARACTER=125 TEXT='Long 1989 Figs 7,  9 shows the top of the cleithrum is tall and caudally inclined.';
+	TEXT TAXON=11 CHARACTER=125 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum is based on Andrews (1985, fig 13g).';
+	TEXT TAXON=19 CHARACTER=125 TEXT='"large, massive cleithrum" Witzman & Schoch 2012 pg. 245';
+	TEXT TAXON=13 CHARACTER=126 TEXT='The cleithral ornamentation of Strepsodus is visible in Andrews & Westoll (1970B pl 11 H).';
+	TEXT TAXON=11 CHARACTER=126 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum is based on Andrews (1985).';
+	TEXT TAXON=12 CHARACTER=126 TEXT='Zhu et al. (2017) coded Rhizodus as "?", our coding is based on Andrews & Westoll (1970b, plate 6).';
+	TEXT TAXON=18 CHARACTER=126 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig36';
+	TEXT TAXON=19 CHARACTER=126 TEXT='"the bone surface of the cleithrum being devoid of dermal ornament" Witzmann & Schoch 2012 pg246 - scored by AMC 9/8/2021';
+	TEXT TAXON=13 CHARACTER=127 TEXT='The condition of the contact between the clavicle and cleithrum of Strepsodus is based on Andrews (1985, Fig. 13H).';
+	TEXT TAXON=11 CHARACTER=127 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum and clavicle is based on Andrews (1985, fig 13g).';
+	TEXT TAXON=12 CHARACTER=127 TEXT='Zhu et al. (2017) coded Rhizodus as "?", our coding is based on Andrews (1985, Fig 13 D-F).';
+	TEXT TAXON=13 CHARACTER=128 TEXT='The condition of the cleithrum of Strepsodus is based on Andrews (1985, Fig. 13H).';
+	TEXT TAXON=11 CHARACTER=128 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum is based on Andrews (1985, fig 13g).';
+	TEXT TAXON=12 CHARACTER=128 TEXT='Zhu et al. (2017) coded Rhizodus as "?", our coding is based on Andrews (1985, Fig 13 D-F).';
+	TEXT TAXON=18 CHARACTER=128 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig36';
+	TEXT TAXON=18 CHARACTER=129 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=129 TEXT='Scored by AMC 9/8/2021 from Witzmann & Schoch 2012';
+	TEXT TAXON=33 CHARACTER=130 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=18 CHARACTER=130 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig36';
+	TEXT TAXON=33 CHARACTER=131 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=10 CHARACTER=131 TEXT='Long (1989) Fig.7 shows several examples of the Barameda cleithrum, yet none of them show it is waisted, rather it is parallel sided all through its length.';
+	TEXT TAXON=18 CHARACTER=131 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig36';
+	TEXT TAXON=19 CHARACTER=131 TEXT='Scored by AMC 9/8/2021 from Witzmann & Schoch 2012 fig2';
+	TEXT TAXON=33 CHARACTER=132 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=13 CHARACTER=133 TEXT='The condition of the clavicle of Strepsodus is based on Andrews (1985, Fig. 13).';
+	TEXT TAXON=11 CHARACTER=133 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum is based on Andrews (1985, fig 13G).';
+	TEXT TAXON=12 CHARACTER=133 TEXT='Zhu et al. (2017) coded Rhizodus as "?", our coding is based on Andrews (1985, Fig 13 D-F).';
+	TEXT TAXON=28 CHARACTER=133 TEXT='Long (1987, text-fig 4) shows the clavicle.';
+	TEXT TAXON=21 CHARACTER=133 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=19 CHARACTER=133 TEXT='Scored by AMC 9/8/2021 from Witzmann & Schoch 2012 fig3';
+	TEXT TAXON=10 CHARACTER=134 TEXT='Interclavicle not known for Barameda, so here  coded as ??';
+	TEXT TAXON=11 CHARACTER=134 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the interclavicle is based on Andrews (1985, fig 13G).';
+	TEXT TAXON=12 CHARACTER=134 TEXT='The interclavicle of Rhizodus is illustrated by Andrews (1985, fig. 5d).';
+	TEXT TAXON=31 CHARACTER=134 TEXT='The interclavicle of Marsdenichthys is illustrated in Long (1985).';
+	TEXT TAXON=16 CHARACTER=134 TEXT='No evidence of an interclavicle present in any of the descriptions (long et al 1997; Holland 2012).';
+	TEXT TAXON=21 CHARACTER=134 TEXT='Fox et al (1995 p.183) note the presence of a distinct overlap area on the anterior margin of the clavicle for the interclavicle. While the bone cannot be easily seen  in the Holotype (Fig 6), we cite it as present based on this evidence. Fox et al. (1995 p.183)  claim it would have been small, nondescript.';
+	TEXT TAXON=19 CHARACTER=134 TEXT='Scored by AMC 9/8/2021 from Witzmann & Schoch 2012 fig3';
+	TEXT TAXON=23 CHARACTER=134 TEXT='Cloutier et al. (2020, char. 134) coded Megalichthys as having a small interclavicle. However, the condition of the interclavicle of M. hibberti is unknown (Andrews & Westoll, 1980).';
+	TEXT TAXON=10 CHARACTER=135 TEXT='Holland (2012) figures the scapulocoracoid for Barameda decipiens (fig 5) and identified the supraglenoid foramen, and other morphological landmarks that suggest it attached to the cleithrum  in the same way as the tri-radiate scauplocoacoid of Gogonasus. Although the 3 buttresses are not clear on Holland''s figure, the overall shape of the Scapulocoracoid  is much the same as that of Gogonasus o this is why we  make this coding.';
+	TEXT TAXON=11 CHARACTER=135 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the cleithrum is based on Andrews (1985).';
+	TEXT TAXON=42 CHARACTER=135 TEXT='Swartz (2012, char. 151) coded Tinirau as having a small and tripodal scapulocoracoid. However, the condition of attachement between the scapulocoracoid to the cleithrum is unclear, and therefore Tinirau is coded as "?".';
+	TEXT TAXON=28 CHARACTER=135 TEXT='Scapulocoracoid is described for Beelarongia, Long (1987) text.-fig. 3 B, C.';
+	TEXT TAXON=19 CHARACTER=135 TEXT='The endoskeletal scapulocoracoid cannot be observed externally.';
+	TEXT TAXON=10 CHARACTER=136 TEXT='Holland (2012) figures the scapulocoracoid for Barameda decipiens (fig 5) so we score it accordingly as small.';
+	TEXT TAXON=28 CHARACTER=136 TEXT='Scapulocoracoid is described for Beelarongia, Long (1987) text.-fig. 3 B, C.';
+	TEXT TAXON=10 CHARACTER=137 TEXT='Holland (2012) figures the scapulocoracoid for Barameda decipiens (fig 5) so we score it accordingly as absent.';
+	TEXT TAXON=28 CHARACTER=137 TEXT='Scapulocoracoid is described for Beelarongia, Long (1987) text.-fig. 3 B, C., but the subscapular fossa is absent (see Long''s identification of ?f.sub).';
+	TEXT TAXON=10 CHARACTER=138 TEXT='Holland (2012) figures the scapulocoracoid for Barameda decipiens (fig 5) so we score it accordingly as absent.';
+	TEXT TAXON=11 CHARACTER=138 TEXT='Zhu et al. (2017) coded Screbinodus as "?", the condition of the coracoid plate is based on Andrews (1985).';
+	TEXT TAXON=28 CHARACTER=138 TEXT='Scapulocoracoid is described for Beelarongia, Long (1987) text.-fig. 3 B, C., but the subscapular fossa is absent (see Long''s identification of ?f.sub).';
+	TEXT TAXON=28 CHARACTER=140 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=10 CHARACTER=141 TEXT='Both elongate and short entepecondyles are described for  Barameda (Long 1989, Holland et al. 2007) so coded for both short and long.';
+	TEXT TAXON=13 CHARACTER=141 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the humerus is illustrated by Jeffery (2001, fig. 4E-H).';
+	TEXT TAXON=12 CHARACTER=141 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the humerus is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=28 CHARACTER=141 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=13 CHARACTER=142 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the humerus is illustrated by Jeffery (2001, fig. 4E-H).';
+	TEXT TAXON=12 CHARACTER=142 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the humerus is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=28 CHARACTER=142 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=42 CHARACTER=143 TEXT='Swartz (2012, char. 154) coded Tinirau as having a caput humeri concave. However, the proximal part of the humerus is unknown in Tinirau, thus we are coding as "?".';
+	TEXT TAXON=28 CHARACTER=143 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=16 CHARACTER=143 TEXT='The humerus is very well preserved and described in 2 papers (Long et al 2006, nature) Holland & long 2009 (Acta Zool.) The caput humeri is flat to convex not ball-shaped.)';
+	TEXT TAXON=28 CHARACTER=144 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=28 CHARACTER=145 TEXT='Humerus described by (Long 1987, text-fig. 3).';
+	TEXT TAXON=33 CHARACTER=147 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=13 CHARACTER=147 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the ulnare is illustrated by Jeffery (2001, fig. 1C).';
+	TEXT TAXON=12 CHARACTER=147 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the ulnare is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=21 CHARACTER=148 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=18 CHARACTER=148 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig37';
+	TEXT TAXON=19 CHARACTER=148 TEXT='See Witzman & Schoch 2012 SI fig4';
+	TEXT TAXON=33 CHARACTER=149 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=13 CHARACTER=149 TEXT='Although the precise length and shape of the radius is poorly known in Strepsodus, the radius is clearly shorter than the humerus based on Jeffery (2001, Fig. 1C).';
+	TEXT TAXON=12 CHARACTER=149 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=33 CHARACTER=150 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=12 CHARACTER=150 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=33 CHARACTER=151 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=43 CHARACTER=151 TEXT='Swartz (2012) coded that the intermedium and the radius terminated at the same level; that is considering that the distal element is a second intermedium. Taking into account only the intermedium (senso stricto) that is articulating with the ulna, the radius and intermedium do not terminate at the same level.';
+	TEXT TAXON=12 CHARACTER=151 TEXT='Zhu et al. (2017) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=11 CHARACTER=152 TEXT='Zhu et al. (2017) coded Screbinodus as "?", however the sole pectoral fin present on the holotype does not show any indication of the presence of digits (Jeffery, 2001).';
+	TEXT TAXON=45 CHARACTER=152 TEXT='Shubin et al. (2006, fig. 1c, 2a,b) illustrated a fairly complete pectoral fin of Tiktaalik. Two small elements articulate distally with A5; one of the element is slightly represented in the reconstruction of the ventral view (Fig. 2b), whereas the other element is only figured with dotted lines in both ventral and dorsal views. These two elements could be considered potentially as two one-segment digits. However, using a segmented 1:1 relationship, these elements do not respect this condition to be unambiguously recognized as digits, thus we are coding Tiktaalik as "?".';
+	TEXT TAXON=9 CHARACTER=152 TEXT='Davis et al. (2004, fig. 3-4, 7A, D; dr3 and dr4 are misidentified in fig. 7D) illustrated a fairly complete pectoral fin of Sauripterus. Two relatively small, elongated elements articulate on a branched radial located distally to dr5. These two elements could be considered potentially as two one-segment digits. However, using a segmented 1:1 relationship, these elements do not respect this condition to be unambiguously recognized as digits, thus we are coding Sauripterus as "?".';
+	TEXT TAXON=44 CHARACTER=153 TEXT='In Elpistostege, the dorsal fins are absent, whereas the anal fin is present.';
+	TEXT TAXON=30 CHARACTER=153 TEXT='Not known as only skull is preserved, so coded as ?.';
+	TEXT TAXON=28 CHARACTER=153 TEXT='Dorsal and anal fins not known for this taxon (long 1987) so coded as ?.';
+	TEXT TAXON=16 CHARACTER=153 TEXT='Redescribed tail shows posterior dorsal and anal fins present (Long & Trinasjtic 2017 Trans. Roy. Soc. Edinb.)';
+	TEXT TAXON=18 CHARACTER=153 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig37';
+	TEXT TAXON=19 CHARACTER=153 TEXT='Scored by AMC 9/8/2021 from Witzman & Schoch 2012';
+	TEXT TAXON=33 CHARACTER=154 TEXT='Zhu et al. (2017) coded the caudal fin of Tristichopterus as heterocercal; however, the caudal fin of Tristichopterus is triphycercal with the middle part being less developped than in Eusthenopteron.';
+	TEXT TAXON=16 CHARACTER=154 TEXT='The caudal fin is described and figured in Long & Trinajstic (2017), Trans., Roy. Soc. Edinb. Earth and Environ. Sciences.';
+	TEXT TAXON=18 CHARACTER=154 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig37 & pg59';
+	TEXT TAXON=13 CHARACTER=155 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the caudal fin is based on Andrews (1985, p. 71-74).';
+	TEXT TAXON=16 CHARACTER=155 TEXT='The caudal fin is described and figured in Long & Trinajstic (2017), Trans., Roy. Soc. Edinb. Earth and Environ. Sciences.';
+	TEXT TAXON=13 CHARACTER=156 TEXT='Zhu et al. (2017) coded Strepsodus as "?", the condition of the caudal fin is based on Andrews (1985, p. 71-74).';
+	TEXT TAXON=16 CHARACTER=160 TEXT='Based on synchrotron scan of new WAM specimen to be described, the intercentra remain separate.';
+	TEXT TAXON=18 CHARACTER=160 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig39';
+	TEXT TAXON=10 CHARACTER=163 TEXT='Long 1989 (p12) states the median boss is present on the basal surface of the scale.';
+	TEXT TAXON=11 CHARACTER=163 TEXT='The ventral boss of the scales of Screbinodus have been described and illustrated by Andrews (1985, fig. 5).';
+	TEXT TAXON=9 CHARACTER=163 TEXT='Davis et al. (2004) described the fusiform-shaped boss on the inner surface of scales of Sauripterus taylori.';
+	TEXT TAXON=10 CHARACTER=165 TEXT='None of the fins are preserved in full articulation with the body so condition of basal scutes in unknown,this character must be scored ?.';
+	TEXT TAXON=30 CHARACTER=165 TEXT='Young et al (1992) show basal scutes on fins.';
+	TEXT TAXON=21 CHARACTER=165 TEXT='A large basal scute appears to be present on the inner side of the pectoral fin (Fox et al 1995 Fig 64B), as occurs in Megalichthys (Andrews & Westoll 1970B Plate IV, A).';
+	TEXT TAXON=18 CHARACTER=165 TEXT='"Basal scutes, which usually are present at the fin bases of osteolepidoids, are not observed in situ, but a typical such scale is present on PMO 93555a."^n^nScored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=21 CHARACTER=167 TEXT='Fox et al. (1995, p.196)   clearly state that "no downturned enamel edges are seen buried within the cosmine" referring to the scales.';
+	TEXT TAXON=13 CHARACTER=173 TEXT='Partial choanal details in Strepsodus have been described by Jeffery (2012).';
+	TEXT TAXON=30 CHARACTER=173 TEXT='From new CT data we can confirm a choana was present.';
+	TEXT TAXON=21 CHARACTER=173 TEXT='A choana is certainly present in Claradosymblema as shown by the presence of large ventrolateral fossae on the palate ( Fox et al 1995, Fig.21)  and typical palatal bones present(Fox et al 1995 Fig 5 shows pterygoids present but cant be described) . We  do not see it enclosed by the palate as the palatal bones are not described but there is enough evidence here to as  for certain it did possess a choana in the same way other megalichthyinids do.';
+	TEXT TAXON=33 CHARACTER=174 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=13 CHARACTER=174 TEXT='The coding is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=11 CHARACTER=174 TEXT='The coding of the anocleithrum for Screbinodus is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=8 CHARACTER=174 TEXT='The coding is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=29 CHARACTER=174 TEXT='Long (1985 Recs Aust. Museum 37) shows the anocleithurm with externally ornamented area (Long 1985, fig. 4).';
+	TEXT TAXON=31 CHARACTER=174 TEXT='Long (1985) described the condition of the anocleithrum.';
+	TEXT TAXON=16 CHARACTER=174 TEXT='Holland 2012 Fig 2. confirms the anocleithrum shows an externally ornamented area.';
+	TEXT TAXON=21 CHARACTER=174 TEXT='Fox et al. 1995 (fig 59C,D) show part of  the anocleithrum, confirming it has an exposed dermal ornamented section, as shown clearly on Fig 59C.';
+	TEXT TAXON=9 CHARACTER=174 TEXT='The coding is based on Jeffery (2012, p. 507).';
+	TEXT TAXON=19 CHARACTER=174 TEXT='Anocleithrum poorly preserved - see Witzman & Schoch 2012 fig6';
+	TEXT TAXON=33 CHARACTER=175 TEXT='The pectoral fin of Tristichopterus does not display an archipterygial pattern (specimen at Flinders University).';
+	TEXT TAXON=22 CHARACTER=175 TEXT='This coding of Megalichthys is based on Andrews & Westoll (1979, fig. 3b).';
+	TEXT TAXON=21 CHARACTER=175 TEXT='Holland (2013, Fig 13) shows  a radiograph of the Claradosymblema Holotype pectoral fins, showing clearly it had a metapterygial style fin.';
+	TEXT TAXON=18 CHARACTER=175 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=10 CHARACTER=176 TEXT='Swartz (2010) coded Barameda as "?". However, we coded the submandibular to be present based on the presence of the overlapped area on the infradentaries Holland et al. (2007).^n^nJohn Long: This area not known for Barameda so musty be coded as ?';
+	TEXT TAXON=15 CHARACTER=176 TEXT='Swartz (2010) coded Osteolepis with a "?". However, submandibulars are present.';
+	TEXT TAXON=31 CHARACTER=176 TEXT='Long (1985) described and illustrated the submandibulars of Marsdenichthys.';
+	TEXT TAXON=18 CHARACTER=176 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig32';
+	TEXT TAXON=19 CHARACTER=176 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=10 CHARACTER=177 TEXT='Swartz (2010) coded Barameda as "?". However, we coded the gular to be present based on Holland et al. (2007).Long 1989 (fig 4G)  figured the lateral gular of Barameda.';
+	TEXT TAXON=13 CHARACTER=177 TEXT='In contrast to Swartz (2010), the gulars of Strepsodus are coded as present (Holland et al. 2007).';
+	TEXT TAXON=15 CHARACTER=177 TEXT='Swartz (2010) coded Osteolepis with a "?". However, gulars are present (Borgen & Nakrem 2016).';
+	TEXT TAXON=12 CHARACTER=177 TEXT='In contrast to Swartz (2010), the gulars of Rhizodus are coded as present (Holland et al. 2007).';
+	TEXT TAXON=18 CHARACTER=177 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig32';
+	TEXT TAXON=19 CHARACTER=177 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=44 CHARACTER=178 TEXT='Daeschler et al. (2006) and Swartz (2012) coded for presence of a contact between the postorbital and the lacrimal of Elpistostege. We are coding this character as polymorphic because in both specimens (MHNM 06-358, 06-2067) it varies bilaterally.';
+	TEXT TAXON=45 CHARACTER=178 TEXT='Swartz (2012) coded Tiktaalik as having a contact between the postorbital and lacrimal. We coded the condition as polymorphic because it varies bilaterally.';
+	TEXT TAXON=19 CHARACTER=178 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig4';
+	TEXT TAXON=44 CHARACTER=179 TEXT='Daeschler et al. (2006) coded that there was a contact between the postfrontal and supratemporal of Elpistostege; however, specimen MHNM 06-2067 shows clearly that there is no contact between these two elements on both side of the specimen.';
+	TEXT TAXON=5 CHARACTER=180 TEXT='Daeschler et al. (2006) coded this character as absent for Glyptolepis, however we are coding this character as "-" since the defining skeletal elements are not present in Glyptolepis.';
+	TEXT TAXON=43 CHARACTER=180 TEXT='Daeschler et al (2006) coded the presence of this first joint in Panderichthys, while Swartz (2012) coded the absence of this joint. We agree with Swartz (2012).';
+	TEXT TAXON=12 CHARACTER=180 TEXT='Swartz (2012) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=8 CHARACTER=180 TEXT='This character was coded as "?" by Daeschler et al. (2006).';
+	TEXT TAXON=16 CHARACTER=180 TEXT='Holland 2012 fig 9.shows the condition here, as does Long et al (2006, Nature).';
+	TEXT TAXON=5 CHARACTER=181 TEXT='In contrast to Daeschler et al (2006), who coded this character as "0", we are coding Glyptolepis as "-" since the presence of an homologous ulnare is questionable.';
+	TEXT TAXON=47 CHARACTER=181 TEXT='Daeschler et al. (2004) and Swartz (2012) coded for the absence of branched radials distal to the ulnare. We are coding this character as "?" because the space between the ulnare and the digits in Acanthostega (Coates 1996) has a space, potentially for A4, but most likely this element was cartilaginous and thus we do not have its condition. Swartz (2012, char 176) did not specify A4 in the definition of the character.';
+	TEXT TAXON=10 CHARACTER=181 TEXT='Swartz (2010) coded this character as "?"; however, the condition has been described by Garvey et al (2005).';
+	TEXT TAXON=13 CHARACTER=181 TEXT='The coding is based on Jeffery (2001, fig. 1C).';
+	TEXT TAXON=38 CHARACTER=181 TEXT='Swartz (2012, char. 176) coded for the absence of A4 in Mandageria. However, Johanson & Ahlberg (1997, fig. 16a) illustrated and identified an element as A4.';
+	TEXT TAXON=37 CHARACTER=181 TEXT='Swartz (2012, char. 176) coded for the absence of A4 in Cabonnichthys. However, Ahlberg & Johanson (1997, fig. 13B) illustrated and identified an element as A4.';
+	TEXT TAXON=16 CHARACTER=181 TEXT='Swartz (2012, char. 176) coded for the absence of A4 in Gogonasus. However, Long et al. (2006, fig. 2g, i) identified A4 in Gogonasus.';
+	TEXT TAXON=9 CHARACTER=181 TEXT='Davis et al. (2004, fig. 2-3) illustrated a branched radials distal to the ulnare.';
+	TEXT TAXON=47 CHARACTER=182 TEXT='Daeschler et al. (2006) coded Acanthostega as lacking an olecranon process on the proximal corner of the posterior margin of the ulna (as suggested by Coates 1996). Although the process is poorly-developed in Acanthostega, compared to Ichthyostega, it argued to be present by Ahlberg (2011) and Pierce et al. (2013). The poorly developed state representing the plesiomorphic condition of the olecranon process.';
+	TEXT TAXON=22 CHARACTER=182 TEXT='Deaschler et al. (2006, char 95) coded this character as missing, whereas Swartz (2012, char 172) coded Megalichthys as lacking an olecranon process on the ulna.';
+	TEXT TAXON=12 CHARACTER=182 TEXT='Swartz (2012) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=8 CHARACTER=183 TEXT='In contrast to Daeschler et al. [2006, char 98 (?)], Gooloogongia is characterized with radial facet facing distally (Swartz 2012).';
+	TEXT TAXON=45 CHARACTER=183 TEXT='Daeschler et al. (2006, char 98) coded that the radial facet of the humerus of Tiktaalik was facing distally. On the other hand, Swartz (2012, char 167) coded that the radial facet has some ventrally directed component.';
+	TEXT TAXON=16 CHARACTER=183 TEXT='In contrast to Swartz (2010), Long et al (2006) show the facet for the radius is partially ventral in Gogonasus.';
+	TEXT TAXON=8 CHARACTER=184 TEXT='Daeschler et al. (2006, char. 99) coded Gooloogondia as "?", while Swartz (2012, char 171) coded for an ulnar facet facing distally.';
+	TEXT TAXON=45 CHARACTER=184 TEXT='Daeschler et al. (2006) coded Tiktaalik as the ulnar facet facing with some ventrally directed component. Swartz (2012) coded the ulnar facet as facing distally. Although the difference between the conditions could be very subtle, we coded Tiktaalik as having the ulnar facet facing distally based on the reconstruction of the pectoral fin by Shubin et al. (2006) and 3D printing of the original elements.';
+	TEXT TAXON=13 CHARACTER=185 TEXT='The coding is based on the reconstruction of the shoulder girdle of Strepsodus sauroides by Andrews (1985, fig. 13).';
+	TEXT TAXON=16 CHARACTER=185 TEXT='Holland (2012, fig. 9) shows the glenoid position clearly.';
+	TEXT TAXON=13 CHARACTER=186 TEXT='Based on the reconstruction of the shoulder girdle of Strepsodus sauroides by Andrews (1985, fig. 13), the glenoid is oriented posterolaterally.';
+	TEXT TAXON=44 CHARACTER=187 TEXT='Swartz (2012) coded Elpistostege as having premaxillary teeth of same size; however, CT scan data from both specimens show clearly that posteriormost teeth are much larger than anterior ones.';
+	TEXT TAXON=13 CHARACTER=187 TEXT='Strepsodus is coded with an enlarged anterior tooth based on Andrews (1985, fig. 9g) and Jeffery (2012, fig. 3E, F).';
+	TEXT TAXON=43 CHARACTER=187 TEXT='Swartz (2012) coded Panderichthys as having premaxillary teeth of the same size. However, examination of specimen PIN 3547/18 shows clearly that anterior teeth are slightly larger than posterior one.';
+	TEXT TAXON=18 CHARACTER=187 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig13';
+	TEXT TAXON=44 CHARACTER=188 TEXT='The condition of the anocleithrum of Elpistostege is similar to that of Eusthenopteron.';
+	TEXT TAXON=17 CHARACTER=188 TEXT='Swartz (2012) coded Medoevia as "?". However, the anocleithrum condition of Medoevia is well illustrated in Lebedev (1995, fig 1A, 1B, 30E-F).';
+	TEXT TAXON=19 CHARACTER=188 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig6';
+	TEXT TAXON=16 CHARACTER=189 TEXT='Based on Holland (2012) Fig. 4C, width is almost exactly twice as long as height.';
+	TEXT TAXON=21 CHARACTER=189 TEXT='Fox et al (1995, fig 63) show the glenoid fossa as being very narrow.';
+	TEXT TAXON=43 CHARACTER=190 TEXT='In contrast to Swartz (2012), we are coding the interclavicle of Panderichthys as ovoid based on Vorobyeva & Schultze (1991). Although the shape is not perfectly ovoid, it is clearly not kite-shaped and there is no stalk posteriorly.';
+	TEXT TAXON=15 CHARACTER=190 TEXT='The coding of the interclavicle is based on the condition illustrated and mentioned by Jarvik (1948).';
+	TEXT TAXON=45 CHARACTER=190 TEXT='In contrast to Swartz (2012), the interclavicle of Tiktaalik is coded as ovoid based on Shubin et al. (2015, fig. 4.6) illustration and description.';
+	TEXT TAXON=16 CHARACTER=190 TEXT='No interclavicle present.';
+	TEXT TAXON=21 CHARACTER=190 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=19 CHARACTER=190 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=10 CHARACTER=191 TEXT='Described by Long 1989 (JVP 9:1)';
+	TEXT TAXON=33 CHARACTER=193 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=12 CHARACTER=193 TEXT='Swartz (2012) coded Rhizodus as "?", the condition of the pectoral endoskeleton is described and illustrated by Jeffery (2001). The radius of Rhizodus is longer than the ulna; although the discrepancy is not as important as in Cabonnichthys and Barameda.';
+	TEXT TAXON=21 CHARACTER=193 TEXT='Holland (2013, Fig. 13) clearly shows the radius is longer than the ulna.';
+	TEXT TAXON=12 CHARACTER=194 TEXT='Swartz (2012) coded Rhizodus as "?", the condition of the pectoral fin is described and illustrated by Jeffery (2001).';
+	TEXT TAXON=39 CHARACTER=194 TEXT='A partial pectoral fin of Eusthenodon has been described by Clement (2002).';
+	TEXT TAXON=4 CHARACTER=194 TEXT='Paired fin condition are partially known from specimen MNHN SVD 2158 and from Jarvik (1942).';
+	TEXT TAXON=29 CHARACTER=194 TEXT='Swartz (2010) coded this character as unknown condition, however, the holotype of Canowindra shows clearly the presence of lepidotrichia in paired fins.';
+	TEXT TAXON=31 CHARACTER=194 TEXT='In contrast to Swartz (2010), paired fins of Marsdenichthys have been illustrated and described in Holland et al. (2010).';
+	TEXT TAXON=18 CHARACTER=194 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=194 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 SI-fig4';
+	TEXT TAXON=43 CHARACTER=197 TEXT='Swartz (2010) coded Panderichthys as lacking supraneurals. However, the condition of the vertebrae is poorly known; thus we rather coded Panderichthys as "?". Specimen PIN shows cervical vertebrae but the dorsal condition of these is not clear.';
+	TEXT TAXON=34 CHARACTER=197 TEXT='Swartz (2012) coded Eusthenopteron as lacking supraneurals; however, cervical supraneurals (1, 3, and 5) have been described by Hitchcock (1995).';
+	TEXT TAXON=21 CHARACTER=197 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=33 CHARACTER=198 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=10 CHARACTER=198 TEXT='Garvey et al 2005 shows the pectoral fin, as does Holland et al 2007.';
+	TEXT TAXON=5 CHARACTER=199 TEXT='Daeschler et al. (2006) coded Glyptolepis as the absence of articulation for more than two radials on the ulnare. However, we are coding this character as "-" since the ulnare is absent in Glyptolepis.';
+	TEXT TAXON=33 CHARACTER=199 TEXT='Coding based on new specimen (Flinders University).';
+	TEXT TAXON=12 CHARACTER=199 TEXT='Swartz (2012) coded Rhizodus as "?", the condition of the ulnare suggests the presence of two radials (Jeffery 2001).';
+	TEXT TAXON=16 CHARACTER=199 TEXT='Long et al. 2006 (Nature; fig 2) confirms this.';
+	TEXT TAXON=21 CHARACTER=171 TEXT='Fox et al Fig 2 (p140)  show the very small opening for the internal carotid near the parasphenoid,  so Ive codied it as "small"^nJohn Long';
+	TEXT TAXON=19 CHARACTER=172 TEXT='AMC scored 9/8/2021 from Witzman & Schoch 2012 fig3';
+	TEXT TAXON=23 CHARACTER=172 TEXT='Cloutier et al. (2020, char. 172) coded Megalichthys as having an unornamented interclavicle. However, the condition of the interclavicle of M. hibberti is unknown (Andrews & Westoll, 1980).';
+	TEXT TAXON=41 CHARACTER=170 TEXT='We identified as postspiracular the element that Schultze & Reed (2012, fig. 2) referred to as the extratemporal.';
+	TEXT TAXON=42 CHARACTER=42 TEXT='Swartz (2012) coded for the dorsal hyomandibular facet of Tinirau being directly above the ventral facet. However, the state of preservation of specimen UMC 190999 does not allow for a clear observation.';
+	TEXT TAXON=21 CHARACTER=73 TEXT='Our new CT-scan data permit us to code for the condition in Cladarosymblema.';
+	TEXT TAXON=43 CHARACTER=100 TEXT='Zhu et al. (2017, char. 100) coded Panderichthys for the presence of one fang on the posterior coronoid. However, Ahlberg & Clack (1998, fig. 1B-C, p. 14) described and illustrated solely the presence of teeth and no tusk on the posterior coronoid.';
+	TEXT TAXON=30 CHARACTER=100 TEXT='Long et al (2019) show coronoid details (Fig 9A).';
+	TEXT TAXON=18 CHARACTER=100 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 fig28';
+	TEXT TAXON=44 CHARACTER=162 TEXT='According to Witzmann (2011), among elpistostegalians, the scales of Elpistostege resemble most closely those of tetrapods in their increased length (more elongate in shape) and in their vermiculate dermal sculpture.';
+	TEXT TAXON=48 CHARACTER=162 TEXT='Witzmann (2011) reported the presence of rounded scales overlapping in an anterior to posterior direction that were described by Jarvik (1952) in the tail. However, Witzmann (2011) mentioned that these scales are too poorly preserved to be described in detail.';
+	TEXT TAXON=11 CHARACTER=162 TEXT='Zhu et al. (2017) coded Screbinodus as "?", however scales have been illustrated by Andrews (1985, fig. 16).';
+	TEXT TAXON=49 CHARACTER=162 TEXT='Mondéjar-Fernández et al. (2014) described in great details the scales of Tulerpeton. Tulerpeton possesses only two of the four known scale morphotypes (Lebedev and Coates, 1995): small rounded scales located on^nthe limbs, resembling the putative scales on the tail of Ichthyostega; and ovoid scales covering the complete surface of the trunk (ventral region included), similar to those of the dorsal region of Greererpeton (Godfrey, 1989).';
+	TEXT TAXON=18 CHARACTER=162 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016';
+	TEXT TAXON=19 CHARACTER=162 TEXT='"Scales are rhombic to rectangular in shape and some of them show a peg-like outgrowth on their dorsal margin." Witzman & Schoch 2012';
+	TEXT TAXON=47 CHARACTER=62 TEXT='Poroo et al. (2015) mentioned the presence of the anteromedial process of the vomer in Acanthostega. Cloutier et al. (2020, char. 62) coded Acanthostega as lacking this process, but Simoes & Pierce (2021) corrected the original miscoding.';
+	TEXT TAXON=33 CHARACTER=62 TEXT='Zhu et al. (2017) coded Tristichopterus as "?", however, Swartz (2012) coded Tristichopterus with the absence of an anteromedial process of the vomers where the vomers are in close contact.';
+	TEXT TAXON=10 CHARACTER=62 TEXT='Swartz (2012) coded Barameda as "?".';
+	TEXT TAXON=42 CHARACTER=62 TEXT='Swartz (2012, char. 63) coded Tinirau as having a vomer lacking anteromedial process. This coding was most likely based on specimen UCMP 117884. However, this specimen has been reassigned to Bruehnopteron (Schultze & Reed, 2012). Therefore, the condition of the vomers has to be based on specimen UCMP 190999, for which the anterior margin of the vomers are poorly preserved. Thus, we are coding Tinirau as "?".';
+	TEXT TAXON=31 CHARACTER=62 TEXT='As shown in Holland et al (2010 Fig 4).';
+	TEXT TAXON=18 CHARACTER=62 TEXT='Scored by AMC 10/8/21 - from Borgen & Nakrem 2016 pg38';
+	TEXT TAXON=12 CHARACTER=201 TEXT='Jeffery (2001) reconstructed an endochondral element in a position distal to the radius of Rhizodus hibberti (fig. 6) based on disarticulated element from one specimen (fig. 2). Subsequently Rhizodus has been illustrated has having a radiale; however, this reconstruction is too uncertain to allow us to code for the presence of a radiale.';
+	TEXT TAXON=44 CHARACTER=202 TEXT='The posterior margin of the tabular is emarginated forming a tabular horn. The tabular horn of Elpistostege is less developed than the condition observed in Acanthostega. In addition, the tabular horn of Elpistostege does not contributes to the spiracular notch, while it forms part of it in Acanthostega.';
+	TEXT TAXON=23 CHARACTER=202 TEXT='The condition of the tabular horn of Megalichthys was considered to be unknown in cloutier et al. (2020, char. 202). However, the tabular horn are unambiguously absent in M. hibberti (Borgen & Nakrem, 2016, figs. 44, 46, 48, 49).';
+	TEXT TAXON=20 CHARACTER=203 TEXT='Janvier (2007)Fig 3 notes fangs on the interpremaxillary proceses';
+	TEXT TAXON=18 CHARACTER=203 TEXT='Fig, 12A (Borgen & Nakrem 2016) clearly shows this process present on the left side, with one large tusk present anterior to it.';
+	TEXT TAXON=8 CHARACTER=204 TEXT='As seen in Johanson &  Ahlberg  2001 fig 17, the A.,Tec and LR bones surrounding the naris are equal-sized, but with a horizontal suture.';
+	TEXT TAXON=10 CHARACTER=205 TEXT='No posterior tectal detected so nearest bone in series used (here right nasal) Long & Ahlberg 1999 Fig 1.';
+	TEXT TAXON=16 CHARACTER=205 TEXT='While the posterior tectal is only slightkly larger than the 2 circumaarial bone sin Gogonasus, so there is not enough size difference to code it as= 1';
+	TEXT TAXON=19 CHARACTER=205 TEXT='Althouigh the suture between RL and A.tec  is not clear on Palatinicghthys (Fig 4) both bones are seen and are small... so coded thus.(JL)';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 9 11 - 19 21 - 33 35 - 41 43 - 62 64 - 72 74 - 77 79 - 97 99 101 - 106 108 - 129 131 - 138 140 - 161 163 - 189 191 - 197 200 202 - 203 205 - 206, ord: 10 20 34 42 63 73 78 98 100 107 130 139 162 190 198 - 199 201 204;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 84; LastModified -911208118; FileSettings treewindow '1' '1' '1' '0'; Singles 010; Editor 0001100111111110010001001 '0' '24' Geneva '9' '100' '1' all; EditorPosition '44' '6' '803' '1371'; TreeWindowPosition '46' '6' '847' '1390'; ListWindow Characters open Geneva '9' '100' '358' '753' '847' 000; ListWindow Taxa closed Geneva '9' '50' '10' '657' '302' 100000; ListWindow Trees open Geneva '9' '50' '25' '129' '379'; ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ListWindow ExSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharSets closed Geneva '9' '50' '10' '129' '181'; ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490'; ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490'; ListWindow WtSets closed Geneva '9' '50' '10' '276' '490'; ChartWindowPosition '50' '30' '520' '740'; StateNamesSymbols closed Geneva '9' '10' '45' '9' '192' '1018'; WindowOrder Tree List Trees List Characters; OtherSymbols & / 00 ? -; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '786' '1295' '88' '85'; TreeLegendPosition '810' '1197' '64' '93'; EditorToolsPosition '768' '75' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Geneva '9' ( normal ) 0010; NexusOptions '0' '0' '50' 001011011; TipLabel '1'; TreeFont Geneva '9' ( normal ); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '2' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' ( normal ) Geneva '10' ( normal ) Geneva '9' ( normal ) Geneva '9' ( normal ) Geneva '9' ( bold ) Geneva '9' ( normal ) Geneva '9' ( normal ) '83' '115' '13' '45' '116' '148' '13' '45' '149' '181' '13' '45' '182' '214' '13' '45' '241' '35' '0' '0' '22236' '456' '636' '35' '678' '35' '678' '288' '24' '35' '1' '1' '1' '1' '30' '243' '-39' '4' '-40' '0' '1' '2' '2' '8' '14' '14' '0' '2' 0100110000000000010100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1481787510055; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 7545249792796358844; tell It; setDefaultOrder 59 45 49 44 46 5 54 50 32 33 38 46 29 47 37 60 49 34 28 7 40 56 57 30 25 24 11 17 1 13 12 22 21 6 8 20 2 18; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 6433378694149832629; tell It; setDefaultOrder 159 149 170 171 155 185 193 183 173 144 184 312 125 124 126 109 110 105 115 131 3 28 78 304 30 32 31 37 35 48 5 8 26 45 46 136 88 84 43 92 18 1 51 29 73 76 239 235 258 291 290 292 303 54 33 0 2 4 6 7 9 10 11 12 13 14 15 16 69 17 19 20 21 22 23 24 25 27 34 36 38 39 40 41 42 44 47 49 50 52 53 55 56 57 58 59 60 61 62 63 64 65 66 67 69 70 71 73 74 76 168 78 79 80 81 82 84 86 88 89 90 92 93 94 95 96 97 98 99 100 101 102 103 105 106 107 110 111 112 113 115 116 117 118 119 120 121 122 126 127 128 129 131 132 133 134 136 137 138 139 140 141 142 144 145 146 147 149 150; attachments ; endTell; mqVersion 275; checksumv 0 3 426305614 null getNumChars 169 numChars 169 getNumTaxa 38 numTaxa 38 short true bits 2305843009213693967 states 15 sumSquaresStatesOnly 11048.0 sumSquares -1.8446744073709552E19 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1916 1061; setLocation -327 356; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #7545249792796358844 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; toggleUseWeights off; endTell; setAssignedID 919.1384825817531.1161918167203779473; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1816 994; setLocation -327 356; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareTree.SquareTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; endTell; setEdgeWidth 6; orientUp; setCornerMode Right_Angle 50; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setColor Black; toggleColorPartition on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '((1:1.0,2:1.0):2.0,(3:1.0,(4:1.0,5:1.0):1.0):2.0,(6:1.5,(7:1.5,((8:1.0,(9:1.0,(11:1.0,(10:1.0,(12:1.0,13:1.0):0.25):0.25):1.5):1.0):0.5,(((((34:1.0,35:0.5):1.0,36:2.5):2.0,(37:1.0,38:1.0):1.875):1.67578125,33:2.0):1.67578125,((24:0.5,(25:0.5,(26:0.5,(27:1.0,(28:1.0,(30:1.0,(29:1.0,(31:1.0,32:1.0):1.0):1.0):1.0):1.0):4.0):0.5):0.5):0.1328125,((14:0.625,((17:0.21875,(15:1.0,16:1.0):0.71875):0.21875,(18:1.0,(19:1.0,20:0.5):0.5):0.375):1.0625):0.6875,(21:1.0,(22:1.0,23:1.0):1.0):1.09375):0.08203125):0.123046875):0.123046875):0.9375):0.125):0.25):1.0;'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; showWindow; newAssistant #mesquite.trees.TreeLegendMaker.TreeLegendMaker; tell It; setOffsetsX 4; setOffsetsY 4; getLegendsVector; tell It; distributeCommands; setBounds 4 4 186 41; setOffsetX 4; setOffsetY 4; endDistributeCommands; endTell; newLegendItemNoCalc #mesquite.trees.TreeValueUsingMatrix.TreeValueUsingMatrix; tell It; getEmployee #mesquite.parsimony.TreelengthForMatrix.TreelengthForMatrix; tell It; getEmployee #mesquite.parsimony.ParsCharSteps.ParsCharSteps; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; endTell; endTell; getEmployee #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #6433378694149832629; endTell; endTell; endTell; calculate; endTell; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #6433378694149832629; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; endTell; setCharacter 34; setMapping 1; toggleShowLegend on; toggleGray off; toggleWeights on; setInitialOffsetX 4; setInitialOffsetY -215; setLegendWidth 142; setLegendHeight 180; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred on; toggleHorizontal on; toggleWhiteEdges on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #6433378694149832629 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1816 994; setLocation -327 356; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames off; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW off; setColumnWidth 16; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1816 994; setLocation -327 356; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel on; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #6433378694149832629 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharacterStats.CharacterStats; tell It; toggleSelectedOnly off; endTell; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1816 994; setLocation -327 356; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.CharacterList.CharacterListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 169; 
+ENDBLOCK;
+BEGIN TREES;
+ Title 'Trees from "AhlbergJohanson1998a"'; LINK Taxa = Gnathostome_taxa_block; TRANSLATE 1 Youngolepis, 2 Diabolepis, 3 Powichthys, 4 Porolepis, 5 Glyptolepis, 6 Tungsenia, 7 Kenichthys, 8 Gooloogongia, 9 Sauripterus, 10 Barameda, 11 Screbinodus, 12 Rhizodus, 13 Strepsodus, 14 Gyroptychius, 15 Osteolepis, 16 Gogonasus, 17 Medoevia, 18 Cladarosymblema, 19 Megalichthys, 20 Ectosteorhachis, 21 Beelarongia, 22 Canowindra, 23 Koharalepis, 24 Marsdenichthys, 25 Spodichthys, 26 Tristichopterus, 27 Eusthenopteron, 28 Jarvikina, 29 Platycephalichthys, 30 Cabonnichthys, 31 Mandageria, 32 Eusthenodon, 33 Hongyu, 34 Panderichthys, 35 Elpistostege, 36 Tiktaalik, 37 Acanthostega, 38 Ichthyostega; TREE 'UNTITLED+' = (((1,2),(3,(4,5))),(7,(((8,(9,(10,(11,(12,13))))),(33,(34,(35,(36,(37,38)))))),((15,16),((17,(18,(19,20))),(14,((21,(22,23)),(24,(25,(26,(27,(28,(30,(29,(31,32))))))))))))))); 
+ENDBLOCK;

@@ -1,0 +1,36 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.45.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=1;
+    TAXLABELS
+    		'Anhanguera spp.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=1;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'Acetabulum, shape'
+	;
+	STATELABELS
+		1
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Anhanguera spp.'		          ?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1;
+      ENDBLOCK;
+      

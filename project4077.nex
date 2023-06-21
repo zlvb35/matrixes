@@ -1,0 +1,696 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 23.20.29 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=52;
+    TAXLABELS
+    		'Aglaophyton major'
+		'Psilophyton crenutatum'
+		'Cladoxylon'
+		'Rhacophyton'
+		'Biscalitheca musata'
+		'Corynepteris involucrata'
+		'Stauropteris burntislandica'
+		'Stauropteris oldhamia'
+		'Gillespiea randolphensis'
+		'Psilotum'
+		'Tmesipteris'
+		'Psaronius'
+		'Marattia'
+		'Angiopteris'
+		'Botrychium s. l.'
+		'Ophioglossum'
+		'Ankyropteris brongniartii'
+		'Sermaya plant'
+		'Botryopteris forensis'
+		'Botryopteris cratis'
+		'Botryopterist tridentata plant'
+		'Psalixochlaena antiqua'
+		'Psalixochlaena cylindrica'
+		'Anachoropteris clavata plant'
+		'Skaaripteris minuta'
+		'Osmunda'
+		'Schizaea'
+		'Gleichenia'
+		'Stromatopteris'
+		'Hymenophyllum'
+		'Matonia'
+		'Cyathea'
+		'Dennstaedtia'
+		'Pteridium'
+		'Acrostichum'
+		'Adiantum'
+		'Onoclea'
+		'Polypodium'
+		'Marsilea'
+		'Pilularia'
+		'Regnellidium'
+		'Hydropteris pinnata'
+		'Salvinia'
+		'Azolla'
+		'Equisetum'
+		'Calamites'
+		'Archaeocalamites'
+		'Archaeopteris'
+		'Elkinsia polymorpha'
+		'Lyginopteris oldhamia'
+		'Medullosa'
+		'Pinus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=101;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789";
+	CHARLABELS
+		 [1] 'Growth habit'
+		 [2] 'Growth as floating aquatic'
+		 [3] 'Epiphytic growth'
+		 [4] 'Model of growth'
+		 [5] 'Growth form of stem/axis'
+		 [6] 'Growth as a liana'
+		 [7] 'Arborescence'
+		 [8] 'Clearly differentiated stem/leaf-shoot organography'
+		 [9] 'Branching of stem/axis'
+		 [10] 'Branching consistently associated with nodes'
+		 [11] 'Branches vascularized by two bundles that are derived from cauline bundles that flank the orthostichy of the subtending leaf'
+		 [12] 'Branches alternating with leaves at nodes'
+		 [13] 'Epiphyllous branching'
+		 [14] 'Unvascularized enations'
+		 [15] 'Roots'
+		 [16] 'Root anatomy'
+		 [17] 'Root hairs'
+		 [18] 'Planation of vegetative leaves'
+		 [19] 'Biseriate vegetative leaves'
+		 [20] 'Quadriseriate branching of vegetative leaves'
+		 [21] 'Vernation'
+		 [22] 'Venation ofpinnule or ultimate axis'
+		 [23] 'Trichomes'
+		 [24] 'Scales'
+		 [25] 'Vascularized aphlebiae'
+		 [26] 'Stipules'
+		 [27] 'Pith in stem/axis'
+		 [28] 'Stele with radiating arms of xylem'
+		 [29] 'Equisetostele'
+		 [30] 'Stele with sympodiaI architecture'
+		 [31] 'Stele with leaf gaps in xylem'
+		 [32] 'Stele with leaf gaps in phloem'
+		 [33] 'Dictyostele'
+		 [34] 'Polycyclic stele'
+		 [35] 'Protoxylem of stem/axis'
+		 [36] 'Peripheral loops'
+		 [37] 'Pitting pattern ofmetaxylem'
+		 [38] 'Borders on metaxylem pitting'
+		 [39] 'Phloem disposition'
+		 [40] 'Xylem at base of rachis/axis'
+		 [41] 'Radial rachis/axis trace'
+		 [42] 'Clepsadroid petiole trace'
+		 [43] 'Omega-shaped trace'
+		 [44] '"C"-shaped trace'
+		 [45] 'Rachis/axis protoxylem between levels of branching'
+		 [46] 'Position of protoxylem in rachis/axis'
+		 [47] 'Cortical sclerenchyma'
+		 [48] 'Pith sclerenchyma'
+		 [49] 'Sclerenchyma accompanying vascular tissue of stele'
+		 [50] 'Radially aligned tracheids'
+		 [51] 'Xylem rays'
+		 [52] 'Bifacial vascular cambium'
+		 [53] 'Endodermis in adult stem or axis'
+		 [54] 'Secondary cortex or periderm'
+		 [55] 'Adaxial outline ofstipe/axis'
+		 [56] 'Sporangium produced by axis'
+		 [57] 'Meio/microsporangium-bearing structure'
+		 [58] 'Sporocarps'
+		 [59] 'Monosporangiate sporocarp'
+		 [60] 'Position of attachment of meio- or microsporangium'
+		 [61] 'Abaxially attached sporangia'
+		 [62] 'Adaxially attached sporangia'
+		 [63] 'Sporangia borne on forked enations'
+		 [64] 'Sporangia borne on sporangiophores'
+		 [65] 'Meio/microsporangial grouping'
+		 [66] 'Sporangia fused forming synangia'
+		 [67] 'Number of meio/microsporangia per group'
+		 [68] 'Pattern ofsporangial maturation'
+		 [69] 'Indusium'
+		 [70] 'Sporangia enclosed by abaxially rolled lamina, forming a false indusium'
+		 [71] 'Sporangial stalk'
+		 [72] 'Length of sporangial stalk'
+		 [73] 'Sporangial capsule'
+		 [74] 'Functional annulus'
+		 [75] 'Uniseriate annulus'
+		 [76] 'Annular ring'
+		 [77] 'Orientation of annulus'
+		 [78] 'Number of spores per meio/microsporangium'
+		 [79] 'Ontogenetic origin of sporangia'
+		 [80] 'Sexual reproduction'
+		 [81] 'Coenocytic development ofmegagametophyte'
+		 [82] 'One or two megaspores only'
+		 [83] 'Meio/megasporangial dehiscence'
+		 [84] 'Nonhydrasperman pollen chamber'
+		 [85] 'Integument with micropyle'
+		 [86] 'Meio/microspore morphology'
+		 [87] 'Exospore structure'
+		 [88] 'Exospore surface'
+		 [89] 'Perispore of meio/microspore'
+		 [90] 'Perispore forming elaters'
+		 [91] 'Fine structure of meio/microspore perispore'
+		 [92] 'Meio/microsporangiate massulae'
+		 [93] 'Form of mature prothallus'
+		 [94] 'Prothallus'
+		 [95] 'Position of antheridia'
+		 [96] 'Morphology of antheridia'
+		 [97] 'Pollination preceding fertilization'
+		 [98] 'Potential number ofsporophytes per prothallus'
+		 [99] 'First division of zygote'
+		 [100] 'Suspensor'
+		 [101] 'Aboveground organs of sporophyte from'
+	;
+	STATELABELS
+		1
+		'Terrestrial'
+		'Amphibious or aquatic'
+		,
+		2
+		'Absent'
+		'Present'
+		,
+		3
+		'Absent'
+		'Present'
+		,
+		4
+		'Psilotioid'
+		'Selagineiloid'
+		'Cotyledonoid'
+		,
+		5
+		'Rhizomatous'
+		'Erect'
+		,
+		6
+		'Absent'
+		'Present'
+		'Character state not defined by author'
+		,
+		7
+		'Absent'
+		'Present'
+		,
+		8
+		'Absent'
+		'Present'
+		,
+		9
+		'Apparently apical only'
+		'Typically absent'
+		'Lateral and/or from buds'
+		,
+		10
+		'Absent'
+		'Present'
+		,
+		11
+		'Absent'
+		'Present'
+		,
+		12
+		'Absent'
+		'Present'
+		,
+		13
+		'Absent'
+		'Present'
+		,
+		14
+		'Absent'
+		'Present'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'2-5 arch'
+		'Polyarch'
+		,
+		17
+		'Absent'
+		'Present'
+		,
+		18
+		'Absent'
+		'Throughout'
+		'In distal region only'
+		,
+		19
+		'Absent'
+		'Throughout'
+		'Above basal fork'
+		'In distal regions only'
+		,
+		20
+		'Absent'
+		'Throughout'
+		'At base only'
+		,
+		21
+		'Erect'
+		'Adaxially rolled crosiers'
+		'Abaxially rolled crosiers'
+		'Erect rachis, abxially rolled crosiers on primary pinnae, and adaxially rolled crosiers on more distal frond segments'
+		,
+		22
+		'Not anastomosing'
+		'Anastomosing'
+		,
+		23
+		'Largely absent'
+		'Present'
+		,
+		24
+		'Absent'
+		'Present'
+		,
+		25
+		'Absent'
+		'Present'
+		,
+		26
+		'Absent'
+		'Present'
+		,
+		27
+		'Absent'
+		'Present'
+		'Character state not defined by author'
+		,
+		28
+		'Absent'
+		'As rounded lobes'
+		'As narrow ribs'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Absent'
+		'Present'
+		,
+		31
+		'Absent'
+		'Present'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Absent'
+		'Present'
+		,
+		34
+		'Absent'
+		'Present'
+		,
+		35
+		'None'
+		'Centrarch'
+		'Mesarch'
+		'Endarch'
+		'Exarch'
+		,
+		36
+		'Absent'
+		'Present'
+		,
+		37
+		'None'
+		'Annular-helical'
+		'Scalariform'
+		'Multiseriate scalariform'
+		'Oval-circular'
+		,
+		38
+		'Absent'
+		'Present'
+		,
+		39
+		'Ectophloic'
+		'Amphiphloic'
+		,
+		40
+		'Single bundle'
+		'Two bundles'
+		'Numerous bundles'
+		,
+		41
+		'Round-elliptical'
+		'Lobed'
+		'Absent'
+		,
+		42
+		'Absent'
+		'Present'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Absent'
+		'Abaxially convex'
+		'Adaxially convex'
+		,
+		45
+		'Absent'
+		'Internal'
+		'Near peripheral-peripheral'
+		,
+		46
+		'Toward no face'
+		'Adaxial'
+		'Abaxial'
+		'Lateral'
+		'Toward several faces'
+		,
+		47
+		'As continuous cylinder'
+		'Absent'
+		'As scattered nests or bundles'
+		'As discontinuous cylinder'
+		,
+		48
+		'Absent'
+		'Present'
+		,
+		49
+		'Absent'
+		'Present'
+		,
+		50
+		'Absent'
+		'Present'
+		,
+		51
+		'Absent'
+		'Present'
+		,
+		52
+		'Absent'
+		'Present'
+		,
+		53
+		'Absent'
+		'Present'
+		,
+		54
+		'Absent'
+		'Present'
+		,
+		55
+		'Convex or flattened'
+		'Sulcate'
+		,
+		56
+		'Absent'
+		'Present'
+		,
+		57
+		'Similar to vegetative'
+		'Somewhat modified from vegetative'
+		'Unlike vegetative'
+		,
+		58
+		'Absent'
+		'Present'
+		,
+		59
+		'Absent'
+		'Present'
+		,
+		60
+		'Terminal'
+		'Marginal'
+		'Surficial'
+		,
+		61
+		'Absent'
+		'Present'
+		,
+		62
+		'Absent'
+		'Present'
+		,
+		63
+		'Absent'
+		'Present'
+		,
+		64
+		'Absent'
+		'Present'
+		,
+		65
+		'Absent'
+		'Present'
+		,
+		66
+		'Absent'
+		'Present'
+		,
+		67
+		'Few (usually <12)'
+		'Many (usually >20)'
+		,
+		68
+		'Simple'
+		'Gradate'
+		'Mixed'
+		,
+		69
+		'Absent'
+		'Present'
+		,
+		70
+		'Absent'
+		'Present'
+		,
+		71
+		'Absent'
+		'Broad'
+		'Narrow'
+		,
+		72
+		'Sessile-short'
+		'Long'
+		,
+		73
+		'Large with thick wall'
+		'Small with thin wall'
+		,
+		74
+		'Absent'
+		'Present'
+		,
+		75
+		'Absent'
+		'Present'
+		,
+		76
+		'Diffuse'
+		'Wide lateral opening'
+		'Narrow lateral opening'
+		'Narrow basal opening'
+		'Open apically and basally'
+		'Narrow apical opening'
+		,
+		77
+		'Absent or unoriented'
+		'Horizontal'
+		'Oblique'
+		'Longitudinal'
+		,
+		78
+		'>512'
+		'128-512'
+		'<128'
+		,
+		79
+		'From several cells'
+		'From approximately two cells'
+		'From one cell'
+		,
+		80
+		'Homosporous'
+		'Heterosporous'
+		,
+		81
+		'Absent'
+		'Present'
+		,
+		82
+		'Absent'
+		'Present'
+		,
+		83
+		'Absent'
+		'Present'
+		,
+		84
+		'Absent'
+		'Present'
+		,
+		85
+		'Absent'
+		'Present'
+		,
+		86
+		'Radial and trilete'
+		'Bilateral and monolete'
+		'Radial and alete'
+		,
+		87
+		'2-layered'
+		'3-layered'
+		,
+		88
+		'Nearly smooth or plain'
+		'Obviously sculptured'
+		,
+		89
+		'Absent'
+		'Thin, conforming to contours of exine'
+		'Thick, forming contours of spore wall'
+		,
+		90
+		'Absent'
+		'Present'
+		,
+		91
+		'Solid'
+		'Filamentous'
+		'Lamellar'
+		,
+		92
+		'Absent'
+		'Present'
+		,
+		93
+		'Highly branched and vascularized'
+		'Subterranean, elongate, and cylindrical'
+		'Tuberous and subterranean'
+		'Filamentous'
+		'Branched and ribbon shaped'
+		'Deeply lobed'
+		'Cordate, may be branched'
+		'Cordate, becoming ribbon like'
+		'Highly reduced'
+		,
+		94
+		'Thick or with midrib'
+		'Thin, without midrib'
+		'Alveolar'
+		,
+		95
+		'Surficial'
+		'Embedded'
+		'Character state not defined by author'
+		,
+		96
+		'Large, several irregular jacket cells'
+		'Small, few regularly arranged jacket cells'
+		'Without jacket'
+		,
+		97
+		'Absent'
+		'Present'
+		,
+		98
+		'Two or more'
+		'One'
+		,
+		99
+		'More or less transverse'
+		'More or less longitudinal'
+		'Free nuclear'
+		,
+		100
+		'Absent'
+		'Present'
+		,
+		101
+		'Apical hemisphere of proembryo'
+		'Basal hemisphere of proembryo'
+		'Lateral hemisphere of proembryo'
+		
+	;
+	MATRIX
+	'Aglaophyton major'		                       000000000000000?0000?000000000000000000000000000000000000?000000000000000000?0?0000000?000??000000???
+	'Psilophyton crenutatum'		                  000?00000000010?0000?0000000000000102100000010000000000000000000000000000000?0?0000000?000??????0????
+	'Cladoxylon'		                              000?1011000000???000?0??1022000000212?02000010200110000100000000000000000000???0000?0???????????0????
+	'Rhacophyton'		                             000?1011??000010?202?0?00002000000212100010013?001100?0120000000000000000000?0?0000000?11000????0????
+	'Biscalitheca musata'		                     000?000100000010?20230111000000000414100210013200110?1011002100010000010010420?0000000?0?0??????0????
+	'Corynepteris involucrata'		                000?000100000010?20230111000000000414100210013200110?1011002100010000010010320?0000000?0?0??????0????
+	'Stauropteris burntislandica'		             000??00???0000???001?0001001000000202000100024000000000?00000000000000000000?0?1?10000?1?0?0????0????
+	'Stauropteris oldhamia'		                   000??00???0000???001?0001011000000202000100024000000000?00000000000000000000?0?0000000?1?0?0????0????
+	'Gillespiea randolphensis'		                000??00???0000???001?0000001000000202000100024000000000?000000000?0000100000???1?1000??????0????0????
+	'Psilotum'		                                000000002000010?00000000001(0,1,2)000000(2,4)04100100024310000100120020110110000100000?000000001001000100000000
+	'Tmesipteris'		                             001000002000010?000000000011000000204100000024000000100120020110110000100000?000000001001000100000000
+	'Psaronius'		                               000?101110000011?100101101200011113020102002210110000?0100021000110000000000?0?000000(0,1)?01000????0????
+	'Marattia'		                                0001101110000011110010110120001111202012200211000000000100021000110000000000?000000001001000701001001
+	'Angiopteris'		                             00011011100000111100101101200011112020122002110000000001000210001?0000000000?000000000001000701001011
+	'Botrychium s. l.'		                        00001001100000100210(0,1)01000200011003041002002211001100001200(1,2)1000000000000000?0000000000010002010000(0,1)(0,1)
+	'Ophioglossum'		                            00001001100000100210011000200???00304101200221100000000120010000000000000000?000000000001000201000000
+	'Ankyropteris brongniartii'		               000?110121000010?1001010000000000020200020002300000000010002100010000010110201?0000000?0?0?0????0????
+	'Sermaya plant'		                           000???0100001010?1001010000000??0020310020012100000000010002100010000000110201?0000000?1?0?0????0????
+	'Botryopteris forensis'		                   001?100100001010?10010100000000000204100201021000000000120000000000000101100?1?00000001000?0????0????
+	'Botryopteris cratis'		                     ??0?1001??001010?10010100000000000104100201021000000?0012000000000000010110101?0000000101000????0????
+	'Botryopterist tridentata plant'		          000?1001?0001010?1001010002000110030410020102100000000011002100010000110110101?0000000?0?0?0????0????
+	'Psalixochlaena antiqua'		                  000?0?01200010???100?01000000000002030002000210000000001000(1,2)100010000010110101?0000000?0?0?0????0????
+	'Psalixochlaena cylindrica'		               000?000120001010?100101000000000002030002001210000000001000(1,2)100010000010110101?0000000?0?0?0????0????
+	'Anachoropteris clavata plant'		            000?1201?0001010?1001010000000000040410020012100000000010002100010111021110511?0000000?0?0?0????0????
+	'Skaaripteris minuta'		                     000?00010000?010???????000200011002030002012210100000001?00110001000001011020??0000000?0?0?0????0????
+	'Osmunda'		                                 000110011000001011001010002000101020310020022121000010112001000000000010(0,1)102011000000000100070000?100
+	'Schizaea'		                                0001100120000010110020100020001100202100201221210100100120021000000001101112011000000110100031010100?
+	'Gleichenia'		                              0001000100000010110010110000001100202100201221000000100100021000100000101115111000000(0,1)01100070000??0?
+	'Stromatopteris'		                          000?000120000010010010110000001100(0,1)02000200221000000101100010000101000101115111000000100100020000???0
+	'Hymenophyllum'		                           0001000120000010110000100000001100(1,2)02100200221000000100100010000101110101112111000000000100041100110?
+	'Matonia'		                                 000100010000001001001110002000110120??1000022101100000110002100010001010111(1,3)1220000000012010610001102
+	'Cyathea'		                                 00011011100000101100101100200011102021122002242110001011000210001011102011111210000000111000600101?0?
+	'Dennstaedtia'		                            00010001000010101100101000200011002041102002210100000011000100001001102011112220000000112000610101102
+	'Pteridium'		                               00010001000010101100101100200011102041122002240010001011000100001012102111112220000000112010610101102
+	'Acrostichum'		                             00011001100000101100111100200011102031122002242000001011100210001012002111112220000000112000610101100
+	'Adiantum'		                                0001(0,1)0012000001011001001002000110020??112002211100000011000100001012012011112220000000112020610101102
+	'Onoclea'		                                 00010001200000100100111100200011102041112002210000001001200210001011112111112220000001112000610101100
+	'Polypodium'		                              000100010000001011001011002000111020??122002240000001001000210001012002111112220000001101000610101102
+	'Marsilea'		                                1001000100000010010011100020001100204110200221010000100121021000100110101000?211110000112000812101102
+	'Pilularia'		                               1001000100000010010010100020001100202110200221010000100121021000100110101000?211110000112010812101102
+	'Regnellidium'		                            1001000100000010010010100020001100202110200221010000100121021000100110101000?211110000112010812101102
+	'Hydropteris pinnata'		                     100?000100?0001??100111000????????????????????????00???12102100010???0??1??0?2?1?10000112021??2?0????
+	'Salvinia'		                                110100010000000??10001100000000000?02100200021100000100121110000101010101000?211110000112021812101101
+	'Azolla'		                                  1101000100000010110000100000000000?02100000021100000100121110000101010101000?211110000112021812101(0,1)02
+	'Equisetum'		                               1000000121010010110000000020100000203100000010200000100120020001001000000000?100000002111100500000000
+	'Calamites'		                               100?001121010010?1000000002010000020(2,4)100000010200110110120020001001000000000?10(0,1)??0000?11100????0????
+	'Archaeocalamites'		                        100?000121010010?100?0000020100000204100000010200110110120020001001000000000?1?0000000?1??00????0????
+	'Archaeopteris'		                           000?101100000010?100?0?0002001000020410000001000011101011002010010?000000000?2?1?00000?100?0????0????
+	'Elkinsia polymorpha'		                     000?1001????00???100?0?00002010000204101200210300111000120000000110000000000?2?1111000?100?0822?11???
+	'Lyginopteris oldhamia'		                   000?100121100010?100101000200100002041012002103001110101(1,2)0020000110000000000?2?1111010?100?0822?11???
+	'Medullosa'		                               000?111121100010?100101000200100002041020000103001110101(1,2)000000011(0,1)000000000?2?11111111100?0822?11???
+	'Pinus'		                                   0002101121100010110000000020010000304101000021100111010120021000100000000000?2011111110100?0822211211
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 101;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1630465899501; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6828753847836872826; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 8693387569980026438; mqVersion 351; checksumv 0 3 881990896 null getNumChars 101 numChars 101 getNumTaxa 52 numTaxa 52 short true bits 511 states 511 sumSquaresStatesOnly 717309.0 sumSquares 717309.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 54; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1280 671; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #8693387569980026438 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 152; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 599; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 186; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1226 599; setLocation 0 23; setFont SanSerif; setFontSize 12; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; setActive; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 101; 
+ENDBLOCK;

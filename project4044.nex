@@ -1,0 +1,562 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 22.19.48 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+    		'Homolodromiidae'
+		'Dromiidae'
+		'Dynomenidae'
+		'Sphaerodromiidae'
+		'Homolidae'
+		'Latreilliidae'
+		'Poupiniidae'
+		'Lyreididae'
+		'Raninidae'
+		'Cyclodorippidae'
+		'Cymonomidae'
+		'Componocancer'
+		'Dorippe'
+		'Telamonocarcinus'
+		'Archaeochiapasa'
+		'Marocarcinus'
+		'Eogeryon'
+		'Chaceon'
+		'Carcinus'
+		'Callinectes'
+		'Potamocarcinus'
+		'Potamonautes'
+		'Himalayapotamon'
+		'Holthuisana'
+		'Dilocarcinus'
+		'Grapsus'
+		'Sesarma'
+		'Uca'
+		'Gecarcinus'
+		'Cretapsara'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=93;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012";
+	CHARLABELS
+		 [1] 'carapace proportions'
+		 [2] 'anterolateral margins'
+		 [3] 'spines or teeth on anterolateral margins'
+		 [4] 'carapace with well differentiated anterolateral and posterolateral margins'
+		 [5] 'posterolateral margins'
+		 [6] 'posterior margin'
+		 [7] 'reentrants on posterior margin'
+		 [8] 'orbit'
+		 [9] 'augenrest presence'
+		 [10] 'augenrest, if present'
+		 [11] 'inner orbital angle'
+		 [12] 'upper orbital fissures'
+		 [13] 'number of orbital fissures, if present'
+		 [14] 'sub-hepatic swelling'
+		 [15] 'antennal groove'
+		 [16] 'cervical groove'
+		 [17] 'postcervical groove well-developed'
+		 [18] 'branchio-cardiac groove'
+		 [19] 'cervical or branchio-cardiac groove'
+		 [20] 'epigastric crest'
+		 [21] 'postorbital crest'
+		 [22] 'epibranchial crest'
+		 [23] 'intestinal region'
+		 [24] 'lateral linae'
+		 [25] 'epistomal spine'
+		 [26] 'buccal cavern'
+		 [27] 'sternites 1-3'
+		 [28] 'thoracic sternum'
+		 [29] 'posterior sternites'
+		 [30] 'lateral position of posterior sternites in males'
+		 [31] 'episternites definition'
+		 [32] 'episternites 4-5'
+		 [33] 'suture 4-5'
+		 [34] 'suture 5-6'
+		 [35] 'suture 6-7 as seen externally on thoracic sternum'
+		 [36] 'sternite 4 with anteriorly protruded plate'
+		 [37] 'median line on sternite 8'
+		 [38] 'sterno-coxal depression'
+		 [39] 'sterno-pleonal depression in male'
+		 [40] 'sterno-pleonal cavity in male'
+		 [41] 'homolid press-button'
+		 [42] 'gymnopleuran condition'
+		 [43] 'sella turcica'
+		 [44] 'spermatheca presence'
+		 [45] 'spermatheca, if present'
+		 [46] 'spermatheca position, if present'
+		 [47] 'aperture of spermatheca'
+		 [48] 'pleon'
+		 [49] 'pleonal somites'
+		 [50] 'pleonal pleura'
+		 [51] 'articulating rings of pleon'
+		 [52] 'fusion of pleonal somites and telson in male'
+		 [53] 'pleonal locking presence'
+		 [54] 'pleonal locking, if present'
+		 [55] 'pleonal somite 6 with triangular lateral lobes'
+		 [56] 'socket on pleonal somite 6'
+		 [57] 'telson of male'
+		 [58] 'anterior end of telson, if folding present, between third maxillipeds'
+		 [59] 'conspicuous uropods or uropods modified as dorsal plates or ventral lobes'
+		 [60] 'male gonopore position'
+		 [61] 'female gonopore position'
+		 [62] 'renal opening of 2nd antennal coxa with beak-like structure'
+		 [63] 'maxilliped 3 form'
+		 [64] 'Ischia and meri of maxillipeds 3 much longer than they are wide'
+		 [65] 'maxillped 3 with two planes'
+		 [66] 'maxilliped 3 with crista dentata'
+		 [67] 'maxilliped 3 coxae'
+		 [68] 'palp of maxilliped 3 merus, position'
+		 [69] 'palp of maxilliped 3 merus'
+		 [70] 'P2 size'
+		 [71] 'P3 size'
+		 [72] 'P4 size'
+		 [73] 'P5 size'
+		 [74] 'P2 dactylus shape: (0) normal; (1) wide, flattened'
+		 [75] 'P2 propodus shape: (0) normal; (1) wide, flattened'
+		 [76] 'P3 dactylus shape: (0) normal; (1) wide, flattened'
+		 [77] 'P3 propodus shape: (0) normal; (1) wide, flattened'
+		 [78] 'P4 dactylus shape: (0) normal; (1) wide, flattened'
+		 [79] 'P4 propodus shape: (0) normal; (1) wide, flattened'
+		 [80] 'P5 dactylus shape: (0) normal; (1) wide, flattened'
+		 [81] 'P5 propodus shape: (0) normal; (1) wide, flattened'
+		 [82] 'P1 in males'
+		 [83] 'P1 in females'
+		 [84] 'P4 chelated to subchelated'
+		 [85] 'P5 chelated to subchelated'
+		 [86] 'coxa of all pereopods at same level'
+		 [87] 'if not all coxae of pereopods at same level'
+		 [88] 'coxae of pereopods 2 and 3'
+		 [89] 'male coxa p5, modification'
+		 [90] 'male coxa p5, penial tube'
+		 [91] 'pleopods of segments 3-5 in male'
+		 [92] 'male second pleopod with well-developed exopod'
+		 [93] 'external shape of eye facets'
+	;
+	STATELABELS
+		1
+		'elongate'
+		'as long as wide or wider'
+		,
+		2
+		'indistinct'
+		'distinct'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'rounded, not defined'
+		'defined'
+		,
+		6
+		'concave'
+		'straight to convex'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'not defined'
+		'defined'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'shallow'
+		'deep'
+		,
+		11
+		'not defined'
+		'defined'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'one'
+		'two'
+		,
+		14
+		'present'
+		'absent'
+		,
+		15
+		'present'
+		'absent'
+		,
+		16
+		'distinct'
+		'indistinct'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'distinct'
+		'indistinct'
+		,
+		19
+		'reaching ventral carapace'
+		'ending at anterolateral margin or before reaching it'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'narrow, limited by branchio-cardiac grooves'
+		'wide'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'wide'
+		'elongated, triangular'
+		,
+		27
+		'indistinct ventrally'
+		'distinct ventrally'
+		,
+		28
+		'narrow'
+		'wide'
+		,
+		29
+		'wide'
+		'narrow, reduced'
+		,
+		30
+		'not visible'
+		'visible'
+		,
+		31
+		'not clearly defined'
+		'clearly defined by grooves'
+		,
+		32
+		'process-like'
+		'wide'
+		,
+		33
+		'only lateral position'
+		'distinct axially'
+		,
+		34
+		'only lateral position'
+		'distinct axially'
+		,
+		35
+		'incomplete'
+		'complete'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'present'
+		'absent'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		,
+		43
+		'absent'
+		'present'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'paired'
+		'united'
+		,
+		46
+		'around level of pereopod 3 coxa'
+		'much anterior to pereopod 3 coxa'
+		,
+		47
+		'with margins not raised'
+		'raised'
+		,
+		48
+		'not folding'
+		'folding'
+		,
+		49
+		'visible dorsally'
+		'not visible'
+		,
+		50
+		'well developed'
+		'reduced'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'absent'
+		'present'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'coxal spine'
+		'sternal lobe or double peg'
+		,
+		55
+		'present'
+		'absent'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'elongate, much longer than wide'
+		'about as long as wide or wider than long'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'present'
+		'absent'
+		,
+		60
+		'coxal'
+		'sternal'
+		,
+		61
+		'coxal'
+		'sternal'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'pediform'
+		'operculiform'
+		,
+		64
+		'present'
+		'absent'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'present'
+		'absent'
+		,
+		67
+		'large, touching each other'
+		'small, not touching each other'
+		,
+		68
+		'distal position'
+		'inner-mesial position'
+		,
+		69
+		'different plane'
+		'same level to merus'
+		,
+		70
+		'normal'
+		'very long'
+		,
+		71
+		'normal'
+		'very long'
+		,
+		72
+		'normal'
+		'reduced'
+		,
+		73
+		'normal'
+		'reduced'
+		,
+		74
+		'normal'
+		'wide, flattened'
+		,
+		75
+		'normal'
+		'wide, flattened'
+		,
+		76
+		'normal'
+		'wide, flattened'
+		,
+		77
+		'normal'
+		'wide, flattened'
+		,
+		78
+		'normal'
+		'wide, flattened'
+		,
+		79
+		'normal'
+		'wide, flattened'
+		,
+		80
+		'normal'
+		'wide and flattened'
+		,
+		81
+		'normal'
+		'wide and flattened'
+		,
+		82
+		'symmetrical or homochelous'
+		'asymmetrical or heterochelous'
+		,
+		83
+		'symmetrical or homochelous'
+		'asymmetrical or heterochelous'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'present'
+		'absent'
+		,
+		87
+		'only p5 dorsal'
+		'p4-p5 dorsal'
+		,
+		88
+		'elongate, large'
+		'short'
+		,
+		89
+		'not modified'
+		'modified'
+		,
+		90
+		'penial tube absent'
+		'penial tube present'
+		,
+		91
+		'present'
+		'absent'
+		,
+		92
+		'present'
+		'absent'
+		,
+		93
+		'square-ish'
+		'hexagonal'
+		
+	;
+	MATRIX
+	'Homolodromiidae'		           000000101100-00000000000000000000000001000010011000010001100010000000111100000000001111010010
+	'Dromiidae'		                 1111(0,1)0010-00-0(0,1)00000001000000000000100100001011101101010(0,1)1(0,1)001110000000(0,1)100000000001111001(0,1)10
+	'Dynomenidae'		               111110010-00-1100(0,1)00001000(0,1)00000000000100001001101101(0,1)000100011100(0,1)00000100000000000110010000
+	'Sphaerodromiidae'		          1111(0,1)0010-00-11(0,1)(0,1)(0,1)0000100000000000010010000100110110100011?001110000000(0,1)100000000001111010000
+	'Homolidae'		                 000000101000-0001000001110110001001010101001000101101011(0,1)00000(0,1)00(0,1)100110100000000000110000110
+	'Latreilliidae'		             000000000-00-000100000101011000100101010100100010110101100?0000001100110100000000000110000110
+	'Poupiniidae'		               000000001000-000100000101011000100101010100100010110101100?0000000100110100000000000010000110
+	'Lyreididae'		                01(0,1)011010-010111111000100110100111101110010110010110111101000010111110011111111??000010000111
+	'Raninidae'		                 01(0,1)011010-0111111110001001101-01111011000101100(0,1)01100-1001000010111110011111111??000010000111
+	'Cyclodorippidae'		           11(0,1)(0,1)00010-(0,1)111101010001001110101111001010001000101110-100100001011111111100000000001111100111
+	'Cymonomidae'		               10(0,1)(0,1)00000-00-1101010001001110101111001010001000101110-100100001011111111100000000001111100111
+	'Componocancer'		             111110010-11111111100010001001011110010100?0---1011?0-1???1?1??10?1??????????????????11??????
+	'Dorippe'		                   11000(0,1)010-01011010100010011111011110?1010010---1011011111110101001111111100000000001111000111
+	'Telamonocarcinus'		          100000010-00-1?0101000100?111?011110?10100?????10110??1?111?1?1???1??1111000000000000110?????
+	'Archaeochiapasa'		           1101000?0-00-??0?0100010001111??1?10?1???0?????101101111111???11011??11110000????0???1?0?????
+	'Marocarcinus'		              111110010-0111?01010001000100??10010110100?0---1011?0-1??11?1?1???1??0000000000001100101?????
+	'Eogeryon'		                  111111010-11111011100010000101111??0?1???0?????11110??1?111???110?1??????????????1???0-1????1
+	'Chaceon'		                   111111010-1111101110011000110111110011010010---111101111111010110111100000000000000000-100111
+	'Carcinus'		                  111111010-1111101110011000110111110011010010---111101111111010110111100000000000011000-100111
+	'Callinectes'		               111111010-1111101110011000110111110011010010---111101111111010110111100000000001100000-100111
+	'Potamocarcinus'		            111111010-00-11011100010001101?111?011010010---11110111?1110101101111000000000000(0,1)(0,1)000-100111
+	'Potamonautes'		              111111010-00-11111111010001101?111?011010010---11110111?1110101101111000000000000(0,1)(0,1)000-100111
+	'Himalayapotamon'		           111111010-00-11011111010001101?111?011010010---1111011111110101111111000000000000(0,1)(0,1)000-100111
+	'Holthuisana'		               1?0?11010-00-11111111010001101?111?011010010---11110111?1110101111111000000000000(0,1)(0,1)000-100111
+	'Dilocarcinus'		              111111010-0101111110001000110111111011010010---1111011111110101001111000000000000(0,1)(0,1)000-100111
+	'Grapsus'		                   111011010-00-1101110001000110111110011010010---1111011111111101101111000000000000(0,1)(0,1)000-100111
+	'Sesarma'		                   111011010-00-1101110001000010111110011010010---111100-101111101101111000000000000(0,1)(0,1)000-100111
+	'Uca'		                       110011010-00-11111100010001101111110?1010010---111100-10111110110111100000000000010000-100111
+	'Gecarcinus'		                110011010-00-11111100010001101111110?1010010---111100-10111110110111100000000000011000-100111
+	'Cretapsara'		                111011010-00-110100000100011???11??0?1??00?????10110??1??11???11011110000000000000?00101????1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=7 TEXT='All homolodromioids and homolids have reentrants on the posterolateral margin, which all other families lack (Karasawa et al. 2011)';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 93;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1624650259013; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 3324481513092153007; tell It; setDefaultOrder 9 19 22 23 27 28 29 35 36 46 47 50 20 39 14 15 50 52 51 53 59 60 61 62 63 56 58 35 36 49; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1520142247738840401; tell It; setDefaultOrder 0 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 26 19 21 22 26 25 26 27 29 28 30 31 32 33 34 35 36 37 38 39 40 43 44 41 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 68 69 70 71 72 73 75 74 79 77 78 80 85 86 87 88 81 82 97 98 91 92 101 102 103 104 105 106; attachments ; endTell; mqVersion 303; checksumv 0 3 4266377788 null getNumChars 93 numChars 93 getNumTaxa 30 numTaxa 30 short true bits 3 states 3 sumSquaresStatesOnly 6306.0 sumSquares 6306.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1879 952; setLocation 6 33; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #3324481513092153007 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #3324481513092153007; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1779 880; setLocation 6 33; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #3324481513092153007 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.mb.TreesFromMrBayes.TreesFromMrBayes; setAssignedID 1009.1596215252610.8283016735899457167; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1779 880; setLocation 6 33; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle on; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 4; showEdgeLines on; orientUp; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setFontSize 14; setColor Black; toggleColorPartition off; toggleColorAssigned on; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setTree '(1:0.1740998,(2:0.09513279,(3:0.0827715,4:0.01743981):0.06896066):0.2713159,(((5:0.04776769,7:0.03342115):0.03114069,6:0.02512828):0.1670461,((8:0.06316237,9:0.03356404):0.5483634,(10:0.02077517,11:0.05236993):0.0965241,(13:0.02825234,(14:0.04415923,(15:0.02602161,(12:0.1310332,(16:0.1298417,((17:0.05030982,((18:0.01312491,20:0.05034791):0.04408735,19:0.01850913):0.03750906):0.05383971,25:0.07480815,21:0.01427185,(22:0.02101128,(23:0.02646005,24:0.04119757):0.0323276):0.06424378,(30:0.04358126,26:0.01582032,(27:0.03671213,(28:0.02547943,29:0.01921707):0.07345407):0.04468359):0.0581331):0.09919873):0.1551254):0.2407495):0.05142327):0.09339843):0.187597):0.5748185):0.4277946);'; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; showWindow; newAssistant #mesquite.ancstates.TraceCharacterHistory.TraceCharacterHistory; tell It; suspend ; setDisplayMode #mesquite.ancstates.ShadeStatesOnTree.ShadeStatesOnTree; tell It; toggleLabels off; togglePredictions off; toggleGray off; endTell; setHistorySource #mesquite.ancstates.RecAncestralStates.RecAncestralStates; tell It; getCharacterSource #mesquite.charMatrices.CharSrcCoordObed.CharSrcCoordObed; tell It; setCharacterSource #mesquite.charMatrices.StoredCharacters.StoredCharacters; tell It; setDataSet #1520142247738840401; endTell; endTell; setMethod #mesquite.parsimony.ParsAncestralStates.ParsAncestralStates; tell It; setModelSource #mesquite.parsimony.CurrentParsModels.CurrentParsModels; toggleMPRsMode off; endTell; toggleShowSelectedOnly off; endTell; setCharacter 93; setMapping 1; toggleShowLegend on; setColorMode 0; toggleWeights on; setInitialOffsetX 629; setInitialOffsetY -246; setLegendWidth 286; setLegendHeight 161; resume ; endTell; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; setDigits 4; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #1520142247738840401 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1779 880; setLocation 6 33; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1779 880; setLocation 6 33; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = 'Matrix in file "mbank_X26240_2020-06-11-1157.nex"') = 'Mk1 (est.)': 1 - 93; 
+ENDBLOCK;

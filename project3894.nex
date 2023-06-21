@@ -1,0 +1,934 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 20.26.01 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=58;
+    TAXLABELS
+    		'Brycon falcatus'
+		'Hemiodus unimaculatus'
+		'Parodon nasus'
+		'Curimata inornata'
+		'Curimatopsis myersi'
+		'Potamorhina laticeps'
+		'Prochilodus nigricans'
+		'Semaprochilodus insignis'
+		'Caenotropus maculosus'
+		'Caenotropus mestomorgmatos'
+		'Chilodus punctatus'
+		'Leporellus pictus'
+		'Leporellus vittatus'
+		'Anostomoides nattereri'
+		'Pseudanos gracilis'
+		'Pseudanos trimaculatus'
+		'Pseudanos winterbottomi'
+		'Anostomus anostomus'
+		'Anostomus ternetzi'
+		'Petulanos intermediusr'
+		'Petulanos plicatus'
+		'Gnathodolus bidens'
+		'Sartor elongatusr'
+		'Synaptolaemus cingulatusr'
+		'Hypomasticus despaxir'
+		'Hypomasticus megalepis'
+		'Hypomasticus mormyrops'
+		'Hypomasticus pachycheilus'
+		'Leporinus striatus'
+		'Abramites hypselonotus'
+		'Leporinus scalabrinii EXTINCT'
+		'Anostomoides atrianalis'
+		'Laemolyta garmani'
+		'Laemolyta orinocensisr'
+		'Laemolyta proxima'
+		'Laemolyta taeniata'
+		'Rhytiodus argenteofuscusr'
+		'Rhytiodus lauzannei'
+		'Rhytiodus microlepis'
+		'Schizodon fasciatus'
+		'Schizodon isognathusr'
+		'Schizodon knerii'
+		'Schizodon nasutus'
+		'Schizodon scotorhabdotus'
+		'Schizodon vittatus'
+		'Leporinus agassizii'
+		'Leporinus aripuanensisr'
+		'Leporinus cf. ecuadorensisR'
+		'Leporinus fasciatus'
+		'Leporinus cf. fasciatusR'
+		'Leporinus friderici'
+		'Leporinus gomesir'
+		'Leporinus jatuncochi'
+		'Leporinus maculatusr'
+		'Leporinus cf. niceforoiR'
+		'Leporinus ortomaculatusr'
+		'Leporinus taeniatus'
+		'Leporinus tigrinus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=148;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'A1 - Presence or absence of horizontal flange of antorbital'
+		 [2] 'A2 - Anteroposterior positioning of antorbital'
+		 [3] 'A3 - Presence or absence of deep lateral notch on supraorbital'
+		 [4] 'A4 - Orientation of sensory canal of first infraorbital'
+		 [5] 'A5 - Number of intermediate pores along ossified portion of sensory canal of first infraorbital between area of contact of first and second infraorbitals and anterior terminus of sensory canal proximate to antorbital'
+		 [6] 'A6 - Thickness and position of canals of first infraorbital'
+		 [7] 'A7 - Extent of development of dorsal lamina of second infraorbital'
+		 [8] 'A8 - Number of intermediate pores along ossified portion of sensory canal of second infraorbital'
+		 [9] 'A9 - Fusion of fourth and fifth infraorbitals'
+		 [10] 'AA10 - Relative height of fourth and fifth infraorbitals'
+		 [11] 'AA11 - Degree of development of flange of fifth infraorbital posterior of sensory canal'
+		 [12] 'AA12 - Branching and poring pattern of sensory canals in sixth infraorbital'
+		 [13] 'AA13 - Overlap of anteroventral process of sphenotic by sixth infraorbital'
+		 [14] 'AA14 - Posterior extent of sixth infraorbital and fusion with suprapreopercle'
+		 [15] 'B1- Form and orientation of anterior portion of mesethmoid'
+		 [16] 'B2 - Presence or absence of lateral process of anterior portion of mesethmoid'
+		 [17] 'B3 - Orientation of ventral process of mesethmoid contacting anterior limit of vomer'
+		 [18] 'B4 - Presence or absence of ventromedial plate-like process of mesethmoid'
+		 [19] 'B5 - Width of mesethmoid'
+		 [20] 'B6 - Presence or absence of deep grooves on each side of vomer that receive dorsal portion of mesopterygoid and metapterygoid'
+		 [21] 'B7 - Presence or absence of pentagonal ventral extension of vomer'
+		 [22] 'B8 - Form of articulation of vomer with palatine'
+		 [23] 'B9 - Presence or absence of lateral ethmoid–ectopterygoid ligament'
+		 [24] 'BB10 - Insertion of lateral ethmoid–ectopterygoid ligament on lateral ethmoid'
+		 [25] 'BB11- Presence or absence of distinct notch in wing of lateral ethmoid'
+		 [26] 'BB12 - Presence or absence of fenestra on portion of lateral wing of lateral ethmoid situated dorsal to lateral ethmoid–ectopterygoid ligament'
+		 [27] 'BB13 - Presence or absence of process of lateral ethmoid directed towards posterolateral corner of mesethmoid'
+		 [28] 'BB14 - Degree of development of frontal–parietal fontanel'
+		 [29] 'BB15 - Dorsoventral depression of neurocranium'
+		 [30] 'BB16 - Width of bony shelf above orbit formed by lateral ethmoid, frontal and sphenotic bones'
+		 [31] 'C1 - Number of teeth on premaxilla'
+		 [32] 'C2- Number of cusps on symphyseal tooth of premaxilla'
+		 [33] 'C3 - Number of cusps on second and third teeth of premaxilla'
+		 [34] 'C4 - Structure of medial surface of second and third teeth of premaxilla'
+		 [35] 'C5 - Curvature of dentition on premaxilla'
+		 [36] 'C6 - Number of teeth on dentary'
+		 [37] 'C7 - Overall shape of dentary teeth'
+		 [38] 'C8 - Form of posterior lamina of dentary teeth'
+		 [39] 'C9 - Presence or absence of distinct notch in posterior lamina of symphyseal tooth of dentary'
+		 [40] 'CC10 - Presence or absence of distinct notch on posterior lamina of second or third tooth of dentary'
+		 [41] 'CC11 - Cusping of main body of symphyseal tooth of dentary'
+		 [42] 'CC12 - Cusping of main body of second tooth of dentary'
+		 [43] 'CC13 - Cusping of main body of third tooth of dentary'
+		 [44] 'CC14 - Presence or absence of cusps on posterior lobes of dentary teeth'
+		 [45] 'D1 - Form of ascending process of premaxilla'
+		 [46] 'D2 - Orientation of premaxilla'
+		 [47] 'D3 - Presence or absence of block-like anterodorsal process of premaxilla'
+		 [48] 'D4 - Orientation of maxilla'
+		 [49] 'D5 - Insertion of primordial ligament on medial surface of maxilla'
+		 [50] 'D6 - Form of insertion of anterolateral flange of maxilla on flat ventral portion of maxilla'
+		 [51] 'D7 - Rotation of ventral portion of maxilla relative to anterolateral flange of maxilla'
+		 [52] 'D8 - Width of ventral portion of maxilla'
+		 [53] 'D9 - Form of dorsal tip of maxilla'
+		 [54] 'DD10 - Form of contact of dorsal portion of maxilla with anterolateral and posterior portions of maxilla'
+		 [55] 'E1- Width of ascending process of anguloarticular'
+		 [56] 'E2 - Presence or absence of trough-like form of dorsal portion of ascending process of anguloarticular'
+		 [57] 'E3 - Elongation of dentary'
+		 [58] 'E4 - Form of anterior margin of dentary and angle of teeth'
+		 [59] 'E5 - Angle formed by long axis of dentary and long axis of anguloarticular'
+		 [60] 'E6 - Form of dentary replacement tooth trench or crypt'
+		 [61] 'E7 - Presence or absence of sensory canal of dentary'
+		 [62] 'E8 - Length of sensory canal of dentary'
+		 [63] 'E9 - Presence or absence of pore on midlength of sensory canal segment of dentary'
+		 [64] 'EE10 - Form of retroarticular'
+		 [65] 'EE11 - Relative position of retroarticular and dentary'
+		 [66] 'E12 - Presence or absence of dermal papillae on lower lip'
+		 [67] 'F1 - Presence or absence of distinct process of palatine'
+		 [68] 'F2 - Orientation of process of palatine'
+		 [69] 'F3 - Length of process of palatine'
+		 [70] 'F4 - Shape of palatine'
+		 [71] 'F5 - Morphology of anterodorsal process of ectopterygoid'
+		 [72] 'F6 - Alignment of ectopterygoid'
+		 [73] 'F7 - Presence or absence of distinct process on posterolateral surface of the ectopterygoid'
+		 [74] 'F8 - Posteriorly directed dorsolateral process of mesopterygoid'
+		 [75] 'F9 - Association of quadrate with mesopterygoid'
+		 [76] 'FF10 - Form of association of posterodorsal and posterior processes of quadrate'
+		 [77] 'FF11 - Posterior extent of lateral shelf of quadrate'
+		 [78] 'FF12 - Anterior extent of lateral shelf of quadrate'
+		 [79] 'FF13 - Aspect ratio of metapterygoid–quadrate fenestra'
+		 [80] 'FF14 - Length of cartilage body spanning ventral section of metapterygoid–quadrate fenestra'
+		 [81] 'FF15 - Faceting of metapterygoid'
+		 [82] 'FF16 - Presence or absence of lateral shelf on metapterygoid'
+		 [83] 'G1 - Length of interopercular–mandibular ligament'
+		 [84] 'G2 - Presence or absence of large shelf on lateral surface of preopercle that serves as origin for portion of adductor mandibulae muscle'
+		 [85] 'G3 - Form of anterodorsal process of preopercle'
+		 [86] 'G4 - Form of anterior margin of ascending arm of preopercle'
+		 [87] 'G5 - Length of symplectic'
+		 [88] 'G6 - Shape of ventral lamina of symplectic'
+		 [89] 'G7 - Position of joint of interhyal, metapterygoid, symplectic and hyomandibular'
+		 [90] 'G8 - Form of posterodorsal margin of opercle'
+		 [91] 'H1 - Presence or absence of curved anterior process of third epibranchial that extends medially over dorsal surface of fourth infrapharyngobranchial'
+		 [92] 'H2 - Presence or absence of ossified first basibranchial'
+		 [93] 'H3 - Morphology of second basibranchial'
+		 [94] 'H4 - Number of full tooth rows on fifth upper pharyngeal tooth-plate'
+		 [95] 'H5 - Form of cusping of teeth on fifth upper pharyngeal tooth-plate'
+		 [96] 'H6 - Number of complete rows of teeth on tooth-plate of fifth ceratobranchial'
+		 [97] 'I1 - Length of dorsal margin of anterior ceratohyal'
+		 [98] 'I2 - Presence or absence of inflection point in joint between anterior and posterior ceratohyals and corresponding process of anterior ceratohyal running ventral to posterior ceratohyal'
+		 [99] 'I3 - Height of, and angle between, dorsal and ventral margins of urohyal'
+		 [100] 'I4 - Number of branchiostegal rays'
+		 [101] 'J1 - Presence or absence of anteriorly directed process of fourth pleural rib'
+		 [102] 'J2 - Curvature of fourth pleural rib'
+		 [103] 'J3 - Development and curvature of os suspensorium'
+		 [104] 'J4 - Shape of neural complex and angle of dorsal margin of neural complex relative to anterior–posterior axis of fish'
+		 [105] 'J5 - Presence or absence of dorsal process of third vertebra overlapping neural complex laterally'
+		 [106] 'J6 - Presence or absence of supraneural dorsal to Weberian apparatus'
+		 [107] 'K1 - Presence or absence of two or more intercostal ligaments uniting in total four or more of anterior full ribs'
+		 [108] 'M1 - Modal number of branched dorsal-fin rays'
+		 [109] 'N2 - Development of dorsomedial flange of mesocoracoid'
+		 [110] 'N3 - Width of dorsal portion of supracleithrum'
+		 [111] 'O1 - Modal number of branched pelvic-fin rays'
+		 [112] 'P1 - Modal number of branched anal-fin rays'
+		 [113] 'Q1 - Form of connection of primary rays of caudal fin'
+		 [114] 'R1 - Squamation of caudal fin'
+		 [115] 'R2 - Number of lateral line scales'
+		 [116] 'S1 - Vertical bands encircling body'
+		 [117] 'S2 - Possession and form of dark vertical blotches on lateral surface of body'
+		 [118] 'S3 - Presence or absence of lateral-line spots'
+		 [119] 'S4 - Presence or absence of dark spots above and below lateral line'
+		 [120] 'S5 - Presence or absence of complete dark stripe along lateral-line scale row'
+		 [121] 'S6 - Presence or absence of longitudinal stripes located dorsal and ventral to lateral-line scale row'
+		 [122] 'S7 - Presence or absence of small dark spots positioned at centres of scales'
+		 [123] 'S8 - Striping of caudal fin'
+		 [124] 'OUT1 - Degree of curvature of anterior tip of mesethmoid'
+		 [125] 'OUT2 - Presence or absence of lateral mesethmoid wings'
+		 [126] 'OUT3 - Presence or absence of mesethmoid spine'
+		 [127] 'OUT4 - Degree of development of wing of lateral ethmoid'
+		 [128] 'OUT5 - Presence or absence of groove in posterior surface of supraoccipital to receive neural complex of Weberian apparatus'
+		 [129] 'OUT6 - Breadth of supraoccipital sulcus'
+		 [130] 'OUT7 - Presence or absence of exoccipital–intercalar ridge'
+		 [131] 'OUT8 - Angle of pterosphenoid–orbitosphenoid joint'
+		 [132] 'OUT9 - Degree of development of ventral flange of parasphenoid'
+		 [133] 'OUT10 - Shape of premaxilla'
+		 [134] 'OUT11 - Form of lower jaw'
+		 [135] 'OUT12 - Presence or absence of protuberance on anteroventral margin of ectopterygoid'
+		 [136] 'OUT13 - Shape of mesopterygoid'
+		 [137] 'OUT14 - Proximity or contact of the palatine and quadrate'
+		 [138] 'OUT15 - Presence or absence of autogenous ossification in cartilaginous fourth infrapharyngobranchial'
+		 [139] 'OUT16 - Presence or absence of posterior process on lateral-most branchiostegal ray'
+		 [140] 'OUT17 - Angle of joint between anterior and posterior ceratohyals'
+		 [141] 'OUT18 - Width of dorsal portion of neural complex'
+		 [142] 'OUT19 - Form of extrascapular canal'
+		 [143] 'OUT20 - Form of joint of mesocoracoid with scapula and coracoid'
+		 [144] 'OUT21 - Form of pelvic bone'
+		 [145] 'OUT22 - Presence or absence of foramen in hypural 1'
+		 [146] 'OUT23 - Presence or absence of enlarged lamina of bone on anterior face of neural spine of preural centrum 2'
+		 [147] 'OUT24 - Location of olfactory lobe'
+		 [148] 'OUT25 - Musculature'
+	;
+	STATELABELS
+		1
+		'antorbital small, vertically orientated and running posterior to nasal cavity with only slight horizontal expansion along ventral margin'
+		'antorbital relatively large, with distinct horizontally directed flange running ventral to nasal cavity; flat bony plate may join vertical and horizontal portions of antorbital to varying degrees'
+		,
+		2
+		'anterior margin of antorbital positioned just dorsal of, or dorsal and posterior of, anterodorsal opening of sensory canal of first infraorbital'
+		'anterior margin of antorbital positioned distinctly anterior of anterodorsal opening of sensory canal of first infraorbital'
+		,
+		3
+		'notch absent or weakly developed; supraorbital with smoothly convex, straight or slightly concave anteroventral margin'
+		'notch present; supraorbital with deeply concave, distinctly notched anterior or anterolateral margin'
+		,
+		4
+		'origin of sensory canal of first infraorbital in region proximate to antorbital positioned anterior of distal terminus of sensory canal where that canal contacts sensory canal of second infraorbital'
+		'origin of sensory canal of first infraorbital situated directly dorsal to, or posterodorsal to, distal terminus of canal of first infraorbital where that canal contacts canal of second infraorbital'
+		,
+		5
+		'no pores'
+		'one pore'
+		'two pores'
+		'three or more pores'
+		,
+		6
+		'walls of sensory canal of first infraorbital thin and laterosensory canal mostly incorporated within main lamina of bone proper'
+		'walls of sensory canal of first infraorbital thickened and lat- erosensory canal located lateral to main lamina of bone; canal fused only weakly along its medial surface to main lamina of first infraorbital'
+		,
+		7
+		'lamina located dorsal to sensory canal absent or poorly developed with maximum height less than diameter of sensory canal'
+		'lamina located dorsal to sensory canal well developed with maximum height of dorsal lamina greater than diameter of sensory canal along at least part of length of canal'
+		,
+		8
+		'no pores'
+		'one pore'
+		'two pores'
+		'three pores'
+		,
+		9
+		'unfused'
+		'fused'
+		,
+		10
+		'vertical extent of fourth and fifth infraorbitals approximately equal or fifth infraorbital longer along vertical axis than fourth'
+		'fourth infraorbital much longer along vertical axis than fifth infraorbital'
+		,
+		11
+		'flange present along entire margin of bone'
+		'flange less extensive or entirely absent, with at least dorsal section of flange missing'
+		,
+		12
+		'canal tripartite or with form of angled tube with medial pore situated at angle of tube'
+		'canal straight and lacking medial pore'
+		'canal with five or more components'
+		,
+		13
+		'State 0'
+		'anteroventral portion of sixth infraorbital not greatly expanded and overlap- ping anteroventral process of sphenotic'
+		,
+		14
+		'sixth infraorbital not posteriorly expanded and entirely separate from supra- preopercle'
+		'sixth infraorbital posteriorly expanded and fused with suprapreopercle'
+		,
+		15
+		'anterior portion of mesethmoid ventrally directed and with strong hook'
+		'anterior portion of mesethmoid anteriorly or anteroventrally aligned and without strong hook'
+		,
+		16
+		'mesethmoid without distinct lateral processes that fit into concavities on medial surface of premaxilla'
+		'mesethmoid with two distinct lateral processes that fit into concavities on medial surface of premaxilla'
+		,
+		17
+		'ventral process of mesethmoid runs vertically or nearly so, anterior portion of vomer positioned directly ventral to ventral process of mesethmoid'
+		'ventral process of mesethmoid posteroventrally aligned'
+		'ventral process of mesethmoid horizontally or slightly posterodorsally aligned, vomer directly posterior of ventral portion of mesethmoid'
+		,
+		18
+		'ventromedial process on mesethmoid absent or very small'
+		'distinct ventro- medial plate-like process of mesethmoid extends ventrally and posteriorly towards vomer'
+		,
+		19
+		'mesethmoid wide, with maximum width along transverse axis greater than maximum length along longitudinal axis'
+		'mesethmoid narrow, with maximum width along transverse axis much less than maximum length along longitudinal axis'
+		,
+		20
+		'vomer without two deep grooves on ventral surface that receive dorsal margins of mesopterygoid, metapterygoid and palatine'
+		'vomer with two deep grooves on ventral surface that receive dorsal margins of mesopterygoid, metapterygoid and palatine'
+		,
+		21
+		'ventral surface of main body of vomer flat'
+		'ventral surface of main body of vomer with pentagonal raised area medial to articulations with left and right palatines in ventral view'
+		,
+		22
+		'articular facets of vomer with palatines angled toward each other anteriorly'
+		'articular facets of vomer with palatines parallel and widely separated'
+		'articular facets of vomer with palatines parallel and narrowly separated'
+		,
+		23
+		'ligament absent'
+		'ligament present'
+		,
+		24
+		'insertion on ventral surface of anterior wing of lateral ethmoid'
+		'insertion on dorsal surface of anterior wing of lateral ethmoid'
+		'insertion on lateral margin of lateral ethmoid'
+		,
+		25
+		'wing of lateral ethmoid without distinct notch along anterior margin'
+		'wing of lateral ethmoid with distinct notch along anterior margin that accommodates passage of ligament running between wing of lateral ethmoid and ectopterygoid'
+		,
+		26
+		'fenestra absent'
+		'fenestra present'
+		,
+		27
+		'process of lateral ethmoid absent'
+		'process of lateral ethmoid present (although sometimes incomplete)'
+		,
+		28
+		'fontanel open along entire length'
+		'fontanel partially or completely closed'
+		,
+		29
+		'State 0'
+		'State 1'
+		,
+		30
+		'shelf not greatly widened; distance between lateral tips of con- tralateral sphenotics ~75% or less of length of neurocranium from anterior tip of mesethmoid to tip of supraoccipital spine'
+		'shelf very greatly widened, distance between lateral tips of contralateral sphe- notics 80% or greater of length of neurocranium from anterior tip of mesethmoid to tip of supraoccipital spine '
+		,
+		31
+		'no teeth on premaxilla'
+		'three teeth on premaxilla'
+		'four teeth on premaxilla'
+		'five or more teeth on premaxilla'
+		,
+		32
+		'tooth with only single cusp'
+		'tooth with two cusps'
+		'tooth with three cusps'
+		'tooth with four cusps'
+		'tooth with five cusps'
+		,
+		33
+		'each tooth with single cusp'
+		'each tooth with two cusps'
+		'each tooth with three cusps'
+		'each tooth with four cusps'
+		'each tooth with five cusps'
+		,
+		34
+		'medial surface of second and third teeth of premaxilla either flat plane or curved hollow, without raised ridge originating at anterior edge of tooth and extending across medial surface of tooth'
+		'medial surface of tooth elaborated, with raised ridge originating at anterior edge of tooth and extending across medial surface of tooth'
+		,
+		35
+		'teeth on premaxilla essentially straight, without significant dorsal or ventral curvature'
+		'at least two of teeth on premaxilla with distinct dorsal curvature distally; teeth appearing strongly ventrally bowed in lateral profile with distal tips of teeth positioned more dor- sally than base of teeth'
+		'at least two teeth on premaxilla with strong ventral bend followed by anterior-facing alignment, resulting in zigzag shape to tooth in lateral profile'
+		,
+		36
+		'no teeth on dentary'
+		'1'
+		'2'
+		'3'
+		'4'
+		'5'
+		'6'
+		'ten or more teeth on dentary'
+		,
+		37
+		'dentary teeth spade- or chisel-shaped, tapering to pointed or blunt distal margin with or without additional cusping; teeth not extremely elongate and resembling awl'
+		'dentary teeth elongate with symphyseal tooth extremely elongate and recurved, overall shape reminiscent of awl or very narrow chisel, distal tips may be elaborated with cusps'
+		'dentary teeth squat, much wider than high with distinct lateral bend'
+		'dentary teeth small, spatulate and affixed to lips'
+		'dentary teeth tiny, conical or rod-like in shape'
+		'dentary teeth crown-like with 3–5 jagged cusps'
+		'dentary teeth in form of large hooks'
+		,
+		38
+		'dentary teeth with large, well-developed posterior lamina'
+		'dentary teeth either with small, poorly developed posterior lamina or posterior lamina entirely absent'
+		,
+		39
+		'notch in symphyseal tooth of dentary absent'
+		'distinct notch divides symphyseal tooth of dentary into anterior and posterior lobes'
+		,
+		40
+		'distinct distal notch on tooth absent on posterior lamina of second and third teeth of dentary'
+		'distinct distal notch divides posterior lamina of second or third tooth of dentary into anterior and posterior lobes'
+		,
+		41
+		'distal margin of main body of symphyseal tooth of dentary with straight incisiform margin and no apparent cusps'
+		'distal margin of main (anterior) lobe of symphyseal tooth of dentary with only single cusp (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main (ante- rior) lobe of symphyseal tooth of dentary with two distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of symphyseal tooth of dentary with three distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of symphyseal tooth of dentary with five distinct cusps'
+		,
+		42
+		'distal margin of main body of second tooth of dentary with straight incisiform margin and no apparent cusps;'
+		'distal margin of main lobe of second tooth of dentary with only single cusp (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of second tooth of dentary with two distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of second tooth of dentary with three distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		,
+		43
+		'distal margin of main body of third tooth of dentary with straight incisiform margin and no apparent cusps'
+		'distal margin of main lobe of third tooth of dentary with only single cusp (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of third tooth of dentary with two distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		'distal margin of main lobe of third tooth of dentary with three distinct cusps (posterior lobe, if present, may also possess one or more distinct cusps)'
+		,
+		44
+		'posterior lobes of dentary teeth absent, or if posterior lobes present, no distinct cusp present on posterior lobes of tooth'
+		'posterior lobes of dentary teeth with one or more distinct cusps'
+		,
+		45
+		'either absent or slightly to moderately developed and slender'
+		'large, well developed and distinctly triangular overall'
+		,
+		46
+		'vertically or antero- dorsally inclined, with dorsal point of premaxilla situated immediately dorsal to, or anterior of, vertical through ventral point of premaxilla; premaxillary teeth directed ventrally or posteroventrally'
+		'posterodorsally inclined, with dorsal portion of premaxilla situated far posterior of vertical through ventral margin of premaxilla; premaxillary teeth directed anteroventrally'
+		'horizontally orientated premaxilla with points of premaxilla homologous with dorsal and ventral margins of premaxilla in states 0 and 1 situated along same approximate horizontal plane; premaxillary teeth directed anteriorly'
+		,
+		47
+		'anterodorsal portion of pre- maxilla not as in state 1'
+		'premaxilla with large, block-like anterodorsal process that fits above lateral process of mesethmoid'
+		,
+		48
+		'maxilla having antero- dorsal orientation, with dorsal tip of maxilla situated distinctly anterior of ventral tip of bone'
+		'maxilla having vertical or posterodorsal orientation, with dorsal tip of maxilla situated directly dorsal to, or distinctly posterior of, ventral margin of bone'
+		,
+		49
+		'area of attachment of ligament on medial surface of maxilla located at middle of longest axis of bone or slightly dorsal to that point'
+		'area of attachment of ligament on medial surface of maxilla located within ventral half of longest axis of bone'
+		,
+		50
+		'anterolateral flange of maxilla merges with ventral portion of maxilla on lateral face of ventral portion'
+		'anterolateral flange of maxilla merges with ventral portion of maxilla on anterior edge of ventral portion'
+		,
+		51
+		'anterolateral and ventral flanges of maxilla rotated relative to each other along main axis of bone with result that ventral portion of maxilla lies in parasagittal plane and anterolateral flange of bone lies in transverse plane'
+		'anterolateral flange of maxilla and ventral portion of bone without rotation relative to each other, and both lying in parasagittal plane'
+		,
+		52
+		'ventral portion of maxilla narrow, only slightly expanded in axis transverse to long axis of bone'
+		'ventral portion of maxilla very wide, greatly expanded in direction transverse to long axis of bone'
+		,
+		53
+		'dorsal portion of maxilla rod-like, with tapered or pointed tip'
+		'dorsal portion of maxilla in form of flat, medially directed plate'
+		,
+		54
+		'anterolateral and posterior portions of maxilla (if present) merge without interruption into dorsomedial process of maxilla that contacts cartilage of palatine; dorsal portion of maxilla not as in state 1'
+		'anterolateral and posterior portions of maxilla merge to form flat plate orientated perpendicular to process of maxilla that contacts cartilage of palatine '
+		,
+		55
+		'ascending process of anguloarticular narrow, not forming wide vertical ridge perpendicular to dentary'
+		'ascending process of anguloarticular very wide, forming pronounced vertical ridge perpendicular to dentary'
+		,
+		56
+		'ascending process of anguloarticular not as in state 1'
+		'dorsal portion of ascending process of anguloar- ticular in form of deep trough for passage of thick A1 component of adductor muscle that inserts on medial surface of maxilla by way of primordial ligament'
+		,
+		57
+		'dentary block-like or in form of blunt triangle from lateral view; dentary not extremely slender'
+		'dentary extraordinarily elon- gate, distance from joint with anguloarticular to tip of dentary three times or more height of dentary just anterior to ascending process of anguloarticular'
+		,
+		58
+		'dentary triangular and without notable bend along anteroventral margin; teeth and anterior margin of dentary inflected so that line drawn through long axis of symphyseal tooth of dentary intersects joint of quadrate and anguloarticula'
+		'State 1'
+		,
+		59
+		'long axes of dentary and anguloarticular form right or acute angle'
+		'long axes of dentary and anguloarticular form distinctly obtuse angle'
+		,
+		60
+		'small to moderate-sized and closed ventrally'
+		'large and with distinct ventral fenestra'
+		'extremely large and with posteromedial fenestra'
+		,
+		61
+		'sensory canal of dentary greatly reduced or absent'
+		'sensory canal of dentary present'
+		,
+		62
+		'dentary with elongate laterosensory canal segment extending from contact of dentary with ventral portion of anguloarticular to point close to symphysis of dentary'
+		'dentary with short laterosensory canal segment, terminating at, or posterior to, approximate longitudinal midpoint of bone'
+		,
+		63
+		'sensory canal segment of dentary without pore situated along midlength of canal segment in posterior half of dentary'
+		'sensory canal segment of dentary with pore positioned along midlength of canal segment between posterior opening of canal proximate toanguloarticular and anterior limit of canal and occur- ring in posterior half of length of dentary'
+		,
+		64
+		'retroarticular small, compact and cup-shaped, with its length in lateral view only slightly longer than its height and with interopercular–mandibular ligament attaching in cup-shaped depression at midlength of bone'
+		'retroarticular elongate and cup-shaped, with its length in lateral view more than three times its height, with interopercular–mandibular ligament attaching in cup-shaped depression near anterior margin of bone'
+		'retroarticular elongate and rod-shaped, with interopercular–mandibular ligament attaching at posterior margin of bone'
+		,
+		65
+		'retroarticular laterally situated in lower jaw and deeply recessed into pocket formed primarily by dentary and to lesser degree by anguloarticular; line drawn along ventral margin of retroarticular clearly bisects ventral portion of dentary'
+		'retroarticular ventrally situated in lower jaw and forms part of ventral margin of lower jaw, line drawn along ventral margin of retroarticular barely, if at all, intersects ventral portion of dentary'
+		,
+		66
+		'papillae absent'
+		'papillae present'
+		,
+		67
+		'palatine without distinct process extending away from main, rounded portion of bone cradled by dorsal portion of ectopterygoid'
+		'palatine with distinct plate- or finger-like process extending away from main, rounded portion of bone cradled by dorsal portion of ectopterygoid'
+		,
+		68
+		'process of palatine anteriorly directed without noticeable lateral or ventral orientation'
+		'process of palatine with distinct lateral, anterolateral or anteroventral orientation'
+		,
+		69
+		'process of palatine moderately to weakly developed, length of process about 1.5 times width or less'
+		'process of palatine very long, length of process approximately two or more times width of process'
+		,
+		70
+		'main portion of palatine in form of block or plate'
+		'palatine in shape of dorsoventrally elongate hourglass, with triangular dorsal and ventral portions connected by thin thread of bone'
+		,
+		71
+		'with distinct anterodorsal process of ectopterygoid running ventral to palatine'
+		'with very small anterodorsal process of ectopterygoid running ventral to palatine or process absent'
+		'portion of ectopterygoid running under palatine extensive but extent of process unclear due to lack of bend between this portion of bone and portion contacting quadrate'
+		,
+		72
+		'ectopterygoid anterodorsally inclined, with vertical through antero- dorsal limit of ectopterygoid passing anterior to anterior limit of ventral portion of ectopterygoid'
+		'ectopterygoid vertically orientated with vertical through anterodorsal limit of ectopterygoid passing through ventral portion of ectopterygoid'
+		'ectopterygoid posterodorsally inclined with vertical through anterodorsal limit of ectopterygoid passing distinctly posterior of ventral portion of ectopterygoid'
+		,
+		73
+		'absent'
+		'present'
+		,
+		74
+		'absent'
+		'present'
+		,
+		75
+		'mesopterygoid with well-developed ventral triangular process that significantly overlaps ossified portion of medial surface of quadrate'
+		'mesopterygoid lacking ventral process overlapping quadrate or process, if present, much smaller than in state 0 and not significantly overlapping ossified portion of medial surface of quadrate'
+		,
+		76
+		'processes separated with length of separate portion of posterodorsal process approximately twice width of process or greater'
+		'processes entirely or almost entirely joined by thin intervening plate of bone with length of separate portion of posterodorsal process much less than twice width of process'
+		,
+		77
+		'lateral shelf of quadrate elongate, extending posteriorly past posterior margin of symplectic to terminate ventral to hyomandibular'
+		'lateral shelf of quadrate moderate in length, extending posteriorly past midpoint of the symplectic but not beyond posterior limit of symplectic'
+		'lateral shelf of quadrate short, extending posteriorly to point short of midpoint of symplectic'
+		,
+		78
+		'lateral shelf of quadrate complete anteriorly to articular condyle'
+		'lateral shelf of quadrate terminates anteriorly prior to reaching articular condyle'
+		,
+		79
+		'metapterygoid–quadrate fenestra shorter along axis running parallel to quadrate–metapterygoid joint than along axis perpendicular to that joint'
+		'metapterygoid–quadrate fenestra longer along axis running parallel to quadrate–metapterygoid joint than along axis perpendicular to that joint'
+		,
+		80
+		'short and plug-like; metapterygoid and quadrate barely separated by cartilage'
+		'long and rod-like; metapterygoid and quadrate clearly separated by thin bridge of cartilage'
+		,
+		81
+		'metapterygoid with two distinct facets; vertical sheet of bone dorsal to quadrate and symplectic and horizontal or medially curved dorsal portion that contacts mesopterygoid'
+		'metapterygoid with three distinct facets; vertical sheet dorsal to quadrate and symplectic, horizontal or medially curved portion that contacts mesopterygoid, and inclined plane proximate to hyomandibular that meets other facets along well-defined margins'
+		,
+		82
+		'lateral surface of metapterygoid without well-developed lateral shelf'
+		'lateral surface of metapterygoid with well-developed lateral shelf'
+		,
+		83
+		'ligament very short, anterior tip of interopercle in close proximity to posterior of retroarticular'
+		'ligament elongate, interopercle notably separated from retroarticular'
+		,
+		84
+		'absent'
+		'present'
+		,
+		85
+		'anterodorsal process of preopercle that extends between symplectic and quadrate well developed with broad triangular or rhomboidal form'
+		'anterodorsal process of preopercle with thin, needle-like form'
+		'anterodorsal process of preopercle absent entirely'
+		,
+		86
+		'anterior margin of ascending arm of preopercle without distinct triangular process over- lapping joint between interhyal, hyomandibular, metapterygoid and symplectic in lateral view'
+		'anterior margin of ascending arm of preopercle with distinct triangular process overlapping joint between interhyal, hyomandibular, metapterygoid and symplectic in lateral view'
+		,
+		87
+		'symplectic short, with posterior margin of bone separated from anterior point of ventral margin of hyomandibular by noticeable gap'
+		'symplectic long with posterior margin of bone situated proximate to ventral margin of hyomandibular'
+		,
+		88
+		'ventral lamina of symplectic narrow and not triangular'
+		'ventral lamina of symplectic broad and triangular'
+		,
+		89
+		'joint of interhyal, metapterygoid, symplectic and hyomandibular posi- tioned at approximately same horizontal plane as anterior portion of lateral shelf of metapterygoid'
+		'joint of interhyal, metapterygoid, symplectic and hyo- mandibular positioned significantly ventral of horizontal plane of anterior portion of lateral shelf of metapterygoid'
+		,
+		90
+		'with slight or pronounced concavity'
+		'continuously convex or straight and completely lacking concavity'
+		,
+		91
+		'absent'
+		'present'
+		,
+		92
+		'absent'
+		'present'
+		,
+		93
+		'second basibranchial rod-like, lacking prominent lateral flanges'
+		'second basibranchial with prominent lateral flanges resulting in overall shape resembling violin'
+		,
+		94
+		'fifth upper pharyngeal tooth-plate edentulous in adults'
+		'one or two full rows of teeth on fifth upper pharyngeal tooth-plate'
+		'three or more full rows of teeth on fifth upper pharyngeal tooth-plate'
+		,
+		95
+		'all teeth on fifth upper pharyngeal tooth-plate unicuspid'
+		'most teeth on fifth upper pharyngeal tooth-plate bicuspid but with occasional teeth unicuspid'
+		'at least some teeth on fifth upper pharyngeal tooth-plate tricuspid and other teeth bicuspid'
+		,
+		96
+		'tooth-plate edentulous'
+		'one or two complete rows of teeth'
+		'three or more complete rows of teeth'
+		,
+		97
+		'relatively long, approximately half length of ventral margin or longer'
+		'very short, approximately one- third length of ventral margin'
+		,
+		98
+		'absent'
+		'present'
+		,
+		99
+		'urohyal low, dorsal and ventral margins meet at an angle equal to or less than 45°'
+		'urohyal high, dorsal and ventral margins meet at an angle greater than 45°'
+		,
+		100
+		'three'
+		'four'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'fourth pleural rib straight, without anteriorly directed distal hook'
+		'fourth pleural rib with anteriorly directed distal hook'
+		,
+		103
+		'os suspensorium small and straight, not cupping anterior portion of swim bladder'
+		'os suspensorium very well developed ventrally with distinct posterior curvature around anterior portion of swim bladder'
+		,
+		104
+		'neural complex in form of elongate triangle with distinctly angled dorsal margin'
+		'neural complex in form of elongate tri- angle with nearly horizontal dorsal margin'
+		'neural complex in form of equilateral triangle with nearly horizontal dorsal margin'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'supraneural absent'
+		'supraneural present'
+		,
+		107
+		'absent'
+		'present'
+		,
+		108
+		'eight or nine branched dorsal-fin rays'
+		'ten branched dorsal-fin rays'
+		'13 or more branched dorsal-fin rays'
+		,
+		109
+		'dorsomedial flange of mesocoracoid weakly developed or absent'
+		'dorsomedial flange of mesocoracoid very strongly developed'
+		,
+		110
+		'dorsal portion of supracleithrum narrow, lacking dis- tinct flange on dorsal portion of bone running medial to posterodorsal portion of opercle or with flange weakly developed'
+		'dorsal portion of supraclei- thrum broad, with distinct wide flange on dorsal portion of bone running medial to posterodorsal portion of opercle'
+		,
+		111
+		'eight or fewer branched pelvic-fin rays'
+		'nine branched pelvic-fin rays'
+		,
+		112
+		'seven or fewer branched anal-fin rays'
+		'eight branched anal-fin rays'
+		'nine or more branched anal-fin rays'
+		,
+		113
+		'State 0'
+		'first four to six principal rays of upper lobe of caudal fin and last four to six rays of lower lobe of caudal fin not separated but rather with margins in contact in adults; rays thickened and conjoined into rigid plate-like structure in adults'
+		,
+		114
+		'lobes of caudal fin free of scales'
+		'lobes of caudal fin covered with scales'
+		,
+		115
+		'64 or fewer scales in complete lateral-line series, including scales overlapping the hypural plate'
+		'76 or more scales in complete lateral-line series, including scales overlap- ping hypural plate'
+		,
+		116
+		'body without vertical bands of at least two scales width completely encircling body'
+		'body with vertical bands of at least two scales width, at least some of which completely encircle body'
+		,
+		117
+		'lateral surface of body without dark vertical blotches'
+		'ateral surface of body with two to five dark, vertical blotches intersecting the lateral-line scale row and continuing dorsal and ventral to the lateral-line scale row'
+		,
+		118
+		'lateral-line spots absent'
+		'series of one or more dark spots with distinct margins present along lateral-line scale row, each spot approximately one to two scales in height'
+		,
+		119
+		'no large dark spots on lateral surface of body, or if large dark spots present then all centred along lateral-line scale row'
+		'lateral surface of body of adults with large dark spots located above and below lateral-line scale row'
+		,
+		120
+		'complete stripe along lateral line absent'
+		'complete stripe of approximately height of one scale or greater running along lateral line from opercle to caudal peduncle in majority of examined specimens'
+		,
+		121
+		'longitudinal stripes absent or only single stripe present along lateral-line scale row'
+		'one or more longitudinal stripes present dorsal and ventral to lateral-line scale row'
+		,
+		122
+		'centres of scales same colour as, or lighter than, scale margins; no series of small dark spots along centre of each scale row'
+		'most scales with small, dark spot lying under scale creating overall appearance of row of such spots along centre of each scale row'
+		'small number of scales with small dark spot on lateral surface of scale, cre- ating impression of rows of spots along centre of each scale row, but with such pigmentation limited to small patches of scales'
+		,
+		123
+		'caudal fin without wide, dark stripes extending across much of each lobe'
+		'caudal fin with wide dark stripes extending across much of each lobe; stripe(s) of dorsal lobe run from anterodorsal to posteroventral; stripe(s) of ventral lobe run from anteroventral to posterodorsal'
+		,
+		124
+		'State 0'
+		'State 1'
+		,
+		125
+		'State 0'
+		'State 1'
+		,
+		126
+		'State 0'
+		'State 1'
+		,
+		127
+		'State 0'
+		'State 1'
+		,
+		128
+		'State 0'
+		'State 1'
+		,
+		129
+		'State 0'
+		'State 1'
+		,
+		130
+		'State 0'
+		'State 1'
+		,
+		131
+		'State 0'
+		'State 1'
+		,
+		132
+		'State 0'
+		'State 1'
+		,
+		133
+		'State 0'
+		'State 1'
+		,
+		134
+		'State 0'
+		'State 1'
+		,
+		135
+		'State 0'
+		'State 1'
+		,
+		136
+		'State 0'
+		'State 1'
+		,
+		137
+		'State 0'
+		'State 1'
+		,
+		138
+		'State 0'
+		'State 1'
+		,
+		139
+		'State 0'
+		'State 1'
+		,
+		140
+		'State 0'
+		'State 1'
+		,
+		141
+		'State 0'
+		'State 1'
+		,
+		142
+		'State 0'
+		'State 1'
+		,
+		143
+		'State 0'
+		'State 1'
+		,
+		144
+		'State 0'
+		'State 1'
+		,
+		145
+		'State 0'
+		'State 1'
+		,
+		146
+		'State 0'
+		'State 1'
+		,
+		147
+		'State 0'
+		'State 1'
+		,
+		148
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Brycon falcatus'		                        0100201000000010?000010??000005330075100533?0000011000000000100210???0200000????00002010110102120001000011000002000001000000000000000000000000000000
+	'Hemiodus unimaculatus'		                  0100101100000010?010020??00000555000????????000001100000000?100210???0200001????000020001101021200010000110000120010?1000001100000100000000000000000
+	'Parodon nasus'		                          0000101100010010?010020??001004550036100111?1000111000000000100210???0200010?????0002000101002120001000000010000000000010001100001001000000000000000
+	'Curimata inornata'		                      0000001100100010?000010??000000????0????????000001110000000?100210???0200011?0??00002000110000?000010000000000(0,1)(2,0,1)000000000000111010100010010110101110
+	'Curimatopsis myersi'		                    ??0?0?1000111010?000010??000000????0????????000001110000000?100210???0200011?0??0000201011000111000100000000000(0,1)000000000000111010100010010110101110
+	'Potamorhina laticeps'		                   0100001100021010?000010??000000????0????????000001110000000?100210???0200011?0??00002000110000?000010000000(0,1)00(0,1)2001000000000111010100010010110101110
+	'Prochilodus nigricans'		                  0000201100020010?000020??000005110073100111?0000010100000002110000???020001000??00110000110100?000010000100(0,1)0001000000000000011110010110010110101110
+	'Semaprochilodus insignis'		               0100101300001010?000020??000005110073100111?0000010100000002110000???020001000??00110000110100?00001000000010001000000000010011110010110010110101110
+	'Caenotropus maculosus'		                  0000101200100001?010011200000051100(1,2)4100111?010001110000000?100010???000000010??00002000110101320001110000000000000000010100000110111001101001010001
+	'Caenotropus mestomorgmatos'		             0000101200100001?010011200000051100(4,5,6)4100111?010001110000000?100010???000000010??00002000110101320001110000000001000000000100000110111001101001010001
+	'Chilodus punctatus'		                     00001011001000101010011200000051100(4,5,6)4100111?010001110000000?100010???000000010??00002100110101320001000000000002000000010100000110111001101001010001
+	'Leporellus pictus'		                      00001012000000000010001001000042(1,2)0040000111?11000001000000011101001000001000000000110000101112120101000001110001010000010110000010011101101001010001
+	'Leporellus vittatus'		                    0000101200000000001000100100004230040000111?11000001000000011101001000001000000000110000101112220101000001110001010000010110000010011101101001010001
+	'Anostomoides nattereri'		                 1000101(1,2)0000100011100010000000413(0,1)040(1,0)00111?11011001000000011100010??0011001000000110010101101210001000011110001000001000000000010011101101001010001
+	'Pseudanos gracilis'		                     1101101101011110010010101000004330040100223?12011100100001011100100??00210112001101110101(1,0)1001210000000001110001000001000100000010011101101001010001
+	'Pseudanos trimaculatus'		                 1101201101011110010010100001004330040100223?12011100000001011100100??0021011200110111010111001210000000001110001000001000000000010011101101001010001
+	'Pseudanos winterbottomi'		                1101201101011110010010101000004330040100223?12011100100001011100100??0021011201110111010111001210001000001110001000000010100000010011101101001010001
+	'Anostomus anostomus'		                    1001201101010110011012101001004330040100223?12011100000001011100100??0121111201110111010001101210001000001110001000000011100000010011101101001010001
+	'Anostomus ternetzi'		                     1001201101011110011012101001004330040100223?12011100000001011100100??0121111201110111010001101210000000001110001000000011000000010011101101001010001
+	'Petulanos intermediusr'		                 1001101201011110011012101000004230040100113?12011101100001011100100??0121111211110111011001101210011000001110001000001000000000010011101101001010001
+	'Petulanos plicatus'		                     1001101201011110011012101000004230040100113?12011101100001011100100??0121111211110111011001101211011000001110001000001000000000010011101101001010001
+	'Gnathodolus bidens'		                     101120110000101001111?0?10000042(3,2)?11111?2??0120111111100110101?0110??1120011011?10111110001101210011000001110001000001000000000010011101101001010001
+	'Sartor elongatusr'		                      1001201101011010011010101000004330131100111?120111111100010101?0110??0121111211111111110001101210001000000110001000001000000000010011101101001010001
+	'Synaptolaemus cingulatusr'		              1001201101001010011012111000004330040100131?12011111100001011100110??0121011211110111110001001210011000001110001000100000000000010011101101001010001
+	'Hypomasticus despaxir'		                  101010121?011001211001100000003220032???????10001000001100011100001100001001000000110010101102210001000001110001000000011?00000010011101101001010001
+	'Hypomasticus megalepis'		                 101010121?001001110001100000003120040000111?10001000001100011100001100001001000000110010101102210001000011110001000001100000000010011101101001010001
+	'Hypomasticus mormyrops'		                 101010120001(0,1)001211001100000004120040001111010101000001100011100001100001001000000110010101102220001000011110001000001000000000010011101101001010001
+	'Hypomasticus pachycheilus'		              1000201100001001211001100000004120040001111010101000001100011100001100001001000000110010101102220001000001110001000001100000000010011101101001010001
+	'Leporinus striatus'		                     11002011000(0,1)(0,1)010110000101010003220040000111?11011000000000011100001100011001000000110010101101210001000000110001000000011000000010011101101001010001
+	'Abramites hypselonotus'		                 1100201101000010010000101011003220040011111011011000000000011100001100011001000000110010101002210000000210111102000100000000000010011101101001010001
+	'Leporinus scalabrinii EXTINCT'		          ??????????????1???0???????11003???0?000011?011??????????00????????1100??????0??????1???????????????????????????????????????????0???1????????????????
+	'Anostomoides atrianalis'		                1100201(1,2)01001010110001100110004231040(1,0)00111?11011000000000011100101100011011000100110010111001210000000010110001000010010000000010011101101001010001
+	'Laemolyta garmani'		                      1100201101101010110000100010004330040100000?12011000000001011100101100011011100100110010111101210001000010110001000000010000000010011101101001010001
+	'Laemolyta orinocensisr'		                 11002011(0,1)1101010110000100010004440040100000?12011000000001011100101100011011100100110010111101210001000010110001000010010000000010011101101001010001
+	'Laemolyta proxima'		                      1100201101101010100000100010004440040100000?12011000000001011100101100011011100100110010111101210001000000110001000010010000000010011101101001010001
+	'Laemolyta taeniata'		                     1100201101101010110000100010004440040100000?12011000000001011100101100011011100100110010111101210001000010110001000000010000000010011101101001010001
+	'Rhytiodus argenteofuscusr'		              1100(2,3)10101101010110001100010114430040001221111011000000001011110101100011001100100110010111002320001110110110001100010010000000010011101101001010001
+	'Rhytiodus lauzannei'		                    1100310(3,2)01101010110001100010114330040011222111011000000001011110101100011001100100110010111002210001111110110001101010000000000010011101101001010001
+	'Rhytiodus microlepis'		                   1100310201101010110001100010114330040011222111011000000001011110101100011001100100110010111002210001111110110001101010000000000010011101101001010001
+	'Schizodon fasciatus'		                    1100100201001010110001100010014440040011333111011000001001011110101110011001000100110010111002320001000010111001100010000000000010011101101001010001
+	'Schizodon isognathusr'		                  1110101(3,2)010010102?0001100000014440040011223111011000001001111110101100001001000100110010111002320001000010111001100000010000000010011101101001010001
+	'Schizodon knerii'		                       11101012010010101?0001100000014440040011333111011000001001111110101100011001000100110010111002320001000010111001100010010000000010011101101001010001
+	'Schizodon nasutus'		                      1100200101001000210001100010014440040011223110011000001101111110101100001001000100110010111102320001000010111001100000010000000010011101101001010001
+	'Schizodon scotorhabdotus'		               1100100201001010110001100010014440040011333111011000001001011110101100011001000100110010111002220001000010111000100010010000000010011101101001010001
+	'Schizodon vittatus'		                     1100100201001010110001100010014440040011333111011000001001011110101110011001000000110010111002320001000010111001100010000000000010011101101001010001
+	'Leporinus agassizii'		                    1100101200001010110000100000004221040000111?11011000000000011100001100011001000000110010101101210001000011110001000000000000000010011101101001010001
+	'Leporinus aripuanensisr'		                110010121?001010110000100010004121040000111?110110000000000111000011000110010000001100101011012?0001000011110001000001000000000010011101101001010001
+	'Leporinus cf. ecuadorensisR'		            1100201200001010110000100010004221040000111?1101100000000001111000110001100100000011001010110121000100001(1,0)110001000001000000000010011101101001010001
+	'Leporinus fasciatus'		                    1100101200001010110000100010004231040000111?11011000000000011100001100011001000000110010101101210001000011110011000100000000000010011101101001010001
+	'Leporinus cf. fasciatusR'		               1100101200001010110000100010004231040000111?11011000000000011100001100011001000100110010101101210001000011110011000100000000000010011101101001010001
+	'Leporinus friderici'		                    110010120000?010110000100010004331040000111?11011000000000011100001100011001000000110010101101210001000011110001000001000000000010011101101001010001
+	'Leporinus gomesir'		                      11101012000(0,1)1010110000100000004121040000111?11011000000000011100001100011001000000110010101102210001000011110001000001100200000010011101101001010001
+	'Leporinus jatuncochi'		                   1100101200001000110000100010003331231000111?11011000000000011100001100011001000100110010101?01210001000011110011000100000000000010011101101001010001
+	'Leporinus maculatusr'		                   110010121?001010110000100010004330040000111?11011000000000011100001100011001000100110010101101210001000001110001000010000000000010011101101001010001
+	'Leporinus cf. niceforoiR'		               1100101200001010110000100010004331040000111?11011000000000011100001100001001000000110010101001210001000011110001000001000000000010011101101001010001
+	'Leporinus ortomaculatusr'		               110010121?001010110000100010004331040000111?11011000000000011100001100011001000000110010101101210001000011110001000001100000000010011101101001010001
+	'Leporinus taeniatus'		                    1100(2,1)01200001010110000100000003331040001121011011000000000011100001100011001000000110010101101210001000001110001000001000000000010011101101001010001
+	'Leporinus tigrinus'		                     110010131?001010110000100010003331040000111?11011000000000011100001100011001000100110010101101210001000001110011000100000000000010011101101001010001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 148;
+      ENDBLOCK;
+      

@@ -1,0 +1,1094 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 22.11.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Stomatopoda'
+		'Bathynellacea'
+		'Anaspidacea'
+		'Euphausiacea'
+		'Dendrobranchiata'
+		'Procaridea'
+		'Caridea'
+		'Stenopodidea'
+		'Reptantia'
+		'Mysida'
+		'Lophogastrida'
+		'Mictacea'
+		'Bochusacea'
+		'Isopoda'
+		'Amphipoda'
+		'Thermosbaenacea'
+		'Cumacea'
+		'Tanaidacea'
+		'Spelaeogriphacea'
+		'Leptostraca'
+		'Brachypoda'
+		'Anostraca'
+		'Notostraca'
+		'Tealliocaris'
+		'Oxyuropoda'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=181;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Carapace'
+		 [2] 'Posterior extent of carapace'
+		 [3] 'Dorsal fold on adult'
+		 [4] 'Branchiostegal flaps'
+		 [5] 'Cephalic pleural fold'
+		 [6] 'Carapace with respiratory function'
+		 [7] 'Ventral extent of carapace'
+		 [8] 'Number of thoracomeres involved in forming the cephalothorax'
+		 [9] 'Articulation of tergites'
+		 [10] 'Pleura of the second pleon segment'
+		 [11] 'Rostrum'
+		 [12] 'Cervical groove (just posterior of the maxillae)'
+		 [13] 'Cephalic kinesis / protocephalon'
+		 [14] 'Males (at least) with transverse suture in cephalon, immediately behind the mandibles'
+		 [15] 'Cephalic doublure'
+		 [16] 'Carapace adductor muscles'
+		 [17] 'Compound eyes'
+		 [18] 'Form of compound eyes'
+		 [19] 'Ocular lobe'
+		 [20] 'Ultrastructure of ommatidia, crystalline cone partition'
+		 [21] 'Ultrastructure of ommatidia, crystalline cone extensions'
+		 [22] 'Ultrastructure of ommatidia, crystalline cone processes '
+		 [23] 'Ultrastructure of ommatidia, cone cell nuclei placement'
+		 [24] 'Ultrastructure of ommatidia, clear zone'
+		 [25] 'Naupliar eye sensu stricto'
+		 [26] 'Dorsal frontal organ'
+		 [27] 'Ventral frontal organ'
+		 [28] 'Dorsal, nuchal or neck organ'
+		 [29] 'Bec oculair'
+		 [30] 'Antennule, Number of podomeres in outer ramus (exopod)'
+		 [31] 'Antennule, Exopod scale-like'
+		 [32] 'Antennule, Number of podomeres in inner ramus (endopod)'
+		 [33] 'Antennule, Statocyst in basal segment of first antenna'
+		 [34] 'Antenna, Number of podomeres in outer ramus (exopod)'
+		 [35] 'Antenna, Antennal exopod modified as scaphocerite'
+		 [36] 'Antenna, Antennal scale (scaphocerite)'
+		 [37] 'Antenna, Number of podomeres in inner ramus (endopod)'
+		 [38] 'Antenna, Antennal gland'
+		 [39] 'Antenna, Antennal naupliar process'
+		 [40] 'Mandible and mandibular region, number of podomeres in endopod'
+		 [41] 'Mandibular palp'
+		 [42] 'Mandibular incisor'
+		 [43] 'Mandible with marked molar process'
+		 [44] 'Arrangement of molar and incisor elements'
+		 [45] 'Lacinia mobilis on the adult mandible'
+		 [46] 'Lacinia mobilis on the larval mandible'
+		 [47] 'Paragnaths'
+		 [48] 'Labrum'
+		 [49] 'Posterior tooth on labrum'
+		 [50] 'Labrum expression in larva'
+		 [51] 'Epistome'
+		 [52] 'First maxilla, number of podomeres in exopod'
+		 [53] 'First maxilla, number of podomeres in endopod'
+		 [54] 'Second maxilla, endites'
+		 [55] 'Second maxilla, Basal endites'
+		 [56] 'Second maxilla, number of podomeres in exopod'
+		 [57] 'Second maxilla, exopod modified as a scaphognathite'
+		 [58] 'Second maxilla, number of podomeres in endopod'
+		 [59] 'Second maxilla, maxillary gland'
+		 [60] 'Appendage of sixth segment, protopodal endites'
+		 [61] 'Appendage of sixth segment, number of podomeres in exopod'
+		 [62] 'Appendage of sixth segment, exopod'
+		 [63] 'Appendage of sixth segment, "caridean" lobe on exopod'
+		 [64] 'Appendage of sixth segment, Number of podomeres in endopod'
+		 [65] 'Appendage of sixth segment, Number of epipodites'
+		 [66] 'Appendage of sixth segment, Role of epipodites of first thoracopod in respiration'
+		 [67] 'Appendage of sixth segment, Expansion of epipodite'
+		 [68] 'Appendage of sixth segment, Form of epipodite'
+		 [69] 'Appendage of seventh segment, Protopodal endites'
+		 [70] 'Appendage of seventh segment, Number of podomeres in exopod'
+		 [71] 'Appendage of seventh segment, Form of exopod'
+		 [72] 'Appendage of seventh segment, Number of podomeres in endopod'
+		 [73] 'Appendage of seventh segment, Number of epipodites'
+		 [74] 'Appendage of seventh segment, Oosteguites'
+		 [75] 'Appendage of seventh segment, Podobranch gills'
+		 [76] 'Appendage of seventh segment, Arthrobranch gills'
+		 [77] 'Appendage of seventh segment, Pleurobranch gills'
+		 [78] 'Appendage of eighth segment, Protopodal endites'
+		 [79] 'Appendage of eighth segment, Number of podomeres in exopod'
+		 [80] 'Appendage of eighth segment, Form of exopod'
+		 [81] 'Appendage of eighth segment, Number of podomeres in endopod'
+		 [82] 'Appendage of eighth segment, Number of epipodites'
+		 [83] 'Appendage of eighth segment, Oosteguites'
+		 [84] 'Appendage of eighth segment, Podobranch gills'
+		 [85] 'Appendage of eighth segment, Arthrobranch gills'
+		 [86] 'Appendage of eighth segment, Pleurobranch gills'
+		 [87] 'Appendage of ninth segment, Protopodal endites'
+		 [88] 'Appendage of ninth segment, Number of podomeres in exopod'
+		 [89] 'Appendage of ninth segment, Form of exopod'
+		 [90] 'Appendage of ninth segment, Number of podomeres in endopod'
+		 [91] 'Appendage of ninth segment, Number of epipodites'
+		 [92] 'Appendage of ninth segment, Oostegites'
+		 [93] 'Appendage of ninth segment, Podobranch gills'
+		 [94] 'Appendage of ninth segment, Arthrobranch gills'
+		 [95] 'Appendage of ninth segment, Pleurobranch gills'
+		 [96] 'General morphology of thoracic appendages, Position of epipodites on thoracopods two to eight'
+		 [97] 'General morphology of thoracic appendages, Posterior extent of oostegites'
+		 [98] 'General morphology of thoracic appendages, Reduction of the oostegites after each brood'
+		 [99] 'General morphology of thoracic appendages, Thoracopod thorax-coxa articulation'
+		 [100] 'General morphology of thoracic appendages, Thoracopods coxa-basal articulation'
+		 [101] 'Thoracopods intrabasal articulation'
+		 [102] 'Thoracopods four to five'
+		 [103] 'Thoracopods five to seven, pedunculate setae'
+		 [104] 'Thoracopods five and six (appendages 10 and 11), exopod'
+		 [105] 'Thoracopod 5 (pereopod 4) exopod of female'
+		 [106] 'Thoracopod 6 (pereopod 5) exopod'
+		 [107] 'Thoracopod 6'
+		 [108] 'Thoracopod 7 (pereopod 6) exopod'
+		 [109] 'Thoracopod 8 (pereopod 7) exopod'
+		 [110] 'Trunk appendages relative to body'
+		 [111] 'Thoracic coxal plates'
+		 [112] 'Oostegites with marginal setae'
+		 [113] 'Pereopods'
+		 [114] 'Abdominal appendages, Abdominal limbs'
+		 [115] 'Abdominal appendages, Number of podomeres in exopod of second abdominal appendage/pleopod'
+		 [116] 'Abdominal appendages, Number of podomeres in endopod of second abdominal appendage/pleopod'
+		 [117] 'Abdominal appendages, Abdominal appendages (pleopods) modified for brooding eggs'
+		 [118] 'Abdominal appendages, Gills (as a distinct filamentory or platelike structures) on abdomen'
+		 [119] 'Posteriormost appendages, Last pleopods'
+		 [120] 'Posteriormost appendages, Number of podomeres in inner rami of uropods'
+		 [121] 'Posteriormost appendages, Number of podomeres in outer rami of uropods'
+		 [122] 'Posteriormost appendages, Uropod numbers'
+		 [123] 'Telson and furca, Gross form of telson'
+		 [124] 'Telson and furca, Telson appendages (furca)'
+		 [125] 'Tagmosis, Number of maxillipeds'
+		 [126] 'Tagmosis, Number of post-maxillary body segments, including the telson or anal somite'
+		 [127] 'Tagmosis, Abdomen (excluding the telson/terminal division)'
+		 [128] 'Pleomere size'
+		 [129] 'Reduction or absence of pleon appendages'
+		 [130] 'Fusion of telson to the pleonite'
+		 [131] 'Internal organs, Foregut dorsal caeca'
+		 [132] 'Internal organs, Foregut shape'
+		 [133] 'Internal organs, Foregut dorsolateral and midventral ridges'
+		 [134] 'Internal organs, Lateralia and inferolateralia anteriores (lateral invaginations) in the cardiac chamber'
+		 [135] 'Internal organs, Superomedianum (unpaired)'
+		 [136] 'Internal organs, Inferomedianum anterius (midventral cardic ridge)'
+		 [137] 'Internal organs, Inferomedianum posterius (midventral pyloric ridge)'
+		 [138] 'Internal organs, Atrium between the inferomediana connecting the cardiac primary filter grooves with the pyloric filter grooves'
+		 [139] 'Internal organs, Number of secondary filter grooves in the inferomedianum posterius'
+		 [140] 'Internal organs, Formation of the midgut'
+		 [141] 'Internal organs, Entoderm'
+		 [142] 'Internal organs, Trunk gut diverticulae and/or caecae'
+		 [143] 'Internal organs, Position of the anus'
+		 [144] 'Internal organs, Position of the heart'
+		 [145] 'Internal organs, Gross morphology of the heart'
+		 [146] 'Internal organs, Number of pairs of ostia in heart'
+		 [147] 'Internal organs, Arteria subneuralis/supraneuralis'
+		 [148] 'Internal organs, Aorta descendens (sternal artery) as the only connection between the heart and the arteria subneuralis/supraneuralis'
+		 [149] 'Internal organs, Aorta descendens'
+		 [150] 'Internal organs, Segmental arteries'
+		 [151] 'Internal organs, Pleon musculature'
+		 [152] 'Tail fan escape reaction'
+		 [153] 'Central Nervous System (CNS)'
+		 [154] 'Globuli cell clusters in the deutocerebrum asscociated with the olfactory lobe'
+		 [155] 'Male gonopore location (post-maxillary trunk segment numbers)'
+		 [156] 'First and/or second pleopods modified for sperm transfer in males'
+		 [157] 'Appendices internae'
+		 [158] 'Development'
+		 [159] 'Free living larva'
+		 [160] 'Orthonauplius'
+		 [161] 'Manca stage'
+		 [162] 'Brood care'
+		 [163] 'Development of appendages'
+		 [164] 'Cleavage'
+		 [165] 'Number of ectoteloblasts'
+		 [166] 'Arrangement of ectoteloblasts'
+		 [167] 'Early embryo (nauplius larva)'
+		 [168] 'Yolk distribution in the embryo'
+		 [169] 'Number of pairs of thoracic appendages in the hatchling'
+		 [170] 'Embryonic dorsal organ'
+		 [171] 'Embryonic dorsal organ '
+		 [172] 'Transient paired lateral organs'
+		 [173] 'Sperm acrosome'
+		 [174] 'Sperm filamentous arms'
+		 [175] 'Sperm nuclear membrane'
+		 [176] 'Spermatophore'
+		 [177] 'Sperm centriole'
+		 [178] 'Uropod shape'
+		 [179] 'Latero-distal prolongation of the basipod'
+		 [180] 'Medio-proximal outgrowth on basipod'
+		 [181] 'Carinae on endopod and exopod'
+	;
+	STATELABELS
+		1
+		'Absent or as a simple head-shield '
+		'Present '
+		,
+		2
+		'Well-developed, covering the thorax'
+		'Short, covering only the anteriormost thoracic segments'
+		,
+		3
+		'Absent'
+		'Present'
+		,
+		4
+		'Absent'
+		'Present'
+		,
+		5
+		'Absent'
+		'Present'
+		,
+		6
+		'Non-respiratory '
+		'Respiratory'
+		,
+		7
+		'Normal'
+		'All-enveloping '
+		,
+		8
+		'None'
+		'One'
+		'Two'
+		'Three'
+		'Eight'
+		,
+		9
+		'With no overlap'
+		'With overlapping pleurae'
+		,
+		10
+		'Pleura not overlapping that of the anterior (first) pleomere '
+		'Pleura overlapping that of the anterior (first) pleomere'
+		,
+		11
+		'Absent'
+		'Present and fixed'
+		'Present and articulating'
+		,
+		12
+		'Absent'
+		'Present'
+		,
+		13
+		'Absent'
+		'Present'
+		,
+		14
+		'Absent'
+		'Present'
+		,
+		15
+		'Absent'
+		'Present'
+		,
+		16
+		'Present'
+		'Absent'
+		,
+		17
+		'Absent'
+		'Present'
+		,
+		18
+		'Sessile'
+		'Stalked'
+		'Lobed'
+		,
+		19
+		'Absent'
+		'Present'
+		,
+		20
+		'Crystalline cone tetrapartite'
+		'Crystalline cone bipartite'
+		,
+		21
+		'Crystalline cone completely round in transverse section, cone without any extensions'
+		'Cone with two lateral extensions (in transverse section button-like), formed by one cone cell each'
+		,
+		22
+		'Crystalline cones with four cone cell processes'
+		'Only the two accessory cone cell processes are present; the processes of the main cone cells are missing'
+		'All cone cell processes missing'
+		,
+		23
+		'All four cone cell nuclei lying in one plane on top of the cone'
+		'Nuclei of the accessory cone cells distally displaced'
+		,
+		24
+		'No clear zone between crystalline cone and rhabdom (apposition eye)'
+		'Clear zone formed by retinular cells and/or distal pigment cells, cone and rhabdom not in direct contact (superposition eye)'
+		,
+		25
+		'Absent'
+		'Present'
+		,
+		26
+		'Absent'
+		'Present'
+		,
+		27
+		'Absent'
+		'Present'
+		,
+		28
+		'Absent'
+		'Present'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Ten or more'
+		'Nine to four'
+		'Three to one'
+		'Outer ramus absent'
+		,
+		31
+		'Absent'
+		'Present'
+		,
+		32
+		'Ten or more'
+		'Nine to one'
+		,
+		33
+		'Absent'
+		'Present'
+		,
+		34
+		'None'
+		'One'
+		'Two to four'
+		'Eighteen or more'
+		,
+		35
+		'Not modified'
+		'Modified'
+		,
+		36
+		'As long or longer than peduncle articles three plus four'
+		'Half the length of peduncle articles three plus four'
+		,
+		37
+		'One to two'
+		'Three'
+		'Five'
+		'Eight or more'
+		,
+		38
+		'Absent'
+		'Present'
+		,
+		39
+		'State 0'
+		'State 1'
+		,
+		40
+		'None (endopod absent) '
+		'One to two '
+		'Three to four '
+		,
+		41
+		'With lateral setae on articles two and three '
+		'With distal setae on third article only '
+		,
+		42
+		'Stout and tooth-like'
+		'Thin and blade-like or rudimentary'
+		'Absent'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Short and compact, incisor and molar closely set'
+		'Long, incisor and molar widely-spaced'
+		,
+		45
+		'Absent'
+		'Present'
+		,
+		46
+		'Absent'
+		'Present'
+		,
+		47
+		'Absent'
+		'Present'
+		,
+		48
+		'Moderate (small to medium)'
+		'Enlarged to extend well posterior of the mouth field (massive)'
+		,
+		49
+		'Absent'
+		'Present'
+		,
+		50
+		'Moderate'
+		'Enlarged to extend well posterior of the mouth field'
+		,
+		51
+		'Absent or vestigial'
+		' Well-developed'
+		,
+		52
+		'None (exopod absent) '
+		'One to two '
+		,
+		53
+		'None (endopod absent)'
+		'One to two'
+		'Three'
+		,
+		54
+		'Eight to six in number'
+		'Five to four in number '
+		'Three to one in number'
+		'Absent'
+		,
+		55
+		'Longer than wide'
+		'About as wide as long'
+		,
+		56
+		'None (exopod absent) '
+		'One'
+		'Two'
+		,
+		57
+		'Not modified'
+		'Modified'
+		,
+		58
+		'None (endopod absent)'
+		'One to two'
+		'Six'
+		,
+		59
+		'Absent'
+		'Present'
+		,
+		60
+		'Present'
+		'Absent'
+		,
+		61
+		'None (exopod absent) '
+		'One'
+		'Two to four'
+		'Very numerous'
+		,
+		62
+		'Linear'
+		'With expanded basal section'
+		,
+		63
+		'Absent'
+		'Present'
+		,
+		64
+		'One to two'
+		'Three'
+		'Four'
+		'Five '
+		'Six'
+		,
+		65
+		'None'
+		'One'
+		'Two'
+		,
+		66
+		'Respiratory role and similar to those of succeeding thoracopods'
+		'Epipodites producing a respiratory current (irrespective of whether or not the epipodite is respiratory itself)'
+		'Epipodites not producing a respiratory current (and epipodite not respiratory)'
+		,
+		67
+		'Short, linear (or in Isopoda, not expanded into branchial cavity)'
+		'Expanded into branchial cavity'
+		,
+		68
+		'Not modified'
+		'Modified as a cup or spoon-shaped (respiratory) structure'
+		,
+		69
+		'Present'
+		'Absent'
+		,
+		70
+		'None (exopod absent)'
+		'One'
+		'Two'
+		'Three to four'
+		'Very numerous'
+		,
+		71
+		'Flagelliform, or otherwise developed as an elongate process'
+		'Developed as a broad, lamelliform paddle or blade, or otherwise non-flagelliform'
+		,
+		72
+		'One'
+		'Two to three'
+		'Four'
+		'Five'
+		'Six'
+		,
+		73
+		'None'
+		'One'
+		'Two'
+		,
+		74
+		'Absent'
+		'Present'
+		,
+		75
+		'Absent'
+		'Present'
+		,
+		76
+		'Absent'
+		'Present'
+		,
+		77
+		'Absent'
+		'Present'
+		,
+		78
+		'Present'
+		'Absent'
+		,
+		79
+		'None (exopod absent) '
+		'One'
+		'Two'
+		'Three to four'
+		'Very numerous'
+		,
+		80
+		'Flagelliform, or otherwise developed as an elongate process'
+		'Developed as a broad, lamelliform paddle or blade, or otherwise non-flagelliform'
+		,
+		81
+		'One'
+		'Two to three'
+		'Four'
+		'Five'
+		'Six'
+		,
+		82
+		'None'
+		'One'
+		'Two'
+		,
+		83
+		'Absent'
+		'Present'
+		,
+		84
+		'Absent'
+		'Present'
+		,
+		85
+		'Absent'
+		'Present'
+		,
+		86
+		'Absent'
+		'Present'
+		,
+		87
+		'Present'
+		'Absent'
+		,
+		88
+		'None (exopod absent)'
+		'One'
+		'Two'
+		'Three to four'
+		'Very numerous'
+		,
+		89
+		'Flagelliform, or otherwise developed as an elongate process'
+		'Developed as a broad, lamelliform paddle or blade, or otherwise non-flagelliform'
+		,
+		90
+		'One'
+		'Two to three'
+		'Four'
+		'Five'
+		'Six'
+		,
+		91
+		'None'
+		'One'
+		'Two'
+		,
+		92
+		'Absent'
+		'Present'
+		,
+		93
+		'Absent'
+		'Present'
+		,
+		94
+		'Absent'
+		'Present'
+		,
+		95
+		'Absent'
+		'Present'
+		,
+		96
+		'Lateral'
+		'At least one branch carried under the thorax'
+		,
+		97
+		'As far back as thoracopod eight'
+		'As far back as thoracopod six or seven'
+		,
+		98
+		'Oostegites are not reduced '
+		'Oostegites are reduced'
+		,
+		99
+		'Transverse hinge'
+		'Anterioposterior articulation'
+		'Immobile'
+		,
+		100
+		'Dicondylic along anteroposterior axis'
+		'Monocondylic'
+		'Not articulated, or coxa and basis otherwise fused'
+		,
+		101
+		'Absent'
+		'Present'
+		,
+		102
+		'Achelate'
+		'Chelate'
+		,
+		103
+		'Absent'
+		'Present'
+		,
+		104
+		'Present'
+		'Absent'
+		,
+		105
+		'With two or more articles'
+		'With one article'
+		,
+		106
+		'With two or more articles'
+		'With one article'
+		,
+		107
+		'Achelate'
+		'Chelate'
+		,
+		108
+		'Of two or more articles'
+		'Of one article'
+		,
+		109
+		'Present'
+		'Absent'
+		,
+		110
+		'Pendant'
+		'Laterally displaced'
+		,
+		111
+		'Absent'
+		'Present'
+		,
+		112
+		'Present'
+		'Absent'
+		,
+		113
+		'With a few short setae on articles'
+		'With a row of long setae on all articles'
+		,
+		114
+		'All present'
+		'Posterior limbs reduced or absent'
+		,
+		115
+		'None'
+		'One or vestigial'
+		'Two '
+		'Annulate'
+		,
+		116
+		'None'
+		'One or vestigial '
+		'Two'
+		'Annulate'
+		,
+		117
+		'Unmodified'
+		'Modified'
+		,
+		118
+		'Absent'
+		'Present'
+		,
+		119
+		'Small, far from the telson, and not forming a tail fan'
+		'Modified to broad uropods, forming a tail fan with the telson'
+		'Oriented posteriorly and close to the telson, but not forming a tail fan with it'
+		,
+		120
+		'One'
+		'Two or more'
+		,
+		121
+		'None'
+		'One'
+		'Two or more'
+		,
+		122
+		'None'
+		'One set'
+		'Three sets '
+		,
+		123
+		'Round, segment-like'
+		'Dorsoventrally-flattened'
+		,
+		124
+		'Absent'
+		'Present'
+		,
+		125
+		'None'
+		'One'
+		'Two'
+		'Three or more'
+		,
+		126
+		'Fourteen to fifteen'
+		'Sixteen'
+		'Twenty or more'
+		,
+		127
+		'Seven or more segments'
+		'Sx segments'
+		'Five segments'
+		'Four segments'
+		,
+		128
+		'First pleomere fully developed, of similar size and appearance to the more posterior pleomeres'
+		'First pleomere reduced, smaller than the second pleomere'
+		'More pleomeres reduced'
+		,
+		129
+		'All pleon appendages present'
+		'All pleon appendages absent, or up to three highly-reduced and vestigial appendages clearly demarcated from those of the thorax'
+		,
+		130
+		'Not fused'
+		'Fused'
+		,
+		131
+		'Absent'
+		'Present'
+		,
+		132
+		'Anterior section of similar size to posterior '
+		'Anterior section enlarged with respect to posterior'
+		,
+		133
+		'With setae'
+		'With teeth or ossicles'
+		,
+		134
+		'Absent'
+		'Present'
+		,
+		135
+		'Absent'
+		'Present'
+		,
+		136
+		'Absent'
+		'Present'
+		,
+		137
+		'Absent'
+		'Present'
+		,
+		138
+		'Absent'
+		'Present'
+		,
+		139
+		'Numerous'
+		'Eight to six'
+		'Three'
+		'Two'
+		'One'
+		,
+		140
+		'By ectoderm'
+		'At the border between the stomodaeum and proctodaeum'
+		,
+		141
+		'Unpaired entoderm plates'
+		'Paired entoderm plates'
+		,
+		142
+		'Absent'
+		'Present'
+		,
+		143
+		'Terminal'
+		'Ventral'
+		,
+		144
+		'In whole thorax and pleon'
+		'In thorax'
+		'Only in posterior part of the thorax and pleon'
+		,
+		145
+		'Elongate'
+		'Short and bulbous'
+		,
+		146
+		'More than five'
+		'Five'
+		'Three'
+		'Two'
+		'One'
+		'None'
+		,
+		147
+		'Absent'
+		'Present'
+		,
+		148
+		'Absent'
+		'Present'
+		,
+		149
+		'The undivided sternal artery passes through the ventral nervous system'
+		'Sternal artery branches off into three branches dorsal to the ventral nervous system, all branches passing separately through the nerve cord'
+		,
+		150
+		'Absent, arteries arising only from the anterior and posterior ends of the heart'
+		'Present'
+		,
+		151
+		'Simple'
+		'Precaridoid'
+		'Caridoid'
+		,
+		152
+		'Absent'
+		'Present'
+		,
+		153
+		'Ventral nerve cord with unfused, paired ganglia and double ventral commisures'
+		'Ventral nerve cord with fused ganglia'
+		,
+		154
+		'One'
+		'Two'
+		,
+		155
+		'Segments 6-8'
+		'Segment 11'
+		,
+		156
+		'No modification or rudimentary modifications'
+		'Stomatopod petasma, including modifications of the exopod of the second pleopod'
+		'Endopod of the first pleopod completely modified for sperm transfer, modifications different in the second endopod'
+		,
+		157
+		'Absent'
+		'Present'
+		,
+		158
+		'Anamorphic'
+		'Metamorphic'
+		'Epimorphic or direct'
+		,
+		159
+		'Present'
+		'Absent'
+		,
+		160
+		'None'
+		'Egg nauplius only'
+		'Present without fronto-lateral horns '
+		,
+		161
+		'Absent'
+		'Present'
+		,
+		162
+		'None'
+		'Brood care with thoracopods, but without feeding by the mother'
+		'Brood care attaching the eggs to the pleopods'
+		'Brood care using a dorsal brood pouch'
+		'Brood care using a marsupium formed by oostegites'
+		,
+		163
+		'Advanced development of anterior head appendages'
+		'Continuous anterioposterior decrease in the degree of appendage formation'
+		,
+		164
+		'Superficial cleavage'
+		'Mixed cleavage'
+		'Total cleavage '
+		,
+		165
+		'Nineteen'
+		'Variable'
+		'None'
+		,
+		166
+		'Forming a ring around the caudal papilla giving rise to embryonic ventral and dorsal material'
+		'Forming a transverse row (only the ventral side of the embryo is formed by ectoteloblasts and the dorsal side is closed much later in development)'
+		,
+		167
+		'Ventrally folded'
+		'With a dorsal fold'
+		,
+		168
+		'Posterior part of the embryo contains no yolk'
+		'Posterior part of the embryo contains yolk'
+		,
+		169
+		'Eight'
+		'Seven'
+		'Six '
+		,
+		170
+		'Present'
+		'Absent'
+		,
+		171
+		'Simple layer'
+		'Cup shaped '
+		,
+		172
+		'Absent'
+		'Present'
+		,
+		173
+		'Present'
+		'Absent'
+		,
+		174
+		'Absent'
+		'Present'
+		,
+		175
+		'Present'
+		'Absent (chromatin diffuse) '
+		,
+		176
+		'Absent'
+		'Present'
+		,
+		177
+		'Present'
+		'Doublet'
+		'Centriolar root homologue (cross-striated pseudoflagellum)'
+		'Absent'
+		,
+		178
+		'Rod-shaped'
+		'Leaf-shaped'
+		,
+		179
+		'Absent'
+		'Present'
+		,
+		180
+		'Absent '
+		'Present'
+		,
+		181
+		'Absent'
+		'Present'
+		
+	;
+	MATRIX
+	'Stomatopoda'		               10101001102010111100-00011111000020-?0?20010001000101100-1110--2100010-21000010-21000010-2100000--00?00(0,1)--010?00001101102110301000111101110001100010-1101001111?01000000-0-0001111001
+	'Bathynellacea'		             0-000--0000000010-1-----???0?21101(0,1)1?002110-0?100?000200-111100(2,1)10001101100001101100001101100000--00000011000?0000---0201101002011?0?1???????101150--0??1?00011?000???0?-????????0000
+	'Anaspidacea'		               0-000--11010010111010101110110001111?00200100?100?001200-110100320001403200001403200001403200000--00100000000000003100101110(0,1)0100010011100-0011004111021100202-?0002000001000001?1001
+	'Euphausiacea'		              101010040010100111010111101110001110?10200100110000012010100200310101203100001203100001203100001--0000001100000000110010211100100011111111?00111131110211000110?00020000-0-0101(1,0)?1111
+	'Dendrobranchiata'		          10100104101110111100-001111110001110?101001000100010120111000--220101402101111403100111203100110--0001001110000000110010111030100011111111000111111100211002010?00022-00-0-?00(1,0)131101
+	'Procaridea'		                1000100411110011110????111111000?110?10200100?100010120111003110101?1403100001403100001403100010--0000000000000000311010111020100011?111110001111?????211?00111?020?000?-???100101101
+	'Caridea'		                   10001004111000111100-001111110001110?10(2,0)001001000000120111001110101010-31000011011000010-300001---0001000000000000111010111030100011111111000111111100211100111?020(0,1)0000-100100101000
+	'Stenopodidea'		              1000100410110011110?????????1000?110?10200100?000010120111001001101011031011110-31001110-3100110--00010000100000001110101110201100111111110??11?1????1211100011?0201????-???100??1101
+	'Reptantia'		                 10101004111100111100-0011(1,0)(1,0)110001110?102020-00000010120111002100101013031011012031011010-3101100--000100--10010000111010111030110011111111000111121101211102111?020(0,1)0000-1000(0,1)11(0,2)1101
+	'Mysida'		                    101111030011001111011111001010001110?102001011101?00(1,0)20101001003111014030(0,1)00014030(0,1)00014030(0,1)000-001110000000010(0,1)(0,1)(0,1)1100102110(1,2)010001111111120111103111121100002-?040011010111000121011
+	'Lophogastrida'		             101110011011001111011111001010000110?102001011101?0012010110100311-014031100014031100014031100010011100000000101113300102110101000101111111??11102111121100002-?040?110??????????1011
+	'Mictacea'		                  1100110100100001010-----0????101?111???2011111100?000200-1100--30---120301000120301000120301000-1?21001000011101111100112110101000?0?????????111040--???110002-?14????1??????????0000
+	'Bochusacea'		                11001?0100(0,1)00(0,1)010-1-----0????(2,1)01?111?0?211111?100?000200-1100--30---1203000001(2,3)0301000130(2,3)01000-1?2100100000110011(1,0)(1,0)001121101010001??????????11?0???????1?0002-?14???????????????0000
+	'Isopoda'		                   0-000--100(0,1)0000110110110000003-10(1,0)11?(0,1)02001011100?000200-0100--3120010-30100010-30100010-301000-01210001--011011112101(1,0)1011010(2,3)201000101114111110310-100100002-?141211111111000020000
+	'Amphipoda'		                 0-000--100(0,1)0000110(0,1)102100000010000--?10(1,0)001011100?00(1,0)200-0000--20---10-30000010?31(0,1)00010-3110001102(0,1)0001--011010(0,1)1330021021010100010010111301112020--100100002-?(0,1)4122-010110000020000
+	'Thermosbaenacea'		           1110110100000(0,1)010-0-----???0?1000(1,0)1-??02011111100?00121101001000111010-300000120300000120300000---2100000000000000100010211010201010011010411101140--0011?0002-?(0,1)30100012110?????1000
+	'Cumacea'		                   11001103100000111(1,2)1?????0000010100--?000?01111100?10120100101003111110-300000140301000140301000-112100000000100011120020211030(1,2)00(0,1)000111114??111140--1?01?0002-?141011111110000020000
+	'Tanaidacea'		                110011020000001112(0,1)10?100000010101(0,1)1?00(2,0)001111100?00(1,0)200-0110--2111112030000010-30(0,1)00010-30(0,1)000-112(0,1)000000000000(0,1)(0,1)110020211010(1,2)20100011111411101030--100100002-?1411111110-10000?0000
+	'Spelaeogriphacea'		          1110110100(0,1)(0,1)00010-(0,1)-----0??0?000?(1,0)1(1,0)??02011111100?00(1,0)210-0?00--311(0,1)1120301000120301000120301000-1?2100(0,1)(0,1)1(1,0)0(1,0)(0,1)00111110010211010(1,2)00000?1???14??111030--?10110002-?14???????????????1000
+	'Leptostraca'		               10100110102010001100-0000001021110--?102011000000?01120101101(0,1)0210001112100001112100001112100000--2??000010100000012000--00101000100?00000-00100000--100100012-?01000000010011010----
+	'Brachypoda'		                0-001--0110000101-0-----000003-0?30-?010--1-0001010120020210210410000204100000204100000204100000--2200000000000000---0---001020-10?0?00000-??00??????000??0?000?010?????-???000?3----
+	'Anostraca'		                 0-000--000-10101110?????101103-1?0--?01(1,0)--1-0001010003-0-110110020000110200000110200000110200000--2200001100000000---0---001020-1000?00000-??000000--0000?1?000?0002100?-???11000----
+	'Notostraca'		                10?0000000000010100?????100103-1?0--?010--1-0000000003-0-110110010100110100000110100000110100000--2200001100010000---0---00102001000?00000-??011000--0000?1?000?000?????-???11000----
+	'Tealliocaris'		              10101?04111?01?110??????????000?110??0??010???0??0??????1????????????0??0?????0??0?????0??0????--?0?000??0?010-00??0?101110?01110???????????????????????????????????????????????1001?
+	'Oxyuropoda'		                ???????2010??????????????????????????????0?-??????????????????????????????????????????????????????????????????????????2???00?????????????????????????????????????????????????????000?
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='It is debatable whether the condition in the Mictacea should be scored as a head shield or a carapace. Schram (1986) and Wills (1997) referred to the structure as a head-shield, despite the presence of marginal flaps that partially envelop the bases of the cephalic appendages. Richter and Scholtz (2001) preferred to code the structure as a carapace. We adopt the latter approach here.';
+	TEXT CHARACTER=3 TEXT='A fold arising from and attached to a thoracic segment. In Malacostraca, this always arises from the posterior margin of the cephalothoracic shield (Dahl 1991).';
+	TEXT CHARACTER=8 TEXT='Wills (1998) coded a similar character for the number of trunk somites giving rise to branchiostegal folds. Here, we adopt the interpretation and coding of Richter and Scholtz (2001), such that taxa without a carapace can also be coded.';
+	TEXT CHARACTER=10 TEXT='Richter & Scholtz (2001)';
+	TEXT CHARACTER=12 TEXT='(see also Poore 2005)';
+	TEXT CHARACTER=19 TEXT='An ocular lobe can be present in the absence of compound eyes, and vice versa';
+	TEXT CHARACTER=44 TEXT='Scored as inapplicable for taxa lacking an incisor, molar or both';
+	TEXT CHARACTER=96 TEXT='This character is scored as inapplicable for taxa without epipodites.';
+	TEXT CHARACTER=97 TEXT='This character is scored as inapplicable for taxa without oostegites';
+	TEXT CHARACTER=104 TEXT='Stomatopods bear exopods on the 6th thoracopods, but not on the 5th (fifth maxillipedes). They are therefore scored as (1,2).';
+	TEXT CHARACTER=124 TEXT='Richter and Scholtz (2001) score telson appendages in the Leptostraca and Bathynellacea. Schram (1986) additionally records their presence in the Euphausiacea.';
+	TEXT CHARACTER=125 TEXT='Richter and Scholtz (2001) prefer to break the single character for the number of maxillipeds used by Schram and Hof (1998) and Wills (1997) down into two. The first codes for the first maxilliped (presence/absence) since this is regarded as a robust homology. The second codes for the transformation of additional and subsequent thoracopods (none, second and third, or five), where homologies between groups are less certain. We assume that this second character is unordered, recognizing only that different, homologous conditions exist, but not associating these in an ordered sequence according to actual number';
+	TEXT CHARACTER=139 TEXT='Scored as inapplicable for taxa lacking an inferomedianum posterius.^n^n';
+	TEXT CHARACTER=145 TEXT='(Watling, 1983)';
+	TEXT CHARACTER=148 TEXT='Coded as inapplicable in taxa lacking an arteria subneuralis/supraneuralis.';
+	TEXT CHARACTER=149 TEXT='Coded as inapplicable in taxa lacking an arteria subneuralis/supraneuralis.';
+	TEXT CHARACTER=159 TEXT='Coded as inapplicable for taxa with epimorphic or direct development';
+	TEXT CHARACTER=169 TEXT='Scored as inapplicable for taxa without direct development.';
+	TEXT CHARACTER=178 TEXT='Leaf-shaped, sensu Kutschera et al. 2012';
+	TEXT CHARACTER=179 TEXT='Sensu Kutschera et al. 2012';
+	TEXT CHARACTER=180 TEXT='Sensu Kutschera et al. 2012';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 181;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1621888496322; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4657581848210645985; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5664490674332052488; mqVersion 303; checksumv 0 3 2893379184 null getNumChars 181 numChars 181 getNumTaxa 25 numTaxa 25 short true bits 63 states 63 sumSquaresStatesOnly 30989.0 sumSquares 30989.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1876 899; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5664490674332052488 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; columnWidth 0 21; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1776 827; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 181; 
+ENDBLOCK;

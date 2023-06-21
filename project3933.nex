@@ -1,0 +1,303 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.30.04 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=21;
+    TAXLABELS
+    		'Tricoelodus spp.'
+		'Polymorphis lechei'
+		'Cramauchenia normalis'
+		'Coniopternium spp.'
+		'Pternoconius spp.'
+		'Llullataruca shockeyi'
+		'Theosodon spp.'
+		'Cullinia levis'
+		'Huayqueriana cristata'
+		'Scalabrinitherium bravardi'
+		'Oxyodontherium zeballosi'
+		'Paranauchenia denticulata'
+		'Paranauchenia hystata'
+		'Promacrauchenia antiquua'
+		'Promacrauchenia calchaquiorum'
+		'Xenorhinotherium bahiense'
+		'Macrauchenia patachonica'
+		'Macraucheniopsis ensenadensis'
+		'Windhausenia delacroixi'
+		'Promacrauchenia sp. (Anaya and Macfadden 1995)'
+		'Micrauchenia saladensis'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=43;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Development of nasals'
+		 [2] 'Orbit postorbital bar'
+		 [3] 'Entoconid on m1-m2'
+		 [4] 'Trigonid of m1'
+		 [5] 'Entoconid on m3'
+		 [6] 'Length of m2'
+		 [7] 'Position of coronal plane passing through infraorbital foramen'
+		 [8] 'Snout in dorsal view'
+		 [9] 'Orbit, coronal plane passing through rostral border'
+		 [10] 'Nasal aperture caudal border'
+		 [11] 'Anterior palatal shape'
+		 [12] 'Outline of premaxillary area in palatal view'
+		 [13] 'Premaxillary area in lateral view'
+		 [14] 'Frontal fossae on caudal margin of nasal aperture'
+		 [15] 'Height of tooth crown (HI: crown height/labiolingual width; Janis 1988) based on m3 when possible'
+		 [16] 'Diastema between I3-C'
+		 [17] 'Parastyle on P3-P4'
+		 [18] 'Concavities between lingual styles (parastyle-mesostyle-metastyle) on M1-M3'
+		 [19] 'Position of hypocone on M1-M2'
+		 [20] 'Position of hypocone vs protocone on M2'
+		 [21] 'Anterolingual cingulum (precingulum) on M1-M2'
+		 [22] 'Hypolophulid on p4'
+		 [23] 'Entolophid on m1-m2'
+		 [24] 'Hypoconulid on m3'
+		 [25] 'Paralophid on m1-m2'
+		 [26] 'Metaconid on m2'
+		 [27] 'Implantation of c-p2 series'
+		 [28] 'Trigonid valley on p4'
+		 [29] 'Entoconid on p4'
+		 [30] 'Choana, rostral border (=posterior border of palate)'
+		 [31] 'Sagittal crest'
+		 [32] 'Basioccipital, median crest'
+		 [33] 'Skull shape (ratio SL/SW)'
+		 [34] 'Occipital condyles'
+		 [35] 'Odontoid notch'
+		 [36] 'Fusion of ulna and radius'
+		 [37] 'Presence of a radial aliform expansion'
+		 [38] 'Medio-lateral development of the radial aliform expansion (URA/URD)'
+		 [39] 'Scaphoid, number of articular facets for the trapezoid'
+		 [40] 'Cuneiform, facet for the magnum'
+		 [41] 'Pisiform shape'
+		 [42] 'Atlas, posteriormost border of transverse processes '
+		 [43] 'Axis, relative dorsoventral height of articular facets for the atlas (WA/HA; WA: Width of one anterior articular surface for the atlas; HA:  Dorsoventral height of one anterior articular surface for the atlas)'
+	;
+	STATELABELS
+		1
+		'developed overhanging the nasal aperture'
+		'reduced'
+		'vestigial or absent'
+		,
+		2
+		'open large gap'
+		'open small gap'
+		'closed'
+		,
+		3
+		'developed reaches lingual level of metaconid'
+		'weak does not reach lingual level of the metaconid'
+		'absent'
+		,
+		4
+		'uncompressed'
+		'slightly compressed against the talonid of p4'
+		'strongly compressed against the talonid of p4'
+		,
+		5
+		'developed and joined to hypolophid (cristid obliqua)'
+		'incipient on the hypolophid (cristid obliqua)'
+		'joined to hypolophulid'
+		'absent'
+		,
+		6
+		'small (5-20 mm)'
+		'medium (21-35 mm)'
+		'large (36-45 mm)'
+		'very large (more than 45 mm)'
+		,
+		7
+		'anterior to M1'
+		'anterior to M2'
+		'anterior to M3'
+		'over M3'
+		,
+		8
+		'premaxillae and maxillae separated sagittally'
+		'premaxillae sutured sagittally'
+		'premaxillae and maxillae sutured sagittally'
+		,
+		9
+		'anterior to posterior border of M3'
+		'level with posterior border of M3'
+		'considerably posterior to M3 (equivalent to one tooth-length gap)'
+		,
+		10
+		'anterior to orbit'
+		'level with orbit'
+		,
+		11
+		'lateral borders almost parallel'
+		'narrowing at P2 or P3 level'
+		,
+		12
+		'acute'
+		'rounded'
+		,
+		13
+		'slightly ventrally curved'
+		'straight'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'brachyodont (HI < 1.45)'
+		'mesodont (HI ≥ 1.45)'
+		,
+		16
+		'present'
+		'absent'
+		,
+		17
+		'labially projected'
+		'level with mesostyle and metastyle'
+		,
+		18
+		'shallow'
+		'deep'
+		,
+		19
+		'hypocone level with metacone'
+		'hypocone near protocone mesial to metacone'
+		,
+		20
+		'hypocone labial to protocone'
+		'hypocone lingual to protocone'
+		,
+		21
+		'noticeably more lingual than posterolingual cingulum'
+		'slightly lingual or at same level as posterolingual cingulum'
+		,
+		22
+		'shorter than paralophid'
+		'similar in length to paralophid'
+		,
+		23
+		'present'
+		'absent'
+		,
+		24
+		'expanded forming a third lobe'
+		'not expanded'
+		,
+		25
+		'labial to lingual border of metaconid'
+		'level with or lingual to lingual border of metaconid'
+		,
+		26
+		'labial or level with paraconid and entoconid/hypoconulid'
+		'projects lingual to level of paraconid and entoconid/hypoconulid'
+		,
+		27
+		'oblique'
+		'parallel to mandibular border'
+		,
+		28
+		'larger than talonid valley'
+		'similar in size to talonid valley'
+		,
+		29
+		'present'
+		'absent'
+		,
+		30
+		'level with or anterior to posterior border of M2'
+		'posterior to M2'
+		,
+		31
+		'present'
+		'absent'
+		,
+		32
+		'absent or vestigial'
+		'present'
+		,
+		33
+		'short and wide (SL/SW ≤ 2.3)'
+		'long and narrow (SL/SW > 2.3)'
+		,
+		34
+		'protruding at level of nuchal crest in lateral view'
+		'not protruding at level of nuchal crest in lateral view'
+		,
+		35
+		'U-shaped'
+		'V-shaped'
+		,
+		36
+		'unfused'
+		'fused'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'moderately wide (URA/URD < 1)'
+		'expanded (URA/URD ≥ 1)'
+		,
+		39
+		'two (ridge separating the facets)'
+		'one (no ridge, continuous facet)'
+		,
+		40
+		'entirely lateral'
+		'extending over the magnum proximally'
+		,
+		41
+		'moderately proximo-distally expanded at the posterior end '
+		'greatly proximo-distally expanded at the posterior end'
+		,
+		42
+		'anterior to atlas''s articular facet for the axis '
+		'posterior to atlas''s articular facet for the axis'
+		,
+		43
+		'high (WA/HA < 0.9)'
+		'low (WA/HA ≥ 0.9)'
+		
+	;
+	MATRIX
+	'Tricoelodus spp.'		                                        ??0020????????0?1001110000?01??????????????
+	'Polymorphis lechei'		                                      ??0020????????0?1001100000111??????????????
+	'Cramauchenia normalis'		                                   00013000000100001001010100?11?010000??00?0?
+	'Coniopternium spp.'		                                      ??0100????????0??0?1000100?01??????0???0???
+	'Pternoconius spp.'		                                       ??0020????0???0??100000100111??????????????
+	'Llullataruca shockeyi'		                                   ??0100????????0??101110100001??????0???????
+	'Theosodon spp.'		                                          1000011100011000101000011(0,1)11100111100-00000
+	'Cullinia levis'		                                          ??0?1(0,1)????????0?00?1100110011???????????1??
+	'Huayqueriana cristata'		                                   21?2?122(0,1)11100?0?1111??1?0???1(0,1)0110????????
+	'Scalabrinitherium bravardi'		                              2-0(0,1)0122011110000111000110?11111?01????????
+	'Oxyodontherium zeballosi'		                                21003(0,1)2201100?010111000110?110?0??0????????
+	'Paranauchenia denticulata'		                               ??1?012?0?????0?01011?0111??1??????????????
+	'Paranauchenia hystata'		                                   ??11?1???????????1?1?00?11111??????????????
+	'Promacrauchenia antiquua'		                                ?111112?0?1000110110110110011111101110?11??
+	'Promacrauchenia calchaquiorum'		                           2?????22111000?101101????????1111??????????
+	'Xenorhinotherium bahiense'		                               2201322?211011111110110110010?1?101111??1??
+	'Macrauchenia patachonica'		                                222232(2,3)221111110110111111001111010111111111
+	'Macraucheniopsis ensenadensis'		                           ??2233???1111?100110111110011??????????????
+	'Windhausenia delacroixi'		                                 ??10?2???1???1???????10?1?010?1??01????????
+	'Promacrauchenia sp. (Anaya and Macfadden 1995)'		          ??2231????????1??????11110?11??????111?????
+	'Micrauchenia saladensis'		                                 ???????????????????????????????????11111111
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+        [Character comments]
+        	TEXT CHARACTER=33 TEXT='SL: Anteroposterior skull lenght [measured from the occipital condyles to the incisors; SW: Medio-lateral skull width [measured between the external border of the zygomatic arches]';
+	TEXT CHARACTER=38 TEXT='URA: Ulna-radius maximum width at the level of the radial aliform expansion; URD: Ulna-radius distal medio-lateral articular width.';
+	TEXT CHARACTER=39 TEXT='presence of a ridge diving the trapezoid facet into two parts, one anterior and one posterior';
+
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = ord: 1 - 3 7 - 8, unord: 4 - 6 9 - 43;
+      ENDBLOCK;
+      

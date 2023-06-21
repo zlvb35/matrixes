@@ -1,0 +1,816 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 19.44.35 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=46;
+    TAXLABELS
+    		'Elymnias hypermnestra'
+		'Bia actorion'
+		'Aponarope sutor'
+		'Narope cyllabarus'
+		'Narope cyllarus'
+		'Narope cyllastros/cyllene'
+		'Narope nesope'
+		'Narope panniculus'
+		'Brassolis isthmia'
+		'Brassolis astyra'
+		'Brassolis sophorae'
+		'Dynastor darius'
+		'Dynastor napoleon'
+		'Dasyophthalma creusa'
+		'Dasyophthalma rusina'
+		'Opoptera aorsa'
+		'Opoptera arsippe'
+		'Opoptera fruhstorferi'
+		'Opoptera staudingeri'
+		'Opoptera syme'
+		'Caligopsis seleucida'
+		'Eryphanis automedon'
+		'Eryphanis lycomedon'
+		'Eryphanis reevesii'
+		'Caligo atreus'
+		'Caligo beltrao'
+		'Caligo illioneus'
+		'Caligo martia'
+		'Penetes pamphanis'
+		'Selenophanes cassiope'
+		'Selenophanes josephus'
+		'Catoblepia amphirhoe'
+		'Catoblepia berecynthia'
+		'Catoblepia orgetorix'
+		'Catoblepia xanthus'
+		'Catoblepia xanthicles'
+		'Mielkella singularis'
+		'Orobrassolis ornamentalis'
+		'Blepolenis bassus'
+		'Blepolenis batea'
+		'Opsiphanes boisduvallii'
+		'Opsiphanes bogotanus'
+		'Opsiphanes cassina'
+		'Opsiphanes invirae'
+		'Opsiphanes quiteria'
+		'Opsiphanes tamarindi'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=134;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="01234";
+	CHARLABELS
+		 [1] 'Eye pubescence'
+		 [2] 'FW Sc'
+		 [3] 'FW R1'
+		 [4] 'FW R3'
+		 [5] 'Nearest vein to FW apex'
+		 [6] 'HW pre-costal cell'
+		 [7] 'Prominent HW tail at M3'
+		 [8] 'Prominent HW tail at Cu2'
+		 [9] 'Male midleg, dorsal spines on femur'
+		 [10] 'Male midleg, lateral rows of spines on tibia'
+		 [11] 'Male midleg, outer, lateral row of spines on tibia'
+		 [12] 'Male midleg, tibial spurs'
+		 [13] 'Male midleg, dorsal spines on tarsus'
+		 [14] 'Male mid- and hindlegs, colour of distal edge of each segment and tarsal sub-segment'
+		 [15] 'Abdominal scent organs located on the pleural membrane of the fourth abdominal segment'
+		 [16] 'In dorsal and dorsolateral views, anterolateral constriction of the tegumen'
+		 [17] 'In dorsal and dorsolateral views, lateral protrusion of the tegumen'
+		 [18] 'In lateral view, dorsal outline of tegumen'
+		 [19] 'Hairpencil on dorsoposterior portion of tegumen'
+		 [20] 'Hairpencil on dorsomedial portion of tegumen'
+		 [21] 'Hairpencil on dorsolateral portion of tegumen'
+		 [22] 'Hairpencil on dorsomedial portion of tegumen - 2'
+		 [23] 'In lateral view, separation between pedunculum and vinculum'
+		 [24] 'In ventral view, saccus'
+		 [25] 'Heavier sclerotization of the dorsal edge of valva'
+		 [26] 'Heavier sclerotization of the dorsal edge of valva - 2'
+		 [27] 'Heavily sclerotized valva tip'
+		 [28] 'Heavily sclerotized portion of the dorsal edge of valva'
+		 [29] 'Even-shaped spines of the dorsal edge of valva'
+		 [30] 'Uneven-shaped spines or projections of the dorsal edge of valva'
+		 [31] 'Groove at the articulating point between valva and appendices angulares'
+		 [32] 'Thin, setae-bearing flange associated with the dorsal, basal region of valva'
+		 [33] 'Finger-shaped protuberance at the dorsal, basal third of valva'
+		 [34] 'Basal, internal region of valva'
+		 [35] 'Distal opening of phallus'
+		 [36] 'Thin, dorsal prong of phallus'
+		 [37] 'Peg-like setae on phallus shaft'
+		 [38] 'Coecum penis'
+		 [39] 'Lateral uncus wings, as they extend posteriorly into uncus process'
+		 [40] 'In ventrolateral view, pocket of setae in the membrane ventral to the uncus wings'
+		 [41] 'In lateral view, posterior uncus process'
+		 [42] 'In dorsal view, posterior uncus process'
+		 [43] 'Distal portion of posterior uncus process'
+		 [44] 'Uncus ventrolateral microtrichia'
+		 [45] 'Length of setae at posterior uncus process'
+		 [46] 'Gnathos'
+		 [47] 'Gnathos, posterior expansion of proximal region'
+		 [48] 'Gnathos, dorsal expansion of proximal region'
+		 [49] 'Gnathos, anterior expansion of proximal region'
+		 [50] 'Gnathos, distal region'
+		 [51] 'Gnathos, distal region - 2'
+		 [52] 'Gnathos - 2'
+		 [53] 'Female foreleg, dorsal spines on tibia'
+		 [54] 'Female foreleg, number of tarsomeres'
+		 [55] 'Female foreleg, pulvillar pad'
+		 [56] 'Female foreleg, ventral tarsomere spines'
+		 [57] 'Female foreleg, basal tarsomere (tm1)'
+		 [58] 'Female foreleg, third tarsomere (tm3)'
+		 [59] 'Intersegmental sac between seventh abdominal sternite (Stn7) and sterigma'
+		 [60] 'Degree of sclerotization of the intersegmental sac between Stn7 and sterigma'
+		 [61] 'Orientation of the anterior ribs of the intersegmental sac between Stn7 and sterigma'
+		 [62] 'Anterior ribs of the intersegmental sac between Stn7 and sterigma'
+		 [63] 'Lateral section of sterigma'
+		 [64] 'Lateral section of sterigma - 2'
+		 [65] 'Anterior section of sterigma (‘lamella antevaginalis’)'
+		 [66] 'Anterior section of sterigma (‘lamella antevaginalis’), broad flap extended to cover ostium bursa'
+		 [67] 'Lateral sections of sterigma'
+		 [68] 'Posterior section of sterigma (‘lamella postvaginalis’)'
+		 [69] 'Inward projections of sterigma'
+		 [70] 'Antrum'
+		 [71] 'Corpus bursa'
+		 [72] 'Signa'
+		 [73] 'Signa - 2'
+		 [74] 'Signa - 3'
+		 [75] 'Sclerotized base of the posterior apophyses'
+		 [76] 'Sclerotized base of the posterior apophyses, anterior expansion that forms ventral flaps'
+		 [77] 'Posterior edge of sclerotized base of the posterior apophyses'
+		 [78] 'Setae on posterior edge of sclerotized base of the posterior apophyses'
+		 [79] 'In lateral view, papillae anales'
+		 [80] 'In lateral view, posterior contour of papilla anales'
+		 [81] 'Egg, chorion, longitudinal ribs'
+		 [82] '1st instar, head surface'
+		 [83] '1st instar, head tubercles'
+		 [84] '1st instar, head tubercle closest to midline on head vertex'
+		 [85] '1st instar, plumose setae on head'
+		 [86] '1st instar, plumose setae on head - 2'
+		 [87] '1st instar, flat, broad setae on head'
+		 [88] '1st instar, mandible'
+		 [89] '1st instar, hypostome'
+		 [90] '1st instar, number of setae in the Sv series of abdominal segment 3'
+		 [91] '1st instar, seta D2 of anal shield'
+		 [92] '1st instar, when displaced distally, seta D2 of anal shield'
+		 [93] '5th instar, head shape in frontal view'
+		 [94] '5th instar, apical head scoli closest to midline on vertex'
+		 [95] '5th instar, apical head scoli closest to midline on vertex - 2'
+		 [96] '5th instar, dorsal head scolus'
+		 [97] '5th instar, secondary projections on apical head scoli closest to midline on vertex'
+		 [98] '5th instar, additional head scoli in the apical series'
+		 [99] '5th instar, orientation of head scoli in the apical series'
+		 [100] '5th instar, posterior head scoli series'
+		 [101] '5th instar, row of setae behind apical head scolus closest to midline, near posterior margin of head'
+		 [102] '5th instar, row of setae behind head scolus closest to midline, near posterior margin of head'
+		 [103] '5th instar, plumose setae on genae'
+		 [104] '5th instar, tubercle between the mandible and stemmata II and IV'
+		 [105] '5th instar, cluster of differentiated secondary setae between stemmata I-IV and V'
+		 [106] '5th instar, cluster of differentiated secondary setae between stemmata I-IV and base of mandible, dorsal section'
+		 [107] '5th instar, number of setae on mandibles'
+		 [108] '5th instar, chalazae on dorsal surface of body'
+		 [109] '5th instar, row of finger-like (tall), contiguous chalazae lining subspiracular edge of body'
+		 [110] '5th instar, densely packed row of spines formed by enlarged cuticular sculpturing at T1-3 midline'
+		 [111] '5th instar, oval markings on dorsal abdominal midline formed by enlarged cuticular sculpturing'
+		 [112] '5th instar, fleshy tubercles on dorsal midline'
+		 [113] '5th instar, tip of secondary setae on dorsal surface of the body'
+		 [114] '5th instar, short, club-shaped setae between last pair of prolegs'
+		 [115] '5th instar, proleg crochets (scored for proleg on third abdominal segment)'
+		 [116] '5th instar, caudae'
+		 [117] '5th instar, tubercles on caudae'
+		 [118] '5th instar, anal comb'
+		 [119] 'Pupa, predominant color'
+		 [120] 'Pupa, head projections'
+		 [121] 'Pupa, continuous brown line along antenna'
+		 [122] 'Pupa, dark lateral line'
+		 [123] 'Pupa, dark lateral line - 2'
+		 [124] 'Pupa, dark, differentiated setae on the dorsal midline'
+		 [125] 'Pupa, dorsal midline of thoracic segment 2'
+		 [126] 'Pupa, basilar tubercles'
+		 [127] 'Pupa, dorsal edge of wing pad'
+		 [128] 'Pupa, keel at the dorsal edge of wing pad'
+		 [129] 'Pupa, milky spots at the dorsal edge of wing pad'
+		 [130] 'Pupa, wing trachea'
+		 [131] 'Pupa, dorsal abdominal midline'
+		 [132] 'Pupa, dorsum of abdominal segment 6'
+		 [133] 'Pupa, in dorsal view, constriction at the base of the cremaster, between abdominal segments 9 and 10'
+		 [134] 'Pupa, in dorsal view, cremaster'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'inflated'
+		'not inflated'
+		,
+		3
+		'anastomosed with Sc'
+		'not anastomosed with Sc'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'R3'
+		'R4'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'on outer side only (ie, one lateral row)'
+		'on both sides (ie, two lateral rows)'
+		,
+		11
+		'limited to the lateral portion of the tibia'
+		'slightly extended dorsally'
+		'fully extended dorsally'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'similar to the colour of the segment / sub-segment'
+		'lighter, forming rings that contrast the colour of the segment / sub-segment'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'arched both anteriorly and posteriorly'
+		'straight anteriorly and arched posteriorly'
+		'straight both anteriorly and posteriorly'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'short'
+		'long'
+		,
+		23
+		'visible'
+		'pedunculum and vinculum seamlessly amalgamated, synscleritous'
+		,
+		24
+		'shorter than the genitalic capsule is wide'
+		'equal to, or longer than the genitalic capsule is wide'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'does not extend to the valva tip'
+		'extends just to the valva tip'
+		'encircles the valva tip'
+		,
+		27
+		'broader than shaft'
+		'narrower than shaft'
+		,
+		28
+		'with minute ribbed serrations'
+		'with even-shaped spines'
+		'with uneven-shaped spines or projections'
+		,
+		29
+		'expanding for up to half the valva length'
+		'expanding for almost the entire valva length'
+		,
+		30
+		'spread apart'
+		'clustered together'
+		,
+		31
+		'absent'
+		'limited to the base of valva'
+		'extended distally for ca one-third of the valva length'
+		,
+		32
+		'absent'
+		'present membranous'
+		'present, sclerotized'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'similar in sclerotization to distal region'
+		'conspicuously less sclerotized than distal region'
+		,
+		35
+		'dorsal'
+		'dorsolateral'
+		'ventrolateral'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'vanishing gradually'
+		'merging to form a single, prominent dorsal keel'
+		'forming two dorsolateral keels'
+		'forming two dorsolateral humps'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'straight at base and bending at tip'
+		'evenly arched'
+		,
+		42
+		'mid region similar to or narrower than base'
+		'mid region clearly broader than base'
+		,
+		43
+		'blunt'
+		'sharp, sclerotized point'
+		'bifid'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'all setae short'
+		'all setae medium length'
+		'some or all setae long'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'smooth'
+		'spiny'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'clearly narrower than proximal region'
+		'similar to or wider than proximal region'
+		,
+		51
+		'smooth'
+		'spiny'
+		,
+		52
+		'adjoining lateral uncus wing and tegumen approximately equally'
+		'adjoining tegumen more extensively than lateral uncus wing'
+		'adjoining tegumen exclusively'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'five'
+		'one'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'short'
+		'long'
+		,
+		57
+		'approximately the same length as the sum of the lengths of tarsomeres 2 to 5'
+		'clearly longer than the sum of the lengths of tarsomeres 2 to 5'
+		,
+		58
+		'approximately 1,5 X longer than tm4'
+		'nearly 4 X longer than tm4'
+		,
+		59
+		'rounded'
+		'with two lateral pockets'
+		,
+		60
+		'entirely membranous'
+		'with an antero-medial sclerotized region'
+		'with a postero-medial sclerotized region'
+		'entire sac appears sclerotized'
+		,
+		61
+		'transverse'
+		'longitudinal'
+		,
+		62
+		'continuous'
+		'broken'
+		,
+		63
+		'fused to anterolateral edge of eighth tergite (Tg8)'
+		'not fused to to anterolateral edge of Tg8'
+		,
+		64
+		'broad'
+		'thin'
+		,
+		65
+		'continuous'
+		'interrupted by a gap at midpoint'
+		'absent'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'continuous with remainder of sterigma'
+		'separated from remainder of sterigma'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'entirely membranous'
+		'with a sclerotized spot'
+		'with a sclerotized ring'
+		'fully sclerotized'
+		,
+		71
+		'oval'
+		'elongate'
+		,
+		72
+		'absent'
+		'present'
+		,
+		73
+		'parallel'
+		'divergent'
+		,
+		74
+		'nearly as long as corpus bursa'
+		'clearly shorter than corpus bursa'
+		,
+		75
+		'extended to dorsal edge of the papilla anales'
+		'not extended to dorsal edge of the papilla anales'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'straight or slightly out-curved'
+		'with a dorsal projection, appearing in-curved'
+		,
+		78
+		'absent'
+		'present'
+		,
+		79
+		'taller than deep'
+		'deeper than tall'
+		,
+		80
+		'arched-out in center'
+		'straight or arched-in'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'smooth'
+		'with irregular, interconnected wrinkles'
+		,
+		83
+		'absent'
+		'present'
+		,
+		84
+		'much larger than subdorsal and lateral tubercles'
+		'similar to or smaller than subdorsal and lateral tubercles'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'short barbs (barely visible)'
+		'long barbs'
+		,
+		87
+		'absent'
+		'present'
+		,
+		88
+		'smooth'
+		'dentate'
+		,
+		89
+		'forming a narrow point at midline'
+		'broad at midline'
+		,
+		90
+		'two'
+		'three'
+		,
+		91
+		'located at the base of cauda'
+		'displaced distally'
+		,
+		92
+		'located at or below midlength, ie, closer to the base of cauda'
+		'located above midlength, ie, closer to the tip of cauda'
+		,
+		93
+		'rounded'
+		'rectangular'
+		'trapezoidal'
+		,
+		94
+		'absent'
+		'present'
+		,
+		95
+		'independent'
+		'fused'
+		,
+		96
+		'narrowing progressively towards tip'
+		'ending at a blunt tip'
+		,
+		97
+		'absent'
+		'present'
+		,
+		98
+		'one pair'
+		'two pairs'
+		'three pairs'
+		,
+		99
+		'parallel to each other in the frontal view'
+		'diverging from each other'
+		,
+		100
+		'absent'
+		'present'
+		,
+		101
+		'absent'
+		'present'
+		,
+		102
+		'setae thin, sharp at tip'
+		'setae cuneiform'
+		,
+		103
+		'absent'
+		'present'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'absent'
+		'present'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'two'
+		'more than two'
+		,
+		108
+		'flattened (short)'
+		'finger-like (tall)'
+		,
+		109
+		'absent'
+		'present'
+		,
+		110
+		'absent'
+		'present'
+		,
+		111
+		'absent'
+		'present'
+		,
+		112
+		'absent'
+		'present'
+		,
+		113
+		'bulbous'
+		'sharp'
+		,
+		114
+		'absent'
+		'present'
+		,
+		115
+		'triordinal'
+		'tetraordinal'
+		,
+		116
+		'absent'
+		'present'
+		,
+		117
+		'mostly shorter than setae'
+		'mostly longer than setae'
+		,
+		118
+		'absent'
+		'present'
+		,
+		119
+		'brown'
+		'green'
+		,
+		120
+		'short'
+		'long'
+		,
+		121
+		'absent'
+		'present'
+		,
+		122
+		'absent'
+		'present'
+		,
+		123
+		'crossing through wing pad'
+		'following the dorsal contour of wing pad'
+		,
+		124
+		'absent'
+		'present'
+		,
+		125
+		'rounded'
+		'forming a keel'
+		,
+		126
+		'absent'
+		'present'
+		,
+		127
+		'rounded'
+		'forming a keel'
+		,
+		128
+		'continuous'
+		'broken'
+		,
+		129
+		'absent'
+		'present'
+		,
+		130
+		'visible'
+		'not visible'
+		,
+		131
+		'rounded'
+		'forming a slight keel that extends across several abdominal segments'
+		,
+		132
+		'similar to other segments'
+		'projected to form a hump'
+		,
+		133
+		'absent'
+		'present'
+		,
+		134
+		'triangular'
+		'squared'
+		
+	;
+	MATRIX
+	'Elymnias hypermnestra'		              0011100000?0000002000?000?????00002001000010110?0110000100000010000111010001000000100?000?0?110012010?0000100000000100?100?0110?010010
+	'Bia actorion'		                       000111010100000000000?0010?10?20000001001000110?0000000100001011000100010010000011111000100?011111101011000000?01001001001000011110010
+	'Aponarope sutor'		                    010101001?11100001000??01??10??0002001?010?1?10?0111??????????????????????????????????????????????????????????????????????????????????
+	'Narope cyllabarus'		                  010101000101100002000?1011?10?00002001101101110?0112???????????10?1???10??????????????????????????????????????????????????????????????
+	'Narope cyllarus'		                    01010100020110000101001011?10?00002001101101010?0112???????????10?1???00??????????????????????????????????????????????????????????????
+	'Narope cyllastros/cyllene'		          010101000201100001000?1011?10?00002001101101110?0112010???1210110111?100??10101011111000110?110111101111001000?01001000000?0110?110010
+	'Narope nesope'		                      010101000101100002000?1011?10?00002001000021110?0002??????????????????????????????????????????????????????????????????????????????????
+	'Narope panniculus'		                  010101000201100001000?1011?10?00002001001010?10?0102010???0010110110?100??101010??????????????????????????????????????????????????????
+	'Brassolis isthmia'		                  011111000200100100000?0011?10?1001101100101020??????1010000010110101?3????1001011???????????00?????00?00001000001100?00?0100000?0000?1
+	'Brassolis astyra'		                   011111000200100100000?0011?10?1001101100101010???????0?0000010111101?300??100101110?100011??00?????00?00001000001100?00??100000?0000?1
+	'Brassolis sophorae'		                 011(0,1)11000200100100000?0011?10?1001101100101010??????101000001011(0,1)101?300??100101110?100011??00?????00?00001000001100?00?0100000?000011
+	'Dynastor darius'		                    011111000211100000000?1011?10?1000101110101011100000101000011011200101010010000?11111100111001000210100000100010101100(0,1)001000011110000
+	'Dynastor napoleon'		                  011111000211100000000?0010?10?100010111010100110000010100001101120010000??100001111111001110010002101000001000101011000001000011110000
+	'Dasyophthalma creusa'		               11111100022111000001100011?11?10001001001010010?00001001000111112?011000??1001001111100011101100010010000101000010?1000001000011101000
+	'Dasyophthalma rusina'		               11111100022111000001000011?11?10001001001010010?00000001000111112?011100??1001001???????????110001001000010100001001000001000011111000
+	'Opoptera aorsa'		                     0111111002111100110100001210??10001001200010010?000000011010101100010100??100000??????????????????????????????????????????????????????
+	'Opoptera arsippe'		                   01111110?????100010100001210??10001001010000010?0102??????????????????????????????????????????????????????????????????????????????????
+	'Opoptera fruhstorferi'		              0111110002211000100100101200??20001001010000010?100100011000101100010100??1001001???????????1100021010000011???010?10??101000011100000
+	'Opoptera staudingeri'		               0111110002211100120100001200??20001001010000010?000100011013101100010100??100100??????????????????????????????????????????????????????
+	'Opoptera syme'		                      0111110002211000100100101200??10001001010000010?100100011000101100010100??100000111111001110110002101000011100?01001000101000011110000
+	'Caligopsis seleucida'		               01111100021110100011010111?11?110011000010102110001010011003101100011000??1000001???????????210001001000001110?01001000001100010010000
+	'Eryphanis automedon'		                011111000211101000000?0110?10?12000101000010210?0010??????1310111001100101100000????????????21000100100010111101101111????????????????
+	'Eryphanis lycomedon'		                011111000211101000000?0110?11?12000101000010210?00000001100310112?01100111100000?111110011112100010010001011110110111101?10?0?????????
+	'Eryphanis reevesii'		                 01111100121110100011010111?11?12000101301010211000000001100310112?01100111100000111111001???21000100100010111101100111?10100000?100000
+	'Caligo atreus'		                      01111100021110100001110010?11?11101001100010211000010001010310111?01100111100100??????????????????????????????????????????????????????
+	'Caligo beltrao'		                     01111100021110100001100010?11?11101001000010211000010011010310111?01100111100100111110001110010102101000001001111001000011101010100100
+	'Caligo illioneus'		                   01111100021110100001010011?11?11001001100010211100010001010310111?01110111100100111110001110010102101000001001111001000011111010100100
+	'Caligo martia'		                      11111100021110100011010011?11?11001001000010211000000001000300111?011000??100100????????????010102101000001001011001000011111010101000
+	'Penetes pamphanis'		                  01111100021110100001010010?2?010000001011010210?00011011000010110001001100100001????????????110000?01000001000001011001001000011100010
+	'Selenophanes cassiope'		              01111100021110000011110011?2?020002001001010?10?00001010000111111?01001101101000????????????110002101000011100000?01000101000011010000
+	'Selenophanes josephus'		              01111100020110100011110011?2??10002001001010210?00001010000111111?01001101101000??????????????????????????????????????????????????????
+	'Catoblepia amphirhoe'		               01111100??????100011010110?2?020001001001011110?00001010100010111?01031101100100111110001110110001101000011100?0101100?101000011?00000
+	'Catoblepia berecynthia'		             01111100021110100001010110?2?020001001001010110?00001010000010111?010211011001001111101011101100011010000111000010?1000101000011000000
+	'Catoblepia orgetorix'		               01111100021110100011010110?2?020001001001010110?00001011000010111?01021101100100??????????????????????????????????????????????????????
+	'Catoblepia xanthus'		                 011111000211101000100?0110?2?020001001001010110?000010?0?00010111?01021100100100??????????????????????????????????????????????????????
+	'Catoblepia xanthicles'		              011111000211101000000?1110?2?020001001001010210?0000?????????????????????????????11110101?1011000110100001110000101100?1??????????????
+	'Mielkella singularis'		               01111100021110100011010110?2?110001001001010010?00000011000010011?01000101101100??????????????????????????????????????????????????????
+	'Orobrassolis ornamentalis'		          01111100121110100011010110?2?110000001001010110?00001001000010111?01000101100100??????????????????????????????????????????????????????
+	'Blepolenis bassus'		                  01111100122110100011000110?2?120001000001010110?00001001000010111?0100010?101100111110001110??????????????????????????????????????????
+	'Blepolenis batea'		                   01111100122110100011000110?2?120001000001010110?00001001000010111?01000101101100111110001110??????????????????????????????????????????
+	'Opsiphanes boisduvallii'		            01111100112110100011000110?2?120000000001010110?00001001000010010001000101100100??????????????????????????????????????????????????????
+	'Opsiphanes bogotanus'		               01111100??????100011010110?2?120000000001010110?0000??????0010010001000101100100?11110101???110102101000011??0001?010?1011000011111010
+	'Opsiphanes cassina'		                 01111100??????100011010110?2?120000010001010110?0000?????????????????????????????11110101???110101101000011100001001001???????????????
+	'Opsiphanes invirae'		                 011111001121101000110?0110?2?12000?000001010110?00001011000010011001000101100100111110101110110101101000011100001001001011000011111010
+	'Opsiphanes quiteria'		                01111100??????100011010110?2?120000010001010110?0000????????????????????????????111110101110110101101000011100001001001011000011111010
+	'Opsiphanes tamarindi'		               01111100112110100011010110?2?120000000001010110?00001001000010011?01000101100100??????????????????????????????????????????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 134;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1604189811411; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6703689728006831220; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 1428590276678239929; mqVersion 304; checksumv 0 3 1464562455 null getNumChars 134 numChars 134 getNumTaxa 46 numTaxa 46 short true bits 15 states 15 sumSquaresStatesOnly 13020.0 sumSquares 13020.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState true false 176; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 700 464; setLocation 8 8; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 134; 
+ENDBLOCK;

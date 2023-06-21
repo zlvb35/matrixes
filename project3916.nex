@@ -1,0 +1,830 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.23.48 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=25;
+    TAXLABELS
+    		'Buthus atlantis 3489'
+		'Chaerilus sejnai 3685'
+		'Pseudochactas mischi'
+		'Pseudochactas ovchinnikovi 2303A'
+		'Pseudochactas ovchinnikovi 2303B'
+		'Pseudochactas ovchinnikovi 2303C'
+		'Troglokhammouanus steineri 11271'
+		'Troglokhammouanus steineri 11272'
+		'Troglokhammouanus steineri 11273'
+		'Troglokhammouanus steineri 11274'
+		'Troglokhammouanus steineri 11275'
+		'Aemngvantom lao 11349'
+		'Aemngvantom lao 11350'
+		'Aemngvantom lao 15570'
+		'Aemngvantom lao 15591'
+		'Aemngvantom thamnongpaseuam 11351'
+		'Vietbocap canhi 11270'
+		'Vietbocap canhi 16750'
+		'Vietbocap canhi 16751'
+		'Vietbocap canhi 11348'
+		'Vietbocap canhi 16533'
+		'Vietbocap canhi 16534'
+		'Vietbocap canhi 16535'
+		'Vietbocap canhi 16536'
+		'Vietbocap canhi 16537'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=140;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Tegument base coloration'
+		 [2] 'Carapace infuscation'
+		 [3] 'Mesosomal tergites infuscation'
+		 [4] 'Legs, femoral and patellar prolateral surfaces infuscation'
+		 [5] 'Cheliceral fixed finger, ventral surface, teeth or denticles'
+		 [6] 'Cheliceral fixed finger, median and basal teeth, fusion'
+		 [7] 'Cheliceral movable finger, dorsal margin, basal teeth'
+		 [8] 'Cheliceral movable finger, ventral margin, teeth or denticles'
+		 [9] 'Cheliceral movable finger, ventral margin, serrula'
+		 [10] 'Carapace posterior width, relative to length'
+		 [11] 'Carapace anteromedian margin, alignment relative to anterolateral margins'
+		 [12] 'Carapace anteromedian margin, curvature'
+		 [13] 'Carapace anterolateral margins'
+		 [14] 'Carapace anteromedian depression, dimensions'
+		 [15] 'Carapace anterosubmedial depressions, medial to lateral ocelli'
+		 [16] 'Carapace anterosubmedial lyriform carinae, vertical development and macrosculpture'
+		 [17] 'Carapace median ocular tubercle (or eyeless surface representing ocular tubercle), distance from anterior margin relative to carapace length'
+		 [18] 'Carapace median ocelli'
+		 [19] 'Carapace interocular sulcus (regardless of presence or absence of median ocelli), depth'
+		 [20] 'Carapace circumocular sutures'
+		 [21] 'Carapace circumocular sutures, development'
+		 [22] 'Carapace circumocular triangle (regardless of presence or absence of median ocelli), shape'
+		 [23] 'Carapace circumocular sulci, posterior margin, distance from anterior margin relative to carapace length'
+		 [24] 'Carapace lateral ocelli, anterolateral major (ALMa) ocelli'
+		 [25] 'Carapace lateral ocelli, mediolateral major (MLMa) ocelli'
+		 [26] 'Carapace lateral ocelli, posterolateral major (PLMa) ocelli'
+		 [27] 'Carapace lateral ocelli, anterodorsal minor (ADMi) ocelli'
+		 [28] 'Carapace lateral ocelli, posterodorsal minor (PDMi) ocelli'
+		 [29] 'Carapace lateral eyespot'
+		 [30] 'Carapace anterolateral, circumocular, and posteromedian surfaces, macrosculpture'
+		 [31] 'Carapace mediolateral surfaces, macrosculpture'
+		 [32] 'Carapace posterolateral margins, curvature'
+		 [33] 'Carapace posteromedian margin, curvature'
+		 [34] 'Pedipalps shape'
+		 [35] 'Pedipalp femur trichobothrium i2'
+		 [36] 'Pedipalp femur petite trichobothrium i3'
+		 [37] 'Pedipalp femur petite trichobothrium i4'
+		 [38] 'Pedipalp femur prodorsal carina, longitudinal development'
+		 [39] 'Pedipalp femur trichobothrium d1, size'
+		 [40] 'Pedipalp femur trichobothria d1 and i1–4, relative alignment'
+		 [41] 'Pedipalp femur petite trichobothrium d2'
+		 [42] 'Pedipalp femur trichobothrium d3, size'
+		 [43] 'Pedipalp femur trichobothrium d4, size'
+		 [44] 'Pedipalp femur trichobothrium d5'
+		 [45] 'Pedipalp femur trichobothrium d6, size'
+		 [46] 'Pedipalp femur trichobothria d3 and d4 alignment relative to retrodorsal carina'
+		 [47] 'Pedipalp femur retrodorsal carina, vertical development'
+		 [48] 'Pedipalp femur trichobothrium e3'
+		 [49] 'Pedipalp femur trichobothrium e4'
+		 [50] 'Pedipalp patella promedian carina ("dorsal patellar spur carina”)'
+		 [51] 'Pedipalp patella prolateral surface, dorsoventral "vaulted” projection ("anterior process”)'
+		 [52] 'Pedipalp patella prolateral surface, dorsoventral "vaulted” projection, pair of spiniform granules proximally (dorsal and ventral "patellar spurs” situated proximally on dorsal and ventral prolateral carinae, respectively)'
+		 [53] 'Pedipalp patella trichobothrium i2'
+		 [54] 'Pedipalp patella dorsomedian carina'
+		 [55] 'Pedipalp patella trichobothium d3'
+		 [56] 'Pedipalp patella trichobothium d4'
+		 [57] 'Pedipalp patella petite trichobothium d5'
+		 [58] 'Pedipalp patella retromedian carina'
+		 [59] 'Pedipalp patella trichobothium em1'
+		 [60] 'Pedipalp patella trichobothium est, size'
+		 [61] 'Pedipalp patella ventromedian carina'
+		 [62] 'Pedipalp patella trichobothria v1, v2 and v3'
+		 [63] 'Pedipalp chela manus prolateral dorsal carina (♂), longitudinal development'
+		 [64] 'Pedipalp chela manus prolateral ventral carina (♂, ♀), longitudinal development'
+		 [65] 'Pedipalp chela manus trichobothrium ib1'
+		 [66] 'Pedipalp chela manus petite trichobothrium ib2'
+		 [67] 'Pedipalp chela fixed finger trichobothrium it1 (it situated at base of fixed finger)'
+		 [68] 'Pedipalp chela fixed finger trichobothrium it2 (it situated in proximal third of fixed finger)'
+		 [69] 'Pedipalp chela fixed finger trichobothrium it3 (it situated distally on finger)'
+		 [70] 'Pedipalp chela manus dorsomedian carina, longitudinal development'
+		 [71] 'Pedipalp chela manus dorsal secondary and subdigital carinae, longitudinal development'
+		 [72] 'Pedipalp chela manus digital carina, longitudinal development'
+		 [73] 'Pedipalp chela manus retromedian carina, longitudinal development'
+		 [74] 'Pedipalp chela manus secondary accessory and retroventral carinae, fusion'
+		 [75] 'Pedipalp chela manus trichobothrium Eb3, size'
+		 [76] 'Pedipalp chela manus trichobothrium Est1 (Est situated distal on chela manus)'
+		 [77] 'Pedipalp chela manus trichobothrium Est2 (Est situated proximal to movable finger condyle)'
+		 [78] 'Pedipalp chela manus/fixed finger trichobothrium Et1 (in Pseudochactidae, and positionally homologous trichobothrium eb in Buthidae and Chaerilidae), position'
+		 [79] 'Pedipalp chela manus petite trichobothrium Et4'
+		 [80] 'Pedipalp chela trichobothrium eb (not positionally homologous with eb in Buthidae and Chaerilidae), position'
+		 [81] 'Pedipalp chela fixed finger petite trichobothrium esb1 (esb situated in proximal quarter of fixed finger, between second and third most proximal retrolateral denticles of median denticle row)'
+		 [82] 'Pedipalp chela fixed finger trichobothrium esb2 (in Pseudochactidae, not positionally homologous with esb in Buthidae and Chaerilidae), position'
+		 [83] 'Pedipalp chela fixed finger trichobothria est and et, position'
+		 [84] 'Pedipalp chela manus ventromedian carina, longitudinal development'
+		 [85] 'Pedipalp chela manus V1'
+		 [86] 'Pedipalp chela manus V2'
+		 [87] 'Pedipalp chela fixed and movable fingers, shape lateral aspect (adult ♂)'
+		 [88] 'Pedipalp chela fixed finger, median denticle rows, number of subrows'
+		 [89] 'Pedipalp chela movable finger, median denticle rows, number of subrows'
+		 [90] 'Pedipalp chela fixed finger, median denticle rows, number of prolateral denticles'
+		 [91] 'Pedipalp chela movable finger, median denticle rows, number of prolateral denticles'
+		 [92] 'Pedipalp chela fixed finger, median denticle rows, number of retrolateral denticles'
+		 [93] 'Pedipalp chela movable finger, median denticle rows, number of retrolateral denticles'
+		 [94] 'Leg I, maxillary lobes (coxapophyses)'
+		 [95] 'Sternum shape'
+		 [96] 'Sternum lateral margins, curvature'
+		 [97] 'Sternum ventral surface'
+		 [98] 'Legs III and IV, tibial spurs'
+		 [99] 'Legs I–IV basitarsi and telotarsi, spinules'
+		 [100] 'Legs I–IV telotarsi, spinule rows'
+		 [101] 'Legs I–IV telotarsi, paired ventrosubmedian rows of spinules'
+		 [102] 'Legs I–IV telotarsi, proventral and retroventral rows of (socketed) macrosetae'
+		 [103] 'Genital papillae (♂), length relative to genital opercula'
+		 [104] 'Paraxial organ, accessory glands'
+		 [105] 'Hemispermatophore, basal lobe'
+		 [106] 'Hemispermatophore, pars recta'
+		 [107] 'Ovariuterus, number of "cells” in ovariuterine net (reticulate mesh)'
+		 [108] 'Pectines, marginal lamellae, fusion'
+		 [109] 'Pectines, marginal and median lamellae, fusion'
+		 [110] 'Pectines, median lamellae, fusion and number'
+		 [111] 'Pectines, proximal median lamella (scape), angle (♂)'
+		 [112] 'Pectines, fulcra'
+		 [113] 'Pectines, median lamellae, count (♂)'
+		 [114] 'Pectines, median lamellae, count (♀)'
+		 [115] 'Pectines, tooth count (♂)'
+		 [116] 'Pectines, tooth count (♀)'
+		 [117] 'Pectinal teeth, peg sensillae, sockets'
+		 [118] 'Pectinal teeth, peg sensillae, length and shape'
+		 [119] 'Pectinal teeth, peg sensilla, laterodistal processes'
+		 [120] 'Posttergites I–VI surfaces, macrosculpture'
+		 [121] 'Sternites VI and VII, ventral surface, macrosculpture (♂)'
+		 [122] 'Sternite VII, ventral surface, ventrosubmedian and ventrolateral carinae (adult ♂)'
+		 [123] 'Sternites III–VI, respiratory spiracles (stigmata), shape'
+		 [124] 'Metasomal segments I–IV, dorsosubmedian and dorsolateral carinae, posterior granules size relative to preceding granules'
+		 [125] 'Metasomal segment V, dorsolateral carinae, vertical development'
+		 [126] 'Metasomal segments I and II, median lateral carinae, longitudinal development'
+		 [127] 'Metasomal segments III and IV, median lateral carinae, longitudinal development'
+		 [128] 'Metasomal segment V, median lateral carinae, longitudinal development'
+		 [129] 'Metasomal segment I, ventrosubmedian carinae (♂)'
+		 [130] 'Metasomal segment I, ventrosubmedian carinae, vertical development'
+		 [131] 'Metasomal segments II–IV, ventrosubmedian carinae, vertical development'
+		 [132] 'Metasomal segment V, ventrosubmedian carinae, longitudinal development'
+		 [133] 'Metasomal segment V, ventrosubmedian carinae, posterior orientation'
+		 [134] 'Metasomal segment V, ventromedian carina, vertical development'
+		 [135] 'Telson vesicle, shape'
+		 [136] 'Telson vesicle surfaces, macrosculpture (♂)'
+		 [137] 'Telson vesicle surfaces, macrosculpture (♀)'
+		 [138] 'Telson vesicle, venom gland epithelium walls, folding'
+		 [139] 'Telson subaculear tubercle'
+		 [140] 'Telson aculeus, length and shape'
+	;
+	STATELABELS
+		1
+		'yellowish'
+		'brown'
+		,
+		2
+		'absent (immaculate)'
+		'present'
+		,
+		3
+		'absent (immaculate)'
+		'median stripe and pair of lateral bands'
+		'paired submedian and sublateral stripes'
+		'entirely or mostly (anterior two-thirds) infuscate'
+		,
+		4
+		'present'
+		'absent (immaculate)'
+		,
+		5
+		'two major teeth'
+		'four or five small denticles (ventral accessory denticles)'
+		,
+		6
+		'fused into bicuspid ("conjoined on trunk”)'
+		'separate'
+		,
+		7
+		'absent'
+		'one'
+		'two'
+		,
+		8
+		'two large, subequal median teeth'
+		'four or five ventral accessory denticles (crenulate margin)'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'posterior width greater than length'
+		'posterior width similar to or less than length'
+		,
+		11
+		'anteromedian margin recessed, posterior to anterolateral margins'
+		'anteromedian margin protruding, anterior to anterolateral margins'
+		,
+		12
+		'sublinear'
+		'convex (pro-curved)'
+		'shallowly concave (recurved)'
+		,
+		13
+		'entire'
+		'with pronounced incision lateral to lateral ocelli (rostrolateral incision)'
+		,
+		14
+		'broad, deep'
+		'narrow, shallow'
+		'narrow, deep'
+		,
+		15
+		'absent'
+		'vestigial'
+		'well developed'
+		,
+		16
+		'absent'
+		'obsolete, granular'
+		'pronounced, costate-granular'
+		,
+		17
+		'medial'
+		'anteromedial'
+		,
+		18
+		'present'
+		'absent'
+		,
+		19
+		'deep'
+		'shallow'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'complete, connected posteriorly (postocular)'
+		'complete, disconnected posteriorly'
+		'partial (disconnected)'
+		,
+		22
+		'subtriangular (broad V-shape), median ocular curvatures present'
+		'parallel sided (U-shape), median ocular curvatures absent'
+		,
+		23
+		'anteromedial'
+		'medial'
+		'posteromedial'
+		,
+		24
+		'present'
+		'absent'
+		,
+		25
+		'present'
+		'absent'
+		,
+		26
+		'present'
+		'absent'
+		,
+		27
+		'present'
+		'absent'
+		,
+		28
+		'present'
+		'absent'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'anterolateral, circumocular, and posteromedian surfaces mostly granular'
+		'anterolateral and posteromedian surfaces smooth, circumocular surfaces mostly smooth except for sparse granulation near anterior carapace margin'
+		,
+		31
+		'granular'
+		'smooth'
+		,
+		32
+		'gently curved'
+		'angular, slanting'
+		,
+		33
+		'shallowly concave (recurved)'
+		'sublinear to shallowly convex (procurved)'
+		,
+		34
+		'segments very robust, chela manus incrassate'
+		'segments moderately robust, chela manus globose'
+		'segments gracile, chela manus globose'
+		'segments gracile, chela manus elongate'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'complete'
+		'partial'
+		,
+		39
+		'petite'
+		'full size'
+		,
+		40
+		'd1 aligned with or distal to i1–4'
+		'd1 proximal to i1–4'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'petite'
+		'full size'
+		,
+		43
+		'absent'
+		'petite'
+		'full size'
+		,
+		44
+		'absent'
+		'present'
+		,
+		45
+		'petite'
+		'full size'
+		,
+		46
+		'd4 prolateral to d3 such that d3–d4 directed away from retrodorsal carina (β configuration)'
+		'd3 and d4 in same axis, such that d3–d4 parallel to retrodorsal carina'
+		'd4 retrolateral to d3 such that d3–d4 directed toward retrodorsal carina (α configuration)'
+		,
+		47
+		'absent or obsolete'
+		'present, distinct'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'absent'
+		'present'
+		,
+		50
+		'present'
+		'absent'
+		,
+		51
+		'absent'
+		'moderate'
+		'pronounced'
+		,
+		52
+		'present'
+		'absent'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'present'
+		'absent'
+		,
+		55
+		'absent'
+		'present'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'present'
+		'absent'
+		,
+		59
+		'absent'
+		'present'
+		,
+		60
+		'petite'
+		'full size'
+		,
+		61
+		'present'
+		'absent'
+		,
+		62
+		'absent'
+		'present'
+		,
+		63
+		'absent or obsolete'
+		'complete'
+		,
+		64
+		'absent or obsolete'
+		'complete'
+		,
+		65
+		'absent'
+		'present'
+		,
+		66
+		'absent'
+		'present'
+		,
+		67
+		'absent'
+		'present'
+		,
+		68
+		'absent'
+		'present'
+		,
+		69
+		'absent'
+		'present'
+		,
+		70
+		'absent or obsolete'
+		'vestigial'
+		'complete'
+		,
+		71
+		'absent or obsolete'
+		'vestigial'
+		'complete'
+		,
+		72
+		'absent or obsolete'
+		'complete'
+		,
+		73
+		'absent or obsolete'
+		'partial'
+		'complete'
+		,
+		74
+		'entire'
+		'incomplete, slight disjunction evident in proximal third'
+		,
+		75
+		'petite'
+		'full size'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'absent'
+		'present'
+		,
+		78
+		'situated proximally on fixed finger'
+		'situated on fixed finger, slightly distal to movable finger condyle'
+		'situated distally on manus, aligned with or proximal to movable finger condyle'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'absent'
+		'present, situated on fixed finger, slightly distal to movable finger condyle'
+		'present, situated in proximal third of fixed finger, distal to most proximal retrolateral denticle of median denticle row'
+		,
+		81
+		'absent'
+		'present'
+		,
+		82
+		'absent'
+		'situated in proximal third of fixed finger, approximately aligned with proximal retrolateral denticle of median denticle row'
+		'situated in proximal third of fixed finger, between first and second most proximal retrolateral denticles of median denticle row'
+		'situated approximately midway on fixed finger, between second and third most proximal retrolateral denticles of median denticle row'
+		,
+		83
+		'absent'
+		'situated medially on finger'
+		'situated distally on finger'
+		,
+		84
+		'absent or obsolete'
+		'vestigial'
+		'partial'
+		,
+		85
+		'absent'
+		'present'
+		,
+		86
+		'absent'
+		'present'
+		,
+		87
+		'sublinear, similar to adult ♀'
+		'sinuous, sexually dimorphic'
+		,
+		88
+		'11'
+		'10'
+		'8'
+		'7'
+		,
+		89
+		'11 or 12'
+		'10'
+		'8'
+		'7'
+		,
+		90
+		'11'
+		'10'
+		'8'
+		'7'
+		'6'
+		,
+		91
+		'11 or 12'
+		'10'
+		'8'
+		'7'
+		,
+		92
+		'11 or 12'
+		'9'
+		'7'
+		'6'
+		,
+		93
+		'12'
+		'9'
+		'7'
+		'6'
+		,
+		94
+		'distal margins unexpanded (nonspatulate)'
+		'distal margins distinctly expanded (spatulate)'
+		,
+		95
+		'pentagonal'
+		'subtriangular'
+		,
+		96
+		'curved medially'
+		'sublinear'
+		,
+		97
+		'flat/planar ("no concave region, minimal outer ridge”)'
+		'shallowly concave ("marginal concave region, minimal outer ridge”)'
+		'markedly concave ("well-developed concave region and outer ridge”)'
+		,
+		98
+		'present'
+		'absent'
+		,
+		99
+		'absent'
+		'short'
+		'long'
+		,
+		100
+		'single ventromedian row'
+		'paired ventrosubmedian rows'
+		,
+		101
+		'regular'
+		'slightly irregular'
+		,
+		102
+		'present'
+		'absent'
+		,
+		103
+		'inconspicuous'
+		'conspicuously visible along entire length of opercula'
+		,
+		104
+		'absent'
+		'present'
+		,
+		105
+		'present'
+		'absent'
+		,
+		106
+		'absent'
+		'present'
+		,
+		107
+		'six'
+		'eight'
+		,
+		108
+		'three'
+		'two (fusion of proximal and medial marginal lamellae)'
+		,
+		109
+		'separate, longitudinal suture between marginal and median lamellae present'
+		'fused, longitudinal suture between marginal and median lamellae absent'
+		,
+		110
+		'variously fused, many fewer than pectinal teeth'
+		'separate, similar number to pectinal teeth'
+		,
+		111
+		'acute'
+		'obtuse'
+		,
+		112
+		'moderate to large'
+		'small'
+		'very small (vestigial)'
+		,
+		113
+		'7 or 8'
+		'9 or 10'
+		'14 or 15'
+		,
+		114
+		'5–7'
+		'8–10'
+		'11–13'
+		,
+		115
+		'30 or 31'
+		'15 or 16'
+		'10–13'
+		'8 or 9'
+		'4'
+		,
+		116
+		'25'
+		'13 or 14'
+		'9–11'
+		'6–8'
+		'3'
+		,
+		117
+		'papillate'
+		'smooth'
+		,
+		118
+		'short, barely protruding from sensilla socket, stout, subcylindrical basally, flattened and truncate distally'
+		'intermediate, protruding from sensillla socket stout, flattened and truncate distally'
+		'long, protruding from sensilla socket, cylindrical, tubular or bottle shaped, and rounded distally'
+		,
+		119
+		'absent'
+		'present'
+		,
+		120
+		'granular'
+		'smooth or nearly so'
+		,
+		121
+		'smooth'
+		'granular'
+		,
+		122
+		'well developed, costate'
+		'obsolete, granular'
+		'absent'
+		,
+		123
+		'long, slitlike'
+		'small, circular or oval'
+		,
+		124
+		'similar'
+		'markedly larger and spiniform'
+		,
+		125
+		'distinct'
+		'obsolete'
+		,
+		126
+		'complete (segment I), partial, becoming obsolete anteriorly (segment II)'
+		'complete (segments I and II)'
+		,
+		127
+		'partial, becoming obsolete anteriorly (segment III), vestigial or absent (segment IV)'
+		'complete (segments III and IV)'
+		,
+		128
+		'absent or obsolete'
+		'partial'
+		'complete'
+		,
+		129
+		'distinct'
+		'absent or obsolete'
+		,
+		130
+		'distinct'
+		'absent or obsolete'
+		,
+		131
+		'distinct'
+		'absent or obsolete'
+		,
+		132
+		'complete'
+		'partial'
+		'absent'
+		,
+		133
+		'diverging'
+		'converging'
+		,
+		134
+		'absent or obsolete'
+		'distinct'
+		,
+		135
+		'globose'
+		'elongate'
+		,
+		136
+		'lateral and ventral surfaces with granular carinae'
+		'lateral and ventral surfaces smooth or nearly so'
+		,
+		137
+		'lateral and ventral surfaces with granular carinae'
+		'lateral and ventral surfaces smooth or nearly so'
+		,
+		138
+		'simple, unfolded'
+		'complex, folded'
+		,
+		139
+		'absent'
+		'obsolete, very small bump'
+		,
+		140
+		'long, deeply curved'
+		'short, shallowly curved'
+		
+	;
+	MATRIX
+	'Buthus atlantis 3489'		                       00100020000000020000---000000000021110101001100000100011101100000000100000010010101011000000001-200--001011000001100000000000000000101000100
+	'Chaerilus sejnai 3685'		                      11301111010001101010---100111001000001110110120111011000001101?1100102212010100000201013233221001110-01010011-00--441200021100011102-1000001
+	'Pseudochactas mischi'		                       00011001110001201011?01110110111011010011121011100200110010010111110000100010201010101?334333001001101?????001?2?1?2???1??100101?100100?0?11
+	'Pseudochactas ovchinnikovi 2303A'		           01301001110001211011000110110111011010011121011100200110010010111110000100010201010101133333300100110110000001021122111102100000110010000011
+	'Pseudochactas ovchinnikovi 2303B'		           01301001110001211011000110110111011010011121011100200110010010111110000100010201010101133333300100110110000001021122111102100000110010000011
+	'Pseudochactas ovchinnikovi 2303C'		           01301001110001211011000110110111011010011121011100200110010010111110000100010201010101133333300100110110000001021122111102100000110010000011
+	'Troglokhammouanus steineri 11271'		           11211001111101201011101110110000011010011121011100100110010010111110011111010201010201132322200010210110000001012211120002110112110011100011
+	'Troglokhammouanus steineri 11272'		           11211001111101201011101110110000011010011121011100100110010010111110011111010201010201132322200010210110000001012211120002110112110011100011
+	'Troglokhammouanus steineri 11273'		           11211001111101201011101110110000011010011121011100100110010010111110011111010201010201132322200010210110000001012211120002110112110011100011
+	'Troglokhammouanus steineri 11274'		           11211001111101201011101110110000011010011121011100100110010010111110011111010201010201132322200010210110000001012211120002110112110011100011
+	'Troglokhammouanus steineri 11275'		           11211001111101201011101110110000011010011121011100100110010010111110011111010201010201132322200010210110000001012211120002110112110011100011
+	'Aemngvantom lao 11349'		                      00011001111201201111200111110000021010011121011100100110010010101110000101010102030101011111100111211110000001122211120011100102010011101001
+	'Aemngvantom lao 11350'		                      00011001111201201111200111110000021010011121011100100110010010101110000101010102030101011111100111211110000001122211120011100102010011101001
+	'Aemngvantom lao 15570'		                      00011001111201201111200111110000021010011121011100100110010010101110000101010102030101011111100111211110000001122211120011100102010011101001
+	'Aemngvantom lao 15591'		                      00011001111201201111200111110000021010011121011100100110010010101110000101010102030101011111100111211110000001122211120011100102010011101001
+	'Aemngvantom thamnongpaseuam 11351'		          00011001111201201111200111110010021010011121011100100110010010?01110000101010102030101?111111001112111?????001?2?2?1???1??101100?110101?1?01
+	'Vietbocap canhi 11270'		                      0001100110121220010121211111011013101001112101110010011001001000111000010101020102010102222220011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16750'		                      0001100110121220010121211111011013101001112101110010011001001000111000010101020102010102222220011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16751'		                      0001100110121220010121211111011013101001112101110010011001001000111000010101020102010102222220011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 11348'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16533'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16534'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16535'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16536'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+	'Vietbocap canhi 16537'		                      0001100110121220011121211111011013101001112101110010011001001000111000010101020102010103333330011121111000000102003312010?101000110010111001
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 140;
+      ENDBLOCK;
+      

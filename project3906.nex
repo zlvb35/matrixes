@@ -1,0 +1,463 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.17.58 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=54;
+    TAXLABELS
+    		'Spiraeanthemum samoense'
+		'Spiraeanthemum macgillivrayi'
+		'Spiraeanthemum ellipticum'
+		'Brunellia oliveri'
+		'Brunellia colombiana'
+		'Davidsonia jerseyana'
+		'Cunoniantha bicarpellata'
+		'Davidsonia johnsonii'
+		'Davidsonia pruriens'
+		'Bauera sessiliflora'
+		'Bauera rubioides'
+		'Eucryphia cordifolia'
+		'Eucryphia lucida'
+		'Eucryphia moorei'
+		'Hooglandia ignambiensis'
+		'Anodopetalum biglandulosum'
+		'Platylophus trifoliatus'
+		'Ceratopetalum gummiferum'
+		'Ceratopetalum apetalum'
+		'Schizomeria serrata'
+		'Schizomeria ovata'
+		'Gillbeea adenopetala'
+		'Geissois superba'
+		'Karrabina benthamiana'
+		'Pseudoweinmannia lachnocarpa'
+		'Pullea glabra'
+		'Weinmannia bangii'
+		'Weinmannia fraxinea'
+		'Weinmannia minutiflora'
+		'Weinmannia madagascariensis'
+		'Cunonia atrorubens'
+		'Cunonia capensis'
+		'Pancheria engleriana'
+		'Vesselowskya rubifolia'
+		'Callicoma serratifolia'
+		'Codia discolor'
+		'Acrophyllum australe'
+		'Caldcluvia paniculata'
+		'Ackama rosifolia'
+		'Ackama paniculosa'
+		'Spiraeopsis celebica'
+		'Opocunonia nymanii'
+		'Lamanonia ternata'
+		'Aistopetalum viticoides'
+		'Lacinipetalum spectabilum'
+		'Ceratopetalum suciensis'
+		'Ceratopetalum edgardoromeroi'
+		'Ceratopetalum westermannii'
+		'Ceratopetalum maslinensis'
+		'Ceratopetalum wilkinsonii'
+		'Ceratopetalum priscum'
+		'Eucryphia reticulata'
+		'Schizomeria tasmaniensis'
+		'Acsmithia grandiflora'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=58;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345678";
+	CHARLABELS
+		 [1] 'Leaf arrangement'
+		 [2] 'Mature leaf organization'
+		 [3] 'Rachis'
+		 [4] 'Mature leaf margin'
+		 [5] 'Secondary vein framework'
+		 [6] 'Orbicular trichomes on leaves'
+		 [7] 'Stellate trichomes'
+		 [8] 'Tuft domatia on leaves'
+		 [9] 'Pocket domatia on leaves'
+		 [10] 'Two-celled epidermal glands on leaf'
+		 [11] 'Small paired hairs'
+		 [12] 'Stoma with cutin frill'
+		 [13] 'Subsidiary cell arrangement'
+		 [14] 'Leaf stipels'
+		 [15] 'Stipule type'
+		 [16] 'Colleters on interpetiolar stipules'
+		 [17] 'Interpetiolar stipule apex'
+		 [18] 'Interpetiolar stipules enclosing leaves'
+		 [19] 'Lateral stipule fusion in decussate plants'
+		 [20] 'Supernumerary axillary buds'
+		 [21] 'Floral maturation'
+		 [22] 'Shape of the flower-bearing axis'
+		 [23] 'parts per perianth whorl'
+		 [24] 'stamen number'
+		 [25] 'ovary number'
+		 [26] 'Calyx aestivation'
+		 [27] 'Corolla'
+		 [28] 'Petal morphology'
+		 [29] 'Protandry'
+		 [30] 'Fillament attachement'
+		 [31] 'Anther attachment'
+		 [32] 'Anther dehiscence'
+		 [33] 'Connective length'
+		 [34] 'Thecal connective protruberence'
+		 [35] 'Pollen colpi'
+		 [36] 'Tectum structure from pole to equator'
+		 [37] 'Floral nectary'
+		 [38] 'Floral nectary form'
+		 [39] 'Carpel connation'
+		 [40] 'Style connation'
+		 [41] 'Ovary insertion'
+		 [42] 'Ovules per carpel'
+		 [43] 'Ovary texture'
+		 [44] 'Stigma type'
+		 [45] 'Stylar canal'
+		 [46] 'Fruit'
+		 [47] 'Calyx in fruit'
+		 [48] 'Capsule column'
+		 [49] 'Seed wings'
+		 [50] 'Seed pubescence'
+		 [51] 'Seed papillae'
+		 [52] 'Vessel perforation plates'
+		 [53] 'Ray cell structure in wood'
+		 [54] 'Vessel organization in wood'
+		 [55] 'Intervessel pitting type'
+		 [56] 'Diffuse axial parenchyma in the wood'
+		 [57] 'Axial parenchyma in discontinuous bands of 1-5 cells'
+		 [58] 'Regular axial parenchyma bands 1-5 cells wide'
+	;
+	STATELABELS
+		1
+		'alternate'
+		'decussate'
+		'whorled'
+		,
+		2
+		'imparipinnate'
+		'palmately compound'
+		'unifoliolate'
+		,
+		3
+		'unwinged'
+		'winged'
+		'dentate'
+		,
+		4
+		'untoothed'
+		'toothed'
+		,
+		5
+		'craspedodromous'
+		'semicraspedodromous'
+		'brochidodromous'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'anomocytic'
+		'encyclocytic'
+		'anisocytic'
+		'brachyparacytic'
+		,
+		14
+		'absent'
+		'adaxial'
+		'abaxial'
+		,
+		15
+		'2 interpetiolar primordia'
+		'lateral primordia (4 in decussate shoots)'
+		'2 axillary primordia'
+		'absent'
+		,
+		16
+		'absent'
+		'hairs'
+		'ribs'
+		,
+		17
+		'rounded/acute'
+		'bifid'
+		,
+		18
+		'not enclosing leaves'
+		'partly enclosing leaves'
+		'fully enclosing leaves'
+		,
+		19
+		'fuzed at maturity'
+		'remaining free'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'synchronous/acropetal'
+		'centrifugal/basipetal'
+		,
+		22
+		'paniculiform'
+		'thyrsoid to cymiform'
+		'capitate'
+		'solitary flowers'
+		'racemose'
+		,
+		23
+		'4-6'
+		'7-8'
+		'8-10'
+		,
+		24
+		'8-10'
+		'16-20'
+		'many'
+		,
+		25
+		'1'
+		'2'
+		'4'
+		'4-5'
+		'many'
+		,
+		26
+		'valvate'
+		'imbricate'
+		,
+		27
+		'absent'
+		'present'
+		,
+		28
+		'ovate to obovate, single veined'
+		'large multiveined, obovate'
+		'flabellate incised'
+		'cuneiform/retuse'
+		'lanciolate'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'dorsifixed'
+		'basifixed'
+		,
+		31
+		'rigid'
+		'versatile'
+		,
+		32
+		'ventral slit'
+		'poricidal'
+		,
+		33
+		'short'
+		'long'
+		'minute'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'tricolporate'
+		'dicolporate'
+		'syncolpate'
+		,
+		36
+		'homogeneous'
+		'heterogeneous'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'annular'
+		'segmented'
+		,
+		39
+		'syncarpous'
+		'apocarpous all or most of length'
+		,
+		40
+		'free'
+		'partially fuzed'
+		'fully fuzed'
+		,
+		41
+		'hypogyny'
+		'epigyny'
+		'perigyny'
+		,
+		42
+		'more than two'
+		'two'
+		'one'
+		,
+		43
+		'glabrous'
+		'hirsute'
+		,
+		44
+		'terminal'
+		'decurrent'
+		,
+		45
+		'present'
+		'absent'
+		,
+		46
+		'folicular'
+		'single-seeded drupe'
+		'capsular (basipetal dehiscence)'
+		'dry indehiscent'
+		'dry bladder'
+		'fin-winged'
+		'schizocarpic didrupe'
+		'capsular (circumbasal, acropetal)'
+		,
+		47
+		'not accrescent'
+		'forming stiff wings around fruit'
+		,
+		48
+		'adnate pair'
+		'free pair'
+		'single'
+		,
+		49
+		'present'
+		'absent'
+		,
+		50
+		'absent'
+		'present'
+		,
+		51
+		'absent'
+		'present'
+		,
+		52
+		'mostly scalariform'
+		'mostly simple'
+		,
+		53
+		'markedly heterogeneous'
+		'fairly homogeneous'
+		,
+		54
+		'solitary'
+		'solitary-multiples'
+		'radial-multiples'
+		,
+		55
+		'scalariform to opposite'
+		'opposite'
+		'transitional opposite-alternate'
+		,
+		56
+		'absent'
+		'present'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Spiraeanthemum samoense'		               22-0200011003-0100-10000300-0010-000111-0110000-0000000100
+	'Spiraeanthemum macgillivrayi'		          22-0200011003-0100-10000300-0010-000111-0110000-0000000100
+	'Spiraeanthemum ellipticum'		             22-0100011003-0100-10000300-0010-000111-0110000-0000000100
+	'Brunellia oliveri'		                     100110000000111-0-101100300-00102100101-0111100-1001010000
+	'Brunellia colombiana'		                  100110000000111-0-101100300-00102100101-0111100-1001010000
+	'Davidsonia jerseyana'		                  002110000000321?0--01000100-0010210011000010060-1001110100
+	'Cunoniantha bicarpellata'		              ??????????????????????????????????????????????????????????
+	'Davidsonia johnsonii'		                  002110000000321-0--01000100-001021001100001??60-1001110100
+	'Davidsonia pruriens'		                   002100000000321-0--01000100-001021001100001?060-1001110100
+	'Bauera sessiliflora'		                   12-1?00000000-1-0-10-31211110000-0000-00001000021011001000
+	'Bauera rubioides'		                      12-1100000000-1-0-10-31211110001-0000-00001000021011001000
+	'Eucryphia cordifolia'		                  120110000000300211-0-30241110010-0001100000017010000110100
+	'Eucryphia lucida'		                      12-020000000300211-0130241110010-000110000001?010000110100
+	'Eucryphia moorei'		                      1{0,2}0110000000300211-0130241110010-0001100000017010000110100
+	'Hooglandia ignambiensis'		               10011000000??01000101000010-0010-0?011000100110-100???????
+	'Anodopetalum biglandulosum'		            12-110000000310210-0110010120010111110010100030-1001110110
+	'Platylophus trifoliatus'		               11-110000000300210-0110010120010011110000110030-1001110100
+	'Ceratopetalum gummiferum'		              11-110000000300201-0110010120010111110012100031-1001110101
+	'Ceratopetalum apetalum'		                12-110000000300201-01100100-0010011110002110031-1001110101
+	'Schizomeria serrata'		                   12-110000000300201-0110010120010011111000110010-1001112110
+	'Schizomeria ovata'		                     12-110000000000201-0110010120010011111000100010-1001112110
+	'Gillbeea adenopetala'		                  100100100000201---10100010130010-02110000000150-1010010100
+	'Geissois superba'		                      11-100010000311---000400100-0010-0101000000007010001022010
+	'Karrabina benthamiana'		                 11-100000000312----00400100-0010-0101000001007010001022010
+	'Pseudoweinmannia lachnocarpa'		          11-100000000311---000400100-0010-01010000010070-?001022110
+	'Pullea glabra'		                         12-0000000000-0000-10000110-?010-11011002010050-?000000100
+	'Weinmannia bangii'		                     101110000000200102-1040011100010?1001000001007021100000100
+	'Weinmannia fraxinea'		                   101110000000200102-1040011100010-1001100001007021100000100
+	'Weinmannia minutiflora'		                101110000000200102-004001110001021001100001007021100000100
+	'Weinmannia madagascariensis'		           101110000000200102-0040011100010-1001000001007021100000100
+	'Cunonia atrorubens'		                    101110000000200102-?040011100010-1001000001004020000000100
+	'Cunonia capensis'		                      101100000000200102-004001110001021001000000004020000000100
+	'Pancheria engleriana'		                  220110000000200102-0020011100010210011100110070-0000000110
+	'Vesselowskya rubifolia'		                11-100010000100102-1040010100010?1001100001107020000000100
+	'Callicoma serratifolia'		                12-100000011000000-10200100-001021100-0000100?001010000100
+	'Codia discolor'		                        12-020000011000?00-002001010001021000-001110070???01000100
+	'Acrophyllum australe'		                  22-1000000000-0?00-0000010100010-0101000001007001010000100
+	'Caldcluvia paniculata'		                 12-110010000301---1001001010001021001100001007010000000100
+	'Ackama rosifolia'		                      100101011000310?02-10000100-10102100110000100?011100010100
+	'Ackama paniculosa'		                     100101010000310?02-10000100-101021001100001007011100010100
+	'Spiraeopsis celebica'		                  100111110000310?020100001010101021001100001017010011012000
+	'Opocunonia nymanii'		                    100110011000300?0?0001001010101021001000001007000010001100
+	'Lamanonia ternata'		                     11-100010000311---100402100-0010-0101000001007010001022100
+	'Aistopetalum viticoides'		               10011111111130?????01000300-0010-00010000210110---01012100
+	'Lacinipetalum spectabilum'		             ??????????????????????212012001001001?000?10??????????????
+	'Ceratopetalum suciensis'		               ??????????????????????001???????????10012????31???????????
+	'Ceratopetalum edgardoromeroi'		          ??????????????????????0?{1,2}?0-????????1000?????31???????????
+	'Ceratopetalum westermannii'		            ??????????????????????0?1?0-??????????0?2????31???????????
+	'Ceratopetalum maslinensis'		             ??????????????????????0???0-??????????022????31???????????
+	'Ceratopetalum wilkinsonii'		             ??????????????????????0???12????????10??2????31???????????
+	'Ceratopetalum priscum'		                 ??????????????????????0???1?????????10???????31???????????
+	'Eucryphia reticulata'		                  ????????????????????????4?????????????000?0??701??????????
+	'Schizomeria tasmaniensis'		              ??????????????????????00??12????????1?????????????????????
+	'Acsmithia grandiflora'		                 ?????????????????????00?3?0-?0?0??????100?????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 58;
+      ENDBLOCK;
+      

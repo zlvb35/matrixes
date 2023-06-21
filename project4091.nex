@@ -1,0 +1,178 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 23.45.38 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=7;
+    TAXLABELS
+    		'Prototomus phobos'
+		'Dipsalidictis krausei'
+		'Machaeroides simpsoni'
+		'Machaeroides eothen'
+		'Apataelurus kayi'
+		'Apataelurus pishigouensis'
+		'Diegoaelurus vanvalkenburghae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=25;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'P2 orientation'
+		 [2] 'P3 protocone'
+		 [3] 'Transverse projection of P4 protocone'
+		 [4] 'M1 paracone and metacone fusion'
+		 [5] 'M1 metastylar blade orientation'
+		 [6] 'M1 protocone size'
+		 [7] 'M2 protocone size'
+		 [8] 'p1'
+		 [9] 'p2 roots'
+		 [10] 'p3 size'
+		 [11] 'p3 paraconid'
+		 [12] 'p4 protoconid orientation'
+		 [13] 'p4 paraconid height'
+		 [14] 'p4 talonid width'
+		 [15] 'm1-2 trigonid height'
+		 [16] 'm2 size'
+		 [17] 'm1-2 metaconids'
+		 [18] 'm1 entocristid'
+		 [19] 'm1 talonid length'
+		 [20] 'm2 talonid development'
+		 [21] 'posterior extent of mandibular flange'
+		 [22] 'shape of inferior margin of mandibular flange'
+		 [23] 'coronoid process height'
+		 [24] 'mandibular condyle position'
+		 [25] 'DUMMY'
+	;
+	STATELABELS
+		1
+		'oblique'
+		'longitudinal'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'close to paracone'
+		'widely separated from paracone'
+		,
+		4
+		'connate but with separation at apices'
+		'nearly completely fused with minimal separation'
+		,
+		5
+		'oblique with a distinct inflection between the metastyle and metacone'
+		'more longitudinal with a weak inflection'
+		,
+		6
+		'1/3 of crown width'
+		'very reduced, 1/4 of crown width'
+		,
+		7
+		'well-developed'
+		'reduced to a cingular cusp'
+		,
+		8
+		'present, single-rooted'
+		'present, double-rooted'
+		'absent'
+		,
+		9
+		'double-rooted'
+		'single-rooted'
+		,
+		10
+		'large, >75% the length of m1'
+		'reduced, <75% the length of m1'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'vertical, cusp symmetrical'
+		'somewhat reclined posteriorly, distal carina more vertical than mesial'
+		,
+		13
+		'lower than talonid'
+		'subequal to talonid'
+		,
+		14
+		'equivalent to trigonid'
+		'broader than trigonid'
+		,
+		15
+		'protoconid and paraconid tall relative to length'
+		'protoconid and paraconid relatively lower and more elongate'
+		,
+		16
+		'larger than m1, m2 trigonid length no larger than subequal to entire length of m1'
+		'much larger than m1, m2 paraconid length subequal to entire length of m1'
+		,
+		17
+		'present'
+		'absent'
+		,
+		18
+		'present, may be weak'
+		'absent'
+		,
+		19
+		'approximately one third the length of the crown'
+		'approximately one quarter the length of the crown'
+		,
+		20
+		'small and at least bicuspid'
+		'rudimentary and unicuspid'
+		,
+		21
+		'extends to below p1-2'
+		'extends to below p3'
+		,
+		22
+		'triangular'
+		'rounded'
+		,
+		23
+		'taller than m2'
+		'lower than m2'
+		,
+		24
+		'even with tooth row'
+		'below tooth row'
+		,
+		25
+		'Outgroup'
+		'Ingroup'
+		
+	;
+	MATRIX
+	'Prototomus phobos'		                      ?0000000000010000000--000
+	'Dipsalidictis krausei'		                  00100000010100000000--000
+	'Machaeroides simpsoni'		                  000000010??100?00???00??1
+	'Machaeroides eothen'		                    1111111100000000000000001
+	'Apataelurus kayi'		                       ???????00101111111111?111
+	'Apataelurus pishigouensis'		              ???????????1110?1?1?1???1
+	'Diegoaelurus vanvalkenburghae'		          ???????2111???101100010?1
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+      	TEXT TAXON=5 CHARACTER=17 TEXT='As noted by Scott (1938) the protoconid apex of m1 appears bifid due to wear.  There is no metaconid on either m1 of CM 11920.';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 25;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1632167796076; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 874802389330404996; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4746339127805108375; mqVersion 360; checksumv 0 3 2270943560 null getNumChars 25 numChars 25 getNumTaxa 7 numTaxa 7 short true bits 7 states 7 sumSquaresStatesOnly 279.0 sumSquares 279.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 429; setPopoutState 300; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1600 760; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #874802389330404996 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #874802389330404996; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1171 688; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.lists.TaxonList.TaxonListWindow.ibeam; endTell; setActive; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord; tell It; makeTreeWindow #874802389330404996 #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker; tell It; suppressEPCResponse; setTreeSource #mesquite.trees.StoredTrees.StoredTrees; tell It; setTreeBlock 1; setTreeBlockID 017bd03ffaf32; toggleUseWeights off; endTell; setAssignedID 1050.1631286378995.8079083422303083154; getTreeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1171 688; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow; endTell; getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator; tell It; suppress; setTreeDrawer #mesquite.trees.SquareLineTree.SquareLineTree; tell It; setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard; tell It; branchLengthsToggle off; toggleScale on; toggleBroadScale off; toggleCenter on; toggleEven on; setFixedTaxonDistance 0; endTell; setEdgeWidth 2; showEdgeLines on; orientRight; endTell; setBackground White; setBranchColor Black; showNodeNumbers off; showBranchColors on; labelBranchLengths off; centerBrLenLabels on; showBrLensUnspecified on; showBrLenLabelsOnTerminals on; setBrLenLabelColor 0 0 255; setNumBrLenDecimals 6; setSelectedTaxonHighlightMode 1; desuppress; getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames; tell It; setFontSize 12; setColor Black; setTaxonNameStyler #mesquite.trees.NoColorForTaxon.NoColorForTaxon; toggleShadePartition off; toggleShowFootnotes on; toggleNodeLabels on; toggleCenterNodeNames off; toggleShowNames on; namesAngle ?; endTell; endTell; setTreeNumber 1; setDrawingSizeMode 0; toggleLegendFloat on; scale 0; toggleTextOnTree off; togglePrintName off; showWindow; endTell; desuppressEPCResponse; getEmployee #mesquite.trees.ColorBranches.ColorBranches; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.ornamental.BranchNotes.BranchNotes; tell It; setAlwaysOn off; endTell; getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition; tell It; colorByPartition off; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles; tell It; setOn on; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; toggleShow consensusFrequency; toggleShow posteriorProbability; toggleShow bootstrapFrequency; setDigits 4; setThreshold ?; writeAsPercentage off; toggleCentred off; toggleHorizontal on; toggleWhiteEdges on; toggleShowOnTerminals on; setFontSize 10; setOffset 0 0; endTell; getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings; tell It; setOn on; toggleCentred on; toggleHorizontal on; setFontSize 10; setOffset 0 0; toggleShowOnTerminals on; endTell; getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues; tell It; panelOpen false; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4746339127805108375 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1171 688; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1171 688; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.silk.AnnotSummary.AnnotSummary; tell It; togglePanel off; endTell; getEmployee #mesquite.silk.CellImages.CellImages; tell It; togglePanel off; toggleAnnotations off; toggleSums off; toggleHistory off; toggleLocations off; endTell; getEmployee #mesquite.silk.StateImages.StateImages; tell It; togglePanel off; toggleStateAnnotations off; toggleCharAnnotations off; toggleLocations off; endTell; getEmployee #mesquite.silk.aaManageImageIndices.aaManageImageIndices; tell It; setLocal; reset; endTell; getEmployee #mesquite.stratigraphictools.ColorScaleCells.ColorScaleCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4746339127805108375 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1171 688; setLocation -9 0; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 25; 
+ENDBLOCK;
+BEGIN TREES;
+ Title Trees; ID 017bd03ffaf32; LINK Taxa = Taxa; TRANSLATE [0] 1 Prototomus_phobos, [1] 2 Dipsalidictis_krausei, [2] 3 Machaeroides_simpsoni, [3] 4 Machaeroides_eothen, [4] 5 Apataelurus_kayi, [5] 6 Apataelurus_pishigouensis, [6] 7 Diegoailurus_dawsonae; TREE MPT = (1,(2,((3,4),(7,(6,5))))); 
+ENDBLOCK;

@@ -1,0 +1,572 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.26.06 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Chelydra serpentina'
+		'Notoemys laticentralis'
+		'Platychelys obendorferi'
+		'Araripemys barretoi'
+		'Podocnemis sextuberculata'
+		'Podocnemis expansa'
+		'Elseya dentata'
+		'Emydura macquarii'
+		'Rheodytes leukops'
+		'Myuchelys latisternum'
+		'Pseudemydura umbrina'
+		'Chelodina colliei'
+		'Chelodina expansa'
+		'Platemys platycephala'
+		'Acanthochelys macrocephala'
+		'Acanthochelys radiolata'
+		'Mesoclemmys nasuta'
+		'Mesoclemmys gibba'
+		'Phrynops hilari'
+		'Phrynops geoffroanus'
+		'Chelus fimbriatus'
+		'Hydromedusa maximiliani'
+		'Hydromedusa tectifera'
+		'Hydromedusa casamayorensis'
+		'Yaminuechelys gasparinii'
+		'Yaminuechelys maior'
+		'Yaminuechelys sulcipeculiaris'
+		'Mesoclemmys dahli'
+		'Mesoclemmys raniceps'
+		'Mesoclemmys vanderhaegei'
+		'Mesoclemmys vanegasorum'
+		'Mesoclemmys hogei'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=84;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Nasals'
+		 [2] 'Nasals covering the dorsal view of the premaxillar'
+		 [3] 'Prefrontals contact in the midline'
+		 [4] 'Anterior process of the frontals'
+		 [5] 'Frontals'
+		 [6] 'Posterior maxillar process reaching the posterior margin of the orbits'
+		 [7] 'Maxillar contact in the midline'
+		 [8] 'Quadratojugal'
+		 [9] 'Lateral edge of the parietals on dorsal view'
+		 [10] 'Lateral edge of the parietals'
+		 [11] 'Squamosal-Supraoccipital contact'
+		 [12] 'Squamosal-Parietal contact'
+		 [13] 'Exoccipitals'
+		 [14] 'Supraoccipital shape'
+		 [15] 'Crista supraoccipitalis'
+		 [16] 'Posterior skull emargination'
+		 [17] 'Posterior skull emargination linked with lateral emargination'
+		 [18] 'Largely apertura narinum internae'
+		 [19] 'Palatines contact in midline'
+		 [20] 'When palatines not contact in midline'
+		 [21] 'Pterygoid-Maxillar contact'
+		 [22] 'When Pterygoids Maxilla contacs are absent'
+		 [23] 'Pterygoids-basioccipital contact'
+		 [24] 'Quadrate-Basisphenoid contact'
+		 [25] 'Medial process of the basisphenoid in ventral view'
+		 [26] 'Medial process of the basisphenoid separated the pterygoid'
+		 [27] 'Foramen posterius canalis carotici interni in ventral view'
+		 [28] 'Lower jaw symphisis'
+		 [29] 'Splenial bone'
+		 [30] 'Symphyseal hook'
+		 [31] 'Neural arch elements of the atlas'
+		 [32] 'Anterior process of neural arch in axis'
+		 [33] 'Cervical 2'
+		 [34] 'Cervical 3'
+		 [35] 'Cervical 4'
+		 [36] 'Cervical 5'
+		 [37] 'cervical 6'
+		 [38] 'cervical 7'
+		 [39] 'cervial 8'
+		 [40] 'Cervical vertebrae'
+		 [41] 'Angled spine on cervical vertebra 3-7'
+		 [42] 'Postzygapophyses process'
+		 [43] 'Postzygapophyses fused in the midline'
+		 [44] 'Medial ventral crest on 8 cervical vertebrae'
+		 [45] 'Lenght of thoracic vertebra 1'
+		 [46] 'Thoracic rib 1A'
+		 [47] 'Thoracic rib 1B'
+		 [48] 'Costovertebral Tunnel'
+		 [49] 'Nuchal bone geometry'
+		 [50] 'Nuchal bone position'
+		 [51] 'neural serie'
+		 [52] 'When neural serie is present'
+		 [53] 'Suprapygal bone'
+		 [54] 'Illiadic suture restricted to costal bones'
+		 [55] 'Peripheral bones'
+		 [56] 'Axillary butresses extending over first costal bone'
+		 [57] 'Axillary butresses extending on peripheral bones'
+		 [58] 'Inguinal buttress extends over peripherals'
+		 [59] 'Cervical scute'
+		 [60] 'When cervical scute is present'
+		 [61] 'Vertebral 1A'
+		 [62] 'Vertebral 1B'
+		 [63] 'Vertebral 1 over Vertebral 2'
+		 [64] 'Vertebral 5A'
+		 [65] 'Vertebral 5B1'
+		 [66] 'Vertebral 5B2'
+		 [67] 'Mesoplastra'
+		 [68] 'When mesoplastron are present'
+		 [69] 'Fontanelles'
+		 [70] 'When fontanelles are present'
+		 [71] 'Gular'
+		 [72] 'Humerals'
+		 [73] 'Pectoral scute extending over entoplastron'
+		 [74] 'When pectoral scute extend over entoplastron'
+		 [75] 'Pectoral scute extending over epiplastron'
+		 [76] 'Pectoral scute extending over mesoplastron'
+		 [77] 'The depth of the nuchal notch'
+		 [78] 'Pygal shape'
+		 [79] 'Ornamentation'
+		 [80] 'Type of ornamentation'
+		 [81] 'Squamosal-parietla contact temporal bar'
+		 [82] 'Costals 1 meeting medially'
+		 [83] 'Shallow midline carapace depression'
+		 [84] 'Pectoral vs. abdominal length at the midline of plastron'
+	;
+	STATELABELS
+		1
+		'Absent'
+		'Present'
+		,
+		2
+		'Completly'
+		'Partially'
+		'Not covering'
+		,
+		3
+		'Present'
+		'Present, contact over the anterior process of the frontals'
+		'Absent'
+		,
+		4
+		'Not developed'
+		'Developed, partially separate the nasals'
+		'Well developed, reaching the anterior edge of the skull'
+		,
+		5
+		'Sutured'
+		'Fused'
+		,
+		6
+		'Present'
+		'Absent'
+		,
+		7
+		'Present'
+		'Absent, separate by vomer'
+		'Absent, separate by premaxillar'
+		,
+		8
+		'Present'
+		'Absent'
+		,
+		9
+		'Extending until lateral edge of the skull'
+		'Covering the stapediotemporalis foramen'
+		'not extending beyond the medial region of the skull'
+		,
+		10
+		'Tappering anteriorly'
+		'Paralell or subparalell'
+		'Reduced at the medial portion'
+		'Tappering posteriorly'
+		,
+		11
+		'Absent'
+		'Present'
+		'Present, contact by temporal bar'
+		,
+		12
+		'Absent'
+		'Present'
+		,
+		13
+		'Not meet in midline over the foramen magnum'
+		'meet in midline over the foramen magnum'
+		'fused in midline over the foramen magnum'
+		,
+		14
+		'Rhomboidal'
+		'Subtriangular'
+		'Oblong (anteroposterior axis much longer than lateromedial axis)'
+		,
+		15
+		'Not extend beyond the occipital condyle'
+		'Extend beyond the occipital condyle'
+		,
+		16
+		'Not reaching the quadrate in dorsal view'
+		'Reaching the quadrate in dorsal view'
+		'Extending beyond the quadrate in dorsal view'
+		,
+		17
+		'Absent'
+		'Present'
+		,
+		18
+		'Absent'
+		'Present'
+		,
+		19
+		'Present'
+		'Absent'
+		,
+		20
+		'separate by vomer'
+		'separate by pterygoids'
+		,
+		21
+		'Present'
+		'Absent'
+		,
+		22
+		'Separated by palatines'
+		'Separated by jugal'
+		,
+		23
+		'Present'
+		'Absent'
+		,
+		24
+		'Present'
+		'Absent'
+		'State 2'
+		,
+		25
+		'Extending beyond the processus pterygoidei'
+		'Reaching the processus pterygoidei'
+		'Extending behind the processus pterygoidei'
+		,
+		26
+		'completely'
+		'almost everything'
+		'only posterior region'
+		,
+		27
+		'Developed between basisphenoid and prootic'
+		'Developed only over prootic'
+		'Developed between prootic and quadrate'
+		'Developed between pterygoids and prootic'
+		,
+		28
+		'Sutured'
+		'Fused'
+		,
+		29
+		'Absent'
+		'Present'
+		,
+		30
+		'Absent'
+		'Present'
+		,
+		31
+		'Dorsally sutured'
+		'Dorsally fused'
+		,
+		32
+		'Absent'
+		'Present'
+		,
+		33
+		'Amphicoelous'
+		'Procoelous'
+		'Opistocoelous'
+		,
+		34
+		'Opistocoelous'
+		'Procoelous'
+		,
+		35
+		'Biconvex'
+		'Procoelous'
+		'Opistocoelous'
+		,
+		36
+		'Procoelous'
+		'Biconvex'
+		,
+		37
+		'Procoelous'
+		'Biconcave'
+		,
+		38
+		'Procoelous'
+		'Biconcave'
+		,
+		39
+		'Procoelous'
+		'Biconvex'
+		,
+		40
+		'shorther than twice it wide'
+		'longer than twice it wide'
+		,
+		41
+		'angled respect to the cervical body less than 40 degrees'
+		'angled respect to the cervical body more or equal than 40 degrees'
+		'absent of angled'
+		,
+		42
+		'Separated and relatively low'
+		'Extended posterodorsally over the neural spine'
+		,
+		43
+		'Absent'
+		'Present'
+		,
+		44
+		'Absent'
+		'Slightly development without covering all vertebral body length'
+		'Widely development at all vertebral body length'
+		,
+		45
+		'Longer than thoracic vertebra 2'
+		'As long as thoracic vertebra 2'
+		'Slightly shorter than thoracic vertebra 2'
+		'Shorter than thoracic vertebra 2'
+		,
+		46
+		'Thoracic rib 1 large and separated from thoracic rib 2'
+		'Thoracic rib 1 reduced almost same size of the medial portion of the rib 2, both separated by an oval elongated space'
+		'Thoracic rib 1 shorter than the medial exposed portion of thoracic rib 2, very small oval space between them'
+		'Thoracic rib 1 longer than thoracic rib 2, smaller than the medial portion of thoracic rib 2, both separated by an oval elongated space'
+		,
+		47
+		'Articulation facet on thoracic rib 1 absent'
+		'Articulation facet on thoracic rib 1 present, facet or tubercle on anterior margin of thoracic rib 1'
+		,
+		48
+		'Developed through thoracic vertebrae serie, narrowing toward posterior end'
+		'Moderate developed only in anterior thoracic vertebra, narrowing towards posterior end'
+		'Slightly developed through thoracic vertebra serie, narrowing toward posterior end'
+		,
+		49
+		'Two or more times wider than lenght'
+		'width greater than lenght but less than two times'
+		'width approximately equals lenght'
+		'width approximately equals length, maximum width at least the anterior edge width'
+		'Nuchal bone greatly emarginated, anterior edge width equals maximum width'
+		,
+		50
+		'Reaching the anterior margin'
+		'Not reaching the anterior margin located behind the first peripherals bones'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'continuous, reaching the suprapygal bone'
+		'continous not reaching the suprapygal'
+		'continous not reaching the nuchal bone either the suprapygal bone'
+		'discontinous not reaching the nuchal bone either the suprapygal bone'
+		,
+		53
+		'two'
+		'one'
+		,
+		54
+		'Present'
+		'Absent'
+		,
+		55
+		'anterior shorter than posterior ones'
+		'anterior longer than posterior ones'
+		,
+		56
+		'Until lateral edge'
+		'Until medial portion'
+		'Until medial edge'
+		,
+		57
+		'Absence of axillary buttresses'
+		'Present, until peripheral 2 and 3'
+		'Present, until peripheral 3'
+		'Present, until peripheral 3 and 4'
+		'Present until peripheral 4'
+		,
+		58
+		'Peripherals 6 and 7'
+		'Peripheral 7'
+		'Peripherals 7 and 8'
+		'Peripheral 8'
+		'Not extending over peripherals'
+		,
+		59
+		'Absent'
+		'Present'
+		,
+		60
+		'Reaching the anterior margin of the carapace'
+		'Extend behind the first marginal scutes'
+		,
+		61
+		'Two or more times wider than long'
+		'wider than long'
+		,
+		62
+		'anterior margin of vertebral 1 as wide as the posterior margin'
+		'wider than the posterior margin'
+		'twice as wide as the posterior margin'
+		,
+		63
+		'Equal or Narrower'
+		'Wider'
+		,
+		64
+		'Restricted to suprapygal bone and eight costal bones'
+		'Not restricted to suprapygal bone and eight costal bones'
+		,
+		65
+		'Extending over pygal bone'
+		'Not extending over pygal bone'
+		,
+		66
+		'Extending over peripheral tenth and eleventh'
+		'Extending only over eleventh peripherals'
+		,
+		67
+		'Absent'
+		'Present'
+		,
+		68
+		'Longer as wide'
+		'Wider than long'
+		,
+		69
+		'Absent'
+		'Present'
+		,
+		70
+		'one'
+		'two'
+		'three'
+		,
+		71
+		'Reaching the anterior margin of the plastron'
+		'Not reaching the anterior margin of the plastron'
+		,
+		72
+		'Contact in the midline'
+		'Not contact in the midline'
+		,
+		73
+		'Present'
+		'Absent'
+		,
+		74
+		'Cover posterior half'
+		'cover only third posterior'
+		'cover posterolateral region'
+		'reaching the suture entoplastron-hioplastron'
+		,
+		75
+		'Present'
+		'Absent'
+		,
+		76
+		'Present'
+		'Absent'
+		,
+		77
+		'Shallow'
+		'deep'
+		,
+		78
+		'trapezoidal'
+		'rectangular'
+		'hexagonal'
+		,
+		79
+		'Present in both carapace and plastron'
+		'Absent in carapace, occasionally present in some regions of the plastron'
+		,
+		80
+		'Sulci form uniform polygons'
+		'Sulci form irregular polygons'
+		'Sulci form polygons and lines'
+		'Microvermiculation'
+		,
+		81
+		'wide to moderate'
+		'narrow'
+		'extremely narrow formed by squamosal-parietal only'
+		'extremely narrow formed by squamosal-parietal and supraoccipital'
+		,
+		82
+		'absent'
+		'present'
+		,
+		83
+		'Absent'
+		'present'
+		,
+		84
+		'Pectoral scute as long as the abdominal'
+		'Pectoral scute slightly shorter than the abdominal'
+		'Abdominal scute twice or more the length of pectoral'
+		'Pectoral scute much longer than abdominal'
+		
+	;
+	MATRIX
+	'Chelydra serpentina'		                    0-0000202000021200100-0122300100000000002000030000000-0-0-100001100-11-0030-001--000
+	'Notoemys laticentralis'		                 ??????????00000????????1??3??000202????0200?00100000000020100001001110001-10011--00-
+	'Platychelys obendorferi'		                ?????????????????????????????0??????1?10200030100001010220100001001111001-10121-?00-
+	'Araripemys barretoi'		                    0-01002021000202000-10120010000011100001111001014000110?210-0101000-1200??1-1000-000
+	'Podocnemis sextuberculata'		              0-00002011000211000-111022110100111000001102210210011012140-110101100-000001001--001
+	'Podocnemis expansa'		                     0-00002011001211000-111022110100111000001102210210011012140-110101100-000001021--001
+	'Elseya dentata'		                         102000011101001000100-11220111002021011011013102101-1112130-1101000-0-00031-0(0,1)1-0103
+	'Emydura macquarii'		                      102100011101001000100-11220111002021011011022102101-111212101101000-0-00031-00020103
+	'Rheodytes leukops'		                      102100011101001000100-11220101002021011011013102101-111110101001000-0-00011-001-0101
+	'Myuchelys latisternum'		                  1022000110010010000-0-11121111002021011011022102101-111122101101000-0-001-1-011-0101
+	'Pseudemydura umbrina'		                   102000010111011000101011221110002021011011022102101-111112101001000-0-01020-(0,1)01-0103
+	'Chelodina colliei'		                      122211112301220-100-11100100101020210111011101021001111030101210--0-0-11020-00010003
+	'Chelodina expansa'		                      122211112301220-100-1110012010102021011101110102301-111031101211010-0-11020-0001-103
+	'Platemys platycephala'		                  102100211101100000101011122010002021011001012102201-101132101101010-0-00010-111--101
+	'Acanthochelys macrocephala'		             111100012201120100101011122010002021011001012102201-111132101211110-0-001-1-011-0111
+	'Acanthochelys radiolata'		                111100212201120100101011122010002021011001012102201-111132101211110-0-001-1-011-0111
+	'Mesoclemmys nasuta'		                     1121000122011210001010111200100020210110010121022002101132101211110-0-001-1-011-2101
+	'Mesoclemmys gibba'		                      1121000122011011001010111200100020210110010121022002111132101211110-0-001-1-01122101
+	'Phrynops hilari'		                        1021000122011011001010111220100020210110010121022001111132101111010-0-001-1-01001001
+	'Phrynops geoffroanus'		                   1021000122011011001010111220100020210110010121022001111132101111010-0-001-1-01021001
+	'Chelus fimbriatus'		                      0-22001122012200001110111210100020210110010112001001111130101211000-0-00011-001-000(0,1)
+	'Hydromedusa maximiliani'		                1211010123012200011110110110101120210111011211022101101042111111110-0-001-1-01013000
+	'Hydromedusa tectifera'		                  1211010123212100011110100110101120210111011211022001111041111100--0-10001-1-00013000
+	'Hydromedusa casamayorensis'		             ????????23??220????????1??1??????02?01110112????2001111132111211000-0-001-1-?001?00?
+	'Yaminuechelys gasparinii'		               ?2210??12320?21001?????????0101020??01110112110(0,1)000111002210021101111100???00101-00?
+	'Yaminuechelys maior'		                    1?2????1232022100?????11??????102?2?01110112110(0,1)0001110122100211011110001-101002-001
+	'Yaminuechelys sulcipeculiaris'		          ???????????????????????????????????????1?1???????001110?2210???0--??????????0001?0??
+	'Mesoclemmys dahli'		                      112100002201121100101011120010002021011001012102201-111132101211110-0-001-1-01022100
+	'Mesoclemmys raniceps'		                   112100002201121100101011120010002021011001012102201-111132101211110-0-001-1-01122100
+	'Mesoclemmys vanderhaegei'		               ????????????????????????????????????????????21022003101132101211110-0-001-1-0112?102
+	'Mesoclemmys vanegasorum'		                ???????????????????????????????0??21???0010?2102201-101132101211000-0-001-1-0103?102
+	'Mesoclemmys hogei'		                      ???????????????????????????????0???????0010?21022003111132101211100-0-001-1-0112?102
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 3 5 - 8 10 - 12 17 - 24 27 - 43 46 - 55 59 - 61 63 - 69 72 74 - 84, ord: 2 4 9 13 - 16 25 - 26 44 - 45 56 - 58 62 70 - 71 73;
+      ENDBLOCK;
+      BEGIN LABELS;
+ TAXAGROUPLABEL 'Pan-Cryptodyra' COLOR = (RGB 1 0.06666667 0.62745098) ; TAXAGROUPLABEL 'Pan-Pleurodira' COLOR = (RGB 1 0.03529412 1) ; TAXAGROUPLABEL 'Pan-Pelomedusoides' COLOR = (RGB 1 1 0.53333333) ; TAXAGROUPLABEL 'Australasian Pan-Chelidae' COLOR = (RGB 0.03529412 0.22745098 1) ; TAXAGROUPLABEL 'South American Pan-Chelidae' COLOR = (RGB 0.03529412 0.80784314 1) ; 
+ENDBLOCK;
+BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1568854371087; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 4118206501971331611; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 5752492288915658677; tell It; setDefaultOrder 0 1 2 5 4 6 13 14 7 8 11 12 21 9 10 17 18 28 16 25 20 22 23 15 25 26 19 52 53 108 50 51 37 38 39 40 41 42 43 48 105 44 45 46 67 70 71 72 55 56 31 32 30 102 49 54 73 103 28 29 62 63 58 59 63 67 33 34 35 36 47 73 70 71 73 74 76 77 78 79 80 81 82 84; attachments ; endTell; mqVersion 320; checksumv 0 3 2122843316 null getNumChars 84 numChars 84 getNumTaxa 32 numTaxa 32 short true bits 31 states 31 sumSquaresStatesOnly 13540.0 sumSquares 13540.0 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 200; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1368 684; setLocation 116 185; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; showTaxa #4118206501971331611 #mesquite.lists.TaxonList.TaxonList; tell It; setTaxa #4118206501971331611; getWindow; tell It; newAssistant #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1168 612; setLocation 116 185; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.ColorTaxon.ColorTaxon; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #5752492288915658677 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 241; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1168 612; setLocation 116 185; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; newAssistant #mesquite.distance.ShowDistance.ShowDistance; tell It; getEmployee #mesquite.distance.TaxaDistFromMatrixSrc.TaxaDistFromMatrixSrc; tell It; getMatrixSource #mesquite.charMatrices.CharMatrixCoordIndep.CharMatrixCoordIndep; tell It; setCharacterSource #mesquite.charMatrices.StoredMatrices.StoredMatrices; tell It; setDataSet #5752492288915658677; endTell; endTell; setDistanceTask #mesquite.distance.UncorrectedDistance.UncorrectedDistance; endTell; endTell; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1168 612; setLocation 116 185; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar on; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #5752492288915658677 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; getTable; tell It; columnWidth 3 100; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1168 612; setLocation 116 185; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1 - 84; 
+ENDBLOCK;
+BEGIN SETS;
+ TAXPARTITION * UNTITLED = 'Pan-Cryptodyra' : 1, 'Pan-Pleurodira' : 2 - 3, 'Pan-Pelomedusoides' : 4 - 6, 'Australasian Pan-Chelidae' : 7 - 13, 'South American Pan-Chelidae' : 14 - 26; 
+ENDBLOCK;

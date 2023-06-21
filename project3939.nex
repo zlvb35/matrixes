@@ -1,0 +1,414 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 21.37.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=32;
+    TAXLABELS
+    		'Zygorhiza kochii'
+		'Cynthiacetus peruvianus'
+		'Agorophius pygmaeus'
+		'Eudelphis mortezelensis'
+		'Zygophyseter varolai'
+		'Brygmophyseter shigensis'
+		'Acrophyseter deinodon'
+		'Acrophyseter robustus'
+		'Acrophyseter spp.'
+		'Livyatan melvillei'
+		'"Aulo" (patagophyseter) rionegrensis'
+		'Orycterocetus crocodilinus'
+		'Physeterula dubusi'
+		'Idiorophus patagonicus'
+		'Diaphorocetus poucheti'
+		'Placoziphius duboisi'
+		'Aulophyseter morricei'
+		'Physeter macrocephalus'
+		'Idiophyseter merriami'
+		'Thalassocetus antwerpiensis'
+		'Aprixokogia kelloggi'
+		'Scaphokogia cochlearis'
+		'Praekogia cedrosensis'
+		'Kogia breviceps'
+		'Koristocetus pescei'
+		'Nanokogia isthmia'
+		'MUSM 3405'
+		'Kogia sima'
+		'Kogia pusilla'
+		'Scaphokogia totajpe sp nov.'
+		'LACM156632?'
+		'Albicetus oxymycterus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=57;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="012345";
+	CHARLABELS
+		 [1] 'Rostrum length'
+		 [2] 'Maxillae, premaxillae and vomer, all reaching the tip of the rostrum which is not formed only by the premaxillae'
+		 [3] 'Supracranial basin of the skull'
+		 [4] 'Dorsal exposure of the maxilla on the rostrum'
+		 [5] 'Constriction of premaxilla anterior to antorbital notch followed by anterior expansion'
+		 [6] 'Upper tooth row'
+		 [7] 'Premaxillary teeth'
+		 [8] 'Maximum width of skull (postorbital or bizygomatic width)'
+		 [9] 'Antorbital notch'
+		 [10] 'Right Antorbital notch'
+		 [11] 'Number and size of dorsal infraorbital foramina, in the area of the right antorbital notch and posteriorly'
+		 [12] 'Right premaxilla'
+		 [13] 'Right premaxilla - 2'
+		 [14] 'Presence of a sagittal crest'
+		 [15] 'left premaxillary foramen very small or absent'
+		 [16] 'Increase in size of the right premaxillary foramen'
+		 [17] 'Anteroposterior level of right premaxillary foramen'
+		 [18] 'Asymetry of the bony nares'
+		 [19] 'Lack of nasals'
+		 [20] 'Widening of the supracranial basin on the right side'
+		 [21] 'Right maxilla reaching the sagittal plane of the skull on the posterior wall of the supracranial basin'
+		 [22] 'Fusion of lacrimal and jugal'
+		 [23] 'Projection of the lacrimal-jugal between frontal and maxilla'
+		 [24] 'Dorsoventral level of the preorbital process of the frontal'
+		 [25] 'Frontal-maxilla suture, with skull in lateral view'
+		 [26] 'Temporal fossa'
+		 [27] 'Zygomatic process of squamosal in lateral view'
+		 [28] 'Postglenoid process of the squamosal'
+		 [29] 'In lateral view of the skull, wide notch posterior to the postglenoid process of the squamosal for the enlarged posterior process  of the tympanic'
+		 [30] 'Occipital shield'
+		 [31] 'Falciform process of the squamosal'
+		 [32] 'Anterior bullar facet of the periotic'
+		 [33] 'Posterior extension of the posterior process of the periotic parallel to the general plane of the bone and not ventrally orientated'
+		 [34] 'Accessory ossicle of the tympanic bulla'
+		 [35] 'Involucrum of the tympanic bulla with an evident central concavity, visible in ventral and medial views, due to the marked pachyostosis of its anterior and posterior portion'
+		 [36] 'Size of teeth (greatest transverse diameter of root expressed as percentage of the maximum width of skull)'
+		 [37] 'Loss of dental enamel'
+		 [38] 'Number of mandibular teeth'
+		 [39] 'Labiolingual compression of the posterior lower teeth (portion out of the alveolus)'
+		 [40] 'Ventral position of the mandibular condyle'
+		 [41] 'Anteroposterior level of last upper alveolus or posterior end of vestigial alveolar groove'
+		 [42] 'Lateral margin of the supraorbital process of the maxilla'
+		 [43] 'Postorbital process of the frontal'
+		 [44] 'Height of temporal fossa'
+		 [45] 'Contact between jugal and zygomatic process of squamosal'
+		 [46] 'Length of the zygomatic process of the squamosal (horizontal length from anterior tip to posterior margin of squamosal)'
+		 [47] 'Medial to tympanosquamosal recess, deep and rectilinear narrow groove in ventral surface of squamosal, from spiny process area to temporal fossa'
+		 [48] 'Dorsal process of the periotic'
+		 [49] 'Posteromedial outline of the pars cochlearis in dorsal view'
+		 [50] 'Curvature of the mandible in lateral view'
+		 [51] 'Symphyseal angle on the mandibles'
+		 [52] 'Lateral margin of atlas'
+		 [53] 'Notch in the anterior margin of the basihyal'
+		 [54] 'Mesorostral groove'
+		 [55] 'Long axis of the skull'
+		 [56] 'Tubular development of the rostrum'
+		 [57] 'Hypertrophy of the mesorostral canal (mesethmoid cartilague cavity)'
+	;
+	STATELABELS
+		1
+		'rostrum elongated, ratio between rostrum length and skull width >1.2'
+		'ratio ?1.2 and ?0.95'
+		'short rostrum, ratio <0.95'
+		'State 10'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		'extended onto the whole dorsal surface of the rostrum'
+		,
+		4
+		'exposure limited to less than half the rostrum length'
+		'maxilla exposed on more than half the length of the rostrum, narrower than the premaxilla at some levels'
+		'wider than the premaxilla all along'
+		,
+		5
+		'absent, suture maxilla-premaxilla on the rostrum roughly anteriorly directed'
+		'present, suture maxilla-premaxilla distinctly anterolaterally directed'
+		,
+		6
+		'deep alveoli'
+		'alveoli shallow or absent'
+		,
+		7
+		'present'
+		'absent'
+		,
+		8
+		'< 40 cm'
+		'? 40 and < 60 cm'
+		'< 100 cm'
+		'? 100 cm'
+		,
+		9
+		'absent'
+		'present'
+		'transformed into a very narrow slit'
+		,
+		10
+		'outside the supracranial basin'
+		'inside the supracranial basin'
+		,
+		11
+		'small to moderate size foramina, at least three-four'
+		'three large foramina'
+		'two large foramina'
+		'one large foramen (maxillary incisure)'
+		,
+		12
+		'posteriorly extended as the left premaxilla'
+		'more posteriorly extended than the left premaxilla'
+		,
+		13
+		'not widened posteriorly'
+		'posterior extremity of the right premaxilla laterally widened, occupying at least one third of the width of the supracranial basin'
+		,
+		14
+		'absent'
+		'present as a shelf covered by the pointed right premaxilla'
+		,
+		15
+		'absent (i.e. foramen present and not reduced)'
+		'present (=yes)'
+		,
+		16
+		'absent, ratio between width of foramen and width of premaxilla at that level ? 0.20'
+		'present, ratio > 0.20'
+		,
+		17
+		'distinctly anterior to antorbital notch'
+		'slightly anterior to antorbital notch'
+		'same level or posterior to antorbital notch'
+		'State 11'
+		,
+		18
+		'absent or reduced'
+		'strong, left bony naris significantly larger than right naris'
+		,
+		19
+		'both nasals present'
+		'one nasal absent'
+		'both nasals absent'
+		,
+		20
+		'absent'
+		'present, basin overhangs the right orbit'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'short or absent'
+		'long'
+		,
+		24
+		'higher than the lateral margin of rostrum base'
+		'at approximately the same level'
+		'considerably lower'
+		,
+		25
+		'forming an angle < 15º from the axis of the rostrum'
+		'15-35º'
+		'> 35º'
+		,
+		26
+		'anteroposteriorly longer than distance between preorbital process of the maxilla and anterior wall of temporal fossa'
+		'approximately same length'
+		'distinctly shorter'
+		,
+		27
+		'"L"-shaped with dorsal margin ventrally bending in its posterior portion'
+		'triangular, with dorsal margin dorsally bending in its posterior portion'
+		,
+		28
+		'significantly ventrally longer than post-tympanic process'
+		'roughly same ventral extent as post-tympanic process'
+		,
+		29
+		'absent'
+		'present, and partially developed.'
+		'present and well developed'
+		,
+		30
+		'convex and forming an angle of about 40º from the axis of the rostrum'
+		'as state 0 with an angle of about 60º'
+		'flat ot concave forming an angle of about 90º'
+		'State 3'
+		'State 11'
+		,
+		31
+		'contacting the corresponding pterygoid'
+		'forming a thin plate not contacting the pterygoid'
+		'reduced to a simple peg or absent'
+		,
+		32
+		'very anteroposteriorly elongated'
+		'reduced'
+		'absent or very small'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent or small'
+		'enlarged and partially fused with the anterior process of the periotic'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'< 5%'
+		'> 5%'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'11'
+		'12-14'
+		'> 14'
+		'State 12'
+		,
+		39
+		'strong'
+		'weak or absent'
+		,
+		40
+		'absent, well developed angular process'
+		'present, angular process low or absent'
+		'State 10'
+		,
+		41
+		'posterior to antorbital process'
+		'at level of antorbital notch or slightly anterior'
+		'distinctly anterior to the notch'
+		,
+		42
+		'dorsoventrally thin'
+		'significantly dorsoventrally thickened, making a subvertical wall'
+		,
+		43
+		'moderately posteroventrally extended'
+		'much ventrally extended (vertical length of process equal or greater than horizontal length of orbit), with a correspondingly low position of the zygomatic process of the squamosal'
+		,
+		44
+		'dorsal margin at top of skull or somewhat lower'
+		'much lower, temporal fossa making less than half the skull height'
+		,
+		45
+		'anteroposteriorly long contact'
+		'proportionally short, more rounded contact'
+		'no contact'
+		,
+		46
+		'ratio between length of the process and bizygomatic width of skull > 0.35'
+		'ratio < 0.35'
+		,
+		47
+		'absent or shallow and poorly delineated'
+		'present'
+		,
+		48
+		'dorsally extended and anteroposteriorly long'
+		'anteroposteriorly shorter, but dorsally extended beyond the medial margin of the internal acoustic meatus'
+		'dorsally short'
+		,
+		49
+		'angular'
+		'flattened, barely convex, and roughly continuous with posterior margin of dorsal process'
+		,
+		50
+		'absent or reduced, ventral margin roughly rectilinear or rising moderately anterodorsally'
+		'conspicuous, ventral margin distinctly convex rising both posterodorsally and anterodorsally'
+		'present, ventral margin concave'
+		,
+		51
+		'<35 degrees'
+		'35-55 degrees'
+		'>55 degrees'
+		,
+		52
+		'roughly rectilinear or laterally concave'
+		'convex, with laterally pointed transverse process at mid-height of the bone (not applicable to Kogia; single block of cervical vertebrae)'
+		,
+		53
+		'wide and shallow notch'
+		'narrow and deep notch'
+		'no notch, rectilinear or convex anterior margin'
+		,
+		54
+		'Open'
+		'Partially open at the level of the antorbital notch'
+		'Closed to the level of the antorbital notches and with the premaxillae angled downward into the midline, creating a tough down the middle of the rostrum'
+		,
+		55
+		'roughly parallel to the long axis of the body (perpendicular to the surface of the occipital condyles)'
+		'projected ventrally'
+		,
+		56
+		'Proportion between the rostrum height and width at midlenght <0.8'
+		'Proportion >0.8'
+		,
+		57
+		'Absent'
+		'Present'
+		
+	;
+	MATRIX
+	'Zygorhiza kochii'		                              000000000??000???00??000?0000200000000000?00000000?0?0000
+	'Cynthiacetus peruvianus'		                       000000010??000???00??000?0000201000100000?00000?00000?000
+	'Agorophius pygmaeus'		                           ??0100?01?000000000?0?01000000?00???0???1000?0???????00?0
+	'Eudelphis mortezelensis'		                       101?00?11001??01?1?0??????100?1????00?????????0??????00??
+	'Zygophyseter varolai'		                          10110012102110112111?10010110?12?1110101100?00?2?011?0000
+	'Brygmophyseter shigensis'		                      ??1??0?21021101??1?????1101101?????101?1???0?????0??11?00
+	'Acrophyseter deinodon'		                         20110001?03?100111010??0201101?2?11101011??0?012011??0000
+	'Acrophyseter robustus'		                         ??1100?0202110?011010100201101???1?10??110?0001??1?110000
+	'Acrophyseter spp.'		                             0011000120????0??1?????0?0110??????10?011?0??01??????1000
+	'Livyatan melvillei'		                            21211013202?100????001?1201?0?2????1001110?0?1????1??0?00
+	'"Aulo" (patagophyseter) rionegrensis'		          ?01100011011100011100?01101101???????2?12001?0???0???1000
+	'Orycterocetus crocodilinus'		                    101100011011101011101?0111110222011012??20?001011????0000
+	'Physeterula dubusi'		                            0?10?0?21021101??1?00??11?11022????0121??000??0??01?????0
+	'Idiorophus patagonicus'		                        0011000210?????????0???11??????????0121??0?0?????0???????
+	'Diaphorocetus poucheti'		                        001100?1102110111??0???1?011002????0????20?1?10??????00??
+	'Placoziphius duboisi'		                          ?0120??110?110111?10??011?110?2?????0???20????0????0?0???
+	'Aulophyseter morricei'		                         10100112102110102110010222110222011012?02001?10100???1?00
+	'Physeter macrocephalus'		                        A02211?31031101021100102221102220110121A20011101101020100
+	'Idiophyseter merriami'		                         ?????1?1?02110?121?0???221???2??????????????????????????0
+	'Thalassocetus antwerpiensis'		                   ???????0101101????201??11?1101???????????011?????????????
+	'Aprixokogia kelloggi'		                          ??2??0?010011110212011121011122?????1???1110210??????0100
+	'Scaphokogia cochlearis'		                        111111102001011021201112101113?211101???21?1?????????1111
+	'Praekogia cedrosensis'		                         ??1????0210101???1201?1?1110212??????????111?10???????1??
+	'Kogia breviceps'		                               2122011021010110B120111222102B2211101C1A21112102122?20100
+	'Koristocetus pescei'		                           211200102131011??120?11?101121??????????2100?1???????0100
+	'Nanokogia isthmia'		                             211101102101011??12011021010212????0?11?2111210??0???0100
+	'MUSM 3405'		                                     11111010200101101120111210???3??????????2100?????????0?01
+	'Kogia sima'		                                    2122011021010110B120111222102B2211101C1A21112102122?20100
+	'Kogia pusilla'		                                 212201?021?101???12011121????????????????101?????????0?00
+	'Scaphokogia totajpe sp nov.'		                   2111111020010110112011021011122????01???2111?1???????1111
+	'LACM156632?'		                                   ??1100?110211010111001021211022????01??02011010??????0000
+	'Albicetus oxymycterus'		                         ?0?1000?????????????????????????????001??????????????2?00
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 57;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1565212176454; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 1335927713549092139; tell It; setDefaultOrder 0 1 2 3 4 5 12 13 14 6 38 9 10 49 37 7 11 16 49 20 24 18 20 22 37 27 37 21 23 41 30 31; attachments ; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 4839667638252960514; tell It; setDefaultOrder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 32 33 34 35 36 37 38 39 40 55 41 42 43 44 45 46 47 48 49 50 51 52 53 55 30 56 57; attachments ; endTell; mqVersion 360; checksumv 0 3 2172886134 null getNumChars 57 numChars 57 getNumTaxa 32 numTaxa 32 short false bits 7183 states 7183 sumSquaresStatesOnly 5.4531459E7 sumSquares 5.4531459E7 longCompressibleToShort false usingShortMatrix false NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 176; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1440 768; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #4839667638252960514 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; getTable; tell It; rowNamesWidth 156; endTell; setExplanationSize 50; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1264 676; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames off; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; togglePaleMissing off; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.AlterData.AlterData; tell It; toggleBySubmenus off; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor; tell It; makeWindow; tell It; getTable; tell It; rowNamesWidth 364; endTell; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1264 696; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam; endTell; rowsAreCharacters on; toggleConstrainChar off; toggleConstrainCharNum 3; togglePanel off; toggleSummaryPanel off; endTell; showWindow; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; showCharacters #4839667638252960514 #mesquite.lists.CharacterList.CharacterList; tell It; setData 0; getWindow; tell It; useTargetValue off; setTargetValue ; newAssistant #mesquite.lists.DefaultCharOrder.DefaultCharOrder; newAssistant #mesquite.lists.CharListInclusion.CharListInclusion; newAssistant #mesquite.lists.CharListPartition.CharListPartition; newAssistant #mesquite.stochchar.CharListProbModels.CharListProbModels; newAssistant #mesquite.parsimony.CharListParsModels.CharListParsModels; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1264 696; setLocation 0 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; endTell; showWindow; getEmployee #mesquite.lists.CharListAnnotPanel.CharListAnnotPanel; tell It; togglePanel off; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED = 'Mk1 (est.)': 1- 57; 
+ENDBLOCK;

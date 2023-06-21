@@ -1,0 +1,716 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 19.24.33 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=96;
+    TAXLABELS
+    		'Acorus'
+		'AGLAONEMATEAE'
+		'Alloschemone'
+		'Alocasia'
+		'Ambrosina'
+		'THOMSONIEAE'
+		'Amydrium'
+		'Anadendrum'
+		'Anaphyllopsis'
+		'Anaphyllum'
+		'Anchoman plus Pshyd'
+		'Anthurium'
+		'Anubias'
+		'Ariopsis'
+		'Arisaema'
+		'Arisarum'
+		'AROPHYTEAE'
+		'Arum'
+		'Asterostigma'
+		'Biarum'
+		'Bognera'
+		'Caladium plus Syngon'
+		'Calla'
+		'Callopsis'
+		'Chlorospatha plus Xan'
+		'Colocasia plus RS'
+		'Croatiella'
+		'RHEOPHYTE clade'
+		'CULCASIEAE'
+		'Cyrtosperma'
+		'Dieffenbachia'
+		'Dracontioides'
+		'Dracontium'
+		'Dracunculus'
+		'Eminium'
+		'Epipremnum'
+		'Filarum'
+		'Gearum'
+		'Gonatopus'
+		'Gorgonidium'
+		'Gymnostachys'
+		'Hapaline'
+		'Helicodiceros'
+		'Heteropsis'
+		'Holochlamys'
+		'Incarum'
+		'Jasarum'
+		'Lasia'
+		'Lasimorpha'
+		'Lysichiton'
+		'Mangonia'
+		'Monstera'
+		'Montrichardia'
+		'Nephthytis'
+		'Orontium'
+		'Pedicellarum'
+		'Peltandra'
+		'PHILODENDRON cl'
+		'Pinellia'
+		'Pistia'
+		'Podolasia'
+		'Pothoidium'
+		'Pothos'
+		'Protarum'
+		'Pycnospatha'
+		'Rhaphidophora'
+		'Rhodospatha'
+		'Sauromatum'
+		'Scaphispatha'
+		'Scindapsus'
+		'Spathantheum'
+		'Spathicarpa'
+		'Spathiphyllum'
+		'Stenospermation'
+		'Stylochaeton'
+		'Symplocarpus'
+		'Synandrospadix'
+		'Taccarum'
+		'Theriophonum'
+		'Turolospadix bogneri'
+		'Typhonium'
+		'Typhonodorum'
+		'Ulearum'
+		'Urospatha'
+		'Zamioculcas'
+		'Zantedeschia'
+		'Zomicarpa'
+		'Zomicarpella'
+		'Tofieldia'
+		'Lemna'
+		'Spirodela'
+		'Landoltia'
+		'Wolffia'
+		'Wolffiella'
+		'Orontiophyllum austriacum'
+		'Bognerospadix speirsiae'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=83;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456789A";
+	CHARLABELS
+		 [1] 'sexuality'
+		 [2] 'perigon'
+		 [3] 'tepal number'
+		 [4] 'trichosclereids'
+		 [5] 'spathe'
+		 [6] 'major infl internode'
+		 [7] 'shoot architecture'
+		 [8] 'phyllotaxis'
+		 [9] 'pollen aperture'
+		 [10] 'pollen unit'
+		 [11] 'pollen shape'
+		 [12] 'pollen size'
+		 [13] 'pollen surface'
+		 [14] 'pulvinus (geniculum)'
+		 [15] 'pollen starch'
+		 [16] 'root hypodermis'
+		 [17] 'endothecium'
+		 [18] 'root resin canals'
+		 [19] 'laticifers'
+		 [20] 'latex s bodies'
+		 [21] 'latex rubber particles'
+		 [22] 'latex y bodies'
+		 [23] 'latex r bodies'
+		 [24] '23. midrib of primaries'
+		 [25] '24. basal ribs of primaries'
+		 [26] '25. blade'
+		 [27] '26. marginal ven ant div'
+		 [28] '27. marginal form'
+		 [29] '28. fine venation'
+		 [30] '29. fenestration'
+		 [31] 'stomata2'
+		 [32] 'prickles stem petiole'
+		 [33] 'erect shoots with bulbils'
+		 [34] 'stem type'
+		 [35] 'stem habit'
+		 [36] 'peltate leaves'
+		 [37] 'aquatic habit'
+		 [38] 'petiole ligule sheath'
+		 [39] 'intravaginal squamules'
+		 [40] 'spathe behavior'
+		 [41] 'spathe shape'
+		 [42] 'spadix-spathe chambers'
+		 [43] 'spadix-spathe flap'
+		 [44] 'spathe margins'
+		 [45] 'spadix-spathe dorsal'
+		 [46] 'spadix zonation'
+		 [47] 'appendix'
+		 [48] 'flowering sequence'
+		 [49] 'female zone length'
+		 [50] 'stamen thecae'
+		 [51] 'connective'
+		 [52] 'stamen connation'
+		 [53] 'anther dehiscence'
+		 [54] 'staminodes'
+		 [55] 'ovary locules'
+		 [56] 'ovule'
+		 [57] 'endosperm'
+		 [58] 'placentation'
+		 [59] 'chromosome number'
+		 [60] 'staminodes interfertile'
+		 [61] 'styles'
+		 [62] 'ovule number'
+		 [63] 'tepal connation'
+		 [64] 'tepal apex'
+		 [65] 'pistillode in male'
+		 [66] 'leaf spongy aerenchyma'
+		 [67] 'leaf collenchyma'
+		 [68] 'leaf vascular bundles'
+		 [69] 'petiole collenchyma'
+		 [70] 'petiole ground tissue'
+		 [71] 'petiole vascular bundles'
+		 [72] 'cotyledon type'
+		 [73] 'cotyledon shape'
+		 [74] 'first leaf'
+		 [75] 'hypocotyl'
+		 [76] 'primary root'
+		 [77] 'sporopollenin'
+		 [78] 'roots'
+		 [79] 'root branching'
+		 [80] 'leaf veins'
+		 [81] 'anther thecae'
+		 [82] 'raphides'
+		 [83] 'biforines'
+	;
+	STATELABELS
+		1
+		'bisexual'
+		'unisexual'
+		,
+		2
+		'present'
+		'absent'
+		,
+		3
+		'six'
+		'four'
+		,
+		4
+		'absent'
+		'not in bundles'
+		'in bundles'
+		,
+		5
+		'inconspicuous'
+		'specialized'
+		'absent'
+		,
+		6
+		'stipe above spathe'
+		'between spathe and leaf'
+		,
+		7
+		'contin in last leaf axil'
+		'in penultim leaf axil'
+		'monopodial scandent'
+		'State 3'
+		,
+		8
+		'distichous'
+		'spiral'
+		,
+		9
+		'monosulcate'
+		'extended'
+		'zonate'
+		'diaperturate'
+		'forate'
+		'inaperturate'
+		'monosulcoidate'
+		'ulcerate'
+		'multiaperturate'
+		'State 9'
+		,
+		10
+		'monad'
+		'tetrad'
+		'dyad'
+		,
+		11
+		'ellipsoid'
+		'hamburger'
+		'globose'
+		,
+		12
+		'small'
+		'medium'
+		'large'
+		'very large'
+		,
+		13
+		'reticulate'
+		'smooth'
+		'spinose'
+		'striate'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'not sclerotic'
+		'sclerotic'
+		,
+		17
+		'no thickenings'
+		'thickenings'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent or scattered'
+		'simple, articulated'
+		'anastomosing'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'simple midvein, arcuate laterals'
+		'thick costa, pinnate laterals'
+		'unthick costa, pinnate laterals'
+		'unthick costa, palmate'
+		,
+		25
+		'absent'
+		'well developed'
+		'distinct but short'
+		,
+		26
+		'not differentiated, linear'
+		'differentiated'
+		'thallus-like frond'
+		,
+		27
+		'no sympodial (infra)marginal'
+		'sympodial marginal'
+		'sympodial inframarginal'
+		,
+		28
+		'not lobed'
+		'anterior lobed pinnately'
+		'lobed pedately or radiately'
+		'lobed pinnately & pedately'
+		'lobed trifidly, sagittate'
+		'bi- tri- quadripinnate'
+		'decompound'
+		,
+		29
+		'sec tert cross veins to primaries'
+		'sec tert parallel to primaries'
+		'sec tert parallel interprimaries'
+		'sec tert reticulate'
+		'only primaries'
+		,
+		30
+		'absent'
+		'by necrosis between primaries'
+		,
+		31
+		'anomocytic'
+		'brachyparacytic'
+		'some polar subsidiaries'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'not condensed or thickened'
+		'strongly thickened not globose'
+		'strongly thickened tuber'
+		'highly reduced'
+		,
+		35
+		'creeping to erect'
+		'erect distally'
+		'subterranean'
+		'aerial climbing'
+		'aerial epiphytic'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'not aquatic'
+		'helophyte'
+		'floating aquatic'
+		'submerged aquatic'
+		'rheophyte'
+		'amphibious'
+		,
+		38
+		'not long'
+		'long ligulate apically'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'no differentn in persistence'
+		'lower persistent, blade caduc'
+		'entire spathe caducous'
+		,
+		41
+		'fully expanded'
+		'boat-shaped, base varied'
+		'basal tube, expanded blade'
+		,
+		42
+		'not 2 chambers'
+		'2 chambers'
+		,
+		43
+		'no flap'
+		'internal flap'
+		,
+		44
+		'free or basal fusion'
+		'connate'
+		,
+		45
+		'dorsally free'
+		'adnate to female zone'
+		'adnate to whole spadix'
+		,
+		46
+		'no zonation'
+		'male and female'
+		'female sterile male'
+		'female male sterile'
+		'female sterile male sterile'
+		,
+		47
+		'absent inconspicuous'
+		'conspicuous staminodial'
+		'conspicuous smooth'
+		,
+		48
+		'not basipetal'
+		'basipetal'
+		,
+		49
+		'more than one flower'
+		'one flower'
+		,
+		50
+		'not horned'
+		'horned'
+		,
+		51
+		'not thickened'
+		'thickened laterally at apex'
+		,
+		52
+		'free'
+		'connate filaments'
+		'entirely connate'
+		,
+		53
+		'longitudinal slits'
+		'oblique porelike slits'
+		'apical pores'
+		,
+		54
+		'absent'
+		'in female zone'
+		,
+		55
+		'two or three'
+		'unilocular'
+		'more than three'
+		,
+		56
+		'(hemi)anatropous'
+		'campylotropous'
+		'hemiorthotropous'
+		'orthotropous'
+		,
+		57
+		'copious'
+		'sparse to absent'
+		,
+		58
+		'axile or intrusive'
+		'apical'
+		'parietal'
+		'basal (parietal, axile)'
+		'basal and apical'
+		,
+		59
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 6'
+		'State 7'
+		'State 8'
+		'State 9'
+		,
+		60
+		'absent prismatic spongiform'
+		'hairlike, bristlelike etc.'
+		,
+		61
+		'not lat thickened extended'
+		'lat thickened extended'
+		,
+		62
+		'three or more per locule'
+		'1-2 per locule'
+		,
+		63
+		'free or partly'
+		'single unit'
+		,
+		64
+		'unthickened'
+		'thickened'
+		,
+		65
+		'absent'
+		'pistillode or vestige'
+		,
+		66
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		67
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		,
+		68
+		'broad, phloem strands semicircular, type 1'
+		'narrow, phloem strands eliptical, type 2'
+		'small, xylem a wide cell or lacuna, type 3'
+		,
+		69
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		'State 4'
+		'State 5'
+		'State 6'
+		,
+		70
+		'State 0'
+		'State 1'
+		'State 2'
+		'State 3'
+		,
+		71
+		'large, type 1'
+		'medium size, type 2'
+		'small with domonant single xylem elements, type 3'
+		,
+		72
+		'haustorial'
+		'storage'
+		,
+		73
+		'State 0'
+		'State 1'
+		,
+		74
+		'State 0'
+		'State 1'
+		,
+		75
+		'State 0'
+		'State 1'
+		,
+		76
+		'State 0'
+		'State 1'
+		,
+		77
+		'State 0'
+		'State 1'
+		,
+		78
+		'State 0'
+		'State 1'
+		,
+		79
+		'State 0'
+		'State 1'
+		,
+		80
+		'present'
+		'absent'
+		,
+		81
+		'tetrasporangiate'
+		'disporangiate'
+		,
+		82
+		'State 0'
+		'State 1'
+		,
+		83
+		'State 0'
+		'State 1'
+		
+	;
+	MATRIX
+	'Acorus'		                             000000000000000000000000000000100000101000000000-0000-03010-0000-25062000100000000-
+	'AGLAONEMATEAE'		                      11?01111500210100010000101001020001000021000010000102010131000--10212211-0111000011
+	'Alloschemone'		                       01?11110200101????000001011011200030000210000000-0000-10?32-01---101610?????0000010
+	'Alocasia'		                           11?0111150212010002001012120202001(1,2)000012000041000121010032000--024(1,2)432000001000011
+	'Ambrosina'		                          11?01111500130100010000001003010022000002101140010020013033000--0041431?????1000010
+	'THOMSONIEAE'		                        11?01111500(1,2)30100010000111233020022000001000031000012000131001--00414221-0111000010
+	'Amydrium'		                           01?0111?201101(0,1)000000001011031200030000210000000-0000-10036-01---101(0,3)00?????0000010
+	'Anadendrum'		                         00?01110502001?000000001011030200030000210000000-0000-10136-0110-000(3,5)001-0100000010
+	'Anaphyllopsis'		                      00101111000100?000000001112331100220000010000001-0001-10031-0101-050????????0000010
+	'Anaphyllum'		                         00101111000101?000000001111330200000(0,1)00000000000-0001-10121-0101-351030?????0000010
+	'Anchoman plus Pshyd'		                11?01111500211100010000111203111012000001000010000101010131001--00012311-0111000011
+	'Anthurium'		                          001011114020010000000002010000200030000000000000-0000-00006-0101-10000000(1,0)??0000010
+	'Anubias'		                            11?01111502011010010000101101020000010001000010000120000000000--0200(0,3)01011001000011
+	'Ariopsis'		                           11?01111502020000010000201202010020100001000120000122013022000--0142402?????1000011
+	'Arisaema'		                           11?0111150202010001000022122302002200000200003200001(0,1)013032100--014(1,2)42100(1,0)001000010
+	'Arisarum'		                           11?01111500130100010000101203010012000002001132000010013032000--014(1,2)421000001000010
+	'AROPHYTEAE'		                         11?0111150212010001000020120201000(2,4)0000(0,1)200001000001(0,2)113134001--00424221-0111000011
+	'Arum'		                               11?01111502120000010000121203020022000002000042000001013022100--014142100(1,0)001000010
+	'Asterostigma'		                       11?01111500100100010000101113010022000002000010000122100038001--105(0,1)022?????1000010
+	'Biarum'		                             11?011115021201000100001012030(0,1)002200000200(0,1)04200000(0,1)013031101--0041421?????1000010
+	'Bognera'		                            11?01111500201??0?100001011010?0000000001000120000120010?38001--0???????????100001?
+	'Caladium plus Syngon'		               11?011115021101000211001212020(1,2)0022100012000020000121000022000--0241422011001000011
+	'Calla'		                              01?011103020000000100002010010(0,1)00000110000000000-0000-10039-00---25(0,1)620000000000010
+	'Callopsis'		                          11?01111502120100010000101003020002000000000110000002010039001--005(0,1)000000001000010
+	'Chlorospatha plus Xan'		              11?01111512100000021100121202010011000012000020000121000001010--0242422?????1000010
+	'Colocasia plus RS'		                  11?0111150012010002001112120201001(1,2)100012000042000121012022000--024(1,2)422011??1000011
+	'Croatiella'		                         11?01111500110?????????1212030?00220000010001100001(1,2)0123?38001--0???????????100001?
+	'RHEOPHYTE clade'		                    11?01111500110100000000101101020000010102111040001002013039000--0042421000??1000010
+	'CULCASIEAE'		                         11?01110502101111100000101103020003000021000010000101000131001--01000201-0001000011
+	'Cyrtosperma'		                        00(0,1)011110001010000000001111430110120100010000001-0000-11021-0001-300030000000000010
+	'Dieffenbachia'		                      11?011115002001000100001010010200010(0,1)0002000120000121100138001--02111311-011(0,1)000011
+	'Dracontioides'		                      001011110000010000000002110431200020100020000001-0001-00001-0101-050631000000000010
+	'Dracontium'		                         00(0,1)011110001010000000001112331100220000010000001-0001-00001-0101-00(0,1)031?????0000010
+	'Dracunculus'		                        11?01111500100100010000221223010022000002000042000002013042100--0141421000001000010
+	'Eminium'		                            11?011115021201?0?1000022122301002200000200(0,1)042000001013032101--0141421?????1000010
+	'Epipremnum'		                         01?111102011011000000001011011100030000210000000-0000-10026-00---050(0,3)00?????0000010
+	'Filarum'		                            11?01111502020??0?2000030120301002200000100013200000201?1?2001--0041401?????1000010
+	'Gearum'		                             11?01111500200??0?00000121213010012000002000020000122103138001--00010211-0111000011
+	'Gonatopus'		                          10(0,1)01111100201100000000101153010012000002000010000012000138001011051(0,3)011-0110000010
+	'Gorgonidium'		                        11?01111500100?000100001011130100220000110000100001(0,1)(1,2)103038001--1001????????1000010
+	'Gymnostachys'		                       001000200001000000000000000000100120000000000000-0000-13010-0100-050600000000000010
+	'Hapaline'		                           11?01111502120100021100121203010022000012000122000121010131001--02414211-0111000011
+	'Helicodiceros'		                      11?01111502120?00010000221223010022000002000041000001013042100--0141421000001000010
+	'Heteropsis'		                         01?011302001011000000001012030200030000210000000-0001-00132-01---0506001-0000000010
+	'Holochlamys'		                        001211109001310000000001011010200000000000000000-0000-10036-0110-101001?????0000010
+	'Incarum'		                            11?01111500100?????????1011130?0022000001000110000110123038001--0???????????100001?
+	'Jasarum'		                            11?011115001001?0?211001012020?0002030012000120000122012033000--00524221-0111000010
+	'Lasia'		                              00(0,1)01111000101?000000001212230110010100210000001-0000-10011-0101-300030?????0000010
+	'Lasimorpha'		                         00101111000001????000001111430?10120100010000001-0011-11031-0001-300030?????0000010
+	'Lysichiton'		                         001010010001001000000001010000100120100010000000-0000-03102-0100-2303201-0000000010
+	'Mangonia'		                           11?01111500100??0?000001010030?002200000200003000011(1,2)100008001--000(0,1)021000001000010
+	'Monstera'		                           01?111102011011000000001011011?00030000210000000-0000-00136-00---051(0,3)111-0000000010
+	'Montrichardia'		                      11?0111150221001001000011110301(0,1)002010022000010000101010130001--020(0,1)6221-0111000010
+	'Nephthytis'		                         11?0111150010110001000021124301(0,1)012000000000010000102010131001--01012011-0111000011
+	'Orontium'		                           0000000?0002000000100000010000(0,1)00120100000000000-0000-10131-0100-2506201-0000000010
+	'Pedicellarum'		                       00?01130000001????000002010000200030000000000000-0000-00130-0110-050600?????0000010
+	'Peltandra'		                          11?01111500100100010000121201010002010012000041000122112122000--024(1,2)4221-0001000011
+	'PHILODENDRON cl'		                    11?011115001111111100001011010200010(0,1)010200002000010(1,2)000009000--0201001011001000011
+	'Pinellia'		                           11?01111502120100010000221223010022000002100142000002010031001--0142432001001000010
+	'Pistia'		                             11?01111500130100000000001003000001020002101140010020013032000--024(1,2)431001111000011
+	'Podolasia'		                          00(0,1)01111000001?000000002110430110010100000000001-0000-10031-0101-350630?????0000010
+	'Pothoidium'		                         00001130000101?000000000010000200030000000000000-0000-10130-0100-050600?????0000010
+	'Pothos'		                             00(0,1)01130000001?00000000(0,2)010000200030000000000000-0000-00130-0100-1506001-0000000010
+	'Protarum'		                           11?01111500000??0?20000221222010022000012000042000122112032000--0141????????1000011
+	'Pycnospatha'		                        01?01111000100??0?000001111331100220000010000001-0000-10031-01---300631?????0000010
+	'Rhaphidophora'		                      01?11110100101?000000001011011100030000210000000-0000-00006-00---05(0,1)(0,3)00?????0000010
+	'Rhodospatha'		                        01?111102001011000000001011010200030000210000000-0000-00002-00---000610?????0000010
+	'Sauromatum'		                         11?01111502120100010000221223010022000002001042000001013031100--004(1,2)40201100100001?
+	'Scaphispatha'		                       11?01111502100??0?2????101202010022100011000010000121010032000--0042122?????1000011
+	'Scindapsus'		                         01?11110201101(0,1)000000001011010200030000210000000-0000-10036-01---00(0,1)(0,3)00000000000010
+	'Spathantheum'		                       11?0111150021010000000012110301002200000100011000012(0,2)122038001--1001022000001000010
+	'Spathicarpa'		                        11?01111500110100010000101003010012000000000210000122113038001--1001102001001000010
+	'Spathiphyllum'		                      00(0,1)211109001310000000001011010200000000000000000-0000-00006-0000-000011001000000010
+	'Stenospermation'		                    01?111102011011000000001011010200030000210000000-0000-00032-00---05(0,1)011000000000010
+	'Stylochaeton'		                       10?011115002001000000001010030(1,2)0002000002001010000000000002000111201011?????0000011
+	'Symplocarpus'		                       001011010001000000000001010000100120100010000000-0000-13116-0100-200(0,3)201-0000000010
+	'Synandrospadix'		                     11?01111502120100010000101103010022000001000120000120103038001--1001022000001000010
+	'Taccarum'		                           11?0111150020010001000011113301002200001200001000012(1,2)100008001--1002022?????1000010
+	'Theriophonum'		                       11?011115021001?0?1000010120301002200000200004200000(1,2)013042100--0041421?????1000010
+	'Turolospadix bogneri'		               ?01??0???????????????????????????????????????00???????????????00???????????????????
+	'Typhonium'		                          11?0111150210010001000022122301002200000200004200000(1,2)013031101--0042401?????1000010
+	'Typhonodorum'		                       11?01111500100100010000121201010002010012000041000121113132001--02424221-0(0,1)(0,1)1000011
+	'Ulearum'		                            11?01111502120??0?20000301003010000000001000142000002010132001--004(1,2)(4,3)01?????1000010
+	'Urospatha'		                          00(0,1)011110001010000000001111430100120100010000001-0001-00001-0001-000030000000000010
+	'Zamioculcas'		                        10101111100201100000000101113010012000002000010000000000138001011000001?????0000010
+	'Zantedeschia'		                       11?011115001101000100001011010100(1,2)20(0,1)0002000010000102(0,1)00007000--0212122001001000011
+	'Zomicarpa'		                          11?011115021201000200003212(2,4)3010022000002000132000002010035000--014(1,2)422001000000011
+	'Zomicarpella'		                       11?01111502?20??0?20000301003020000000012000132000002010031000--0041401?????0000011
+	'Tofieldia'		                          000000-0302(0,1)00?0000000000000?0000020100000000000-0000-0(0,1)006-0000-???????????000000-
+	'Lemna'		                              01?00---70202-?0?00----00100400-03-0200----------0000-10035-0(0,1)---25?6--001110010010
+	'Spirodela'		                          01?00---70202-?0?00----00100400-03-0200----------0000-10035-01---25?6--001110010010
+	'Landoltia'		                          01?00---70202-?0?00----0010040?-03-0200----------0000-10035-01---?5?6--0011100100??
+	'Wolffia'		                            01?02---70202-?-?-0------2----0-03--2-0----------0000-13035-01---25?6--?????01-1110
+	'Wolffiella'		                         01?02---70202-?-?-0------2----0-03--2-0----------0000-13035-01---25?6--?????01-1110
+	'Orontiophyllum austriacum'		          ???????????????????????1010000?0???01??????????????????????????????????????????0???
+	'Bognerospadix speirsiae'		            000????1?????0?????????1010000?0???01????0???000-????000?0?-0100-??????????????0???
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 83;
+      ENDBLOCK;
+      

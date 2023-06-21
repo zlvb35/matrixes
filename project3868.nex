@@ -1,0 +1,517 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-14 20.08.00 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Rangea'
+		'Stromatoveris'
+		'Pteridinium'
+		'Arborea'
+		'Thaumaptilon walcotti'
+		'Pambikalbae'
+		'Swartpuntia'
+		'Dickinsonia'
+		'Ernietta'
+		'Palaeopascichnus'
+		'Bosworthia'
+		'Rhizocarpon'
+		'Thectardis'
+		'Leptomitus'
+		'Galeactena'
+		'Trichoplax'
+		'Fungia'
+		'Pennatula'
+		'Spinther'
+		'Pikaia'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=42;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] 'Zero order longitudinal folding'
+		 [2] 'Zero order unit overprinting'
+		 [3] 'Zero order concave-convex adjacency'
+		 [4] 'Zero order curvature (furling)'
+		 [5] 'Inter-axial band'
+		 [6] 'Inter-axial band reaching body margin'
+		 [7] 'Body transect line perpendicular to long axis'
+		 [8] 'Medial constriction'
+		 [9] 'Zero order oval cross section'
+		 [10] 'Basal attachment'
+		 [11] 'Striated basal constriction'
+		 [12] 'Enlarged basal holdfast'
+		 [13] 'Attachment structure on body plane'
+		 [14] '''Axial bulb'' holdfast type'
+		 [15] 'Primary striation of zero order unit'
+		 [16] 'Secondary striation of primary units'
+		 [17] 'Tertiary striation of secondary units'
+		 [18] 'Alternating primary units'
+		 [19] 'Axial primary units'
+		 [20] 'Apically acute primary striation'
+		 [21] 'Basally obtuse primary striation'
+		 [22] 'Primary units interdigitated at seam'
+		 [23] 'Basal primary unit length > apical primary unit length'
+		 [24] 'Primary unit oval cross-section'
+		 [25] 'Primary unit terminal depth > surface width'
+		 [26] 'Sinusoidal primary margins'
+		 [27] 'Width/length'
+		 [28] 'Multicellular zooids'
+		 [29] 'Feeding tentacles'
+		 [30] 'Body symmetry'
+		 [31] 'Body symmetry group'
+		 [32] 'Calcareous skeleton'
+		 [33] 'Body cavity internalised'
+		 [34] 'Through-gut'
+		 [35] 'Basal-apical differentiation'
+		 [36] 'Differentiated primary units'
+		 [37] 'Primary extensions'
+		 [38] 'Cephalisation'
+		 [39] 'Nerve cord'
+		 [40] 'Mesenteries'
+		 [41] 'Active movement'
+		 [42] 'Locomotion'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present'
+		,
+		2
+		'absent'
+		'present'
+		,
+		3
+		'absent'
+		'present'
+		,
+		4
+		'absent'
+		'present'
+		,
+		5
+		'absent'
+		'present'
+		,
+		6
+		'absent'
+		'present'
+		,
+		7
+		'absent'
+		'present'
+		,
+		8
+		'absent'
+		'present'
+		,
+		9
+		'absent'
+		'present'
+		,
+		10
+		'absent'
+		'present'
+		,
+		11
+		'absent'
+		'present'
+		,
+		12
+		'absent'
+		'present'
+		,
+		13
+		'absent'
+		'present'
+		,
+		14
+		'absent'
+		'present'
+		,
+		15
+		'absent'
+		'present'
+		,
+		16
+		'absent'
+		'present'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'absent'
+		'present'
+		,
+		19
+		'absent'
+		'present'
+		,
+		20
+		'absent'
+		'present'
+		,
+		21
+		'absent'
+		'present'
+		,
+		22
+		'absent'
+		'present'
+		,
+		23
+		'absent'
+		'present'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'absent'
+		'present'
+		,
+		26
+		'absent'
+		'present'
+		,
+		27
+		'narrow'
+		'wide'
+		,
+		28
+		'absent'
+		'present'
+		,
+		29
+		'absent'
+		'present'
+		,
+		30
+		'absent'
+		'present'
+		,
+		31
+		'asymmetric'
+		'radial'
+		'bilateral'
+		,
+		32
+		'absent'
+		'present'
+		,
+		33
+		'absent'
+		'present'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'absent'
+		'present'
+		,
+		36
+		'absent'
+		'present'
+		,
+		37
+		'absent'
+		'present'
+		,
+		38
+		'absent'
+		'present'
+		,
+		39
+		'absent'
+		'present'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'absent'
+		'present'
+		,
+		42
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Rangea'		                         111111001110011111110111010001100?1000????
+	'Stromatoveris'		                  111111001110011111110111010001100010000???
+	'Pteridinium'		                    1111110111100?111111011100000110??1000????
+	'Arborea'		                        111111001101001111110?1111000110??1000????
+	'Thaumaptilon walcotti'		          ?1??1100?1100011??11001??00?01?0??1000????
+	'Pambikalbae'		                    11111100110?0?111111011110000110??1000????
+	'Swartpuntia'		                    1111110011000011?1111?1100100110??1000????
+	'Dickinsonia'		                    1111111010000011?111111100100110???000??11
+	'Ernietta'		                       1111111111100011?11101?100100110??1000????
+	'Palaeopascichnus'		               010000-001000011000000100000000?0000000000
+	'Bosworthia'		                     010000-00100000000010010001000000010000000
+	'Rhizocarpon'		                    000000-001001000000000-0001000000010000000
+	'Thectardis'		                     000000-0010000?0000000-0-000011?00?000???0
+	'Leptomitus'		                     000000-001000010000000-0-000011000100000?0
+	'Galeactena'		                     0?0000000000001000000000001001111010000011
+	'Trichoplax'		                     000000-000000000000000-0-01000000010000011
+	'Fungia'		                         000000000100101000111000001111111010000111
+	'Pennatula'		                      000000000100001000100000001111111010000111
+	'Spinther'		                       000000000000001100111010001001201111111011
+	'Pikaia'		                         000000000000001000100000010001201111111011
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+              [Taxon comments]
+        	TEXT TAXON=10 TEXT='Characters are coded following a giant protozoan (e.g. xenophyophore) interpretation of the fossil Palaeopascichnus (Seilacher et al., 2003, Antcliffe et al., 2011).';
+	TEXT TAXON=18 TEXT='The primary units of Rangea and Charnia were suggested to be homologous to the polyp leaves of Pennatulacea (sea pen) colonies (Glaessner and Wade, 1966).^n^nHomology between the pennatulacean colony and the rangeomorph individual has previously been rejected by Antcliffe and Brasier (2007) based on difference in branch growth polarity.^n^nHere individual level homology relationships are considered in which the petalonamid specimen is compared as an individual against the cnidarian individual e.g. zooid (polyp).^n';
+
+        [Character comments]
+        	TEXT CHARACTER=1 TEXT='The zero order unit (e.g. petaloid) is folded along the line of the long axis. Zero order units (e.g. petaloids) are of equal and maximal size within an individual specimen and may, or may not, be symmetrically duplicated.';
+	TEXT CHARACTER=2 TEXT='Superimposed imprints at the zero order unit scale (e.g. petaloid).';
+	TEXT CHARACTER=3 TEXT='In petalonamids: Concave region of a petaloid due to the presence at burial of a convex region of an adjacent petaloid. In a given fossil specimen this adjacent petaloid may either be present and visible, partially preserved, disarticulated or not visible at the surface.   ';
+	TEXT CHARACTER=4 TEXT='The zero order unit (e.g. petaloid) is ''furled'' (i.e. curved/bent) approximately perpendicular to the long axis, due to curvature of the primary branches along their long axes. Consequently the lateral margins of the petaloid approach each other or meet.';
+	TEXT CHARACTER=5 TEXT='One zero order unit (e.g. petaloid) may be partially visible as a depression, ridge or band between two adjacent zero order units that are longitudinally folded and/or furled.';
+	TEXT CHARACTER=6 TEXT='An inter-axial band which extends to the margin of the body on at least one side.';
+	TEXT CHARACTER=7 TEXT='An identifiable line or band, transecting the body, which is approximately perpendicular to the long axis of the body.';
+	TEXT CHARACTER=8 TEXT='A constriction of the body at both ends of a body transect line.';
+	TEXT CHARACTER=9 TEXT='Petalonamids: Petaloid often with an approximately oval or tear-shaped cross-section (sometimes flattened), perpendicular to the petaloid long axis, associated with longitudinal folding at the petaloid axis and furling (curvature) of the primary branches along their long axes.';
+	TEXT CHARACTER=10 TEXT='Individual is attached (e.g. to sediment), with point of attachment labelled basal, as shown by a visible points of attachment, attachment structure, or as indicated by current orientation.';
+	TEXT CHARACTER=11 TEXT='A striated, flexible, narrow section at the base of the petaloid or between the petaloid and the holdfast or ''axial bulb''.';
+	TEXT CHARACTER=13 TEXT='The location of the attachment structure is on the surface of the main body plane (as opposed to a basal attachment structure at the basal edge of the main body plane and basal end of the body axis or midline where present). A attachment structure located on the lower body plane is exemplified in the coral Fungia (larval holdfast with attachment scar visible in mobile adult) and lichen Rhizocarpon (rhizinae extending from lower surface).';
+	TEXT CHARACTER=14 TEXT='Radially symmetrical, basal holdfast described in Rangea by Vickers Rich et al. 2013, Fig. 7 (rarely visibly preserved in Rangea specimens). Width approx. 25% petaloid width.';
+	TEXT CHARACTER=15 TEXT='Striations on the surface of the lowest order body unit at the primary (largest) size scale marking the lateral boundaries of primary units e.g. lateral branches.';
+	TEXT CHARACTER=16 TEXT='Striations across the surface of the primary units, at the secondary (second largest) size scale, marking the lateral boundaries of secondary units e.g. branches.';
+	TEXT CHARACTER=17 TEXT='Striations across the surface of the secondary units, at the tertiary (third largest) size scale, marking the lateral boundaries of tertiary units e.g. branches.';
+	TEXT CHARACTER=19 TEXT='Primary units originating in linear series from a central axis.';
+	TEXT CHARACTER=20 TEXT='Branch angle between 0 and 90 degrees oriented with the body apex up.';
+	TEXT CHARACTER=21 TEXT='Branch angle oriented to the local primary branch axis, with the petaloid apex up. Obtuse angle, between 90 and 180 degrees.';
+	TEXT CHARACTER=22 TEXT='Primary branches of one (furled or folded) petaloid, or adjacent petaloids, interdigitated to form a seam';
+	TEXT CHARACTER=23 TEXT='Apical versus basal orientation independently established based on the basal holdfast where present. Indicative of apical primary branching.';
+	TEXT CHARACTER=24 TEXT='Primary branch with an approximately tear-shaped, triangular or square cross-section, perpendicular to the branch long axis, associated with longitudinal folding at the branch axis and furling (curvature) of the secondary branches along their long axes.';
+	TEXT CHARACTER=25 TEXT='Terminal, or distal to origin';
+	TEXT CHARACTER=26 TEXT='Strong sinusoidal line marking meeting of two scalloped primary margins due to interdigitated ends of secondary branches.';
+	TEXT CHARACTER=27 TEXT='Orientation relative to the petaloid central axis. Narrow < 0.60. Wide > 0.60. This cut-off is functionally relevant to fluid flow e.g. in the proposed sponge Thectardis (Sperling et al., 2011)';
+	TEXT CHARACTER=28 TEXT='Multicellular individuals making up a colony';
+	TEXT CHARACTER=30 TEXT='Symmetry around the principal long axis at the macro-scale e.g. body for solitary individuals';
+	TEXT CHARACTER=33 TEXT='Cavity (digestive) internalised within the body e.g. gastrovascular cavity of cnidarians, pharyngeal canal and stomach of ctenophores or stomach and gut of bilaterians.';
+	TEXT CHARACTER=34 TEXT='Gut extending though body with two distinct openings for feeding and excretion (mouth and anus) at opposite ends of the body axis';
+	TEXT CHARACTER=35 TEXT='Morphological differentiation (beyond difference in size) along a principal body axis, visible at the macro-scale (supra-cellular, organ level). ';
+	TEXT CHARACTER=36 TEXT='Morphological differentiation (beyond difference in size) of primary units.';
+	TEXT CHARACTER=37 TEXT='Appendages or extensions on primary units e.g. claws on parapodia of Spinther.';
+	TEXT CHARACTER=39 TEXT='Nerve cord e.g. extending along the longitudinal body axis of bilaterians.';
+	TEXT CHARACTER=41 TEXT='Active body movement e.g. contraction.';
+	TEXT CHARACTER=42 TEXT='Active body locomotion.';
+
+      [Attribute comments]
+      	TEXT TAXON=7 CHARACTER=3 TEXT='There is a concave region below an axial ridge compatible with bending by the overlying petaloid. However the basal region is comparatively poorly preserved. ';
+	TEXT TAXON=5 CHARACTER=3 TEXT='The Burgess-Shale compressed preservation mode does not preserve sufficient three-dimensionality to observe whether the concave-convex petaloid boundaries observed in three-dimensionally preserved petalonamids were present in Thaumaptilon in life, prior to compression.';
+	TEXT TAXON=12 CHARACTER=22 TEXT='The fungal hypothallus of Rhizocarpon does not grow by production of approximately-fractal units (primary etc.). Rather it grows radially at the margin (Armstrong and Bradwell, 2010; Upreti et al., 2014). Adjoining growth rings may be visible. However, these are not consistently organised into and interdigitated, alternating seam.';
+	TEXT TAXON=7 CHARACTER=22 TEXT='Swartpuntia is represented by a small number of specimens, with a comparatively flattened preservation and not primary branch seam is clearly preserved.';
+	TEXT TAXON=5 CHARACTER=22 TEXT='No interdigitation of primary branches is visible at the outer body margin (as is seen in 3-dimensionally preserved specimens of taxa such as Pteridinium for example). Assessment of the presence of this character in life in Thaumaptilon may be hampered by the lack of 3D preservation.';
+	TEXT TAXON=5 CHARACTER=25 TEXT='Strong 2-dimensional compression of Thaumaptilon does not preserve the original 3-dimensional z dimension of the primary branches.';
+	TEXT TAXON=5 CHARACTER=9 TEXT='The Burgess-Shale compressed preservation mode does not preserve sufficient three-dimensionality to observe whether an approximately oval cross-section of the petaloid, as observed in three-dimensionally preserved petalonamids, was present in Thaumaptilon in life, prior to compression.';
+	TEXT TAXON=16 CHARACTER=24 TEXT='Limited furling (curvature) occurs during active movement. However this is highly dynamic and not consistently retained.';
+	TEXT TAXON=5 CHARACTER=24 TEXT='Strong 2-dimensional compression of Thaumaptilon does not preserve the original 3-dimensional shape of the primary branches.';
+	TEXT TAXON=12 CHARACTER=18 TEXT='The fungal hypothallus of Rhizocarpon does not grow by production of approximately-fractal units (primary, secondary etc.). Rather it grows radially at the margin (Armstrong and Bradwell, 2010; Upreti et al., 2014).';
+	TEXT TAXON=20 CHARACTER=18 TEXT='Muscle blocks are bilaterally symmetrical (Conway Morris and Caron, 2012).';
+	TEXT TAXON=7 CHARACTER=18 TEXT='Alternate ridging in the petaloid axial region is compatible with the presence of an alternate branching axis.';
+	TEXT TAXON=10 CHARACTER=27 TEXT='Average width length for 3 visible specimens/units = 0.58';
+	TEXT TAXON=2 CHARACTER=27 TEXT='Complete specimens:^nELI:EJ-105-A: Petaloid length 9.6 cm, width 2 x 1.49 = 2.98 cm. Petaloid width/length = 2.98/9.6 = 0.31.^nELI:109-A: Petaloid length 4.5 cm, width 2 x 0.78 = 1.56 cm. Petaloid width/length = 1.56/4.5 = 0.35.^n^nAverage = 0.33';
+	TEXT TAXON=8 CHARACTER=27 TEXT='S. A. Museum:P-47762: Petaloid width = 5.64 cm, length = 6.61 cm, width/length = 0.85.^nS. A. Museum:P-14387: Petaloid width = 6.4 cm, length = 6.2 cm, width/length = 1.03.^nS. A. Museum:P-40134: Petaloid width = 2.98 cm, length = 7.93 cm, width/length = 0.38.^nS. A. Museum:P-40167 width/length = 0.61.^nAverage = 0.72';
+	TEXT TAXON=18 CHARACTER=27 TEXT='Width/length = 0.37 excluding peduncle';
+	TEXT TAXON=1 CHARACTER=27 TEXT='Comparatively complete specimens:^nNESM:F-541: Petaloid length 6.42 cm, width 2 x 1.65 = 3.3 cm. Petaloid width/length = 3.3/6.42 = 0.51.^nNESM:F-573: Petaloid length 5.30 cm, width 2.98 cm. Petaloid width/length = 2.98/5.3 = 0.56.^nNESM:F-572: Petaloid width/length = 0.47.^nAverage = 0.51.^n^n';
+	TEXT TAXON=3 CHARACTER=27 TEXT='NESM:P-104 complete petaloid length, width measurements:^n1. Estimated width = 2 x 4.74 cm = 9.48 cm.^nLength = 16.47 cm. Width/length = 0.58.^n2.  Estimated width = 2 x 4.50 cm = 9 cm.^nLength = 14.33 cm. Width/length = 0.63.^n3. Estimated width = 2 x 4.28 cm = 8.56.^nLength = 14.01 cm. Width/length = 0.61.^nAverage = 0.61.^n^nMESM/1856 complete petaloid length, width measurements:^n1. Width/length = 0.59^n2. Width/length = 0.45^n3. Width/length = 0.69^nAverage = 0.58^n^nAverage = 0.6^n';
+	TEXT TAXON=17 CHARACTER=27 TEXT='Fungia sp. (unvouchered) media M451766, left specimen: width/length = 1.13.^n';
+	TEXT TAXON=12 CHARACTER=27 TEXT='Mean ratio of shortest axis length/longest axis length for 11 specimens is 0.85';
+	TEXT TAXON=20 CHARACTER=27 TEXT='USNM:198688: ';
+	TEXT TAXON=7 CHARACTER=27 TEXT='Petaloid length of holotype 19.7 cm. Estimated width = 2 x 7.8 = 15.6 cm.^nWidth/length = 15.6/19.7 = 0.79';
+	TEXT TAXON=6 CHARACTER=27 TEXT='Petaloid of P-35063-35064 in which complete length is visible (though damaged):^n^nLength = 15.95 cm, width 2 x 4.55 cm = 9.1 cm.^nWidth/length = 0.57';
+	TEXT TAXON=16 CHARACTER=27 TEXT='Unvouchered specimen width/length = 0.78';
+	TEXT TAXON=15 CHARACTER=27 TEXT='Galaectena hemispherica:^nYKLP 13809 width/length = 0.83^nYKLP 13810 width/length = 0.87';
+	TEXT TAXON=14 CHARACTER=27 TEXT='ELI:JS-sp-343-B: width/length = 0.086.';
+	TEXT TAXON=4 CHARACTER=27 TEXT='Complete specimen S. A. Museum:P-19690:^nPetaloid width = 11 cm.^nLength = 30.4 cm. Width/length = 0.36.^n';
+	TEXT TAXON=13 CHARACTER=27 TEXT='Width to length ratios for Thectardis are reported to be consistent with sponge status as a narrow ratio of length/width > approximately 1.6 (width/length < 0.63) is required to maintain inhalent surface >= osculum surface area (Sperling et al. 2011).';
+	TEXT TAXON=19 CHARACTER=27 TEXT='Width/length = 0.66 excluding proboscis ';
+	TEXT TAXON=9 CHARACTER=27 TEXT='NESM:F-393 width = 8.47 cm, length = 5.93 cm, width/length = 8.47/5.93 = 1.43^nUnvouchered specimen, width = 1.5 cm, length = 1.22 cm, width/length = 1.5/1.22 = 1.23^nNESM:F-454 width = 4.68 cm, length = 6.07 cm, width/length = 4.68/6.07 = 0.77^nAverage = 1.14';
+	TEXT TAXON=11 CHARACTER=27 TEXT='Bosworthia USNM:35427: width/length = 2.1^n';
+	TEXT TAXON=5 CHARACTER=27 TEXT='Specimen total length is 212 mm (Caron 2011).^nPetaloid length from apex to basal constriction (measured along body midline) is 171 mm.^nMaximum petaloid width, measured as maximum body width is 59 mm.^nPetaloid width/length = 59/171 = 0.35.';
+	TEXT TAXON=7 CHARACTER=12 TEXT='A raised region is visible at the petaloid base compatible with a blunt termination of the petaloids acting as a holdfast. A distinct holdfast below the petaloids is not visible in the holotype or any other specimens held in the NESM.';
+	TEXT TAXON=6 CHARACTER=12 TEXT='Basal attachment of Pambikalbae is inferred from the presence of a basal stem below the branched petaloids. However, the basal termination is not preserved.';
+	TEXT TAXON=5 CHARACTER=12 TEXT='No enlarged basal holdfast (e.g. approaching or exceeding the maximum width of the petaloid regions) is present in Thaumaptilon.';
+	TEXT TAXON=10 CHARACTER=23 TEXT='For two visible branching individuals/units the primary branch is longer (at least 1.0 cm and 1.2 cm, respectively) than a visible secondary branch (0.81 cm and 0.62 cm, respectively).';
+	TEXT TAXON=2 CHARACTER=23 TEXT='On the left hand side of the specimen, the lowest fully visible basal branch (1.1 cm) is longer than the first visible apical branch (0.6 cm).^n';
+	TEXT TAXON=8 CHARACTER=23 TEXT='S. A. Museum:P-47762: The first visible unit at the ''posterior'' (upper, hypothesised apical) end of the specimen (1.17 cm) is longer than the first visible ''anterior'' (hypothesised basal) unit (0.38 cm). Posterior/anterior labelling of Dickinsonia follows published usage (e.g. Gold et al., 2015).';
+	TEXT TAXON=1 CHARACTER=23 TEXT='On the left hand side of the specimen, the lowest fully visible basal branch (0.2 cm) is longer than the first visible apical branch (0.15 cm). ';
+	TEXT TAXON=17 CHARACTER=23 TEXT='Fungia septa grow radially around the central mouth region (Duliu et al., 2003; Gold et al., 2015). Correspondingly lengths of septa at either end of the oral slit are similar (e.g. five septa sampled from each end have average length of 3.3 cm, as measured from Duliu et al., 2003 Fig. 1).^n^nIt is also notable that this orientation (dorsal view) would not correspond to Fungia''s developmental apical to basal axis (Jacoby et al., 2004), which instead corresponds to the dorso-ventral axis of the adult.';
+	TEXT TAXON=20 CHARACTER=23 TEXT='Anterior of bilaterians compared to basal e.g. of sponges based on potential axial homologies across extant metazoa (Leininger et al., 2014).';
+	TEXT TAXON=7 CHARACTER=23 TEXT='On the right hand side of the specimen, the first visible basal branch (3.38 cm) is longer than the first visible apical branch (0.97 cm). However the basal region is comparatively poorly preserved. ';
+	TEXT TAXON=6 CHARACTER=23 TEXT='First visible basal primary branch (5.58 cm) is longer than first visible apical primary branch (1.2 cm)';
+	TEXT TAXON=15 CHARACTER=23 TEXT='Though poorly preserved, two comb rows show that the last visible oral comb is slightly longer (0.39 mm, 1.25 mm) than that at the aboral end (0.24 mm, 0.50 mm). Developmental studies of extant ctenophores show that the comb rows are established very early in development (Fischer, et al., 2014).';
+	TEXT TAXON=4 CHARACTER=23 TEXT='S. A. Museum:P-19690:^nOn the left hand side of the specimen, the lowest fully visible basal branch (4 cm) is longer than the first visible apical branch (0.5 cm).^n';
+	TEXT TAXON=13 CHARACTER=23 TEXT='Primary units are not visible.';
+	TEXT TAXON=19 CHARACTER=23 TEXT='Anterior of bilaterians compared to basal e.g. of sponges based on potential axial homologies across extant metazoa (Leininger et al., 2014).';
+	TEXT TAXON=11 CHARACTER=23 TEXT='Four branching orders in a visible series are of decreasing length basally to apically: 1.983, 1.230, 1.094, 1.023 cm.^n';
+	TEXT TAXON=5 CHARACTER=23 TEXT='The first visible primary branch at the base are longer relative to the body midline than are the first visible apical primary branches.';
+	TEXT TAXON=18 CHARACTER=15 TEXT='The primary units of Rangea and Charnia were suggested to be homologous to the polyp leaves of Pennatulacea (sea pen) colonies (Glaessner and Wade, 1966).^n^nHomology between the pennatulacean colony and the rangeomorph individual has previously been rejected by Antcliffe and Brasier (2007) based on difference in branch growth polarity.^n^nHere individual level homology relationships are considered in which the petalonamid specimen is compared as an individual against the cnidarian individual e.g. zooid (Gold et al., 2015).^n^nOctocorals possess radially repeated pinnate tentacles, which can be considered as zero order units, with pinnate projections forming primary units.';
+	TEXT TAXON=17 CHARACTER=15 TEXT='Septa.';
+	TEXT TAXON=20 CHARACTER=15 TEXT='Muscle blocks (Conway Morris and Caron, 2012).';
+	TEXT TAXON=15 CHARACTER=15 TEXT='Comb rows (zero order units) carry transverse striations interpreted as comb plates (Ou et al., 2015).';
+	TEXT TAXON=14 CHARACTER=15 TEXT='Note: striation is parallel to body axis. Interpreted as spicules (oxeas) forming parallel rods (Garcia-Bellido et al., 2007).';
+	TEXT TAXON=13 CHARACTER=15 TEXT='No details of surface structure are preserved.';
+	TEXT TAXON=19 CHARACTER=15 TEXT='Parapodia can be considered as primary units e.g. compared to primary units of Dickinsonia (Glaessner and Wade, 1966).';
+	TEXT TAXON=11 CHARACTER=15 TEXT='Bosworthia shows iterated, dichotomous branching of blades. If each blade is considered as a repeated zero order branching unit, primary branches can be counted as the first subdivision, each of these then divides into two dichotomous secondary branches. Therefore primary branches are not arranged as lateral striations or bands across a zero order axial branching unit.';
+	TEXT TAXON=10 CHARACTER=16 TEXT='Antcliffe et al. (2011) figure one example of striations on a chamber which they attribute to repair.^n^nSecondary striations on primary chambers can be observed in extant xenophyophores.';
+	TEXT TAXON=18 CHARACTER=16 TEXT='The secondary units of Rangea and Charnia were suggested to be homologous to the anthosteles (polyp cups) of Pennatulacea (Glaessner and Wade, 1966).';
+	TEXT TAXON=17 CHARACTER=16 TEXT='Different orders of septa can be recognised which grow in series. However, younger septa do not form striations on older septa, rather they grow parallel to them in the spaces between them (Duliu et al., 2003).';
+	TEXT TAXON=15 CHARACTER=16 TEXT='No cilia are preserved (Ou et al 2015)';
+	TEXT TAXON=19 CHARACTER=16 TEXT='Chaetae give the appearance of secondary striations on the parapodia.';
+	TEXT TAXON=11 CHARACTER=16 TEXT='Bosworthia shows iterated, dichotomous branching of blades. If each blade is considered as a repeated zero order branching unit, secondary branches can be counted as the second subdivision, each of these then divides into two dichotomous tertiary branches. Therefore secondary branches are not arranged as lateral striations or bands across a primary axial branching unit.';
+	TEXT TAXON=5 CHARACTER=16 TEXT='Patches of parallel 2nd order striation are visible and the surfaces of the primary branches frequently show a pustular texture. This is similar to some areas of similar pustular texture seen in Stomatoveris. This texture is compatible with carbonaceous partial preservation of higher order (above primary) subdivisions of the primary branches.';
+	TEXT TAXON=8 CHARACTER=17 TEXT='At this scale the grain size of the rock is reached.';
+	TEXT TAXON=18 CHARACTER=17 TEXT='Tertiary branches are not located so as to form bands across secondary branches. Rather sub-branching occurs at the distal ends of the lower order branch.';
+	TEXT TAXON=11 CHARACTER=17 TEXT='Bosworthia shows iterated, dichotomous branching of blades. If each blade is considered as a repeated zero order branching unit, tertiary branches can be counted as the third subdivision. Therefore tertiary branches are not arranged as lateral striations or bands across a secondary axial branching unit.';
+	TEXT TAXON=5 CHARACTER=17 TEXT='While the surfaces of the primary branches frequently show a pustular texture, compatible with carbonaceous partial preservation of higher order (above primary) subdivisions of the primary branches, the level of primary branch subdivision is uncertain.';
+	TEXT TAXON=10 CHARACTER=7 TEXT='Palaeopaschichnus does not have a single, identifiable body transect line';
+	TEXT TAXON=17 CHARACTER=7 TEXT='While sometimes perpendicular to the longest body axis, the oral slit does not transect the body and is insted restricted to the central, mouth region.';
+	TEXT TAXON=13 CHARACTER=7 TEXT='No body transect line (e.g. central axis) is visible.';
+	TEXT TAXON=5 CHARACTER=7 TEXT='A linear central region is demarked both by traversal of primary branches by strong lines, close to perpendicular to the primary branch axis direction, on both sides of the central region of the specimen and by colour variation (Caron, 2011, ROM Fossil Gallery Thaumaptilon walcotti). This region runs parallel to the long axis of the specimen.';
+	TEXT TAXON=16 CHARACTER=1 TEXT='Folding occurs during active movement. However this is dynamic and not consistent across a body axis.';
+	TEXT TAXON=19 CHARACTER=1 TEXT='Spinther is flat in morphology although longitudinal folding (often partial) is sometimes observed in fossil polychaetes (e.g. Conway Morris, 1979).';
+	TEXT TAXON=5 CHARACTER=1 TEXT='Londgitudinal folds, visibly traversing part of the length of the petaloid, are compatible with full longitudinal folding of petalodia as observed in other, more three-dimensionally preserved Ediacaran petalonamids. However, in this highly compressed, Burgess-Shale preservation mode, full longitudinal folding is not clearly visible.';
+	TEXT TAXON=17 CHARACTER=5 TEXT='Oral slit present rather than inter-axial band';
+	TEXT TAXON=5 CHARACTER=5 TEXT='Traversal of primary branches by strong lines, close to perpendicular to the primary branch axis direction, on both sides of the central region of the specimen is similar to that observed in inferred petalonamids (Arborea, Pambikalbae etc.) and is compatible with the presence of a demarked inter-axial band.';
+	TEXT TAXON=17 CHARACTER=4 TEXT='The calcareous septa of Fungia are rigid and cannot bend or furl';
+	TEXT TAXON=16 CHARACTER=4 TEXT='Limited body furling (curvature) occurs during active movement. However this is highly dynamic and not consistently retained.';
+	TEXT TAXON=5 CHARACTER=4 TEXT='The Burgess-Shale compressed preservation mode does not preserve sufficient three-dimensionality to observe whether the petaloid furling (3D curvature) observed in three-dimensionally preserved petalonamids was present in Thaumaptilon in life, prior to compression.';
+	TEXT TAXON=17 CHARACTER=20 TEXT='Valentine (1992) Fig. 1. compared Fungia to Dickinsonia with the oral slit of Fungia oriented parallel to the mid line of Dickinsonia. Further orientation of Fungia relative to Ediacaran biota such as Dickinsonia (e.g. apical-basal, anterior-posterior) is not straightforward (e.g. Gold et al., 2015). Whichever orientation of Fungia were selected (i.e. vertical flipping of Fungia as illustrated in Valentine 1992, Fig. 1) septal angles at one end would be acute and those at the other obtuse. Character coding therefore encodes this point of similarity to Dickinsonia (Valentine, 1992) in order to test it against the phylogenetic signal from other characters. However, it is notable that this orientation would not correspond to Fungia''s developmental apical to basal axis (Jacoby et al., 2004), which instead corresponds to the dorso-ventral axis of the adult.';
+	TEXT TAXON=20 CHARACTER=20 TEXT='Primary striation between segments sometimes apically acute, sometimes obtuse due to compression angle and reconstructed as perpendicular to body margin in life (Conway Morris and Caron, 2012).';
+	TEXT TAXON=19 CHARACTER=20 TEXT='While orientation of the body midline in Spinther (anterior-posterior) to that of petalonamids (basal-apical) is not simple, whichever orientation of the longitudinal body axis was chosen primary striation could be coded as apically acute and basally obtuse.';
+	TEXT TAXON=5 CHARACTER=20 TEXT='Primary branching weakly acute (close to 90 degrees) at primary branch bases, curving upwards to more acute angles.';
+	TEXT TAXON=17 CHARACTER=21 TEXT='Valentine (1992) Fig. 1. compared Fungia to Dickinsonia with the oral slit of Fungia oriented parallel to the mid line of Dickinsonia. Further orientation of Fungia relative to Ediacaran biota such as Dickinsonia (e.g. apical-basal, anterior-posterior) is not straightforward (Gold et al., 2015). Whichever orientation of Fungia were selected (ie. vertical flipping of Fungia as illustrated in Valentine 1992, Fig. 1) septal angles at one end would be acute and those at the other obtuse. Character coding therefore encodes this point of similarity to Dickinsonia (Valentine, 1992) in order to test it against the phylogenetic signal from other characters. However, it is notable that this orientation would not correspond to Fungia''s developmental apical to basal axis (Jacoby et al., 2004), which instead corresponds to the dorso-ventral axis of the adult.';
+	TEXT TAXON=20 CHARACTER=21 TEXT='Primary striation between segments sometimes apically acute, sometimes obtuse due to compression angle and reconstructed as perpendicular to body margin in life (Conway Morris and Caron, 2012).';
+	TEXT TAXON=19 CHARACTER=21 TEXT='While orientation of the body midline in Spinther (anterior-posterior) to that of petalonamids (basal-apical) is not simple, whichever orientation of the longitudinal body axis was chosen primary striation could be coded as apically acute and basally obtuse.';
+	TEXT TAXON=5 CHARACTER=21 TEXT='Basal primary branching is acute rather than obtuse.';
+	TEXT TAXON=12 CHARACTER=26 TEXT='The fungal thallus of Rhizocarpon does not grow by production of approximately-fractal units (primary etc.). Rather it grows radially at the margin (Armstrong and Bradwell, 2010; Upreti et al., 2014).';
+	TEXT TAXON=16 CHARACTER=26 TEXT='Marginal scalloping (curvature in the body outline) occurs during active movement. However this is highly dynamic and not consistently retained.';
+	TEXT TAXON=5 CHARACTER=26 TEXT='Strong scalloped meetings between primary branches (as seen in specimens of Rangea, Stomatoveris and Arborea for example) appear to be absent.';
+	TEXT TAXON=17 CHARACTER=13 TEXT='Fungia is ventrally attached as a juvenile but free as an adult (Jacoby et al., 2004), leaving a visible ventral attachment scar on the skeleton.';
+	TEXT TAXON=12 CHARACTER=13 TEXT='Rhizinae';
+	TEXT TAXON=5 CHARACTER=13 TEXT='The location of the attachment structure is at the basal end of the body midline not on the surface of the main body plane.';
+	TEXT TAXON=10 CHARACTER=32 TEXT='Original composition not preserved. However, extant xenophyophores are partially calcareous (Tendal and Lewis, 1978).';
+	TEXT TAXON=18 CHARACTER=32 TEXT='Pennatulacea possess a calcareous axial rod and spicules';
+	TEXT TAXON=15 CHARACTER=32 TEXT='Galeactena has a statolith, which in extant ctenophores contain membrane bound calcareous concretions.';
+	TEXT TAXON=14 CHARACTER=32 TEXT='Spicules often preserved as moulds, and Demosponge interpretation (Garcia-Bellido et al., 2007) implies original siliceous spicule composition (e.g. MÃ¼ller et al, 2005).';
+	TEXT TAXON=13 CHARACTER=32 TEXT='Original composition is not preserved.';
+	TEXT TAXON=5 CHARACTER=32 TEXT='Bending of the body suggests Thaumamptilon was soft-bodied and no calcareous pen (as seen in fossil and living sea pens) is preserved.';
+	TEXT TAXON=17 CHARACTER=28 TEXT='Genus Fungia includes species which lives as solitary zooids as well as those in which zooids are colonial e.g. F. simplex (Woodley et al., 2016).';
+	TEXT TAXON=5 CHARACTER=28 TEXT='While zooids were suggested to be present in Thaumaptilon by Conway Morris (1993) due to a pustular texture visible on the primary branches, a possible alternative explanation requiring further investigation is that Thaumpatilon is an individual organism with surface-texture.';
+	TEXT TAXON=5 CHARACTER=8 TEXT='No medial constriction of the petaloid/s comparable to that observed in Ernietta or Pteridinium is visible in Thaumaptilon.';
+	TEXT TAXON=5 CHARACTER=11 TEXT='While the basal constriction, where the specimen narrows towards the the inferred basal attachment structure, is comparatively poorly preserved, both striations of this region (as observed in some Ediacaran petalonamid specimens) and the pustular texture (see also Caron, 2011, ROM Fossil Gallery Thaumaptilon walcotti) observed on the upper petaloid/s visibly continue into the basally constricted region of the specimen.';
+	TEXT TAXON=2 CHARACTER=33 TEXT='While Stromatoveris petaloids are often furled to partially or fully enfold an interior space, variation in their positions and degree of furling indicates that they were apically and laterally free. Consequently spaces within and between petaloids were not fully enclosed e.g. in a manner similar to the eumetazoan coelenteron or through-gut. Instead, inter-petaloid spaces were open to the surrounding environment and rapidly and completely filled with sediment during burial.';
+	TEXT TAXON=1 CHARACTER=33 TEXT='In Rangea, variation in petaloid positions and degree of furling indicates that they were apically and laterally free. Consequently, like Stromatoveris, spaces within and between petaloids were not fully enclosed e.g. in a manner similar to the eumetazoan coelenteron or through-gut. ';
+	TEXT TAXON=5 CHARACTER=33 TEXT='There are dark carbon bands towards the body midline (where a gut might be hypothesised) but these are discontinuous and matched in intensity by carbon patches and bands across the petaloid/s.';
+	TEXT TAXON=2 CHARACTER=14 TEXT='ELI:EJ-197-A: axial bulb 24% of estimated petaloid width^nAxial bulb width 79% axial bulb height';
+	TEXT TAXON=1 CHARACTER=14 TEXT='NSEM:F-643-b3: axial bulb width 24% of estimated petaloid width^nAxial bulb width 72% axial bulb height';
+	TEXT TAXON=6 CHARACTER=14 TEXT='Basal termination is not preserved.';
+	TEXT TAXON=5 CHARACTER=14 TEXT='A very small, ''axial bulb'' (Vickers Rich et al., 2013) type holdfast is extremely rarely preserved among Rangea and Stomatoveris specimens. In one Stromatoveris specimen this is observed as it is overfolded on top of the basally constricted region basal to the petaloids (Hoyal Cuthill & Han, 2018). The comparable region of the Thaumaptilon walcotti holotype is comparatively poorly preserved however no similar axial-bulb type holdfast is visible (although it is difficult to rule out its presence in life).';
+	TEXT TAXON=20 CHARACTER=29 TEXT='While Pikaia has paired anterior structures that have been referred to as ''tentacles'', these are inferred to be sensory structures (Conway Morris & Caron, 2012), not functionally or structurally similar to the feeding tentacles of Cnidaria.';
+	TEXT TAXON=5 CHARACTER=29 TEXT='No feeding tentacles are visible.';
+	TEXT TAXON=5 CHARACTER=6 TEXT='Traversal of primary branches by strong lines, close to perpendicular to the primary branch axis direction, on both sides of the central region of the specimen extends to both the basal and apical margins of the specimen.';
+	TEXT TAXON=18 CHARACTER=10 TEXT='Wnt gene expression suggests that the oral end of adult cnidarians and posterior of cnidarian larvae, is homologous to the oral end of ctenophores, the apical (osculum) end of adult sponges and the posterior of sponge larvae, as well as the posterior of bilaterians (Leininger et al., 2014).';
+	TEXT TAXON=17 CHARACTER=10 TEXT='Fungia is basally attached to the substrate as a juvenile though free as an adult (Jacoby et al., 2004). Fungia''s developmental apical to basal axis corresponds to the dorso-ventral axis of the adult (Jacoby et al., 2004).';
+	TEXT TAXON=20 CHARACTER=10 TEXT='Wnt gene expression suggests that the posterior of bilaterians is homologous to the oral end of adult cnidarians and posterior of cnidarian larvae, the oral end of ctenophores, the apical (osculum) end of adult sponges and the posterior of sponge larvae (Leininger et al., 2014).';
+	TEXT TAXON=6 CHARACTER=10 TEXT='Basal attachment of Pambikalbae is inferred from the presence of a basal stem below the branched petaloids. However, the basal termination is not preserved.';
+	TEXT TAXON=15 CHARACTER=10 TEXT='Wnt gene expression in the ctenophore oral pole suggests that this may be homologous to the oral end of adult cnidarians and posterior of cnidarian larvae, the apical (osculum) end of adult sponges and the posterior of sponge larvae, as well as the posterior of bilaterians (Leininger et al., 2014).';
+	TEXT TAXON=14 CHARACTER=10 TEXT='The functionally apical (osculum) end of adult sponges corresponds to the posterior of sponge larvae (Leininger et al., 2014). I.e. functionally basal (attached to substrate) corresponds to developmentally anterior; and functionally basal corresponds to developmentally posterior.';
+	TEXT TAXON=13 CHARACTER=10 TEXT='Thectardis is current aligned suggesting basal attachment (Sperling et al., 2011).';
+	TEXT TAXON=19 CHARACTER=10 TEXT='Wnt gene expression suggests that the posterior of bilaterians is homologous to the oral end of adult cnidarians and posterior of cnidarian larvae, the oral end of ctenophores, the apical (osculum) end of adult sponges and the posterior of sponge larvae (Leininger et al., 2014).';
+	TEXT TAXON=5 CHARACTER=10 TEXT='A narrowed region, below the main petaloid/s is compatible with functionality as an attachment structure or holdfast. Basal orientation of this structure, relative to one or more petaloid apex, homologous to the orientation of Ediacaran petalonamids with a holdfast, is independently supported by the predominant orientation of the lineations demarking the boundaries between primary branches in Thaumaptilon. As also observed in Ediacaran petalonamids, primary branches in Thaumaptilon are oriented at an acute angle from the central axis of the specimen, as oriented from the apex to base.';
+	TEXT TAXON=8 CHARACTER=19 TEXT='Alternate ridging in the petaloid axial region is compatible with the presence of an alternate branching axis.';
+	TEXT TAXON=12 CHARACTER=19 TEXT='The fungal hypothallus of Rhizocarpon does not grow by axial production of units. Rather it grows radially at the margin (Armstrong and Bradwell, 2010; Upreti et al., 2014).';
+	TEXT TAXON=16 CHARACTER=30 TEXT='Trichoplax lacks a body symmetry axis (Dellaporta et al., 2006).';
+	TEXT TAXON=5 CHARACTER=30 TEXT='The body of Thuamaptilon is approximately symmetrical around the body midline, with one visible, approximate mirror plane.';
+	TEXT TAXON=15 CHARACTER=2 TEXT='Possible overprinting from overlying comb rows on either side of the compressed specimen.';
+	TEXT TAXON=5 CHARACTER=2 TEXT='Traversal of primary branches by strong lines, close to perpendicular to the primary branch axis direction, is similar to that observed in inferred petalonamids (Arborea, Pambikalbae etc.) and is compatible with overprinting of petaloid primary branches at different levels.';
+	TEXT TAXON=8 CHARACTER=31 TEXT='Dickinsonia (S. A. Museum:P-4047, previously Chondroplon, synonymised with Dickinsonia, Hofman, 2008) demonstrates the presence of at least two separate petaloids in the alternate primary branch seams on either side of the specimen. The presence of an inferred inter-axial band e.g. in specimen S. A. Museum:P-18888 adds further evidence for multiple petaloids (at least three). These petaloids are arranged radially, often axis to axis, around the body mid-line.';
+	TEXT TAXON=16 CHARACTER=31 TEXT='Trichoplax lacks a body symmetry axis (Dellaporta et al., 2006).';
+	TEXT TAXON=14 CHARACTER=31 TEXT='Original body shape interpreted as tubular (Hou and BergstrÃ¶m, 2003).';
+	TEXT TAXON=13 CHARACTER=31 TEXT='Body shape in life is interpreted as conical (Sperling et al., 2011).';
+	TEXT TAXON=5 CHARACTER=31 TEXT='The presence of a demarked inter-axial band suggests that Thaumaptilon may have had multiple, radially arranged petaloids as seen in a number of Ediacaran taxa. However, the strong 2-dimensional compression of Thaumaptilon does not directly preserve further evidence as to the total number of petaloids present in life.';
+	TEXT TAXON=10 CHARACTER=35 TEXT='No morphological differentiation is preserved although extant xenophyophores can show basal-apical chamber shape variation with root like basal projections.';
+	TEXT TAXON=8 CHARACTER=35 TEXT='Some basal-apical differentiation is indicated by recognisable basal (''anterior'') versus apical (''posterior'') regions (Gold et al., 2015)  e.g. differences in outline. However it is notable that these features are likely to be at least correlated with unit size (and potentially solely a result of unit size) and a basal stem region or holdfast is not preserved.';
+	TEXT TAXON=18 CHARACTER=35 TEXT='Structural differentiation along principal body axis e.g. mesenteries, gastovascular cavity, mouth, tentacles.';
+	TEXT TAXON=17 CHARACTER=35 TEXT='Fungia''s developmental apical to basal axis (Jacoby et al., 2004) corresponds to the dorso-ventral axis of the adult. Differentiation along this axis includes a dorsal oral slit.';
+	TEXT TAXON=12 CHARACTER=35 TEXT='Rizocarpon shows structural variation in hyphal structure e.g. in vertical cross section. Macro-scale variation in morphology is present e.g. ventral rhizae.';
+	TEXT TAXON=20 CHARACTER=35 TEXT='Anterior of bilaterians compared to basal e.g. of sponges based on potential axial homologies across extant metazoa (Leininger et al., 2014).';
+	TEXT TAXON=16 CHARACTER=35 TEXT='Trichoplax shows cellular dorso-ventral differentiation (Smith et al., 2014).';
+	TEXT TAXON=19 CHARACTER=35 TEXT='Anterior of bilaterians compared to basal e.g. of sponges based on potential axial homologies across extant metazoa (Leininger et al., 2014).';
+	TEXT TAXON=5 CHARACTER=35 TEXT='The petaloids are differentiated from a basal, constricted region likely to have functioned as a holdfast.';
+	TEXT TAXON=8 CHARACTER=38 TEXT='The basal ''anterior'' region of Dickinsonia (e.g. see Gold et al., 2015) does not preserve any differentiated structures (e.g. sensory structures) that would indicate cephalisation.';
+	TEXT TAXON=18 CHARACTER=38 TEXT='Cnidarians lack a brain (Nielsen, 2015).';
+	TEXT TAXON=17 CHARACTER=38 TEXT='Cnidarians lack a brain (Nielsen, 2015).';
+	TEXT TAXON=19 CHARACTER=38 TEXT='Differentiated head region e.g. with proboscis.';
+	TEXT TAXON=5 CHARACTER=38 TEXT='Thaumpatilon preserves no evidence for cephalisation.';
+	TEXT TAXON=20 CHARACTER=36 TEXT='Anterior posterior differentiation e.g. anterior lateral appendages, posterior keel expansion (Conway Morris & Caron, 2012).';
+	TEXT TAXON=19 CHARACTER=36 TEXT='Body appendages are structurally differentiated e.g. as well as paradodia Spinther has a median antenna (Rouse and Pleijel, 2001).';
+	TEXT TAXON=5 CHARACTER=36 TEXT='Primary units show no sign of marked apical-basal differentiation, showing only minor differences in size and shape.';
+	TEXT TAXON=20 CHARACTER=37 TEXT='Anterior appendages (Conway Morris and Caron, 2012).';
+	TEXT TAXON=19 CHARACTER=37 TEXT='Spinther has hooked chaetae used for attachment (Conway Morris, 1979).';
+	TEXT TAXON=5 CHARACTER=37 TEXT='Primary branches show no visible extensions or appendages.';
+	TEXT TAXON=2 CHARACTER=34 TEXT='Burial of the basal holdfast region in sediment, immediately below the joining point of the thin, free petaloids, precludes the presence of a apical-basal through gut e.g. comparable to the anterior-posterior through-gut of bilaterians.';
+	TEXT TAXON=15 CHARACTER=34 TEXT='While ctenophores (as well as some anthozoan cnidarians) have anal pores (Presnell, et al., 2016), the mouth acts as the functional anus for large prey items (Martindale, 2005).';
+	TEXT TAXON=5 CHARACTER=34 TEXT='There are dark carbon bands towards the body midline (where a gut might be hypothesised) but these are discontinuous and matched in intensity by carbon patches and bands across the petaloid/s.';
+	TEXT TAXON=2 CHARACTER=39 TEXT='Despite the preservation of internal soft tissue in Stromatoveris and the preservation of nervous system tissue in bilaterian specimens from the Chengjiang Lagerstätte, a nerve cord is not visible indicating that this was absent.';
+	TEXT TAXON=8 CHARACTER=39 TEXT='Internal soft tissue anatomy is not directly preserved.';
+	TEXT TAXON=18 CHARACTER=39 TEXT='Cnidaria possess a nerve net (Nielsen, 2015).';
+	TEXT TAXON=1 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=3 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=17 CHARACTER=39 TEXT='Cnidaria possess a nerve net (Nielsen, 2015).';
+	TEXT TAXON=20 CHARACTER=39 TEXT='Deuterostomes possess a longitudinal, dorsal nerve cord (Nielsen, 2015).^n^nPikaia has a ''anterior dorsal unit'' inferred to contain a nerve cord (Conway Morris & Caron, 2012).';
+	TEXT TAXON=7 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=6 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=4 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=13 CHARACTER=39 TEXT='Although unlikely to be present given the sponge interpretation (Sperling et al., 2011), details of soft tissue anatomy are not preserved.';
+	TEXT TAXON=19 CHARACTER=39 TEXT='Protostomes possess a longitudinal, ventral nerve cord (Nielsen, 2015).';
+	TEXT TAXON=9 CHARACTER=39 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=5 CHARACTER=39 TEXT='No nervous system preservation is visible.';
+	TEXT TAXON=2 CHARACTER=40 TEXT='Externally visible information is not sufficient to confirm or reject the presence of mesenteries.';
+	TEXT TAXON=8 CHARACTER=40 TEXT='Internal soft tissue anatomy is not directly preserved.';
+	TEXT TAXON=18 CHARACTER=40 TEXT='Cnidarians of class Anthzoa possess mesenteries - longitudinal extensions of the body wall that radially divide the gastrovascular cavity into chambers (Khanna and Yadav, 2005).';
+	TEXT TAXON=1 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=3 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=17 CHARACTER=40 TEXT='Cnidarians of class Anthzoa possess mesenteries - longitudinal extensions of the body wall that radially divide the gastrovascular cavity into chambers (Khanna and Yadav, 2005).';
+	TEXT TAXON=7 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=6 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=4 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=13 CHARACTER=40 TEXT='Although unlikely to be present given the sponge interpretation (Sperling et al., 2011), details of soft tissue anatomy are not preserved.';
+	TEXT TAXON=9 CHARACTER=40 TEXT='Internal soft tissue anatomy is not preserved.';
+	TEXT TAXON=5 CHARACTER=40 TEXT='Detailed internal soft tissue anatomy is not visibly preserved.';
+	TEXT TAXON=10 CHARACTER=42 TEXT='No evidence for movement under protozoan interpretation (Antcliffe and Gooday, 2011). Extant xenophyophores are sessile (Gooday et al., 1993).';
+	TEXT TAXON=2 CHARACTER=42 TEXT='While the presence of a holdfast indicates that Stromatoveris was primarily sessile, evidence to rule out facultative locomotion or active movement of the petaloids is not preserved.';
+	TEXT TAXON=8 CHARACTER=42 TEXT='Active movement has been inferred from series of Dickinsonia impressions, incuding those with the inferred direction of movement in the basal (''anterior'') direction (e.g. see Gold et al., 2015).';
+	TEXT TAXON=18 CHARACTER=42 TEXT='Sea pens are capable of active movement e.g. rapid burrowing into sediment (Weightman and Arsenault, 2002).';
+	TEXT TAXON=17 CHARACTER=42 TEXT='Non-sessile adult actively locomotes plus smaller-scale active movement during feeding e.g. of tentacles.';
+	TEXT TAXON=15 CHARACTER=42 TEXT='The lack of attachment structure and morphological similarity to extant ctenophores supports active movement as a pelagic predator.';
+	TEXT TAXON=13 CHARACTER=42 TEXT='Thectardis is current aligned suggesting basal attachment and a sessile life habit (Sperling et al., 2011).';
+	TEXT TAXON=5 CHARACTER=42 TEXT='No evidence on Thaumpatilon''s capabilities for active movement is preserved. While a basally constricted region (compatible with function as a holdfast) is present, facultative locomotion as in sea pens may perhaps have been possible.';
+	TEXT TAXON=10 CHARACTER=41 TEXT='No evidence for movement under protozoan interpretation (Antcliffe and Gooday, 2011). Extant xenophyophores are sessile (Gooday et al., 1993).';
+	TEXT TAXON=2 CHARACTER=41 TEXT='While the presence of a holdfast indicates that Stromatoveris was primarily sessile, evidence to rule out facultative locomotion or active movement of the petaloids is not preserved.';
+	TEXT TAXON=8 CHARACTER=41 TEXT='Active movement has been inferred from series of Dickinsonia impressions, incuding those with the inferred direction of movement in the basal (''anterior'') direction (e.g. see Gold et al., 2015).';
+	TEXT TAXON=14 CHARACTER=41 TEXT='Extant sponges are capable of active contraction. However evidence for similar active movement in Leptomitus is not preserved.';
+	TEXT TAXON=13 CHARACTER=41 TEXT='Thectardis is current aligned suggesting basal attachment and a sessile life habit (Sperling et al., 2011).^n^nExtant sponges are capable of active contraction. However evidence for similar active movement in Thectardis is not preserved.';
+	TEXT TAXON=5 CHARACTER=41 TEXT='No evidence on Thaumpatilon''s capabilities for active movement is preserved.';
+      ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 30 32 - 42, ord: 31;
+      ENDBLOCK;
+      

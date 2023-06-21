@@ -1,0 +1,644 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2023-06-15 00.02.15 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=30;
+    TAXLABELS
+    		'Proganochelys'
+		'Kayantechelys'
+		'Dinochelys whitei'
+		'Compsemys victa'
+		'Uluops uluops'
+		'Dorsetochelys'
+		'Pleurosternon'
+		'Glyptops plicatulus'
+		'Arundelemys dardeni'
+		'Trinitichelys hiatti'
+		'Neurankylus exemius'
+		'Hayemys latifrons'
+		'Denizenemys ornata'
+		'Plesiobaena antiqua'
+		'Peckemys brinkman'
+		'Cedrobaena putorius'
+		'Gammerabaena sonsalla'
+		'Palatobaena cohen'
+		'Palatobaena bairdi'
+		'Palatobaena gaffneyi'
+		'Denizenemys nodosa'
+		'Boremys pulchra'
+		'Boremys grandis'
+		'Eubaena cephalica'
+		'"Baena" hatcheri'
+		'Saxochelys gilberti'
+		'Stygiochelys estesi'
+		'Baena arenosa'
+		'Chisternon undatum'
+		'Palatobaena sp.'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=106;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123";
+	CHARLABELS
+		 [1] '*skull shape in dorsal view'
+		 [2] 'preorbital length'
+		 [3] 'orbit shape'
+		 [4] 'size of orbit'
+		 [5] 'orientation of orbit'
+		 [6] '*lingual ridge'
+		 [7] 'shape of triturating surface'
+		 [8] 'intermaxillary arch/ tongue groove'
+		 [9] 'palatine contribution to triturating surface'
+		 [10] 'interorbital width'
+		 [11] 'swollen maxillae'
+		 [12] 'nasal size'
+		 [13] 'frontal contribution to external nares'
+		 [14] '*prefrontal exposure on skull roof'
+		 [15] 'postorbital contribution of frontal'
+		 [16] '*frontal contribution to orbits (in lateral view)'
+		 [17] 'frontal maxilla contact'
+		 [18] '*jugal contribution to orbit'
+		 [19] 'jugal extends ventrally as far as maxilla'
+		 [20] 'posterodorsal extension of quadratojugal'
+		 [21] 'squamosal parietal contact'
+		 [22] 'parietal overhang over supraoccipital'
+		 [23] 'posterior thickening of parietal'
+		 [24] 'posterior extention of crista supraoccipitalis'
+		 [25] 'PMX; praeplanum foramen'
+		 [26] 'posterior edge of vomer'
+		 [27] 'foramen palatinum posterius'
+		 [28] '*midline contact of pterygoid'
+		 [29] 'pterygoid basioccipital contact'
+		 [30] 'epipterygoid'
+		 [31] 'basisphenoid size and shape'
+		 [32] 'contribution of opisthotic to stapedial foramen'
+		 [33] '*splenial'
+		 [34] 'tubercle on posterolateral edge of dentary'
+		 [35] 'shape of the dentary/surangular contact'
+		 [36] '*scalloping of posterior rim of carapace'
+		 [37] '5th vertebral forms postior edge of shell'
+		 [38] 'posterior margin of carapace'
+		 [39] 'fenestrae between costals and peripherals in adults'
+		 [40] 'preneural'
+		 [41] 'peripheral count'
+		 [42] 'mesoplastral reduction'
+		 [43] 'cervical scutes'
+		 [44] 'vertebral length versus width'
+		 [45] 'nuchal scute'
+		 [46] 'anterior supernumary pleural'
+		 [47] 'posterior supernumerary pleural'
+		 [48] 'supramarginal scales'
+		 [49] 'placement of marginal I'
+		 [50] 'anterior plastral lobe'
+		 [51] 'epiplastral processes (i.e., cleithra)'
+		 [52] 'gulars'
+		 [53] 'medial contact of gulars'
+		 [54] 'placement of anal scute'
+		 [55] '1st vertebral scute'
+		 [56] 'xiphiplastron hypoplastron suture'
+		 [57] 'Pygal notch'
+		 [58] 'anteriorly scalloped shell'
+		 [59] 'shape of 2nd vertebral'
+		 [60] 'shape of 4th and 5th sulcus'
+		 [61] 'sulcus around external narial opening'
+		 [62] 'external pterygoideus'
+		 [63] 'angle between maxillae'
+		 [64] 'jugal thickening'
+		 [65] 'vertical indentation on maxilla anterior of orbit'
+		 [66] 'Basiocciptal shape'
+		 [67] 'length between orbit and cheek emargination'
+		 [68] 'shape of frontal/parietal suture'
+		 [69] 'size of mandibular condoyle'
+		 [70] '*supraoccipital exposure between parietals on skull roof'
+		 [71] 'orbit inset into maxilla'
+		 [72] 'Parietal width versus length'
+		 [73] 'Internal carotid location'
+		 [74] 'Interpterygoid vacuity'
+		 [75] 'Cheek emargination'
+		 [76] 'Hooked premaxilla'
+		 [77] 'Nasal/frontal suture shape'
+		 [78] 'nasal/premaxilla relationship'
+		 [79] 'Hooked mandible'
+		 [80] 'labial ridge on mandible'
+		 [81] 'snout shape'
+		 [82] 'lateral internal carotid'
+		 [83] 'size of tympanum'
+		 [84] 'Size of the external narial opening'
+		 [85] 'distal caudals'
+		 [86] 'Presence of free cervical ribs'
+		 [87] 'articular surfaces on cervical vertebrae'
+		 [88] 'fenestra perilymphatica'
+		 [89] 'sculptured skull'
+		 [90] 'shell sculpturing'
+		 [91] 'Shape of 3rd vertebral'
+		 [92] 'nuchal opens on anterior margin of shell'
+		 [93] 'xiphiplastral knotch'
+		 [94] 'distinct thickening on plastron medial to inguinal buttresses'
+		 [95] 'distinct plastral thickening of plastron medial to axillary buttress'
+		 [96] 'development of axillary buttress'
+		 [97] 'extent of inguinal buttress'
+		 [98] 'number of suprapygals'
+		 [99] 'suprapygal size'
+		 [100] 'shape of suprapygal'
+		 [101] 'plastral lobe dimensions'
+		 [102] 'neural 5'
+		 [103] 'neural 6'
+		 [104] 'neural 6 contacts'
+		 [105] 'posterior portion of carapace'
+		 [106] 'distinct thickening on the lateral portion of the posterior plastral lobe'
+	;
+	STATELABELS
+		1
+		'wedge shaped (width approximates length)'
+		'long (length is more than twice the width)'
+		'round'
+		,
+		2
+		'short'
+		'long'
+		,
+		3
+		'circular'
+		'posterior notch (not perfect circle)'
+		,
+		4
+		'orbit larger than maxillary height, but not as large as tympanum'
+		'orbit smaller than maxillary height'
+		,
+		5
+		'laterally'
+		'dorsally'
+		,
+		6
+		'complete'
+		'reduced, anteriorly only'
+		'absent'
+		,
+		7
+		'lingual and labial margins more or less parallel'
+		'lingual and labial margins diverge posteriorly, triturating surface greatly expanded posteriorly'
+		,
+		8
+		'broad'
+		'narrow'
+		,
+		9
+		'no'
+		'yes'
+		,
+		10
+		'wide'
+		'narrow (hour glass shaped around the orbits)'
+		,
+		11
+		'no'
+		'yes'
+		,
+		12
+		'large'
+		'reduced'
+		'absent'
+		,
+		13
+		'absent'
+		'present, between nasals and maxillae'
+		'present, between nasals along midline'
+		,
+		14
+		'large'
+		'reduced'
+		'absent'
+		,
+		15
+		'frontal extends well beyond posterior portion of orbit'
+		'frontal ends before or even with orbit'
+		,
+		16
+		'absent'
+		'small'
+		'large'
+		,
+		17
+		'absent'
+		'present'
+		,
+		18
+		'large'
+		'small'
+		'absent'
+		,
+		19
+		'yes, jugal extends ventrally as far as the maxilla'
+		'no; jugal ends ventrally before maxilla does'
+		,
+		20
+		'QJ extends over tympanum'
+		'QJ does not crest tympanum'
+		,
+		21
+		'present, upper temporal emargination shallow'
+		'absent, upper temporal emargination deep'
+		,
+		22
+		'rounded or completely covered'
+		'pointed'
+		,
+		23
+		'does not thin out posteriorly (i.e. remains thick)'
+		'thins out posteriorly'
+		,
+		24
+		'extends beyond occipital condyle'
+		'does not extend beyond occipital condyle'
+		,
+		25
+		'located entirely within premaxillae'
+		'located within suture of premaxillae, vomer, and maxillae'
+		'located within suture of premaxillae and maxillae'
+		,
+		26
+		'straight'
+		'pointed posteriorly'
+		,
+		27
+		'formed by pterygoid and palatine'
+		'formed entirely by palatine'
+		,
+		28
+		'large'
+		'small'
+		'absent'
+		,
+		29
+		'poorly developed'
+		'well developed'
+		,
+		30
+		'present'
+		'absent'
+		,
+		31
+		'triangular'
+		'pentagonal'
+		'rectangular'
+		,
+		32
+		'excluded from stapedial foramen'
+		'enters stapedial foramen'
+		,
+		33
+		'large'
+		'reduced'
+		'absent'
+		,
+		34
+		'absent'
+		'present'
+		,
+		35
+		'Z-shaped'
+		'straight'
+		,
+		36
+		'absent'
+		'present, but slight'
+		'distinct'
+		,
+		37
+		'no'
+		'yes'
+		,
+		38
+		'posterior margin rounded convex'
+		'posterior margin flat or concave'
+		,
+		39
+		'no'
+		'yes, fenestra present, even in individuals where sutures are fused'
+		,
+		40
+		'absent'
+		'present'
+		,
+		41
+		'11'
+		'12 or more'
+		,
+		42
+		'mesoplastral with midline contact'
+		'midline contact absent'
+		,
+		43
+		'undivided'
+		'divided (includes sometimes)'
+		,
+		44
+		'width significantly greater than length'
+		'length and width approximately equal'
+		'length greater than width'
+		,
+		45
+		'absent'
+		'present'
+		,
+		46
+		'absent'
+		'present'
+		,
+		47
+		'absent'
+		'present'
+		,
+		48
+		'absent'
+		'present'
+		,
+		49
+		'half lies on nuchal bone and other on peripheral'
+		'more than 3/4 lies on marginal'
+		,
+		50
+		'rectangular/trapezoidal'
+		'triangular'
+		'broadly rounded'
+		,
+		51
+		'present'
+		'absent'
+		,
+		52
+		'smaller than the extragulars'
+		'as large as the extragulars'
+		,
+		53
+		'absent'
+		'present'
+		,
+		54
+		'anal on xiphiplastron only'
+		'anal laps onto hypoplastron as well'
+		,
+		55
+		'wide anteriorly and narrows posteriorly'
+		'wide posteriorly and narrows anteriorly'
+		,
+		56
+		'straight'
+		'z-shaped'
+		,
+		57
+		'absent'
+		'present'
+		,
+		58
+		'absent'
+		'present; apomorphy of Boremys'
+		,
+		59
+		'hexagonal'
+		'square or rectangular'
+		,
+		60
+		'curved anteriorly'
+		'straight'
+		,
+		61
+		'no'
+		'present'
+		,
+		62
+		'present'
+		'greatly reduced'
+		,
+		63
+		'acute angle'
+		'obtuse angle'
+		,
+		64
+		'absent'
+		'present'
+		,
+		65
+		'absent'
+		'present, autapomorphy of Gamerabaena sonsalla'
+		,
+		66
+		'Blocky without any tubercles'
+		'Sagitally horzontal tubercles present; autapomorphy of Palatobaena cohen'
+		,
+		67
+		'1/2 or greater than the diameter of orbit'
+		'equal to the diameter of the orbit'
+		'significantly less than half the diameter of the orbit'
+		,
+		68
+		'slightly curved to straight'
+		'greatly curved or knotched'
+		,
+		69
+		'small'
+		'large'
+		,
+		70
+		'absent'
+		'slight exposure'
+		'large exposure'
+		,
+		71
+		'no'
+		'yes'
+		,
+		72
+		'maximum combined width of parietals less then their length'
+		'maximum combined width of parietals greater than their length'
+		,
+		73
+		'within basisphenoid'
+		'halfway between suture of basisphenoid and pterygoid'
+		,
+		74
+		'present'
+		'absent'
+		,
+		75
+		'no emargination'
+		'deeply emarginated, reaching at least to the ventral margion of the orbit'
+		,
+		76
+		'absent'
+		'present'
+		,
+		77
+		'straight'
+		'convex anteriorly (i.e. frontals extend in between nasals)'
+		,
+		78
+		'Nasals extend even with premaxilla anteriorly'
+		'Nasals do not reach as far as anterior edge of premaxillae anteriorly'
+		,
+		79
+		'absent'
+		'present'
+		,
+		80
+		'present'
+		'absent'
+		,
+		81
+		'rectangular snout'
+		'pointed snout'
+		,
+		82
+		'subequal to the internal carotid artery foramen'
+		'half the diameter of the internal carotid'
+		,
+		83
+		'small (smaller than diameter of orbit)'
+		'large (larger than diameter of orbit)'
+		,
+		84
+		'small, significantly smaller than the orbit'
+		'large, approximately the same size as the orbit'
+		,
+		85
+		'same length as proximal caudals'
+		'significantly longer than proximal caudals'
+		,
+		86
+		'present'
+		'absent'
+		,
+		87
+		'no, all are amphicoelous'
+		'yes, some vertebrae are proceolous or ophisthocoelous'
+		,
+		88
+		'large'
+		'small'
+		,
+		89
+		'absent (may have crenulations, but sculpturing not similar to that found on shell)'
+		'knobs (similar to that found on the shell, where known)'
+		,
+		90
+		'smooth to slightly sculptured'
+		'distinct tubercles for sculpturing "glyptops like" sculpturing'
+		'knobby'
+		,
+		91
+		'as wide anteriorly as it is wide posteriorly'
+		'narrower anteriorly compared to its posterior width'
+		,
+		92
+		'yes'
+		'no, peripherals meet anteriorly'
+		,
+		93
+		'absent'
+		'present'
+		,
+		94
+		'absent, no distinct thickening'
+		'present, distinct, rounded thickening medial to inguinal buttresses of plastron'
+		,
+		95
+		'absent'
+		'present'
+		,
+		96
+		'poorly developed with the buttress only weakly extending onto the costals'
+		'well developed with the buttress extending onto the costals (forming a distinct neck shield)'
+		,
+		97
+		'poorly developed with the buttress not extending onto the middle of the costals (ends on the distal portion of costal)'
+		'well developed withthe buttress reaching the costals'
+		,
+		98
+		'one'
+		'two'
+		,
+		99
+		'large'
+		'small'
+		,
+		100
+		'triangular'
+		'rectangular'
+		,
+		101
+		'posterior lobe larger than anterior lobe'
+		'anterior lobe larger than posterior lobe'
+		,
+		102
+		'wider than long'
+		'longer than wide'
+		,
+		103
+		'wider than long'
+		'longer than wide'
+		,
+		104
+		'contacts costals 5 and 6'
+		'contacts costals 5, 6, and 7'
+		,
+		105
+		'wide space between carapace and plastron'
+		'extends ventrally to approximately the level of the plastron'
+		,
+		106
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Proganochelys'		                  000000000000000000000000000?00000000000000000??10000000000000000000000000000000000000000000?00000???0???00
+	'Kayantechelys'		                  00000000000000010?0?0000000?000000100000000000000000000000000000000000000000001000000000000000000???000000
+	'Dinochelys whitei'		              ?0000?0?000000010???0????????????0?000000000000000?10100000000000?00??001101?110????00??10000?0001001???1?
+	'Compsemys victa'		                000002001000000000010?0??000100001?0000000010000?2100000001?000000?00?00110110??1?00????11011100000?000010
+	'Uluops uluops'		                  0000010010000011001000000000101?????????????????????????????00000?100000111010??0?10???01?????????????????
+	'Dorsetochelys'		                  100002001000001201100010?000000?????????????????????????????000000000200111011????1?????1?????????????????
+	'Pleurosternon'		                  10000200?0000012021000100?020021???000000001000002??0?000000000000100100111011??0?00?00111001?00??111?????
+	'Glyptops plicatulus'		            10000200110000120210001?000200200000000000010000020100000000000000000?00110111101?00?00?110001000100111011
+	'Arundelemys dardeni'		            0000010010000001021?110100001001????????????????????????????000000?0?000110010??01?0????11????????????????
+	'Trinitichelys hiatti'		           00000100010001120210111010001?11??????00?00100?002100000?00?000000000000111000??0?00??001110?1011???011?01
+	'Neurankylus exemius'		            00?00??0?00000110???0010???01?01?0?100000001000000110000000000000100000011?0001001?11110001001011101011101
+	'Hayemys latifrons'		              00??0??0?00000001210111??0101?00????????????????????????????000000000?00111000??0?11???00???0?????????????
+	'Denizenemys ornata'		             ???????????????????????????????????1110?100100000010100?1011?????????????????????????????20001111???0???01
+	'Plesiobaena antiqua'		            000001101001(0,2)112120011101101101001011110100100001110110110110000000001001110010111111110000001111001011101
+	'Peckemys brinkman'		              00000010110??11111101000110011100111?1?0100000000111??0?1001000001200100????????????????????01111???0?????
+	'Cedrobaena putorius'		            00000111111??1111100111010(0,1)0111001??????????????????????????000000001010??????????????????????????????????
+	'Gammerabaena sonsalla'		          0000111000111100120??????1001110????????????????????????????00001?11??1?111001??1??1???00?????????????????
+	'Palatobaena cohen'		              2000121010112201110011101100111001111110?00100001110?111?01111110111111011101101??11???0000001111???0???01
+	'Palatobaena bairdi'		             20001210101122111000100011001110011?????????????????????????11110011121011101101??11???00?????????????????
+	'Palatobaena gaffneyi'		           20011210101122111100100011011110????????????????????????????111100111210111011????11???00?????????????????
+	'Denizenemys nodosa'		             ???????????????????????????????????2110?101211000011101?1111?????????????????????????????20001111???0???01
+	'Boremys pulchra'		                01000?11?10101121?101110?010111010021101101111110111101111110000000001001110010111111000020001111010011101
+	'Boremys grandis'		                ???????????????????????????????????2110110121111011110111111?????????????????????????????20001111010011?01
+	'Eubaena cephalica'		              010101110111011(0,1)12101110200011101?0?????????????????????????000000100100111001??1?11???00000??????????????
+	'"Baena" hatcheri'		               01000111010102111210111020001110{0,1}102110(0,1)0(0,1)12(0,1)10011101(0,1)1110110000002001001110?1001?1111?00000011110?(0,1)011(0,1)01
+	'Saxochelys gilberti'		            01100110011101111210110101001110210111010012110000101(0,1)1110110000001001011110?1001?0111?00000011110?(0,1)(0,1)11101
+	'Stygiochelys estesi'		            00100110001112121110111110111111????????????????????????????0000001001011110?1011111???0??????????????????
+	'Baena arenosa'		                  001001100001?212101100010000111121011100111201000010111110110000000000011110?1011111???0000001111???011101
+	'Chisternon undatum'		             0010011000111212101101010011111120011101101211000010111010110000000001011110010111111110000001111???011?01
+	'Palatobaena sp.'		                20001210101121111100101021001110????????????????????????????111101101210111011????11???00?????????????????
+    ;
+    ENDBLOCK;
+
+          BEGIN NOTES;
+      
+      [Attribute comments]
+            ENDBLOCK;
+            BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 106;
+      ENDBLOCK;
+      BEGIN MESQUITE;
+ MESQUITESCRIPTVERSION 2; TITLE AUTO; tell ProjectCoordinator; timeSaved 1604329601373; getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa; tell It; setID 0 6524169970915464073; endTell; getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters; tell It; setID 0 648961951061606083; mqVersion 303; checksumv 0 3 3021647214 null getNumChars 106 numChars 106 getNumTaxa 30 numTaxa 30 short true bits 2305843009213693959 states 7 sumSquaresStatesOnly 5963.0 sumSquares -4.6116860184273853E18 longCompressibleToShort false usingShortMatrix true NumFiles 1 NumMatrices 1; mqVersion; endTell; getWindow; tell It; suppress; setResourcesState false false 100; setPopoutState 400; setExplanationSize 0; setAnnotationSize 0; setFontIncAnnot 0; setFontIncExp 0; setSize 1622 864; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; endTell; desuppress; endTell; getEmployee #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord; tell It; showDataWindow #648961951061606083 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker; tell It; getWindow; tell It; setExplanationSize 30; setAnnotationSize 20; setFontIncAnnot 0; setFontIncExp 0; setSize 1522 792; setLocation 8 23; setFont SanSerif; setFontSize 10; getToolPalette; tell It; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; endTell; setActive; setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam; colorCells #mesquite.charMatrices.NoColor.NoColor; colorRowNames #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor; colorColumnNames #mesquite.charMatrices.CharGroupColor.CharGroupColor; colorText #mesquite.charMatrices.NoColor.NoColor; setBackground White; toggleShowNames on; toggleShowTaxonNames on; toggleTight off; toggleThinRows off; toggleShowChanges on; toggleSeparateLines off; toggleShowStates on; toggleAutoWCharNames on; toggleAutoTaxonNames off; toggleShowDefaultCharNames off; toggleConstrainCW on; toggleBirdsEye off; toggleShowPaleGrid off; toggleShowPaleCellColors off; toggleShowPaleExcluded off; togglePaleInapplicable on; toggleShowBoldCellText off; toggleAllowAutosize on; toggleColorsPanel off; toggleDiagonal on; setDiagonalHeight 80; toggleLinkedScrolling on; toggleScrollLinkedTables off; endTell; showWindow; getWindow; tell It; forceAutosize; endTell; getEmployee #mesquite.charMatrices.ColorByState.ColorByState; tell It; setStateLimit 9; toggleUniformMaximum on; endTell; getEmployee #mesquite.charMatrices.ColorCells.ColorCells; tell It; setColor Red; removeColor off; endTell; getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel; tell It; togglePanel off; endTell; getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip; tell It; showStrip off; endTell; getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector; tell It; autotabOff; endTell; getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip; tell It; showStrip off; endTell; getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor; tell It; panelOpen true; endTell; endTell; endTell; endTell; 
+ENDBLOCK;
+BEGIN MESQUITECHARMODELS;
+ ProbModelSet * UNTITLED (CHARACTERS = 'Matrix in file "palato 9-26-08paup.nex"') = 'Mk1 (est.)': 1 - 106; 
+ENDBLOCK;
+BEGIN PAUP;
+ outgroup Kayantechelys Proganochelys; set increase = auto taxlabels = full torder = right tcompress = yes; ctype ord : 1 7 14 16 18 28 33 36 70; hsearch start = stepwise addseq = random nreps = 1000 swap = TBR; condense deldupes = yes; filter best = yes; 
+ENDBLOCK;
