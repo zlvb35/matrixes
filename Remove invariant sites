@@ -1,0 +1,40 @@
+nex_file_path = r"C:\app\iqtree-1.6.12-Windows\bin\project157.NEX"
+var_sites_file_path = r"C:\app\iqtree-1.6.12-Windows\bin\project157.NEX.varsites.phy"
+
+# loading the NEX  contents
+with open(nex_file_path, "r") as nex_file:
+    nex_content = nex_file.readlines()
+
+# Loading varsites contents
+with open(var_sites_file_path, "r") as var_sites_file:
+    var_sites_content = var_sites_file.readlines()
+
+# remove sits
+remove_sites = set()
+for line in var_sites_content:
+    site_indexes = line.strip().split()  # Using Spaces, split the numbers 
+    for site_index in site_indexes:
+        try:
+            remove_sites.add(int(site_index) - 1)  # Index starts at 0
+        except ValueError:
+            print(f"Ignore invalid site indexes: {site_index}")
+
+# Remove invariant sites
+filtered_nex_content = []
+matrix_section = False
+for line in nex_content:
+    if matrix_section:
+        row_elements = line.strip().split()
+        filtered_row_elements = [elem for i, elem in enumerate(row_elements) if i not in remove_sites]
+        filtered_nex_content.append(" ".join(filtered_row_elements))
+    else:
+        filtered_nex_content.append(line)
+    if line.strip().startswith("MATRIX"):
+        matrix_section = True
+
+# New NEX
+output_file_path = r"C:\app\iqtree-1.6.12-Windows\bin\project157-2.NEX"
+with open(output_file_path, "w") as output_file:
+    output_file.writelines(filtered_nex_content)
+
+print("Invariant sites are removed and the results are saved in:", output_file_path)
