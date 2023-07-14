@@ -1,0 +1,36 @@
+nex_file_path = r"C:\app\iqtree-1.6.12-Windows\bin\project157-2.NEX"
+
+# loading NEXUS 
+with open(nex_file_path, "r") as nex_file:
+    nex_content = nex_file.readlines()
+
+# Finds the start and end row indexes for the MATRIX section
+matrix_start = None
+matrix_end = None
+for i, line in enumerate(nex_content):
+    if line.strip().startswith("MATRIX"):
+        matrix_start = i
+    elif line.strip() == ";":
+        matrix_end = i
+        break
+
+# Check MATRIX section
+if matrix_start is None or matrix_end is None:
+    print("MATRIX not found")
+    exit()
+
+# Add the ASSUMPTIONS section before the MATRIX section
+assumptions_content = [
+    "BEGIN ASSUMPTIONS;\n",
+    "  exclude unknown;\n",
+    "  exclude invariants;\n",
+    "END;\n"
+]
+new_nex_content = nex_content[:matrix_start] + assumptions_content + nex_content[matrix_start:matrix_end+1] + nex_content[matrix_end+1:]
+
+# writing new NEX
+output_file_path = r"C:\app\iqtree-1.6.12-Windows\bin\project157-2.modified.NEX"
+with open(output_file_path, "w") as output_file:
+    output_file.writelines(new_nex_content)
+
+print("The modified NEXUS file is generated：", output_file_path)
