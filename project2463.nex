@@ -1,0 +1,95 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2024-08-20 01.59.09 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=20;
+    TAXLABELS
+    		'Lapageria rosea'
+		'Drymophila moorei'
+		'Alstroemeria pelegrina'
+		'Schelhammera multiflora'
+		'Drymophila cyanocarpa'
+		'Paris quadrifolia'
+		'Tricyrtis formosana'
+		'Erythronium japonicum'
+		'Alstroemeria aurentiaca'
+		'Calochortus apiculatus'
+		'Clintonia borealis'
+		'Erythronium americanum'
+		'Heterosmilax gaudichaudiana'
+		'Lilium martagon'
+		'Lilium speciosum'
+		'Philesia magellanica'
+		'Ripogonum album'
+		'Smilax herbacea'
+		'Streptopus streptopoides japonica'
+		'Veratrum album oxysepalum'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=5;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'inner perianth color '
+		 [2] 'outer perianth color '
+		 [3] 'outer perianth connation '
+		 [4] 'monosymmetric inner perianth '
+		 [5] 'petal color'
+	;
+	STATELABELS
+		1
+		'green'
+		'colorful'
+		,
+		2
+		'colorful'
+		'green '
+		,
+		3
+		'fused'
+		'partially fused'
+		'free '
+		,
+		4
+		'zygomorphic '
+		'actinomorphic '
+		,
+		5
+		'white'
+		'pink/purple'
+		'yellow'
+		'orange'
+		'red'
+		'green'
+		
+	;
+	MATRIX
+	'Lapageria rosea'		                            10214
+	'Drymophila moorei'		                          10210
+	'Alstroemeria pelegrina'		                     1020?
+	'Schelhammera multiflora'		                    10211
+	'Drymophila cyanocarpa'		                      10210
+	'Paris quadrifolia'		                          01215
+	'Tricyrtis formosana'		                        10211
+	'Erythronium japonicum'		                      1021?
+	'Alstroemeria aurentiaca'		                    10213
+	'Calochortus apiculatus'		                     11210
+	'Clintonia borealis'		                         01215
+	'Erythronium americanum'		                     10212
+	'Heterosmilax gaudichaudiana'		                01215
+	'Lilium martagon'		                            10211
+	'Lilium speciosum'		                           10211
+	'Philesia magellanica'		                       11214
+	'Ripogonum album'		                            01210
+	'Smilax herbacea'		                            01215
+	'Streptopus streptopoides japonica'		          01215
+	'Veratrum album oxysepalum'		                  10210
+    ;
+    ENDBLOCK;
+
+          BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 5;
+      ENDBLOCK;
+      

@@ -1,0 +1,410 @@
+#NEXUS
+
+    [ File output by Morphobank v3.0 (http://www.morphobank.org); 2024-08-20 04.58.59 ]
+
+    BEGIN TAXA;
+    DIMENSIONS NTAX=71;
+    TAXLABELS
+    		'Clypeus'
+		'Astrolampas'
+		'Bothryopneustes'
+		'Pseudopygurus'
+		'Pygurus (mepygurus)'
+		'Pygurus (pygurus)'
+		'Pygurus (pyguropsis)'
+		'Nucleolites'
+		'Catopygus'
+		'Hemicara'
+		'Hypopygurus'
+		'Oolopygus'
+		'Phyllobrissus'
+		'Plagiochasma'
+		'Pygaulus'
+		'Pygopistes'
+		'Pygorhynchus'
+		'Rhopostoma'
+		'Apatopygus'
+		'Porterpygus'
+		'Archiacia'
+		'Claviaster'
+		'Acriaster'
+		'Gentilia'
+		'Faujasia'
+		'Australanthus'
+		'Domechinus'
+		'Gongrochanus'
+		'Hardouinia'
+		'Lefortia'
+		'Petalobrissus'
+		'Pygidiolampas'
+		'Pygurostoma'
+		'Stigmatopygus'
+		'Cassidulus'
+		'Eurhodia'
+		'Hypsopygaster'
+		'Nucleopygus'
+		'Ochetes'
+		'Oligopodia'
+		'Rhyncholampas'
+		'Rhynchopygus'
+		'Echinolampas'
+		'Arnaudaster'
+		'Conolampas'
+		'Parapygus'
+		'Plesiolampas'
+		'Conoclypus'
+		'Clypeolampas'
+		'Vologesia'
+		'Pliolampas'
+		'Gitolampas'
+		'Ilarionia'
+		'Kephrenia'
+		'Neocatopygus'
+		'Pseudopygaulus'
+		'Santeelampas'
+		'Studeria'
+		'Termieria'
+		'Zuffardia'
+		'Neolampas'
+		'Nannolampas'
+		'Pisolampas'
+		'Tropholampus'
+		'Oligopygus'
+		'Haimea'
+		'Togocyamus'
+		'Clypeaster'
+		'Laganum'
+		'Galeropygus'
+		'Hyboclypus'
+    ;
+    ENDBLOCK;
+
+    BEGIN CHARACTERS;
+	DIMENSIONS NCHAR=40;
+	FORMAT DATATYPE=STANDARD GAP=- MISSING=? SYMBOLS="0123456";
+	CHARLABELS
+		 [1] 'Apical rostrum (anterior projection of apical surface of test)'
+		 [2] 'Number of genital pores'
+		 [3] 'Relative size of genital plates'
+		 [4] 'Apical plating'
+		 [5] 'Posterior genital plates (G1, G4) separated by G2'
+		 [6] 'Posterior ocular plates (Oc1, Oc5) separated by G2'
+		 [7] 'Catenal plates between posterior oculars and periproct'
+		 [8] 'Complementary plates present in apical disc'
+		 [9] 'Relative size of ocular plates'
+		 [10] 'Ocular plates separated from apical disc'
+		 [11] 'Petal development'
+		 [12] 'Petal shape'
+		 [13] 'Anterior petal (ambulacrum III) development'
+		 [14] 'Pore zones of individual petals differ in length'
+		 [15] 'Periproct position with respect to apical disc'
+		 [16] 'Periproct position on test surface'
+		 [17] 'Periproct orientation'
+		 [18] 'Periproct size'
+		 [19] 'Anal sulcus'
+		 [20] 'Peristome shape'
+		 [21] 'Peristome orientation'
+		 [22] 'Bourrelet reduction'
+		 [23] 'Bourrelet elevation'
+		 [24] 'Continuous rim developed around peristome'
+		 [25] 'Ambulacral pores beyond the petals'
+		 [26] 'Phyllodes (areas of enlarged pores in adoral portion of ambulacra)'
+		 [27] 'Arrangement of adoral pores in the phyllodes'
+		 [28] 'Shape of phyllodes'
+		 [29] 'Relative development of columns of phyllocle pores'
+		 [30] 'Buccal pores'
+		 [31] 'Separation between buccal pores and phyllodes'
+		 [32] 'Plating in ambulacra beyond petals'
+		 [33] 'Naked zone in ambulacrum III of oral surface'
+		 [34] 'Naked zone in interambulacrum 5 of oral surface'
+		 [35] 'Surface of medial naked zone in interambulacrum 5'
+		 [36] 'Unprotrusible Aristotle?s lantern in adults'
+		 [37] 'Sphaeridia placement'
+		 [38] 'Sphaeridia number'
+		 [39] 'Number of podia per plate'
+		 [40] 'Radially oriented internal interambulacral buttresses'
+	;
+	STATELABELS
+		1
+		'absent'
+		'present, apical disc and petals elevated forward'
+		,
+		2
+		'4'
+		'missing on G2'
+		'2'
+		'5'
+		'missing on G3'
+		'state not mentioned in publication'
+		,
+		3
+		'approximately equal'
+		'G2 enlarged'
+		,
+		4
+		'tetrabasal (at least in juveniles)'
+		'monobasal (Fig. 2A, B)'
+		,
+		5
+		'no'
+		'yes'
+		,
+		6
+		'no'
+		'yes'
+		,
+		7
+		'yes, h at least some specimens'
+		'no'
+		,
+		8
+		'yes, in at least some specimens'
+		'no'
+		,
+		9
+		'approximately equal'
+		'posterior oculars (1,5) larger, elongate'
+		,
+		10
+		'no, oculars contact adjacent genitals'
+		'yes, adjacent interambulacral plates meet adapically to oculars'
+		,
+		11
+		'petals absent'
+		'pore zones not expanded'
+		'pore zones expanded'
+		'state not mentioned in publication'
+		,
+		12
+		'open, tapering adapically'
+		'bowed, tapering both directions'
+		,
+		13
+		'normal, as developed as paired petals'
+		'shorter petal III, with less elongate pores'
+		'absent, ambulacrum III nonpetaloid'
+		,
+		14
+		'no, not by more than a single pore pair'
+		'yes, by two or more pore pairs (one pore zone is clearly longer)'
+		,
+		15
+		'enclosed, between posterior oculars, genital 5'
+		'contacts posterior oculars'
+		'separate, free from apical system'
+		,
+		16
+		'supramarginal, opening upwards from above ambitus'
+		'marginal, opening rearwards'
+		'submarginal, at ambitus US opening downwards'
+		'infrarnarginal, on oral surface of test'
+		'state not mentioned in publication'
+		,
+		17
+		'longitudinal'
+		'equant'
+		'transverse'
+		'state not mentioned in publication'
+		,
+		18
+		'larger or same size as peristome'
+		'smaller than peristome'
+		,
+		19
+		'absent, periproct flush with test'
+		'narrow, with small posterior longitudinal groove widening to rear'
+		'small subanal heel and adapical lip'
+		'broad, well-developed longitudinal groove from apex'
+		,
+		20
+		'round'
+		'pentagonal'
+		,
+		21
+		'longitudinal'
+		'cquant'
+		'transverse'
+		'oblique'
+		'state not mentioned in publication'
+		,
+		22
+		'no interambulacral tubercles more dense adjacent to peristome'
+		'yes, tubercles not more dense there than elsewhere'
+		,
+		23
+		'flush, not projecting into peristome or oral funnel'
+		'rounded, but not strongly pi-Rimini'
+		'strongly projecting over peristome and toothlike'
+		,
+		24
+		'absent'
+		'present'
+		,
+		25
+		'double'
+		'double, but adoral pore much reduced'
+		'single'
+		'state not mentioned in publication'
+		,
+		26
+		'well developed, with increased density of pores'
+		'reduced, with only a relatively few enlarged pores'
+		'absent, with no enlarged pores near adradial sutures'
+		'state not mentioned in publication'
+		,
+		27
+		'triad area in each half ambulacrum'
+		'two discrete columns in each half'
+		'single column in each half'
+		'two columns with additional pores scattered between them'
+		'state not mentioned in publication'
+		,
+		28
+		'narrow, uniform in width towards the peristome'
+		'expanded, bowed outward beyond the bourrelets'
+		'broad arcs, almost perpendicular to the ambulacra'
+		'state not mentioned in publication'
+		,
+		29
+		'inner and outer series approximately equally developed'
+		'inner series much shorter'
+		,
+		30
+		'absent, no enlarged pores between phyllodes and peristome'
+		'present, single enlarged pore in the first ambulacral plates'
+		,
+		31
+		'narrow, with buccal pores much closer to phyllodes'
+		'wide, with buccal pores much closer to peristome'
+		,
+		32
+		'normal'
+		'pyrinid, with small triangular plates enclosed between two primary plates adradially, and regular castellation or pi:-radial sutures'
+		'demiplates, small thin (not extending to interior) sub-triangular plates in series along sidradial sutures'
+		'state not mentioned in publication'
+		,
+		33
+		'absent'
+		'present, medial region lacking primary and secondary tubercles'
+		,
+		34
+		'absent, medial tuberculation not differing'
+		'narrow, width of zone only 2-4 times tubercle separation'
+		'wide, width of zone many times that of tubercle separation'
+		'state not mentioned in publication'
+		,
+		35
+		'granular'
+		'pitted'
+		,
+		36
+		'absent'
+		'present, at least as indicated by well-developed lantern supports'
+		,
+		37
+		'in shallow pits about perradial suture near peristome'
+		'enclosed within rim close to perradial suture'
+		,
+		38
+		'3 or more per ambulacrum'
+		'1 or 2 per ambulacrum'
+		,
+		39
+		'one'
+		'multiple'
+		,
+		40
+		'absent'
+		'present'
+		
+	;
+	MATRIX
+	'Clypeus'		                       011010011030001110314010111100-101-00000
+	'Astrolampas'		                   011010110031002410014000112100-101-00000
+	'Bothryopneustes'		               011011110030002210014010111100-101-00000
+	'Pseudopygurus'		                 011010110031102410014020111200-101-00000
+	'Pygurus (mepygurus)'		           011010110031002410014010111100-101-00000
+	'Pygurus (pygurus)'		             01101011003100231001402011(1,2)200-101-00000
+	'Pygurus (pyguropsis)'		          0110101100310023100140101112111101-00000
+	'Nucleolites'		                   0110(0,1)0(0,1)(0,1)(0,1)030001110114000112100-101-00000
+	'Catopygus'		                     0110(0,1)0110030002210014010212200-101-00000
+	'Hemicara'		                      011010110020002310014010112200-102000000
+	'Hypopygurus'		                   0110111100300023100140101122010101-00000
+	'Oolopygus'		                     0110101100200022101140103122110101-00000
+	'Phyllobrissus'		                 011000110020002110114000212200-101-00000
+	'Plagiochasma'		                  011010110030002110114000212100-101-00000
+	'Pygaulus'		                      011010110030002310004000212100-101-00000
+	'Pygopistes'		                    011010110030002210014000112200-101-00000
+	'Pygorhynchus'		                  011011110031002310004000212200-101-00000
+	'Rhopostoma'		                    011011110020002110104000112100-101-00000
+	'Apatopygus'		                    01(0,1)000110020002110104000312100-201-00000
+	'Porterpygus'		                   020000110020002110114000313100-201-00000
+	'Archiacia'		                     111011110031202310014000112200-101-00000
+	'Claviaster'		                    11101?110031102110114000112200-101-00000
+	'Acriaster'		                     111011110031202310014000112200-101-00000
+	'Gentilia'		                      01101?110031102310014000312200-102-00000
+	'Faujasia'		                      0111111100310023210140203123111102000000
+	'Australanthus'		                 0111111100300021101140203122110113000000
+	'Domechinus'		                    0111111100310023310140203123111102000000
+	'Gongrochanus'		                  0210111100310022101140203143011102000000
+	'Hardouinia'		                    011011110031002210104020312(2,3)1101(0,1)2000000
+	'Lefortia'		                      0110111100310022110140203123111102000000
+	'Petalobrissus'		                 0110111100310021101140(1,2)031220101(0,1)2000000
+	'Pygidiolampas'		                 0110111100310023110140203123110102000000
+	'Pygurostoma'		                   0110111100310022100140203143010112000000
+	'Stigmatopygus'		                 0110111100310022101140203122010112000000
+	'Cassidulus'		                    0111111100310121302140103131010113100000
+	'Eurhodia'		                      0111111100310021302140103122010113100000
+	'Hypsopygaster'		                 0511111100200022101140203132011103100000
+	'Nucleopygus'		                   0110111100200021101140003131?10102000000
+	'Ochetes'		                       011000110020002110114000212210-112100000
+	'Oligopodia'		                    0111111100300022102140103131110113100000
+	'Rhyncholampas'		                 0111111100310121302140103122010113100000
+	'Rhynchopygus'		                  0111111100310022302040103122110113100000
+	'Echinolampas'		                  0111111100310124300140103142010102000000
+	'Arnaudaster'		                   01101?110031012210014000312(1,2)110102000000
+	'Conolampas'		                    0111111100200124300140103142010102000000
+	'Parapygus'		                     0110111100310022100140103122010102000000
+	'Plesiolampas'		                  0111111100300124100140103122?10102000000
+	'Conoclypus'		                    0111111100300024100140203141010102010000
+	'Clypeolampas'		                  0111111100300024300140203142010102000000
+	'Vologesia'		                     0110111100300023300140103142010102000000
+	'Pliolampas'		                    0511111100300023300140103122110101-00000
+	'Gitolampas'		                    0111111100310022100140103122010101-00000
+	'Ilarionia'		                     0111111100310022100140113131110101-00000
+	'Kephrenia'		                     0111111100310022300140103122011101-00000
+	'Neocatopygus'		                  0111111100310023300140113142010101-00000
+	'Pseudopygaulus'		                0111111100310023300040003131110101-00000
+	'Santeelampas'		                  0111111100300022100140103122010101-00000
+	'Studeria'		                      0511111100300022101140103122110101-00000
+	'Termieria'		                     0111111100311023200040003131110101-00000
+	'Zuffardia'		                     0111111100310022100140103122011101-00000
+	'Neolampas'		                     05111?11001---23200040003231010101-00000
+	'Nannolampas'		                   05000011001---232001410033---1-101-00100
+	'Pisolampas'		                    05111111011---22100040003231010101-00?00
+	'Tropholampus'		                  01111111011---232001410033---1-101-00100
+	'Oligopygus'		                    01111111003000242100400033---1-301-10000
+	'Haimea'		                        01111111003000242101400033---1-301-10000
+	'Togocyamus'		                    0111??11002000212100410033---1-?01-101?1
+	'Clypeaster'		                    04111111003100242100410033---1-101-11111
+	'Laganum'		                       04111111003100242100410033---1-101-11111
+	'Galeropygus'		                   010000000020000110314000111100-101-00000
+	'Hyboclypus'		                    010000001020000110304000111100-101-00000
+    ;
+    ENDBLOCK;
+
+          BEGIN ASSUMPTIONS;
+      TYPESET * UNTITLED = unord: 1 - 40;
+      ENDBLOCK;
+      BEGIN MACCLADE;
+ Version 4.0 87; LastModified -845278530; FileSettings treewindow '1' '1' '41' '1'; Singles 010; Editor 00011001111111100100010010 '0' '24' Gadget '12' '158' '1' all; EditorPosition '44' '969' '869' '567'; TreeWindowPosition '46' '6' '985' '1630'; ListWindow Characters open Gadget '12' '50' '25' '202' '422' 000; ListWindow Taxa open Gadget '12' '50' '10' '355' '330' 100000000; ListWindow Trees closed Gadget '12' '50' '10' '276' '490' ; ListWindow TypeSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow ExSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow TaxSets closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartitions closed Gadget '12' '50' '10' '276' '490' ; ListWindow CharPartNames closed Gadget '12' '50' '10' '276' '490' ; ListWindow WtSets closed Gadget '12' '50' '10' '276' '490' ; ChartWindowPosition '50' '30' '688' '964'; StateNamesSymbols closed Gadget '12' '10' '50' '30' '148' '220'; WindowOrder List Taxa Tree List Characters; OtherSymbols &/ 00 ?-; Correlation '0' '0' '1000' '0' '0' 10011010; Salmo 00000001; EditorFile '2'; ExportHTML _ MOSS '100' 110000; PrettyPrint 10; CharLegendPosition '869' '1535' '143' '85'; TreeLegendPosition '948' '1437' '64' '93'; EditorToolsPosition '627' '1343' '115' '165'; TreeToolsPosition '716' '9' '126' '138'; TreeWindowProgram 10; TreeWindow 0000; Continuous '0' '3' 1; Calculations 0000001; SummaryMode '0' '0' 0; Charts Arial '12' (normal) 0010; NexusOptions '0' '0' '50' 001011001; TipLabel '1'; TreeFont Gadget '12' (normal); TreeShape 1.0 1.0 0100; TraceLabels 0101; ChartColors '0' '0' '65535' '9' '0' 1; ChartBiggestSpot 1; ChartPercent 10; ChartBarWidth '10' 1; ChartVerticalAxis 10101; ChartMinMax '0'; TraceAllChangesDisplay '1' 1; BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1' 0000101; ContinuousBranchLabels 0; AllStatesBranchLabels 1; IndexNotation '3' 1; PrintTree 10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' Geneva '9' (normal) Geneva '10' (normal) Geneva '9' (normal) Geneva '9' (normal) Geneva '9' (bold ) Geneva '9' (normal) Geneva '9' (normal) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '1954' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2' 1000111000000000000100000111000; MatchChar 00 .; EntryInterpretation 01; ColorOptions 00; TreeTools '0' '5' '4' '0' '10' '4' '0' 00100111111101110; EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0' 100000101110001; PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3' 1010; BothTools '1'; 
+ENDBLOCK;
+BEGIN MACCLADESTART;
+ Extended; 
+ENDBLOCK;
+BEGIN SETS;
+ CHARSET Morphology = 1-40; 
+ENDBLOCK;
+BEGIN TREES;
+ TRANSLATE 1 Clypeus, 2 Astrolampas, 3 Bothryopneustes, 4 Pseudopygurus, 5 'Pygurus (Mepygurus)', 6 'Pygurus (Pygurus)', 7 'Pygurus (Pyguropsis)', 8 Nucleolites, 9 Catopygus, 10 Hemicara, 11 Hypopygurus, 12 Oolopygus, 13 Phyllobrissus, 14 Plagiochasma, 15 Pygaulus, 16 Pygopistes, 17 Pygorhynchus, 18 Rhopostoma, 19 Apatopygus, 20 Porterpygus, 21 Archiacia, 22 Claviaster, 23 Acriaster, 24 Gentilia, 25 Faujasia, 26 Australanthus, 27 Domechinus, 28 Gongrochanus, 29 Hardouinia, 30 Lefortia, 31 Petalobrissus, 32 Pygidiolampas, 33 Pygurostoma, 34 Stigmatopygus, 35 Cassidulus, 36 Eurhodia, 37 Hypsopygaster, 38 Nucleopygus, 39 Ochetes, 40 Oligopodia, 41 Rhyncholampas, 42 Rhynchopygus, 43 Echinolampas, 44 Arnaudaster, 45 Conolampas, 46 Parapygus, 47 Plesiolampas, 48 Conoclypus, 49 Clypeolampas, 50 Vologesia, 51 Pliolampas, 52 Gitolampas, 53 Ilarionia, 54 Kephrenia, 55 Neocatopygus, 56 Pseudopygaulus, 57 Santeelampas, 58 Studeria, 59 Termieria, 60 Zuffardia, 61 Neolampas, 62 Nannolampas, 63 Pisolampas, 64 Tropholampus, 65 Oligopygus, 66 Haimea, 67 Togocyamus, 68 Clypeaster, 69 Laganum, 70 Galeropygus, 71 Hyboclypus ; TREE Kier = [&R] (71,(70,((3,(2,(1,(5,(4,(6,7)))))),((8,(18,((19,20),(38,(39,(42,(37,(40,(41,35))))))))),(((9,(12,10)),(13,(((32,(26,29)),(34,(28,33))),((30,27),(31,25))))),((15,((14,16),((23,21),(22,24)))),(((49,50),11),((17,(44,(46,(47,(48,(43,45)))))),((((((52,57),(53,55)),54),36),(60,(59,(56,(58,51))))),(((61,63),(62,64)),((65,66),(67,(68,69))))))))))))); TREE Best_Tree = [&R] (71,(70,(1,(8,((((13,39),(20,19)),(14,(18,(15,17)))),(2,((3,5),(4,((7,6),((9,16),(10,((24,(23,(21,22))),(11,((51,(58,(37,(26,(40,(42,(36,(35,41)))))))),((57,((52,(60,54)),(46,((44,(12,38)),(31,(34,((28,33),(29,(32,(30,(27,25))))))))))),((50,((49,48),(47,(43,45)))),(55,(53,(56,(59,(((61,63),(62,64)),((65,66),(67,(68,69)))))))))))))))))))))))); TREE Through_Prian = [&R] (71,(70,(1,(8,((((13,39),19),(14,(18,(15,17)))),(2,((3,5),(4,((7,6),((9,16),(10,((24,(23,(21,22))),(11,((51,(58,(37,(26,(40,(42,(36,(35,41)))))))),((57,((52,(60,54)),(46,((44,(12,38)),(31,(34,((28,33),(29,(32,(30,(27,25))))))))))),((50,((49,48),(47,43))),(55,(53,(56,(59,(63,((65,66),(67,(68,69)))))))))))))))))))))))); TREE Thru_Cretaceous = [&R] (71,(70,(1,(8,(((13,39),(14,(15,17))),(2,((3,5),(4,((7,6),((9,16),(10,((24,(23,(21,22))),(11,(42,((60,(46,((44,(12,38)),(31,(34,((28,33),(29,(32,(30,(27,25)))))))))),(50,49)))))))))))))))); TREE Thru_Cenomanian = [&R] (71,(70,(1,(8,(((13,39),(14,(15,17))),(2,((3,5),(4,((7,6),((9,16),((24,(23,(21,22))),(11,(42,((46,((44,38),31)),50)))))))))))))); TREE Thru_Barremian = [&R] (71,(70,(1,(8,((13,(14,(15,17))),(2,((3,5),(4,(6,9))))))))); TREE Thru_Tithonian = [&R] (71,(70,(1,(8,(13,((3,5),(4,6))))))); TREE Thru_Caledonian = [&R] (71,(70,(1,(8,((3,5),4))))); TREE * UNTITLED = [&R] (1,(8,((((13,39),(20,19)),(14,(18,(15,17)))),(2,((3,5),(4,((7,6),((9,16),(10,((24,(23,(21,22))),(11,((51,(58,(37,(26,(40,(42,(36,(41,35)))))))),((57,((52,(60,54)),(46,((44,(12,38)),(31,(34,((28,33),(29,(32,(30,(27,25))))))))))),((50,((49,48),(47,(43,45)))),(55,(53,(56,(59,(((61,63),(62,64)),((65,66),(67,(68,69)))))))))))))))))))))); 
+ENDBLOCK;
